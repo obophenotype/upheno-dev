@@ -1,0 +1,14 @@
+pattern_name: xrefToSubClass
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml
+description: "Pattern to translate a table of entities with their cross-references to subclass-of axioms."
+
+classes:
+  xref: owl:Thing
+
+vars:
+  xref: "'xref'"
+
+subClassOf:
+  text: "%s"
+  vars:
+    - xref
