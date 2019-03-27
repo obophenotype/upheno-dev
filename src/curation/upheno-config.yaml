@@ -1,0 +1,193 @@
+id: upheno
+title: "Unified Phenotype Ontology"
+github_org: obophenotype
+repo: upheno
+report_fail_on: none
+use_dosdps: TRUE
+dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
+robot_opts: -vv
+robot_java_args: -Xmx8G
+timeout_external_processes: 60m
+working_directory: /ws/upheno-dev/src
+overwrite_matches: True
+overwrite_ontologies: False
+clean: False
+namespaces: 
+  - http://purl.obolibrary.org/obo/UPHENO_
+legal_fillers:
+  - http://purl.obolibrary.org/obo/GO_
+  - http://purl.obolibrary.org/obo/UBERON_
+  - http://purl.obolibrary.org/obo/NBO_
+  - http://purl.obolibrary.org/obo/PR_
+  - http://purl.obolibrary.org/obo/CHEBI_
+  - http://purl.obolibrary.org/obo/PATO_
+instantiate_superclasses_pattern_vars:
+  - anatomical_entity
+  - biological_process
+sources:
+  - id: nbo
+    mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
+  - id: pr
+    mirror_from: https://raw.githubusercontent.com/matentzn/large-ontology-dependencies/master/pr.owl.gz
+  - id: go
+    mirror_from: http://purl.obolibrary.org/obo/go/go-base.owl
+  - id: uberon 
+    mirror_from: http://purl.obolibrary.org/obo/uberon/uberon-base.owl
+  - id: ro
+    mirror_from: http://purl.obolibrary.org/obo/ro.owl
+  - id: chebi
+    mirror_from: http://purl.obolibrary.org/obo/chebi.owl
+  - id: hsapdv
+    mirror_from: http://purl.obolibrary.org/obo/hsapdv.owl
+  - id: pato
+    mirror_from: http://purl.obolibrary.org/obo/pato.owl
+  - id: cl
+    mirror_from: http://purl.obolibrary.org/obo/cl.owl
+  - id: mpath
+    mirror_from: http://purl.obolibrary.org/obo/mpath.owl
+  - id: iao
+    mirror_from: http://purl.obolibrary.org/obo/iao.owl
+  - id: bspo
+    mirror_from: http://purl.obolibrary.org/obo/bspo.owl
+  - id: hsapdv
+    mirror_from: http://purl.obolibrary.org/obo/hsapdv.owl
+  - id: wbls
+    mirror_from: http://purl.obolibrary.org/obo/wbls.owl
+  - id: wbbt
+    mirror_from: http://purl.obolibrary.org/obo/wbbt.owl
+  - id: plana
+    mirror_from: http://purl.obolibrary.org/obo/plana.owl
+  - id: bfo
+    mirror_from: http://purl.obolibrary.org/obo/bfo.owl
+  - id: zfa
+    mirror_from: http://purl.obolibrary.org/obo/zfa.owl
+  - id: ncit
+    mirror_from: http://purl.obolibrary.org/obo/ncit.owl
+  - id: xao
+    mirror_from: http://purl.obolibrary.org/obo/xao.owl
+  - id: zfa-uberon
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
+  - id: xao-uberon
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
+  - id: wbbt-uberon
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
+  - id: plana-uberon
+    mirror_from: xref
+  - id: mp
+    mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    taxon_label: Mouse
+    root: http://purl.obolibrary.org/obo/MP_0000001
+    dependencies:
+      - nbo
+      - pr
+      - chebi
+      - cl
+      - mpath
+  - id: hp
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    taxon_label: Human
+    root: http://purl.obolibrary.org/obo/HP_0000118
+    mirror_from: http://purl.obolibrary.org/obo/hp.owl
+    dependencies:
+      - nbo
+      - pr
+      - chebi
+      - hsapdv
+      - cl
+      - mpath
+  - id: wbphenotype
+    mirror_from: http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-base.owl
+    root: http://purl.obolibrary.org/obo/WBPhenotype_0000886
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_6239
+    taxon_label: C. elegans
+    dependencies:
+      - bfo
+      - wbbt
+      - wbls
+      - chebi
+      - cl
+      - wbbt-uberon
+  - id: xpo
+    mirror_from: http://purl.obolibrary.org/obo/xpo/xpo-base.owl
+    root: http://purl.obolibrary.org/obo/XPO_00000000
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_2052675
+    taxon_label: Xenopus
+    dependencies:
+      - chebi
+      - bfo
+      - xao
+      - xao-uberon
+  - id: planp
+    mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
+    root: http://purl.obolibrary.org/obo/PLANP_00000000
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_79327
+    taxon_label: Planaria
+    anatomy: plana
+    taxon: 
+    dependencies:
+      - plana
+      - plana-uberon
+      - ncit
+  - id: zp
+    mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
+    root: http://purl.obolibrary.org/obo/ZP_00000000
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_7955
+    taxon_label: Zebrafish
+    dependencies:
+      - zfa
+      - chebi
+      - bspo
+      - mpath
+      - bfo
+      - zfa-uberon
+common_dependencies:
+  - go
+  - uberon
+  - pato
+  - ro
+  - iao
+species_modules:
+  - mp
+  - hp
+  - wbphenotype
+  - xpo
+  - planp
+  - zp
+upheno_combinations:
+  - id: mp-hp
+    species_modules:
+    - mp
+    - hp
+  - id: all
+    species_modules:
+    - mp
+    - hp
+    - wbphenotype
+    - xpo
+    - planp
+    - zp
+pattern_repos:
+  - obophenotype/upheno/contents/src/patterns/dosdp-dev
+  - obophenotype/upheno/contents/src/patterns/dosdp-patterns
+release_artefacts: 
+  - base
+  - simple-non-classified
+  - full
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: nbo
+    - id: pr
+    - id: go
+    - id: uberon 
+    - id: ro
+    - id: chebi
+    - id: hsapdv
+    - id: pato
+    - id: cl
+    - id: mpath

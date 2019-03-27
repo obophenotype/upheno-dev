@@ -14,3 +14,5 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/patterns 
 
 .DS_Store
+.idea
+dosdp-tools.log
