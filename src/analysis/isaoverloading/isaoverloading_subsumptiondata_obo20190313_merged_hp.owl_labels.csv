@@ -1,0 +1,591 @@
+sub_label,sub_bearer_label,sub_classification,super_label,super_bearer_label,super_classification
+'Abnormality of fundus pigmentation','pigmentation',Occurent,'Abnormal fundus morphology','ocular fundus',Continuant
+'Multicentric femoral head ossification','ossification center',Continuant,'Abnormal ossification involving the femoral head and neck','ossification',Occurent
+'Choroid plexus cyst','cyst',Other,'Abnormality of the choroid plexus','choroid plexus',Continuant
+'Arthritis','arthritis',Other,'Abnormal joint morphology','skeletal joint',Continuant
+'Hyperxanthinemia','xanthine metabolic process',Occurent,'Increased purine level','purines',Continuant
+'Increased urinary cortisol level','LIPID MAPS',Continuant,'Abnormality of urine hormone level','hormone',Other
+'Carpal bone malsegmentation','segmentation',Occurent,'Abnormality of the carpal bones','carpal bone',Continuant
+'Hyperornithinemia','Reaxys',Continuant,'Abnormal circulating ornithine concentration','ornithine metabolic process',Occurent
+'Basal ganglia cysts','basal ganglion',Continuant,'Intracranial cystic lesion','cyst',Other
+'Peripheral hypermyelination','myelin',Continuant,'Abnormal peripheral myelination','myelination in peripheral nervous system',Occurent
+'Renal steatosis','steatosis',Other,'Abnormal renal morphology','kidney',Continuant
+'Malabsorption','intestinal absorption',Occurent,'Abnormal intestine morphology','intestine',Continuant
+'Absence of bactericidal oxidative respiratory burst in phagocytes','respiratory burst after phagocytosis',Occurent,'Abnormality of phagocytes','phagocyte (sensu Vertebrata)',Continuant
+'Immunodeficiency','immune response',Occurent,'Abnormality of immune system physiology','immune system',Continuant
+'Patchy sclerosis of the middle phalanx of the 3rd finger','sclerosis',Other,'Abnormality of the middle phalanx of the 3rd finger','middle phalanx of manual digit 3',Continuant
+'Inflammation of the large intestine','inflammatory response',Occurent,'Abnormal large intestine morphology','large intestine',Continuant
+'Fundus hemorrhage','hemorrhage and non-specified extravasation',Other,'Abnormal fundus morphology','ocular fundus',Continuant
+'Hyposerinemia','Reaxys',Continuant,'Abnormal circulating serine concentration','L-serine metabolic process',Occurent
+'Retinal telangiectasia','telangiectasia',Other,'Abnormality of the retinal vasculature','vasculature of retina',Continuant
+'Hyperinsulinemia','insulin',Continuant,'Abnormal glucose homeostasis','glucose homeostasis',Occurent
+'Pancreatic lymphangiectasis','lymphangiectasis',Other,'Lymphangiectasis','lymphatic vessel',Continuant
+'Melena','blood',Continuant,'Gastrointestinal hemorrhage','hemorrhage and non-specified extravasation',Other
+'Multicentric ossification of proximal femoral epiphyses','ossification center',Continuant,'Abnormal ossification involving the femoral head and neck','ossification',Occurent
+'Vitreous hemorrhage','hemorrhage and non-specified extravasation',Other,'Abnormal vitreous humor morphology','vitreous humor',Continuant
+'Abnormal pelvis bone ossification','ossification',Occurent,'Abnormality of pelvic girdle bone morphology','pelvic girdle bone/zone',Continuant
+'Peptic ulcer','ulcer',Other,'Functional abnormality of the gastrointestinal tract','alimentary part of gastrointestinal system',Continuant
+'Gastrointestinal inflammation','inflammatory response',Occurent,'Functional abnormality of the gastrointestinal tract','alimentary part of gastrointestinal system',Continuant
+'Hyporeflexia of lower limbs','pelvic complex',Continuant,'Hyporeflexia','reflex',Occurent
+'Retinal vascular proliferation','cell population proliferation',Occurent,'Abnormality of the retinal vasculature','vasculature of retina',Continuant
+'Hypertryptophanemia','tryptophan',Continuant,'Abnormal circulating tryptophan concentration','tryptophan metabolic process',Occurent
+'Hypotryptophanemia','tryptophan',Continuant,'Abnormal circulating tryptophan concentration','tryptophan metabolic process',Occurent
+'Hypoleucinemia','LIPID MAPS',Continuant,'Abnormal circulating leucine concentration','leucine metabolic process',Occurent
+'Small bowel diverticula','diverticulum',Other,'Abnormality of the small intestine','small intestine',Continuant
+'Cortical sclerosis','sclerosis',Other,'Abnormal cortical bone morphology','compact bone tissue',Continuant
+'Autoimmunity','autoimmune mediated disease',Other,'Abnormality of immune system physiology','immune system',Continuant
+'Inflammatory abnormality of the skin','inflammatory response',Occurent,'Abnormality of skin physiology','skin of body',Continuant
+'Patchy sclerosis of the distal phalanx of the 4th finger','sclerosis',Other,'Abnormality of the distal phalanx of the 4th finger','distal phalanx of manual digit 4',Continuant
+'Patchy sclerosis of the middle phalanx of the 4th finger','sclerosis',Other,'Abnormality of the middle phalanx of the 4th finger','middle phalanx of manual digit 4',Continuant
+'Patchy sclerosis of the proximal phalanx of the 4th finger','sclerosis',Other,'Abnormality of the proximal phalanx of the 4th finger','proximal phalanx of manual digit 4',Continuant
+'Abnormal ossification of the trapezium','ossification',Occurent,'Abnormality of the trapezium','distal carpal bone 1',Continuant
+'Thyroid lymphangiectasia','lymphangiectasis',Other,'Lymphangiectasis','lymphatic vessel',Continuant
+'Anal fistula','fistula',Other,'Abnormality of the anus','anus',Continuant
+'Elevated placental alkaline phosphatase',"'alkaline phosphatase, placental type'",Continuant,'Elevated alkaline phosphatase','alkaline phosphatase activity',Occurent
+'Elevated intestinal alkaline phosphatase','intestinal alkaline phosphatase',Continuant,'Elevated alkaline phosphatase','alkaline phosphatase activity',Occurent
+'Abnormal ossification of the scaphoid','ossification',Occurent,'Abnormality of the scaphoid','radiale',Continuant
+'Elevated tissue non-specific alkaline phosphatase',"'alkaline phosphatase, tissue-nonspecific isozyme'",Continuant,'Elevated alkaline phosphatase','alkaline phosphatase activity',Occurent
+'Abnormal mitochondria in muscle tissue','mitochondrion',Continuant,'Abnormality of mitochondrial metabolism','metabolic process',Occurent
+'Myocarditis','inflammatory response',Occurent,'Abnormal myocardium morphology','myocardium',Continuant
+'Abnormal iron deposition in mitochondria','Reaxys',Continuant,'Abnormality of mitochondrial metabolism','metabolic process',Occurent
+'Abnormal activity of mitochondrial respiratory chain','mitochondrial respirasome',Continuant,'Abnormality of mitochondrial metabolism','metabolic process',Occurent
+'Delayed proximal femoral epiphyseal ossification','ossification',Occurent,'Abnormality of the epiphysis of the femoral head','epiphysis',Continuant
+'Multiple epiphyseal dysplasia','Epiphyseal dysplasia',Other,'Skeletal dysplasia','skeleton',Continuant
+'Nail bed telangiectasia','telangiectasia',Other,'Abnormality of the nail','nail',Continuant
+'Abnormal ossification of the trapezoid bone','ossification',Occurent,'Abnormality of the trapezoid bone','distal carpal bone 2',Continuant
+'Abnormality of chromosome segregation','chromosome segregation',Occurent,'Abnormal cellular physiology','cell',Continuant
+'Sinusitis','inflammatory response',Occurent,'Abnormality of the paranasal sinuses','paranasal sinus',Continuant
+'Multicentric ossification of proximal humeral epiphyses','ossification center',Continuant,'Irregular ossification of the humeral epiphyses','ossification',Occurent
+'Retinal hemorrhage','hemorrhage and non-specified extravasation',Other,'Abnormal retinal morphology','retina',Continuant
+'Diaphragmatic paralysis','diaphragm',Continuant,'Paralysis','paralysis',Other
+'Blepharitis','inflammatory response',Occurent,'Abnormal eyelid morphology','eyelid',Continuant
+'Gliosis','cell growth',Occurent,'Abnormality of the glial cells','glial cell',Continuant
+'Patchy sclerosis of the 1st metatarsal','sclerosis',Other,'Abnormality of the first metatarsal bone','metatarsal bone of digit 1',Continuant
+'Patchy sclerosis of the proximal phalanx of the hallux','sclerosis',Other,'Abnormality of the proximal phalanx of the hallux','proximal phalanx of pedal digit 1',Continuant
+'Spinal dysraphism','arch of centrum of vertebra',Continuant,'Neural tube defect','neural tube closure',Occurent
+'Patchy sclerosis of hallux phalanx','sclerosis',Other,'Abnormality of the phalanges of the hallux','pedal digit 1 phalanx',Continuant
+'Sclerotic forearm bones','sclerosis',Other,'Abnormality of forearm bone','forelimb zeugopod bone',Continuant
+'Abnormality of the menstrual cycle','menstruation',Occurent,'Abnormality of female internal genitalia','internal female genitalia',Continuant
+'Prostatitis','inflammatory response',Occurent,'Abnormality of the prostate','prostate gland',Continuant
+'Hypothalamic hamartoma','hamartoma',Other,'Abnormal hypothalamus morphology','hypothalamus',Continuant
+'Epididymitis','inflammatory response',Occurent,'Abnormality of the epididymis','epididymis',Continuant
+'Hyperleucinemia','LIPID MAPS',Continuant,'Abnormal circulating leucine concentration','leucine metabolic process',Occurent
+'Mastoiditis','inflammatory response',Occurent,'Abnormality of the mastoid','mastoid process of temporal bone',Continuant
+'Abnormal cortical gyration','gyrus',Continuant,'Abnormality of neuronal migration','neuron migration',Occurent
+'Hypoglycemic seizures','hypoglycemia induced seizure',Other,'Hypoglycemia','blood',Continuant
+'Abnormal vitamin B12 level','cobalamin',Continuant,'Abnormality of vitamin B12 metabolism','cobalamin metabolic process',Occurent
+'Hypervalinemia','Reaxys',Continuant,'Abnormal circulating valine cocentration','valine metabolic process',Occurent
+'Hyperisoleucinemia','Reaxys',Continuant,'Abnormal circulating isoleucine concentration','isoleucine metabolic process',Occurent
+'Increased serum lactate','lactate',Continuant,'Acidosis','acid',Other
+'Hypocystinemia','Reaxys',Continuant,'Abnormal circulating cysteine concentration','cysteine metabolic process',Occurent
+'Hypercystinemia','Reaxys',Continuant,'Abnormal circulating cysteine concentration','cysteine metabolic process',Occurent
+'Hypoalaninemia','Reaxys',Continuant,'Abnormal circulating alanine concentration','alanine metabolic process',Occurent
+'Hypotyrosinemia','Reaxys',Continuant,'Abnormal circulating tyrosine concentration','tyrosine metabolic process',Occurent
+'Hypovalinemia','Reaxys',Continuant,'Abnormal circulating valine cocentration','valine metabolic process',Occurent
+'Hypoisoleucinemia','Reaxys',Continuant,'Abnormal circulating isoleucine concentration','isoleucine metabolic process',Occurent
+'Gastrointestinal hemorrhage','hemorrhage and non-specified extravasation',Other,'Functional abnormality of the gastrointestinal tract','alimentary part of gastrointestinal system',Continuant
+'Cystathioninemia','Reaxys',Continuant,'Abnormal circulating sulfur amino acid concentration','sulfur amino acid metabolic process',Occurent
+'Hyperactivity','hyperactivity',Other,'Abnormality of movement','voluntary movement behavior',Occurent
+'Hemorrhage of the eye','hemorrhage and non-specified extravasation',Other,'Abnormal eye physiology','camera-type eye',Continuant
+'Hyperhistidinemia','Reaxys',Continuant,'Abnormal circulating histidine concentration','histidine metabolic process',Occurent
+'Elevated urine pyrophosphate','diphosphate(4-)',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Hypochloremia','Beilstein',Continuant,'Abnormal blood chloride concentration','chloride ion homeostasis',Occurent
+'Vasculitis','vasculitis',Other,'Abnormal vascular morphology','vascular system',Continuant
+'Decreased number of peripheral myelinated nerve fibers','myelinated nerve fiber',Continuant,'Abnormal peripheral myelination','myelination in peripheral nervous system',Occurent
+'Abnormality of serum amino acid level','amino acid',Continuant,'Abnormal circulating carboxylic acid concentration','carboxylic acid metabolic process',Occurent
+'Urinary glycosaminoglycan excretion','glycosaminoglycan',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormality of macular pigmentation','pigmentation',Occurent,'Abnormal macular morphology','macula lutea',Continuant
+'Hyperprostaglandinuria','LIPID MAPS',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Sclerosis of 3rd finger phalanx','sclerosis',Other,'Abnormal 3rd finger phalanx morphology','manual digit 3 phalanx',Continuant
+'Hyperpigmentation of eyelids','pigmentation',Occurent,'Abnormal eyelid morphology','eyelid',Continuant
+'Cerebellar cyst','cerebellum',Continuant,'Intracranial cystic lesion','cyst',Other
+'Decreased level of D-mannose in urine','D-mannose',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'CNS hypomyelination','myelin',Continuant,'Abnormal CNS myelination','central nervous system myelination',Occurent
+'Decreased level of erythritol in urine','erythritol',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormal blood sodium concentration','ChemIDplus',Continuant,'Abnormal blood monovalent inorganic cation concentration','monovalent inorganic cation homeostasis',Occurent
+'Hypothalamic gliosis','hypothalamus',Continuant,'Gliosis','cell growth',Occurent
+'Hemoglobinuria','hemoglobin',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Periorbital hyperpigmentation','pigmentation',Occurent,'Abnormality of the periorbital region','periorbital region',Continuant
+'Dilatation of the sinus of Valsalva','sinus of Valsalva',Continuant,'Ascending tubular aorta aneurysm','aneurysm',Other
+'Trimethylaminuria','Reaxys',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Osteosclerosis of the radius','sclerosis',Other,'Abnormality of the radius','radius bone',Continuant
+'Abnormality of retinal pigmentation','pigmentation',Occurent,'Abnormal retinal morphology','retina',Continuant
+'Cholangitis','inflammatory response',Occurent,'Abnormal biliary tract morphology','biliary tree',Continuant
+'Elevated levels of phytanic acid','LIPID MAPS',Continuant,'Abnormal circulating phytanic acid level','metabolic process',Occurent
+'Irregular ossification of the radial metaphysis','ossification',Occurent,'Abnormality of radial metaphyses','metaphysis of radius',Continuant
+'Hypocalcemic seizures','hypocalcemia induced seizure',Other,'Hypocalcemia','ChemIDplus',Continuant
+'Portal fibrosis','fibrosis',Other,'Abnormality of the biliary system','biliary system',Continuant
+'Absent ossification of capital femoral epiphysis','ossification',Occurent,'Aplasia/Hypoplasia of the capital femoral epiphysis','proximal epiphysis of femur',Continuant
+'Hyperargininemia','Reaxys',Continuant,'Abnormal circulating arginine concentration','arginine metabolic process',Occurent
+'Hypolysinemia','Reaxys',Continuant,'Abnormal circulating lysine concentration','lysine metabolic process',Occurent
+'Decreased circulating hydroxyproline concentration','Reaxys',Continuant,'Abnormal circulating proline concentration','proline metabolic process',Occurent
+'Hypoprolinemia','Reaxys',Continuant,'Abnormal circulating proline concentration','proline metabolic process',Occurent
+'Hypohistidinemia','Reaxys',Continuant,'Abnormal circulating histidine concentration','histidine metabolic process',Occurent
+'Hypoglutaminemia','Reaxys',Continuant,'Abnormal circulating glutamine concentration','glutamine metabolic process',Occurent
+'Premature birth','parturition',Occurent,'Abnormality of prenatal development or birth','late embryo',Continuant
+'Liver abscess','abscess',Other,'Abnormal liver morphology','liver',Continuant
+'Astrocytosis','cell growth',Occurent,'Abnormality of the glial cells','glial cell',Continuant
+'Hypothreoninemia','Beilstein',Continuant,'Abnormal circulating threonine concentration','threonine metabolic process',Occurent
+'Costal cartilage calcification','costal cartilage',Continuant,'Abnormal rib ossification','ossification',Occurent
+'Patchy sclerosis of radial diaphysis','sclerosis',Other,'Abnormality of radial diaphysis','diaphysis of radius',Continuant
+'Emphysema','emphysema',Other,'Abnormal lung morphology','lung',Continuant
+'Methylmalonic acidemia','LIPID MAPS',Continuant,'Abnormal circulating dicarboxylic acid concentration','dicarboxylic acid metabolic process',Occurent
+'Colonic diverticula','diverticulum',Other,'Abnormal large intestine morphology','large intestine',Continuant
+'Bruxism','bruxism',Other,'Sleep disturbance','sleep',Occurent
+'Hyperlipidemia','lipid',Continuant,'Abnormal circulating lipid concentration','lipid metabolic process',Occurent
+'Abnormally ossified vertebrae','ossification',Occurent,'Abnormal vertebral morphology','vertebra',Continuant
+'Hypocholesterolemia','LIPID MAPS',Continuant,'Abnormal circulating cholesterol concentration','cholesterol metabolic process',Occurent
+'Hypercholesterolemia','LIPID MAPS',Continuant,'Abnormal circulating cholesterol concentration','cholesterol metabolic process',Occurent
+'Myocardial calcification','calcium deposition',Other,'Abnormal cardiac ventricle morphology','cardiac ventricle',Continuant
+'Myocardial steatosis','steatosis',Other,'Abnormal cardiac ventricle morphology','cardiac ventricle',Continuant
+'Edema','multicellular organism',Continuant,'Abnormality of fluid regulation','regulation of body fluid levels',Occurent
+'Heterotopia','neural cell',Continuant,'Abnormality of neuronal migration','neuron migration',Occurent
+'Fasciitis','inflammatory response',Occurent,'Abnormality of the fascia','fascia',Continuant
+'Intestinal fistula','fistula',Other,'Abnormal intestine morphology','intestine',Continuant
+'Delayed patellar ossification','ossification',Occurent,'Abnormality of the patella','patella',Continuant
+'Hyperuricosuria','uric acid',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Elevated urinary delta-aminolevulinic acid','Reaxys',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Intestinal bleeding','hemorrhage and non-specified extravasation',Other,'Abnormal intestine morphology','intestine',Continuant
+'Hepatitis','inflammatory response',Occurent,'Abnormal liver morphology','liver',Continuant
+'Glomerulonephritis','glomerulonephritis',Other,'Abnormality of renal glomerulus morphology','renal glomerulus',Continuant
+'Glomerulosclerosis','sclerosis',Other,'Abnormality of renal glomerulus morphology','renal glomerulus',Continuant
+'Gout','inflammatory response',Occurent,'Arthritis','arthritis',Other
+'Abnormality of skull ossification','ossification',Occurent,'Abnormality of the skull','skull',Continuant
+'Hypoplastic left heart','anatomical entity',Other,'Hypoplastic heart','heart',Continuant
+'Abnormal T cell activation','T cell activation',Occurent,'Abnormality of T cell physiology','T cell',Continuant
+'Thyroiditis','inflammatory response',Occurent,'Abnormality of thyroid morphology','thyroid gland',Continuant
+'Ivory epiphyses of the distal phalanges of the hand','epiphysis of phalanx of manus',Continuant,'Sclerosis of distal finger phalanx','sclerosis',Other
+'Hypophosphatemia','phosphate',Continuant,'Abnormal blood phosphate concentration','phosphate ion homeostasis',Occurent
+'Sclerosis of 2nd finger phalanx','sclerosis',Other,'Abnormality of the phalanges of the 2nd finger','manual digit 2 phalanx',Continuant
+'Abnormal circulating phospholipid concentration','phospholipid',Continuant,'Abnormal circulating lipid concentration','lipid metabolic process',Occurent
+'Pancreatic islet cell adenoma','islet cell adenoma',Other,'Abnormality of the pancreatic islet cells','cell',Continuant
+'Sleep disturbance','sleep',Occurent,'Behavioral abnormality','behavior process',Other
+'Duodenal ulcer','ulcer',Other,'Abnormality of the duodenum','duodenum',Continuant
+'Ivory epiphyses of the middle phalanges of the hand','epiphysis of phalanx of manus',Continuant,'Sclerosis of middle finger phalanx','sclerosis',Other
+'Vitamin C deficiency','vitamin C',Other,'Abnormality of vitamin C metabolism','L-ascorbic acid metabolic process',Occurent
+'Ivory epiphyses of the proximal phalanges of the hand','epiphysis of phalanx of manus',Continuant,'Sclerosis of proximal finger phalanx','sclerosis',Other
+'Abnormal inflammatory response','inflammatory response',Occurent,'Abnormality of immune system physiology','immune system',Continuant
+'Abnormality of neuronal migration','neuron migration',Occurent,'Morphological abnormality of the central nervous system','central nervous system',Continuant
+'Hyporeflexia of upper limbs','pectoral complex',Continuant,'Hyporeflexia','reflex',Occurent
+'Jaw hyporeflexia','jaw muscle',Continuant,'Hyporeflexia','reflex',Occurent
+'Esophageal ulceration','ulcer',Other,'Abnormal esophagus morphology','esophagus',Continuant
+'Rectal fistula','fistula',Other,'Abnormality of the rectum','rectum',Continuant
+'Vitamin D deficiency','vitamin D',Continuant,'Abnormality of vitamin D metabolism','vitamin D metabolic process',Occurent
+'Sclerotic vertebral body','sclerosis',Other,'Abnormal vertebral morphology','vertebra',Continuant
+'Nephrosclerosis','sclerosis',Other,'Abnormal renal morphology','kidney',Continuant
+'Vitamin A deficiency','vitamin A',Continuant,'Abnormality of vitamin A metabolism','vitamin A metabolic process',Occurent
+'Cartilaginous ossification of nose','ossification',Occurent,'Abnormality of the nasal alae','ala of nose',Continuant
+'Vitamin E deficiency','vitamin E',Continuant,'Abnormality of vitamin E metabolism','vitamin E metabolic process',Occurent
+'Histiocytoid cardiomyopathy','oncocyte',Continuant,'Cardiomyopathy','cardiomyopathy',Other
+'Elevated plasma citrulline','Reaxys',Continuant,'Abnormal circulating citrulline concentration','citrulline metabolic process',Occurent
+'Increased skull ossification','ossification',Occurent,'Increased bone mineral density','bone element',Continuant
+'Skeletal muscle steatosis','steatosis',Other,'Abnormality of skeletal muscles','skeletal musculature',Continuant
+'Epidermal thickening','keratinization',Occurent,'Skin thickening','skin of body',Continuant
+'Ivory epiphyses of the 4th finger','epiphysis of phalanx of manus',Continuant,'Sclerosis of 4th finger phalanx','sclerosis',Other
+'Ivory epiphyses of the 5th finger','epiphysis of phalanx of manus',Continuant,'Sclerosis of 5th finger phalanx','sclerosis',Other
+'Ivory epiphyses of the 3rd finger','epiphysis of phalanx of manus',Continuant,'Sclerosis of 3rd finger phalanx','sclerosis',Other
+'Metatarsal diaphyseal endosteal sclerosis','sclerosis',Other,'Abnormal diaphysis morphology','diaphysis',Continuant
+'Ivory epiphyses of the 2nd finger','epiphysis of phalanx of manus',Continuant,'Sclerosis of 2nd finger phalanx','sclerosis',Other
+'Dense calvaria','vault of skull',Continuant,'Increased skull ossification','ossification',Occurent
+'Abnormal hand bone ossification','ossification',Occurent,'Abnormality of the hand','manus',Continuant
+'Abnormal CNS myelination','central nervous system myelination',Occurent,'Morphological abnormality of the central nervous system','central nervous system',Continuant
+'Abnormal urine citrate concentration','Reaxys',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormal urine alpha-ketoglutarate concentration','Reaxys',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Epiphyseal stippling','epiphysis',Continuant,'Abnormal epiphyseal ossification','ossification',Occurent
+'Hypersarcosinuria','Reaxys',Continuant,'Abnormal circulating sarcosine concentration','sarcosine metabolic process',Occurent
+'Hypersarcosinemia','Reaxys',Continuant,'Abnormal circulating sarcosine concentration','sarcosine metabolic process',Occurent
+'Impaired antigen-specific response','adaptive immune response',Occurent,'Abnormality of immune system physiology','immune system',Continuant
+'Ivory epiphysis of the thumb','epiphysis of phalanx of manus',Continuant,'Sclerosis of thumb phalanx','sclerosis',Other
+'Areflexia of lower limbs','reflex',Occurent,'Abnormality of the lower limb','leg',Continuant
+'Abnormal urinary sulfate concentration','Reaxys',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormality of urinary uric acid concentration','uric acid',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Cerebellar gliosis','cerebellum',Continuant,'Gliosis','cell growth',Occurent
+'Low serum calcitriol','LIPID MAPS',Continuant,'Abnormality of vitamin D metabolism','vitamin D metabolic process',Occurent
+'Low serum calcifediol','LIPID MAPS',Continuant,'Abnormality of vitamin D metabolism','vitamin D metabolic process',Occurent
+'Methylmalonic acidemia','LIPID MAPS',Continuant,'Abnormality of vitamin B12 metabolism','cobalamin metabolic process',Occurent
+'Abnormality of glycosaminoglycan metabolism','glycosaminoglycan metabolic process',Occurent,'Abnormal cellular physiology','cell',Continuant
+'Tarsal stippling','tarsal bone',Continuant,'Abnormal tarsal ossification','ossification',Occurent
+'Areflexia of upper limbs','reflex',Occurent,'Abnormality of the upper limb','arm',Continuant
+'Parakeratosis','parakeratosis',Other,'Epidermal thickening','keratinization',Occurent
+'Stereotypy','stereotypic behavior',Other,'Involuntary movements','voluntary skeletal muscle contraction',Occurent
+'Xerostomia','mouth',Continuant,'Abnormality of salivation','saliva secretion',Occurent
+'Memory impairment','forgetfulness',Continuant,'Cognitive impairment','cognition',Occurent
+'Humeral sclerosis','sclerosis',Other,'Abnormality of the humerus','humerus',Continuant
+'Hemiatrophy','appendage girdle complex',Continuant,'Asymmetric growth','growth',Occurent
+'Lower limb asymmetry','leg',Continuant,'Asymmetric growth','growth',Occurent
+'Upper limb asymmetry','pectoral complex',Continuant,'Asymmetric growth','growth',Occurent
+'Abnormal circulating calcium concentration','ChemIDplus',Continuant,'Abnormal blood inorganic cation concentration','divalent inorganic cation homeostasis',Occurent
+'Delayed calcaneal ossification','ossification',Occurent,'Abnormality of the calcaneus','calcaneus',Continuant
+'Clavicular sclerosis','sclerosis',Other,'Abnormality of the clavicle','clavicle bone',Continuant
+'Jejunoileal ulceration','ulcer',Other,'Abnormal ileum morphology','ileum',Continuant
+'Cartilaginous ossification of larynx','ossification',Occurent,'Abnormal larynx morphology','larynx',Continuant
+'Vocal cord paralysis','laryngeal vocal fold',Continuant,'Paralysis','paralysis',Other
+'Abnormal urinary acylglycine profile','N-acylglycine',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Proteinuria','protein polypeptide chain',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Ovarian cyst','cyst',Other,'Abnormal ovarian morphology','ovary',Continuant
+'Glycopeptiduria','glycopeptide',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Hamartoma of the orbital region','hamartoma',Other,'Abnormality of the orbital region','orbital region',Continuant
+'Abnormal circulating ornithine concentration','ornithine metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Patchy sclerosis of the proximal phalanx of the thumb','sclerosis',Other,'Abnormality of the proximal phalanx of the thumb','manual digit 1 phalanx',Continuant
+'Patchy sclerosis of the distal phalanx of the thumb','sclerosis',Other,'Abnormality of the distal phalanx of the thumb','distal phalanx of manual digit 1',Continuant
+'Stomatitis','inflammatory response',Occurent,'Abnormal oral mucosa morphology','mouth mucosa',Continuant
+'Absent palatine bone ossification','ossification',Occurent,'Abnormality of the palatine bone','palatine bone',Continuant
+'Abnormal urinary color','urine',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Pituitary gland cyst','pituitary gland',Continuant,'Intracranial cystic lesion','cyst',Other
+'Lung abscess','abscess',Other,'Abnormal lung morphology','lung',Continuant
+'Myelitis','inflammatory response',Occurent,'Abnormality of the spinal cord','spinal cord',Continuant
+'Jejunoileal ulceration','ulcer',Other,'Abnormality of the jejunum','jejunum',Continuant
+'Epiphyseal stippling of the metacarpals','epiphysis of metacarpal bone',Continuant,'Abnormal hand bone ossification','ossification',Occurent
+'Uraciluria','Reaxys',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormal spermatogenesis','spermatogenesis',Occurent,'Functional abnormality of male internal genitalia','internal male genitalia',Continuant
+'Amyloidosis of peripheral nerves','amyloid deposition',Other,'Abnormality of peripheral nerves','nerve',Continuant
+'Abnormality of skeletal maturation','bone maturation',Occurent,'Abnormality of skeletal physiology','skeletal system',Continuant
+'Hyperketonemia','ketone',Continuant,'Ketosis','ketone body biosynthetic process',Occurent
+'Sclerosis of hand bone','sclerosis',Other,'Increased bone mineral density','bone element',Continuant
+'Hyperphosphatemia','phosphate',Continuant,'Abnormal blood phosphate concentration','phosphate ion homeostasis',Occurent
+'Vitamin K deficiency','vitamin K',Continuant,'Abnormality of vitamin K metabolism','vitamin K metabolic process',Occurent
+'Epiphyseal stippling of finger phalanges','epiphysis of phalanx of manus',Continuant,'Abnormal hand bone ossification','ossification',Occurent
+'Amyloidosis','amyloid deposition',Other,'Abnormality of metabolism/homeostasis','metabolic process',Occurent
+'Increased erythrocyte protoporphyrin concentration','protoporphyrins',Continuant,'Abnormal circulating porphyrin concentration','heme biosynthetic process',Occurent
+'Abnormal cellular physiology','cell',Continuant,'Abnormality of metabolism/homeostasis','metabolic process',Occurent
+'Rectovaginal fistula','rectum',Continuant,'Vaginal fistula','fistula',Other
+'Increased urinary porphobilinogen','porphobilinogen',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Iritis','inflammatory response',Occurent,'Abnormality iris morphology','iris',Continuant
+'Ketonuria','ketone',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Myoglobinuria','myoglobin',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Immunologic hypersensitivity','immune response',Occurent,'Abnormality of immune system physiology','immune system',Continuant
+'Laryngeal cyst','cyst',Other,'Abnormal larynx morphology','larynx',Continuant
+'Pancreatic lymphangiectasis','lymphangiectasis',Other,'Abnormal pancreas morphology','pancreas',Continuant
+'Precocious costochondral ossification','ossification',Occurent,'Abnormality of the costochondral junction','costochondral joint',Continuant
+'Nasal mucosa telangiectasia','telangiectasia',Other,'Abnormality of the nasal mucosa','nasal cavity mucosa',Continuant
+'Clavicular sclerosis','sclerosis',Other,'Increased bone mineral density','bone element',Continuant
+'Sclerosis of foot bone','sclerosis',Other,'Increased bone mineral density','bone element',Continuant
+'Patchy sclerosis of the 1st metacarpal','sclerosis',Other,'Abnormality of the 1st metacarpal','metacarpal bone of digit 1',Continuant
+'Arteriosclerosis','sclerosis',Other,'Abnormal systemic arterial morphology','systemic arterial system',Continuant
+'Craniofacial osteosclerosis','sclerosis',Other,'Abnormality of facial skeleton','facial skeleton',Continuant
+'Abnormal iris pigmentation','pigmentation',Occurent,'Abnormality iris morphology','iris',Continuant
+'Abnormal sternal ossification','ossification',Occurent,'Abnormality of the sternum','sternum',Continuant
+'Abnormal ossification of the pubic bone','ossification',Occurent,'Abnormality of the pubic bone','pubis',Continuant
+'Hypergalactosemia','ChemIDplus',Continuant,'Abnormal circulating carbohydrate concentration','carbohydrate metabolic process',Occurent
+'Abnormal circulating aspartate family amino acid concentration','aspartate family amino acid metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Abnormal circulating branched chain amino acid concentration','branched-chain amino acid metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Abnormal circulating serine family amino acid concentration','serine family amino acid metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Diaphyseal sclerosis of the upper limbs','sclerosis',Other,'Anomaly of the upper limb diaphyses','diaphysis',Continuant
+'Rectovaginal fistula','rectum',Continuant,'Rectal fistula','fistula',Other
+'Renal cyst','cyst',Other,'Abnormal renal morphology','kidney',Continuant
+'Nephritis','inflammatory response',Occurent,'Abnormal renal physiology','kidney',Continuant
+'Abnormality of lipoprotein cholesterol concentration','lipoprotein cholesterol',Continuant,'Abnormal circulating cholesterol concentration','cholesterol metabolic process',Occurent
+'Umbilical cord cyst','cyst',Other,'Abnormality of the umbilical cord','umbilical cord',Continuant
+'Peripheral hypomyelination','myelin',Continuant,'Abnormal peripheral myelination','myelination in peripheral nervous system',Occurent
+'Early ossification of capital femoral epiphyses','ossification',Occurent,'Abnormality of the epiphysis of the femoral head','epiphysis',Continuant
+'Abnormal blood cation concentration','cation homeostasis',Occurent,'Abnormal blood ion concentration','monoatomic ion',Continuant
+'Abnormal circulating pyruvate family amino acid concentration','pyruvate family amino acid metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Xanthinuria','xanthine',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormal circulating histidine concentration','histidine metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Abnormal circulating glutamine family amino acid concentration','glutamine family amino acid metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'CNS hypermyelination','myelin',Continuant,'Abnormal CNS myelination','central nervous system myelination',Occurent
+'Myocardial calcification','calcium deposition',Other,'Cardiovascular calcification','cardiovascular system',Continuant
+'Joint hemorrhage','hemorrhage and non-specified extravasation',Other,'Abnormal joint morphology','skeletal joint',Continuant
+'Irregular ossification of humeral metaphyses','ossification',Occurent,'Abnormality of the humeral metaphyses','metaphysis of humerus',Continuant
+'Delayed talus ossification','ossification',Occurent,'Abnormality of the talus','talus',Continuant
+'Abnormal synaptic transmission','neurotransmitter metabolic process',Occurent,'Abnormality of nervous system physiology','nervous system',Continuant
+'Hearing abnormality','sensory perception of sound',Occurent,'Abnormal ear physiology','ear',Continuant
+'Abnormality of skin pigmentation','pigmentation',Occurent,'Abnormality of skin morphology','skin of body',Continuant
+'Growth hormone deficiency','growth hormone secretion',Occurent,'Abnormal circulating hormone level','chemical entity',Continuant
+'Vaginitis','inflammatory response',Occurent,'Abnormal vagina morphology','vagina',Continuant
+'Aortic aneurysm','aneurysm',Other,'Abnormal aortic morphology','aorta',Continuant
+'Retroperitoneal fibrosis','fibrosis',Other,'Abnormality of the peritoneum','peritoneum',Continuant
+'Hyperlysinemia','Reaxys',Continuant,'Abnormal circulating lysine concentration','lysine metabolic process',Occurent
+'Abnormal myelination','myelination',Occurent,'Abnormality of nervous system morphology','nervous system',Continuant
+'Hypophenylalaninemia','Reaxys',Continuant,'Abnormal circulating phenylalanine concentration','L-phenylalanine metabolic process',Occurent
+'Thyroid lymphangiectasia','lymphangiectasis',Other,'Abnormality of thyroid morphology','thyroid gland',Continuant
+'Abnormal ejaculation','sperm ejaculation',Occurent,'Abnormal male reproductive system physiology','male reproductive system',Continuant
+'Psoriasiform dermatitis','psoriasiform dermatitis',Other,'Inflammatory abnormality of the skin','inflammatory response',Occurent
+'Sclerosis of the distal phalanx of the hallux','sclerosis',Other,'Abnormality of the distal phalanx of the hallux','distal phalanx of pedal digit 1',Continuant
+'Conductive hearing impairment','vibrational conductance of sound to the inner ear',Occurent,'Functional abnormality of the middle ear','middle ear',Continuant
+'Conjunctival telangiectasia','telangiectasia',Other,'Abnormal vasculature of the conjunctiva morphology','vasculature',Continuant
+'Hyperhomocystinemia','Reaxys',Continuant,'Abnormal circulating homocysteine concentration','homocysteine metabolic process',Occurent
+'Abnormality of mitochondrial metabolism','metabolic process',Occurent,'Abnormality of the mitochondrion','mitochondrion',Continuant
+'Podagra','pes',Continuant,'Gout','inflammatory response',Occurent
+'Elevated 7-dehydrocholesterol',"'cholesta-5,7-dien-3beta-ol'",Continuant,'Abnormal circulating cholesterol concentration','cholesterol metabolic process',Occurent
+'Porphyrinuria','porphyrins',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Behavioral abnormality','behavior process',Other,'Abnormality of nervous system physiology','nervous system',Continuant
+'Osteosclerosis of the ulna','sclerosis',Other,'Abnormality of the ulna','ulna',Continuant
+'Abnormal foot bone ossification','ossification',Occurent,'Abnormality of the foot','pes',Continuant
+'Hypopituitarism','secretion',Occurent,'Abnormality of the anterior pituitary','adenohypophysis',Continuant
+'Epiphyseal stippling of the humerus','epiphysis of humerus',Continuant,'Irregular ossification of the humeral epiphyses','ossification',Occurent
+'Recurrent otitis media','middle ear',Continuant,'Otitis media','inflammatory response',Occurent
+'Abnormal drinking behavior','drinking behavior',Occurent,'Abnormal consumption behavior','consumption behavior',Other
+'Abnormal pigmentation of the oral mucosa','pigmentation',Occurent,'Abnormal oral mucosa morphology','mouth mucosa',Continuant
+'Cerebral artery atherosclerosis','atherosclerosis',Other,'Abnormal cerebral artery morphology','cerebral artery',Continuant
+'Hyperglycinemia','Reaxys',Continuant,'Abnormal circulating glycine concentration','glycine metabolic process',Occurent
+'Endocardial fibrosis','fibrosis',Other,'Abnormal endocardium morphology','endocardium',Continuant
+'Otosclerosis','sclerosis',Other,'Abnormality of the stapes','stapes bone',Continuant
+'Osteosclerosis of the ulna','sclerosis',Other,'Increased density of long bones','long bone',Continuant
+'Hyperphenylalaninemia','Reaxys',Continuant,'Abnormal circulating phenylalanine concentration','L-phenylalanine metabolic process',Occurent
+'Skin rash','skin of body',Continuant,'Inflammatory abnormality of the skin','inflammatory response',Occurent
+'Eczema','skin of body',Continuant,'Inflammatory abnormality of the skin','inflammatory response',Occurent
+'Azoospermia','sperm',Continuant,'Abnormal spermatogenesis','spermatogenesis',Occurent
+'Abnormality of eye movement','eye movement',Other,'Abnormal eye physiology','camera-type eye',Continuant
+'Absent sternal ossification','ossification',Occurent,'Aplasia/Hypoplasia of the sternum','sternum',Continuant
+'Low plasma citrulline','Reaxys',Continuant,'Abnormal circulating citrulline concentration','citrulline metabolic process',Occurent
+'Lip telangiectasia','telangiectasia',Other,'Abnormal lip morphology','lip',Continuant
+'Peritonitis','inflammatory response',Occurent,'Abnormality of the peritoneum','peritoneum',Continuant
+'Gingival bleeding','hemorrhage and non-specified extravasation',Other,'Abnormality of the gingiva','gingiva',Continuant
+'Gingivitis','inflammatory response',Occurent,'Abnormality of the gingiva','gingiva',Continuant
+'Urethritis','inflammatory response',Occurent,'Abnormality of the urethra','urethra',Continuant
+'Decreased corneal reflex','reflex',Occurent,'Abnormal cornea morphology','cornea',Continuant
+'Palate telangiectasia','telangiectasia',Other,'Abnormal palate morphology','secondary palate',Continuant
+'Abnormality of vision','visual perception',Occurent,'Abnormal eye physiology','camera-type eye',Continuant
+'Increased level of myristic acid in serum','LIPID MAPS',Continuant,'Abnormal circulating monocarboxylic acid cocentration','monocarboxylic acid metabolic process',Occurent
+'Delayed epiphyseal ossification','ossification',Occurent,'Abnormality of epiphysis morphology','epiphysis',Continuant
+'Dystonia','dystonia',Other,'Abnormality of movement','voluntary movement behavior',Occurent
+'Sclerosis of proximal finger phalanx','sclerosis',Other,'Abnormal proximal phalanx morphology of the hand','proximal phalanx of manus',Continuant
+'Sclerosis of distal finger phalanx','sclerosis',Other,'Abnormal distal phalanx morphology of finger','distal phalanx of manus',Continuant
+'Sclerosis of middle finger phalanx','sclerosis',Other,'Abnormal middle phalanx morphology of the hand','middle phalanx of manus',Continuant
+'Elevated circulating ribitol concentration','Reaxys',Continuant,'Abnormal circulating carbohydrate concentration','carbohydrate metabolic process',Occurent
+'Abnormal serum bile acid concentration','bile acid',Continuant,'Abnormal circulating monocarboxylic acid cocentration','monocarboxylic acid metabolic process',Occurent
+'Abnormal migration of corneal endothelium','cell migration',Occurent,'Abnormal corneal endothelium morphology','corneal endothelium',Continuant
+'Patchy sclerosis of the proximal phalanx of the 5th finger','sclerosis',Other,'Abnormality of the proximal phalanx of the 5th finger','proximal phalanx of manual digit 5',Continuant
+'Large sternal ossification centers','ossification center',Continuant,'Abnormal sternal ossification','ossification',Occurent
+'Fused sternal ossification centers','sternum',Continuant,'Abnormal sternal ossification','ossification',Occurent
+'Glomerulonephritis','glomerulonephritis',Other,'Nephritis','inflammatory response',Occurent
+'Decreased number of sternal ossification centers','ossification center',Continuant,'Abnormal sternal ossification','ossification',Occurent
+'Low intestinal alkaline phosphatase','intestinal alkaline phosphatase',Continuant,'Low alkaline phosphatase','alkaline phosphatase activity',Occurent
+'Low placental alkaline phosphatase',"'alkaline phosphatase, placental type'",Continuant,'Low alkaline phosphatase','alkaline phosphatase activity',Occurent
+'Low tissue non-specific alkaline phosphatase',"'alkaline phosphatase, tissue-nonspecific isozyme'",Continuant,'Low alkaline phosphatase','alkaline phosphatase activity',Occurent
+'Delayed femoral head ossification','ossification',Occurent,'Abnormality of the femoral head','head of femur',Continuant
+'Abnormal tarsal ossification','ossification',Occurent,'Abnormality of the tarsal bones','tarsal bone',Continuant
+'Sclerosis of humeral diaphysis','humerus diaphysis',Continuant,'Diaphyseal sclerosis of the upper limbs','sclerosis',Other
+'Hypoplastic right heart','anatomical entity',Other,'Hypoplastic heart','heart',Continuant
+'Abnormality of the cell cycle','cell cycle',Occurent,'Abnormal cellular physiology','cell',Continuant
+'Abnormality of chromosome condensation','chromosome condensation',Occurent,'Abnormal cellular physiology','cell',Continuant
+'Abnormality of renal resorption','renal absorption',Occurent,'Abnormal renal physiology','kidney',Continuant
+'Abnormality of renal excretion','renal system process',Occurent,'Abnormal renal physiology','kidney',Continuant
+'Peritoneal abscess','abscess',Other,'Abnormality of the peritoneum','peritoneum',Continuant
+'Elevated cholesterol ester level','cholesteryl ester',Continuant,'Abnormal circulating cholesterol concentration','cholesterol metabolic process',Occurent
+'Abnormal blood glucose concentration','KEGG COMPOUND',Continuant,'Abnormal glucose homeostasis','glucose homeostasis',Occurent
+'Abnormality of bone mineral density','bone element',Continuant,'Abnormal bone ossification','ossification',Occurent
+'Lip hyperpigmentation','pigmentation',Occurent,'Abnormal lip morphology','lip',Continuant
+'Neural tube defect','neural tube closure',Occurent,'Abnormal neural tube morphology','neural tube',Continuant
+'Sensorineural hearing impairment','nerve',Continuant,'Hearing impairment','sensory perception of sound',Occurent
+'Epistaxis','hemorrhage and non-specified extravasation',Other,'Abnormality of the nose','nose',Continuant
+'Otitis media','inflammatory response',Occurent,'Abnormality of the middle ear','middle ear',Continuant
+'Abnormal blood transition element cation concentration','transition element cation',Continuant,'Abnormal blood cation concentration','cation homeostasis',Occurent
+'Internal hemorrhage','hemorrhage and non-specified extravasation',Other,'Abnormality of blood circulation','blood circulation',Occurent
+'Pericarditis','inflammatory response',Occurent,'Abnormal pericardium morphology','pericardium',Continuant
+'Abnormality of blood circulation','blood circulation',Occurent,'Abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'Congestive heart failure','heart contraction',Occurent,'Abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'Polycystic ovaries','ovary',Continuant,'Ovarian cyst','cyst',Other
+'Glutaric acidemia','LIPID MAPS',Continuant,'Abnormal circulating dicarboxylic acid concentration','dicarboxylic acid metabolic process',Occurent
+'Diaphyseal sclerosis','sclerosis',Other,'Abnormal diaphysis morphology','diaphysis',Continuant
+'Hypomagnesemia','ChemIDplus',Continuant,'Abnormal magnesium concentration','magnesium ion homeostasis',Occurent
+'Hypermagnesemia','ChemIDplus',Continuant,'Abnormal magnesium concentration','magnesium ion homeostasis',Occurent
+'Myositis','inflammatory response',Occurent,'Abnormal muscle morphology','muscle organ',Continuant
+'Delayed humeral epiphyseal ossification','ossification',Occurent,'Abnormality of the humeral epiphysis','epiphysis of humerus',Continuant
+'Irregular ossification of the humeral epiphyses','ossification',Occurent,'Abnormality of the humeral epiphysis','epiphysis of humerus',Continuant
+'Absent humeral epiphyseal ossification','ossification',Occurent,'Abnormality of the humeral epiphysis','epiphysis of humerus',Continuant
+'Advanced ossification of the humeral epiphysis','ossification',Occurent,'Abnormality of the humeral epiphysis','epiphysis of humerus',Continuant
+'Sclerosis of finger phalanx','sclerosis',Other,'Abnormal finger phalanx morphology','phalanx of manus',Continuant
+'Gastrointestinal infarctions','infarct',Other,'Functional abnormality of the gastrointestinal tract','alimentary part of gastrointestinal system',Continuant
+'Sclerosis of thumb phalanx','sclerosis',Other,'Abnormality of thumb phalanx','manual digit 1 phalanx',Continuant
+'White eyelashes','eyelash',Continuant,'Abnormality of hair pigmentation','pigmentation',Occurent
+'White eyebrow','eyebrow',Continuant,'Abnormality of hair pigmentation','pigmentation',Occurent
+'Abnormal blood potassium concentration','potassium(1+)',Continuant,'Abnormal blood monovalent inorganic cation concentration','monovalent inorganic cation homeostasis',Occurent
+'Hyperkeratosis','skin epidermis',Continuant,'Epidermal thickening','keratinization',Occurent
+'Red hair','strand of hair',Continuant,'Abnormality of hair pigmentation','pigmentation',Occurent
+'Rectal abscess','abscess',Other,'Abnormality of the rectum','rectum',Continuant
+'Humeral sclerosis','sclerosis',Other,'Increased density of long bones','long bone',Continuant
+'Increased purine level','purines',Continuant,'Abnormal circulating purine concentration','purine nucleobase metabolic process',Occurent
+'Decreased purine level','purines',Continuant,'Abnormal circulating purine concentration','purine nucleobase metabolic process',Occurent
+'Increased spinal bone density','vertebral column',Continuant,'Increased skull ossification','ossification',Occurent
+'Urachus fistula','fistula',Other,'Abnormality of the urachus','urachus',Continuant
+'Abnormal blood phosphate concentration','phosphate ion homeostasis',Occurent,'Abnormal blood ion concentration','monoatomic ion',Continuant
+'Depigmented fundus','pigmentation',Occurent,'Hypopigmentation of the fundus','ocular fundus',Continuant
+'Palate fistula','fistula',Other,'Abnormal palate morphology','secondary palate',Continuant
+'Abnormal genital pigmentation','pigmentation',Occurent,'Abnormal external genitalia','external genitalia',Continuant
+'Muscle haemorrhage','hemorrhage and non-specified extravasation',Other,'Abnormality of the musculature','musculature',Continuant
+'Glutaric acidemia','LIPID MAPS',Continuant,'Acidosis','acid',Other
+'Oral bleeding','hemorrhage and non-specified extravasation',Other,'Abnormal oral physiology','mouth',Continuant
+'Hypopigmentation of the fundus','ocular fundus',Continuant,'Abnormality of fundus pigmentation','pigmentation',Occurent
+'Abnormality of the sense of smell','sensory perception of smell',Occurent,'Abnormality of nervous system physiology','nervous system',Continuant
+'Basal ganglia necrosis','necrotic cell death',Occurent,'Abnormality of the basal ganglia','basal ganglion',Continuant
+'Osteolysis','bone resorption',Occurent,'Abnormal bone structure','bone element',Continuant
+'Decreased plasma carnitine','Reaxys',Continuant,'Abnormality of mitochondrial metabolism','metabolic process',Occurent
+'Ocular albinism','melanin metabolic process',Occurent,'Abnormal fundus morphology','ocular fundus',Continuant
+'Pigmentation of the sclera','pigmentation',Occurent,'Abnormal sclera morphology','sclera',Continuant
+'Gastritis','inflammatory response',Occurent,'Abnormality of the gastric mucosa','mucosa of stomach',Continuant
+'Cellular immunodeficiency','cell',Continuant,'Immunodeficiency','immune response',Occurent
+'Mandibular osteomyelitis','mandible',Continuant,'Osteomyelitis','inflammatory response',Occurent
+'Pancreatitis','inflammatory response',Occurent,'Abnormality of pancreas physiology','pancreas',Continuant
+'Pancreatic cysts','cyst',Other,'Abnormal pancreas morphology','pancreas',Continuant
+'Abnormality of hair pigmentation','pigmentation',Occurent,'Abnormality of the hair','strand of hair',Continuant
+'Osteolysis involving bones of the lower limbs','skeleton of pelvic complex',Continuant,'Osteolysis','bone resorption',Occurent
+'Hypomineralization of enamel','enamel mineralization',Occurent,'Abnormality of dental enamel','enamel',Continuant
+'Basal ganglia gliosis','basal ganglion',Continuant,'Gliosis','cell growth',Occurent
+'Partial agenesis of the corpus callosum','animal organ development',Occurent,'Agenesis of corpus callosum','corpus callosum',Continuant
+'Abnormal circulating sulfur amino acid concentration','sulfur amino acid metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Abnormal circulating aromatic amino acid concentration','aromatic amino acid family metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Precocious costochondral ossification','ossification',Occurent,'Abnormality of bone mineral density','bone element',Continuant
+'Lactic acidosis','LIPID MAPS',Continuant,'Acidosis','acid',Other
+'Hyperprolinemia','Reaxys',Continuant,'Abnormal circulating proline concentration','proline metabolic process',Occurent
+'Dicarboxylic acidemia','blood',Continuant,'Acidosis','acid',Other
+'Abnormality of movement','voluntary movement behavior',Occurent,'Abnormality of nervous system physiology','nervous system',Continuant
+'Abnormal peripheral myelination','myelination in peripheral nervous system',Occurent,'Abnormal peripheral nervous system morphology','peripheral nervous system',Continuant
+'Oroticaciduria','Reaxys',Continuant,'Acidosis','acid',Other
+'Periodontitis','inflammatory response',Occurent,'Abnormality of the dentition','dentition',Continuant
+'Intracranial hemorrhage','hemorrhage and non-specified extravasation',Other,'Abnormality of the cerebral vasculature','vasculature',Continuant
+'Telangiectasia of the ear','telangiectasia',Other,'Abnormality of the outer ear','external ear',Continuant
+'Hepatic fibrosis','fibrosis',Other,'Abnormal liver morphology','liver',Continuant
+'Periodontitis','inflammatory response',Occurent,'Abnormality of the gingiva','gingiva',Continuant
+'Endocarditis','inflammatory response',Occurent,'Abnormal endocardium morphology','endocardium',Continuant
+'Plantar telangiectasia','telangiectasia',Other,'Abnormality of the plantar skin of foot','plantar part of pes',Continuant
+'Osteomyelitis','inflammatory response',Occurent,'Abnormality of skeletal physiology','skeletal system',Continuant
+'Abnormal blood zinc concentration','zinc ion homeostasis',Occurent,'Abnormal blood transition element cation concentration','transition element cation',Continuant
+'Hypoglycinemia','Reaxys',Continuant,'Abnormal circulating glycine concentration','glycine metabolic process',Occurent
+'Abnormality of urine hormone level','hormone',Other,'Abnormality of the endocrine system','endocrine system',Continuant
+'Cortical sclerosis','sclerosis',Other,'Increased bone mineral density','bone element',Continuant
+'Delusions','delusion',Continuant,'Behavioral abnormality','behavior process',Other
+'Abnormality of urine glucose concentration','KEGG COMPOUND',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormality of foveal pigmentation','pigmentation',Occurent,'Abnormal foveal morphology','fovea centralis',Continuant
+'Failure to thrive','growth',Occurent,'Decreased body weight','multicellular organism',Continuant
+'Elevated plasma branched chain amino acids','branched-chain amino acid',Continuant,'Abnormal circulating branched chain amino acid concentration','branched-chain amino acid metabolic process',Occurent
+'Dilatation of the cerebral artery','aneurysm',Other,'Abnormal cerebral artery morphology','cerebral artery',Continuant
+'Congenital fibrosis of extraocular muscles','fibrosis',Other,'Abnormality of the extraocular muscles','extra-ocular muscle',Continuant
+'Periostitis','inflammatory response',Occurent,'Abnormal periosteum morphology','periosteum',Continuant
+'Hydroxyprolinuria','Reaxys',Continuant,'Abnormal circulating proline concentration','proline metabolic process',Occurent
+'Hyperglutaminemia','Reaxys',Continuant,'Abnormal circulating glutamine concentration','glutamine metabolic process',Occurent
+'Hypermethioninemia','Reaxys',Continuant,'Abnormal circulating methionine concentration','methionine metabolic process',Occurent
+'Patchy sclerosis of the proximal phalanx of the 2nd finger','sclerosis',Other,'Abnormality of the proximal phalanx of the 2nd finger','proximal phalanx of manual digit 2',Continuant
+'Abnormality of urine homeostasis','homeostatic process',Occurent,'Abnormality of the urinary system physiology','renal system',Continuant
+'Abnormality of urine catecholamine concentration','catecholamine',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Abnormality of urine bicarbonate concentration','hydrogencarbonate',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Hyperparathyroidism','hormone',Other,'Abnormality of the parathyroid physiology','parathyroid gland',Continuant
+'Optic neuritis','inflammatory response',Occurent,'Abnormality of the optic nerve','cranial nerve II',Continuant
+'Hypoparathyroidism','hormone',Other,'Abnormality of the parathyroid physiology','parathyroid gland',Continuant
+'Abnormality of the sense of smell','sensory perception of smell',Occurent,'Abnormality of the nose','nose',Continuant
+'Hyperserinemia','Reaxys',Continuant,'Abnormal circulating serine concentration','L-serine metabolic process',Occurent
+'Abnormal rib ossification','ossification',Occurent,'Abnormality of the ribs','rib',Continuant
+'Patchy sclerosis of the distal phalanx of the 2nd finger','sclerosis',Other,'Abnormality of the distal phalanx of the 2nd finger','distal phalanx of manual digit 2',Continuant
+'Patchy sclerosis of the middle phalanx of the 2nd finger','sclerosis',Other,'Abnormality of the middle phalanx of the 2nd finger','middle phalanx of manual digit 2',Continuant
+'Hyperpituitarism','secretion',Occurent,'Abnormality of the anterior pituitary','adenohypophysis',Continuant
+'Hyperthreoninemia','Beilstein',Continuant,'Abnormal circulating threonine concentration','threonine metabolic process',Occurent
+'Hypertyrosinemia','Reaxys',Continuant,'Abnormal circulating tyrosine concentration','tyrosine metabolic process',Occurent
+'Hypoargininemia','Reaxys',Continuant,'Abnormal circulating arginine concentration','arginine metabolic process',Occurent
+'Abnormal bone ossification','ossification',Occurent,'Abnormal bone structure','bone element',Continuant
+'Hypoornithinemia','Reaxys',Continuant,'Abnormal circulating ornithine concentration','ornithine metabolic process',Occurent
+'Conjunctivitis','inflammatory response',Occurent,'Abnormal conjunctiva morphology','conjunctiva',Continuant
+'Hydroxyprolinemia','Reaxys',Continuant,'Abnormal circulating proline concentration','proline metabolic process',Occurent
+'Tonsillitis','inflammatory response',Occurent,'Abnormality of the tonsils','tonsil',Continuant
+'Abnormality of body weight','multicellular organism',Continuant,'Growth abnormality','growth',Occurent
+'Abnormal lung lobation','lung lobe formation',Occurent,'Abnormal lung morphology','lung',Continuant
+'Hypermyelinated retinal nerve fibers','myelination',Occurent,'Abnormal retinal morphology','retina',Continuant
+'Conjunctival hamartoma','hamartoma',Other,'Abnormal conjunctiva morphology','conjunctiva',Continuant
+'Tremor','tremor',Other,'Involuntary movements','voluntary skeletal muscle contraction',Occurent
+'Polydipsia','polydipsia',Other,'Abnormal drinking behavior','drinking behavior',Occurent
+'Increased circulating gonadotropin level','pituitary gonadotropin complex',Continuant,'Hyperpituitarism','secretion',Occurent
+'Defective B cell activation','B cell activation',Occurent,'Abnormality of B cell physiology','B cell',Continuant
+'Prolactin excess','prolactin',Continuant,'Hyperpituitarism','secretion',Occurent
+'Pharyngitis','inflammatory response',Occurent,'Abnormality of the pharynx','chordate pharynx',Continuant
+'Pulmonary fibrosis','fibrosis',Other,'Abnormal lung morphology','lung',Continuant
+'Short stature','multicellular organism',Continuant,'Growth delay','growth',Occurent
+'Palmar telangiectasia','telangiectasia',Other,'Abnormality of the skin of the palm','skin of body',Continuant
+'Increased level of galactonate in red blood cells','galactonate',Continuant,'Abnormal circulating carboxylic acid concentration','carboxylic acid metabolic process',Occurent
+'Increased level of hippuric acid in blood','N-benzoylglycine',Continuant,'Abnormal circulating carboxylic acid concentration','carboxylic acid metabolic process',Occurent
+'Sclerosis of 5th finger phalanx','sclerosis',Other,'Abnormal 5th finger phalanx morphology','manual digit 5 phalanx',Continuant
+'Cardiac amyloidosis','amyloid deposition',Other,'Abnormal myocardium morphology','myocardium',Continuant
+'Increased serum pyruvate','Reaxys',Continuant,'Abnormality of glycolysis','glycolytic process',Occurent
+'Tarsal sclerosis','tarsal bone',Continuant,'Sclerosis of foot bone','sclerosis',Other
+'Abnormality of salivation','saliva secretion',Occurent,'Abnormal oral physiology','mouth',Continuant
+'Multiple carpal ossification centers','ossification center',Continuant,'Abnormality of carpal bone ossification','ossification',Occurent
+'Abnormality of peripheral nerve conduction','transmission of nerve impulse',Occurent,'Abnormality of peripheral nerves','nerve',Continuant
+'Increased level of N-acetylneuraminic acid in urine','N-acetylneuraminic acid',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Increased level of O-phosphoethanolamine in urine','O-phosphoethanolamine',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Small intestinal bleeding','hemorrhage and non-specified extravasation',Other,'Abnormality of the small intestine','small intestine',Continuant
+'Photophobia','camera-type eye',Continuant,'Behavioral abnormality','behavior process',Other
+'Abnormal eating behavior','eating behavior',Occurent,'Abnormal consumption behavior','consumption behavior',Other
+'Sclerosis of the distal phalanx of the 2nd toe','sclerosis',Other,'Abnormality of the distal phalanx of the 2nd toe','distal phalanx of pedal digit 2',Continuant
+'Methylmalonic acidemia','LIPID MAPS',Continuant,'Acidosis','acid',Other
+'Craniofacial osteosclerosis','sclerosis',Other,'Increased bone mineral density','bone element',Continuant
+'Two carpal ossification centers present at birth','ossification center',Continuant,'Abnormality of carpal bone ossification','ossification',Occurent
+'Ivory epiphyses of the phalanges of the hand','epiphysis of phalanx of manus',Continuant,'Sclerosis of finger phalanx','sclerosis',Other
+'Abnormality of coagulation','coagulation',Occurent,'Abnormality of blood and blood-forming tissues','hematopoietic system',Continuant
+'Splenic abscess','abscess',Other,'Abnormal spleen morphology','spleen',Continuant
+'Decreased plasma carnitine','Reaxys',Continuant,'Abnormal circulating carnitine concentration','carnitine metabolic process',Occurent
+'Abnormal circulating citrulline concentration','citrulline metabolic process',Occurent,'Abnormality of serum amino acid level','amino acid',Continuant
+'Abnormal metaphyseal trabeculation','trabecula formation',Occurent,'Abnormality of the metaphysis','metaphysis',Continuant
+'Metatarsal diaphyseal endosteal sclerosis','sclerosis',Other,'Abnormal metatarsal morphology','metatarsal bone',Continuant
+'Increased urinary thiosulfate','thiosulfate(2-)',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Uveitis','inflammatory response',Occurent,'Abnormal uvea morphology','uvea',Continuant
+'Patchy sclerosis of the distal phalanx of the 3rd finger','sclerosis',Other,'Abnormality of the distal phalanx of the 3rd finger','distal phalanx of manual digit 3',Continuant
+'Extramedullary hematopoiesis','hemopoiesis',Occurent,'Abnormality of blood and blood-forming tissues','hematopoietic system',Continuant
+'Patchy sclerosis of the proximal phalanx of the 3rd finger','sclerosis',Other,'Abnormality of the proximal phalanx of the 3rd finger','proximal phalanx of manual digit 3',Continuant
+'Substantia nigra gliosis','substantia nigra',Continuant,'Gliosis','cell growth',Occurent
+'Inflammatory abnormality of the eye','inflammatory response',Occurent,'Abnormal eye physiology','camera-type eye',Continuant
+'Hemihypertrophy','appendage girdle complex',Continuant,'Asymmetric growth','growth',Occurent
+'Patchy sclerosis of the middle phalanx of the 2nd toe','sclerosis',Other,'Abnormality of the middle phalanx of the 2nd toe','middle phalanx of pedal digit 2',Continuant
+'Patchy sclerosis of the proximal phalanx of the 2nd toe','sclerosis',Other,'Abnormality of the proximal phalanx of the 2nd toe','proximal phalanx of pedal digit 2',Continuant
+'Patchy sclerosis of the distal phalanx of the 5th finger','sclerosis',Other,'Abnormality of the distal phalanx of the 5th finger','distal phalanx of manual digit 5',Continuant
+'Lymphadenitis','inflammatory response',Occurent,'Abnormality of the lymph nodes','lymph node',Continuant
+'Abnormality of carpal bone ossification','ossification',Occurent,'Abnormality of the carpal bones','carpal bone',Continuant
+'Dicarboxylic acidemia','blood',Continuant,'Abnormal circulating dicarboxylic acid concentration','dicarboxylic acid metabolic process',Occurent
+'Intestinal polyp','cyst',Other,'Abnormal intestine morphology','intestine',Continuant
+'Elevated long chain fatty acids','long-chain fatty acid',Continuant,'Abnormal circulating long-chain fatty-acid concentration','long-chain fatty acid metabolic process',Occurent
+'Multicystic kidney dysplasia','kidney',Continuant,'Renal cyst','cyst',Other
+'Abnormal metatarsal ossification','ossification',Occurent,'Abnormal metatarsal morphology','metatarsal bone',Continuant
+'Bowel diverticulosis','diverticulum',Other,'Abnormal intestine morphology','intestine',Continuant
+'Conjunctival amyloidosis','amyloid deposition',Other,'Abnormal conjunctiva morphology','conjunctiva',Continuant
+'Lower limb hyperreflexia','pelvic complex',Continuant,'Hyperreflexia','reflex',Occurent
+'Abnormal humeral ossification','ossification',Occurent,'Abnormality of the humerus','humerus',Continuant
+'Polycystic kidney dysplasia','kidney',Continuant,'Renal cyst','cyst',Other
+'Urethral fistula','fistula',Other,'Abnormality of the urethra','urethra',Continuant
+'Increased level of D-threitol in plasma','Reaxys',Continuant,'Abnormal circulating carbohydrate concentration','carbohydrate metabolic process',Occurent
+"'Decreased level of 1,5 anhydroglucitol in serum'",'Reaxys',Continuant,'Abnormal circulating carbohydrate concentration','carbohydrate metabolic process',Occurent
+'Increased level of galactitol in red blood cells','Reaxys',Continuant,'Abnormal circulating carbohydrate concentration','carbohydrate metabolic process',Occurent
+'Increased level of galactitol in plasma','Reaxys',Continuant,'Abnormal circulating carbohydrate concentration','carbohydrate metabolic process',Occurent
+'Oroticaciduria','Reaxys',Continuant,'Increased urinary orotic acid cocentration','orotic acid metabolic process',Occurent
+'Cervical spondylosis','arthrosis',Other,'Abnormality of the cervical spine','cervical vertebra',Continuant
+'Sclerosis of 4th finger phalanx','sclerosis',Other,'Abnormal 4th finger phalanx morphology','manual digit 4 phalanx',Continuant
+'Hyperalaninemia','Reaxys',Continuant,'Abnormal circulating alanine concentration','alanine metabolic process',Occurent
+'Sclerosis of toe phalanx','sclerosis',Other,'Abnormality of the phalanges of the toes','phalanx of pes',Continuant
+'Posterior fossa cyst','cyst',Other,'Abnormality of the posterior cranial fossa','posterior cranial fossa',Continuant
+'Abnormal blood chloride concentration','chloride ion homeostasis',Occurent,'Abnormal blood ion concentration','monoatomic ion',Continuant
+'Mesangial hypercellularity','cell population proliferation',Occurent,'Mesangial abnormality','mesangium',Continuant
+'Decreased calvarial ossification','ossification',Occurent,'Abnormality of the calvaria','vault of skull',Continuant
+'Photophobia','camera-type eye',Continuant,'Abnormality of vision','visual perception',Occurent
+'Abnormality of DNA repair','DNA repair',Occurent,'Abnormal cellular physiology','cell',Continuant
+'Increased serum zinc','zinc atom',Continuant,'Abnormal blood zinc concentration','zinc ion homeostasis',Occurent
+'Forehead hyperpigmentation','pigmentation',Occurent,'Abnormality of the forehead','forehead',Continuant
+'Retinal hamartoma','retina',Continuant,'Hamartoma of the eye','hamartoma',Other
+'Patchy sclerosis of 2nd toe phalanx','sclerosis',Other,'Abnormality of phalanx of the 2nd toe','pedal digit 2 phalanx',Continuant
+'Panniculitis','inflammatory response',Occurent,'Abnormal adipose tissue morphology','adipose tissue',Continuant
+'Abnormality of body height','multicellular organism',Continuant,'Growth abnormality','growth',Occurent
+'Progressive sclerosis of skull base','sclerosis',Other,'Sclerosis of skull base','basicranium',Continuant
+'Spinal cord posterior columns myelin loss','central nervous system myelin maintenance',Occurent,'Abnormality of the spinal cord','spinal cord',Continuant
+'Vaginal fistula','fistula',Other,'Abnormal vagina morphology','vagina',Continuant
+'Urogenital fistula','fistula',Other,'Abnormality of the genitourinary system','genitourinary system',Continuant
+'Absent trapezium','distal carpal bone 1',Continuant,'Abnormality of carpal bone ossification','ossification',Occurent
+'Patchy sclerosis of 4th toe phalanx','sclerosis',Other,'Abnormality of the phalanges of the 4th toe','pedal digit 4 phalanx',Continuant
+'Sclerosis of distal toe phalanx','sclerosis',Other,'Abnormality of the distal phalanges of the toes','distal phalanx of pes',Continuant
+'Sclerosis of middle toe phalanx','sclerosis',Other,'Abnormality of the middle phalanges of the toes','middle phalanx of pes',Continuant
+'Sclerosis of proximal toe phalanx','sclerosis',Other,'Abnormality of toe proximal phalanx','proximal phalanx of pes',Continuant
+'Patchy sclerosis of 3rd toe phalanx','sclerosis',Other,'Abnormality of the phalanges of the 3rd toe','pedal digit 3 phalanx',Continuant
+'Hyperchloremia','Beilstein',Continuant,'Abnormal blood chloride concentration','chloride ion homeostasis',Occurent
+'Hypomethioninemia','Reaxys',Continuant,'Abnormal circulating methionine concentration','methionine metabolic process',Occurent
+'Chondritis','inflammatory response',Occurent,'Abnormal cartilage morphology','cartilage element',Continuant
+'Foam cells','foam cell',Continuant,'Atherosclerosis','atherosclerosis',Other
+'Abnormal urinary copper concentration','ChemIDplus',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Multiple pancreatic beta-cell adenomas','pancreas',Continuant,'Pancreatic islet cell adenoma','islet cell adenoma',Other
+'Hypolipidemia','lipid',Continuant,'Abnormal circulating lipid concentration','lipid metabolic process',Occurent
+'Elevated plasma pyrophosphate','diphosphate(4-)',Continuant,'Abnormal blood phosphate concentration','phosphate ion homeostasis',Occurent
+'Patchy sclerosis of the middle phalanx of the 5th finger','sclerosis',Other,'Abnormality of the middle phalanx of the 5th finger','middle phalanx of manual digit 5',Continuant
+'Patchy sclerosis of 5th toe phalanx','sclerosis',Other,'Abnormality of the phalanges of the 5th toe','pedal digit 5 phalanx',Continuant
+'Hyperapobetalipoproteinemia','blood',Continuant,'Abnormal circulating lipid concentration','lipid metabolic process',Occurent
+'Gastric ulcer','ulcer',Other,'Abnormality of the gastric mucosa','mucosa of stomach',Continuant
+'Diaphyseal sclerosis','sclerosis',Other,'Increased density of long bones','long bone',Continuant
+'Myocardial fibrosis','fibrosis',Other,'Abnormal myocardium morphology','myocardium',Continuant
+'Cardiomyopathy','cardiomyopathy',Other,'Abnormal myocardium morphology','myocardium',Continuant
+'Gastrointestinal telangiectasia','telangiectasia',Other,'Abnormality of gastrointestinal vasculature','vasculature',Continuant
+'Abnormal bleeding','hemorrhage and non-specified extravasation',Other,'Abnormality of blood and blood-forming tissues','hematopoietic system',Continuant
+'Increased urinary hypoxanthine','Reaxys',Continuant,'Abnormality of urine homeostasis','homeostatic process',Occurent
+'Facial paralysis','facial muscle',Continuant,'Paralysis','paralysis',Other

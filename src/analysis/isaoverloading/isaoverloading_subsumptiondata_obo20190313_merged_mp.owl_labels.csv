@@ -1,0 +1,1090 @@
+sub_label,sub_bearer_label,sub_classification,super_label,super_bearer_label,super_classification
+'abnormal hepatoblast migration','cell migration',Occurent,'abnormal hepatoblast physiology','hepatoblast',Continuant
+'abnormal choroid melanocyte morphology','optic choroid',Continuant,'abnormal choroid pigmentation','pigmentation',Occurent
+'calcified myocardium','calcium deposition',Other,'abnormal myocardium layer morphology','myocardium',Continuant
+'myocardial steatosis','steatosis',Other,'abnormal myocardium layer morphology','myocardium',Continuant
+'abnormal ovary development','female gonad development',Occurent,'abnormal ovary morphology','ovary',Continuant
+'lip cysts','cyst',Other,'abnormal lip morphology','lip',Continuant
+'lip telangiectases','telangiectasia',Other,'abnormal lip morphology','lip',Continuant
+'lip ulcer','ulcer',Other,'abnormal lip morphology','lip',Continuant
+'abnormal lacrimal gland development','lacrimal gland development',Occurent,'abnormal lacrimal gland morphology','lacrimal gland',Continuant
+'abnormal fetal cardiomyocyte apoptosis','apoptotic process',Occurent,'abnormal fetal cardiomyocyte physiology','fetal cardiomyocyte',Continuant
+'abnormal vascular resistance','blood vessel',Continuant,'abnormal blood circulation','blood circulation',Occurent
+'eye inflammation','inflammatory response',Occurent,'abnormal eye physiology','camera-type eye',Continuant
+'abnormal dendritic cell differentiation','dendritic cell differentiation',Occurent,'abnormal dendritic cell morphology','dendritic cell',Continuant
+'abnormal class switch recombination','isotype switching',Occurent,'abnormal B cell physiology','B cell',Continuant
+'abnormal uterus development','uterus development',Occurent,'abnormal uterus morphology','uterus',Continuant
+'crypts of Lieberkuhn abscesses','ulcer',Other,'abnormal crypts of Lieberkuhn morphology','crypt of Lieberkuhn',Continuant
+'abnormal circulating ketone body level','ketone body',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal respiratory epithelial transmembrane transport','transmembrane transport',Occurent,'abnormal respiratory epithelium physiology','respiratory tract epithelium',Continuant
+'abnormal chondrocyte proliferation','chondrocyte proliferation',Occurent,'abnormal chondrocyte physiology','chondrocyte',Continuant
+'abnormal fibroblast apoptosis','apoptotic process',Occurent,'abnormal fibroblast physiology','fibroblast',Continuant
+'abnormal professional antigen presenting cell physiology','professional antigen presenting cell',Continuant,'abnormal adaptive immunity','adaptive immune response',Occurent
+'abnormal leukocyte physiology','leukocyte',Continuant,'abnormal cell-mediated immunity','leukocyte mediated immunity',Occurent
+'abnormal professional antigen presenting cell physiology','professional antigen presenting cell',Continuant,'abnormal cell-mediated immunity','leukocyte mediated immunity',Occurent
+'abnormal muscle contractility','muscle contraction',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'straub tail','post-anal tail',Continuant,'abnormal tail movements','tail movement',Other
+'heart inflammation','inflammatory response',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal leukocyte physiology','leukocyte',Continuant,'abnormal adaptive immunity','adaptive immune response',Occurent
+'abnormal chondrocyte apoptosis','apoptotic process',Occurent,'abnormal chondrocyte physiology','chondrocyte',Continuant
+'abnormal long bone epiphyseal plate proliferative zone','long bone epiphyseal plate proliferative zone',Continuant,'abnormal cartilage development','cartilage development',Occurent
+'abnormal infundibular recess of third ventricle morphology','infundibular recess of 3rd ventricle',Continuant,'abnormal neurohypophysis development','neurohypophysis development',Occurent
+'dermatitis','dermatitis',Other,'skin inflammation','inflammatory response',Occurent
+'abnormal intestinal epithelial transmembrane transport','transmembrane transport',Occurent,'abnormal intestinal epithelium physiology','intestinal epithelium',Continuant
+'sirenomelia','hindlimb',Continuant,'abnormal limb development','limb development',Occurent
+'abnormal pancreas mesenchyme morphology','pancreas mesenchyme',Continuant,'abnormal pancreas development','pancreas development',Occurent
+'coronary artery aneurysm','aneurysm',Other,'abnormal coronary artery morphology','coronary artery',Continuant
+'abnormal S-shaped body morphology','S-shaped body',Continuant,'abnormal nephron morphogenesis','nephron morphogenesis',Occurent
+'abnormal comma shaped body morphology','comma-shaped body',Continuant,'abnormal nephron morphogenesis','nephron morphogenesis',Occurent
+'abnormal neutrophil physiology','neutrophil',Continuant,'abnormal innate immunity','innate immune response',Occurent
+'abnormal macrophage physiology','macrophage',Continuant,'abnormal innate immunity','innate immune response',Occurent
+'abnormal pro-B cell differentiation','pro-B cell differentiation',Occurent,'abnormal pro-B cell morphology','pro-B cell',Continuant
+'abnormal mononuclear cell differentiation','mononuclear cell differentiation',Occurent,'abnormal myeloblast morphology/development','myeloblast',Continuant
+'abnormal neurotransmitter level','neurotransmitter',Continuant,'abnormal synaptic transmission','chemical synaptic transmission',Occurent
+'abnormal ventral pancreas morphology','ventral pancreatic bud',Continuant,'abnormal pancreas development','pancreas development',Occurent
+'abnormal dorsal pancreas morphology','dorsal pancreatic bud',Continuant,'abnormal pancreas development','pancreas development',Occurent
+'abnormal keratinocyte differentiation','keratinocyte differentiation',Occurent,'abnormal keratinocyte morphology','keratinocyte',Continuant
+'abnormal nervous system regeneration','regeneration',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'abnormal neutrophil differentiation','neutrophil differentiation',Occurent,'abnormal myeloblast morphology/development','myeloblast',Continuant
+'biliary fistula','fistula',Other,'abnormal biliary tract morphology','biliary tree',Continuant
+'mouth mucosal ulcer','ulcer',Other,'abnormal oral mucosa morphology','mouth mucosa',Continuant
+'abnormal spleen development','spleen development',Occurent,'abnormal spleen morphology','spleen',Continuant
+'abnormal urine color','urine',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'remittent intestinal hemorrhage','intestine',Continuant,'gastrointestinal hemorrhage','hemorrhage and non-specified extravasation',Other
+'abnormal neuron specification','neuron fate specification',Occurent,'abnormal neuron morphology','neuron',Continuant
+'abnormal antigen presentation','antigen processing and presentation',Occurent,'abnormal immune system physiology','immune system',Continuant
+'abnormal inflammatory response','inflammatory response',Occurent,'abnormal immune system physiology','immune system',Continuant
+'abnormal otic pit morphology','otic pit',Continuant,'abnormal ear development','ear development',Occurent
+'abnormal otic placode morphology','otic placode',Continuant,'abnormal ear development','ear development',Occurent
+'increased brain apoptosis','apoptotic process',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'abnormal humoral immune response','humoral immune response',Occurent,'abnormal immune system physiology','immune system',Continuant
+'tooth abscess','abscess',Other,'abnormal tooth morphology','calcareous tooth',Continuant
+'gallbladder inflammation','inflammatory response',Occurent,'abnormal gallbladder physiology','gall bladder',Continuant
+'abnormal innervation','innervation',Occurent,'abnormal nervous system morphology','nervous system',Continuant
+'teratozoospermia','sperm',Continuant,'abnormal spermatogenesis','spermatogenesis',Occurent
+'abnormal catecholamine level','catecholamine',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal immature B cell morphology','immature B cell',Continuant,'abnormal B cell differentiation','B cell differentiation',Occurent
+'urinary bladder fibrosis','fibrosis',Other,'abnormal urinary bladder morphology','urinary bladder',Continuant
+'abnormal epidermal stem cell morphology','stem cell of epidermis',Continuant,'abnormal skin development','skin development',Occurent
+'abnormal urine potassium level','potassium atom',Continuant,'abnormal potassium ion homeostasis','potassium ion homeostasis',Occurent
+'abnormal cholesterol level','cholesterol',Continuant,'abnormal cholesterol homeostasis','cholesterol homeostasis',Occurent
+'abnormal urinary bladder development','urinary bladder development',Occurent,'abnormal urinary bladder morphology','urinary bladder',Continuant
+'abnormal melanosome formation','melanosome assembly',Occurent,'abnormal melanosome morphology','melanosome',Continuant
+'gastrointestinal hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal digestive system physiology','digestive system',Continuant
+'increased placenta apoptosis','apoptotic process',Occurent,'abnormal placenta physiology','placenta',Continuant
+'abnormal chordamesoderm morphology','chordamesoderm',Continuant,'abnormal axial mesoderm','axial mesoderm formation',Occurent
+'abnormal glycosaminoglycan level','glycosaminoglycan',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal prechordal mesoderm morphology','prechordal mesoderm',Continuant,'abnormal axial mesoderm','axial mesoderm formation',Occurent
+'increased axial mesoderm size','axial mesoderm',Continuant,'abnormal axial mesoderm','axial mesoderm formation',Occurent
+'decreased axial mesoderm size','axial mesoderm',Continuant,'abnormal axial mesoderm','axial mesoderm formation',Occurent
+'abnormal optic stalk morphology','optic stalk',Continuant,'abnormal eye development','eye development',Occurent
+'abnormal optic cup morphology','optic cup',Continuant,'abnormal eye development','eye development',Occurent
+'abnormal spatial reference memory','spatial memory',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'abnormal spatial working memory','spatial working memory',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'abnormal sweat gland secretion','secretion by tissue',Occurent,'abnormal sweat gland physiology','sweat gland',Continuant
+'abnormal aortic arch development','aorta development',Occurent,'abnormal aortic arch morphology','arch of aorta',Continuant
+'decreased hair follicle apoptosis','apoptotic process',Occurent,'abnormal hair follicle physiology','hair follicle',Continuant
+'increased hair follicle apoptosis','apoptotic process',Occurent,'abnormal hair follicle physiology','hair follicle',Continuant
+'cardiomyopathy','cardiomyopathy',Other,'abnormal muscle physiology','muscle organ',Continuant
+'myeloid hyperplasia','myeloid cell',Continuant,'abnormal myelopoiesis','myeloid cell differentiation',Occurent
+'abnormal oxygen level','oxygen atom',Continuant,'abnormal gas homeostasis','gas homeostasis',Occurent
+'increased lung apoptosis','apoptotic process',Occurent,'abnormal respiratory system physiology','respiratory system',Continuant
+'increased somite number','somite',Continuant,'abnormal somite development','somite development',Occurent
+'photosensitivity','camera-type eye',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal mammary gland pattern','mammary gland',Continuant,'abnormal mammary gland development','mammary gland development',Occurent
+'cystic bulbourethral gland','cyst',Other,'abnormal bulbourethral gland morphology','bulbo-urethral gland',Continuant
+'hepatic necrosis','necrotic cell death',Occurent,'abnormal liver morphology','liver',Continuant
+'edema','multicellular organism',Continuant,'abnormal fluid regulation','regulation of body fluid levels',Occurent
+'abnormal Harderian gland development','Harderian gland development',Occurent,'abnormal Harderian gland morphology','Harderian gland',Continuant
+'bradykinesia','musculoskeletal movement',Occurent,'abnormal locomotor activation','locomotor activation behavior',Other
+'abnormal Meibomian gland development','tarsal gland development',Occurent,'abnormal Meibomian gland morphology','tarsal gland',Continuant
+'Meibomian gland cyst','cyst',Other,'abnormal Meibomian gland morphology','tarsal gland',Continuant
+'abnormal eye movement','eye movement',Other,'abnormal eye physiology','camera-type eye',Continuant
+'abnormal synaptic vesicle clustering','neuronal ion channel clustering',Occurent,'abnormal neuron physiology','neuron',Continuant
+'abnormal axonal transport','axo-dendritic transport',Occurent,'abnormal neuron physiology','neuron',Continuant
+'abnormal tail pigmentation','pigmentation',Occurent,'abnormal tail morphology','post-anal tail',Continuant
+'abnormal periocular mesenchyme morphology','periocular mesenchyme',Continuant,'abnormal eye development','eye development',Occurent
+'abnormal midgut morphology','midgut',Continuant,'abnormal digestive system development','digestive system development',Occurent
+'decreased susceptibility to type IV hypersensitivity reaction','immune system',Continuant,'decreased acute inflammation','acute inflammatory response',Occurent
+'decreased susceptibility to type II hypersensitivity reaction','immune system',Continuant,'decreased acute inflammation','acute inflammatory response',Occurent
+'decreased susceptibility to type III hypersensitivity reaction','immune system',Continuant,'decreased acute inflammation','acute inflammatory response',Occurent
+'increased susceptibility to type IV hypersensitivity reaction','immune system',Continuant,'increased acute inflammation','acute inflammatory response',Occurent
+'increased susceptibility to type II hypersensitivity reaction','immune system',Continuant,'increased acute inflammation','acute inflammatory response',Occurent
+'increased susceptibility to type III hypersensitivity reaction','immune system',Continuant,'increased acute inflammation','acute inflammatory response',Occurent
+'renal necrosis','necrotic cell death',Occurent,'kidney degeneration','kidney',Continuant
+'abnormal osteoclast physiology','osteoclast',Continuant,'abnormal bone remodeling','bone remodeling',Occurent
+'abnormal circulating lipid level','lipid',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal copper level','copper atom',Continuant,'abnormal copper homeostasis','copper ion homeostasis',Occurent
+'abnormal hair follicle development','hair follicle development',Occurent,'abnormal hair follicle morphology','hair follicle',Continuant
+'decreased susceptibility to type I hypersensitivity reaction','immune system',Continuant,'decreased acute inflammation','acute inflammatory response',Occurent
+'increased susceptibility to type I hypersensitivity reaction','immune system',Continuant,'increased acute inflammation','acute inflammatory response',Occurent
+'abnormal limb bud morphology','limb bud',Continuant,'abnormal limb development','limb development',Occurent
+'abnormal vesicle-mediated transport','vesicle-mediated transport',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal forehead pigmentation','pigmentation',Occurent,'abnormal forehead skin morphology','skin of forehead',Continuant
+'decreased salivation','saliva secretion',Occurent,'abnormal salivary gland physiology','saliva-secreting gland',Continuant
+'increased salivation','saliva secretion',Occurent,'abnormal salivary gland physiology','saliva-secreting gland',Continuant
+'abnormal circadian temperature homeostasis','circadian temperature homeostasis',Other,'abnormal body temperature homeostasis','temperature homeostasis',Occurent
+'abnormal neural tube morphology','neural tube',Continuant,'abnormal nervous system development','nervous system development',Occurent
+'arteritis','inflammatory response',Occurent,'vasculitis','vasculitis',Other
+'lymphangitis','inflammatory response',Occurent,'vasculitis','vasculitis',Other
+'phlebitis','inflammatory response',Occurent,'vasculitis','vasculitis',Other
+'Meibomian gland inflammation','inflammatory response',Occurent,'abnormal Meibomian gland physiology','tarsal gland',Continuant
+'abnormal dermatome morphology','dermatome',Continuant,'abnormal skin development','skin development',Occurent
+'osteosclerosis','sclerosis',Other,'abnormal bone structure','bone element',Continuant
+'abnormal circulating lactate level','lactate',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'increased small intestinal crypt cell apoptosis','apoptotic process',Occurent,'abnormal small intestinal crypt cell physiology','crypt of Lieberkuhn of small intestine',Continuant
+'abnormal mitotic cytokinesis','mitotic cytokinesis',Occurent,'abnormal mitosis','GO_0007067',Other
+'abnormal urine homeostasis','homeostatic process',Occurent,'abnormal renal/urinary system physiology','renal system',Continuant
+'abnormal enamel development','amelogenesis',Occurent,'abnormal enamel morphology','enamel',Continuant
+'anal fistula','fistula',Other,'abnormal anus morphology','anus',Continuant
+'azoospermia','sperm',Continuant,'abnormal spermatogenesis','spermatogenesis',Occurent
+'abnormal carbon dioxide level','carbon dioxide',Continuant,'abnormal gas homeostasis','gas homeostasis',Occurent
+'hyperchlorhydria','gastric juice',Continuant,'abnormal digestive secretion','secretion by tissue',Occurent
+'hypochlorhydria','gastric juice',Continuant,'abnormal digestive secretion','secretion by tissue',Occurent
+'achlorhydria','gastric juice',Continuant,'abnormal digestive secretion','secretion by tissue',Occurent
+'abnormal circulating potassium level','potassium atom',Continuant,'abnormal potassium ion homeostasis','potassium ion homeostasis',Occurent
+'impaired swimming','aquatic locomotion',Other,'abnormal motor coordination/balance','neuromuscular process controlling balance',Occurent
+'impaired limb coordination','limb coordination',Other,'abnormal motor coordination/balance','neuromuscular process controlling balance',Occurent
+'impaired balance','balance',Other,'abnormal motor coordination/balance','neuromuscular process controlling balance',Occurent
+'abnormal vascular wound healing','angiogenesis involved in wound healing',Occurent,'abnormal blood vessel physiology','blood vessel',Continuant
+'abnormal circulating bilirubin level','bilirubin IXalpha',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'acanthosis','acanthosis',Other,'epidermis stratum spinosum hyperplasia','stratum spinosum of epidermis',Continuant
+'cyanosis','zone of skin',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal Harderian gland pigmentation','pigmentation',Occurent,'abnormal Harderian gland morphology','Harderian gland',Continuant
+'abnormal metanephros morphology','metanephros',Continuant,'abnormal kidney development','kidney development',Occurent
+'abnormal vasoconstriction','vasoconstriction',Occurent,'abnormal vascular smooth muscle physiology','blood vessel smooth muscle',Continuant
+'abnormal nephrogenic zone morphology','nephrogenic zone',Continuant,'abnormal kidney development','kidney development',Occurent
+'abnormal lymphopoiesis','lymphocyte differentiation',Occurent,'abnormal lymphocyte morphology','lymphocyte',Continuant
+'abnormal circulating phosphate level','phosphate',Continuant,'abnormal ion homeostasis','ion homeostasis',Occurent
+'nephrosclerosis','sclerosis',Other,'abnormal kidney morphology','kidney',Continuant
+'abnormal behavior','behavior process',Other,'behavior/neurological phenotype','behavior',Occurent
+'impaired coordination','motor coordination',Other,'abnormal motor coordination/balance','neuromuscular process controlling balance',Occurent
+'abnormal olfaction','sensory perception of smell',Occurent,'abnormal olfactory system physiology','olfactory system',Continuant
+'abnormal optic eminence morphology','optic eminence',Continuant,'abnormal eye development','eye development',Occurent
+'liver hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal liver morphology','liver',Continuant
+'skin hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal skin morphology','zone of skin',Continuant
+'increased bleeding time','hemorrhage and non-specified extravasation',Other,'abnormal blood coagulation','blood coagulation',Occurent
+'decreased bleeding time','hemorrhage and non-specified extravasation',Other,'abnormal blood coagulation','blood coagulation',Occurent
+'abnormal renal tubule epithelial cell primary cilium morphology','GO_0031513',Other,'abnormal renal tubule epithelium morphology','nephron tubule epithelium',Continuant
+'absent optic vesicle','optic vesicle',Continuant,'abnormal optic vesicle formation','optic vesicle formation',Occurent
+'abnormal cardiac mesenchyme morphology','cardiac mesenchyme',Continuant,'abnormal cardiovascular development','cardiovascular system development',Occurent
+'conjunctival telangiectasia','telangiectasia',Other,'abnormal conjunctival vasculature morphology','conjunctiva',Continuant
+'increased mammary gland tumor incidence','neoplasm',Other,'abnormal mammary gland morphology','mammary gland',Continuant
+'abnormal autophagy','autophagy',Occurent,'abnormal cell physiology','cell',Continuant
+'epididymis fibrosis','fibrosis',Other,'abnormal epididymis morphology','epididymis',Continuant
+'abnormal dendritic cell migration','dendritic cell migration',Occurent,'abnormal dendritic cell physiology','dendritic cell',Continuant
+'kidney medulla cysts','cyst',Other,'abnormal kidney medulla morphology','renal medulla',Continuant
+'abnormal choroid pigmentation','pigmentation',Occurent,'abnormal optic choroid morphology','optic choroid',Continuant
+'decreased mammary gland tumor incidence','neoplasm',Other,'abnormal mammary gland morphology','mammary gland',Continuant
+'abnormal ciliary body pigmentation','pigmentation',Occurent,'abnormal ciliary body morphology','ciliary body',Continuant
+'abnormal submucosal gland secretion','secretion by tissue',Occurent,'abnormal submucosal gland physiology','submucosal gland',Continuant
+'abnormal Langerhans cell antigen presentation','myeloid dendritic cell antigen processing and presentation',Occurent,'abnormal Langerhans cell physiology','myeloid dendritic cell',Continuant
+'absent organized vascular network','vascular system',Continuant,'abnormal vasculogenesis','vasculogenesis',Occurent
+'abnormal head development','head development',Occurent,'abnormal head morphology','head',Continuant
+'abnormal osteoid morphology','osteoid',Continuant,'abnormal skeleton development','skeletal system development',Occurent
+'abnormal fibroblast migration','fibroblast migration',Occurent,'abnormal fibroblast physiology','fibroblast',Continuant
+'abnormal fibroblast proliferation','fibroblast proliferation',Occurent,'abnormal fibroblast physiology','fibroblast',Continuant
+'abnormal head mesenchyme morphology','head mesenchyme',Continuant,'abnormal head development','head development',Occurent
+'abnormal urine glucose level','glucose',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'increased susceptibility to induced arthritis','skeletal joint',Continuant,'arthritis','arthritis',Other
+'abnormal lung bud morphology','lung bud',Continuant,'abnormal lung development','lung development',Occurent
+'abnormal vascular development','blood vessel development',Occurent,'abnormal blood vessel morphology','blood vessel',Continuant
+'facial asymmetry','face',Continuant,'abnormal face development','face development',Occurent
+'abnormal primordial germ cell migration','germ cell migration',Occurent,'abnormal germ cell physiology','germ cell',Continuant
+'enhanced coordination','motor coordination',Other,'abnormal motor coordination/balance','neuromuscular process controlling balance',Occurent
+'bradykinesia','musculoskeletal movement',Occurent,'abnormal stationary movement','body part movement',Other
+'decreased susceptibility to type III hypersensitivity reaction','immune system',Continuant,'abnormal type III hypersensitivity reaction','type III hypersensitivity',Occurent
+'increased susceptibility to type III hypersensitivity reaction','immune system',Continuant,'abnormal type III hypersensitivity reaction','type III hypersensitivity',Occurent
+'pulmonary necrosis','necrotic cell death',Occurent,'abnormal lung morphology','lung',Continuant
+'decreased susceptibility to type II hypersensitivity reaction','immune system',Continuant,'abnormal type II hypersensitivity reaction','type II hypersensitivity',Occurent
+'increased susceptibility to type II hypersensitivity reaction','immune system',Continuant,'abnormal type II hypersensitivity reaction','type II hypersensitivity',Occurent
+'renal interstitial fibrosis','fibrosis',Other,'abnormal kidney interstitium morphology','kidney interstitium',Continuant
+'abnormal platelet physiology','platelet',Continuant,'abnormal blood coagulation','blood coagulation',Occurent
+'increased susceptibility to type IV hypersensitivity reaction','immune system',Continuant,'abnormal type IV hypersensitivity reaction','type IV hypersensitivity',Occurent
+'decreased susceptibility to type IV hypersensitivity reaction','immune system',Continuant,'abnormal type IV hypersensitivity reaction','type IV hypersensitivity',Occurent
+'abnormal strial intermediate cell morphology','strial intermediate cell',Continuant,'abnormal otic pigmentation','pigmentation',Occurent
+'abnormal hormone level','hormone',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal lung saccule morphology','lung saccule',Continuant,'abnormal lung development','lung development',Occurent
+'abnormal branching of the mammary ductal tree','branching morphogenesis of an epithelial tube',Occurent,'abnormal mammary gland duct morphology','mammary duct',Continuant
+'unilateral deafness','deafness',Other,'impaired hearing','sensory perception of sound',Occurent
+'choroidal neovascularization','blood vessel remodeling',Occurent,'abnormal choroid vasculature morphology','choroidal blood vessel',Continuant
+'abnormal DNA replication','DNA replication',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal DNA repair','DNA repair',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal skeletal muscle cell apoptosis','apoptotic process',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'abnormal otic vesicle development','otic vesicle formation',Occurent,'abnormal otic vesicle morphology','ear vesicle',Continuant
+'abnormal cellular replicative senescence','cell aging',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal cumulus oophorus','cumulus oophorus',Continuant,'impaired granulosa cell differentiation','granulosa cell differentiation',Occurent
+'abnormal embryonic/fetal subventricular zone morphology','ganglionic eminence',Continuant,'abnormal nervous system development','nervous system development',Occurent
+'increased susceptibility to type I hypersensitivity reaction','immune system',Continuant,'abnormal type I hypersensitivity reaction','type I hypersensitivity',Occurent
+'decreased susceptibility to type I hypersensitivity reaction','immune system',Continuant,'abnormal type I hypersensitivity reaction','type I hypersensitivity',Occurent
+'increased gland tumor incidence','glandular tumor',Other,'abnormal gland morphology','gland',Continuant
+'abnormal circulating calcium level','calcium atom',Continuant,'abnormal calcium ion homeostasis','calcium ion homeostasis',Occurent
+'increased allantois apoptosis','apoptotic process',Occurent,'abnormal extraembryonic tissue physiology','extraembryonic structure',Continuant
+'abnormal urine glucose level','glucose',Continuant,'abnormal glucose homeostasis','glucose homeostasis',Occurent
+'abnormal somite development','somite development',Occurent,'abnormal embryonic tissue morphology','embryonic tissue',Continuant
+'abnormal mammary gland development','mammary gland development',Occurent,'abnormal mammary gland morphology','mammary gland',Continuant
+'abnormal embryonic neuroepithelium primary cilium morphology','GO_0031513',Other,'abnormal embryonic neuroepithelium morphology','germinal neuroepithelium',Continuant
+'abnormal cranial flexure morphology','cephalic midbrain flexure',Continuant,'abnormal midbrain development','midbrain development',Occurent
+'xerostomia','mouth',Continuant,'decreased salivation','saliva secretion',Occurent
+'abnormal T cell apoptosis','T cell apoptotic process',Occurent,'abnormal T cell physiology','T cell',Continuant
+'stomach fibrosis','fibrosis',Other,'abnormal stomach morphology','stomach',Continuant
+'abnormal brain development','brain development',Occurent,'abnormal brain morphology','brain',Continuant
+'abnormal adrenal gland secretion','secretion by tissue',Occurent,'abnormal adrenal gland physiology','adrenal gland',Continuant
+'abnormal bile salt level','bile salt',Continuant,'abnormal bile salt homeostasis','homeostatic process',Occurent
+'abnormal face development','face development',Occurent,'abnormal facial morphology','face',Continuant
+'esophagus fibrosis','fibrosis',Other,'abnormal esophagus morphology','esophagus',Continuant
+'preputial gland inflammation','inflammatory response',Occurent,'abnormal sex gland physiology','reproductive gland',Continuant
+'abnormal vestibular hair cell development','vestibular receptor cell development',Occurent,'abnormal vestibular hair cell morphology','vestibular hair cell',Continuant
+'abnormal cochlear hair cell development','auditory receptor cell development',Occurent,'abnormal cochlear hair cell morphology','auditory hair cell',Continuant
+'abnormal cortical plate morphology','cortical plate',Continuant,'abnormal telencephalon development','telencephalon development',Occurent
+'patent ductus arteriosus','ductus arteriosus',Continuant,'abnormal vascular regression','apoptotic process involved in blood vessel morphogenesis',Occurent
+'abnormal locomotor circadian rhythm','locomotor rhythm',Occurent,'abnormal locomotor behavior','locomotory behavior',Other
+'abnormal subplate morphology','cortical subplate',Continuant,'abnormal telencephalon development','telencephalon development',Occurent
+'abnormal cortical ventricular zone morphology','postnatal subventricular zone',Continuant,'abnormal telencephalon development','telencephalon development',Occurent
+'abnormal cortical intermediate zone morphology','cortical intermediate zone',Continuant,'abnormal telencephalon development','telencephalon development',Occurent
+'decreased susceptibility to induced arthritis','skeletal joint',Continuant,'arthritis','arthritis',Other
+'abnormal cerebellar plate morphology','cerebellar plate',Continuant,'abnormal cerebellum development','cerebellum development',Occurent
+'abnormal cerebellum external granule cell layer morphology','cerebellum external granule cell layer',Continuant,'abnormal cerebellum development','cerebellum development',Occurent
+'impaired eosinophil chemotaxis','eosinophil chemotaxis',Occurent,'abnormal eosinophil physiology','eosinophil',Continuant
+'impaired neutrophil chemotaxis','neutrophil chemotaxis',Occurent,'abnormal neutrophil physiology','neutrophil',Continuant
+'abnormal urine magnesium level','magnesium atom',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine chloride ion level','chloride',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine amino acid level','amino acid',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine catecholamine level','catecholamine',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine nucleoside level','nucleoside',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine nucleotide level','nucleotide',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine glycosaminoglycan level','glycosaminoglycan',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal stomodeum morphology','stomodeum',Continuant,'abnormal digestive system development','digestive system development',Occurent
+'abnormal buccopharyngeal membrane morphology','buccopharyngeal membrane',Continuant,'abnormal digestive system development','digestive system development',Occurent
+'abnormal respiratory electron transport chain','respiratory electron transport chain',Occurent,'abnormal mitochondrial physiology','mitochondrion',Continuant
+'abnormal oxidative phosphorylation','oxidative phosphorylation',Occurent,'abnormal mitochondrial physiology','mitochondrion',Continuant
+'abnormal tricarboxylic acid cycle','tricarboxylic acid cycle',Occurent,'abnormal mitochondrial physiology','mitochondrion',Continuant
+'abnormal ureteric bud elongation','ureteric bud elongation',Occurent,'abnormal ureteric bud morphology','ureteric bud',Continuant
+'abnormal branching involved in ureteric bud morphogenesis','branching involved in ureteric bud morphogenesis',Occurent,'abnormal ureteric bud morphology','ureteric bud',Continuant
+'abnormal B cell apoptosis','B cell apoptotic process',Occurent,'abnormal B cell physiology','B cell',Continuant
+'abnormal vein development','venous blood vessel development',Occurent,'abnormal vein morphology','vein',Continuant
+'abnormal tooth placode morphology','tooth placode',Continuant,'abnormal tooth development','odontogenesis',Occurent
+'abnormal circulating insulin level','insulin',Continuant,'abnormal glucose homeostasis','glucose homeostasis',Occurent
+'abnormal dental papilla morphology','odontogenic papilla',Continuant,'abnormal tooth development','odontogenesis',Occurent
+'abnormal dental follicle morphology','dental follicle',Continuant,'abnormal tooth development','odontogenesis',Occurent
+'abnormal prostate gland development','prostate gland development',Occurent,'abnormal prostate gland morphology','prostate gland',Continuant
+'corneal vascularization','blood vessel remodeling',Occurent,'abnormal cornea morphology','cornea',Continuant
+'abnormal cerebellum development','cerebellum development',Occurent,'abnormal cerebellum morphology','cerebellum',Continuant
+'glomerulonephritis','glomerulonephritis',Other,'kidney inflammation','inflammatory response',Occurent
+'polycystic kidney','kidney',Continuant,'kidney cysts','cyst',Other
+'abnormal eye pigmentation','pigmentation',Occurent,'abnormal eye morphology','camera-type eye',Continuant
+'liver cysts','cyst',Other,'abnormal liver morphology','liver',Continuant
+'liver fibrosis','fibrosis',Other,'abnormal liver morphology','liver',Continuant
+'ectopic nipples','nipple',Continuant,'abnormal nipple development','nipple development',Occurent
+'liver abscess','abscess',Other,'abnormal liver morphology','liver',Continuant
+'abnormal urine insulin level','insulin',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine deoxycorticosterone level','11-deoxycorticosterone',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine prostaglandin level','prostaglandin',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal optic placode morphology','lens placode',Continuant,'abnormal lens development','lens development in camera-type eye',Occurent
+'abnormal foregut morphology','foregut',Continuant,'abnormal digestive system development','digestive system development',Occurent
+'abnormal hair follicle placode morphology','hair follicle placode',Continuant,'abnormal hair follicle development','hair follicle development',Occurent
+'submandibular gland inflammation','inflammatory response',Occurent,'abnormal submandibular gland physiology','submandibular gland',Continuant
+'abnormal male germ cell apoptosis','apoptotic process',Occurent,'abnormal male reproductive system physiology','male reproductive system',Continuant
+'abnormal pituitary secretion','secretion by tissue',Occurent,'abnormal pituitary gland physiology','pituitary gland',Continuant
+'abnormal hypothalamus secretion','secretion by tissue',Occurent,'abnormal hypothalamus physiology','hypothalamus',Continuant
+'abnormal meiosis','GO_0007126',Other,'abnormal gametogenesis','gamete generation',Occurent
+'abnormal lens development','lens development in camera-type eye',Occurent,'abnormal lens morphology','lens of camera-type eye',Continuant
+'abnormal eye development','eye development',Occurent,'abnormal eye morphology','camera-type eye',Continuant
+'abnormal vertebrae development','animal organ development',Occurent,'abnormal vertebrae morphology','vertebra',Continuant
+'abnormal posture','posture',Other,'abnormal motor capabilities/coordination/movement','multicellular organismal movement',Occurent
+'esophageal ulcer','ulcer',Other,'abnormal esophagus morphology','esophagus',Continuant
+'vitreous body hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal vitreous body morphology','vitreous body',Continuant
+'abnormal enterocyte apoptosis','apoptotic process',Occurent,'abnormal enterocyte physiology','enterocyte',Continuant
+'abnormal enterocyte proliferation','cell proliferation',Occurent,'abnormal enterocyte physiology','enterocyte',Continuant
+'abnormal liver zinc level','zinc atom',Continuant,'abnormal zinc homeostasis','cellular zinc ion homeostasis',Occurent
+'abnormal osteoblast apoptosis','apoptotic process',Occurent,'abnormal osteoblast physiology','osteoblast',Continuant
+'abnormal renal protein reabsorption','renal protein absorption',Occurent,'abnormal protein level','protein',Continuant
+'abnormal osteoblast proliferation','osteoblast proliferation',Occurent,'abnormal osteoblast physiology','osteoblast',Continuant
+'inner ear cysts','cyst',Other,'abnormal inner ear morphology','internal ear',Continuant
+'abnormal iron level','iron atom',Continuant,'abnormal iron homeostasis','iron ion homeostasis',Occurent
+'acidosis','acid',Continuant,'abnormal pH regulation','regulation of pH',Occurent
+'abnormal level of surface class II molecules','MHC class II protein complex',Continuant,'abnormal antigen presentation via MHC class II','antigen processing and presentation of peptide antigen via MHC class II',Occurent
+'abnormal skeletal muscle satellite cell proliferation','skeletal muscle satellite cell proliferation',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'abnormal eating behavior','eating behavior',Occurent,'abnormal consumption behavior','feeding behavior',Other
+'alkalosis','acid',Continuant,'abnormal pH regulation','regulation of pH',Occurent
+'panniculitis','inflammatory response',Occurent,'abnormal skin adnexa physiology','integumentary adnexa',Continuant
+'growth retardation of incisors','incisor tooth',Continuant,'abnormal tooth development','odontogenesis',Occurent
+'abnormal renal reabsorbtion','renal absorption',Occurent,'abnormal kidney physiology','kidney',Continuant
+'abnormal temporal memory','short-term memory',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'abnormal retinal pigment epithelium morphology','pigmented layer of retina',Continuant,'abnormal eye pigmentation','pigmentation',Occurent
+'abnormal spatial learning','spatial learning',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'abnormal object recognition memory','visual object recognition',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'abnormal drinking behavior','drinking behavior',Occurent,'abnormal consumption behavior','feeding behavior',Other
+'embryo tissue necrosis','necrotic cell death',Occurent,'abnormal embryonic tissue morphology','embryonic tissue',Continuant
+'abnormal response to new environment','response to novel environment',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'variegated coat color','coat of hair',Continuant,'irregular coat pigmentation','pigmentation',Occurent
+'abnormal urinary system development','renal system development',Occurent,'abnormal renal/urinary system morphology','renal system',Continuant
+'abnormal urine ammonia level','ammonium',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine nitrite level','nitrite',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'increased urine selenium level','selenium atom',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'CNS inflammation','inflammatory response',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'abnormal axial mesoderm','axial mesoderm formation',Occurent,'abnormal mesoderm morphology','mesoderm',Continuant
+'perianal ulcer','ulcer',Other,'abnormal anus morphology','anus',Continuant
+'abnormal embryonic hematopoiesis','embryonic hemopoiesis',Occurent,'abnormal extraembryonic tissue physiology','extraembryonic structure',Continuant
+'abnormal iris pigment epithelium','iris epithelium',Continuant,'abnormal eye pigmentation','pigmentation',Occurent
+'spinal hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal nervous system physiology','nervous system',Continuant
+'placenta necrosis','necrotic cell death',Occurent,'abnormal placenta morphology','placenta',Continuant
+'abnormal mast cell differentiation','mast cell differentiation',Occurent,'abnormal mast cell morphology','mast cell',Continuant
+'abnormal gonad rudiment morphology','gonad mesenchyme',Continuant,'abnormal reproductive system development','reproductive system development',Occurent
+'abnormal iris pigmentation','pigmentation',Occurent,'abnormal iris morphology','iris',Continuant
+'aortic aneurysm','aneurysm',Other,'abnormal aorta morphology','aorta',Continuant
+'abnormal ureter development','ureter development',Occurent,'abnormal ureter morphology','ureter',Continuant
+'abnormal mast cell degranulation','mast cell degranulation',Occurent,'abnormal mast cell physiology','mast cell',Continuant
+'abnormal skin development','skin development',Occurent,'abnormal skin morphology','zone of skin',Continuant
+'hairless','strand of hair',Continuant,'abnormal hair growth','anagen',Occurent
+'abnormal horn pigmentation','pigmentation',Occurent,'abnormal horn morphology','horn',Continuant
+'abnormal periocular mesenchyme apoptosis','apoptotic process',Occurent,'abnormal periocular mesenchyme morphology','periocular mesenchyme',Continuant
+'impaired ossification of basisphenoid bone','basisphenoid bone',Continuant,'abnormal intramembranous bone ossification','intramembranous ossification',Occurent
+'abnormal seminal vesicle development','seminal vesicle development',Occurent,'abnormal seminal vesicle morphology','seminal vesicle',Continuant
+'kidney hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal kidney physiology','kidney',Continuant
+'abnormal nephrogenic mesenchyme morphogenesis','nephrogenic mesenchyme morphogenesis',Occurent,'abnormal kidney mesenchyme morphology','kidney mesenchyme',Continuant
+'abnormal hippocampus development','hippocampus development',Occurent,'abnormal hippocampus morphology','hippocampal formation',Continuant
+'abnormal macrophage proliferation','macrophage proliferation',Occurent,'abnormal macrophage physiology','macrophage',Continuant
+'abnormal kidney development','kidney development',Occurent,'abnormal kidney morphology','kidney',Continuant
+'abnormal milk ejection','milk ejection reflex',Occurent,'abnormal reflex','reflexive behavior',Other
+'abnormal methylmalonic acid level','methylmalonic acid',Continuant,'abnormal vitamin homeostasis','homeostatic process',Occurent
+'impaired skin barrier function','regulation of water loss via skin',Occurent,'abnormal skin physiology','zone of skin',Continuant
+'abnormal pituitary gland apoptosis','apoptotic process',Occurent,'abnormal pituitary gland physiology','pituitary gland',Continuant
+'abnormal muscle development','muscle organ development',Occurent,'abnormal muscle morphology','muscle organ',Continuant
+'abnormal neuronal migration','neuron migration',Occurent,'abnormal neuron physiology','neuron',Continuant
+'early ear unfolding','outer ear unfolding',Occurent,'abnormal outer ear morphology','external ear',Continuant
+'abnormal B cell activation','B cell activation',Occurent,'abnormal B cell physiology','B cell',Continuant
+'abnormal muscle regeneration','tissue regeneration',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'impaired basement membrane formation','biosynthetic process',Occurent,'abnormal basement membrane morphology','basement membrane',Continuant
+'delayed ear emergence','outer ear emergence',Occurent,'abnormal outer ear morphology','external ear',Continuant
+'abnormal kidney medulla development','animal organ development',Occurent,'abnormal kidney medulla morphology','renal medulla',Continuant
+'inguinal cysts','cyst',Other,'abnormal inguinal canal morphology','inguinal canal',Continuant
+'increased susceptibility to induced pancreatitis','pancreas',Continuant,'pancreas inflammation','inflammatory response',Occurent
+'increased foot pad pigmentation','epidermis of metapodial pad',Continuant,'hyperpigmentation','pigmentation',Occurent
+'ovarian follicular cyst','cyst',Other,'abnormal ovarian follicle morphology','ovarian follicle',Continuant
+'skeletal muscle necrosis','necrotic cell death',Occurent,'abnormal skeletal muscle morphology','skeletal muscle tissue',Continuant
+'abnormal fetal atrioventricular canal morphology','atrioventricular canal',Continuant,'abnormal heart development','heart development',Occurent
+'cardiomyopathy','cardiomyopathy',Other,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal fetal cardiomyocyte morphology','fetal cardiomyocyte',Continuant,'abnormal heart development','heart development',Occurent
+'abnormal pancreas development','pancreas development',Occurent,'abnormal pancreas morphology','pancreas',Continuant
+'abnormal extraocular muscle development','muscle organ development',Occurent,'abnormal extraocular muscle morphology','extra-ocular muscle',Continuant
+'abnormal branching involved in bronchus morphogenesis','bronchus morphogenesis',Occurent,'abnormal bronchus morphology','bronchus',Continuant
+'abnormal liver regeneration','liver regeneration',Occurent,'abnormal liver physiology','liver',Continuant
+'trachea fibrosis','fibrosis',Other,'abnormal trachea morphology','trachea',Continuant
+'abnormal trachea development','trachea development',Occurent,'abnormal trachea morphology','trachea',Continuant
+'abnormal digit pigmentation','pigmentation',Occurent,'abnormal digit morphology','digit',Continuant
+'abnormal ovulation','ovulation from ovarian follicle',Occurent,'abnormal female reproductive system physiology','female reproductive system',Continuant
+'phototoxicity','zone of skin',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal myotome morphology','myotome',Continuant,'abnormal muscle development','muscle organ development',Occurent
+'absent embryonic telencephalon','future telencephalon',Continuant,'abnormal telencephalon development','telencephalon development',Occurent
+'abnormal iris stromal pigmentation','pigmentation',Occurent,'abnormal iris stroma morphology','iris stroma',Continuant
+'abnormal vitamin level','vitamin',Continuant,'abnormal vitamin homeostasis','homeostatic process',Occurent
+'abnormal macrophage differentiation','macrophage differentiation',Occurent,'abnormal macrophage morphology','macrophage',Continuant
+'abnormal cardiovascular development','cardiovascular system development',Occurent,'abnormal cardiovascular system morphology','cardiovascular system',Continuant
+'abnormal granulocyte differentiation','granulocyte differentiation',Occurent,'abnormal granulocyte morphology','granulocyte',Continuant
+'abnormal cellular glucose uptake','glucose import',Occurent,'abnormal cell physiology','cell',Continuant
+'ascites','organism substance',Continuant,'abnormal fluid regulation','regulation of body fluid levels',Occurent
+'abnormal body temperature','multicellular organism',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal mastication','chewing',Other,'abnormal eating behavior','eating behavior',Occurent
+'abnormal T cell differentiation','T cell differentiation',Occurent,'abnormal T cell morphology','T cell',Continuant
+'abnormal translation','translation',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal vertebral body development','bony vertebral centrum',Continuant,'abnormal vertebrae development','animal organ development',Occurent
+'abnormal vertebral arch development','neural arch',Continuant,'abnormal vertebrae development','animal organ development',Occurent
+'biliary cyst','cyst',Other,'abnormal bile duct morphology','bile duct',Continuant
+'sirenomelia','hindlimb',Continuant,'abnormal left-right axis patterning','left/right axis specification',Occurent
+'abnormal memory B cell differentiation','memory B cell differentiation',Occurent,'abnormal memory B cell morphology','memory B cell',Continuant
+'abnormal involuntary movement','involuntary movement behavior',Other,'abnormal motor capabilities/coordination/movement','multicellular organismal movement',Occurent
+'abnormal voluntary movement','voluntary movement behavior',Other,'abnormal motor capabilities/coordination/movement','multicellular organismal movement',Occurent
+'abnormal sperm motility','flagellated sperm motility',Occurent,'abnormal sperm physiology','sperm',Continuant
+'osteomyelitis','inflammatory response',Occurent,'abnormal skeleton physiology','skeletal system',Continuant
+'abnormal midbrain-hindbrain boundary development','midbrain-hindbrain boundary development',Occurent,'abnormal midbrain-hindbrain boundary morphology','midbrain-hindbrain boundary',Continuant
+'abnormal immunoglobulin level',"'immunoglobulin complex, circulating'",Continuant,'abnormal humoral immune response','humoral immune response',Occurent
+'lung hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal pulmonary circulation','blood circulation',Occurent
+'abnormal oocyte morphology','oocyte',Continuant,'abnormal oogenesis','oogenesis',Occurent
+'testis inflammation','inflammatory response',Occurent,'abnormal testis physiology','testis',Continuant
+'abnormal forebrain development','forebrain development',Occurent,'abnormal forebrain morphology','forebrain',Continuant
+'abnormal melanocyte morphology','melanocyte',Continuant,'pigmentation phenotype','pigmentation',Occurent
+'abnormal plasma cell differentiation','plasma cell differentiation',Occurent,'abnormal plasma cell morphology','plasma cell',Continuant
+'abnormal T-helper 1 cell differentiation','T-helper 1 cell differentiation',Occurent,'abnormal T-helper 1 cell morphology','T-helper 1 cell',Continuant
+'decreased susceptibility to induced joint inflammation','skeletal joint',Continuant,'joint inflammation','inflammatory response',Occurent
+'abnormal T-helper 2 cell differentiation','T-helper 2 cell differentiation',Occurent,'abnormal T-helper 2 cell morphology','T-helper 2 cell',Continuant
+'abnormal cardiomyocyte apoptosis','apoptotic process',Occurent,'abnormal myocardial fiber physiology','cardiac muscle cell',Continuant
+'abnormal CD4-positive T cell differentiation',"'CD4-positive, alpha-beta T cell differentiation'",Occurent,"'abnormal CD4-positive, alpha beta T cell morphology'","'CD4-positive, alpha-beta T cell'",Continuant
+'brain aneurysm','aneurysm',Other,'abnormal brain vasculature morphology','brain',Continuant
+'hydrocephaly','cerebrospinal fluid',Continuant,'abnormal brain development','brain development',Occurent
+'abnormal osteoblast physiology','osteoblast',Continuant,'abnormal bone remodeling','bone remodeling',Occurent
+'skin inflammation','inflammatory response',Occurent,'abnormal skin physiology','zone of skin',Continuant
+'abnormal retinal development','retina development in camera-type eye',Occurent,'abnormal retina morphology','retina',Continuant
+'duodenal ulcer','ulcer',Other,'abnormal duodenum morphology','duodenum',Continuant
+'abnormal amino acid level','amino acid',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'myositis','myositis',Other,'increased inflammatory response','inflammatory response',Occurent
+'abnormal blood uric acid level','uric acid',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'cornea ulcer','ulcer',Other,'abnormal cornea morphology','cornea',Continuant
+'abnormal immune tolerance','tolerance induction',Occurent,'abnormal immune system physiology','immune system',Continuant
+'abnormal splenocyte proliferation','cell proliferation',Occurent,'abnormal splenocyte physiology','splenocyte',Continuant
+'abnormal splenocyte apoptosis','apoptotic process',Occurent,'abnormal splenocyte physiology','splenocyte',Continuant
+'abnormal urine sodium level','sodium atom',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine organic anion level','organic anion',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'telangiectases','telangiectasia',Other,'abnormal vasodilation','vasodilation',Occurent
+'persistent cloaca','cloacal septation',Occurent,'abnormal renal/urinary system morphology','renal system',Continuant
+'abnormal long bone epiphysis morphology','epiphysis',Continuant,'abnormal skeleton development','skeletal system development',Occurent
+'abnormal thymocyte apoptosis','thymocyte apoptotic process',Occurent,'abnormal thymus physiology','thymus',Continuant
+'abnormal olfactory bulb development','olfactory bulb development',Occurent,'abnormal olfactory bulb morphology','olfactory bulb',Continuant
+'abnormal enamel organ morphology','tooth enamel organ',Continuant,'abnormal tooth development','odontogenesis',Occurent
+'increased granulosa cell apoptosis','apoptotic process',Occurent,'abnormal female reproductive system physiology','female reproductive system',Continuant
+'abnormal milk composition','milk',Continuant,'abnormal lactation','lactation',Occurent
+'abnormal double-positive T cell morphology',"'double-positive, alpha-beta thymocyte'",Continuant,'abnormal T cell differentiation','T cell differentiation',Occurent
+'abnormal double-negative T cell morphology','double negative thymocyte',Continuant,'abnormal T cell differentiation','T cell differentiation',Occurent
+'abnormal sex determination','sex determination',Occurent,'abnormal reproductive system morphology','reproductive system',Continuant
+'abnormal urine protein level','protein',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal blood osmolality','blood',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal circulating mineral level','mineral',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'sphingomyelinosis','sphingomyelin catabolic process',Occurent,'abnormal plasma membrane sphingolipid content','plasma membrane',Continuant
+'placenta junctional zone necrosis','necrotic cell death',Occurent,'abnormal placenta junctional zone morphology','placenta junctional zone',Continuant
+'abnormal skeleton development','skeletal system development',Occurent,'abnormal skeleton morphology','skeletal system',Continuant
+'abnormal fontanelle morphology','fontanelle',Continuant,'abnormal skeleton development','skeletal system development',Occurent
+'defasiculated phrenic nerve','axonal fasciculation',Occurent,'abnormal phrenic nerve morphology','phrenic nerve',Continuant
+'abnormal cell adhesion','cell adhesion',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal retinal pigmentation','pigmentation',Occurent,'abnormal retinal pigment epithelium morphology','pigmented layer of retina',Continuant
+'bile duct inflammation','inflammatory response',Occurent,'abnormal bile duct physiology','bile duct',Continuant
+'chondrodystrophy','cartilage tissue',Continuant,'abnormal skeleton development','skeletal system development',Occurent
+'ventricular aneurysm','aneurysm',Other,'abnormal heart ventricle morphology','cardiac ventricle',Continuant
+'pancreas lipomatosis','lipoma',Other,'abnormal pancreas morphology','pancreas',Continuant
+'pancreas cysts','cyst',Other,'abnormal pancreas morphology','pancreas',Continuant
+'pancreas fibrosis','fibrosis',Other,'abnormal pancreas morphology','pancreas',Continuant
+'abnormal tooth development','odontogenesis',Occurent,'abnormal tooth morphology','calcareous tooth',Continuant
+'abnormal keratinocyte apoptosis','keratinocyte apoptotic process',Occurent,'abnormal keratinocyte physiology','keratinocyte',Continuant
+'respiratory system inflammation','inflammatory response',Occurent,'abnormal respiratory system physiology','respiratory system',Continuant
+'retina microaneurysm','aneurysm',Other,'abnormal retinal vasculature morphology','retina blood vessel',Continuant
+'abnormal embryonic tissue cell apoptosis','apoptotic process',Occurent,'abnormal embryonic tissue physiology','embryonic tissue',Continuant
+'endometrium fibrosis','fibrosis',Other,'abnormal endometrium morphology','endometrium',Continuant
+'abnormal penile erection','penile erection',Occurent,'abnormal male reproductive system physiology','male reproductive system',Continuant
+'abnormal ejaculation','sperm ejaculation',Occurent,'abnormal male reproductive system physiology','male reproductive system',Continuant
+'abnormal sinuatrial valve morphology','sinoatrial valve',Continuant,'abnormal heart development','heart development',Occurent
+'impaired macrophage phagocytosis','phagocytosis',Occurent,'abnormal macrophage physiology','macrophage',Continuant
+'increased head mesenchyme apoptosis','apoptotic process',Occurent,'abnormal head mesenchyme morphology','head mesenchyme',Continuant
+'abnormal T cell activation','T cell activation',Occurent,'abnormal T cell physiology','T cell',Continuant
+'intracranial hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal nervous system physiology','nervous system',Continuant
+'head mesenchyme necrosis','necrotic cell death',Occurent,'abnormal head mesenchyme morphology','head mesenchyme',Continuant
+'abnormal radial glial cell morphology','radial glial cell',Continuant,'abnormal neuron differentiation','neurogenesis',Occurent
+'abnormal macrophage cytokine production','macrophage cytokine production',Occurent,'abnormal macrophage physiology','macrophage',Continuant
+'abnormal macrophage apoptosis','macrophage apoptotic process',Occurent,'abnormal macrophage physiology','macrophage',Continuant
+'abnormal pulmonary circulation','blood circulation',Occurent,'abnormal respiratory system physiology','respiratory system',Continuant
+'abnormal mitotic spindle morphology','mitotic spindle',Continuant,'abnormal mitosis','GO_0007067',Other
+'abnormal mitotic spindle assembly checkpoint','mitotic spindle assembly checkpoint',Occurent,'abnormal mitosis','GO_0007067',Other
+'abnormal macrophage activation involved in immune response','macrophage activation involved in immune response',Occurent,'abnormal macrophage physiology','macrophage',Continuant
+'abnormal dendritic cell antigen presentation','dendritic cell antigen processing and presentation',Occurent,'abnormal dendritic cell physiology','dendritic cell',Continuant
+'abnormal otic vesicle morphology','ear vesicle',Continuant,'abnormal ear development','ear development',Occurent
+'oligozoospermia','sperm',Continuant,'abnormal spermatogenesis','spermatogenesis',Occurent
+'bone necrosis','necrotic cell death',Occurent,'abnormal skeleton physiology','skeletal system',Continuant
+'hemarthrosis','hemorrhage and non-specified extravasation',Other,'abnormal joint morphology','skeletal joint',Continuant
+'pulmonary interstitial fibrosis','fibrosis',Other,'abnormal lung interstitium morphology','lung connective tissue',Continuant
+'abnormal ultimobranchial body morphology','ultimobranchial body',Continuant,'abnormal thyroid gland development','thyroid gland development',Occurent
+'pancreas inflammation','inflammatory response',Occurent,'abnormal pancreas physiology','pancreas',Continuant
+'incomplete rostral neuropore closure','anterior neuropore',Continuant,'abnormal neural tube closure','neural tube closure',Occurent
+'impaired contractility of urinary bladder detrusor smooth muscle','intestine smooth muscle contraction',Occurent,'abnormal urinary bladder physiology','urinary bladder',Continuant
+'abnormal circadian sleep/wake cycle','circadian sleep/wake cycle',Occurent,'abnormal sleep pattern','sleeping behavior',Other
+'abnormal thyroglossal duct morphology','thyroglossal duct',Continuant,'abnormal thyroid gland development','thyroid gland development',Occurent
+'abnormal blood pressure regulation','regulation of blood pressure',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'epistaxis','hemorrhage and non-specified extravasation',Other,'abnormal nose morphology','nose',Continuant
+'penis inflammation','inflammatory response',Occurent,'abnormal male reproductive system physiology','male reproductive system',Continuant
+'abnormal inner ear development','inner ear development',Occurent,'abnormal inner ear morphology','internal ear',Continuant
+'abnormal thrombopoiesis','thrombocyte differentiation',Occurent,'abnormal platelet morphology','platelet',Continuant
+'decreased susceptibility to hyperlipidemia','multicellular organism',Continuant,'abnormal lipid homeostasis','lipid homeostasis',Occurent
+'nephron necrosis','necrotic cell death',Occurent,'abnormal nephron morphology','nephron',Continuant
+'abnormal tail bud morphology','post-anal tail bud',Continuant,'abnormal tail development','post-anal tail morphogenesis',Occurent
+'abnormal hearing physiology','sensory perception of sound',Occurent,'abnormal ear physiology','ear',Continuant
+'abnormal placenta development','placenta development',Occurent,'abnormal placenta physiology','placenta',Continuant
+'throat cyst','cyst',Other,'abnormal throat morphology','throat',Continuant
+'retention of the adrenal gland x-zone','programmed cell death',Occurent,'abnormal adrenal gland x-zone morphology','adrenal gland X zone',Continuant
+'abnormal dermal melanocyte morphology','dermal melanocyte',Continuant,'abnormal dermal pigmentation','pigmentation',Occurent
+'abnormal epidermal melanocyte morphology','skin epidermis',Continuant,'abnormal epidermal pigmentation','pigmentation',Occurent
+'abnormal redox activity','regulation of oxidoreductase activity',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal cellular cholesterol metabolism','cholesterol metabolic process',Occurent,'abnormal cell physiology','cell',Continuant
+'increased hepatocyte apoptosis','apoptotic process',Occurent,'abnormal hepatocyte physiology','hepatocyte',Continuant
+'decreased embryonic epiblast cell proliferation','cell proliferation',Occurent,'abnormal embryonic epiblast morphology','inner cell mass derived epiblast',Continuant
+'increased embryonic epiblast cell apoptosis','apoptotic process',Occurent,'abnormal embryonic epiblast morphology','inner cell mass derived epiblast',Continuant
+'abnormal vascular endothelial cell adhesion','cell adhesion',Occurent,'abnormal vascular endothelial cell physiology','blood vessel endothelial cell',Continuant
+'increased hepatocyte proliferation','hepatocyte proliferation',Occurent,'abnormal hepatocyte physiology','hepatocyte',Continuant
+'abnormal monocyte differentiation','monocyte differentiation',Occurent,'abnormal monocyte morphology','monocyte',Continuant
+'abnormal surfactant secretion','secretion',Occurent,'abnormal surfactant physiology','surfactant',Continuant
+'ear inflammation','inflammatory response',Occurent,'abnormal ear physiology','ear',Continuant
+'incomplete caudal neuropore closure','posterior neuropore',Continuant,'abnormal neural tube closure','neural tube closure',Occurent
+'early degeneration of the adrenal gland x-zone','programmed cell death',Occurent,'abnormal adrenal gland x-zone morphology','adrenal gland X zone',Continuant
+'lung cysts','cyst',Other,'abnormal lung morphology','lung',Continuant
+'fused somites','somite',Continuant,'abnormal somite development','somite development',Occurent
+'myocardial necrosis','necrotic cell death',Occurent,'abnormal myocardium layer morphology','myocardium',Continuant
+'decreased cytotoxic T cell apoptosis','apoptotic process',Occurent,'abnormal cytotoxic T cell physiology',"'CD8-positive, alpha-beta cytotoxic T cell'",Continuant
+'increased cytotoxic T cell apoptosis','apoptotic process',Occurent,'abnormal cytotoxic T cell physiology',"'CD8-positive, alpha-beta cytotoxic T cell'",Continuant
+'abnormal cell cycle','cell cycle',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal hemopoiesis','hemopoiesis',Occurent,'abnormal blood cell morphology/development','blood cell',Continuant
+'impaired hematopoiesis','hemopoiesis',Occurent,'abnormal blood cell morphology/development','blood cell',Continuant
+'small gonad','gonad',Continuant,'abnormal primary sex determination','primary sex determination',Occurent
+'abnormal lymphangiogenesis','lymphangiogenesis',Occurent,'abnormal lymphatic vessel morphology','lymphatic vessel',Continuant
+'premature hair loss','multicellular organism',Continuant,'abnormal hair growth','anagen',Occurent
+"'abnormal CD8-positive, alpha-beta memory T cell proliferation'",'cell proliferation',Occurent,'abnormal memory T cell physiology','memory T cell',Continuant
+'abnormal endometrial gland development','uterine gland development',Occurent,'abnormal endometrial gland morphology','endometrial gland',Continuant
+'abnormal Bergmann glial cell differentiation','Bergmann glial cell differentiation',Occurent,'abnormal Bergmann glial cell morphology','Bergmann glial cell',Continuant
+'intestinal fibrosis','fibrosis',Other,'abnormal intestine morphology','intestine',Continuant
+'abnormal hemopoiesis','hemopoiesis',Occurent,'abnormal blood cell morphology','blood cell',Continuant
+'abnormal vascular endothelial cell proliferation','cell proliferation',Occurent,'abnormal vascular endothelial cell physiology','blood vessel endothelial cell',Continuant
+'abnormal ovarian secretion','secretion by tissue',Occurent,'abnormal ovary physiology','ovary',Continuant
+'abnormal hypoglossal cord morphology','hypoglossal cord',Continuant,'abnormal myogenesis','muscle cell development',Occurent
+'abnormal adipose tissue development','adipose tissue development',Occurent,'abnormal adipose tissue morphology','adipose tissue',Continuant
+'abnormal long bone hypertrophic chondrocyte zone','long bone epiphyseal plate hypertrophic zone',Continuant,'abnormal cartilage development','cartilage development',Occurent
+'increased pancreatic alpha cell proliferation','cell proliferation',Occurent,'abnormal pancreatic alpha cell physiology','pancreatic A cell',Continuant
+'abnormal pancreatic beta cell apoptosis','apoptotic process',Occurent,'abnormal pancreatic beta cell physiology','type B pancreatic cell',Continuant
+'abnormal cartilage development','cartilage development',Occurent,'abnormal cartilage morphology','cartilage tissue',Continuant
+'abnormal epidermal stem cell proliferation','cell proliferation',Occurent,'abnormal epidermal stem cell physiology','stem cell of epidermis',Continuant
+'abnormal epidermal stem cell apoptosis','apoptotic process',Occurent,'abnormal epidermal stem cell physiology','stem cell of epidermis',Continuant
+'abnormal small intestinal crypt cell proliferation','cell proliferation',Occurent,'abnormal small intestinal crypt cell physiology','crypt of Lieberkuhn of small intestine',Continuant
+'abnormal rib development','animal organ development',Occurent,'abnormal rib morphology','rib',Continuant
+'impaired luteinization','luteinization',Occurent,'abnormal female reproductive system physiology','female reproductive system',Continuant
+'heart left ventricle aneurysm','aneurysm',Other,'abnormal heart left ventricle morphology','heart left ventricle',Continuant
+'heart right ventricle aneurysm','aneurysm',Other,'abnormal heart right ventricle morphology','heart right ventricle',Continuant
+'vascular inflammation','inflammatory response',Occurent,'abnormal blood vessel physiology','blood vessel',Continuant
+'dermal cysts','cyst',Other,'abnormal dermal layer morphology','dermis',Continuant
+'abnormal vestibuloocular reflex','vestibulo-ocular reflex',Other,'abnormal vestibular system physiology','vestibular system',Continuant
+'skeletal muscle fiber necrosis','necrotic cell death',Occurent,'abnormal skeletal muscle fiber morphology','cell of skeletal muscle',Continuant
+'increased mammary gland epithelial cell proliferation','mammary gland epithelial cell proliferation',Occurent,'abnormal mammary gland epithelium physiology','epithelium of mammary gland',Continuant
+'decreased mammary gland epithelial cell proliferation','mammary gland epithelial cell proliferation',Occurent,'abnormal mammary gland epithelium physiology','epithelium of mammary gland',Continuant
+'photophobia','camera-type eye',Continuant,'abnormal behavioral response to light','behavioral response to light',Other
+'abnormal PP cell differentiation','pancreatic PP cell differentiation',Occurent,'abnormal PP cell morphology','PP cell',Continuant
+'decreased regulatory T cell apoptosis','apoptotic process',Occurent,'abnormal regulatory T cell physiology','regulatory T cell',Continuant
+'increased regulatory T cell apoptosis','apoptotic process',Occurent,'abnormal regulatory T cell physiology','regulatory T cell',Continuant
+'abnormal primary cilium morphology','GO_0072372',Other,'abnormal cilium morphology','cilium',Continuant
+'reduced foot pad pigmentation','epidermis of metapodial pad',Continuant,'decreased foot pigmentation','pigmentation',Occurent
+'abnormal pancreatic epsilon cell differentiation','pancreatic epsilon cell differentiation',Occurent,'abnormal pancreatic epsilon cell morphology','pancreatic epsilon cell',Continuant
+'urinary bladder inflammation','inflammatory response',Occurent,'abnormal urinary bladder physiology','urinary bladder',Continuant
+'testis fibrosis','fibrosis',Other,'abnormal testis morphology','testis',Continuant
+'abnormal kidney mesenchyme morphology','kidney mesenchyme',Continuant,'abnormal kidney development','kidney development',Occurent
+'myositis','myositis',Other,'abnormal muscle physiology','muscle organ',Continuant
+'abnormal leukopoiesis','leukocyte differentiation',Occurent,'abnormal immune system cell morphology','immune system',Continuant
+'abnormal fertilization','fertilization',Occurent,'abnormal reproductive system physiology','reproductive system',Continuant
+'abnormal nervous system development','nervous system development',Occurent,'abnormal nervous system morphology','nervous system',Continuant
+'hemothorax','hemorrhage and non-specified extravasation',Other,'abnormal pulmonary circulation','blood circulation',Occurent
+'increased pancreas apoptosis','apoptotic process',Occurent,'abnormal pancreas physiology','pancreas',Continuant
+'abnormal primary cilium physiology','GO_0072372',Other,'abnormal cilium physiology','cilium',Continuant
+'abnormal T follicular helper cell differentiation','T follicular helper cell differentiation',Occurent,'abnormal T follicular helper cell morphology','T follicular helper cell',Continuant
+'abnormal pancreatic polypeptide secretion','pancreatic polypeptide secretion',Occurent,'abnormal PP cell physiology','PP cell',Continuant
+'increased spinal cord apoptosis','apoptotic process',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'abnormal keratinocyte adhesion','cell adhesion',Occurent,'abnormal keratinocyte physiology','keratinocyte',Continuant
+'abnormal mammary gland growth during lactation','mammary gland',Continuant,'abnormal mammary gland development','mammary gland development',Occurent
+'abnormal DNA-templated transcription',"'transcription, DNA-templated'",Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal cell motility','cell motility',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal male meiosis','male meiotic nuclear division',Occurent,'abnormal meiosis','GO_0007126',Other
+'abnormal female meiosis','female meiotic nuclear division',Occurent,'abnormal meiosis','GO_0007126',Other
+'folliculitis','inflammatory response',Occurent,'abnormal hair follicle morphology','hair follicle',Continuant
+'abnormal nasal pit morphology','olfactory pit',Continuant,'abnormal respiratory system development','respiratory system development',Occurent
+'abnormal eosinophil differentiation','eosinophil differentiation',Occurent,'abnormal eosinophil morphology','eosinophil',Continuant
+'abnormal neutrophil differentiation','neutrophil differentiation',Occurent,'abnormal neutrophil morphology','neutrophil',Continuant
+'abnormal nasal placode morphology','olfactory placode',Continuant,'abnormal respiratory system development','respiratory system development',Occurent
+'adipose tissue inflammation','inflammatory response',Occurent,'abnormal adipose tissue physiology','adipose tissue',Continuant
+'impaired neural crest cell differentiation','cell differentiation',Occurent,'abnormal neural crest cell morphology','migratory neural crest cell',Continuant
+'underdeveloped hair follicles','hair follicle',Continuant,'abnormal hair follicle development','hair follicle development',Occurent
+'emphysema','emphysema',Other,'abnormal pulmonary acinus morphology','pulmonary acinus',Continuant
+'abnormal bile secretion','bile acid secretion',Occurent,'abnormal gallbladder physiology','gall bladder',Continuant
+'abnormal synaptic transmission','chemical synaptic transmission',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'epidermal necrosis','necrotic cell death',Occurent,'abnormal epidermal layer morphology','skin epidermis',Continuant
+'abnormal umbilical artery morphology','umbilical artery',Continuant,'abnormal artery development','artery development',Occurent
+'spleen fibrosis','fibrosis',Other,'abnormal spleen morphology','spleen',Continuant
+'abnormal lipoprotein level','lipoprotein',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal urine potassium level','potassium atom',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'colonic necrosis','necrotic cell death',Occurent,'abnormal colon morphology','colon',Continuant
+'skin fibrosis','fibrosis',Other,'abnormal skin morphology','zone of skin',Continuant
+'interventricular septum membranous part aneurysm','aneurysm',Other,'abnormal interventricular septum membranous part morphology','interventricular septum membranous part',Continuant
+'abnormal pancreatic delta cell differentiation','pancreatic D cell differentiation',Occurent,'abnormal pancreatic delta cell morphology','pancreatic D cell',Continuant
+'abnormal pancreatic alpha cell differentiation','pancreatic A cell differentiation',Occurent,'abnormal pancreatic alpha cell morphology','pancreatic A cell',Continuant
+'abnormal pancreatic beta cell differentiation','type B pancreatic cell differentiation',Occurent,'abnormal pancreatic beta cell morphology','type B pancreatic cell',Continuant
+'abnormal tailgut morphology','tailgut',Continuant,'abnormal digestive system development','digestive system development',Occurent
+'abnormal hindgut morphology','hindgut',Continuant,'abnormal digestive system development','digestive system development',Occurent
+'abnormal cell differentiation','cell differentiation',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal dental mesenchyme morphology','uncondensed odontogenic mesenchyme',Continuant,'abnormal tooth development','odontogenesis',Occurent
+'ovary hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal ovary physiology','ovary',Continuant
+'growth retardation of molars','molar tooth',Continuant,'abnormal tooth development','odontogenesis',Occurent
+'impaired luteal cell differentiation','cell differentiation',Occurent,'abnormal corpus luteum morphology','corpus luteum',Continuant
+'adipose tissue necrosis','necrotic cell death',Occurent,'abnormal adipose tissue morphology','adipose tissue',Continuant
+'ovary cysts','cyst',Other,'abnormal ovary morphology','ovary',Continuant
+'gastric ulcer','ulcer',Other,'abnormal stomach mucosa morphology','mucosa of stomach',Continuant
+'abnormal liver development','liver development',Occurent,'abnormal liver morphology','liver',Continuant
+'abnormal somite shape','somite',Continuant,'abnormal somite development','somite development',Occurent
+'abnormal embryo development','embryo development',Occurent,'embryo phenotype','conceptus',Continuant
+'perivascular fibrosis','fibrosis',Other,'abnormal blood vessel morphology','blood vessel',Continuant
+'stomach inflammation','inflammatory response',Occurent,'abnormal digestive system physiology','digestive system',Continuant
+'abnormal blood gas level','oxygen atom',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal circulating ammonia level','ammonia',Continuant,'abnormal ammonia homeostasis','ammonia homeostasis',Occurent
+'abnormal thymus apoptosis','apoptotic process',Occurent,'abnormal thymus physiology','thymus',Continuant
+'abnormal muscle cell glucose uptake','glucose import',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'agonadal','gonad',Continuant,'abnormal primary sex determination','primary sex determination',Occurent
+'abnormal embryonic neuroepithelial layer differentiation','neuromast development',Occurent,'abnormal embryonic neuroepithelium morphology','germinal neuroepithelium',Continuant
+'abnormal chondrocyte differentiation','chondrocyte differentiation',Occurent,'abnormal chondrocyte morphology','chondrocyte',Continuant
+'abnormal cardiac muscle contractility','cardiac muscle contraction',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal suckling behavior','suckling behavior',Other,'abnormal eating behavior','eating behavior',Occurent
+'kidney microaneurysm','aneurysm',Other,'abnormal kidney blood vessel morphology','kidney blood vessel',Continuant
+'abnormal vestibulocochlear ganglion morphology','vestibulocochlear ganglion',Continuant,'abnormal nervous system development','nervous system development',Occurent
+'gastric necrosis','necrotic cell death',Occurent,'abnormal stomach morphology','stomach',Continuant
+'tendonitis','inflammatory response',Occurent,'abnormal tendon physiology','tendon',Continuant
+'abnormal kinocilium morphology','kinocilium',Continuant,'abnormal nonmotile primary cilium morphology','GO_0031513',Other
+'abnormal embryonic autopod plate morphology','embryonic autopod plate',Continuant,'abnormal limb development','limb development',Occurent
+'abnormal muscle relaxation','relaxation of muscle',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'dental pulp necrosis','necrotic cell death',Occurent,'abnormal dental pulp morphology','dental pulp',Continuant
+'abnormal hepatoblast morphology','hepatoblast',Continuant,'abnormal hepatobiliary system development','system development',Occurent
+'impaired lung lobe morphogenesis','lung lobe morphogenesis',Occurent,'abnormal lung lobe morphology','lobe of lung',Continuant
+'abnormal hepatic diverticulum morphology','hepatic diverticulum',Continuant,'abnormal hepatobiliary system development','system development',Occurent
+'prostate gland inflammation','inflammatory response',Occurent,'abnormal prostate gland physiology','prostate gland',Continuant
+'abnormal common myeloid progenitor cell morphology','common myeloid progenitor',Continuant,'abnormal definitive hematopoiesis','definitive hemopoiesis',Occurent
+'abnormal alcohol consumption','alcohol consumption',Other,'abnormal drinking behavior','drinking behavior',Occurent
+'abnormal Purkinje cell differentiation','cerebellar Purkinje cell differentiation',Occurent,'abnormal Purkinje cell morphology','Purkinje cell',Continuant
+'abnormal bone healing','wound healing',Occurent,'abnormal skeleton physiology','skeletal system',Continuant
+'abnormal bone remodeling','bone remodeling',Occurent,'abnormal skeleton physiology','skeletal system',Continuant
+'joint inflammation','inflammatory response',Occurent,'abnormal skeleton physiology','skeletal system',Continuant
+'aortic elastic tissue lesions','tissue specific degenerative process',Other,'abnormal aorta elastic tissue morphology','aorta elastic tissue',Continuant
+'ulcerated paws','ulcer',Other,'abnormal autopod morphology','autopod region',Continuant
+'abnormal sebaceous lipid secretion','secretion by tissue',Occurent,'abnormal sebaceous gland physiology','sebaceous gland',Continuant
+'uterine hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal uterus physiology','uterus',Continuant
+'abnormal digestion','digestion',Occurent,'abnormal digestive system physiology','digestive system',Continuant
+'abnormal learning/memory/conditioning','learning or memory',Occurent,'abnormal cognition','cognitive behavior',Other
+'renal glomerulus fibrosis','fibrosis',Other,'abnormal renal glomerulus morphology','renal glomerulus',Continuant
+'premature cranial synchondrosis closure','cranial synchondrosis',Continuant,'premature endochondral bone ossification','endochondral ossification',Occurent
+'premature craniofacial suture closure','craniofacial suture',Continuant,'premature intramembranous bone ossification','intramembranous ossification',Occurent
+'delayed fontanelle closure','fontanelle',Continuant,'delayed intramembranous bone ossification','intramembranous ossification',Occurent
+'hemopericardium','hemorrhage and non-specified extravasation',Other,'abnormal pericardial cavity morphology','pericardial cavity',Continuant
+'lacrimal gland necrosis','necrotic cell death',Occurent,'abnormal lacrimal gland morphology','lacrimal gland',Continuant
+'periodontal ligament necrosis','necrotic cell death',Occurent,'abnormal periodontal ligament morphology','periodontal ligament',Continuant
+'abnormal lipid oxidation','lipid oxidation',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal cellular respiration','cellular respiration',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal leukocyte migration','leukocyte migration',Occurent,'abnormal leukocyte physiology','leukocyte',Continuant
+'abnormal pupillary reflex','pupillary light reflex',Other,'abnormal eye physiology','camera-type eye',Continuant
+'increased eye tumor incidence','neoplasm',Other,'abnormal eye morphology','camera-type eye',Continuant
+'abnormal liver bud morphology','liver primordium',Continuant,'abnormal liver development','liver development',Occurent
+'abnormal tooth mineralization','tooth mineralization',Occurent,'abnormal tooth hard tissue morphology','odontoid tissue',Continuant
+'pathological neovascularization','blood vessel remodeling',Occurent,'abnormal blood vessel physiology','blood vessel',Continuant
+'abnormal telencephalon development','telencephalon development',Occurent,'abnormal telencephalon morphology','telencephalon',Continuant
+'premature fontanelle closure','fontanelle',Continuant,'premature intramembranous bone ossification','intramembranous ossification',Occurent
+'abnormal B cell differentiation','B cell differentiation',Occurent,'abnormal B cell morphology','B cell',Continuant
+'abnormal olfactory epithelium cilium morphology','GO_0031513',Other,'abnormal olfactory epithelium morphology','olfactory epithelium',Continuant
+'vacuolated lens','lens of camera-type eye',Continuant,'abnormal lens development','lens development in camera-type eye',Occurent
+'abnormal epiphyseal plate morphology','epiphyseal plate',Continuant,'abnormal skeleton development','skeletal system development',Occurent
+'abnormal intraocular muscle development','muscle organ development',Occurent,'abnormal intraocular muscle morphology','intra-ocular muscle',Continuant
+'ectopia lentis','lens of camera-type eye',Continuant,'abnormal eye development','eye development',Occurent
+'aniridia','iris',Continuant,'abnormal eye development','eye development',Occurent
+'abnormal meiotic spindle morphology','meiotic spindle',Continuant,'abnormal meiosis','GO_0007126',Other
+'abnormal meiotic spindle assembly checkpoint','meiotic spindle assembly checkpoint',Occurent,'abnormal meiosis','GO_0007126',Other
+'abnormal intestine apoptosis','apoptotic process',Occurent,'abnormal intestine physiology','intestine',Continuant
+'abnormal lactation','lactation',Occurent,'abnormal mammary gland physiology','mammary gland',Continuant
+'abnormal induced retinal neovascularization','retina',Continuant,'retinal neovascularization','blood vessel remodeling',Occurent
+'abnormal circulating glucose level','glucose',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal tail development','post-anal tail morphogenesis',Occurent,'abnormal tail morphology','post-anal tail',Continuant
+'salivary gland inflammation','inflammatory response',Occurent,'abnormal salivary gland physiology','saliva-secreting gland',Continuant
+'abnormal neurohypophysis development','neurohypophysis development',Occurent,'abnormal neurohypophysis morphology','neurohypophysis',Continuant
+'abnormal amniotic fluid composition','amniotic fluid',Continuant,'abnormal fluid regulation','regulation of body fluid levels',Occurent
+'abnormal neuron apoptosis','neuron apoptotic process',Occurent,'abnormal neuron physiology','neuron',Continuant
+'abnormal adenohypophysis development','adenohypophysis development',Occurent,'abnormal adenohypophysis morphology','adenohypophysis',Continuant
+'skeletal muscle fibrosis','fibrosis',Other,'abnormal skeletal muscle morphology','skeletal muscle tissue',Continuant
+'variable depigmentation','zone of skin',Continuant,'abnormal skin pigmentation','pigmentation',Occurent
+'altered righting response','righting reflex',Other,'abnormal motor coordination/balance','neuromuscular process controlling balance',Occurent
+'abnormal motile primary cilium physiology','GO_0031512',Other,'abnormal embryonic tissue physiology','embryonic tissue',Continuant
+'abnormal vasodilation','vasodilation',Occurent,'abnormal vascular smooth muscle physiology','blood vessel smooth muscle',Continuant
+'hepatic steatosis','steatosis',Other,'abnormal liver morphology','liver',Continuant
+'increased skin tumor incidence','neoplasm',Other,'abnormal skin morphology','zone of skin',Continuant
+'abnormal limb development','limb development',Occurent,'abnormal limb morphology','limb',Continuant
+'abnormal motor capabilities/coordination/movement','multicellular organismal movement',Occurent,'abnormal behavior','behavior process',Other
+'fecal incontinence','external anal sphincter',Continuant,'abnormal defecation','defecation',Occurent
+'epididymal cyst','cyst',Other,'abnormal epididymis morphology','epididymis',Continuant
+'decreased skin tumor incidence','neoplasm',Other,'abnormal skin morphology','zone of skin',Continuant
+'abnormal spermatocyte morphology','spermatocyte',Continuant,'abnormal spermatogenesis','spermatogenesis',Occurent
+'abnormal spermatid morphology','spermatid',Continuant,'abnormal spermatogenesis','spermatogenesis',Occurent
+'abnormal sinus venosus morphology','venous sinus',Continuant,'abnormal heart development','heart development',Occurent
+'abnormal urine phosphate level','phosphate',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'increased metanephric mesenchyme apoptosis','apoptotic process',Occurent,'abnormal metanephric mesenchyme morphology','metanephric mesenchyme',Continuant
+'abnormal defecation','defecation',Occurent,'abnormal digestive system physiology','digestive system',Continuant
+'vasculitis','vasculitis',Other,'vascular inflammation','inflammatory response',Occurent
+'abnormal urine osmolality','urine',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal urine calcium level','calcium atom',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal pancreas regeneration','regeneration',Occurent,'abnormal pancreas physiology','pancreas',Continuant
+'sphingomyelinosis','sphingomyelin catabolic process',Occurent,'abnormal sphingomyelin level','sphingomyelin',Continuant
+'abnormal copulation','copulation',Occurent,'abnormal reproductive system physiology','reproductive system',Continuant
+'abnormal blood gas level','oxygen atom',Continuant,'abnormal gas homeostasis','gas homeostasis',Occurent
+'abnormal sclerotome morphology','sclerotome',Continuant,'abnormal skeleton development','skeletal system development',Occurent
+'abnormal vestibulocollic reflex','vestibulocollic reflex',Other,'abnormal vestibular system physiology','vestibular system',Continuant
+'abnormal trophectoderm cell proliferation','trophectodermal cell proliferation',Occurent,'abnormal extraembryonic tissue physiology','extraembryonic structure',Continuant
+'increased trophectoderm apoptosis','apoptotic process',Occurent,'abnormal extraembryonic tissue physiology','extraembryonic structure',Continuant
+'abnormal aortic sac morphology','aortic sac',Continuant,'abnormal cardiovascular development','cardiovascular system development',Occurent
+'pulmonary fibrosis','fibrosis',Other,'abnormal lung morphology','lung',Continuant
+'abnormal vitelline vasculature morphology','vitelline vasculature',Continuant,'abnormal vascular development','blood vessel development',Occurent
+'tubular nephritis','inflammatory response',Occurent,'abnormal renal tubule morphology','nephron tubule',Continuant
+'progressive hair loss','alopecia',Other,'abnormal hair growth','anagen',Occurent
+'abnormal synaptonemal complex','synaptonemal complex',Continuant,'abnormal meiosis','GO_0007126',Other
+'cardiac fibrosis','fibrosis',Other,'abnormal heart morphology','heart',Continuant
+'kidney cortex cysts','cyst',Other,'abnormal kidney cortex morphology','cortex of kidney',Continuant
+'stomatitis','inflammatory response',Occurent,'abnormal digestive system physiology','digestive system',Continuant
+'palate inflammation','inflammatory response',Occurent,'abnormal digestive system physiology','digestive system',Continuant
+'abnormal cell-mediated immunity','leukocyte mediated immunity',Occurent,'abnormal immune system physiology','immune system',Continuant
+'abnormal adaptive immunity','adaptive immune response',Occurent,'abnormal immune system physiology','immune system',Continuant
+'thyroid cyst','cyst',Other,'abnormal thyroid gland morphology','thyroid gland',Continuant
+'bone marrow failure','bone marrow development',Occurent,'abnormal hematopoietic stem cell physiology','hematopoietic stem cell',Continuant
+'abnormal innate immunity','innate immune response',Occurent,'abnormal immune system physiology','immune system',Continuant
+'abnormal cardiogenic plate morphology','cardiogenic plate',Continuant,'abnormal cardiovascular development','cardiovascular system development',Occurent
+'impaired granulocyte bactericidal activity','defense response to bacterium',Occurent,'abnormal granulocyte physiology','granulocyte',Continuant
+'abnormal chloride level','chloride',Continuant,'abnormal ion homeostasis','ion homeostasis',Occurent
+'abnormal synchondrosis','synchondrosis',Continuant,'abnormal cartilage development','cartilage development',Occurent
+'arthritis','arthritis',Other,'joint inflammation','inflammatory response',Occurent
+'abnormal parathyroid gland development','parathyroid gland development',Occurent,'abnormal parathyroid gland morphology','parathyroid gland',Continuant
+'abnormal lymph organ development','hematopoietic or lymphoid organ development',Occurent,'abnormal immune system organ morphology','hemopoietic organ',Continuant
+'thyroid inflammation','inflammatory response',Occurent,'abnormal thyroid physiology','thyroid gland',Continuant
+'abnormal neural plate morphology','neural plate',Continuant,'abnormal nervous system development','nervous system development',Occurent
+'intestinal ulcer','ulcer',Other,'abnormal intestinal mucosa morphology','intestinal mucosa',Continuant
+'perirectal abscess','abscess',Other,'abnormal rectum morphology','rectum',Continuant
+'abnormal circulating magnesium level','magnesium atom',Continuant,'abnormal magnesium ion homeostasis','magnesium ion homeostasis',Occurent
+'abnormal circulating sodium level','sodium atom',Continuant,'abnormal sodium ion homeostasis','sodium ion homeostasis',Occurent
+'abnormal vision','visual perception',Occurent,'abnormal eye physiology','camera-type eye',Continuant
+'decreased mitotic index','cell',Continuant,'abnormal mitosis','GO_0007067',Other
+'abnormal MHC II cell surface expression on macrophages','MHC class II protein complex',Continuant,'abnormal macrophage antigen presentation','macrophage antigen processing and presentation',Occurent
+'increased mitotic index','cell',Continuant,'abnormal mitosis','GO_0007067',Other
+'pancreas necrosis','necrotic cell death',Occurent,'abnormal pancreas morphology','pancreas',Continuant
+'abnormal blood circulation','blood circulation',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal bile duct development','animal organ development',Occurent,'abnormal bile duct morphology','bile duct',Continuant
+'loss of eyelid cilia','eyelash',Continuant,'abnormal hair growth','anagen',Occurent
+'abnormal septation of the cloaca','cloacal septation',Occurent,'abnormal embryonic cloaca morphology','embryonic cloaca',Continuant
+'abnormal level of surface class I molecules','MHC class I protein complex',Continuant,'abnormal antigen presentation via MHC class I','antigen processing and presentation of peptide antigen via MHC class I',Occurent
+'alopecia','strand of hair',Continuant,'abnormal hair growth','anagen',Occurent
+'excessive hair','strand of hair',Continuant,'abnormal hair growth','anagen',Occurent
+'focal hair loss','coat of hair',Continuant,'abnormal hair growth','anagen',Occurent
+'short hair','strand of hair',Continuant,'abnormal hair growth','anagen',Occurent
+'sparse hair','strand of hair',Continuant,'abnormal hair growth','anagen',Occurent
+'abnormal histamine physiology','histamine',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal Schwann cell proliferation','Schwann cell proliferation',Occurent,'abnormal Schwann cell physiology','Schwann cell',Continuant
+'aciduria','acid',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'increased foot pad pigmentation','epidermis of metapodial pad',Continuant,'increased foot pigmentation','pigmentation',Occurent
+'abnormal cardiogenic mesoderm morphology','cardiogenic splanchnic mesoderm',Continuant,'abnormal cardiovascular development','cardiovascular system development',Occurent
+'choroid sclerosis','sclerosis',Other,'abnormal optic choroid morphology','optic choroid',Continuant
+'abnormal circulating fructosamine level','fructosamine',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'otosclerosis','sclerosis',Other,'abnormal bony labyrinth','bony labyrinth',Continuant
+'abnormal keratinocyte proliferation','keratinocyte proliferation',Occurent,'abnormal keratinocyte physiology','keratinocyte',Continuant
+'myelofibrosis','fibrosis',Other,'abnormal bone marrow morphology','bone marrow',Continuant
+'abnormal melanocyte differentiation','melanocyte differentiation',Occurent,'abnormal melanocyte morphology','melanocyte',Continuant
+'abnormal microglial cell activation','microglial cell activation',Occurent,'abnormal microglial cell physiology','microglial cell',Continuant
+'abnormal corneal wound healing','wound healing',Occurent,'abnormal cornea physiology','cornea',Continuant
+'white spotting','coat of hair',Continuant,'abnormal coat/hair pigmentation','pigmentation',Occurent
+'paresis','organism subdivision',Continuant,'abnormal voluntary movement','voluntary movement behavior',Other
+'paralysis','organism subdivision',Continuant,'abnormal voluntary movement','voluntary movement behavior',Other
+'increased collagen deposition in the muscles','collagen trimer',Continuant,'abnormal muscle development','muscle organ development',Occurent
+'abnormal pillar cell differentiation','cell differentiation',Occurent,'abnormal pillar cell morphology','pillar cell',Continuant
+'decreased hepatocyte apoptosis','apoptotic process',Occurent,'abnormal hepatocyte physiology','hepatocyte',Continuant
+'abnormal erythrocyte aggregation','erythrocyte aggregation',Occurent,'abnormal erythrocyte physiology','erythrocyte',Continuant
+'abnormal touch/ nociception','cutaneous sensation behavior',Other,'integument phenotype','integumental system',Continuant
+'intestinal/bowel diverticulum','diverticulum',Other,'abnormal intestine morphology','intestine',Continuant
+'intestinal microaneurysm','dissecting aneurysm',Other,'abnormal intestine morphology','intestine',Continuant
+'eye adduction','medial rectus extraocular muscle',Continuant,'abnormal eye movement','eye movement',Other
+'eye abduction','lateral rectus extra-ocular muscle',Continuant,'abnormal eye movement','eye movement',Other
+'palsy of the eye','camera-type eye',Continuant,'abnormal eye movement','eye movement',Other
+'increased insulin sensitivity','multicellular organism',Continuant,'abnormal glucose homeostasis','glucose homeostasis',Occurent
+'mastitis','inflammatory response',Occurent,'abnormal mammary gland physiology','mammary gland',Continuant
+'delayed cranial suture closure','cranial suture',Continuant,'delayed intramembranous bone ossification','intramembranous ossification',Occurent
+'long hair','strand of hair',Continuant,'abnormal hair growth','anagen',Occurent
+'abnormal mammary line morphology','mammary ridge',Continuant,'abnormal mammary gland development','mammary gland development',Occurent
+'peritoneal inflammation','inflammatory response',Occurent,'abnormal digestive system physiology','digestive system',Continuant
+'gastric microaneurysm','aneurysm',Other,'abnormal stomach morphology','stomach',Continuant
+'gastrointestinal ulcer','ulcer',Other,'abnormal digestive system morphology','digestive system',Continuant
+'ascending aorta aneurysm','aneurysm',Other,'abnormal ascending aorta morphology','ascending aorta',Continuant
+'abnormal gametogenesis','gamete generation',Occurent,'abnormal reproductive system morphology','reproductive system',Continuant
+'descending thoracic aorta aneurysm','aneurysm',Other,'abnormal descending thoracic aorta morphology','descending thoracic aorta',Continuant
+'abnormal circulating glucose level','glucose',Continuant,'abnormal glucose homeostasis','glucose homeostasis',Occurent
+'liver inflammation','inflammatory response',Occurent,'abnormal liver physiology','liver',Continuant
+'persistent truncus arteriosis','pulmonary artery',Continuant,'abnormal truncus arteriosus septation','division septum assembly',Occurent
+'esophageal inflammation','inflammatory response',Occurent,'abnormal digestive system physiology','digestive system',Continuant
+'altered response of heart to induced stress','response to stress',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal hair cycle','hair cycle',Occurent,'abnormal skin adnexa physiology','integumentary adnexa',Continuant
+'abnormal cervical flexure morphology','cervical flexure',Continuant,'abnormal brain development','brain development',Occurent
+'abdominal aorta aneurysm','aneurysm',Other,'abnormal abdominal aorta morphology','abdominal aorta',Continuant
+'abnormal pancreatic beta cell proliferation','type B pancreatic cell proliferation',Occurent,'abnormal pancreatic beta cell physiology','type B pancreatic cell',Continuant
+'abnormal primary vitreous morphology','primary vitreous',Continuant,'abnormal eye development','eye development',Occurent
+'abnormal primordial meninx morphology','future meninx',Continuant,'abnormal brain development','brain development',Occurent
+'abnormal renal plasma flow rate','blood plasma',Continuant,'abnormal blood flow velocity','blood circulation',Occurent
+'abnormal placental transport','transport',Occurent,'abnormal placenta physiology','placenta',Continuant
+'abnormal brain zinc level','zinc atom',Continuant,'abnormal zinc homeostasis','cellular zinc ion homeostasis',Occurent
+'abnormal circulating lipoprotein level','lipoprotein',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal discrimination learning','discrimination learning',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'abnormal urine pH','urine',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal motor learning','motor learning',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'uterus inflammation','inflammatory response',Occurent,'abnormal uterus physiology','uterus',Continuant
+'abnormal lymph circulation','lymph circulation',Occurent,'abnormal lymphatic system physiology','lymphatic part of lymphoid system',Continuant
+'sagittal suture sclerosis','sclerosis',Other,'abnormal sagittal suture morphology','sagittal suture',Continuant
+'lambdoid suture sclerosis','sclerosis',Other,'abnormal lambdoid suture morphology','lambdoid suture',Continuant
+'coronal suture sclerosis','sclerosis',Other,'abnormal coronal suture morphology','coronal suture',Continuant
+'abnormal motile primary cilium morphology','GO_0031512',Other,'abnormal primitive node morphology','primitive knot',Continuant
+'abnormal urination','micturition',Occurent,'abnormal renal/urinary system physiology','renal system',Continuant
+'abnormal vitelline vein morphology','vitelline vein',Continuant,'abnormal vein development','venous blood vessel development',Occurent
+'abnormal umbilical vein morphology','umbilical vein',Continuant,'abnormal vein development','venous blood vessel development',Occurent
+'abnormal esophagus development','esophagus development',Occurent,'abnormal esophagus morphology','esophagus',Continuant
+'fused cornea and lens','cornea',Continuant,'abnormal lens development','lens development in camera-type eye',Occurent
+'abnormal hair growth','anagen',Occurent,'abnormal coat appearance','coat of hair',Continuant
+'abnormal coat/hair pigmentation','pigmentation',Occurent,'abnormal coat appearance','coat of hair',Continuant
+'abnormal cholangiocyte primary cilium physiology','GO_0031513',Other,'abnormal bile duct physiology','bile duct',Continuant
+'abnormal renal water homeostasis','renal water homeostasis',Occurent,'abnormal kidney physiology','kidney',Continuant
+'abnormal intersomitic artery morphology','intersomitic artery',Continuant,'abnormal artery development','artery development',Occurent
+'abnormal vitelline artery morphology','vitelline artery',Continuant,'abnormal artery development','artery development',Occurent
+'abnormal circulating glucagon level','glucagon',Continuant,'abnormal glucose homeostasis','glucose homeostasis',Occurent
+'abnormal kidney cell proliferation','cell proliferation',Occurent,'abnormal kidney physiology','kidney',Continuant
+'dysphagia','swallowing',Other,'abnormal digestive system physiology','digestive system',Continuant
+'abnormal granulocyte chemotaxis','granulocyte chemotaxis',Occurent,'abnormal granulocyte physiology','granulocyte',Continuant
+'abnormal food intake','food consumption',Other,'abnormal eating behavior','eating behavior',Occurent
+'abnormal digestive system development','digestive system development',Occurent,'abnormal digestive system morphology','digestive system',Continuant
+'abnormal thymus development','thymus development',Occurent,'abnormal thymus morphology','thymus',Continuant
+'increased amnion apoptosis','apoptotic process',Occurent,'abnormal amnion physiology','amnion',Continuant
+'abnormal urine sulfate level','sulfate',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'diarrhea','feces',Continuant,'abnormal defecation','defecation',Occurent
+'abnormal natural killer cell mediated cytotoxicity','natural killer cell mediated cytotoxicity',Occurent,'abnormal NK cell physiology','natural killer cell',Continuant
+'impaired ureteric peristalsis','ureteric peristalsis',Occurent,'abnormal ureter physiology','ureter',Continuant
+'abnormal kidney apoptosis','apoptotic process',Occurent,'abnormal kidney physiology','kidney',Continuant
+'adrenal gland cyst','cyst',Other,'abnormal adrenal gland morphology','adrenal gland',Continuant
+'abnormal adrenal gland development','adrenal gland development',Occurent,'abnormal adrenal gland morphology','adrenal gland',Continuant
+'lacrimal gland inflammation','inflammatory response',Occurent,'abnormal lacrimal gland physiology','lacrimal gland',Continuant
+'abnormal ovulation cycle','ovulation cycle',Occurent,'abnormal female reproductive system physiology','female reproductive system',Continuant
+'abnormal macrophage chemotaxis','macrophage chemotaxis',Occurent,'abnormal macrophage physiology','macrophage',Continuant
+'abnormal pineal gland development','pineal gland development',Occurent,'abnormal pineal gland morphology','pineal body',Continuant
+'duodenal lesions','tissue specific degenerative process',Other,'abnormal duodenum morphology','duodenum',Continuant
+'decreased hepatocyte proliferation','hepatocyte proliferation',Occurent,'abnormal hepatocyte physiology','hepatocyte',Continuant
+'emphysema','emphysema',Other,'abnormal respiratory system physiology','respiratory system',Continuant
+'patent ductus venosus','ductus venosus',Continuant,'abnormal vascular regression','apoptotic process involved in blood vessel morphogenesis',Occurent
+'uterine cervix inflammation','inflammatory response',Occurent,'abnormal uterus physiology','uterus',Continuant
+'arteriosclerosis','sclerosis',Other,'abnormal artery morphology','artery',Continuant
+'small embryonic telencephalon','future telencephalon',Continuant,'abnormal telencephalon development','telencephalon development',Occurent
+'abnormal organ of Corti supporting cell proliferation','cell proliferation',Occurent,'abnormal organ of Corti supporting cell physiology','organ of Corti supporting cell',Continuant
+'abnormal thyroid gland development','thyroid gland development',Occurent,'abnormal thyroid gland morphology','thyroid gland',Continuant
+'abnormal intestine regeneration','regeneration',Occurent,'abnormal intestine physiology','intestine',Continuant
+'abnormal osteocyte apoptosis','apoptotic process',Occurent,'abnormal osteocyte physiology','osteocyte',Continuant
+'abnormal primordial germ cell apoptosis','apoptotic process',Occurent,'abnormal germ cell physiology','germ cell',Continuant
+'abnormal rostral migratory stream morphology','rostral migratory stream',Continuant,'abnormal olfactory bulb development','olfactory bulb development',Occurent
+'abnormal osteoblast differentiation','osteoblast differentiation',Occurent,'abnormal osteoblast morphology','osteoblast',Continuant
+'abnormal sex gland secretion','secretion by tissue',Occurent,'abnormal sex gland physiology','reproductive gland',Continuant
+'abnormal cell proliferation','cell proliferation',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal osteoclast differentiation','osteoclast differentiation',Occurent,'abnormal osteoclast morphology','osteoclast',Continuant
+'kidney inflammation','inflammatory response',Occurent,'abnormal kidney physiology','kidney',Continuant
+'abnormal cell death','cell death',Occurent,'abnormal cell physiology','cell',Continuant
+'abnormal platelet calcium level','calcium atom',Continuant,'abnormal calcium ion homeostasis','calcium ion homeostasis',Occurent
+'abnormal hematopoietic stem cell proliferation','hematopoietic stem cell proliferation',Occurent,'abnormal hematopoietic stem cell physiology','hematopoietic stem cell',Continuant
+'hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal blood circulation','blood circulation',Occurent
+'abnormal pituitary gland development','pituitary gland development',Occurent,'abnormal pituitary gland morphology','pituitary gland',Continuant
+'retinal neovascularization','blood vessel remodeling',Occurent,'abnormal retinal vasculature morphology','retina blood vessel',Continuant
+'abnormal spleen mesenchyme morphology','spleen primordium',Continuant,'abnormal spleen development','spleen development',Occurent
+'abnormal cardiac muscle relaxation','relaxation of cardiac muscle',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal heartbeat','heart contraction',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'cardiac muscle necrosis','necrotic cell death',Occurent,'abnormal cardiac muscle tissue morphology','cardiac muscle tissue of myocardium',Continuant
+'abnormal glial cell apoptosis','glial cell apoptotic process',Occurent,'abnormal glial cell physiology','glial cell',Continuant
+'abnormal neuron proliferation','cell proliferation',Occurent,'abnormal neuron physiology','neuron',Continuant
+'abnormal cortical marginal zone morphology','brain marginal zone',Continuant,'abnormal telencephalon development','telencephalon development',Occurent
+'abnormal cardiac cell glucose uptake','glucose import',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal thymocyte activation','DN2 thymocyte',Continuant,'abnormal T cell activation','T cell activation',Occurent
+'pulmonary epithelial necrosis','necrotic cell death',Occurent,'abnormal lung epithelium morphology','lung epithelium',Continuant
+'abnormal dorsal-ventral polarity of the somites','somite',Continuant,'abnormal somite development','somite development',Occurent
+'abnormal somite size','somite',Continuant,'abnormal somite development','somite development',Occurent
+'exencephaly','brain',Continuant,'abnormal brain development','brain development',Occurent
+'abnormal muscle precursor cell morphology','muscle precursor cell',Continuant,'abnormal myogenesis','muscle cell development',Occurent
+'abnormal diaphragm development','diaphragm development',Occurent,'abnormal diaphragm morphology','diaphragm',Continuant
+'retinal fibrosis','fibrosis',Other,'abnormal retina morphology','retina',Continuant
+'retinal hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal retina morphology','retina',Continuant
+'delayed fertility','multicellular organism',Continuant,'abnormal sexual maturation','development of secondary sexual characteristics',Occurent
+'outer ear necrosis','necrotic cell death',Occurent,'abnormal outer ear morphology','external ear',Continuant
+'impaired stratum corneum desquamation','corneocyte desquamation',Occurent,'abnormal epidermis stratum corneum morphology','stratum corneum of epidermis',Continuant
+'abnormal intervertebral disk development','animal organ development',Occurent,'abnormal intervertebral disk morphology','intervertebral disk',Continuant
+'abnormal urine uric acid level','uric acid',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal inner cell mass proliferation','inner cell mass cell proliferation',Occurent,'abnormal embryonic tissue physiology','embryonic tissue',Continuant
+'abnormal primordial germ cell proliferation','germ cell proliferation',Occurent,'abnormal germ cell physiology','germ cell',Continuant
+'gastric metaplasia','gastric metaplasia',Other,'abnormal stomach morphology','stomach',Continuant
+'abnormal reproductive system development','reproductive system development',Occurent,'abnormal reproductive system morphology','reproductive system',Continuant
+'absent Schlemm's canal','abnormal canal of Schlemm morphology',Other,'abnormal canal of Schlemm morphology','canal of Schlemm',Continuant
+'decreased susceptibility to induced choroidal neovascularization','optic choroid',Continuant,'choroidal neovascularization','blood vessel remodeling',Occurent
+'abnormal sperm number','sperm',Continuant,'abnormal gametogenesis','gamete generation',Occurent
+'abnormal NK cell physiology','natural killer cell',Continuant,'abnormal innate immunity','innate immune response',Occurent
+'thick lung-associated mesenchyme','lung mesenchyme',Continuant,'abnormal lung development','lung development',Occurent
+'thin lung-associated mesenchyme','lung mesenchyme',Continuant,'abnormal lung development','lung development',Occurent
+'abnormal collateral sprouting','collateral sprouting',Occurent,'abnormal neuron physiology','neuron',Continuant
+'abnormal scrotum pigmentation','pigmentation',Occurent,'abnormal scrotum morphology','scrotum',Continuant
+'abnormal ear pigmentation','pigmentation',Occurent,'abnormal outer ear skin morphology','skin of external ear',Continuant
+'abnormal gamma-delta T cell differentiation','gamma-delta T cell differentiation',Occurent,'abnormal gamma-delta T cell morphology','gamma-delta T cell',Continuant
+'abnormal circulating hyaluronic acid level','hyaluronic acid',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal retinal progenitor cell morphology','retinal progenitor cell',Continuant,'abnormal retinal development','retina development in camera-type eye',Occurent
+'increased megakaryocyte progenitor cell proliferation','cell proliferation',Occurent,'abnormal megakaryocyte progenitor cell physiology','megakaryocyte progenitor cell',Continuant
+'abnormal conotruncal ridge morphology','conotruncal ridge',Continuant,'abnormal cardiac outflow tract development','outflow tract morphogenesis',Occurent
+'abnormal circadian sleep/wake cycle','circadian sleep/wake cycle',Occurent,'abnormal circadian behavior','circadian behavior',Other
+'abnormal locomotor circadian rhythm','locomotor rhythm',Occurent,'abnormal circadian behavior','circadian behavior',Other
+'abnormal limb paddle morphology','limb paddle',Continuant,'abnormal limb development','limb development',Occurent
+'abnormal blood viscosity','blood',Continuant,'abnormal blood circulation','blood circulation',Occurent
+'abnormal metanephric ureteric bud development','metanephric part of ureteric bud development',Occurent,'abnormal ureteric bud morphology','ureteric bud',Continuant
+'abnormal ureter ureteric bud development','ureter part of ureteric bud development',Occurent,'abnormal ureteric bud morphology','ureteric bud',Continuant
+'abnormal blood volume','blood',Continuant,'abnormal blood circulation','blood circulation',Occurent
+'mandibular cysts','cyst',Other,'abnormal mandible morphology','mandible',Continuant
+'renal tubular necrosis','necrotic cell death',Occurent,'abnormal renal tubule morphology','nephron tubule',Continuant
+'abnormal mitosis','GO_0007067',Other,'abnormal cell cycle','cell cycle',Occurent
+'eye hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal eye physiology','camera-type eye',Continuant
+'avnosmia','detection of pheromone',Occurent,'abnormal somatic nervous system physiology','somatic nervous system',Continuant
+'jaw cysts','cyst',Other,'abnormal jaw morphology','jaw skeleton',Continuant
+'vulva cysts','cyst',Other,'abnormal external female genitalia morphology','external female genitalia',Continuant
+'maxillary cysts','cyst',Other,'abnormal maxilla morphology','maxilla',Continuant
+'abnormal hyaloid artery morphology','hyaloid artery',Continuant,'abnormal eye development','eye development',Occurent
+'abnormal optic fissure morphology','optic fissure',Continuant,'abnormal eye development','eye development',Occurent
+'abnormal artery development','artery development',Occurent,'abnormal artery morphology','artery',Continuant
+'abnormal neural fold formation','neural fold formation',Occurent,'abnormal neural fold morphology','neural fold',Continuant
+'abnormal corneal stroma development','substantia propria of cornea development',Occurent,'abnormal corneal stroma morphology','substantia propria of cornea',Continuant
+'altered susceptibility to atherosclerosis','artery',Continuant,'atherosclerotic lesions','atherosclerosis',Other
+'abnormal acrosome reaction','acrosome reaction',Occurent,'abnormal sperm physiology','sperm',Continuant
+'abnormal NK cell differentiation','natural killer cell differentiation',Occurent,'abnormal NK cell morphology','natural killer cell',Continuant
+'abnormal keratinocyte migration','keratinocyte migration',Occurent,'abnormal keratinocyte physiology','keratinocyte',Continuant
+'abnormal sperm capacitation','sperm capacitation',Occurent,'abnormal sperm physiology','sperm',Continuant
+'cranial suture sclerosis','sclerosis',Other,'abnormal cranial suture morphology','cranial suture',Continuant
+'abnormal fat cell differentiation','fat cell differentiation',Occurent,'abnormal fat cell morphology','fat cell',Continuant
+'abnormal brown fat cell differentiation','brown fat cell differentiation',Occurent,'abnormal brown fat cell morphology','brown fat cell',Continuant
+'abnormal lens epithelium apoptosis','apoptotic process',Occurent,'abnormal eye physiology','camera-type eye',Continuant
+'abnormal white fat cell differentation','white fat cell differentiation',Occurent,'abnormal white fat cell morphology','white fat cell',Continuant
+'abnormal associative learning','associative learning behavior',Other,'abnormal learning/memory/conditioning','learning or memory',Occurent
+'abnormal lens fiber apoptosis','apoptotic process',Occurent,'abnormal eye physiology','camera-type eye',Continuant
+'abnormal lipid level','lipid',Continuant,'abnormal lipid homeostasis','lipid homeostasis',Occurent
+'abnormal hepatobiliary system development','system development',Occurent,'abnormal hepatobiliary system morphology','hepatobiliary system',Continuant
+'abnormal bile secretion','bile acid secretion',Occurent,'abnormal bile duct physiology','bile duct',Continuant
+'renal fibrosis','fibrosis',Other,'abnormal kidney morphology','kidney',Continuant
+'abnormal myelination','myelination',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'abnormal rhombic lip morphology','rhombic lip',Continuant,'abnormal brain development','brain development',Occurent
+'abnormal fetal cardiomyocyte proliferation','cell proliferation',Occurent,'abnormal fetal cardiomyocyte physiology','fetal cardiomyocyte',Continuant
+'abnormal neural tube closure','neural tube closure',Occurent,'abnormal neural tube morphology','neural tube',Continuant
+'atrial septal aneurysm','aneurysm',Other,'abnormal interatrial septum morphology','interatrial septum',Continuant
+'impaired granulosa cell differentiation','granulosa cell differentiation',Occurent,'abnormal granulosa cell morphology','granulosa cell',Continuant
+'abnormal vertebral epiphyseal plate morphology','vertebra',Continuant,'abnormal vertebrae development','animal organ development',Occurent
+'abnormal renal filtration','renal filtration',Occurent,'abnormal kidney physiology','kidney',Continuant
+'abnormal retinal apoptosis','apoptotic process',Occurent,'abnormal eye physiology','camera-type eye',Continuant
+'abnormal erythrocyte clearance','erythrocyte clearance',Occurent,'abnormal erythrocyte physiology','erythrocyte',Continuant
+'abnormal mesocardium morphology','mesocardium',Continuant,'abnormal heart development','heart development',Occurent
+'abnormal embryonic erythropoiesis','primitive erythrocyte differentiation',Occurent,'abnormal embryonic erythrocyte morphology','primitive red blood cell',Continuant
+'congestive heart failure','heart contraction',Occurent,'abnormal cardiovascular system physiology','cardiovascular system',Continuant
+'abnormal ameloblast morphology','ameloblast',Continuant,'abnormal enamel development','amelogenesis',Occurent
+'abnormal neuron differentiation','neurogenesis',Occurent,'abnormal neuron morphology','neuron',Continuant
+'abnormal pancreatic primary cilium morphology','GO_0031513',Other,'abnormal pancreas morphology','pancreas',Continuant
+'diaphragmitis','inflammatory response',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'increased facial tumor incidence','neoplasm',Other,'abnormal facial morphology','face',Continuant
+'abnormal hair follicle melanocyte morphology','melanocyte',Continuant,'abnormal coat/hair pigmentation','pigmentation',Occurent
+'abnormal fetal ductus arteriosus morphology','ductus arteriosus',Continuant,'abnormal vascular development','blood vessel development',Occurent
+'abnormal germ cell morphology','germ cell',Continuant,'abnormal gametogenesis','gamete generation',Occurent
+'abnormal ureteric bud morphology','ureteric bud',Continuant,'abnormal urinary system development','renal system development',Occurent
+'aortopulmonary window','pulmonary artery',Continuant,'abnormal truncus arteriosus septation','division septum assembly',Occurent
+'abnormal urine sodium level','sodium atom',Continuant,'abnormal sodium ion homeostasis','sodium ion homeostasis',Occurent
+'abnormal T-helper 17 cell differentiation','T-helper 17 cell differentiation',Occurent,'abnormal T-helper 17 cell morphology','T-helper 17 cell',Continuant
+'abnormal nipple sheath formation','nipple sheath formation',Occurent,'abnormal nipple sheath morphology','nipple sheath',Continuant
+'cardiac interstitial fibrosis','interstitial matrix',Continuant,'cardiac fibrosis','fibrosis',Other
+'increased testis apoptosis','apoptotic process',Occurent,'abnormal testis morphology','testis',Continuant
+'abnormal mammary gland cord formation','mammary gland cord formation',Occurent,'abnormal mammary gland cord morphology','mammary gland cord',Continuant
+'abnormal urine ammonia level','ammonium',Continuant,'abnormal ammonia homeostasis','ammonia homeostasis',Occurent
+'hematuria','erythrocyte',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'reproductive system inflammation','inflammatory response',Occurent,'abnormal reproductive system physiology','reproductive system',Continuant
+'abnormal rhombomere morphology','rhombomere',Continuant,'abnormal hindbrain development','hindbrain development',Occurent
+'abnormal dendritic cell apoptosis','dendritic cell apoptotic process',Occurent,'abnormal dendritic cell physiology','dendritic cell',Continuant
+'renal artery aneurysm','aneurysm',Other,'abnormal renal artery morphology','renal artery',Continuant
+'abnormal cardiac jelly morphology','cardiac jelly',Continuant,'abnormal heart development','heart development',Occurent
+'kidney cysts','cyst',Other,'abnormal kidney morphology','kidney',Continuant
+'abnormal testes secretion','secretion by tissue',Occurent,'abnormal testis physiology','testis',Continuant
+'abnormal ear development','ear development',Occurent,'abnormal ear morphology','ear',Continuant
+'abnormal blood urea nitrogen level','urea',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'nipple hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal nipple morphology','nipple',Continuant
+'abnormal pontine flexure morphology','pontine flexure',Continuant,'abnormal hindbrain development','hindbrain development',Occurent
+'tail necrosis','necrotic cell death',Occurent,'abnormal tail morphology','post-anal tail',Continuant
+'abnormal erythrocyte ion transport','ion transport',Occurent,'abnormal erythrocyte physiology','erythrocyte',Continuant
+'abnormal platelet activation','platelet activation',Occurent,'abnormal platelet physiology','platelet',Continuant
+'ovary inflammation','inflammatory response',Occurent,'abnormal ovary physiology','ovary',Continuant
+'abnormal physical strength','multicellular organism',Continuant,'abnormal motor capabilities/coordination/movement','multicellular organismal movement',Occurent
+'increased neural tube apoptosis','apoptotic process',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'decreased hindbrain apoptosis','apoptotic process',Occurent,'abnormal nervous system physiology','nervous system',Continuant
+'abnormal midbrain-hindbrain boundary morphology','midbrain-hindbrain boundary',Continuant,'abnormal brain development','brain development',Occurent
+'abnormal urine organic anion level','organic anion',Continuant,'abnormal ion homeostasis','ion homeostasis',Occurent
+'abnormal lung development','lung development',Occurent,'abnormal lung morphology','lung',Continuant
+'ovary fibrosis','fibrosis',Other,'abnormal ovary morphology','ovary',Continuant
+'gastric cysts','cyst',Other,'abnormal stomach morphology','stomach',Continuant
+'abnormal circulating ammonia level','ammonia',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal circulating amino acid level','amino acid',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'thoracic aorta aneurysm','aneurysm',Other,'abnormal thoracic aorta morphology','thoracic aorta',Continuant
+'aortic sinus aneurysm','aneurysm',Other,'abnormal aortic sinus morphology','sinus of Valsalva',Continuant
+"'abnormal CD8-positive, alpha-beta T cell differentiation'","'CD8-positive, alpha-beta T cell differentiation'",Occurent,"'abnormal CD8-positive, alpha beta T cell morphology'","'CD8-positive, alpha-beta T cell'",Continuant
+'abnormal adipocyte glucose uptake','glucose import',Occurent,'abnormal adipose tissue physiology','adipose tissue',Continuant
+'thymus fibrosis','fibrosis',Other,'abnormal thymus morphology','thymus',Continuant
+'thymus cysts','cyst',Other,'abnormal thymus morphology','thymus',Continuant
+'abnormal pharyngeal arch artery morphology','pharyngeal arch artery',Continuant,'abnormal artery development','artery development',Occurent
+'abnormal photoreceptor connecting cilium morphology','photoreceptor connecting cilium',Continuant,'abnormal nonmotile primary cilium morphology','GO_0031513',Other
+'abnormal cecum development','caecum development',Occurent,'abnormal cecum morphology','caecum',Continuant
+'osteomalacia','bone element',Continuant,'abnormal bone mineralization','bone mineralization',Occurent
+'abnormal circulating protein level','protein polypeptide chain',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'parotid gland inflammation','inflammatory response',Occurent,'abnormal parotid gland physiology','parotid gland',Continuant
+'intestinal inflammation','inflammatory response',Occurent,'abnormal intestine physiology','intestine',Continuant
+'abnormal kidney epithelial cell primary cilium morphology','GO_0031513',Other,'abnormal kidney epithelium morphology','kidney epithelium',Continuant
+'abnormal subarachnoid space development','subarachnoid space development',Occurent,'abnormal subarachnoid space morphology','subarachnoid space',Continuant
+'abnormal erythropoiesis','erythrocyte development',Occurent,'abnormal erythrocyte morphology','erythrocyte',Continuant
+'abnormal perineural vascular plexus morphology','perineural vascular plexus',Continuant,'abnormal vascular development','blood vessel development',Occurent
+'abnormal testis development','male gonad development',Occurent,'abnormal testis morphology','testis',Continuant
+'pulmonary artery aneurysm','aneurysm',Other,'abnormal pulmonary artery morphology','pulmonary artery',Continuant
+'abnormal astrocyte apoptosis','apoptotic process',Occurent,'abnormal astrocyte physiology','astrocyte',Continuant
+'abnormal oligodendrocyte apoptosis','oligodendrocyte apoptotic process',Occurent,'abnormal oligodendrocyte physiology','oligodendrocyte',Continuant
+'abnormal gestational length','female pregnancy',Occurent,'abnormal female reproductive system physiology','female reproductive system',Continuant
+'abnormal ovary apoptosis','apoptotic process',Occurent,'abnormal ovary physiology','ovary',Continuant
+'uterus fibrosis','fibrosis',Other,'abnormal uterus morphology','uterus',Continuant
+'abnormal circulating ketone body level','ketone body',Continuant,'abnormal lipid homeostasis','lipid homeostasis',Occurent
+'abnormal fetal cardiomyocyte proliferation','cell proliferation',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'failure of atrioventricular cushion closure','endocardial cushion fusion',Occurent,'abnormal atrioventricular cushion morphology','endocardial cushion',Continuant
+'abnormal glucagon secretion','glucagon secretion',Occurent,'abnormal pancreatic alpha cell physiology','pancreatic A cell',Continuant
+'abnormal bone ossification','ossification',Occurent,'abnormal skeleton physiology','skeletal system',Continuant
+'abnormal primitive streak formation','primitive streak formation',Occurent,'abnormal primitive streak morphology','primitive streak',Continuant
+'abnormal insulin secretion','insulin secretion',Occurent,'abnormal pancreatic beta cell physiology','type B pancreatic cell',Continuant
+'sublingual gland inflammation','inflammatory response',Occurent,'abnormal sublingual gland physiology','sublingual gland',Continuant
+'non-pigmented tail tip','pigmentation',Occurent,'abnormal tail tip morphology','post-anal tail tip',Continuant
+'abnormal circulating bicarbonate level','hydrogencarbonate',Continuant,'abnormal blood homeostasis','homeostatic process',Occurent
+'abnormal embryonic cloaca development','cloaca development',Occurent,'abnormal embryonic cloaca morphology','embryonic cloaca',Continuant
+'aneurysm','aneurysm',Other,'abnormal cardiovascular system morphology','cardiovascular system',Continuant
+'perineal fistula','fistula',Other,'abnormal perineum morphology','perineum',Continuant
+'abnormal genital tubercle morphology','undifferentiated genital tubercle',Continuant,'abnormal reproductive system development','reproductive system development',Occurent
+'anoperineal fistula','perineum',Continuant,'perineal fistula','fistula',Other
+'rectoperineal fistula','perineum',Continuant,'perineal fistula','fistula',Other
+'decreased endolymph production','biosynthetic process',Occurent,'abnormal endolymph','endolymph',Continuant
+'increased endolymph production','biosynthetic process',Occurent,'abnormal endolymph','endolymph',Continuant
+'abnormal respiratory system development','respiratory system development',Occurent,'abnormal respiratory system morphology','respiratory system',Continuant
+'impaired neutrophil phagocytosis','phagocytosis',Occurent,'abnormal neutrophil physiology','neutrophil',Continuant
+'absent mature ovarian follicles','mature ovarian follicle',Continuant,'abnormal ovarian folliculogenesis','ovarian follicle development',Occurent
+'abnormal protein level','protein',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal ovarian folliculogenesis','ovarian follicle development',Occurent,'abnormal ovarian follicle morphology','ovarian follicle',Continuant
+'abnormal trophoblast giant cell proliferation','cell proliferation',Occurent,'abnormal placenta physiology','placenta',Continuant
+'abnormal urine citrate level','citrate(3-)',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal cytotoxic T cell cytolysis','T cell mediated cytotoxicity',Occurent,'abnormal cytotoxic T cell physiology',"'CD8-positive, alpha-beta cytotoxic T cell'",Continuant
+'abnormal urine glycerol level','glycerol',Continuant,'abnormal urine homeostasis','homeostatic process',Occurent
+'abnormal lung endothelial cell proliferation','cell proliferation',Occurent,'abnormal lung endothelial cell physiology','lung endothelial cell',Continuant
+'abnormal lung endothelial cell migration','cell migration',Occurent,'abnormal lung endothelial cell physiology','lung endothelial cell',Continuant
+'abnormal megakaryocyte differentiation','megakaryocyte differentiation',Occurent,'abnormal megakaryocyte morphology','megakaryocyte',Continuant
+'genital hemorrhage','hemorrhage and non-specified extravasation',Other,'abnormal reproductive system physiology','reproductive system',Continuant
+'failure of Mullerian duct regression','Mullerian duct regression',Occurent,'abnormal Mullerian duct morphology','Mullerian duct',Continuant
+'decreased activated T cell number','activated T cell proliferation',Occurent,'decreased T cell number','T cell',Continuant
+'abnormal B lymphocyte antigen presentation','B cell antigen processing and presentation',Occurent,'abnormal B cell physiology','B cell',Continuant
+'true hermaphroditism','multicellular organism',Continuant,'abnormal primary sex determination','primary sex determination',Occurent
+'abnormal somite border morphology','somite border',Continuant,'abnormal somite development','somite development',Occurent
+'abnormal hymen development','animal organ development',Occurent,'abnormal vagina orifice morphology','vagina orifice',Continuant
+'abnormal pancreas secretion','secretion by tissue',Occurent,'abnormal pancreas physiology','pancreas',Continuant
+'abnormal porphyrin level','porphyrin',Continuant,'abnormal homeostasis','homeostatic process',Occurent
+'abnormal macrophage antigen presentation','macrophage antigen processing and presentation',Occurent,'abnormal macrophage physiology','macrophage',Continuant
+'abnormal pituitary diverticulum morphology','Rathke's pouch',Continuant,'abnormal adenohypophysis development','adenohypophysis development',Occurent
+'increased submandibular gland apoptosis','apoptotic process',Occurent,'abnormal submandibular gland physiology','submandibular gland',Continuant
+'imperforate hymen','vaginal hymen',Continuant,'abnormal hymen development','animal organ development',Occurent
+'abnormal cardiomyocyte apoptosis','apoptotic process',Occurent,'abnormal muscle physiology','muscle organ',Continuant
+'absent hymen','vaginal hymen',Continuant,'abnormal hymen development','animal organ development',Occurent
+'abnormal vagina development','vagina development',Occurent,'abnormal vagina morphology','vagina',Continuant
+'abnormal cardinal vein morphology','cardinal vein',Continuant,'abnormal vein development','venous blood vessel development',Occurent
+'abnormal heart tube morphology','heart tube',Continuant,'abnormal heart development','heart development',Occurent
+'abnormal dorsal aorta morphology','pair of dorsal aortae',Continuant,'abnormal artery development','artery development',Occurent
+'ophthalmoparesis','eye muscle',Continuant,'abnormal eye movement','eye movement',Other
+'ophthalmoplegia','extra-ocular muscle',Continuant,'abnormal eye movement','eye movement',Other
+'abnormal circadian regulation of heart rate','circadian regulation of heart rate',Other,'abnormal heartbeat','heart contraction',Occurent
+'abnormal intestine development','digestive tract development',Occurent,'abnormal intestine morphology','intestine',Continuant
+'vagina cysts','cyst',Other,'abnormal vagina morphology','vagina',Continuant
+'increased lacrimal gland apoptosis','apoptotic process',Occurent,'abnormal lacrimal gland physiology','lacrimal gland',Continuant
+'abnormal nephron morphogenesis','nephron morphogenesis',Occurent,'abnormal nephron morphology','nephron',Continuant
+'abnormal thyroid diverticulum morphology','diverticulum',Other,'abnormal thyroid gland development','thyroid gland development',Occurent
+'abnormal neuronal stem cell morphology','neuronal stem cell',Continuant,'abnormal nervous system development','nervous system development',Occurent
+'abnormal pro-B cell morphology','pro-B cell',Continuant,'abnormal B cell differentiation','B cell differentiation',Occurent
+'abnormal heart development','heart development',Occurent,'abnormal heart morphology','heart',Continuant
+'abnormal Leydig cell differentiation','Leydig cell differentiation',Occurent,'abnormal Leydig cell morphology','Leydig cell',Continuant
+'abnormal intestinal secretion','intestine secretion',Continuant,'abnormal digestive secretion','secretion by tissue',Occurent
+'lymph node inflammation','inflammatory response',Occurent,'abnormal immune organ physiology','immune organ',Continuant
+'abnormal cholangiocyte primary cilium morphology','GO_0031513',Other,'abnormal cholangiocyte morphology','cholangiocyte',Continuant
+'abnormal retinal melanocyte morphology','retinal melanocyte',Continuant,'abnormal retinal pigmentation','pigmentation',Occurent

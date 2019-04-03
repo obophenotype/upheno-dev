@@ -1,0 +1,147 @@
+sub_label,sub_bearer_label,sub_classification,super_label,super_bearer_label,super_classification
+'aldicarb resistant','organism',Other,'acetylcholinesterase inhibitor resistant','response to drug',Occurent
+'fertilization defective','fertilization',Occurent,'reproductive system physiology variant','reproductive system',Other
+'vesicle trafficking variant','vesicle-mediated transport',Occurent,'cell physiology variant','cell',Continuant
+'sperm excess','sperm',Continuant,'spermatogenesis variant','spermatogenesis',Occurent
+'organ senescence variant','animal organ senescence',Occurent,'organ system morphology variant','Organ system',Other
+'endoplasmic reticulum morphology variant','endoplasmic reticulum',Continuant,'cell component morphology variant','cellular_component',Other
+'precocious alae','cuticular ala',Other,'precocious heterochronic variations',"'regulation of development, heterochronic'",Occurent
+'cell junction variant','cell junction',Other,'cell membrane morphology variant','plasma membrane',Continuant
+'no back end','tail',Other,'L1 arrest','larval development',Occurent
+'larval body morphology variant','organism',Other,'developmental morphology variant','developmental process',Occurent
+'head morphology variant','head',Other,'developmental morphology variant','developmental process',Occurent
+'tail morphology variant','tail',Other,'developmental morphology variant','developmental process',Occurent
+'cilia morphology variant','cilium',Continuant,'cell component morphology variant','cellular_component',Other
+'synapse morphology variant','synapse',Continuant,'cell component morphology variant','cellular_component',Other
+'vulval muscle unresponsive to serotonin','vulval muscle',Other,'egg laying serotonin resistant','oviposition',Occurent
+'nuclear positioning variant','nuclear migration',Occurent,'cell physiology variant','cell',Continuant
+'nuclear division variant','nuclear division',Occurent,'cell physiology variant','cell',Continuant
+'cytoplasmic appearance defective early emb','cytoplasm',Continuant,'early embryonic lethal','organism',Other
+'meiosis variant','meiotic cell cycle',Occurent,'early embryonic lethal','organism',Other
+'endosome morphology variant','endosome',Continuant,'vesicle morphology variant','vesicle',Other
+'germ cell hypersensitive ionizing radiation','germ cell',Continuant,'cell ionizing radiation response variant','cellular response to ionizing radiation',Occurent
+'germ cell resistant ionizing radiation','germ cell',Continuant,'cell ionizing radiation response variant','cellular response to ionizing radiation',Occurent
+'neuron physiology variant','neuron',Other,'blast cell physiology variant','cell',Continuant
+'muscle cell physiology variant','muscle cell',Other,'blast cell physiology variant','cell',Continuant
+'marginal cell physiology variant','marginal cell',Other,'blast cell physiology variant','cell',Continuant
+'neurite morphology variant','neuron projection',Continuant,'neuron morphology variant','neuron',Other
+'vesicle organization variant','vesicle organization',Occurent,'cell component morphology variant','cellular_component',Other
+'cell secretion variant','secretion by cell',Occurent,'cell physiology variant','cell',Continuant
+'epidermis cuticle detached','hypodermis',Other,'cuticle attachment variant','collagen and cuticulin-based cuticle attachment to epithelium',Occurent
+'paralyzed','organism',Other,'locomotion reduced','locomotion',Occurent
+'lannate resistant','organism',Other,'acetylcholinesterase inhibitor resistant','response to drug',Occurent
+'cell physiology variant','cell',Continuant,'physiology variant','organism',Other
+'failure to hatch','hatching',Occurent,'embryonic lethal','organism',Other
+'inhibitors of na k atpase resistant','LIPID MAPS',Continuant,'drug resistant','response to drug',Occurent
+'VPC cell division precocious','vulval precursor cell',Other,'cell division precocious','cell division',Occurent
+'Fluorouracil resistant','Reaxys',Continuant,'drug resistant','response to drug',Occurent
+'imipramine resistant','Reaxys',Continuant,'drug resistant','response to drug',Occurent
+'cell death variant','cell death',Occurent,'blast cell physiology variant','cell',Continuant
+'embryonic cell physiology variant','embryonic cell',Other,'blast cell physiology variant','cell',Continuant
+'cell division variant','cell division',Occurent,'blast cell physiology variant','cell',Continuant
+'cell cycle variant','cell cycle',Occurent,'blast cell physiology variant','cell',Continuant
+'dead eggs laid','egg cell',Continuant,'egg laying variant','oviposition',Occurent
+'synapse morphology variant','synapse',Continuant,'nervous system morphology variant','nervous system',Other
+'chromosome alignment variant','chromosome',Continuant,'chromosome segregation variant','chromosome segregation',Occurent
+'mitochondria morphology variant','mitochondrion',Continuant,'cell component morphology variant','cellular_component',Other
+'multiple nuclei early emb','organism',Other,'nuclear number defective early emb','nucleus',Continuant
+'neuron degeneration','neuron',Other,'cell degeneration','cell',Continuant
+'rays fused','ray',Other,'cell fusion variant','syncytium formation by plasma membrane fusion',Occurent
+'chemical resistant','organism',Other,'chemical response variant','response to chemical',Occurent
+'no polar body formation','polar body',Other,'meiosis variant','meiotic cell cycle',Occurent
+'coelomocyte physiology variant','coelomocyte',Other,'cell physiology variant','cell',Continuant
+'hypodermal cell physiology variant','flatworm hypodermal cell',Continuant,'epithelial system physiology variant','epithelial system',Other
+'sensilium sheath cell variant','sheath cell',Continuant,'cell component morphology variant','cellular_component',Other
+'embryo disorganized','organism',Other,'embryonic development variant','embryo development',Occurent
+'yolk synthesis variant','vitellogenesis',Occurent,'intestinal physiology variant','intestine',Other
+'gut granule morphology variant','gut granule',Continuant,'intestinal cell morphology variant','intestinal cell',Other
+'neuronal ion channel clustering defective','neuronal ion channel clustering',Occurent,'neuron physiology variant','neuron',Other
+'nuclear positioning variant','nuclear migration',Occurent,'blast cell physiology variant','cell',Continuant
+'nuclear division variant','nuclear division',Occurent,'blast cell physiology variant','cell',Continuant
+'peroxisome morphology variant','peroxisome',Continuant,'cell component morphology variant','cellular_component',Other
+'isoflurane resistant','isoflurane',Continuant,'anesthetic resistant','response to drug',Occurent
+'ouabain resistant','LIPID MAPS',Continuant,'drug resistant','response to drug',Occurent
+'one cell arrest early emb','meiotic cell cycle',Occurent,'early embryonic lethal','organism',Other
+'egg size defective early emb','egg cell',Continuant,'early embryonic lethal','organism',Other
+'germ cell cytoplasmic morphology variant','cytoplasm',Continuant,'cell component morphology variant','cellular_component',Other
+'neuronal ion channel clustering defective','neuronal ion channel clustering',Occurent,'nervous system physiology variant','nervous system',Other
+'cell growth variant','cell growth',Occurent,'blast cell physiology variant','cell',Continuant
+'egg size defective early emb','egg cell',Continuant,'cell component morphology variant','cellular_component',Other
+'cell membrane morphology variant','plasma membrane',Continuant,'cell component morphology variant','cellular_component',Other
+'neurite morphology variant','neuron projection',Continuant,'cell component morphology variant','cellular_component',Other
+'pharynx disorganized','pharynx',Other,'pharyngeal development variant','pharynx development',Occurent
+'embryonic lethal','organism',Other,'embryonic development variant','embryo development',Occurent
+'pronuclear nuclear appearance defective early emb','pronucleus',Continuant,'early embryonic lethal','organism',Other
+'meiosis defective early emb','meiotic cell cycle',Occurent,'early embryonic lethal','organism',Other
+'nuclear morphology variation early emb','nucleus',Continuant,'early embryonic lethal','organism',Other
+'cytoplasmic morphology defective early emb','cytoplasm',Continuant,'early embryonic lethal','organism',Other
+'pronuclear morphology defective early emb','pronucleus',Continuant,'embryonic cell morphology variant','embryonic cell',Other
+'nuclear appearance variant','nucleus',Continuant,'cell component morphology variant','cellular_component',Other
+'linker cell absent','linker cell',Other,'male gonad development variant','male gonad development',Occurent
+'stuffed pharynx','pharynx',Other,'pharyngeal pumping variant','pharyngeal pumping',Occurent
+'nuclear rotation variant','nucleus',Continuant,'embryonic development variant','embryo development',Occurent
+'octopamine deficient','ChemIDplus',Continuant,'octopamine metabolism variant','octopamine metabolic process',Occurent
+'pronuclear morphology defective early emb','pronucleus',Continuant,'early embryonic lethal','organism',Other
+'ray ectopic','ray',Other,'ectopic cell','cell',Continuant
+'cell position defective early emb','cell',Continuant,'early embryonic lethal','organism',Other
+'pseudocoelom morphology variant','pseudocoelom',Other,'developmental morphology variant','developmental process',Occurent
+'vesicle trafficking variant','vesicle-mediated transport',Occurent,'blast cell physiology variant','cell',Continuant
+'stuffed pharynx','pharynx',Other,'feeding inefficient','feeding behavior',Occurent
+'golgi apparatus morphology variant','Golgi apparatus',Continuant,'cell component morphology variant','cellular_component',Other
+'lysosome morphology variant','lysosome',Continuant,'cell component morphology variant','cellular_component',Other
+'serotonin deficient','Reaxys',Continuant,'serotonin metabolism variant','serotonin metabolic process',Occurent
+'no cuticle','cuticle',Other,'cuticle development variant','cuticle development',Occurent
+'coelomocyte physiology variant','coelomocyte',Other,'blast cell physiology variant','cell',Continuant
+'no Intestine','intestine',Other,'intestinal development variant','digestive tract development',Occurent
+'excess intestinal cells','intestinal cell',Other,'intestinal development variant','digestive tract development',Occurent
+'no pharynx','pharynx',Other,'pharyngeal development variant','pharynx development',Occurent
+'lipid composition variant','fatty acid',Continuant,'lipid metabolism variant',"'Lipid digestion, mobilization, and transport, Staphylococcus aureus N315'",Occurent
+'gut obstructed','intestine',Other,'intestinal development variant','digestive tract development',Occurent
+'excess pharyngeal cells','pharynx',Other,'pharyngeal development variant','pharynx development',Occurent
+'cell degeneration','cell',Continuant,'cell death variant','cell death',Occurent
+'cell gamma ray hypersensitive','cell',Continuant,'cell gamma ray response variant','cellular response to gamma radiation',Occurent
+'HSN differentiation precocious','HSN',Other,'cell differentiation variant','cell differentiation',Occurent
+'dopamine deficient','Reaxys',Continuant,'dopamine metabolism variant','dopamine metabolic process',Occurent
+'cilia morphology variant','cilium',Continuant,'ciliated neuron morphology variant','ciliated neuron',Other
+'nuclear morphology variation early emb','nucleus',Continuant,'embryonic cell morphology variant','embryonic cell',Other
+'spindle absent early emb','organism',Other,'spindle absent','spindle',Continuant
+'cell gamma ray resistant','cell',Continuant,'cell gamma ray response variant','cellular response to gamma radiation',Occurent
+'pronuclear nuclear appearance defective early emb','pronucleus',Continuant,'embryonic cell morphology variant','embryonic cell',Other
+'cell secretion variant','secretion by cell',Occurent,'blast cell physiology variant','cell',Continuant
+'embryonic polarity variant','embryo Ce',Other,'embryonic development variant','embryo development',Occurent
+'no back end','tail',Other,'embryonic arrest','embryo development',Occurent
+'nuclei small','atomic nucleus',Other,'nuclear appearance variant','nucleus',Continuant
+'ectopic cell','cell',Continuant,'cell differentiation variant','cell differentiation',Occurent
+'aging variant','aging',Occurent,'organism physiology variant','organism',Other
+'organ senescence variant','animal organ senescence',Occurent,'organ system physiology variant','Organ system',Other
+'fat content variant','fatty acid',Continuant,'lipid metabolism variant',"'Lipid digestion, mobilization, and transport, Staphylococcus aureus N315'",Occurent
+'alae variant','cuticular ala',Other,'cuticle development variant','cuticle development',Occurent
+'no polar body formation','polar body',Other,'meiosis defective early emb','meiotic cell cycle',Occurent
+'organism morphology variable','organism',Other,'developmental morphology variant','developmental process',Occurent
+'muscle birefringence variant','myosin filament',Continuant,'body wall muscle morphology variant','body wall musculature',Other
+'cell UV hypersensitive','cell',Continuant,'cell UV response variant','cellular response to UV',Occurent
+'neuron physiology variant','neuron',Other,'cell physiology variant','cell',Continuant
+'muscle cell physiology variant','muscle cell',Other,'cell physiology variant','cell',Continuant
+'cell adhesion variant','cell adhesion',Occurent,'cell junction variant','cell junction',Other
+'coelomocyte uptake defective','endocytosis',Occurent,'coelomocyte physiology variant','coelomocyte',Other
+'marginal cell physiology variant','marginal cell',Other,'cell physiology variant','cell',Continuant
+'no oocytes','oocyte',Continuant,'no germ line','germ line',Other
+'sperm absent','sperm',Continuant,'no germ line','germ line',Other
+'multiple nuclei early emb','organism',Other,'cell division variant','cell division',Occurent
+'body axis morphology variant','axis',Other,'developmental morphology variant','developmental process',Occurent
+'cell growth variant','cell growth',Occurent,'cell physiology variant','cell',Continuant
+'HSN differentiation precocious','HSN',Other,'precocious heterochronic variations',"'regulation of development, heterochronic'",Occurent
+'dauer body morphology variant','organism',Other,'developmental morphology variant','developmental process',Occurent
+'vesicle morphology variant','vesicle',Other,'vesicle organization variant','vesicle organization',Occurent
+'dead eggs laid','egg cell',Continuant,'hermaphrodite fertility variant','hermaphrodite',Other
+'cell cycle variant','cell cycle',Occurent,'cell physiology variant','cell',Continuant
+'cell death variant','cell death',Occurent,'cell physiology variant','cell',Continuant
+'egg laying imipramine resistant','oviposition',Occurent,'imipramine resistant','Reaxys',Continuant
+'vesicle number variant','vesicle',Other,'vesicle organization variant','vesicle organization',Occurent
+'embryonic cell physiology variant','embryonic cell',Other,'cell physiology variant','cell',Continuant
+'cell division variant','cell division',Occurent,'cell physiology variant','cell',Continuant
+'blast cell physiology variant','cell',Continuant,'physiology variant','organism',Other
+'gut granule morphology variant','gut granule',Continuant,'vesicle morphology variant','vesicle',Other
+'sensilium sheath cell variant','sheath cell',Continuant,'sensillum accessory cell morphology variant','accessory cell',Other
+'no germ line','germ line',Other,'germ cell development variant','germ cell development',Occurent
+'ectopic neuron','neuron',Other,'ectopic cell','cell',Continuant
