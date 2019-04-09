@@ -32,7 +32,7 @@ upheno_prefix = 'http://purl.obolibrary.org/obo/UPHENO_'
 #upheno_filler_ontologies_list = os.path.join(ws,"curation/ontologies.txt")
 #phenotype_ontologies_list = os.path.join(ws,"curation/phenotype_ontologies.tsv")
 pattern_dir = os.path.join(ws, "curation/patterns-for-matching/")
-matches_dir = os.path.join(ws, "curation/pattern-matches-test/")
+matches_dir = os.path.join(ws, "curation/pattern-matches/")
 upheno_fillers_dir = os.path.join(ws, "curation/upheno-fillers/")
 raw_ontologies_dir = os.path.join(ws, "curation/tmp/")
 upheno_prepare_dir = os.path.join(ws, "curation/upheno-release-prepare/")
@@ -42,6 +42,7 @@ ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 upheno_id_map = os.path.join(ws,"curation/upheno_id_map.txt")
 blacklisted_upheno_ids_file = os.path.join(ws,"curation/blacklisted_upheno_iris.txt")
 java_fill = os.path.join(ws,'scripts/upheno-filler-pipeline.jar')
+java_taxon = os.path.join(ws,'scripts/upheno-taxon-restriction.jar')
 sparql_terms = os.path.join(ws, "sparql/terms.sparql")
 
 
@@ -260,6 +261,15 @@ def extract_upheno_fillers(ontology_path,oid_pattern_matches_dir,oid_upheno_fill
         print(e.output)
         raise Exception("Filler extraction of" + ontology_path + " failed")
 
+def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,taxon_label,root_phenotype):
+    print("Extracting fillers from "+ontology_path)
+    global TIMEOUT,robot_opts, legal_iri_patterns_path, legal_pattern_vars_path
+    try:
+        check_call(['gtimeout',TIMEOUT,'java', java_opts, '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype])
+    except Exception as e:
+        print(e.output)
+        raise Exception("Appending taxon restrictions" + ontology_path + " failed")
+
 def extract_upheno_fillers_for_all_ontologies(oids):
     global pattern_dir, matches_dir, upheno_fillers_dir
     for id in oids:
@@ -288,7 +298,7 @@ with open(blacklisted_upheno_ids_file) as f:
 
 extract_upheno_fillers_for_all_ontologies(upheno_config.get_phenotype_ontologies())
 
-sys.exit("Error message")
+sys.exit("Stopping just prior to id assignment")
 # Assign upheno ids
 add_upheno_ids_to_fillers(upheno_config.get_phenotype_ontologies(),pattern_dir)
 
@@ -334,6 +344,9 @@ for upheno_combination_id in upheno_config.get_upheno_combos():
     for oid in oids:
         fn = oid+".owl"
         o_base = os.path.join(raw_ontologies_dir,fn)
+        o_base_taxon = os.path.join(raw_ontologies_dir, oid+"-taxon-restricted.owl")
+
+        add_taxon_restrictions(o_base,o_base_taxon,upheno_config.get_taxon(oid),upheno_config.get_taxon_label(oid),upheno_config.get_root_phenotype(oid))
         main_files.append(o_base)
         for dependency in upheno_config.get_dependencies(oid):
             fn_dep = dependency+".owl"

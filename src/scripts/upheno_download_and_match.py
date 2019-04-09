@@ -12,7 +12,7 @@ import urllib.request
 import requests
 import pandas as pd
 from subprocess import check_call,CalledProcessError
-from lib import uPhenoConfig, robot_extract_seed, robot_extract_module, robot_merge
+from lib import uPhenoConfig, robot_extract_seed, robot_extract_module, robot_merge, robot_dump_disjoints, robot_remove_mentions_of_nothing
 
 ### Configuration
 
@@ -145,6 +145,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         module = os.path.join(module_dir, id + '-allimports-module.owl')
         merged_pheno = os.path.join(ontology_for_matching_dir, id + '.owl')
         seed = os.path.join(module_dir, id + '_seed.txt')
+        term_file = os.path.join(ws, "curation/disjoints_removal.txt")
         if overwrite or not os.path.exists(module):
             robot_extract_seed(filename, seed, sparql_terms, TIMEOUT, robot_opts)
             robot_merge(imports, merged, TIMEOUT, robot_opts)
@@ -152,6 +153,8 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         if overwrite or not os.path.exists(merged_pheno):
             ontology_for_matching = [module, filename]
             robot_merge(ontology_for_matching, merged_pheno, TIMEOUT, robot_opts)
+            robot_dump_disjoints(merged_pheno,term_file,merged_pheno,TIMEOUT,robot_opts)
+            robot_remove_mentions_of_nothing(merged_pheno,merged_pheno,TIMEOUT,robot_opts)
     return upheno_config
 
 def match_patterns(upheno_config,pattern_files,matches_dir, overwrite=True):
@@ -219,6 +222,7 @@ print('UNTIL THIS SSL ERROR IS FIXED, just index files in pattern dir rather tha
 #pattern_files = download_patterns(upheno_pattern_repo, pattern_dir)
 pattern_files = [os.path.join(pattern_dir,f) for f in os.listdir(pattern_dir) if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith('.yaml')]
 
+print("ROBOT args: "+os.environ['ROBOT_JAVA_ARGS'])
 download_sources(module_dir,upheno_config.is_overwrite_ontologies())
 
 prepare_phenotype_ontologies_for_matching(upheno_config.is_overwrite_ontologies())

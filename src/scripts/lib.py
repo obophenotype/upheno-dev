@@ -32,6 +32,15 @@ class uPhenoConfig:
 
         return dependencies
 
+    def get_taxon_label(self, id):
+        return [t['taxon_label'] for t in self.config.get("sources") if t['id'] == id][0]
+
+    def get_taxon(self, id):
+        return [t['taxon'] for t in self.config.get("sources") if t['id'] == id][0]
+
+    def get_root_phenotype(self, id):
+        return [t['root'] for t in self.config.get("sources") if t['id'] == id][0]
+
     def get_xref_alignments(self, id):
         alignments = []
         try:
@@ -95,7 +104,23 @@ def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="
         check_call(['gtimeout',TIMEOUT,'robot', 'extract',robot_opts,'-i', ontology_path,'-T', seedfile,'--method','BOT', '--output', ontology_merged_path])
     except Exception as e:
         print(e.output)
-        raise Exception("Module extraction of" + ontology_path + " failed")
+        raise Exception("Module extraction of " + ontology_path + " failed")
+
+def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
+    print("Removing disjoint class axioms from "+ontology_path+" and saving to "+ontology_removed_path)
+    try:
+        check_call(['gtimeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term-file',term_file,'--axioms','disjoint', '--output', ontology_removed_path])
+    except Exception as e:
+        print(e.output)
+        raise Exception("Removing disjoint class axioms from " + ontology_path + " failed")
+
+def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
+    print("Removing mentions of nothing from "+ontology_path+" and saving to "+ontology_removed_path)
+    try:
+        check_call(['gtimeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false', '--output', ontology_removed_path])
+    except Exception as e:
+        print(e.output)
+        raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
 
 def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="60m", robot_opts="-v"):
     print("Merging " + str(ontology_list) + " to " + ontology_merged_path)
