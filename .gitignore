@@ -16,3 +16,14 @@ src/ontology/patterns
 .DS_Store
 .idea
 dosdp-tools.log
+src/scripts/__pycache__/lib.cpython-36.pyc
+src/curation/pattern-matches/
+src/curation/patterns-for-matching/
+src/curation/upheno-fillers/
+src/curation/tmp/
+src/curation/pattern-matches-test/
+src/curation/pattern-matches-test2/
+src/curation/ontologies-for-matching/
+src/curation/old-matches/
+
+

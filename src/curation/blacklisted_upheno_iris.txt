@@ -1,1 +1,10 @@
 http://purl.obolibrary.org/obo/UPHENO_0001002
+http://purl.obolibrary.org/obo/UPHENO_0000001
+http://purl.obolibrary.org/obo/UPHENO_0000501
+http://purl.obolibrary.org/obo/UPHENO_0000502
+http://purl.obolibrary.org/obo/UPHENO_0000503
+http://purl.obolibrary.org/obo/UPHENO_0000504
+http://purl.obolibrary.org/obo/UPHENO_0000505
+http://purl.obolibrary.org/obo/UPHENO_0000506
+http://purl.obolibrary.org/obo/UPHENO_0001001
+http://purl.obolibrary.org/obo/UPHENO_0001002

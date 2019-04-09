@@ -6,10 +6,10 @@ report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
-robot_java_args: -Xmx8G
+robot_java_args: -Xmx10G
 timeout_external_processes: 60m
 working_directory: /ws/upheno-dev/src
-overwrite_matches: True
+overwrite_matches: False
 overwrite_ontologies: False
 clean: False
 namespaces: 
@@ -42,7 +42,7 @@ sources:
   - id: pato
     mirror_from: http://purl.obolibrary.org/obo/pato.owl
   - id: cl
-    mirror_from: http://purl.obolibrary.org/obo/cl.owl
+    mirror_from: http://purl.obolibrary.org/obo/cl-base.owl
   - id: mpath
     mirror_from: http://purl.obolibrary.org/obo/mpath.owl
   - id: iao
@@ -75,8 +75,8 @@ sources:
     mirror_from: xref
   - id: mp
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    taxon_label: Mouse
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_40674
+    taxon_label: mammal
     root: http://purl.obolibrary.org/obo/MP_0000001
     dependencies:
       - nbo
@@ -128,7 +128,7 @@ sources:
     dependencies:
       - plana
       - plana-uberon
-      - ncit
+      #- ncit
   - id: zp
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
     root: http://purl.obolibrary.org/obo/ZP_00000000
