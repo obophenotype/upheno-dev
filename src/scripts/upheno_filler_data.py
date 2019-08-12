@@ -38,6 +38,14 @@ raw_ontologies_dir = os.path.join(ws, "curation/tmp/")
 upheno_prepare_dir = os.path.join(ws, "curation/upheno-release-prepare/")
 ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 
+cdir(pattern_dir)
+cdir(matches_dir)
+cdir(upheno_fillers_dir)
+cdir(raw_ontologies_dir)
+cdir(upheno_prepare_dir)
+cdir(ontology_for_matching_dir)
+
+
 # Files
 upheno_id_map = os.path.join(ws,"curation/upheno_id_map.txt")
 blacklisted_upheno_ids_file = os.path.join(ws,"curation/blacklisted_upheno_iris.txt")
