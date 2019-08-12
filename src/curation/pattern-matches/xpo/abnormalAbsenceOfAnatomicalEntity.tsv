@@ -1,0 +1,82 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/XPO_0115368	abnormal(ly) absent of archenteron (T)	http://purl.obolibrary.org/obo/XAO_0000092	archenteron
+http://purl.obolibrary.org/obo/XPO_0115619	abnormal(ly) absent of branchial arch skeleton (T)	http://purl.obolibrary.org/obo/XAO_0003180	branchial arch skeleton
+http://purl.obolibrary.org/obo/XPO_0115657	abnormal(ly) absent of dorsal fin (T)	http://purl.obolibrary.org/obo/XAO_0004063	dorsal fin
+http://purl.obolibrary.org/obo/XPO_0115477	abnormal(ly) absent of dorsal pancreatic bud (T)	http://purl.obolibrary.org/obo/XAO_0000467	dorsal pancreatic bud
+http://purl.obolibrary.org/obo/XPO_0115328	abnormal(ly) absent of epidermis inner layer (T)	http://purl.obolibrary.org/obo/XAO_0000041	epidermis inner layer
+http://purl.obolibrary.org/obo/XPO_0115665	abnormal(ly) absent of intersomitic vessel (T)	http://purl.obolibrary.org/obo/XAO_0004075	intersomitic vessel
+http://purl.obolibrary.org/obo/XPO_0115401	abnormal(ly) absent of liver (T)	http://purl.obolibrary.org/obo/XAO_0000133	liver
+http://purl.obolibrary.org/obo/XPO_0115769	abnormal(ly) absent of lung bud (T)	http://purl.obolibrary.org/obo/XAO_0005140	lung bud
+http://purl.obolibrary.org/obo/XPO_0115403	abnormal(ly) absent of pancreas (T)	http://purl.obolibrary.org/obo/XAO_0000136	pancreas
+http://purl.obolibrary.org/obo/XPO_0115449	abnormal(ly) absent of posterior cardinal vein (T)	http://purl.obolibrary.org/obo/XAO_0000241	posterior cardinal vein
+http://purl.obolibrary.org/obo/XPO_0115394	abnormal(ly) absent of stomach (T)	http://purl.obolibrary.org/obo/XAO_0000128	stomach
+http://purl.obolibrary.org/obo/XPO_0103301	absent Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
+http://purl.obolibrary.org/obo/XPO_0103238	absent anterior neural tube	http://purl.obolibrary.org/obo/XAO_0000307	anterior neural tube
+http://purl.obolibrary.org/obo/XPO_0103266	absent apical ectodermal ridge	http://purl.obolibrary.org/obo/XAO_0004121	apical ectodermal ridge
+http://purl.obolibrary.org/obo/XPO_0103264	absent astral microtubule	http://purl.obolibrary.org/obo/GO_0000235	astral microtubule
+http://purl.obolibrary.org/obo/XPO_0103267	absent autopod	http://purl.obolibrary.org/obo/XAO_0004265	autopod
+http://purl.obolibrary.org/obo/XPO_0103268	absent barbel	http://purl.obolibrary.org/obo/XAO_0004231	barbel
+http://purl.obolibrary.org/obo/XPO_0103269	absent blastopore	http://purl.obolibrary.org/obo/XAO_0000208	blastopore
+http://purl.obolibrary.org/obo/XPO_0103270	absent brain	http://purl.obolibrary.org/obo/XAO_0000010	brain
+http://purl.obolibrary.org/obo/XPO_0103271	absent cartilage element	http://purl.obolibrary.org/obo/XAO_0004013	cartilage element
+http://purl.obolibrary.org/obo/XPO_0103272	absent cartilaginous condensation	http://purl.obolibrary.org/obo/XAO_0004022	cartilaginous condensation
+http://purl.obolibrary.org/obo/XPO_0103273	absent cement gland	http://purl.obolibrary.org/obo/XAO_0000033	cement gland
+http://purl.obolibrary.org/obo/XPO_0103274	absent central nervous system	http://purl.obolibrary.org/obo/XAO_0000215	central nervous system
+http://purl.obolibrary.org/obo/XPO_0103236	absent ceratohyal	http://purl.obolibrary.org/obo/XAO_0004219	ceratohyal
+http://purl.obolibrary.org/obo/XPO_0103275	absent eye	http://purl.obolibrary.org/obo/XAO_0000179	eye
+http://purl.obolibrary.org/obo/XPO_0103276	absent femur	http://purl.obolibrary.org/obo/XAO_0003214	femur
+http://purl.obolibrary.org/obo/XPO_0103900	absent foot	http://purl.obolibrary.org/obo/XAO_0004300	foot
+http://purl.obolibrary.org/obo/XPO_0103277	absent forelimb	http://purl.obolibrary.org/obo/XAO_0003030	forelimb
+http://purl.obolibrary.org/obo/XPO_0103278	absent forelimb bud	http://purl.obolibrary.org/obo/XAO_0003065	forelimb bud
+http://purl.obolibrary.org/obo/XPO_0103279	absent forelimb digit 2	http://purl.obolibrary.org/obo/XAO_0004478	forelimb digit 2
+http://purl.obolibrary.org/obo/XPO_0103280	absent forelimb digit 3	http://purl.obolibrary.org/obo/XAO_0004479	forelimb digit 3
+http://purl.obolibrary.org/obo/XPO_0103281	absent forelimb digit 4	http://purl.obolibrary.org/obo/XAO_0004480	forelimb digit 4
+http://purl.obolibrary.org/obo/XPO_0103282	absent forelimb digit 5	http://purl.obolibrary.org/obo/XAO_0004481	forelimb digit 5
+http://purl.obolibrary.org/obo/XPO_0103283	absent forelimb skeleton	http://purl.obolibrary.org/obo/XAO_0003061	forelimb skeleton
+http://purl.obolibrary.org/obo/XPO_0103284	absent gall bladder	http://purl.obolibrary.org/obo/XAO_0000135	gall bladder
+http://purl.obolibrary.org/obo/XPO_0103285	absent hand	http://purl.obolibrary.org/obo/XAO_0004299	hand
+http://purl.obolibrary.org/obo/XPO_0103286	absent head	http://purl.obolibrary.org/obo/XAO_0003024	head
+http://purl.obolibrary.org/obo/XPO_0103287	absent hindlimb	http://purl.obolibrary.org/obo/XAO_0003031	hindlimb
+http://purl.obolibrary.org/obo/XPO_0103288	absent hindlimb bud	http://purl.obolibrary.org/obo/XAO_0003066	hindlimb bud
+http://purl.obolibrary.org/obo/XPO_0103289	absent hindlimb digit	http://purl.obolibrary.org/obo/XAO_0003035	hindlimb digit
+http://purl.obolibrary.org/obo/XPO_0103908	absent hindlimb digit 1	http://purl.obolibrary.org/obo/XAO_0004239	hindlimb digit 1
+http://purl.obolibrary.org/obo/XPO_0103290	absent hindlimb digit 2	http://purl.obolibrary.org/obo/XAO_0004412	hindlimb digit 2
+http://purl.obolibrary.org/obo/XPO_0103291	absent hindlimb digit 3	http://purl.obolibrary.org/obo/XAO_0004413	hindlimb digit 3
+http://purl.obolibrary.org/obo/XPO_0103292	absent hindlimb digit 4	http://purl.obolibrary.org/obo/XAO_0004414	hindlimb digit 4
+http://purl.obolibrary.org/obo/XPO_0103293	absent hindlimb digit 5	http://purl.obolibrary.org/obo/XAO_0004415	hindlimb digit 5
+http://purl.obolibrary.org/obo/XPO_0103294	absent hindlimb stylopod	http://purl.obolibrary.org/obo/XAO_0004296	hindlimb stylopod
+http://purl.obolibrary.org/obo/XPO_0103295	absent hindlimb zeugopod	http://purl.obolibrary.org/obo/XAO_0004298	hindlimb zeugopod
+http://purl.obolibrary.org/obo/XPO_0103296	absent hypaxial muscle	http://purl.obolibrary.org/obo/XAO_0003228	hypaxial muscle
+http://purl.obolibrary.org/obo/XPO_0103297	absent inner ear	http://purl.obolibrary.org/obo/XAO_0000192	inner ear
+http://purl.obolibrary.org/obo/XPO_0103901	absent left eye	http://purl.obolibrary.org/obo/XAO_0005256	left eye
+http://purl.obolibrary.org/obo/XPO_0103902	absent left inner ear	http://purl.obolibrary.org/obo/XAO_0005258	left inner ear
+http://purl.obolibrary.org/obo/XPO_0103903	absent left olfactory pit	http://purl.obolibrary.org/obo/XAO_0005252	left olfactory pit
+http://purl.obolibrary.org/obo/XPO_0103298	absent liver primordium	http://purl.obolibrary.org/obo/XAO_0003266	liver primordium
+http://purl.obolibrary.org/obo/XPO_0103299	absent lung primordium	http://purl.obolibrary.org/obo/XAO_0001002	lung primordium
+http://purl.obolibrary.org/obo/XPO_0103300	absent melanophore	http://purl.obolibrary.org/obo/XAO_0001014	melanophore
+http://purl.obolibrary.org/obo/XPO_0103302	absent neural tube	http://purl.obolibrary.org/obo/XAO_0003204	neural tube
+http://purl.obolibrary.org/obo/XPO_0103303	absent notochord	http://purl.obolibrary.org/obo/XAO_0000055	notochord
+http://purl.obolibrary.org/obo/XPO_0103304	absent olfactory pit	http://purl.obolibrary.org/obo/XAO_0000275	olfactory pit
+http://purl.obolibrary.org/obo/XPO_0103305	absent optic stalk	http://purl.obolibrary.org/obo/XAO_0000475	optic stalk
+http://purl.obolibrary.org/obo/XPO_0103306	absent otic vesicle	http://purl.obolibrary.org/obo/XAO_0000006	otic vesicle
+http://purl.obolibrary.org/obo/XPO_0103307	absent outflow tract	http://purl.obolibrary.org/obo/XAO_0004139	outflow tract
+http://purl.obolibrary.org/obo/XPO_0103308	absent planum trabeculare anticum	http://purl.obolibrary.org/obo/XAO_0004375	planum trabeculare anticum
+http://purl.obolibrary.org/obo/XPO_0103237	absent primordial germ cell	http://purl.obolibrary.org/obo/XAO_0003149	primordial germ cell
+http://purl.obolibrary.org/obo/XPO_0103235	absent pronephric tubule	http://purl.obolibrary.org/obo/XAO_0004105	pronephric tubule
+http://purl.obolibrary.org/obo/XPO_0103309	absent regenerating forelimb	http://purl.obolibrary.org/obo/XAO_0004106	regenerating forelimb
+http://purl.obolibrary.org/obo/XPO_0103310	absent regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0103311	absent regenerating tail	http://purl.obolibrary.org/obo/XAO_0004108	regenerating tail
+http://purl.obolibrary.org/obo/XPO_0103904	absent right eye	http://purl.obolibrary.org/obo/XAO_0005257	right eye
+http://purl.obolibrary.org/obo/XPO_0103905	absent right inner ear	http://purl.obolibrary.org/obo/XAO_0005259	right inner ear
+http://purl.obolibrary.org/obo/XPO_0103906	absent right olfactory pit	http://purl.obolibrary.org/obo/XAO_0005253	right olfactory pit
+http://purl.obolibrary.org/obo/XPO_0103312	absent scapula	http://purl.obolibrary.org/obo/XAO_0004286	scapula
+http://purl.obolibrary.org/obo/XPO_0103313	absent somite	http://purl.obolibrary.org/obo/XAO_0000058	somite
+http://purl.obolibrary.org/obo/XPO_0103265	absent spindle microtubule	http://purl.obolibrary.org/obo/GO_0005876	spindle microtubule
+http://purl.obolibrary.org/obo/XPO_0103314	absent suprarostral plate	http://purl.obolibrary.org/obo/XAO_0004380	suprarostral plate
+http://purl.obolibrary.org/obo/XPO_0103315	absent tail	http://purl.obolibrary.org/obo/XAO_0003026	tail
+http://purl.obolibrary.org/obo/XPO_0103316	absent tail bud	http://purl.obolibrary.org/obo/XAO_0000107	tail bud
+http://purl.obolibrary.org/obo/XPO_0103317	absent tibia-fibula	http://purl.obolibrary.org/obo/XAO_0003213	tibia-fibula
+http://purl.obolibrary.org/obo/XPO_0103318	absent trabecula cranii	http://purl.obolibrary.org/obo/XAO_0004381	trabecula cranii
+http://purl.obolibrary.org/obo/XPO_0103319	absent upper blastopore lip	http://purl.obolibrary.org/obo/XAO_0000088	upper blastopore lip
+http://purl.obolibrary.org/obo/XPO_0103320	absent ventral pancreatic bud	http://purl.obolibrary.org/obo/XAO_0001103	ventral pancreatic bud
+http://purl.obolibrary.org/obo/XPO_0103907	absent wound epidermis	http://purl.obolibrary.org/obo/XAO_0004397	wound epidermis

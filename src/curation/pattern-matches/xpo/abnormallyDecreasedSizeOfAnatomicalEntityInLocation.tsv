@@ -1,0 +1,15 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/XPO_0116000	abnormal(ly) decreased size of branchial arch skeleton in left (T)	http://purl.obolibrary.org/obo/XAO_0003180	branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116002	abnormal(ly) decreased size of branchial arch skeleton in right (T)	http://purl.obolibrary.org/obo/XAO_0003180	branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005006	right
+http://purl.obolibrary.org/obo/XPO_0115999	abnormal(ly) decreased size of hindlimb in tibia-fibula (T)	http://purl.obolibrary.org/obo/XAO_0003031	hindlimb	http://purl.obolibrary.org/obo/XAO_0003213	tibia-fibula
+http://purl.obolibrary.org/obo/XPO_0116001	abnormal(ly) decreased size of pharyngeal arch in right (T)	http://purl.obolibrary.org/obo/XAO_0000096	pharyngeal arch	http://purl.obolibrary.org/obo/XAO_0005006	right
+http://purl.obolibrary.org/obo/XPO_0115998	abnormal(ly) decreased size of regenerating limb in tarsus (T)	http://purl.obolibrary.org/obo/XAO_0004311	regenerating limb	http://purl.obolibrary.org/obo/XAO_0003211	tarsus
+http://purl.obolibrary.org/obo/XPO_0103780	decreased size of the bipolar neuron in the retinal inner plexiform layer	http://purl.obolibrary.org/obo/XAO_0004098	bipolar neuron	http://purl.obolibrary.org/obo/XAO_0003225	retinal inner plexiform layer
+http://purl.obolibrary.org/obo/XPO_0103773	decreased size of the bone element in the forelimb	http://purl.obolibrary.org/obo/XAO_0004276	bone element	http://purl.obolibrary.org/obo/XAO_0003030	forelimb
+http://purl.obolibrary.org/obo/XPO_0103775	decreased size of the bone element in the hindlimb	http://purl.obolibrary.org/obo/XAO_0004276	bone element	http://purl.obolibrary.org/obo/XAO_0003031	hindlimb
+http://purl.obolibrary.org/obo/XPO_0103777	decreased size of the claw in the regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0003103	claw	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0103779	decreased size of the forelimb digit in the regenerating forelimb	http://purl.obolibrary.org/obo/XAO_0003036	forelimb digit	http://purl.obolibrary.org/obo/XAO_0004106	regenerating forelimb
+http://purl.obolibrary.org/obo/XPO_0103778	decreased size of the hindlimb digit in the regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0003035	hindlimb digit	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0103774	decreased size of the muscle in the forelimb	http://purl.obolibrary.org/obo/XAO_0000172	muscle	http://purl.obolibrary.org/obo/XAO_0003030	forelimb
+http://purl.obolibrary.org/obo/XPO_0103776	decreased size of the muscle in the hindlimb	http://purl.obolibrary.org/obo/XAO_0000172	muscle	http://purl.obolibrary.org/obo/XAO_0003031	hindlimb
+http://purl.obolibrary.org/obo/XPO_0103781	decreased size of the neuroectoderm in the head region	http://purl.obolibrary.org/obo/XAO_0000042	neuroectoderm	http://purl.obolibrary.org/obo/XAO_0000040	head region

@@ -1,0 +1,3 @@
+defined_class	defined_class_label	chemical	chemical_label	location	location_label
+http://purl.obolibrary.org/obo/HP_0500258	Abnormal carbon dioxide level in cord blood	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide	http://purl.obolibrary.org/obo/UBERON_0012168	umbilical cord blood
+http://purl.obolibrary.org/obo/HP_0500259	Abnormal oxygen level in cord blood	http://purl.obolibrary.org/obo/CHEBI_15379	dioxygen	http://purl.obolibrary.org/obo/UBERON_0012168	umbilical cord blood

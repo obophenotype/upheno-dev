@@ -1,0 +1,72 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/XPO_0116430	abnormal adrenal gland development	http://purl.obolibrary.org/obo/GO_0030325	adrenal gland development
+http://purl.obolibrary.org/obo/XPO_0116431	abnormal anatomical structure development	http://purl.obolibrary.org/obo/GO_0048856	anatomical structure development
+http://purl.obolibrary.org/obo/XPO_0116432	abnormal animal organ development	http://purl.obolibrary.org/obo/GO_0048513	animal organ development
+http://purl.obolibrary.org/obo/XPO_0103447	abnormal anterior/posterior axis specification	http://purl.obolibrary.org/obo/GO_0009948	anterior/posterior axis specification
+http://purl.obolibrary.org/obo/XPO_0116433	abnormal axis specification	http://purl.obolibrary.org/obo/GO_0009798	axis specification
+http://purl.obolibrary.org/obo/XPO_0116429	abnormal behavior	http://purl.obolibrary.org/obo/GO_0007610	behavior
+http://purl.obolibrary.org/obo/XPO_0116434	abnormal biological process	http://purl.obolibrary.org/obo/GO_0008150	biological_process
+http://purl.obolibrary.org/obo/XPO_0116435	abnormal brain development	http://purl.obolibrary.org/obo/GO_0007420	brain development
+http://purl.obolibrary.org/obo/XPO_0116436	abnormal bronchus development	http://purl.obolibrary.org/obo/GO_0060433	bronchus development
+http://purl.obolibrary.org/obo/XPO_0116437	abnormal camera-type eye development	http://purl.obolibrary.org/obo/GO_0043010	camera-type eye development
+http://purl.obolibrary.org/obo/XPO_0116438	abnormal cardiac chamber development	http://purl.obolibrary.org/obo/GO_0003205	cardiac chamber development
+http://purl.obolibrary.org/obo/XPO_0116439	abnormal cardiac ventricle development	http://purl.obolibrary.org/obo/GO_0003231	cardiac ventricle development
+http://purl.obolibrary.org/obo/XPO_0116440	abnormal cement gland development	http://purl.obolibrary.org/obo/GO_0071570	cement gland development
+http://purl.obolibrary.org/obo/XPO_0116441	abnormal central nervous system development	http://purl.obolibrary.org/obo/GO_0007417	central nervous system development
+http://purl.obolibrary.org/obo/XPO_0116442	abnormal chordate embryonic development	http://purl.obolibrary.org/obo/GO_0043009	chordate embryonic development
+http://purl.obolibrary.org/obo/XPO_0116443	abnormal circulatory system development	http://purl.obolibrary.org/obo/GO_0072359	circulatory system development
+http://purl.obolibrary.org/obo/XPO_0116444	abnormal cloaca development	http://purl.obolibrary.org/obo/GO_0035844	cloaca development
+http://purl.obolibrary.org/obo/XPO_0116445	abnormal digestive system development	http://purl.obolibrary.org/obo/GO_0055123	digestive system development
+http://purl.obolibrary.org/obo/XPO_0116446	abnormal digestive tract development	http://purl.obolibrary.org/obo/GO_0048565	digestive tract development
+http://purl.obolibrary.org/obo/XPO_0116447	abnormal digestive tract morphogenesis	http://purl.obolibrary.org/obo/GO_0048546	digestive tract morphogenesis
+http://purl.obolibrary.org/obo/XPO_0103443	abnormal dorsal/ventral axis specification	http://purl.obolibrary.org/obo/GO_0009950	dorsal/ventral axis specification
+http://purl.obolibrary.org/obo/XPO_0116448	abnormal ear development	http://purl.obolibrary.org/obo/GO_0043583	ear development
+http://purl.obolibrary.org/obo/XPO_0116449	abnormal ectoderm development	http://purl.obolibrary.org/obo/GO_0007398	ectoderm development
+http://purl.obolibrary.org/obo/XPO_0116450	abnormal embryo development	http://purl.obolibrary.org/obo/GO_0009790	embryo development
+http://purl.obolibrary.org/obo/XPO_0116451	abnormal embryonic morphogenesis	http://purl.obolibrary.org/obo/GO_0048598	embryonic morphogenesis
+http://purl.obolibrary.org/obo/XPO_0116452	abnormal embryonic organ development	http://purl.obolibrary.org/obo/GO_0048568	embryonic organ development
+http://purl.obolibrary.org/obo/XPO_0116453	abnormal endocrine system development	http://purl.obolibrary.org/obo/GO_0035270	endocrine system development
+http://purl.obolibrary.org/obo/XPO_0116454	abnormal endoderm development	http://purl.obolibrary.org/obo/GO_0007492	endoderm development
+http://purl.obolibrary.org/obo/XPO_0116455	abnormal epidermis development	http://purl.obolibrary.org/obo/GO_0008544	epidermis development
+http://purl.obolibrary.org/obo/XPO_0116456	abnormal eye development	http://purl.obolibrary.org/obo/GO_0001654	eye development
+http://purl.obolibrary.org/obo/XPO_0116457	abnormal fin development	http://purl.obolibrary.org/obo/GO_0033333	fin development
+http://purl.obolibrary.org/obo/XPO_0116458	abnormal gall bladder development	http://purl.obolibrary.org/obo/GO_0061010	gall bladder development
+http://purl.obolibrary.org/obo/XPO_0103444	abnormal gastrulation	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
+http://purl.obolibrary.org/obo/XPO_0116459	abnormal gland development	http://purl.obolibrary.org/obo/GO_0048732	gland development
+http://purl.obolibrary.org/obo/XPO_0116460	abnormal gonad development	http://purl.obolibrary.org/obo/GO_0008406	gonad development
+http://purl.obolibrary.org/obo/XPO_0116461	abnormal head development	http://purl.obolibrary.org/obo/GO_0060322	head development
+http://purl.obolibrary.org/obo/XPO_0116462	abnormal heart development	http://purl.obolibrary.org/obo/GO_0007507	heart development
+http://purl.obolibrary.org/obo/XPO_0116463	abnormal hematopoietic or lymphoid organ development	http://purl.obolibrary.org/obo/GO_0048534	hematopoietic or lymphoid organ development
+http://purl.obolibrary.org/obo/XPO_0116464	abnormal hepaticobiliary system development	http://purl.obolibrary.org/obo/GO_0061008	hepaticobiliary system development
+http://purl.obolibrary.org/obo/XPO_0116465	abnormal immune system development	http://purl.obolibrary.org/obo/GO_0002520	immune system development
+http://purl.obolibrary.org/obo/XPO_0116466	abnormal kidney development	http://purl.obolibrary.org/obo/GO_0001822	kidney development
+http://purl.obolibrary.org/obo/XPO_0103445	abnormal left/right axis specification	http://purl.obolibrary.org/obo/GO_0070986	left/right axis specification
+http://purl.obolibrary.org/obo/XPO_0116467	abnormal liver development	http://purl.obolibrary.org/obo/GO_0001889	liver development
+http://purl.obolibrary.org/obo/XPO_0116468	abnormal lung development	http://purl.obolibrary.org/obo/GO_0030324	lung development
+http://purl.obolibrary.org/obo/XPO_0116469	abnormal mesoderm development	http://purl.obolibrary.org/obo/GO_0007498	mesoderm development
+http://purl.obolibrary.org/obo/XPO_0116470	abnormal mesonephros development	http://purl.obolibrary.org/obo/GO_0001823	mesonephros development
+http://purl.obolibrary.org/obo/XPO_0116471	abnormal muscle organ development	http://purl.obolibrary.org/obo/GO_0007517	muscle organ development
+http://purl.obolibrary.org/obo/XPO_0116472	abnormal nervous system development	http://purl.obolibrary.org/obo/GO_0007399	nervous system development
+http://purl.obolibrary.org/obo/XPO_0116473	abnormal neural crest cell development	http://purl.obolibrary.org/obo/GO_0014032	neural crest cell development
+http://purl.obolibrary.org/obo/XPO_0116474	abnormal nose development	http://purl.obolibrary.org/obo/GO_0043584	nose development
+http://purl.obolibrary.org/obo/XPO_0116475	abnormal notochord development	http://purl.obolibrary.org/obo/GO_0030903	notochord development
+http://purl.obolibrary.org/obo/XPO_0116476	abnormal otic vesicle development	http://purl.obolibrary.org/obo/GO_0071599	otic vesicle development
+http://purl.obolibrary.org/obo/XPO_0116477	abnormal pancreas development	http://purl.obolibrary.org/obo/GO_0031016	pancreas development
+http://purl.obolibrary.org/obo/XPO_0116478	abnormal pharyngeal system development	http://purl.obolibrary.org/obo/GO_0060037	pharyngeal system development
+http://purl.obolibrary.org/obo/XPO_0116479	abnormal post-anal tail morphogenesis	http://purl.obolibrary.org/obo/GO_0036342	post-anal tail morphogenesis
+http://purl.obolibrary.org/obo/XPO_0116480	abnormal pronephros development	http://purl.obolibrary.org/obo/GO_0048793	pronephros development
+http://purl.obolibrary.org/obo/XPO_0103446	abnormal proximal/distal axis specification	http://purl.obolibrary.org/obo/GO_0009946	proximal/distal axis specification
+http://purl.obolibrary.org/obo/XPO_0116481	abnormal renal system development	http://purl.obolibrary.org/obo/GO_0072001	renal system development
+http://purl.obolibrary.org/obo/XPO_0116482	abnormal respiratory system development	http://purl.obolibrary.org/obo/GO_0060541	respiratory system development
+http://purl.obolibrary.org/obo/XPO_0116483	abnormal respiratory tube development	http://purl.obolibrary.org/obo/GO_0030323	respiratory tube development
+http://purl.obolibrary.org/obo/XPO_0116484	abnormal sensory organ development	http://purl.obolibrary.org/obo/GO_0007423	sensory organ development
+http://purl.obolibrary.org/obo/XPO_0116485	abnormal somite development	http://purl.obolibrary.org/obo/GO_0061053	somite development
+http://purl.obolibrary.org/obo/XPO_0116486	abnormal spinal cord development	http://purl.obolibrary.org/obo/GO_0021510	spinal cord development
+http://purl.obolibrary.org/obo/XPO_0116487	abnormal spleen development	http://purl.obolibrary.org/obo/GO_0048536	spleen development
+http://purl.obolibrary.org/obo/XPO_0116488	abnormal stem cell development	http://purl.obolibrary.org/obo/GO_0048864	stem cell development
+http://purl.obolibrary.org/obo/XPO_0116489	abnormal stomach development	http://purl.obolibrary.org/obo/GO_0062094	stomach development
+http://purl.obolibrary.org/obo/XPO_0116490	abnormal thymus development	http://purl.obolibrary.org/obo/GO_0048538	thymus development
+http://purl.obolibrary.org/obo/XPO_0116491	abnormal thyroid gland development	http://purl.obolibrary.org/obo/GO_0030878	thyroid gland development
+http://purl.obolibrary.org/obo/XPO_0116492	abnormal tissue development	http://purl.obolibrary.org/obo/GO_0009888	tissue development
+http://purl.obolibrary.org/obo/XPO_0116493	abnormal urinary bladder development	http://purl.obolibrary.org/obo/GO_0060157	urinary bladder development
+http://purl.obolibrary.org/obo/XPO_0103884	decreased muscle cell differentiation	http://purl.obolibrary.org/obo/GO_0042692	muscle cell differentiation

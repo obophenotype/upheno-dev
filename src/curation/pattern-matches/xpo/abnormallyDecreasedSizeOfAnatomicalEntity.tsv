@@ -1,0 +1,82 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/XPO_0115472	abnormal(ly) decreased size of Mullerian duct (T)	http://purl.obolibrary.org/obo/XAO_0000330	Mullerian duct
+http://purl.obolibrary.org/obo/XPO_0115378	abnormal(ly) decreased size of hindgut (T)	http://purl.obolibrary.org/obo/XAO_0000104	hindgut
+http://purl.obolibrary.org/obo/XPO_0115770	abnormal(ly) decreased size of lung bud (T)	http://purl.obolibrary.org/obo/XAO_0005140	lung bud
+http://purl.obolibrary.org/obo/XPO_0115696	abnormal(ly) decreased size of vascular plexus (T)	http://purl.obolibrary.org/obo/XAO_0004143	vascular plexus
+http://purl.obolibrary.org/obo/XPO_0103350	decreased size of the Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
+http://purl.obolibrary.org/obo/XPO_0103321	decreased size of the alimentary system	http://purl.obolibrary.org/obo/XAO_0000125	alimentary system
+http://purl.obolibrary.org/obo/XPO_0103429	decreased size of the anterior-posterior axis	http://purl.obolibrary.org/obo/XAO_0005202	anterior-posterior axis
+http://purl.obolibrary.org/obo/XPO_0103430	decreased size of the apical junction complex	http://purl.obolibrary.org/obo/XAO_0005254	apical junction complex
+http://purl.obolibrary.org/obo/XPO_0103322	decreased size of the archenteron	http://purl.obolibrary.org/obo/XAO_0000092	archenteron
+http://purl.obolibrary.org/obo/XPO_0103415	decreased size of the barbel	http://purl.obolibrary.org/obo/XAO_0004231	barbel
+http://purl.obolibrary.org/obo/XPO_0103323	decreased size of the brain	http://purl.obolibrary.org/obo/XAO_0000010	brain
+http://purl.obolibrary.org/obo/XPO_0103324	decreased size of the branchial arch	http://purl.obolibrary.org/obo/XAO_0000099	branchial arch
+http://purl.obolibrary.org/obo/XPO_0103325	decreased size of the branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0003180	branchial arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103416	decreased size of the cardiac ventricle	http://purl.obolibrary.org/obo/XAO_0003193	cardiac ventricle
+http://purl.obolibrary.org/obo/XPO_0103326	decreased size of the cement gland	http://purl.obolibrary.org/obo/XAO_0000033	cement gland
+http://purl.obolibrary.org/obo/XPO_0103417	decreased size of the central endoderm	http://purl.obolibrary.org/obo/XAO_0000295	central endoderm
+http://purl.obolibrary.org/obo/XPO_0103327	decreased size of the ceratobranchial I	http://purl.obolibrary.org/obo/XAO_0004359	ceratobranchial I
+http://purl.obolibrary.org/obo/XPO_0103328	decreased size of the ceratobranchial II	http://purl.obolibrary.org/obo/XAO_0004360	ceratobranchial II
+http://purl.obolibrary.org/obo/XPO_0103329	decreased size of the ceratobranchial III	http://purl.obolibrary.org/obo/XAO_0004361	ceratobranchial III
+http://purl.obolibrary.org/obo/XPO_0103330	decreased size of the ceratobranchial IV	http://purl.obolibrary.org/obo/XAO_0004362	ceratobranchial IV
+http://purl.obolibrary.org/obo/XPO_0103331	decreased size of the ceratohyal	http://purl.obolibrary.org/obo/XAO_0004219	ceratohyal
+http://purl.obolibrary.org/obo/XPO_0103332	decreased size of the chondrocranium	http://purl.obolibrary.org/obo/XAO_0003059	chondrocranium
+http://purl.obolibrary.org/obo/XPO_0103333	decreased size of the dorsal marginal zone	http://purl.obolibrary.org/obo/XAO_0000072	dorsal marginal zone
+http://purl.obolibrary.org/obo/XPO_0103334	decreased size of the duodenum	http://purl.obolibrary.org/obo/XAO_0000236	duodenum
+http://purl.obolibrary.org/obo/XPO_0103335	decreased size of the epaxial muscle	http://purl.obolibrary.org/obo/XAO_0003229	epaxial muscle
+http://purl.obolibrary.org/obo/XPO_0103336	decreased size of the eye	http://purl.obolibrary.org/obo/XAO_0000179	eye
+http://purl.obolibrary.org/obo/XPO_0103337	decreased size of the eye primordium	http://purl.obolibrary.org/obo/XAO_0000227	eye primordium
+http://purl.obolibrary.org/obo/XPO_0103338	decreased size of the fin	http://purl.obolibrary.org/obo/XAO_0000002	fin
+http://purl.obolibrary.org/obo/XPO_0103431	decreased size of the foot	http://purl.obolibrary.org/obo/XAO_0004300	foot
+http://purl.obolibrary.org/obo/XPO_0103341	decreased size of the forebrain	http://purl.obolibrary.org/obo/XAO_0000011	forebrain
+http://purl.obolibrary.org/obo/XPO_0103339	decreased size of the foregut	http://purl.obolibrary.org/obo/XAO_0000232	foregut
+http://purl.obolibrary.org/obo/XPO_0103340	decreased size of the forelimb	http://purl.obolibrary.org/obo/XAO_0003030	forelimb
+http://purl.obolibrary.org/obo/XPO_0103418	decreased size of the forelimb bud	http://purl.obolibrary.org/obo/XAO_0003065	forelimb bud
+http://purl.obolibrary.org/obo/XPO_0103432	decreased size of the forelimb digit	http://purl.obolibrary.org/obo/XAO_0003036	forelimb digit
+http://purl.obolibrary.org/obo/XPO_0103419	decreased size of the fused heart primordium	http://purl.obolibrary.org/obo/XAO_0000336	fused heart primordium
+http://purl.obolibrary.org/obo/XPO_0103433	decreased size of the germ cell	http://purl.obolibrary.org/obo/XAO_0000111	germ cell
+http://purl.obolibrary.org/obo/XPO_0103420	decreased size of the goblet cell	http://purl.obolibrary.org/obo/XAO_0004392	goblet cell
+http://purl.obolibrary.org/obo/XPO_0103434	decreased size of the hand	http://purl.obolibrary.org/obo/XAO_0004299	hand
+http://purl.obolibrary.org/obo/XPO_0103342	decreased size of the head	http://purl.obolibrary.org/obo/XAO_0003024	head
+http://purl.obolibrary.org/obo/XPO_0103435	decreased size of the head mesenchyme	http://purl.obolibrary.org/obo/XAO_0004307	head mesenchyme
+http://purl.obolibrary.org/obo/XPO_0103343	decreased size of the heart	http://purl.obolibrary.org/obo/XAO_0000064	heart
+http://purl.obolibrary.org/obo/XPO_0103344	decreased size of the hindbrain	http://purl.obolibrary.org/obo/XAO_0000015	hindbrain
+http://purl.obolibrary.org/obo/XPO_0103345	decreased size of the hindlimb	http://purl.obolibrary.org/obo/XAO_0003031	hindlimb
+http://purl.obolibrary.org/obo/XPO_0103346	decreased size of the hindlimb bud	http://purl.obolibrary.org/obo/XAO_0003066	hindlimb bud
+http://purl.obolibrary.org/obo/XPO_0103436	decreased size of the hindlimb digit	http://purl.obolibrary.org/obo/XAO_0003035	hindlimb digit
+http://purl.obolibrary.org/obo/XPO_0103347	decreased size of the hyoid arch skeleton	http://purl.obolibrary.org/obo/XAO_0003177	hyoid arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103348	decreased size of the jaw muscle	http://purl.obolibrary.org/obo/XAO_0003269	jaw muscle
+http://purl.obolibrary.org/obo/XPO_0103421	decreased size of the left atrium	http://purl.obolibrary.org/obo/XAO_0003191	left atrium
+http://purl.obolibrary.org/obo/XPO_0103437	decreased size of the left part of branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005270	left part of branchial arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103349	decreased size of the mandibular arch	http://purl.obolibrary.org/obo/XAO_0000097	mandibular arch
+http://purl.obolibrary.org/obo/XPO_0103351	decreased size of the midbrain	http://purl.obolibrary.org/obo/XAO_0000014	midbrain
+http://purl.obolibrary.org/obo/XPO_0103352	decreased size of the mouth	http://purl.obolibrary.org/obo/XAO_0003029	mouth
+http://purl.obolibrary.org/obo/XPO_0103353	decreased size of the muscle	http://purl.obolibrary.org/obo/XAO_0000172	muscle
+http://purl.obolibrary.org/obo/XPO_0103354	decreased size of the myotome	http://purl.obolibrary.org/obo/XAO_0000315	myotome
+http://purl.obolibrary.org/obo/XPO_0103422	decreased size of the neural tube	http://purl.obolibrary.org/obo/XAO_0003204	neural tube
+http://purl.obolibrary.org/obo/XPO_0103355	decreased size of the notochord	http://purl.obolibrary.org/obo/XAO_0000055	notochord
+http://purl.obolibrary.org/obo/XPO_0103356	decreased size of the pancreas	http://purl.obolibrary.org/obo/XAO_0000136	pancreas
+http://purl.obolibrary.org/obo/XPO_0103357	decreased size of the pharyngeal arch	http://purl.obolibrary.org/obo/XAO_0000096	pharyngeal arch
+http://purl.obolibrary.org/obo/XPO_0103358	decreased size of the pharyngeal region	http://purl.obolibrary.org/obo/XAO_0004261	pharyngeal region
+http://purl.obolibrary.org/obo/XPO_0103423	decreased size of the primary heart field	http://purl.obolibrary.org/obo/XAO_0004185	primary heart field
+http://purl.obolibrary.org/obo/XPO_0103424	decreased size of the pronephric tubule	http://purl.obolibrary.org/obo/XAO_0004105	pronephric tubule
+http://purl.obolibrary.org/obo/XPO_0103359	decreased size of the proximal tubule	http://purl.obolibrary.org/obo/XAO_0004518	proximal tubule
+http://purl.obolibrary.org/obo/XPO_0103438	decreased size of the proximal-distal axis	http://purl.obolibrary.org/obo/XAO_0005212	proximal-distal axis
+http://purl.obolibrary.org/obo/XPO_0103360	decreased size of the pseudoblastema	http://purl.obolibrary.org/obo/XAO_0004402	pseudoblastema
+http://purl.obolibrary.org/obo/XPO_0103361	decreased size of the regenerating forelimb	http://purl.obolibrary.org/obo/XAO_0004106	regenerating forelimb
+http://purl.obolibrary.org/obo/XPO_0103362	decreased size of the regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0103425	decreased size of the right atrium	http://purl.obolibrary.org/obo/XAO_0003192	right atrium
+http://purl.obolibrary.org/obo/XPO_0103439	decreased size of the right part of branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005271	right part of branchial arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103426	decreased size of the somite	http://purl.obolibrary.org/obo/XAO_0000058	somite
+http://purl.obolibrary.org/obo/XPO_0103363	decreased size of the spinal cord	http://purl.obolibrary.org/obo/XAO_0000020	spinal cord
+http://purl.obolibrary.org/obo/XPO_0103364	decreased size of the stomach	http://purl.obolibrary.org/obo/XAO_0000128	stomach
+http://purl.obolibrary.org/obo/XPO_0103365	decreased size of the tail	http://purl.obolibrary.org/obo/XAO_0003026	tail
+http://purl.obolibrary.org/obo/XPO_0103366	decreased size of the tail region	http://purl.obolibrary.org/obo/XAO_0000087	tail region
+http://purl.obolibrary.org/obo/XPO_0103427	decreased size of the tail somite	http://purl.obolibrary.org/obo/XAO_0003143	tail somite
+http://purl.obolibrary.org/obo/XPO_0103367	decreased size of the tibia-fibula	http://purl.obolibrary.org/obo/XAO_0003213	tibia-fibula
+http://purl.obolibrary.org/obo/XPO_0103368	decreased size of the trunk	http://purl.obolibrary.org/obo/XAO_0003025	trunk
+http://purl.obolibrary.org/obo/XPO_0103369	decreased size of the trunk region	http://purl.obolibrary.org/obo/XAO_0000054	trunk region
+http://purl.obolibrary.org/obo/XPO_0103370	decreased size of the trunk somite	http://purl.obolibrary.org/obo/XAO_0000314	trunk somite
+http://purl.obolibrary.org/obo/XPO_0103428	decreased size of the ventricular outflow tract	http://purl.obolibrary.org/obo/XAO_0004140	ventricular outflow tract
+http://purl.obolibrary.org/obo/XPO_0103371	decreased size of the whole organism	http://purl.obolibrary.org/obo/XAO_0003004	whole organism
+http://purl.obolibrary.org/obo/XPO_0107252	microphthalmia	http://purl.obolibrary.org/obo/XAO_0000181	globe

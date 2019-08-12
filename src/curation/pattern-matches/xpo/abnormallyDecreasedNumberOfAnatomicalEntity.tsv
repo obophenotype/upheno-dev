@@ -1,0 +1,24 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/XPO_0103885	Decreased number of ceratohyal	http://purl.obolibrary.org/obo/XAO_0004219	ceratohyal
+http://purl.obolibrary.org/obo/XPO_0103886	Decreased number of ciliated epidermal cell	http://purl.obolibrary.org/obo/XAO_0000031	ciliated epidermal cell
+http://purl.obolibrary.org/obo/XPO_0103888	Decreased number of claw	http://purl.obolibrary.org/obo/XAO_0003103	claw
+http://purl.obolibrary.org/obo/XPO_0103595	Decreased number of foot	http://purl.obolibrary.org/obo/XAO_0004300	foot
+http://purl.obolibrary.org/obo/XPO_0103584	Decreased number of forelimb digit	http://purl.obolibrary.org/obo/XAO_0003036	forelimb digit
+http://purl.obolibrary.org/obo/XPO_0103589	Decreased number of hindlimb digit	http://purl.obolibrary.org/obo/XAO_0003035	hindlimb digit
+http://purl.obolibrary.org/obo/XPO_0103887	Decreased number of hindlimb digit	http://purl.obolibrary.org/obo/XAO_0003035	hindlimb digit
+http://purl.obolibrary.org/obo/XPO_0103597	Decreased number of melanophore	http://purl.obolibrary.org/obo/XAO_0001014	melanophore
+http://purl.obolibrary.org/obo/XPO_0103890	Decreased number of melanophore	http://purl.obolibrary.org/obo/XAO_0001014	melanophore
+http://purl.obolibrary.org/obo/XPO_0103889	Decreased number of metatarsus	http://purl.obolibrary.org/obo/XAO_0003212	metatarsus
+http://purl.obolibrary.org/obo/XPO_0103598	Decreased number of proximal tubule	http://purl.obolibrary.org/obo/XAO_0004518	proximal tubule
+http://purl.obolibrary.org/obo/XPO_0103891	Decreased number of retinal ganglion cell	http://purl.obolibrary.org/obo/XAO_0004100	retinal ganglion cell
+http://purl.obolibrary.org/obo/XPO_0103892	Decreased number of sarcomere	http://purl.obolibrary.org/obo/GO_0030017	sarcomere
+http://purl.obolibrary.org/obo/XPO_0103893	Decreased number of somite	http://purl.obolibrary.org/obo/XAO_0000058	somite
+http://purl.obolibrary.org/obo/XPO_0103894	Decreased number of spindle microtubule	http://purl.obolibrary.org/obo/GO_0005876	spindle microtubule
+http://purl.obolibrary.org/obo/XPO_0103596	Decreased number of tibia-fibula	http://purl.obolibrary.org/obo/XAO_0003213	tibia-fibula
+http://purl.obolibrary.org/obo/XPO_0103895	Decreased number of trunk somite	http://purl.obolibrary.org/obo/XAO_0000314	trunk somite
+http://purl.obolibrary.org/obo/XPO_0115607	abnormal(ly) decreased amount of Meckel's cartilage (T)	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
+http://purl.obolibrary.org/obo/XPO_0115381	abnormal(ly) decreased amount of germ cell (T)	http://purl.obolibrary.org/obo/XAO_0000111	germ cell
+http://purl.obolibrary.org/obo/XPO_0115722	abnormal(ly) decreased amount of head mesenchyme (T)	http://purl.obolibrary.org/obo/XAO_0004307	head mesenchyme
+http://purl.obolibrary.org/obo/XPO_0115649	abnormal(ly) decreased amount of hypaxial muscle (T)	http://purl.obolibrary.org/obo/XAO_0003228	hypaxial muscle
+http://purl.obolibrary.org/obo/XPO_0115616	abnormal(ly) decreased amount of primordial germ cell (T)	http://purl.obolibrary.org/obo/XAO_0003149	primordial germ cell
+http://purl.obolibrary.org/obo/XPO_0115750	abnormal(ly) decreased amount of trunk vasculature (T)	http://purl.obolibrary.org/obo/XAO_0004423	trunk vasculature

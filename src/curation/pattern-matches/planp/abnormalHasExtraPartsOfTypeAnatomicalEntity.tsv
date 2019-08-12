@@ -1,0 +1,3 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/PLANP_0000527	has extra parts of type head	http://purl.obolibrary.org/obo/PLANA_0000418	head
+http://purl.obolibrary.org/obo/PLANP_0000531	has extra parts of type tail	http://purl.obolibrary.org/obo/PLANA_0000421	tail
