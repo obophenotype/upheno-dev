@@ -13,7 +13,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import rm, uPhenoConfig, robot_extract_seed, robot_extract_module, robot_merge, robot_dump_disjoints, robot_remove_mentions_of_nothing
+from lib import cdir, rm, uPhenoConfig, robot_extract_seed, robot_extract_module, robot_merge, robot_dump_disjoints, robot_remove_mentions_of_nothing
 
 ### Configuration
 
@@ -31,6 +31,11 @@ pattern_dir = os.path.join(ws,"curation/patterns-for-matching/")
 ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 matches_dir = os.path.join(ws,"curation/pattern-matches/")
 module_dir = os.path.join(ws,"curation/tmp/")
+
+cdir(pattern_dir)
+cdir(matches_dir)
+cdir(module_dir)
+cdir(ontology_for_matching_dir)
 
 sparql_dir = os.path.join(ws,"sparql/")
 xref_pattern = os.path.join(ws,"patterns/dosdp-patterns/xrefToSubClass.yaml")
