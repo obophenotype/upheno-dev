@@ -21,6 +21,9 @@ class uPhenoConfig:
     def get_phenotype_ontologies(self):
         return self.config.get("species_modules")
 
+    def get_upheno_axiom_blacklist(self):
+        return self.config.get("upheno_axiom_blacklist")
+
     def get_dependencies(self, id):
         dependencies = []
         dependencies.extend(self.config.get("common_dependencies"))
@@ -126,7 +129,7 @@ def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT
         print(e.output)
         raise Exception("Removing disjoint class axioms from " + ontology_path + " failed")
 
-def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
+def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEOUT="3600", robot_opts="-v"):
     print("Removing mentions of nothing from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
         check_call(['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false', '--output', ontology_removed_path])
@@ -134,7 +137,15 @@ def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEO
         print(e.output)
         raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
 
-def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="60m", robot_opts="-v"):
+def robot_remove_upheno_blacklist_and_classify(ontology_path, ontology_removed_path, blacklist_ontology, TIMEOUT="3600", robot_opts="-v"):
+    print("Removing upheno blacklist axioms from "+ontology_path+" and saving to "+ontology_removed_path)
+    try:
+        check_call(['timeout','-t',TIMEOUT,'robot', 'merge',robot_opts,'-i', ontology_path,'unmerge', '-i', blacklist_ontology,'reason', '--reasoner','ELK', '--output', ontology_removed_path])
+    except Exception as e:
+        print(e.output)
+        raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
+
+def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts="-v"):
     print("Merging " + str(ontology_list) + " to " + ontology_merged_path)
     try:
         callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts]

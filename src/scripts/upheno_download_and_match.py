@@ -13,7 +13,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import cdir, rm, uPhenoConfig, robot_extract_seed, robot_extract_module, robot_merge, robot_dump_disjoints, robot_remove_mentions_of_nothing
+from lib import cdir, rm, touch, uPhenoConfig, robot_extract_seed, robot_extract_module, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
 
@@ -184,6 +184,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
             robot_merge(ontology_for_matching, merged_pheno, TIMEOUT, robot_opts)
             robot_dump_disjoints(merged_pheno,term_file,merged_pheno,TIMEOUT,robot_opts)
             robot_remove_mentions_of_nothing(merged_pheno,merged_pheno,TIMEOUT,robot_opts)
+            robot_remove_upheno_blacklist_and_classify(merged_pheno, merged_pheno,upheno_config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
 
 def classes_with_matches(oid, preserve_eq):
     o_matches_dir = os.path.join(matches_dir, oid)
@@ -200,7 +201,7 @@ def classes_with_matches(oid, preserve_eq):
 def prepare_species_specific_phenotype_ontologies(overwrite=True):
     global upheno_config, module_dir, matches_dir, TIMEOUT, robot_opts
 
-    for oid in upheno_config.get_source_ids():
+    for oid in upheno_config.get_phenotype_ontologies():
         fn = oid + ".owl"
         o_base = os.path.join(module_dir, fn)
         o_base_taxon = os.path.join(module_dir, oid + "-taxon-restricted.owl")
@@ -209,6 +210,8 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
 
         if not upheno_config.is_allow_non_upheno_eq():
             classes_with_matches(oid,preserve_eq)
+        else:
+            touch(preserve_eq)
 
         if overwrite or not os.path.exists(o_base_taxon):
             add_taxon_restrictions(o_base, o_base_taxon, upheno_config.get_taxon(oid),
