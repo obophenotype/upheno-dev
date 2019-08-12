@@ -21,6 +21,7 @@ EquivalentClasses(obo:XPO_0115852 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectInt
 
 ### From RO
 SubObjectPropertyOf(obo:RO_0002131 obo:RO_0002323)
+SubObjectPropertyOf(obo:RO_0002131 obo:RO_0002328)
 SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002202) obo:RO_0002254)
 
 ### From GO
