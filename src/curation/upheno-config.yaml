@@ -10,7 +10,7 @@ robot_java_args: -Xmx10G
 timeout_external_processes: 3600
 working_directory: /work/src
 overwrite_matches: False
-skip_pattern_download: False
+skip_pattern_download: True
 overwrite_ontologies: False
 match_owl_thing: False
 allow_non_upheno_eq: False
