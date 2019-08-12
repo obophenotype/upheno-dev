@@ -42,7 +42,6 @@ ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 upheno_id_map = os.path.join(ws,"curation/upheno_id_map.txt")
 blacklisted_upheno_ids_file = os.path.join(ws,"curation/blacklisted_upheno_iris.txt")
 java_fill = os.path.join(ws,'scripts/upheno-filler-pipeline.jar')
-java_taxon = os.path.join(ws,'scripts/upheno-taxon-restriction.jar')
 sparql_terms = os.path.join(ws, "sparql/terms.sparql")
 
 
@@ -256,19 +255,10 @@ def extract_upheno_fillers(ontology_path,oid_pattern_matches_dir,oid_upheno_fill
     print("Extracting fillers from "+ontology_path)
     global TIMEOUT,robot_opts, legal_iri_patterns_path, legal_pattern_vars_path
     try:
-        check_call(['gtimeout',TIMEOUT,'java', java_opts, '-jar',java_fill, ontology_path, oid_pattern_matches_dir, pattern_dir, oid_upheno_fillers_dir, legal_iri_patterns_path, legal_pattern_vars_path])
+        check_call(['timeout','-t',TIMEOUT,'java', java_opts, '-jar',java_fill, ontology_path, oid_pattern_matches_dir, pattern_dir, oid_upheno_fillers_dir, legal_iri_patterns_path, legal_pattern_vars_path])
     except Exception as e:
         print(e.output)
         raise Exception("Filler extraction of" + ontology_path + " failed")
-
-def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,taxon_label,root_phenotype):
-    print("Extracting fillers from "+ontology_path)
-    global TIMEOUT,robot_opts, legal_iri_patterns_path, legal_pattern_vars_path
-    try:
-        check_call(['gtimeout',TIMEOUT,'java', java_opts, '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype])
-    except Exception as e:
-        print(e.output)
-        raise Exception("Appending taxon restrictions" + ontology_path + " failed")
 
 def extract_upheno_fillers_for_all_ontologies(oids):
     global pattern_dir, matches_dir, upheno_fillers_dir
@@ -287,22 +277,6 @@ def add_upheno_ids_to_fillers(pattern_dir):
                 df = pd.read_csv(f, sep='\t')
                 df = add_upheno_id(df, tsv.replace(".tsv$", ""))
                 df.to_csv(f, sep='\t', index=False)
-### Methods end
-
-### Run
-upheno_map = pd.read_csv(upheno_id_map, sep='\t')
-
-# Do not use these Upheno IDs
-with open(blacklisted_upheno_ids_file) as f:
-    blacklisted_upheno_ids = f.read().splitlines()
-
-extract_upheno_fillers_for_all_ontologies(upheno_config.get_phenotype_ontologies())
-
-sys.exit("Stopping just prior to id assignment")
-# Assign upheno ids
-add_upheno_ids_to_fillers(upheno_config.get_phenotype_ontologies(),pattern_dir)
-
-sys.exit("Intermediadte test stop")
 
 # TODO: preprocessing: Inject taxon restrictions, extract ncbi taxon module for the relevant taxon facets in the config
 
@@ -324,6 +298,27 @@ def export_merged_tsvs_for_combination(merged_tsv_dir, oids):
             appended_data.drop_duplicates().to_csv(merged_tsv_path, sep='\t', index=False)
 
 
+
+### Methods end
+
+### Run
+upheno_map = pd.read_csv(upheno_id_map, sep='\t')
+
+# Do not use these Upheno IDs
+with open(blacklisted_upheno_ids_file) as f:
+    blacklisted_upheno_ids = f.read().splitlines()
+
+# The following function will extract the intermediate layer as TSVs
+extract_upheno_fillers_for_all_ontologies(upheno_config.get_phenotype_ontologies())
+
+sys.exit("Stopping just prior to id assignment")
+
+# Generate upheno ids for TSV files generated in the previous step
+add_upheno_ids_to_fillers(upheno_config.get_phenotype_ontologies(),pattern_dir)
+
+# sys.exit("Intermediadte test stop")
+
+# Generate uPheno profiles
 for upheno_combination_id in upheno_config.get_upheno_combos():
     oids = upheno_config.get_upheno_combo_oids(upheno_combination_id)
     merged_tsv_dir = os.path.join(upheno_fillers_dir, upheno_combination_id)
@@ -338,16 +333,14 @@ for upheno_combination_id in upheno_config.get_upheno_combos():
         outfile = os.path.join(final_upheno_combo_dir,pattern.replace(".yaml", ".owl"))
         dosdp_generate(pattern,tsv_file_name,outfile, TIMEOUT)
 
-    # For all participating ontologies
+    # Collect all ontologies (taxon restricted versions) and there dependencies as needed by this profile.
     dependencies = []
     main_files = []
     for oid in oids:
         fn = oid+".owl"
-        o_base = os.path.join(raw_ontologies_dir,fn)
         o_base_taxon = os.path.join(raw_ontologies_dir, oid+"-taxon-restricted.owl")
 
-        add_taxon_restrictions(o_base,o_base_taxon,upheno_config.get_taxon(oid),upheno_config.get_taxon_label(oid),upheno_config.get_root_phenotype(oid))
-        main_files.append(o_base)
+        main_files.append(o_base_taxon)
         for dependency in upheno_config.get_dependencies(oid):
             fn_dep = dependency+".owl"
             o_dep = os.path.join(raw_ontologies_dir, fn_dep)
@@ -359,6 +352,7 @@ for upheno_combination_id in upheno_config.get_upheno_combos():
     seed = os.path.join(merged_main, upheno_combination_id + "_seed.txt")
 
     dependencies = list(set(dependencies))
+    upheno_files = []
     for dependency in dependencies:
         fn_dep = dependency + ".owl"
         o_dep = os.path.join(raw_ontologies_dir, fn_dep)

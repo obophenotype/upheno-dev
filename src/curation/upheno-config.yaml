@@ -7,10 +7,13 @@ use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
 robot_java_args: -Xmx10G
-timeout_external_processes: 60m
-working_directory: /ws/upheno-dev/src
+timeout_external_processes: 3600
+working_directory: /work/src
 overwrite_matches: False
+skip_pattern_download: True
 overwrite_ontologies: False
+match_owl_thing: False
+allow_non_upheno_eq: False
 clean: False
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
@@ -67,6 +70,10 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/xao.owl
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
+  - id: bspo-uberon
+    mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/bridge/uberon-bridge-to-bspo.obo
+  - id: caro-uberon
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl
   - id: xao-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
   - id: wbbt-uberon
@@ -118,16 +125,19 @@ sources:
       - bfo
       - xao
       - xao-uberon
+      - bspo-uberon
+      - caro-uberon
   - id: planp
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_79327
     taxon_label: Planaria
     anatomy: plana
-    taxon: 
     dependencies:
       - plana
       - plana-uberon
+      - bspo-uberon
+      - caro-uberon
       #- ncit
   - id: zp
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
@@ -141,6 +151,8 @@ sources:
       - mpath
       - bfo
       - zfa-uberon
+      - bspo-uberon
+      - caro-uberon
 common_dependencies:
   - go
   - uberon

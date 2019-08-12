@@ -61,8 +61,20 @@ class uPhenoConfig:
     def is_overwrite_ontologies(self):
         return self.config.get("overwrite_ontologies")
 
+    def is_match_owl_thing(self):
+        return self.config.get("match_owl_thing")
+
+    def is_skip_pattern_download(self):
+        return self.config.get("skip_pattern_download")
+
+    def is_allow_non_upheno_eq(self):
+        return self.config.get("allow_non_upheno_eq")
+
     def get_external_timeout(self):
-        return self.config.get("timeout_external_processes")
+        return str(self.config.get("timeout_external_processes"))
+
+    def get_pattern_repos(self):
+        return self.config.get("pattern_repos")
 
     def get_working_directory(self):
         return self.config.get("working_directory")
@@ -93,7 +105,7 @@ def cdir(path):
 def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting seed of "+ontology_path+" with "+sparql_terms)
     try:
-        check_call(['gtimeout',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_terms, seedfile])
+        check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_terms, seedfile])
     except Exception as e:
         print(e.output)
         raise Exception("Seed extraction of" + ontology_path + " failed")
@@ -101,7 +113,7 @@ def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot
 def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting module of "+ontology_path+" to "+ontology_merged_path)
     try:
-        check_call(['gtimeout',TIMEOUT,'robot', 'extract',robot_opts,'-i', ontology_path,'-T', seedfile,'--method','BOT', '--output', ontology_merged_path])
+        check_call(['timeout','-t',TIMEOUT,'robot', 'extract',robot_opts,'-i', ontology_path,'-T', seedfile,'--method','BOT', '--output', ontology_merged_path])
     except Exception as e:
         print(e.output)
         raise Exception("Module extraction of " + ontology_path + " failed")
@@ -109,7 +121,7 @@ def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="
 def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
     print("Removing disjoint class axioms from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        check_call(['gtimeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term-file',term_file,'--axioms','disjoint', '--output', ontology_removed_path])
+        check_call(['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term-file',term_file,'--axioms','disjoint', '--output', ontology_removed_path])
     except Exception as e:
         print(e.output)
         raise Exception("Removing disjoint class axioms from " + ontology_path + " failed")
@@ -117,7 +129,7 @@ def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT
 def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
     print("Removing mentions of nothing from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        check_call(['gtimeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false', '--output', ontology_removed_path])
+        check_call(['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false', '--output', ontology_removed_path])
     except Exception as e:
         print(e.output)
         raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
@@ -125,7 +137,7 @@ def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEO
 def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="60m", robot_opts="-v"):
     print("Merging " + str(ontology_list) + " to " + ontology_merged_path)
     try:
-        callstring = ['gtimeout', TIMEOUT, 'robot', 'merge', robot_opts]
+        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts]
         merge = " ".join(["--input " + s for s in ontology_list]).split(" ")
         callstring.extend(merge)
         callstring.extend(['--output', ontology_merged_path])
@@ -138,7 +150,18 @@ def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="60m", robot_opts="
 def dosdp_generate(pattern,tsv,outfile, TIMEOUT="60m"):
     try:
         check_call(
-            ['gtimeout', TIMEOUT, 'dosdp-tools', 'generate', '--infile=' + tsv, '--template=' + pattern,
+            ['timeout','-t', TIMEOUT, 'dosdp-tools', 'generate', '--infile=' + tsv, '--template=' + pattern,
              '--obo-prefixes=true', '--restrict-axioms-to=logical', '--outfile=' + outfile])
     except:
         raise Exception("Pattern generation failed: "+pattern+", "+tsv+", "+outfile+".")
+
+
+def touch(path):
+    with open(path, 'a'):
+        os.utime(path, None)
+
+def rm(path):
+    if os.path.isfile(path):
+        os.remove(path)
+    else:  ## Show an error ##
+        print("Error: %s file not found" % path)
