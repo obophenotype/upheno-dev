@@ -1,0 +1,16 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/XPO_0116035	abnormal(ly) malformed of Meckel's cartilage in left (T)	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116030	abnormal(ly) malformed of brain in left (T)	http://purl.obolibrary.org/obo/XAO_0000010	brain	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116036	abnormal(ly) malformed of branchial arch skeleton in left (T)	http://purl.obolibrary.org/obo/XAO_0003180	branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116027	abnormal(ly) malformed of epithelium in foregut (T)	http://purl.obolibrary.org/obo/XAO_0003045	epithelium	http://purl.obolibrary.org/obo/XAO_0000232	foregut
+http://purl.obolibrary.org/obo/XPO_0116031	abnormal(ly) malformed of eye in left (T)	http://purl.obolibrary.org/obo/XAO_0000179	eye	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116026	abnormal(ly) malformed of eye in lens (T)	http://purl.obolibrary.org/obo/XAO_0000179	eye	http://purl.obolibrary.org/obo/XAO_0000008	lens
+http://purl.obolibrary.org/obo/XPO_0116037	abnormal(ly) malformed of eye in right (T)	http://purl.obolibrary.org/obo/XAO_0000179	eye	http://purl.obolibrary.org/obo/XAO_0005006	right
+http://purl.obolibrary.org/obo/XPO_0116032	abnormal(ly) malformed of inner ear in left (T)	http://purl.obolibrary.org/obo/XAO_0000192	inner ear	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116038	abnormal(ly) malformed of inner ear in right (T)	http://purl.obolibrary.org/obo/XAO_0000192	inner ear	http://purl.obolibrary.org/obo/XAO_0005006	right
+http://purl.obolibrary.org/obo/XPO_0116034	abnormal(ly) malformed of olfactory pit in left (T)	http://purl.obolibrary.org/obo/XAO_0000275	olfactory pit	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116033	abnormal(ly) malformed of optic vesicle in left (T)	http://purl.obolibrary.org/obo/XAO_0000228	optic vesicle	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0116029	abnormal(ly) malformed of ventral in trunk (T)	http://purl.obolibrary.org/obo/XAO_0000299	ventral	http://purl.obolibrary.org/obo/XAO_0003025	trunk
+http://purl.obolibrary.org/obo/XPO_0103678	malformed Meckel's cartilage in left side	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0005210	left side
+http://purl.obolibrary.org/obo/XPO_0103677	malformed cartilage element in head	http://purl.obolibrary.org/obo/XAO_0004013	cartilage element	http://purl.obolibrary.org/obo/XAO_0003024	head
+http://purl.obolibrary.org/obo/XPO_0103679	malformed tarsus in regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0003211	tarsus	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb

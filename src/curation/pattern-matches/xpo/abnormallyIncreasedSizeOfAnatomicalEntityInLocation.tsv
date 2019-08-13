@@ -1,0 +1,9 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/XPO_0115995	abnormal(ly) increased size of cell in foregut (T)	http://purl.obolibrary.org/obo/XAO_0003012	cell	http://purl.obolibrary.org/obo/XAO_0000232	foregut
+http://purl.obolibrary.org/obo/XPO_0115997	abnormal(ly) increased size of eye in left (T)	http://purl.obolibrary.org/obo/XAO_0000179	eye	http://purl.obolibrary.org/obo/XAO_0005005	left
+http://purl.obolibrary.org/obo/XPO_0103606	increased size of the autopod in regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0004265	autopod	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0103608	increased size of the cell in cranial neural crest	http://purl.obolibrary.org/obo/XAO_0003012	cell	http://purl.obolibrary.org/obo/XAO_0001001	cranial neural crest
+http://purl.obolibrary.org/obo/XPO_0103605	increased size of the iridophore in epidermis	http://purl.obolibrary.org/obo/XAO_0000472	iridophore	http://purl.obolibrary.org/obo/XAO_0000028	epidermis
+http://purl.obolibrary.org/obo/XPO_0103603	increased size of the mesoderm in trunk region	http://purl.obolibrary.org/obo/XAO_0000050	mesoderm	http://purl.obolibrary.org/obo/XAO_0000054	trunk region
+http://purl.obolibrary.org/obo/XPO_0103604	increased size of the neuroectoderm in head region	http://purl.obolibrary.org/obo/XAO_0000042	neuroectoderm	http://purl.obolibrary.org/obo/XAO_0000040	head region
+http://purl.obolibrary.org/obo/XPO_0103607	increased size of the spike in regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0004489	spike	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb

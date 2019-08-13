@@ -1,0 +1,10 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/XPO_0115427	abnormal(ly) mislocalised of inner ear (T)	http://purl.obolibrary.org/obo/XAO_0000192	inner ear
+http://purl.obolibrary.org/obo/XPO_0115410	abnormal(ly) mislocalised of muscle (T)	http://purl.obolibrary.org/obo/XAO_0000172	muscle
+http://purl.obolibrary.org/obo/XPO_0115694	abnormal(ly) mislocalised of outflow tract (T)	http://purl.obolibrary.org/obo/XAO_0004139	outflow tract
+http://purl.obolibrary.org/obo/XPO_0115406	abnormal(ly) mislocalised of pancreas (T)	http://purl.obolibrary.org/obo/XAO_0000136	pancreas
+http://purl.obolibrary.org/obo/XPO_0103842	mislocalized cement gland	http://purl.obolibrary.org/obo/XAO_0000033	cement gland
+http://purl.obolibrary.org/obo/XPO_0103843	mislocalized head	http://purl.obolibrary.org/obo/XAO_0003024	head
+http://purl.obolibrary.org/obo/XPO_0103844	mislocalized neural tube	http://purl.obolibrary.org/obo/XAO_0003204	neural tube
+http://purl.obolibrary.org/obo/XPO_0103845	mislocalized tail	http://purl.obolibrary.org/obo/XAO_0003026	tail
+http://purl.obolibrary.org/obo/XPO_0103846	mislocalized utricle	http://purl.obolibrary.org/obo/XAO_0000195	utricle

@@ -1,0 +1,91 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/XPO_0115478	abnormal(ly) increased size of dorsal pancreatic bud (T)	http://purl.obolibrary.org/obo/XAO_0000467	dorsal pancreatic bud
+http://purl.obolibrary.org/obo/XPO_0115367	abnormal(ly) increased size of endoderm (T)	http://purl.obolibrary.org/obo/XAO_0000090	endoderm
+http://purl.obolibrary.org/obo/XPO_0115377	abnormal(ly) increased size of hindgut (T)	http://purl.obolibrary.org/obo/XAO_0000104	hindgut
+http://purl.obolibrary.org/obo/XPO_0115402	abnormal(ly) increased size of liver (T)	http://purl.obolibrary.org/obo/XAO_0000133	liver
+http://purl.obolibrary.org/obo/XPO_0115493	abnormal(ly) increased size of proctodeum (T)	http://purl.obolibrary.org/obo/XAO_0001019	proctodeum
+http://purl.obolibrary.org/obo/XPO_0115497	abnormal(ly) increased size of ventral pancreatic bud (T)	http://purl.obolibrary.org/obo/XAO_0001103	ventral pancreatic bud
+http://purl.obolibrary.org/obo/XPO_0103733	increased size of the Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
+http://purl.obolibrary.org/obo/XPO_0103711	increased size of the alimentary system	http://purl.obolibrary.org/obo/XAO_0000125	alimentary system
+http://purl.obolibrary.org/obo/XPO_0103763	increased size of the anterior region	http://purl.obolibrary.org/obo/XAO_0005216	anterior region
+http://purl.obolibrary.org/obo/XPO_0103752	increased size of the anterior-posterior axis	http://purl.obolibrary.org/obo/XAO_0005202	anterior-posterior axis
+http://purl.obolibrary.org/obo/XPO_0103764	increased size of the antero-ventral region	http://purl.obolibrary.org/obo/XAO_0005222	antero-ventral region
+http://purl.obolibrary.org/obo/XPO_0103753	increased size of the apical junction complex	http://purl.obolibrary.org/obo/XAO_0005254	apical junction complex
+http://purl.obolibrary.org/obo/XPO_0103712	increased size of the archenteron	http://purl.obolibrary.org/obo/XAO_0000092	archenteron
+http://purl.obolibrary.org/obo/XPO_0103372	increased size of the barbel	http://purl.obolibrary.org/obo/XAO_0004231	barbel
+http://purl.obolibrary.org/obo/XPO_0103713	increased size of the brain	http://purl.obolibrary.org/obo/XAO_0000010	brain
+http://purl.obolibrary.org/obo/XPO_0103714	increased size of the branchial arch	http://purl.obolibrary.org/obo/XAO_0000099	branchial arch
+http://purl.obolibrary.org/obo/XPO_0103715	increased size of the branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0003180	branchial arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103373	increased size of the cardiac ventricle	http://purl.obolibrary.org/obo/XAO_0003193	cardiac ventricle
+http://purl.obolibrary.org/obo/XPO_0103374	increased size of the cement gland	http://purl.obolibrary.org/obo/XAO_0000033	cement gland
+http://purl.obolibrary.org/obo/XPO_0103375	increased size of the central endoderm	http://purl.obolibrary.org/obo/XAO_0000295	central endoderm
+http://purl.obolibrary.org/obo/XPO_0103716	increased size of the ceratobranchial I	http://purl.obolibrary.org/obo/XAO_0004359	ceratobranchial I
+http://purl.obolibrary.org/obo/XPO_0103717	increased size of the ceratobranchial II	http://purl.obolibrary.org/obo/XAO_0004360	ceratobranchial II
+http://purl.obolibrary.org/obo/XPO_0103718	increased size of the ceratobranchial III	http://purl.obolibrary.org/obo/XAO_0004361	ceratobranchial III
+http://purl.obolibrary.org/obo/XPO_0103719	increased size of the ceratobranchial IV	http://purl.obolibrary.org/obo/XAO_0004362	ceratobranchial IV
+http://purl.obolibrary.org/obo/XPO_0103720	increased size of the ceratohyal	http://purl.obolibrary.org/obo/XAO_0004219	ceratohyal
+http://purl.obolibrary.org/obo/XPO_0103721	increased size of the chondrocranium	http://purl.obolibrary.org/obo/XAO_0003059	chondrocranium
+http://purl.obolibrary.org/obo/XPO_0103722	increased size of the dorsal marginal zone	http://purl.obolibrary.org/obo/XAO_0000072	dorsal marginal zone
+http://purl.obolibrary.org/obo/XPO_0103765	increased size of the dorsal region	http://purl.obolibrary.org/obo/XAO_0005218	dorsal region
+http://purl.obolibrary.org/obo/XPO_0103723	increased size of the duodenum	http://purl.obolibrary.org/obo/XAO_0000236	duodenum
+http://purl.obolibrary.org/obo/XPO_0103724	increased size of the epaxial muscle	http://purl.obolibrary.org/obo/XAO_0003229	epaxial muscle
+http://purl.obolibrary.org/obo/XPO_0103376	increased size of the eye	http://purl.obolibrary.org/obo/XAO_0000179	eye
+http://purl.obolibrary.org/obo/XPO_0103725	increased size of the eye primordium	http://purl.obolibrary.org/obo/XAO_0000227	eye primordium
+http://purl.obolibrary.org/obo/XPO_0103726	increased size of the fin	http://purl.obolibrary.org/obo/XAO_0000002	fin
+http://purl.obolibrary.org/obo/XPO_0103754	increased size of the foot	http://purl.obolibrary.org/obo/XAO_0004300	foot
+http://purl.obolibrary.org/obo/XPO_0103728	increased size of the forebrain	http://purl.obolibrary.org/obo/XAO_0000011	forebrain
+http://purl.obolibrary.org/obo/XPO_0103727	increased size of the foregut	http://purl.obolibrary.org/obo/XAO_0000232	foregut
+http://purl.obolibrary.org/obo/XPO_0103377	increased size of the forelimb	http://purl.obolibrary.org/obo/XAO_0003030	forelimb
+http://purl.obolibrary.org/obo/XPO_0103378	increased size of the forelimb bud	http://purl.obolibrary.org/obo/XAO_0003065	forelimb bud
+http://purl.obolibrary.org/obo/XPO_0103755	increased size of the forelimb digit	http://purl.obolibrary.org/obo/XAO_0003036	forelimb digit
+http://purl.obolibrary.org/obo/XPO_0103379	increased size of the fused heart primordium	http://purl.obolibrary.org/obo/XAO_0000336	fused heart primordium
+http://purl.obolibrary.org/obo/XPO_0103756	increased size of the germ cell	http://purl.obolibrary.org/obo/XAO_0000111	germ cell
+http://purl.obolibrary.org/obo/XPO_0103380	increased size of the goblet cell	http://purl.obolibrary.org/obo/XAO_0004392	goblet cell
+http://purl.obolibrary.org/obo/XPO_0103757	increased size of the hand	http://purl.obolibrary.org/obo/XAO_0004299	hand
+http://purl.obolibrary.org/obo/XPO_0103381	increased size of the head	http://purl.obolibrary.org/obo/XAO_0003024	head
+http://purl.obolibrary.org/obo/XPO_0103758	increased size of the head mesenchyme	http://purl.obolibrary.org/obo/XAO_0004307	head mesenchyme
+http://purl.obolibrary.org/obo/XPO_0103382	increased size of the heart	http://purl.obolibrary.org/obo/XAO_0000064	heart
+http://purl.obolibrary.org/obo/XPO_0103729	increased size of the hindbrain	http://purl.obolibrary.org/obo/XAO_0000015	hindbrain
+http://purl.obolibrary.org/obo/XPO_0103383	increased size of the hindlimb	http://purl.obolibrary.org/obo/XAO_0003031	hindlimb
+http://purl.obolibrary.org/obo/XPO_0103384	increased size of the hindlimb bud	http://purl.obolibrary.org/obo/XAO_0003066	hindlimb bud
+http://purl.obolibrary.org/obo/XPO_0103759	increased size of the hindlimb digit	http://purl.obolibrary.org/obo/XAO_0003035	hindlimb digit
+http://purl.obolibrary.org/obo/XPO_0103730	increased size of the hyoid arch skeleton	http://purl.obolibrary.org/obo/XAO_0003177	hyoid arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103766	increased size of the hypaxial muscle	http://purl.obolibrary.org/obo/XAO_0003228	hypaxial muscle
+http://purl.obolibrary.org/obo/XPO_0103731	increased size of the jaw muscle	http://purl.obolibrary.org/obo/XAO_0003269	jaw muscle
+http://purl.obolibrary.org/obo/XPO_0103385	increased size of the left atrium	http://purl.obolibrary.org/obo/XAO_0003191	left atrium
+http://purl.obolibrary.org/obo/XPO_0103767	increased size of the left eye	http://purl.obolibrary.org/obo/XAO_0005256	left eye
+http://purl.obolibrary.org/obo/XPO_0103760	increased size of the left part of branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005270	left part of branchial arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103732	increased size of the mandibular arch	http://purl.obolibrary.org/obo/XAO_0000097	mandibular arch
+http://purl.obolibrary.org/obo/XPO_0103734	increased size of the midbrain	http://purl.obolibrary.org/obo/XAO_0000014	midbrain
+http://purl.obolibrary.org/obo/XPO_0103735	increased size of the mouth	http://purl.obolibrary.org/obo/XAO_0003029	mouth
+http://purl.obolibrary.org/obo/XPO_0103736	increased size of the muscle	http://purl.obolibrary.org/obo/XAO_0000172	muscle
+http://purl.obolibrary.org/obo/XPO_0103386	increased size of the myotome	http://purl.obolibrary.org/obo/XAO_0000315	myotome
+http://purl.obolibrary.org/obo/XPO_0103387	increased size of the neural tube	http://purl.obolibrary.org/obo/XAO_0003204	neural tube
+http://purl.obolibrary.org/obo/XPO_0103737	increased size of the notochord	http://purl.obolibrary.org/obo/XAO_0000055	notochord
+http://purl.obolibrary.org/obo/XPO_0103388	increased size of the pancreas	http://purl.obolibrary.org/obo/XAO_0000136	pancreas
+http://purl.obolibrary.org/obo/XPO_0103738	increased size of the pharyngeal arch	http://purl.obolibrary.org/obo/XAO_0000096	pharyngeal arch
+http://purl.obolibrary.org/obo/XPO_0103739	increased size of the pharyngeal region	http://purl.obolibrary.org/obo/XAO_0004261	pharyngeal region
+http://purl.obolibrary.org/obo/XPO_0103768	increased size of the postero-ventral region	http://purl.obolibrary.org/obo/XAO_0005224	postero-ventral region
+http://purl.obolibrary.org/obo/XPO_0103389	increased size of the primary heart field	http://purl.obolibrary.org/obo/XAO_0004185	primary heart field
+http://purl.obolibrary.org/obo/XPO_0103390	increased size of the pronephric tubule	http://purl.obolibrary.org/obo/XAO_0004105	pronephric tubule
+http://purl.obolibrary.org/obo/XPO_0103740	increased size of the proximal tubule	http://purl.obolibrary.org/obo/XAO_0004518	proximal tubule
+http://purl.obolibrary.org/obo/XPO_0103761	increased size of the proximal-distal axis	http://purl.obolibrary.org/obo/XAO_0005212	proximal-distal axis
+http://purl.obolibrary.org/obo/XPO_0103741	increased size of the pseudoblastema	http://purl.obolibrary.org/obo/XAO_0004402	pseudoblastema
+http://purl.obolibrary.org/obo/XPO_0103742	increased size of the regenerating forelimb	http://purl.obolibrary.org/obo/XAO_0004106	regenerating forelimb
+http://purl.obolibrary.org/obo/XPO_0103743	increased size of the regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0103391	increased size of the right atrium	http://purl.obolibrary.org/obo/XAO_0003192	right atrium
+http://purl.obolibrary.org/obo/XPO_0103769	increased size of the right eye	http://purl.obolibrary.org/obo/XAO_0005257	right eye
+http://purl.obolibrary.org/obo/XPO_0103762	increased size of the right part of branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005271	right part of branchial arch skeleton
+http://purl.obolibrary.org/obo/XPO_0103392	increased size of the somite	http://purl.obolibrary.org/obo/XAO_0000058	somite
+http://purl.obolibrary.org/obo/XPO_0103744	increased size of the spinal cord	http://purl.obolibrary.org/obo/XAO_0000020	spinal cord
+http://purl.obolibrary.org/obo/XPO_0103745	increased size of the stomach	http://purl.obolibrary.org/obo/XAO_0000128	stomach
+http://purl.obolibrary.org/obo/XPO_0103746	increased size of the tail	http://purl.obolibrary.org/obo/XAO_0003026	tail
+http://purl.obolibrary.org/obo/XPO_0103747	increased size of the tail region	http://purl.obolibrary.org/obo/XAO_0000087	tail region
+http://purl.obolibrary.org/obo/XPO_0103393	increased size of the tail somite	http://purl.obolibrary.org/obo/XAO_0003143	tail somite
+http://purl.obolibrary.org/obo/XPO_0103748	increased size of the tibia-fibula	http://purl.obolibrary.org/obo/XAO_0003213	tibia-fibula
+http://purl.obolibrary.org/obo/XPO_0103749	increased size of the trunk	http://purl.obolibrary.org/obo/XAO_0003025	trunk
+http://purl.obolibrary.org/obo/XPO_0103750	increased size of the trunk region	http://purl.obolibrary.org/obo/XAO_0000054	trunk region
+http://purl.obolibrary.org/obo/XPO_0103394	increased size of the trunk somite	http://purl.obolibrary.org/obo/XAO_0000314	trunk somite
+http://purl.obolibrary.org/obo/XPO_0103770	increased size of the ventral trunk	http://purl.obolibrary.org/obo/XAO_0005260	ventral trunk
+http://purl.obolibrary.org/obo/XPO_0103395	increased size of the ventricular outflow tract	http://purl.obolibrary.org/obo/XAO_0004140	ventricular outflow tract
+http://purl.obolibrary.org/obo/XPO_0103751	increased size of the whole organism	http://purl.obolibrary.org/obo/XAO_0003004	whole organism
