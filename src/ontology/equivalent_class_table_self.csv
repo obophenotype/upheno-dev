@@ -1,0 +1,56 @@
+baseClass,baseLabel,equivalentClass,equivalentLabel
+http://purl.obolibrary.org/obo/HP_0001166,Arachnodactyly,http://purl.obolibrary.org/obo/HP_0100807,Long fingers
+http://purl.obolibrary.org/obo/HP_0001626,Abnormality of the cardiovascular system,http://purl.obolibrary.org/obo/HP_0030680,Abnormality of cardiovascular system morphology
+http://purl.obolibrary.org/obo/HP_0001842,Foot acroosteolysis,http://purl.obolibrary.org/obo/HP_0010177,Osteolytic defects of the phalanges of the toes
+http://purl.obolibrary.org/obo/HP_0002037,Inflammation of the large intestine,http://purl.obolibrary.org/obo/HP_0002583,Colitis
+http://purl.obolibrary.org/obo/HP_0002583,Colitis,http://purl.obolibrary.org/obo/HP_0004387,Enterocolitis
+http://purl.obolibrary.org/obo/HP_0004387,Enterocolitis,http://purl.obolibrary.org/obo/HP_0100282,Acute colitis
+http://purl.obolibrary.org/obo/HP_0007485,Absence of subcutaneous fat,http://purl.obolibrary.org/obo/HP_0007519,Lack of subcutaneous fatty tissue
+http://purl.obolibrary.org/obo/HP_0009815,Aplasia/hypoplasia of the extremities,http://purl.obolibrary.org/obo/HP_0045060,Aplasia/hypoplasia involving bones of the extremities
+http://purl.obolibrary.org/obo/HP_0010945,Fetal pyelectasis,http://purl.obolibrary.org/obo/HP_0010946,Dilatation of the renal pelvis
+http://purl.obolibrary.org/obo/HP_0040065,Abnormal morphology of bones of the upper limbs,http://purl.obolibrary.org/obo/HP_0040070,Abnormal upper limb bone morphology
+http://purl.obolibrary.org/obo/HP_0040066,Abnormal morphology of bones of the lower limbs,http://purl.obolibrary.org/obo/HP_0040069,Abnormal lower limb bone morphology
+http://purl.obolibrary.org/obo/MP_0000430,absent maxillary shelf,http://purl.obolibrary.org/obo/MP_0030314,absent primary palate
+http://purl.obolibrary.org/obo/MP_0001388,abnormal stationary movement,http://purl.obolibrary.org/obo/MP_0003491,abnormal voluntary movement
+http://purl.obolibrary.org/obo/MP_0001491,unresponsive to tactile stimuli,http://purl.obolibrary.org/obo/MP_0004270,analgesia
+http://purl.obolibrary.org/obo/MP_0003055,abnormal long bone epiphyseal plate morphology,http://purl.obolibrary.org/obo/MP_0006395,abnormal epiphyseal plate morphology
+http://purl.obolibrary.org/obo/MP_0003387,aorta coarctation,http://purl.obolibrary.org/obo/MP_0010463,aorta stenosis
+http://purl.obolibrary.org/obo/MP_0004157,interrupted aortic arch,http://purl.obolibrary.org/obo/MP_0011676,aortic arch obstruction
+http://purl.obolibrary.org/obo/MP_0004272,abnormal basement membrane morphology,http://purl.obolibrary.org/obo/MP_0004273,abnormal basal lamina morphology
+http://purl.obolibrary.org/obo/MP_0009275,bruising,http://purl.obolibrary.org/obo/MP_0009276,ecchymosis
+http://purl.obolibrary.org/obo/MP_0010373,myeloid hyperplasia,http://purl.obolibrary.org/obo/MP_0013663,increased myeloid cell number
+http://purl.obolibrary.org/obo/MP_0013202,abnormal cilium morphology,http://purl.obolibrary.org/obo/MP_0013203,abnormal primary cilium morphology
+http://purl.obolibrary.org/obo/MP_0013208,abnormal cilium physiology,http://purl.obolibrary.org/obo/MP_0013210,abnormal primary cilium physiology
+http://purl.obolibrary.org/obo/WBPhenotype_0000020,pharyngeal pumping irregular,http://purl.obolibrary.org/obo/WBPhenotype_0001006,pharyngeal pumping rate variant
+http://purl.obolibrary.org/obo/WBPhenotype_0000068,oxidative stress response variant,http://purl.obolibrary.org/obo/WBPhenotype_0001620,organism oxidative stress response variant
+http://purl.obolibrary.org/obo/WBPhenotype_0000159,dauer arrest variant,http://purl.obolibrary.org/obo/WBPhenotype_0000308,dauer development variant
+http://purl.obolibrary.org/obo/WBPhenotype_0000255,amphid phasmid morphology variant,http://purl.obolibrary.org/obo/WBPhenotype_0000256,amphid morphology variant
+http://purl.obolibrary.org/obo/WBPhenotype_0000256,amphid morphology variant,http://purl.obolibrary.org/obo/WBPhenotype_0001527,amphid phasmid sensillum morphology variant
+http://purl.obolibrary.org/obo/WBPhenotype_0000760,spindle orientation defective early emb,http://purl.obolibrary.org/obo/WBPhenotype_0001106,spindle orientation variant AB or P1 early emb
+http://purl.obolibrary.org/obo/WBPhenotype_0000769,cytoplasmic appearance defective early emb,http://purl.obolibrary.org/obo/WBPhenotype_0001081,cytoplasmic morphology defective early emb
+http://purl.obolibrary.org/obo/WBPhenotype_0000775,meiosis variant,http://purl.obolibrary.org/obo/WBPhenotype_0001041,meiosis defective early emb
+http://purl.obolibrary.org/obo/WBPhenotype_0000876,organism osmotic stress response variant,http://purl.obolibrary.org/obo/WBPhenotype_0001725,osmotic stress response variant
+http://purl.obolibrary.org/obo/WBPhenotype_0000972,neuronal sheath cell morphology variant,http://purl.obolibrary.org/obo/WBPhenotype_0001529,sensilium sheath cell variant
+http://purl.obolibrary.org/obo/WBPhenotype_0001034,pronuclear nuclear appearance defective early emb,http://purl.obolibrary.org/obo/WBPhenotype_0001151,pronucleus centrosomes defective early emb
+http://purl.obolibrary.org/obo/WBPhenotype_0001040,chemosensory response variant,http://purl.obolibrary.org/obo/WBPhenotype_0001049,chemosensory behavior variant
+http://purl.obolibrary.org/obo/WBPhenotype_0001106,spindle orientation variant AB or P1 early emb,http://purl.obolibrary.org/obo/WBPhenotype_0001681,spindle orientation variant
+http://purl.obolibrary.org/obo/WBPhenotype_0001151,pronucleus centrosomes defective early emb,http://purl.obolibrary.org/obo/WBPhenotype_0001159,pronuclear morphology defective early emb
+http://purl.obolibrary.org/obo/WBPhenotype_0001346,actin cytoskeleton dynamics variant,http://purl.obolibrary.org/obo/WBPhenotype_0001587,actin organization biogenesis variant
+http://purl.obolibrary.org/obo/XPO_0103413,Increased number of hindlimb digit in the regenerating hindlimb,http://purl.obolibrary.org/obo/XPO_0103610,Increased number of hindlimb digit in the regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0103589,Decreased number of hindlimb digit,http://purl.obolibrary.org/obo/XPO_0103887,Decreased number of hindlimb digit
+http://purl.obolibrary.org/obo/XPO_0103597,Decreased number of melanophore,http://purl.obolibrary.org/obo/XPO_0103890,Decreased number of melanophore
+http://purl.obolibrary.org/obo/XPO_0103627,Increased number of hindlimb digit,http://purl.obolibrary.org/obo/XPO_0103635,Increased number of hindlimb digit
+http://purl.obolibrary.org/obo/XPO_0115305,abnormal(ly) duplicated of lens (T),http://purl.obolibrary.org/obo/XPO_0115817,duplicated lens
+http://purl.obolibrary.org/obo/XPO_0115327,abnormal(ly) duplicated of cement gland (T),http://purl.obolibrary.org/obo/XPO_0115796,duplicated cement gland
+http://purl.obolibrary.org/obo/XPO_0115355,abnormal(ly) duplicated of heart (T),http://purl.obolibrary.org/obo/XPO_0115813,duplicated heart
+http://purl.obolibrary.org/obo/XPO_0115429,abnormal(ly) duplicated of utricle (T),http://purl.obolibrary.org/obo/XPO_0115822,duplicated utricle
+http://purl.obolibrary.org/obo/XPO_0115521,abnormal(ly) duplicated of head (T),http://purl.obolibrary.org/obo/XPO_0115812,duplicated head
+http://purl.obolibrary.org/obo/XPO_0115532,abnormal(ly) duplicated of trunk (T),http://purl.obolibrary.org/obo/XPO_0115821,duplicated trunk
+http://purl.obolibrary.org/obo/XPO_0115548,abnormal(ly) duplicated of tail (T),http://purl.obolibrary.org/obo/XPO_0115820,duplicated tail
+http://purl.obolibrary.org/obo/XPO_0115564,abnormal(ly) duplicated of forelimb (T),http://purl.obolibrary.org/obo/XPO_0115803,duplicated forelimb
+http://purl.obolibrary.org/obo/XPO_0115572,abnormal(ly) duplicated of hindlimb (T),http://purl.obolibrary.org/obo/XPO_0115814,duplicated hindlimb
+http://purl.obolibrary.org/obo/XPO_0115590,abnormal(ly) duplicated of pelvic girdle (T),http://purl.obolibrary.org/obo/XPO_0115818,duplicated pelvic girdle
+http://purl.obolibrary.org/obo/XPO_0115600,abnormal(ly) duplicated of hindlimb bud (T),http://purl.obolibrary.org/obo/XPO_0115815,duplicated hindlimb bud
+http://purl.obolibrary.org/obo/XPO_0115642,abnormal(ly) duplicated of femur (T),http://purl.obolibrary.org/obo/XPO_0115802,duplicated femur
+http://purl.obolibrary.org/obo/XPO_0115680,abnormal(ly) duplicated of regenerating hindlimb (T),http://purl.obolibrary.org/obo/XPO_0115819,duplicated regenerating hindlimb
+http://purl.obolibrary.org/obo/XPO_0115749,abnormal(ly) duplicated of claw of hindlimb digit 4 (T),http://purl.obolibrary.org/obo/XPO_0115800,duplicated claw of hindlimb digit 4

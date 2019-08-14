@@ -26,3 +26,5 @@ src/curation/ontologies-for-matching/
 src/curation/old-matches/
 
 
+src/ontology/inferred_ontology.owl
+src/ontology/merged_ontology.owl
