@@ -183,3 +183,6 @@ pattern_modules := $(patsubst %.yaml, $(IMS)/patterns/%.ofn, $(notdir $(wildcard
 
 ../patterns/definitions.owl: $(pattern_modules)
 	$(ROBOT) merge $(addprefix -i , $(pattern_modules)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@
+	
+	
+include upheno.Makefile
