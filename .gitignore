@@ -19,6 +19,8 @@ dosdp-tools.log
 src/scripts/__pycache__/lib.cpython-36.pyc
 src/curation/patterns-for-matching/
 src/curation/upheno-fillers/
+src/curation/upheno-fillers-no-id/
+src/curation/upheno-release-prepare/
 src/curation/tmp/
 src/curation/pattern-matches-test/
 src/curation/pattern-matches-test2/

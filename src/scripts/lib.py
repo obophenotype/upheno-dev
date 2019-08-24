@@ -70,11 +70,23 @@ class uPhenoConfig:
     def is_skip_pattern_download(self):
         return self.config.get("skip_pattern_download")
 
+    def is_overwrite_upheno_intermediate(self):
+        return self.config.get("overwrite_upheno_intermediate")
+
     def is_allow_non_upheno_eq(self):
         return self.config.get("allow_non_upheno_eq")
 
+    def is_inferred_class_hierarchy(self, id):
+        return [('class_hierarchy' in t and t['class_hierarchy'] != "asserted") for t in self.config.get("sources") if t['id'] == id][0]
+
     def get_external_timeout(self):
         return str(self.config.get("timeout_external_processes"))
+
+    def get_max_upheno_id(self):
+        return int(self.config.get("max_upheno_id"))
+
+    def get_min_upheno_id(self):
+        return int(self.config.get("min_upheno_id"))
 
     def get_pattern_repos(self):
         return self.config.get("pattern_repos")
@@ -87,6 +99,12 @@ class uPhenoConfig:
 
     def get_legal_fillers(self):
         return self.config.get("legal_fillers")
+
+    def get_upheno_profiles(self):
+        return [t['id'] for t in self.config.get("upheno_profiles")]
+
+    def get_upheno_profile_components(self,id):
+        return [t['species_modules'] for t in self.config.get("upheno_profiles") if t['id'] == id][0]
 
     def get_instantiate_superclasses_pattern_vars(self):
         return self.config.get("instantiate_superclasses_pattern_vars")
@@ -156,6 +174,20 @@ def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts=
     except Exception as e:
         print(e)
         raise Exception("Merging of" + str(ontology_list) + " failed")
+
+
+def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_path, REASON = True , TIMEOUT="3600", robot_opts="-v"):
+    print("Extracting class hierarchy from " + str(ontology_in_path) + " to " + ontology_out_path + "(Reason: "+str(REASON)+")")
+    try:
+        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts,"--input",ontology_in_path]
+        if REASON:
+            callstring.extend(['reason','--reasoner','ELK'])
+
+        callstring.extend(['filter','-T',class_hierarchy_seed,'--axioms','subclass','--preserve-structure','false','--trim','false','--output', ontology_out_path])
+        check_call(callstring)
+    except Exception as e:
+        print(e)
+        raise Exception("Extracting class hierarchy from " + str(ontology_in_path) + " to " + ontology_out_path + " failed")
 
 
 def dosdp_generate(pattern,tsv,outfile, TIMEOUT="60m"):

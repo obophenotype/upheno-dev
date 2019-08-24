@@ -1,2 +1,0 @@
-defined_class	defined_class_label	affected_entity_1_sub	affected_entity_1_sub_label	affected_entity_1_super	affected_entity_1_super_label	affected_entity_2_super	affected_entity_2_super_label	pato_id	pato_id_label
-http://purl.obolibrary.org/obo/UPHENO_0002231	abnormal composition of transferrin-conjugated N-glycans	http://purl.obolibrary.org/obo/CHEBItemp_0002135	N-glycan chain	http://purl.obolibrary.org/obo/PR_000016261	serotransferrin	http://purl.obolibrary.org/obo/CHEBItemp_0002132	glycan residue	http://purl.obolibrary.org/obo/PATO_0002083	altered number of

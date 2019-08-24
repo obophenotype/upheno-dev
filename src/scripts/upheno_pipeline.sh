@@ -28,11 +28,16 @@ set -e
 #    This results in one tsv file with matches per phenotype ontology and pattern.
 # TODO: Remember that it is possible to manually add patterns to the pattern directory;
 
-sh run.sh python3 upheno_download_and_match.py ../curation/upheno-config.yaml
+sh run.sh python3 upheno_prepare.py ../curation/upheno-config.yaml
 
-####### Step 2: uPheno intermediate layer and species-profiles ########
+####### Step 2: uPheno manually curated intermediate classes ########
+# The second step is to generate all manually curated intermediate uPheno classes
 
-# The second major step of the uPheno pipeline is all about preparing the species independent
+cd ../ontology && sh run.sh make ../patterns/definitions.owl && cd ../scripts
+
+####### Step 3: uPheno intermediate layer and species-profiles ########
+
+# The third major step of the uPheno pipeline is all about preparing the species independent
 # intermediate layer of uPheno 2. It is subdivided into the following tasks:
 
 # 1. Extract uPheno fillers from pattern matches (step 1.4). The primary bearer is filled up, 
@@ -41,5 +46,5 @@ sh run.sh python3 upheno_download_and_match.py ../curation/upheno-config.yaml
 # 2. For every profile (config 'upheno_combinations'), create a new directory, then compile all patterns 
 #    from the previous step using dosdp. Add taxon restrictions 
 
-sh run.sh python3 upheno_filler_data.py ../curation/upheno-config.yaml
+sh run.sh python3 upheno_create_profiles.py ../curation/upheno-config.yaml
 
