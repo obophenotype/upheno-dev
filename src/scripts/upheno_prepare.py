@@ -13,7 +13,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import cdir, rm, touch, uPhenoConfig, robot_extract_seed, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
+from lib import cdir, rm, touch, uPhenoConfig, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
 
@@ -158,7 +158,6 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
 
         if os.path.isfile(file_path):
             filenames.append(filename)
-
     return filenames
 
 def prepare_all_imports_merged(overwrite=True):
@@ -236,6 +235,12 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
             add_taxon_restrictions(o_base, o_base_taxon, upheno_config.get_taxon(oid),
                                    upheno_config.get_taxon_label(oid),
                                    upheno_config.get_root_phenotype(oid),preserve_eq)
+            remove_eqs_file = os.path.join(module_dir,oid+"-upheno-component_eq_remove.txt")
+            remove_eqs = [upheno_config.get_root_phenotype(oid)]
+            with open(remove_eqs_file, 'w') as f:
+                for item in remove_eqs:
+                    f.write("%s\n" % item)
+            robot_upheno_component(o_base_taxon,remove_eqs_file)
 
 
 

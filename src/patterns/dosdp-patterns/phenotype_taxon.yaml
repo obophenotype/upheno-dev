@@ -1,0 +1,34 @@
+pattern_name: phenotype
+pattern_iri: http://purl.obolibrary.org/obo/upheno/phenotype.yaml
+description: "The top level, taxon-restricted phenotype."
+
+contributors:
+  - https://orcid.org/0000-0002-7356-1779
+  
+classes:
+  quality: PATO:0000001
+  modifier: PATO:0000001
+  taxon: NCBITAXON:1
+  bearer: owl:Thing
+
+relations: 
+  inheres_in_part_of: RO:0002314
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  present_in_taxon: RO:0002175
+
+vars:
+  taxon: "'taxon'"
+  modifier: "'modifier'"
+ 
+name:
+  text: "%s Phenotype, %s"
+  vars:
+   - taxon
+   - modifier
+
+equivalentTo:
+  text: "'has_part' some ('quality' and ('inheres_in_part_of' some 'bearer') and ('present_in_taxon' some %s) and ('has_modifier' some %s))"
+  vars:
+   - taxon
+   - modifier

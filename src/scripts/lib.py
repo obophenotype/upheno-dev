@@ -1,5 +1,6 @@
 import yaml
 import os
+import pandas as pd
 from subprocess import check_call
 
 class uPhenoConfig:
@@ -112,6 +113,9 @@ class uPhenoConfig:
     def get_robot_java_args(self):
         return self.config.get("robot_java_args")
 
+    def get_taxon_restriction_table(self, ids):
+        return [[t['root'],t['taxon'],t['taxon_label'],t['modifier']] for t in self.config.get("sources") if t['id'] in ids]
+
     def set_path_for_ontology(self, id, path):
         for t in self.config.get("sources"):
             if t['id'] == id:
@@ -175,6 +179,51 @@ def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts=
         print(e)
         raise Exception("Merging of" + str(ontology_list) + " failed")
 
+def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_hierarchy, TIMEOUT="3600", robot_opts="-v"):
+    print("Preparing " + str(o) + " for DOSDP: " + ontology_merged_path)
+    subclass_hierarchy = os.path.join(os.path.dirname(ontology_merged_path),"class_hierarchy_"+os.path.basename(ontology_merged_path))
+    subclass_hierarchy_seed = os.path.join(os.path.dirname(ontology_merged_path),
+                                      "class_hierarchy_seed_" + os.path.basename(ontology_merged_path))
+    robot_extract_seed(o, subclass_hierarchy_seed, sparql_terms_class_hierarchy, TIMEOUT, robot_opts)
+    robot_class_hierarchy(o,subclass_hierarchy_seed,subclass_hierarchy,REASON=True,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
+    try:
+        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts,"-i",o]
+        callstring.extend(['remove','--term', 'rdfs:label', '--select', 'complement', '--select', 'annotation-properties', '--preserve-structure', 'false'])
+        callstring.extend(['--output', ontology_merged_path])
+        check_call(callstring)
+    except Exception as e:
+        print(e)
+        raise Exception("Preparing " + str(o) + " for DOSDP: " + ontology_merged_path + " failed")
+
+def robot_upheno_release(ontology_list, ontology_merged_path, name, TIMEOUT="3600", robot_opts="-v"):
+    print("Finalising  " + str(ontology_list) + " to " + ontology_merged_path+", "+name)
+    try:
+        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts]
+        merge = " ".join(["--input " + s for s in ontology_list]).split(" ")
+        callstring.extend(merge)
+        callstring.extend(['remove', '--axioms', 'disjoint', '--preserve-structure', 'false'])
+        callstring.extend(['remove', '--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false'])
+        callstring.extend(['reason','--reasoner','ELK','reduce','--reasoner','ELK'])
+        callstring.extend(['--output', ontology_merged_path])
+        check_call(callstring)
+    except Exception as e:
+        print(e)
+        raise Exception("Finalising " + str(ontology_list) + " failed...")
+
+def robot_upheno_component(component_file,remove_eqs, TIMEOUT="3600", robot_opts="-v"):
+    #robot remove --axioms "disjoint" --preserve-structure false reason --reasoner ELK -o /data/upheno_pre-fixed_mp-hp.owl
+    print("Preparing uPheno component  " + str(component_file))
+    try:
+        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge','-i',component_file]
+        callstring.extend(['remove','-T',remove_eqs,'--axioms','equivalent','--preserve-structure','false'])
+        callstring.extend(['--output', component_file])
+        check_call(callstring)
+    except Exception as e:
+        print(e)
+        raise Exception("Preparing uPheno component " + str(component_file) + " failed...")
+
+
+
 
 def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_path, REASON = True , TIMEOUT="3600", robot_opts="-v"):
     print("Extracting class hierarchy from " + str(ontology_in_path) + " to " + ontology_out_path + "(Reason: "+str(REASON)+")")
@@ -190,13 +239,32 @@ def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_p
         raise Exception("Extracting class hierarchy from " + str(ontology_in_path) + " to " + ontology_out_path + " failed")
 
 
-def dosdp_generate(pattern,tsv,outfile, TIMEOUT="60m"):
+def dosdp_generate(pattern,tsv,outfile, RESTRICT_LOGICAL=False,TIMEOUT="3600",ONTOLOGY=None):
     try:
-        check_call(
-            ['timeout','-t', TIMEOUT, 'dosdp-tools', 'generate', '--infile=' + tsv, '--template=' + pattern,
-             '--obo-prefixes=true', '--restrict-axioms-to=logical', '--outfile=' + outfile])
+        callstring = ['timeout','-t', TIMEOUT, 'dosdp-tools', 'generate', '--infile=' + tsv, '--template=' + pattern,
+             '--obo-prefixes=true']
+        if RESTRICT_LOGICAL:
+            callstring.extend(['--restrict-axioms-to=logical'])
+        if ONTOLOGY is not None:
+            callstring.extend(['--ontology='+ONTOLOGY])
+        callstring.extend(['--outfile=' + outfile])
+        check_call(callstring)
     except:
         raise Exception("Pattern generation failed: "+pattern+", "+tsv+", "+outfile+".")
+
+
+def dosdp_extract_pattern_seed(tsv_files,seedfile):
+    classes = []
+    try:
+        for tsv in tsv_files:
+            df = pd.read_csv(tsv, sep='\t')
+            classes.extend(df['defined_class'])
+        with open(seedfile, 'w') as f:
+            for item in list(set(classes)):
+                f.write("%s\n" % item)
+    except Exception as e:
+        print(e)
+        raise Exception("Extracting seed from all TSV files failed..")
 
 
 def touch(path):
