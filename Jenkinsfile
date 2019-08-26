@@ -104,6 +104,7 @@ pipeline {
 
 					dir('./src/scripts') {
 						retry(1){
+							sh 'pwd'
 							sh 'sh upheno_pipeline_jenkins.sh'
 						}
 					}
