@@ -92,8 +92,8 @@ sources:
     mirror_from: xref
   - id: mp
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_40674
-    taxon_label: Mammal
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_9989
+    taxon_label: mammal
     modifier: PATO:0000460
     root: http://purl.obolibrary.org/obo/MP_0000001
     prefix_iri: http://purl.obolibrary.org/obo/MP_
