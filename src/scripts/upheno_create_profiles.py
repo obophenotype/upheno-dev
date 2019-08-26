@@ -411,7 +411,7 @@ else:
 
 add_upheno_ids_to_fillers(pattern_dir)
 upheno_map = upheno_map.drop_duplicates()
-upheno_map.sort_values("id", inplace=True)
+upheno_map.sort_values("defined_class", inplace=True)
 upheno_map.to_csv(upheno_id_map, sep='\t', index=False)
 #sys.exit("Intermediadte test stop")
 
