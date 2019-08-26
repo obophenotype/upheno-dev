@@ -104,7 +104,7 @@ pipeline {
 
 					dir('./src/scripts') {
 						retry(1){
-							sh './upheno_pipeline.sh'
+							sh 'sh upheno_pipeline.sh'
 						}
 					}
 
