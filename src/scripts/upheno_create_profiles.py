@@ -345,8 +345,8 @@ def export_merged_tsvs_for_combination(merged_tsv_dir, oids):
 
 
 def get_highest_id(ids):
-    global prefix
-    x = [i.replace(prefix, "").lstrip("0") for i in ids]
+    global upheno_prefix
+    x = [i.replace(upheno_prefix, "").lstrip("0") for i in ids]
     x = [s for s in x if s!='']
     if len(x)==0:
         x=[0,]
@@ -389,7 +389,7 @@ if upheno_config.is_overwrite_ontologies() or not os.path.exists(allimports_merg
 upheno_map = pd.read_csv(upheno_id_map, sep='\t')
 
 print("Computing start upheno id")
-startid = get_highest_id(upheno_map['id'])
+startid = get_highest_id(upheno_map['defined_class'])
 if startid<minid:
     startid=minid
 
@@ -441,7 +441,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     if overwrite_dosdp_upheno or not os.path.exists(upheno_top_level_phenotypes_ontology):
         print(str(get_taxon_restriction_table(oids)))
         get_taxon_restriction_table(oids).to_csv(phenotype_tsv, sep='\t', index=False)
-        dosdp_generate(phenotype_pattern_taxon, phenotype_tsv, upheno_top_level_phenotypes_ontology, False, TIMEOUT,ONTOLOGY=allimports_merged)
+        dosdp_generate(phenotype_pattern_taxon, phenotype_tsv, upheno_top_level_phenotypes_ontology, RESTRICT_LOGICAL=True, TIMEOUT=TIMEOUT,ONTOLOGY=allimports_merged)
 
 
     upheno_pattern_ontologies = [upheno_top_level_phenotypes_ontology,upheno_common_phenotypes_ontology]
