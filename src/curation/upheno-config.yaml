@@ -32,6 +32,10 @@ instantiate_superclasses_pattern_vars:
   - anatomical_entity
   - biological_process
 sources:
+  - id: fbbt
+    mirror_from: http://purl.obolibrary.org/obo/fbbt/fbbt-base.owl
+  - id: fbdv
+    mirror_from: http://purl.obolibrary.org/obo/fbdv/fbdv-base.owl
   - id: nbo
     mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
   - id: pr
@@ -89,9 +93,10 @@ sources:
   - id: mp
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_40674
-    taxon_label: mammal
+    taxon_label: Mammal
     modifier: PATO:0000460
     root: http://purl.obolibrary.org/obo/MP_0000001
+    prefix_iri: http://purl.obolibrary.org/obo/MP_
     class_hierarchy: asserted
     dependencies:
       - nbo
@@ -103,6 +108,7 @@ sources:
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_9606
     taxon_label: Human
     root: http://purl.obolibrary.org/obo/HP_0000118
+    prefix_iri: http://purl.obolibrary.org/obo/HP_
     mirror_from: http://purl.obolibrary.org/obo/hp.owl
     modifier: PATO:0000460
     dependencies:
@@ -115,6 +121,7 @@ sources:
   - id: wbphenotype
     mirror_from: http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-base.owl
     root: http://purl.obolibrary.org/obo/WBPhenotype_0000886
+    prefix_iri: http://purl.obolibrary.org/obo/WBPhenotype_
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_6239
     taxon_label: C. elegans
     modifier: PATO:0000460
@@ -128,6 +135,7 @@ sources:
   - id: xpo
     mirror_from: http://purl.obolibrary.org/obo/xpo/xpo-base.owl
     root: http://purl.obolibrary.org/obo/XPO_00000000
+    prefix_iri: http://purl.obolibrary.org/obo/XPO_
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_2052675
     taxon_label: Xenopus
     modifier: PATO:0000460
@@ -141,6 +149,7 @@ sources:
   - id: planp
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
+    prefix_iri: http://purl.obolibrary.org/obo/PLANP_
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_79327
     taxon_label: Planaria
     modifier: PATO:0000460
@@ -154,6 +163,7 @@ sources:
   - id: zp
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
     root: http://purl.obolibrary.org/obo/ZP_00000000
+    prefix_iri: http://purl.obolibrary.org/obo/ZP_
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_7955
     taxon_label: Zebrafish
     modifier: PATO:0000460
@@ -166,6 +176,18 @@ sources:
       - zfa-uberon
       - bspo-uberon
       - caro-uberon
+  - id: dpo
+    mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
+    root: http://purl.obolibrary.org/obo/FBcv_0001347
+    prefix_iri: http://purl.obolibrary.org/obo/FBcv_
+    taxon: http://purl.obolibrary.org/obo/NCBITaxon_7227
+    taxon_label: Fly
+    modifier: PATO:0000460
+    dependencies:
+      - fbdv
+      - fbbt
+      - cl
+      - chebi
 common_dependencies:
   - go
   - uberon
@@ -178,6 +200,7 @@ species_modules:
   - hp
   - wbphenotype
   - xpo
+  - dpo
   - planp
   - zp
 upheno_profiles:
@@ -191,6 +214,7 @@ upheno_profiles:
     - hp
     - wbphenotype
     - xpo
+    - dpo
     - planp
     - zp
 pattern_repos:

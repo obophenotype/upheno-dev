@@ -205,6 +205,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
             robot_class_hierarchy(merged_pheno,class_hierarchy_seed,o_base_class_hierarchy,upheno_config.is_inferred_class_hierarchy(id))
 
 def classes_with_matches(oid, preserve_eq):
+    global matches_dir
     o_matches_dir = os.path.join(matches_dir, oid)
     classes = []
     for file in os.listdir(o_matches_dir):
@@ -234,7 +235,7 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
         if overwrite or not os.path.exists(o_base_taxon):
             add_taxon_restrictions(o_base, o_base_taxon, upheno_config.get_taxon(oid),
                                    upheno_config.get_taxon_label(oid),
-                                   upheno_config.get_root_phenotype(oid),preserve_eq)
+                                   upheno_config.get_prefix_iri(oid),preserve_eq)
             remove_eqs_file = os.path.join(module_dir,oid+"-upheno-component_eq_remove.txt")
             remove_eqs = [upheno_config.get_root_phenotype(oid)]
             with open(remove_eqs_file, 'w') as f:

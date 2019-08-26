@@ -42,6 +42,9 @@ class uPhenoConfig:
     def get_taxon(self, id):
         return [t['taxon'] for t in self.config.get("sources") if t['id'] == id][0]
 
+    def get_prefix_iri(self, id):
+        return [t['prefix_iri'] for t in self.config.get("sources") if t['id'] == id][0]
+
     def get_root_phenotype(self, id):
         return [t['root'] for t in self.config.get("sources") if t['id'] == id][0]
 
