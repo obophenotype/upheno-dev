@@ -47,6 +47,7 @@ upheno_prepare_dir = os.path.join(ws, "curation/upheno-release-prepare/")
 ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 upheno_patterns_data_manual_dir = os.path.join(ws,"patterns/data/default/")
 upheno_patterns_dir = os.path.join(ws,"patterns/dosdp-patterns/")
+upheno_ontogy_dir = os.path.join(ws,"ontology/")
 
 cdir(pattern_dir)
 cdir(matches_dir)
@@ -60,6 +61,7 @@ cdir(ontology_for_matching_dir)
 upheno_id_map = os.path.join(ws,"curation/upheno_id_map.txt")
 blacklisted_upheno_ids_file = os.path.join(ws,"curation/blacklisted_upheno_iris.txt")
 java_fill = os.path.join(ws,'scripts/upheno-filler-pipeline.jar')
+java_relationships = os.path.join(ws,'scripts/upheno-relationship-augmentation.jar')
 sparql_terms = os.path.join(ws, "sparql/terms.sparql")
 sparql_uberon_terms = os.path.join(ws, "sparql/uberon_terms.sparql")
 phenotype_pattern = os.path.join(ws,"patterns/dosdp-patterns/phenotype.yaml")
@@ -284,12 +286,21 @@ def download_patterns(upheno_pattern_repo, pattern_dir):
 
 def extract_upheno_fillers(ontology_path,oid_pattern_matches_dir,oid_upheno_fillers_dir,pattern_dir):
     print("Extracting fillers from "+ontology_path)
-    global TIMEOUT,robot_opts, legal_iri_patterns_path, legal_pattern_vars_path
+    global TIMEOUT,java_opts, legal_iri_patterns_path, legal_pattern_vars_path
     try:
         check_call(['timeout','-t',TIMEOUT,'java', java_opts, '-jar',java_fill, ontology_path, oid_pattern_matches_dir, pattern_dir, oid_upheno_fillers_dir, legal_iri_patterns_path, legal_pattern_vars_path])
     except Exception as e:
         print(e.output)
         raise Exception("Filler extraction of" + ontology_path + " failed")
+		
+def augment_upheno_relationships(ontology_path,out_dir,phenotype_list):
+    print("Extracting upheno relationships for "+ontology_path)
+    global TIMEOUT,java_opts
+    try:
+        check_call(['timeout','-t',TIMEOUT,'java', java_opts, '-jar',java_relationships, ontology_path, out_dir, phenotype_list])
+    except Exception as e:
+        print(e.output)
+        raise Exception("Extracting upheno relationships for " + ontology_path + " failed")
 
 def extract_upheno_fillers_for_all_ontologies(oids):
     global pattern_dir, matches_dir, upheno_fillers_dir
@@ -424,7 +435,7 @@ manual_tsv_files = []
 upheno_common_phenotypes_ontology = os.path.join(upheno_prepare_dir,"upheno_common_phenotypes.owl")
 create_common_upheno_classes(upheno_common_phenotypes_ontology, manual_tsv_files,allimports_merged)
 
-#
+upheno_extra_axioms_ontology = os.path.join(upheno_ontogy_dir,"upheno_extra.owl")
 
 # Generate uPheno profiles
 for upheno_combination_id in upheno_config.get_upheno_profiles():
@@ -443,6 +454,8 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
         get_taxon_restriction_table(oids).to_csv(phenotype_tsv, sep='\t', index=False)
         dosdp_generate(phenotype_pattern_taxon, phenotype_tsv, upheno_top_level_phenotypes_ontology, RESTRICT_LOGICAL=True, TIMEOUT=TIMEOUT,ONTOLOGY=allimports_merged)
 
+	upheno_ontology_no_taxon_restictions = os.path.join(raw_ontologies_dir, "upheno_ontology_no_taxon_restictions.owl")
+	augment_upheno_relationships(upheno_ontology_no_taxon_restictions,final_upheno_combo_dir,phenotype_list)
 
     upheno_pattern_ontologies = [upheno_top_level_phenotypes_ontology,upheno_common_phenotypes_ontology]
     tsvs = [phenotype_tsv]
@@ -490,7 +503,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     dosdp_extract_pattern_seed(tsvs, upheno_species_components_dependencies_pattern_seed)
     robot_extract_module(allimports_module, upheno_species_components_dependencies_seed, upheno_species_components_dependencies_ontology, TIMEOUT, robot_opts)
 
-    upheno_profile = [upheno_species_components_ontology,upheno_species_components_dependencies_ontology,upheno_layer_ontology]
+    upheno_profile = [upheno_species_components_ontology,upheno_species_components_dependencies_ontology,upheno_layer_ontology,upheno_extra_axioms_ontology]
     robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
     robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts)
     #sys.exit("Stopping just after generating first round.")
