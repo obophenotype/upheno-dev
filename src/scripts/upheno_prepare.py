@@ -172,6 +172,20 @@ def prepare_all_imports_merged(overwrite=True):
 
     if overwrite or not os.path.exists(merged):
         robot_merge(imports, merged, TIMEOUT, robot_opts)
+		
+		
+def prepare_upheno_ontology_no_taxon_restictions(overwrite=True):
+	global ontology_for_matching_dir
+    imports = []
+    upheno_ontology_no_taxon_restictions = os.path.join(module_dir, "upheno_ontology_no_taxon_restictions.owl")
+
+    for id in upheno_config.get_phenotype_ontologies():
+        imports.append(os.path.join(ontology_for_matching_dir, id + '.owl'))
+
+    imports = list(set(imports))
+
+    if overwrite or not os.path.exists(upheno_ontology_no_taxon_restictions):
+        robot_merge(imports, upheno_ontology_no_taxon_restictions, TIMEOUT, robot_opts)
 
 def prepare_phenotype_ontologies_for_matching(overwrite=True):
     global upheno_config, sparql_terms, ontology_for_matching_dir, TIMEOUT, robot_opts
@@ -328,3 +342,5 @@ match_patterns(upheno_config,pattern_files, matches_dir, upheno_config.is_overwr
 prepare_species_specific_phenotype_ontologies(upheno_config.is_overwrite_ontologies())
 
 prepare_all_imports_merged(upheno_config.is_overwrite_ontologies())
+
+prepare_upheno_ontology_no_taxon_restictions(upheno_config.is_overwrite_ontologies())
