@@ -95,7 +95,7 @@ pipeline {
 			steps {
 				// Create a relative working directory and setup our
 				// data environment.
-				dir('./ontology-repository-workspace') {
+				dir('./work') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 
@@ -105,6 +105,7 @@ pipeline {
 					dir('./src/scripts') {
 						retry(1){
 							sh 'pwd'
+							sh 'ls /work'
 							sh 'sh upheno_pipeline_jenkins.sh'
 						}
 					}
