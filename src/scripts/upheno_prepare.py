@@ -175,7 +175,7 @@ def prepare_all_imports_merged(overwrite=True):
 		
 		
 def prepare_upheno_ontology_no_taxon_restictions(overwrite=True):
-	global ontology_for_matching_dir
+    global ontology_for_matching_dir
     imports = []
     upheno_ontology_no_taxon_restictions = os.path.join(module_dir, "upheno_ontology_no_taxon_restictions.owl")
 
