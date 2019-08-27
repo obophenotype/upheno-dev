@@ -225,7 +225,14 @@ def robot_upheno_component(component_file,remove_eqs, TIMEOUT="3600", robot_opts
         print(e)
         raise Exception("Preparing uPheno component " + str(component_file) + " failed...")
 
+def robot_children_list(o,query,outfile,TIMEOUT="3600",robot_opts="-v"):
+    print("Extracting children from  " + str(o) +" using "+str(query))
+    try:
+        check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', o,'--query', query, outfile])
 
+    except Exception as e:
+        print(e)
+        raise Exception("Preparing uPheno component " + str(o) + " failed...")
 
 
 def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_path, REASON = True , TIMEOUT="3600", robot_opts="-v"):
