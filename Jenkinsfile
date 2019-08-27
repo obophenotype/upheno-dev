@@ -89,7 +89,7 @@ pipeline {
 					image 'obolibrary/odkfull:latest'
 					// Reset Jenkins Docker agent default to original
 					// root.
-					args '-u root:root '-v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work'
+					args '-u root:root '-v /var/lib/jenkins/workspace/monarch-upheno-pipeline\@2/work:/work'
 				}
 			}
 			steps {
