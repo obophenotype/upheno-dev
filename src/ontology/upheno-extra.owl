@@ -10,5 +10,7 @@ Ontology(<http://purl.obolibrary.org/obo/upheno/upheno-extra.owl>
 
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2052675> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7227> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000002> "has phenotypic orthologue"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000001> "has phenotypic affecting"@en)
 
 )

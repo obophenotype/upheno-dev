@@ -44,6 +44,7 @@ upheno_fillers_dir = os.path.join(ws, "curation/upheno-fillers/")
 upheno_profiles_dir = os.path.join(ws, "curation/upheno-profiles/")
 raw_ontologies_dir = os.path.join(ws, "curation/tmp/")
 upheno_prepare_dir = os.path.join(ws, "curation/upheno-release-prepare/")
+upheno_release_dir = os.path.join(ws, "curation/upheno-release/")
 ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 upheno_patterns_data_manual_dir = os.path.join(ws,"patterns/data/default/")
 upheno_patterns_dir = os.path.join(ws,"patterns/dosdp-patterns/")
@@ -444,7 +445,9 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     profile_dir = os.path.join(upheno_profiles_dir, upheno_combination_id)
     cdir(profile_dir)
     final_upheno_combo_dir = os.path.join(upheno_prepare_dir, upheno_combination_id)
+    final_upheno_profile_release_dir = os.path.join(upheno_release_dir, upheno_combination_id)
     cdir(final_upheno_combo_dir)
+    cdir(final_upheno_profile_release_dir)
     export_merged_tsvs_for_combination(profile_dir, oids)
 
 
@@ -490,42 +493,36 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     upheno_species_components_dependencies_pattern_seed = os.path.join(final_upheno_combo_dir,
                                                                upheno_combination_id + "_pattern_seed.txt")
     upheno_profile_prepare_ontology = os.path.join(final_upheno_combo_dir, "upheno_pre_" + upheno_combination_id + ".owl")
-    upheno_profile_ontology = os.path.join(final_upheno_combo_dir, "upheno_"+upheno_combination_id+".owl")
-
+    upheno_profile_ontology = os.path.join(final_upheno_profile_release_dir, "upheno_"+upheno_combination_id+".owl")
+    upheno_profile_ontology_with_relations = os.path.join(final_upheno_profile_release_dir, "upheno_"+upheno_combination_id+"_with_relations.owl")
     # print(upheno_pattern_ontologies)
     
+    # Create upheno intermediate layer for profile
+    robot_merge(upheno_pattern_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
     
-    
-    #robot_merge(upheno_pattern_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
-    #robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts)
+    # Prepare upheno species specific layer for profile
+    robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts)
 
-    #robot_extract_seed(upheno_species_components_ontology, upheno_species_components_dependencies_seed, sparql_terms, TIMEOUT, robot_opts)
+    # Prepare dependency layer (module from all merged dependencies)
+    robot_extract_seed(upheno_species_components_ontology, upheno_species_components_dependencies_seed, sparql_terms, TIMEOUT, robot_opts)
+    dosdp_extract_pattern_seed(tsvs, upheno_species_components_dependencies_pattern_seed)
+    robot_extract_module(allimports_module, upheno_species_components_dependencies_seed, upheno_species_components_dependencies_ontology, TIMEOUT, robot_opts)
 
-    #dosdp_extract_pattern_seed(tsvs, upheno_species_components_dependencies_pattern_seed)
-    #robot_extract_module(allimports_module, upheno_species_components_dependencies_seed, upheno_species_components_dependencies_ontology, TIMEOUT, robot_opts)
-
+    # Preparing the full profile ontology
     upheno_profile = [upheno_species_components_ontology,upheno_species_components_dependencies_ontology,upheno_layer_ontology,upheno_extra_axioms_ontology]
-    #robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
+    robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
     
-    
-    #robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts)
+    # Creating the release (reasoning, labelling etc)
+    robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts)
     #sys.exit("Stopping just after generating first round.")
 
+    # Creating uPheno extra relations. 
     upheno_ontology_no_taxon_restictions = os.path.join(raw_ontologies_dir, "upheno_ontology_no_taxon_restictions.owl")
     upheno_phenotype_list = os.path.join(final_upheno_combo_dir, "upheno_phenotype_list.txt")
     robot_children_list(upheno_profile_ontology,phenotype_classes_sparql,upheno_phenotype_list)
     augment_upheno_relationships(upheno_ontology_no_taxon_restictions,final_upheno_combo_dir,upheno_phenotype_list)
-
-
-
-
-
-
-
-
-
-# Merge them for each pipeline
-# Every combination of ontologies will get its own pattern directory, where all pattern tsv filed of species tsvs are merged together.
-
-
-
+    upheno_has_phenotypic_orthologue = os.path.join(final_upheno_combo_dir, "upheno_has_phenotypic_orthologue.owl")
+    upheno_has_phenotype_affecting = os.path.join(final_upheno_combo_dir, "upheno_has_phenotype_affecting.owl")
+    
+    # Merge extra relations into alternative release file
+    robot_upheno_release([upheno_profile_ontology,upheno_has_phenotypic_orthologue,upheno_has_phenotype_affecting], upheno_profile_ontology_with_relations,upheno_combination_id, TIMEOUT, robot_opts)
