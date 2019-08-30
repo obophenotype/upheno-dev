@@ -13,7 +13,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import cdir, rm, touch, uPhenoConfig, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
+from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
 
@@ -94,7 +94,6 @@ def robot_convert_merge(ontology_url, ontology_merged_path):
 
 def get_files_of_type_from_github_repo_dir(q,type):
     gh = "https://api.github.com/repos/"
-    print("HI")
     print(q)
     print(type)
     #contents = urllib.request.urlopen().read()
@@ -172,8 +171,8 @@ def prepare_all_imports_merged(overwrite=True):
 
     if overwrite or not os.path.exists(merged):
         robot_merge(imports, merged, TIMEOUT, robot_opts)
-		
-		
+    
+    
 def prepare_upheno_ontology_no_taxon_restictions(overwrite=True):
     global ontology_for_matching_dir
     imports = []
@@ -202,7 +201,8 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         class_hierarchy_seed = os.path.join(module_dir, id + "-class-hierarchy.txt")
         merged_pheno = os.path.join(ontology_for_matching_dir, id + '.owl')
         seed = os.path.join(module_dir, id + '_seed.txt')
-        term_file = os.path.join(ws, "curation/disjoints_removal.txt")
+        disjoints_term_file = os.path.join(module_dir, "disjoints_removal.txt")
+        write_list_to_file(disjoints_term_file,upheno_config.get_remove_disjoints())
         if overwrite or not os.path.exists(module):
             robot_extract_seed(filename, seed, sparql_terms, TIMEOUT, robot_opts)
             robot_merge(imports, merged, TIMEOUT, robot_opts)
@@ -210,7 +210,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         if overwrite or not os.path.exists(merged_pheno):
             ontology_for_matching = [module, filename]
             robot_merge(ontology_for_matching, merged_pheno, TIMEOUT, robot_opts)
-            robot_dump_disjoints(merged_pheno,term_file,merged_pheno,TIMEOUT,robot_opts)
+            robot_dump_disjoints(merged_pheno,disjoints_term_file,merged_pheno,TIMEOUT,robot_opts)
             robot_remove_mentions_of_nothing(merged_pheno,merged_pheno,TIMEOUT,robot_opts)
             robot_remove_upheno_blacklist_and_classify(merged_pheno, merged_pheno,upheno_config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
         if overwrite or not os.path.exists(o_base_class_hierarchy):
@@ -227,9 +227,7 @@ def classes_with_matches(oid, preserve_eq):
             tsv = os.path.join(o_matches_dir, file)
             df = pd.read_csv(tsv, sep='\t')
             classes.extend(df['defined_class'])
-    with open(preserve_eq, 'w') as f:
-        for item in list(set(classes)):
-            f.write("%s\n" % item)
+    write_list_to_file(preserve_eq,list(set(classes)))
 
 def prepare_species_specific_phenotype_ontologies(overwrite=True):
     global upheno_config, module_dir, matches_dir, TIMEOUT, robot_opts
@@ -252,9 +250,7 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
                                    upheno_config.get_prefix_iri(oid),preserve_eq)
             remove_eqs_file = os.path.join(module_dir,oid+"-upheno-component_eq_remove.txt")
             remove_eqs = [upheno_config.get_root_phenotype(oid)]
-            with open(remove_eqs_file, 'w') as f:
-                for item in remove_eqs:
-                    f.write("%s\n" % item)
+            write_list_to_file(remove_eqs_file,remove_eqs)
             robot_upheno_component(o_base_taxon,remove_eqs_file)
 
 

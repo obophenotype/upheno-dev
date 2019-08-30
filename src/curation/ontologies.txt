@@ -1,8 +1,0 @@
-http://purl.obolibrary.org/obo/bfo.owl
-http://purl.obolibrary.org/obo/bspo.owl
-http://purl.obolibrary.org/obo/go.owl
-http://purl.obolibrary.org/obo/uberon.owl
-http://purl.obolibrary.org/obo/wbbt.owl
-http://purl.obolibrary.org/obo/zfa.owl
-http://purl.obolibrary.org/obo/plana.owl
-http://purl.obolibrary.org/obo/xao.owl

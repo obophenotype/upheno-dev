@@ -13,7 +13,7 @@ import urllib.request
 from shutil import copyfile
 import pandas as pd
 from subprocess import check_call
-from lib import uPhenoConfig, cdir, robot_extract_module, robot_children_list, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
+from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, robot_children_list, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
 
 ### Configuration
 upheno_config_file = sys.argv[1]
@@ -60,7 +60,6 @@ cdir(ontology_for_matching_dir)
 
 # Files
 upheno_id_map = os.path.join(ws,"curation/upheno_id_map.txt")
-blacklisted_upheno_ids_file = os.path.join(ws,"curation/blacklisted_upheno_iris.txt")
 java_fill = os.path.join(ws,'scripts/upheno-filler-pipeline.jar')
 java_relationships = os.path.join(ws,'scripts/upheno-relationship-augmentation.jar')
 sparql_terms = os.path.join(ws, "sparql/terms.sparql")
@@ -72,16 +71,13 @@ allimports_module = os.path.join(raw_ontologies_dir, 'upheno-allimports-merged.o
 allimports_merged = os.path.join(raw_ontologies_dir, 'upheno-allimports-dosdp.owl')
 
 # generated Files
-legal_iri_patterns_path = os.path.join(ws,"curation/legal_fillers.txt")
-legal_pattern_vars_path = os.path.join(ws,"curation/legal_pattern_vars.txt")
+legal_iri_patterns_path = os.path.join(raw_ontologies_dir,"legal_fillers.txt")
+legal_pattern_vars_path = os.path.join(raw_ontologies_dir,"legal_pattern_vars.txt")
+blacklisted_upheno_ids_path = os.path.join(raw_ontologies_dir,"blacklisted_upheno_iris.txt")
 
-with open(legal_iri_patterns_path, 'w') as f:
-    for item in upheno_config.get_legal_fillers():
-        f.write("%s\n" % item)
-
-with open(legal_pattern_vars_path, 'w') as f:
-    for item in upheno_config.get_instantiate_superclasses_pattern_vars():
-        f.write("%s\n" % item)
+write_list_to_file(legal_iri_patterns_path,upheno_config.get_legal_fillers())
+write_list_to_file(legal_pattern_vars_path, upheno_config.get_instantiate_superclasses_pattern_vars())
+write_list_to_file(blacklisted_upheno_ids_path, upheno_config.get_blacklisted_upheno_ids())
 
 java_opts = upheno_config.get_robot_java_args()
 
@@ -286,11 +282,11 @@ def download_patterns(upheno_pattern_repo, pattern_dir):
     return upheno_patterns
 
 
-def extract_upheno_fillers(ontology_path,oid_pattern_matches_dir,oid_upheno_fillers_dir,pattern_dir):
+def extract_upheno_fillers(ontology_path,oid_pattern_matches_dir,oid_upheno_fillers_dir,pattern_dir,depth):
     print("Extracting fillers from "+ontology_path)
     global TIMEOUT,java_opts, legal_iri_patterns_path, legal_pattern_vars_path
     try:
-        check_call(['timeout','-t',TIMEOUT,'java', java_opts, '-jar',java_fill, ontology_path, oid_pattern_matches_dir, pattern_dir, oid_upheno_fillers_dir, legal_iri_patterns_path, legal_pattern_vars_path])
+        check_call(['timeout','-t',TIMEOUT,'java', java_opts, '-jar',java_fill, ontology_path, oid_pattern_matches_dir, pattern_dir, oid_upheno_fillers_dir, legal_iri_patterns_path, legal_pattern_vars_path, depth])
     except Exception as e:
         print(e.output)
         raise Exception("Filler extraction of" + ontology_path + " failed")
@@ -305,12 +301,13 @@ def augment_upheno_relationships(ontology_path,out_dir,phenotype_list):
         raise Exception("Extracting upheno relationships for " + ontology_path + " failed")
 
 def extract_upheno_fillers_for_all_ontologies(oids):
-    global pattern_dir, matches_dir, upheno_fillers_dir
+    global pattern_dir, matches_dir, upheno_fillers_dir, upheno_config
+	depth = upheno_config.get_upheno_intermediate_layer_depth()
     for id in oids:
         oid_pattern_matches_dir = os.path.join(matches_dir, id)
         oid_upheno_fillers_dir = os.path.join(upheno_fillers_dir, id)
         ontology_file = os.path.join(ontology_for_matching_dir, id + ".owl")
-        extract_upheno_fillers(ontology_file, oid_pattern_matches_dir, oid_upheno_fillers_dir, pattern_dir)
+        extract_upheno_fillers(ontology_file, oid_pattern_matches_dir, oid_upheno_fillers_dir, pattern_dir, depth)
 
 def add_upheno_ids_to_fillers(pattern_dir):
     for pattern in os.listdir(pattern_dir):
@@ -411,7 +408,7 @@ print(startid)
 
 
 # Do not use these Upheno IDs
-with open(blacklisted_upheno_ids_file) as f:
+with open(blacklisted_upheno_ids_path) as f:
     blacklisted_upheno_ids = f.read().splitlines()
 
 #print(blacklisted_upheno_ids)
@@ -498,31 +495,43 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     # print(upheno_pattern_ontologies)
     
     # Create upheno intermediate layer for profile
-    robot_merge(upheno_pattern_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_layer_ontology):
+        robot_merge(upheno_pattern_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
     
     # Prepare upheno species specific layer for profile
-    robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_ontology):
+        robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts)
 
     # Prepare dependency layer (module from all merged dependencies)
-    robot_extract_seed(upheno_species_components_ontology, upheno_species_components_dependencies_seed, sparql_terms, TIMEOUT, robot_opts)
-    dosdp_extract_pattern_seed(tsvs, upheno_species_components_dependencies_pattern_seed)
-    robot_extract_module(allimports_module, upheno_species_components_dependencies_seed, upheno_species_components_dependencies_ontology, TIMEOUT, robot_opts)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_dependencies_seed):
+        robot_extract_seed(upheno_species_components_ontology, upheno_species_components_dependencies_seed, sparql_terms, TIMEOUT, robot_opts)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_dependencies_pattern_seed):
+        dosdp_extract_pattern_seed(tsvs, upheno_species_components_dependencies_pattern_seed)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_dependencies_ontology):
+        robot_extract_module(allimports_module, upheno_species_components_dependencies_seed, upheno_species_components_dependencies_ontology, TIMEOUT, robot_opts)
 
     # Preparing the full profile ontology
     upheno_profile = [upheno_species_components_ontology,upheno_species_components_dependencies_ontology,upheno_layer_ontology,upheno_extra_axioms_ontology]
-    robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_prepare_ontology):
+        robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
     
     # Creating the release (reasoning, labelling etc)
-    robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_ontology):
+        robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts)
     #sys.exit("Stopping just after generating first round.")
 
     # Creating uPheno extra relations. 
     upheno_ontology_no_taxon_restictions = os.path.join(raw_ontologies_dir, "upheno_ontology_no_taxon_restictions.owl")
     upheno_phenotype_list = os.path.join(final_upheno_combo_dir, "upheno_phenotype_list.txt")
-    robot_children_list(upheno_profile_ontology,phenotype_classes_sparql,upheno_phenotype_list)
-    augment_upheno_relationships(upheno_ontology_no_taxon_restictions,final_upheno_combo_dir,upheno_phenotype_list)
     upheno_has_phenotypic_orthologue = os.path.join(final_upheno_combo_dir, "upheno_has_phenotypic_orthologue.owl")
     upheno_has_phenotype_affecting = os.path.join(final_upheno_combo_dir, "upheno_has_phenotype_affecting.owl")
     
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_phenotype_list):
+        robot_children_list(upheno_profile_ontology,phenotype_classes_sparql,upheno_phenotype_list)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_has_phenotypic_orthologue):
+        augment_upheno_relationships(upheno_ontology_no_taxon_restictions,final_upheno_combo_dir,upheno_phenotype_list)
+    
+    
     # Merge extra relations into alternative release file
-    robot_upheno_release([upheno_profile_ontology,upheno_has_phenotypic_orthologue,upheno_has_phenotype_affecting], upheno_profile_ontology_with_relations,upheno_combination_id, TIMEOUT, robot_opts)
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_ontology_with_relations):
+        robot_upheno_release([upheno_profile_ontology,upheno_has_phenotypic_orthologue,upheno_has_phenotype_affecting], upheno_profile_ontology_with_relations,upheno_combination_id, TIMEOUT, robot_opts)

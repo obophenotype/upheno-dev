@@ -36,3 +36,4 @@ There are a few java dependencies of the uPheno 2 pipeline which can be found [h
    1. All uPheno patterns are matched against all SSPOs
    1. For each profile, uPheno intermediate classes are determined by merging all DOSDP tsv files into one, and injecting all classes between the pattern filler and all instances. UPHENO ids are being assigned in a stable manner.
    1. The resulting TSV files are transformed into OWL using DOSDP generate
+   1. This means, in particular, that a uPheno term is created even if there is only a single species term nestled underneath it.
