@@ -1,6 +1,0 @@
-http://purl.obolibrary.org/obo/GO_
-http://purl.obolibrary.org/obo/UBERON_
-http://purl.obolibrary.org/obo/NBO_
-http://purl.obolibrary.org/obo/PR_
-http://purl.obolibrary.org/obo/CHEBI_
-http://purl.obolibrary.org/obo/PATO_

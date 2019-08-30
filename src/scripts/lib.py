@@ -21,6 +21,15 @@ class uPhenoConfig:
 
     def get_phenotype_ontologies(self):
         return self.config.get("species_modules")
+        
+    def get_upheno_intermediate_layer_depth(self):
+        return int(self.config.get("upheno_intermediate_layer_depth"))
+    
+    def get_remove_disjoints(self):
+        return self.config.get("remove_disjoints")
+        
+    def get_blacklisted_upheno_ids(self):
+        return self.config.get("blacklisted_upheno_iris")
 
     def get_upheno_axiom_blacklist(self):
         return self.config.get("upheno_axiom_blacklist")
@@ -276,6 +285,10 @@ def dosdp_extract_pattern_seed(tsv_files,seedfile):
         print(e)
         raise Exception("Extracting seed from all TSV files failed..")
 
+def write_list_to_file(file_path,list):
+    with open(file_path, 'w') as f:
+        for item in list:
+            f.write("%s\n" % item)
 
 def touch(path):
     with open(path, 'a'):

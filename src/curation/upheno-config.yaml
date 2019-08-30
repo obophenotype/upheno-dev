@@ -19,6 +19,7 @@ match_owl_thing: False
 allow_non_upheno_eq: False
 upheno_axiom_blacklist: ../ontology/upheno-removed-axioms.owl
 clean: False
+upheno_intermediate_layer_depth: 2
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
 legal_fillers:
@@ -28,6 +29,28 @@ legal_fillers:
   - http://purl.obolibrary.org/obo/PR_
   - http://purl.obolibrary.org/obo/CHEBI_
   - http://purl.obolibrary.org/obo/PATO_
+remove_disjoints:
+  - http://purl.obolibrary.org/obo/BFO_0000002
+  - http://purl.obolibrary.org/obo/BFO_0000003
+  - http://purl.obolibrary.org/obo/BFO_0000004
+  - http://purl.obolibrary.org/obo/UBERON_0000466
+  - http://purl.obolibrary.org/obo/BFO_0000040
+  - http://purl.obolibrary.org/obo/BFO_0000050
+  - http://purl.obolibrary.org/obo/GO_0003674
+  - http://purl.obolibrary.org/obo/UBERON_0004367
+  - http://purl.obolibrary.org/obo/UBERON_0001135
+  - http://purl.obolibrary.org/obo/UBERON_0000476
+blacklisted_upheno_iris:
+  - http://purl.obolibrary.org/obo/UPHENO_0001002
+  - http://purl.obolibrary.org/obo/UPHENO_0000001
+  - http://purl.obolibrary.org/obo/UPHENO_0000501
+  - http://purl.obolibrary.org/obo/UPHENO_0000502
+  - http://purl.obolibrary.org/obo/UPHENO_0000503
+  - http://purl.obolibrary.org/obo/UPHENO_0000504
+  - http://purl.obolibrary.org/obo/UPHENO_0000505
+  - http://purl.obolibrary.org/obo/UPHENO_0000506
+  - http://purl.obolibrary.org/obo/UPHENO_0001001
+  - http://purl.obolibrary.org/obo/UPHENO_0001002
 instantiate_superclasses_pattern_vars:
   - anatomical_entity
   - biological_process
@@ -218,7 +241,6 @@ upheno_profiles:
     - mp
     - hp
     - dpo
-    - zp
     - xpo
     - planp
     - wbphenotype

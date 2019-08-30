@@ -1,2 +1,0 @@
-anatomical_entity
-biological_process
