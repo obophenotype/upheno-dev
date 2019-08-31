@@ -41,7 +41,6 @@ remove_disjoints:
   - http://purl.obolibrary.org/obo/UBERON_0001135
   - http://purl.obolibrary.org/obo/UBERON_0000476
 blacklisted_upheno_iris:
-  - http://purl.obolibrary.org/obo/UPHENO_0001002
   - http://purl.obolibrary.org/obo/UPHENO_0000001
   - http://purl.obolibrary.org/obo/UPHENO_0000501
   - http://purl.obolibrary.org/obo/UPHENO_0000502
@@ -51,6 +50,7 @@ blacklisted_upheno_iris:
   - http://purl.obolibrary.org/obo/UPHENO_0000506
   - http://purl.obolibrary.org/obo/UPHENO_0001001
   - http://purl.obolibrary.org/obo/UPHENO_0001002
+  - http://purl.obolibrary.org/obo/UPHENO_0001003
 instantiate_superclasses_pattern_vars:
   - anatomical_entity
   - biological_process
