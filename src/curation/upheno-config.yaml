@@ -10,7 +10,7 @@ robot_java_args: -Xmx20G
 timeout_external_processes: 3600
 working_directory: /work/src
 overwrite_matches: False
-skip_pattern_download: True
+skip_pattern_download: False
 max_upheno_id: 9999999
 min_upheno_id: 500
 overwrite_ontologies: False
