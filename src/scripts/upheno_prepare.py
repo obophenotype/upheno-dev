@@ -136,7 +136,7 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
     upheno_patterns = get_pattern_urls(upheno_pattern_repos)
     filenames = []
     for url in upheno_patterns:
-		print("Downloading "+url)
+        print("Downloading "+url)
         x = urllib.request.urlopen(url).read()
         filename = os.path.basename(url)
         file_path = os.path.join(pattern_dir, filename)
