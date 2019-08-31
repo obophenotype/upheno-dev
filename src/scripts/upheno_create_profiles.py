@@ -302,7 +302,7 @@ def augment_upheno_relationships(ontology_path,out_dir,phenotype_list):
 
 def extract_upheno_fillers_for_all_ontologies(oids):
     global pattern_dir, matches_dir, upheno_fillers_dir, upheno_config
-	depth = upheno_config.get_upheno_intermediate_layer_depth()
+    depth = upheno_config.get_upheno_intermediate_layer_depth()
     for id in oids:
         oid_pattern_matches_dir = os.path.join(matches_dir, id)
         oid_upheno_fillers_dir = os.path.join(upheno_fillers_dir, id)
