@@ -136,6 +136,7 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
     upheno_patterns = get_pattern_urls(upheno_pattern_repos)
     filenames = []
     for url in upheno_patterns:
+		print("Downloading "+url)
         x = urllib.request.urlopen(url).read()
         filename = os.path.basename(url)
         file_path = os.path.join(pattern_dir, filename)
@@ -333,6 +334,8 @@ download_sources(module_dir,upheno_config.is_overwrite_ontologies())
 
 prepare_phenotype_ontologies_for_matching(upheno_config.is_overwrite_ontologies())
 
+print("Patterns downloaded: ")
+print(pattern_files)
 match_patterns(upheno_config,pattern_files, matches_dir, upheno_config.is_overwrite_matches())
 
 prepare_species_specific_phenotype_ontologies(upheno_config.is_overwrite_ontologies())
