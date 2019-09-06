@@ -6,7 +6,7 @@ report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
-robot_java_args: -Xmx40G
+robot_java_args: -Xmx80G
 timeout_external_processes: 3600
 working_directory: /work/src
 overwrite_matches: False
