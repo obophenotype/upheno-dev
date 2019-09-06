@@ -89,7 +89,7 @@ pipeline {
 					image 'obolibrary/odkfull:latest'
 					// Reset Jenkins Docker agent default to original
 					// root.
-					args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS="-Xmx40G"'
+					args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS=-Xmx40G'
 				}
 			}
 			steps {
@@ -106,6 +106,8 @@ pipeline {
 						retry(1){
 							sh 'pwd'
 							sh 'ls /work'
+							sh 'env > env.txt'
+							sh 'cat env.txt'
 							sh 'sh upheno_pipeline_jenkins.sh'
 						}
 					}
