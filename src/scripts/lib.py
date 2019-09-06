@@ -142,6 +142,7 @@ def cdir(path):
 def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting seed of "+ontology_path+" with "+sparql_terms)
     try:
+        check_call(['echo','$ROBOT_JAVA_ARGS'])
         check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_terms, seedfile])
     except Exception as e:
         print(e.output)
