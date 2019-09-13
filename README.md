@@ -17,7 +17,7 @@ UPheno 2.0 comprises three layers. The phenotype base layer contains the phenoty
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/obophenotype/upheno-dev/issues) to report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/obophenotype/upheno-dev/issues) to report errors or specific concerns related to the ontology. This pipeline is being developed by members of the Monarch Initiative.
 
 ## Acknowledgements
 
