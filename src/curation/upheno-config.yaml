@@ -6,7 +6,7 @@ report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
-robot_java_args: -Xmx20G
+robot_java_args: -Xmx10G
 timeout_external_processes: 3600
 working_directory: /work/src
 overwrite_matches: False
@@ -14,12 +14,12 @@ skip_pattern_download: False
 max_upheno_id: 9999999
 min_upheno_id: 500
 overwrite_ontologies: False
-overwrite_upheno_intermediate: False
+overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
 upheno_axiom_blacklist: ../ontology/upheno-removed-axioms.owl
 clean: False
-upheno_intermediate_layer_depth: 2
+upheno_intermediate_layer_depth: 1
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
 legal_fillers:
@@ -51,6 +51,10 @@ blacklisted_upheno_iris:
   - http://purl.obolibrary.org/obo/UPHENO_0001001
   - http://purl.obolibrary.org/obo/UPHENO_0001002
   - http://purl.obolibrary.org/obo/UPHENO_0001003
+  - http://purl.obolibrary.org/obo/UPHENO_9000001
+  - http://purl.obolibrary.org/obo/UPHENO_9000002
+  - http://purl.obolibrary.org/obo/UPHENO_9000003
+  - http://purl.obolibrary.org/obo/UPHENO_9000004
 instantiate_superclasses_pattern_vars:
   - anatomical_entity
   - biological_process
