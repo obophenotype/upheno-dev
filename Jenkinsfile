@@ -90,14 +90,14 @@ pipeline {
 					// Reset Jenkins Docker agent default to original
 					// root.
 					//args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
-					args '-u root:root'
+					args '-u root:root --mount type=tmpfs,destination=/work'
                     			alwaysPull true
 				}
 			}
 			steps {
 				// Create a relative working directory and setup our
 				// data environment.
-				dir('./work') {
+				dir('/work') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 
