@@ -112,7 +112,7 @@ pipeline {
 					dir('./src/scripts') {
 						retry(1){
 							sh 'pwd'
-							sh 'ls /work'
+							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
 							sh 'sh upheno_pipeline_jenkins.sh'
