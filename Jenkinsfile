@@ -97,6 +97,11 @@ pipeline {
 			steps {
 				// Create a relative working directory and setup our
 				// data environment.
+				sh 'env > env.txt'
+				sh 'cat env.txt'
+				sh 'pwd'
+				sh 'ls -AlF'
+				sh 'ls -AlF /'
 				dir('/work') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
