@@ -90,7 +90,7 @@ pipeline {
 					// Reset Jenkins Docker agent default to original
 					// root.
 					//args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
-					args '-u root:root --mount type=tmpfs,destination=/work'
+					args '-u root:root --mount type=tmpfs,destination=/foo'
                     			alwaysPull true
 				}
 			}
@@ -102,7 +102,7 @@ pipeline {
 				sh 'pwd'
 				sh 'ls -AlF'
 				sh 'ls -AlF /'
-				dir('/work') {
+				dir('/foo') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 
@@ -112,7 +112,7 @@ pipeline {
 					dir('./src/scripts') {
 						retry(1){
 							sh 'pwd'
-							sh 'ls /work'
+							sh 'ls /foo'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
 							sh 'sh upheno_pipeline_jenkins.sh'
