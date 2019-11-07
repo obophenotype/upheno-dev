@@ -49,7 +49,7 @@ pipeline {
 		// possible.
 		MAKECMD = 'make'
 		// Control the ROBOT environment.
-		ROBOT_JAVA_ARGS = '-Xmx80G'
+		ROBOT_JAVA_ARGS = '-Xmx120G'
 	}
 	options{
 		//timestamps()
@@ -89,7 +89,7 @@ pipeline {
 					image 'obolibrary/odkfull:latest'
 					// Reset Jenkins Docker agent default to original
 					// root.
-					args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS=-Xmx80G'
+					args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
 				}
 			}
 			steps {
