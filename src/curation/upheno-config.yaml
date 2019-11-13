@@ -115,8 +115,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
   - id: wbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
-  - id: plana-uberon
-    mirror_from: xref
+  #- id: plana-uberon
+  #  mirror_from: xref
   - id: mp
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_314147
@@ -183,7 +183,7 @@ sources:
     anatomy: plana
     dependencies:
       - plana
-      - plana-uberon
+      #- plana-uberon
       - bspo-uberon
       - caro-uberon
       #- ncit
