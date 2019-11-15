@@ -89,9 +89,9 @@ pipeline {
 					image 'obolibrary/odkfull:latest'
 					// Reset Jenkins Docker agent default to original
 					// root.
-					//args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
-					args '-u root:root'
-                    			alwaysPull true
+					args '-u root:root -v ./foo:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
+					//args '-u root:root'
+					alwaysPull true
 				}
 			}
 			steps {
@@ -102,7 +102,7 @@ pipeline {
 				sh 'pwd'
 				sh 'ls -AlF'
 				sh 'ls -AlF /'
-				dir('./work') {
+				dir('./foo') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 
