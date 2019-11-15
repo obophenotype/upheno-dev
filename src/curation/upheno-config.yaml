@@ -8,7 +8,7 @@ dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
 robot_java_args: -Xmx40G
 timeout_external_processes: 3600
-working_directory: /work/src
+working_directory: /foo/src
 overwrite_matches: False
 skip_pattern_download: False
 max_upheno_id: 9999999
@@ -119,8 +119,8 @@ sources:
   #  mirror_from: xref
   - id: mp
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_314147
-    taxon_label: mammal
+    taxon: http://purl.obolibrary.org/obo/MP
+    taxon_label: MPO
     modifier: PATO:0000460
     root: http://purl.obolibrary.org/obo/MP_0000001
     prefix_iri: http://purl.obolibrary.org/obo/MP_
@@ -132,8 +132,8 @@ sources:
       - cl
       - mpath
   - id: hp
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    taxon_label: Human
+    taxon: http://purl.obolibrary.org/obo/HP
+    taxon_label: HPO
     root: http://purl.obolibrary.org/obo/HP_0000118
     prefix_iri: http://purl.obolibrary.org/obo/HP_
     mirror_from: http://purl.obolibrary.org/obo/hp.owl
@@ -149,8 +149,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-base.owl
     root: http://purl.obolibrary.org/obo/WBPhenotype_0000886
     prefix_iri: http://purl.obolibrary.org/obo/WBPhenotype_
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_6239
-    taxon_label: C. elegans
+    taxon: http://purl.obolibrary.org/obo/WBPhenotype
+    taxon_label: WBP
     modifier: PATO:0000460
     dependencies:
       - bfo
@@ -163,8 +163,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/xpo/xpo-base.owl
     root: http://purl.obolibrary.org/obo/XPO_00000000
     prefix_iri: http://purl.obolibrary.org/obo/XPO_
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_2052675
-    taxon_label: Xenopus
+    taxon: http://purl.obolibrary.org/obo/XPO
+    taxon_label: XPO
     modifier: PATO:0000460
     dependencies:
       - chebi
@@ -177,8 +177,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
     prefix_iri: http://purl.obolibrary.org/obo/PLANP_
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_79327
-    taxon_label: Planaria
+    taxon: http://purl.obolibrary.org/obo/PLANP
+    taxon_label: PLANP
     modifier: PATO:0000460
     anatomy: plana
     dependencies:
@@ -191,8 +191,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
     root: http://purl.obolibrary.org/obo/ZP_00000000
     prefix_iri: http://purl.obolibrary.org/obo/ZP_
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_7955
-    taxon_label: Zebrafish
+    taxon: http://purl.obolibrary.org/obo/ZP
+    taxon_label: ZPO
     modifier: PATO:0000460
     dependencies:
       - zfa
@@ -207,8 +207,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
     root: http://purl.obolibrary.org/obo/FBcv_0001347
     prefix_iri: http://purl.obolibrary.org/obo/FBcv_
-    taxon: http://purl.obolibrary.org/obo/NCBITaxon_7227
-    taxon_label: Fly
+    taxon: http://purl.obolibrary.org/obo/DPO
+    taxon_label: DPO
     modifier: PATO:0000460
     dependencies:
       - fbdv
