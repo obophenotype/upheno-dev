@@ -6,14 +6,14 @@ report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
-robot_java_args: -Xmx10G
+robot_java_args: -Xmx40G
 timeout_external_processes: 3600
 working_directory: /work/src
 overwrite_matches: True
 skip_pattern_download: False
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: False
+overwrite_ontologies: True
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
@@ -115,8 +115,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
   - id: wbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
-  - id: plana-uberon
-    mirror_from: xref
+  #- id: plana-uberon
+  #  mirror_from: xref
   - id: mp
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
     taxon: http://purl.obolibrary.org/obo/NCBITaxon_314147
@@ -183,7 +183,7 @@ sources:
     anatomy: plana
     dependencies:
       - plana
-      - plana-uberon
+      #- plana-uberon
       - bspo-uberon
       - caro-uberon
       #- ncit

@@ -49,7 +49,7 @@ pipeline {
 		// possible.
 		MAKECMD = 'make'
 		// Control the ROBOT environment.
-		ROBOT_JAVA_ARGS = '-Xmx80G'
+		ROBOT_JAVA_ARGS = '-Xmx120G'
 	}
 	options{
 		//timestamps()
@@ -63,7 +63,7 @@ pipeline {
 			steps {
 			// Give us a minute to cancel if we want.
 			//sleep time: 1, unit: 'MINUTES'
-			cleanWs()
+			cleanWs deleteDirs: true, disableDeferredWipeout: true
 			}
 		}
 		
@@ -89,13 +89,20 @@ pipeline {
 					image 'obolibrary/odkfull:latest'
 					// Reset Jenkins Docker agent default to original
 					// root.
-					args '-u root:root -v /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/work:/work -e ROBOT_JAVA_ARGS=-Xmx80G'
+					args '-u root:root -v /foo:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
+					//args '-u root:root'
+					alwaysPull true
 				}
 			}
 			steps {
 				// Create a relative working directory and setup our
 				// data environment.
-				dir('./work') {
+				sh 'env > env.txt'
+				sh 'cat env.txt'
+				sh 'pwd'
+				sh 'ls -AlF'
+				sh 'ls -AlF /'
+				dir('./foo') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 
@@ -105,7 +112,7 @@ pipeline {
 					dir('./src/scripts') {
 						retry(1){
 							sh 'pwd'
-							sh 'ls /work'
+							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
 							sh 'sh upheno_pipeline_jenkins.sh'
