@@ -1,0 +1,23 @@
+Prefix(:=<http://purl.obolibrary.org/obo/upheno/upheno-extra.owl>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/upheno-extra.owl>
+
+Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_0000001))
+Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000001))
+Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000002))
+Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000003))
+Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000004))
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2052675> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7227> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000002> "has phenotypic orthologue"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000001> "has phenotypic affecting"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000001> "has phenotypic affecting"@en)
+
+)
