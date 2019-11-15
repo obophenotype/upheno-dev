@@ -89,8 +89,8 @@ pipeline {
 					image 'obolibrary/odkfull:latest'
 					// Reset Jenkins Docker agent default to original
 					// root.
-					args '-u root:root -v /foo:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
-					//args '-u root:root'
+					//args '-u root:root -v /foo:/work -e ROBOT_JAVA_ARGS=-Xmx120G'
+					args '-u root:root'
 					alwaysPull true
 				}
 			}
