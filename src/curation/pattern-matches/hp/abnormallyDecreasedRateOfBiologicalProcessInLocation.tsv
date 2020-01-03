@@ -1,0 +1,12 @@
+defined_class	defined_class_label	biological_process	biological_process_label	location	location_label
+http://purl.obolibrary.org/obo/HP_0008000	Decreased corneal reflex	http://purl.obolibrary.org/obo/GO_0060004	reflex	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
+http://purl.obolibrary.org/obo/HP_0004274	Deficient ossification of hand bones	http://purl.obolibrary.org/obo/GO_0001503	ossification	http://purl.obolibrary.org/obo/UBERON_0001442	skeleton of manus
+http://purl.obolibrary.org/obo/HP_0002750	Delayed skeletal maturation	http://purl.obolibrary.org/obo/GO_0070977	bone maturation	http://purl.obolibrary.org/obo/UBERON_0004288	skeleton
+http://purl.obolibrary.org/obo/HP_0012643	Foveal hypopigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0001786	fovea centralis
+http://purl.obolibrary.org/obo/HP_0005599	Hypopigmentation of hair	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0001037	strand of hair
+http://purl.obolibrary.org/obo/HP_0001010	Hypopigmentation of the skin	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0002097	skin of body
+http://purl.obolibrary.org/obo/HP_0040075	Hypopituitarism	http://purl.obolibrary.org/obo/GO_0046903	secretion	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
+http://purl.obolibrary.org/obo/HP_0007730	Iris hypopigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0001769	iris
+http://purl.obolibrary.org/obo/HP_0007988	Macular hypopigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0000053	macula lutea
+http://purl.obolibrary.org/obo/HP_0003469	Peripheral dysmyelination	http://purl.obolibrary.org/obo/GO_0042552	myelination	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system
+http://purl.obolibrary.org/obo/HP_0008383	Slow-growing nails	http://purl.obolibrary.org/obo/GO_0035878	nail development	http://purl.obolibrary.org/obo/UBERON_0001705	nail
