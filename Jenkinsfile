@@ -34,7 +34,7 @@ pipeline {
 		// finding artifacts.
 		ONTOLOGY_FILE_HINT = 'upheno'
 		// Ontology repo information.
-		TARGET_ONTOLOGY_BRANCH = 'master'
+		TARGET_ONTOLOGY_BRANCH = 'dev-jenkins'
 		TARGET_ONTOLOGY_URL = 'https://github.com/obophenotype/upheno-dev.git'
 		// The people to call when things go bad or go well. It is a
 		// comma-space "separated" string.
