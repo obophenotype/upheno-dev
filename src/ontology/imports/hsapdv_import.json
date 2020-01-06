@@ -1,0 +1,135 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "type" : "PROPERTY",
+      "lbl" : "shorthand"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HsapDv_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A spatiotemporal region encompassing some part of the life cycle of an organism.",
+          "xrefs" : [ "UBERON:0000105" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000105"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasNarrowSynonym",
+          "val" : "stage",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental stage",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_stages_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "human life cycle stage"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "meta" : {
+        "definition" : {
+          "val" : "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "BFO:0000062"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "preceded_by"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "preceded_by"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "meta" : {
+        "definition" : {
+          "val" : "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002087"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_preceded_by"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_stages_ontology"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "immediately_preceded_by"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000062"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/upheno/imports/hsapdv_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/upheno/releases/2020-01-03/imports/hsapdv_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

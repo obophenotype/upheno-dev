@@ -137,11 +137,11 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
     filenames = []
     for url in upheno_patterns:
         print("Downloading "+url)
-        x = urllib.request.urlopen(url).read()
         filename = os.path.basename(url)
         file_path = os.path.join(pattern_dir, filename)
         if not upheno_config.is_skip_pattern_download():
             try:
+                x = urllib.request.urlopen(url).read()
                 y = ruamel.yaml.round_trip_load(x, preserve_quotes=True)
                 print(file_path)
                 if upheno_config.is_match_owl_thing():
@@ -326,20 +326,25 @@ if upheno_config.is_clean_dir():
     os.makedirs(module_dir)
 
 
+print("### Download patterns ###")
 pattern_files = download_patterns(upheno_config.get_pattern_repos(), pattern_dir)
 pattern_files = [os.path.join(pattern_dir,f) for f in os.listdir(pattern_dir) if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith('.yaml')]
 
+print("### Download sources ###")
 print("ROBOT args: "+os.environ['ROBOT_JAVA_ARGS'])
 download_sources(module_dir,upheno_config.is_overwrite_ontologies())
 
+print("### Preparing phenotype ontologies for matching ###")
 prepare_phenotype_ontologies_for_matching(upheno_config.is_overwrite_ontologies())
 
-print("Patterns downloaded: ")
-print(pattern_files)
+print("### Matching phenotype ontologies against uPheno patterns ###")
 match_patterns(upheno_config,pattern_files, matches_dir, upheno_config.is_overwrite_matches())
 
+print("### Prepare phenotype ontology components for integration in uPheno ###")
 prepare_species_specific_phenotype_ontologies(upheno_config.is_overwrite_ontologies())
 
+print("### Prepare master import file with all imports merged ###")
 prepare_all_imports_merged(upheno_config.is_overwrite_ontologies())
 
+print("### Prepare master uPheno with no taxon restrictions for relation computation ###")
 prepare_upheno_ontology_no_taxon_restictions(upheno_config.is_overwrite_ontologies())

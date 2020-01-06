@@ -6,20 +6,20 @@ report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
-robot_java_args: -Xmx40G
-timeout_external_processes: 3600
-working_directory: /foo/src
+robot_java_args: -Xmx10G
+timeout_external_processes: 36000
+working_directory: /work/src
 overwrite_matches: False
-skip_pattern_download: False
+skip_pattern_download: True
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: True
+overwrite_ontologies: False
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
-clean: True
-upheno_intermediate_layer_depth: 1
+clean: False
+upheno_intermediate_layer_depth: 0
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
 legal_fillers:
@@ -29,6 +29,8 @@ legal_fillers:
   - http://purl.obolibrary.org/obo/PR_
   - http://purl.obolibrary.org/obo/CHEBI_
   - http://purl.obolibrary.org/obo/PATO_
+  - http://purl.obolibrary.org/obo/CL_
+  - http://purl.obolibrary.org/obo/MPATH_
 remove_disjoints:
   - http://purl.obolibrary.org/obo/BFO_0000002
   - http://purl.obolibrary.org/obo/BFO_0000003
@@ -37,9 +39,15 @@ remove_disjoints:
   - http://purl.obolibrary.org/obo/BFO_0000040
   - http://purl.obolibrary.org/obo/BFO_0000050
   - http://purl.obolibrary.org/obo/GO_0003674
+  - http://purl.obolibrary.org/obo/GO_0005575
+  - http://purl.obolibrary.org/obo/GO_0008150
+  - http://purl.obolibrary.org/obo/CL_0000000
+  - http://purl.obolibrary.org/obo/GO_0043226
+  - http://purl.obolibrary.org/obo/GO_0005623
   - http://purl.obolibrary.org/obo/UBERON_0004367
   - http://purl.obolibrary.org/obo/UBERON_0001135
   - http://purl.obolibrary.org/obo/UBERON_0000476
+  - http://purl.obolibrary.org/obo/FYPO_0000003
 blacklisted_upheno_iris:
   - http://purl.obolibrary.org/obo/UPHENO_0000001
   - http://purl.obolibrary.org/obo/UPHENO_0000501
@@ -66,7 +74,7 @@ sources:
   - id: nbo
     mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
   - id: pr
-    mirror_from: https://raw.githubusercontent.com/matentzn/large-ontology-dependencies/master/pr.owl.gz
+    mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
   - id: go
     mirror_from: http://purl.obolibrary.org/obo/go/go-base.owl
   - id: uberon 
@@ -103,6 +111,14 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/zfa.owl
   - id: ncit
     mirror_from: http://purl.obolibrary.org/obo/ncit.owl
+  - id: so
+    mirror_from: http://purl.obolibrary.org/obo/so.owl
+  - id: ddanat
+    mirror_from: http://purl.obolibrary.org/obo/ddanat.owl
+  - id: bto
+    mirror_from: http://purl.obolibrary.org/obo/bto.owl
+  - id: ido
+    mirror_from: http://purl.obolibrary.org/obo/ido.owl
   - id: xao
     mirror_from: http://purl.obolibrary.org/obo/xao.owl
   - id: zfa-uberon
@@ -119,7 +135,7 @@ sources:
   #  mirror_from: xref
   - id: mp
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
-    taxon: http://purl.obolibrary.org/obo/MP
+    taxon: http://purl.obolibrary.org/obo/UPHENO_MP
     taxon_label: MPO
     modifier: PATO:0000460
     root: http://purl.obolibrary.org/obo/MP_0000001
@@ -132,7 +148,7 @@ sources:
       - cl
       - mpath
   - id: hp
-    taxon: http://purl.obolibrary.org/obo/HP
+    taxon: http://purl.obolibrary.org/obo/UPHENO_HP
     taxon_label: HPO
     root: http://purl.obolibrary.org/obo/HP_0000118
     prefix_iri: http://purl.obolibrary.org/obo/HP_
@@ -149,7 +165,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-base.owl
     root: http://purl.obolibrary.org/obo/WBPhenotype_0000886
     prefix_iri: http://purl.obolibrary.org/obo/WBPhenotype_
-    taxon: http://purl.obolibrary.org/obo/WBPhenotype
+    taxon: http://purl.obolibrary.org/obo/UPHENO_WBPhenotype
     taxon_label: WBP
     modifier: PATO:0000460
     dependencies:
@@ -163,7 +179,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/xpo/xpo-base.owl
     root: http://purl.obolibrary.org/obo/XPO_00000000
     prefix_iri: http://purl.obolibrary.org/obo/XPO_
-    taxon: http://purl.obolibrary.org/obo/XPO
+    taxon: http://purl.obolibrary.org/obo/UPHENO_XPO
     taxon_label: XPO
     modifier: PATO:0000460
     dependencies:
@@ -177,7 +193,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
     prefix_iri: http://purl.obolibrary.org/obo/PLANP_
-    taxon: http://purl.obolibrary.org/obo/PLANP
+    taxon: http://purl.obolibrary.org/obo/UPHENO_PLANP
     taxon_label: PLANP
     modifier: PATO:0000460
     anatomy: plana
@@ -191,7 +207,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
     root: http://purl.obolibrary.org/obo/ZP_00000000
     prefix_iri: http://purl.obolibrary.org/obo/ZP_
-    taxon: http://purl.obolibrary.org/obo/ZP
+    taxon: http://purl.obolibrary.org/obo/UPHENO_ZP
     taxon_label: ZPO
     modifier: PATO:0000460
     dependencies:
@@ -207,7 +223,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
     root: http://purl.obolibrary.org/obo/FBcv_0001347
     prefix_iri: http://purl.obolibrary.org/obo/FBcv_
-    taxon: http://purl.obolibrary.org/obo/DPO
+    taxon: http://purl.obolibrary.org/obo/UPHENO_DPO
     taxon_label: DPO
     modifier: PATO:0000460
     dependencies:
@@ -215,6 +231,38 @@ sources:
       - fbbt
       - cl
       - chebi
+  - id: fypo
+    mirror_from: http://purl.obolibrary.org/obo/fypo.owl
+    root: http://purl.obolibrary.org/obo/FYPO_0000001
+    prefix_iri: http://purl.obolibrary.org/obo/FYPO_
+    taxon: http://purl.obolibrary.org/obo/UPHENO_FYPO
+    taxon_label: FYPO
+    modifier: PATO:0000460
+    dependencies:
+      - chebi
+      - cl
+      - so
+      - bto
+  - id: ddpheno
+    mirror_from: http://purl.obolibrary.org/obo/ddpheno/ddpheno-base.owl
+    root: http://purl.obolibrary.org/obo/DDPHENO_0010000
+    prefix_iri: http://purl.obolibrary.org/obo/DDPHENO_
+    taxon: http://purl.obolibrary.org/obo/UPHENO_DDPHENO
+    taxon_label: DDPHENO
+    modifier: PATO:0000460
+    dependencies:
+      - ddanat
+  - id: phipo
+    mirror_from: http://purl.obolibrary.org/obo/phipo/phipo-base.owl
+    root: http://purl.obolibrary.org/obo/PHIPO_0000505
+    prefix_iri: http://purl.obolibrary.org/obo/PHIPO_
+    taxon: http://purl.obolibrary.org/obo/UPHENO_PHIPO
+    taxon_label: PHIPO
+    modifier: PATO:0000460
+    dependencies:
+      - ido
+      - chebi
+      - so
 common_dependencies:
   - go
   - uberon
@@ -230,6 +278,9 @@ species_modules:
   - dpo
   - planp
   - zp
+  - ddpheno
+  - fypo
+  - phipo
 upheno_profiles:
   - id: mp-hp
     species_modules:
@@ -268,7 +319,5 @@ import_group:
     - id: uberon 
     - id: ro
     - id: chebi
-    - id: hsapdv
     - id: pato
     - id: cl
-    - id: mpath

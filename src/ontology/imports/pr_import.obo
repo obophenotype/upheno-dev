@@ -1,0 +1,116 @@
+format-version: 1.2
+data-version: upheno/releases/2020-01-03/imports/pr_import.owl
+ontology: upheno/imports/pr_import
+
+[Term]
+id: BFO:0000015
+name: process
+namespace: bfo
+
+[Term]
+id: BFO:0000030
+name: object
+namespace: bfo
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000040
+name: material entity
+namespace: bfo
+
+[Term]
+id: CL:0000000
+name: cell
+namespace: cell
+def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [CARO:mah]
+comment: The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).
+
+[Term]
+id: GO:0008150
+name: biological_process
+namespace: biological_process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+namespace: ncbi_taxonomy
+synonym: "euk-" RELATED PRO-short-label [PRO:DAN]
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+namespace: ncbi_taxonomy
+synonym: "Fungi/Metazoa group" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33208
+name: Metazoa
+namespace: ncbi_taxonomy
+synonym: "metazoan-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:7955
+name: Danio rerio
+namespace: ncbi_taxonomy
+synonym: "zebrafish" EXACT PRO-common-name []
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: OBI:0100026
+name: organism
+namespace: obi
+is_a: BFO:0000030 ! object
+
+[Typedef]
+id: capable_of
+name: capable_of
+namespace: protein
+xref: RO:0002215
+is_transitive: false
+
+[Typedef]
+id: has_component
+name: has_component
+namespace: protein
+xref: RO:0002180
+is_transitive: false
+
+[Typedef]
+id: has_part
+name: has_part
+namespace: protein
+xref: BFO:0000051
+is_transitive: true
+
+[Typedef]
+id: involved_in
+name: involved_in
+namespace: protein
+xref: RO:0002331
+is_transitive: false
+
+[Typedef]
+id: located_in
+name: located_in
+namespace: protein
+xref: RO:0001025
+is_transitive: true
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: protein
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: participates_in
+name: participates_in
+namespace: protein
+xref: RO:0000056
+is_transitive: false
+

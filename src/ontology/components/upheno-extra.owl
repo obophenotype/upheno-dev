@@ -8,16 +8,35 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/upheno-extra.owl>
 
-Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_0000001))
-Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000001))
-Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000002))
-Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000003))
-Declaration(Class(http://purl.obolibrary.org/obo/UPHENO_9000004))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_HP>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_MP>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_WBPhenotype>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_DPO>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_PLANP>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_DDPHENO>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_FYPO>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_XPO>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_ZP>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_PHIPO>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_UPHENO>))
+
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/UPHENO_0000002>))
 
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2052675> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7227> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
+
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000002> "has phenotypic orthologue"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000001> "has phenotypic affecting"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000001> "has phenotypic affecting"@en)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_HP> "Human Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_MP> "Mammalian Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_WBPhenotype> "C. elegans Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_DPO> "Drosophila Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_PLANP> "Planarian Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_DDPHENO> "Dicty Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_FYPO> "Fission Yeast Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_PHIPO> "Pathogen-Host Interaction Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_XPO> "Xenopus Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_ZP> "Zebrafish Phenotype Ontology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_UPHENO> "Unified Phenotype Ontology"@en)
 
 )

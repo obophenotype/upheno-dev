@@ -34,3 +34,5 @@ src/ontology/inferred_ontology.owl
 src/ontology/merged_ontology.owl
 src/ontology/archive/inferred_ontology.owl
 src/ontology/archive/merged_ontology.owl
+src/patterns/all_pattern_terms.txt
+src/patterns/pattern_owl_seed.txt

@@ -3,15 +3,15 @@ import os
 import pandas as pd
 import yaml
 
-#table1 = sys.argv[1]
-#table2 = sys.argv[2]
-#columns_string = sys.argv[3]
-#table_out = sys.argv[4]
+tsv_dir = sys.argv[1]
+matches_dir = sys.argv[2]
+patterns_dir = sys.argv[3]
+obo_prefix = sys.argv[4]
 
-tsv_dir="/Users/matentzn/ws/human-phenotype-ontology/src/patterns/data/default"
-matches_dir="/Users/matentzn/ws/upheno-dev/src/curation/pattern-matches/hp"
-patterns_dir="/Users/matentzn/ws/upheno-dev/src/curation/patterns-for-matching"
-obo_prefix = "http://purl.obolibrary.org/obo/"
+#tsv_dir="/Users/matentzn/ws/human-phenotype-ontology/src/patterns/data/default"
+#matches_dir="/Users/matentzn/ws/upheno-dev/src/curation/pattern-matches/hp"
+#patterns_dir="/Users/matentzn/ws/upheno-dev/src/curation/patterns-for-matching"
+#obo_prefix = "http://purl.obolibrary.org/obo/"
 
 def get_id_columns(pattern_file):
     with open(pattern_file, 'r') as stream:

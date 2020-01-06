@@ -1,0 +1,336 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Fungi/Metazoa group",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Opisthokonta"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000015",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "process"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
+      "type" : "PROPERTY",
+      "lbl" : "has_synonym_type"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002331",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002331"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "involved_in"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "involved_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0000056"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "participates_in"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "participates_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "euk-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Eukaryota"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.",
+          "xrefs" : [ "CARO:mah" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one)."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "biological_process"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "biological_process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part_of"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "type" : "PROPERTY",
+      "lbl" : "shorthand"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000051"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "has_part"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000030",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "object"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002180"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "has_component"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_component"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_7955",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "zebrafish",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Danio rerio"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001025",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0001025"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "located_in"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "located_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002215"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "capable_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "capable_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "metazoan-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Metazoa"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_broad_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000040",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "material entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0100026",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "obi"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organism"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0100026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_7955",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/upheno/releases/2020-01-03/imports/pr_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

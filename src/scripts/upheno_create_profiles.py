@@ -48,7 +48,7 @@ upheno_release_dir = os.path.join(ws, "curation/upheno-release/")
 ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 upheno_patterns_data_manual_dir = os.path.join(ws,"patterns/data/default/")
 upheno_patterns_dir = os.path.join(ws,"patterns/dosdp-patterns/")
-upheno_ontogy_dir = os.path.join(ws,"ontology/")
+upheno_ontology_dir = os.path.join(ws,"ontology/")
 
 cdir(pattern_dir)
 cdir(matches_dir)
@@ -69,6 +69,11 @@ phenotype_pattern = os.path.join(ws,"patterns/dosdp-patterns/phenotype.yaml")
 phenotype_pattern_taxon = os.path.join(ws,"patterns/dosdp-patterns/phenotype_taxon.yaml")
 allimports_module = os.path.join(raw_ontologies_dir, 'upheno-allimports-merged.owl')
 allimports_merged = os.path.join(raw_ontologies_dir, 'upheno-allimports-dosdp.owl')
+upheno_components_dir = os.path.join(upheno_ontology_dir,"components/")
+upheno_core_ontology = os.path.join(upheno_prepare_dir,"upheno-core.owl")
+upheno_extra_axioms_ontology = os.path.join(upheno_components_dir,"upheno-extra.owl")
+upheno_relations_ontology = os.path.join(upheno_components_dir,"upheno-relations.owl")
+
 
 # generated Files
 legal_iri_patterns_path = os.path.join(raw_ontologies_dir,"legal_fillers.txt")
@@ -370,9 +375,9 @@ def get_taxon_restriction_table(ids):
     df.columns = ['defined_class','taxon','taxon_label','modifier']
     return df
 
-def create_common_upheno_classes(upheno_common_phenotypes_ontology, manual_tsv_files,allimports_merged):
+def create_common_upheno_classes(upheno_core_ontology, manual_tsv_files,allimports_merged):
     global upheno_patterns_data_manual_dir,upheno_patterns_dir, TIMEOUT, robot_opts, upheno_prepare_dir
-    if overwrite_dosdp_upheno or not os.path.exists(upheno_common_phenotypes_ontology):
+    if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
         ontologies = []
         for pattern_tsv in os.listdir(upheno_patterns_data_manual_dir):
             print(pattern_tsv)
@@ -386,26 +391,25 @@ def create_common_upheno_classes(upheno_common_phenotypes_ontology, manual_tsv_f
                 if overwrite_dosdp_upheno or not os.path.exists(ontology_file):
                     dosdp_generate(upheno_pattern_file,pattern_tsv_file,ontology_file,False,TIMEOUT,ONTOLOGY=allimports_merged)
                 ontologies.append(ontology_file)
-        robot_merge(ontologies,upheno_common_phenotypes_ontology, TIMEOUT, robot_opts)
+        robot_merge(ontologies,upheno_core_ontology, TIMEOUT, robot_opts)
 
 
 ### Methods end
 
 
 ### Run
+
+print("Preparing all imports merged ontology for DOSDP extraction.")
 if upheno_config.is_overwrite_ontologies() or not os.path.exists(allimports_merged):
     robot_prepare_ontology_for_dosdp(allimports_module,allimports_merged,sparql_uberon_terms,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
 
+print("Loading the existing ID map, the blacklist for uPheno IDs and determining next available uPheno ID.")
 upheno_map = pd.read_csv(upheno_id_map, sep='\t')
-
-print("Computing start upheno id")
 startid = get_highest_id(upheno_map['defined_class'])
 if startid<minid:
     startid=minid
 
 print(startid)
-
-
 
 # Do not use these Upheno IDs
 with open(blacklisted_upheno_ids_path) as f:
@@ -413,7 +417,7 @@ with open(blacklisted_upheno_ids_path) as f:
 
 #print(blacklisted_upheno_ids)
 
-# The following function will extract the intermediate layer as TSVs
+print("Compute the uPheno fillers for all individual ontologies, including the assignment of the ids. The actual intermediate layer is produced, by profile, at a later stage.")
 if False:
     extract_upheno_fillers_for_all_ontologies(upheno_config.get_phenotype_ontologies())
 else:
@@ -425,19 +429,18 @@ upheno_map.sort_values("defined_class", inplace=True)
 upheno_map.to_csv(upheno_id_map, sep='\t', index=False)
 #sys.exit("Intermediadte test stop")
 
-
-# Generate upheno ids for TSV files generated in the previous step
-
+print("Rewriting owl:Thing in DOSDP files (should be unnecessary, review).")
 replace_owl_thing_in_tsvs(pattern_dir)
 
-manual_tsv_files = []
-upheno_common_phenotypes_ontology = os.path.join(upheno_prepare_dir,"upheno_common_phenotypes.owl")
-create_common_upheno_classes(upheno_common_phenotypes_ontology, manual_tsv_files,allimports_merged)
+print("Generating uPheno core (part of uPheno common to all profiles).")
+manual_tsv_files = [] #the tsv files are generally being kept track of to generate seeds for the profile import modules later
+create_common_upheno_classes(upheno_core_ontology, manual_tsv_files,allimports_merged)
 
-upheno_extra_axioms_ontology = os.path.join(upheno_ontogy_dir,"upheno-extra.owl")
 
+print("Generating uPheno profiles..")
 # Generate uPheno profiles
 for upheno_combination_id in upheno_config.get_upheno_profiles():
+    print("Generating profile: "+upheno_combination_id)
     oids = upheno_config.get_upheno_profile_components(upheno_combination_id)
     profile_dir = os.path.join(upheno_profiles_dir, upheno_combination_id)
     cdir(profile_dir)
@@ -445,9 +448,11 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     final_upheno_profile_release_dir = os.path.join(upheno_release_dir, upheno_combination_id)
     cdir(final_upheno_combo_dir)
     cdir(final_upheno_profile_release_dir)
+
+    print("Merge all tsvs from the ontologies participating in this profiles together")
     export_merged_tsvs_for_combination(profile_dir, oids)
 
-
+    print("Create all top level phenotypes relevant to this profile (SSPO top level classes)")
     upheno_top_level_phenotypes_ontology = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes.owl")
     phenotype_tsv = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes.tsv")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_top_level_phenotypes_ontology):
@@ -455,11 +460,19 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
         get_taxon_restriction_table(oids).to_csv(phenotype_tsv, sep='\t', index=False)
         dosdp_generate(phenotype_pattern_taxon, phenotype_tsv, upheno_top_level_phenotypes_ontology, RESTRICT_LOGICAL=True, TIMEOUT=TIMEOUT,ONTOLOGY=allimports_merged)
 
-    upheno_pattern_ontologies = [upheno_top_level_phenotypes_ontology,upheno_common_phenotypes_ontology]
-    tsvs = [phenotype_tsv]
+    # upheno_intermediate_ontologies contains all the files that will be merged together to form the
+    # intermediate (i.e. uPheno) layer of this profile, including the core, top-level and upheno-class component
+    upheno_intermediate_ontologies = []
+    upheno_intermediate_ontologies.append(upheno_top_level_phenotypes_ontology)
+    upheno_intermediate_ontologies.append(upheno_core_ontology)
+
+    # These TSVs are purely kept for bookkeeping and to generate the seed in the end for the profile imports module
+    tsvs = []
+    tsvs.extend(phenotype_tsv)
     tsvs.extend(manual_tsv_files)
 
     # For all tsvs, generate the dosdp instances and drop them in the combo directory
+    print("Profile: Generate uPheno intermediate layer")
     for pattern in os.listdir(pattern_dir):
         if pattern.endswith(".yaml"):
             pattern_file = os.path.join(pattern_dir,pattern)
@@ -468,12 +481,12 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
             if os.path.exists(tsv_file):
                 tsvs.append(tsv_file)
                 outfile = os.path.join(final_upheno_combo_dir,pattern.replace(".yaml", ".owl"))
-                upheno_pattern_ontologies.append(outfile)
+                upheno_intermediate_ontologies.append(outfile)
                 if overwrite_dosdp_upheno or not os.path.exists(outfile):
                     dosdp_generate(pattern_file,tsv_file,outfile, False,TIMEOUT,ONTOLOGY=allimports_merged)
 
 
-    # Collect all ontologies (taxon restricted versions) and their dependencies as needed by this profile.
+    print("Profile: Collect all ontologies (taxon restricted versions) and their dependencies as needed by this profile.")
     species_components = []
     for oid in oids:
         fn = oid+".owl"
@@ -492,17 +505,17 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     upheno_profile_prepare_ontology = os.path.join(final_upheno_combo_dir, "upheno_pre_" + upheno_combination_id + ".owl")
     upheno_profile_ontology = os.path.join(final_upheno_profile_release_dir, "upheno_"+upheno_combination_id+".owl")
     upheno_profile_ontology_with_relations = os.path.join(final_upheno_profile_release_dir, "upheno_"+upheno_combination_id+"_with_relations.owl")
-    # print(upheno_pattern_ontologies)
+    # print(upheno_intermediate_ontologies)
     
-    # Create upheno intermediate layer for profile
+    print("Profile: Create upheno intermediate layer")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_layer_ontology):
-        robot_merge(upheno_pattern_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
+        robot_merge(upheno_intermediate_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
     
-    # Prepare upheno species specific layer for profile
+    print("Profile: Prepare upheno species specific layer")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_ontology):
         robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts)
 
-    # Prepare dependency layer (module from all merged dependencies)
+    print("Profile: Prepare dependency layer (module from all merged dependencies/imports)")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_dependencies_seed):
         robot_extract_seed(upheno_species_components_ontology, upheno_species_components_dependencies_seed, sparql_terms, TIMEOUT, robot_opts)
     if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_dependencies_pattern_seed):
@@ -510,17 +523,22 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_dependencies_ontology):
         robot_extract_module(allimports_module, upheno_species_components_dependencies_seed, upheno_species_components_dependencies_ontology, TIMEOUT, robot_opts)
 
-    # Preparing the full profile ontology
-    upheno_profile = [upheno_species_components_ontology,upheno_species_components_dependencies_ontology,upheno_layer_ontology,upheno_extra_axioms_ontology]
+    print("Profile: Preparing the full profile ontology (Step 1: Merging all associated OWL files)")
+    upheno_profile = []
+    upheno_profile.append(upheno_species_components_ontology)
+    upheno_profile.append(upheno_species_components_dependencies_ontology)
+    upheno_profile.append(upheno_layer_ontology)
+    upheno_profile.append(upheno_extra_axioms_ontology)
+
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_prepare_ontology):
         robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
     
-    # Creating the release (reasoning, labelling etc)
+    print("Profile: Preparing the full profile ontology (Step 2: Creating the release file (reasoning, labelling etc))")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_ontology):
         robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts)
     #sys.exit("Stopping just after generating first round.")
 
-    # Creating uPheno extra relations. 
+    print("Profile: Creating uPheno addons - compute extra relations.")
     upheno_ontology_no_taxon_restictions = os.path.join(raw_ontologies_dir, "upheno_ontology_no_taxon_restictions.owl")
     upheno_phenotype_list = os.path.join(final_upheno_combo_dir, "upheno_phenotype_list.txt")
     upheno_has_phenotypic_orthologue = os.path.join(final_upheno_combo_dir, "upheno_has_phenotypic_orthologue.owl")
@@ -530,8 +548,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
         robot_children_list(upheno_profile_ontology,phenotype_classes_sparql,upheno_phenotype_list)
     if overwrite_dosdp_upheno or not os.path.exists(upheno_has_phenotypic_orthologue):
         augment_upheno_relationships(upheno_ontology_no_taxon_restictions,final_upheno_combo_dir,upheno_phenotype_list)
-    
-    
-    # Merge extra relations into alternative release file
+
+    print("Profile: Creating uPheno addons - merge extra relations into augmented upheno release file.")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_ontology_with_relations):
         robot_upheno_release([upheno_profile_ontology,upheno_has_phenotypic_orthologue,upheno_has_phenotype_affecting], upheno_profile_ontology_with_relations,upheno_combination_id, TIMEOUT, robot_opts)

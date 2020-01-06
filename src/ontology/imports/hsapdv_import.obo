@@ -1,0 +1,36 @@
+format-version: 1.2
+data-version: upheno/releases/2020-01-03/imports/hsapdv_import.owl
+ontology: upheno/imports/hsapdv_import
+
+[Term]
+id: HsapDv:0000000
+name: human life cycle stage
+namespace: human_stages_ontology
+def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
+synonym: "developmental stage" EXACT []
+synonym: "stage" NARROW []
+xref: UBERON:0000105
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+namespace: human_stages_ontology
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+xref: RO:0002087
+is_a: preceded_by ! preceded_by
+
+[Typedef]
+id: part_of
+name: part of
+namespace: human_stages_ontology
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+namespace: human_stages_ontology
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
+

@@ -1,0 +1,10 @@
+format-version: 1.2
+data-version: upheno/releases/2020-01-03/imports/mpath_import.owl
+ontology: upheno/imports/mpath_import
+
+[Term]
+id: MPATH:0
+name: pathological entity
+namespace: mouse_pathology.ontology
+def: "Pathological structure or process" [Pathbase: Curation]
+

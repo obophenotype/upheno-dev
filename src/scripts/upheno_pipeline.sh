@@ -30,10 +30,12 @@ set -e
 
 sh run.sh python3 upheno_prepare.py ../curation/upheno-config.yaml
 
-####### Step 2: uPheno manually curated intermediate classes ########
-# The second step is to generate all manually curated intermediate uPheno classes
+####### Step 2: Generate uPheno 2 Core ########
+# The second step is to generate all manually curated intermediate uPheno classes that are common to all profiles.
+# These are generated using the normal ODK pipelines (patterns).
+# DEPRECATED STEP! NOW PART OF THE PROFILE GENERATION!
 
-cd ../ontology && sh run.sh make ../patterns/definitions.owl && cd ../scripts
+#cd ../ontology && sh run.sh make ../patterns/definitions.owl -B && cd ../scripts
 
 ####### Step 3: uPheno intermediate layer and species-profiles ########
 
