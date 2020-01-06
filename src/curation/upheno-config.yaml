@@ -143,7 +143,6 @@ sources:
     class_hierarchy: asserted
     dependencies:
       - nbo
-      - pr
       - chebi
       - cl
       - mpath
@@ -156,7 +155,6 @@ sources:
     modifier: PATO:0000460
     dependencies:
       - nbo
-      - pr
       - chebi
       - hsapdv
       - cl
@@ -269,28 +267,15 @@ common_dependencies:
   - pato
   - ro
   - iao
-  - ncbitaxon
 species_modules:
   - mp
   - hp
   - wbphenotype
-  - xpo
-  - dpo
-  - planp
-  - zp
-  - ddpheno
-  - fypo
-  - phipo
 upheno_profiles:
   - id: mp-hp
     species_modules:
     - mp
     - hp
-  - id: mp-hp-dpo
-    species_modules:
-    - mp
-    - hp
-    - dpo
   - id: all
     species_modules:
     - mp
