@@ -6,9 +6,9 @@ report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
-robot_java_args: -Xmx10G
-timeout_external_processes: 36000
-working_directory: /work/src
+robot_java_args: -Xmx50G
+timeout_external_processes: 360000000
+working_directory: /nfs/production3/spot/sw/dev/monarch/data/upheno-dev/src
 overwrite_matches: False
 skip_pattern_download: True
 max_upheno_id: 9999999
