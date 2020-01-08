@@ -197,7 +197,7 @@ def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_
     subclass_hierarchy_seed = os.path.join(os.path.dirname(ontology_merged_path),
                                       "class_hierarchy_seed_" + os.path.basename(ontology_merged_path))
     robot_extract_seed(o, subclass_hierarchy_seed, sparql_terms_class_hierarchy, TIMEOUT, robot_opts)
-    robot_class_hierarchy(o,subclass_hierarchy_seed,subclass_hierarchy,REASON=True,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
+    robot_class_hierarchy(o,subclass_hierarchy_seed,subclass_hierarchy,REASON=True,REMOVEDISJOINT=True,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
     try:
         callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts,"-i",o]
         callstring.extend(['remove','--term', 'rdfs:label', '--select', 'complement', '--select', 'annotation-properties', '--preserve-structure', 'false'])
@@ -244,10 +244,13 @@ def robot_children_list(o,query,outfile,TIMEOUT="3600",robot_opts="-v"):
         raise Exception("Preparing uPheno component " + str(o) + " failed...")
 
 
-def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_path, REASON = True , TIMEOUT="3600", robot_opts="-v"):
+def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_path, REASON = True , TIMEOUT="3600", robot_opts="-v", REMOVEDISJOINT=False):
     print("Extracting class hierarchy from " + str(ontology_in_path) + " to " + ontology_out_path + "(Reason: "+str(REASON)+")")
     try:
         callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts,"--input",ontology_in_path]
+        if REMOVEDISJOINT:
+            callstring.extend(['remove','--axioms','disjoint'])
+
         if REASON:
             callstring.extend(['reason','--reasoner','ELK'])
 
