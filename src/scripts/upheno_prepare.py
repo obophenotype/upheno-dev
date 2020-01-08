@@ -8,6 +8,7 @@ Created on Mon Oct 8 14:24:37 2018
 
 import os, shutil, sys
 import ruamel.yaml
+import warnings
 import urllib.request
 import requests
 import pandas as pd
@@ -16,6 +17,7 @@ from subprocess import check_call,CalledProcessError
 from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
+warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
 
 upheno_config_file = sys.argv[1]
 #upheno_config_file = os.path.join("/ws/upheno-dev/src/curation/upheno-config.yaml")
