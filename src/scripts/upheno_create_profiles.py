@@ -401,7 +401,7 @@ def create_common_upheno_classes(upheno_core_ontology, manual_tsv_files,allimpor
 
 print("Preparing all imports merged ontology for DOSDP extraction.")
 if upheno_config.is_overwrite_ontologies() or not os.path.exists(allimports_merged):
-    robot_prepare_ontology_for_dosdp(allimports_module,allimports_merged,sparql_uberon_terms,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
+    robot_prepare_ontology_for_dosdp(allimports_module,allimports_merged,sparql_terms,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
 
 print("Loading the existing ID map, the blacklist for uPheno IDs and determining next available uPheno ID.")
 upheno_map = pd.read_csv(upheno_id_map, sep='\t')
