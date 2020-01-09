@@ -380,8 +380,8 @@ def create_common_upheno_classes(upheno_core_ontology, manual_tsv_files,allimpor
     if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
         ontologies = []
         for pattern_tsv in os.listdir(upheno_patterns_data_manual_dir):
-            print(pattern_tsv)
             if pattern_tsv.endswith(".tsv"):
+                print(pattern_tsv)
                 pattern_tsv_file = os.path.join(upheno_patterns_data_manual_dir, pattern_tsv)
                 manual_tsv_files.append(pattern_tsv_file)
                 pattern_file_name = pattern_tsv.replace(".tsv", ".yaml")
@@ -468,7 +468,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
 
     # These TSVs are purely kept for bookkeeping and to generate the seed in the end for the profile imports module
     tsvs = []
-    tsvs.extend(phenotype_tsv)
+    tsvs.append(phenotype_tsv)
     tsvs.extend(manual_tsv_files)
 
     # For all tsvs, generate the dosdp instances and drop them in the combo directory
@@ -513,7 +513,11 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     
     print("Profile: Prepare upheno species specific layer")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_ontology):
-        robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts)
+        robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts,ONTOLOGYIRI="http://upheno.com/upheno_species_components.owl")
+
+    print("#####")
+    print("TSVS: "+str(tsvs))
+    print("#####")
 
     print("Profile: Prepare dependency layer (module from all merged dependencies/imports)")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_dependencies_seed):
