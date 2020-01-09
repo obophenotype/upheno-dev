@@ -118,16 +118,16 @@ pipeline {
 							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
-							sh 'sh upheno_pipeline_jenkins.sh'
+							//sh 'sh upheno_pipeline_jenkins.sh'
 						}
 					}
 
 					// Move the products to somewhere "safe".
-					archiveArtifacts artifacts: "src/curation/upheno-release-prepare/all/*",
+					archiveArtifacts artifacts: "src/curation/upheno-release/all/*",
 					onlyIfSuccessful: true
-					archiveArtifacts artifacts: "src/curation/upheno-release-prepare/mp-hp/*",
+					archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp/*",
 					onlyIfSuccessful: true
-					archiveArtifacts artifacts: "src/curation/upheno-release-prepare/mp-hp-dpo/*",
+					archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp-dpo/*",
 					onlyIfSuccessful: true
 
 					// Now that the files are safely away onto skyhook for
