@@ -113,12 +113,12 @@ pipeline {
 						retry(1){
 							sh 'pwd'
 							sh 'ls'
-							sh 'ls ../curation'
+							//sh 'ls ../curation'
 							sh 'ls ../curation/tmp'
 							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
-							//sh 'sh upheno_pipeline_jenkins.sh'
+							sh 'sh upheno_pipeline_jenkins.sh'
 						}
 					}
 
