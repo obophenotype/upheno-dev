@@ -179,12 +179,13 @@ def robot_remove_upheno_blacklist_and_classify(ontology_path, ontology_removed_p
         print(e.output)
         raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
 
-def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts="-v"):
+def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts="-v", ONTOLOGYIRI="http://ontology.com/someuri.owl"):
     print("Merging " + str(ontology_list) + " to " + ontology_merged_path)
     try:
         callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts]
         merge = " ".join(["--input " + s for s in ontology_list]).split(" ")
         callstring.extend(merge)
+        callstring.extend(["annotate", "--ontology-iri",ONTOLOGYIRI])
         callstring.extend(['--output', ontology_merged_path])
         check_call(callstring)
     except Exception as e:
@@ -249,7 +250,8 @@ def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_p
     try:
         callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts,"--input",ontology_in_path]
         if REMOVEDISJOINT:
-            callstring.extend(['remove','--axioms','disjoint'])
+            callstring.extend(['remove','--axioms','disjoint','--preserve-structure', 'false'])
+            callstring.extend(['remove','--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false'])
 
         if REASON:
             callstring.extend(['reason','--reasoner','ELK'])
@@ -279,7 +281,9 @@ def dosdp_extract_pattern_seed(tsv_files,seedfile):
     classes = []
     try:
         for tsv in tsv_files:
+            print("TSV:" +tsv)
             df = pd.read_csv(tsv, sep='\t')
+            print(tsv+" done")
             classes.extend(df['defined_class'])
         with open(seedfile, 'w') as f:
             for item in list(set(classes)):
