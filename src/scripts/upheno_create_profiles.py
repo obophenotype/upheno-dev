@@ -533,6 +533,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     upheno_profile.append(upheno_species_components_dependencies_ontology)
     upheno_profile.append(upheno_layer_ontology)
     upheno_profile.append(upheno_extra_axioms_ontology)
+    upheno_profile.append(upheno_relations_ontology)
 
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_prepare_ontology):
         robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)

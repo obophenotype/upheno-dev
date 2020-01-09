@@ -113,6 +113,7 @@ pipeline {
 						retry(1){
 							sh 'pwd'
 							sh 'ls'
+							//sh 'ls ../curation'
 							sh 'ls ../curation/tmp'
 							//sh 'ls /work'
 							sh 'env > env.txt'
@@ -122,9 +123,11 @@ pipeline {
 					}
 
 					// Move the products to somewhere "safe".
-					archiveArtifacts artifacts: "src/curation/upheno-release-prepare/all/upheno_mp-hp.owl",
+					archiveArtifacts artifacts: "src/curation/upheno-release/all/*",
 					onlyIfSuccessful: true
-					archiveArtifacts artifacts: "src/curation/upheno-release-prepare/all/upheno_all.owl",
+					archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp/*",
+					onlyIfSuccessful: true
+					archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp-dpo/*",
 					onlyIfSuccessful: true
 
 					// Now that the files are safely away onto skyhook for

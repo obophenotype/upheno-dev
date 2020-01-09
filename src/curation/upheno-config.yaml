@@ -18,7 +18,7 @@ overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
-clean: False
+clean: True
 upheno_intermediate_layer_depth: 0
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
@@ -76,7 +76,11 @@ sources:
   - id: pr
     mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
   - id: go
-    mirror_from: http://purl.obolibrary.org/obo/go/go-base.owl
+    mirror_from: http://purl.obolibrary.org/obo/go.owl
+  - id: envo
+    mirror_from: http://purl.obolibrary.org/obo/envo.owl
+  - id: oba
+    mirror_from: http://purl.obolibrary.org/obo/oba.owl
   - id: uberon 
     mirror_from: http://purl.obolibrary.org/obo/uberon/uberon-base.owl
   - id: ro
@@ -276,18 +280,6 @@ upheno_profiles:
     species_modules:
     - mp
     - hp
-  - id: all
-    species_modules:
-    - mp
-    - hp
-    - wbphenotype
-    - xpo
-    - dpo
-    - planp
-    - zp
-    - ddpheno
-    - fypo
-    - phipo
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns
