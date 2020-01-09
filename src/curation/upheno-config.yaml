@@ -76,7 +76,11 @@ sources:
   - id: pr
     mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
   - id: go
-    mirror_from: http://purl.obolibrary.org/obo/go/go-base.owl
+    mirror_from: http://purl.obolibrary.org/obo/go.owl
+  - id: envo
+    mirror_from: http://purl.obolibrary.org/obo/envo.owl
+  - id: oba
+    mirror_from: http://purl.obolibrary.org/obo/oba.owl
   - id: uberon 
     mirror_from: http://purl.obolibrary.org/obo/uberon/uberon-base.owl
   - id: ro
@@ -270,6 +274,8 @@ common_dependencies:
   - ro
   - iao
   - ncbitaxon
+  - oba
+  - envo
 species_modules:
   - mp
   - hp

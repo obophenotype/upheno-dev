@@ -51,7 +51,10 @@ AnnotationAssertion(rdfs:label obo:UPHENO_9000003 "primary exhibited quality")
 AnnotationAssertion(rdfs:comment obo:UPHENO_9000004 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for materialising inference, not direct use.")
 AnnotationAssertion(rdfs:label obo:UPHENO_9000004 "primary related entity")
 
+# Object Property: obo:UPHENO_9000005 (has upheno source)
 
+AnnotationAssertion(rdfs:comment obo:UPHENO_9000005 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for grouping phenotype classes in uPheno.")
+AnnotationAssertion(rdfs:label obo:UPHENO_9000005 "has upheno source")
 
 
 SubClassOf(ObjectSomeValuesFrom(obo:BFO_0000051 obo:PATO_0000001) ObjectSomeValuesFrom(obo:UPHENO_9000003 obo:PATO_0000001))
