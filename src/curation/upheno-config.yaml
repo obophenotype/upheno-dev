@@ -13,7 +13,7 @@ overwrite_matches: False
 skip_pattern_download: True
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: False
+overwrite_ontologies: True
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
