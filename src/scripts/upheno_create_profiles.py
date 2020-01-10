@@ -291,7 +291,7 @@ def extract_upheno_fillers(ontology_path,oid_pattern_matches_dir,oid_upheno_fill
     print("Extracting fillers from "+ontology_path)
     global TIMEOUT,java_opts, legal_iri_patterns_path, legal_pattern_vars_path
     try:
-        check_call(['timeout','-t',TIMEOUT,'java', java_opts, '-jar',java_fill, ontology_path, oid_pattern_matches_dir, pattern_dir, oid_upheno_fillers_dir, legal_iri_patterns_path, legal_pattern_vars_path, depth])
+        check_call(['timeout','-t',TIMEOUT,'java', java_opts, '-jar',java_fill, ontology_path, oid_pattern_matches_dir, pattern_dir, oid_upheno_fillers_dir, legal_iri_patterns_path, legal_pattern_vars_path, str(depth)])
     except Exception as e:
         print(e.output)
         raise Exception("Filler extraction of" + ontology_path + " failed")
