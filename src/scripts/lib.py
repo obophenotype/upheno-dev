@@ -158,7 +158,11 @@ def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="
 def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
     print("Removing disjoint class axioms from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term-file',term_file,'--axioms','disjoint', '--output', ontology_removed_path])
+        cmd = ['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
+        if term_file:
+            cmd.extend(['--term-file',term_file])
+        cmd.extend(['--axioms','disjoint', '--output', ontology_removed_path])
+        check_call(cmd)
     except Exception as e:
         print(e.output)
         raise Exception("Removing disjoint class axioms from " + ontology_path + " failed")

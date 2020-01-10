@@ -213,7 +213,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         if overwrite or not os.path.exists(merged_pheno):
             ontology_for_matching = [module, filename]
             robot_merge(ontology_for_matching, merged_pheno, TIMEOUT, robot_opts)
-            robot_dump_disjoints(merged_pheno,disjoints_term_file,merged_pheno,TIMEOUT,robot_opts)
+            robot_dump_disjoints(merged_pheno,None,merged_pheno,TIMEOUT,robot_opts)
             robot_remove_mentions_of_nothing(merged_pheno,merged_pheno,TIMEOUT,robot_opts)
             robot_remove_upheno_blacklist_and_classify(merged_pheno, merged_pheno,upheno_config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
         if overwrite or not os.path.exists(o_base_class_hierarchy):

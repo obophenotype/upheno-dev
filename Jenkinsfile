@@ -113,8 +113,8 @@ pipeline {
 						retry(1){
 							sh 'pwd'
 							sh 'ls'
-							//sh 'ls ../curation'
-							sh 'ls ../curation/tmp'
+							sh 'ls ../curation'
+							//sh 'ls ../curation/tmp'
 							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
