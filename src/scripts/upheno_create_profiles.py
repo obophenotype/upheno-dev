@@ -418,10 +418,7 @@ with open(blacklisted_upheno_ids_path) as f:
 #print(blacklisted_upheno_ids)
 
 print("Compute the uPheno fillers for all individual ontologies, including the assignment of the ids. The actual intermediate layer is produced, by profile, at a later stage.")
-if False:
-    extract_upheno_fillers_for_all_ontologies(upheno_config.get_phenotype_ontologies())
-else:
-    print("uPheno filler work currently skipped (DEV)")
+extract_upheno_fillers_for_all_ontologies(upheno_config.get_phenotype_ontologies())
 
 add_upheno_ids_to_fillers(pattern_dir)
 upheno_map = upheno_map.drop_duplicates()
