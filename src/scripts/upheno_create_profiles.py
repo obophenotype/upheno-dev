@@ -8,7 +8,6 @@ Created on Mon Oct 8 14:24:37 2018
 
 import os, sys
 import yaml
-import re
 import urllib.request
 from shutil import copyfile
 import pandas as pd
@@ -16,6 +15,7 @@ from subprocess import check_call
 from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, robot_children_list, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
 
 ### Configuration
+yaml.warnings({'YAMLLoadWarning': False})
 upheno_config_file = sys.argv[1]
 #upheno_config_file = os.path.join("/ws/upheno-dev/src/curation/upheno-config.yaml")
 upheno_config = uPhenoConfig(upheno_config_file)
