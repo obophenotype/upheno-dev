@@ -8,7 +8,7 @@ dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
 robot_java_args: -Xmx80G
 timeout_external_processes: 3600000
-working_directory: /var/lib/jenkins/workspace/monarch-upheno-pipeline@2/foo/src
+working_directory: /var/lib/jenkins/workspace/upheno2@2/foo/src
 overwrite_matches: False
 skip_pattern_download: True
 max_upheno_id: 9999999
