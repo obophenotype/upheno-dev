@@ -17,7 +17,6 @@ src/ontology/patterns
 .idea
 dosdp-tools.log
 src/scripts/__pycache__/lib.cpython-36.pyc
-src/curation/patterns-for-matching/
 src/curation/upheno-fillers/
 src/curation/upheno-fillers-no-id/
 src/curation/upheno-release-prepare/
