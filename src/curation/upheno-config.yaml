@@ -64,7 +64,7 @@ blacklisted_upheno_iris:
   - http://purl.obolibrary.org/obo/UPHENO_9000003
   - http://purl.obolibrary.org/obo/UPHENO_9000004
 remove_blacklist:
-  - "<http://purl.obolibrary.org/obo/BFO_*>"
+  - "<http://purl.obolibrary.org/obo/OBA_*>"
   - http://purl.obolibrary.org/obo/CHEBI_316698
   - http://purl.obolibrary.org/obo/BSPO_0000098
   - http://purl.obolibrary.org/obo/ENVO_01001784
