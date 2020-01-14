@@ -27,6 +27,9 @@ class uPhenoConfig:
     
     def get_remove_disjoints(self):
         return self.config.get("remove_disjoints")
+
+    def get_remove_blacklist(self):
+        return self.config.get("remove_blacklist")
         
     def get_blacklisted_upheno_ids(self):
         return self.config.get("blacklisted_upheno_iris")
@@ -162,6 +165,28 @@ def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT
         if term_file:
             cmd.extend(['--term-file',term_file])
         cmd.extend(['--axioms','disjoint', '--output', ontology_removed_path])
+        check_call(cmd)
+    except Exception as e:
+        print(e.output)
+        raise Exception("Removing disjoint class axioms from " + ontology_path + " failed")
+
+def robot_remove_terms(ontology_path,remove_list, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
+    print("Removing terms from "+ontology_path+" and saving to "+ontology_removed_path)
+    try:
+        cmd = ['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
+        terms = []
+        patterns = []
+        for t in remove_list:
+            if t.startswith("<"):
+                patterns.append(t)
+            elif t.startswith("http"):
+                terms.append(t)
+        for term in terms:
+            cmd.extend(['--term', term])
+        for pattern in patterns:
+            cmd.extend(['remove','--select', pattern])
+        cmd.extend(['--output', ontology_removed_path])
+        print(str(cmd))
         check_call(cmd)
     except Exception as e:
         print(e.output)
