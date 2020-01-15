@@ -534,7 +534,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
 
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_prepare_ontology):
         robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
-        robot_remove_terms(ontology_path=upheno_profile_prepare_ontology,remove_list=upheno_config.get_remove_blacklist(), ontology_removed_path=upheno_profile_prepare_ontology)
+        robot_remove_terms(ontology_path=upheno_profile_prepare_ontology,remove_list=upheno_config.get_remove_blacklist(), ontology_removed_path=upheno_profile_prepare_ontology,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
         # TODO: Review this step!
     
     print("Profile: Preparing the full profile ontology (Step 2: Creating the release file (reasoning, labelling etc))")
