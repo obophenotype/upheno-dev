@@ -27,6 +27,9 @@ class uPhenoConfig:
     
     def get_remove_disjoints(self):
         return self.config.get("remove_disjoints")
+
+    def get_remove_blacklist(self):
+        return self.config.get("remove_blacklist")
         
     def get_blacklisted_upheno_ids(self):
         return self.config.get("blacklisted_upheno_iris")
@@ -141,11 +144,16 @@ def cdir(path):
 # ROBOT wrappers
 def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting seed of "+ontology_path+" with "+sparql_terms)
+    robot_query(ontology_path,seedfile,sparql_terms, TIMEOUT, robot_opts)
+
+def robot_query(ontology_path,seedfile,sparql_query, TIMEOUT="60m", robot_opts="-v"):
+    print("Querying "+ontology_path+" with "+sparql_terms)
     try:
         check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_terms, seedfile])
     except Exception as e:
         print(e.output)
-        raise Exception("Seed extraction of" + ontology_path + " failed")
+        raise Exception("Querying {} with {} failed".format(ontology_path,sparql_terms))
+
 
 def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting module of "+ontology_path+" to "+ontology_merged_path)
@@ -158,7 +166,33 @@ def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="
 def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
     print("Removing disjoint class axioms from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term-file',term_file,'--axioms','disjoint', '--output', ontology_removed_path])
+        cmd = ['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
+        if term_file:
+            cmd.extend(['--term-file',term_file])
+        cmd.extend(['--axioms','disjoint', '--output', ontology_removed_path])
+        check_call(cmd)
+    except Exception as e:
+        print(e.output)
+        raise Exception("Removing disjoint class axioms from " + ontology_path + " failed")
+
+def robot_remove_terms(ontology_path,remove_list, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
+    print("Removing terms from "+ontology_path+" and saving to "+ontology_removed_path)
+    try:
+        cmd = ['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
+        terms = []
+        patterns = []
+        for t in remove_list:
+            if t.startswith("<"):
+                patterns.append(t)
+            elif t.startswith("http"):
+                terms.append(t)
+        for term in terms:
+            cmd.extend(['--term', term])
+        for pattern in patterns:
+            cmd.extend(['remove','--select', pattern])
+        cmd.extend(['--output', ontology_removed_path])
+        print(str(cmd))
+        check_call(cmd)
     except Exception as e:
         print(e.output)
         raise Exception("Removing disjoint class axioms from " + ontology_path + " failed")

@@ -8,14 +8,14 @@ Created on Mon Oct 8 14:24:37 2018
 
 import os, sys
 import yaml
-import re
 import urllib.request
 from shutil import copyfile
 import pandas as pd
 from subprocess import check_call
-from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, robot_children_list, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
+from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, robot_children_list, robot_remove_terms, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
 
 ### Configuration
+yaml.warnings({'YAMLLoadWarning': False})
 upheno_config_file = sys.argv[1]
 #upheno_config_file = os.path.join("/ws/upheno-dev/src/curation/upheno-config.yaml")
 upheno_config = uPhenoConfig(upheno_config_file)
@@ -534,6 +534,8 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
 
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_prepare_ontology):
         robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
+        robot_remove_terms(ontology_path=upheno_profile_prepare_ontology,remove_list=upheno_config.get_remove_blacklist(), ontology_removed_path=upheno_profile_prepare_ontology,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
+        # TODO: Review this step!
     
     print("Profile: Preparing the full profile ontology (Step 2: Creating the release file (reasoning, labelling etc))")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_ontology):
