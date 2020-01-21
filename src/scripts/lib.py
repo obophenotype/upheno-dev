@@ -149,7 +149,6 @@ def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot
 def robot_query(ontology_path,query_result,sparql_query, TIMEOUT="60m", robot_opts="-v"):
     print("Querying "+ontology_path+" with "+sparql_query)
     try:
-        check_call(['touch',query_result])
         check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_query, query_result])
     except Exception as e:
         print(e.output)
