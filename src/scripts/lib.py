@@ -144,11 +144,17 @@ def cdir(path):
 # ROBOT wrappers
 def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting seed of "+ontology_path+" with "+sparql_terms)
+    robot_query(ontology_path,seedfile,sparql_terms, TIMEOUT, robot_opts)
+
+def robot_query(ontology_path,query_result,sparql_query, TIMEOUT="60m", robot_opts="-v"):
+    print("Querying "+ontology_path+" with "+sparql_query)
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_terms, seedfile])
+        check_call(['touch',query_result])
+        check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_query, query_result])
     except Exception as e:
         print(e.output)
-        raise Exception("Seed extraction of" + ontology_path + " failed")
+        raise Exception("Querying {} with {} failed".format(ontology_path,sparql_query))
+
 
 def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting module of "+ontology_path+" to "+ontology_merged_path)
