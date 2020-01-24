@@ -63,7 +63,7 @@ def robot_xrefs(oid, mapto, mapping_file):
 
     try:
         # Extracting xrefs from ontology to table
-        check_call(['timeout','-t', TIMEOUT, 'robot', 'query', robot_opts, '--use-graphs', 'true', '-f', 'tsv', '--input',
+        check_call(['timeout', TIMEOUT, 'robot', 'query', robot_opts, '--use-graphs', 'true', '-f', 'tsv', '--input',
                     ontology_path, '--query', sparql_xrefs, xref_table])
 
         # Doing a bit of preprocessing on the SPARQL result: renaming columns, removing <> signs
@@ -79,7 +79,7 @@ def robot_xrefs(oid, mapto, mapping_file):
             print(xref_table, " is empty and has been skipped.")
 
         # DOSDP generate the xrefs as subsumptions
-        check_call(['timeout','-t', TIMEOUT, 'dosdp-tools','generate','--infile='+xref_table,'--template='+xref_pattern,'--obo-prefixes=true','--restrict-axioms-to=logical','--outfile='+mapping_file])
+        check_call(['timeout', TIMEOUT, 'dosdp-tools','generate','--infile='+xref_table,'--template='+xref_pattern,'--obo-prefixes=true','--restrict-axioms-to=logical','--outfile='+mapping_file])
     except Exception as e:
         print(e.output)
         raise Exception("Xref generation of" + ontology_path + " failed")
@@ -90,7 +90,7 @@ def robot_convert_merge(ontology_url, ontology_merged_path):
     print("Convert/Merging "+ontology_url+" to "+ontology_merged_path)
     global TIMEOUT, robot_opts
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'merge',robot_opts,'-I', ontology_url,'convert', '--output', ontology_merged_path])
+        check_call(['timeout',TIMEOUT,'robot', 'merge',robot_opts,'-I', ontology_url,'convert', '--output', ontology_merged_path])
     except Exception as e:
         print(e)
         raise Exception("Loading " + ontology_url + " failed")
@@ -300,7 +300,7 @@ def dosdp_pattern_match(ontology_path, pattern_path, matches_dir, overwrite=True
             os.makedirs(outdir)
         out_tsv = os.path.join(outdir,pid)
         if overwrite or not os.path.exists(out_tsv):
-            check_call(['timeout','-t', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
+            check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
         else:
             print("Match already made, bypassing.")
     except CalledProcessError as e:
@@ -310,7 +310,7 @@ def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,tax
     print("Extracting fillers from "+ontology_path)
     global TIMEOUT,upheno_config, legal_iri_patterns_path, legal_pattern_vars_path
     try:
-        check_call(['timeout','-t',TIMEOUT,'java', upheno_config.get_robot_java_args(), '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype, preserve_eq])
+        check_call(['timeout',TIMEOUT,'java', upheno_config.get_robot_java_args(), '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype, preserve_eq])
     except Exception as e:
         print(e.output)
         raise Exception("Appending taxon restrictions" + ontology_path + " failed")
