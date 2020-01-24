@@ -150,7 +150,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
   - id: wbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
-  - id: fbbt-cl
+  - id: fbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl
   - id: zfa-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-zfa.owl
