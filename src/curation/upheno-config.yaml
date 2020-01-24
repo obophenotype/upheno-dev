@@ -143,7 +143,7 @@ sources:
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
   - id: bspo-uberon
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.obo
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.owl
   - id: caro-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl
   - id: xao-uberon
@@ -151,7 +151,7 @@ sources:
   - id: wbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
   - id: fbbt-cl
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.obo
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl
   - id: zfa-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-zfa.owl
   - id: xao-cl
@@ -161,9 +161,9 @@ sources:
   - id: caro-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-caro.owl
   - id: bspo-cl
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-bspo.obo
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-bspo.owl
   - id: fbbt-cl
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.obo
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.owl
   #- id: plana-uberon
   #  mirror_from: xref
   - id: mp
