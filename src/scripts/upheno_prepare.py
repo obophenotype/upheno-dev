@@ -190,6 +190,25 @@ def prepare_upheno_ontology_no_taxon_restictions(overwrite=True):
     if overwrite or not os.path.exists(upheno_ontology_no_taxon_restictions):
         robot_merge(imports, upheno_ontology_no_taxon_restictions, TIMEOUT, robot_opts)
 
+def write_phenotype_sparql(phenotype_root,phenotype_query):
+	sparql=[]
+	sparql.append("prefix owl: <http://www.w3.org/2002/07/owl#>")
+	sparql.append("prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>")
+	sparql.append("prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>")
+	sparql.append("")
+	sparql.append("SELECT ?s ?lab ?ldef WHERE ")
+	sparql.append("{")
+	sparql.append("?s rdfs:subClassOf* <{}> . ".format(phenotype_root))
+	sparql.append("OPTIONAL { ?s rdfs:label ?lab }")
+	sparql.append("OPTIONAL { ?s owl:equivalentClass [ rdf:type owl:Restriction ;")
+	sparql.append("owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;")
+	sparql.append("owl:someValuesFrom ?ldef ] . }")
+	sparql.append("}")
+	outF = open(phenotype_query, "w")
+	for line in sparql:
+		outF.write(line+"\n")
+	outF.close()
+
 def prepare_phenotype_ontologies_for_matching(overwrite=True):
     global upheno_config, sparql_terms, ontology_for_matching_dir, TIMEOUT, robot_opts
     for id in upheno_config.get_phenotype_ontologies():
@@ -209,25 +228,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         disjoints_term_file = os.path.join(module_dir, "disjoints_removal.txt")
         write_list_to_file(disjoints_term_file,upheno_config.get_remove_disjoints())
         phenotype_query=os.path.join(sparql_dir,id+"_phenotypes.sparql")
-        if overwrite or not os.path.exists(phenotype_query):
-            phenotype_root = upheno_config.get_root_phenotype(id)
-            sparql=[]
-            sparql.append("prefix owl: <http://www.w3.org/2002/07/owl#>")
-            sparql.append("prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>")
-            sparql.append("prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>")
-            sparql.append("")
-            sparql.append("SELECT ?s ?lab ?ldef WHERE ")
-            sparql.append("{")
-            sparql.append("?s rdfs:subClassOf* <{}> . ".format(phenotype_root))
-            sparql.append("OPTIONAL { ?s rdfs:label ?lab }")
-            sparql.append("OPTIONAL { ?s owl:equivalentClass [ rdf:type owl:Restriction ;")
-            sparql.append("owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;")
-            sparql.append("owl:someValuesFrom ?ldef ] . }")
-            sparql.append("}")
-            outF = open(phenotype_query, "w")
-            for line in sparql:
-                outF.write(line+"\n")
-            outF.close()
+        write_phenotype_sparql(upheno_config.get_root_phenotype(id),phenotype_query)
         if overwrite or not os.path.exists(module):
             robot_extract_seed(filename, seed, sparql_terms, TIMEOUT, robot_opts)
             robot_merge(imports, merged, TIMEOUT, robot_opts)
