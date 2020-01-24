@@ -149,7 +149,7 @@ def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot
 def robot_query(ontology_path,query_result,sparql_query, TIMEOUT="60m", robot_opts="-v"):
     print("Querying "+ontology_path+" with "+sparql_query)
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_query, query_result])
+        check_call(['timeout',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', ontology_path,'--query', sparql_query, query_result])
     except Exception as e:
         print(e.output)
         raise Exception("Querying {} with {} failed".format(ontology_path,sparql_query))
@@ -158,7 +158,7 @@ def robot_query(ontology_path,query_result,sparql_query, TIMEOUT="60m", robot_op
 def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting module of "+ontology_path+" to "+ontology_merged_path)
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'extract',robot_opts,'-i', ontology_path,'-T', seedfile,'--method','BOT', '--output', ontology_merged_path])
+        check_call(['timeout',TIMEOUT,'robot', 'extract',robot_opts,'-i', ontology_path,'-T', seedfile,'--method','BOT', '--output', ontology_merged_path])
     except Exception as e:
         print(e.output)
         raise Exception("Module extraction of " + ontology_path + " failed")
@@ -166,7 +166,7 @@ def robot_extract_module(ontology_path,seedfile, ontology_merged_path, TIMEOUT="
 def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
     print("Removing disjoint class axioms from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        cmd = ['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
+        cmd = ['timeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
         if term_file:
             cmd.extend(['--term-file',term_file])
         cmd.extend(['--axioms','disjoint', '--output', ontology_removed_path])
@@ -178,7 +178,7 @@ def robot_dump_disjoints(ontology_path,term_file, ontology_removed_path, TIMEOUT
 def robot_remove_terms(ontology_path,remove_list, ontology_removed_path, TIMEOUT="60m", robot_opts="-v"):
     print("Removing terms from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        cmd = ['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
+        cmd = ['timeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path]
         terms = []
         patterns = []
         for t in remove_list:
@@ -200,7 +200,7 @@ def robot_remove_terms(ontology_path,remove_list, ontology_removed_path, TIMEOUT
 def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEOUT="3600", robot_opts="-v"):
     print("Removing mentions of nothing from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false', '--output', ontology_removed_path])
+        check_call(['timeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path,'--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false', '--output', ontology_removed_path])
     except Exception as e:
         print(e.output)
         raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
@@ -208,7 +208,7 @@ def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEO
 def robot_remove_upheno_blacklist_and_classify(ontology_path, ontology_removed_path, blacklist_ontology, TIMEOUT="3600", robot_opts="-v"):
     print("Removing upheno blacklist axioms from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'merge',robot_opts,'-i', ontology_path,'unmerge', '-i', blacklist_ontology,'reason', '--reasoner','ELK', '--output', ontology_removed_path])
+        check_call(['timeout',TIMEOUT,'robot', 'merge',robot_opts,'-i', ontology_path,'unmerge', '-i', blacklist_ontology,'reason', '--reasoner','ELK', '--output', ontology_removed_path])
     except Exception as e:
         print(e.output)
         raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
@@ -216,7 +216,7 @@ def robot_remove_upheno_blacklist_and_classify(ontology_path, ontology_removed_p
 def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts="-v", ONTOLOGYIRI="http://ontology.com/someuri.owl"):
     print("Merging " + str(ontology_list) + " to " + ontology_merged_path)
     try:
-        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts]
+        callstring = ['timeout', TIMEOUT, 'robot', 'merge', robot_opts]
         merge = " ".join(["--input " + s for s in ontology_list]).split(" ")
         callstring.extend(merge)
         callstring.extend(["annotate", "--ontology-iri",ONTOLOGYIRI])
@@ -234,7 +234,7 @@ def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_
     robot_extract_seed(o, subclass_hierarchy_seed, sparql_terms_class_hierarchy, TIMEOUT, robot_opts)
     robot_class_hierarchy(o,subclass_hierarchy_seed,subclass_hierarchy,REASON=True,REMOVEDISJOINT=True,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
     try:
-        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts,"-i",o]
+        callstring = ['timeout', TIMEOUT, 'robot', 'merge', robot_opts,"-i",o]
         callstring.extend(['remove','--term', 'rdfs:label', '--select', 'complement', '--select', 'annotation-properties', '--preserve-structure', 'false'])
         callstring.extend(['--output', ontology_merged_path])
         check_call(callstring)
@@ -245,7 +245,7 @@ def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_
 def robot_upheno_release(ontology_list, ontology_merged_path, name, TIMEOUT="3600", robot_opts="-v"):
     print("Finalising  " + str(ontology_list) + " to " + ontology_merged_path+", "+name)
     try:
-        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts]
+        callstring = ['timeout', TIMEOUT, 'robot', 'merge', robot_opts]
         merge = " ".join(["--input " + s for s in ontology_list]).split(" ")
         callstring.extend(merge)
         callstring.extend(['remove', '--axioms', 'disjoint', '--preserve-structure', 'false'])
@@ -261,7 +261,7 @@ def robot_upheno_component(component_file,remove_eqs, TIMEOUT="3600", robot_opts
     #robot remove --axioms "disjoint" --preserve-structure false reason --reasoner ELK -o /data/upheno_pre-fixed_mp-hp.owl
     print("Preparing uPheno component  " + str(component_file))
     try:
-        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge','-i',component_file]
+        callstring = ['timeout', TIMEOUT, 'robot', 'merge','-i',component_file]
         callstring.extend(['remove','-T',remove_eqs,'--axioms','equivalent','--preserve-structure','false'])
         callstring.extend(['--output', component_file])
         check_call(callstring)
@@ -272,7 +272,7 @@ def robot_upheno_component(component_file,remove_eqs, TIMEOUT="3600", robot_opts
 def robot_children_list(o,query,outfile,TIMEOUT="3600",robot_opts="-v"):
     print("Extracting children from  " + str(o) +" using "+str(query))
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', o,'--query', query, outfile])
+        check_call(['timeout',TIMEOUT,'robot', 'query',robot_opts,'--use-graphs','true','-f','csv','-i', o,'--query', query, outfile])
 
     except Exception as e:
         print(e)
@@ -282,7 +282,7 @@ def robot_children_list(o,query,outfile,TIMEOUT="3600",robot_opts="-v"):
 def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_path, REASON = True , TIMEOUT="3600", robot_opts="-v", REMOVEDISJOINT=False):
     print("Extracting class hierarchy from " + str(ontology_in_path) + " to " + ontology_out_path + "(Reason: "+str(REASON)+")")
     try:
-        callstring = ['timeout','-t', TIMEOUT, 'robot', 'merge', robot_opts,"--input",ontology_in_path]
+        callstring = ['timeout', TIMEOUT, 'robot', 'merge', robot_opts,"--input",ontology_in_path]
         if REMOVEDISJOINT:
             callstring.extend(['remove','--axioms','disjoint','--preserve-structure', 'false'])
             callstring.extend(['remove','--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false'])
@@ -299,7 +299,7 @@ def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_p
 
 def dosdp_generate(pattern,tsv,outfile, RESTRICT_LOGICAL=False,TIMEOUT="3600",ONTOLOGY=None):
     try:
-        callstring = ['timeout','-t', TIMEOUT, 'dosdp-tools', 'generate', '--infile=' + tsv, '--template=' + pattern,
+        callstring = ['timeout', TIMEOUT, 'dosdp-tools', 'generate', '--infile=' + tsv, '--template=' + pattern,
              '--obo-prefixes=true']
         if RESTRICT_LOGICAL:
             callstring.extend(['--restrict-axioms-to=logical'])
