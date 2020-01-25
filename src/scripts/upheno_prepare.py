@@ -39,6 +39,7 @@ cdir(pattern_dir)
 cdir(matches_dir)
 cdir(module_dir)
 cdir(ontology_for_matching_dir)
+cdir(stats_dir)
 
 sparql_dir = os.path.join(ws,"sparql/")
 xref_pattern = os.path.join(ws,"patterns/dosdp-patterns/xrefToSubClass.yaml")
