@@ -352,6 +352,8 @@ if upheno_config.is_clean_dir():
     os.makedirs(ontology_for_matching_dir)
     shutil.rmtree(module_dir)
     os.makedirs(module_dir)
+    shutil.rmtree(stats_dir)
+    os.makedirs(stats_dir)
 
 
 print("### Download patterns ###")
