@@ -140,6 +140,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/ido.owl
   - id: xao
     mirror_from: http://purl.obolibrary.org/obo/xao.owl
+  - id: caro
+    mirror_from: http://purl.obolibrary.org/obo/caro.owl
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
   - id: bspo-uberon
@@ -208,7 +210,9 @@ sources:
       - chebi
       - cl
       - wbbt-uberon
+      - caro-uberon
       - wbbt-cl
+      - caro
   - id: xpo
     mirror_from: http://purl.obolibrary.org/obo/xpo/xpo-base.owl
     root: http://purl.obolibrary.org/obo/XPO_00000000
@@ -226,6 +230,7 @@ sources:
       - xao-cl
       - bspo-cl
       - caro-cl
+      - caro
   - id: planp
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
@@ -242,6 +247,7 @@ sources:
       - caro-uberon
       - bspo-cl
       - caro-cl
+      - caro
       #- ncit
   - id: zp
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
@@ -259,6 +265,7 @@ sources:
       - zfa-uberon
       - bspo-uberon
       - caro-uberon
+      - caro
       - zfa-cl
       - bspo-cl
       - caro-cl
@@ -276,6 +283,8 @@ sources:
       - chebi
       - fbbt-uberon
       - fbbt-cl
+      - caro-uberon
+      - caro
   - id: fypo
     mirror_from: http://purl.obolibrary.org/obo/fypo.owl
     root: http://purl.obolibrary.org/obo/FYPO_0000001
