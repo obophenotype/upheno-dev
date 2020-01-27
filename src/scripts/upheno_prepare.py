@@ -39,6 +39,7 @@ cdir(pattern_dir)
 cdir(matches_dir)
 cdir(module_dir)
 cdir(ontology_for_matching_dir)
+cdir(stats_dir)
 
 sparql_dir = os.path.join(ws,"sparql/")
 xref_pattern = os.path.join(ws,"patterns/dosdp-patterns/xrefToSubClass.yaml")
@@ -63,7 +64,7 @@ def robot_xrefs(oid, mapto, mapping_file):
 
     try:
         # Extracting xrefs from ontology to table
-        check_call(['timeout','-t', TIMEOUT, 'robot', 'query', robot_opts, '--use-graphs', 'true', '-f', 'tsv', '--input',
+        check_call(['timeout', TIMEOUT, 'robot', 'query', robot_opts, '--use-graphs', 'true', '-f', 'tsv', '--input',
                     ontology_path, '--query', sparql_xrefs, xref_table])
 
         # Doing a bit of preprocessing on the SPARQL result: renaming columns, removing <> signs
@@ -79,7 +80,7 @@ def robot_xrefs(oid, mapto, mapping_file):
             print(xref_table, " is empty and has been skipped.")
 
         # DOSDP generate the xrefs as subsumptions
-        check_call(['timeout','-t', TIMEOUT, 'dosdp-tools','generate','--infile='+xref_table,'--template='+xref_pattern,'--obo-prefixes=true','--restrict-axioms-to=logical','--outfile='+mapping_file])
+        check_call(['timeout', TIMEOUT, 'dosdp-tools','generate','--infile='+xref_table,'--template='+xref_pattern,'--obo-prefixes=true','--restrict-axioms-to=logical','--outfile='+mapping_file])
     except Exception as e:
         print(e.output)
         raise Exception("Xref generation of" + ontology_path + " failed")
@@ -90,7 +91,7 @@ def robot_convert_merge(ontology_url, ontology_merged_path):
     print("Convert/Merging "+ontology_url+" to "+ontology_merged_path)
     global TIMEOUT, robot_opts
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'merge',robot_opts,'-I', ontology_url,'convert', '--output', ontology_merged_path])
+        check_call(['timeout',TIMEOUT,'robot', 'merge',robot_opts,'-I', ontology_url,'convert', '--output', ontology_merged_path])
     except Exception as e:
         print(e)
         raise Exception("Loading " + ontology_url + " failed")
@@ -190,6 +191,25 @@ def prepare_upheno_ontology_no_taxon_restictions(overwrite=True):
     if overwrite or not os.path.exists(upheno_ontology_no_taxon_restictions):
         robot_merge(imports, upheno_ontology_no_taxon_restictions, TIMEOUT, robot_opts)
 
+def write_phenotype_sparql(phenotype_root,phenotype_query):
+	sparql=[]
+	sparql.append("prefix owl: <http://www.w3.org/2002/07/owl#>")
+	sparql.append("prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>")
+	sparql.append("prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>")
+	sparql.append("")
+	sparql.append("SELECT ?s ?lab ?ldef WHERE ")
+	sparql.append("{")
+	sparql.append("?s rdfs:subClassOf* <{}> . ".format(phenotype_root))
+	sparql.append("OPTIONAL { ?s rdfs:label ?lab }")
+	sparql.append("OPTIONAL { ?s owl:equivalentClass [ rdf:type owl:Restriction ;")
+	sparql.append("owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;")
+	sparql.append("owl:someValuesFrom ?ldef ] . }")
+	sparql.append("}")
+	outF = open(phenotype_query, "w")
+	for line in sparql:
+		outF.write(line+"\n")
+	outF.close()
+
 def prepare_phenotype_ontologies_for_matching(overwrite=True):
     global upheno_config, sparql_terms, ontology_for_matching_dir, TIMEOUT, robot_opts
     for id in upheno_config.get_phenotype_ontologies():
@@ -209,25 +229,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         disjoints_term_file = os.path.join(module_dir, "disjoints_removal.txt")
         write_list_to_file(disjoints_term_file,upheno_config.get_remove_disjoints())
         phenotype_query=os.path.join(sparql_dir,id+"_phenotypes.sparql")
-        if overwrite or not os.path.exists(phenotype_query):
-            phenotype_root = upheno_config.get_root_phenotype(id)
-            sparql=[]
-            sparql.append("prefix owl: <http://www.w3.org/2002/07/owl#>")
-            sparql.append("prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>")
-            sparql.append("prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>")
-            sparql.append("")
-            sparql.append("SELECT ?s ?lab ?ldef WHERE ")
-            sparql.append("{")
-            sparql.append("?s rdfs:subClassOf* <{}> . ".format(phenotype_root))
-            sparql.append("OPTIONAL { ?s rdfs:label ?lab }")
-            sparql.append("OPTIONAL { ?s owl:equivalentClass [ rdf:type owl:Restriction ;")
-            sparql.append("owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;")
-            sparql.append("owl:someValuesFrom ?ldef ] . }")
-            sparql.append("}")
-            outF = open(phenotype_query, "w")
-            for line in sparql:
-                outF.write(line+"\n")
-            outF.close()
+        write_phenotype_sparql(upheno_config.get_root_phenotype(id),phenotype_query)
         if overwrite or not os.path.exists(module):
             robot_extract_seed(filename, seed, sparql_terms, TIMEOUT, robot_opts)
             robot_merge(imports, merged, TIMEOUT, robot_opts)
@@ -299,7 +301,7 @@ def dosdp_pattern_match(ontology_path, pattern_path, matches_dir, overwrite=True
             os.makedirs(outdir)
         out_tsv = os.path.join(outdir,pid)
         if overwrite or not os.path.exists(out_tsv):
-            check_call(['timeout','-t', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
+            check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
         else:
             print("Match already made, bypassing.")
     except CalledProcessError as e:
@@ -309,7 +311,7 @@ def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,tax
     print("Extracting fillers from "+ontology_path)
     global TIMEOUT,upheno_config, legal_iri_patterns_path, legal_pattern_vars_path
     try:
-        check_call(['timeout','-t',TIMEOUT,'java', upheno_config.get_robot_java_args(), '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype, preserve_eq])
+        check_call(['timeout',TIMEOUT,'java', upheno_config.get_robot_java_args(), '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype, preserve_eq])
     except Exception as e:
         print(e.output)
         raise Exception("Appending taxon restrictions" + ontology_path + " failed")
@@ -350,6 +352,8 @@ if upheno_config.is_clean_dir():
     os.makedirs(ontology_for_matching_dir)
     shutil.rmtree(module_dir)
     os.makedirs(module_dir)
+    shutil.rmtree(stats_dir)
+    os.makedirs(stats_dir)
 
 
 print("### Download patterns ###")

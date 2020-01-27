@@ -102,7 +102,7 @@ pipeline {
 				sh 'pwd'
 				sh 'ls -AlF'
 				sh 'ls -AlF /'
-				dir('./foo') {
+				dir('.') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 

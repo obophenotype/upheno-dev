@@ -7,7 +7,7 @@ use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
 robot_java_args: -Xmx10G
-timeout_external_processes: 36000
+timeout_external_processes: 120m
 working_directory: /work/src
 overwrite_matches: False
 skip_pattern_download: True
@@ -140,6 +140,8 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/ido.owl
   - id: xao
     mirror_from: http://purl.obolibrary.org/obo/xao.owl
+  - id: caro
+    mirror_from: http://purl.obolibrary.org/obo/caro.owl
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
   - id: bspo-uberon
@@ -150,6 +152,20 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
   - id: wbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
+  - id: fbbt-uberon
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl
+  - id: zfa-cl
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-zfa.owl
+  - id: xao-cl
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-xao.owl
+  - id: wbbt-cl
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl
+  - id: caro-cl
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-caro.owl
+  - id: bspo-cl
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-bspo.owl
+  - id: fbbt-cl
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.owl
   #- id: plana-uberon
   #  mirror_from: xref
   - id: mp
@@ -192,6 +208,9 @@ sources:
       - chebi
       - cl
       - wbbt-uberon
+      - caro-uberon
+      - wbbt-cl
+      - caro
   - id: xpo
     mirror_from: http://purl.obolibrary.org/obo/xpo/xpo-base.owl
     root: http://purl.obolibrary.org/obo/XPO_00000000
@@ -206,6 +225,10 @@ sources:
       - xao-uberon
       - bspo-uberon
       - caro-uberon
+      - xao-cl
+      - bspo-cl
+      - caro-cl
+      - caro
   - id: planp
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
@@ -217,8 +240,12 @@ sources:
     dependencies:
       - plana
       #- plana-uberon
+      #- plana-cl
       - bspo-uberon
       - caro-uberon
+      - bspo-cl
+      - caro-cl
+      - caro
       #- ncit
   - id: zp
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
@@ -236,6 +263,10 @@ sources:
       - zfa-uberon
       - bspo-uberon
       - caro-uberon
+      - caro
+      - zfa-cl
+      - bspo-cl
+      - caro-cl
   - id: dpo
     mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
     root: http://purl.obolibrary.org/obo/FBcv_0001347
@@ -248,6 +279,10 @@ sources:
       - fbbt
       - cl
       - chebi
+      - fbbt-uberon
+      - fbbt-cl
+      - caro-uberon
+      - caro
   - id: fypo
     mirror_from: http://purl.obolibrary.org/obo/fypo.owl
     root: http://purl.obolibrary.org/obo/FYPO_0000001
