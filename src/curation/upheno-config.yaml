@@ -324,12 +324,13 @@ common_dependencies:
 species_modules:
   - mp
   - hp
-  - wbphenotype
+  - zp
 upheno_profiles:
   - id: mp-hp
     species_modules:
     - mp
     - hp
+    - zp
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns
