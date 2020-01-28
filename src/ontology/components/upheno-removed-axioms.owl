@@ -23,6 +23,8 @@ EquivalentClasses(obo:CARO_0000007 ObjectIntersectionOf(obo:CARO_0000000 ObjectC
 SubObjectPropertyOf(obo:RO_0002131 obo:RO_0002323)
 SubObjectPropertyOf(obo:RO_0002131 obo:RO_0002328)
 SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002202) obo:RO_0002254)
+ObjectPropertyDomain(obo:RO_0001025 ObjectIntersectionOf(obo:BFO_0000004 ObjectComplementOf(obo:BFO_0000006)))
+ObjectPropertyRange(obo:RO_0001025 ObjectIntersectionOf(obo:BFO_0000004 ObjectComplementOf(obo:BFO_0000006)))
 
 ### From GO
 # Again some problems with overlaps..
