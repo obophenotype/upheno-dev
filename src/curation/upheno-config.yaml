@@ -7,7 +7,7 @@ use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
 robot_java_args: -Xmx80G
-timeout_external_processes: 120m
+timeout_external_processes: 500m
 working_directory: /var/lib/jenkins/workspace/upheno2@2/src
 overwrite_matches: False
 skip_pattern_download: True
