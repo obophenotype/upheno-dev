@@ -1,0 +1,232 @@
+defined_class	defined_class_label	anatomical_entity_s	anatomical_entity_label
+http://purl.obolibrary.org/obo/HP_0009121	Abnormal axial skeleton morphology	http://purl.obolibrary.org/obo/UBERON_0002090	postcranial axial skeleton
+http://purl.obolibrary.org/obo/HP_0003103	Abnormal cortical bone morphology	http://purl.obolibrary.org/obo/UBERON_0001439	compact bone tissue
+http://purl.obolibrary.org/obo/HP_0000940	Abnormal diaphysis morphology	http://purl.obolibrary.org/obo/UBERON_0004769	diaphysis
+http://purl.obolibrary.org/obo/HP_0000811	Abnormal external genitalia	http://purl.obolibrary.org/obo/UBERON_0004176	external genitalia
+http://purl.obolibrary.org/obo/HP_0001549	Abnormal ileum morphology	http://purl.obolibrary.org/obo/UBERON_0002116	ileum
+http://purl.obolibrary.org/obo/HP_0000812	Abnormal internal genitalia	http://purl.obolibrary.org/obo/UBERON_0004175	internal genitalia
+http://purl.obolibrary.org/obo/HP_0030146	Abnormal liver parenchyma morphology	http://purl.obolibrary.org/obo/UBERON_0001280	liver parenchyma
+http://purl.obolibrary.org/obo/HP_0002088	Abnormal lung morphology	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/HP_0001832	Abnormal metatarsal morphology	http://purl.obolibrary.org/obo/UBERON_0001448	metatarsal bone
+http://purl.obolibrary.org/obo/HP_0030681	Abnormal morphology of myocardial trabeculae	http://purl.obolibrary.org/obo/UBERON_0004124	myocardium trabecular layer
+http://purl.obolibrary.org/obo/HP_0004404	Abnormal nipple morphology	http://purl.obolibrary.org/obo/UBERON_0002030	nipple
+http://purl.obolibrary.org/obo/HP_0005107	Abnormal sacrum morphology	http://purl.obolibrary.org/obo/UBERON_0003690	fused sacrum
+http://purl.obolibrary.org/obo/HP_0000035	Abnormal testis morphology	http://purl.obolibrary.org/obo/UBERON_0000473	testis
+http://purl.obolibrary.org/obo/HP_0002778	Abnormal trachea morphology	http://purl.obolibrary.org/obo/UBERON_0003126	trachea
+http://purl.obolibrary.org/obo/HP_0040286	Abnormality of axial muscles	http://purl.obolibrary.org/obo/UBERON_0003897	axial muscle
+http://purl.obolibrary.org/obo/HP_0010299	Abnormality of dentin	http://purl.obolibrary.org/obo/UBERON_0001751	dentine
+http://purl.obolibrary.org/obo/HP_0004362	Abnormality of enteric ganglion morphology	http://purl.obolibrary.org/obo/UBERON_0001809	enteric ganglion
+http://purl.obolibrary.org/obo/HP_0005930	Abnormality of epiphysis morphology	http://purl.obolibrary.org/obo/UBERON_0001437	epiphysis
+http://purl.obolibrary.org/obo/HP_0430005	Abnormality of ethmoid bone	http://purl.obolibrary.org/obo/UBERON_0001679	ethmoid bone
+http://purl.obolibrary.org/obo/HP_0000301	Abnormality of facial musculature	http://purl.obolibrary.org/obo/UBERON_0001577	facial muscle
+http://purl.obolibrary.org/obo/HP_0000055	Abnormality of female external genitalia	http://purl.obolibrary.org/obo/UBERON_0005056	external female genitalia
+http://purl.obolibrary.org/obo/HP_0000008	Abnormality of female internal genitalia	http://purl.obolibrary.org/obo/UBERON_0003975	internal female genitalia
+http://purl.obolibrary.org/obo/HP_0006499	Abnormality of femoral epiphysis	http://purl.obolibrary.org/obo/UBERON_0004384	epiphysis of femur
+http://purl.obolibrary.org/obo/HP_0040072	Abnormality of forearm bone	http://purl.obolibrary.org/obo/UBERON_0003466	forelimb zeugopod bone
+http://purl.obolibrary.org/obo/HP_0000152	Abnormality of head or neck	http://purl.obolibrary.org/obo/UBERON_0007811	craniocervical region
+http://purl.obolibrary.org/obo/HP_0030935	Abnormality of intestinal smooth muscle morphology	http://purl.obolibrary.org/obo/UBERON_2005273	intestinal mucosal muscle
+http://purl.obolibrary.org/obo/HP_0040068	Abnormality of limb bone	http://purl.obolibrary.org/obo/UBERON_0002428	limb bone
+http://purl.obolibrary.org/obo/HP_0040064	Abnormality of limbs	http://purl.obolibrary.org/obo/UBERON_0002101	limb
+http://purl.obolibrary.org/obo/HP_0040052	Abnormality of lower eyelashes	http://purl.obolibrary.org/obo/UBERON_0019255	lower eyelash
+http://purl.obolibrary.org/obo/HP_0000178	Abnormality of lower lip	http://purl.obolibrary.org/obo/UBERON_0001835	lower lip
+http://purl.obolibrary.org/obo/HP_0000032	Abnormality of male external genitalia	http://purl.obolibrary.org/obo/UBERON_0004053	external male genitalia
+http://purl.obolibrary.org/obo/HP_0000022	Abnormality of male internal genitalia	http://purl.obolibrary.org/obo/UBERON_0004054	internal male genitalia
+http://purl.obolibrary.org/obo/HP_0005913	Abnormality of metacarpal epiphyses	http://purl.obolibrary.org/obo/UBERON_0004390	epiphysis of metacarpal bone
+http://purl.obolibrary.org/obo/HP_0430018	Abnormality of nasal musculature	http://purl.obolibrary.org/obo/UBERON_0008522	nasal muscle
+http://purl.obolibrary.org/obo/HP_0006481	Abnormality of primary teeth	http://purl.obolibrary.org/obo/UBERON_0007116	primary dentition
+http://purl.obolibrary.org/obo/HP_0003999	Abnormality of radial epiphyses	http://purl.obolibrary.org/obo/UBERON_0004385	epiphysis of radius
+http://purl.obolibrary.org/obo/HP_0004015	Abnormality of radial metaphyses	http://purl.obolibrary.org/obo/UBERON_0013751	metaphysis of radius
+http://purl.obolibrary.org/obo/HP_0000847	Abnormality of renin-angiotensin system	http://purl.obolibrary.org/obo/UBERON_0018229	renin-angiotensin system
+http://purl.obolibrary.org/obo/HP_0040290	Abnormality of skeletal muscles	http://purl.obolibrary.org/obo/UBERON_0018254	skeletal musculature
+http://purl.obolibrary.org/obo/HP_0010009	Abnormality of the 1st metacarpal	http://purl.obolibrary.org/obo/UBERON_0003645	metacarpal bone of digit 1
+http://purl.obolibrary.org/obo/HP_0010010	Abnormality of the 2nd metacarpal	http://purl.obolibrary.org/obo/UBERON_0003646	metacarpal bone of digit 2
+http://purl.obolibrary.org/obo/HP_0010011	Abnormality of the 3rd metacarpal	http://purl.obolibrary.org/obo/UBERON_0003647	metacarpal bone of digit 3
+http://purl.obolibrary.org/obo/HP_0010012	Abnormality of the 4th metacarpal	http://purl.obolibrary.org/obo/UBERON_0003648	metacarpal bone of digit 4
+http://purl.obolibrary.org/obo/HP_0010013	Abnormality of the 5th metacarpal	http://purl.obolibrary.org/obo/UBERON_0003649	metacarpal bone of digit 5
+http://purl.obolibrary.org/obo/HP_0005109	Abnormality of the Achilles tendon	http://purl.obolibrary.org/obo/UBERON_0003701	calcaneal tendon
+http://purl.obolibrary.org/obo/HP_0002012	Abnormality of the abdominal organs	http://purl.obolibrary.org/obo/UBERON_0005409	alimentary part of gastrointestinal system
+http://purl.obolibrary.org/obo/HP_0000834	Abnormality of the adrenal glands	http://purl.obolibrary.org/obo/UBERON_0002369	adrenal gland
+http://purl.obolibrary.org/obo/HP_0006477	Abnormality of the alveolar ridges	http://purl.obolibrary.org/obo/UBERON_0004103	alveolar ridge
+http://purl.obolibrary.org/obo/HP_0003028	Abnormality of the ankles	http://purl.obolibrary.org/obo/UBERON_0004454	tarsal region
+http://purl.obolibrary.org/obo/HP_0030301	Abnormality of the anterior commissure	http://purl.obolibrary.org/obo/UBERON_0000935	anterior commissure
+http://purl.obolibrary.org/obo/HP_0000236	Abnormality of the anterior fontanelle	http://purl.obolibrary.org/obo/UBERON_0002510	anterior fontanel
+http://purl.obolibrary.org/obo/HP_0009738	Abnormality of the antihelix	http://purl.obolibrary.org/obo/UBERON_0016466	antihelix
+http://purl.obolibrary.org/obo/HP_0009896	Abnormality of the antitragus	http://purl.obolibrary.org/obo/UBERON_0016467	antitragus
+http://purl.obolibrary.org/obo/HP_0004378	Abnormality of the anus	http://purl.obolibrary.org/obo/UBERON_0001245	anus
+http://purl.obolibrary.org/obo/HP_0008744	Abnormality of the aryepiglottic fold	http://purl.obolibrary.org/obo/UBERON_0014385	aryepiglottic fold
+http://purl.obolibrary.org/obo/HP_0000372	Abnormality of the auditory canal	http://purl.obolibrary.org/obo/UBERON_0001352	external acoustic meatus
+http://purl.obolibrary.org/obo/HP_0002270	Abnormality of the autonomic nervous system	http://purl.obolibrary.org/obo/UBERON_0002410	autonomic nervous system
+http://purl.obolibrary.org/obo/HP_0410168	Abnormality of the back musculature	http://purl.obolibrary.org/obo/UBERON_0002324	muscle of back
+http://purl.obolibrary.org/obo/HP_0002134	Abnormality of the basal ganglia	http://purl.obolibrary.org/obo/UBERON_0002420	basal ganglion
+http://purl.obolibrary.org/obo/HP_0004297	Abnormality of the biliary system	http://purl.obolibrary.org/obo/UBERON_0002294	biliary system
+http://purl.obolibrary.org/obo/HP_0000014	Abnormality of the bladder	http://purl.obolibrary.org/obo/UBERON_0001255	urinary bladder
+http://purl.obolibrary.org/obo/HP_0012501	Abnormality of the brainstem white matter	http://purl.obolibrary.org/obo/UBERON_0014891	brainstem white matter
+http://purl.obolibrary.org/obo/HP_0000769	Abnormality of the breast	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/HP_0008364	Abnormality of the calcaneus	http://purl.obolibrary.org/obo/UBERON_0001450	calcaneus
+http://purl.obolibrary.org/obo/HP_0002683	Abnormality of the calvaria	http://purl.obolibrary.org/obo/UBERON_0004339	vault of skull
+http://purl.obolibrary.org/obo/HP_0004262	Abnormality of the capitate bone	http://purl.obolibrary.org/obo/UBERON_0001432	distal carpal bone 3
+http://purl.obolibrary.org/obo/HP_0001191	Abnormality of the carpal bones	http://purl.obolibrary.org/obo/UBERON_0001435	carpal bone
+http://purl.obolibrary.org/obo/HP_0002334	Abnormality of the cerebellar vermis	http://purl.obolibrary.org/obo/UBERON_0004720	cerebellar vermis
+http://purl.obolibrary.org/obo/HP_0002538	Abnormality of the cerebral cortex	http://purl.obolibrary.org/obo/UBERON_0000956	cerebral cortex
+http://purl.obolibrary.org/obo/HP_0002500	Abnormality of the cerebral white matter	http://purl.obolibrary.org/obo/UBERON_0002437	cerebral hemisphere white matter
+http://purl.obolibrary.org/obo/HP_0002060	Abnormality of the cerebrum	http://purl.obolibrary.org/obo/UBERON_0001893	telencephalon
+http://purl.obolibrary.org/obo/HP_0003319	Abnormality of the cervical spine	http://purl.obolibrary.org/obo/UBERON_0002413	cervical vertebra
+http://purl.obolibrary.org/obo/HP_0004426	Abnormality of the cheek	http://purl.obolibrary.org/obo/UBERON_0001567	cheek
+http://purl.obolibrary.org/obo/HP_0410167	Abnormality of the chest musculature	http://purl.obolibrary.org/obo/UBERON_0002426	chest muscle
+http://purl.obolibrary.org/obo/HP_0000306	Abnormality of the chin	http://purl.obolibrary.org/obo/UBERON_0008199	chin
+http://purl.obolibrary.org/obo/HP_0000415	Abnormality of the choanae	http://purl.obolibrary.org/obo/UBERON_0010425	internal naris
+http://purl.obolibrary.org/obo/HP_0000889	Abnormality of the clavicle	http://purl.obolibrary.org/obo/UBERON_0001105	clavicle bone
+http://purl.obolibrary.org/obo/HP_0008519	Abnormality of the coccyx	http://purl.obolibrary.org/obo/UBERON_0001350	coccyx
+http://purl.obolibrary.org/obo/HP_0009929	Abnormality of the columella	http://purl.obolibrary.org/obo/UBERON_0008341	columella nasi
+http://purl.obolibrary.org/obo/HP_0006479	Abnormality of the dental pulp	http://purl.obolibrary.org/obo/UBERON_0001754	dental pulp
+http://purl.obolibrary.org/obo/HP_0000164	Abnormality of the dentition	http://purl.obolibrary.org/obo/UBERON_0003672	dentition
+http://purl.obolibrary.org/obo/HP_0000775	Abnormality of the diaphragm	http://purl.obolibrary.org/obo/UBERON_0001103	diaphragm
+http://purl.obolibrary.org/obo/HP_0025031	Abnormality of the digestive system	http://purl.obolibrary.org/obo/UBERON_0001007	digestive system
+http://purl.obolibrary.org/obo/HP_0009617	Abnormality of the distal phalanx of the thumb	http://purl.obolibrary.org/obo/UBERON_0004337	distal phalanx of manual digit 1
+http://purl.obolibrary.org/obo/HP_0002246	Abnormality of the duodenum	http://purl.obolibrary.org/obo/UBERON_0002114	duodenum
+http://purl.obolibrary.org/obo/HP_0000598	Abnormality of the ear	http://purl.obolibrary.org/obo/UBERON_0001690	ear
+http://purl.obolibrary.org/obo/HP_0009811	Abnormality of the elbow	http://purl.obolibrary.org/obo/UBERON_0001461	elbow
+http://purl.obolibrary.org/obo/HP_0000818	Abnormality of the endocrine system	http://purl.obolibrary.org/obo/UBERON_0000949	endocrine system
+http://purl.obolibrary.org/obo/HP_0009714	Abnormality of the epididymis	http://purl.obolibrary.org/obo/UBERON_0001301	epididymis
+http://purl.obolibrary.org/obo/HP_0010938	Abnormality of the external nose	http://purl.obolibrary.org/obo/UBERON_0007827	external nose
+http://purl.obolibrary.org/obo/HP_0008049	Abnormality of the extraocular muscles	http://purl.obolibrary.org/obo/UBERON_0001601	extra-ocular muscle
+http://purl.obolibrary.org/obo/HP_0000478	Abnormality of the eye	http://purl.obolibrary.org/obo/UBERON_0010230	eyeball of camera-type eye
+http://purl.obolibrary.org/obo/HP_0000271	Abnormality of the face	http://purl.obolibrary.org/obo/UBERON_0001456	face
+http://purl.obolibrary.org/obo/HP_0003368	Abnormality of the femoral head	http://purl.obolibrary.org/obo/UBERON_0006767	head of femur
+http://purl.obolibrary.org/obo/HP_0006489	Abnormality of the femoral metaphysis	http://purl.obolibrary.org/obo/UBERON_0006865	metaphysis of femur
+http://purl.obolibrary.org/obo/HP_0003367	Abnormality of the femoral neck	http://purl.obolibrary.org/obo/UBERON_0007119	neck of femur
+http://purl.obolibrary.org/obo/HP_0001760	Abnormality of the foot	http://purl.obolibrary.org/obo/UBERON_0002387	pes
+http://purl.obolibrary.org/obo/HP_0001436	Abnormality of the foot musculature	http://purl.obolibrary.org/obo/UBERON_0004488	musculature of pes
+http://purl.obolibrary.org/obo/HP_0002699	Abnormality of the foramen magnum	http://purl.obolibrary.org/obo/UBERON_0003687	foramen magnum
+http://purl.obolibrary.org/obo/HP_0002973	Abnormality of the forearm	http://purl.obolibrary.org/obo/UBERON_0002386	forelimb zeugopod
+http://purl.obolibrary.org/obo/HP_0000290	Abnormality of the forehead	http://purl.obolibrary.org/obo/UBERON_0008200	forehead
+http://purl.obolibrary.org/obo/HP_0430000	Abnormality of the frontal bone	http://purl.obolibrary.org/obo/UBERON_0000209	tetrapod frontal bone
+http://purl.obolibrary.org/obo/HP_0005264	Abnormality of the gallbladder	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/HP_0004295	Abnormality of the gastric mucosa	http://purl.obolibrary.org/obo/UBERON_0001199	mucosa of stomach
+http://purl.obolibrary.org/obo/HP_0000119	Abnormality of the genitourinary system	http://purl.obolibrary.org/obo/UBERON_0004122	genitourinary system
+http://purl.obolibrary.org/obo/HP_0001844	Abnormality of the hallux	http://purl.obolibrary.org/obo/UBERON_0003631	pedal digit 1
+http://purl.obolibrary.org/obo/HP_0004259	Abnormality of the hamate bone	http://purl.obolibrary.org/obo/UBERON_0001433	distal carpal bone 4
+http://purl.obolibrary.org/obo/HP_0001155	Abnormality of the hand	http://purl.obolibrary.org/obo/UBERON_0002398	manus
+http://purl.obolibrary.org/obo/HP_0000234	Abnormality of the head	http://purl.obolibrary.org/obo/UBERON_0000033	head
+http://purl.obolibrary.org/obo/HP_0006707	Abnormality of the hepatic vasculature	http://purl.obolibrary.org/obo/UBERON_0006877	vasculature of liver
+http://purl.obolibrary.org/obo/HP_0003272	Abnormality of the hip bone	http://purl.obolibrary.org/obo/UBERON_0001272	innominate bone
+http://purl.obolibrary.org/obo/HP_0001445	Abnormality of the hip-girdle musculature	http://purl.obolibrary.org/obo/UBERON_0004475	musculature of hip
+http://purl.obolibrary.org/obo/HP_0003926	Abnormality of the humeral diaphysis	http://purl.obolibrary.org/obo/UBERON_0004652	humerus diaphysis
+http://purl.obolibrary.org/obo/HP_0003891	Abnormality of the humeral epiphysis	http://purl.obolibrary.org/obo/UBERON_0004382	epiphysis of humerus
+http://purl.obolibrary.org/obo/HP_0003887	Abnormality of the humeral heads	http://purl.obolibrary.org/obo/UBERON_0006801	proximal head of humerus
+http://purl.obolibrary.org/obo/HP_0003907	Abnormality of the humeral metaphyses	http://purl.obolibrary.org/obo/UBERON_0013749	metaphysis of humerus
+http://purl.obolibrary.org/obo/HP_0010486	Abnormality of the hypothenar eminence	http://purl.obolibrary.org/obo/UBERON_0017717	hypothenar eminence
+http://purl.obolibrary.org/obo/HP_0002715	Abnormality of the immune system	http://purl.obolibrary.org/obo/UBERON_0002405	immune system
+http://purl.obolibrary.org/obo/HP_0000359	Abnormality of the inner ear	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
+http://purl.obolibrary.org/obo/HP_0001574	Abnormality of the integument	http://purl.obolibrary.org/obo/UBERON_0002199	integument
+http://purl.obolibrary.org/obo/HP_0012502	Abnormality of the internal capsule	http://purl.obolibrary.org/obo/UBERON_0001887	internal capsule of telencephalon
+http://purl.obolibrary.org/obo/HP_0005108	Abnormality of the intervertebral disk	http://purl.obolibrary.org/obo/UBERON_0001066	intervertebral disk
+http://purl.obolibrary.org/obo/HP_0005265	Abnormality of the jejunum	http://purl.obolibrary.org/obo/UBERON_0002115	jejunum
+http://purl.obolibrary.org/obo/HP_0000077	Abnormality of the kidney	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/HP_0002815	Abnormality of the knee	http://purl.obolibrary.org/obo/UBERON_0001465	knee
+http://purl.obolibrary.org/obo/HP_0430002	Abnormality of the lacrimal bone	http://purl.obolibrary.org/obo/UBERON_0001680	lacrimal bone
+http://purl.obolibrary.org/obo/HP_0001600	Abnormality of the larynx	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
+http://purl.obolibrary.org/obo/HP_0008048	Abnormality of the line of Schwalbe	http://purl.obolibrary.org/obo/UBERON_0011918	line of Schwalbe
+http://purl.obolibrary.org/obo/HP_0002814	Abnormality of the lower limb	http://purl.obolibrary.org/obo/UBERON_0000978	leg
+http://purl.obolibrary.org/obo/HP_0004248	Abnormality of the lunate bone	http://purl.obolibrary.org/obo/UBERON_0001428	intermedium
+http://purl.obolibrary.org/obo/HP_0002733	Abnormality of the lymph nodes	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
+http://purl.obolibrary.org/obo/HP_0000277	Abnormality of the mandible	http://purl.obolibrary.org/obo/UBERON_0001684	mandible
+http://purl.obolibrary.org/obo/HP_0001163	Abnormality of the metacarpal bones	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone
+http://purl.obolibrary.org/obo/HP_0000944	Abnormality of the metaphysis	http://purl.obolibrary.org/obo/UBERON_0001438	metaphysis
+http://purl.obolibrary.org/obo/HP_0005556	Abnormality of the metopic suture	http://purl.obolibrary.org/obo/UBERON_0002490	frontal suture
+http://purl.obolibrary.org/obo/HP_0000370	Abnormality of the middle ear	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
+http://purl.obolibrary.org/obo/HP_0010641	Abnormality of the midnasal cavity	http://purl.obolibrary.org/obo/UBERON_0004110	midnasal cavity
+http://purl.obolibrary.org/obo/HP_0000153	Abnormality of the mouth	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
+http://purl.obolibrary.org/obo/HP_0003011	Abnormality of the musculature	http://purl.obolibrary.org/obo/UBERON_0001015	musculature
+http://purl.obolibrary.org/obo/HP_0001421	Abnormality of the musculature of the hand	http://purl.obolibrary.org/obo/UBERON_0004489	musculature of manus
+http://purl.obolibrary.org/obo/HP_0009127	Abnormality of the musculature of the limbs	http://purl.obolibrary.org/obo/UBERON_0004480	musculature of limb
+http://purl.obolibrary.org/obo/HP_0001437	Abnormality of the musculature of the lower limbs	http://purl.obolibrary.org/obo/UBERON_0004482	musculature of lower limb
+http://purl.obolibrary.org/obo/HP_0001469	Abnormality of the musculature of the pelvis	http://purl.obolibrary.org/obo/UBERON_0001325	muscle of pelvis
+http://purl.obolibrary.org/obo/HP_0001441	Abnormality of the musculature of the thigh	http://purl.obolibrary.org/obo/UBERON_0004463	musculature of hindlimb stylopod
+http://purl.obolibrary.org/obo/HP_0009131	Abnormality of the musculature of the thorax	http://purl.obolibrary.org/obo/UBERON_0004464	musculature of thorax
+http://purl.obolibrary.org/obo/HP_0001457	Abnormality of the musculature of the upper arm	http://purl.obolibrary.org/obo/UBERON_0004474	musculature of arm
+http://purl.obolibrary.org/obo/HP_0001446	Abnormality of the musculature of the upper limbs	http://purl.obolibrary.org/obo/UBERON_0004481	musculature of upper limb
+http://purl.obolibrary.org/obo/HP_0001597	Abnormality of the nail	http://purl.obolibrary.org/obo/UBERON_0001705	nail
+http://purl.obolibrary.org/obo/HP_0005288	Abnormality of the nares	http://purl.obolibrary.org/obo/UBERON_0005928	external naris
+http://purl.obolibrary.org/obo/HP_0000429	Abnormality of the nasal alae	http://purl.obolibrary.org/obo/UBERON_0006906	ala of nose
+http://purl.obolibrary.org/obo/HP_0000422	Abnormality of the nasal bridge	http://purl.obolibrary.org/obo/UBERON_0008340	nasal bridge
+http://purl.obolibrary.org/obo/HP_0000433	Abnormality of the nasal mucosa	http://purl.obolibrary.org/obo/UBERON_0001826	nasal cavity mucosa
+http://purl.obolibrary.org/obo/HP_0000419	Abnormality of the nasal septum	http://purl.obolibrary.org/obo/UBERON_0001706	nasal septum
+http://purl.obolibrary.org/obo/HP_0010937	Abnormality of the nasal skeleton	http://purl.obolibrary.org/obo/UBERON_0006813	nasal skeleton
+http://purl.obolibrary.org/obo/HP_0000436	Abnormality of the nasal tip	http://purl.obolibrary.org/obo/UBERON_0012128	nose tip
+http://purl.obolibrary.org/obo/HP_0001739	Abnormality of the nasopharynx	http://purl.obolibrary.org/obo/UBERON_0001728	nasopharynx
+http://purl.obolibrary.org/obo/HP_0000464	Abnormality of the neck	http://purl.obolibrary.org/obo/UBERON_0000974	neck
+http://purl.obolibrary.org/obo/HP_0000366	Abnormality of the nose	http://purl.obolibrary.org/obo/UBERON_0000004	nose
+http://purl.obolibrary.org/obo/HP_0004032	Abnormality of the olecranon	http://purl.obolibrary.org/obo/UBERON_0006810	olecranon
+http://purl.obolibrary.org/obo/HP_0000587	Abnormality of the optic nerve	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
+http://purl.obolibrary.org/obo/HP_0000356	Abnormality of the outer ear	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
+http://purl.obolibrary.org/obo/HP_0430003	Abnormality of the palatine bone	http://purl.obolibrary.org/obo/UBERON_0001682	palatine bone
+http://purl.obolibrary.org/obo/HP_0008050	Abnormality of the palpebral fissures	http://purl.obolibrary.org/obo/UBERON_0001819	palpebral fissure
+http://purl.obolibrary.org/obo/HP_0001732	Abnormality of the pancreas	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
+http://purl.obolibrary.org/obo/HP_0000828	Abnormality of the parathyroid gland	http://purl.obolibrary.org/obo/UBERON_0001132	parathyroid gland
+http://purl.obolibrary.org/obo/HP_0000036	Abnormality of the penis	http://purl.obolibrary.org/obo/UBERON_0000989	penis
+http://purl.obolibrary.org/obo/HP_0410026	Abnormality of the periodontium	http://purl.obolibrary.org/obo/UBERON_0001758	periodontium
+http://purl.obolibrary.org/obo/HP_0002585	Abnormality of the peritoneum	http://purl.obolibrary.org/obo/UBERON_0002358	peritoneum
+http://purl.obolibrary.org/obo/HP_0000600	Abnormality of the pharynx	http://purl.obolibrary.org/obo/UBERON_0001042	chordate pharynx
+http://purl.obolibrary.org/obo/HP_0012680	Abnormality of the pineal gland	http://purl.obolibrary.org/obo/UBERON_0001905	pineal body
+http://purl.obolibrary.org/obo/HP_0002103	Abnormality of the pleura	http://purl.obolibrary.org/obo/UBERON_0000977	pleura
+http://purl.obolibrary.org/obo/HP_0007361	Abnormality of the pons	http://purl.obolibrary.org/obo/UBERON_0000988	pons
+http://purl.obolibrary.org/obo/HP_0008775	Abnormality of the prostate	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland
+http://purl.obolibrary.org/obo/HP_0003172	Abnormality of the pubic bone	http://purl.obolibrary.org/obo/UBERON_0001275	pubis
+http://purl.obolibrary.org/obo/HP_0004414	Abnormality of the pulmonary artery	http://purl.obolibrary.org/obo/UBERON_0002012	pulmonary artery
+http://purl.obolibrary.org/obo/HP_0004930	Abnormality of the pulmonary vasculature	http://purl.obolibrary.org/obo/UBERON_0000102	lung vasculature
+http://purl.obolibrary.org/obo/HP_0004400	Abnormality of the pylorus	http://purl.obolibrary.org/obo/UBERON_0001166	pylorus
+http://purl.obolibrary.org/obo/HP_0003995	Abnormality of the radial head	http://purl.obolibrary.org/obo/UBERON_0001012	head of radius
+http://purl.obolibrary.org/obo/HP_0002034	Abnormality of the rectum	http://purl.obolibrary.org/obo/UBERON_0001052	rectum
+http://purl.obolibrary.org/obo/HP_0001965	Abnormality of the scalp	http://purl.obolibrary.org/obo/UBERON_0000403	scalp
+http://purl.obolibrary.org/obo/HP_0004243	Abnormality of the scaphoid	http://purl.obolibrary.org/obo/UBERON_0001427	radiale
+http://purl.obolibrary.org/obo/HP_0000045	Abnormality of the scrotum	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
+http://purl.obolibrary.org/obo/HP_0002679	Abnormality of the sella turcica	http://purl.obolibrary.org/obo/UBERON_0003689	sella turcica
+http://purl.obolibrary.org/obo/HP_0007375	Abnormality of the septum pellucidum	http://purl.obolibrary.org/obo/UBERON_0004714	septum pellucidum
+http://purl.obolibrary.org/obo/HP_0003043	Abnormality of the shoulder	http://purl.obolibrary.org/obo/UBERON_0001467	shoulder
+http://purl.obolibrary.org/obo/HP_0001435	Abnormality of the shoulder girdle musculature	http://purl.obolibrary.org/obo/UBERON_0001421	pectoral girdle region
+http://purl.obolibrary.org/obo/HP_0410169	Abnormality of the shoulder musculature	http://purl.obolibrary.org/obo/UBERON_0004476	musculature of shoulder
+http://purl.obolibrary.org/obo/HP_0000924	Abnormality of the skeletal system	http://purl.obolibrary.org/obo/UBERON_0001434	skeletal system
+http://purl.obolibrary.org/obo/HP_0002244	Abnormality of the small intestine	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine
+http://purl.obolibrary.org/obo/HP_0002143	Abnormality of the spinal cord	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
+http://purl.obolibrary.org/obo/HP_0001743	Abnormality of the spleen	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
+http://purl.obolibrary.org/obo/HP_0008628	Abnormality of the stapes	http://purl.obolibrary.org/obo/UBERON_0001687	stapes bone
+http://purl.obolibrary.org/obo/HP_0000766	Abnormality of the sternum	http://purl.obolibrary.org/obo/UBERON_0000975	sternum
+http://purl.obolibrary.org/obo/HP_0002577	Abnormality of the stomach	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/HP_0010288	Abnormality of the sublingual glands	http://purl.obolibrary.org/obo/UBERON_0001832	sublingual gland
+http://purl.obolibrary.org/obo/HP_0010287	Abnormality of the submandibular glands	http://purl.obolibrary.org/obo/UBERON_0001736	submandibular gland
+http://purl.obolibrary.org/obo/HP_0001227	Abnormality of the thenar eminence	http://purl.obolibrary.org/obo/UBERON_0017716	thenar eminence
+http://purl.obolibrary.org/obo/HP_0000765	Abnormality of the thorax	http://purl.obolibrary.org/obo/UBERON_0001443	chest
+http://purl.obolibrary.org/obo/HP_0000777	Abnormality of the thymus	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
+http://purl.obolibrary.org/obo/HP_0000820	Abnormality of the thyroid gland	http://purl.obolibrary.org/obo/UBERON_0002046	thyroid gland
+http://purl.obolibrary.org/obo/HP_0006491	Abnormality of the tibial metaphysis	http://purl.obolibrary.org/obo/UBERON_0013750	metaphysis of tibia
+http://purl.obolibrary.org/obo/HP_0000157	Abnormality of the tongue	http://purl.obolibrary.org/obo/UBERON_0001723	tongue
+http://purl.obolibrary.org/obo/HP_0009912	Abnormality of the tragus	http://purl.obolibrary.org/obo/UBERON_0010887	tragus
+http://purl.obolibrary.org/obo/HP_0004252	Abnormality of the trapezium	http://purl.obolibrary.org/obo/UBERON_0001430	distal carpal bone 1
+http://purl.obolibrary.org/obo/HP_0004256	Abnormality of the trapezoid bone	http://purl.obolibrary.org/obo/UBERON_0001431	distal carpal bone 2
+http://purl.obolibrary.org/obo/HP_0040090	Abnormality of the tympanic membrane	http://purl.obolibrary.org/obo/UBERON_0002364	tympanic membrane
+http://purl.obolibrary.org/obo/HP_0004037	Abnormality of the ulnar epiphyses	http://purl.obolibrary.org/obo/UBERON_0004386	epiphysis of ulna
+http://purl.obolibrary.org/obo/HP_0002817	Abnormality of the upper limb	http://purl.obolibrary.org/obo/UBERON_0001460	arm
+http://purl.obolibrary.org/obo/HP_0010478	Abnormality of the urachus	http://purl.obolibrary.org/obo/UBERON_0002068	urachus
+http://purl.obolibrary.org/obo/HP_0000069	Abnormality of the ureter	http://purl.obolibrary.org/obo/UBERON_0000056	ureter
+http://purl.obolibrary.org/obo/HP_0000795	Abnormality of the urethra	http://purl.obolibrary.org/obo/UBERON_0000057	urethra
+http://purl.obolibrary.org/obo/HP_0000079	Abnormality of the urinary system	http://purl.obolibrary.org/obo/UBERON_0001008	renal system
+http://purl.obolibrary.org/obo/HP_0000130	Abnormality of the uterus	http://purl.obolibrary.org/obo/UBERON_0000995	uterus
+http://purl.obolibrary.org/obo/HP_0000172	Abnormality of the uvula	http://purl.obolibrary.org/obo/UBERON_0001734	palatine uvula
+http://purl.obolibrary.org/obo/HP_0002597	Abnormality of the vasculature	http://purl.obolibrary.org/obo/UBERON_0002049	vasculature
+http://purl.obolibrary.org/obo/HP_0000925	Abnormality of the vertebral column	http://purl.obolibrary.org/obo/UBERON_0001130	vertebral column
+http://purl.obolibrary.org/obo/HP_0003019	Abnormality of the wrist	http://purl.obolibrary.org/obo/UBERON_0004452	carpal region
+http://purl.obolibrary.org/obo/HP_0005557	Abnormality of the zygomatic arch	http://purl.obolibrary.org/obo/UBERON_0002500	zygomatic arch
+http://purl.obolibrary.org/obo/HP_0006508	Abnormality of tibial epiphyses	http://purl.obolibrary.org/obo/UBERON_0004383	epiphysis of tibia
+http://purl.obolibrary.org/obo/HP_0004039	Abnormality of ulnar metaphysis	http://purl.obolibrary.org/obo/UBERON_0013748	ulnar metaphysis
+http://purl.obolibrary.org/obo/HP_0040051	Abnormality of upper eyelashes	http://purl.obolibrary.org/obo/UBERON_0019254	upper eyelash
+http://purl.obolibrary.org/obo/HP_0000177	Abnormality of upper lip	http://purl.obolibrary.org/obo/UBERON_0001834	upper lip
+http://purl.obolibrary.org/obo/HP_0410000	Abnormality of vomer	http://purl.obolibrary.org/obo/UBERON_0002396	vomer
+http://purl.obolibrary.org/obo/HP_0003413	Atlantoaxial abnormality	http://purl.obolibrary.org/obo/UBERON_0003694	atlanto-axial joint
+http://purl.obolibrary.org/obo/HP_0006695	Atrioventricular canal defect	http://purl.obolibrary.org/obo/UBERON_0002087	atrioventricular canal
+http://purl.obolibrary.org/obo/HP_0012620	Cloacal abnormality	http://purl.obolibrary.org/obo/UBERON_0000163	embryonic cloaca
+http://purl.obolibrary.org/obo/HP_0430011	Defect of palpebral conjunctiva	http://purl.obolibrary.org/obo/UBERON_0001812	palpebral conjunctiva
+http://purl.obolibrary.org/obo/HP_0001966	Mesangial abnormality	http://purl.obolibrary.org/obo/UBERON_0002319	mesangium
+http://purl.obolibrary.org/obo/HP_0002062	Morphological abnormality of the pyramidal tract	http://purl.obolibrary.org/obo/UBERON_0002707	corticospinal tract
+http://purl.obolibrary.org/obo/HP_0000118	Phenotypic abnormality	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
+http://purl.obolibrary.org/obo/HP_0008438	Vertebral arch anomaly	http://purl.obolibrary.org/obo/UBERON_0010358	arch of centrum of vertebra
