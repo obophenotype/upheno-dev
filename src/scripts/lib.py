@@ -238,14 +238,22 @@ def dosdp_pattern_match(ontology_path, pattern_path, out_tsv, TIMEOUT="3600"):
         raise Exception("Matching " + str(ontology_path) + " for DOSDP: " + pattern_path + " failed")
 
 def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_hierarchy, TIMEOUT="3600", robot_opts="-v"):
+    """
+    :param o: Input ontology
+    :param ontology_merged_path: Output Ontology
+    :param sparql_terms_class_hierarchy: SPARQL query that extracts seed
+    :param TIMEOUT: Java timeout parameter. String. Using timeout command line program.
+    :param robot_opts: Additional ROBOT options
+    :return: Take o, extracts a seed using sparql_terms_class_hierarchy, extracts class hierarchy, merges both to ontology_merged_path.
+    """
     print("Preparing " + str(o) + " for DOSDP: " + ontology_merged_path)
     subclass_hierarchy = os.path.join(os.path.dirname(ontology_merged_path),"class_hierarchy_"+os.path.basename(ontology_merged_path))
     subclass_hierarchy_seed = os.path.join(os.path.dirname(ontology_merged_path),
                                       "class_hierarchy_seed_" + os.path.basename(ontology_merged_path))
     robot_extract_seed(o, subclass_hierarchy_seed, sparql_terms_class_hierarchy, TIMEOUT, robot_opts)
-    robot_class_hierarchy(o,subclass_hierarchy_seed,subclass_hierarchy,REASON=True,REMOVEDISJOINT=True,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
+    robot_class_hierarchy(o, subclass_hierarchy_seed,subclass_hierarchy,REASON=True,REMOVEDISJOINT=False,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
     try:
-        callstring = ['timeout', TIMEOUT, 'robot', 'merge', robot_opts,"-i",o]
+        callstring = ['timeout', TIMEOUT, 'robot', 'merge', robot_opts,"-i",o,"-i",subclass_hierarchy]
         callstring.extend(['remove','--term', 'rdfs:label', '--select', 'complement', '--select', 'annotation-properties', '--preserve-structure', 'false'])
         callstring.extend(['--output', ontology_merged_path])
         check_call(callstring)
