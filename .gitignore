@@ -35,3 +35,7 @@ src/ontology/archive/inferred_ontology.owl
 src/ontology/archive/merged_ontology.owl
 src/patterns/all_pattern_terms.txt
 src/patterns/pattern_owl_seed.txt
+src/scripts/scratch.py
+src/scripts/pattern_match0.sh
+src/scripts/upheno_all_with_relations.owl
+src/scripts/upheno_all_with_relations_mod.owl
