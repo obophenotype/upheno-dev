@@ -226,6 +226,17 @@ def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts=
         print(e)
         raise Exception("Merging of" + str(ontology_list) + " failed")
 
+def list_files(directory, extension):
+    return (f for f in os.listdir(directory) if f.endswith('.' + extension))
+
+def dosdp_pattern_match(ontology_path, pattern_path, out_tsv, TIMEOUT="3600"):
+    print("Matching " + ontology_path + " with " + pattern_path+" to "+out_tsv)
+    try:
+        check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
+    except Exception as e:
+        print(e)
+        raise Exception("Matching " + str(ontology_path) + " for DOSDP: " + pattern_path + " failed")
+
 def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_hierarchy, TIMEOUT="3600", robot_opts="-v"):
     print("Preparing " + str(o) + " for DOSDP: " + ontology_merged_path)
     subclass_hierarchy = os.path.join(os.path.dirname(ontology_merged_path),"class_hierarchy_"+os.path.basename(ontology_merged_path))
@@ -277,6 +288,19 @@ def robot_children_list(o,query,outfile,TIMEOUT="3600",robot_opts="-v"):
     except Exception as e:
         print(e)
         raise Exception("Preparing uPheno component " + str(o) + " failed...")
+
+
+def get_defined_phenotypes(upheno_config,pattern_dir,matches_dir):
+    defined = []
+    for pattern in os.listdir(pattern_dir):
+        if pattern.endswith(".yaml"):
+            tsv_file_name = pattern.replace(".yaml",".tsv")
+            for oid in upheno_config.get_phenotype_ontologies():
+                tsv = os.path.join(matches_dir,oid,tsv_file_name)
+                if os.path.exists(tsv):
+                    df = pd.read_csv(tsv, sep='\t')
+                    defined.extend(df['defined_class'].tolist())
+    return list(set(defined))
 
 
 def robot_class_hierarchy(ontology_in_path, class_hierarchy_seed, ontology_out_path, REASON = True , TIMEOUT="3600", robot_opts="-v", REMOVEDISJOINT=False):

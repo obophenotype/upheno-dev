@@ -14,7 +14,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
+from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, dosdp_pattern_match, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
 warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
@@ -288,24 +288,16 @@ def match_patterns(upheno_config,pattern_files,matches_dir, overwrite=True):
     for pattern_path in pattern_files:
         for id in upheno_config.get_phenotype_ontologies():
             ontology_path = os.path.join(ontology_for_matching_dir,id+".owl")
-            dosdp_pattern_match(ontology_path,pattern_path,matches_dir, overwrite)
-
-def dosdp_pattern_match(ontology_path, pattern_path, matches_dir, overwrite=True):
-    print("Matching " + ontology_path + " to " + pattern_path)
-    global TIMEOUT
-    try:
-        oid = os.path.basename(ontology_path).replace(".owl","")
-        pid = os.path.basename(pattern_path).replace(".yaml", ".tsv")
-        outdir = os.path.join(matches_dir,oid)
-        if not os.path.exists(outdir):
-            os.makedirs(outdir)
-        out_tsv = os.path.join(outdir,pid)
-        if overwrite or not os.path.exists(out_tsv):
-            check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
-        else:
-            print("Match already made, bypassing.")
-    except CalledProcessError as e:
-        print(e.output)
+            oid = os.path.basename(ontology_path).replace(".owl", "")
+            pid = os.path.basename(pattern_path).replace(".yaml", ".tsv")
+            outdir = os.path.join(matches_dir, oid)
+            if not os.path.exists(outdir):
+                os.makedirs(outdir)
+            out_tsv = os.path.join(outdir, pid)
+            if overwrite or not os.path.exists(out_tsv):
+                dosdp_pattern_match(ontology_path,pattern_path,out_tsv, TIMEOUT)
+            else:
+                print("Match ({}) already made, bypassing.".format(out_tsv))
 
 def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,taxon_label,root_phenotype,preserve_eq):
     print("Extracting fillers from "+ontology_path)
@@ -316,9 +308,6 @@ def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,tax
         print(e.output)
         raise Exception("Appending taxon restrictions" + ontology_path + " failed")
 
-
-def list_files(directory, extension):
-    return (f for f in os.listdir(directory) if f.endswith('.' + extension))
 
 def download_sources(dir,overwrite=True):
     global upheno_config
