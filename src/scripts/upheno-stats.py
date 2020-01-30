@@ -12,7 +12,7 @@ import urllib.request
 from shutil import copyfile
 import pandas as pd
 from subprocess import check_call
-from lib import uPhenoConfig
+from lib import uPhenoConfig, get_defined_phenotypes
 
 ### Configuration
 yaml.warnings({'YAMLLoadWarning': False})
@@ -30,19 +30,7 @@ stats_dir = os.path.join(ws,"curation/upheno-stats/")
 matches_dir = os.path.join(ws,"curation/pattern-matches/")
 
 
-def get_defined_phenotypes(upheno_config,pattern_dir,matches_dir):
-    defined = []
-    for pattern in os.listdir(pattern_dir):
-        if pattern.endswith(".yaml"):
-            tsv_file_name = pattern.replace(".yaml",".tsv")
-            for oid in upheno_config.get_phenotype_ontologies():
-                tsv = os.path.join(matches_dir,oid,tsv_file_name)
-                if os.path.exists(tsv):
-                    print(tsv)
-                    df = pd.read_csv(tsv, sep='\t')
-                    defined.extend(df['defined_class'].tolist())
-    return list(set(defined))
-    
+
 def get_all_phenotypes(upheno_config,stats_dir):
     phenotypes = []
     for oid in upheno_config.get_phenotype_ontologies():
