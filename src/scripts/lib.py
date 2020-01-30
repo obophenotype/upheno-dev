@@ -205,6 +205,14 @@ def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEO
         print(e.output)
         raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
 
+def robot_remove_rbox(ontology_path, ontology_removed_path, TIMEOUT="3600", robot_opts="-v"):
+    print("Removing RBOX from "+ontology_path+" and saving to "+ontology_removed_path)
+    try:
+        check_call(['timeout',TIMEOUT,'robot', 'remove',robot_opts,'-i', ontology_path, '--axioms','rbox','--preserve-structure', 'false', '--output', ontology_removed_path])
+    except Exception as e:
+        print(e.output)
+        raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
+
 def robot_remove_upheno_blacklist_and_classify(ontology_path, ontology_removed_path, blacklist_ontology, TIMEOUT="3600", robot_opts="-v"):
     print("Removing upheno blacklist axioms from "+ontology_path+" and saving to "+ontology_removed_path)
     try:

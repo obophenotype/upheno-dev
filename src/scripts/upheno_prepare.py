@@ -14,7 +14,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, dosdp_pattern_match, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
+from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, robot_remove_rbox, dosdp_pattern_match, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
 warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
@@ -248,6 +248,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
 def remove_all_sources_of_unsatisfiability(o, blacklist_ontology, TIMEOUT, robot_opts):
     robot_dump_disjoints(o, None, o, TIMEOUT, robot_opts)
     robot_remove_mentions_of_nothing(o, o, TIMEOUT, robot_opts)
+    robot_remove_rbox(o, o, TIMEOUT, robot_opts)
     if os.path.exists(blacklist_ontology):
         robot_remove_upheno_blacklist_and_classify(o, o, blacklist_ontology, TIMEOUT, robot_opts)
 
