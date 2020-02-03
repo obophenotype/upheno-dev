@@ -375,4 +375,4 @@ print("### Prepare master import file with all imports merged ###")
 prepare_all_imports_merged(upheno_config)
 
 print("### Prepare master uPheno with no taxon restrictions for relation computation ###")
-prepare_upheno_ontology_no_taxon_restictions(upheno_config.is_overwrite_ontologies())
+prepare_upheno_ontology_no_taxon_restictions(upheno_config)
