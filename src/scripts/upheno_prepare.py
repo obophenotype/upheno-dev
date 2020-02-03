@@ -178,18 +178,20 @@ def prepare_all_imports_merged(config):
         robot_merge(imports, merged, TIMEOUT, robot_opts)
         remove_all_sources_of_unsatisfiability(merged,config.get_upheno_axiom_blacklist(),TIMEOUT,robot_opts)
 
-def prepare_upheno_ontology_no_taxon_restictions(overwrite=True):
+def prepare_upheno_ontology_no_taxon_restictions(config):
     global ontology_for_matching_dir
     imports = []
     upheno_ontology_no_taxon_restictions = os.path.join(module_dir, "upheno_ontology_no_taxon_restictions.owl")
+
 
     for id in upheno_config.get_phenotype_ontologies():
         imports.append(os.path.join(ontology_for_matching_dir, id + '.owl'))
 
     imports = list(set(imports))
 
-    if overwrite or not os.path.exists(upheno_ontology_no_taxon_restictions):
+    if config.is_overwrite_ontologies() or not os.path.exists(upheno_ontology_no_taxon_restictions):
         robot_merge(imports, upheno_ontology_no_taxon_restictions, TIMEOUT, robot_opts)
+        remove_all_sources_of_unsatisfiability(upheno_ontology_no_taxon_restictions, config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
 
 def write_phenotype_sparql(phenotype_root,phenotype_query):
 	sparql=[]
@@ -271,7 +273,8 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
         o_base = os.path.join(module_dir, fn)
         o_base_taxon = os.path.join(module_dir, oid + "-upheno-component.owl")
         preserve_eq = os.path.join(module_dir, "preserve_eq_" + fn)
-        rm(preserve_eq)
+        if os.path.exists(preserve_eq):
+            rm(preserve_eq)
 
         if not upheno_config.is_allow_non_upheno_eq():
             classes_with_matches(oid,preserve_eq)
@@ -285,6 +288,7 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
             remove_eqs_file = os.path.join(module_dir,oid+"-upheno-component_eq_remove.txt")
             remove_eqs = [upheno_config.get_root_phenotype(oid)]
             write_list_to_file(remove_eqs_file,remove_eqs)
+            robot_dump_disjoints(o_base_taxon, None, o_base_taxon, TIMEOUT, robot_opts)
             robot_upheno_component(o_base_taxon,remove_eqs_file)
 
 
