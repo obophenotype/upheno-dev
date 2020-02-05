@@ -265,7 +265,7 @@ def classes_with_matches(oid, preserve_eq):
             classes.extend(df['defined_class'])
     write_list_to_file(preserve_eq,list(set(classes)))
 
-def prepare_species_specific_phenotype_ontologies(overwrite=True):
+def prepare_species_specific_phenotype_ontologies(config):
     global upheno_config, module_dir, matches_dir, TIMEOUT, robot_opts
 
     for oid in upheno_config.get_phenotype_ontologies():
@@ -281,14 +281,14 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
         else:
             touch(preserve_eq)
 
-        if overwrite or not os.path.exists(o_base_taxon):
+        if config.is_overwrite_ontologies() or not os.path.exists(o_base_taxon):
             add_taxon_restrictions(o_base, o_base_taxon, upheno_config.get_taxon(oid),
                                    upheno_config.get_taxon_label(oid),
                                    upheno_config.get_prefix_iri(oid),preserve_eq)
             remove_eqs_file = os.path.join(module_dir,oid+"-upheno-component_eq_remove.txt")
             remove_eqs = [upheno_config.get_root_phenotype(oid)]
             write_list_to_file(remove_eqs_file,remove_eqs)
-            robot_dump_disjoints(o_base_taxon, None, o_base_taxon, TIMEOUT, robot_opts)
+            remove_all_sources_of_unsatisfiability(o_base_taxon, config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
             robot_upheno_component(o_base_taxon,remove_eqs_file)
 
 
@@ -369,7 +369,7 @@ print("### Matching phenotype ontologies against uPheno patterns ###")
 match_patterns(upheno_config,pattern_files, matches_dir, upheno_config.is_overwrite_matches())
 
 print("### Prepare phenotype ontology components for integration in uPheno ###")
-prepare_species_specific_phenotype_ontologies(upheno_config.is_overwrite_ontologies())
+prepare_species_specific_phenotype_ontologies(upheno_config)
 
 print("### Prepare master import file with all imports merged ###")
 prepare_all_imports_merged(upheno_config)
