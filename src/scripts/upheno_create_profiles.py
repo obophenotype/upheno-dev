@@ -12,7 +12,7 @@ import urllib.request
 from shutil import copyfile
 import pandas as pd
 from subprocess import check_call
-from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, robot_remove_axioms_that_could_cause_unsat, robot_children_list, robot_remove_terms, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
+from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, remove_all_sources_of_unsatisfiability, robot_remove_axioms_that_could_cause_unsat, robot_children_list, robot_remove_terms, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
 
 ### Configuration
 yaml.warnings({'YAMLLoadWarning': False})
@@ -515,7 +515,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
         robot_merge(upheno_intermediate_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
     
     print("Profile: Prepare upheno species specific layer")
-    if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_ontology):
+    if upheno_config.is_overwrite_ontologies() or not os.path.exists(upheno_species_components_ontology):
         robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts,ONTOLOGYIRI="http://upheno.com/upheno_species_components.owl")
 
     print("#####")
@@ -539,7 +539,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_prepare_ontology):
         robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
         robot_remove_terms(ontology_path=upheno_profile_prepare_ontology,remove_list=upheno_config.get_remove_blacklist(), ontology_removed_path=upheno_profile_prepare_ontology,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
-        robot_remove_axioms_that_could_cause_unsat(upheno_profile_prepare_ontology,upheno_profile_prepare_ontology,TIMEOUT,robot_opts)
+        remove_all_sources_of_unsatisfiability(upheno_profile_prepare_ontology,upheno_config.get_upheno_axiom_blacklist(),TIMEOUT,robot_opts)
         # TODO: Review this step!
     
     print("Profile: Preparing the full profile ontology (Step 2: Creating the release file (reasoning, labelling etc))")

@@ -14,7 +14,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, robot_remove_axioms_that_could_cause_unsat, dosdp_pattern_match, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
+from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, remove_all_sources_of_unsatisfiability, robot_remove_axioms_that_could_cause_unsat, dosdp_pattern_match, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
 warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
@@ -246,13 +246,6 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
             robot_class_hierarchy(merged_pheno,class_hierarchy_seed,o_base_class_hierarchy,upheno_config.is_inferred_class_hierarchy(id))
         if overwrite or not os.path.exists(phenotype_class_metadata):
             robot_query(merged_pheno,phenotype_class_metadata, phenotype_query, TIMEOUT, robot_opts)
-
-def remove_all_sources_of_unsatisfiability(o, blacklist_ontology, TIMEOUT, robot_opts):
-    robot_dump_disjoints(o, None, o, TIMEOUT, robot_opts)
-    robot_remove_mentions_of_nothing(o, o, TIMEOUT, robot_opts)
-    robot_remove_axioms_that_could_cause_unsat(o, o, TIMEOUT, robot_opts)
-    if os.path.exists(blacklist_ontology):
-        robot_remove_upheno_blacklist_and_classify(o, o, blacklist_ontology, TIMEOUT, robot_opts)
 
 def classes_with_matches(oid, preserve_eq):
     global matches_dir

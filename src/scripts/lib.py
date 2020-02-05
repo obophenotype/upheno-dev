@@ -205,6 +205,13 @@ def robot_remove_mentions_of_nothing(ontology_path, ontology_removed_path, TIMEO
         print(e.output)
         raise Exception("Removing mentions of nothing from " + ontology_path + " failed")
 
+def remove_all_sources_of_unsatisfiability(o, blacklist_ontology, TIMEOUT, robot_opts):
+    robot_dump_disjoints(o, None, o, TIMEOUT, robot_opts)
+    robot_remove_mentions_of_nothing(o, o, TIMEOUT, robot_opts)
+    robot_remove_axioms_that_could_cause_unsat(o, o, TIMEOUT, robot_opts)
+    if os.path.exists(blacklist_ontology):
+        robot_remove_upheno_blacklist_and_classify(o, o, blacklist_ontology, TIMEOUT, robot_opts)
+
 def robot_remove_axioms_that_could_cause_unsat(ontology_path, ontology_removed_path, TIMEOUT="3600", robot_opts="-v"):
     print("Removing axioms that could cause unsat from "+ontology_path+" and saving to "+ontology_removed_path)
     try:
