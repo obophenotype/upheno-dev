@@ -118,7 +118,7 @@ pipeline {
 							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
-							sh 'sh upheno_pipeline_jenkins.sh'
+							//sh 'sh upheno_pipeline_jenkins.sh'
 						}
 					}
 
