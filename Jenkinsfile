@@ -118,19 +118,15 @@ pipeline {
 							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
-							sh 'sh upheno_pipeline_jenkins.sh'
+							//sh 'sh upheno_pipeline_jenkins.sh'
 						}
 					}
 
 					// Move the products to somewhere "safe".
 					archiveArtifacts artifacts: "src/curation/tmp/*",
 					onlyIfSuccessful: false
-					//archiveArtifacts artifacts: "src/curation/upheno-release/all/*",
-					//onlyIfSuccessful: true
-					//archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp/*",
-					//onlyIfSuccessful: true
-					//archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp-dpo/*",
-					//onlyIfSuccessful: true
+					archiveArtifacts artifacts: "src/curation/upheno-release/*",
+					onlyIfSuccessful: true
 
 					// Now that the files are safely away onto skyhook for
 					// debugging, test for the core dump.
