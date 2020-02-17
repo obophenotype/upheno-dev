@@ -22,9 +22,8 @@ equivalent_class_table.csv: inferred_ontology.owl
 ../curation/upheno-release/%/upheno_species_lexical.csv: ../curation/upheno-release/%/upheno_all_with_relations.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype-classes-labels.sparql $@	
 
-../curation/upheno-release/%/upheno_mapping_lexical.csv: #../curation/upheno-release/all/upheno_species_lexical.csv ../curation/upheno-release/all/upheno_mapping_logical.csv
+../curation/upheno-release/%/upheno_mapping_lexical.csv: ../curation/upheno-release/all/upheno_species_lexical.csv ../curation/upheno-release/all/upheno_mapping_logical.csv
 	python3 ../scripts/lexical_mapping.py $*
-	echo "skip"
 
 ../curation/upheno-release/%/upheno_for_semantic_similarity_sub.owl: ../curation/upheno-release/%/upheno_mapping_lexical.csv
 	java -jar ../scripts/upheno-assertmatches.jar ../curation/upheno-release/$*/upheno_$*_with_relations.owl $@ $<
