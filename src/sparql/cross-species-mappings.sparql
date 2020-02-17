@@ -1,0 +1,10 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?p1 ?p1l ?p2 ?p2l WHERE 
+{
+  ?p1 <http://purl.obolibrary.org/obo/UPHENO_0000002> ?p2 .
+	?p1 rdfs:label ?p1l . 
+	?p2 rdfs:label ?p2l .
+}
+
