@@ -44,3 +44,8 @@ There are a few java dependencies of the uPheno 2 pipeline which can be found [h
 1. Add entry in upheno-config.yaml
 1. Make sure all dependencies are listed
 1. Add src/sparql/ont_terms.sparql
+
+## Obsoletion of ZFIN terms
+Some 
+1. Move entries from df_obsoletion_candidates.txt to obsolete.tsv (scr/templates)
+2. Remove all ZP rows from id_map_zfin.tsv

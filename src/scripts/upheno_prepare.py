@@ -14,7 +14,7 @@ import requests
 import pandas as pd
 import re
 from subprocess import check_call,CalledProcessError
-from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
+from lib import cdir, rm, touch, uPhenoConfig,write_list_to_file, remove_all_sources_of_unsatisfiability, robot_remove_axioms_that_could_cause_unsat, dosdp_pattern_match, robot_query, robot_extract_seed,robot_upheno_component, robot_extract_module, robot_class_hierarchy, robot_merge, robot_dump_disjoints,robot_remove_upheno_blacklist_and_classify, robot_remove_mentions_of_nothing
 
 ### Configuration
 warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
@@ -39,6 +39,7 @@ cdir(pattern_dir)
 cdir(matches_dir)
 cdir(module_dir)
 cdir(ontology_for_matching_dir)
+cdir(stats_dir)
 
 sparql_dir = os.path.join(ws,"sparql/")
 xref_pattern = os.path.join(ws,"patterns/dosdp-patterns/xrefToSubClass.yaml")
@@ -63,7 +64,7 @@ def robot_xrefs(oid, mapto, mapping_file):
 
     try:
         # Extracting xrefs from ontology to table
-        check_call(['timeout','-t', TIMEOUT, 'robot', 'query', robot_opts, '--use-graphs', 'true', '-f', 'tsv', '--input',
+        check_call(['timeout', TIMEOUT, 'robot', 'query', robot_opts, '--use-graphs', 'true', '-f', 'tsv', '--input',
                     ontology_path, '--query', sparql_xrefs, xref_table])
 
         # Doing a bit of preprocessing on the SPARQL result: renaming columns, removing <> signs
@@ -79,7 +80,7 @@ def robot_xrefs(oid, mapto, mapping_file):
             print(xref_table, " is empty and has been skipped.")
 
         # DOSDP generate the xrefs as subsumptions
-        check_call(['timeout','-t', TIMEOUT, 'dosdp-tools','generate','--infile='+xref_table,'--template='+xref_pattern,'--obo-prefixes=true','--restrict-axioms-to=logical','--outfile='+mapping_file])
+        check_call(['timeout', TIMEOUT, 'dosdp-tools','generate','--infile='+xref_table,'--template='+xref_pattern,'--obo-prefixes=true','--restrict-axioms-to=logical','--outfile='+mapping_file])
     except Exception as e:
         print(e.output)
         raise Exception("Xref generation of" + ontology_path + " failed")
@@ -90,7 +91,7 @@ def robot_convert_merge(ontology_url, ontology_merged_path):
     print("Convert/Merging "+ontology_url+" to "+ontology_merged_path)
     global TIMEOUT, robot_opts
     try:
-        check_call(['timeout','-t',TIMEOUT,'robot', 'merge',robot_opts,'-I', ontology_url,'convert', '--output', ontology_merged_path])
+        check_call(['timeout',TIMEOUT,'robot', 'merge',robot_opts,'-I', ontology_url,'convert', '--output', ontology_merged_path])
     except Exception as e:
         print(e)
         raise Exception("Loading " + ontology_url + " failed")
@@ -163,32 +164,53 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
             filenames.append(filename)
     return filenames
 
-def prepare_all_imports_merged(overwrite=True):
+def prepare_all_imports_merged(config):
     imports = []
     merged = os.path.join(module_dir, 'upheno-allimports-merged.owl')
 
-    for id in upheno_config.get_phenotype_ontologies():
-        for dependency in upheno_config.get_dependencies(id):
-            imports.append(upheno_config.get_file_location(dependency))
+    for id in config.get_phenotype_ontologies():
+        for dependency in config.get_dependencies(id):
+            imports.append(config.get_file_location(dependency))
 
     imports = list(set(imports))
 
-    if overwrite or not os.path.exists(merged):
+    if config.is_overwrite_ontologies() or not os.path.exists(merged):
         robot_merge(imports, merged, TIMEOUT, robot_opts)
-    
-    
-def prepare_upheno_ontology_no_taxon_restictions(overwrite=True):
+        remove_all_sources_of_unsatisfiability(merged,config.get_upheno_axiom_blacklist(),TIMEOUT,robot_opts)
+
+def prepare_upheno_ontology_no_taxon_restictions(config):
     global ontology_for_matching_dir
     imports = []
     upheno_ontology_no_taxon_restictions = os.path.join(module_dir, "upheno_ontology_no_taxon_restictions.owl")
+
 
     for id in upheno_config.get_phenotype_ontologies():
         imports.append(os.path.join(ontology_for_matching_dir, id + '.owl'))
 
     imports = list(set(imports))
 
-    if overwrite or not os.path.exists(upheno_ontology_no_taxon_restictions):
+    if config.is_overwrite_ontologies() or not os.path.exists(upheno_ontology_no_taxon_restictions):
         robot_merge(imports, upheno_ontology_no_taxon_restictions, TIMEOUT, robot_opts)
+        remove_all_sources_of_unsatisfiability(upheno_ontology_no_taxon_restictions, config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
+
+def write_phenotype_sparql(phenotype_root,phenotype_query):
+	sparql=[]
+	sparql.append("prefix owl: <http://www.w3.org/2002/07/owl#>")
+	sparql.append("prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>")
+	sparql.append("prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>")
+	sparql.append("")
+	sparql.append("SELECT ?s ?lab ?ldef WHERE ")
+	sparql.append("{")
+	sparql.append("?s rdfs:subClassOf* <{}> . ".format(phenotype_root))
+	sparql.append("OPTIONAL { ?s rdfs:label ?lab }")
+	sparql.append("OPTIONAL { ?s owl:equivalentClass [ rdf:type owl:Restriction ;")
+	sparql.append("owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;")
+	sparql.append("owl:someValuesFrom ?ldef ] . }")
+	sparql.append("}")
+	outF = open(phenotype_query, "w")
+	for line in sparql:
+		outF.write(line+"\n")
+	outF.close()
 
 def prepare_phenotype_ontologies_for_matching(overwrite=True):
     global upheno_config, sparql_terms, ontology_for_matching_dir, TIMEOUT, robot_opts
@@ -209,25 +231,7 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         disjoints_term_file = os.path.join(module_dir, "disjoints_removal.txt")
         write_list_to_file(disjoints_term_file,upheno_config.get_remove_disjoints())
         phenotype_query=os.path.join(sparql_dir,id+"_phenotypes.sparql")
-        if overwrite or not os.path.exists(phenotype_query):
-            phenotype_root = upheno_config.get_root_phenotype(id)
-            sparql=[]
-            sparql.append("prefix owl: <http://www.w3.org/2002/07/owl#>")
-            sparql.append("prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>")
-            sparql.append("prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>")
-            sparql.append("")
-            sparql.append("SELECT ?s ?lab ?ldef WHERE ")
-            sparql.append("{")
-            sparql.append("?s rdfs:subClassOf* <{}> . ".format(phenotype_root))
-            sparql.append("OPTIONAL { ?s rdfs:label ?lab }")
-            sparql.append("OPTIONAL { ?s owl:equivalentClass [ rdf:type owl:Restriction ;")
-            sparql.append("owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;")
-            sparql.append("owl:someValuesFrom ?ldef ] . }")
-            sparql.append("}")
-            outF = open(phenotype_query, "w")
-            for line in sparql:
-                outF.write(line+"\n")
-            outF.close()
+        write_phenotype_sparql(upheno_config.get_root_phenotype(id),phenotype_query)
         if overwrite or not os.path.exists(module):
             robot_extract_seed(filename, seed, sparql_terms, TIMEOUT, robot_opts)
             robot_merge(imports, merged, TIMEOUT, robot_opts)
@@ -235,16 +239,14 @@ def prepare_phenotype_ontologies_for_matching(overwrite=True):
         if overwrite or not os.path.exists(merged_pheno):
             ontology_for_matching = [module, filename]
             robot_merge(ontology_for_matching, merged_pheno, TIMEOUT, robot_opts)
-            robot_dump_disjoints(merged_pheno,None,merged_pheno,TIMEOUT,robot_opts)
-            robot_remove_mentions_of_nothing(merged_pheno,merged_pheno,TIMEOUT,robot_opts)
-            robot_remove_upheno_blacklist_and_classify(merged_pheno, merged_pheno,upheno_config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
+            remove_all_sources_of_unsatisfiability(merged_pheno,upheno_config.get_upheno_axiom_blacklist(),TIMEOUT,robot_opts)
         if overwrite or not os.path.exists(o_base_class_hierarchy):
             sparql_terms_class_hierarchy = os.path.join(sparql_dir, id+"_terms.sparql")
             robot_extract_seed(filename, class_hierarchy_seed, sparql_terms_class_hierarchy, TIMEOUT, robot_opts)
             robot_class_hierarchy(merged_pheno,class_hierarchy_seed,o_base_class_hierarchy,upheno_config.is_inferred_class_hierarchy(id))
         if overwrite or not os.path.exists(phenotype_class_metadata):
             robot_query(merged_pheno,phenotype_class_metadata, phenotype_query, TIMEOUT, robot_opts)
-        
+
 def classes_with_matches(oid, preserve_eq):
     global matches_dir
     o_matches_dir = os.path.join(matches_dir, oid)
@@ -256,7 +258,7 @@ def classes_with_matches(oid, preserve_eq):
             classes.extend(df['defined_class'])
     write_list_to_file(preserve_eq,list(set(classes)))
 
-def prepare_species_specific_phenotype_ontologies(overwrite=True):
+def prepare_species_specific_phenotype_ontologies(config):
     global upheno_config, module_dir, matches_dir, TIMEOUT, robot_opts
 
     for oid in upheno_config.get_phenotype_ontologies():
@@ -264,20 +266,22 @@ def prepare_species_specific_phenotype_ontologies(overwrite=True):
         o_base = os.path.join(module_dir, fn)
         o_base_taxon = os.path.join(module_dir, oid + "-upheno-component.owl")
         preserve_eq = os.path.join(module_dir, "preserve_eq_" + fn)
-        rm(preserve_eq)
+        if os.path.exists(preserve_eq):
+            rm(preserve_eq)
 
         if not upheno_config.is_allow_non_upheno_eq():
             classes_with_matches(oid,preserve_eq)
         else:
             touch(preserve_eq)
 
-        if overwrite or not os.path.exists(o_base_taxon):
+        if config.is_overwrite_ontologies() or not os.path.exists(o_base_taxon):
             add_taxon_restrictions(o_base, o_base_taxon, upheno_config.get_taxon(oid),
                                    upheno_config.get_taxon_label(oid),
                                    upheno_config.get_prefix_iri(oid),preserve_eq)
             remove_eqs_file = os.path.join(module_dir,oid+"-upheno-component_eq_remove.txt")
             remove_eqs = [upheno_config.get_root_phenotype(oid)]
             write_list_to_file(remove_eqs_file,remove_eqs)
+            remove_all_sources_of_unsatisfiability(o_base_taxon, config.get_upheno_axiom_blacklist(), TIMEOUT, robot_opts)
             robot_upheno_component(o_base_taxon,remove_eqs_file)
 
 
@@ -286,37 +290,26 @@ def match_patterns(upheno_config,pattern_files,matches_dir, overwrite=True):
     for pattern_path in pattern_files:
         for id in upheno_config.get_phenotype_ontologies():
             ontology_path = os.path.join(ontology_for_matching_dir,id+".owl")
-            dosdp_pattern_match(ontology_path,pattern_path,matches_dir, overwrite)
-
-def dosdp_pattern_match(ontology_path, pattern_path, matches_dir, overwrite=True):
-    print("Matching " + ontology_path + " to " + pattern_path)
-    global TIMEOUT
-    try:
-        oid = os.path.basename(ontology_path).replace(".owl","")
-        pid = os.path.basename(pattern_path).replace(".yaml", ".tsv")
-        outdir = os.path.join(matches_dir,oid)
-        if not os.path.exists(outdir):
-            os.makedirs(outdir)
-        out_tsv = os.path.join(outdir,pid)
-        if overwrite or not os.path.exists(out_tsv):
-            check_call(['timeout','-t', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
-        else:
-            print("Match already made, bypassing.")
-    except CalledProcessError as e:
-        print(e.output)
+            oid = os.path.basename(ontology_path).replace(".owl", "")
+            pid = os.path.basename(pattern_path).replace(".yaml", ".tsv")
+            outdir = os.path.join(matches_dir, oid)
+            if not os.path.exists(outdir):
+                os.makedirs(outdir)
+            out_tsv = os.path.join(outdir, pid)
+            if overwrite or not os.path.exists(out_tsv):
+                dosdp_pattern_match(ontology_path,pattern_path,out_tsv, TIMEOUT)
+            else:
+                print("Match ({}) already made, bypassing.".format(out_tsv))
 
 def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,taxon_label,root_phenotype,preserve_eq):
     print("Extracting fillers from "+ontology_path)
     global TIMEOUT,upheno_config, legal_iri_patterns_path, legal_pattern_vars_path
     try:
-        check_call(['timeout','-t',TIMEOUT,'java', upheno_config.get_robot_java_args(), '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype, preserve_eq])
+        check_call(['timeout',TIMEOUT,'java', upheno_config.get_robot_java_args(), '-jar',java_taxon, ontology_path, ontology_out_path, taxon_restriction, taxon_label, root_phenotype, preserve_eq])
     except Exception as e:
         print(e.output)
         raise Exception("Appending taxon restrictions" + ontology_path + " failed")
 
-
-def list_files(directory, extension):
-    return (f for f in os.listdir(directory) if f.endswith('.' + extension))
 
 def download_sources(dir,overwrite=True):
     global upheno_config
@@ -350,6 +343,8 @@ if upheno_config.is_clean_dir():
     os.makedirs(ontology_for_matching_dir)
     shutil.rmtree(module_dir)
     os.makedirs(module_dir)
+    shutil.rmtree(stats_dir)
+    os.makedirs(stats_dir)
 
 
 print("### Download patterns ###")
@@ -367,10 +362,10 @@ print("### Matching phenotype ontologies against uPheno patterns ###")
 match_patterns(upheno_config,pattern_files, matches_dir, upheno_config.is_overwrite_matches())
 
 print("### Prepare phenotype ontology components for integration in uPheno ###")
-prepare_species_specific_phenotype_ontologies(upheno_config.is_overwrite_ontologies())
+prepare_species_specific_phenotype_ontologies(upheno_config)
 
 print("### Prepare master import file with all imports merged ###")
-prepare_all_imports_merged(upheno_config.is_overwrite_ontologies())
+prepare_all_imports_merged(upheno_config)
 
 print("### Prepare master uPheno with no taxon restrictions for relation computation ###")
-prepare_upheno_ontology_no_taxon_restictions(upheno_config.is_overwrite_ontologies())
+prepare_upheno_ontology_no_taxon_restictions(upheno_config)
