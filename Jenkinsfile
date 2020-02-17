@@ -73,6 +73,7 @@ pipeline {
 				sh 'docker pull obolibrary/odkfull:latest'
 				// Start preparing environment.
 				sh 'env > env.txt'
+				sh 'rm ../curation/upheno-stats/*'
 				sh 'echo $BRANCH_NAME > branch.txt'
 				sh 'echo "$BRANCH_NAME"'
 				sh 'cat env.txt'
@@ -97,7 +98,6 @@ pipeline {
 			steps {
 				// Create a relative working directory and setup our
 				// data environment.
-				sh 'rm ../curation/upheno-stats/*'
 				sh 'env > env.txt'
 				sh 'cat env.txt'
 				sh 'pwd'
