@@ -109,28 +109,35 @@ pipeline {
 					// Default namespace.
 					// sh 'OBO=http://purl.obolibrary.org/obo'
 
-					dir('./src/scripts') {
-						retry(1){
-							sh 'pwd'
-							sh 'ls'
-							sh 'ls ../curation'
-							//sh 'ls ../curation/tmp'
-							//sh 'ls /work'
-							sh 'env > env.txt'
-							sh 'cat env.txt'
-							sh 'sh upheno_pipeline_jenkins.sh'
-						}
+				// dir('./src/scripts') {
+					// retry(1){
+					// 	sh 'pwd'
+					// 	sh 'ls'
+					// 	sh 'ls ../curation'
+					// 	//sh 'ls ../curation/tmp'
+					// 	//sh 'ls /work'
+					// 	sh 'env > env.txt'
+					// 	sh 'cat env.txt'
+					// 	//sh 'sh upheno_pipeline_jenkins.sh'
+					// }
+				// }
+				dir('./src/ontology') {
+					retry(1){
+						sh 'ls ../curation/upheno-release'
+						sh 'ls ../curation/upheno-release/all'
+						sh 'make sim -B'
 					}
+				}
 
 					// Move the products to somewhere "safe".
 					archiveArtifacts artifacts: "src/curation/tmp/*",
 					onlyIfSuccessful: false
-					//archiveArtifacts artifacts: "src/curation/upheno-release/all/*",
-					//onlyIfSuccessful: true
-					//archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp/*",
-					//onlyIfSuccessful: true
-					//archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp-dpo/*",
-					//onlyIfSuccessful: true
+					archiveArtifacts artifacts: "src/curation/upheno-release/all/*",
+					onlyIfSuccessful: true
+					archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp/*",
+					onlyIfSuccessful: true
+					archiveArtifacts artifacts: "src/curation/upheno-release/mp-hp-dpo/*",
+					onlyIfSuccessful: true
 
 					// Now that the files are safely away onto skyhook for
 					// debugging, test for the core dump.

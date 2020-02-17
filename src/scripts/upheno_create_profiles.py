@@ -12,7 +12,7 @@ import urllib.request
 from shutil import copyfile
 import pandas as pd
 from subprocess import check_call
-from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, robot_children_list, robot_remove_terms, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
+from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, remove_all_sources_of_unsatisfiability, robot_remove_axioms_that_could_cause_unsat, robot_children_list, robot_remove_terms, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
 
 ### Configuration
 yaml.warnings({'YAMLLoadWarning': False})
@@ -375,23 +375,22 @@ def get_taxon_restriction_table(ids):
     df.columns = ['defined_class','taxon','taxon_label','modifier']
     return df
 
-def create_common_upheno_classes(upheno_core_ontology, manual_tsv_files,allimports_dosdp):
+def create_upheno_core_manual_phenotypes(manual_tsv_files,allimports_dosdp):
     global upheno_patterns_data_manual_dir,upheno_patterns_dir, TIMEOUT, robot_opts, upheno_prepare_dir
-    if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
-        ontologies = []
-        for pattern_tsv in os.listdir(upheno_patterns_data_manual_dir):
-            if pattern_tsv.endswith(".tsv"):
-                print(pattern_tsv)
-                pattern_tsv_file = os.path.join(upheno_patterns_data_manual_dir, pattern_tsv)
-                manual_tsv_files.append(pattern_tsv_file)
-                pattern_file_name = pattern_tsv.replace(".tsv", ".yaml")
-                pattern_ontology_name = pattern_tsv.replace(".tsv", ".owl")
-                upheno_pattern_file = os.path.join(upheno_patterns_dir, pattern_file_name)
-                ontology_file = os.path.join(upheno_prepare_dir, pattern_ontology_name)
-                if overwrite_dosdp_upheno or not os.path.exists(ontology_file):
-                    dosdp_generate(upheno_pattern_file,pattern_tsv_file,ontology_file,False,TIMEOUT,ONTOLOGY=allimports_dosdp)
-                ontologies.append(ontology_file)
-        robot_merge(ontologies,upheno_core_ontology, TIMEOUT, robot_opts)
+    ontologies = []
+    for pattern_tsv in os.listdir(upheno_patterns_data_manual_dir):
+        if pattern_tsv.endswith(".tsv"):
+            print(pattern_tsv)
+            pattern_tsv_file = os.path.join(upheno_patterns_data_manual_dir, pattern_tsv)
+            manual_tsv_files.append(pattern_tsv_file)
+            pattern_file_name = pattern_tsv.replace(".tsv", ".yaml")
+            pattern_ontology_name = pattern_tsv.replace(".tsv", ".owl")
+            upheno_pattern_file = os.path.join(upheno_patterns_dir, pattern_file_name)
+            ontology_file = os.path.join(upheno_prepare_dir, pattern_ontology_name)
+            if overwrite_dosdp_upheno or not os.path.exists(ontology_file):
+                dosdp_generate(upheno_pattern_file,pattern_tsv_file,ontology_file,False,TIMEOUT,ONTOLOGY=allimports_dosdp)
+            ontologies.append(ontology_file)
+    return ontologies
 
 
 ### Methods end
@@ -399,7 +398,8 @@ def create_common_upheno_classes(upheno_core_ontology, manual_tsv_files,allimpor
 
 ### Run
 
-print("Preparing all imports merged ontology for DOSDP extraction.")
+print("Preparing a dictionary for DOSDP extraction from the all imports merged ontology.")
+# Used to loop up labels in the pattern generation process, so maybe I dont need anything other than rdfs:label?
 if upheno_config.is_overwrite_ontologies() or not os.path.exists(allimports_dosdp):
     robot_prepare_ontology_for_dosdp(allimports_merged,allimports_dosdp,sparql_terms,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
 
@@ -426,13 +426,19 @@ upheno_map.sort_values("defined_class", inplace=True)
 upheno_map.to_csv(upheno_id_map, sep='\t', index=False)
 #sys.exit("Intermediadte test stop")
 
-print("Rewriting owl:Thing in DOSDP files (should be unnecessary, review).")
+print("Rewriting owl:Thing in DOSDP files (should be unnecessary, review https://github.com/INCATools/dosdp-tools/issues/154).")
 replace_owl_thing_in_tsvs(pattern_dir)
 
 print("Generating uPheno core (part of uPheno common to all profiles).")
+# Extra axioms, upheno relations, the manually curated intermediate phenotypes part of the upheno repo
 manual_tsv_files = [] #the tsv files are generally being kept track of to generate seeds for the profile import modules later
-create_common_upheno_classes(upheno_core_ontology, manual_tsv_files,allimports_dosdp)
-
+upheno_core_parts = []
+upheno_core_parts.append(upheno_extra_axioms_ontology)
+upheno_core_parts.append(upheno_relations_ontology)
+upheno_core_manual_phenotypes = create_upheno_core_manual_phenotypes(manual_tsv_files,allimports_dosdp)
+upheno_core_parts.extend(upheno_core_manual_phenotypes)
+if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
+    robot_merge(upheno_core_parts,upheno_core_ontology, TIMEOUT, robot_opts)
 
 print("Generating uPheno profiles..")
 # Generate uPheno profiles
@@ -509,7 +515,7 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
         robot_merge(upheno_intermediate_ontologies, upheno_layer_ontology, TIMEOUT, robot_opts)
     
     print("Profile: Prepare upheno species specific layer")
-    if overwrite_dosdp_upheno or not os.path.exists(upheno_species_components_ontology):
+    if upheno_config.is_overwrite_ontologies() or not os.path.exists(upheno_species_components_ontology):
         robot_merge(species_components, upheno_species_components_ontology, TIMEOUT, robot_opts,ONTOLOGYIRI="http://upheno.com/upheno_species_components.owl")
 
     print("#####")
@@ -529,12 +535,11 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     upheno_profile.append(upheno_species_components_ontology)
     upheno_profile.append(upheno_species_components_dependencies_ontology)
     upheno_profile.append(upheno_layer_ontology)
-    upheno_profile.append(upheno_extra_axioms_ontology)
-    upheno_profile.append(upheno_relations_ontology)
 
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_prepare_ontology):
         robot_merge(upheno_profile, upheno_profile_prepare_ontology, TIMEOUT, robot_opts)
         robot_remove_terms(ontology_path=upheno_profile_prepare_ontology,remove_list=upheno_config.get_remove_blacklist(), ontology_removed_path=upheno_profile_prepare_ontology,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
+        remove_all_sources_of_unsatisfiability(upheno_profile_prepare_ontology,upheno_config.get_upheno_axiom_blacklist(),TIMEOUT,robot_opts)
         # TODO: Review this step!
     
     print("Profile: Preparing the full profile ontology (Step 2: Creating the release file (reasoning, labelling etc))")
