@@ -2,7 +2,7 @@
 DIR=../curation/tmp
 ONTOLOGIES=hp mp wbphenotype xpo
 ONTOLOGY_FILES = $(patsubst %, $(DIR)/%.owl, $(ONTOLOGIES))
-OWLTOOLS=owltools
+OWLTOOLS=OWLTOOLS_MEMORY=80G owltools --no-logging 
 
 merged_ontology.owl: $(ONTOLOGY_FILES)
 	$(ROBOT) merge $(patsubst %, -i %, $^) -o $@
