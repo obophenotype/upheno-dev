@@ -97,6 +97,7 @@ pipeline {
 			steps {
 				// Create a relative working directory and setup our
 				// data environment.
+				sh 'rm ../curation/upheno-stats/*'
 				sh 'env > env.txt'
 				sh 'cat env.txt'
 				sh 'pwd'
