@@ -125,7 +125,7 @@ pipeline {
 					retry(1){
 						sh 'ls ../curation/upheno-release'
 						sh 'ls ../curation/upheno-release/all'
-						sh 'make sim -B'
+						//sh 'make sim -B'
 					}
 				}
 
