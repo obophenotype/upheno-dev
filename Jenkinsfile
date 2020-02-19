@@ -49,7 +49,7 @@ pipeline {
 		// possible.
 		MAKECMD = 'make'
 		// Control the ROBOT environment.
-		ROBOT_JAVA_ARGS = '-Xmx120G'
+		ROBOT_JAVA_ARGS = '-Xmx150G'
 	}
 	options{
 		//timestamps()
@@ -125,7 +125,7 @@ pipeline {
 					retry(1){
 						sh 'ls ../curation/upheno-release'
 						sh 'ls ../curation/upheno-release/all'
-						//sh 'make sim -B'
+						sh 'make sim -B'
 					}
 				}
 
