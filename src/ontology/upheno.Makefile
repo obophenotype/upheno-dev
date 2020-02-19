@@ -32,7 +32,7 @@ HP_DL=$(TMPDIR)/Hs_disease_labels.txt
 ZP_G2P=$(TMPDIR)/Dr_gene_phenotype.txt
 ZP_GL=$(TMPDIR)/Dr_gene_labels.txt
 
-download_sources: directories
+download_sources:
 	if ! [ -f $(MP_G2P) ]; then wget $(URL_MP_G2P) -O $(MP_G2P); fi
 	if ! [ -f $(MP_GL) ]; then wget $(URL_MP_GL) -O $(MP_GL); fi
 	if ! [ -f $(HP_D2P) ]; then wget $(URL_HP_D2P) -O $(HP_D2P); fi
