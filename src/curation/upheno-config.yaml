@@ -269,6 +269,7 @@ sources:
       - zfa-cl
       - bspo-cl
       - caro-cl
+      - cl
   - id: dpo
     mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
     root: http://purl.obolibrary.org/obo/FBcv_0001347

@@ -1,2 +1,2 @@
-defined_class	defined_class_name	modifier
-http://purl.obolibrary.org/obo/UPHENO_0001001	Phenotype	http://purl.obolibrary.org/obo/PATO_0000001
+defined_class	defined_class_name	bearer
+http://purl.obolibrary.org/obo/UPHENO_0001001	Phenotype	owl:Thing

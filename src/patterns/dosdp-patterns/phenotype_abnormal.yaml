@@ -1,5 +1,5 @@
-pattern_name: phenotype
-pattern_iri: http://purl.obolibrary.org/obo/upheno/phenotype.yaml
+pattern_name: phenotype_abnormal
+pattern_iri: http://purl.obolibrary.org/obo/upheno/phenotype_abnormal.yaml
 description: "The top level phenotype (not taxon-restricted)."
 
 contributors:
@@ -7,6 +7,7 @@ contributors:
   
 classes:
   quality: PATO:0000001
+  abnormal: PATO:0000001
   bearer: owl:Thing
 
 relations: 
@@ -15,14 +16,14 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  bearer: "'bearer'"
+  modifier: "'modifier'"
 
 name:
-  text: "Phenotype, %s"
+  text: "abnormal %s"
   vars:
    - bearer
 
 equivalentTo:
-  text: "'has_part' some ('quality' and ('inheres_in_part_of' some %s))"
+  text: "'has_part' some ('quality' and ('inheres_in_part_of' some 'bearer') and ('has_modifier' some 'abnormal'))"
   vars:
    - bearer
