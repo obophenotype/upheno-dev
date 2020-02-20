@@ -1,0 +1,9 @@
+http://purl.obolibrary.org/obo/CL_0000540PHENOTYPE
+http://purl.obolibrary.org/obo/CL_0000573PHENOTYPE
+http://purl.obolibrary.org/obo/CL_0001035PHENOTYPE
+http://purl.obolibrary.org/obo/MPATH_160PHENOTYPE
+http://purl.obolibrary.org/obo/NBO_0000056PHENOTYPE
+http://purl.obolibrary.org/obo/NBO_0000097PHENOTYPE
+http://purl.obolibrary.org/obo/NBO_0000607PHENOTYPE
+http://purl.obolibrary.org/obo/NBO_0000747PHENOTYPE
+http://purl.obolibrary.org/obo/SO0000340PHENOTYPE
