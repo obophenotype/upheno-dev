@@ -7,7 +7,7 @@ contributors:
   
 classes:
   quality: PATO:0000001
-  abnormal: PATO:0000001
+  abnormal: PATO:0000460
   bearer: owl:Thing
 
 relations: 
