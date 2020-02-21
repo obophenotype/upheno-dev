@@ -77,6 +77,9 @@ pipeline {
 				sh 'echo "$BRANCH_NAME"'
 				sh 'cat env.txt'
 				sh 'cat branch.txt'
+				sh 'pwd'
+				sh 'ls -l src/curation'
+				//sh 'chown -R jenkins:jenkins someDir'
 				sh 'echo $START_DAY > dow.txt'
 				sh 'echo "$START_DAY"'
 				archiveArtifacts artifacts: "env.txt"
