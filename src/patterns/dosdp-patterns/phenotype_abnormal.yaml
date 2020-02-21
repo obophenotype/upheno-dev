@@ -16,7 +16,7 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  modifier: "'modifier'"
+  bearer: "'bearer'"
 
 name:
   text: "abnormal %s"
