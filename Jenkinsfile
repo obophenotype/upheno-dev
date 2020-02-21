@@ -78,6 +78,7 @@ pipeline {
 				sh 'cat env.txt'
 				sh 'cat branch.txt'
 				sh 'pwd'
+				sh 'ls -l /var/lib/jenkins/workspace/upheno2'
 				sh 'ls -l src/curation'
 				//sh 'chown -R jenkins:jenkins someDir'
 				sh 'echo $START_DAY > dow.txt'
