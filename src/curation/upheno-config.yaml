@@ -172,7 +172,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
     taxon: http://purl.obolibrary.org/obo/UPHENO_MP
     taxon_label: MPO
-    modifier: PATO:0000460
+    modifier: False
     root: http://purl.obolibrary.org/obo/MP_0000001
     prefix_iri: http://purl.obolibrary.org/obo/MP_
     class_hierarchy: asserted
@@ -255,7 +255,7 @@ sources:
     prefix_iri: http://purl.obolibrary.org/obo/ZP_
     taxon: http://purl.obolibrary.org/obo/UPHENO_ZP
     taxon_label: ZPO
-    modifier: PATO:0000460
+    modifier: False
     dependencies:
       - zfa
       - chebi
@@ -276,7 +276,7 @@ sources:
     prefix_iri: http://purl.obolibrary.org/obo/FBcv_
     taxon: http://purl.obolibrary.org/obo/UPHENO_DPO
     taxon_label: DPO
-    modifier: PATO:0000460
+    modifier: False
     dependencies:
       - fbdv
       - fbbt
@@ -292,7 +292,7 @@ sources:
     prefix_iri: http://purl.obolibrary.org/obo/FYPO_
     taxon: http://purl.obolibrary.org/obo/UPHENO_FYPO
     taxon_label: FYPO
-    modifier: PATO:0000460
+    modifier: False
     dependencies:
       - chebi
       - cl
@@ -313,7 +313,7 @@ sources:
     prefix_iri: http://purl.obolibrary.org/obo/PHIPO_
     taxon: http://purl.obolibrary.org/obo/UPHENO_PHIPO
     taxon_label: PHIPO
-    modifier: PATO:0000460
+    modifier: False
     dependencies:
       - ido
       - chebi

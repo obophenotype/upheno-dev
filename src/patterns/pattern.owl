@@ -8,17 +8,19 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITAXON_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/UPHENO_9000005>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
@@ -29,13 +31,29 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> (Phenotype, 'modifier')
+# Class: <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> (phenotype, 'bearer')
 
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> "phenotype"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> "'taxon' Phenotype, 'modifier'"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> "Phenotype, 'modifier'"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/NCBITAXON_1>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>))))
-EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>))))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> "phenotype, 'bearer'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> ('bearer' phenotype, 'modifier')
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> "phenotype_modified"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> "'bearer' phenotype, 'modifier'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> ('bearer' phenotype, 'taxon')
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> "phenotype_taxon"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> "'bearer' phenotype, 'taxon'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/UPHENO_9000005> owl:Thing))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> ('bearer' phenotype, 'taxon', 'modifier')
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> "phenotype_taxon_modified"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> "'bearer' phenotype, 'taxon', 'modifier'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/UPHENO_9000005> owl:Thing))))
 
 # Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml> (<http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml>)
 

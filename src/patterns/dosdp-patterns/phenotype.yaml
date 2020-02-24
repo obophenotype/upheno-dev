@@ -18,7 +18,7 @@ vars:
   bearer: "'bearer'"
 
 name:
-  text: "Phenotype, %s"
+  text: "phenotype, %s"
   vars:
    - bearer
 

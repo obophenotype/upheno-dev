@@ -67,6 +67,7 @@ sparql_uberon_terms = os.path.join(ws, "sparql/uberon_terms.sparql")
 phenotype_classes_sparql = os.path.join(ws, "sparql/phenotype_classes.sparql")
 phenotype_pattern = os.path.join(ws,"patterns/dosdp-patterns/phenotype.yaml")
 phenotype_pattern_taxon = os.path.join(ws,"patterns/dosdp-patterns/phenotype_taxon.yaml")
+phenotype_pattern_taxon_modified = os.path.join(ws,"patterns/dosdp-patterns/phenotype_taxon_modified.yaml")
 allimports_merged = os.path.join(raw_ontologies_dir, 'upheno-allimports-merged.owl')
 allimports_dosdp = os.path.join(raw_ontologies_dir, 'upheno-allimports-dosdp.owl')
 upheno_components_dir = os.path.join(upheno_ontology_dir,"components/")
@@ -373,6 +374,7 @@ def get_taxon_restriction_table(ids):
     d = upheno_config.get_taxon_restriction_table(ids)
     df = pd.DataFrame.from_records(d)
     df.columns = ['defined_class','taxon','taxon_label','modifier']
+    df['bearer']="owl:Thing"
     return df
 
 def create_upheno_core_manual_phenotypes(manual_tsv_files,allimports_dosdp):
@@ -457,12 +459,20 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
 
     print("Create all top level phenotypes relevant to this profile (SSPO top level classes)")
     upheno_top_level_phenotypes_ontology = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes.owl")
+    upheno_top_level_phenotypes_modified_ontology = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes_modified.owl")
+    upheno_top_level_phenotypes_non_modified_ontology = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes_non_modified.owl")
     phenotype_tsv = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes.tsv")
+    phenotype_modified_tsv = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes_modified.tsv")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_top_level_phenotypes_ontology):
-        print(str(get_taxon_restriction_table(oids)))
-        get_taxon_restriction_table(oids).to_csv(phenotype_tsv, sep='\t', index=False)
-        dosdp_generate(phenotype_pattern_taxon, phenotype_tsv, upheno_top_level_phenotypes_ontology, RESTRICT_LOGICAL=True, TIMEOUT=TIMEOUT,ONTOLOGY=allimports_dosdp)
-
+        df_tr = get_taxon_restriction_table(oids)
+        print(str(df_tr))
+        df_tr_no_modifier = df_tr[~df_tr['modifier']]
+        df_tr_modifier = df_tr[df_tr['modifier']]
+        df_tr_no_modifier.to_csv(phenotype_tsv, sep='\t', index=False)
+        df_tr_modifier.to_csv(phenotype_modified_tsv, sep='\t', index=False)
+        dosdp_generate(phenotype_pattern_taxon, phenotype_tsv, upheno_top_level_phenotypes_non_modified_ontology, RESTRICT_LOGICAL=True, TIMEOUT=TIMEOUT,ONTOLOGY=allimports_dosdp)
+        dosdp_generate(phenotype_pattern_taxon_modified, phenotype_modified_tsv, upheno_top_level_phenotypes_modified_ontology, RESTRICT_LOGICAL=True, TIMEOUT=TIMEOUT,ONTOLOGY=allimports_dosdp)
+        robot_merge([upheno_top_level_phenotypes_non_modified_ontology,upheno_top_level_phenotypes_modified_ontology], upheno_top_level_phenotypes_ontology, TIMEOUT, robot_opts)
     # upheno_intermediate_ontologies contains all the files that will be merged together to form the
     # intermediate (i.e. uPheno) layer of this profile, including the core, top-level and upheno-class component
     upheno_intermediate_ontologies = []
