@@ -465,9 +465,11 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     phenotype_modified_tsv = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes_modified.tsv")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_top_level_phenotypes_ontology):
         df_tr = get_taxon_restriction_table(oids)
-        print(str(df_tr))
+        df_tr['modifier'] = df_tr['modifier'].astype(str)
         df_tr_no_modifier = df_tr[df_tr['modifier']=="False"]
+        print(str(df_tr_no_modifier[['defined_class','bearer','modifier']]))
         df_tr_modifier = df_tr[df_tr['modifier']!="False"]
+        print(str(df_tr_modifier[['defined_class','bearer','modifier']]))
         df_tr_no_modifier.to_csv(phenotype_tsv, sep='\t', index=False)
         df_tr_modifier.to_csv(phenotype_modified_tsv, sep='\t', index=False)
         dosdp_generate(phenotype_pattern_taxon, phenotype_tsv, upheno_top_level_phenotypes_non_modified_ontology, RESTRICT_LOGICAL=True, TIMEOUT=TIMEOUT,ONTOLOGY=allimports_dosdp)
