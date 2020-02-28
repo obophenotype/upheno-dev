@@ -26,7 +26,7 @@ ws = upheno_config.get_working_directory()
 robot_opts=upheno_config.get_robot_opts()
 
 pattern_dir = os.path.join(ws,"curation/patterns-for-matching/")
-stats_dir = os.path.join(ws,"curation/upheno-stats/")
+stats_dir = os.path.join(ws,"curation/upheno-stats2/")
 matches_dir = os.path.join(ws,"curation/pattern-matches/")
 
 
@@ -66,3 +66,4 @@ print("")
 print("How many uPheno conformant classes that do not have EQs (bug!!)?")
 print(df_pheno[df_pheno['upheno'] & (~df_pheno['eq'])])
 print(df_pheno[df_pheno['upheno']][['s','eq']].groupby('eq').count())
+#df_pheno.to_csv("all.csv")

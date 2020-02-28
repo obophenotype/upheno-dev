@@ -154,8 +154,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
   - id: fbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl
-  - id: zfa-cl
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-zfa.owl
   - id: xao-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-xao.owl
   - id: wbbt-cl
@@ -232,7 +230,7 @@ sources:
       - caro-cl
       - caro
   - id: planp
-    mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
+    mirror_from: http://purl.obolibrary.org/obo/planp/planp.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
     prefix_iri: http://purl.obolibrary.org/obo/PLANP_
     taxon: http://purl.obolibrary.org/obo/UPHENO_PLANP
@@ -255,7 +253,7 @@ sources:
     prefix_iri: http://purl.obolibrary.org/obo/ZP_
     taxon: http://purl.obolibrary.org/obo/UPHENO_ZP
     taxon_label: ZPO
-    modifier: False
+    modifier: PATO:0000460
     dependencies:
       - zfa
       - chebi
@@ -266,7 +264,6 @@ sources:
       - bspo-uberon
       - caro-uberon
       - caro
-      - zfa-cl
       - bspo-cl
       - caro-cl
       - cl

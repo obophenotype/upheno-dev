@@ -50,6 +50,7 @@ upheno_patterns_data_manual_dir = os.path.join(ws,"patterns/data/default/")
 upheno_patterns_dir = os.path.join(ws,"patterns/dosdp-patterns/")
 upheno_ontology_dir = os.path.join(ws,"ontology/")
 
+
 cdir(pattern_dir)
 cdir(matches_dir)
 cdir(upheno_fillers_dir)
@@ -65,6 +66,7 @@ java_relationships = os.path.join(ws,'scripts/upheno-relationship-augmentation.j
 sparql_terms = os.path.join(ws, "sparql/terms.sparql")
 sparql_uberon_terms = os.path.join(ws, "sparql/uberon_terms.sparql")
 phenotype_classes_sparql = os.path.join(ws, "sparql/phenotype_classes.sparql")
+terms_without_labels_sparql = os.path.join(ws, "sparql/terms_without_labels.sparql")
 phenotype_pattern = os.path.join(ws,"patterns/dosdp-patterns/phenotype.yaml")
 phenotype_pattern_taxon = os.path.join(ws,"patterns/dosdp-patterns/phenotype_taxon.yaml")
 phenotype_pattern_taxon_modified = os.path.join(ws,"patterns/dosdp-patterns/phenotype_taxon_modified.yaml")
@@ -556,7 +558,9 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
     
     print("Profile: Preparing the full profile ontology (Step 2: Creating the release file (reasoning, labelling etc))")
     if overwrite_dosdp_upheno or not os.path.exists(upheno_profile_ontology):
-        robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts)
+        remove_terms = os.path.join(final_upheno_combo_dir, "upheno_removed_classes_without_labels.txt")
+        robot_query(upheno_profile_prepare_ontology,remove_terms, terms_without_labels_sparql, TIMEOUT, robot_opts)
+        robot_upheno_release([upheno_profile_prepare_ontology], upheno_profile_ontology,upheno_combination_id, TIMEOUT, robot_opts,remove_terms)
     #sys.exit("Stopping just after generating first round.")
 
     print("Profile: Creating uPheno addons - compute extra relations.")
