@@ -15,27 +15,10 @@ ls -l ../curation
 #rm -f ../curation/tmp/upheno-allimports-merged.owl
 #rm -f ../curation/tmp/upheno-allimports-dosdp.owl
 
-#python3 upheno_prepare.py ../curation/upheno-config.yaml
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
+python3 upheno_prepare.py ../curation/upheno-config.yaml
 
 python3 upheno_create_profiles.py ../curation/upheno-config.yaml
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
 
 python3 upheno-stats.py ../curation/upheno-config.yaml
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
-echo "WARNING WARNING PREPARE SKIPPED"
+
 
