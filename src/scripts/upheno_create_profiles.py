@@ -12,7 +12,7 @@ import urllib.request
 from shutil import copyfile
 import pandas as pd
 from subprocess import check_call
-from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, remove_all_sources_of_unsatisfiability, robot_remove_axioms_that_could_cause_unsat, robot_children_list, robot_remove_terms, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
+from lib import uPhenoConfig, cdir,write_list_to_file, robot_extract_module, remove_all_sources_of_unsatisfiability, robot_query, robot_remove_axioms_that_could_cause_unsat, robot_children_list, robot_remove_terms, robot_prepare_ontology_for_dosdp, robot_extract_seed, robot_merge, dosdp_generate, robot_upheno_release, dosdp_extract_pattern_seed
 
 ### Configuration
 yaml.warnings({'YAMLLoadWarning': False})
