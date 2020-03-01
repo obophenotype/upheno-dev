@@ -39,3 +39,4 @@ src/scripts/scratch.py
 src/scripts/pattern_match0.sh
 src/scripts/upheno_all_with_relations.owl
 src/scripts/upheno_all_with_relations_mod.owl
+src/curation/upheno_release/all/upheno_old_metazoa.owl
