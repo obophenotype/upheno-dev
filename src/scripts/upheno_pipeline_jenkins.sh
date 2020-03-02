@@ -22,13 +22,16 @@ echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
-python3 upheno_create_profiles.py ../curation/upheno-config.yaml
+#python3 upheno_create_profiles.py ../curation/upheno-config.yaml
 
-python3 upheno-stats.py ../curation/upheno-config.yaml
+#python3 upheno-stats.py ../curation/upheno-config.yaml
 echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
+
+cd ../ontology
+make sim
 
