@@ -40,35 +40,124 @@ download_sources:
 	if ! [ -f $(ZP_G2P) ]; then wget $(URL_ZP_G2P) -O $(ZP_G2P); fi
 	if ! [ -f $(ZP_GL) ]; then wget $(URL_ZP_GL) -O $(ZP_GL); fi
 
-../curation/upheno-release/%/upheno_mapping_lexical.csv: ../curation/upheno-release/all/upheno_species_lexical.csv ../curation/upheno-release/all/upheno_mapping_logical.csv
-	python3 ../scripts/lexical_mapping.py $*
 
-../curation/upheno-release/%/upheno_for_semantic_similarity_sub.owl: ../curation/upheno-release/%/upheno_mapping_lexical.csv
-	java -jar ../scripts/upheno-assertmatches.jar ../curation/upheno-release/$*/upheno_$*_with_relations.owl $@ $<
 
-../curation/upheno-release/%/upheno_for_semantic_similarity.owl: ../curation/upheno-release/%/upheno_for_semantic_similarity_sub.owl
-	$(ROBOT) merge -i ../curation/upheno-release/$*/upheno_$*_with_relations.owl -i $< \
-		reason --reasoner ELK --remove-redundant-subclass-axioms false \
-		filter --select "self parents" --axioms "SubClassOf EquivalentClasses" --trim false --preserve-structure false -o tmp_$@
-	$(OWLTOOLS) tmp_$@ $(MP_G2P) $(HP_D2P) $(ZP_G2P) --merge-imports-closure --load-instances $(MP_G2P) --load-labels $(MP_GL) --merge-support-ontologies -o $@
-	rm tmp_$@
+#../curation/upheno-release/%/upheno_phenodigm_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
+#	$(OWLTOOLS) $< --sim-save-phenodigm-class-scores -m 2.5 -x HP,MP -a $@
 
-../curation/upheno-release/%/upheno_phenodigm_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
-	$(OWLTOOLS) $< --sim-save-phenodigm-class-scores -m 2.5 -x HP,MP -a $@
-
-../curation/upheno-release/%/upheno_jaccard_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
-	$(OWLTOOLS) $< --make-default-abox --fsim-compare-atts -p ../curation/upheno-sim.properties -o $@
-
-sim: download_sources ../curation/upheno-release/all/upheno_phenodigm_similarity.tsv
+#../curation/upheno-release/%/upheno_jaccard_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
+#	$(OWLTOOLS) $< --make-default-abox --fsim-compare-atts -p ../curation/upheno-sim.properties -o $@
 
 #../curation/upheno-release/%/upheno_all_with_relations.ttl: ../curation/upheno-release/%/upheno_all_with_relations.owl
 #	$(ROBOT) convert -i $< -o $@
 
 #ttl: ../curation/upheno-release/all/upheno_all_with_relations.ttl
-	
+upheno_mapping_lexical_%: ../curation/upheno-release/all/upheno_species_lexical.csv ../curation/upheno-release/all/upheno_mapping_logical.csv
+	python3 ../scripts/lexical_mapping.py $*
+	#echo "SKIP upheno_mapping_lexical_"
+
 .SECONDEXPANSION:
 ../curation/upheno-release/%/upheno_mapping_logical.csv: ../curation/upheno-release/$$*/upheno_$$*_with_relations.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
+	#echo "SKIP upheno_mapping_logical"
 
 ../curation/upheno-release/%/upheno_species_lexical.csv: ../curation/upheno-release/$$*/upheno_$$*_with_relations.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype-classes-labels.sparql $@
+	#echo "SKIP upheno_species_lexical"
+
+../curation/upheno-release/%/upheno_labels.owl: ../curation/upheno-release/$$*/upheno_$$*_with_relations.owl
+	$(ROBOT) filter -i $< \
+		--term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
+		--select "self descendants annotations" \
+		filter --term rdfs:label --trim false -o $@
+	#echo "SKIP upheno_labels"
+	
+../curation/upheno-release/%/upheno_special_labels.owl: ../curation/upheno-release/%/upheno_old_metazoa.owl
+	$(ROBOT) query -i $< --query ../sparql/construct_phenotype_iri_labels.sparql $@
+	# echo "SKIP upheno_special_labels"
+
+../curation/upheno-release/%/upheno_incl_lexical.owl: ../curation/upheno-release/$$*/upheno_$$*_with_relations.owl upheno_mapping_lexical_$$*
+	$(ROBOT) template -i $< --merge-before --template ../curation/upheno-release/$*/upheno_mapping_lexical_template.csv \
+    annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+	#echo "SKIP upheno_species_lexical"
+.PRECIOUS: ../curation/upheno-release/%/upheno_incl_lexical.owl
+
+../curation/upheno-release/%/upheno_equivalence_model.owl: ../curation/upheno-release/%/upheno_incl_lexical.owl
+	#echo "SKIP upheno_equivalence_model_semsim"
+	$(ROBOT) query -i $< --update ../sparql/upheno-equivalence-model.ru --output $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: ../curation/upheno-release/%/upheno_equivalence_model.owl
+
+../curation/upheno-release/%/upheno_equivalence_model_semsim.owl: ../curation/upheno-release/%/upheno_equivalence_model.owl ../curation/upheno-release/%/upheno_labels.owl
+	#echo "SKIP upheno_equivalence_model_semsim"
+	$(ROBOT) merge -i $< \
+	  reason \
+	    --reasoner ELK \
+	  filter \
+	    --term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
+	    --select "self descendants equivalents" \
+		merge -i ../curation/upheno-release/$*/upheno_labels.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+	    --output $@
+
+../curation/upheno-release/%/upheno_lattice_model_subs.owl: ../curation/upheno-release/%/upheno_mapping_lexical.csv
+	java -jar ../scripts/upheno-assertmatches.jar $< $@ ../curation/upheno-release/$*/upheno_mapping_lexical.csv
+	#echo "Skip upheno_lattice_model_subs"
+
+
+../curation/upheno-release/%/upheno_lattice_model.owl: ../curation/upheno-release/%/upheno_incl_lexical.owl ../curation/upheno-release/%/upheno_lattice_model_subs.owl
+	$(ROBOT) merge -i $< -i ../curation/upheno-release/$*/upheno_lattice_model_subs.owl -o $@
+	# echo "Skip upheno_lattice_model_subs"
+.PRECIOUS: ../curation/upheno-release/%/upheno_lattice_model.owl
+
+../curation/upheno-release/%/upheno_lattice_model_semsim.owl: ../curation/upheno-release/%/upheno_lattice_model.owl ../curation/upheno-release/%/upheno_labels.owl
+	#echo "Skip upheno_lattice_model_semsim"
+	$(ROBOT) merge -i $< \
+		reason \
+			--reasoner ELK \
+		filter \
+			--term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
+			--select "self descendants equivalents" \
+		merge -i ../curation/upheno-release/all/upheno_labels.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+	    --output $@
+
+../curation/upheno-release/all/upheno_old_metazoa.owl:
+	$(ROBOT) merge --input-iri http://purl.obolibrary.org/obo/upheno/metazoa.owl -o $@
+	#echo "skip upheno_old_metazoa"
+
+../curation/upheno-release/all/upheno_old_metazoa_semsim.owl: ../curation/upheno-release/all/upheno_old_metazoa.owl ../curation/upheno-release/all/upheno_labels.owl ../curation/upheno-release/all/upheno_special_labels.owl
+	#echo "SKIP upheno_old_metazoa_semsim"
+	$(ROBOT) remove -i $< --axioms DisjointClasses \
+	 remove --axioms DisjointUnion \
+	 remove --axioms DifferentIndividuals \
+	 remove --axioms NegativeObjectPropertyAssertion \
+	 remove --axioms NegativeDataPropertyAssertion \
+	 remove --axioms FunctionalObjectProperty \
+	 remove --axioms InverseFunctionalObjectProperty \
+	 remove --axioms ReflexiveObjectProperty \
+	 remove --axioms IrrefexiveObjectProperty \
+	 remove --axioms DisjointObjectProperties \
+	 remove --axioms FunctionalDataProperty \
+	 remove --axioms DisjointDataProperties \
+	 remove --term owl:Nothing \
+	 remove --axioms "annotation" \
+	 reason --reasoner ELK \
+	 filter \
+	    --term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
+	    --select "self descendants equivalents" \
+	 merge -i ../curation/upheno-release/all/upheno_labels.owl \
+	 merge -i ../curation/upheno-release/all/upheno_special_labels.owl \
+	 annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+	 -o $@
+
+../curation/upheno-release/all/upheno_%_jaccard.tsv: ../curation/upheno-release/all/upheno_%_semsim.owl
+	java -jar ../scripts/upheno-semanticsimilarity.jar $< ../curation/tmp/mp-class-hierarchy.txt ../curation/tmp/hp-class-hierarchy.txt "http://purl.obolibrary.org/obo/UPHENO_0001001" $@
+
+o: ../curation/upheno-release/all/upheno_old_metazoa_semsim.owl ../curation/upheno-release/all/upheno_lattice_model_semsim.owl ../curation/upheno-release/all/upheno_equivalence_model_semsim.owl
+
+sim: ../curation/upheno-release/all/upheno_old_metazoa_jaccard.tsv ../curation/upheno-release/all/upheno_lattice_model_jaccard.tsv ../curation/upheno-release/all/upheno_equivalence_model_jaccard.tsv
+
+
+t:
+	$(ROBOT) filter -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/small_insulin_test.owl \
+		merge -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/smalltest.owl -o rm_test.owl

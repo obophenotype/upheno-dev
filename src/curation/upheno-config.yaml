@@ -339,11 +339,6 @@ upheno_profiles:
     species_modules:
     - mp
     - hp
-  - id: mp-hp-dpo
-    species_modules:
-    - mp
-    - hp
-    - dpo
   - id: all
     species_modules:
     - mp
