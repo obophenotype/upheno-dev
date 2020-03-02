@@ -280,7 +280,7 @@ w.to_csv(upheno_mapping_problematic,index=False)
 df_mapping_template = df_mapping[['p1','p2']].copy()
 df_mapping_template.columns = ['Ontology ID','EquivalentClasses']
 
-df_mapping_template.loc[-1] = ['ID', 'EC %']  # adding a row
+df_mapping_template.loc[-1] = ['ID', 'AI obo:UPHENO_0000002']  # adding a row
 df_mapping_template.index = df_mapping_template.index + 1  # shifting index
 df_mapping_template.sort_index(inplace=True) 
 
