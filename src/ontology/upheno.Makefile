@@ -151,7 +151,7 @@ upheno_mapping_lexical_%: ../curation/upheno-release/all/upheno_species_lexical.
 	 -o $@
 
 ../curation/upheno-release/all/upheno_%_jaccard.tsv: ../curation/upheno-release/all/upheno_%_semsim.owl
-	java -jar ../scripts/upheno-semanticsimilarity.jar $< ../curation/tmp/mp-class-hierarchy.txt ../curation/tmp/hp-class-hierarchy.txt "http://purl.obolibrary.org/obo/UPHENO_0001001" $@
+	java -jar ../scripts/upheno-semanticsimilarity.jar $< ../curation/tmp/mp-class-hierarchy.txt ../curation/tmp/hp-class-hierarchy.txt "http://purl.obolibrary.org/obo/UPHENO_0001001" $@ nm
 
 o: ../curation/upheno-release/all/upheno_old_metazoa_semsim.owl ../curation/upheno-release/all/upheno_lattice_model_semsim.owl ../curation/upheno-release/all/upheno_equivalence_model_semsim.owl
 
