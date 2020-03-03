@@ -99,7 +99,7 @@ upheno_mapping_lexical_all: ../curation/upheno-release/all/upheno_species_lexica
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 	    --output $@
 
-../curation/upheno-release/all/upheno_lattice_model_subs.owl: ../curation/upheno-release/all/upheno_mapping_lexical.csv
+../curation/upheno-release/all/upheno_lattice_model_subs.owl: ../curation/upheno-release/all/upheno_incl_lexical.owl ../curation/upheno-release/all/upheno_mapping_lexical.csv
 	java -jar ../scripts/upheno-assertmatches.jar $< $@ ../curation/upheno-release/all/upheno_mapping_lexical.csv
 	#echo "Skip upheno_lattice_model_subs"
 
