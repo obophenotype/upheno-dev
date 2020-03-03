@@ -34,4 +34,5 @@ echo "PREPARESKIPPED"
 
 cd ../ontology
 make sim
+scp -r ../curation/upheno-release/ monarch@monarch-ttl-prod:/var/www/data/upheno/
 
