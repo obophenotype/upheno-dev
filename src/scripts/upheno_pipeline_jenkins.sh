@@ -33,6 +33,6 @@ echo "PREPARESKIPPED"
 echo "PREPARESKIPPED"
 
 cd ../ontology
-make sim
-scp -r ../curation/upheno-release/ monarch@monarch-ttl-prod:/var/www/data/upheno/
+#make sim
+#scp -r ../curation/upheno-release/ monarch@monarch-ttl-prod:/var/www/data/upheno/
 
