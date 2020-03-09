@@ -9,7 +9,7 @@ robot_opts: -vv
 robot_java_args: -Xmx80G
 timeout_external_processes: 500m
 working_directory: /var/lib/jenkins/workspace/upheno2@2/src
-overwrite_matches: False
+overwrite_matches: True
 skip_pattern_download: True
 max_upheno_id: 9999999
 min_upheno_id: 500
