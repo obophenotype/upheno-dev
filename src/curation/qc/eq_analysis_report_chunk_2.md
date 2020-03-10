@@ -1,1877 +1,51 @@
 
-# 'increased circulating cholesterol level' (http://purl.obolibrary.org/obo/MP_0005178)
+# 'photosensitivity' (http://purl.obolibrary.org/obo/MP_0001999)
 
 * 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('LIPID MAPS'  
-         and ('part_of' some 'blood')))  
+    ('photosensitive'  
+     and ('inheres in' some 'camera-type eye')  
      and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased circulating cholesterol level'
-   * Anatomy phenotype 'increased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005145>) is subclass of process phenotype 'increased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005178>) 
-   * Anatomy phenotype 'increased circulating LDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0000182>) is subclass of process phenotype 'increased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005178>) 
-   * Anatomy phenotype 'increased circulating HDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0001556>) is subclass of process phenotype 'increased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005178>) 
-   * Process phenotype 'increased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005145>) is subclass of anatomy phenotype 'increased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005178>) 
-   * Process phenotype 'increased circulating LDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0000182>) is subclass of anatomy phenotype 'increased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005178>) 
-   * Process phenotype 'increased circulating HDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0001556>) is subclass of anatomy phenotype 'increased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005178>) 
+* Summary of Process Sub ME violations for 'photosensitivity'
+   * Process phenotype 'photophobia' (<http://purl.obolibrary.org/obo/MP_0013787>) is subclass of anatomy phenotype 'photosensitivity' (<http://purl.obolibrary.org/obo/MP_0001999>) 
 
 
-# 'decreased circulating cholesterol level' (http://purl.obolibrary.org/obo/MP_0005179)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some   
-        ('LIPID MAPS'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased circulating cholesterol level'
-   * Anatomy phenotype 'decreased circulating HDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0000186>) is subclass of process phenotype 'decreased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005179>) 
-   * Anatomy phenotype 'decreased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005146>) is subclass of process phenotype 'decreased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005179>) 
-   * Anatomy phenotype 'decreased circulating LDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0000183>) is subclass of process phenotype 'decreased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005179>) 
-   * Process phenotype 'decreased circulating HDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0000186>) is subclass of anatomy phenotype 'decreased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005179>) 
-   * Process phenotype 'decreased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005146>) is subclass of anatomy phenotype 'decreased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005179>) 
-   * Process phenotype 'decreased circulating LDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0000183>) is subclass of anatomy phenotype 'decreased circulating cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005179>) 
-
-
-# 'abnormal tail pigmentation' (http://purl.obolibrary.org/obo/MP_0005174)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some   
-        ('pigmentation'  
-         and ('occurs in' some 'tail skin')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal tail pigmentation'
-   * Anatomy phenotype 'non-pigmented tail tip' (<http://purl.obolibrary.org/obo/MP_0005175>) is subclass of process phenotype 'abnormal tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0005174>) 
-   * Anatomy phenotype 'increased tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0011276>) is subclass of process phenotype 'abnormal tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0005174>) 
-   * Anatomy phenotype 'decreased tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0011277>) is subclass of process phenotype 'abnormal tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0005174>) 
-   * Process phenotype 'non-pigmented tail tip' (<http://purl.obolibrary.org/obo/MP_0005175>) is subclass of anatomy phenotype 'abnormal tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0005174>) 
-   * Process phenotype 'increased tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0011276>) is subclass of anatomy phenotype 'abnormal tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0005174>) 
-   * Process phenotype 'decreased tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0011277>) is subclass of anatomy phenotype 'abnormal tail pigmentation' (<http://purl.obolibrary.org/obo/MP_0005174>) 
-
-
-# 'abnormal male meiosis' (http://purl.obolibrary.org/obo/MP_0005169)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some 'male meiotic nuclear division')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal male meiosis'
-   * Anatomy phenotype 'arrest of male meiosis' (<http://purl.obolibrary.org/obo/MP_0008261>) is subclass of process phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) 
-   * Anatomy phenotype 'abnormal X-Y chromosome synaptonemal complex assembly during male meiosis' (<http://purl.obolibrary.org/obo/MP_0011752>) is subclass of process phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) 
-   * Anatomy phenotype 'abnormal X-Y chromosome synapsis during male meiosis' (<http://purl.obolibrary.org/obo/MP_0011751>) is subclass of process phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) 
-   * Process phenotype 'arrest of male meiosis' (<http://purl.obolibrary.org/obo/MP_0008261>) is subclass of anatomy phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) 
-   * Process phenotype 'abnormal X-Y chromosome synaptonemal complex assembly during male meiosis' (<http://purl.obolibrary.org/obo/MP_0011752>) is subclass of anatomy phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) 
-   * Process phenotype 'abnormal X-Y chromosome synapsis during male meiosis' (<http://purl.obolibrary.org/obo/MP_0011751>) is subclass of anatomy phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) 
-
-
-# 'abnormal female meiosis' (http://purl.obolibrary.org/obo/MP_0005168)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some 'female meiotic nuclear division')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal female meiosis'
-   * Anatomy phenotype 'abnormal female meiosis I arrest' (<http://purl.obolibrary.org/obo/MP_0010767>) is subclass of process phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) 
-   * Anatomy phenotype 'parthenogenesis' (<http://purl.obolibrary.org/obo/MP_0009443>) is subclass of process phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) 
-   * Process phenotype 'abnormal female meiosis I arrest' (<http://purl.obolibrary.org/obo/MP_0010767>) is subclass of anatomy phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) 
-   * Process phenotype 'parthenogenesis' (<http://purl.obolibrary.org/obo/MP_0009443>) is subclass of anatomy phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) 
-
-
-# 'hematuria' (http://purl.obolibrary.org/obo/MP_0005161)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('erythrocyte'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'hematuria'
-   * Anatomy phenotype 'erythrocyturia' (<http://purl.obolibrary.org/obo/MP_0011419>) is subclass of process phenotype 'hematuria' (<http://purl.obolibrary.org/obo/MP_0005161>) 
-   * Process phenotype 'erythrocyturia' (<http://purl.obolibrary.org/obo/MP_0011419>) is subclass of anatomy phenotype 'hematuria' (<http://purl.obolibrary.org/obo/MP_0005161>) 
-
-
-# 'increased lung apoptosis' (http://purl.obolibrary.org/obo/MP_0030002)
-
-* 'has_part' some   
-    ('increased rate'  
-     and ('inheres in part of' some   
-        ('apoptotic process'  
-         and ('occurs in' some 'lung')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased lung apoptosis'
-   * Anatomy phenotype 'increased lung endothelial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0011141>) is subclass of process phenotype 'increased lung apoptosis' (<http://purl.obolibrary.org/obo/MP_0030002>) 
-   * Process phenotype 'increased lung endothelial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0011141>) is subclass of anatomy phenotype 'increased lung apoptosis' (<http://purl.obolibrary.org/obo/MP_0030002>) 
-
-
-# 'abnormal B cell proliferation' (http://purl.obolibrary.org/obo/MP_0005153)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'B cell proliferation')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal B cell proliferation'
-   * Anatomy phenotype 'increased B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005154>) is subclass of process phenotype 'abnormal B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005153>) 
-   * Anatomy phenotype 'decreased B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005093>) is subclass of process phenotype 'abnormal B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005153>) 
-   * Process phenotype 'increased B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005154>) is subclass of anatomy phenotype 'abnormal B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005153>) 
-   * Process phenotype 'decreased B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005093>) is subclass of anatomy phenotype 'abnormal B cell proliferation' (<http://purl.obolibrary.org/obo/MP_0005153>) 
-
-
-# 'diffuse hepatic necrosis' (http://purl.obolibrary.org/obo/MP_0005151)
-
-* 'has_part' some   
-    ('distributed'  
-     and ('inheres in part of' some   
-        ('necrotic cell death'  
-         and ('occurs in' some 'liver')))  
-     and ('has modifier' some 'abnormal'))
-* Phenotype with a pysical quality that inheres in a process: 'diffuse hepatic necrosis'
-
-# 'abnormal circulating VLDL cholesterol level' (http://purl.obolibrary.org/obo/MP_0005144)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('very-low-density lipoprotein cholesterol'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating VLDL cholesterol level'
-   * Anatomy phenotype 'increased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005145>) is subclass of process phenotype 'abnormal circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005144>) 
-   * Anatomy phenotype 'decreased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005146>) is subclass of process phenotype 'abnormal circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005144>) 
-   * Process phenotype 'increased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005145>) is subclass of anatomy phenotype 'abnormal circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005144>) 
-   * Process phenotype 'decreased circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005146>) is subclass of anatomy phenotype 'abnormal circulating VLDL cholesterol level' (<http://purl.obolibrary.org/obo/MP_0005144>) 
-
-
-# 'decreased cardiac muscle contractility' (http://purl.obolibrary.org/obo/MP_0005140)
-
-* 'has_part' some   
-    ('decreased rate'  
-     and ('inheres in part of' some 'cardiac muscle contraction')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased cardiac muscle contractility'
-   * Anatomy phenotype 'decreased ventricle muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005598>) is subclass of process phenotype 'decreased cardiac muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005140>) 
-   * Process phenotype 'decreased ventricle muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005598>) is subclass of anatomy phenotype 'decreased cardiac muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005140>) 
-
-
-# 'decreased muscle cell glucose uptake' (http://purl.obolibrary.org/obo/MP_0030022)
-
-* 'has_part' some   
-    ('decreased rate'  
-     and ('inheres in part of' some   
-        ('glucose import'  
-         and ('occurs in' some 'muscle cell')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased muscle cell glucose uptake'
-   * Anatomy phenotype 'decreased cardiac cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030020>) is subclass of process phenotype 'decreased muscle cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030022>) 
-   * Process phenotype 'decreased cardiac cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030020>) is subclass of anatomy phenotype 'decreased muscle cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030022>) 
-
-
-# 'increased muscle cell glucose uptake' (http://purl.obolibrary.org/obo/MP_0030021)
-
-* 'has_part' some   
-    ('increased rate'  
-     and ('inheres in part of' some   
-        ('glucose import'  
-         and ('occurs in' some 'muscle cell')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased muscle cell glucose uptake'
-   * Anatomy phenotype 'increased cardiac cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030018>) is subclass of process phenotype 'increased muscle cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030021>) 
-   * Process phenotype 'increased cardiac cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030018>) is subclass of anatomy phenotype 'increased muscle cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030021>) 
-
-
-# 'abnormal retinal pigmentation' (http://purl.obolibrary.org/obo/MP_0005103)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some   
-        ('pigmentation'  
-         and ('occurs in' some 'pigmented layer of retina')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal retinal pigmentation'
-   * Anatomy phenotype 'abnormal retinal melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0010190>) is subclass of process phenotype 'abnormal retinal pigmentation' (<http://purl.obolibrary.org/obo/MP_0005103>) 
-   * Process phenotype 'abnormal retinal melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0010190>) is subclass of anatomy phenotype 'abnormal retinal pigmentation' (<http://purl.obolibrary.org/obo/MP_0005103>) 
-
-
-# 'abnormal periorbital region morphology' (http://purl.obolibrary.org/obo/MP_0030038)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'periorbital region')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal periorbital region morphology'
-   * Process phenotype 'periorbital edema' (<http://purl.obolibrary.org/obo/MP_0001788>) is subclass of anatomy phenotype 'abnormal periorbital region morphology' (<http://purl.obolibrary.org/obo/MP_0030038>) 
-
-
-# 'abnormal iris pigmentation' (http://purl.obolibrary.org/obo/MP_0005102)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some   
-        ('pigmentation'  
-         and ('occurs in' some 'iris')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal iris pigmentation'
-   * Anatomy phenotype 'abnormal iris stromal pigmentation' (<http://purl.obolibrary.org/obo/MP_0005541>) is subclass of process phenotype 'abnormal iris pigmentation' (<http://purl.obolibrary.org/obo/MP_0005102>) 
-   * Anatomy phenotype 'heterochromatic iridis' (<http://purl.obolibrary.org/obo/MP_0006160>) is subclass of process phenotype 'abnormal iris pigmentation' (<http://purl.obolibrary.org/obo/MP_0005102>) 
-   * Process phenotype 'abnormal iris stromal pigmentation' (<http://purl.obolibrary.org/obo/MP_0005541>) is subclass of anatomy phenotype 'abnormal iris pigmentation' (<http://purl.obolibrary.org/obo/MP_0005102>) 
-   * Process phenotype 'heterochromatic iridis' (<http://purl.obolibrary.org/obo/MP_0006160>) is subclass of anatomy phenotype 'abnormal iris pigmentation' (<http://purl.obolibrary.org/obo/MP_0005102>) 
-
-
-# 'abnormal choroid pigmentation' (http://purl.obolibrary.org/obo/MP_0005100)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some   
-        ('pigmentation'  
-         and ('occurs in' some 'optic choroid')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal choroid pigmentation'
-   * Anatomy phenotype 'abnormal choroid melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0010191>) is subclass of process phenotype 'abnormal choroid pigmentation' (<http://purl.obolibrary.org/obo/MP_0005100>) 
-   * Process phenotype 'abnormal choroid melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0010191>) is subclass of anatomy phenotype 'abnormal choroid pigmentation' (<http://purl.obolibrary.org/obo/MP_0005100>) 
-
-
-# 'abnormal hyaline cartilage morphology' (http://purl.obolibrary.org/obo/MP_0006429)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'hyaline cartilage tissue')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal hyaline cartilage morphology'
-   * Process phenotype 'abnormal epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0006395>) is subclass of anatomy phenotype 'abnormal hyaline cartilage morphology' (<http://purl.obolibrary.org/obo/MP_0006429>) 
-
-
-# 'face hypoplasia' (http://purl.obolibrary.org/obo/MP_0030065)
-
-* 'has_part' some   
-    ('hypoplastic'  
-     and ('inheres in' some 'face')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'face hypoplasia'
-   * Process phenotype 'hemifacial hypoplasia' (<http://purl.obolibrary.org/obo/MP_0030100>) is subclass of anatomy phenotype 'face hypoplasia' (<http://purl.obolibrary.org/obo/MP_0030065>) 
-
-
-# 'increased foot pigmentation' (http://purl.obolibrary.org/obo/MP_0030051)
-
-* 'has_part' some   
-    ('increased rate'  
-     and ('inheres in' some   
-        ('pigmentation'  
-         and ('occurs in' some 'skin of pes')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased foot pigmentation'
-   * Anatomy phenotype 'increased foot pad pigmentation' (<http://purl.obolibrary.org/obo/MP_0000575>) is subclass of process phenotype 'increased foot pigmentation' (<http://purl.obolibrary.org/obo/MP_0030051>) 
-   * Process phenotype 'increased foot pad pigmentation' (<http://purl.obolibrary.org/obo/MP_0000575>) is subclass of anatomy phenotype 'increased foot pigmentation' (<http://purl.obolibrary.org/obo/MP_0030051>) 
-
-
-# 'abnormal forehead pigmentation' (http://purl.obolibrary.org/obo/MP_0030052)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some   
-        ('pigmentation'  
-         and ('occurs in' some 'skin of forehead')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal forehead pigmentation'
-   * Anatomy phenotype 'increased forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030053>) is subclass of process phenotype 'abnormal forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030052>) 
-   * Anatomy phenotype 'decreased forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030054>) is subclass of process phenotype 'abnormal forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030052>) 
-   * Process phenotype 'increased forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030053>) is subclass of anatomy phenotype 'abnormal forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030052>) 
-   * Process phenotype 'decreased forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030054>) is subclass of anatomy phenotype 'abnormal forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030052>) 
-
-
-# 'decreased T cell apoptosis' (http://purl.obolibrary.org/obo/MP_0006414)
-
-* 'has_part' some   
-    ('decreased rate'  
-     and ('inheres in part of' some 'T cell apoptotic process')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased T cell apoptosis'
-   * Anatomy phenotype 'decreased thymocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0009542>) is subclass of process phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-   * Anatomy phenotype 'decreased regulatory T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012189>) is subclass of process phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-   * Anatomy phenotype 'decreased cytotoxic T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012191>) is subclass of process phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-   * Anatomy phenotype 'decreased activation-induced cell death of T cells' (<http://purl.obolibrary.org/obo/MP_0010677>) is subclass of process phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-   * Process phenotype 'decreased thymocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0009542>) is subclass of anatomy phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-   * Process phenotype 'decreased regulatory T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012189>) is subclass of anatomy phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-   * Process phenotype 'decreased cytotoxic T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012191>) is subclass of anatomy phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-   * Process phenotype 'decreased activation-induced cell death of T cells' (<http://purl.obolibrary.org/obo/MP_0010677>) is subclass of anatomy phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) 
-
-
-# 'increased T cell apoptosis' (http://purl.obolibrary.org/obo/MP_0006413)
-
-* 'has_part' some   
-    ('increased rate'  
-     and ('inheres in part of' some 'T cell apoptotic process')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased T cell apoptosis'
-   * Anatomy phenotype 'increased regulatory T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012188>) is subclass of process phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-   * Anatomy phenotype 'increased thymocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0009541>) is subclass of process phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-   * Anatomy phenotype 'increased cytotoxic T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012190>) is subclass of process phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-   * Anatomy phenotype 'increased activation-induced cell death of T cells' (<http://purl.obolibrary.org/obo/MP_0010676>) is subclass of process phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-   * Process phenotype 'increased regulatory T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012188>) is subclass of anatomy phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-   * Process phenotype 'increased thymocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0009541>) is subclass of anatomy phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-   * Process phenotype 'increased cytotoxic T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012190>) is subclass of anatomy phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-   * Process phenotype 'increased activation-induced cell death of T cells' (<http://purl.obolibrary.org/obo/MP_0010676>) is subclass of anatomy phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) 
-
-
-# 'abnormal T cell apoptosis' (http://purl.obolibrary.org/obo/MP_0006412)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'T cell apoptotic process')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal T cell apoptosis'
-   * Anatomy phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) is subclass of process phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-   * Anatomy phenotype 'abnormal activation-induced cell death of T cells' (<http://purl.obolibrary.org/obo/MP_0010670>) is subclass of process phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-   * Anatomy phenotype 'abnormal thymocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0009258>) is subclass of process phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-   * Anatomy phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) is subclass of process phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-   * Process phenotype 'increased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006413>) is subclass of anatomy phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-   * Process phenotype 'abnormal activation-induced cell death of T cells' (<http://purl.obolibrary.org/obo/MP_0010670>) is subclass of anatomy phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-   * Process phenotype 'abnormal thymocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0009258>) is subclass of anatomy phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-   * Process phenotype 'decreased T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006414>) is subclass of anatomy phenotype 'abnormal T cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0006412>) 
-
-
-# 'abnormal common myeloid progenitor cell morphology' (http://purl.obolibrary.org/obo/MP_0006410)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'common myeloid progenitor')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal common myeloid progenitor cell morphology'
-   * Anatomy phenotype 'decreased common myeloid progenitor cell number' (<http://purl.obolibrary.org/obo/MP_0008813>) is subclass of process phenotype 'abnormal common myeloid progenitor cell morphology' (<http://purl.obolibrary.org/obo/MP_0006410>) 
-   * Anatomy phenotype 'increased common myeloid progenitor cell number' (<http://purl.obolibrary.org/obo/MP_0013891>) is subclass of process phenotype 'abnormal common myeloid progenitor cell morphology' (<http://purl.obolibrary.org/obo/MP_0006410>) 
-   * Process phenotype 'decreased common myeloid progenitor cell number' (<http://purl.obolibrary.org/obo/MP_0008813>) is subclass of anatomy phenotype 'abnormal common myeloid progenitor cell morphology' (<http://purl.obolibrary.org/obo/MP_0006410>) 
-   * Process phenotype 'increased common myeloid progenitor cell number' (<http://purl.obolibrary.org/obo/MP_0013891>) is subclass of anatomy phenotype 'abnormal common myeloid progenitor cell morphology' (<http://purl.obolibrary.org/obo/MP_0006410>) 
-
-
-# 'abnormal face shape' (http://purl.obolibrary.org/obo/MP_0030071)
-
-* 'has_part' some   
-    ('shape'  
-     and ('inheres in' some 'face')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal face shape'
-   * Process phenotype 'facial asymmetry' (<http://purl.obolibrary.org/obo/MP_0030099>) is subclass of anatomy phenotype 'abnormal face shape' (<http://purl.obolibrary.org/obo/MP_0030071>) 
-
-
-# 'facial asymmetry' (http://purl.obolibrary.org/obo/MP_0030099)
-
-* 'has_part' some   
-    ('asymmetrical'  
-     and ('inheres in' some 'face')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'facial asymmetry'
-   * Anatomy phenotype 'hemifacial hypoplasia' (<http://purl.obolibrary.org/obo/MP_0030100>) is subclass of process phenotype 'facial asymmetry' (<http://purl.obolibrary.org/obo/MP_0030099>) 
-   * Process phenotype 'hemifacial hypoplasia' (<http://purl.obolibrary.org/obo/MP_0030100>) is subclass of anatomy phenotype 'facial asymmetry' (<http://purl.obolibrary.org/obo/MP_0030099>) 
-
-
-# 'abnormal circulating threonine level' (http://purl.obolibrary.org/obo/MP_0030702)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Beilstein'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating threonine level'
-   * Anatomy phenotype 'increased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030703>) is subclass of process phenotype 'abnormal circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030702>) 
-   * Anatomy phenotype 'decreased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030704>) is subclass of process phenotype 'abnormal circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030702>) 
-   * Process phenotype 'increased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030703>) is subclass of anatomy phenotype 'abnormal circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030702>) 
-   * Process phenotype 'decreased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030704>) is subclass of anatomy phenotype 'abnormal circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030702>) 
-
-
-# 'abnormal circulating valine level' (http://purl.obolibrary.org/obo/MP_0030726)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating valine level'
-   * Anatomy phenotype 'increased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030727>) is subclass of process phenotype 'abnormal circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030726>) 
-   * Anatomy phenotype 'decreased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030728>) is subclass of process phenotype 'abnormal circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030726>) 
-   * Process phenotype 'increased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030727>) is subclass of anatomy phenotype 'abnormal circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030726>) 
-   * Process phenotype 'decreased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030728>) is subclass of anatomy phenotype 'abnormal circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030726>) 
-
-
-# 'abnormal circulating glutamine level' (http://purl.obolibrary.org/obo/MP_0030708)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating glutamine level'
-   * Anatomy phenotype 'increased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030709>) is subclass of process phenotype 'abnormal circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030708>) 
-   * Anatomy phenotype 'decreased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030710>) is subclass of process phenotype 'abnormal circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030708>) 
-   * Process phenotype 'increased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030709>) is subclass of anatomy phenotype 'abnormal circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030708>) 
-   * Process phenotype 'decreased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030710>) is subclass of anatomy phenotype 'abnormal circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030708>) 
-
-
-# 'abnormal circulating lysine level' (http://purl.obolibrary.org/obo/MP_0030717)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating lysine level'
-   * Anatomy phenotype 'increased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030718>) is subclass of process phenotype 'abnormal circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030717>) 
-   * Anatomy phenotype 'decreased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030719>) is subclass of process phenotype 'abnormal circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030717>) 
-   * Process phenotype 'increased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030718>) is subclass of anatomy phenotype 'abnormal circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030717>) 
-   * Process phenotype 'decreased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030719>) is subclass of anatomy phenotype 'abnormal circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030717>) 
-
-
-# 'abnormal circulating isoleucine level' (http://purl.obolibrary.org/obo/MP_0030714)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating isoleucine level'
-   * Anatomy phenotype 'decreased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030716>) is subclass of process phenotype 'abnormal circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030714>) 
-   * Anatomy phenotype 'increased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030715>) is subclass of process phenotype 'abnormal circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030714>) 
-   * Process phenotype 'decreased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030716>) is subclass of anatomy phenotype 'abnormal circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030714>) 
-   * Process phenotype 'increased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030715>) is subclass of anatomy phenotype 'abnormal circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030714>) 
-
-
-# 'abnormal circulating leucine level' (http://purl.obolibrary.org/obo/MP_0030749)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('LIPID MAPS'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating leucine level'
-   * Anatomy phenotype 'increased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030750>) is subclass of process phenotype 'abnormal circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030749>) 
-   * Anatomy phenotype 'decreased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030751>) is subclass of process phenotype 'abnormal circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030749>) 
-   * Process phenotype 'increased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030750>) is subclass of anatomy phenotype 'abnormal circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030749>) 
-   * Process phenotype 'decreased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030751>) is subclass of anatomy phenotype 'abnormal circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030749>) 
-
-
-# 'abnormal beta-alanine level' (http://purl.obolibrary.org/obo/MP_0030729)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal beta-alanine level'
-   * Anatomy phenotype 'increased beta-alanine level' (<http://purl.obolibrary.org/obo/MP_0030730>) is subclass of process phenotype 'abnormal beta-alanine level' (<http://purl.obolibrary.org/obo/MP_0030729>) 
-   * Process phenotype 'increased beta-alanine level' (<http://purl.obolibrary.org/obo/MP_0030730>) is subclass of anatomy phenotype 'abnormal beta-alanine level' (<http://purl.obolibrary.org/obo/MP_0030729>) 
-
-
-# 'abnormal gamma-aminobutyric acid level' (http://purl.obolibrary.org/obo/MP_0030731)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some 'LIPID MAPS')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal gamma-aminobutyric acid level'
-   * Anatomy phenotype 'increased gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030732>) is subclass of process phenotype 'abnormal gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030731>) 
-   * Anatomy phenotype 'decreased gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030733>) is subclass of process phenotype 'abnormal gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030731>) 
-   * Process phenotype 'increased gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030732>) is subclass of anatomy phenotype 'abnormal gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030731>) 
-   * Process phenotype 'decreased gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030733>) is subclass of anatomy phenotype 'abnormal gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030731>) 
-
-
-# 'abnormal circulating glutamic acid level' (http://purl.obolibrary.org/obo/MP_0030738)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating glutamic acid level'
-   * Anatomy phenotype 'decreased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030740>) is subclass of process phenotype 'abnormal circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030738>) 
-   * Anatomy phenotype 'increased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030739>) is subclass of process phenotype 'abnormal circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030738>) 
-   * Process phenotype 'decreased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030740>) is subclass of anatomy phenotype 'abnormal circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030738>) 
-   * Process phenotype 'increased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030739>) is subclass of anatomy phenotype 'abnormal circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030738>) 
-
-
-# 'increased glutamic acid level' (http://purl.obolibrary.org/obo/MP_0030736)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased glutamic acid level'
-   * Anatomy phenotype 'increased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030739>) is subclass of process phenotype 'increased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030736>) 
-   * Process phenotype 'increased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030739>) is subclass of anatomy phenotype 'increased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030736>) 
-
-
-# 'decreased glutamic acid level' (http://purl.obolibrary.org/obo/MP_0030737)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased glutamic acid level'
-   * Anatomy phenotype 'decreased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030740>) is subclass of process phenotype 'decreased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030737>) 
-   * Process phenotype 'decreased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030740>) is subclass of anatomy phenotype 'decreased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030737>) 
-
-
-# 'abnormal glutamic acid level' (http://purl.obolibrary.org/obo/MP_0030735)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal glutamic acid level'
-   * Anatomy phenotype 'abnormal circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030738>) is subclass of process phenotype 'abnormal glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030735>) 
-   * Anatomy phenotype 'increased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030736>) is subclass of process phenotype 'abnormal glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030735>) 
-   * Anatomy phenotype 'decreased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030737>) is subclass of process phenotype 'abnormal glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030735>) 
-   * Process phenotype 'abnormal circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030738>) is subclass of anatomy phenotype 'abnormal glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030735>) 
-   * Process phenotype 'increased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030736>) is subclass of anatomy phenotype 'abnormal glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030735>) 
-   * Process phenotype 'decreased glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030737>) is subclass of anatomy phenotype 'abnormal glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030735>) 
-
-
-# 'increased gamma-aminobutyric acid level' (http://purl.obolibrary.org/obo/MP_0030732)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'LIPID MAPS')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased gamma-aminobutyric acid level'
-   * Anatomy phenotype 'increased urine gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030734>) is subclass of process phenotype 'increased gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030732>) 
-   * Process phenotype 'increased urine gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030734>) is subclass of anatomy phenotype 'increased gamma-aminobutyric acid level' (<http://purl.obolibrary.org/obo/MP_0030732>) 
-
-
-# 'increased adrenaline level' (http://purl.obolibrary.org/obo/MP_0030761)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased adrenaline level'
-   * Anatomy phenotype 'increased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005662>) is subclass of process phenotype 'increased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030761>) 
-   * Anatomy phenotype 'increased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030770>) is subclass of process phenotype 'increased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030761>) 
-   * Process phenotype 'increased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005662>) is subclass of anatomy phenotype 'increased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030761>) 
-   * Process phenotype 'increased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030770>) is subclass of anatomy phenotype 'increased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030761>) 
-
-
-# 'decreased adrenaline level' (http://purl.obolibrary.org/obo/MP_0030762)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased adrenaline level'
-   * Anatomy phenotype 'decreased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005661>) is subclass of process phenotype 'decreased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030762>) 
-   * Anatomy phenotype 'decreased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030771>) is subclass of process phenotype 'decreased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030762>) 
-   * Process phenotype 'decreased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005661>) is subclass of anatomy phenotype 'decreased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030762>) 
-   * Process phenotype 'decreased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030771>) is subclass of anatomy phenotype 'decreased adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030762>) 
-
-
-# 'decreased urine catecholamine level' (http://purl.obolibrary.org/obo/MP_0030767)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some   
-        ('catecholamine'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased urine catecholamine level'
-   * Anatomy phenotype 'decreased urine noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0030773>) is subclass of process phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) 
-   * Anatomy phenotype 'decreased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030771>) is subclass of process phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) 
-   * Anatomy phenotype 'decreased urine dopamine level' (<http://purl.obolibrary.org/obo/MP_0030769>) is subclass of process phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) 
-   * Process phenotype 'decreased urine noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0030773>) is subclass of anatomy phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) 
-   * Process phenotype 'decreased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030771>) is subclass of anatomy phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) 
-   * Process phenotype 'decreased urine dopamine level' (<http://purl.obolibrary.org/obo/MP_0030769>) is subclass of anatomy phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) 
-
-
-# 'increased urine catecholamine level' (http://purl.obolibrary.org/obo/MP_0030766)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('catecholamine'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased urine catecholamine level'
-   * Anatomy phenotype 'increased urine noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0030772>) is subclass of process phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) 
-   * Anatomy phenotype 'increased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030770>) is subclass of process phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) 
-   * Anatomy phenotype 'increased urine dopamine level' (<http://purl.obolibrary.org/obo/MP_0030768>) is subclass of process phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) 
-   * Process phenotype 'increased urine noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0030772>) is subclass of anatomy phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) 
-   * Process phenotype 'increased urine adrenaline level' (<http://purl.obolibrary.org/obo/MP_0030770>) is subclass of anatomy phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) 
-   * Process phenotype 'increased urine dopamine level' (<http://purl.obolibrary.org/obo/MP_0030768>) is subclass of anatomy phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) 
-
-
-# 'decreased histamine level' (http://purl.obolibrary.org/obo/MP_0030756)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased histamine level'
-   * Anatomy phenotype 'decreased mast cell histamine storage' (<http://purl.obolibrary.org/obo/MP_0000362>) is subclass of process phenotype 'decreased histamine level' (<http://purl.obolibrary.org/obo/MP_0030756>) 
-   * Anatomy phenotype 'decreased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030759>) is subclass of process phenotype 'decreased histamine level' (<http://purl.obolibrary.org/obo/MP_0030756>) 
-   * Process phenotype 'decreased mast cell histamine storage' (<http://purl.obolibrary.org/obo/MP_0000362>) is subclass of anatomy phenotype 'decreased histamine level' (<http://purl.obolibrary.org/obo/MP_0030756>) 
-   * Process phenotype 'decreased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030759>) is subclass of anatomy phenotype 'decreased histamine level' (<http://purl.obolibrary.org/obo/MP_0030756>) 
-
-
-# 'abnormal circulating histamine level' (http://purl.obolibrary.org/obo/MP_0030757)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating histamine level'
-   * Anatomy phenotype 'increased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030758>) is subclass of process phenotype 'abnormal circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030757>) 
-   * Anatomy phenotype 'decreased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030759>) is subclass of process phenotype 'abnormal circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030757>) 
-   * Process phenotype 'increased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030758>) is subclass of anatomy phenotype 'abnormal circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030757>) 
-   * Process phenotype 'decreased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030759>) is subclass of anatomy phenotype 'abnormal circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030757>) 
-
-
-# 'abnormal histamine level' (http://purl.obolibrary.org/obo/MP_0030754)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal histamine level'
-   * Anatomy phenotype 'decreased histamine level' (<http://purl.obolibrary.org/obo/MP_0030756>) is subclass of process phenotype 'abnormal histamine level' (<http://purl.obolibrary.org/obo/MP_0030754>) 
-   * Anatomy phenotype 'abnormal circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030757>) is subclass of process phenotype 'abnormal histamine level' (<http://purl.obolibrary.org/obo/MP_0030754>) 
-   * Anatomy phenotype 'increased histamine level' (<http://purl.obolibrary.org/obo/MP_0030755>) is subclass of process phenotype 'abnormal histamine level' (<http://purl.obolibrary.org/obo/MP_0030754>) 
-   * Process phenotype 'decreased histamine level' (<http://purl.obolibrary.org/obo/MP_0030756>) is subclass of anatomy phenotype 'abnormal histamine level' (<http://purl.obolibrary.org/obo/MP_0030754>) 
-   * Process phenotype 'abnormal circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030757>) is subclass of anatomy phenotype 'abnormal histamine level' (<http://purl.obolibrary.org/obo/MP_0030754>) 
-   * Process phenotype 'increased histamine level' (<http://purl.obolibrary.org/obo/MP_0030755>) is subclass of anatomy phenotype 'abnormal histamine level' (<http://purl.obolibrary.org/obo/MP_0030754>) 
-
-
-# 'increased histamine level' (http://purl.obolibrary.org/obo/MP_0030755)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased histamine level'
-   * Anatomy phenotype 'increased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030758>) is subclass of process phenotype 'increased histamine level' (<http://purl.obolibrary.org/obo/MP_0030755>) 
-   * Process phenotype 'increased circulating histamine level' (<http://purl.obolibrary.org/obo/MP_0030758>) is subclass of anatomy phenotype 'increased histamine level' (<http://purl.obolibrary.org/obo/MP_0030755>) 
-
-
-# 'abnormal urine glycerol level' (http://purl.obolibrary.org/obo/MP_0030782)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('glycerol'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal urine glycerol level'
-   * Anatomy phenotype 'decreased urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030781>) is subclass of process phenotype 'abnormal urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030782>) 
-   * Anatomy phenotype 'increased urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030780>) is subclass of process phenotype 'abnormal urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030782>) 
-   * Process phenotype 'decreased urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030781>) is subclass of anatomy phenotype 'abnormal urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030782>) 
-   * Process phenotype 'increased urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030780>) is subclass of anatomy phenotype 'abnormal urine glycerol level' (<http://purl.obolibrary.org/obo/MP_0030782>) 
-
-
-# 'abnormal urine citrate level' (http://purl.obolibrary.org/obo/MP_0030777)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal urine citrate level'
-   * Anatomy phenotype 'increased urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030778>) is subclass of process phenotype 'abnormal urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030777>) 
-   * Anatomy phenotype 'decreased urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030779>) is subclass of process phenotype 'abnormal urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030777>) 
-   * Process phenotype 'increased urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030778>) is subclass of anatomy phenotype 'abnormal urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030777>) 
-   * Process phenotype 'decreased urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030779>) is subclass of anatomy phenotype 'abnormal urine citrate level' (<http://purl.obolibrary.org/obo/MP_0030777>) 
-
-
-# 'abnormal cell migration' (http://purl.obolibrary.org/obo/MP_0003091)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'cell migration')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal cell migration'
-   * Anatomy phenotype 'abnormal keratinocyte migration' (<http://purl.obolibrary.org/obo/MP_0012192>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal lung endothelial cell migration' (<http://purl.obolibrary.org/obo/MP_0011132>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal neural crest cell migration' (<http://purl.obolibrary.org/obo/MP_0002950>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal vascular endothelial cell migration' (<http://purl.obolibrary.org/obo/MP_0003544>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal neuronal migration' (<http://purl.obolibrary.org/obo/MP_0006009>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal primordial germ cell migration' (<http://purl.obolibrary.org/obo/MP_0002982>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal gastrulation movements' (<http://purl.obolibrary.org/obo/MP_0002174>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal fibroblast migration' (<http://purl.obolibrary.org/obo/MP_0011706>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal hepatoblast migration' (<http://purl.obolibrary.org/obo/MP_0012245>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal anterior visceral endoderm cell migration' (<http://purl.obolibrary.org/obo/MP_0011255>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal podocyte motility' (<http://purl.obolibrary.org/obo/MP_0011865>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-   * Anatomy phenotype 'abnormal muscle precursor cell migration' (<http://purl.obolibrary.org/obo/MP_0003090>) is subclass of process phenotype 'abnormal cell migration' (<http://purl.obolibrary.org/obo/MP_0003091>) 
-
-
-# 'abnormal muscle precursor cell migration' (http://purl.obolibrary.org/obo/MP_0003090)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some   
-        ('cell migration'  
-         and ('occurs in' some 'muscle precursor cell')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal muscle precursor cell migration'
-   * Anatomy phenotype 'abnormal myoblast migration' (<http://purl.obolibrary.org/obo/MP_0030945>) is subclass of process phenotype 'abnormal muscle precursor cell migration' (<http://purl.obolibrary.org/obo/MP_0003090>) 
-   * Process phenotype 'abnormal myoblast migration' (<http://purl.obolibrary.org/obo/MP_0030945>) is subclass of anatomy phenotype 'abnormal muscle precursor cell migration' (<http://purl.obolibrary.org/obo/MP_0003090>) 
-
-
-# 'abnormal prepulse inhibition' (http://purl.obolibrary.org/obo/MP_0003088)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'prepulse inhibition')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal prepulse inhibition'
-   * Anatomy phenotype 'increased prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0009141>) is subclass of process phenotype 'abnormal prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0003088>) 
-   * Anatomy phenotype 'decreased prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0009142>) is subclass of process phenotype 'abnormal prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0003088>) 
-   * Process phenotype 'increased prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0009141>) is subclass of anatomy phenotype 'abnormal prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0003088>) 
-   * Process phenotype 'decreased prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0009142>) is subclass of anatomy phenotype 'abnormal prepulse inhibition' (<http://purl.obolibrary.org/obo/MP_0003088>) 
-
-
-# 'abnormal skeletal muscle fiber morphology' (http://purl.obolibrary.org/obo/MP_0003084)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'cell of skeletal muscle')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal skeletal muscle fiber morphology'
-   * Process phenotype 'skeletal muscle fiber necrosis' (<http://purl.obolibrary.org/obo/MP_0009414>) is subclass of anatomy phenotype 'abnormal skeletal muscle fiber morphology' (<http://purl.obolibrary.org/obo/MP_0003084>) 
-
-
-# 'abnormal cell cycle' (http://purl.obolibrary.org/obo/MP_0003077)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'cell cycle')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal cell cycle'
-   * Anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) is subclass of process phenotype 'abnormal cell cycle' (<http://purl.obolibrary.org/obo/MP_0003077>) 
-   * Anatomy phenotype 'abnormal truncus arteriosus septation' (<http://purl.obolibrary.org/obo/MP_0010454>) is subclass of process phenotype 'abnormal cell cycle' (<http://purl.obolibrary.org/obo/MP_0003077>) 
-
-
-# 'decreased susceptibility to induced joint inflammation' (http://purl.obolibrary.org/obo/MP_0003079)
-
-* 'has_part' some   
-    ('resistant to'  
-     and ('inheres in' some 'skeletal joint')  
-     and ('towards' some 'inflammatory response')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased susceptibility to induced joint inflammation'
-   * Anatomy phenotype 'decreased susceptibility to induced arthritis' (<http://purl.obolibrary.org/obo/MP_0003436>) is subclass of process phenotype 'decreased susceptibility to induced joint inflammation' (<http://purl.obolibrary.org/obo/MP_0003079>) 
-   * Process phenotype 'decreased susceptibility to induced arthritis' (<http://purl.obolibrary.org/obo/MP_0003436>) is subclass of anatomy phenotype 'decreased susceptibility to induced joint inflammation' (<http://purl.obolibrary.org/obo/MP_0003079>) 
-
-
-# 'abnormal cochlear outer hair cell morphology' (http://purl.obolibrary.org/obo/MP_0004399)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'outer hair cell')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal cochlear outer hair cell morphology'
-   * Process phenotype 'abnormal cochlear OHC afferent innervation pattern' (<http://purl.obolibrary.org/obo/MP_0004747>) is subclass of anatomy phenotype 'abnormal cochlear outer hair cell morphology' (<http://purl.obolibrary.org/obo/MP_0004399>) 
-   * Process phenotype 'abnormal cochlear OHC efferent innervation pattern' (<http://purl.obolibrary.org/obo/MP_0004632>) is subclass of anatomy phenotype 'abnormal cochlear outer hair cell morphology' (<http://purl.obolibrary.org/obo/MP_0004399>) 
-
-
-# 'abnormal cochlear inner hair cell morphology' (http://purl.obolibrary.org/obo/MP_0004393)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'cochlear inner hair cell')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal cochlear inner hair cell morphology'
-   * Process phenotype 'abnormal cochlear IHC afferent innervation pattern' (<http://purl.obolibrary.org/obo/MP_0004746>) is subclass of anatomy phenotype 'abnormal cochlear inner hair cell morphology' (<http://purl.obolibrary.org/obo/MP_0004393>) 
-   * Process phenotype 'abnormal cochlear IHC efferent innervation pattern' (<http://purl.obolibrary.org/obo/MP_0004633>) is subclass of anatomy phenotype 'abnormal cochlear inner hair cell morphology' (<http://purl.obolibrary.org/obo/MP_0004393>) 
-
-
-# 'abnormal liver copper level' (http://purl.obolibrary.org/obo/MP_0003065)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('ChemIDplus'  
-         and ('part_of' some 'liver')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal liver copper level'
-   * Anatomy phenotype 'decreased liver copper level' (<http://purl.obolibrary.org/obo/MP_0003067>) is subclass of process phenotype 'abnormal liver copper level' (<http://purl.obolibrary.org/obo/MP_0003065>) 
-   * Anatomy phenotype 'increased liver copper level' (<http://purl.obolibrary.org/obo/MP_0003066>) is subclass of process phenotype 'abnormal liver copper level' (<http://purl.obolibrary.org/obo/MP_0003065>) 
-   * Process phenotype 'decreased liver copper level' (<http://purl.obolibrary.org/obo/MP_0003067>) is subclass of anatomy phenotype 'abnormal liver copper level' (<http://purl.obolibrary.org/obo/MP_0003065>) 
-   * Process phenotype 'increased liver copper level' (<http://purl.obolibrary.org/obo/MP_0003066>) is subclass of anatomy phenotype 'abnormal liver copper level' (<http://purl.obolibrary.org/obo/MP_0003065>) 
-
-
-# 'abnormal CD8-positive, alpha-beta T cell physiology' (http://purl.obolibrary.org/obo/MP_0004392)
-
-* 'has_part' some   
-    ('functionality'  
-     and ('inheres in' some 'CD8-positive, alpha-beta T cell')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal CD8-positive, alpha-beta T cell physiology'
-   * Anatomy phenotype 'abnormal cytotoxic T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005078>) is subclass of process phenotype 'abnormal CD8-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0004392>) 
-   * Process phenotype 'abnormal cytotoxic T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005078>) is subclass of anatomy phenotype 'abnormal CD8-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0004392>) 
-
-
-# 'abnormal long bone epiphyseal plate morphology' (http://purl.obolibrary.org/obo/MP_0003055)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'epiphyseal plate')  
-     and ('has modifier' some 'abnormal')  
-     and ('part of' some 'long bone'))
-* Summary of Process Sub ME violations for 'abnormal long bone epiphyseal plate morphology'
-   * Anatomy phenotype 'abnormal long bone epiphyseal plate proliferative zone' (<http://purl.obolibrary.org/obo/MP_0003662>) is subclass of process phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Anatomy phenotype 'abnormal long bone hypertrophic chondrocyte zone' (<http://purl.obolibrary.org/obo/MP_0000165>) is subclass of process phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Anatomy phenotype 'abnormal long bone epiphyseal ossification zone morphology' (<http://purl.obolibrary.org/obo/MP_0006399>) is subclass of process phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Anatomy phenotype 'increased long bone epiphyseal plate size' (<http://purl.obolibrary.org/obo/MP_0006398>) is subclass of process phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Anatomy phenotype 'disorganized long bone epiphyseal plate' (<http://purl.obolibrary.org/obo/MP_0006397>) is subclass of process phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Anatomy phenotype 'decreased long bone epiphyseal plate size' (<http://purl.obolibrary.org/obo/MP_0006396>) is subclass of process phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Process phenotype 'abnormal long bone epiphyseal plate proliferative zone' (<http://purl.obolibrary.org/obo/MP_0003662>) is subclass of anatomy phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Process phenotype 'abnormal long bone hypertrophic chondrocyte zone' (<http://purl.obolibrary.org/obo/MP_0000165>) is subclass of anatomy phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Process phenotype 'abnormal long bone epiphyseal ossification zone morphology' (<http://purl.obolibrary.org/obo/MP_0006399>) is subclass of anatomy phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Process phenotype 'increased long bone epiphyseal plate size' (<http://purl.obolibrary.org/obo/MP_0006398>) is subclass of anatomy phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Process phenotype 'disorganized long bone epiphyseal plate' (<http://purl.obolibrary.org/obo/MP_0006397>) is subclass of anatomy phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-   * Process phenotype 'decreased long bone epiphyseal plate size' (<http://purl.obolibrary.org/obo/MP_0006396>) is subclass of anatomy phenotype 'abnormal long bone epiphyseal plate morphology' (<http://purl.obolibrary.org/obo/MP_0003055>) 
-
-
-# 'abnormal respiratory bronchiole morphology' (http://purl.obolibrary.org/obo/MP_0004389)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'respiratory bronchiole')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal respiratory bronchiole morphology'
-   * Process phenotype 'abnormal branching involved in respiratory bronchiole morphogenesis' (<http://purl.obolibrary.org/obo/MP_0011033>) is subclass of anatomy phenotype 'abnormal respiratory bronchiole morphology' (<http://purl.obolibrary.org/obo/MP_0004389>) 
-
-
-# 'abnormal hair follicle melanocyte morphology' (http://purl.obolibrary.org/obo/MP_0004381)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some   
-        ('melanocyte'  
-         and ('occurs in' some 'hair follicle')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal hair follicle melanocyte morphology'
-   * Anatomy phenotype 'abnormal hair follicle eumelanosome eumelanin content' (<http://purl.obolibrary.org/obo/MP_0012016>) is subclass of process phenotype 'abnormal hair follicle melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0004381>) 
-   * Anatomy phenotype 'abnormal hair follicle pheomelanosome pheomelanin content' (<http://purl.obolibrary.org/obo/MP_0006370>) is subclass of process phenotype 'abnormal hair follicle melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0004381>) 
-   * Anatomy phenotype 'abnormal hair follicle melanin granule morphology' (<http://purl.obolibrary.org/obo/MP_0005072>) is subclass of process phenotype 'abnormal hair follicle melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0004381>) 
-   * Process phenotype 'abnormal hair follicle eumelanosome eumelanin content' (<http://purl.obolibrary.org/obo/MP_0012016>) is subclass of anatomy phenotype 'abnormal hair follicle melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0004381>) 
-   * Process phenotype 'abnormal hair follicle pheomelanosome pheomelanin content' (<http://purl.obolibrary.org/obo/MP_0006370>) is subclass of anatomy phenotype 'abnormal hair follicle melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0004381>) 
-   * Process phenotype 'abnormal hair follicle melanin granule morphology' (<http://purl.obolibrary.org/obo/MP_0005072>) is subclass of anatomy phenotype 'abnormal hair follicle melanocyte morphology' (<http://purl.obolibrary.org/obo/MP_0004381>) 
-
-
-# 'hypoalgesia' (http://purl.obolibrary.org/obo/MP_0003043)
-
-* 'has_part' some   
-    ('decreased rate'  
-     and ('inheres in' some 'nociceptive behavior')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'hypoalgesia'
-   * Anatomy phenotype 'hyporesponsive to tactile stimuli' (<http://purl.obolibrary.org/obo/MP_0005498>) is subclass of process phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Anatomy phenotype 'decreased thermal nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0003998>) is subclass of process phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Anatomy phenotype 'increased chemical nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0008531>) is subclass of process phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Anatomy phenotype 'decreased chemical nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0008532>) is subclass of process phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Anatomy phenotype 'decreased chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001982>) is subclass of process phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Anatomy phenotype 'increased thermal nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0001973>) is subclass of process phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Process phenotype 'hyporesponsive to tactile stimuli' (<http://purl.obolibrary.org/obo/MP_0005498>) is subclass of anatomy phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Process phenotype 'decreased thermal nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0003998>) is subclass of anatomy phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Process phenotype 'increased chemical nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0008531>) is subclass of anatomy phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Process phenotype 'decreased chemical nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0008532>) is subclass of anatomy phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Process phenotype 'decreased chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001982>) is subclass of anatomy phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-   * Process phenotype 'increased thermal nociceptive threshold' (<http://purl.obolibrary.org/obo/MP_0001973>) is subclass of anatomy phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) 
-
-
-# 'abnormal pulmonary vascular resistance' (http://purl.obolibrary.org/obo/MP_0003033)
-
-* 'has_part' some   
-    ('resistance to'  
-     and ('inheres in' some 'lung blood vessel')  
-     and ('towards' some 'blood circulation')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal pulmonary vascular resistance'
-   * Anatomy phenotype 'increased pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003034>) is subclass of process phenotype 'abnormal pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003033>) 
-   * Anatomy phenotype 'decreased pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003035>) is subclass of process phenotype 'abnormal pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003033>) 
-   * Process phenotype 'increased pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003034>) is subclass of anatomy phenotype 'abnormal pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003033>) 
-   * Process phenotype 'decreased pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003035>) is subclass of anatomy phenotype 'abnormal pulmonary vascular resistance' (<http://purl.obolibrary.org/obo/MP_0003033>) 
-
-
-# 'abnormal strial intermediate cell morphology' (http://purl.obolibrary.org/obo/MP_0004367)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'strial intermediate cell')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal strial intermediate cell morphology'
-   * Anatomy phenotype 'absent strial intermediate cells' (<http://purl.obolibrary.org/obo/MP_0006010>) is subclass of process phenotype 'abnormal strial intermediate cell morphology' (<http://purl.obolibrary.org/obo/MP_0004367>) 
-   * Process phenotype 'absent strial intermediate cells' (<http://purl.obolibrary.org/obo/MP_0006010>) is subclass of anatomy phenotype 'abnormal strial intermediate cell morphology' (<http://purl.obolibrary.org/obo/MP_0004367>) 
-
-
-# 'acidemia' (http://purl.obolibrary.org/obo/MP_0003030)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        (('chemical entity'  
-         and ('has_role' some 'acid'))  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'acidemia'
-   * Anatomy phenotype 'increased circulating citrulline level' (<http://purl.obolibrary.org/obo/MP_0020836>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030718>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating free fatty acid level' (<http://purl.obolibrary.org/obo/MP_0001554>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005477>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030687>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030661>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating hydroxyproline level' (<http://purl.obolibrary.org/obo/MP_0030681>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating homocysteine level' (<http://purl.obolibrary.org/obo/MP_0012335>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030727>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030703>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030644>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating tyrosine level' (<http://purl.obolibrary.org/obo/MP_0013723>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030667>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030709>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030750>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030673>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating bilirubin level' (<http://purl.obolibrary.org/obo/MP_0005344>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating methylmalonic acid level' (<http://purl.obolibrary.org/obo/MP_0030630>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030650>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030694>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030670>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating triiodothyronine level' (<http://purl.obolibrary.org/obo/MP_0005480>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating histidine level' (<http://purl.obolibrary.org/obo/MP_0011652>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030739>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030715>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Anatomy phenotype 'increased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030655>) is subclass of process phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating citrulline level' (<http://purl.obolibrary.org/obo/MP_0020836>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030718>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating free fatty acid level' (<http://purl.obolibrary.org/obo/MP_0001554>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005477>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030687>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030661>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating hydroxyproline level' (<http://purl.obolibrary.org/obo/MP_0030681>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating homocysteine level' (<http://purl.obolibrary.org/obo/MP_0012335>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030727>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030703>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030644>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating tyrosine level' (<http://purl.obolibrary.org/obo/MP_0013723>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030667>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030709>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030750>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030673>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating bilirubin level' (<http://purl.obolibrary.org/obo/MP_0005344>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating methylmalonic acid level' (<http://purl.obolibrary.org/obo/MP_0030630>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030650>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030694>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030670>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating triiodothyronine level' (<http://purl.obolibrary.org/obo/MP_0005480>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating histidine level' (<http://purl.obolibrary.org/obo/MP_0011652>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030739>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030715>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-   * Process phenotype 'increased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030655>) is subclass of anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) 
-
-
-# 'acidosis' (http://purl.obolibrary.org/obo/MP_0003031)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('acid'  
-         and ('part_of' some 'bodily fluid')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'acidosis'
-   * Anatomy phenotype 'ketoacidosis' (<http://purl.obolibrary.org/obo/MP_0030971>) is subclass of process phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-   * Anatomy phenotype 'metabolic acidosis' (<http://purl.obolibrary.org/obo/MP_0012551>) is subclass of process phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-   * Anatomy phenotype 'respiratory acidosis' (<http://purl.obolibrary.org/obo/MP_0012550>) is subclass of process phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-   * Anatomy phenotype 'renal tubular acidosis' (<http://purl.obolibrary.org/obo/MP_0000525>) is subclass of process phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-   * Process phenotype 'ketoacidosis' (<http://purl.obolibrary.org/obo/MP_0030971>) is subclass of anatomy phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-   * Process phenotype 'metabolic acidosis' (<http://purl.obolibrary.org/obo/MP_0012551>) is subclass of anatomy phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-   * Process phenotype 'respiratory acidosis' (<http://purl.obolibrary.org/obo/MP_0012550>) is subclass of anatomy phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-   * Process phenotype 'renal tubular acidosis' (<http://purl.obolibrary.org/obo/MP_0000525>) is subclass of anatomy phenotype 'acidosis' (<http://purl.obolibrary.org/obo/MP_0003031>) 
-
-
-# 'abnormal blood pH regulation' (http://purl.obolibrary.org/obo/MP_0003027)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some 'regulation of pH')  
-     and ('has modifier' some 'abnormal')  
-     and ('has_central_participant' some 'blood'))
-* Summary of Process Sub ME violations for 'abnormal blood pH regulation'
-   * Anatomy phenotype 'acidemia' (<http://purl.obolibrary.org/obo/MP_0003030>) is subclass of process phenotype 'abnormal blood pH regulation' (<http://purl.obolibrary.org/obo/MP_0003027>) 
-   * Anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) is subclass of process phenotype 'abnormal blood pH regulation' (<http://purl.obolibrary.org/obo/MP_0003027>) 
-
-
-# 'alkalemia' (http://purl.obolibrary.org/obo/MP_0003029)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some   
-        (('chemical entity'  
-         and ('has_role' some 'acid'))  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'alkalemia'
-   * Anatomy phenotype 'decreased circulating citrulline level' (<http://purl.obolibrary.org/obo/MP_0020837>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030719>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating free fatty acid level' (<http://purl.obolibrary.org/obo/MP_0002702>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating bilirubin level' (<http://purl.obolibrary.org/obo/MP_0005635>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating triiodothyronine level' (<http://purl.obolibrary.org/obo/MP_0005479>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005478>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030651>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030662>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030695>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030751>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030674>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030740>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030671>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030716>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating homocysteine level' (<http://purl.obolibrary.org/obo/MP_0012334>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating histidine level' (<http://purl.obolibrary.org/obo/MP_0011653>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030728>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030704>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030668>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating tyrosine level' (<http://purl.obolibrary.org/obo/MP_0013724>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030710>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030688>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030645>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Anatomy phenotype 'decreased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030656>) is subclass of process phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating citrulline level' (<http://purl.obolibrary.org/obo/MP_0020837>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating lysine level' (<http://purl.obolibrary.org/obo/MP_0030719>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating free fatty acid level' (<http://purl.obolibrary.org/obo/MP_0002702>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating bilirubin level' (<http://purl.obolibrary.org/obo/MP_0005635>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating triiodothyronine level' (<http://purl.obolibrary.org/obo/MP_0005479>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005478>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030651>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030662>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030695>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating leucine level' (<http://purl.obolibrary.org/obo/MP_0030751>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030674>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating glutamic acid level' (<http://purl.obolibrary.org/obo/MP_0030740>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030671>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating isoleucine level' (<http://purl.obolibrary.org/obo/MP_0030716>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating homocysteine level' (<http://purl.obolibrary.org/obo/MP_0012334>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating histidine level' (<http://purl.obolibrary.org/obo/MP_0011653>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating valine level' (<http://purl.obolibrary.org/obo/MP_0030728>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating threonine level' (<http://purl.obolibrary.org/obo/MP_0030704>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030668>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating tyrosine level' (<http://purl.obolibrary.org/obo/MP_0013724>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating glutamine level' (<http://purl.obolibrary.org/obo/MP_0030710>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030688>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030645>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-   * Process phenotype 'decreased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030656>) is subclass of anatomy phenotype 'alkalemia' (<http://purl.obolibrary.org/obo/MP_0003029>) 
-
-
-# 'abnormal coronary flow rate' (http://purl.obolibrary.org/obo/MP_0003021)
-
-* 'has_part' some   
-    ('rate'  
-     and ('inheres in' some 'blood circulation')  
-     and ('has modifier' some 'abnormal')  
-     and ('has_central_participant' some 'coronary artery'))
-* Summary of Process Sub ME violations for 'abnormal coronary flow rate'
-   * Anatomy phenotype 'decreased coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003023>) is subclass of process phenotype 'abnormal coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003021>) 
-   * Anatomy phenotype 'increased coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003022>) is subclass of process phenotype 'abnormal coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003021>) 
-   * Process phenotype 'decreased coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003023>) is subclass of anatomy phenotype 'abnormal coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003021>) 
-   * Process phenotype 'increased coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003022>) is subclass of anatomy phenotype 'abnormal coronary flow rate' (<http://purl.obolibrary.org/obo/MP_0003021>) 
-
-
-# 'abnormal circulating bicarbonate level' (http://purl.obolibrary.org/obo/MP_0003015)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('hydrogencarbonate'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating bicarbonate level'
-   * Anatomy phenotype 'increased circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003016>) is subclass of process phenotype 'abnormal circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003015>) 
-   * Anatomy phenotype 'decreased circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003017>) is subclass of process phenotype 'abnormal circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003015>) 
-   * Process phenotype 'increased circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003016>) is subclass of anatomy phenotype 'abnormal circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003015>) 
-   * Process phenotype 'decreased circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003017>) is subclass of anatomy phenotype 'abnormal circulating bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0003015>) 
-
-
-# 'abnormal circulating chloride level' (http://purl.obolibrary.org/obo/MP_0003018)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Beilstein'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating chloride level'
-   * Anatomy phenotype 'decreased circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003020>) is subclass of process phenotype 'abnormal circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003018>) 
-   * Anatomy phenotype 'increased circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003019>) is subclass of process phenotype 'abnormal circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003018>) 
-   * Process phenotype 'decreased circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003020>) is subclass of anatomy phenotype 'abnormal circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003018>) 
-   * Process phenotype 'increased circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003019>) is subclass of anatomy phenotype 'abnormal circulating chloride level' (<http://purl.obolibrary.org/obo/MP_0003018>) 
-
-
-# 'abnormal kidney medulla morphology' (http://purl.obolibrary.org/obo/MP_0003014)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'renal medulla')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal kidney medulla morphology'
-   * Process phenotype 'abnormal kidney medulla development' (<http://purl.obolibrary.org/obo/MP_0003613>) is subclass of anatomy phenotype 'abnormal kidney medulla morphology' (<http://purl.obolibrary.org/obo/MP_0003014>) 
-
-
-# 'abnormal cytokine secretion' (http://purl.obolibrary.org/obo/MP_0003009)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'cytokine secretion')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal cytokine secretion'
-   * Anatomy phenotype 'abnormal interferon secretion' (<http://purl.obolibrary.org/obo/MP_0008555>) is subclass of process phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-   * Anatomy phenotype 'abnormal tumor necrosis factor secretion' (<http://purl.obolibrary.org/obo/MP_0008556>) is subclass of process phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-   * Anatomy phenotype 'abnormal interleukin secretion' (<http://purl.obolibrary.org/obo/MP_0008568>) is subclass of process phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-   * Anatomy phenotype 'abnormal chemokine secretion' (<http://purl.obolibrary.org/obo/MP_0008722>) is subclass of process phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-   * Process phenotype 'abnormal interferon secretion' (<http://purl.obolibrary.org/obo/MP_0008555>) is subclass of anatomy phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-   * Process phenotype 'abnormal tumor necrosis factor secretion' (<http://purl.obolibrary.org/obo/MP_0008556>) is subclass of anatomy phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-   * Process phenotype 'abnormal interleukin secretion' (<http://purl.obolibrary.org/obo/MP_0008568>) is subclass of anatomy phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-   * Process phenotype 'abnormal chemokine secretion' (<http://purl.obolibrary.org/obo/MP_0008722>) is subclass of anatomy phenotype 'abnormal cytokine secretion' (<http://purl.obolibrary.org/obo/MP_0003009>) 
-
-
-# 'abnormal adipose tissue physiology' (http://purl.obolibrary.org/obo/MP_0005666)
-
-* 'has_part' some   
-    ('functionality'  
-     and ('inheres in' some 'adipose tissue')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal adipose tissue physiology'
-   * Process phenotype 'abnormal adipocyte glucose uptake' (<http://purl.obolibrary.org/obo/MP_0004185>) is subclass of anatomy phenotype 'abnormal adipose tissue physiology' (<http://purl.obolibrary.org/obo/MP_0005666>) 
-   * Process phenotype 'adipose tissue inflammation' (<http://purl.obolibrary.org/obo/MP_0020386>) is subclass of anatomy phenotype 'abnormal adipose tissue physiology' (<http://purl.obolibrary.org/obo/MP_0005666>) 
-
-
-# 'abnormal circulating leptin level' (http://purl.obolibrary.org/obo/MP_0005667)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('leptin'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating leptin level'
-   * Anatomy phenotype 'decreased circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005668>) is subclass of process phenotype 'abnormal circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005667>) 
-   * Anatomy phenotype 'increased circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005669>) is subclass of process phenotype 'abnormal circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005667>) 
-   * Process phenotype 'decreased circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005668>) is subclass of anatomy phenotype 'abnormal circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005667>) 
-   * Process phenotype 'increased circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005669>) is subclass of anatomy phenotype 'abnormal circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005667>) 
-
-
-# 'abnormal circulating noradrenaline level' (http://purl.obolibrary.org/obo/MP_0005663)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Beilstein'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating noradrenaline level'
-   * Anatomy phenotype 'decreased circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005664>) is subclass of process phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) 
-   * Anatomy phenotype 'increased circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005665>) is subclass of process phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) 
-   * Anatomy phenotype 'absent circulating noradrenaline' (<http://purl.obolibrary.org/obo/MP_0001743>) is subclass of process phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) 
-   * Process phenotype 'decreased circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005664>) is subclass of anatomy phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) 
-   * Process phenotype 'increased circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005665>) is subclass of anatomy phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) 
-   * Process phenotype 'absent circulating noradrenaline' (<http://purl.obolibrary.org/obo/MP_0001743>) is subclass of anatomy phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) 
-
-
-# 'abnormal circulating adrenaline level' (http://purl.obolibrary.org/obo/MP_0005660)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating adrenaline level'
-   * Anatomy phenotype 'increased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005662>) is subclass of process phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) 
-   * Anatomy phenotype 'decreased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005661>) is subclass of process phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) 
-   * Anatomy phenotype 'absent circulating adrenaline' (<http://purl.obolibrary.org/obo/MP_0001742>) is subclass of process phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) 
-   * Process phenotype 'increased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005662>) is subclass of anatomy phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) 
-   * Process phenotype 'decreased circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005661>) is subclass of anatomy phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) 
-   * Process phenotype 'absent circulating adrenaline' (<http://purl.obolibrary.org/obo/MP_0001742>) is subclass of anatomy phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) 
-
-
-# 'abnormal neural plate morphology' (http://purl.obolibrary.org/obo/MP_0005657)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'neural plate')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal neural plate morphology'
-   * Anatomy phenotype 'absent neural plate' (<http://purl.obolibrary.org/obo/MP_0012166>) is subclass of process phenotype 'abnormal neural plate morphology' (<http://purl.obolibrary.org/obo/MP_0005657>) 
-   * Process phenotype 'absent neural plate' (<http://purl.obolibrary.org/obo/MP_0012166>) is subclass of anatomy phenotype 'abnormal neural plate morphology' (<http://purl.obolibrary.org/obo/MP_0005657>) 
-
-
-# 'abnormal limb bud morphology' (http://purl.obolibrary.org/obo/MP_0005650)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'limb bud')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal limb bud morphology'
-   * Anatomy phenotype 'small limb buds' (<http://purl.obolibrary.org/obo/MP_0004575>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Anatomy phenotype 'abnormal zone of polarizing activity morphology' (<http://purl.obolibrary.org/obo/MP_0012528>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Anatomy phenotype 'absent limb buds' (<http://purl.obolibrary.org/obo/MP_0004573>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Anatomy phenotype 'broad limb buds' (<http://purl.obolibrary.org/obo/MP_0004574>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Anatomy phenotype 'abnormal hindlimb bud morphology' (<http://purl.obolibrary.org/obo/MP_0013167>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Anatomy phenotype 'abnormal limb mesenchyme morphology' (<http://purl.obolibrary.org/obo/MP_0011261>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Anatomy phenotype 'abnormal forelimb bud morphology' (<http://purl.obolibrary.org/obo/MP_0013164>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Anatomy phenotype 'abnormal apical ectodermal ridge morphology' (<http://purl.obolibrary.org/obo/MP_0001676>) is subclass of process phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'small limb buds' (<http://purl.obolibrary.org/obo/MP_0004575>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'abnormal zone of polarizing activity morphology' (<http://purl.obolibrary.org/obo/MP_0012528>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'absent limb buds' (<http://purl.obolibrary.org/obo/MP_0004573>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'broad limb buds' (<http://purl.obolibrary.org/obo/MP_0004574>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'abnormal hindlimb bud morphology' (<http://purl.obolibrary.org/obo/MP_0013167>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'abnormal limb mesenchyme morphology' (<http://purl.obolibrary.org/obo/MP_0011261>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'abnormal forelimb bud morphology' (<http://purl.obolibrary.org/obo/MP_0013164>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-   * Process phenotype 'abnormal apical ectodermal ridge morphology' (<http://purl.obolibrary.org/obo/MP_0001676>) is subclass of anatomy phenotype 'abnormal limb bud morphology' (<http://purl.obolibrary.org/obo/MP_0005650>) 
-
-
-# 'abnormal pituitary gland physiology' (http://purl.obolibrary.org/obo/MP_0005646)
-
-* 'has_part' some   
-    ('functionality'  
-     and ('inheres in' some 'pituitary gland')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal pituitary gland physiology'
-   * Process phenotype 'abnormal pituitary gland apoptosis' (<http://purl.obolibrary.org/obo/MP_0013343>) is subclass of anatomy phenotype 'abnormal pituitary gland physiology' (<http://purl.obolibrary.org/obo/MP_0005646>) 
-   * Process phenotype 'abnormal pituitary secretion' (<http://purl.obolibrary.org/obo/MP_0001746>) is subclass of anatomy phenotype 'abnormal pituitary gland physiology' (<http://purl.obolibrary.org/obo/MP_0005646>) 
-
-
-# 'abnormal sex gland physiology' (http://purl.obolibrary.org/obo/MP_0005647)
-
-* 'has_part' some   
-    ('functionality'  
-     and ('inheres in' some 'reproductive gland')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal sex gland physiology'
-   * Process phenotype 'preputial gland inflammation' (<http://purl.obolibrary.org/obo/MP_0013905>) is subclass of anatomy phenotype 'abnormal sex gland physiology' (<http://purl.obolibrary.org/obo/MP_0005647>) 
-   * Process phenotype 'abnormal sex gland secretion' (<http://purl.obolibrary.org/obo/MP_0002779>) is subclass of anatomy phenotype 'abnormal sex gland physiology' (<http://purl.obolibrary.org/obo/MP_0005647>) 
-
-
-# 'agonadal' (http://purl.obolibrary.org/obo/MP_0005644)
+# 'absent sex gland' (http://purl.obolibrary.org/obo/MP_0000654)
 
 * 'has_part' some   
     ('absent'  
      and ('inheres in' some   
-        ('gonad'  
+        ('reproductive gland'  
          and ('part_of' some 'reproductive system')))  
      and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'agonadal'
-   * Anatomy phenotype 'absent testes' (<http://purl.obolibrary.org/obo/MP_0006415>) is subclass of process phenotype 'agonadal' (<http://purl.obolibrary.org/obo/MP_0005644>) 
-   * Anatomy phenotype 'absent ovary' (<http://purl.obolibrary.org/obo/MP_0003578>) is subclass of process phenotype 'agonadal' (<http://purl.obolibrary.org/obo/MP_0005644>) 
-   * Process phenotype 'absent testes' (<http://purl.obolibrary.org/obo/MP_0006415>) is subclass of anatomy phenotype 'agonadal' (<http://purl.obolibrary.org/obo/MP_0005644>) 
-   * Process phenotype 'absent ovary' (<http://purl.obolibrary.org/obo/MP_0003578>) is subclass of anatomy phenotype 'agonadal' (<http://purl.obolibrary.org/obo/MP_0005644>) 
+* Summary of Process Sub ME violations for 'absent sex gland'
+   * Process phenotype 'agonadal' (<http://purl.obolibrary.org/obo/MP_0005644>) is subclass of anatomy phenotype 'absent sex gland' (<http://purl.obolibrary.org/obo/MP_0000654>) 
 
 
-# 'abnormal hypothalamus physiology' (http://purl.obolibrary.org/obo/MP_0005645)
+# 'abnormal olfactory system physiology' (http://purl.obolibrary.org/obo/MP_0001983)
 
 * 'has_part' some   
     ('functionality'  
-     and ('inheres in' some 'hypothalamus')  
+     and ('inheres in' some 'olfactory system')  
      and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal hypothalamus physiology'
-   * Process phenotype 'abnormal hypothalamus secretion' (<http://purl.obolibrary.org/obo/MP_0001752>) is subclass of anatomy phenotype 'abnormal hypothalamus physiology' (<http://purl.obolibrary.org/obo/MP_0005645>) 
+* Summary of Process Sub ME violations for 'abnormal olfactory system physiology'
+   * Process phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) is subclass of anatomy phenotype 'abnormal olfactory system physiology' (<http://purl.obolibrary.org/obo/MP_0001983>) 
 
 
-# 'small otic vesicle' (http://purl.obolibrary.org/obo/MP_0004310)
-
-* 'has_part' some   
-    ('decreased size'  
-     and ('inheres in' some 'ear vesicle')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'small otic vesicle'
-   * Anatomy phenotype 'otic vesicle hypoplasia' (<http://purl.obolibrary.org/obo/MP_0004311>) is subclass of process phenotype 'small otic vesicle' (<http://purl.obolibrary.org/obo/MP_0004310>) 
-   * Process phenotype 'otic vesicle hypoplasia' (<http://purl.obolibrary.org/obo/MP_0004311>) is subclass of anatomy phenotype 'small otic vesicle' (<http://purl.obolibrary.org/obo/MP_0004310>) 
-
-
-# 'increased circulating sodium level' (http://purl.obolibrary.org/obo/MP_0005633)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('sodium atom'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased circulating sodium level'
-   * Anatomy phenotype 'increased erythrocyte sodium level' (<http://purl.obolibrary.org/obo/MP_0012365>) is subclass of process phenotype 'increased circulating sodium level' (<http://purl.obolibrary.org/obo/MP_0005633>) 
-   * Process phenotype 'increased erythrocyte sodium level' (<http://purl.obolibrary.org/obo/MP_0012365>) is subclass of anatomy phenotype 'increased circulating sodium level' (<http://purl.obolibrary.org/obo/MP_0005633>) 
-
-
-# 'decreased circulating sodium level' (http://purl.obolibrary.org/obo/MP_0005634)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some   
-        ('sodium atom'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased circulating sodium level'
-   * Anatomy phenotype 'decreased erythrocyte sodium level' (<http://purl.obolibrary.org/obo/MP_0012364>) is subclass of process phenotype 'decreased circulating sodium level' (<http://purl.obolibrary.org/obo/MP_0005634>) 
-   * Process phenotype 'decreased erythrocyte sodium level' (<http://purl.obolibrary.org/obo/MP_0012364>) is subclass of anatomy phenotype 'decreased circulating sodium level' (<http://purl.obolibrary.org/obo/MP_0005634>) 
-
-
-# 'abnormal organ of Corti supporting cell morphology' (http://purl.obolibrary.org/obo/MP_0004300)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'organ of Corti supporting cell')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal organ of Corti supporting cell morphology'
-   * Process phenotype 'abnormal organ of Corti supporting cell differentiation' (<http://purl.obolibrary.org/obo/MP_0008304>) is subclass of anatomy phenotype 'abnormal organ of Corti supporting cell morphology' (<http://purl.obolibrary.org/obo/MP_0004300>) 
-
-
-# 'decreased circulating potassium level' (http://purl.obolibrary.org/obo/MP_0005628)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some   
-        ('ChemIDplus'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased circulating potassium level'
-   * Anatomy phenotype 'decreased erythrocyte potassium level' (<http://purl.obolibrary.org/obo/MP_0012370>) is subclass of process phenotype 'decreased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005628>) 
-   * Anatomy phenotype 'hypokalemia' (<http://purl.obolibrary.org/obo/MP_0004119>) is subclass of process phenotype 'decreased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005628>) 
-   * Process phenotype 'decreased erythrocyte potassium level' (<http://purl.obolibrary.org/obo/MP_0012370>) is subclass of anatomy phenotype 'decreased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005628>) 
-   * Process phenotype 'hypokalemia' (<http://purl.obolibrary.org/obo/MP_0004119>) is subclass of anatomy phenotype 'decreased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005628>) 
-
-
-# 'increased circulating potassium level' (http://purl.obolibrary.org/obo/MP_0005627)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('ChemIDplus'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased circulating potassium level'
-   * Anatomy phenotype 'increased erythrocyte potassium level' (<http://purl.obolibrary.org/obo/MP_0012371>) is subclass of process phenotype 'increased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005627>) 
-   * Anatomy phenotype 'hyperkalemia' (<http://purl.obolibrary.org/obo/MP_0012339>) is subclass of process phenotype 'increased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005627>) 
-   * Process phenotype 'increased erythrocyte potassium level' (<http://purl.obolibrary.org/obo/MP_0012371>) is subclass of anatomy phenotype 'increased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005627>) 
-   * Process phenotype 'hyperkalemia' (<http://purl.obolibrary.org/obo/MP_0012339>) is subclass of anatomy phenotype 'increased circulating potassium level' (<http://purl.obolibrary.org/obo/MP_0005627>) 
-
-
-# 'abnormal muscle contractility' (http://purl.obolibrary.org/obo/MP_0005620)
+# 'abnormal olfaction' (http://purl.obolibrary.org/obo/MP_0001984)
 
 * 'has_part' some   
     ('quality'  
-     and ('inheres in part of' some 'muscle contraction')  
+     and ('inheres in' some 'sensory perception of smell')  
      and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal muscle contractility'
-   * Anatomy phenotype 'abnormal vasoconstriction' (<http://purl.obolibrary.org/obo/MP_0000250>) is subclass of process phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Anatomy phenotype 'abnormal intestinal peristalsis' (<http://purl.obolibrary.org/obo/MP_0003289>) is subclass of process phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Anatomy phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) is subclass of process phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Anatomy phenotype 'abnormal esophageal peristalsis' (<http://purl.obolibrary.org/obo/MP_0004108>) is subclass of process phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Anatomy phenotype 'abnormal cardiac muscle contractility' (<http://purl.obolibrary.org/obo/MP_0002972>) is subclass of process phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Process phenotype 'abnormal vasoconstriction' (<http://purl.obolibrary.org/obo/MP_0000250>) is subclass of anatomy phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Process phenotype 'abnormal intestinal peristalsis' (<http://purl.obolibrary.org/obo/MP_0003289>) is subclass of anatomy phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Process phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) is subclass of anatomy phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Process phenotype 'abnormal esophageal peristalsis' (<http://purl.obolibrary.org/obo/MP_0004108>) is subclass of anatomy phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-   * Process phenotype 'abnormal cardiac muscle contractility' (<http://purl.obolibrary.org/obo/MP_0002972>) is subclass of anatomy phenotype 'abnormal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005620>) 
-
-
-# 'abnormal circulating antidiuretic hormone level' (http://purl.obolibrary.org/obo/MP_0005609)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('ChemIDplus'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating antidiuretic hormone level'
-   * Anatomy phenotype 'increased circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005610>) is subclass of process phenotype 'abnormal circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005609>) 
-   * Anatomy phenotype 'decreased circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005611>) is subclass of process phenotype 'abnormal circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005609>) 
-   * Process phenotype 'increased circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005610>) is subclass of anatomy phenotype 'abnormal circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005609>) 
-   * Process phenotype 'decreased circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005611>) is subclass of anatomy phenotype 'abnormal circulating antidiuretic hormone level' (<http://purl.obolibrary.org/obo/MP_0005609>) 
-
-
-# 'abnormal sex cord morphology' (http://purl.obolibrary.org/obo/MP_0030607)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'sex cord')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal sex cord morphology'
-   * Process phenotype 'disorganized testis cords' (<http://purl.obolibrary.org/obo/MP_0006419>) is subclass of anatomy phenotype 'abnormal sex cord morphology' (<http://purl.obolibrary.org/obo/MP_0030607>) 
-
-
-# 'abnormal ammonia homeostasis' (http://purl.obolibrary.org/obo/MP_0030604)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some 'ammonia homeostasis')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal ammonia homeostasis'
-   * Anatomy phenotype 'abnormal circulating ammonia level' (<http://purl.obolibrary.org/obo/MP_0005308>) is subclass of process phenotype 'abnormal ammonia homeostasis' (<http://purl.obolibrary.org/obo/MP_0030604>) 
-   * Anatomy phenotype 'abnormal urine ammonia level' (<http://purl.obolibrary.org/obo/MP_0011734>) is subclass of process phenotype 'abnormal ammonia homeostasis' (<http://purl.obolibrary.org/obo/MP_0030604>) 
-
-
-# 'increased methylmalonic acid level' (http://purl.obolibrary.org/obo/MP_0030628)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'LIPID MAPS')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased methylmalonic acid level'
-   * Anatomy phenotype 'increased circulating methylmalonic acid level' (<http://purl.obolibrary.org/obo/MP_0030630>) is subclass of process phenotype 'increased methylmalonic acid level' (<http://purl.obolibrary.org/obo/MP_0030628>) 
-   * Anatomy phenotype 'methylmalonic aciduria' (<http://purl.obolibrary.org/obo/MP_0030614>) is subclass of process phenotype 'increased methylmalonic acid level' (<http://purl.obolibrary.org/obo/MP_0030628>) 
-
-
-# 'dicarboxylic aciduria' (http://purl.obolibrary.org/obo/MP_0030613)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('dicarboxylic acid'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'dicarboxylic aciduria'
-   * Anatomy phenotype 'hyperoxaluria' (<http://purl.obolibrary.org/obo/MP_0011517>) is subclass of process phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-   * Anatomy phenotype 'glutaricadicuria' (<http://purl.obolibrary.org/obo/MP_0002931>) is subclass of process phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-   * Anatomy phenotype 'ethylmalonic aciduria' (<http://purl.obolibrary.org/obo/MP_0030615>) is subclass of process phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-   * Anatomy phenotype 'methylmalonic aciduria' (<http://purl.obolibrary.org/obo/MP_0030614>) is subclass of process phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-   * Process phenotype 'hyperoxaluria' (<http://purl.obolibrary.org/obo/MP_0011517>) is subclass of anatomy phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-   * Process phenotype 'glutaricadicuria' (<http://purl.obolibrary.org/obo/MP_0002931>) is subclass of anatomy phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-   * Process phenotype 'ethylmalonic aciduria' (<http://purl.obolibrary.org/obo/MP_0030615>) is subclass of anatomy phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-   * Process phenotype 'methylmalonic aciduria' (<http://purl.obolibrary.org/obo/MP_0030614>) is subclass of anatomy phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) 
-
-
-# 'organic aciduria' (http://purl.obolibrary.org/obo/MP_0030612)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some   
-        ('organic acid'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'organic aciduria'
-   * Anatomy phenotype 'aminoaciduria' (<http://purl.obolibrary.org/obo/MP_0003311>) is subclass of process phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) 
-   * Anatomy phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) is subclass of process phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) 
-   * Anatomy phenotype 'oroticaciduria' (<http://purl.obolibrary.org/obo/MP_0011765>) is subclass of process phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) 
-   * Process phenotype 'aminoaciduria' (<http://purl.obolibrary.org/obo/MP_0003311>) is subclass of anatomy phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) 
-   * Process phenotype 'dicarboxylic aciduria' (<http://purl.obolibrary.org/obo/MP_0030613>) is subclass of anatomy phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) 
-   * Process phenotype 'oroticaciduria' (<http://purl.obolibrary.org/obo/MP_0011765>) is subclass of anatomy phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) 
-
-
-# 'abnormal circulating methionine level' (http://purl.obolibrary.org/obo/MP_0030643)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating methionine level'
-   * Anatomy phenotype 'increased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030644>) is subclass of process phenotype 'abnormal circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030643>) 
-   * Anatomy phenotype 'decreased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030645>) is subclass of process phenotype 'abnormal circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030643>) 
-   * Process phenotype 'increased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030644>) is subclass of anatomy phenotype 'abnormal circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030643>) 
-   * Process phenotype 'decreased circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030645>) is subclass of anatomy phenotype 'abnormal circulating methionine level' (<http://purl.obolibrary.org/obo/MP_0030643>) 
-
-
-# 'abnormal circulating ornithine level' (http://purl.obolibrary.org/obo/MP_0030649)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating ornithine level'
-   * Anatomy phenotype 'decreased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030651>) is subclass of process phenotype 'abnormal circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030649>) 
-   * Anatomy phenotype 'increased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030650>) is subclass of process phenotype 'abnormal circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030649>) 
-   * Process phenotype 'decreased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030651>) is subclass of anatomy phenotype 'abnormal circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030649>) 
-   * Process phenotype 'increased circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030650>) is subclass of anatomy phenotype 'abnormal circulating ornithine level' (<http://purl.obolibrary.org/obo/MP_0030649>) 
-
-
-# 'abnormal urine creatine level' (http://purl.obolibrary.org/obo/MP_0030631)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'urine')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal urine creatine level'
-   * Anatomy phenotype 'increased urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030632>) is subclass of process phenotype 'abnormal urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030631>) 
-   * Anatomy phenotype 'decreased urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030633>) is subclass of process phenotype 'abnormal urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030631>) 
-   * Process phenotype 'increased urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030632>) is subclass of anatomy phenotype 'abnormal urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030631>) 
-   * Process phenotype 'decreased urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030633>) is subclass of anatomy phenotype 'abnormal urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030631>) 
-
-
-# 'abnormal circulating taurine level' (http://purl.obolibrary.org/obo/MP_0030637)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating taurine level'
-   * Anatomy phenotype 'decreased circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030639>) is subclass of process phenotype 'abnormal circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030637>) 
-   * Anatomy phenotype 'increased circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030638>) is subclass of process phenotype 'abnormal circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030637>) 
-   * Process phenotype 'decreased circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030639>) is subclass of anatomy phenotype 'abnormal circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030637>) 
-   * Process phenotype 'increased circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030638>) is subclass of anatomy phenotype 'abnormal circulating taurine level' (<http://purl.obolibrary.org/obo/MP_0030637>) 
-
-
-# 'abnormal circulating arginine level' (http://purl.obolibrary.org/obo/MP_0030660)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating arginine level'
-   * Anatomy phenotype 'decreased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030662>) is subclass of process phenotype 'abnormal circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030660>) 
-   * Anatomy phenotype 'increased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030661>) is subclass of process phenotype 'abnormal circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030660>) 
-   * Process phenotype 'decreased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030662>) is subclass of anatomy phenotype 'abnormal circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030660>) 
-   * Process phenotype 'increased circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030661>) is subclass of anatomy phenotype 'abnormal circulating arginine level' (<http://purl.obolibrary.org/obo/MP_0030660>) 
-
-
-# 'abnormal circulating phenylalanine level' (http://purl.obolibrary.org/obo/MP_0030669)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating phenylalanine level'
-   * Anatomy phenotype 'decreased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030671>) is subclass of process phenotype 'abnormal circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030669>) 
-   * Anatomy phenotype 'increased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030670>) is subclass of process phenotype 'abnormal circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030669>) 
-   * Process phenotype 'decreased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030671>) is subclass of anatomy phenotype 'abnormal circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030669>) 
-   * Process phenotype 'increased circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030670>) is subclass of anatomy phenotype 'abnormal circulating phenylalanine level' (<http://purl.obolibrary.org/obo/MP_0030669>) 
-
-
-# 'abnormal circulating proline level' (http://purl.obolibrary.org/obo/MP_0030666)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating proline level'
-   * Anatomy phenotype 'decreased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030668>) is subclass of process phenotype 'abnormal circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030666>) 
-   * Anatomy phenotype 'increased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030667>) is subclass of process phenotype 'abnormal circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030666>) 
-   * Process phenotype 'decreased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030668>) is subclass of anatomy phenotype 'abnormal circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030666>) 
-   * Process phenotype 'increased circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030667>) is subclass of anatomy phenotype 'abnormal circulating proline level' (<http://purl.obolibrary.org/obo/MP_0030666>) 
-
-
-# 'abnormal circulating glycine level' (http://purl.obolibrary.org/obo/MP_0030654)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating glycine level'
-   * Anatomy phenotype 'increased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030655>) is subclass of process phenotype 'abnormal circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030654>) 
-   * Anatomy phenotype 'decreased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030656>) is subclass of process phenotype 'abnormal circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030654>) 
-   * Process phenotype 'increased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030655>) is subclass of anatomy phenotype 'abnormal circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030654>) 
-   * Process phenotype 'decreased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030656>) is subclass of anatomy phenotype 'abnormal circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030654>) 
-
-
-# 'abnormal circulating glutathione level' (http://purl.obolibrary.org/obo/MP_0030652)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating glutathione level'
-   * Anatomy phenotype 'increased circulating glutathione level' (<http://purl.obolibrary.org/obo/MP_0030653>) is subclass of process phenotype 'abnormal circulating glutathione level' (<http://purl.obolibrary.org/obo/MP_0030652>) 
-   * Process phenotype 'increased circulating glutathione level' (<http://purl.obolibrary.org/obo/MP_0030653>) is subclass of anatomy phenotype 'abnormal circulating glutathione level' (<http://purl.obolibrary.org/obo/MP_0030652>) 
-
-
-# 'decreased glycine level' (http://purl.obolibrary.org/obo/MP_0030659)
-
-* 'has_part' some   
-    ('decreased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'decreased glycine level'
-   * Anatomy phenotype 'decreased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030656>) is subclass of process phenotype 'decreased glycine level' (<http://purl.obolibrary.org/obo/MP_0030659>) 
-   * Process phenotype 'decreased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030656>) is subclass of anatomy phenotype 'decreased glycine level' (<http://purl.obolibrary.org/obo/MP_0030659>) 
-
-
-# 'abnormal glycine level' (http://purl.obolibrary.org/obo/MP_0030657)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal glycine level'
-   * Anatomy phenotype 'abnormal circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030654>) is subclass of process phenotype 'abnormal glycine level' (<http://purl.obolibrary.org/obo/MP_0030657>) 
-   * Anatomy phenotype 'decreased glycine level' (<http://purl.obolibrary.org/obo/MP_0030659>) is subclass of process phenotype 'abnormal glycine level' (<http://purl.obolibrary.org/obo/MP_0030657>) 
-   * Anatomy phenotype 'increased glycine level' (<http://purl.obolibrary.org/obo/MP_0030658>) is subclass of process phenotype 'abnormal glycine level' (<http://purl.obolibrary.org/obo/MP_0030657>) 
-   * Process phenotype 'abnormal circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030654>) is subclass of anatomy phenotype 'abnormal glycine level' (<http://purl.obolibrary.org/obo/MP_0030657>) 
-   * Process phenotype 'decreased glycine level' (<http://purl.obolibrary.org/obo/MP_0030659>) is subclass of anatomy phenotype 'abnormal glycine level' (<http://purl.obolibrary.org/obo/MP_0030657>) 
-   * Process phenotype 'increased glycine level' (<http://purl.obolibrary.org/obo/MP_0030658>) is subclass of anatomy phenotype 'abnormal glycine level' (<http://purl.obolibrary.org/obo/MP_0030657>) 
-
-
-# 'increased glycine level' (http://purl.obolibrary.org/obo/MP_0030658)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'Reaxys')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased glycine level'
-   * Anatomy phenotype 'hyperglycinuria' (<http://purl.obolibrary.org/obo/MP_0030616>) is subclass of process phenotype 'increased glycine level' (<http://purl.obolibrary.org/obo/MP_0030658>) 
-   * Anatomy phenotype 'increased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030655>) is subclass of process phenotype 'increased glycine level' (<http://purl.obolibrary.org/obo/MP_0030658>) 
-   * Process phenotype 'hyperglycinuria' (<http://purl.obolibrary.org/obo/MP_0030616>) is subclass of anatomy phenotype 'increased glycine level' (<http://purl.obolibrary.org/obo/MP_0030658>) 
-   * Process phenotype 'increased circulating glycine level' (<http://purl.obolibrary.org/obo/MP_0030655>) is subclass of anatomy phenotype 'increased glycine level' (<http://purl.obolibrary.org/obo/MP_0030658>) 
-
-
-# 'abnormal circulating cystathionine level' (http://purl.obolibrary.org/obo/MP_0030686)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating cystathionine level'
-   * Anatomy phenotype 'increased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030687>) is subclass of process phenotype 'abnormal circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030686>) 
-   * Anatomy phenotype 'decreased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030688>) is subclass of process phenotype 'abnormal circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030686>) 
-   * Process phenotype 'increased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030687>) is subclass of anatomy phenotype 'abnormal circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030686>) 
-   * Process phenotype 'decreased circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030688>) is subclass of anatomy phenotype 'abnormal circulating cystathionine level' (<http://purl.obolibrary.org/obo/MP_0030686>) 
-
-
-# 'abnormal circulating hydroxyproline level' (http://purl.obolibrary.org/obo/MP_0030680)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('hydroxyproline'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating hydroxyproline level'
-   * Anatomy phenotype 'increased circulating hydroxyproline level' (<http://purl.obolibrary.org/obo/MP_0030681>) is subclass of process phenotype 'abnormal circulating hydroxyproline level' (<http://purl.obolibrary.org/obo/MP_0030680>) 
-   * Process phenotype 'increased circulating hydroxyproline level' (<http://purl.obolibrary.org/obo/MP_0030681>) is subclass of anatomy phenotype 'abnormal circulating hydroxyproline level' (<http://purl.obolibrary.org/obo/MP_0030680>) 
-
-
-# 'abnormal acetylcholine level' (http://purl.obolibrary.org/obo/MP_0030675)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some 'acetylcholine')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal acetylcholine level'
-   * Anatomy phenotype 'increased acetylcholine level' (<http://purl.obolibrary.org/obo/MP_0030676>) is subclass of process phenotype 'abnormal acetylcholine level' (<http://purl.obolibrary.org/obo/MP_0030675>) 
-   * Process phenotype 'increased acetylcholine level' (<http://purl.obolibrary.org/obo/MP_0030676>) is subclass of anatomy phenotype 'abnormal acetylcholine level' (<http://purl.obolibrary.org/obo/MP_0030675>) 
-
-
-# 'abnormal circulating alanine level' (http://purl.obolibrary.org/obo/MP_0030672)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating alanine level'
-   * Anatomy phenotype 'increased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030673>) is subclass of process phenotype 'abnormal circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030672>) 
-   * Anatomy phenotype 'decreased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030674>) is subclass of process phenotype 'abnormal circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030672>) 
-   * Process phenotype 'increased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030673>) is subclass of anatomy phenotype 'abnormal circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030672>) 
-   * Process phenotype 'decreased circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030674>) is subclass of anatomy phenotype 'abnormal circulating alanine level' (<http://purl.obolibrary.org/obo/MP_0030672>) 
-
-
-# 'abnormal circulating serine level' (http://purl.obolibrary.org/obo/MP_0030693)
-
-* 'has_part' some   
-    ('amount'  
-     and ('inheres in' some   
-        ('Reaxys'  
-         and ('part_of' some 'blood')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal circulating serine level'
-   * Anatomy phenotype 'decreased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030695>) is subclass of process phenotype 'abnormal circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030693>) 
-   * Anatomy phenotype 'increased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030694>) is subclass of process phenotype 'abnormal circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030693>) 
-   * Process phenotype 'decreased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030695>) is subclass of anatomy phenotype 'abnormal circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030693>) 
-   * Process phenotype 'increased circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030694>) is subclass of anatomy phenotype 'abnormal circulating serine level' (<http://purl.obolibrary.org/obo/MP_0030693>) 
-
-
-# 'abnormal synaptic glutamate release' (http://purl.obolibrary.org/obo/MP_0004494)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some   
-        ('glutamate secretion'  
-         and ('occurs in' some 'synapse')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal synaptic glutamate release'
-   * Anatomy phenotype 'decreased synaptic glutamate release' (<http://purl.obolibrary.org/obo/MP_0004495>) is subclass of process phenotype 'abnormal synaptic glutamate release' (<http://purl.obolibrary.org/obo/MP_0004494>) 
-   * Process phenotype 'decreased synaptic glutamate release' (<http://purl.obolibrary.org/obo/MP_0004495>) is subclass of anatomy phenotype 'abnormal synaptic glutamate release' (<http://purl.obolibrary.org/obo/MP_0004494>) 
-
-
-# 'impaired muscle relaxation' (http://purl.obolibrary.org/obo/MP_0003157)
-
-* 'has_part' some   
-    ('decreased rate'  
-     and ('inheres in part of' some 'relaxation of muscle')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'impaired muscle relaxation'
-   * Anatomy phenotype 'decreased cardiac muscle relaxation' (<http://purl.obolibrary.org/obo/MP_0020419>) is subclass of process phenotype 'impaired muscle relaxation' (<http://purl.obolibrary.org/obo/MP_0003157>) 
-   * Process phenotype 'decreased cardiac muscle relaxation' (<http://purl.obolibrary.org/obo/MP_0020419>) is subclass of anatomy phenotype 'impaired muscle relaxation' (<http://purl.obolibrary.org/obo/MP_0003157>) 
-
-
-# 'abnormal leukocyte migration' (http://purl.obolibrary.org/obo/MP_0003156)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'leukocyte migration')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal leukocyte migration'
-   * Anatomy phenotype 'abnormal cellular extravasation' (<http://purl.obolibrary.org/obo/MP_0009858>) is subclass of process phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Anatomy phenotype 'abnormal dendritic cell migration' (<http://purl.obolibrary.org/obo/MP_0020349>) is subclass of process phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Anatomy phenotype 'abnormal leukocyte adhesion' (<http://purl.obolibrary.org/obo/MP_0003628>) is subclass of process phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Anatomy phenotype 'abnormal macrophage chemotaxis' (<http://purl.obolibrary.org/obo/MP_0010760>) is subclass of process phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Anatomy phenotype 'impaired leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0020212>) is subclass of process phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Anatomy phenotype 'enhanced leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0020213>) is subclass of process phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Process phenotype 'abnormal cellular extravasation' (<http://purl.obolibrary.org/obo/MP_0009858>) is subclass of anatomy phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Process phenotype 'abnormal dendritic cell migration' (<http://purl.obolibrary.org/obo/MP_0020349>) is subclass of anatomy phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Process phenotype 'abnormal leukocyte adhesion' (<http://purl.obolibrary.org/obo/MP_0003628>) is subclass of anatomy phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Process phenotype 'abnormal macrophage chemotaxis' (<http://purl.obolibrary.org/obo/MP_0010760>) is subclass of anatomy phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Process phenotype 'impaired leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0020212>) is subclass of anatomy phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-   * Process phenotype 'enhanced leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0020213>) is subclass of anatomy phenotype 'abnormal leukocyte migration' (<http://purl.obolibrary.org/obo/MP_0003156>) 
-
-
-# 'altered response of heart to induced stress' (http://purl.obolibrary.org/obo/MP_0004484)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some   
-        ('response to stress'  
-         and ('occurs in' some 'heart')))  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'altered response of heart to induced stress'
-   * Anatomy phenotype 'increased response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004485>) is subclass of process phenotype 'altered response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004484>) 
-   * Anatomy phenotype 'decreased response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004486>) is subclass of process phenotype 'altered response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004484>) 
-   * Anatomy phenotype 'heart inflammation' (<http://purl.obolibrary.org/obo/MP_0001853>) is subclass of process phenotype 'altered response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004484>) 
-   * Process phenotype 'increased response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004485>) is subclass of anatomy phenotype 'altered response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004484>) 
-   * Process phenotype 'decreased response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004486>) is subclass of anatomy phenotype 'altered response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004484>) 
-   * Process phenotype 'heart inflammation' (<http://purl.obolibrary.org/obo/MP_0001853>) is subclass of anatomy phenotype 'altered response of heart to induced stress' (<http://purl.obolibrary.org/obo/MP_0004484>) 
-
-
-# 'increased pre-B cell number' (http://purl.obolibrary.org/obo/MP_0003132)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'precursor B cell')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased pre-B cell number'
-   * Process phenotype 'increased late pro-B cell number' (<http://purl.obolibrary.org/obo/MP_0003134>) is subclass of anatomy phenotype 'increased pre-B cell number' (<http://purl.obolibrary.org/obo/MP_0003132>) 
-
-
-# 'increased erythrocyte cell number' (http://purl.obolibrary.org/obo/MP_0003131)
-
-* 'has_part' some   
-    ('increased amount'  
-     and ('inheres in' some 'erythrocyte')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'increased erythrocyte cell number'
-   * Process phenotype 'hematuria' (<http://purl.obolibrary.org/obo/MP_0005161>) is subclass of anatomy phenotype 'increased erythrocyte cell number' (<http://purl.obolibrary.org/obo/MP_0003131>) 
-
-
-# 'abnormal septation of the cloaca' (http://purl.obolibrary.org/obo/MP_0003125)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in' some 'cloacal septation')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal septation of the cloaca'
-   * Anatomy phenotype 'persistent cloaca' (<http://purl.obolibrary.org/obo/MP_0003129>) is subclass of process phenotype 'abnormal septation of the cloaca' (<http://purl.obolibrary.org/obo/MP_0003125>) 
-   * Process phenotype 'persistent cloaca' (<http://purl.obolibrary.org/obo/MP_0003129>) is subclass of anatomy phenotype 'abnormal septation of the cloaca' (<http://purl.obolibrary.org/obo/MP_0003125>) 
-
-
-# 'abnormal digestive system development' (http://purl.obolibrary.org/obo/MP_0003119)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'digestive system development')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal digestive system development'
-   * Anatomy phenotype 'abnormal midgut morphology' (<http://purl.obolibrary.org/obo/MP_0009705>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal exocrine pancreas development' (<http://purl.obolibrary.org/obo/MP_0011933>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal stomodeum morphology' (<http://purl.obolibrary.org/obo/MP_0012522>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal buccopharyngeal membrane morphology' (<http://purl.obolibrary.org/obo/MP_0012521>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal esophagus development' (<http://purl.obolibrary.org/obo/MP_0003160>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal foregut morphology' (<http://purl.obolibrary.org/obo/MP_0000474>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal hindgut morphology' (<http://purl.obolibrary.org/obo/MP_0008786>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal tailgut morphology' (<http://purl.obolibrary.org/obo/MP_0008787>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Anatomy phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) is subclass of process phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal midgut morphology' (<http://purl.obolibrary.org/obo/MP_0009705>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal exocrine pancreas development' (<http://purl.obolibrary.org/obo/MP_0011933>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal stomodeum morphology' (<http://purl.obolibrary.org/obo/MP_0012522>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal buccopharyngeal membrane morphology' (<http://purl.obolibrary.org/obo/MP_0012521>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal esophagus development' (<http://purl.obolibrary.org/obo/MP_0003160>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal foregut morphology' (<http://purl.obolibrary.org/obo/MP_0000474>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal hindgut morphology' (<http://purl.obolibrary.org/obo/MP_0008786>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal tailgut morphology' (<http://purl.obolibrary.org/obo/MP_0008787>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-   * Process phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) is subclass of anatomy phenotype 'abnormal digestive system development' (<http://purl.obolibrary.org/obo/MP_0003119>) 
-
-
-# 'abnormal respiratory system development' (http://purl.obolibrary.org/obo/MP_0003115)
-
-* 'has_part' some   
-    ('quality'  
-     and ('inheres in part of' some 'respiratory system development')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal respiratory system development'
-   * Anatomy phenotype 'abnormal lung development' (<http://purl.obolibrary.org/obo/MP_0001176>) is subclass of process phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Anatomy phenotype 'abnormal trachea development' (<http://purl.obolibrary.org/obo/MP_0013496>) is subclass of process phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Anatomy phenotype 'abnormal diaphragm development' (<http://purl.obolibrary.org/obo/MP_0012251>) is subclass of process phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Anatomy phenotype 'abnormal nasal placode morphology' (<http://purl.obolibrary.org/obo/MP_0006292>) is subclass of process phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Anatomy phenotype 'abnormal nasal pit morphology' (<http://purl.obolibrary.org/obo/MP_0006306>) is subclass of process phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Process phenotype 'abnormal lung development' (<http://purl.obolibrary.org/obo/MP_0001176>) is subclass of anatomy phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Process phenotype 'abnormal trachea development' (<http://purl.obolibrary.org/obo/MP_0013496>) is subclass of anatomy phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Process phenotype 'abnormal diaphragm development' (<http://purl.obolibrary.org/obo/MP_0012251>) is subclass of anatomy phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Process phenotype 'abnormal nasal placode morphology' (<http://purl.obolibrary.org/obo/MP_0006292>) is subclass of anatomy phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-   * Process phenotype 'abnormal nasal pit morphology' (<http://purl.obolibrary.org/obo/MP_0006306>) is subclass of anatomy phenotype 'abnormal respiratory system development' (<http://purl.obolibrary.org/obo/MP_0003115>) 
-
-
-# 'abnormal cochlear outer hair cell physiology' (http://purl.obolibrary.org/obo/MP_0004434)
-
-* 'has_part' some   
-    ('functionality'  
-     and ('inheres in' some 'outer hair cell')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal cochlear outer hair cell physiology'
-   * Process phenotype 'abnormal cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004412>) is subclass of anatomy phenotype 'abnormal cochlear outer hair cell physiology' (<http://purl.obolibrary.org/obo/MP_0004434>) 
-
-
-# 'abnormal cochlear microphonics' (http://purl.obolibrary.org/obo/MP_0004412)
-
-* 'has_part' some   
-    ('electric potential'  
-     and ('inheres in' some 'cochlea')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal cochlear microphonics'
-   * Anatomy phenotype 'decreased cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004414>) is subclass of process phenotype 'abnormal cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004412>) 
-   * Anatomy phenotype 'absent cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004413>) is subclass of process phenotype 'abnormal cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004412>) 
-   * Process phenotype 'decreased cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004414>) is subclass of anatomy phenotype 'abnormal cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004412>) 
-   * Process phenotype 'absent cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004413>) is subclass of anatomy phenotype 'abnormal cochlear microphonics' (<http://purl.obolibrary.org/obo/MP_0004412>) 
-
-
-# 'abnormal dental epithelium morphology' (http://purl.obolibrary.org/obo/MP_0030508)
-
-* 'has_part' some   
-    ('morphology'  
-     and ('inheres in' some 'dental epithelium')  
-     and ('has modifier' some 'abnormal'))
-* Summary of Process Sub ME violations for 'abnormal dental epithelium morphology'
-   * Anatomy phenotype 'abnormal cervical loop morphology' (<http://purl.obolibrary.org/obo/MP_0030521>) is subclass of process phenotype 'abnormal dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030508>) 
-   * Anatomy phenotype 'abnormal outer dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030518>) is subclass of process phenotype 'abnormal dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030508>) 
-   * Anatomy phenotype 'abnormal inner dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030519>) is subclass of process phenotype 'abnormal dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030508>) 
-   * Process phenotype 'abnormal cervical loop morphology' (<http://purl.obolibrary.org/obo/MP_0030521>) is subclass of anatomy phenotype 'abnormal dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030508>) 
-   * Process phenotype 'abnormal outer dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030518>) is subclass of anatomy phenotype 'abnormal dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030508>) 
-   * Process phenotype 'abnormal inner dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030519>) is subclass of anatomy phenotype 'abnormal dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030508>) 
+* Summary of Process Sub ME violations for 'abnormal olfaction'
+   * Anatomy phenotype 'abnormal odor adaptation' (<http://purl.obolibrary.org/obo/MP_0009562>) is subclass of process phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
+   * Anatomy phenotype 'impaired olfaction' (<http://purl.obolibrary.org/obo/MP_0008544>) is subclass of process phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
+   * Anatomy phenotype 'dysosmia' (<http://purl.obolibrary.org/obo/MP_0030988>) is subclass of process phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
+   * Anatomy phenotype 'anosmia' (<http://purl.obolibrary.org/obo/MP_0004512>) is subclass of process phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
+   * Process phenotype 'abnormal odor adaptation' (<http://purl.obolibrary.org/obo/MP_0009562>) is subclass of anatomy phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
+   * Process phenotype 'impaired olfaction' (<http://purl.obolibrary.org/obo/MP_0008544>) is subclass of anatomy phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
+   * Process phenotype 'dysosmia' (<http://purl.obolibrary.org/obo/MP_0030988>) is subclass of anatomy phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
+   * Process phenotype 'anosmia' (<http://purl.obolibrary.org/obo/MP_0004512>) is subclass of anatomy phenotype 'abnormal olfaction' (<http://purl.obolibrary.org/obo/MP_0001984>) 
 
 
 # 'abnormal tooth placode morphology' (http://purl.obolibrary.org/obo/MP_0030510)
@@ -1885,6 +59,19 @@
    * Process phenotype 'absent tooth placode' (<http://purl.obolibrary.org/obo/MP_0000117>) is subclass of anatomy phenotype 'abnormal tooth placode morphology' (<http://purl.obolibrary.org/obo/MP_0030510>) 
 
 
+# 'abnormal chemically-elicited antinociception' (http://purl.obolibrary.org/obo/MP_0001980)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'chemically-elicited antinociceptive behavior')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal chemically-elicited antinociception'
+   * Anatomy phenotype 'increased chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001981>) is subclass of process phenotype 'abnormal chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001980>) 
+   * Anatomy phenotype 'decreased chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001982>) is subclass of process phenotype 'abnormal chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001980>) 
+   * Process phenotype 'increased chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001981>) is subclass of anatomy phenotype 'abnormal chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001980>) 
+   * Process phenotype 'decreased chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001982>) is subclass of anatomy phenotype 'abnormal chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001980>) 
+
+
 # 'abnormal inner dental epithelium morphology' (http://purl.obolibrary.org/obo/MP_0030519)
 
 * 'has_part' some   
@@ -1894,6 +81,29 @@
 * Summary of Process Sub ME violations for 'abnormal inner dental epithelium morphology'
    * Anatomy phenotype 'abnormal enamel knot morphology' (<http://purl.obolibrary.org/obo/MP_0010864>) is subclass of process phenotype 'abnormal inner dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030519>) 
    * Process phenotype 'abnormal enamel knot morphology' (<http://purl.obolibrary.org/obo/MP_0010864>) is subclass of anatomy phenotype 'abnormal inner dental epithelium morphology' (<http://purl.obolibrary.org/obo/MP_0030519>) 
+
+
+# 'abnormal pain threshold' (http://purl.obolibrary.org/obo/MP_0001970)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'nociceptive behavior')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal pain threshold'
+   * Anatomy phenotype 'allodynia' (<http://purl.obolibrary.org/obo/MP_0003177>) is subclass of process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Anatomy phenotype 'abnormal chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001980>) is subclass of process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Anatomy phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) is subclass of process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Anatomy phenotype 'abnormal mechanical nociception' (<http://purl.obolibrary.org/obo/MP_0002734>) is subclass of process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Anatomy phenotype 'abnormal thermal nociception' (<http://purl.obolibrary.org/obo/MP_0002733>) is subclass of process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Anatomy phenotype 'hyperalgesia' (<http://purl.obolibrary.org/obo/MP_0005407>) is subclass of process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Anatomy phenotype 'abnormal chemical nociception' (<http://purl.obolibrary.org/obo/MP_0002735>) is subclass of process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Process phenotype 'allodynia' (<http://purl.obolibrary.org/obo/MP_0003177>) is subclass of anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Process phenotype 'abnormal chemically-elicited antinociception' (<http://purl.obolibrary.org/obo/MP_0001980>) is subclass of anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Process phenotype 'hypoalgesia' (<http://purl.obolibrary.org/obo/MP_0003043>) is subclass of anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Process phenotype 'abnormal mechanical nociception' (<http://purl.obolibrary.org/obo/MP_0002734>) is subclass of anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Process phenotype 'abnormal thermal nociception' (<http://purl.obolibrary.org/obo/MP_0002733>) is subclass of anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Process phenotype 'hyperalgesia' (<http://purl.obolibrary.org/obo/MP_0005407>) is subclass of anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
+   * Process phenotype 'abnormal chemical nociception' (<http://purl.obolibrary.org/obo/MP_0002735>) is subclass of anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) 
 
 
 # 'abnormal enamel development' (http://purl.obolibrary.org/obo/MP_0030544)
@@ -1907,6 +117,84 @@
    * Anatomy phenotype 'abnormal enamel mineralization' (<http://purl.obolibrary.org/obo/MP_0030450>) is subclass of process phenotype 'abnormal enamel development' (<http://purl.obolibrary.org/obo/MP_0030544>) 
    * Process phenotype 'abnormal ameloblast morphology' (<http://purl.obolibrary.org/obo/MP_0002650>) is subclass of anatomy phenotype 'abnormal enamel development' (<http://purl.obolibrary.org/obo/MP_0030544>) 
    * Process phenotype 'abnormal enamel mineralization' (<http://purl.obolibrary.org/obo/MP_0030450>) is subclass of anatomy phenotype 'abnormal enamel development' (<http://purl.obolibrary.org/obo/MP_0030544>) 
+
+
+# 'abnormal touch/ nociception' (http://purl.obolibrary.org/obo/MP_0001968)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'cutaneous sensation behavior')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal touch/ nociception'
+   * Anatomy phenotype 'analgesia' (<http://purl.obolibrary.org/obo/MP_0004270>) is subclass of process phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+   * Anatomy phenotype 'abnormal nociception after inflammation' (<http://purl.obolibrary.org/obo/MP_0002736>) is subclass of process phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+   * Anatomy phenotype 'abnormal response to tactile stimuli' (<http://purl.obolibrary.org/obo/MP_0005316>) is subclass of process phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+   * Anatomy phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) is subclass of process phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+   * Process phenotype 'analgesia' (<http://purl.obolibrary.org/obo/MP_0004270>) is subclass of anatomy phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+   * Process phenotype 'abnormal nociception after inflammation' (<http://purl.obolibrary.org/obo/MP_0002736>) is subclass of anatomy phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+   * Process phenotype 'abnormal response to tactile stimuli' (<http://purl.obolibrary.org/obo/MP_0005316>) is subclass of anatomy phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+   * Process phenotype 'abnormal pain threshold' (<http://purl.obolibrary.org/obo/MP_0001970>) is subclass of anatomy phenotype 'abnormal touch/ nociception' (<http://purl.obolibrary.org/obo/MP_0001968>) 
+
+
+# 'abnormal adrenal gland morphology' (http://purl.obolibrary.org/obo/MP_0000639)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'adrenal gland')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal adrenal gland morphology'
+   * Process phenotype 'abnormal adrenal gland development' (<http://purl.obolibrary.org/obo/MP_0013310>) is subclass of anatomy phenotype 'abnormal adrenal gland morphology' (<http://purl.obolibrary.org/obo/MP_0000639>) 
+
+
+# 'abnormal pineal gland morphology' (http://purl.obolibrary.org/obo/MP_0000632)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'pineal body')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal pineal gland morphology'
+   * Process phenotype 'abnormal pineal gland development' (<http://purl.obolibrary.org/obo/MP_0013363>) is subclass of anatomy phenotype 'abnormal pineal gland morphology' (<http://purl.obolibrary.org/obo/MP_0000632>) 
+
+
+# 'abnormal hearing physiology' (http://purl.obolibrary.org/obo/MP_0001963)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'sensory perception of sound')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal hearing physiology'
+   * Anatomy phenotype 'impaired hearing' (<http://purl.obolibrary.org/obo/MP_0006325>) is subclass of process phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Anatomy phenotype 'abnormal otoacoustic response' (<http://purl.obolibrary.org/obo/MP_0006336>) is subclass of process phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Anatomy phenotype 'abnormal hearing electrophysiology' (<http://purl.obolibrary.org/obo/MP_0006335>) is subclass of process phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Anatomy phenotype 'abnormal susceptibility to hearing loss' (<http://purl.obolibrary.org/obo/MP_0006334>) is subclass of process phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Anatomy phenotype 'tinnitus' (<http://purl.obolibrary.org/obo/MP_0003741>) is subclass of process phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Process phenotype 'impaired hearing' (<http://purl.obolibrary.org/obo/MP_0006325>) is subclass of anatomy phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Process phenotype 'abnormal otoacoustic response' (<http://purl.obolibrary.org/obo/MP_0006336>) is subclass of anatomy phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Process phenotype 'abnormal hearing electrophysiology' (<http://purl.obolibrary.org/obo/MP_0006335>) is subclass of anatomy phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Process phenotype 'abnormal susceptibility to hearing loss' (<http://purl.obolibrary.org/obo/MP_0006334>) is subclass of anatomy phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+   * Process phenotype 'tinnitus' (<http://purl.obolibrary.org/obo/MP_0003741>) is subclass of anatomy phenotype 'abnormal hearing physiology' (<http://purl.obolibrary.org/obo/MP_0001963>) 
+
+
+# 'abnormal pituitary gland morphology' (http://purl.obolibrary.org/obo/MP_0000633)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'pituitary gland')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal pituitary gland morphology'
+   * Process phenotype 'abnormal pituitary gland development' (<http://purl.obolibrary.org/obo/MP_0003816>) is subclass of anatomy phenotype 'abnormal pituitary gland morphology' (<http://purl.obolibrary.org/obo/MP_0000633>) 
+
+
+# 'abnormal reflex' (http://purl.obolibrary.org/obo/MP_0001961)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'reflexive behavior')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal reflex'
+   * Anatomy phenotype 'abnormal milk ejection' (<http://purl.obolibrary.org/obo/MP_0003838>) is subclass of process phenotype 'abnormal reflex' (<http://purl.obolibrary.org/obo/MP_0001961>) 
+   * Anatomy phenotype 'abnormal pupillary reflex' (<http://purl.obolibrary.org/obo/MP_0002638>) is subclass of process phenotype 'abnormal reflex' (<http://purl.obolibrary.org/obo/MP_0001961>) 
+   * Anatomy phenotype 'abnormal vestibuloocular reflex' (<http://purl.obolibrary.org/obo/MP_0004844>) is subclass of process phenotype 'abnormal reflex' (<http://purl.obolibrary.org/obo/MP_0001961>) 
 
 
 # 'abnormal outer ear skin morphology' (http://purl.obolibrary.org/obo/MP_0030530)
@@ -1938,6 +226,66 @@
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'abnormal forehead skin morphology'
    * Process phenotype 'abnormal forehead pigmentation' (<http://purl.obolibrary.org/obo/MP_0030052>) is subclass of anatomy phenotype 'abnormal forehead skin morphology' (<http://purl.obolibrary.org/obo/MP_0030534>) 
+
+
+# 'abnormal mammary gland morphology' (http://purl.obolibrary.org/obo/MP_0000627)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'mammary gland')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal mammary gland morphology'
+   * Process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) is subclass of anatomy phenotype 'abnormal mammary gland morphology' (<http://purl.obolibrary.org/obo/MP_0000627>) 
+
+
+# 'abnormal mammary gland development' (http://purl.obolibrary.org/obo/MP_0000628)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'mammary gland development')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal mammary gland development'
+   * Anatomy phenotype 'abnormal mammary gland embryonic development' (<http://purl.obolibrary.org/obo/MP_0004135>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal mammary gland growth during pregnancy' (<http://purl.obolibrary.org/obo/MP_0006269>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal mammary gland cord formation' (<http://purl.obolibrary.org/obo/MP_0013726>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal mammary line morphology' (<http://purl.obolibrary.org/obo/MP_0013720>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal involution of the mammary gland' (<http://purl.obolibrary.org/obo/MP_0006271>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal mammary gland pattern' (<http://purl.obolibrary.org/obo/MP_0009720>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal mammary gland growth during lactation' (<http://purl.obolibrary.org/obo/MP_0006270>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal branching of the mammary ductal tree' (<http://purl.obolibrary.org/obo/MP_0000662>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Anatomy phenotype 'abnormal nipple development' (<http://purl.obolibrary.org/obo/MP_0009722>) is subclass of process phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal mammary gland embryonic development' (<http://purl.obolibrary.org/obo/MP_0004135>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal mammary gland growth during pregnancy' (<http://purl.obolibrary.org/obo/MP_0006269>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal mammary gland cord formation' (<http://purl.obolibrary.org/obo/MP_0013726>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal mammary line morphology' (<http://purl.obolibrary.org/obo/MP_0013720>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal involution of the mammary gland' (<http://purl.obolibrary.org/obo/MP_0006271>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal mammary gland pattern' (<http://purl.obolibrary.org/obo/MP_0009720>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal mammary gland growth during lactation' (<http://purl.obolibrary.org/obo/MP_0006270>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal branching of the mammary ductal tree' (<http://purl.obolibrary.org/obo/MP_0000662>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+   * Process phenotype 'abnormal nipple development' (<http://purl.obolibrary.org/obo/MP_0009722>) is subclass of anatomy phenotype 'abnormal mammary gland development' (<http://purl.obolibrary.org/obo/MP_0000628>) 
+
+
+# 'decreased salivation' (http://purl.obolibrary.org/obo/MP_0000623)
+
+* 'has_part' some   
+    ('decreased rate'  
+     and ('inheres in' some 'saliva secretion')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'decreased salivation'
+   * Anatomy phenotype 'xerostomia' (<http://purl.obolibrary.org/obo/MP_0000624>) is subclass of process phenotype 'decreased salivation' (<http://purl.obolibrary.org/obo/MP_0000623>) 
+   * Process phenotype 'xerostomia' (<http://purl.obolibrary.org/obo/MP_0000624>) is subclass of anatomy phenotype 'decreased salivation' (<http://purl.obolibrary.org/obo/MP_0000623>) 
+
+
+# 'abnormal pancreas morphology' (http://purl.obolibrary.org/obo/MP_0001944)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'pancreas')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal pancreas morphology'
+   * Process phenotype 'pancreas necrosis' (<http://purl.obolibrary.org/obo/MP_0009148>) is subclass of anatomy phenotype 'abnormal pancreas morphology' (<http://purl.obolibrary.org/obo/MP_0001944>) 
+   * Process phenotype 'abnormal pancreas development' (<http://purl.obolibrary.org/obo/MP_0003934>) is subclass of anatomy phenotype 'abnormal pancreas morphology' (<http://purl.obolibrary.org/obo/MP_0001944>) 
+   * Process phenotype 'abnormal pancreas iron level' (<http://purl.obolibrary.org/obo/MP_0013301>) is subclass of anatomy phenotype 'abnormal pancreas morphology' (<http://purl.obolibrary.org/obo/MP_0001944>) 
 
 
 # 'abnormal cementocyte morphology' (http://purl.obolibrary.org/obo/MP_0030554)
@@ -1977,6 +325,95 @@
    * Process phenotype 'increased cementoblast number' (<http://purl.obolibrary.org/obo/MP_0030553>) is subclass of anatomy phenotype 'abnormal cementoblast number' (<http://purl.obolibrary.org/obo/MP_0030551>) 
 
 
+# 'delayed sexual maturation' (http://purl.obolibrary.org/obo/MP_0001938)
+
+* 'has_part' some   
+    ('delayed'  
+     and ('inheres in' some 'development of secondary sexual characteristics')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'delayed sexual maturation'
+   * Anatomy phenotype 'late onset of menarche' (<http://purl.obolibrary.org/obo/MP_0003377>) is subclass of process phenotype 'delayed sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001938>) 
+   * Anatomy phenotype 'delayed balanopreputial separation' (<http://purl.obolibrary.org/obo/MP_0008940>) is subclass of process phenotype 'delayed sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001938>) 
+   * Process phenotype 'late onset of menarche' (<http://purl.obolibrary.org/obo/MP_0003377>) is subclass of anatomy phenotype 'delayed sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001938>) 
+   * Process phenotype 'delayed balanopreputial separation' (<http://purl.obolibrary.org/obo/MP_0008940>) is subclass of anatomy phenotype 'delayed sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001938>) 
+
+
+# 'abnormal liver physiology' (http://purl.obolibrary.org/obo/MP_0000609)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'liver')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal liver physiology'
+   * Process phenotype 'abnormal liver regeneration' (<http://purl.obolibrary.org/obo/MP_0002658>) is subclass of anatomy phenotype 'abnormal liver physiology' (<http://purl.obolibrary.org/obo/MP_0000609>) 
+   * Process phenotype 'liver inflammation' (<http://purl.obolibrary.org/obo/MP_0001860>) is subclass of anatomy phenotype 'abnormal liver physiology' (<http://purl.obolibrary.org/obo/MP_0000609>) 
+
+
+# 'abnormal sexual maturation' (http://purl.obolibrary.org/obo/MP_0001937)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'development of secondary sexual characteristics')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal sexual maturation'
+   * Anatomy phenotype 'delayed sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001938>) is subclass of process phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Anatomy phenotype 'delayed fertility' (<http://purl.obolibrary.org/obo/MP_0002683>) is subclass of process phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Anatomy phenotype 'abnormal timing of vaginal opening' (<http://purl.obolibrary.org/obo/MP_0020150>) is subclass of process phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Anatomy phenotype 'absent sexual maturation' (<http://purl.obolibrary.org/obo/MP_0003379>) is subclass of process phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Anatomy phenotype 'early sexual maturation' (<http://purl.obolibrary.org/obo/MP_0003378>) is subclass of process phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Process phenotype 'delayed sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001938>) is subclass of anatomy phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Process phenotype 'delayed fertility' (<http://purl.obolibrary.org/obo/MP_0002683>) is subclass of anatomy phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Process phenotype 'abnormal timing of vaginal opening' (<http://purl.obolibrary.org/obo/MP_0020150>) is subclass of anatomy phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Process phenotype 'absent sexual maturation' (<http://purl.obolibrary.org/obo/MP_0003379>) is subclass of anatomy phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+   * Process phenotype 'early sexual maturation' (<http://purl.obolibrary.org/obo/MP_0003378>) is subclass of anatomy phenotype 'abnormal sexual maturation' (<http://purl.obolibrary.org/obo/MP_0001937>) 
+
+
+# 'abnormal meiosis' (http://purl.obolibrary.org/obo/MP_0001930)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'meiotic cell cycle')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal meiosis'
+   * Anatomy phenotype 'uniparental disomy' (<http://purl.obolibrary.org/obo/MP_0008867>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal chiasmata formation' (<http://purl.obolibrary.org/obo/MP_0008966>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal meiotic spindle assembly checkpoint' (<http://purl.obolibrary.org/obo/MP_0009769>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'meiotic drive' (<http://purl.obolibrary.org/obo/MP_0010032>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal meiotic telomere clustering' (<http://purl.obolibrary.org/obo/MP_0030023>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal chromosomal synapsis' (<http://purl.obolibrary.org/obo/MP_0009451>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal synaptonemal complex' (<http://purl.obolibrary.org/obo/MP_0009452>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal meiotic spindle morphology' (<http://purl.obolibrary.org/obo/MP_0009761>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'abnormal meiotic configurations' (<http://purl.obolibrary.org/obo/MP_0009564>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Anatomy phenotype 'meiotic nondisjunction' (<http://purl.obolibrary.org/obo/MP_0009566>) is subclass of process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'uniparental disomy' (<http://purl.obolibrary.org/obo/MP_0008867>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal chiasmata formation' (<http://purl.obolibrary.org/obo/MP_0008966>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal meiotic spindle assembly checkpoint' (<http://purl.obolibrary.org/obo/MP_0009769>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal male meiosis' (<http://purl.obolibrary.org/obo/MP_0005169>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'meiotic drive' (<http://purl.obolibrary.org/obo/MP_0010032>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal meiotic telomere clustering' (<http://purl.obolibrary.org/obo/MP_0030023>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal chromosomal synapsis' (<http://purl.obolibrary.org/obo/MP_0009451>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal synaptonemal complex' (<http://purl.obolibrary.org/obo/MP_0009452>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal meiotic spindle morphology' (<http://purl.obolibrary.org/obo/MP_0009761>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'abnormal meiotic configurations' (<http://purl.obolibrary.org/obo/MP_0009564>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+   * Process phenotype 'meiotic nondisjunction' (<http://purl.obolibrary.org/obo/MP_0009566>) is subclass of anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) 
+
+
+# 'abnormal oogenesis' (http://purl.obolibrary.org/obo/MP_0001931)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'oogenesis')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal oogenesis'
+   * Anatomy phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) is subclass of process phenotype 'abnormal oogenesis' (<http://purl.obolibrary.org/obo/MP_0001931>) 
+   * Anatomy phenotype 'abnormal oocyte morphology' (<http://purl.obolibrary.org/obo/MP_0001125>) is subclass of process phenotype 'abnormal oogenesis' (<http://purl.obolibrary.org/obo/MP_0001931>) 
+   * Process phenotype 'abnormal female meiosis' (<http://purl.obolibrary.org/obo/MP_0005168>) is subclass of anatomy phenotype 'abnormal oogenesis' (<http://purl.obolibrary.org/obo/MP_0001931>) 
+   * Process phenotype 'abnormal oocyte morphology' (<http://purl.obolibrary.org/obo/MP_0001125>) is subclass of anatomy phenotype 'abnormal oogenesis' (<http://purl.obolibrary.org/obo/MP_0001931>) 
+
+
 # 'abnormal hair follicle placode morphology' (http://purl.obolibrary.org/obo/MP_0030580)
 
 * 'has_part' some   
@@ -1988,6 +425,65 @@
    * Anatomy phenotype 'abnormal hair follicle placode formation' (<http://purl.obolibrary.org/obo/MP_0030582>) is subclass of process phenotype 'abnormal hair follicle placode morphology' (<http://purl.obolibrary.org/obo/MP_0030580>) 
    * Process phenotype 'absent hair follicle placode' (<http://purl.obolibrary.org/obo/MP_0030581>) is subclass of anatomy phenotype 'abnormal hair follicle placode morphology' (<http://purl.obolibrary.org/obo/MP_0030580>) 
    * Process phenotype 'abnormal hair follicle placode formation' (<http://purl.obolibrary.org/obo/MP_0030582>) is subclass of anatomy phenotype 'abnormal hair follicle placode morphology' (<http://purl.obolibrary.org/obo/MP_0030580>) 
+
+
+# 'abnormal spermiogenesis' (http://purl.obolibrary.org/obo/MP_0001932)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'spermatid development')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal spermiogenesis'
+   * Anatomy phenotype 'abnormal spermiation' (<http://purl.obolibrary.org/obo/MP_0004182>) is subclass of process phenotype 'abnormal spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0001932>) 
+   * Anatomy phenotype 'abnormal Sertoli cell phagocytosis' (<http://purl.obolibrary.org/obo/MP_0009851>) is subclass of process phenotype 'abnormal spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0001932>) 
+   * Anatomy phenotype 'arrest of spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0008279>) is subclass of process phenotype 'abnormal spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0001932>) 
+   * Process phenotype 'abnormal spermiation' (<http://purl.obolibrary.org/obo/MP_0004182>) is subclass of anatomy phenotype 'abnormal spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0001932>) 
+   * Process phenotype 'abnormal Sertoli cell phagocytosis' (<http://purl.obolibrary.org/obo/MP_0009851>) is subclass of anatomy phenotype 'abnormal spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0001932>) 
+   * Process phenotype 'arrest of spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0008279>) is subclass of anatomy phenotype 'abnormal spermiogenesis' (<http://purl.obolibrary.org/obo/MP_0001932>) 
+
+
+# 'abnormal ovulation' (http://purl.obolibrary.org/obo/MP_0001928)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'ovulation from ovarian follicle')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal ovulation'
+   * Anatomy phenotype 'abnormal superovulation' (<http://purl.obolibrary.org/obo/MP_0009648>) is subclass of process phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) 
+   * Anatomy phenotype 'anovulation' (<http://purl.obolibrary.org/obo/MP_0008869>) is subclass of process phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) 
+   * Anatomy phenotype 'decreased ovulation rate' (<http://purl.obolibrary.org/obo/MP_0003355>) is subclass of process phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) 
+   * Process phenotype 'abnormal superovulation' (<http://purl.obolibrary.org/obo/MP_0009648>) is subclass of anatomy phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) 
+   * Process phenotype 'anovulation' (<http://purl.obolibrary.org/obo/MP_0008869>) is subclass of anatomy phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) 
+   * Process phenotype 'decreased ovulation rate' (<http://purl.obolibrary.org/obo/MP_0003355>) is subclass of anatomy phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) 
+
+
+# 'abnormal gametogenesis' (http://purl.obolibrary.org/obo/MP_0001929)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'gamete generation')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal gametogenesis'
+   * Anatomy phenotype 'transmission ratio distortion' (<http://purl.obolibrary.org/obo/MP_0004179>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal DNA methylation during gametogenesis' (<http://purl.obolibrary.org/obo/MP_0008878>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal primordial germ cell proliferation' (<http://purl.obolibrary.org/obo/MP_0008390>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal cumulus expansion' (<http://purl.obolibrary.org/obo/MP_0009373>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal oogenesis' (<http://purl.obolibrary.org/obo/MP_0001931>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal germ cell morphology' (<http://purl.obolibrary.org/obo/MP_0002208>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal spermatogenesis' (<http://purl.obolibrary.org/obo/MP_0001156>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Anatomy phenotype 'abnormal primordial germ cell migration' (<http://purl.obolibrary.org/obo/MP_0002982>) is subclass of process phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'transmission ratio distortion' (<http://purl.obolibrary.org/obo/MP_0004179>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal DNA methylation during gametogenesis' (<http://purl.obolibrary.org/obo/MP_0008878>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal primordial germ cell proliferation' (<http://purl.obolibrary.org/obo/MP_0008390>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal ovulation' (<http://purl.obolibrary.org/obo/MP_0001928>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal cumulus expansion' (<http://purl.obolibrary.org/obo/MP_0009373>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal meiosis' (<http://purl.obolibrary.org/obo/MP_0001930>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal oogenesis' (<http://purl.obolibrary.org/obo/MP_0001931>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal germ cell morphology' (<http://purl.obolibrary.org/obo/MP_0002208>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal spermatogenesis' (<http://purl.obolibrary.org/obo/MP_0001156>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
+   * Process phenotype 'abnormal primordial germ cell migration' (<http://purl.obolibrary.org/obo/MP_0002982>) is subclass of anatomy phenotype 'abnormal gametogenesis' (<http://purl.obolibrary.org/obo/MP_0001929>) 
 
 
 # 'abnormal keratinocyte adhesion' (http://purl.obolibrary.org/obo/MP_0030576)
@@ -2005,6 +501,70 @@
    * Process phenotype 'decreased keratinocyte adhesion' (<http://purl.obolibrary.org/obo/MP_0030578>) is subclass of anatomy phenotype 'abnormal keratinocyte adhesion' (<http://purl.obolibrary.org/obo/MP_0030576>) 
 
 
+# 'intracerebral hemorrhage' (http://purl.obolibrary.org/obo/MP_0001916)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in' some   
+        ('hemorrhage and non-specified extravasation'  
+         and ('part_of' some 'cerebral hemisphere')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'intracerebral hemorrhage'
+   * Anatomy phenotype 'intraventricular hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001917>) is subclass of process phenotype 'intracerebral hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001916>) 
+   * Process phenotype 'intraventricular hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001917>) is subclass of anatomy phenotype 'intracerebral hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001916>) 
+
+
+# 'abnormal reproductive system physiology' (http://purl.obolibrary.org/obo/MP_0001919)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'reproductive system')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal reproductive system physiology'
+   * Process phenotype 'genital hemorrhage' (<http://purl.obolibrary.org/obo/MP_0004245>) is subclass of anatomy phenotype 'abnormal reproductive system physiology' (<http://purl.obolibrary.org/obo/MP_0001919>) 
+   * Process phenotype 'reproductive system inflammation' (<http://purl.obolibrary.org/obo/MP_0002254>) is subclass of anatomy phenotype 'abnormal reproductive system physiology' (<http://purl.obolibrary.org/obo/MP_0001919>) 
+   * Process phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) is subclass of anatomy phenotype 'abnormal reproductive system physiology' (<http://purl.obolibrary.org/obo/MP_0001919>) 
+   * Process phenotype 'abnormal copulation' (<http://purl.obolibrary.org/obo/MP_0009697>) is subclass of anatomy phenotype 'abnormal reproductive system physiology' (<http://purl.obolibrary.org/obo/MP_0001919>) 
+
+
+# 'hemorrhage' (http://purl.obolibrary.org/obo/MP_0001914)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in' some 'hemorrhage and non-specified extravasation')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'hemorrhage'
+   * Anatomy phenotype 'hematoma' (<http://purl.obolibrary.org/obo/MP_0008817>) is subclass of process phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Anatomy phenotype 'internal hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001634>) is subclass of process phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Anatomy phenotype 'umbilical cord hemorrhage' (<http://purl.obolibrary.org/obo/MP_0012305>) is subclass of process phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Anatomy phenotype 'skin hemorrhage' (<http://purl.obolibrary.org/obo/MP_0011514>) is subclass of process phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Anatomy phenotype 'placenta hemorrhage' (<http://purl.obolibrary.org/obo/MP_0030975>) is subclass of process phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Process phenotype 'hematoma' (<http://purl.obolibrary.org/obo/MP_0008817>) is subclass of anatomy phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Process phenotype 'internal hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001634>) is subclass of anatomy phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Process phenotype 'umbilical cord hemorrhage' (<http://purl.obolibrary.org/obo/MP_0012305>) is subclass of anatomy phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Process phenotype 'skin hemorrhage' (<http://purl.obolibrary.org/obo/MP_0011514>) is subclass of anatomy phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+   * Process phenotype 'placenta hemorrhage' (<http://purl.obolibrary.org/obo/MP_0030975>) is subclass of anatomy phenotype 'hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001914>) 
+
+
+# 'intracranial hemorrhage' (http://purl.obolibrary.org/obo/MP_0001915)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in' some   
+        ('hemorrhage and non-specified extravasation'  
+         and ('part_of' some 'cranium')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'intracranial hemorrhage'
+   * Anatomy phenotype 'intracerebral hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001916>) is subclass of process phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+   * Anatomy phenotype 'hypothalamus hemorrhage' (<http://purl.obolibrary.org/obo/MP_0006053>) is subclass of process phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+   * Anatomy phenotype 'cerebellum hemorrhage' (<http://purl.obolibrary.org/obo/MP_0006052>) is subclass of process phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+   * Anatomy phenotype 'brainstem hemorrhage' (<http://purl.obolibrary.org/obo/MP_0006051>) is subclass of process phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+   * Process phenotype 'intracerebral hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001916>) is subclass of anatomy phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+   * Process phenotype 'hypothalamus hemorrhage' (<http://purl.obolibrary.org/obo/MP_0006053>) is subclass of anatomy phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+   * Process phenotype 'cerebellum hemorrhage' (<http://purl.obolibrary.org/obo/MP_0006052>) is subclass of anatomy phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+   * Process phenotype 'brainstem hemorrhage' (<http://purl.obolibrary.org/obo/MP_0006051>) is subclass of anatomy phenotype 'intracranial hemorrhage' (<http://purl.obolibrary.org/obo/MP_0001915>) 
+
+
 # 'abnormal adipocyte glucose uptake' (http://purl.obolibrary.org/obo/MP_0004185)
 
 * 'has_part' some   
@@ -2018,6 +578,16 @@
    * Anatomy phenotype 'decreased adipocyte glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030017>) is subclass of process phenotype 'abnormal adipocyte glucose uptake' (<http://purl.obolibrary.org/obo/MP_0004185>) 
    * Process phenotype 'increased adipocyte glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030016>) is subclass of anatomy phenotype 'abnormal adipocyte glucose uptake' (<http://purl.obolibrary.org/obo/MP_0004185>) 
    * Process phenotype 'decreased adipocyte glucose uptake' (<http://purl.obolibrary.org/obo/MP_0030017>) is subclass of anatomy phenotype 'abnormal adipocyte glucose uptake' (<http://purl.obolibrary.org/obo/MP_0004185>) 
+
+
+# 'abnormal somatosensory cortex physiology' (http://purl.obolibrary.org/obo/MP_0001908)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'parietal lobe')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal somatosensory cortex physiology'
+   * Process phenotype 'reduced NMDA receptor mediated synaptic activity in barrel cortex' (<http://purl.obolibrary.org/obo/MP_0001909>) is subclass of anatomy phenotype 'abnormal somatosensory cortex physiology' (<http://purl.obolibrary.org/obo/MP_0001908>) 
 
 
 # 'abnormal sperm fibrous sheath morphology' (http://purl.obolibrary.org/obo/MP_0030590)
@@ -2103,6 +673,17 @@
    * Process phenotype 'abnormal adenohypophysis development' (<http://purl.obolibrary.org/obo/MP_0013337>) is subclass of anatomy phenotype 'abnormal adenohypophysis morphology' (<http://purl.obolibrary.org/obo/MP_0004163>) 
 
 
+# 'abnormal ventral ectodermal ridge morphology' (http://purl.obolibrary.org/obo/MP_0012713)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'ventral ectodermal ridge')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal ventral ectodermal ridge morphology'
+   * Anatomy phenotype 'decreased ventral ectodermal ridge size' (<http://purl.obolibrary.org/obo/MP_0012714>) is subclass of process phenotype 'abnormal ventral ectodermal ridge morphology' (<http://purl.obolibrary.org/obo/MP_0012713>) 
+   * Process phenotype 'decreased ventral ectodermal ridge size' (<http://purl.obolibrary.org/obo/MP_0012714>) is subclass of anatomy phenotype 'abnormal ventral ectodermal ridge morphology' (<http://purl.obolibrary.org/obo/MP_0012713>) 
+
+
 # 'abnormal circulating iron level' (http://purl.obolibrary.org/obo/MP_0004152)
 
 * 'has_part' some   
@@ -2131,6 +712,19 @@
    * Anatomy phenotype 'decreased circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005478>) is subclass of process phenotype 'abnormal circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005475>) 
    * Process phenotype 'increased circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005477>) is subclass of anatomy phenotype 'abnormal circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005475>) 
    * Process phenotype 'decreased circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005478>) is subclass of anatomy phenotype 'abnormal circulating thyroxine level' (<http://purl.obolibrary.org/obo/MP_0005475>) 
+
+
+# 'abnormal polar body morphology' (http://purl.obolibrary.org/obo/MP_0012736)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'polar body')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal polar body morphology'
+   * Anatomy phenotype 'abnormal secondary polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012738>) is subclass of process phenotype 'abnormal polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012736>) 
+   * Anatomy phenotype 'abnormal primary polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012737>) is subclass of process phenotype 'abnormal polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012736>) 
+   * Process phenotype 'abnormal secondary polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012738>) is subclass of anatomy phenotype 'abnormal polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012736>) 
+   * Process phenotype 'abnormal primary polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012737>) is subclass of anatomy phenotype 'abnormal polar body morphology' (<http://purl.obolibrary.org/obo/MP_0012736>) 
 
 
 # 'abnormal circulating triiodothyronine level' (http://purl.obolibrary.org/obo/MP_0005476)
@@ -2198,12 +792,12 @@
 * Summary of Process Sub ME violations for 'abnormal CD4-positive, alpha-beta T cell physiology'
    * Anatomy phenotype 'abnormal T-helper 2 physiology' (<http://purl.obolibrary.org/obo/MP_0005466>) is subclass of process phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
    * Anatomy phenotype 'abnormal T-helper 1 physiology' (<http://purl.obolibrary.org/obo/MP_0005465>) is subclass of process phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
-   * Anatomy phenotype 'abnormal T follicular helper cell physiology' (<http://purl.obolibrary.org/obo/MP_0010189>) is subclass of process phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
    * Anatomy phenotype 'abnormal T-helper 17 cell physiology' (<http://purl.obolibrary.org/obo/MP_0010222>) is subclass of process phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
+   * Anatomy phenotype 'abnormal T follicular helper cell physiology' (<http://purl.obolibrary.org/obo/MP_0010189>) is subclass of process phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
    * Process phenotype 'abnormal T-helper 2 physiology' (<http://purl.obolibrary.org/obo/MP_0005466>) is subclass of anatomy phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
    * Process phenotype 'abnormal T-helper 1 physiology' (<http://purl.obolibrary.org/obo/MP_0005465>) is subclass of anatomy phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
-   * Process phenotype 'abnormal T follicular helper cell physiology' (<http://purl.obolibrary.org/obo/MP_0010189>) is subclass of anatomy phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
    * Process phenotype 'abnormal T-helper 17 cell physiology' (<http://purl.obolibrary.org/obo/MP_0010222>) is subclass of anatomy phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
+   * Process phenotype 'abnormal T follicular helper cell physiology' (<http://purl.obolibrary.org/obo/MP_0010189>) is subclass of anatomy phenotype 'abnormal CD4-positive, alpha-beta T cell physiology' (<http://purl.obolibrary.org/obo/MP_0005463>) 
 
 
 # 'abnormal leukopoiesis' (http://purl.obolibrary.org/obo/MP_0005460)
@@ -2215,12 +809,12 @@
 * Summary of Process Sub ME violations for 'abnormal leukopoiesis'
    * Anatomy phenotype 'abnormal myelopoiesis' (<http://purl.obolibrary.org/obo/MP_0001601>) is subclass of process phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
    * Anatomy phenotype 'abnormal dendritic cell differentiation' (<http://purl.obolibrary.org/obo/MP_0008115>) is subclass of process phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
-   * Anatomy phenotype 'abnormal mononuclear cell differentiation' (<http://purl.obolibrary.org/obo/MP_0002445>) is subclass of process phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
    * Anatomy phenotype 'abnormal lymphopoiesis' (<http://purl.obolibrary.org/obo/MP_0002401>) is subclass of process phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
+   * Anatomy phenotype 'abnormal mononuclear cell differentiation' (<http://purl.obolibrary.org/obo/MP_0002445>) is subclass of process phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
    * Process phenotype 'abnormal myelopoiesis' (<http://purl.obolibrary.org/obo/MP_0001601>) is subclass of anatomy phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
    * Process phenotype 'abnormal dendritic cell differentiation' (<http://purl.obolibrary.org/obo/MP_0008115>) is subclass of anatomy phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
-   * Process phenotype 'abnormal mononuclear cell differentiation' (<http://purl.obolibrary.org/obo/MP_0002445>) is subclass of anatomy phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
    * Process phenotype 'abnormal lymphopoiesis' (<http://purl.obolibrary.org/obo/MP_0002401>) is subclass of anatomy phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
+   * Process phenotype 'abnormal mononuclear cell differentiation' (<http://purl.obolibrary.org/obo/MP_0002445>) is subclass of anatomy phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) 
 
 
 # 'abnormal dendritic cell morphology' (http://purl.obolibrary.org/obo/MP_0005461)
@@ -2250,6 +844,91 @@
    * Process phenotype 'abnormal cardiac cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0004039>) is subclass of anatomy phenotype 'abnormal muscle cell glucose uptake' (<http://purl.obolibrary.org/obo/MP_0004130>) 
 
 
+# 'increased neural crest cell proliferation' (http://purl.obolibrary.org/obo/MP_0012742)
+
+* 'has_part' some   
+    ('increased rate'  
+     and ('inheres in part of' some   
+        ('cell population proliferation'  
+         and ('occurs in' some 'migratory neural crest cell')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased neural crest cell proliferation'
+   * Anatomy phenotype 'increased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012759>) is subclass of process phenotype 'increased neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012742>) 
+   * Process phenotype 'increased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012759>) is subclass of anatomy phenotype 'increased neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012742>) 
+
+
+# 'decreased neural crest cell proliferation' (http://purl.obolibrary.org/obo/MP_0012741)
+
+* 'has_part' some   
+    ('decreased rate'  
+     and ('inheres in part of' some   
+        ('cell population proliferation'  
+         and ('occurs in' some 'migratory neural crest cell')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'decreased neural crest cell proliferation'
+   * Anatomy phenotype 'decreased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012760>) is subclass of process phenotype 'decreased neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012741>) 
+   * Anatomy phenotype 'decreased enteric neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0013005>) is subclass of process phenotype 'decreased neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012741>) 
+   * Process phenotype 'decreased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012760>) is subclass of anatomy phenotype 'decreased neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012741>) 
+   * Process phenotype 'decreased enteric neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0013005>) is subclass of anatomy phenotype 'decreased neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012741>) 
+
+
+# 'abnormal neural crest cell physiology' (http://purl.obolibrary.org/obo/MP_0012745)
+
+* ('has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'migratory neural crest cell')))  
+ and ('has modifier' some 'abnormal')
+* Summary of Process Sub ME violations for 'abnormal neural crest cell physiology'
+   * Process phenotype 'abnormal neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0009842>) is subclass of anatomy phenotype 'abnormal neural crest cell physiology' (<http://purl.obolibrary.org/obo/MP_0012745>) 
+   * Process phenotype 'abnormal neural crest cell migration' (<http://purl.obolibrary.org/obo/MP_0002950>) is subclass of anatomy phenotype 'abnormal neural crest cell physiology' (<http://purl.obolibrary.org/obo/MP_0012745>) 
+   * Process phenotype 'abnormal neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0009844>) is subclass of anatomy phenotype 'abnormal neural crest cell physiology' (<http://purl.obolibrary.org/obo/MP_0012745>) 
+
+
+# 'abnormal aldosterone level' (http://purl.obolibrary.org/obo/MP_0011415)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some 'LIPID MAPS')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal aldosterone level'
+   * Anatomy phenotype 'abnormal urine aldosterone level' (<http://purl.obolibrary.org/obo/MP_0011539>) is subclass of process phenotype 'abnormal aldosterone level' (<http://purl.obolibrary.org/obo/MP_0011415>) 
+   * Anatomy phenotype 'abnormal circulating aldosterone level' (<http://purl.obolibrary.org/obo/MP_0005346>) is subclass of process phenotype 'abnormal aldosterone level' (<http://purl.obolibrary.org/obo/MP_0011415>) 
+
+
+# 'increased neural crest cell apoptosis' (http://purl.obolibrary.org/obo/MP_0012744)
+
+* 'has_part' some   
+    ('increased rate'  
+     and ('inheres in part of' some   
+        ('apoptotic process'  
+         and ('occurs in' some 'migratory neural crest cell')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased neural crest cell apoptosis'
+   * Anatomy phenotype 'increased cardiac neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012753>) is subclass of process phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+   * Anatomy phenotype 'increased trunk neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0013014>) is subclass of process phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+   * Anatomy phenotype 'increased cranial neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012761>) is subclass of process phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+   * Anatomy phenotype 'increased vagal neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0013009>) is subclass of process phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+   * Process phenotype 'increased cardiac neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012753>) is subclass of anatomy phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+   * Process phenotype 'increased trunk neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0013014>) is subclass of anatomy phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+   * Process phenotype 'increased cranial neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012761>) is subclass of anatomy phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+   * Process phenotype 'increased vagal neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0013009>) is subclass of anatomy phenotype 'increased neural crest cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0012744>) 
+
+
+# 'abnormal cranial neural crest cell proliferation' (http://purl.obolibrary.org/obo/MP_0012758)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some   
+        ('cell population proliferation'  
+         and ('occurs in' some 'migratory cranial neural crest cell')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal cranial neural crest cell proliferation'
+   * Anatomy phenotype 'increased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012759>) is subclass of process phenotype 'abnormal cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012758>) 
+   * Anatomy phenotype 'decreased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012760>) is subclass of process phenotype 'abnormal cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012758>) 
+   * Process phenotype 'increased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012759>) is subclass of anatomy phenotype 'abnormal cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012758>) 
+   * Process phenotype 'decreased cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012760>) is subclass of anatomy phenotype 'abnormal cranial neural crest cell proliferation' (<http://purl.obolibrary.org/obo/MP_0012758>) 
+
+
 # 'abnormal body composition' (http://purl.obolibrary.org/obo/MP_0005451)
 
 * 'has_part' some   
@@ -2258,6 +937,49 @@
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'abnormal body composition'
    * Process phenotype 'hydrops fetalis' (<http://purl.obolibrary.org/obo/MP_0002192>) is subclass of anatomy phenotype 'abnormal body composition' (<http://purl.obolibrary.org/obo/MP_0005451>) 
+
+
+# 'abnormal cranial neural crest cell morphology' (http://purl.obolibrary.org/obo/MP_0012754)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'migratory cranial neural crest cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal cranial neural crest cell morphology'
+   * Anatomy phenotype 'impaired cranial neural crest cell differentiation' (<http://purl.obolibrary.org/obo/MP_0012756>) is subclass of process phenotype 'abnormal cranial neural crest cell morphology' (<http://purl.obolibrary.org/obo/MP_0012754>) 
+   * Anatomy phenotype 'decreased cranial neural crest cell number' (<http://purl.obolibrary.org/obo/MP_0012755>) is subclass of process phenotype 'abnormal cranial neural crest cell morphology' (<http://purl.obolibrary.org/obo/MP_0012754>) 
+   * Process phenotype 'impaired cranial neural crest cell differentiation' (<http://purl.obolibrary.org/obo/MP_0012756>) is subclass of anatomy phenotype 'abnormal cranial neural crest cell morphology' (<http://purl.obolibrary.org/obo/MP_0012754>) 
+   * Process phenotype 'decreased cranial neural crest cell number' (<http://purl.obolibrary.org/obo/MP_0012755>) is subclass of anatomy phenotype 'abnormal cranial neural crest cell morphology' (<http://purl.obolibrary.org/obo/MP_0012754>) 
+
+
+# 'abnormal fat cell morphology' (http://purl.obolibrary.org/obo/MP_0009115)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'fat cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal fat cell morphology'
+   * Process phenotype 'abnormal fat cell differentiation' (<http://purl.obolibrary.org/obo/MP_0011168>) is subclass of anatomy phenotype 'abnormal fat cell morphology' (<http://purl.obolibrary.org/obo/MP_0009115>) 
+
+
+# 'abnormal brown fat cell morphology' (http://purl.obolibrary.org/obo/MP_0009116)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'brown fat cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal brown fat cell morphology'
+   * Process phenotype 'abnormal brown fat cell differentiation' (<http://purl.obolibrary.org/obo/MP_0011170>) is subclass of anatomy phenotype 'abnormal brown fat cell morphology' (<http://purl.obolibrary.org/obo/MP_0009116>) 
+
+
+# 'abnormal white fat cell morphology' (http://purl.obolibrary.org/obo/MP_0009117)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'white fat cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal white fat cell morphology'
+   * Process phenotype 'abnormal white fat cell differentation' (<http://purl.obolibrary.org/obo/MP_0011169>) is subclass of anatomy phenotype 'abnormal white fat cell morphology' (<http://purl.obolibrary.org/obo/MP_0009117>) 
 
 
 # 'abnormal food intake' (http://purl.obolibrary.org/obo/MP_0005449)
@@ -2305,6 +1027,42 @@
    * Process phenotype 'increased neurotransmitter release' (<http://purl.obolibrary.org/obo/MP_0008921>) is subclass of anatomy phenotype 'abnormal neurotransmitter secretion' (<http://purl.obolibrary.org/obo/MP_0005445>) 
 
 
+# 'abnormal renal reabsorbtion' (http://purl.obolibrary.org/obo/MP_0010107)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'renal absorption')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal renal reabsorbtion'
+   * Anatomy phenotype 'abnormal renal sodium reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010109>) is subclass of process phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Anatomy phenotype 'abnormal renal water reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010108>) is subclass of process phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Anatomy phenotype 'abnormal renal phosphate reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010110>) is subclass of process phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Anatomy phenotype 'abnormal renal calcium reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010111>) is subclass of process phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Anatomy phenotype 'abnormal renal glucose reabsorption' (<http://purl.obolibrary.org/obo/MP_0011447>) is subclass of process phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Anatomy phenotype 'abnormal renal protein reabsorption' (<http://purl.obolibrary.org/obo/MP_0011445>) is subclass of process phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Process phenotype 'abnormal renal sodium reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010109>) is subclass of anatomy phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Process phenotype 'abnormal renal water reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010108>) is subclass of anatomy phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Process phenotype 'abnormal renal phosphate reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010110>) is subclass of anatomy phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Process phenotype 'abnormal renal calcium reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010111>) is subclass of anatomy phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Process phenotype 'abnormal renal glucose reabsorption' (<http://purl.obolibrary.org/obo/MP_0011447>) is subclass of anatomy phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+   * Process phenotype 'abnormal renal protein reabsorption' (<http://purl.obolibrary.org/obo/MP_0011445>) is subclass of anatomy phenotype 'abnormal renal reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010107>) 
+
+
+# 'abnormal kidney cell proliferation' (http://purl.obolibrary.org/obo/MP_0011439)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some   
+        ('cell population proliferation'  
+         and ('occurs in' some 'kidney')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal kidney cell proliferation'
+   * Anatomy phenotype 'increased kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011440>) is subclass of process phenotype 'abnormal kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011439>) 
+   * Anatomy phenotype 'decreased kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011441>) is subclass of process phenotype 'abnormal kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011439>) 
+   * Process phenotype 'increased kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011440>) is subclass of anatomy phenotype 'abnormal kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011439>) 
+   * Process phenotype 'decreased kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011441>) is subclass of anatomy phenotype 'abnormal kidney cell proliferation' (<http://purl.obolibrary.org/obo/MP_0011439>) 
+
+
 # 'increased glycogen level' (http://purl.obolibrary.org/obo/MP_0005440)
 
 * 'has_part' some   
@@ -2317,6 +1075,51 @@
    * Anatomy phenotype 'increased cardiac muscle glycogen level' (<http://purl.obolibrary.org/obo/MP_0014071>) is subclass of process phenotype 'increased glycogen level' (<http://purl.obolibrary.org/obo/MP_0005440>) 
    * Anatomy phenotype 'increased liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0010400>) is subclass of process phenotype 'increased glycogen level' (<http://purl.obolibrary.org/obo/MP_0005440>) 
    * Anatomy phenotype 'increased skeletal muscle glycogen level' (<http://purl.obolibrary.org/obo/MP_0010401>) is subclass of process phenotype 'increased glycogen level' (<http://purl.obolibrary.org/obo/MP_0005440>) 
+
+
+# 'increased alpha-beta T cell number' (http://purl.obolibrary.org/obo/MP_0012764)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in' some 'alpha-beta T cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased alpha-beta T cell number'
+   * Process phenotype 'increased double-positive T cell number' (<http://purl.obolibrary.org/obo/MP_0005091>) is subclass of anatomy phenotype 'increased alpha-beta T cell number' (<http://purl.obolibrary.org/obo/MP_0012764>) 
+
+
+# 'abnormal alpha-beta T cell morphology' (http://purl.obolibrary.org/obo/MP_0012762)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'alpha-beta T cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal alpha-beta T cell morphology'
+   * Process phenotype 'abnormal double-positive T cell morphology' (<http://purl.obolibrary.org/obo/MP_0002408>) is subclass of anatomy phenotype 'abnormal alpha-beta T cell morphology' (<http://purl.obolibrary.org/obo/MP_0012762>) 
+
+
+# 'abnormal urine magnesium level' (http://purl.obolibrary.org/obo/MP_0011434)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('ChemIDplus'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal urine magnesium level'
+   * Anatomy phenotype 'decreased urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011436>) is subclass of process phenotype 'abnormal urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011434>) 
+   * Anatomy phenotype 'increased urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011435>) is subclass of process phenotype 'abnormal urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011434>) 
+   * Process phenotype 'decreased urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011436>) is subclass of anatomy phenotype 'abnormal urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011434>) 
+   * Process phenotype 'increased urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011435>) is subclass of anatomy phenotype 'abnormal urine magnesium level' (<http://purl.obolibrary.org/obo/MP_0011434>) 
+
+
+# 'decreased alpha-beta T cell number' (http://purl.obolibrary.org/obo/MP_0012765)
+
+* 'has_part' some   
+    ('decreased amount'  
+     and ('inheres in' some 'alpha-beta T cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'decreased alpha-beta T cell number'
+   * Process phenotype 'decreased double-positive T cell number' (<http://purl.obolibrary.org/obo/MP_0005092>) is subclass of anatomy phenotype 'decreased alpha-beta T cell number' (<http://purl.obolibrary.org/obo/MP_0012765>) 
 
 
 # 'decreased glycogen level' (http://purl.obolibrary.org/obo/MP_0005439)
@@ -2391,6 +1194,131 @@
    * Process phenotype 'abnormal early pro-B cell' (<http://purl.obolibrary.org/obo/MP_0005019>) is subclass of anatomy phenotype 'abnormal pro-B cell morphology' (<http://purl.obolibrary.org/obo/MP_0005432>) 
 
 
+# 'abnormal renal water transport' (http://purl.obolibrary.org/obo/MP_0011443)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'renal water transport')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal renal water transport'
+   * Anatomy phenotype 'abnormal renal water reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010108>) is subclass of process phenotype 'abnormal renal water transport' (<http://purl.obolibrary.org/obo/MP_0011443>) 
+   * Process phenotype 'abnormal renal water reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010108>) is subclass of anatomy phenotype 'abnormal renal water transport' (<http://purl.obolibrary.org/obo/MP_0011443>) 
+
+
+# 'abnormal renal water homeostasis' (http://purl.obolibrary.org/obo/MP_0011444)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'renal water homeostasis')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal renal water homeostasis'
+   * Anatomy phenotype 'abnormal renal water transport' (<http://purl.obolibrary.org/obo/MP_0011443>) is subclass of process phenotype 'abnormal renal water homeostasis' (<http://purl.obolibrary.org/obo/MP_0011444>) 
+   * Process phenotype 'abnormal renal water transport' (<http://purl.obolibrary.org/obo/MP_0011443>) is subclass of anatomy phenotype 'abnormal renal water homeostasis' (<http://purl.obolibrary.org/obo/MP_0011444>) 
+
+
+# 'abnormal renal sodium ion transport' (http://purl.obolibrary.org/obo/MP_0011442)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'renal sodium ion transport')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal renal sodium ion transport'
+   * Anatomy phenotype 'abnormal renal sodium reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010109>) is subclass of process phenotype 'abnormal renal sodium ion transport' (<http://purl.obolibrary.org/obo/MP_0011442>) 
+   * Process phenotype 'abnormal renal sodium reabsorbtion' (<http://purl.obolibrary.org/obo/MP_0010109>) is subclass of anatomy phenotype 'abnormal renal sodium ion transport' (<http://purl.obolibrary.org/obo/MP_0011442>) 
+
+
+# 'abnormal brain cholesterol level' (http://purl.obolibrary.org/obo/MP_0012779)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('LIPID MAPS'  
+         and ('part_of' some 'brain')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal brain cholesterol level'
+   * Anatomy phenotype 'decreased brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010161>) is subclass of process phenotype 'abnormal brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012779>) 
+   * Anatomy phenotype 'increased brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010162>) is subclass of process phenotype 'abnormal brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012779>) 
+   * Process phenotype 'decreased brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010161>) is subclass of anatomy phenotype 'abnormal brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012779>) 
+   * Process phenotype 'increased brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010162>) is subclass of anatomy phenotype 'abnormal brain cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012779>) 
+
+
+# 'abnormal lateral plate mesoderm morphology' (http://purl.obolibrary.org/obo/MP_0010117)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in part of' some 'lateral plate mesoderm')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal lateral plate mesoderm morphology'
+   * Process phenotype 'abnormal cardiogenic mesoderm morphology' (<http://purl.obolibrary.org/obo/MP_0012278>) is subclass of anatomy phenotype 'abnormal lateral plate mesoderm morphology' (<http://purl.obolibrary.org/obo/MP_0010117>) 
+
+
+# 'abnormal liver triglyceride level' (http://purl.obolibrary.org/obo/MP_0012778)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('LIPID MAPS'  
+         and ('part_of' some 'liver')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal liver triglyceride level'
+   * Anatomy phenotype 'increased liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0009355>) is subclass of process phenotype 'abnormal liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0012778>) 
+   * Anatomy phenotype 'decreased liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0009356>) is subclass of process phenotype 'abnormal liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0012778>) 
+   * Process phenotype 'increased liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0009355>) is subclass of anatomy phenotype 'abnormal liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0012778>) 
+   * Process phenotype 'decreased liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0009356>) is subclass of anatomy phenotype 'abnormal liver triglyceride level' (<http://purl.obolibrary.org/obo/MP_0012778>) 
+
+
+# 'abnormal liver glycogen level' (http://purl.obolibrary.org/obo/MP_0012777)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('glycogen'  
+         and ('part_of' some 'liver')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal liver glycogen level'
+   * Anatomy phenotype 'decreased liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0010398>) is subclass of process phenotype 'abnormal liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0012777>) 
+   * Anatomy phenotype 'increased liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0010400>) is subclass of process phenotype 'abnormal liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0012777>) 
+   * Process phenotype 'decreased liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0010398>) is subclass of anatomy phenotype 'abnormal liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0012777>) 
+   * Process phenotype 'increased liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0010400>) is subclass of anatomy phenotype 'abnormal liver glycogen level' (<http://purl.obolibrary.org/obo/MP_0012777>) 
+
+
+# 'abnormal renal protein reabsorption' (http://purl.obolibrary.org/obo/MP_0011445)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'renal protein absorption')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal renal protein reabsorption'
+   * Anatomy phenotype 'abnormal renal albumin reabsorption' (<http://purl.obolibrary.org/obo/MP_0011446>) is subclass of process phenotype 'abnormal renal protein reabsorption' (<http://purl.obolibrary.org/obo/MP_0011445>) 
+   * Process phenotype 'abnormal renal albumin reabsorption' (<http://purl.obolibrary.org/obo/MP_0011446>) is subclass of anatomy phenotype 'abnormal renal protein reabsorption' (<http://purl.obolibrary.org/obo/MP_0011445>) 
+
+
+# 'abnormal embryonic cloaca morphology' (http://purl.obolibrary.org/obo/MP_0010115)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'embryonic cloaca')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal embryonic cloaca morphology'
+   * Process phenotype 'abnormal embryonic cloaca development' (<http://purl.obolibrary.org/obo/MP_0011851>) is subclass of anatomy phenotype 'abnormal embryonic cloaca morphology' (<http://purl.obolibrary.org/obo/MP_0010115>) 
+   * Process phenotype 'abnormal septation of the cloaca' (<http://purl.obolibrary.org/obo/MP_0003125>) is subclass of anatomy phenotype 'abnormal embryonic cloaca morphology' (<http://purl.obolibrary.org/obo/MP_0010115>) 
+
+
+# 'abnormal liver cholesterol level' (http://purl.obolibrary.org/obo/MP_0012776)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('LIPID MAPS'  
+         and ('part_of' some 'liver')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal liver cholesterol level'
+   * Anatomy phenotype 'decreased liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010026>) is subclass of process phenotype 'abnormal liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012776>) 
+   * Anatomy phenotype 'increased liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010027>) is subclass of process phenotype 'abnormal liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012776>) 
+   * Process phenotype 'decreased liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010026>) is subclass of anatomy phenotype 'abnormal liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012776>) 
+   * Process phenotype 'increased liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0010027>) is subclass of anatomy phenotype 'abnormal liver cholesterol level' (<http://purl.obolibrary.org/obo/MP_0012776>) 
+
+
 # 'abnormal somatic nervous system physiology' (http://purl.obolibrary.org/obo/MP_0005423)
 
 * 'has_part' some   
@@ -2399,6 +1327,91 @@
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'abnormal somatic nervous system physiology'
    * Process phenotype 'avnosmia' (<http://purl.obolibrary.org/obo/MP_0004513>) is subclass of anatomy phenotype 'abnormal somatic nervous system physiology' (<http://purl.obolibrary.org/obo/MP_0005423>) 
+
+
+# 'abnormal rhombomere 1 morphology' (http://purl.obolibrary.org/obo/MP_0012784)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'rhombomere 1')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal rhombomere 1 morphology'
+   * Anatomy phenotype 'increased rhombomere 1 size' (<http://purl.obolibrary.org/obo/MP_0012786>) is subclass of process phenotype 'abnormal rhombomere 1 morphology' (<http://purl.obolibrary.org/obo/MP_0012784>) 
+   * Anatomy phenotype 'decreased rhombomere 1 size' (<http://purl.obolibrary.org/obo/MP_0012785>) is subclass of process phenotype 'abnormal rhombomere 1 morphology' (<http://purl.obolibrary.org/obo/MP_0012784>) 
+   * Anatomy phenotype 'absent rhombomere 1' (<http://purl.obolibrary.org/obo/MP_0012787>) is subclass of process phenotype 'abnormal rhombomere 1 morphology' (<http://purl.obolibrary.org/obo/MP_0012784>) 
+   * Process phenotype 'increased rhombomere 1 size' (<http://purl.obolibrary.org/obo/MP_0012786>) is subclass of anatomy phenotype 'abnormal rhombomere 1 morphology' (<http://purl.obolibrary.org/obo/MP_0012784>) 
+   * Process phenotype 'decreased rhombomere 1 size' (<http://purl.obolibrary.org/obo/MP_0012785>) is subclass of anatomy phenotype 'abnormal rhombomere 1 morphology' (<http://purl.obolibrary.org/obo/MP_0012784>) 
+   * Process phenotype 'absent rhombomere 1' (<http://purl.obolibrary.org/obo/MP_0012787>) is subclass of anatomy phenotype 'abnormal rhombomere 1 morphology' (<http://purl.obolibrary.org/obo/MP_0012784>) 
+
+
+# 'abnormal urine chloride ion level' (http://purl.obolibrary.org/obo/MP_0011458)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('Beilstein'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal urine chloride ion level'
+   * Anatomy phenotype 'decreased urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011460>) is subclass of process phenotype 'abnormal urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011458>) 
+   * Anatomy phenotype 'increased urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011459>) is subclass of process phenotype 'abnormal urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011458>) 
+   * Process phenotype 'decreased urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011460>) is subclass of anatomy phenotype 'abnormal urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011458>) 
+   * Process phenotype 'increased urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011459>) is subclass of anatomy phenotype 'abnormal urine chloride ion level' (<http://purl.obolibrary.org/obo/MP_0011458>) 
+
+
+# 'abnormal rhombomere 2 morphology' (http://purl.obolibrary.org/obo/MP_0012788)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'rhombomere 2')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal rhombomere 2 morphology'
+   * Anatomy phenotype 'absent rhombomere 2' (<http://purl.obolibrary.org/obo/MP_0012791>) is subclass of process phenotype 'abnormal rhombomere 2 morphology' (<http://purl.obolibrary.org/obo/MP_0012788>) 
+   * Anatomy phenotype 'increased rhombomere 2 size' (<http://purl.obolibrary.org/obo/MP_0012790>) is subclass of process phenotype 'abnormal rhombomere 2 morphology' (<http://purl.obolibrary.org/obo/MP_0012788>) 
+   * Anatomy phenotype 'decreased rhombomere 2 size' (<http://purl.obolibrary.org/obo/MP_0012789>) is subclass of process phenotype 'abnormal rhombomere 2 morphology' (<http://purl.obolibrary.org/obo/MP_0012788>) 
+   * Process phenotype 'absent rhombomere 2' (<http://purl.obolibrary.org/obo/MP_0012791>) is subclass of anatomy phenotype 'abnormal rhombomere 2 morphology' (<http://purl.obolibrary.org/obo/MP_0012788>) 
+   * Process phenotype 'increased rhombomere 2 size' (<http://purl.obolibrary.org/obo/MP_0012790>) is subclass of anatomy phenotype 'abnormal rhombomere 2 morphology' (<http://purl.obolibrary.org/obo/MP_0012788>) 
+   * Process phenotype 'decreased rhombomere 2 size' (<http://purl.obolibrary.org/obo/MP_0012789>) is subclass of anatomy phenotype 'abnormal rhombomere 2 morphology' (<http://purl.obolibrary.org/obo/MP_0012788>) 
+
+
+# 'abnormal urine bicarbonate level' (http://purl.obolibrary.org/obo/MP_0011461)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('hydrogencarbonate'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal urine bicarbonate level'
+   * Anatomy phenotype 'increased urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011462>) is subclass of process phenotype 'abnormal urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011461>) 
+   * Anatomy phenotype 'decreased urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011463>) is subclass of process phenotype 'abnormal urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011461>) 
+   * Process phenotype 'increased urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011462>) is subclass of anatomy phenotype 'abnormal urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011461>) 
+   * Process phenotype 'decreased urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011463>) is subclass of anatomy phenotype 'abnormal urine bicarbonate level' (<http://purl.obolibrary.org/obo/MP_0011461>) 
+
+
+# 'abnormal rhombomere 3 morphology' (http://purl.obolibrary.org/obo/MP_0012792)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'rhombomere 3')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal rhombomere 3 morphology'
+   * Anatomy phenotype 'decreased rhombomere 3 size' (<http://purl.obolibrary.org/obo/MP_0012793>) is subclass of process phenotype 'abnormal rhombomere 3 morphology' (<http://purl.obolibrary.org/obo/MP_0012792>) 
+   * Anatomy phenotype 'absent rhombomere 3' (<http://purl.obolibrary.org/obo/MP_0012795>) is subclass of process phenotype 'abnormal rhombomere 3 morphology' (<http://purl.obolibrary.org/obo/MP_0012792>) 
+   * Anatomy phenotype 'increased rhombomere 3 size' (<http://purl.obolibrary.org/obo/MP_0012794>) is subclass of process phenotype 'abnormal rhombomere 3 morphology' (<http://purl.obolibrary.org/obo/MP_0012792>) 
+   * Process phenotype 'decreased rhombomere 3 size' (<http://purl.obolibrary.org/obo/MP_0012793>) is subclass of anatomy phenotype 'abnormal rhombomere 3 morphology' (<http://purl.obolibrary.org/obo/MP_0012792>) 
+   * Process phenotype 'absent rhombomere 3' (<http://purl.obolibrary.org/obo/MP_0012795>) is subclass of anatomy phenotype 'abnormal rhombomere 3 morphology' (<http://purl.obolibrary.org/obo/MP_0012792>) 
+   * Process phenotype 'increased rhombomere 3 size' (<http://purl.obolibrary.org/obo/MP_0012794>) is subclass of anatomy phenotype 'abnormal rhombomere 3 morphology' (<http://purl.obolibrary.org/obo/MP_0012792>) 
+
+
+# 'abnormal pancreatic acinar cell physiology' (http://purl.obolibrary.org/obo/MP_0009147)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'pancreatic acinar cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal pancreatic acinar cell physiology'
+   * Process phenotype 'abnormal pancreatic amylase secretion' (<http://purl.obolibrary.org/obo/MP_0014096>) is subclass of anatomy phenotype 'abnormal pancreatic acinar cell physiology' (<http://purl.obolibrary.org/obo/MP_0009147>) 
 
 
 # 'abnormal circulating hormone level' (http://purl.obolibrary.org/obo/MP_0005418)
@@ -2427,10 +1440,10 @@
    * Anatomy phenotype 'abnormal circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005667>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Anatomy phenotype 'abnormal circulating estrogen level' (<http://purl.obolibrary.org/obo/MP_0003369>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Anatomy phenotype 'abnormal circulating atrial natriuretic factor level' (<http://purl.obolibrary.org/obo/MP_0005521>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
-   * Anatomy phenotype 'abnormal circulating gastrin level' (<http://purl.obolibrary.org/obo/MP_0004730>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Anatomy phenotype 'abnormal circulating insulin level' (<http://purl.obolibrary.org/obo/MP_0001560>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
-   * Anatomy phenotype 'abnormal circulating glucagon level' (<http://purl.obolibrary.org/obo/MP_0002695>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
+   * Anatomy phenotype 'abnormal circulating gastrin level' (<http://purl.obolibrary.org/obo/MP_0004730>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Anatomy phenotype 'abnormal circulating glucocorticoid level' (<http://purl.obolibrary.org/obo/MP_0003366>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
+   * Anatomy phenotype 'abnormal circulating glucagon level' (<http://purl.obolibrary.org/obo/MP_0002695>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Anatomy phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Anatomy phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Anatomy phenotype 'abnormal circulating androgen level' (<http://purl.obolibrary.org/obo/MP_0009819>) is subclass of process phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
@@ -2453,10 +1466,10 @@
    * Process phenotype 'abnormal circulating leptin level' (<http://purl.obolibrary.org/obo/MP_0005667>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Process phenotype 'abnormal circulating estrogen level' (<http://purl.obolibrary.org/obo/MP_0003369>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Process phenotype 'abnormal circulating atrial natriuretic factor level' (<http://purl.obolibrary.org/obo/MP_0005521>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
-   * Process phenotype 'abnormal circulating gastrin level' (<http://purl.obolibrary.org/obo/MP_0004730>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Process phenotype 'abnormal circulating insulin level' (<http://purl.obolibrary.org/obo/MP_0001560>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
-   * Process phenotype 'abnormal circulating glucagon level' (<http://purl.obolibrary.org/obo/MP_0002695>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
+   * Process phenotype 'abnormal circulating gastrin level' (<http://purl.obolibrary.org/obo/MP_0004730>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Process phenotype 'abnormal circulating glucocorticoid level' (<http://purl.obolibrary.org/obo/MP_0003366>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
+   * Process phenotype 'abnormal circulating glucagon level' (<http://purl.obolibrary.org/obo/MP_0002695>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Process phenotype 'abnormal circulating noradrenaline level' (<http://purl.obolibrary.org/obo/MP_0005663>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Process phenotype 'abnormal circulating adrenaline level' (<http://purl.obolibrary.org/obo/MP_0005660>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
    * Process phenotype 'abnormal circulating androgen level' (<http://purl.obolibrary.org/obo/MP_0009819>) is subclass of anatomy phenotype 'abnormal circulating hormone level' (<http://purl.obolibrary.org/obo/MP_0005418>) 
@@ -2474,54 +1487,54 @@
          and ('part_of' some 'blood')))  
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'abnormal circulating protein level'
-   * Anatomy phenotype 'decreased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012661>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Anatomy phenotype 'abnormal circulating thrombin level' (<http://purl.obolibrary.org/obo/MP_0013255>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating prothrombin level' (<http://purl.obolibrary.org/obo/MP_0012221>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'abnormal circulating thrombin level' (<http://purl.obolibrary.org/obo/MP_0013255>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'decreased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012661>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating serum albumin level' (<http://purl.obolibrary.org/obo/MP_0000199>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'hemoglobinemia' (<http://purl.obolibrary.org/obo/MP_0000332>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating enzyme level' (<http://purl.obolibrary.org/obo/MP_0001570>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating fibronectin level' (<http://purl.obolibrary.org/obo/MP_0011912>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating ferritin level' (<http://purl.obolibrary.org/obo/MP_0011889>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Anatomy phenotype 'abnormal glycosylated hemoglobin level' (<http://purl.obolibrary.org/obo/MP_0006351>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating angiotensinogen level' (<http://purl.obolibrary.org/obo/MP_0006373>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'abnormal glycosylated hemoglobin level' (<http://purl.obolibrary.org/obo/MP_0006351>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating antithrombin level' (<http://purl.obolibrary.org/obo/MP_0012324>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating apolipoprotein level' (<http://purl.obolibrary.org/obo/MP_0010332>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'decreased circulating haptoglobin level' (<http://purl.obolibrary.org/obo/MP_0012664>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating C-reactive protein level' (<http://purl.obolibrary.org/obo/MP_0010212>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Anatomy phenotype 'abnormal circulating cytokine level' (<http://purl.obolibrary.org/obo/MP_0010210>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Anatomy phenotype 'increased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012662>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating transferrin level' (<http://purl.obolibrary.org/obo/MP_0011892>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Anatomy phenotype 'abnormal circulating total protein level' (<http://purl.obolibrary.org/obo/MP_0011888>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'increased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012662>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'abnormal circulating cytokine level' (<http://purl.obolibrary.org/obo/MP_0010210>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating complement protein level' (<http://purl.obolibrary.org/obo/MP_0010215>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Anatomy phenotype 'abnormal circulating factor VIII level' (<http://purl.obolibrary.org/obo/MP_0012327>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'abnormal circulating total protein level' (<http://purl.obolibrary.org/obo/MP_0011888>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating retinol binding protein level' (<http://purl.obolibrary.org/obo/MP_0010216>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'abnormal circulating factor VIII level' (<http://purl.obolibrary.org/obo/MP_0012327>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'abnormal circulating fibrinogen level' (<http://purl.obolibrary.org/obo/MP_0010213>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Anatomy phenotype 'abnormal circulating serum amyloid protein level' (<http://purl.obolibrary.org/obo/MP_0010214>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Anatomy phenotype 'increased circulating haptoglobin level' (<http://purl.obolibrary.org/obo/MP_0012666>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'decreased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012661>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'abnormal circulating thrombin level' (<http://purl.obolibrary.org/obo/MP_0013255>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Anatomy phenotype 'abnormal circulating serum amyloid protein level' (<http://purl.obolibrary.org/obo/MP_0010214>) is subclass of process phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating prothrombin level' (<http://purl.obolibrary.org/obo/MP_0012221>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'abnormal circulating thrombin level' (<http://purl.obolibrary.org/obo/MP_0013255>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'decreased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012661>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating serum albumin level' (<http://purl.obolibrary.org/obo/MP_0000199>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'hemoglobinemia' (<http://purl.obolibrary.org/obo/MP_0000332>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating enzyme level' (<http://purl.obolibrary.org/obo/MP_0001570>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating fibronectin level' (<http://purl.obolibrary.org/obo/MP_0011912>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating ferritin level' (<http://purl.obolibrary.org/obo/MP_0011889>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'abnormal glycosylated hemoglobin level' (<http://purl.obolibrary.org/obo/MP_0006351>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating angiotensinogen level' (<http://purl.obolibrary.org/obo/MP_0006373>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'abnormal glycosylated hemoglobin level' (<http://purl.obolibrary.org/obo/MP_0006351>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating antithrombin level' (<http://purl.obolibrary.org/obo/MP_0012324>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating apolipoprotein level' (<http://purl.obolibrary.org/obo/MP_0010332>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'decreased circulating haptoglobin level' (<http://purl.obolibrary.org/obo/MP_0012664>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating C-reactive protein level' (<http://purl.obolibrary.org/obo/MP_0010212>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'abnormal circulating cytokine level' (<http://purl.obolibrary.org/obo/MP_0010210>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'increased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012662>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating transferrin level' (<http://purl.obolibrary.org/obo/MP_0011892>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'abnormal circulating total protein level' (<http://purl.obolibrary.org/obo/MP_0011888>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'increased circulating ceruloplasmin level' (<http://purl.obolibrary.org/obo/MP_0012662>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'abnormal circulating cytokine level' (<http://purl.obolibrary.org/obo/MP_0010210>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating complement protein level' (<http://purl.obolibrary.org/obo/MP_0010215>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'abnormal circulating factor VIII level' (<http://purl.obolibrary.org/obo/MP_0012327>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'abnormal circulating total protein level' (<http://purl.obolibrary.org/obo/MP_0011888>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating retinol binding protein level' (<http://purl.obolibrary.org/obo/MP_0010216>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'abnormal circulating factor VIII level' (<http://purl.obolibrary.org/obo/MP_0012327>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'abnormal circulating fibrinogen level' (<http://purl.obolibrary.org/obo/MP_0010213>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
-   * Process phenotype 'abnormal circulating serum amyloid protein level' (<http://purl.obolibrary.org/obo/MP_0010214>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
    * Process phenotype 'increased circulating haptoglobin level' (<http://purl.obolibrary.org/obo/MP_0012666>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
+   * Process phenotype 'abnormal circulating serum amyloid protein level' (<http://purl.obolibrary.org/obo/MP_0010214>) is subclass of anatomy phenotype 'abnormal circulating protein level' (<http://purl.obolibrary.org/obo/MP_0005416>) 
 
 
 # 'vascular stenosis' (http://purl.obolibrary.org/obo/MP_0005412)
@@ -2541,12 +1554,87 @@
      and ('inheres in' some 'fertilization')  
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'abnormal fertilization'
-   * Anatomy phenotype 'impaired acrosome reaction' (<http://purl.obolibrary.org/obo/MP_0004542>) is subclass of process phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
    * Anatomy phenotype 'delayed fertilization' (<http://purl.obolibrary.org/obo/MP_0005411>) is subclass of process phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
+   * Anatomy phenotype 'impaired acrosome reaction' (<http://purl.obolibrary.org/obo/MP_0004542>) is subclass of process phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
    * Anatomy phenotype 'impaired fertilization' (<http://purl.obolibrary.org/obo/MP_0000242>) is subclass of process phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
-   * Process phenotype 'impaired acrosome reaction' (<http://purl.obolibrary.org/obo/MP_0004542>) is subclass of anatomy phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
    * Process phenotype 'delayed fertilization' (<http://purl.obolibrary.org/obo/MP_0005411>) is subclass of anatomy phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
+   * Process phenotype 'impaired acrosome reaction' (<http://purl.obolibrary.org/obo/MP_0004542>) is subclass of anatomy phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
    * Process phenotype 'impaired fertilization' (<http://purl.obolibrary.org/obo/MP_0000242>) is subclass of anatomy phenotype 'abnormal fertilization' (<http://purl.obolibrary.org/obo/MP_0005410>) 
+
+
+# 'abnormal rhombomere 4 morphology' (http://purl.obolibrary.org/obo/MP_0012796)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'rhombomere 4')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal rhombomere 4 morphology'
+   * Anatomy phenotype 'decreased rhombomere 4 size' (<http://purl.obolibrary.org/obo/MP_0012797>) is subclass of process phenotype 'abnormal rhombomere 4 morphology' (<http://purl.obolibrary.org/obo/MP_0012796>) 
+   * Anatomy phenotype 'absent rhombomere 4' (<http://purl.obolibrary.org/obo/MP_0012799>) is subclass of process phenotype 'abnormal rhombomere 4 morphology' (<http://purl.obolibrary.org/obo/MP_0012796>) 
+   * Anatomy phenotype 'increased rhombomere 4 size' (<http://purl.obolibrary.org/obo/MP_0012798>) is subclass of process phenotype 'abnormal rhombomere 4 morphology' (<http://purl.obolibrary.org/obo/MP_0012796>) 
+   * Process phenotype 'decreased rhombomere 4 size' (<http://purl.obolibrary.org/obo/MP_0012797>) is subclass of anatomy phenotype 'abnormal rhombomere 4 morphology' (<http://purl.obolibrary.org/obo/MP_0012796>) 
+   * Process phenotype 'absent rhombomere 4' (<http://purl.obolibrary.org/obo/MP_0012799>) is subclass of anatomy phenotype 'abnormal rhombomere 4 morphology' (<http://purl.obolibrary.org/obo/MP_0012796>) 
+   * Process phenotype 'increased rhombomere 4 size' (<http://purl.obolibrary.org/obo/MP_0012798>) is subclass of anatomy phenotype 'abnormal rhombomere 4 morphology' (<http://purl.obolibrary.org/obo/MP_0012796>) 
+
+
+# 'abnormal urine creatinine level' (http://purl.obolibrary.org/obo/MP_0011469)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('Reaxys'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal urine creatinine level'
+   * Anatomy phenotype 'increased urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011470>) is subclass of process phenotype 'abnormal urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011469>) 
+   * Anatomy phenotype 'decreased urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011471>) is subclass of process phenotype 'abnormal urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011469>) 
+   * Process phenotype 'increased urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011470>) is subclass of anatomy phenotype 'abnormal urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011469>) 
+   * Process phenotype 'decreased urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011471>) is subclass of anatomy phenotype 'abnormal urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011469>) 
+
+
+# 'arteritis' (http://purl.obolibrary.org/obo/MP_0010138)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in part of' some   
+        ('inflammatory response'  
+         and ('occurs in' some 'artery')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'arteritis'
+   * Anatomy phenotype 'aortitis' (<http://purl.obolibrary.org/obo/MP_0010139>) is subclass of process phenotype 'arteritis' (<http://purl.obolibrary.org/obo/MP_0010138>) 
+   * Process phenotype 'aortitis' (<http://purl.obolibrary.org/obo/MP_0010139>) is subclass of anatomy phenotype 'arteritis' (<http://purl.obolibrary.org/obo/MP_0010138>) 
+
+
+# 'abnormal urine amino acid level' (http://purl.obolibrary.org/obo/MP_0011468)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('amino acid'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal urine amino acid level'
+   * Anatomy phenotype 'abnormal urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030631>) is subclass of process phenotype 'abnormal urine amino acid level' (<http://purl.obolibrary.org/obo/MP_0011468>) 
+   * Anatomy phenotype 'aminoaciduria' (<http://purl.obolibrary.org/obo/MP_0003311>) is subclass of process phenotype 'abnormal urine amino acid level' (<http://purl.obolibrary.org/obo/MP_0011468>) 
+   * Anatomy phenotype 'abnormal urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011469>) is subclass of process phenotype 'abnormal urine amino acid level' (<http://purl.obolibrary.org/obo/MP_0011468>) 
+   * Process phenotype 'abnormal urine creatine level' (<http://purl.obolibrary.org/obo/MP_0030631>) is subclass of anatomy phenotype 'abnormal urine amino acid level' (<http://purl.obolibrary.org/obo/MP_0011468>) 
+   * Process phenotype 'aminoaciduria' (<http://purl.obolibrary.org/obo/MP_0003311>) is subclass of anatomy phenotype 'abnormal urine amino acid level' (<http://purl.obolibrary.org/obo/MP_0011468>) 
+   * Process phenotype 'abnormal urine creatinine level' (<http://purl.obolibrary.org/obo/MP_0011469>) is subclass of anatomy phenotype 'abnormal urine amino acid level' (<http://purl.obolibrary.org/obo/MP_0011468>) 
+
+
+# 'abnormal urine glycosaminoglycan level' (http://purl.obolibrary.org/obo/MP_0011472)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('glycosaminoglycan'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal urine glycosaminoglycan level'
+   * Anatomy phenotype 'increased urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011473>) is subclass of process phenotype 'abnormal urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011472>) 
+   * Anatomy phenotype 'decreased urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011474>) is subclass of process phenotype 'abnormal urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011472>) 
+   * Process phenotype 'increased urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011473>) is subclass of anatomy phenotype 'abnormal urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011472>) 
+   * Process phenotype 'decreased urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011474>) is subclass of anatomy phenotype 'abnormal urine glycosaminoglycan level' (<http://purl.obolibrary.org/obo/MP_0011472>) 
 
 
 # 'hypopigmentation' (http://purl.obolibrary.org/obo/MP_0005408)
@@ -2603,6 +1691,300 @@
    * Anatomy phenotype 'increased nerve conduction velocity' (<http://purl.obolibrary.org/obo/MP_0011994>) is subclass of process phenotype 'abnormal nerve conduction' (<http://purl.obolibrary.org/obo/MP_0005403>) 
    * Process phenotype 'decreased nerve conduction velocity' (<http://purl.obolibrary.org/obo/MP_0008814>) is subclass of anatomy phenotype 'abnormal nerve conduction' (<http://purl.obolibrary.org/obo/MP_0005403>) 
    * Process phenotype 'increased nerve conduction velocity' (<http://purl.obolibrary.org/obo/MP_0011994>) is subclass of anatomy phenotype 'abnormal nerve conduction' (<http://purl.obolibrary.org/obo/MP_0005403>) 
+
+
+# 'abnormal urine catecholamine level' (http://purl.obolibrary.org/obo/MP_0011478)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('catecholamine'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal urine catecholamine level'
+   * Anatomy phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) is subclass of process phenotype 'abnormal urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0011478>) 
+   * Anatomy phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) is subclass of process phenotype 'abnormal urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0011478>) 
+   * Process phenotype 'decreased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030767>) is subclass of anatomy phenotype 'abnormal urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0011478>) 
+   * Process phenotype 'increased urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0030766>) is subclass of anatomy phenotype 'abnormal urine catecholamine level' (<http://purl.obolibrary.org/obo/MP_0011478>) 
+
+
+# 'abnormal small intestinal crypt cell physiology' (http://purl.obolibrary.org/obo/MP_0010156)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'crypt of Lieberkuhn of small intestine')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal small intestinal crypt cell physiology'
+   * Process phenotype 'abnormal small intestinal crypt cell proliferation' (<http://purl.obolibrary.org/obo/MP_0010157>) is subclass of anatomy phenotype 'abnormal small intestinal crypt cell physiology' (<http://purl.obolibrary.org/obo/MP_0010156>) 
+   * Process phenotype 'increased small intestinal crypt cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0008800>) is subclass of anatomy phenotype 'abnormal small intestinal crypt cell physiology' (<http://purl.obolibrary.org/obo/MP_0010156>) 
+
+
+# 'abnormal gastroesophageal sphincter physiology' (http://purl.obolibrary.org/obo/MP_0010154)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'gastroesophageal sphincter')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal gastroesophageal sphincter physiology'
+   * Process phenotype 'esophageal achalasia' (<http://purl.obolibrary.org/obo/MP_0011570>) is subclass of anatomy phenotype 'abnormal gastroesophageal sphincter physiology' (<http://purl.obolibrary.org/obo/MP_0010154>) 
+
+
+# 'abnormal intestine physiology' (http://purl.obolibrary.org/obo/MP_0010155)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'intestine')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal intestine physiology'
+   * Process phenotype 'intestinal edema' (<http://purl.obolibrary.org/obo/MP_0003288>) is subclass of anatomy phenotype 'abnormal intestine physiology' (<http://purl.obolibrary.org/obo/MP_0010155>) 
+   * Process phenotype 'intestinal inflammation' (<http://purl.obolibrary.org/obo/MP_0001858>) is subclass of anatomy phenotype 'abnormal intestine physiology' (<http://purl.obolibrary.org/obo/MP_0010155>) 
+   * Process phenotype 'abnormal susceptibility to induced colitis' (<http://purl.obolibrary.org/obo/MP_0013296>) is subclass of anatomy phenotype 'abnormal intestine physiology' (<http://purl.obolibrary.org/obo/MP_0010155>) 
+   * Process phenotype 'abnormal intestine regeneration' (<http://purl.obolibrary.org/obo/MP_0003380>) is subclass of anatomy phenotype 'abnormal intestine physiology' (<http://purl.obolibrary.org/obo/MP_0010155>) 
+   * Process phenotype 'abnormal intestine apoptosis' (<http://purl.obolibrary.org/obo/MP_0020444>) is subclass of anatomy phenotype 'abnormal intestine physiology' (<http://purl.obolibrary.org/obo/MP_0010155>) 
+
+
+# 'abnormal intestine development' (http://purl.obolibrary.org/obo/MP_0010158)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'digestive tract development')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal intestine development'
+   * Anatomy phenotype 'intraembryonal intestine elongation' (<http://purl.obolibrary.org/obo/MP_0013948>) is subclass of process phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Anatomy phenotype 'delayed intestine development' (<http://purl.obolibrary.org/obo/MP_0000478>) is subclass of process phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Anatomy phenotype 'abnormal embryonic cloaca development' (<http://purl.obolibrary.org/obo/MP_0011851>) is subclass of process phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Anatomy phenotype 'abnormal septation of the cloaca' (<http://purl.obolibrary.org/obo/MP_0003125>) is subclass of process phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Anatomy phenotype 'abnormal enterocyte differentiation' (<http://purl.obolibrary.org/obo/MP_0010159>) is subclass of process phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Process phenotype 'intraembryonal intestine elongation' (<http://purl.obolibrary.org/obo/MP_0013948>) is subclass of anatomy phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Process phenotype 'delayed intestine development' (<http://purl.obolibrary.org/obo/MP_0000478>) is subclass of anatomy phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Process phenotype 'abnormal embryonic cloaca development' (<http://purl.obolibrary.org/obo/MP_0011851>) is subclass of anatomy phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Process phenotype 'abnormal septation of the cloaca' (<http://purl.obolibrary.org/obo/MP_0003125>) is subclass of anatomy phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+   * Process phenotype 'abnormal enterocyte differentiation' (<http://purl.obolibrary.org/obo/MP_0010159>) is subclass of anatomy phenotype 'abnormal intestine development' (<http://purl.obolibrary.org/obo/MP_0010158>) 
+
+
+# 'abnormal glial cell apoptosis' (http://purl.obolibrary.org/obo/MP_0010170)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'glial cell apoptotic process')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal glial cell apoptosis'
+   * Anatomy phenotype 'abnormal radial glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0020392>) is subclass of process phenotype 'abnormal glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0010170>) 
+   * Anatomy phenotype 'abnormal astrocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0010204>) is subclass of process phenotype 'abnormal glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0010170>) 
+   * Anatomy phenotype 'abnormal oligodendrocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0010205>) is subclass of process phenotype 'abnormal glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0010170>) 
+   * Process phenotype 'abnormal radial glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0020392>) is subclass of anatomy phenotype 'abnormal glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0010170>) 
+   * Process phenotype 'abnormal astrocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0010204>) is subclass of anatomy phenotype 'abnormal glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0010170>) 
+   * Process phenotype 'abnormal oligodendrocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0010205>) is subclass of anatomy phenotype 'abnormal glial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0010170>) 
+
+
+# 'abnormal PP cell morphology' (http://purl.obolibrary.org/obo/MP_0009184)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'PP cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal PP cell morphology'
+   * Process phenotype 'abnormal PP cell differentiation' (<http://purl.obolibrary.org/obo/MP_0009188>) is subclass of anatomy phenotype 'abnormal PP cell morphology' (<http://purl.obolibrary.org/obo/MP_0009184>) 
+
+
+# 'abnormal mammary gland epithelium physiology' (http://purl.obolibrary.org/obo/MP_0010172)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'epithelium of mammary gland')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal mammary gland epithelium physiology'
+   * Process phenotype 'decreased mammary gland epithelial cell proliferation' (<http://purl.obolibrary.org/obo/MP_0010174>) is subclass of anatomy phenotype 'abnormal mammary gland epithelium physiology' (<http://purl.obolibrary.org/obo/MP_0010172>) 
+   * Process phenotype 'increased mammary gland epithelial cell proliferation' (<http://purl.obolibrary.org/obo/MP_0010173>) is subclass of anatomy phenotype 'abnormal mammary gland epithelium physiology' (<http://purl.obolibrary.org/obo/MP_0010172>) 
+
+
+# 'abnormal pancreatic epsilon cell morphology' (http://purl.obolibrary.org/obo/MP_0009189)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'pancreatic epsilon cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal pancreatic epsilon cell morphology'
+   * Process phenotype 'abnormal pancreatic epsilon cell differentiation' (<http://purl.obolibrary.org/obo/MP_0009193>) is subclass of anatomy phenotype 'abnormal pancreatic epsilon cell morphology' (<http://purl.obolibrary.org/obo/MP_0009189>) 
+
+
+# 'abnormal pancreatic epsilon cell physiology' (http://purl.obolibrary.org/obo/MP_0009194)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'pancreatic epsilon cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal pancreatic epsilon cell physiology'
+   * Process phenotype 'abnormal pancreatic ghrelin secretion' (<http://purl.obolibrary.org/obo/MP_0009196>) is subclass of anatomy phenotype 'abnormal pancreatic epsilon cell physiology' (<http://purl.obolibrary.org/obo/MP_0009194>) 
+
+
+# 'abnormal PP cell physiology' (http://purl.obolibrary.org/obo/MP_0009195)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'PP cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal PP cell physiology'
+   * Process phenotype 'abnormal pancreatic polypeptide secretion' (<http://purl.obolibrary.org/obo/MP_0009197>) is subclass of anatomy phenotype 'abnormal PP cell physiology' (<http://purl.obolibrary.org/obo/MP_0009195>) 
+
+
+# 'abnormal T follicular helper cell morphology' (http://purl.obolibrary.org/obo/MP_0010184)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'T follicular helper cell')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal T follicular helper cell morphology'
+   * Process phenotype 'abnormal T follicular helper cell differentiation' (<http://purl.obolibrary.org/obo/MP_0010188>) is subclass of anatomy phenotype 'abnormal T follicular helper cell morphology' (<http://purl.obolibrary.org/obo/MP_0010184>) 
+
+
+# 'abnormal circulating erythropoietin level' (http://purl.obolibrary.org/obo/MP_0011284)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('erythropoietin'  
+         and ('part_of' some 'blood')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal circulating erythropoietin level'
+   * Anatomy phenotype 'increased circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011285>) is subclass of process phenotype 'abnormal circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011284>) 
+   * Anatomy phenotype 'decreased circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011286>) is subclass of process phenotype 'abnormal circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011284>) 
+   * Process phenotype 'increased circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011285>) is subclass of anatomy phenotype 'abnormal circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011284>) 
+   * Process phenotype 'decreased circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011286>) is subclass of anatomy phenotype 'abnormal circulating erythropoietin level' (<http://purl.obolibrary.org/obo/MP_0011284>) 
+
+
+# 'nephron necrosis' (http://purl.obolibrary.org/obo/MP_0011291)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in part of' some   
+        ('necrotic cell death'  
+         and ('occurs in' some 'nephron')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'nephron necrosis'
+   * Anatomy phenotype 'renal tubular necrosis' (<http://purl.obolibrary.org/obo/MP_0004154>) is subclass of process phenotype 'nephron necrosis' (<http://purl.obolibrary.org/obo/MP_0011291>) 
+   * Process phenotype 'renal tubular necrosis' (<http://purl.obolibrary.org/obo/MP_0004154>) is subclass of anatomy phenotype 'nephron necrosis' (<http://purl.obolibrary.org/obo/MP_0011291>) 
+
+
+# 'abnormal cortical marginal zone morphology' (http://purl.obolibrary.org/obo/MP_0000792)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'brain marginal zone')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal cortical marginal zone morphology'
+   * Anatomy phenotype 'abnormal Cajal-Retzius cell morphology' (<http://purl.obolibrary.org/obo/MP_0008030>) is subclass of process phenotype 'abnormal cortical marginal zone morphology' (<http://purl.obolibrary.org/obo/MP_0000792>) 
+   * Process phenotype 'abnormal Cajal-Retzius cell morphology' (<http://purl.obolibrary.org/obo/MP_0008030>) is subclass of anatomy phenotype 'abnormal cortical marginal zone morphology' (<http://purl.obolibrary.org/obo/MP_0000792>) 
+
+
+# 'abnormal telencephalon morphology' (http://purl.obolibrary.org/obo/MP_0000787)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'telencephalon')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal telencephalon morphology'
+   * Process phenotype 'abnormal telencephalon development' (<http://purl.obolibrary.org/obo/MP_0000934>) is subclass of anatomy phenotype 'abnormal telencephalon morphology' (<http://purl.obolibrary.org/obo/MP_0000787>) 
+
+
+# 'abnormal forebrain morphology' (http://purl.obolibrary.org/obo/MP_0000783)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'forebrain')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal forebrain morphology'
+   * Process phenotype 'abnormal forebrain development' (<http://purl.obolibrary.org/obo/MP_0003232>) is subclass of anatomy phenotype 'abnormal forebrain morphology' (<http://purl.obolibrary.org/obo/MP_0000783>) 
+
+
+# 'abnormal skeletal muscle morphology' (http://purl.obolibrary.org/obo/MP_0000759)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'skeletal muscle tissue')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal skeletal muscle morphology'
+   * Process phenotype 'abnormal skeletal muscle glycogen level' (<http://purl.obolibrary.org/obo/MP_0014069>) is subclass of anatomy phenotype 'abnormal skeletal muscle morphology' (<http://purl.obolibrary.org/obo/MP_0000759>) 
+   * Process phenotype 'skeletal muscle necrosis' (<http://purl.obolibrary.org/obo/MP_0003852>) is subclass of anatomy phenotype 'abnormal skeletal muscle morphology' (<http://purl.obolibrary.org/obo/MP_0000759>) 
+
+
+# 'paralysis' (http://purl.obolibrary.org/obo/MP_0000753)
+
+* 'has_part' some   
+    ('paralysed'  
+     and ('inheres in' some 'organism subdivision')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'paralysis'
+   * Anatomy phenotype 'facial paralysis' (<http://purl.obolibrary.org/obo/MP_0030141>) is subclass of process phenotype 'paralysis' (<http://purl.obolibrary.org/obo/MP_0000753>) 
+   * Anatomy phenotype 'carpoptosis' (<http://purl.obolibrary.org/obo/MP_0005162>) is subclass of process phenotype 'paralysis' (<http://purl.obolibrary.org/obo/MP_0000753>) 
+   * Anatomy phenotype 'limb paralysis' (<http://purl.obolibrary.org/obo/MP_0013147>) is subclass of process phenotype 'paralysis' (<http://purl.obolibrary.org/obo/MP_0000753>) 
+   * Process phenotype 'facial paralysis' (<http://purl.obolibrary.org/obo/MP_0030141>) is subclass of anatomy phenotype 'paralysis' (<http://purl.obolibrary.org/obo/MP_0000753>) 
+   * Process phenotype 'carpoptosis' (<http://purl.obolibrary.org/obo/MP_0005162>) is subclass of anatomy phenotype 'paralysis' (<http://purl.obolibrary.org/obo/MP_0000753>) 
+   * Process phenotype 'limb paralysis' (<http://purl.obolibrary.org/obo/MP_0013147>) is subclass of anatomy phenotype 'paralysis' (<http://purl.obolibrary.org/obo/MP_0000753>) 
+
+
+# 'abnormal muscle regeneration' (http://purl.obolibrary.org/obo/MP_0000750)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some   
+        ('tissue regeneration'  
+         and ('occurs in' some 'muscle organ')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal muscle regeneration'
+   * Anatomy phenotype 'improved muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013161>) is subclass of process phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+   * Anatomy phenotype 'impaired muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013160>) is subclass of process phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+   * Anatomy phenotype 'abnormal skeletal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013237>) is subclass of process phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+   * Anatomy phenotype 'abnormal cardiac muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013238>) is subclass of process phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+   * Process phenotype 'improved muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013161>) is subclass of anatomy phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+   * Process phenotype 'impaired muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013160>) is subclass of anatomy phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+   * Process phenotype 'abnormal skeletal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013237>) is subclass of anatomy phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+   * Process phenotype 'abnormal cardiac muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0013238>) is subclass of anatomy phenotype 'abnormal muscle regeneration' (<http://purl.obolibrary.org/obo/MP_0000750>) 
+
+
+# 'weakness' (http://purl.obolibrary.org/obo/MP_0000746)
+
+* 'has_part' some   
+    ('decreased strength'  
+     and ('inheres in part of' some 'multicellular organism')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'weakness'
+   * Anatomy phenotype 'decreased bone strength' (<http://purl.obolibrary.org/obo/MP_0004991>) is subclass of process phenotype 'weakness' (<http://purl.obolibrary.org/obo/MP_0000746>) 
+   * Anatomy phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) is subclass of process phenotype 'weakness' (<http://purl.obolibrary.org/obo/MP_0000746>) 
+   * Anatomy phenotype 'paraparesis' (<http://purl.obolibrary.org/obo/MP_0009434>) is subclass of process phenotype 'weakness' (<http://purl.obolibrary.org/obo/MP_0000746>) 
+   * Process phenotype 'decreased bone strength' (<http://purl.obolibrary.org/obo/MP_0004991>) is subclass of anatomy phenotype 'weakness' (<http://purl.obolibrary.org/obo/MP_0000746>) 
+   * Process phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) is subclass of anatomy phenotype 'weakness' (<http://purl.obolibrary.org/obo/MP_0000746>) 
+   * Process phenotype 'paraparesis' (<http://purl.obolibrary.org/obo/MP_0009434>) is subclass of anatomy phenotype 'weakness' (<http://purl.obolibrary.org/obo/MP_0000746>) 
+
+
+# 'muscle weakness' (http://purl.obolibrary.org/obo/MP_0000747)
+
+* 'has_part' some   
+    ('decreased strength'  
+     and ('inheres in' some 'muscle organ')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'muscle weakness'
+   * Anatomy phenotype 'progressive muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000748>) is subclass of process phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) 
+   * Anatomy phenotype 'muscle fatigue' (<http://purl.obolibrary.org/obo/MP_0003646>) is subclass of process phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) 
+   * Anatomy phenotype 'ophthalmoparesis' (<http://purl.obolibrary.org/obo/MP_0003688>) is subclass of process phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) 
+   * Process phenotype 'progressive muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000748>) is subclass of anatomy phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) 
+   * Process phenotype 'muscle fatigue' (<http://purl.obolibrary.org/obo/MP_0003646>) is subclass of anatomy phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) 
+   * Process phenotype 'ophthalmoparesis' (<http://purl.obolibrary.org/obo/MP_0003688>) is subclass of anatomy phenotype 'muscle weakness' (<http://purl.obolibrary.org/obo/MP_0000747>) 
+
+
+# 'impaired smooth muscle contractility' (http://purl.obolibrary.org/obo/MP_0000740)
+
+* 'has_part' some   
+    ('decreased rate'  
+     and ('inheres in part of' some 'smooth muscle contraction')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'impaired smooth muscle contractility'
+   * Anatomy phenotype 'intestinal hypoperistalsis' (<http://purl.obolibrary.org/obo/MP_0003290>) is subclass of process phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) 
+   * Anatomy phenotype 'decreased vasoconstriction' (<http://purl.obolibrary.org/obo/MP_0003026>) is subclass of process phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) 
+   * Anatomy phenotype 'impaired contractility of intestinal smooth muscle' (<http://purl.obolibrary.org/obo/MP_0004005>) is subclass of process phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) 
+   * Process phenotype 'intestinal hypoperistalsis' (<http://purl.obolibrary.org/obo/MP_0003290>) is subclass of anatomy phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) 
+   * Process phenotype 'decreased vasoconstriction' (<http://purl.obolibrary.org/obo/MP_0003026>) is subclass of anatomy phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) 
+   * Process phenotype 'impaired contractility of intestinal smooth muscle' (<http://purl.obolibrary.org/obo/MP_0004005>) is subclass of anatomy phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) 
 
 
 # 'premature cranial synchondrosis closure' (http://purl.obolibrary.org/obo/MP_0030444)
@@ -2687,6 +2069,57 @@
    * Process phenotype 'increased osteocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0030479>) is subclass of anatomy phenotype 'increased osteoblast apoptosis' (<http://purl.obolibrary.org/obo/MP_0030441>) 
 
 
+# 'abnormal myotome development' (http://purl.obolibrary.org/obo/MP_0000737)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'myotome development')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal myotome development'
+   * Anatomy phenotype 'abnormal dermomyotome development' (<http://purl.obolibrary.org/obo/MP_0004206>) is subclass of process phenotype 'abnormal myotome development' (<http://purl.obolibrary.org/obo/MP_0000737>) 
+   * Process phenotype 'abnormal dermomyotome development' (<http://purl.obolibrary.org/obo/MP_0004206>) is subclass of anatomy phenotype 'abnormal myotome development' (<http://purl.obolibrary.org/obo/MP_0000737>) 
+
+
+# 'impaired muscle contractility' (http://purl.obolibrary.org/obo/MP_0000738)
+
+* 'has_part' some   
+    ('decreased rate'  
+     and ('inheres in part of' some 'muscle contraction')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'impaired muscle contractility'
+   * Anatomy phenotype 'impaired ureteric peristalsis' (<http://purl.obolibrary.org/obo/MP_0011480>) is subclass of process phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+   * Anatomy phenotype 'decreased cardiac muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005140>) is subclass of process phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+   * Anatomy phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) is subclass of process phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+   * Anatomy phenotype 'impaired skeletal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0002841>) is subclass of process phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+   * Process phenotype 'impaired ureteric peristalsis' (<http://purl.obolibrary.org/obo/MP_0011480>) is subclass of anatomy phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+   * Process phenotype 'decreased cardiac muscle contractility' (<http://purl.obolibrary.org/obo/MP_0005140>) is subclass of anatomy phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+   * Process phenotype 'impaired smooth muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000740>) is subclass of anatomy phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+   * Process phenotype 'impaired skeletal muscle contractility' (<http://purl.obolibrary.org/obo/MP_0002841>) is subclass of anatomy phenotype 'impaired muscle contractility' (<http://purl.obolibrary.org/obo/MP_0000738>) 
+
+
+# 'abnormal muscle development' (http://purl.obolibrary.org/obo/MP_0000733)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'muscle organ development')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal muscle development'
+   * Anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) is subclass of process phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Anatomy phenotype 'delayed muscle development' (<http://purl.obolibrary.org/obo/MP_0000736>) is subclass of process phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Anatomy phenotype 'abnormal eye muscle development' (<http://purl.obolibrary.org/obo/MP_0003818>) is subclass of process phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Anatomy phenotype 'abnormal myotome morphology' (<http://purl.obolibrary.org/obo/MP_0003939>) is subclass of process phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Anatomy phenotype 'abnormal diaphragm development' (<http://purl.obolibrary.org/obo/MP_0012251>) is subclass of process phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Anatomy phenotype 'increased collagen deposition in the muscles' (<http://purl.obolibrary.org/obo/MP_0000731>) is subclass of process phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Anatomy phenotype 'abnormal vascular smooth muscle development' (<http://purl.obolibrary.org/obo/MP_0011401>) is subclass of process phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) is subclass of anatomy phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Process phenotype 'delayed muscle development' (<http://purl.obolibrary.org/obo/MP_0000736>) is subclass of anatomy phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Process phenotype 'abnormal eye muscle development' (<http://purl.obolibrary.org/obo/MP_0003818>) is subclass of anatomy phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Process phenotype 'abnormal myotome morphology' (<http://purl.obolibrary.org/obo/MP_0003939>) is subclass of anatomy phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Process phenotype 'abnormal diaphragm development' (<http://purl.obolibrary.org/obo/MP_0012251>) is subclass of anatomy phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Process phenotype 'increased collagen deposition in the muscles' (<http://purl.obolibrary.org/obo/MP_0000731>) is subclass of anatomy phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+   * Process phenotype 'abnormal vascular smooth muscle development' (<http://purl.obolibrary.org/obo/MP_0011401>) is subclass of anatomy phenotype 'abnormal muscle development' (<http://purl.obolibrary.org/obo/MP_0000733>) 
+
+
 # 'abnormal osteoblast proliferation' (http://purl.obolibrary.org/obo/MP_0030437)
 
 * 'has_part' some   
@@ -2715,6 +2148,31 @@
    * Process phenotype 'premature frontonasal suture closure' (<http://purl.obolibrary.org/obo/MP_0030436>) is subclass of anatomy phenotype 'premature craniofacial suture closure' (<http://purl.obolibrary.org/obo/MP_0030435>) 
 
 
+# 'abnormal myogenesis' (http://purl.obolibrary.org/obo/MP_0000729)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'muscle cell development')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal myogenesis'
+   * Anatomy phenotype 'increased myoblast apoptosis' (<http://purl.obolibrary.org/obo/MP_0030972>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Anatomy phenotype 'abnormal myoblast differentiation' (<http://purl.obolibrary.org/obo/MP_0011808>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Anatomy phenotype 'abnormal myotome development' (<http://purl.obolibrary.org/obo/MP_0000737>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Anatomy phenotype 'abnormal muscle precursor cell morphology' (<http://purl.obolibrary.org/obo/MP_0012185>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Anatomy phenotype 'delayed primary myocyte appearance' (<http://purl.obolibrary.org/obo/MP_0000732>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Anatomy phenotype 'abnormal myoblast proliferation' (<http://purl.obolibrary.org/obo/MP_0030946>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Anatomy phenotype 'abnormal myotube morphology' (<http://purl.obolibrary.org/obo/MP_0030957>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Anatomy phenotype 'abnormal hypoglossal cord morphology' (<http://purl.obolibrary.org/obo/MP_0030535>) is subclass of process phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'increased myoblast apoptosis' (<http://purl.obolibrary.org/obo/MP_0030972>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'abnormal myoblast differentiation' (<http://purl.obolibrary.org/obo/MP_0011808>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'abnormal myotome development' (<http://purl.obolibrary.org/obo/MP_0000737>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'abnormal muscle precursor cell morphology' (<http://purl.obolibrary.org/obo/MP_0012185>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'delayed primary myocyte appearance' (<http://purl.obolibrary.org/obo/MP_0000732>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'abnormal myoblast proliferation' (<http://purl.obolibrary.org/obo/MP_0030946>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'abnormal myotube morphology' (<http://purl.obolibrary.org/obo/MP_0030957>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+   * Process phenotype 'abnormal hypoglossal cord morphology' (<http://purl.obolibrary.org/obo/MP_0030535>) is subclass of anatomy phenotype 'abnormal myogenesis' (<http://purl.obolibrary.org/obo/MP_0000729>) 
+
+
 # 'abnormal cranial cartilage morphology' (http://purl.obolibrary.org/obo/MP_0030464)
 
 * 'has_part' some   
@@ -2723,6 +2181,39 @@
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'abnormal cranial cartilage morphology'
    * Process phenotype 'abnormal cranial cartilage development' (<http://purl.obolibrary.org/obo/MP_0030467>) is subclass of anatomy phenotype 'abnormal cranial cartilage morphology' (<http://purl.obolibrary.org/obo/MP_0030464>) 
+
+
+# 'increased thymocyte number' (http://purl.obolibrary.org/obo/MP_0000714)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in' some 'thymocyte')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased thymocyte number'
+   * Process phenotype 'increased double-positive T cell number' (<http://purl.obolibrary.org/obo/MP_0005091>) is subclass of anatomy phenotype 'increased thymocyte number' (<http://purl.obolibrary.org/obo/MP_0000714>) 
+   * Process phenotype 'increased double-negative T cell number' (<http://purl.obolibrary.org/obo/MP_0005090>) is subclass of anatomy phenotype 'increased thymocyte number' (<http://purl.obolibrary.org/obo/MP_0000714>) 
+
+
+# 'decreased thymocyte number' (http://purl.obolibrary.org/obo/MP_0000715)
+
+* 'has_part' some   
+    ('decreased amount'  
+     and ('inheres in' some 'thymocyte')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'decreased thymocyte number'
+   * Process phenotype 'decreased double-negative T cell number' (<http://purl.obolibrary.org/obo/MP_0005089>) is subclass of anatomy phenotype 'decreased thymocyte number' (<http://purl.obolibrary.org/obo/MP_0000715>) 
+   * Process phenotype 'decreased double-positive T cell number' (<http://purl.obolibrary.org/obo/MP_0005092>) is subclass of anatomy phenotype 'decreased thymocyte number' (<http://purl.obolibrary.org/obo/MP_0000715>) 
+
+
+# 'abnormal immune system cell morphology' (http://purl.obolibrary.org/obo/MP_0000716)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'cell')  
+     and ('inheres in part of' some 'immune system')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal immune system cell morphology'
+   * Process phenotype 'abnormal leukopoiesis' (<http://purl.obolibrary.org/obo/MP_0005460>) is subclass of anatomy phenotype 'abnormal immune system cell morphology' (<http://purl.obolibrary.org/obo/MP_0000716>) 
 
 
 # 'abnormal odontoblast morphology' (http://purl.obolibrary.org/obo/MP_0030453)
@@ -2747,6 +2238,27 @@
 * Summary of Process Sub ME violations for 'abnormal odontoblast number'
    * Anatomy phenotype 'increased odontoblast number' (<http://purl.obolibrary.org/obo/MP_0030455>) is subclass of process phenotype 'abnormal odontoblast number' (<http://purl.obolibrary.org/obo/MP_0030454>) 
    * Process phenotype 'increased odontoblast number' (<http://purl.obolibrary.org/obo/MP_0030455>) is subclass of anatomy phenotype 'abnormal odontoblast number' (<http://purl.obolibrary.org/obo/MP_0030454>) 
+
+
+# 'abnormal thymus morphology' (http://purl.obolibrary.org/obo/MP_0000703)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'thymus')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal thymus morphology'
+   * Process phenotype 'abnormal thymus development' (<http://purl.obolibrary.org/obo/MP_0000704>) is subclass of anatomy phenotype 'abnormal thymus morphology' (<http://purl.obolibrary.org/obo/MP_0000703>) 
+
+
+# 'abnormal thymus development' (http://purl.obolibrary.org/obo/MP_0000704)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'thymus development')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal thymus development'
+   * Anatomy phenotype 'persistent cervical thymus' (<http://purl.obolibrary.org/obo/MP_0010722>) is subclass of process phenotype 'abnormal thymus development' (<http://purl.obolibrary.org/obo/MP_0000704>) 
+   * Process phenotype 'persistent cervical thymus' (<http://purl.obolibrary.org/obo/MP_0010722>) is subclass of anatomy phenotype 'abnormal thymus development' (<http://purl.obolibrary.org/obo/MP_0000704>) 
 
 
 # 'abnormal osteocyte physiology' (http://purl.obolibrary.org/obo/MP_0030477)
@@ -2904,6 +2416,26 @@
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'abnormal enzyme/coenzyme activity'
    * Anatomy phenotype 'abnormal urine enzyme level' (<http://purl.obolibrary.org/obo/MP_0001760>) is subclass of process phenotype 'abnormal enzyme/coenzyme activity' (<http://purl.obolibrary.org/obo/MP_0005584>) 
+
+
+# 'increased acetylcholinesterase activity' (http://purl.obolibrary.org/obo/MP_0012625)
+
+* 'has_part' some   
+    ('increased rate'  
+     and ('inheres in' some 'acetylcholinesterase activity')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased acetylcholinesterase activity'
+   * Anatomy phenotype 'increased brain acetylcholinesterase activity' (<http://purl.obolibrary.org/obo/MP_0012627>) is subclass of process phenotype 'increased acetylcholinesterase activity' (<http://purl.obolibrary.org/obo/MP_0012625>) 
+
+
+# 'decreased acetylcholinesterase activity' (http://purl.obolibrary.org/obo/MP_0012624)
+
+* 'has_part' some   
+    ('decreased rate'  
+     and ('inheres in' some 'acetylcholinesterase activity')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'decreased acetylcholinesterase activity'
+   * Anatomy phenotype 'decreased brain acetylcholinesterase activity' (<http://purl.obolibrary.org/obo/MP_0012626>) is subclass of process phenotype 'decreased acetylcholinesterase activity' (<http://purl.obolibrary.org/obo/MP_0012624>) 
 
 
 # 'teratozoospermia' (http://purl.obolibrary.org/obo/MP_0005578)
@@ -3064,6 +2596,72 @@
    * Process phenotype 'increased creatinine clearance' (<http://purl.obolibrary.org/obo/MP_0005557>) is subclass of anatomy phenotype 'abnormal renal filtration rate' (<http://purl.obolibrary.org/obo/MP_0005556>) 
 
 
+# 'abnormal glomerular capillary morphology' (http://purl.obolibrary.org/obo/MP_0011320)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'glomerular capillary')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal glomerular capillary morphology'
+   * Process phenotype 'glomerular capillary thrombosis' (<http://purl.obolibrary.org/obo/MP_0011508>) is subclass of anatomy phenotype 'abnormal glomerular capillary morphology' (<http://purl.obolibrary.org/obo/MP_0011320>) 
+
+
+# 'abnormal diestrus' (http://purl.obolibrary.org/obo/MP_0009010)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'diestrus')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal diestrus'
+   * Anatomy phenotype 'prolonged diestrus' (<http://purl.obolibrary.org/obo/MP_0009011>) is subclass of process phenotype 'abnormal diestrus' (<http://purl.obolibrary.org/obo/MP_0009010>) 
+   * Anatomy phenotype 'short diestrus' (<http://purl.obolibrary.org/obo/MP_0009012>) is subclass of process phenotype 'abnormal diestrus' (<http://purl.obolibrary.org/obo/MP_0009010>) 
+   * Process phenotype 'prolonged diestrus' (<http://purl.obolibrary.org/obo/MP_0009011>) is subclass of anatomy phenotype 'abnormal diestrus' (<http://purl.obolibrary.org/obo/MP_0009010>) 
+   * Process phenotype 'short diestrus' (<http://purl.obolibrary.org/obo/MP_0009012>) is subclass of anatomy phenotype 'abnormal diestrus' (<http://purl.obolibrary.org/obo/MP_0009010>) 
+
+
+# 'abnormal proestrus' (http://purl.obolibrary.org/obo/MP_0009013)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'proestrus')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal proestrus'
+   * Anatomy phenotype 'prolonged proestrus' (<http://purl.obolibrary.org/obo/MP_0009014>) is subclass of process phenotype 'abnormal proestrus' (<http://purl.obolibrary.org/obo/MP_0009013>) 
+   * Anatomy phenotype 'short proestrus' (<http://purl.obolibrary.org/obo/MP_0009015>) is subclass of process phenotype 'abnormal proestrus' (<http://purl.obolibrary.org/obo/MP_0009013>) 
+   * Process phenotype 'prolonged proestrus' (<http://purl.obolibrary.org/obo/MP_0009014>) is subclass of anatomy phenotype 'abnormal proestrus' (<http://purl.obolibrary.org/obo/MP_0009013>) 
+   * Process phenotype 'short proestrus' (<http://purl.obolibrary.org/obo/MP_0009015>) is subclass of anatomy phenotype 'abnormal proestrus' (<http://purl.obolibrary.org/obo/MP_0009013>) 
+
+
+# 'abnormal estrus' (http://purl.obolibrary.org/obo/MP_0009016)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'estrus')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal estrus'
+   * Anatomy phenotype 'absent estrus' (<http://purl.obolibrary.org/obo/MP_0009021>) is subclass of process phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+   * Anatomy phenotype 'prolonged estrus' (<http://purl.obolibrary.org/obo/MP_0009017>) is subclass of process phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+   * Anatomy phenotype 'short estrus' (<http://purl.obolibrary.org/obo/MP_0009018>) is subclass of process phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+   * Anatomy phenotype 'delayed estrous cycle' (<http://purl.obolibrary.org/obo/MP_0009008>) is subclass of process phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+   * Process phenotype 'absent estrus' (<http://purl.obolibrary.org/obo/MP_0009021>) is subclass of anatomy phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+   * Process phenotype 'prolonged estrus' (<http://purl.obolibrary.org/obo/MP_0009017>) is subclass of anatomy phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+   * Process phenotype 'short estrus' (<http://purl.obolibrary.org/obo/MP_0009018>) is subclass of anatomy phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+   * Process phenotype 'delayed estrous cycle' (<http://purl.obolibrary.org/obo/MP_0009008>) is subclass of anatomy phenotype 'abnormal estrus' (<http://purl.obolibrary.org/obo/MP_0009016>) 
+
+
+# 'abnormal metestrus' (http://purl.obolibrary.org/obo/MP_0009019)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in' some 'metestrus')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal metestrus'
+   * Anatomy phenotype 'prolonged metestrus' (<http://purl.obolibrary.org/obo/MP_0009020>) is subclass of process phenotype 'abnormal metestrus' (<http://purl.obolibrary.org/obo/MP_0009019>) 
+   * Anatomy phenotype 'short metestrus' (<http://purl.obolibrary.org/obo/MP_0009047>) is subclass of process phenotype 'abnormal metestrus' (<http://purl.obolibrary.org/obo/MP_0009019>) 
+   * Process phenotype 'prolonged metestrus' (<http://purl.obolibrary.org/obo/MP_0009020>) is subclass of anatomy phenotype 'abnormal metestrus' (<http://purl.obolibrary.org/obo/MP_0009019>) 
+   * Process phenotype 'short metestrus' (<http://purl.obolibrary.org/obo/MP_0009047>) is subclass of anatomy phenotype 'abnormal metestrus' (<http://purl.obolibrary.org/obo/MP_0009019>) 
+
+
 # 'abnormal lens development' (http://purl.obolibrary.org/obo/MP_0005545)
 
 * 'has_part' some   
@@ -3100,10 +2698,31 @@
          and ('occurs in' some 'optic choroid')))  
      and ('has modifier' some 'abnormal'))
 * Summary of Process Sub ME violations for 'choroidal neovascularization'
-   * Anatomy phenotype 'increased susceptibility to induced choroid neovascularization' (<http://purl.obolibrary.org/obo/MP_0011557>) is subclass of process phenotype 'choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0005546>) 
    * Anatomy phenotype 'decreased susceptibility to induced choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0003434>) is subclass of process phenotype 'choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0005546>) 
-   * Process phenotype 'increased susceptibility to induced choroid neovascularization' (<http://purl.obolibrary.org/obo/MP_0011557>) is subclass of anatomy phenotype 'choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0005546>) 
+   * Anatomy phenotype 'increased susceptibility to induced choroid neovascularization' (<http://purl.obolibrary.org/obo/MP_0011557>) is subclass of process phenotype 'choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0005546>) 
    * Process phenotype 'decreased susceptibility to induced choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0003434>) is subclass of anatomy phenotype 'choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0005546>) 
+   * Process phenotype 'increased susceptibility to induced choroid neovascularization' (<http://purl.obolibrary.org/obo/MP_0011557>) is subclass of anatomy phenotype 'choroidal neovascularization' (<http://purl.obolibrary.org/obo/MP_0005546>) 
+
+
+# 'abnormal nephrogenic zone morphology' (http://purl.obolibrary.org/obo/MP_0011334)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'nephrogenic zone')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal nephrogenic zone morphology'
+   * Anatomy phenotype 'absent nephrogenic zone' (<http://purl.obolibrary.org/obo/MP_0011407>) is subclass of process phenotype 'abnormal nephrogenic zone morphology' (<http://purl.obolibrary.org/obo/MP_0011334>) 
+   * Process phenotype 'absent nephrogenic zone' (<http://purl.obolibrary.org/obo/MP_0011407>) is subclass of anatomy phenotype 'abnormal nephrogenic zone morphology' (<http://purl.obolibrary.org/obo/MP_0011334>) 
+
+
+# 'abnormal subarachnoid space morphology' (http://purl.obolibrary.org/obo/MP_0009027)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'subarachnoid space')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal subarachnoid space morphology'
+   * Process phenotype 'abnormal subarachnoid space development' (<http://purl.obolibrary.org/obo/MP_0009037>) is subclass of anatomy phenotype 'abnormal subarachnoid space morphology' (<http://purl.obolibrary.org/obo/MP_0009027>) 
 
 
 # 'abnormal cerebral aqueduct morphology' (http://purl.obolibrary.org/obo/MP_0005537)
@@ -3176,6 +2795,23 @@
    * Process phenotype 'decreased circulating atrial natriuretic factor' (<http://purl.obolibrary.org/obo/MP_0005523>) is subclass of anatomy phenotype 'abnormal circulating atrial natriuretic factor level' (<http://purl.obolibrary.org/obo/MP_0005521>) 
 
 
+# 'aciduria' (http://purl.obolibrary.org/obo/MP_0010028)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in' some   
+        ('acid'  
+         and ('part_of' some 'urine')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'aciduria'
+   * Anatomy phenotype 'ketoaciduria' (<http://purl.obolibrary.org/obo/MP_0002893>) is subclass of process phenotype 'aciduria' (<http://purl.obolibrary.org/obo/MP_0010028>) 
+   * Anatomy phenotype 'homogentisic aciduria' (<http://purl.obolibrary.org/obo/MP_0030619>) is subclass of process phenotype 'aciduria' (<http://purl.obolibrary.org/obo/MP_0010028>) 
+   * Anatomy phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) is subclass of process phenotype 'aciduria' (<http://purl.obolibrary.org/obo/MP_0010028>) 
+   * Process phenotype 'ketoaciduria' (<http://purl.obolibrary.org/obo/MP_0002893>) is subclass of anatomy phenotype 'aciduria' (<http://purl.obolibrary.org/obo/MP_0010028>) 
+   * Process phenotype 'homogentisic aciduria' (<http://purl.obolibrary.org/obo/MP_0030619>) is subclass of anatomy phenotype 'aciduria' (<http://purl.obolibrary.org/obo/MP_0010028>) 
+   * Process phenotype 'organic aciduria' (<http://purl.obolibrary.org/obo/MP_0030612>) is subclass of anatomy phenotype 'aciduria' (<http://purl.obolibrary.org/obo/MP_0010028>) 
+
+
 # 'abnormal pancreas regeneration' (http://purl.obolibrary.org/obo/MP_0005518)
 
 * 'has_part' some   
@@ -3207,6 +2843,121 @@
    * Process phenotype 'iris inflammation' (<http://purl.obolibrary.org/obo/MP_0006229>) is subclass of anatomy phenotype 'uveitis' (<http://purl.obolibrary.org/obo/MP_0005515>) 
 
 
+# 'abnormal kidney apoptosis' (http://purl.obolibrary.org/obo/MP_0011367)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some   
+        ('apoptotic process'  
+         and ('occurs in' some 'kidney')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal kidney apoptosis'
+   * Anatomy phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) is subclass of process phenotype 'abnormal kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011367>) 
+   * Anatomy phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) is subclass of process phenotype 'abnormal kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011367>) 
+   * Process phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) is subclass of anatomy phenotype 'abnormal kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011367>) 
+   * Process phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) is subclass of anatomy phenotype 'abnormal kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011367>) 
+
+
+# 'abnormal metanephros morphology' (http://purl.obolibrary.org/obo/MP_0011364)
+
+* 'has_part' some   
+    ('morphology'  
+     and ('inheres in' some 'metanephros')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal metanephros morphology'
+   * Anatomy phenotype 'absent metanephros' (<http://purl.obolibrary.org/obo/MP_0011366>) is subclass of process phenotype 'abnormal metanephros morphology' (<http://purl.obolibrary.org/obo/MP_0011364>) 
+   * Anatomy phenotype 'small metanephros' (<http://purl.obolibrary.org/obo/MP_0011365>) is subclass of process phenotype 'abnormal metanephros morphology' (<http://purl.obolibrary.org/obo/MP_0011364>) 
+   * Process phenotype 'absent metanephros' (<http://purl.obolibrary.org/obo/MP_0011366>) is subclass of anatomy phenotype 'abnormal metanephros morphology' (<http://purl.obolibrary.org/obo/MP_0011364>) 
+   * Process phenotype 'small metanephros' (<http://purl.obolibrary.org/obo/MP_0011365>) is subclass of anatomy phenotype 'abnormal metanephros morphology' (<http://purl.obolibrary.org/obo/MP_0011364>) 
+
+
+# 'abnormal erythrocyte clearance' (http://purl.obolibrary.org/obo/MP_0010034)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'erythrocyte clearance')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal erythrocyte clearance'
+   * Anatomy phenotype 'increased erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010035>) is subclass of process phenotype 'abnormal erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010034>) 
+   * Anatomy phenotype 'decreased erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010036>) is subclass of process phenotype 'abnormal erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010034>) 
+   * Process phenotype 'increased erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010035>) is subclass of anatomy phenotype 'abnormal erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010034>) 
+   * Process phenotype 'decreased erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010036>) is subclass of anatomy phenotype 'abnormal erythrocyte clearance' (<http://purl.obolibrary.org/obo/MP_0010034>) 
+
+
+# 'increased kidney apoptosis' (http://purl.obolibrary.org/obo/MP_0011368)
+
+* 'has_part' some   
+    ('increased rate'  
+     and ('inheres in part of' some   
+        ('apoptotic process'  
+         and ('occurs in' some 'kidney')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased kidney apoptosis'
+   * Anatomy phenotype 'increased mesangial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0011370>) is subclass of process phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) 
+   * Anatomy phenotype 'increased renal tubule apoptosis' (<http://purl.obolibrary.org/obo/MP_0004153>) is subclass of process phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) 
+   * Anatomy phenotype 'increased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011369>) is subclass of process phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) 
+   * Process phenotype 'increased mesangial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0011370>) is subclass of anatomy phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) 
+   * Process phenotype 'increased renal tubule apoptosis' (<http://purl.obolibrary.org/obo/MP_0004153>) is subclass of anatomy phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) 
+   * Process phenotype 'increased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011369>) is subclass of anatomy phenotype 'increased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011368>) 
+
+
+# 'abnormal placenta physiology' (http://purl.obolibrary.org/obo/MP_0010038)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'placenta')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal placenta physiology'
+   * Process phenotype 'abnormal placental transport' (<http://purl.obolibrary.org/obo/MP_0004265>) is subclass of anatomy phenotype 'abnormal placenta physiology' (<http://purl.obolibrary.org/obo/MP_0010038>) 
+   * Process phenotype 'abnormal placenta development' (<http://purl.obolibrary.org/obo/MP_0001712>) is subclass of anatomy phenotype 'abnormal placenta physiology' (<http://purl.obolibrary.org/obo/MP_0010038>) 
+   * Process phenotype 'abnormal trophoblast giant cell proliferation' (<http://purl.obolibrary.org/obo/MP_0010039>) is subclass of anatomy phenotype 'abnormal placenta physiology' (<http://purl.obolibrary.org/obo/MP_0010038>) 
+   * Process phenotype 'placenta hemorrhage' (<http://purl.obolibrary.org/obo/MP_0030975>) is subclass of anatomy phenotype 'abnormal placenta physiology' (<http://purl.obolibrary.org/obo/MP_0010038>) 
+   * Process phenotype 'increased placenta apoptosis' (<http://purl.obolibrary.org/obo/MP_0009658>) is subclass of anatomy phenotype 'abnormal placenta physiology' (<http://purl.obolibrary.org/obo/MP_0010038>) 
+
+
+# 'increased renal glomerulus apoptosis' (http://purl.obolibrary.org/obo/MP_0011369)
+
+* 'has_part' some   
+    ('increased rate'  
+     and ('inheres in part of' some   
+        ('apoptotic process'  
+         and ('occurs in' some 'renal glomerulus')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased renal glomerulus apoptosis'
+   * Anatomy phenotype 'increased podocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011282>) is subclass of process phenotype 'increased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011369>) 
+   * Process phenotype 'increased podocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011282>) is subclass of anatomy phenotype 'increased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011369>) 
+
+
+# 'decreased kidney apoptosis' (http://purl.obolibrary.org/obo/MP_0011371)
+
+* 'has_part' some   
+    ('decreased rate'  
+     and ('inheres in part of' some   
+        ('apoptotic process'  
+         and ('occurs in' some 'kidney')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'decreased kidney apoptosis'
+   * Anatomy phenotype 'decreased mesangial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0011373>) is subclass of process phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) 
+   * Anatomy phenotype 'decreased renal tubule apoptosis' (<http://purl.obolibrary.org/obo/MP_0011372>) is subclass of process phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) 
+   * Anatomy phenotype 'decreased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011375>) is subclass of process phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) 
+   * Process phenotype 'decreased mesangial cell apoptosis' (<http://purl.obolibrary.org/obo/MP_0011373>) is subclass of anatomy phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) 
+   * Process phenotype 'decreased renal tubule apoptosis' (<http://purl.obolibrary.org/obo/MP_0011372>) is subclass of anatomy phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) 
+   * Process phenotype 'decreased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011375>) is subclass of anatomy phenotype 'decreased kidney apoptosis' (<http://purl.obolibrary.org/obo/MP_0011371>) 
+
+
+# 'abnormal interleukin-21 secretion' (http://purl.obolibrary.org/obo/MP_0009056)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some 'interleukin-21 secretion')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal interleukin-21 secretion'
+   * Anatomy phenotype 'increased interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009057>) is subclass of process phenotype 'abnormal interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009056>) 
+   * Anatomy phenotype 'decreased interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009058>) is subclass of process phenotype 'abnormal interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009056>) 
+   * Process phenotype 'increased interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009057>) is subclass of anatomy phenotype 'abnormal interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009056>) 
+   * Process phenotype 'decreased interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009058>) is subclass of anatomy phenotype 'abnormal interleukin-21 secretion' (<http://purl.obolibrary.org/obo/MP_0009056>) 
+
+
 # 'abnormal skeleton morphology' (http://purl.obolibrary.org/obo/MP_0005508)
 
 * 'has_part' some   
@@ -3216,6 +2967,21 @@
 * Summary of Process Sub ME violations for 'abnormal skeleton morphology'
    * Process phenotype 'palatal shelf hypoplasia' (<http://purl.obolibrary.org/obo/MP_0009883>) is subclass of anatomy phenotype 'abnormal skeleton morphology' (<http://purl.obolibrary.org/obo/MP_0005508>) 
    * Process phenotype 'abnormal skeleton development' (<http://purl.obolibrary.org/obo/MP_0002113>) is subclass of anatomy phenotype 'abnormal skeleton morphology' (<http://purl.obolibrary.org/obo/MP_0005508>) 
+
+
+# 'abnormal circulating interleukin-21 level' (http://purl.obolibrary.org/obo/MP_0009059)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('interleukin-21'  
+         and ('part_of' some 'blood')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal circulating interleukin-21 level'
+   * Anatomy phenotype 'increased circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009060>) is subclass of process phenotype 'abnormal circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009059>) 
+   * Anatomy phenotype 'decreased circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009061>) is subclass of process phenotype 'abnormal circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009059>) 
+   * Process phenotype 'increased circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009060>) is subclass of anatomy phenotype 'abnormal circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009059>) 
+   * Process phenotype 'decreased circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009061>) is subclass of anatomy phenotype 'abnormal circulating interleukin-21 level' (<http://purl.obolibrary.org/obo/MP_0009059>) 
 
 
 # 'abnormal skin physiology' (http://purl.obolibrary.org/obo/MP_0005501)
@@ -3239,4 +3005,105 @@
    * Process phenotype 'renal/urinary system inflammation' (<http://purl.obolibrary.org/obo/MP_0011762>) is subclass of anatomy phenotype 'abnormal renal/urinary system physiology' (<http://purl.obolibrary.org/obo/MP_0005502>) 
    * Process phenotype 'abnormal urination' (<http://purl.obolibrary.org/obo/MP_0001756>) is subclass of anatomy phenotype 'abnormal renal/urinary system physiology' (<http://purl.obolibrary.org/obo/MP_0005502>) 
    * Process phenotype 'abnormal urine homeostasis' (<http://purl.obolibrary.org/obo/MP_0009643>) is subclass of anatomy phenotype 'abnormal renal/urinary system physiology' (<http://purl.obolibrary.org/obo/MP_0005502>) 
+
+
+# 'decreased renal glomerulus apoptosis' (http://purl.obolibrary.org/obo/MP_0011375)
+
+* 'has_part' some   
+    ('decreased rate'  
+     and ('inheres in part of' some   
+        ('apoptotic process'  
+         and ('occurs in' some 'renal glomerulus')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'decreased renal glomerulus apoptosis'
+   * Anatomy phenotype 'decreased podocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011374>) is subclass of process phenotype 'decreased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011375>) 
+   * Process phenotype 'decreased podocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011374>) is subclass of anatomy phenotype 'decreased renal glomerulus apoptosis' (<http://purl.obolibrary.org/obo/MP_0011375>) 
+
+
+# 'abnormal progesterone level' (http://purl.obolibrary.org/obo/MP_0011384)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some 'Reaxys')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal progesterone level'
+   * Anatomy phenotype 'abnormal circulating progesterone level' (<http://purl.obolibrary.org/obo/MP_0005184>) is subclass of process phenotype 'abnormal progesterone level' (<http://purl.obolibrary.org/obo/MP_0011384>) 
+   * Anatomy phenotype 'abnormal urine progesterone level' (<http://purl.obolibrary.org/obo/MP_0011545>) is subclass of process phenotype 'abnormal progesterone level' (<http://purl.obolibrary.org/obo/MP_0011384>) 
+
+
+# 'abnormal testosterone level' (http://purl.obolibrary.org/obo/MP_0011385)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some 'LIPID MAPS')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal testosterone level'
+   * Anatomy phenotype 'abnormal circulating testosterone level' (<http://purl.obolibrary.org/obo/MP_0005180>) is subclass of process phenotype 'abnormal testosterone level' (<http://purl.obolibrary.org/obo/MP_0011385>) 
+
+
+# 'abnormal fetal cardiomyocyte apoptosis' (http://purl.obolibrary.org/obo/MP_0011391)
+
+* 'has_part' some   
+    ('quality'  
+     and ('inheres in part of' some   
+        ('apoptotic process'  
+         and ('occurs in' some 'fetal cardiomyocyte')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal fetal cardiomyocyte apoptosis'
+   * Anatomy phenotype 'increased fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011392>) is subclass of process phenotype 'abnormal fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011391>) 
+   * Anatomy phenotype 'decreased fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011393>) is subclass of process phenotype 'abnormal fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011391>) 
+   * Process phenotype 'increased fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011392>) is subclass of anatomy phenotype 'abnormal fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011391>) 
+   * Process phenotype 'decreased fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011393>) is subclass of anatomy phenotype 'abnormal fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011391>) 
+
+
+# 'abnormal fetal cardiomyocyte physiology' (http://purl.obolibrary.org/obo/MP_0011390)
+
+* 'has_part' some   
+    ('functionality'  
+     and ('inheres in' some 'fetal cardiomyocyte')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal fetal cardiomyocyte physiology'
+   * Process phenotype 'abnormal fetal cardiomyocyte apoptosis' (<http://purl.obolibrary.org/obo/MP_0011391>) is subclass of anatomy phenotype 'abnormal fetal cardiomyocyte physiology' (<http://purl.obolibrary.org/obo/MP_0011390>) 
+   * Process phenotype 'abnormal fetal cardiomyocyte proliferation' (<http://purl.obolibrary.org/obo/MP_0003567>) is subclass of anatomy phenotype 'abnormal fetal cardiomyocyte physiology' (<http://purl.obolibrary.org/obo/MP_0011390>) 
+
+
+# 'abnormal circulating creatine level' (http://purl.obolibrary.org/obo/MP_0010063)
+
+* 'has_part' some   
+    ('amount'  
+     and ('inheres in' some   
+        ('Reaxys'  
+         and ('part_of' some 'blood')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'abnormal circulating creatine level'
+   * Anatomy phenotype 'increased circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010064>) is subclass of process phenotype 'abnormal circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010063>) 
+   * Anatomy phenotype 'decreased circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010065>) is subclass of process phenotype 'abnormal circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010063>) 
+   * Process phenotype 'increased circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010064>) is subclass of anatomy phenotype 'abnormal circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010063>) 
+   * Process phenotype 'decreased circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010065>) is subclass of anatomy phenotype 'abnormal circulating creatine level' (<http://purl.obolibrary.org/obo/MP_0010063>) 
+
+
+# 'increased serotonin level' (http://purl.obolibrary.org/obo/MP_0010069)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in' some 'Reaxys')  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'increased serotonin level'
+   * Anatomy phenotype 'increased platelet serotonin level' (<http://purl.obolibrary.org/obo/MP_0004724>) is subclass of process phenotype 'increased serotonin level' (<http://purl.obolibrary.org/obo/MP_0010069>) 
+   * Process phenotype 'increased platelet serotonin level' (<http://purl.obolibrary.org/obo/MP_0004724>) is subclass of anatomy phenotype 'increased serotonin level' (<http://purl.obolibrary.org/obo/MP_0010069>) 
+
+
+# 'uterus inflammation' (http://purl.obolibrary.org/obo/MP_0009080)
+
+* 'has_part' some   
+    ('increased amount'  
+     and ('inheres in part of' some   
+        ('inflammatory response'  
+         and ('occurs in' some 'uterus')))  
+     and ('has modifier' some 'abnormal'))
+* Summary of Process Sub ME violations for 'uterus inflammation'
+   * Anatomy phenotype 'endometrium inflammation' (<http://purl.obolibrary.org/obo/MP_0009360>) is subclass of process phenotype 'uterus inflammation' (<http://purl.obolibrary.org/obo/MP_0009080>) 
+   * Anatomy phenotype 'uterine cervix inflammation' (<http://purl.obolibrary.org/obo/MP_0009228>) is subclass of process phenotype 'uterus inflammation' (<http://purl.obolibrary.org/obo/MP_0009080>) 
+   * Process phenotype 'endometrium inflammation' (<http://purl.obolibrary.org/obo/MP_0009360>) is subclass of anatomy phenotype 'uterus inflammation' (<http://purl.obolibrary.org/obo/MP_0009080>) 
+   * Process phenotype 'uterine cervix inflammation' (<http://purl.obolibrary.org/obo/MP_0009228>) is subclass of anatomy phenotype 'uterus inflammation' (<http://purl.obolibrary.org/obo/MP_0009080>) 
 
