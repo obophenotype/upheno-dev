@@ -1,5 +1,5 @@
 
-# 'abnormal single cell response intensity' (http://purl.obolibrary.org/obo/MP_0003467)
+### 'abnormal single cell response intensity' (http://purl.obolibrary.org/obo/MP_0003467)
 
 * 'has_part' some   
     ('intensity'  
@@ -7,7 +7,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('intensity' ⊓ (∃ 'inheres in'.'cellular response to stimulus') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'decreased single cell response threshold' (http://purl.obolibrary.org/obo/MP_0003466)
+### 'decreased single cell response threshold' (http://purl.obolibrary.org/obo/MP_0003466)
 
 * 'has_part' some   
     ('decreased threshold'  
@@ -15,7 +15,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('decreased threshold' ⊓ (∃ 'inheres in'.'cellular response to stimulus') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'decreased single cell response intensity' (http://purl.obolibrary.org/obo/MP_0003469)
+### 'decreased single cell response intensity' (http://purl.obolibrary.org/obo/MP_0003469)
 
 * 'has_part' some   
     ('decreased intensity'  
@@ -23,7 +23,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('decreased intensity' ⊓ (∃ 'inheres in'.'cellular response to stimulus') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'increased single cell response intensity' (http://purl.obolibrary.org/obo/MP_0003468)
+### 'increased single cell response intensity' (http://purl.obolibrary.org/obo/MP_0003468)
 
 * 'has_part' some   
     ('increased intensity'  
@@ -31,7 +31,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('increased intensity' ⊓ (∃ 'inheres in'.'cellular response to stimulus') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'abnormal single cell response' (http://purl.obolibrary.org/obo/MP_0003463)
+### 'abnormal single cell response' (http://purl.obolibrary.org/obo/MP_0003463)
 
 * 'has_part' some   
     ('response to'  
@@ -39,7 +39,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('response to' ⊓ (∃ 'inheres in'.'cellular response to stimulus') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'increased single cell response threshold' (http://purl.obolibrary.org/obo/MP_0003465)
+### 'increased single cell response threshold' (http://purl.obolibrary.org/obo/MP_0003465)
 
 * 'has_part' some   
     ('increased threshold'  
@@ -47,7 +47,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('increased threshold' ⊓ (∃ 'inheres in'.'cellular response to stimulus') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'abnormal single cell response threshold' (http://purl.obolibrary.org/obo/MP_0003464)
+### 'abnormal single cell response threshold' (http://purl.obolibrary.org/obo/MP_0003464)
 
 * 'has_part' some   
     ('threshold'  
@@ -55,7 +55,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('threshold' ⊓ (∃ 'inheres in'.'cellular response to stimulus') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'impaired branching involved in ureteric bud morphogenesis' (http://purl.obolibrary.org/obo/MP_0004936)
+### 'impaired branching involved in ureteric bud morphogenesis' (http://purl.obolibrary.org/obo/MP_0004936)
 
 * 'has_part' some   
     ('decreased functionality'  
@@ -63,7 +63,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('decreased functionality' ⊓ (∃ 'inheres in'.'branching involved in ureteric bud morphogenesis') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'hyperresponsive' (http://purl.obolibrary.org/obo/MP_0001400)
+### 'hyperresponsive' (http://purl.obolibrary.org/obo/MP_0001400)
 
 * 'has_part' some   
     ('hyperresponsive to'  
@@ -71,7 +71,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('hyperresponsive to' ⊓ (∃ 'inheres in'.'sensory perception') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'abnormal peripheral T cell anergy' (http://purl.obolibrary.org/obo/MP_0008749)
+### 'abnormal peripheral T cell anergy' (http://purl.obolibrary.org/obo/MP_0008749)
 
 * 'has_part' some   
     ('peripheral'  
@@ -79,7 +79,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('peripheral' ⊓ (∃ 'inheres in'.'T cell anergy') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'ectopic hair growth' (http://purl.obolibrary.org/obo/MP_0000426)
+### 'ectopic hair growth' (http://purl.obolibrary.org/obo/MP_0000426)
 
 * 'has_part' some   
     ('mislocalised'  
@@ -87,7 +87,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('mislocalised' ⊓ (∃ 'inheres in'.'anagen') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'mottled coat' (http://purl.obolibrary.org/obo/MP_0000421)
+### 'mottled coat' (http://purl.obolibrary.org/obo/MP_0000421)
 
 * 'has_part' some   
     ('motley'  
@@ -95,7 +95,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('motley' ⊓ (∃ 'inheres in'.'coat of hair') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'increased susceptibility to otitis media' (http://purl.obolibrary.org/obo/MP_0001850)
+### 'increased susceptibility to otitis media' (http://purl.obolibrary.org/obo/MP_0001850)
 
 * 'has_part' some   
     ('susceptible toward'  
@@ -105,7 +105,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('susceptible toward' ⊓ (∃ 'inheres in part of'.('inflammatory response' ⊓ (∃ 'occurs in'.'middle ear'))) ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'variegated coat color' (http://purl.obolibrary.org/obo/MP_0005366)
+### 'variegated coat color' (http://purl.obolibrary.org/obo/MP_0005366)
 
 * 'has_part' some   
     ('variant color'  
@@ -113,7 +113,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('variant color' ⊓ (∃ 'inheres in'.'coat of hair') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'extramedullary hematopoiesis' (http://purl.obolibrary.org/obo/MP_0000240)
+### 'extramedullary hematopoiesis' (http://purl.obolibrary.org/obo/MP_0000240)
 
 * 'has_part' some   
     ('mislocalised'  
@@ -121,7 +121,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('mislocalised' ⊓ (∃ 'inheres in part of'.'hemopoiesis') ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'diluted coat color' (http://purl.obolibrary.org/obo/MP_0000371)
+### 'diluted coat color' (http://purl.obolibrary.org/obo/MP_0000371)
 
 * 'has_part' some   
     ('low saturation'  
@@ -131,7 +131,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('low saturation' ⊓ (∃ 'inheres in part of'.('pigmentation' ⊓ (∃ 'occurs in'.'coat of hair'))) ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'irregular coat pigmentation' (http://purl.obolibrary.org/obo/MP_0000372)
+### 'irregular coat pigmentation' (http://purl.obolibrary.org/obo/MP_0000372)
 
 * 'has_part' some   
     ('irregular spatial pattern'  
@@ -141,7 +141,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('irregular spatial pattern' ⊓ (∃ 'inheres in part of'.('pigmentation' ⊓ (∃ 'occurs in'.'coat of hair'))) ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'multifocal hepatic necrosis' (http://purl.obolibrary.org/obo/MP_0001655)
+### 'multifocal hepatic necrosis' (http://purl.obolibrary.org/obo/MP_0001655)
 
 * 'has_part' some   
     ('multi-localised'  
@@ -151,7 +151,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('multi-localised' ⊓ (∃ 'inheres in part of'.('necrotic cell death' ⊓ (∃ 'occurs in'.'liver'))) ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'focal hepatic necrosis' (http://purl.obolibrary.org/obo/MP_0001656)
+### 'focal hepatic necrosis' (http://purl.obolibrary.org/obo/MP_0001656)
 
 * 'has_part' some   
     ('localized'  
@@ -161,7 +161,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('localized' ⊓ (∃ 'inheres in part of'.('necrotic cell death' ⊓ (∃ 'occurs in'.'liver'))) ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'diffuse hepatic necrosis' (http://purl.obolibrary.org/obo/MP_0005151)
+### 'diffuse hepatic necrosis' (http://purl.obolibrary.org/obo/MP_0005151)
 
 * 'has_part' some   
     ('distributed'  
@@ -171,7 +171,7 @@
      and ('has modifier' some 'abnormal'))
 * Phenotype with a pysical quality that inheres in a process: ∃ 'has_part'.('distributed' ⊓ (∃ 'inheres in part of'.('necrotic cell death' ⊓ (∃ 'occurs in'.'liver'))) ⊓ (∃ 'has modifier'.'abnormal'))
 
-# 'abnormal direction of heart looping' (http://purl.obolibrary.org/obo/MP_0004252)
+### 'abnormal direction of heart looping' (http://purl.obolibrary.org/obo/MP_0004252)
 
 * 'has_part' some   
     ('direction'  
