@@ -65,6 +65,20 @@ upheno_mapping_lexical_all: ../curation/upheno-release/all/upheno_species_lexica
 	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype-classes-labels.sparql $@
 	#echo "SKIP upheno_species_lexical"
 
+../curation/upheno-release/all/upheno_associated_entities.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
+	#$(ROBOT) materialize --reasoner ELK -i $< --term "<http://purl.obolibrary.org/obo/UPHENO_0000001>" -o tmp/mat_upheno.owl
+	$(ROBOT) query -i tmp/mat_upheno.owl -f csv --query ../sparql/phenotype_entity_associations.sparql $@
+
+../curation/upheno-release/all/upheno_parentage.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
+	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype_upheno_parents.sparql $@
+
+../curation/upheno-release/all/upheno_lexical_data.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
+	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype_upheno_lexical.sparql $@
+
+../curation/upheno-release/all/upheno_xrefs.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
+	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype_xrefs.sparql $@
+
+
 ../curation/upheno-release/all/upheno_labels.owl: ../curation/upheno-release/all/upheno_all_with_relations.owl
 	$(ROBOT) filter -i $< \
 		--term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
@@ -158,6 +172,7 @@ o: ../curation/upheno-release/all/upheno_old_metazoa_semsim.owl ../curation/uphe
 
 sim: ../curation/upheno-release/all/upheno_old_metazoa_jaccard.tsv ../curation/upheno-release/all/upheno_lattice_model_jaccard.tsv ../curation/upheno-release/all/upheno_equivalence_model_jaccard.tsv
 
+ml: ../curation/upheno-release/all/upheno_xrefs.csv ../curation/upheno-release/all/upheno_parentage.csv ../curation/upheno-release/all/upheno_associated_entities.csv ../curation/upheno-release/all/upheno_lexical_data.csv
 
 t:
 	$(ROBOT) filter -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/small_insulin_test.owl \
