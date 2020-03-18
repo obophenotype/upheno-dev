@@ -7,16 +7,19 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2020-01-06/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/upheno/releases/2020-02-24/patterns/definitions.owl>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_UPHENO>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/UPHENO_9000005>))
 
 ############################
 #   Classes
@@ -24,11 +27,19 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0001001> (<http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0001003> (<http://purl.obolibrary.org/obo/UPHENO_0001003>)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UPHENO_UPHENO>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/UPHENO_9000005> <http://purl.obolibrary.org/obo/UPHENO_UPHENO>))))
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0001004> (<http://purl.obolibrary.org/obo/UPHENO_0001004>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0001005> (<http://purl.obolibrary.org/obo/UPHENO_0001005>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/UPHENO_9000005> <http://purl.obolibrary.org/obo/UPHENO_UPHENO>))))
 
 
 )

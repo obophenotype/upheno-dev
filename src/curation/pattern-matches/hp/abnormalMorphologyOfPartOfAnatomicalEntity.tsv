@@ -12,6 +12,7 @@ http://purl.obolibrary.org/obo/HP_0025426	Abnormal bronchus morphology	http://pu
 http://purl.obolibrary.org/obo/HP_0005344	Abnormal carotid artery morphology	http://purl.obolibrary.org/obo/UBERON_0001530	common carotid artery plus branches
 http://purl.obolibrary.org/obo/HP_0002339	Abnormal caudate nucleus morphology	http://purl.obolibrary.org/obo/UBERON_0001873	caudate nucleus
 http://purl.obolibrary.org/obo/HP_0001317	Abnormal cerebellum morphology	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
+http://purl.obolibrary.org/obo/HP_0002060	Abnormal cerebral morphology	http://purl.obolibrary.org/obo/UBERON_0001893	telencephalon
 http://purl.obolibrary.org/obo/HP_0000610	Abnormal choroid morphology	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
 http://purl.obolibrary.org/obo/HP_0012776	Abnormal ciliary body morphology	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
 http://purl.obolibrary.org/obo/HP_0000375	Abnormal cochlea morphology	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea
@@ -26,6 +27,7 @@ http://purl.obolibrary.org/obo/HP_0002031	Abnormal esophagus morphology	http://p
 http://purl.obolibrary.org/obo/HP_0000534	Abnormal eyebrow morphology	http://purl.obolibrary.org/obo/UBERON_0010163	eyebrow
 http://purl.obolibrary.org/obo/HP_0000499	Abnormal eyelash morphology	http://purl.obolibrary.org/obo/UBERON_0001702	eyelash
 http://purl.obolibrary.org/obo/HP_0000492	Abnormal eyelid morphology	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
+http://purl.obolibrary.org/obo/HP_0011027	Abnormal fallopian tube morphology	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/HP_0001231	Abnormal fingernail morphology	http://purl.obolibrary.org/obo/UBERON_0009565	nail of manual digit
 http://purl.obolibrary.org/obo/HP_0040073	Abnormal forearm bone morphology	http://purl.obolibrary.org/obo/UBERON_0003466	forelimb zeugopod bone
 http://purl.obolibrary.org/obo/HP_0003312	Abnormal form of the vertebral bodies	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum
@@ -42,11 +44,9 @@ http://purl.obolibrary.org/obo/HP_0040069	Abnormal lower limb bone morphology	ht
 http://purl.obolibrary.org/obo/HP_0001103	Abnormal macular morphology	http://purl.obolibrary.org/obo/UBERON_0000053	macula lutea
 http://purl.obolibrary.org/obo/HP_0005916	Abnormal metacarpal morphology	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone
 http://purl.obolibrary.org/obo/HP_0001633	Abnormal mitral valve morphology	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
-http://purl.obolibrary.org/obo/HP_0410167	Abnormal morphology of the chest musculature	http://purl.obolibrary.org/obo/UBERON_0002426	chest muscle
+http://purl.obolibrary.org/obo/HP_0000008	Abnormal morphology of female internal genitalia	http://purl.obolibrary.org/obo/UBERON_0003975	internal female genitalia
 http://purl.obolibrary.org/obo/HP_0010629	Abnormal morphology of the cortex of the humerus	http://purl.obolibrary.org/obo/UBERON_0004109	cortex of humerus
 http://purl.obolibrary.org/obo/HP_0030962	Abnormal morphology of the great vessels	http://purl.obolibrary.org/obo/UBERON_0013768	great vessel of heart
-http://purl.obolibrary.org/obo/HP_0001469	Abnormal morphology of the pelvis musculature	http://purl.obolibrary.org/obo/UBERON_0001325	muscle of pelvis
-http://purl.obolibrary.org/obo/HP_0410169	Abnormal morphology of the shoulder musculature	http://purl.obolibrary.org/obo/UBERON_0004476	musculature of shoulder
 http://purl.obolibrary.org/obo/HP_0410012	Abnormal mouth floor morphology	http://purl.obolibrary.org/obo/UBERON_0003679	mouth floor
 http://purl.obolibrary.org/obo/HP_0001637	Abnormal myocardium morphology	http://purl.obolibrary.org/obo/UBERON_0002349	myocardium
 http://purl.obolibrary.org/obo/HP_0000614	Abnormal nasolacrimal system morphology	http://purl.obolibrary.org/obo/UBERON_0001850	lacrimal drainage system
@@ -61,7 +61,6 @@ http://purl.obolibrary.org/obo/HP_0001697	Abnormal pericardium morphology	http:/
 http://purl.obolibrary.org/obo/HP_0030313	Abnormal periosteum morphology	http://purl.obolibrary.org/obo/UBERON_0002515	periosteum
 http://purl.obolibrary.org/obo/HP_0000759	Abnormal peripheral nervous system morphology	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system
 http://purl.obolibrary.org/obo/HP_0100701	Abnormal pia mater	http://purl.obolibrary.org/obo/UBERON_0002361	pia mater
-http://purl.obolibrary.org/obo/HP_0008775	Abnormal prostate morphology	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland
 http://purl.obolibrary.org/obo/HP_0030966	Abnormal pulmonary artery morphology	http://purl.obolibrary.org/obo/UBERON_0002012	pulmonary artery
 http://purl.obolibrary.org/obo/HP_0001641	Abnormal pulmonary valve morphology	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
 http://purl.obolibrary.org/obo/HP_0031982	Abnormal putamen morphology	http://purl.obolibrary.org/obo/UBERON_0001874	putamen
@@ -83,6 +82,7 @@ http://purl.obolibrary.org/obo/HP_0005607	Abnormal tracheobronchial morphology	h
 http://purl.obolibrary.org/obo/HP_0001702	Abnormal tricuspid valve morphology	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve
 http://purl.obolibrary.org/obo/HP_0001551	Abnormal umbilicus morphology	http://purl.obolibrary.org/obo/UBERON_0007118	umbilicus
 http://purl.obolibrary.org/obo/HP_0040070	Abnormal upper limb bone morphology	http://purl.obolibrary.org/obo/UBERON_0010741	bone of pectoral complex
+http://purl.obolibrary.org/obo/HP_0025633	Abnormal ureter morphology	http://purl.obolibrary.org/obo/UBERON_0000056	ureter
 http://purl.obolibrary.org/obo/HP_0031105	Abnormal uterus morphology	http://purl.obolibrary.org/obo/UBERON_0000995	uterus
 http://purl.obolibrary.org/obo/HP_0000553	Abnormal uvea morphology	http://purl.obolibrary.org/obo/UBERON_0001768	uvea
 http://purl.obolibrary.org/obo/HP_0000142	Abnormal vagina morphology	http://purl.obolibrary.org/obo/UBERON_0000996	vagina
@@ -105,5 +105,6 @@ http://purl.obolibrary.org/obo/HP_0011121	Abnormality of skin morphology	http://
 http://purl.obolibrary.org/obo/HP_0011766	Abnormality of the parathyroid morphology	http://purl.obolibrary.org/obo/UBERON_0001132	parathyroid gland
 http://purl.obolibrary.org/obo/HP_0011772	Abnormality of thyroid morphology	http://purl.obolibrary.org/obo/UBERON_0002046	thyroid gland
 http://purl.obolibrary.org/obo/HP_0002011	Morphological abnormality of the central nervous system	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/HP_0002492	Morphological abnormality of the corticospinal tract	http://purl.obolibrary.org/obo/UBERON_0002707	corticospinal tract
 http://purl.obolibrary.org/obo/HP_0012718	Morphological abnormality of the gastrointestinal tract	http://purl.obolibrary.org/obo/UBERON_0005409	alimentary part of gastrointestinal system
 http://purl.obolibrary.org/obo/HP_0011380	Morphological abnormality of the semicircular canal	http://purl.obolibrary.org/obo/UBERON_0001840	semicircular canal

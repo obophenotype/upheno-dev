@@ -1,4 +1,5 @@
 defined_class	defined_class_label	cellular_component	cellular_component_label
+http://purl.obolibrary.org/obo/HP_0500262	Atrichia	http://purl.obolibrary.org/obo/CL_0002559	hair follicle cell
 http://purl.obolibrary.org/obo/HP_0010976	B lymphocytopenia	http://purl.obolibrary.org/obo/CL_0000236	B cell
 http://purl.obolibrary.org/obo/HP_0005403	Decrease in T cell count	http://purl.obolibrary.org/obo/CL_0000084	T cell
 http://purl.obolibrary.org/obo/HP_0031808	Decreased basophil count	http://purl.obolibrary.org/obo/CL_0000767	basophil

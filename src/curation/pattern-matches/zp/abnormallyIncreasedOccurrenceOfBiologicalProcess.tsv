@@ -21,6 +21,7 @@ http://purl.obolibrary.org/obo/ZP_0006926	angiogenesis increased occurrence, abn
 http://purl.obolibrary.org/obo/ZP_0003421	apoptotic chromosome condensation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030263	apoptotic chromosome condensation
 http://purl.obolibrary.org/obo/ZP_0000311	apoptotic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/ZP_0003435	autophagy increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006914	autophagy
+http://purl.obolibrary.org/obo/ZP_0105946	axon regeneration increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031103	axon regeneration
 http://purl.obolibrary.org/obo/ZP_0003134	axonal defasciculation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007414	axonal defasciculation
 http://purl.obolibrary.org/obo/ZP_0009371	axonogenesis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007409	axonogenesis
 http://purl.obolibrary.org/obo/ZP_0101381	behavioral defense response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002209	behavioral defense response
@@ -70,11 +71,13 @@ http://purl.obolibrary.org/obo/ZP_0014230	cortisol biosynthetic process increase
 http://purl.obolibrary.org/obo/ZP_0003117	cytolysis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0019835	cytolysis
 http://purl.obolibrary.org/obo/ZP_0019992	definitive hemopoiesis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060216	definitive hemopoiesis
 http://purl.obolibrary.org/obo/ZP_0014079	disaccharide biosynthetic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0046351	disaccharide biosynthetic process
+http://purl.obolibrary.org/obo/ZP_0106550	eating behavior increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042755	eating behavior
 http://purl.obolibrary.org/obo/ZP_0020483	endocytosis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006897	endocytosis
 http://purl.obolibrary.org/obo/ZP_0012765	endodermal cell differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035987	endodermal cell differentiation
 http://purl.obolibrary.org/obo/ZP_0006332	endoplasmic reticulum unfolded protein response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030968	endoplasmic reticulum unfolded protein response
 http://purl.obolibrary.org/obo/ZP_0008258	endothelial to hematopoietic transition increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0098508	endothelial to hematopoietic transition
 http://purl.obolibrary.org/obo/ZP_0000341	epithelial cell proliferation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050673	epithelial cell proliferation
+http://purl.obolibrary.org/obo/ZP_0105896	erythrocyte aggregation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0034117	erythrocyte aggregation
 http://purl.obolibrary.org/obo/ZP_0015628	establishment of melanosome localization increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0032401	establishment of melanosome localization
 http://purl.obolibrary.org/obo/ZP_0021594	exploration behavior increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035640	exploration behavior
 http://purl.obolibrary.org/obo/ZP_0016007	fatty acid oxidation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0019395	fatty acid oxidation
@@ -84,6 +87,7 @@ http://purl.obolibrary.org/obo/ZP_0011396	filopodium assembly increased occurren
 http://purl.obolibrary.org/obo/ZP_0014820	generation of neurons increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048699	generation of neurons
 http://purl.obolibrary.org/obo/ZP_0017167	gliogenesis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042063	gliogenesis
 http://purl.obolibrary.org/obo/ZP_0017847	glomerular visceral epithelial cell differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072112	glomerular visceral epithelial cell differentiation
+http://purl.obolibrary.org/obo/ZP_0104544	glutamatergic neuron differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1905962	glutamatergic neuron differentiation
 http://purl.obolibrary.org/obo/ZP_0014438	glutathione metabolic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006749	glutathione metabolic process
 http://purl.obolibrary.org/obo/ZP_0016774	granulocyte differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030851	granulocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0021977	granuloma formation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002432	granuloma formation
@@ -96,15 +100,15 @@ http://purl.obolibrary.org/obo/ZP_0101049	hemoglobin biosynthetic process increa
 http://purl.obolibrary.org/obo/ZP_0019590	hemopoiesis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030097	hemopoiesis
 http://purl.obolibrary.org/obo/ZP_0003956	heparan sulfate proteoglycan biosynthetic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0015012	heparan sulfate proteoglycan biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0018245	hepatic stellate cell activation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035733	hepatic stellate cell activation
+http://purl.obolibrary.org/obo/ZP_0130891	histone H2A-S139 phosphorylation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035978	histone H2A-S139 phosphorylation
 http://purl.obolibrary.org/obo/ZP_0102927	histone H3 acetylation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0043966	histone H3 acetylation
-http://purl.obolibrary.org/obo/ZP_0104544	http://purl.obolibrary.org/obo/GO_1905962 increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1905962	glutamatergic neuron differentiation
 http://purl.obolibrary.org/obo/ZP_0014366	hyaluronan biosynthetic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030213	hyaluronan biosynthetic process
+http://purl.obolibrary.org/obo/ZP_0106674	hypermethylation of CpG island increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0044027	hypermethylation of CpG island
 http://purl.obolibrary.org/obo/ZP_0014359	hyphal growth increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030448	hyphal growth
 http://purl.obolibrary.org/obo/ZP_0009248	induction of programmed cell death increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0012502	induction of programmed cell death
 http://purl.obolibrary.org/obo/ZP_0003419	inflammatory response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
 http://purl.obolibrary.org/obo/ZP_0104193	insulin-like growth factor receptor signaling pathway increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048009	insulin-like growth factor receptor signaling pathway
 http://purl.obolibrary.org/obo/ZP_0103506	intestinal lipid absorption increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0098856	intestinal lipid absorption
-http://purl.obolibrary.org/obo/ZP_0010457	intracellularly ATP-gated chloride channel activity increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0005260	intracellularly ATP-gated chloride channel activity
 http://purl.obolibrary.org/obo/ZP_0006815	intrinsic apoptotic signaling pathway by p53 class mediator increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072332	intrinsic apoptotic signaling pathway by p53 class mediator
 http://purl.obolibrary.org/obo/ZP_0015516	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/ZP_0101322	involuntary skeletal muscle contraction increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003011	involuntary skeletal muscle contraction
@@ -117,6 +121,7 @@ http://purl.obolibrary.org/obo/ZP_0016337	leukocyte migration increased occurren
 http://purl.obolibrary.org/obo/ZP_0101470	leukocyte migration involved in immune response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002522	leukocyte migration involved in immune response
 http://purl.obolibrary.org/obo/ZP_0003418	leukocyte migration involved in inflammatory response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002523	leukocyte migration involved in inflammatory response
 http://purl.obolibrary.org/obo/ZP_0101634	ligamentous ossification increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0036076	ligamentous ossification
+http://purl.obolibrary.org/obo/ZP_0131015	lipid biosynthetic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008610	lipid biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0021584	lipid storage increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0019915	lipid storage
 http://purl.obolibrary.org/obo/ZP_0005157	lipooligosaccharide catabolic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1901270	lipooligosaccharide catabolic process
 http://purl.obolibrary.org/obo/ZP_0021411	liver development increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001889	liver development
@@ -168,12 +173,14 @@ http://purl.obolibrary.org/obo/ZP_0003925	oligodendrocyte progenitor proliferati
 http://purl.obolibrary.org/obo/ZP_0016103	oncogene-induced cell senescence increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0090402	oncogene-induced cell senescence
 http://purl.obolibrary.org/obo/ZP_0001535	oncosis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070267	oncosis
 http://purl.obolibrary.org/obo/ZP_0004186	oocyte maturation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001556	oocyte maturation
+http://purl.obolibrary.org/obo/ZP_0130965	optomotor response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0071632	optomotor response
 http://purl.obolibrary.org/obo/ZP_0010247	ossification increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/ZP_0104006	osteoblast differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
 http://purl.obolibrary.org/obo/ZP_0009642	osteoblast proliferation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0033687	osteoblast proliferation
 http://purl.obolibrary.org/obo/ZP_0016100	p38MAPK cascade increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0038066	p38MAPK cascade
 http://purl.obolibrary.org/obo/ZP_0019355	pancreas induction increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061132	pancreas induction
 http://purl.obolibrary.org/obo/ZP_0005738	pancreatic A cell differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003310	pancreatic A cell differentiation
+http://purl.obolibrary.org/obo/ZP_0110339	peptidyl-cysteine S-nitrosylation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0018119	peptidyl-cysteine S-nitrosylation
 http://purl.obolibrary.org/obo/ZP_0004358	peptidyl-lysine monomethylation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0018026	peptidyl-lysine monomethylation
 http://purl.obolibrary.org/obo/ZP_0003882	peptidyl-serine phosphorylation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0018105	peptidyl-serine phosphorylation
 http://purl.obolibrary.org/obo/ZP_0015139	pigment granule aggregation in cell center increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0051877	pigment granule aggregation in cell center
@@ -192,10 +199,11 @@ http://purl.obolibrary.org/obo/ZP_0018770	protein poly-ADP-ribosylation increase
 http://purl.obolibrary.org/obo/ZP_0101007	proton export across plasma membrane increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0120029	proton export across plasma membrane
 http://purl.obolibrary.org/obo/ZP_0000279	radial glial cell division in pallium increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0022015	radial glial cell division in pallium
 http://purl.obolibrary.org/obo/ZP_0003794	re-entry into mitotic cell cycle increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0000320	re-entry into mitotic cell cycle
+http://purl.obolibrary.org/obo/ZP_0130757	reactive oxygen species biosynthetic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1903409	reactive oxygen species biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0101747	reactive oxygen species metabolic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072593	reactive oxygen species metabolic process
 http://purl.obolibrary.org/obo/ZP_0017598	receptor signaling pathway via JAK-STAT increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007259	receptor signaling pathway via JAK-STAT
 http://purl.obolibrary.org/obo/ZP_0021079	regulation of respiratory gaseous exchange increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0043576	regulation of respiratory gaseous exchange
-http://purl.obolibrary.org/obo/ZP_0021078	respiratory gaseous exchange increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007585	respiratory gaseous exchange by respiratory system
+http://purl.obolibrary.org/obo/ZP_0021078	respiratory gaseous exchange by respiratory system increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007585	respiratory gaseous exchange by respiratory system
 http://purl.obolibrary.org/obo/ZP_0015180	response to absence of light increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009646	response to absence of light
 http://purl.obolibrary.org/obo/ZP_0020993	response to endoplasmic reticulum stress increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0034976	response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/ZP_0104035	response to misfolded protein increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0051788	response to misfolded protein
@@ -220,6 +228,7 @@ http://purl.obolibrary.org/obo/ZP_0000847	syncytium formation by plasma membrane
 http://purl.obolibrary.org/obo/ZP_0016913	thermosensory behavior increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0040040	thermosensory behavior
 http://purl.obolibrary.org/obo/ZP_0021601	thigmotaxis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001966	thigmotaxis
 http://purl.obolibrary.org/obo/ZP_0014587	transforming growth factor beta receptor signaling pathway increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
+http://purl.obolibrary.org/obo/ZP_0106730	translation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/ZP_0016697	type B pancreatic cell proliferation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0044342	type B pancreatic cell proliferation
 http://purl.obolibrary.org/obo/ZP_0020152	vasoconstriction increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042310	vasoconstriction
 http://purl.obolibrary.org/obo/ZP_0018490	vasodilation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042311	vasodilation

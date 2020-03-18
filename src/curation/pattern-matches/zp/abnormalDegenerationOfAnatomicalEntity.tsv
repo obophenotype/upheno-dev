@@ -46,6 +46,7 @@ http://purl.obolibrary.org/obo/ZP_0018401	oocyte stage III degenerate, abnormal	
 http://purl.obolibrary.org/obo/ZP_0005834	optic tectum degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000445	optic tectum
 http://purl.obolibrary.org/obo/ZP_0104573	ovarian follicle degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001110	ovarian follicle
 http://purl.obolibrary.org/obo/ZP_0103788	ovarian follicle stage IV degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001264	ovarian follicle stage IV
+http://purl.obolibrary.org/obo/ZP_0131253	ovary degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000403	ovary
 http://purl.obolibrary.org/obo/ZP_0012712	pancreas degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000140	pancreas
 http://purl.obolibrary.org/obo/ZP_0004695	pectoral fin degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
 http://purl.obolibrary.org/obo/ZP_0015722	pectoral fin fold degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0005317	pectoral fin fold
@@ -53,6 +54,7 @@ http://purl.obolibrary.org/obo/ZP_0016224	pharyngeal epithelium degenerate, abno
 http://purl.obolibrary.org/obo/ZP_0005815	photoreceptor cell degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0019833	photoreceptor outer segment layer degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001466	photoreceptor outer segment layer
 http://purl.obolibrary.org/obo/ZP_0016199	post-vent region degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
+http://purl.obolibrary.org/obo/ZP_0106826	primary motor neuron degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0001773	retina degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0006003	retinal cone cell degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell
 http://purl.obolibrary.org/obo/ZP_0016366	retinal inner nuclear layer degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000119	retinal inner nuclear layer

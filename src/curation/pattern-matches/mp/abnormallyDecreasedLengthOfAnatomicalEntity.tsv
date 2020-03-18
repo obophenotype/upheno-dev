@@ -1,6 +1,7 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0002544	brachydactyly	http://purl.obolibrary.org/obo/UBERON_0002544	digit
 http://purl.obolibrary.org/obo/MP_0002543	brachyphalangia	http://purl.obolibrary.org/obo/UBERON_0003221	phalanx
+http://purl.obolibrary.org/obo/MP_0002772	brachypodia	http://purl.obolibrary.org/obo/UBERON_0002387	pes
 http://purl.obolibrary.org/obo/MP_0001258	decreased body length	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0013956	decreased colon length	http://purl.obolibrary.org/obo/UBERON_0001155	colon
 http://purl.obolibrary.org/obo/MP_0011862	decreased cranium length	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
@@ -29,6 +30,7 @@ http://purl.obolibrary.org/obo/MP_0004830	short incisors	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/MP_0011857	short kidney papilla	http://purl.obolibrary.org/obo/UBERON_0001228	renal papilla
 http://purl.obolibrary.org/obo/MP_0000547	short limbs	http://purl.obolibrary.org/obo/UBERON_0002101	limb
 http://purl.obolibrary.org/obo/MP_0030089	short lower incisors	http://purl.obolibrary.org/obo/UBERON_0003451	lower jaw incisor
+http://purl.obolibrary.org/obo/MP_0004708	short lumbar vertebrae	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra
 http://purl.obolibrary.org/obo/MP_0008373	short malleus	http://purl.obolibrary.org/obo/UBERON_0001689	malleus bone
 http://purl.obolibrary.org/obo/MP_0000088	short mandible	http://purl.obolibrary.org/obo/UBERON_0001684	mandible
 http://purl.obolibrary.org/obo/MP_0030284	short mandibular coronoid process	http://purl.obolibrary.org/obo/UBERON_0004660	mandible coronoid process

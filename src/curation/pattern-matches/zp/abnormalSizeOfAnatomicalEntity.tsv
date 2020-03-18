@@ -13,7 +13,6 @@ http://purl.obolibrary.org/obo/ZP_0017122	cardiac ventricle size, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0103553	caudal fin size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0014457	cell size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell
 http://purl.obolibrary.org/obo/ZP_0012929	centrum size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000126	centrum
-http://purl.obolibrary.org/obo/ZP_0022886	ceratobranchial cartilage size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001516	ceratobranchial cartilage
 http://purl.obolibrary.org/obo/ZP_0013123	ceratohyal cartilage size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001400	ceratohyal cartilage
 http://purl.obolibrary.org/obo/ZP_0017537	cerebellum size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000100	cerebellum
 http://purl.obolibrary.org/obo/ZP_0013786	choroid plexus fourth ventricle size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001446	choroid plexus fourth ventricle
@@ -21,7 +20,6 @@ http://purl.obolibrary.org/obo/ZP_0012838	cleithrum size, abnormal	http://purl.o
 http://purl.obolibrary.org/obo/ZP_0014397	cranial ganglion size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000013	cranial ganglion
 http://purl.obolibrary.org/obo/ZP_0012807	cranial vasculature size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001267	cranial vasculature
 http://purl.obolibrary.org/obo/ZP_0014990	cranium size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
-http://purl.obolibrary.org/obo/ZP_0022065	digestive system size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000339	digestive system
 http://purl.obolibrary.org/obo/ZP_0103555	dorsal fin size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001173	dorsal fin
 http://purl.obolibrary.org/obo/ZP_0016292	dorsal hyoid arch size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001401	dorsal hyoid arch
 http://purl.obolibrary.org/obo/ZP_0012952	endocrine pancreas size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001260	endocrine pancreas
@@ -32,6 +30,7 @@ http://purl.obolibrary.org/obo/ZP_0103882	ethmoid cartilage size, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0013773	exocrine pancreas size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001249	exocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0012865	extension size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension
 http://purl.obolibrary.org/obo/ZP_0004005	eye size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
+http://purl.obolibrary.org/obo/ZP_0131159	female organism size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000303	female organism
 http://purl.obolibrary.org/obo/ZP_0018051	fin size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000108	fin
 http://purl.obolibrary.org/obo/ZP_0014205	forebrain size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0012874	gut size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut
@@ -51,7 +50,6 @@ http://purl.obolibrary.org/obo/ZP_0013109	liver size, abnormal	http://purl.oboli
 http://purl.obolibrary.org/obo/ZP_0002156	mandibular arch skeleton size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
 http://purl.obolibrary.org/obo/ZP_0103557	median fin size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005597	median fin
 http://purl.obolibrary.org/obo/ZP_0015672	melanocyte size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte
-http://purl.obolibrary.org/obo/ZP_0022354	myotome size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
 http://purl.obolibrary.org/obo/ZP_0000881	opercle size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000250	opercle
 http://purl.obolibrary.org/obo/ZP_0013745	optic tectum size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000445	optic tectum
 http://purl.obolibrary.org/obo/ZP_0016847	optic vesicle size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000050	optic vesicle
@@ -60,7 +58,6 @@ http://purl.obolibrary.org/obo/ZP_0015199	otic vesicle size, abnormal	http://pur
 http://purl.obolibrary.org/obo/ZP_0015325	otolith size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001617	otolith
 http://purl.obolibrary.org/obo/ZP_0103556	paired fin size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005596	paired fin
 http://purl.obolibrary.org/obo/ZP_0013121	palatoquadrate cartilage size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001399	palatoquadrate cartilage
-http://purl.obolibrary.org/obo/ZP_0021376	pancreas primordium size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000254	pancreas primordium
 http://purl.obolibrary.org/obo/ZP_0012875	pancreas size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000140	pancreas
 http://purl.obolibrary.org/obo/ZP_0014718	parapineal organ size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001360	parapineal organ
 http://purl.obolibrary.org/obo/ZP_0013177	paraxial mesoderm size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000255	paraxial mesoderm
@@ -72,11 +69,8 @@ http://purl.obolibrary.org/obo/ZP_0015495	posterior lateral line ganglion size, 
 http://purl.obolibrary.org/obo/ZP_0019633	posterior lateral line primordium size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium
 http://purl.obolibrary.org/obo/ZP_0013806	prechordal plate size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
 http://purl.obolibrary.org/obo/ZP_0015077	primary posterior lateral line primordium size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005115	primary posterior lateral line primordium
-http://purl.obolibrary.org/obo/ZP_0103290	pronephric distal early tubule size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001622	pronephric distal early tubule
-http://purl.obolibrary.org/obo/ZP_0103291	pronephric distal late tubule size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001624	pronephric distal late tubule
 http://purl.obolibrary.org/obo/ZP_0102934	pronephric duct size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000150	pronephric duct
-http://purl.obolibrary.org/obo/ZP_0103369	pronephric glomerulus size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001557	pronephric glomerulus
-http://purl.obolibrary.org/obo/ZP_0101857	pronephric proximal convoluted tubule size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001620	pronephric proximal convoluted tubule
+http://purl.obolibrary.org/obo/ZP_0106442	pronephric glomerular capsule size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005310	pronephric glomerular capsule
 http://purl.obolibrary.org/obo/ZP_0003917	pupil size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001283	pupil
 http://purl.obolibrary.org/obo/ZP_0100622	regenerating fin size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
 http://purl.obolibrary.org/obo/ZP_0015543	retina size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina

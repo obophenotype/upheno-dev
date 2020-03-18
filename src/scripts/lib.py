@@ -141,7 +141,6 @@ def cdir(path):
     if not os.path.exists(path):
         os.makedirs(path)
 
-# ROBOT wrappers
 def robot_extract_seed(ontology_path,seedfile,sparql_terms, TIMEOUT="60m", robot_opts="-v"):
     print("Extracting seed of "+ontology_path+" with "+sparql_terms)
     robot_query(ontology_path,seedfile,sparql_terms, TIMEOUT, robot_opts)
@@ -276,7 +275,7 @@ def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_
         print(e)
         raise Exception("Preparing " + str(o) + " for DOSDP: " + ontology_merged_path + " failed")
 
-def robot_upheno_release(ontology_list, ontology_merged_path, name, TIMEOUT="3600", robot_opts="-v"):
+def robot_upheno_release(ontology_list, ontology_merged_path, name, TIMEOUT="3600", robot_opts="-v",remove_terms=None):
     print("Finalising  " + str(ontology_list) + " to " + ontology_merged_path+", "+name)
     try:
         callstring = ['timeout', TIMEOUT, 'robot', 'merge', robot_opts]
@@ -284,6 +283,8 @@ def robot_upheno_release(ontology_list, ontology_merged_path, name, TIMEOUT="360
         callstring.extend(merge)
         callstring.extend(['remove', '--axioms', 'disjoint', '--preserve-structure', 'false'])
         callstring.extend(['remove', '--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false'])
+        if remove_terms:
+            callstring.extend(['remove', '-T', remove_terms, '--preserve-structure', 'false'])
         callstring.extend(['reason','--reasoner','ELK','reduce','--reasoner','ELK'])
         callstring.extend(['--output', ontology_merged_path])
         check_call(callstring)

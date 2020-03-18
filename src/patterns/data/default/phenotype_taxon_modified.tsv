@@ -1,0 +1,2 @@
+defined_class	defined_class_name	taxon	taxon_label	bearer	modifier
+http://purl.obolibrary.org/obo/UPHENO_0001005	abnormal phenotype by ontology source	http://purl.obolibrary.org/obo/UPHENO_UPHENO	Unified Phenotype Ontology	owl:Thing	PATO:0000460

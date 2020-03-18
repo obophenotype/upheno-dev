@@ -2,6 +2,7 @@ defined_class	defined_class_label	entity	entity_label	shape	shape_label
 http://purl.obolibrary.org/obo/ZP_0009228	CaP motoneuron branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0009243	CaP motoneuron	http://purl.obolibrary.org/obo/PATO_0002009	branchiness
 http://purl.obolibrary.org/obo/ZP_0103304	CaP motoneuron increased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0009243	CaP motoneuron	http://purl.obolibrary.org/obo/PATO_0002285	increased branchiness
 http://purl.obolibrary.org/obo/ZP_0011534	DEL circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0000711	DEL	http://purl.obolibrary.org/obo/PATO_0000411	circular
+http://purl.obolibrary.org/obo/ZP_0106593	EVL shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000086	EVL	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0104652	Kupffer's vesicle elliptic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle	http://purl.obolibrary.org/obo/PATO_0000947	elliptic
 http://purl.obolibrary.org/obo/ZP_0019236	Kupffer's vesicle irregularly shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle	http://purl.obolibrary.org/obo/PATO_0005020	irregularly shaped
 http://purl.obolibrary.org/obo/ZP_0102685	Kupffer's vesicle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle	http://purl.obolibrary.org/obo/PATO_0000052	shape
@@ -43,12 +44,16 @@ http://purl.obolibrary.org/obo/ZP_0009567	axial mesoderm shortened, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0009305	axial mesoderm sigmoid, abnormal	http://purl.obolibrary.org/obo/ZFA_0001204	axial mesoderm	http://purl.obolibrary.org/obo/PATO_0001878	sigmoid
 http://purl.obolibrary.org/obo/ZP_0018204	axis bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0000617	bent
 http://purl.obolibrary.org/obo/ZP_0103742	axis bifurcated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0001784	bifurcated
+http://purl.obolibrary.org/obo/ZP_0130884	axis curved dorsal, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0001468	curved dorsal
 http://purl.obolibrary.org/obo/ZP_0007168	axis curved ventral, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0001469	curved ventral
 http://purl.obolibrary.org/obo/ZP_0005012	axis curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0002478	axis increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
+http://purl.obolibrary.org/obo/ZP_0130885	axis kinked, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0001798	kinked
 http://purl.obolibrary.org/obo/ZP_0001331	axis shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0015649	ball obtuse, abnormal	http://purl.obolibrary.org/obo/ZFA_0000006	ball	http://purl.obolibrary.org/obo/PATO_0001935	obtuse
 http://purl.obolibrary.org/obo/ZP_0104631	ball shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000006	ball	http://purl.obolibrary.org/obo/PATO_0000052	shape
+http://purl.obolibrary.org/obo/ZP_0106761	basal communicating artery increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0005000	basal communicating artery	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
+http://purl.obolibrary.org/obo/ZP_0106762	basal communicating artery kinked, abnormal	http://purl.obolibrary.org/obo/ZFA_0005000	basal communicating artery	http://purl.obolibrary.org/obo/PATO_0001798	kinked
 http://purl.obolibrary.org/obo/ZP_0005262	basibranchial undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000170	basibranchial	http://purl.obolibrary.org/obo/PATO_0000967	undulate
 http://purl.obolibrary.org/obo/ZP_0016130	basihyal bone bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000316	basihyal bone	http://purl.obolibrary.org/obo/PATO_0000617	bent
 http://purl.obolibrary.org/obo/ZP_0022980	basihyal cartilage curved ventral, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage	http://purl.obolibrary.org/obo/PATO_0001469	curved ventral
@@ -60,6 +65,8 @@ http://purl.obolibrary.org/obo/ZP_0101419	bile ductule branchiness, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0101421	bile ductule decreased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005164	bile ductule	http://purl.obolibrary.org/obo/PATO_0002286	decreased branchiness
 http://purl.obolibrary.org/obo/ZP_0101420	bile ductule increased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005164	bile ductule	http://purl.obolibrary.org/obo/PATO_0002285	increased branchiness
 http://purl.obolibrary.org/obo/ZP_0020094	blastomere irregularly shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere	http://purl.obolibrary.org/obo/PATO_0005020	irregularly shaped
+http://purl.obolibrary.org/obo/ZP_0106736	blastomere shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere	http://purl.obolibrary.org/obo/PATO_0000052	shape
+http://purl.obolibrary.org/obo/ZP_0130680	blood vasculature decreased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001079	blood vasculature	http://purl.obolibrary.org/obo/PATO_0002286	decreased branchiness
 http://purl.obolibrary.org/obo/ZP_0004213	blood vasculature increased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001079	blood vasculature	http://purl.obolibrary.org/obo/PATO_0002285	increased branchiness
 http://purl.obolibrary.org/obo/ZP_0014024	blood vessel increased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/PATO_0002285	increased branchiness
 http://purl.obolibrary.org/obo/ZP_0007426	brain V-shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain	http://purl.obolibrary.org/obo/PATO_0002224	V-shaped
@@ -79,6 +86,7 @@ http://purl.obolibrary.org/obo/ZP_0012049	bulbus arteriosus elongated, abnormal	
 http://purl.obolibrary.org/obo/ZP_0101396	bulbus arteriosus shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0005252	cardiac muscle cell circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0008019	cardiac muscle cell elongated, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/PATO_0001154	elongated
+http://purl.obolibrary.org/obo/ZP_0107228	cardiac muscle cell obtuse, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/PATO_0001935	obtuse
 http://purl.obolibrary.org/obo/ZP_0004526	cardiac muscle cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0003254	cardiac ventricle bifurcated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle	http://purl.obolibrary.org/obo/PATO_0001784	bifurcated
 http://purl.obolibrary.org/obo/ZP_0009746	cardiac ventricle circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle	http://purl.obolibrary.org/obo/PATO_0000411	circular
@@ -136,6 +144,7 @@ http://purl.obolibrary.org/obo/ZP_0016928	ceratobranchial 5 tooth biscupidate, a
 http://purl.obolibrary.org/obo/ZP_0004956	ceratobranchial cartilage bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001516	ceratobranchial cartilage	http://purl.obolibrary.org/obo/PATO_0000617	bent
 http://purl.obolibrary.org/obo/ZP_0002684	ceratobranchial cartilage curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001516	ceratobranchial cartilage	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0002685	ceratobranchial cartilage shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001516	ceratobranchial cartilage	http://purl.obolibrary.org/obo/PATO_0002364	shortened
+http://purl.obolibrary.org/obo/ZP_0107235	ceratohyal bone irregularly shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0000578	ceratohyal bone	http://purl.obolibrary.org/obo/PATO_0005020	irregularly shaped
 http://purl.obolibrary.org/obo/ZP_0006422	ceratohyal bone shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000578	ceratohyal bone	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0002916	ceratohyal cartilage bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001400	ceratohyal cartilage	http://purl.obolibrary.org/obo/PATO_0000617	bent
 http://purl.obolibrary.org/obo/ZP_0010096	ceratohyal cartilage curved caudal, abnormal	http://purl.obolibrary.org/obo/ZFA_0001400	ceratohyal cartilage	http://purl.obolibrary.org/obo/PATO_0001467	curved caudal
@@ -151,11 +160,9 @@ http://purl.obolibrary.org/obo/ZP_0009536	cerebellar central artery branchiness,
 http://purl.obolibrary.org/obo/ZP_0020696	cerebellum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000100	cerebellum	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0015377	chondrocranium cleft, abnormal	http://purl.obolibrary.org/obo/ZFA_0001424	chondrocranium	http://purl.obolibrary.org/obo/PATO_0000403	cleft
 http://purl.obolibrary.org/obo/ZP_0012551	chondrocranium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001424	chondrocranium	http://purl.obolibrary.org/obo/PATO_0000052	shape
-http://purl.obolibrary.org/obo/ZP_0100132	chondrocyte ceratohyal cartilage normal amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule	http://purl.obolibrary.org/obo/PATO_0000967	undulate
 http://purl.obolibrary.org/obo/ZP_0007240	chondrocyte circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0007208	chondrocyte shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0020271	choroid plexus fourth ventricle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001446	choroid plexus fourth ventricle	http://purl.obolibrary.org/obo/PATO_0000052	shape
-http://purl.obolibrary.org/obo/ZP_0022874	common bile duct branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005165	common bile duct	http://purl.obolibrary.org/obo/PATO_0002009	branchiness
 http://purl.obolibrary.org/obo/ZP_0018883	common bile duct decreased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005165	common bile duct	http://purl.obolibrary.org/obo/PATO_0002286	decreased branchiness
 http://purl.obolibrary.org/obo/ZP_0001715	corneal epithelium scalloped, abnormal	http://purl.obolibrary.org/obo/ZFA_0001683	corneal epithelium	http://purl.obolibrary.org/obo/PATO_0001889	scalloped
 http://purl.obolibrary.org/obo/ZP_0000441	corneal epithelium undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001683	corneal epithelium	http://purl.obolibrary.org/obo/PATO_0000967	undulate
@@ -169,6 +176,7 @@ http://purl.obolibrary.org/obo/ZP_0102890	cranial nerve VII shape, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0006930	cranial vasculature branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001267	cranial vasculature	http://purl.obolibrary.org/obo/PATO_0002009	branchiness
 http://purl.obolibrary.org/obo/ZP_0019689	cranial vasculature increased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001267	cranial vasculature	http://purl.obolibrary.org/obo/PATO_0002285	increased branchiness
 http://purl.obolibrary.org/obo/ZP_0007465	cranial vault dorso-ventrally flattened, abnormal	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault	http://purl.obolibrary.org/obo/PATO_0002053	dorso-ventrally flattened
+http://purl.obolibrary.org/obo/ZP_0106683	cranium 3-D shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium	http://purl.obolibrary.org/obo/PATO_0002266	3-D shape
 http://purl.obolibrary.org/obo/ZP_0015109	cranium circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0020794	cranium domed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium	http://purl.obolibrary.org/obo/PATO_0001789	domed
 http://purl.obolibrary.org/obo/ZP_0000551	cranium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium	http://purl.obolibrary.org/obo/PATO_0000052	shape
@@ -178,13 +186,15 @@ http://purl.obolibrary.org/obo/ZP_0000877	dentary curved caudal, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0000496	dentary shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000191	dentary	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0002727	diencephalic white matter split, abnormal	http://purl.obolibrary.org/obo/ZFA_0000338	diencephalic white matter	http://purl.obolibrary.org/obo/PATO_0001786	split
 http://purl.obolibrary.org/obo/ZP_0005523	diencephalon flattened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000101	diencephalon	http://purl.obolibrary.org/obo/PATO_0002254	flattened
-http://purl.obolibrary.org/obo/ZP_0012074	dilator operculi shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000498	dilatator operculi	http://purl.obolibrary.org/obo/PATO_0002364	shortened
+http://purl.obolibrary.org/obo/ZP_0012074	dilatator operculi shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000498	dilatator operculi	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0004487	dorsal aorta shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0016618	dorsal fin fold erose, abnormal	http://purl.obolibrary.org/obo/ZFA_0000102	dorsal fin fold	http://purl.obolibrary.org/obo/PATO_0001368	erose
 http://purl.obolibrary.org/obo/ZP_0015642	dorsal fin lepidotrichium undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001418	dorsal fin lepidotrichium	http://purl.obolibrary.org/obo/PATO_0000967	undulate
 http://purl.obolibrary.org/obo/ZP_0016294	dorsal hyoid arch shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001401	dorsal hyoid arch	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0102193	dorsal longitudinal anastomotic vessel increased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel	http://purl.obolibrary.org/obo/PATO_0002285	increased branchiness
 http://purl.obolibrary.org/obo/ZP_0008791	dorsal longitudinal anastomotic vessel shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel	http://purl.obolibrary.org/obo/PATO_0000052	shape
+http://purl.obolibrary.org/obo/ZP_0107131	dorsal longitudinal anastomotic vessel split, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel	http://purl.obolibrary.org/obo/PATO_0001786	split
+http://purl.obolibrary.org/obo/ZP_0106181	dorsal longitudinal vein truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005031	dorsal longitudinal vein	http://purl.obolibrary.org/obo/PATO_0000936	truncated
 http://purl.obolibrary.org/obo/ZP_0010020	ectodermal cell circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0009137	ectodermal cell	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0003263	endocardium split medially, abnormal	http://purl.obolibrary.org/obo/ZFA_0001320	endocardium	http://purl.obolibrary.org/obo/PATO_0002169	split medially
 http://purl.obolibrary.org/obo/ZP_0016161	endocardium undivided, abnormal	http://purl.obolibrary.org/obo/ZFA_0001320	endocardium	http://purl.obolibrary.org/obo/PATO_0002034	undivided
@@ -213,6 +223,7 @@ http://purl.obolibrary.org/obo/ZP_0104745	exocrine pancreas split bilaterally, a
 http://purl.obolibrary.org/obo/ZP_0022511	extension shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0004639	extension shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0006561	eye attenuate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye	http://purl.obolibrary.org/obo/PATO_0001982	attenuate
+http://purl.obolibrary.org/obo/ZP_0107270	eye circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0009887	eye curved lateral, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye	http://purl.obolibrary.org/obo/PATO_0001649	curved lateral
 http://purl.obolibrary.org/obo/ZP_0005800	eye elliptic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye	http://purl.obolibrary.org/obo/PATO_0000947	elliptic
 http://purl.obolibrary.org/obo/ZP_0101763	eye flattened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye	http://purl.obolibrary.org/obo/PATO_0002254	flattened
@@ -251,6 +262,7 @@ http://purl.obolibrary.org/obo/ZP_0015596	gut flattened, abnormal	http://purl.ob
 http://purl.obolibrary.org/obo/ZP_0011331	gut shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0019300	gut straight, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut	http://purl.obolibrary.org/obo/PATO_0002180	straight
 http://purl.obolibrary.org/obo/ZP_0015936	hair cell anterior macula shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000678	hair cell anterior macula	http://purl.obolibrary.org/obo/PATO_0000052	shape
+http://purl.obolibrary.org/obo/ZP_0131212	hair cell anterior macula splayed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000678	hair cell anterior macula	http://purl.obolibrary.org/obo/PATO_0001785	splayed
 http://purl.obolibrary.org/obo/ZP_0016106	head bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head	http://purl.obolibrary.org/obo/PATO_0000617	bent
 http://purl.obolibrary.org/obo/ZP_0003609	head bulbous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head	http://purl.obolibrary.org/obo/PATO_0002210	bulbous
 http://purl.obolibrary.org/obo/ZP_0001049	head circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head	http://purl.obolibrary.org/obo/PATO_0000411	circular
@@ -354,12 +366,15 @@ http://purl.obolibrary.org/obo/ZP_0003504	intestine surface feature shape, abnor
 http://purl.obolibrary.org/obo/ZP_0005666	intrahepatic bile duct decreased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005169	intrahepatic bile duct	http://purl.obolibrary.org/obo/PATO_0002286	decreased branchiness
 http://purl.obolibrary.org/obo/ZP_0004125	intrahepatic bile duct unbranched, abnormal	http://purl.obolibrary.org/obo/ZFA_0005169	intrahepatic bile duct	http://purl.obolibrary.org/obo/PATO_0000414	unbranched
 http://purl.obolibrary.org/obo/ZP_0012348	iridophore ridged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009199	iridophore	http://purl.obolibrary.org/obo/PATO_0002358	ridged
+http://purl.obolibrary.org/obo/ZP_0107067	lateral dorsal aorta shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001054	lateral dorsal aorta	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0019389	lateral facial lymph vessel truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005837	lateral facial lymph vessel	http://purl.obolibrary.org/obo/PATO_0000936	truncated
 http://purl.obolibrary.org/obo/ZP_0003301	lateral line curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001469	lateral line	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0004235	lateral line truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001469	lateral line	http://purl.obolibrary.org/obo/PATO_0000936	truncated
 http://purl.obolibrary.org/obo/ZP_0014966	lens circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0001022	lens elliptic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens	http://purl.obolibrary.org/obo/PATO_0000947	elliptic
 http://purl.obolibrary.org/obo/ZP_0019110	lens elongated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens	http://purl.obolibrary.org/obo/PATO_0001154	elongated
+http://purl.obolibrary.org/obo/ZP_0106863	lens fiber cell convex 3-D shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009401	lens fiber cell	http://purl.obolibrary.org/obo/PATO_0002007	convex 3-D shape
+http://purl.obolibrary.org/obo/ZP_0106862	lens fiber cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009401	lens fiber cell	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0019892	lens ovate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens	http://purl.obolibrary.org/obo/PATO_0001891	ovate
 http://purl.obolibrary.org/obo/ZP_0011942	lens shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0011893	lepidotrichium increased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001554	lepidotrichium	http://purl.obolibrary.org/obo/PATO_0002285	increased branchiness
@@ -388,6 +403,7 @@ http://purl.obolibrary.org/obo/ZP_0017710	medial floor plate truncated, abnormal
 http://purl.obolibrary.org/obo/ZP_0009275	median fin fold attenuate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold	http://purl.obolibrary.org/obo/PATO_0001982	attenuate
 http://purl.obolibrary.org/obo/ZP_0014295	median fin fold curled, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold	http://purl.obolibrary.org/obo/PATO_0000405	curled
 http://purl.obolibrary.org/obo/ZP_0003487	median fin fold edge shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold	http://purl.obolibrary.org/obo/PATO_0002267	edge shape
+http://purl.obolibrary.org/obo/ZP_0106309	median fin fold ruffled, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold	http://purl.obolibrary.org/obo/PATO_0001799	ruffled
 http://purl.obolibrary.org/obo/ZP_0003899	median fin fold undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold	http://purl.obolibrary.org/obo/PATO_0000967	undulate
 http://purl.obolibrary.org/obo/ZP_0003657	median fin ruffled, abnormal	http://purl.obolibrary.org/obo/ZFA_0005597	median fin	http://purl.obolibrary.org/obo/PATO_0001799	ruffled
 http://purl.obolibrary.org/obo/ZP_0003494	median fin shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005597	median fin	http://purl.obolibrary.org/obo/PATO_0000052	shape
@@ -403,6 +419,7 @@ http://purl.obolibrary.org/obo/ZP_0015172	melanocyte spindle-shaped, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0016264	melanocyte star shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte	http://purl.obolibrary.org/obo/PATO_0002065	star shaped
 http://purl.obolibrary.org/obo/ZP_0015733	melanophore stripe branched, abnormal	http://purl.obolibrary.org/obo/ZFA_0001463	melanophore stripe	http://purl.obolibrary.org/obo/PATO_0000402	branched
 http://purl.obolibrary.org/obo/ZP_0012130	melanophore stripe undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001463	melanophore stripe	http://purl.obolibrary.org/obo/PATO_0000967	undulate
+http://purl.obolibrary.org/obo/ZP_0106182	mesencephalic vein truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005092	mesencephalic vein	http://purl.obolibrary.org/obo/PATO_0000936	truncated
 http://purl.obolibrary.org/obo/ZP_0018377	mesenchyme pectoral fin flattened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001000	mesenchyme pectoral fin	http://purl.obolibrary.org/obo/PATO_0002254	flattened
 http://purl.obolibrary.org/obo/ZP_0005365	mesodermal cell circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0009138	mesodermal cell	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0019495	microglial cell spherical, abnormal	http://purl.obolibrary.org/obo/ZFA_0009077	microglial cell	http://purl.obolibrary.org/obo/PATO_0001499	spherical
@@ -410,10 +427,13 @@ http://purl.obolibrary.org/obo/ZP_0007774	midbrain elongated, abnormal	http://pu
 http://purl.obolibrary.org/obo/ZP_0014396	midbrain hindbrain boundary U-shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary	http://purl.obolibrary.org/obo/PATO_0001879	U-shaped
 http://purl.obolibrary.org/obo/ZP_0005865	midbrain hindbrain boundary dorso-ventrally flattened, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary	http://purl.obolibrary.org/obo/PATO_0002053	dorso-ventrally flattened
 http://purl.obolibrary.org/obo/ZP_0007888	midbrain hindbrain boundary neural tube cleft, abnormal	http://purl.obolibrary.org/obo/ZFA_0007047	midbrain hindbrain boundary neural tube	http://purl.obolibrary.org/obo/PATO_0000403	cleft
+http://purl.obolibrary.org/obo/ZP_0106022	midbrain hindbrain boundary notched, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary	http://purl.obolibrary.org/obo/PATO_0001495	notched
 http://purl.obolibrary.org/obo/ZP_0003001	midbrain hindbrain boundary shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0017370	midbrain hindbrain boundary sharp, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary	http://purl.obolibrary.org/obo/PATO_0001419	sharp
 http://purl.obolibrary.org/obo/ZP_0016206	midbrain pointed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000128	midbrain	http://purl.obolibrary.org/obo/PATO_0002258	pointed
 http://purl.obolibrary.org/obo/ZP_0003229	midbrain shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000128	midbrain	http://purl.obolibrary.org/obo/PATO_0000052	shape
+http://purl.obolibrary.org/obo/ZP_0131174	migratory neural crest lobed, abnormal	http://purl.obolibrary.org/obo/ZFA_0007085	migratory neural crest	http://purl.obolibrary.org/obo/PATO_0001979	lobed
+http://purl.obolibrary.org/obo/ZP_0131136	migratory neural crest ovate, abnormal	http://purl.obolibrary.org/obo/ZFA_0007085	migratory neural crest	http://purl.obolibrary.org/obo/PATO_0001891	ovate
 http://purl.obolibrary.org/obo/ZP_0003416	motor neuron branched, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron	http://purl.obolibrary.org/obo/PATO_0000402	branched
 http://purl.obolibrary.org/obo/ZP_0012606	motor neuron branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron	http://purl.obolibrary.org/obo/PATO_0002009	branchiness
 http://purl.obolibrary.org/obo/ZP_0003417	motor neuron truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron	http://purl.obolibrary.org/obo/PATO_0000936	truncated
@@ -421,6 +441,7 @@ http://purl.obolibrary.org/obo/ZP_0020580	motor nucleus of vagal nerve shortened
 http://purl.obolibrary.org/obo/ZP_0000896	mouth concave 3-D shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000547	mouth	http://purl.obolibrary.org/obo/PATO_0002008	concave 3-D shape
 http://purl.obolibrary.org/obo/ZP_0103090	mouth shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000547	mouth	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0017350	muscle cell shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell	http://purl.obolibrary.org/obo/PATO_0002364	shortened
+http://purl.obolibrary.org/obo/ZP_0131123	muscle cell split, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell	http://purl.obolibrary.org/obo/PATO_0001786	split
 http://purl.obolibrary.org/obo/ZP_0017349	muscle cell striated, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell	http://purl.obolibrary.org/obo/PATO_0001410	striated
 http://purl.obolibrary.org/obo/ZP_0014292	muscle cell undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell	http://purl.obolibrary.org/obo/PATO_0000967	undulate
 http://purl.obolibrary.org/obo/ZP_0102903	muscle striated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle	http://purl.obolibrary.org/obo/PATO_0001410	striated
@@ -429,6 +450,7 @@ http://purl.obolibrary.org/obo/ZP_0003262	myocardium split medially, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0016160	myocardium undivided, abnormal	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium	http://purl.obolibrary.org/obo/PATO_0002034	undivided
 http://purl.obolibrary.org/obo/ZP_0009160	myoseptum U-shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0001089	myoseptum	http://purl.obolibrary.org/obo/PATO_0001879	U-shaped
 http://purl.obolibrary.org/obo/ZP_0009079	myoseptum curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001089	myoseptum	http://purl.obolibrary.org/obo/PATO_0000406	curved
+http://purl.obolibrary.org/obo/ZP_0106720	myoseptum irregularly shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0001089	myoseptum	http://purl.obolibrary.org/obo/PATO_0005020	irregularly shaped
 http://purl.obolibrary.org/obo/ZP_0021882	myoseptum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001089	myoseptum	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0003021	myotome U-shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome	http://purl.obolibrary.org/obo/PATO_0001879	U-shaped
 http://purl.obolibrary.org/obo/ZP_0002219	myotome shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome	http://purl.obolibrary.org/obo/PATO_0000052	shape
@@ -444,6 +466,7 @@ http://purl.obolibrary.org/obo/ZP_0010129	neural rod shape, abnormal	http://purl
 http://purl.obolibrary.org/obo/ZP_0100702	neural spine sloped, abnormal	http://purl.obolibrary.org/obo/ZFA_0001336	neural spine	http://purl.obolibrary.org/obo/PATO_0001481	sloped
 http://purl.obolibrary.org/obo/ZP_0010095	neural tube shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001135	neural tube	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0009234	neural tube shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001135	neural tube	http://purl.obolibrary.org/obo/PATO_0002364	shortened
+http://purl.obolibrary.org/obo/ZP_0106204	neural tube split bilaterally, abnormal	http://purl.obolibrary.org/obo/ZFA_0001135	neural tube	http://purl.obolibrary.org/obo/PATO_0002171	split bilaterally
 http://purl.obolibrary.org/obo/ZP_0016232	neurocranial trabecula kinked, abnormal	http://purl.obolibrary.org/obo/ZFA_0001321	neurocranial trabecula	http://purl.obolibrary.org/obo/PATO_0001798	kinked
 http://purl.obolibrary.org/obo/ZP_0000812	neurocranial trabecula shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001321	neurocranial trabecula	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0018168	neurocranial trabecula truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001321	neurocranial trabecula	http://purl.obolibrary.org/obo/PATO_0000936	truncated
@@ -455,6 +478,7 @@ http://purl.obolibrary.org/obo/ZP_0010154	neuromast shape, abnormal	http://purl.
 http://purl.obolibrary.org/obo/ZP_0019817	neuron decreased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/PATO_0002286	decreased branchiness
 http://purl.obolibrary.org/obo/ZP_0016339	neutrophil circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0009327	neutrophil	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0022057	neutrophil shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009327	neutrophil	http://purl.obolibrary.org/obo/PATO_0000052	shape
+http://purl.obolibrary.org/obo/ZP_0130870	non-Weberian precaudal vertebra increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0001582	non-Weberian precaudal vertebra	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
 http://purl.obolibrary.org/obo/ZP_0000627	notochord bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord	http://purl.obolibrary.org/obo/PATO_0000617	bent
 http://purl.obolibrary.org/obo/ZP_0000579	notochord bifurcated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord	http://purl.obolibrary.org/obo/PATO_0001784	bifurcated
 http://purl.obolibrary.org/obo/ZP_0001333	notochord broad, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord	http://purl.obolibrary.org/obo/PATO_0002359	broad
@@ -561,7 +585,6 @@ http://purl.obolibrary.org/obo/ZP_0017268	pharyngeal arch cartilage kinked, abno
 http://purl.obolibrary.org/obo/ZP_0003041	pharyngeal arch shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0001277	photoreceptor cell circular, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell	http://purl.obolibrary.org/obo/PATO_0000411	circular
 http://purl.obolibrary.org/obo/ZP_0017190	photoreceptor cell shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell	http://purl.obolibrary.org/obo/PATO_0002364	shortened
-http://purl.obolibrary.org/obo/ZP_0100048	photoreceptor connecting cilium photoreceptor cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule	http://purl.obolibrary.org/obo/PATO_0000402	branched
 http://purl.obolibrary.org/obo/ZP_0001867	photoreceptor outer segment layer shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001466	photoreceptor outer segment layer	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0015026	pigment cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009090	pigment cell	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0001786	pigmented epithelial cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009241	pigmented epithelial cell	http://purl.obolibrary.org/obo/PATO_0000052	shape
@@ -592,6 +615,7 @@ http://purl.obolibrary.org/obo/ZP_0001145	post-vent region kinked, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0002222	post-vent region shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0003022	post-vent region shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0005696	post-vent region sigmoid, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region	http://purl.obolibrary.org/obo/PATO_0001878	sigmoid
+http://purl.obolibrary.org/obo/ZP_0107137	post-vent region sinuous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region	http://purl.obolibrary.org/obo/PATO_0001989	sinuous
 http://purl.obolibrary.org/obo/ZP_0015357	post-vent region spade-shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region	http://purl.obolibrary.org/obo/PATO_0002432	spade-shaped
 http://purl.obolibrary.org/obo/ZP_0015758	post-vent region surface feature shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region	http://purl.obolibrary.org/obo/PATO_0001925	surface feature shape
 http://purl.obolibrary.org/obo/ZP_0001144	post-vent region truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region	http://purl.obolibrary.org/obo/PATO_0000936	truncated
@@ -601,6 +625,9 @@ http://purl.obolibrary.org/obo/ZP_0016110	postcranial axial skeleton curved, abn
 http://purl.obolibrary.org/obo/ZP_0008351	postcranial axial skeleton increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0000317	postcranial axial skeleton	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
 http://purl.obolibrary.org/obo/ZP_0015953	postcranial axial skeleton kinked, abnormal	http://purl.obolibrary.org/obo/ZFA_0000317	postcranial axial skeleton	http://purl.obolibrary.org/obo/PATO_0001798	kinked
 http://purl.obolibrary.org/obo/ZP_0013055	posterior cardinal vein shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000477	posterior cardinal vein	http://purl.obolibrary.org/obo/PATO_0000052	shape
+http://purl.obolibrary.org/obo/ZP_0106179	posterior caudal vein split, abnormal	http://purl.obolibrary.org/obo/ZFA_0001063	posterior caudal vein	http://purl.obolibrary.org/obo/PATO_0001786	split
+http://purl.obolibrary.org/obo/ZP_0106763	posterior communicating artery increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0005001	posterior communicating artery	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
+http://purl.obolibrary.org/obo/ZP_0106764	posterior communicating artery kinked, abnormal	http://purl.obolibrary.org/obo/ZFA_0005001	posterior communicating artery	http://purl.obolibrary.org/obo/PATO_0001798	kinked
 http://purl.obolibrary.org/obo/ZP_0007829	posterior intestine undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000706	posterior intestine	http://purl.obolibrary.org/obo/PATO_0000967	undulate
 http://purl.obolibrary.org/obo/ZP_0010578	posterior lateral line nerve truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000175	posterior lateral line nerve	http://purl.obolibrary.org/obo/PATO_0000936	truncated
 http://purl.obolibrary.org/obo/ZP_0102392	posterior lateral line neuromast elongated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000940	posterior lateral line neuromast	http://purl.obolibrary.org/obo/PATO_0001154	elongated
@@ -610,6 +637,7 @@ http://purl.obolibrary.org/obo/ZP_0000086	posterior lateral line primordium cres
 http://purl.obolibrary.org/obo/ZP_0003380	posterior lateral line primordium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0005569	posterior lateral line primordium split, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium	http://purl.obolibrary.org/obo/PATO_0001786	split
 http://purl.obolibrary.org/obo/ZP_0007498	posterior lateral line truncated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000944	posterior lateral line	http://purl.obolibrary.org/obo/PATO_0000936	truncated
+http://purl.obolibrary.org/obo/ZP_0130687	posterior macula split, abnormal	http://purl.obolibrary.org/obo/ZFA_0000558	posterior macula	http://purl.obolibrary.org/obo/PATO_0001786	split
 http://purl.obolibrary.org/obo/ZP_0010148	posterior neural tube T-shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0007037	posterior neural tube	http://purl.obolibrary.org/obo/PATO_0001200	T-shaped
 http://purl.obolibrary.org/obo/ZP_0005746	posterior pancreatic bud elongated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001370	posterior pancreatic bud	http://purl.obolibrary.org/obo/PATO_0001154	elongated
 http://purl.obolibrary.org/obo/ZP_0008188	posterior pronephric duct bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001623	posterior pronephric duct	http://purl.obolibrary.org/obo/PATO_0000617	bent
@@ -637,10 +665,8 @@ http://purl.obolibrary.org/obo/ZP_0017196	pronephric podocyte columnar, abnormal
 http://purl.obolibrary.org/obo/ZP_0009470	pronephric podocyte shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001673	pronephric podocyte	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0020488	pronephric proximal convoluted tubule shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001620	pronephric proximal convoluted tubule	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0017630	pronephric proximal convoluted tubule straight, abnormal	http://purl.obolibrary.org/obo/ZFA_0001620	pronephric proximal convoluted tubule	http://purl.obolibrary.org/obo/PATO_0002180	straight
-http://purl.obolibrary.org/obo/ZP_0011772	pronephric tubule branched, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule	http://purl.obolibrary.org/obo/PATO_0000402	branched
 http://purl.obolibrary.org/obo/ZP_0021070	pronephric tubule curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0013388	pronephric tubule shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule	http://purl.obolibrary.org/obo/PATO_0000052	shape
-http://purl.obolibrary.org/obo/ZP_0011773	pronephric tubule undulate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule	http://purl.obolibrary.org/obo/PATO_0000967	undulate
 http://purl.obolibrary.org/obo/ZP_0021083	pronephros shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000151	pronephros	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/ZP_0100422	pupil irregularly shaped, abnormal	http://purl.obolibrary.org/obo/ZFA_0001283	pupil	http://purl.obolibrary.org/obo/PATO_0005020	irregularly shaped
 http://purl.obolibrary.org/obo/ZP_0013933	retina folded, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina	http://purl.obolibrary.org/obo/PATO_0001910	folded
@@ -693,9 +719,11 @@ http://purl.obolibrary.org/obo/ZP_0007929	somite shortened, abnormal	http://purl
 http://purl.obolibrary.org/obo/ZP_0004520	spinal cord bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0000617	bent
 http://purl.obolibrary.org/obo/ZP_0010916	spinal cord bifurcated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0001784	bifurcated
 http://purl.obolibrary.org/obo/ZP_0009030	spinal cord curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0001591	curvature
+http://purl.obolibrary.org/obo/ZP_0130882	spinal cord curved dorsal, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0001468	curved dorsal
 http://purl.obolibrary.org/obo/ZP_0007310	spinal cord curved ventral, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0001469	curved ventral
 http://purl.obolibrary.org/obo/ZP_0006844	spinal cord curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0004781	spinal cord increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
+http://purl.obolibrary.org/obo/ZP_0130883	spinal cord kinked, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0001798	kinked
 http://purl.obolibrary.org/obo/ZP_0102167	spinal cord torsioned, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord	http://purl.obolibrary.org/obo/PATO_0002445	torsioned
 http://purl.obolibrary.org/obo/ZP_0002681	splanchnocranium shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001216	splanchnocranium	http://purl.obolibrary.org/obo/PATO_0002364	shortened
 http://purl.obolibrary.org/obo/ZP_0012078	sternohyoid shortened, abnormal	http://purl.obolibrary.org/obo/ZFA_0001651	sternohyoid	http://purl.obolibrary.org/obo/PATO_0002364	shortened

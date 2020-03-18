@@ -69,6 +69,7 @@ http://purl.obolibrary.org/obo/MP_0030287	enlarged occipital bone	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0010058	enlarged olfactory bulb	http://purl.obolibrary.org/obo/UBERON_0002264	olfactory bulb
 http://purl.obolibrary.org/obo/MP_0008529	enlarged optic nerve	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/MP_0003143	enlarged otoliths	http://purl.obolibrary.org/obo/UBERON_0002280	otolith
+http://purl.obolibrary.org/obo/MP_0004832	enlarged ovary	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0004832	enlarged ovary	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009068	enlarged oviduct	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0003450	enlarged pancreas	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
@@ -85,7 +86,7 @@ http://purl.obolibrary.org/obo/MP_0008370	enlarged pituitary intermediate lobe	h
 http://purl.obolibrary.org/obo/MP_0004260	enlarged placenta	http://purl.obolibrary.org/obo/UBERON_0001987	placenta
 http://purl.obolibrary.org/obo/MP_0009635	enlarged popliteal lymph nodes	http://purl.obolibrary.org/obo/UBERON_0001543	popliteal lymph node
 http://purl.obolibrary.org/obo/MP_0004958	enlarged prostate gland	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland
-http://purl.obolibrary.org/obo/MP_0009738	enlarged prostate gland anterior lobe	http://purl.obolibrary.org/obo/UBERON_0001329	prostate gland anterior lobe
+http://purl.obolibrary.org/obo/MP_0009738	enlarged prostate gland anterior lobe	http://purl.obolibrary.org/obo/UBERON_0008807	coagulating gland
 http://purl.obolibrary.org/obo/MP_0009739	enlarged prostate gland dorsolateral lobe	http://purl.obolibrary.org/obo/UBERON_0008808	prostate gland dorsolateral lobe
 http://purl.obolibrary.org/obo/MP_0010600	enlarged pulmonary valve	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
 http://purl.obolibrary.org/obo/MP_0009516	enlarged salivary gland	http://purl.obolibrary.org/obo/UBERON_0001044	saliva-secreting gland
@@ -123,7 +124,6 @@ http://purl.obolibrary.org/obo/MP_0004316	enlarged vestibular saccule	http://pur
 http://purl.obolibrary.org/obo/MP_0003528	enlarged vulva	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
 http://purl.obolibrary.org/obo/MP_0012160	expanded anterior visceral endoderm	http://purl.obolibrary.org/obo/UBERON_0004044	anterior visceral endoderm
 http://purl.obolibrary.org/obo/MP_0011353	expanded mesangial matrix	http://purl.obolibrary.org/obo/UBERON_0012352	mesangial matrix
-http://purl.obolibrary.org/obo/MP_0006166	eyelid retraction	http://purl.obolibrary.org/obo/UBERON_0001819	palpebral fissure
 http://purl.obolibrary.org/obo/MP_0012479	increased amygdala size	http://purl.obolibrary.org/obo/UBERON_0001876	amygdala
 http://purl.obolibrary.org/obo/MP_0008228	increased anterior commissure size	http://purl.obolibrary.org/obo/UBERON_0000935	anterior commissure
 http://purl.obolibrary.org/obo/MP_0003808	increased atrioventricular cushion size	http://purl.obolibrary.org/obo/UBERON_0002062	endocardial cushion
@@ -185,7 +185,7 @@ http://purl.obolibrary.org/obo/MP_0002809	increased spinal cord size	http://purl
 http://purl.obolibrary.org/obo/MP_0008483	increased spleen germinal center size	http://purl.obolibrary.org/obo/UBERON_0005196	spleen germinal center
 http://purl.obolibrary.org/obo/MP_0012098	increased spongiotrophoblast size	http://purl.obolibrary.org/obo/UBERON_0004021	spongiotrophoblast layer
 http://purl.obolibrary.org/obo/MP_0020555	increased stria medullaris size	http://purl.obolibrary.org/obo/UBERON_0006086	stria medullaris
-http://purl.obolibrary.org/obo/MP_0012467	increased striatum area	http://purl.obolibrary.org/obo/UBERON_0002435	striatum
+http://purl.obolibrary.org/obo/MP_0012467	increased striatum size	http://purl.obolibrary.org/obo/UBERON_0002435	striatum
 http://purl.obolibrary.org/obo/MP_0020536	increased subiculum size	http://purl.obolibrary.org/obo/UBERON_0002191	subiculum
 http://purl.obolibrary.org/obo/MP_0009521	increased submandibular gland size	http://purl.obolibrary.org/obo/UBERON_0001736	submandibular gland
 http://purl.obolibrary.org/obo/MP_0020542	increased substantia nigra size	http://purl.obolibrary.org/obo/UBERON_0002038	substantia nigra

@@ -19,7 +19,6 @@ http://purl.obolibrary.org/obo/HP_0005013	Dysplastic distal radial epiphyses	htt
 http://purl.obolibrary.org/obo/HP_0008794	Dysplastic iliac wings	http://purl.obolibrary.org/obo/UBERON_0010746	iliac blade
 http://purl.obolibrary.org/obo/HP_0006446	Dysplastic patella	http://purl.obolibrary.org/obo/UBERON_0002446	patella
 http://purl.obolibrary.org/obo/HP_0005164	Dysplastic pulmonary valve	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
-http://purl.obolibrary.org/obo/HP_0006433	Dysplastic radii	http://purl.obolibrary.org/obo/UBERON_0001423	radius bone
 http://purl.obolibrary.org/obo/HP_0008455	Dysplastic sacrum	http://purl.obolibrary.org/obo/UBERON_0003690	fused sacrum
 http://purl.obolibrary.org/obo/HP_0000968	Ectodermal dysplasia	http://purl.obolibrary.org/obo/UBERON_0000924	ectoderm
 http://purl.obolibrary.org/obo/HP_0002656	Epiphyseal dysplasia	http://purl.obolibrary.org/obo/UBERON_0001437	epiphysis
@@ -30,9 +29,11 @@ http://purl.obolibrary.org/obo/HP_0002164	Nail dysplasia	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/HP_0001093	Optic nerve dysplasia	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/HP_0005232	Pancreatic dysplasia	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/HP_0011753	Posterior pituitary dysgenesis	http://purl.obolibrary.org/obo/UBERON_0002198	neurohypophysis
+http://purl.obolibrary.org/obo/HP_0006433	Radial dysplasia	http://purl.obolibrary.org/obo/UBERON_0001423	radius bone
 http://purl.obolibrary.org/obo/HP_0000110	Renal dysplasia	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
 http://purl.obolibrary.org/obo/HP_0002652	Skeletal dysplasia	http://purl.obolibrary.org/obo/UBERON_0004288	skeleton
 http://purl.obolibrary.org/obo/HP_0008423	Spinal dysplasia	http://purl.obolibrary.org/obo/UBERON_0001130	vertebral column
+http://purl.obolibrary.org/obo/HP_0008715	Testicular dysgenesis	http://purl.obolibrary.org/obo/UBERON_0000473	testis
 http://purl.obolibrary.org/obo/HP_0006644	Thoracic dysplasia	http://purl.obolibrary.org/obo/UBERON_0001443	chest
 http://purl.obolibrary.org/obo/HP_0008188	Thyroid dysgenesis	http://purl.obolibrary.org/obo/UBERON_0002046	thyroid gland
 http://purl.obolibrary.org/obo/HP_0100797	Toenail dysplasia	http://purl.obolibrary.org/obo/UBERON_0009567	nail of pedal digit

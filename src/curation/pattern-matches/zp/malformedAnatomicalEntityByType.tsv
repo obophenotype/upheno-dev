@@ -40,6 +40,7 @@ http://purl.obolibrary.org/obo/ZP_0010921	caudal fin wholly dorsalized, abnormal
 http://purl.obolibrary.org/obo/ZP_0021787	caudal fin wholly posterioralized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin	http://purl.obolibrary.org/obo/PATO_0000630	wholly posterioralized
 http://purl.obolibrary.org/obo/ZP_0004470	caudal vein malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0003863	caudal vein plexus malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus	http://purl.obolibrary.org/obo/PATO_0000646	malformed
+http://purl.obolibrary.org/obo/ZP_0130868	caudal vertebra malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000326	caudal vertebra	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0004167	central artery malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005020	central artery	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0001447	central canal malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000938	central canal	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0000578	central nervous system malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000012	central nervous system	http://purl.obolibrary.org/obo/PATO_0000646	malformed
@@ -141,7 +142,9 @@ http://purl.obolibrary.org/obo/ZP_0000879	mandibular muscle wholly dorsalized, a
 http://purl.obolibrary.org/obo/ZP_0000889	maxilla malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000270	maxilla	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0004685	median fin fold malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0002269	melanocyte malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte	http://purl.obolibrary.org/obo/PATO_0000646	malformed
+http://purl.obolibrary.org/obo/ZP_0130955	melanophore stripe dorsalized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001463	melanophore stripe	http://purl.obolibrary.org/obo/PATO_0030001	dorsalized
 http://purl.obolibrary.org/obo/ZP_0011600	melanophore stripe malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001463	melanophore stripe	http://purl.obolibrary.org/obo/PATO_0000646	malformed
+http://purl.obolibrary.org/obo/ZP_0130817	melanophore stripe ventralized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001463	melanophore stripe	http://purl.obolibrary.org/obo/PATO_0030003	ventralized
 http://purl.obolibrary.org/obo/ZP_0015514	mesencephalic vein malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005092	mesencephalic vein	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0015140	mesoderm malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000041	mesoderm	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0000035	midbrain hindbrain boundary malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary	http://purl.obolibrary.org/obo/PATO_0000646	malformed
@@ -168,6 +171,7 @@ http://purl.obolibrary.org/obo/ZP_0003559	neurocranium malformed, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0010140	neuroectoderm malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001120	neuroectoderm	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0011184	neuroectoderm wholly dorsalized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001120	neuroectoderm	http://purl.obolibrary.org/obo/PATO_0000620	wholly dorsalized
 http://purl.obolibrary.org/obo/ZP_0105738	neuromast malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000243	neuromast	http://purl.obolibrary.org/obo/PATO_0000646	malformed
+http://purl.obolibrary.org/obo/ZP_0130869	non-Weberian precaudal vertebra malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001582	non-Weberian precaudal vertebra	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0102146	notochord inner cell malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005746	notochord inner cell	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0003356	notochord malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0011046	notochord posterior region malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001670	notochord posterior region	http://purl.obolibrary.org/obo/PATO_0000646	malformed
@@ -203,6 +207,7 @@ http://purl.obolibrary.org/obo/ZP_0002853	parapophysis/rib malformed, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0010765	parasphenoid malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000561	parasphenoid	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0010764	parietal bone malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000486	parietal bone	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0003859	pectoral fin cartilage malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000257	pectoral fin cartilage	http://purl.obolibrary.org/obo/PATO_0000646	malformed
+http://purl.obolibrary.org/obo/ZP_0131189	pectoral fin endoskeletal disc malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001456	pectoral fin endoskeletal disc	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0003538	pectoral fin malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0015735	pelvic fin lepidotrichium malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001552	pelvic fin lepidotrichium	http://purl.obolibrary.org/obo/PATO_0000646	malformed
 http://purl.obolibrary.org/obo/ZP_0104435	pelvic fin skeleton malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001387	pelvic fin skeleton	http://purl.obolibrary.org/obo/PATO_0000646	malformed

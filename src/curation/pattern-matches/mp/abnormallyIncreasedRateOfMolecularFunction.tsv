@@ -1,6 +1,6 @@
 defined_class	defined_class_label	molecular_function	molecular_function_label
 http://purl.obolibrary.org/obo/MP_0012645	increased 5-aminolevulinate synthase activity	http://purl.obolibrary.org/obo/GO_0003870	5-aminolevulinate synthase activity
-http://purl.obolibrary.org/obo/MP_0020446	increased NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase activity
+http://purl.obolibrary.org/obo/MP_0020446	increased NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase (H(2)O(2)-forming activity
 http://purl.obolibrary.org/obo/MP_0012625	increased acetylcholinesterase activity	http://purl.obolibrary.org/obo/GO_0003990	acetylcholinesterase activity
 http://purl.obolibrary.org/obo/MP_0011584	increased alkaline phosphatase activity	http://purl.obolibrary.org/obo/GO_0004035	alkaline phosphatase activity
 http://purl.obolibrary.org/obo/MP_0011593	increased catalase activity	http://purl.obolibrary.org/obo/GO_0004096	catalase activity

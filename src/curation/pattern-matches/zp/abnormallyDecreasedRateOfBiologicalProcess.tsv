@@ -16,6 +16,7 @@ http://purl.obolibrary.org/obo/ZP_0006618	cardiac conduction decreased rate, abn
 http://purl.obolibrary.org/obo/ZP_0101388	cardiac muscle cell membrane repolarization decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0099622	cardiac muscle cell membrane repolarization
 http://purl.obolibrary.org/obo/ZP_0012214	cardiac muscle cell proliferation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0060038	cardiac muscle cell proliferation
 http://purl.obolibrary.org/obo/ZP_0008586	cardiac muscle contraction decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0060048	cardiac muscle contraction
+http://purl.obolibrary.org/obo/ZP_0131216	cardiac muscle tissue regeneration decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0061026	cardiac muscle tissue regeneration
 http://purl.obolibrary.org/obo/ZP_0006613	cell cycle decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007049	cell cycle
 http://purl.obolibrary.org/obo/ZP_0017153	cell death decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0008219	cell death
 http://purl.obolibrary.org/obo/ZP_0010496	cell division decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0051301	cell division
@@ -27,6 +28,7 @@ http://purl.obolibrary.org/obo/ZP_0003175	cell proliferation in midbrain decreas
 http://purl.obolibrary.org/obo/ZP_0009130	cell proliferation involved in heart morphogenesis decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0061323	cell proliferation involved in heart morphogenesis
 http://purl.obolibrary.org/obo/ZP_0006889	cilium or flagellum-dependent cell motility decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0001539	cilium or flagellum-dependent cell motility
 http://purl.obolibrary.org/obo/ZP_0004658	convergent extension decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0060026	convergent extension
+http://purl.obolibrary.org/obo/ZP_0106407	defense response to bacterium decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0042742	defense response to bacterium
 http://purl.obolibrary.org/obo/ZP_0005798	developmental growth decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/ZP_0014134	developmental process decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0032502	developmental process
 http://purl.obolibrary.org/obo/ZP_0102933	digestion decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007586	digestion
@@ -37,8 +39,9 @@ http://purl.obolibrary.org/obo/ZP_0005705	endothelial cell proliferation decreas
 http://purl.obolibrary.org/obo/ZP_0019429	epiboly decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0090504	epiboly
 http://purl.obolibrary.org/obo/ZP_0006591	epiboly involved in gastrulation with mouth forming second decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0055113	epiboly involved in gastrulation with mouth forming second
 http://purl.obolibrary.org/obo/ZP_0007638	epithelial cell proliferation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0050673	epithelial cell proliferation
-http://purl.obolibrary.org/obo/ZP_0002922	epithelial cilium movement decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0003351	epithelial cilium movement involved in extracellular fluid movement
+http://purl.obolibrary.org/obo/ZP_0002922	epithelial cilium movement involved in extracellular fluid movement decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0003351	epithelial cilium movement involved in extracellular fluid movement
 http://purl.obolibrary.org/obo/ZP_0009595	fast-twitch skeletal muscle fiber contraction decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0031443	fast-twitch skeletal muscle fiber contraction
+http://purl.obolibrary.org/obo/ZP_0106154	fertilization decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0009566	fertilization
 http://purl.obolibrary.org/obo/ZP_0014092	fin regeneration decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0031101	fin regeneration
 http://purl.obolibrary.org/obo/ZP_0006589	gastrulation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/ZP_0004132	glomerular filtration decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
@@ -51,6 +54,7 @@ http://purl.obolibrary.org/obo/ZP_0017233	hatching decreased rate, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0000230	heart contraction decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0060047	heart contraction
 http://purl.obolibrary.org/obo/ZP_0007157	hematopoietic stem cell proliferation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0071425	hematopoietic stem cell proliferation
 http://purl.obolibrary.org/obo/ZP_0020698	hepatocyte proliferation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0072574	hepatocyte proliferation
+http://purl.obolibrary.org/obo/ZP_0106410	inflammatory response decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
 http://purl.obolibrary.org/obo/ZP_0007941	intramembranous ossification decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0001957	intramembranous ossification
 http://purl.obolibrary.org/obo/ZP_0001485	larval locomotory behavior decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0008345	larval locomotory behavior
 http://purl.obolibrary.org/obo/ZP_0015497	leukocyte migration decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0050900	leukocyte migration
@@ -76,6 +80,7 @@ http://purl.obolibrary.org/obo/ZP_0004401	neural crest cell migration decreased 
 http://purl.obolibrary.org/obo/ZP_0020060	neural crest cell migration involved in autonomic nervous system development decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_1901166	neural crest cell migration involved in autonomic nervous system development
 http://purl.obolibrary.org/obo/ZP_0015207	neurogenesis decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0022008	neurogenesis
 http://purl.obolibrary.org/obo/ZP_0003205	neuron differentiation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0030182	neuron differentiation
+http://purl.obolibrary.org/obo/ZP_0106411	neutrophil chemotaxis decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0030593	neutrophil chemotaxis
 http://purl.obolibrary.org/obo/ZP_0002980	optokinetic behavior decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007634	optokinetic behavior
 http://purl.obolibrary.org/obo/ZP_0101380	oxidative phosphorylation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006119	oxidative phosphorylation
 http://purl.obolibrary.org/obo/ZP_0008984	oxygen metabolic process decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0072592	oxygen metabolic process
@@ -91,4 +96,3 @@ http://purl.obolibrary.org/obo/ZP_0006614	swimming decreased rate, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0001483	thigmotaxis decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0001966	thigmotaxis
 http://purl.obolibrary.org/obo/ZP_0003924	urea transport decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0015840	urea transport
 http://purl.obolibrary.org/obo/ZP_0006156	visual behavior decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007632	visual behavior
-http://purl.obolibrary.org/obo/ZP_0009440	voltage-gated sodium channel activity decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0005248	voltage-gated sodium channel activity

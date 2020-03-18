@@ -6,6 +6,10 @@ http://purl.obolibrary.org/obo/ZP_0010584	anal fin decreased length, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0015732	anal fin lepidotrichium decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001421	anal fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0007815	angiogenic sprout decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005604	angiogenic sprout
 http://purl.obolibrary.org/obo/ZP_0006653	anterior neural plate decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0007016	anterior neural plate
+http://purl.obolibrary.org/obo/ZP_0106338	aortic arch 3 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005007	aortic arch 3
+http://purl.obolibrary.org/obo/ZP_0106340	aortic arch 4 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005008	aortic arch 4
+http://purl.obolibrary.org/obo/ZP_0106342	aortic arch 5 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005009	aortic arch 5
+http://purl.obolibrary.org/obo/ZP_0106344	aortic arch 6 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005016	aortic arch 6
 http://purl.obolibrary.org/obo/ZP_0006049	atrium decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
 http://purl.obolibrary.org/obo/ZP_0002536	axial chorda mesoderm decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000091	axial chorda mesoderm
 http://purl.obolibrary.org/obo/ZP_0010476	axial hypoblast decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001378	axial hypoblast
@@ -39,6 +43,7 @@ http://purl.obolibrary.org/obo/ZP_0000874	cleithrum decreased length, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0006852	common cardinal vein decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000186	common cardinal vein
 http://purl.obolibrary.org/obo/ZP_0010015	cranial cartilage decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001458	cranial cartilage
 http://purl.obolibrary.org/obo/ZP_0004283	cranial nerve II decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000435	cranial nerve II
+http://purl.obolibrary.org/obo/ZP_0106633	cranial vault decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault
 http://purl.obolibrary.org/obo/ZP_0015114	cranium decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
 http://purl.obolibrary.org/obo/ZP_0103391	dentary decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000191	dentary
 http://purl.obolibrary.org/obo/ZP_0010585	dorsal fin decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001173	dorsal fin
@@ -104,6 +109,8 @@ http://purl.obolibrary.org/obo/ZP_0001315	palatoquadrate cartilage decreased len
 http://purl.obolibrary.org/obo/ZP_0005128	parasphenoid decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000561	parasphenoid
 http://purl.obolibrary.org/obo/ZP_0002554	paraxial mesoderm decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000255	paraxial mesoderm
 http://purl.obolibrary.org/obo/ZP_0001050	pectoral fin decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
+http://purl.obolibrary.org/obo/ZP_0131039	pectoral fin fold decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005317	pectoral fin fold
+http://purl.obolibrary.org/obo/ZP_0131037	pectoral fin lepidotrichium decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001551	pectoral fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0015734	pelvic fin lepidotrichium decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001552	pelvic fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0000301	peripheral neuron decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009063	peripheral neuron
 http://purl.obolibrary.org/obo/ZP_0010722	pharyngeal arch 1 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001612	pharyngeal arch 1
@@ -145,6 +152,7 @@ http://purl.obolibrary.org/obo/ZP_0017326	retinal rod cell decreased length, abn
 http://purl.obolibrary.org/obo/ZP_0018605	rhombomere 3 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000948	rhombomere 3
 http://purl.obolibrary.org/obo/ZP_0018606	rhombomere 4 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001032	rhombomere 4
 http://purl.obolibrary.org/obo/ZP_0006547	segmental plate decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000279	segmental plate
+http://purl.obolibrary.org/obo/ZP_0131033	skeletal muscle cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
 http://purl.obolibrary.org/obo/ZP_0001838	slow muscle cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
 http://purl.obolibrary.org/obo/ZP_0001822	somite decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0002078	spinal cord decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
@@ -166,5 +174,6 @@ http://purl.obolibrary.org/obo/ZP_0018993	vertebra 7 decreased length, abnormal	
 http://purl.obolibrary.org/obo/ZP_0018986	vertebra 8 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005350	vertebra 8
 http://purl.obolibrary.org/obo/ZP_0018994	vertebra 9 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005351	vertebra 9
 http://purl.obolibrary.org/obo/ZP_0017013	vertebra decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra
+http://purl.obolibrary.org/obo/ZP_0105931	vertebral column decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column
 http://purl.obolibrary.org/obo/ZP_0008531	vertical myoseptum decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000610	vertical myoseptum
 http://purl.obolibrary.org/obo/ZP_0000473	whole organism decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism

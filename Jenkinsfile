@@ -49,7 +49,7 @@ pipeline {
 		// possible.
 		MAKECMD = 'make'
 		// Control the ROBOT environment.
-		ROBOT_JAVA_ARGS = '-Xmx120G'
+		ROBOT_JAVA_ARGS = '-Xmx150G'
 	}
 	options{
 		//timestamps()
@@ -77,6 +77,10 @@ pipeline {
 				sh 'echo "$BRANCH_NAME"'
 				sh 'cat env.txt'
 				sh 'cat branch.txt'
+				sh 'pwd'
+				sh 'ls -l /var/lib/jenkins/workspace/upheno2@2'
+				// sh 'chown -R jenkins:jenkins /var/lib/jenkins/workspace/upheno2@2/src/curation'
+				sh 'ls -l /var/lib/jenkins/workspace/upheno2@2/src/curation'
 				sh 'echo $START_DAY > dow.txt'
 				sh 'echo "$START_DAY"'
 				archiveArtifacts artifacts: "env.txt"
@@ -109,23 +113,23 @@ pipeline {
 					// Default namespace.
 					// sh 'OBO=http://purl.obolibrary.org/obo'
 
-				// dir('./src/scripts') {
-					// retry(1){
-					// 	sh 'pwd'
-					// 	sh 'ls'
-					// 	sh 'ls ../curation'
+					dir('./src/scripts') {
+						retry(1){
+							sh 'pwd'
+							sh 'ls'
+							sh 'ls ../curation'
 					// 	//sh 'ls ../curation/tmp'
 					// 	//sh 'ls /work'
-					// 	sh 'env > env.txt'
-					// 	sh 'cat env.txt'
-					// 	//sh 'sh upheno_pipeline_jenkins.sh'
-					// }
-				// }
+							sh 'env > env.txt'
+							sh 'cat env.txt'
+							sh 'sh upheno_pipeline_jenkins.sh'
+						}
+					}
 				dir('./src/ontology') {
 					retry(1){
 						sh 'ls ../curation/upheno-release'
 						sh 'ls ../curation/upheno-release/all'
-						sh 'make sim -B'
+						//sh 'make sim -B'
 					}
 				}
 

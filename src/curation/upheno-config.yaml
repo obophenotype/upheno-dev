@@ -13,7 +13,7 @@ overwrite_matches: False
 skip_pattern_download: True
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: False
+overwrite_ontologies: True
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
@@ -154,8 +154,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
   - id: fbbt-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl
-  - id: zfa-cl
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-zfa.owl
   - id: xao-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-xao.owl
   - id: wbbt-cl
@@ -172,7 +170,7 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/mp/mp-base.owl
     taxon: http://purl.obolibrary.org/obo/UPHENO_MP
     taxon_label: MPO
-    modifier: PATO:0000460
+    modifier: False
     root: http://purl.obolibrary.org/obo/MP_0000001
     prefix_iri: http://purl.obolibrary.org/obo/MP_
     class_hierarchy: asserted
@@ -230,7 +228,7 @@ sources:
       - caro-cl
       - caro
   - id: planp
-    mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
+    mirror_from: http://purl.obolibrary.org/obo/planp/planp.owl
     root: http://purl.obolibrary.org/obo/PLANP_00000000
     prefix_iri: http://purl.obolibrary.org/obo/PLANP_
     taxon: http://purl.obolibrary.org/obo/UPHENO_PLANP
@@ -264,16 +262,16 @@ sources:
       - bspo-uberon
       - caro-uberon
       - caro
-      - zfa-cl
       - bspo-cl
       - caro-cl
+      - cl
   - id: dpo
     mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
     root: http://purl.obolibrary.org/obo/FBcv_0001347
     prefix_iri: http://purl.obolibrary.org/obo/FBcv_
     taxon: http://purl.obolibrary.org/obo/UPHENO_DPO
     taxon_label: DPO
-    modifier: PATO:0000460
+    modifier: False
     dependencies:
       - fbdv
       - fbbt
@@ -289,7 +287,7 @@ sources:
     prefix_iri: http://purl.obolibrary.org/obo/FYPO_
     taxon: http://purl.obolibrary.org/obo/UPHENO_FYPO
     taxon_label: FYPO
-    modifier: PATO:0000460
+    modifier: False
     dependencies:
       - chebi
       - cl
@@ -310,7 +308,7 @@ sources:
     prefix_iri: http://purl.obolibrary.org/obo/PHIPO_
     taxon: http://purl.obolibrary.org/obo/UPHENO_PHIPO
     taxon_label: PHIPO
-    modifier: PATO:0000460
+    modifier: False
     dependencies:
       - ido
       - chebi
@@ -330,7 +328,6 @@ upheno_profiles:
     species_modules:
     - mp
     - hp
-    - zp
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns

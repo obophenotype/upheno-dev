@@ -7,7 +7,6 @@ contributors:
   
 classes:
   quality: PATO:0000001
-  modifier: PATO:0000001
   bearer: owl:Thing
 
 relations: 
@@ -16,14 +15,14 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  modifier: "'modifier'"
+  bearer: "'bearer'"
 
 name:
-  text: "Phenotype, %s"
+  text: "phenotype, %s"
   vars:
-   - modifier
+   - bearer
 
 equivalentTo:
-  text: "'has_part' some ('quality' and ('inheres_in_part_of' some 'bearer') and ('has_modifier' some %s))"
+  text: "'has_part' some ('quality' and ('inheres_in_part_of' some %s))"
   vars:
-   - modifier
+   - bearer

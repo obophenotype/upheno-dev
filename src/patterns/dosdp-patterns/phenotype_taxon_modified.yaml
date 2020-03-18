@@ -1,0 +1,37 @@
+pattern_name: phenotype_taxon_modified
+pattern_iri: http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml
+description: "The top level, taxon-restricted phenotype."
+
+contributors:
+  - https://orcid.org/0000-0002-7356-1779
+  
+classes:
+  quality: PATO:0000001
+  taxon: owl:Thing
+  bearer: owl:Thing
+  modifier: PATO:0000001
+
+relations: 
+  inheres_in_part_of: RO:0002314
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  has_upheno_source: UPHENO:9000005
+
+vars:
+  taxon: "'taxon'"
+  modifier: "'modifier'"
+  bearer: "'bearer'"
+ 
+name:
+  text: "%s phenotype, %s, %s"
+  vars:
+   - bearer
+   - taxon
+   - modifier
+
+equivalentTo:
+  text: "'has_part' some ('quality' and ('inheres_in_part_of' some %s) and ('has_upheno_source' some %s) and ('has_modifier' some %s))"
+  vars:
+   - bearer
+   - taxon
+   - modifier

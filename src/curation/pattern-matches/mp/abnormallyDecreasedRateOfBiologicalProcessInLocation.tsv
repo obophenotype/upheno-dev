@@ -1,10 +1,6 @@
 defined_class	defined_class_label	biological_process	biological_process_label	location	location_label
 http://purl.obolibrary.org/obo/MP_0030930	decreased digit pigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0015249	digit skin
 http://purl.obolibrary.org/obo/MP_0011279	decreased ear pigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0001459	skin of external ear
-http://purl.obolibrary.org/obo/MP_0012395	decreased erythrocyte calcium-activated potassium channel activity	http://purl.obolibrary.org/obo/GO_0015269	calcium-activated potassium channel activity	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
-http://purl.obolibrary.org/obo/MP_0012386	decreased erythrocyte potassium:chloride symporter activity	http://purl.obolibrary.org/obo/GO_0015379	potassium:chloride symporter activity	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
-http://purl.obolibrary.org/obo/MP_0012389	decreased erythrocyte sodium:hydrogen antiporter activity	http://purl.obolibrary.org/obo/GO_0015385	sodium:proton antiporter activity	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
-http://purl.obolibrary.org/obo/MP_0012392	decreased erythrocyte sodium:potassium-exchanging ATPase activity	http://purl.obolibrary.org/obo/GO_0005391	sodium:potassium-exchanging ATPase activity	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0005172	decreased eye pigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0000019	camera-type eye
 http://purl.obolibrary.org/obo/MP_0011568	decreased foot pigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0001513	skin of pes
 http://purl.obolibrary.org/obo/MP_0030054	decreased forehead pigmentation	http://purl.obolibrary.org/obo/GO_0043473	pigmentation	http://purl.obolibrary.org/obo/UBERON_0016475	skin of forehead
