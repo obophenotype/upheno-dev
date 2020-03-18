@@ -1,4 +1,7 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0105808	cardiac muscle cell protruding out of compact layer of ventricle, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0005062	compact layer of ventricle
+http://purl.obolibrary.org/obo/ZP_0107229	cardiac muscle cell protruding out of myocardium, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium
+http://purl.obolibrary.org/obo/ZP_0131075	epithelial cell protruding out of epidermal superficial stratum, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001179	epidermal superficial stratum
 http://purl.obolibrary.org/obo/ZP_0102469	epithelial cell protruding out of regenerating fin, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
 http://purl.obolibrary.org/obo/ZP_0014911	hair cell anterior macula protruding out of macula utricle, abnormal	http://purl.obolibrary.org/obo/ZFA_0000678	hair cell anterior macula	http://purl.obolibrary.org/obo/ZFA_0000030	macula utricle
 http://purl.obolibrary.org/obo/ZP_0002394	lens protruding out of eye, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens	http://purl.obolibrary.org/obo/ZFA_0000107	eye

@@ -1,9 +1,12 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/ZP_0010229	3'-UTR-mediated mRNA stabilization decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070935	3'-UTR-mediated mRNA stabilization
+http://purl.obolibrary.org/obo/ZP_0107024	B cell activation involved in immune response decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002312	B cell activation involved in immune response
 http://purl.obolibrary.org/obo/ZP_0101214	BMP signaling pathway decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030509	BMP signaling pathway
 http://purl.obolibrary.org/obo/ZP_0006121	DNA methylation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006306	DNA methylation
 http://purl.obolibrary.org/obo/ZP_0005199	DNA methylation on cytosine decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0032776	DNA methylation on cytosine
 http://purl.obolibrary.org/obo/ZP_0006122	DNA methylation on cytosine within a CG sequence decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0010424	DNA methylation on cytosine within a CG sequence
+http://purl.obolibrary.org/obo/ZP_0131124	G1 to G0 transition involved in cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070315	G1 to G0 transition involved in cell differentiation
+http://purl.obolibrary.org/obo/ZP_0131059	JNK cascade decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007254	JNK cascade
 http://purl.obolibrary.org/obo/ZP_0020273	Notch signaling involved in heart development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061314	Notch signaling involved in heart development
 http://purl.obolibrary.org/obo/ZP_0011806	Notch signaling pathway decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007219	Notch signaling pathway
 http://purl.obolibrary.org/obo/ZP_0104642	RNA 3' uridylation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0071076	RNA 3' uridylation
@@ -24,9 +27,13 @@ http://purl.obolibrary.org/obo/ZP_0004939	apoptotic process decreased occurrence
 http://purl.obolibrary.org/obo/ZP_0006043	atrial cardiac muscle cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0055011	atrial cardiac muscle cell differentiation
 http://purl.obolibrary.org/obo/ZP_0100650	atrioventricular canal morphogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1905222	atrioventricular canal morphogenesis
 http://purl.obolibrary.org/obo/ZP_0021161	atrioventricular valve development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003171	atrioventricular valve development
+http://purl.obolibrary.org/obo/ZP_0130690	atrioventricular valve morphogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003181	atrioventricular valve morphogenesis
+http://purl.obolibrary.org/obo/ZP_0106385	auditory behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031223	auditory behavior
 http://purl.obolibrary.org/obo/ZP_0102181	autophagy decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006914	autophagy
 http://purl.obolibrary.org/obo/ZP_0103174	axis elongation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003401	axis elongation
+http://purl.obolibrary.org/obo/ZP_0131230	axon ensheathment decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008366	axon ensheathment
 http://purl.obolibrary.org/obo/ZP_0006197	axon extension decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048675	axon extension
+http://purl.obolibrary.org/obo/ZP_0105927	axon regeneration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031103	axon regeneration
 http://purl.obolibrary.org/obo/ZP_0001726	axonal fasciculation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007413	axonal fasciculation
 http://purl.obolibrary.org/obo/ZP_0009218	axonal transport of mitochondrion decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0019896	axonal transport of mitochondrion
 http://purl.obolibrary.org/obo/ZP_0017640	behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007610	behavior
@@ -39,6 +46,7 @@ http://purl.obolibrary.org/obo/ZP_0002729	blood vessel remodeling decreased occu
 http://purl.obolibrary.org/obo/ZP_0018672	bone mineralization decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030282	bone mineralization
 http://purl.obolibrary.org/obo/ZP_0017450	camera-type eye photoreceptor cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060219	camera-type eye photoreceptor cell differentiation
 http://purl.obolibrary.org/obo/ZP_0001123	canonical Wnt signaling pathway decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
+http://purl.obolibrary.org/obo/ZP_0106882	cardiac jelly development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1905072	cardiac jelly development
 http://purl.obolibrary.org/obo/ZP_0003737	cardiac muscle cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0055007	cardiac muscle cell differentiation
 http://purl.obolibrary.org/obo/ZP_0010620	cardiac muscle cell proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060038	cardiac muscle cell proliferation
 http://purl.obolibrary.org/obo/ZP_0013883	cardiac muscle progenitor cell migration to the midline involved in heart field formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003261	cardiac muscle progenitor cell migration to the midline involved in heart field formation
@@ -67,15 +75,21 @@ http://purl.obolibrary.org/obo/ZP_0014218	chloride transport decreased occurrenc
 http://purl.obolibrary.org/obo/ZP_0004477	chondrocyte differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002062	chondrocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0004478	chondrocyte proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035988	chondrocyte proliferation
 http://purl.obolibrary.org/obo/ZP_0002318	chondroitin sulfate proteoglycan biosynthetic process decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050650	chondroitin sulfate proteoglycan biosynthetic process
+http://purl.obolibrary.org/obo/ZP_0107281	chorion micropyle formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0046844	chorion micropyle formation
+http://purl.obolibrary.org/obo/ZP_0106927	chromosome condensation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030261	chromosome condensation
 http://purl.obolibrary.org/obo/ZP_0015350	circadian sleep/wake cycle, wakefulness decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042746	circadian sleep/wake cycle, wakefulness
+http://purl.obolibrary.org/obo/ZP_0106734	cleavage furrow formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0036089	cleavage furrow formation
+http://purl.obolibrary.org/obo/ZP_0106423	cleavage furrow ingression decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0036090	cleavage furrow ingression
 http://purl.obolibrary.org/obo/ZP_0103635	closure of optic fissure decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061386	closure of optic fissure
 http://purl.obolibrary.org/obo/ZP_0009546	collateral sprouting decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048668	collateral sprouting
 http://purl.obolibrary.org/obo/ZP_0103748	convergent extension involved in axis elongation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060028	convergent extension involved in axis elongation
 http://purl.obolibrary.org/obo/ZP_0101373	convergent extension involved in gastrulation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060027	convergent extension involved in gastrulation
+http://purl.obolibrary.org/obo/ZP_0130826	cortical actin cytoskeleton organization decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030866	cortical actin cytoskeleton organization
+http://purl.obolibrary.org/obo/ZP_0106739	cortical granule exocytosis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060471	cortical granule exocytosis
 http://purl.obolibrary.org/obo/ZP_0021503	cranial skeletal system development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1904888	cranial skeletal system development
-http://purl.obolibrary.org/obo/ZP_0003948	cytochrome-c oxidase activity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
 http://purl.obolibrary.org/obo/ZP_0022957	cytoskeletal rearrangement involved in phagocytosis, engulfment decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060097	cytoskeletal rearrangement involved in phagocytosis, engulfment
 http://purl.obolibrary.org/obo/ZP_0013950	defense response to bacterium decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042742	defense response to bacterium
+http://purl.obolibrary.org/obo/ZP_0106766	definitive erythrocyte differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060318	definitive erythrocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0018754	definitive hemopoiesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060216	definitive hemopoiesis
 http://purl.obolibrary.org/obo/ZP_0001458	detection of light stimulus involved in sensory perception decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050962	detection of light stimulus involved in sensory perception
 http://purl.obolibrary.org/obo/ZP_0021141	detection of mechanical stimulus involved in sensory perception of sound decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050910	detection of mechanical stimulus involved in sensory perception of sound
@@ -87,6 +101,7 @@ http://purl.obolibrary.org/obo/ZP_0100247	determination of liver left/right asym
 http://purl.obolibrary.org/obo/ZP_0018674	determination of pancreatic left/right asymmetry decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035469	determination of pancreatic left/right asymmetry
 http://purl.obolibrary.org/obo/ZP_0019433	digestive tract development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048565	digestive tract development
 http://purl.obolibrary.org/obo/ZP_0010504	dopamine biosynthetic process from tyrosine decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006585	dopamine biosynthetic process from tyrosine
+http://purl.obolibrary.org/obo/ZP_0106928	dorsal convergence decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060030	dorsal convergence
 http://purl.obolibrary.org/obo/ZP_0018760	dorsal/ventral pattern formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009953	dorsal/ventral pattern formation
 http://purl.obolibrary.org/obo/ZP_0003517	early endosome to recycling endosome transport decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061502	early endosome to recycling endosome transport
 http://purl.obolibrary.org/obo/ZP_0001942	ectodermal placode development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0071696	ectodermal placode development
@@ -95,15 +110,21 @@ http://purl.obolibrary.org/obo/ZP_0020653	embryonic heart tube formation decreas
 http://purl.obolibrary.org/obo/ZP_0018803	embryonic heart tube left/right pattern formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060971	embryonic heart tube left/right pattern formation
 http://purl.obolibrary.org/obo/ZP_0019431	embryonic liver development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1990402	embryonic liver development
 http://purl.obolibrary.org/obo/ZP_0021502	embryonic viscerocranium morphogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048703	embryonic viscerocranium morphogenesis
+http://purl.obolibrary.org/obo/ZP_0106881	endocardial cushion development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003197	endocardial cushion development
+http://purl.obolibrary.org/obo/ZP_0106521	endocardial cushion formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003272	endocardial cushion formation
 http://purl.obolibrary.org/obo/ZP_0102769	endocardial progenitor cell migration to the midline involved in heart field formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003262	endocardial progenitor cell migration to the midline involved in heart field formation
+http://purl.obolibrary.org/obo/ZP_0106531	endocardium formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060214	endocardium formation
+http://purl.obolibrary.org/obo/ZP_0106530	endocardium morphogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003160	endocardium morphogenesis
 http://purl.obolibrary.org/obo/ZP_0007942	endochondral ossification decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001958	endochondral ossification
 http://purl.obolibrary.org/obo/ZP_0019430	endoderm development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007492	endoderm development
 http://purl.obolibrary.org/obo/ZP_0100913	endoderm formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001706	endoderm formation
 http://purl.obolibrary.org/obo/ZP_0013962	endodermal cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035987	endodermal cell differentiation
 http://purl.obolibrary.org/obo/ZP_0007274	endothelial cell proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001935	endothelial cell proliferation
 http://purl.obolibrary.org/obo/ZP_0022078	endothelial to hematopoietic transition decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0098508	endothelial to hematopoietic transition
+http://purl.obolibrary.org/obo/ZP_0105681	enteric nervous system development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048484	enteric nervous system development
 http://purl.obolibrary.org/obo/ZP_0013887	enterocyte differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1903703	enterocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0001326	epiboly decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0090504	epiboly
+http://purl.obolibrary.org/obo/ZP_0106854	epiboly involved in gastrulation with mouth forming second decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0055113	epiboly involved in gastrulation with mouth forming second
 http://purl.obolibrary.org/obo/ZP_0002814	epithelial cell proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050673	epithelial cell proliferation
 http://purl.obolibrary.org/obo/ZP_0003651	erythrocyte differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030218	erythrocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0020623	erythrocyte maturation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation
@@ -122,6 +143,7 @@ http://purl.obolibrary.org/obo/ZP_0007383	fin regeneration decreased occurrence,
 http://purl.obolibrary.org/obo/ZP_0001322	gastrulation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/ZP_0104142	gene silencing by miRNA decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035195	gene silencing by miRNA
 http://purl.obolibrary.org/obo/ZP_0101911	germ cell migration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008354	germ cell migration
+http://purl.obolibrary.org/obo/ZP_0106155	germ cell proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
 http://purl.obolibrary.org/obo/ZP_0008934	glial cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0010001	glial cell differentiation
 http://purl.obolibrary.org/obo/ZP_0102972	glomerular filtration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
 http://purl.obolibrary.org/obo/ZP_0017872	glomerular visceral epithelial cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072112	glomerular visceral epithelial cell differentiation
@@ -130,6 +152,7 @@ http://purl.obolibrary.org/obo/ZP_0019713	gonadotrophin-releasing hormone neuron
 http://purl.obolibrary.org/obo/ZP_0000545	granulocyte differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030851	granulocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0006132	granuloma formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002432	granuloma formation
 http://purl.obolibrary.org/obo/ZP_0003058	growth decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0040007	growth
+http://purl.obolibrary.org/obo/ZP_0105888	growth of symbiont in host decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0044117	growth of symbiont in host
 http://purl.obolibrary.org/obo/ZP_0007574	hatching decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035188	hatching
 http://purl.obolibrary.org/obo/ZP_0003572	heart contraction decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060047	heart contraction
 http://purl.obolibrary.org/obo/ZP_0019293	heart jogging decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003146	heart jogging
@@ -156,6 +179,7 @@ http://purl.obolibrary.org/obo/ZP_0104637	involuntary skeletal muscle contractio
 http://purl.obolibrary.org/obo/ZP_0011691	iridophore differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050935	iridophore differentiation
 http://purl.obolibrary.org/obo/ZP_0019621	iron ion homeostasis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0055072	iron ion homeostasis
 http://purl.obolibrary.org/obo/ZP_0000833	larval locomotory behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008345	larval locomotory behavior
+http://purl.obolibrary.org/obo/ZP_0130978	late endosome to lysosome transport decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1902774	late endosome to lysosome transport
 http://purl.obolibrary.org/obo/ZP_0021781	learning decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007612	learning
 http://purl.obolibrary.org/obo/ZP_0021908	learning or memory decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007611	learning or memory
 http://purl.obolibrary.org/obo/ZP_0103918	left/right pattern formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060972	left/right pattern formation
@@ -166,7 +190,11 @@ http://purl.obolibrary.org/obo/ZP_0002458	locomotion decreased occurrence, abnor
 http://purl.obolibrary.org/obo/ZP_0016910	locomotion involved in locomotory behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031987	locomotion involved in locomotory behavior
 http://purl.obolibrary.org/obo/ZP_0014488	locomotor rhythm decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0045475	locomotor rhythm
 http://purl.obolibrary.org/obo/ZP_0004383	locomotory behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007626	locomotory behavior
+http://purl.obolibrary.org/obo/ZP_0105865	locomotory exploration behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035641	locomotory exploration behavior
+http://purl.obolibrary.org/obo/ZP_0107250	lymph vessel development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001945	lymph vessel development
 http://purl.obolibrary.org/obo/ZP_0007395	lymphangiogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001946	lymphangiogenesis
+http://purl.obolibrary.org/obo/ZP_0130881	lymphoid lineage cell migration into thymus decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0097535	lymphoid lineage cell migration into thymus
+http://purl.obolibrary.org/obo/ZP_0131061	lymphoid progenitor cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002320	lymphoid progenitor cell differentiation
 http://purl.obolibrary.org/obo/ZP_0000313	mRNA cis splicing, via spliceosome decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0045292	mRNA cis splicing, via spliceosome
 http://purl.obolibrary.org/obo/ZP_0020490	mRNA destabilization decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061157	mRNA destabilization
 http://purl.obolibrary.org/obo/ZP_0019961	mRNA processing decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006397	mRNA processing
@@ -177,6 +205,7 @@ http://purl.obolibrary.org/obo/ZP_0020336	male courtship behavior decreased occu
 http://purl.obolibrary.org/obo/ZP_0020334	male mating behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060179	male mating behavior
 http://purl.obolibrary.org/obo/ZP_0101725	male sex determination decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030238	male sex determination
 http://purl.obolibrary.org/obo/ZP_0016908	mechanosensory behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007638	mechanosensory behavior
+http://purl.obolibrary.org/obo/ZP_0106857	melanin biosynthetic process decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042438	melanin biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0015771	melanocyte migration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0097324	melanocyte migration
 http://purl.obolibrary.org/obo/ZP_0021782	memory decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007613	memory
 http://purl.obolibrary.org/obo/ZP_0100914	mesoderm formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001707	mesoderm formation
@@ -193,6 +222,7 @@ http://purl.obolibrary.org/obo/ZP_0102527	mitotic centrosome separation decrease
 http://purl.obolibrary.org/obo/ZP_0019258	mitotic cytokinesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0000281	mitotic cytokinesis
 http://purl.obolibrary.org/obo/ZP_0022723	mitotic prophase decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0000088	mitotic prophase
 http://purl.obolibrary.org/obo/ZP_0022725	mitotic telophase decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0000093	mitotic telophase
+http://purl.obolibrary.org/obo/ZP_0105832	motor behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061744	motor behavior
 http://purl.obolibrary.org/obo/ZP_0104345	motor neuron migration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0097475	motor neuron migration
 http://purl.obolibrary.org/obo/ZP_0002705	muscle attachment decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0016203	muscle attachment
 http://purl.obolibrary.org/obo/ZP_0009614	muscle cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042692	muscle cell differentiation
@@ -202,6 +232,7 @@ http://purl.obolibrary.org/obo/ZP_0018571	musculoskeletal movement, spinal refle
 http://purl.obolibrary.org/obo/ZP_0006072	myelination in peripheral nervous system decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0022011	myelination in peripheral nervous system
 http://purl.obolibrary.org/obo/ZP_0006073	myelination of anterior lateral line nerve axons decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048914	myelination of anterior lateral line nerve axons
 http://purl.obolibrary.org/obo/ZP_0015632	myelination of posterior lateral line nerve axons decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048932	myelination of posterior lateral line nerve axons
+http://purl.obolibrary.org/obo/ZP_0131060	myeloid cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030099	myeloid cell differentiation
 http://purl.obolibrary.org/obo/ZP_0018691	myeloid progenitor cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002318	myeloid progenitor cell differentiation
 http://purl.obolibrary.org/obo/ZP_0006415	myoblast fusion decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007520	myoblast fusion
 http://purl.obolibrary.org/obo/ZP_0009663	negative regulation of neurogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050768	negative regulation of neurogenesis
@@ -219,13 +250,14 @@ http://purl.obolibrary.org/obo/ZP_0010183	neuronal stem cell population maintena
 http://purl.obolibrary.org/obo/ZP_0102550	neutrophil activation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042119	neutrophil activation
 http://purl.obolibrary.org/obo/ZP_0021321	neutrophil chemotaxis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030593	neutrophil chemotaxis
 http://purl.obolibrary.org/obo/ZP_0018782	neutrophil differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030223	neutrophil differentiation
-http://purl.obolibrary.org/obo/ZP_0100451	neutrophil mediated killing of bacterium decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070944	neutrophil mediated killing of bacterium
+http://purl.obolibrary.org/obo/ZP_0100451	neutrophil mediated killing of bacterium decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070944	neutrophil-mediated killing of bacterium
 http://purl.obolibrary.org/obo/ZP_0012090	neutrophil migration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1990266	neutrophil migration
 http://purl.obolibrary.org/obo/ZP_0013963	nodal signaling pathway decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0038092	nodal signaling pathway
 http://purl.obolibrary.org/obo/ZP_0009199	nucleate erythrocyte development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048823	nucleate erythrocyte development
 http://purl.obolibrary.org/obo/ZP_0001943	olfactory placode development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0071698	olfactory placode development
 http://purl.obolibrary.org/obo/ZP_0018535	oligodendrocyte progenitor proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070444	oligodendrocyte progenitor proliferation
 http://purl.obolibrary.org/obo/ZP_0010272	oncogene-induced cell senescence decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0090402	oncogene-induced cell senescence
+http://purl.obolibrary.org/obo/ZP_0106304	oocyte development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048599	oocyte development
 http://purl.obolibrary.org/obo/ZP_0009385	oocyte maturation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001556	oocyte maturation
 http://purl.obolibrary.org/obo/ZP_0004528	optokinetic behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007634	optokinetic behavior
 http://purl.obolibrary.org/obo/ZP_0001582	optomotor response decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0071632	optomotor response
@@ -256,8 +288,6 @@ http://purl.obolibrary.org/obo/ZP_0015757	positive regulation of transcription b
 http://purl.obolibrary.org/obo/ZP_0010303	positive regulation of vascular endothelial growth factor signaling pathway decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1900748	positive regulation of vascular endothelial growth factor signaling pathway
 http://purl.obolibrary.org/obo/ZP_0020694	posterior lateral line neuromast deposition decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048922	posterior lateral line neuromast deposition
 http://purl.obolibrary.org/obo/ZP_0014916	posterior lateral line neuromast hair cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048923	posterior lateral line neuromast hair cell differentiation
-http://purl.obolibrary.org/obo/ZP_0100055	posterior lateral line neuromast normal amount, abnormal	http://purl.obolibrary.org/obo/GO_0030474	spindle pole body duplication
-http://purl.obolibrary.org/obo/ZP_0004304	potassium channel activity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0005267	potassium channel activity
 http://purl.obolibrary.org/obo/ZP_0022093	prepulse inhibition decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060134	prepulse inhibition
 http://purl.obolibrary.org/obo/ZP_0104143	primary miRNA processing decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031053	primary miRNA processing
 http://purl.obolibrary.org/obo/ZP_0008626	primitive erythrocyte differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060319	primitive erythrocyte differentiation
@@ -279,22 +309,25 @@ http://purl.obolibrary.org/obo/ZP_0021404	reactive oxygen species biosynthetic p
 http://purl.obolibrary.org/obo/ZP_0003514	receptor recycling decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001881	receptor recycling
 http://purl.obolibrary.org/obo/ZP_0101745	receptor signaling pathway via JAK-STAT decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007259	receptor signaling pathway via JAK-STAT
 http://purl.obolibrary.org/obo/ZP_0021812	reflex decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060004	reflex
+http://purl.obolibrary.org/obo/ZP_0106702	regulation of heart contraction decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008016	regulation of heart contraction
 http://purl.obolibrary.org/obo/ZP_0008659	release of sequestered calcium ion into cytosol decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0051209	release of sequestered calcium ion into cytosol
+http://purl.obolibrary.org/obo/ZP_0106039	renal albumin absorption decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0097018	renal albumin absorption
 http://purl.obolibrary.org/obo/ZP_0017412	renal filtration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0097205	renal filtration
 http://purl.obolibrary.org/obo/ZP_0019276	renal system process decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003014	renal system process
 http://purl.obolibrary.org/obo/ZP_0016909	response to absence of light decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009646	response to absence of light
 http://purl.obolibrary.org/obo/ZP_0021144	response to auditory stimulus decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0010996	response to auditory stimulus
 http://purl.obolibrary.org/obo/ZP_0017324	response to endoplasmic reticulum stress decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0034976	response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/ZP_0017641	response to gravity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009629	response to gravity
+http://purl.obolibrary.org/obo/ZP_0105947	response to heat decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009408	response to heat
 http://purl.obolibrary.org/obo/ZP_0005985	response to light intensity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009642	response to light intensity
 http://purl.obolibrary.org/obo/ZP_0019084	response to light stimulus decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009416	response to light stimulus
 http://purl.obolibrary.org/obo/ZP_0021133	response to mechanical stimulus decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009612	response to mechanical stimulus
 http://purl.obolibrary.org/obo/ZP_0020335	response to pheromone decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0019236	response to pheromone
+http://purl.obolibrary.org/obo/ZP_0105930	response to stress decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006950	response to stress
 http://purl.obolibrary.org/obo/ZP_0101329	retina layer formation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0010842	retina layer formation
 http://purl.obolibrary.org/obo/ZP_0017178	retinoic acid receptor signaling pathway decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048384	retinoic acid receptor signaling pathway
 http://purl.obolibrary.org/obo/ZP_0009317	retrograde axonal transport decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008090	retrograde axonal transport
 http://purl.obolibrary.org/obo/ZP_0020270	ribosomal small subunit biogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042274	ribosomal small subunit biogenesis
-http://purl.obolibrary.org/obo/ZP_0008841	ryanodine-sensitive calcium-release channel activity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0005219	ryanodine-sensitive calcium-release channel activity
 http://purl.obolibrary.org/obo/ZP_0020370	secondary heart field specification decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003139	secondary heart field specification
 http://purl.obolibrary.org/obo/ZP_0005437	sensory perception of sound decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007605	sensory perception of sound
 http://purl.obolibrary.org/obo/ZP_0004256	skeletal muscle acetylcholine-gated channel clustering decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0071340	skeletal muscle acetylcholine-gated channel clustering
@@ -304,14 +337,12 @@ http://purl.obolibrary.org/obo/ZP_0020511	sleep decreased occurrence, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0010510	smoothened signaling pathway decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007224	smoothened signaling pathway
 http://purl.obolibrary.org/obo/ZP_0021867	social behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035176	social behavior
 http://purl.obolibrary.org/obo/ZP_0100028	sodium ion import across plasma membrane decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0098719	sodium ion import across plasma membrane
-http://purl.obolibrary.org/obo/ZP_0014522	sodium:potassium-exchanging ATPase activity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0005391	sodium:potassium-exchanging ATPase activity
 http://purl.obolibrary.org/obo/ZP_0104470	somite development decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061053	somite development
 http://purl.obolibrary.org/obo/ZP_0022841	spermatogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007283	spermatogenesis
 http://purl.obolibrary.org/obo/ZP_0009022	spermatogonial cell division decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007284	spermatogonial cell division
 http://purl.obolibrary.org/obo/ZP_0020807	spermidine biosynthetic process decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008295	spermidine biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0020753	spermine biosynthetic process decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006597	spermine biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0011302	spinal cord oligodendrocyte cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0021529	spinal cord oligodendrocyte cell differentiation
-http://purl.obolibrary.org/obo/ZP_0006812	spindle pole body duplication decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030474	spindle pole body duplication
 http://purl.obolibrary.org/obo/ZP_0003568	sprouting angiogenesis decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002040	sprouting angiogenesis
 http://purl.obolibrary.org/obo/ZP_0016050	startle response decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0001964	startle response
 http://purl.obolibrary.org/obo/ZP_0017881	stem cell population maintenance decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0019827	stem cell population maintenance
@@ -330,12 +361,11 @@ http://purl.obolibrary.org/obo/ZP_0012613	thrombocyte differentiation decreased 
 http://purl.obolibrary.org/obo/ZP_0014435	tissue regeneration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042246	tissue regeneration
 http://purl.obolibrary.org/obo/ZP_0018124	tooth replacement decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0061648	tooth replacement
 http://purl.obolibrary.org/obo/ZP_0005619	transcription, DNA-templated decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006351	transcription, DNA-templated
+http://purl.obolibrary.org/obo/ZP_0106733	tubulin complex assembly decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007021	tubulin complex assembly
 http://purl.obolibrary.org/obo/ZP_0005737	type B pancreatic cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003309	type B pancreatic cell differentiation
 http://purl.obolibrary.org/obo/ZP_0101438	type B pancreatic cell proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0044342	type B pancreatic cell proliferation
 http://purl.obolibrary.org/obo/ZP_0011301	ventral spinal cord interneuron differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0021514	ventral spinal cord interneuron differentiation
 http://purl.obolibrary.org/obo/ZP_0006044	ventricular cardiac muscle cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0055012	ventricular cardiac muscle cell differentiation
 http://purl.obolibrary.org/obo/ZP_0016907	visual behavior decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007632	visual behavior
 http://purl.obolibrary.org/obo/ZP_0005061	visual perception decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007601	visual perception
-http://purl.obolibrary.org/obo/ZP_0008842	voltage-gated calcium channel activity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0005245	voltage-gated calcium channel activity
-http://purl.obolibrary.org/obo/ZP_0000831	voltage-gated sodium channel activity decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0005248	voltage-gated sodium channel activity
 http://purl.obolibrary.org/obo/ZP_0103450	wound healing decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042060	wound healing

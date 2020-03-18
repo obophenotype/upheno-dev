@@ -18,10 +18,12 @@ http://purl.obolibrary.org/obo/MP_0002682	decreased mature ovarian follicle numb
 http://purl.obolibrary.org/obo/MP_0004636	decreased metacarpal bone number	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone
 http://purl.obolibrary.org/obo/MP_0004640	decreased metatarsal bone number	http://purl.obolibrary.org/obo/UBERON_0001448	metatarsal bone
 http://purl.obolibrary.org/obo/MP_0006400	decreased molar number	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth
+http://purl.obolibrary.org/obo/MP_0008486	decreased muscle spindle number	http://purl.obolibrary.org/obo/UBERON_0003718	muscle spindle
 http://purl.obolibrary.org/obo/MP_0020456	decreased myelin sheath amount	http://purl.obolibrary.org/obo/UBERON_0000347	entire myelin sheath
 http://purl.obolibrary.org/obo/MP_0011290	decreased nephron number	http://purl.obolibrary.org/obo/UBERON_0001285	nephron
 http://purl.obolibrary.org/obo/MP_0013529	decreased nipple number	http://purl.obolibrary.org/obo/UBERON_0002030	nipple
 http://purl.obolibrary.org/obo/MP_0010920	decreased number of pulmonary neuroendocrine bodies	http://purl.obolibrary.org/obo/UBERON_0010002	pulmonary neuroendocrine body
+http://purl.obolibrary.org/obo/MP_0030996	decreased pacinian corpuscle number	http://purl.obolibrary.org/obo/UBERON_0003719	Pacinian corpuscle
 http://purl.obolibrary.org/obo/MP_0013767	decreased palatal rugae number	http://purl.obolibrary.org/obo/UBERON_0008799	transverse palatine fold
 http://purl.obolibrary.org/obo/MP_0009168	decreased pancreatic islet number	http://purl.obolibrary.org/obo/UBERON_0000006	islet of Langerhans
 http://purl.obolibrary.org/obo/MP_0000461	decreased presacral vertebrae number	http://purl.obolibrary.org/obo/UBERON_0004451	trunk or cervical vertebra

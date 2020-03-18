@@ -1,19 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/XPO_0115446	abnormal(ly) duplicated of cardiac mesoderm (T)	http://purl.obolibrary.org/obo/XAO_0000235	cardiac mesoderm
-http://purl.obolibrary.org/obo/XPO_0115327	abnormal(ly) duplicated of cement gland (T)	http://purl.obolibrary.org/obo/XAO_0000033	cement gland
-http://purl.obolibrary.org/obo/XPO_0115749	abnormal(ly) duplicated of claw of hindlimb digit 4 (T)	http://purl.obolibrary.org/obo/XAO_0004420	claw of hindlimb digit 4
-http://purl.obolibrary.org/obo/XPO_0115642	abnormal(ly) duplicated of femur (T)	http://purl.obolibrary.org/obo/XAO_0003214	femur
-http://purl.obolibrary.org/obo/XPO_0115564	abnormal(ly) duplicated of forelimb (T)	http://purl.obolibrary.org/obo/XAO_0003030	forelimb
-http://purl.obolibrary.org/obo/XPO_0115521	abnormal(ly) duplicated of head (T)	http://purl.obolibrary.org/obo/XAO_0003024	head
-http://purl.obolibrary.org/obo/XPO_0115355	abnormal(ly) duplicated of heart (T)	http://purl.obolibrary.org/obo/XAO_0000064	heart
-http://purl.obolibrary.org/obo/XPO_0115572	abnormal(ly) duplicated of hindlimb (T)	http://purl.obolibrary.org/obo/XAO_0003031	hindlimb
-http://purl.obolibrary.org/obo/XPO_0115600	abnormal(ly) duplicated of hindlimb bud (T)	http://purl.obolibrary.org/obo/XAO_0003066	hindlimb bud
-http://purl.obolibrary.org/obo/XPO_0115305	abnormal(ly) duplicated of lens (T)	http://purl.obolibrary.org/obo/XAO_0000008	lens
-http://purl.obolibrary.org/obo/XPO_0115590	abnormal(ly) duplicated of pelvic girdle (T)	http://purl.obolibrary.org/obo/XAO_0003064	pelvic girdle
-http://purl.obolibrary.org/obo/XPO_0115680	abnormal(ly) duplicated of regenerating hindlimb (T)	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
-http://purl.obolibrary.org/obo/XPO_0115548	abnormal(ly) duplicated of tail (T)	http://purl.obolibrary.org/obo/XAO_0003026	tail
-http://purl.obolibrary.org/obo/XPO_0115532	abnormal(ly) duplicated of trunk (T)	http://purl.obolibrary.org/obo/XAO_0003025	trunk
-http://purl.obolibrary.org/obo/XPO_0115429	abnormal(ly) duplicated of utricle (T)	http://purl.obolibrary.org/obo/XAO_0000195	utricle
 http://purl.obolibrary.org/obo/XPO_0115823	duplicated anatomical axis	http://purl.obolibrary.org/obo/XAO_0005200	anatomical axis
 http://purl.obolibrary.org/obo/XPO_0115824	duplicated anterior-posterior axis	http://purl.obolibrary.org/obo/XAO_0005202	anterior-posterior axis
 http://purl.obolibrary.org/obo/XPO_0115796	duplicated cement gland	http://purl.obolibrary.org/obo/XAO_0000033	cement gland
@@ -37,17 +23,9 @@ http://purl.obolibrary.org/obo/XPO_0115814	duplicated hindlimb	http://purl.oboli
 http://purl.obolibrary.org/obo/XPO_0115815	duplicated hindlimb bud	http://purl.obolibrary.org/obo/XAO_0003066	hindlimb bud
 http://purl.obolibrary.org/obo/XPO_0115826	duplicated hindlimb stylopod	http://purl.obolibrary.org/obo/XAO_0004296	hindlimb stylopod
 http://purl.obolibrary.org/obo/XPO_0115827	duplicated hindlimb zeugopod	http://purl.obolibrary.org/obo/XAO_0004298	hindlimb zeugopod
-http://purl.obolibrary.org/obo/XPO_0115828	duplicated left eye	http://purl.obolibrary.org/obo/XAO_0005256	left eye
-http://purl.obolibrary.org/obo/XPO_0115808	duplicated left forelimb	http://purl.obolibrary.org/obo/XAO_0005272	left forelimb
-http://purl.obolibrary.org/obo/XPO_0115806	duplicated left hindlimb	http://purl.obolibrary.org/obo/XAO_0005274	left hindlimb
-http://purl.obolibrary.org/obo/XPO_0115831	duplicated left part of brain	http://purl.obolibrary.org/obo/XAO_0005278	left part of brain
 http://purl.obolibrary.org/obo/XPO_0115817	duplicated lens	http://purl.obolibrary.org/obo/XAO_0000008	lens
 http://purl.obolibrary.org/obo/XPO_0115818	duplicated pelvic girdle	http://purl.obolibrary.org/obo/XAO_0003064	pelvic girdle
 http://purl.obolibrary.org/obo/XPO_0115819	duplicated regenerating hindlimb	http://purl.obolibrary.org/obo/XAO_0004107	regenerating hindlimb
-http://purl.obolibrary.org/obo/XPO_0115829	duplicated right eye	http://purl.obolibrary.org/obo/XAO_0005257	right eye
-http://purl.obolibrary.org/obo/XPO_0115809	duplicated right forelimb	http://purl.obolibrary.org/obo/XAO_0005273	right forelimb
-http://purl.obolibrary.org/obo/XPO_0115807	duplicated right hindlimb	http://purl.obolibrary.org/obo/XAO_0005275	right hindlimb
-http://purl.obolibrary.org/obo/XPO_0115832	duplicated right part of brain	http://purl.obolibrary.org/obo/XAO_0005279	right part of brain
 http://purl.obolibrary.org/obo/XPO_0115820	duplicated tail	http://purl.obolibrary.org/obo/XAO_0003026	tail
 http://purl.obolibrary.org/obo/XPO_0115821	duplicated trunk	http://purl.obolibrary.org/obo/XAO_0003025	trunk
 http://purl.obolibrary.org/obo/XPO_0115822	duplicated utricle	http://purl.obolibrary.org/obo/XAO_0000195	utricle

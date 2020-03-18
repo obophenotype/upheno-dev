@@ -1,4 +1,5 @@
 defined_class	defined_class_label	entity	entity_label
+http://purl.obolibrary.org/obo/ZP_0106593	EVL shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000086	EVL
 http://purl.obolibrary.org/obo/ZP_0102685	Kupffer's vesicle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
 http://purl.obolibrary.org/obo/ZP_0004229	Meckel's cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
 http://purl.obolibrary.org/obo/ZP_0001815	adaxial cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000003	adaxial cell
@@ -8,6 +9,7 @@ http://purl.obolibrary.org/obo/ZP_0009748	atrium shape, abnormal	http://purl.obo
 http://purl.obolibrary.org/obo/ZP_0014994	axial fin skeleton shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001123	axial fin skeleton
 http://purl.obolibrary.org/obo/ZP_0104631	ball shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000006	ball
 http://purl.obolibrary.org/obo/ZP_0006952	basihyal cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
+http://purl.obolibrary.org/obo/ZP_0106736	blastomere shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0001762	brain shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0005099	branchiostegal ray 3 shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001280	branchiostegal ray 3
 http://purl.obolibrary.org/obo/ZP_0004526	cardiac muscle cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
@@ -56,6 +58,8 @@ http://purl.obolibrary.org/obo/ZP_0003730	intersegmental vessel shape, abnormal	
 http://purl.obolibrary.org/obo/ZP_0006302	intestinal epithelial cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009399	intestinal epithelial cell
 http://purl.obolibrary.org/obo/ZP_0002786	intestinal epithelium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
 http://purl.obolibrary.org/obo/ZP_0103413	intestine shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
+http://purl.obolibrary.org/obo/ZP_0107067	lateral dorsal aorta shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001054	lateral dorsal aorta
+http://purl.obolibrary.org/obo/ZP_0106862	lens fiber cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009401	lens fiber cell
 http://purl.obolibrary.org/obo/ZP_0011942	lens shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens
 http://purl.obolibrary.org/obo/ZP_0002887	liver shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0010540	macula shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000386	macula

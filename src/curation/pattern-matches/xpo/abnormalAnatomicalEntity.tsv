@@ -7,6 +7,7 @@ http://purl.obolibrary.org/obo/XPO_0100594	abnormal Jacobson's organ	http://purl
 http://purl.obolibrary.org/obo/XPO_0101557	abnormal Jacobson's vein	http://purl.obolibrary.org/obo/XAO_0004257	Jacobson's vein
 http://purl.obolibrary.org/obo/XPO_0101141	abnormal Keller explant	http://purl.obolibrary.org/obo/XAO_0003053	Keller explant
 http://purl.obolibrary.org/obo/XPO_0100357	abnormal Leydig cell	http://purl.obolibrary.org/obo/XAO_0004405	Leydig cell
+http://purl.obolibrary.org/obo/XPO_0131686	abnormal M band	http://purl.obolibrary.org/obo/XAO_0005312	M band
 http://purl.obolibrary.org/obo/XPO_0101223	abnormal Mauthner cell	http://purl.obolibrary.org/obo/XAO_0005035	Mauthner cell
 http://purl.obolibrary.org/obo/XPO_0100766	abnormal Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
 http://purl.obolibrary.org/obo/XPO_0100704	abnormal Merkel cell	http://purl.obolibrary.org/obo/XAO_0003254	Merkel cell
@@ -14,6 +15,7 @@ http://purl.obolibrary.org/obo/XPO_0101124	abnormal Muller cell	http://purl.obol
 http://purl.obolibrary.org/obo/XPO_0100482	abnormal Mullerian duct	http://purl.obolibrary.org/obo/XAO_0000330	Mullerian duct
 http://purl.obolibrary.org/obo/XPO_0101121	abnormal Rathke's pouch	http://purl.obolibrary.org/obo/XAO_0000430	Rathke's pouch
 http://purl.obolibrary.org/obo/XPO_0101246	abnormal Rohon-Beard neuron	http://purl.obolibrary.org/obo/XAO_0003022	Rohon-Beard neuron
+http://purl.obolibrary.org/obo/XPO_0131669	abnormal Roux spot	http://purl.obolibrary.org/obo/XAO_0005290	Roux spot
 http://purl.obolibrary.org/obo/XPO_0101600	abnormal Schwann cell	http://purl.obolibrary.org/obo/XAO_0005044	Schwann cell
 http://purl.obolibrary.org/obo/XPO_0100760	abnormal Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
 http://purl.obolibrary.org/obo/XPO_0101083	abnormal T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
@@ -26,9 +28,12 @@ http://purl.obolibrary.org/obo/XPO_0100239	abnormal acellular anatomical structu
 http://purl.obolibrary.org/obo/XPO_0100883	abnormal acellular bone tissue	http://purl.obolibrary.org/obo/XAO_0005001	acellular bone tissue
 http://purl.obolibrary.org/obo/XPO_0101004	abnormal acid secreting cell	http://purl.obolibrary.org/obo/XAO_0003232	acid secreting cell
 http://purl.obolibrary.org/obo/XPO_0100362	abnormal acinar cell	http://purl.obolibrary.org/obo/XAO_0003233	acinar cell
+http://purl.obolibrary.org/obo/XPO_0131667	abnormal actin cytoskeleton	http://purl.obolibrary.org/obo/XAO_0005313	actin cytoskeleton
+http://purl.obolibrary.org/obo/XPO_0131677	abnormal actin filament	http://purl.obolibrary.org/obo/XAO_0005319	actin filament
 http://purl.obolibrary.org/obo/XPO_0101569	abnormal activin-induced ectoderm	http://purl.obolibrary.org/obo/XAO_0003008	activin-induced ectoderm
 http://purl.obolibrary.org/obo/XPO_0100388	abnormal adenohypophyseal placode	http://purl.obolibrary.org/obo/XAO_0004208	adenohypophyseal placode
 http://purl.obolibrary.org/obo/XPO_0100951	abnormal adenohypophysis	http://purl.obolibrary.org/obo/XAO_0005186	adenohypophysis
+http://purl.obolibrary.org/obo/XPO_0131666	abnormal adherens junction	http://purl.obolibrary.org/obo/XAO_0005296	adherens junction
 http://purl.obolibrary.org/obo/XPO_0100688	abnormal adipose tissue	http://purl.obolibrary.org/obo/XAO_0003049	adipose tissue
 http://purl.obolibrary.org/obo/XPO_0101561	abnormal adrenal cortex	http://purl.obolibrary.org/obo/XAO_0000165	adrenal cortex
 http://purl.obolibrary.org/obo/XPO_0101090	abnormal adrenal gland	http://purl.obolibrary.org/obo/XAO_0000164	adrenal gland
@@ -53,7 +58,7 @@ http://purl.obolibrary.org/obo/XPO_0100028	abnormal anatomical cluster	http://pu
 http://purl.obolibrary.org/obo/XPO_0100081	abnormal anatomical entity in vitro	http://purl.obolibrary.org/obo/XAO_0003007	anatomical entity in vitro
 http://purl.obolibrary.org/obo/XPO_0100084	abnormal anatomical group	http://purl.obolibrary.org/obo/XAO_0003001	anatomical group
 http://purl.obolibrary.org/obo/XPO_0100481	abnormal anatomical line	http://purl.obolibrary.org/obo/XAO_0004003	anatomical line
-http://purl.obolibrary.org/obo/XPO_0100068	abnormal anatomical region	http://purl.obolibrary.org/obo/XAO_0003186	anatomical region
+http://purl.obolibrary.org/obo/XPO_0141315	abnormal anatomical region	http://purl.obolibrary.org/obo/XAO_0003186	anatomical region
 http://purl.obolibrary.org/obo/XPO_0107263	abnormal anatomical side	http://purl.obolibrary.org/obo/XAO_0005205	anatomical side
 http://purl.obolibrary.org/obo/XPO_0100062	abnormal anatomical space	http://purl.obolibrary.org/obo/XAO_0003190	anatomical space
 http://purl.obolibrary.org/obo/XPO_0100006	abnormal anatomical structure	http://purl.obolibrary.org/obo/XAO_0003000	anatomical structure
@@ -75,6 +80,8 @@ http://purl.obolibrary.org/obo/XPO_0101194	abnormal anterior commissure	http://p
 http://purl.obolibrary.org/obo/XPO_0100428	abnormal anterior crista	http://purl.obolibrary.org/obo/XAO_0004137	anterior crista
 http://purl.obolibrary.org/obo/XPO_0107319	abnormal anterior dorsal fin	http://purl.obolibrary.org/obo/XAO_0005262	anterior dorsal fin
 http://purl.obolibrary.org/obo/XPO_0100673	abnormal anterior dorsal lateral plate region	http://purl.obolibrary.org/obo/XAO_0003051	anterior dorsal lateral plate region
+http://purl.obolibrary.org/obo/XPO_0131681	abnormal anterior endoderm	http://purl.obolibrary.org/obo/XAO_0005303	anterior endoderm
+http://purl.obolibrary.org/obo/XPO_0131668	abnormal anterior endomesoderm	http://purl.obolibrary.org/obo/XAO_0005306	anterior endomesoderm
 http://purl.obolibrary.org/obo/XPO_0100234	abnormal anterior entopeduncular nucleus	http://purl.obolibrary.org/obo/XAO_0004534	anterior entopeduncular nucleus
 http://purl.obolibrary.org/obo/XPO_0100375	abnormal anterior entopeduncular region	http://purl.obolibrary.org/obo/XAO_0005076	anterior entopeduncular region
 http://purl.obolibrary.org/obo/XPO_0100462	abnormal anterior foregut	http://purl.obolibrary.org/obo/XAO_0005127	anterior foregut
@@ -88,7 +95,6 @@ http://purl.obolibrary.org/obo/XPO_0100170	abnormal anterior neural tube	http://
 http://purl.obolibrary.org/obo/XPO_0107320	abnormal anterior neuroectoderm	http://purl.obolibrary.org/obo/XAO_0005263	anterior neuroectoderm
 http://purl.obolibrary.org/obo/XPO_0100418	abnormal anterior palatine artery	http://purl.obolibrary.org/obo/XAO_0000369	anterior palatine artery
 http://purl.obolibrary.org/obo/XPO_0100017	abnormal anterior placodal area	http://purl.obolibrary.org/obo/XAO_0004206	anterior placodal area
-http://purl.obolibrary.org/obo/XPO_0107274	abnormal anterior region	http://purl.obolibrary.org/obo/XAO_0005216	anterior region
 http://purl.obolibrary.org/obo/XPO_0101383	abnormal anterior semicircular canal	http://purl.obolibrary.org/obo/XAO_0005040	anterior semicircular canal
 http://purl.obolibrary.org/obo/XPO_0107264	abnormal anterior side	http://purl.obolibrary.org/obo/XAO_0005206	anterior side
 http://purl.obolibrary.org/obo/XPO_0100930	abnormal anterior tectum	http://purl.obolibrary.org/obo/XAO_0004514	anterior tectum
@@ -96,8 +102,6 @@ http://purl.obolibrary.org/obo/XPO_0101564	abnormal anterior thalamic nucleus	ht
 http://purl.obolibrary.org/obo/XPO_0101056	abnormal anterior ventral blood island	http://purl.obolibrary.org/obo/XAO_0004144	anterior ventral blood island
 http://purl.obolibrary.org/obo/XPO_0107260	abnormal anterior-posterior axis	http://purl.obolibrary.org/obo/XAO_0005202	anterior-posterior axis
 http://purl.obolibrary.org/obo/XPO_0101499	abnormal anterior-proximal mesenchyme	http://purl.obolibrary.org/obo/XAO_0004408	anterior-proximal mesenchyme
-http://purl.obolibrary.org/obo/XPO_0107279	abnormal antero-dorsal region	http://purl.obolibrary.org/obo/XAO_0005221	antero-dorsal region
-http://purl.obolibrary.org/obo/XPO_0107280	abnormal antero-ventral region	http://purl.obolibrary.org/obo/XAO_0005222	antero-ventral region
 http://purl.obolibrary.org/obo/XPO_0100631	abnormal anterodorsal lateral line placode	http://purl.obolibrary.org/obo/XAO_0004269	anterodorsal lateral line placode
 http://purl.obolibrary.org/obo/XPO_0101161	abnormal anterodorsal tegmental nucleus	http://purl.obolibrary.org/obo/XAO_0004537	anterodorsal tegmental nucleus
 http://purl.obolibrary.org/obo/XPO_0101104	abnormal anteroventral lateral line placode	http://purl.obolibrary.org/obo/XAO_0004220	anteroventral lateral line placode
@@ -130,11 +134,13 @@ http://purl.obolibrary.org/obo/XPO_0100731	abnormal arterial endothelium	http://
 http://purl.obolibrary.org/obo/XPO_0100076	abnormal artery	http://purl.obolibrary.org/obo/XAO_0000114	artery
 http://purl.obolibrary.org/obo/XPO_0101174	abnormal articular system	http://purl.obolibrary.org/obo/XAO_0004274	articular system
 http://purl.obolibrary.org/obo/XPO_0101345	abnormal ascending interneuron	http://purl.obolibrary.org/obo/XAO_0005181	ascending interneuron
+http://purl.obolibrary.org/obo/XPO_0131687	abnormal astral microtubule	http://purl.obolibrary.org/obo/XAO_0005286	astral microtubule
 http://purl.obolibrary.org/obo/XPO_0101054	abnormal astrocyte	http://purl.obolibrary.org/obo/XAO_0005131	astrocyte
 http://purl.obolibrary.org/obo/XPO_0100254	abnormal astrocyte end-foot	http://purl.obolibrary.org/obo/XAO_0005132	astrocyte end-foot
 http://purl.obolibrary.org/obo/XPO_0101492	abnormal atrial septum	http://purl.obolibrary.org/obo/XAO_0004471	atrial septum
 http://purl.obolibrary.org/obo/XPO_0100837	abnormal atrioventricular canal	http://purl.obolibrary.org/obo/XAO_0004123	atrioventricular canal
 http://purl.obolibrary.org/obo/XPO_0101151	abnormal atrioventricular canal endocardium	http://purl.obolibrary.org/obo/XAO_0004124	atrioventricular canal endocardium
+http://purl.obolibrary.org/obo/XPO_0131653	abnormal atrioventricular valve	http://purl.obolibrary.org/obo/XAO_0005308	atrioventricular valve
 http://purl.obolibrary.org/obo/XPO_0100828	abnormal atrioventricular valve leaflet	http://purl.obolibrary.org/obo/XAO_0004125	atrioventricular valve leaflet
 http://purl.obolibrary.org/obo/XPO_0100827	abnormal atypical epithelium	http://purl.obolibrary.org/obo/XAO_0004004	atypical epithelium
 http://purl.obolibrary.org/obo/XPO_0100592	abnormal auditory apparatus	http://purl.obolibrary.org/obo/XAO_0000189	auditory apparatus
@@ -224,6 +230,7 @@ http://purl.obolibrary.org/obo/XPO_0100143	abnormal branchial crest	http://purl.
 http://purl.obolibrary.org/obo/XPO_0100464	abnormal branchial head muscle	http://purl.obolibrary.org/obo/XAO_0004325	branchial head muscle
 http://purl.obolibrary.org/obo/XPO_0100933	abnormal branchial vein	http://purl.obolibrary.org/obo/XAO_0004240	branchial vein
 http://purl.obolibrary.org/obo/XPO_0100896	abnormal bronchus	http://purl.obolibrary.org/obo/XAO_0000121	bronchus
+http://purl.obolibrary.org/obo/XPO_0131673	abnormal buccopharyngeal membrane	http://purl.obolibrary.org/obo/XAO_0005291	buccopharyngeal membrane
 http://purl.obolibrary.org/obo/XPO_0101303	abnormal bulbous arteriosis	http://purl.obolibrary.org/obo/XAO_0004234	bulbous arteriosis
 http://purl.obolibrary.org/obo/XPO_0100792	abnormal capillary	http://purl.obolibrary.org/obo/XAO_0000116	capillary
 http://purl.obolibrary.org/obo/XPO_0101456	abnormal capillary system of liver	http://purl.obolibrary.org/obo/XAO_0000377	capillary system of liver
@@ -271,6 +278,7 @@ http://purl.obolibrary.org/obo/XPO_0100707	abnormal central vegetal yolk mass	ht
 http://purl.obolibrary.org/obo/XPO_0101220	abnormal centriole	http://purl.obolibrary.org/obo/XAO_0005011	centriole
 http://purl.obolibrary.org/obo/XPO_0100721	abnormal centromere	http://purl.obolibrary.org/obo/XAO_0005013	centromere
 http://purl.obolibrary.org/obo/XPO_0100956	abnormal centrosome	http://purl.obolibrary.org/obo/XAO_0005014	centrosome
+http://purl.obolibrary.org/obo/XPO_0131652	abnormal cephalic nerve	http://purl.obolibrary.org/obo/XAO_0005309	cephalic nerve
 http://purl.obolibrary.org/obo/XPO_0101453	abnormal ceratobranchial I	http://purl.obolibrary.org/obo/XAO_0004359	ceratobranchial I
 http://purl.obolibrary.org/obo/XPO_0100939	abnormal ceratobranchial II	http://purl.obolibrary.org/obo/XAO_0004360	ceratobranchial II
 http://purl.obolibrary.org/obo/XPO_0101218	abnormal ceratobranchial III	http://purl.obolibrary.org/obo/XAO_0004361	ceratobranchial III
@@ -320,9 +328,10 @@ http://purl.obolibrary.org/obo/XPO_0100231	abnormal compound organ	http://purl.o
 http://purl.obolibrary.org/obo/XPO_0101560	abnormal compound organ component	http://purl.obolibrary.org/obo/XAO_0003039	compound organ component
 http://purl.obolibrary.org/obo/XPO_0101025	abnormal conjunctiva	http://purl.obolibrary.org/obo/XAO_0000182	conjunctiva
 http://purl.obolibrary.org/obo/XPO_0100377	abnormal connective tissue	http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
-http://purl.obolibrary.org/obo/XPO_0100751	abnormal coracoid	http://purl.obolibrary.org/obo/XAO_0004278	coracoid
+http://purl.obolibrary.org/obo/XPO_0100751	abnormal coracoid bone	http://purl.obolibrary.org/obo/XAO_0004278	coracoid bone
 http://purl.obolibrary.org/obo/XPO_0101416	abnormal cornea	http://purl.obolibrary.org/obo/XAO_0000180	cornea
 http://purl.obolibrary.org/obo/XPO_0101127	abnormal cornua trabecula	http://purl.obolibrary.org/obo/XAO_0004364	cornua trabecula
+http://purl.obolibrary.org/obo/XPO_0131685	abnormal cortical actin cytoskeleton	http://purl.obolibrary.org/obo/XAO_0005318	cortical actin cytoskeleton
 http://purl.obolibrary.org/obo/XPO_0100247	abnormal cranial ganglion	http://purl.obolibrary.org/obo/XAO_0000027	cranial ganglion
 http://purl.obolibrary.org/obo/XPO_0100099	abnormal cranial muscle	http://purl.obolibrary.org/obo/XAO_0004322	cranial muscle
 http://purl.obolibrary.org/obo/XPO_0100199	abnormal cranial muscle primordium	http://purl.obolibrary.org/obo/XAO_0004455	cranial muscle primordium
@@ -364,6 +373,7 @@ http://purl.obolibrary.org/obo/XPO_0100921	abnormal dorsal caudal lymphatic vess
 http://purl.obolibrary.org/obo/XPO_0101549	abnormal dorsal column nucleus	http://purl.obolibrary.org/obo/XAO_0004545	dorsal column nucleus
 http://purl.obolibrary.org/obo/XPO_0101432	abnormal dorsal crest of the endoderm	http://purl.obolibrary.org/obo/XAO_0005045	dorsal crest of the endoderm
 http://purl.obolibrary.org/obo/XPO_0101517	abnormal dorsal endoderm	http://purl.obolibrary.org/obo/XAO_0004462	dorsal endoderm
+http://purl.obolibrary.org/obo/XPO_0131659	abnormal dorsal endomesoderm	http://purl.obolibrary.org/obo/XAO_0005304	dorsal endomesoderm
 http://purl.obolibrary.org/obo/XPO_0100690	abnormal dorsal fin	http://purl.obolibrary.org/obo/XAO_0004063	dorsal fin
 http://purl.obolibrary.org/obo/XPO_0100884	abnormal dorsal fin margin	http://purl.obolibrary.org/obo/XAO_0004061	dorsal fin margin
 http://purl.obolibrary.org/obo/XPO_0100280	abnormal dorsal fin skeleton	http://purl.obolibrary.org/obo/XAO_0004280	dorsal fin skeleton
@@ -396,7 +406,6 @@ http://purl.obolibrary.org/obo/XPO_0107322	abnormal dorsal trunk	http://purl.obo
 http://purl.obolibrary.org/obo/XPO_0100675	abnormal dorsal vegetal hemisphere blastomere	http://purl.obolibrary.org/obo/XAO_0005112	dorsal vegetal hemisphere blastomere
 http://purl.obolibrary.org/obo/XPO_0107261	abnormal dorsal-ventral axis	http://purl.obolibrary.org/obo/XAO_0005203	dorsal-ventral axis
 http://purl.obolibrary.org/obo/XPO_0101092	abnormal dorso-lateral marginal zone	http://purl.obolibrary.org/obo/XAO_0000071	dorso-lateral marginal zone
-http://purl.obolibrary.org/obo/XPO_0107338	abnormal dorso-lateral region	http://purl.obolibrary.org/obo/XAO_0005281	dorso-lateral region
 http://purl.obolibrary.org/obo/XPO_0100864	abnormal dorsolateral ascending neuron	http://purl.obolibrary.org/obo/XAO_0005184	dorsolateral ascending neuron
 http://purl.obolibrary.org/obo/XPO_0101187	abnormal dorsolateral commissural neuron	http://purl.obolibrary.org/obo/XAO_0005185	dorsolateral commissural neuron
 http://purl.obolibrary.org/obo/XPO_0101393	abnormal dorsolateral neural tube	http://purl.obolibrary.org/obo/XAO_0004617	dorsolateral neural tube
@@ -454,8 +463,8 @@ http://purl.obolibrary.org/obo/XPO_0100737	abnormal epiphysis	http://purl.obolib
 http://purl.obolibrary.org/obo/XPO_0100218	abnormal epithelial cell	http://purl.obolibrary.org/obo/XAO_0003249	epithelial cell
 http://purl.obolibrary.org/obo/XPO_0100192	abnormal epithelium	http://purl.obolibrary.org/obo/XAO_0003045	epithelium
 http://purl.obolibrary.org/obo/XPO_0100435	abnormal epsilon cell	http://purl.obolibrary.org/obo/XAO_0005167	epsilon cell
-http://purl.obolibrary.org/obo/XPO_0100997	abnormal equatorial belt	http://purl.obolibrary.org/obo/XAO_0000226	equatorial belt
 http://purl.obolibrary.org/obo/XPO_0101107	abnormal erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid cell
+http://purl.obolibrary.org/obo/XPO_0131682	abnormal esophageal epithelium	http://purl.obolibrary.org/obo/XAO_0005299	esophageal epithelium
 http://purl.obolibrary.org/obo/XPO_0100797	abnormal esophagus	http://purl.obolibrary.org/obo/XAO_0000127	esophagus
 http://purl.obolibrary.org/obo/XPO_0100944	abnormal ethmoid bone	http://purl.obolibrary.org/obo/XAO_0005191	ethmoid bone
 http://purl.obolibrary.org/obo/XPO_0100460	abnormal ethmoid region	http://purl.obolibrary.org/obo/XAO_0005192	ethmoid region
@@ -505,6 +514,7 @@ http://purl.obolibrary.org/obo/XPO_0100617	abnormal forebrain	http://purl.obolib
 http://purl.obolibrary.org/obo/XPO_0101444	abnormal forebrain-midbrain boundary	http://purl.obolibrary.org/obo/XAO_0005027	forebrain-midbrain boundary
 http://purl.obolibrary.org/obo/XPO_0100156	abnormal foregut	http://purl.obolibrary.org/obo/XAO_0000232	foregut
 http://purl.obolibrary.org/obo/XPO_0100410	abnormal foregut endoderm	http://purl.obolibrary.org/obo/XAO_0004513	foregut endoderm
+http://purl.obolibrary.org/obo/XPO_0131662	abnormal foregut epithelium	http://purl.obolibrary.org/obo/XAO_0005297	foregut epithelium
 http://purl.obolibrary.org/obo/XPO_0100403	abnormal forelimb	http://purl.obolibrary.org/obo/XAO_0003030	forelimb
 http://purl.obolibrary.org/obo/XPO_0101189	abnormal forelimb bud	http://purl.obolibrary.org/obo/XAO_0003065	forelimb bud
 http://purl.obolibrary.org/obo/XPO_0101085	abnormal forelimb bud tip	http://purl.obolibrary.org/obo/XAO_0004490	forelimb bud tip
@@ -518,8 +528,8 @@ http://purl.obolibrary.org/obo/XPO_0100342	abnormal forelimb skeleton	http://pur
 http://purl.obolibrary.org/obo/XPO_0100510	abnormal forelimb stylopod	http://purl.obolibrary.org/obo/XAO_0004295	forelimb stylopod
 http://purl.obolibrary.org/obo/XPO_0100670	abnormal forelimb zeugopod	http://purl.obolibrary.org/obo/XAO_0004297	forelimb zeugopod
 http://purl.obolibrary.org/obo/XPO_0101352	abnormal fourth ventricle	http://purl.obolibrary.org/obo/XAO_0003099	fourth ventricle
+http://purl.obolibrary.org/obo/XPO_0131679	abnormal frontal nerve	http://purl.obolibrary.org/obo/XAO_0005295	frontal nerve
 http://purl.obolibrary.org/obo/XPO_0100033	abnormal fundus	http://purl.obolibrary.org/obo/XAO_0005145	fundus
-http://purl.obolibrary.org/obo/XPO_0100287	abnormal fused heart primordium	http://purl.obolibrary.org/obo/XAO_0000336	fused heart primordium
 http://purl.obolibrary.org/obo/XPO_0101386	abnormal gall bladder	http://purl.obolibrary.org/obo/XAO_0000135	gall bladder
 http://purl.obolibrary.org/obo/XPO_0100492	abnormal gall bladder primordium	http://purl.obolibrary.org/obo/XAO_0004205	gall bladder primordium
 http://purl.obolibrary.org/obo/XPO_0100316	abnormal gamete	http://purl.obolibrary.org/obo/XAO_0003150	gamete
@@ -565,7 +575,6 @@ http://purl.obolibrary.org/obo/XPO_0100002	abnormal head	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/XPO_0101256	abnormal head endoderm	http://purl.obolibrary.org/obo/XAO_0000091	head endoderm
 http://purl.obolibrary.org/obo/XPO_0100451	abnormal head mesenchyme	http://purl.obolibrary.org/obo/XAO_0004307	head mesenchyme
 http://purl.obolibrary.org/obo/XPO_0100880	abnormal head mesoderm	http://purl.obolibrary.org/obo/XAO_0000053	head mesoderm
-http://purl.obolibrary.org/obo/XPO_0100703	abnormal head region	http://purl.obolibrary.org/obo/XAO_0000040	head region
 http://purl.obolibrary.org/obo/XPO_0100052	abnormal head somite	http://purl.obolibrary.org/obo/XAO_0000313	head somite
 http://purl.obolibrary.org/obo/XPO_0100051	abnormal head somite 1	http://purl.obolibrary.org/obo/XAO_0000396	head somite 1
 http://purl.obolibrary.org/obo/XPO_0100447	abnormal head somite 2	http://purl.obolibrary.org/obo/XAO_0000403	head somite 2
@@ -573,6 +582,7 @@ http://purl.obolibrary.org/obo/XPO_0100556	abnormal head somite 3	http://purl.ob
 http://purl.obolibrary.org/obo/XPO_0100097	abnormal head somite 4	http://purl.obolibrary.org/obo/XAO_0000405	head somite 4
 http://purl.obolibrary.org/obo/XPO_0100053	abnormal head vasculature	http://purl.obolibrary.org/obo/XAO_0004152	head vasculature
 http://purl.obolibrary.org/obo/XPO_0100013	abnormal heart	http://purl.obolibrary.org/obo/XAO_0000064	heart
+http://purl.obolibrary.org/obo/XPO_0100287	abnormal heart primordium	http://purl.obolibrary.org/obo/XAO_0000336	heart primordium
 http://purl.obolibrary.org/obo/XPO_0101587	abnormal hemangioblast	http://purl.obolibrary.org/obo/XAO_0004146	hemangioblast
 http://purl.obolibrary.org/obo/XPO_0100372	abnormal hematological system	http://purl.obolibrary.org/obo/XAO_0000122	hematological system
 http://purl.obolibrary.org/obo/XPO_0100404	abnormal hematopoietic stem cell	http://purl.obolibrary.org/obo/XAO_0003055	hematopoietic stem cell
@@ -631,6 +641,7 @@ http://purl.obolibrary.org/obo/XPO_0101526	abnormal infundibulum	http://purl.obo
 http://purl.obolibrary.org/obo/XPO_0100536	abnormal inner ear	http://purl.obolibrary.org/obo/XAO_0000192	inner ear
 http://purl.obolibrary.org/obo/XPO_0101100	abnormal inner fin	http://purl.obolibrary.org/obo/XAO_0000004	inner fin
 http://purl.obolibrary.org/obo/XPO_0101552	abnormal inner limiting membrane	http://purl.obolibrary.org/obo/XAO_0003222	inner limiting membrane
+http://purl.obolibrary.org/obo/XPO_0131678	abnormal intercanthal region	http://purl.obolibrary.org/obo/XAO_0005321	intercanthal region
 http://purl.obolibrary.org/obo/XPO_0100382	abnormal interdigital mesenchyme	http://purl.obolibrary.org/obo/XAO_0004410	interdigital mesenchyme
 http://purl.obolibrary.org/obo/XPO_0100852	abnormal interdigital region	http://purl.obolibrary.org/obo/XAO_0004316	interdigital region
 http://purl.obolibrary.org/obo/XPO_0101441	abnormal interdigital webbing	http://purl.obolibrary.org/obo/XAO_0004506	interdigital webbing
@@ -666,6 +677,7 @@ http://purl.obolibrary.org/obo/XPO_0100711	abnormal ischium	http://purl.obolibra
 http://purl.obolibrary.org/obo/XPO_0100204	abnormal islets of Langerhans	http://purl.obolibrary.org/obo/XAO_0000159	islets of Langerhans
 http://purl.obolibrary.org/obo/XPO_0101201	abnormal isthmic nucleus	http://purl.obolibrary.org/obo/XAO_0004557	isthmic nucleus
 http://purl.obolibrary.org/obo/XPO_0101457	abnormal jaw muscle	http://purl.obolibrary.org/obo/XAO_0003269	jaw muscle
+http://purl.obolibrary.org/obo/XPO_0131664	abnormal jaw muscle primordium	http://purl.obolibrary.org/obo/XAO_0005287	jaw muscle primordium
 http://purl.obolibrary.org/obo/XPO_0101586	abnormal joint	http://purl.obolibrary.org/obo/XAO_0000171	joint
 http://purl.obolibrary.org/obo/XPO_0101200	abnormal joint region	http://purl.obolibrary.org/obo/XAO_0004313	joint region
 http://purl.obolibrary.org/obo/XPO_0100691	abnormal keratin accumulating cell	http://purl.obolibrary.org/obo/XAO_0003252	keratin accumulating cell
@@ -709,16 +721,9 @@ http://purl.obolibrary.org/obo/XPO_0101530	abnormal laterodorsal tegmental nucle
 http://purl.obolibrary.org/obo/XPO_0100200	abnormal left atrium	http://purl.obolibrary.org/obo/XAO_0003191	left atrium
 http://purl.obolibrary.org/obo/XPO_0100784	abnormal left blastomere	http://purl.obolibrary.org/obo/XAO_0005172	left blastomere
 http://purl.obolibrary.org/obo/XPO_0100679	abnormal left channel of ventral aorta	http://purl.obolibrary.org/obo/XAO_0000339	left channel of ventral aorta
-http://purl.obolibrary.org/obo/XPO_0107313	abnormal left eye	http://purl.obolibrary.org/obo/XAO_0005256	left eye
-http://purl.obolibrary.org/obo/XPO_0107329	abnormal left forelimb	http://purl.obolibrary.org/obo/XAO_0005272	left forelimb
-http://purl.obolibrary.org/obo/XPO_0107331	abnormal left hindlimb	http://purl.obolibrary.org/obo/XAO_0005274	left hindlimb
-http://purl.obolibrary.org/obo/XPO_0107315	abnormal left inner ear	http://purl.obolibrary.org/obo/XAO_0005258	left inner ear
 http://purl.obolibrary.org/obo/XPO_0100540	abnormal left lymph heart	http://purl.obolibrary.org/obo/XAO_0000372	left lymph heart
-http://purl.obolibrary.org/obo/XPO_0107309	abnormal left olfactory pit	http://purl.obolibrary.org/obo/XAO_0005252	left olfactory pit
 http://purl.obolibrary.org/obo/XPO_0101355	abnormal left omphalomesenteric vein	http://purl.obolibrary.org/obo/XAO_0004166	left omphalomesenteric vein
 http://purl.obolibrary.org/obo/XPO_0107333	abnormal left optic vesicle	http://purl.obolibrary.org/obo/XAO_0005276	left optic vesicle
-http://purl.obolibrary.org/obo/XPO_0107335	abnormal left part of brain	http://purl.obolibrary.org/obo/XAO_0005278	left part of brain
-http://purl.obolibrary.org/obo/XPO_0107327	abnormal left part of branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005270	left part of branchial arch skeleton
 http://purl.obolibrary.org/obo/XPO_0107268	abnormal left side	http://purl.obolibrary.org/obo/XAO_0005210	left side
 http://purl.obolibrary.org/obo/XPO_0101332	abnormal left spleen primordium	http://purl.obolibrary.org/obo/XAO_0000326	left spleen primordium
 http://purl.obolibrary.org/obo/XPO_0101598	abnormal left ventricle	http://purl.obolibrary.org/obo/XAO_0004610	left ventricle
@@ -813,11 +818,13 @@ http://purl.obolibrary.org/obo/XPO_0100075	abnormal mandibular artery	http://pur
 http://purl.obolibrary.org/obo/XPO_0100470	abnormal mandibular crest	http://purl.obolibrary.org/obo/XAO_0000024	mandibular crest
 http://purl.obolibrary.org/obo/XPO_0100381	abnormal mandibular head muscle	http://purl.obolibrary.org/obo/XAO_0004323	mandibular head muscle
 http://purl.obolibrary.org/obo/XPO_0100532	abnormal mandibular mesenchyme	http://purl.obolibrary.org/obo/XAO_0004508	mandibular mesenchyme
+http://purl.obolibrary.org/obo/XPO_0131688	abnormal mandibular nerve	http://purl.obolibrary.org/obo/XAO_0005294	mandibular nerve
 http://purl.obolibrary.org/obo/XPO_0101377	abnormal manicotto glandulare	http://purl.obolibrary.org/obo/XAO_0004235	manicotto glandulare
 http://purl.obolibrary.org/obo/XPO_0100394	abnormal marginal zone	http://purl.obolibrary.org/obo/XAO_0000068	marginal zone
 http://purl.obolibrary.org/obo/XPO_0101411	abnormal marginal zone (sensu neural)	http://purl.obolibrary.org/obo/XAO_0000309	marginal zone (sensu neural)
 http://purl.obolibrary.org/obo/XPO_0100807	abnormal matrix-based tissue	http://purl.obolibrary.org/obo/XAO_0005000	matrix-based tissue
 http://purl.obolibrary.org/obo/XPO_0101145	abnormal maxillary artery	http://purl.obolibrary.org/obo/XAO_0004245	maxillary artery
+http://purl.obolibrary.org/obo/XPO_0131670	abnormal maxillary nerve	http://purl.obolibrary.org/obo/XAO_0005293	maxillary nerve
 http://purl.obolibrary.org/obo/XPO_0100534	abnormal medial abdominal vein	http://purl.obolibrary.org/obo/XAO_0000395	medial abdominal vein
 http://purl.obolibrary.org/obo/XPO_0101425	abnormal medial amygdala	http://purl.obolibrary.org/obo/XAO_0004568	medial amygdala
 http://purl.obolibrary.org/obo/XPO_0100652	abnormal medial cardinal vein	http://purl.obolibrary.org/obo/XAO_0000384	medial cardinal vein
@@ -924,6 +931,7 @@ http://purl.obolibrary.org/obo/XPO_0100653	abnormal myoblast	http://purl.obolibr
 http://purl.obolibrary.org/obo/XPO_0100558	abnormal myocardium	http://purl.obolibrary.org/obo/XAO_0000065	myocardium
 http://purl.obolibrary.org/obo/XPO_0101511	abnormal myocoelic slit	http://purl.obolibrary.org/obo/XAO_0000246	myocoelic slit
 http://purl.obolibrary.org/obo/XPO_0100596	abnormal myocyte	http://purl.obolibrary.org/obo/XAO_0004475	myocyte
+http://purl.obolibrary.org/obo/XPO_0131655	abnormal myofibril	http://purl.obolibrary.org/obo/XAO_0005311	myofibril
 http://purl.obolibrary.org/obo/XPO_0100065	abnormal myotome	http://purl.obolibrary.org/obo/XAO_0000315	myotome
 http://purl.obolibrary.org/obo/XPO_0101190	abnormal myotome of head somite 1	http://purl.obolibrary.org/obo/XAO_0003104	myotome of head somite 1
 http://purl.obolibrary.org/obo/XPO_0100561	abnormal myotome of head somite 2	http://purl.obolibrary.org/obo/XAO_0003105	myotome of head somite 2
@@ -948,6 +956,7 @@ http://purl.obolibrary.org/obo/XPO_0101305	abnormal myotome of trunk somite 7	ht
 http://purl.obolibrary.org/obo/XPO_0101032	abnormal myotome of trunk somite 8	http://purl.obolibrary.org/obo/XAO_0003120	myotome of trunk somite 8
 http://purl.obolibrary.org/obo/XPO_0101385	abnormal myotome of trunk somite 9	http://purl.obolibrary.org/obo/XAO_0003125	myotome of trunk somite 9
 http://purl.obolibrary.org/obo/XPO_0101369	abnormal nasociliary artery	http://purl.obolibrary.org/obo/XAO_0004175	nasociliary artery
+http://purl.obolibrary.org/obo/XPO_0131671	abnormal nasociliary nerve	http://purl.obolibrary.org/obo/XAO_0005292	nasociliary nerve
 http://purl.obolibrary.org/obo/XPO_0100814	abnormal natural killer cell	http://purl.obolibrary.org/obo/XAO_0003156	natural killer cell
 http://purl.obolibrary.org/obo/XPO_0100167	abnormal nerve	http://purl.obolibrary.org/obo/XAO_0003047	nerve
 http://purl.obolibrary.org/obo/XPO_0100032	abnormal nervous system	http://purl.obolibrary.org/obo/XAO_0000177	nervous system
@@ -973,6 +982,7 @@ http://purl.obolibrary.org/obo/XPO_0101515	abnormal neuromast mantle cell	http:/
 http://purl.obolibrary.org/obo/XPO_0100544	abnormal neuromast support cell	http://purl.obolibrary.org/obo/XAO_0003259	neuromast support cell
 http://purl.obolibrary.org/obo/XPO_0100158	abnormal neuromere	http://purl.obolibrary.org/obo/XAO_0004597	neuromere
 http://purl.obolibrary.org/obo/XPO_0100196	abnormal neuron	http://purl.obolibrary.org/obo/XAO_0003023	neuron
+http://purl.obolibrary.org/obo/XPO_0131654	abnormal neuron projection	http://purl.obolibrary.org/obo/XAO_0005317	neuron projection
 http://purl.obolibrary.org/obo/XPO_0100636	abnormal neuropil of the optic tectum	http://purl.obolibrary.org/obo/XAO_0005029	neuropil of the optic tectum
 http://purl.obolibrary.org/obo/XPO_0107254	abnormal neutrophil	http://purl.obolibrary.org/obo/XAO_0005196	neutrophil
 http://purl.obolibrary.org/obo/XPO_0101176	abnormal non-ciliated epithelial cell	http://purl.obolibrary.org/obo/XAO_0004225	non-ciliated epithelial cell
@@ -983,6 +993,7 @@ http://purl.obolibrary.org/obo/XPO_0100250	abnormal non-mineralized cartilage ti
 http://purl.obolibrary.org/obo/XPO_0100366	abnormal non-mineralized chondroid tissue	http://purl.obolibrary.org/obo/XAO_0004200	non-mineralized chondroid tissue
 http://purl.obolibrary.org/obo/XPO_0100312	abnormal non-mineralized hyaline cartilage tissue	http://purl.obolibrary.org/obo/XAO_0004044	non-mineralized hyaline cartilage tissue
 http://purl.obolibrary.org/obo/XPO_0100279	abnormal non-neural ectoderm	http://purl.obolibrary.org/obo/XAO_0004091	non-neural ectoderm
+http://purl.obolibrary.org/obo/XPO_0131672	abnormal non-neurogenic ectodermal placode	http://purl.obolibrary.org/obo/XAO_0005283	non-neurogenic ectodermal placode
 http://purl.obolibrary.org/obo/XPO_0101483	abnormal nostril	http://purl.obolibrary.org/obo/XAO_0003033	nostril
 http://purl.obolibrary.org/obo/XPO_0100422	abnormal notochord	http://purl.obolibrary.org/obo/XAO_0000055	notochord
 http://purl.obolibrary.org/obo/XPO_0101577	abnormal notochordal epithelium	http://purl.obolibrary.org/obo/XAO_0001021	notochordal epithelium
@@ -1086,6 +1097,7 @@ http://purl.obolibrary.org/obo/XPO_0100882	abnormal perichondrial cell	http://pu
 http://purl.obolibrary.org/obo/XPO_0100378	abnormal perichondrium	http://purl.obolibrary.org/obo/XAO_0004049	perichondrium
 http://purl.obolibrary.org/obo/XPO_0101348	abnormal perichordal tissue	http://purl.obolibrary.org/obo/XAO_0004050	perichordal tissue
 http://purl.obolibrary.org/obo/XPO_0100477	abnormal pericyte	http://purl.obolibrary.org/obo/XAO_0003264	pericyte
+http://purl.obolibrary.org/obo/XPO_0131656	abnormal periocular mesenchyme	http://purl.obolibrary.org/obo/XAO_0005316	periocular mesenchyme
 http://purl.obolibrary.org/obo/XPO_0100664	abnormal periocular region	http://purl.obolibrary.org/obo/XAO_0004089	periocular region
 http://purl.obolibrary.org/obo/XPO_0100379	abnormal periosteum	http://purl.obolibrary.org/obo/XAO_0004503	periosteum
 http://purl.obolibrary.org/obo/XPO_0100857	abnormal periosteum (sensu fibrous layer)	http://purl.obolibrary.org/obo/XAO_0004504	periosteum (sensu fibrous layer)
@@ -1107,6 +1119,8 @@ http://purl.obolibrary.org/obo/XPO_0101172	abnormal pharyngeal pouch	http://purl
 http://purl.obolibrary.org/obo/XPO_0100627	abnormal pharyngeal region	http://purl.obolibrary.org/obo/XAO_0004261	pharyngeal region
 http://purl.obolibrary.org/obo/XPO_0101036	abnormal pharynx	http://purl.obolibrary.org/obo/XAO_0003227	pharynx
 http://purl.obolibrary.org/obo/XPO_0100229	abnormal photoreceptor layer	http://purl.obolibrary.org/obo/XAO_0003215	photoreceptor layer
+http://purl.obolibrary.org/obo/XPO_0131663	abnormal pia mater	http://purl.obolibrary.org/obo/XAO_0005289	pia mater
+http://purl.obolibrary.org/obo/XPO_0131674	abnormal pial cell	http://purl.obolibrary.org/obo/XAO_0005288	pial cell
 http://purl.obolibrary.org/obo/XPO_0101278	abnormal pigment cell	http://purl.obolibrary.org/obo/XAO_0003014	pigment cell
 http://purl.obolibrary.org/obo/XPO_0101310	abnormal pigment layer	http://purl.obolibrary.org/obo/XAO_0000261	pigment layer
 http://purl.obolibrary.org/obo/XPO_0101068	abnormal pineal gland	http://purl.obolibrary.org/obo/XAO_0000160	pineal gland
@@ -1124,6 +1138,8 @@ http://purl.obolibrary.org/obo/XPO_0101080	abnormal posterior cardinal vein	http
 http://purl.obolibrary.org/obo/XPO_0100777	abnormal posterior cerebral vein	http://purl.obolibrary.org/obo/XAO_0004159	posterior cerebral vein
 http://purl.obolibrary.org/obo/XPO_0101266	abnormal posterior commissure	http://purl.obolibrary.org/obo/XAO_0004579	posterior commissure
 http://purl.obolibrary.org/obo/XPO_0100264	abnormal posterior crista	http://purl.obolibrary.org/obo/XAO_0004133	posterior crista
+http://purl.obolibrary.org/obo/XPO_0131680	abnormal posterior endoderm	http://purl.obolibrary.org/obo/XAO_0005302	posterior endoderm
+http://purl.obolibrary.org/obo/XPO_0131684	abnormal posterior endomesoderm	http://purl.obolibrary.org/obo/XAO_0005307	posterior endomesoderm
 http://purl.obolibrary.org/obo/XPO_0101101	abnormal posterior foregut	http://purl.obolibrary.org/obo/XAO_0005128	posterior foregut
 http://purl.obolibrary.org/obo/XPO_0107307	abnormal posterior hindgut endoderm	http://purl.obolibrary.org/obo/XAO_0005250	posterior hindgut endoderm
 http://purl.obolibrary.org/obo/XPO_0101293	abnormal posterior hypothalamus	http://purl.obolibrary.org/obo/XAO_0004236	posterior hypothalamus
@@ -1134,7 +1150,6 @@ http://purl.obolibrary.org/obo/XPO_0107299	abnormal posterior neural fold	http:/
 http://purl.obolibrary.org/obo/XPO_0100787	abnormal posterior neural tube	http://purl.obolibrary.org/obo/XAO_0000250	posterior neural tube
 http://purl.obolibrary.org/obo/XPO_0100871	abnormal posterior palatine artery	http://purl.obolibrary.org/obo/XAO_0000354	posterior palatine artery
 http://purl.obolibrary.org/obo/XPO_0100855	abnormal posterior placodal area	http://purl.obolibrary.org/obo/XAO_0004207	posterior placodal area
-http://purl.obolibrary.org/obo/XPO_0107275	abnormal posterior region	http://purl.obolibrary.org/obo/XAO_0005217	posterior region
 http://purl.obolibrary.org/obo/XPO_0100502	abnormal posterior semicircular canal	http://purl.obolibrary.org/obo/XAO_0005042	posterior semicircular canal
 http://purl.obolibrary.org/obo/XPO_0107265	abnormal posterior side	http://purl.obolibrary.org/obo/XAO_0005207	posterior side
 http://purl.obolibrary.org/obo/XPO_0107318	abnormal posterior tail	http://purl.obolibrary.org/obo/XAO_0005261	posterior tail
@@ -1143,8 +1158,6 @@ http://purl.obolibrary.org/obo/XPO_0101525	abnormal posterior vena cava	http://p
 http://purl.obolibrary.org/obo/XPO_0101188	abnormal posterior ventral blood island	http://purl.obolibrary.org/obo/XAO_0004628	posterior ventral blood island
 http://purl.obolibrary.org/obo/XPO_0100795	abnormal posterior wall of neurenteric canal	http://purl.obolibrary.org/obo/XAO_0000109	posterior wall of neurenteric canal
 http://purl.obolibrary.org/obo/XPO_0101337	abnormal posterior-proximal mesenchyme	http://purl.obolibrary.org/obo/XAO_0004409	posterior-proximal mesenchyme
-http://purl.obolibrary.org/obo/XPO_0107281	abnormal postero-dorsal region	http://purl.obolibrary.org/obo/XAO_0005223	postero-dorsal region
-http://purl.obolibrary.org/obo/XPO_0107282	abnormal postero-ventral region	http://purl.obolibrary.org/obo/XAO_0005224	postero-ventral region
 http://purl.obolibrary.org/obo/XPO_0101423	abnormal posterodorsal tegmental nucleus	http://purl.obolibrary.org/obo/XAO_0004581	posterodorsal tegmental nucleus
 http://purl.obolibrary.org/obo/XPO_0100655	abnormal posteroventral tegmental nucleus	http://purl.obolibrary.org/obo/XAO_0004582	posteroventral tegmental nucleus
 http://purl.obolibrary.org/obo/XPO_0100960	abnormal postmigratory neural crest cell	http://purl.obolibrary.org/obo/XAO_0004309	postmigratory neural crest cell
@@ -1199,6 +1212,7 @@ http://purl.obolibrary.org/obo/XPO_0100950	abnormal pronephric nephron	http://pu
 http://purl.obolibrary.org/obo/XPO_0100500	abnormal pronephric nephrostome	http://purl.obolibrary.org/obo/XAO_0000062	pronephric nephrostome
 http://purl.obolibrary.org/obo/XPO_0101550	abnormal pronephric sinus	http://purl.obolibrary.org/obo/XAO_0000385	pronephric sinus
 http://purl.obolibrary.org/obo/XPO_0100835	abnormal pronephric tubule	http://purl.obolibrary.org/obo/XAO_0004105	pronephric tubule
+http://purl.obolibrary.org/obo/XPO_0131676	abnormal prootic bone	http://purl.obolibrary.org/obo/XAO_0005314	prootic bone
 http://purl.obolibrary.org/obo/XPO_0100650	abnormal prosomere	http://purl.obolibrary.org/obo/XAO_0004598	prosomere
 http://purl.obolibrary.org/obo/XPO_0101595	abnormal prosomere 4	http://purl.obolibrary.org/obo/XAO_0004599	prosomere 4
 http://purl.obolibrary.org/obo/XPO_0101568	abnormal prosomere 5	http://purl.obolibrary.org/obo/XAO_0004600	prosomere 5
@@ -1229,11 +1243,11 @@ http://purl.obolibrary.org/obo/XPO_0101181	abnormal regenerating hindlimb	http:/
 http://purl.obolibrary.org/obo/XPO_0107297	abnormal regenerating lens	http://purl.obolibrary.org/obo/XAO_0005240	regenerating lens
 http://purl.obolibrary.org/obo/XPO_0100187	abnormal regenerating limb	http://purl.obolibrary.org/obo/XAO_0004311	regenerating limb
 http://purl.obolibrary.org/obo/XPO_0107326	abnormal regenerating pelvic girdle	http://purl.obolibrary.org/obo/XAO_0005269	regenerating pelvic girdle
+http://purl.obolibrary.org/obo/XPO_0100597	abnormal regenerating skeletal element	http://purl.obolibrary.org/obo/XAO_0004016	regenerating skeletal element
 http://purl.obolibrary.org/obo/XPO_0100059	abnormal regenerating tail	http://purl.obolibrary.org/obo/XAO_0004108	regenerating tail
 http://purl.obolibrary.org/obo/XPO_0100060	abnormal regenerating tissue	http://purl.obolibrary.org/obo/XAO_0004059	regenerating tissue
 http://purl.obolibrary.org/obo/XPO_0101399	abnormal regenerating zeugopod skeleton	http://purl.obolibrary.org/obo/XAO_0004400	regenerating zeugopod skeleton
 http://purl.obolibrary.org/obo/XPO_0100504	abnormal renal artery	http://purl.obolibrary.org/obo/XAO_0004249	renal artery
-http://purl.obolibrary.org/obo/XPO_0100597	abnormal replacement element	http://purl.obolibrary.org/obo/XAO_0004016	replacement element
 http://purl.obolibrary.org/obo/XPO_0100317	abnormal respiratory system	http://purl.obolibrary.org/obo/XAO_0000117	respiratory system
 http://purl.obolibrary.org/obo/XPO_0100485	abnormal retina	http://purl.obolibrary.org/obo/XAO_0000009	retina
 http://purl.obolibrary.org/obo/XPO_0100329	abnormal retinal blood vessel	http://purl.obolibrary.org/obo/XAO_0004153	retinal blood vessel
@@ -1252,6 +1266,7 @@ http://purl.obolibrary.org/obo/XPO_0101152	abnormal retinal progenitor cell regi
 http://purl.obolibrary.org/obo/XPO_0101219	abnormal retinal rod cell	http://purl.obolibrary.org/obo/XAO_0004112	retinal rod cell
 http://purl.obolibrary.org/obo/XPO_0100818	abnormal retinal stem cell	http://purl.obolibrary.org/obo/XAO_0004483	retinal stem cell
 http://purl.obolibrary.org/obo/XPO_0100873	abnormal retinal stem cell region	http://purl.obolibrary.org/obo/XAO_0004387	retinal stem cell region
+http://purl.obolibrary.org/obo/XPO_0131665	abnormal retinal vein	http://purl.obolibrary.org/obo/XAO_0005315	retinal vein
 http://purl.obolibrary.org/obo/XPO_0100195	abnormal retromammillary area	http://purl.obolibrary.org/obo/XAO_0005051	retromammillary area
 http://purl.obolibrary.org/obo/XPO_0100748	abnormal rhombic lip	http://purl.obolibrary.org/obo/XAO_0004135	rhombic lip
 http://purl.obolibrary.org/obo/XPO_0100083	abnormal rhombomere	http://purl.obolibrary.org/obo/XAO_0004079	rhombomere
@@ -1267,21 +1282,15 @@ http://purl.obolibrary.org/obo/XPO_0101070	abnormal rib	http://purl.obolibrary.o
 http://purl.obolibrary.org/obo/XPO_0100878	abnormal right atrium	http://purl.obolibrary.org/obo/XAO_0003192	right atrium
 http://purl.obolibrary.org/obo/XPO_0100989	abnormal right blastomere	http://purl.obolibrary.org/obo/XAO_0005173	right blastomere
 http://purl.obolibrary.org/obo/XPO_0100213	abnormal right channel of ventral aorta	http://purl.obolibrary.org/obo/XAO_0000340	right channel of ventral aorta
-http://purl.obolibrary.org/obo/XPO_0107314	abnormal right eye	http://purl.obolibrary.org/obo/XAO_0005257	right eye
-http://purl.obolibrary.org/obo/XPO_0107330	abnormal right forelimb	http://purl.obolibrary.org/obo/XAO_0005273	right forelimb
-http://purl.obolibrary.org/obo/XPO_0107332	abnormal right hindlimb	http://purl.obolibrary.org/obo/XAO_0005275	right hindlimb
-http://purl.obolibrary.org/obo/XPO_0107316	abnormal right inner ear	http://purl.obolibrary.org/obo/XAO_0005259	right inner ear
 http://purl.obolibrary.org/obo/XPO_0100242	abnormal right lymph heart	http://purl.obolibrary.org/obo/XAO_0000371	right lymph heart
-http://purl.obolibrary.org/obo/XPO_0107310	abnormal right olfactory pit	http://purl.obolibrary.org/obo/XAO_0005253	right olfactory pit
 http://purl.obolibrary.org/obo/XPO_0107334	abnormal right optic vesicle	http://purl.obolibrary.org/obo/XAO_0005277	right optic vesicle
-http://purl.obolibrary.org/obo/XPO_0107336	abnormal right part of brain	http://purl.obolibrary.org/obo/XAO_0005279	right part of brain
-http://purl.obolibrary.org/obo/XPO_0107328	abnormal right part of branchial arch skeleton	http://purl.obolibrary.org/obo/XAO_0005271	right part of branchial arch skeleton
 http://purl.obolibrary.org/obo/XPO_0107269	abnormal right side	http://purl.obolibrary.org/obo/XAO_0005211	right side
 http://purl.obolibrary.org/obo/XPO_0101029	abnormal right spleen primordium	http://purl.obolibrary.org/obo/XAO_0000327	right spleen primordium
 http://purl.obolibrary.org/obo/XPO_0100602	abnormal right ventricle	http://purl.obolibrary.org/obo/XAO_0004611	right ventricle
 http://purl.obolibrary.org/obo/XPO_0100887	abnormal right-dorsal blastomere	http://purl.obolibrary.org/obo/XAO_0005175	right-dorsal blastomere
 http://purl.obolibrary.org/obo/XPO_0101463	abnormal right-ventral blastomere	http://purl.obolibrary.org/obo/XAO_0005177	right-ventral blastomere
 http://purl.obolibrary.org/obo/XPO_0101405	abnormal ring structure	http://purl.obolibrary.org/obo/XAO_0004293	ring structure
+http://purl.obolibrary.org/obo/XPO_0131651	abnormal roof of mouth	http://purl.obolibrary.org/obo/XAO_0005320	roof of mouth
 http://purl.obolibrary.org/obo/XPO_0101271	abnormal roof plate	http://purl.obolibrary.org/obo/XAO_0000022	roof plate
 http://purl.obolibrary.org/obo/XPO_0107295	abnormal rostral notochord	http://purl.obolibrary.org/obo/XAO_0005238	rostral notochord
 http://purl.obolibrary.org/obo/XPO_0101285	abnormal rostral presomitic mesoderm	http://purl.obolibrary.org/obo/XAO_0004618	rostral presomitic mesoderm
@@ -1290,6 +1299,7 @@ http://purl.obolibrary.org/obo/XPO_0101344	abnormal saccular macula	http://purl.
 http://purl.obolibrary.org/obo/XPO_0101028	abnormal sacculus	http://purl.obolibrary.org/obo/XAO_0000196	sacculus
 http://purl.obolibrary.org/obo/XPO_0101299	abnormal sacral neural crest	http://purl.obolibrary.org/obo/XAO_0004192	sacral neural crest
 http://purl.obolibrary.org/obo/XPO_0100927	abnormal sacral vertebra	http://purl.obolibrary.org/obo/XAO_0003078	sacral vertebra
+http://purl.obolibrary.org/obo/XPO_0131660	abnormal sarcomere	http://purl.obolibrary.org/obo/XAO_0005284	sarcomere
 http://purl.obolibrary.org/obo/XPO_0101233	abnormal scapula	http://purl.obolibrary.org/obo/XAO_0004286	scapula
 http://purl.obolibrary.org/obo/XPO_0100832	abnormal sciatic nerve	http://purl.obolibrary.org/obo/XAO_0005065	sciatic nerve
 http://purl.obolibrary.org/obo/XPO_0100881	abnormal sclera	http://purl.obolibrary.org/obo/XAO_0000183	sclera
@@ -1366,6 +1376,7 @@ http://purl.obolibrary.org/obo/XPO_0100438	abnormal spinal cord	http://purl.obol
 http://purl.obolibrary.org/obo/XPO_0100445	abnormal spinal ganglion	http://purl.obolibrary.org/obo/XAO_0000210	spinal ganglion
 http://purl.obolibrary.org/obo/XPO_0101030	abnormal spinal nerve	http://purl.obolibrary.org/obo/XAO_0003101	spinal nerve
 http://purl.obolibrary.org/obo/XPO_0100863	abnormal spinal neuron	http://purl.obolibrary.org/obo/XAO_0005018	spinal neuron
+http://purl.obolibrary.org/obo/XPO_0131675	abnormal spindle microtubule	http://purl.obolibrary.org/obo/XAO_0005285	spindle microtubule
 http://purl.obolibrary.org/obo/XPO_0100854	abnormal spiracle	http://purl.obolibrary.org/obo/XAO_0004232	spiracle
 http://purl.obolibrary.org/obo/XPO_0101400	abnormal spiral septum	http://purl.obolibrary.org/obo/XAO_0004141	spiral septum
 http://purl.obolibrary.org/obo/XPO_0100790	abnormal splanchnic layer of lateral plate mesoderm	http://purl.obolibrary.org/obo/XAO_0000276	splanchnic layer of lateral plate mesoderm
@@ -1381,6 +1392,7 @@ http://purl.obolibrary.org/obo/XPO_0100982	abnormal stapes	http://purl.obolibrar
 http://purl.obolibrary.org/obo/XPO_0100172	abnormal stem cell	http://purl.obolibrary.org/obo/XAO_0003054	stem cell
 http://purl.obolibrary.org/obo/XPO_0100847	abnormal stomach	http://purl.obolibrary.org/obo/XAO_0000128	stomach
 http://purl.obolibrary.org/obo/XPO_0101008	abnormal stomach body	http://purl.obolibrary.org/obo/XAO_0005156	stomach body
+http://purl.obolibrary.org/obo/XPO_0131683	abnormal stomach epithelium	http://purl.obolibrary.org/obo/XAO_0005300	stomach epithelium
 http://purl.obolibrary.org/obo/XPO_0100578	abnormal stomodeal-hypophyseal primordium	http://purl.obolibrary.org/obo/XAO_0000032	stomodeal-hypophyseal primordium
 http://purl.obolibrary.org/obo/XPO_0101254	abnormal stratum compactum	http://purl.obolibrary.org/obo/XAO_0005059	stratum compactum
 http://purl.obolibrary.org/obo/XPO_0101208	abnormal stratum spongiosum	http://purl.obolibrary.org/obo/XAO_0005058	stratum spongiosum
@@ -1443,6 +1455,7 @@ http://purl.obolibrary.org/obo/XPO_0100912	abnormal trabecula	http://purl.obolib
 http://purl.obolibrary.org/obo/XPO_0101119	abnormal trabecula carnea	http://purl.obolibrary.org/obo/XAO_0004470	trabecula carnea
 http://purl.obolibrary.org/obo/XPO_0100212	abnormal trabecula cranii	http://purl.obolibrary.org/obo/XAO_0004381	trabecula cranii
 http://purl.obolibrary.org/obo/XPO_0101342	abnormal trachea	http://purl.obolibrary.org/obo/XAO_0000118	trachea
+http://purl.obolibrary.org/obo/XPO_0131661	abnormal tracheal epithelium	http://purl.obolibrary.org/obo/XAO_0005298	tracheal epithelium
 http://purl.obolibrary.org/obo/XPO_0100868	abnormal transporting epithelium	http://purl.obolibrary.org/obo/XAO_0004224	transporting epithelium
 http://purl.obolibrary.org/obo/XPO_0101446	abnormal transverse process	http://purl.obolibrary.org/obo/XAO_0003102	transverse process
 http://purl.obolibrary.org/obo/XPO_0101312	abnormal trigeminal ganglion	http://purl.obolibrary.org/obo/XAO_0000428	trigeminal ganglion
@@ -1511,6 +1524,8 @@ http://purl.obolibrary.org/obo/XPO_0100208	abnormal ventral aorta	http://purl.ob
 http://purl.obolibrary.org/obo/XPO_0100616	abnormal ventral blood island	http://purl.obolibrary.org/obo/XAO_0000067	ventral blood island
 http://purl.obolibrary.org/obo/XPO_0101524	abnormal ventral blood island border	http://purl.obolibrary.org/obo/XAO_0004627	ventral blood island border
 http://purl.obolibrary.org/obo/XPO_0101013	abnormal ventral caudal lymphatic vessel	http://purl.obolibrary.org/obo/XAO_0004262	ventral caudal lymphatic vessel
+http://purl.obolibrary.org/obo/XPO_0131658	abnormal ventral endoderm	http://purl.obolibrary.org/obo/XAO_0005301	ventral endoderm
+http://purl.obolibrary.org/obo/XPO_0131657	abnormal ventral endomesoderm	http://purl.obolibrary.org/obo/XAO_0005305	ventral endomesoderm
 http://purl.obolibrary.org/obo/XPO_0101516	abnormal ventral fin margin	http://purl.obolibrary.org/obo/XAO_0004065	ventral fin margin
 http://purl.obolibrary.org/obo/XPO_0101477	abnormal ventral fin vasculature	http://purl.obolibrary.org/obo/XAO_0004626	ventral fin vasculature
 http://purl.obolibrary.org/obo/XPO_0101381	abnormal ventral foregut	http://purl.obolibrary.org/obo/XAO_0005125	ventral foregut
@@ -1525,7 +1540,6 @@ http://purl.obolibrary.org/obo/XPO_0100972	abnormal ventral pallidum	http://purl
 http://purl.obolibrary.org/obo/XPO_0100434	abnormal ventral pallium	http://purl.obolibrary.org/obo/XAO_0004594	ventral pallium
 http://purl.obolibrary.org/obo/XPO_0100718	abnormal ventral pancreatic bud	http://purl.obolibrary.org/obo/XAO_0001103	ventral pancreatic bud
 http://purl.obolibrary.org/obo/XPO_0107306	abnormal ventral posterior hindgut endoderm	http://purl.obolibrary.org/obo/XAO_0005249	ventral posterior hindgut endoderm
-http://purl.obolibrary.org/obo/XPO_0107277	abnormal ventral region	http://purl.obolibrary.org/obo/XAO_0005219	ventral region
 http://purl.obolibrary.org/obo/XPO_0101475	abnormal ventral septum	http://purl.obolibrary.org/obo/XAO_0005055	ventral septum
 http://purl.obolibrary.org/obo/XPO_0107267	abnormal ventral side	http://purl.obolibrary.org/obo/XAO_0005209	ventral side
 http://purl.obolibrary.org/obo/XPO_0100453	abnormal ventral tail fin	http://purl.obolibrary.org/obo/XAO_0004064	ventral tail fin
@@ -1536,7 +1550,6 @@ http://purl.obolibrary.org/obo/XPO_0101045	abnormal ventricular layer of the opt
 http://purl.obolibrary.org/obo/XPO_0101245	abnormal ventricular outflow tract	http://purl.obolibrary.org/obo/XAO_0004140	ventricular outflow tract
 http://purl.obolibrary.org/obo/XPO_0101001	abnormal ventricular zone	http://purl.obolibrary.org/obo/XAO_0000021	ventricular zone
 http://purl.obolibrary.org/obo/XPO_0101099	abnormal ventro-lateral marginal zone	http://purl.obolibrary.org/obo/XAO_0000070	ventro-lateral marginal zone
-http://purl.obolibrary.org/obo/XPO_0107337	abnormal ventro-lateral region	http://purl.obolibrary.org/obo/XAO_0005280	ventro-lateral region
 http://purl.obolibrary.org/obo/XPO_0101437	abnormal ventrolateral edge of myotome	http://purl.obolibrary.org/obo/XAO_0005079	ventrolateral edge of myotome
 http://purl.obolibrary.org/obo/XPO_0101035	abnormal ventrolateral neural tube	http://purl.obolibrary.org/obo/XAO_0004616	ventrolateral neural tube
 http://purl.obolibrary.org/obo/XPO_0101140	abnormal ventrolateral thalamic nucleus	http://purl.obolibrary.org/obo/XAO_0004595	ventrolateral thalamic nucleus

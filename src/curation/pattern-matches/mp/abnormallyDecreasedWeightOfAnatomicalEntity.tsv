@@ -22,6 +22,7 @@ http://purl.obolibrary.org/obo/MP_0003402	decreased liver weight	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0005631	decreased lung weight	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/MP_0004232	decreased muscle weight	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/MP_0010046	decreased omental fat pad weight	http://purl.obolibrary.org/obo/UBERON_0010414	omental fat pad
+http://purl.obolibrary.org/obo/MP_0004856	decreased ovary weight	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0004856	decreased ovary weight	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009066	decreased oviduct weight	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0009109	decreased pancreas weight	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
@@ -34,6 +35,7 @@ http://purl.obolibrary.org/obo/MP_0009305	decreased retroperitoneal fat pad weig
 http://purl.obolibrary.org/obo/MP_0004910	decreased seminal vesicle weight	http://purl.obolibrary.org/obo/UBERON_0000998	seminal vesicle
 http://purl.obolibrary.org/obo/MP_0010239	decreased skeletal muscle weight	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/MP_0009426	decreased soleus weight	http://purl.obolibrary.org/obo/UBERON_0001389	soleus muscle
+http://purl.obolibrary.org/obo/MP_0030979	decreased spinal cord weight	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
 http://purl.obolibrary.org/obo/MP_0004953	decreased spleen weight	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
 http://purl.obolibrary.org/obo/MP_0004852	decreased testis weight	http://purl.obolibrary.org/obo/UBERON_0000473	testis
 http://purl.obolibrary.org/obo/MP_0004956	decreased thymus weight	http://purl.obolibrary.org/obo/UBERON_0002370	thymus

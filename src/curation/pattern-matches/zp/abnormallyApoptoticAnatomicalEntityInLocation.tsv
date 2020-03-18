@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/ZP_0014156	cell brain apoptotic, abnormal	http://
 http://purl.obolibrary.org/obo/ZP_0102932	cell ciliary marginal zone apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001289	ciliary marginal zone
 http://purl.obolibrary.org/obo/ZP_0006335	cell eye apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0103776	cell forebrain apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
+http://purl.obolibrary.org/obo/ZP_0007542	cell head apoptotic, abnormal	http://purl.obolibrary.org/obo/GO_0005623	cell	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0011625	cell head apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0103773	cell hindbrain apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0018841	cell intestine apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001338	intestine

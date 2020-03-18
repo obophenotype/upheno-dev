@@ -1,9 +1,4 @@
 defined_class	defined_class_label	chemical_entity	chemical_entity_label
-http://purl.obolibrary.org/obo/HP_0040210	Abnormal circulating biopterin concentration	http://purl.obolibrary.org/obo/CHEBI_22881	biopterins
-http://purl.obolibrary.org/obo/HP_0040206	Abnormal circulating neopterin concentration	http://purl.obolibrary.org/obo/CHEBI_25500	neopterins
-http://purl.obolibrary.org/obo/HP_0004364	Abnormal circulating nitrogen compound concentration	http://purl.obolibrary.org/obo/CHEBI_51143	nitrogen molecular entity
-http://purl.obolibrary.org/obo/HP_0410359	Abnormal core 1 O-glycan level	http://purl.obolibrary.org/obo/CHEBI_546807	CHEBI_546807
 http://purl.obolibrary.org/obo/HP_0410359	Abnormal core 1 O-glycan level	http://purl.obolibrary.org/obo/CHEBI_546807	beta-D-Galp-(1->3)-D-GalpNAc
 http://purl.obolibrary.org/obo/HP_0410176	Abnormal glucose-6-phosphate dehydrogenase level	http://purl.obolibrary.org/obo/PR_000007749	glucose-6-phosphate 1-dehydrogenase
 http://purl.obolibrary.org/obo/HP_0040214	Abnormal insulin level	http://purl.obolibrary.org/obo/PR_000009054	insulin
-http://purl.obolibrary.org/obo/HP_0045056	Abnormal levels of alpha-fetoprotein	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein

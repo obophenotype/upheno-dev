@@ -1,8 +1,8 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0002898	Kupffer's vesicle malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
 http://purl.obolibrary.org/obo/ZP_0000126	Meckel's cartilage malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
+http://purl.obolibrary.org/obo/ZP_0105707	Reissner's fiber malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005906	Reissner's fiber
 http://purl.obolibrary.org/obo/ZP_0002843	Weberian apparatus malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001188	Weberian apparatus
-http://purl.obolibrary.org/obo/ZP_0100105	actin-based cell projection peridermal cell increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000089	fin fold actinotrichium
 http://purl.obolibrary.org/obo/ZP_0004548	actinotrichium malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005435	actinotrichium
 http://purl.obolibrary.org/obo/ZP_0020407	anterior segment eye malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005566	anterior segment eye
 http://purl.obolibrary.org/obo/ZP_0011527	aortic arch malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005004	aortic arch
@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/ZP_0100852	ball malformed, abnormal	http://purl.o
 http://purl.obolibrary.org/obo/ZP_0003527	basibranchial malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000170	basibranchial
 http://purl.obolibrary.org/obo/ZP_0003554	basihyal cartilage malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
 http://purl.obolibrary.org/obo/ZP_0103956	bile canaliculus malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005163	bile canaliculus
+http://purl.obolibrary.org/obo/ZP_0105964	bile ductule malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005164	bile ductule
 http://purl.obolibrary.org/obo/ZP_0017138	blastema malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
 http://purl.obolibrary.org/obo/ZP_0014014	blood vessel malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel
 http://purl.obolibrary.org/obo/ZP_0003555	bone element malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001514	bone element
@@ -35,6 +36,7 @@ http://purl.obolibrary.org/obo/ZP_0015639	caudal fin lepidotrichium malformed, a
 http://purl.obolibrary.org/obo/ZP_0011542	caudal fin malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0004470	caudal vein malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
 http://purl.obolibrary.org/obo/ZP_0003863	caudal vein plexus malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
+http://purl.obolibrary.org/obo/ZP_0130868	caudal vertebra malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000326	caudal vertebra
 http://purl.obolibrary.org/obo/ZP_0004167	central artery malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005020	central artery
 http://purl.obolibrary.org/obo/ZP_0001447	central canal malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000938	central canal
 http://purl.obolibrary.org/obo/ZP_0000578	central nervous system malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000012	central nervous system
@@ -67,6 +69,7 @@ http://purl.obolibrary.org/obo/ZP_0002258	cranium malformed, abnormal	http://pur
 http://purl.obolibrary.org/obo/ZP_0000876	dentary malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000191	dentary
 http://purl.obolibrary.org/obo/ZP_0007544	digestive system malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000339	digestive system
 http://purl.obolibrary.org/obo/ZP_0004469	dorsal aorta malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
+http://purl.obolibrary.org/obo/ZP_0107227	dorsal fin fold malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000102	dorsal fin fold
 http://purl.obolibrary.org/obo/ZP_0015728	dorsal fin lepidotrichium malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001418	dorsal fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0002647	dorsal longitudinal anastomotic vessel malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0001784	dorsolateral motor nucleus of vagal nerve malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001695	dorsolateral motor nucleus of vagal nerve
@@ -83,7 +86,6 @@ http://purl.obolibrary.org/obo/ZP_0011039	extension malformed, abnormal	http://p
 http://purl.obolibrary.org/obo/ZP_0001616	eye malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0002452	eye photoreceptor cell malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0009154	eye photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0001189	fast muscle cell malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell
-http://purl.obolibrary.org/obo/ZP_0005643	fin fold actinotrichium malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000089	fin fold actinotrichium
 http://purl.obolibrary.org/obo/ZP_0002293	fin malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000108	fin
 http://purl.obolibrary.org/obo/ZP_0015706	floor plate malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000022	floor plate
 http://purl.obolibrary.org/obo/ZP_0003938	forebrain malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
@@ -138,6 +140,7 @@ http://purl.obolibrary.org/obo/ZP_0014955	migratory slow muscle precursor cell m
 http://purl.obolibrary.org/obo/ZP_0015620	molecular layer corpus cerebelli malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000394	molecular layer corpus cerebelli
 http://purl.obolibrary.org/obo/ZP_0104363	motor neuron malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron
 http://purl.obolibrary.org/obo/ZP_0006409	mouth malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000547	mouth
+http://purl.obolibrary.org/obo/ZP_0110340	multi-ciliated epithelial cell malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005242	multi-ciliated epithelial cell
 http://purl.obolibrary.org/obo/ZP_0010963	muscle cell malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell
 http://purl.obolibrary.org/obo/ZP_0006535	muscle malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle
 http://purl.obolibrary.org/obo/ZP_0001450	myocardium malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium
@@ -148,6 +151,8 @@ http://purl.obolibrary.org/obo/ZP_0000807	neural tube malformed, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0000130	neurocranial trabecula malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001321	neurocranial trabecula
 http://purl.obolibrary.org/obo/ZP_0003559	neurocranium malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001580	neurocranium
 http://purl.obolibrary.org/obo/ZP_0010140	neuroectoderm malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001120	neuroectoderm
+http://purl.obolibrary.org/obo/ZP_0105738	neuromast malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000243	neuromast
+http://purl.obolibrary.org/obo/ZP_0130869	non-Weberian precaudal vertebra malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001582	non-Weberian precaudal vertebra
 http://purl.obolibrary.org/obo/ZP_0102146	notochord inner cell malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005746	notochord inner cell
 http://purl.obolibrary.org/obo/ZP_0003356	notochord malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
 http://purl.obolibrary.org/obo/ZP_0011046	notochord posterior region malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001670	notochord posterior region
@@ -169,6 +174,7 @@ http://purl.obolibrary.org/obo/ZP_0004754	otic vesicle malformed, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0001862	otic vesicle protrusion malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001715	otic vesicle protrusion
 http://purl.obolibrary.org/obo/ZP_0002164	otolith malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001617	otolith
 http://purl.obolibrary.org/obo/ZP_0006398	palate malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005509	palate
+http://purl.obolibrary.org/obo/ZP_0106557	palatocerebral vein malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005056	palatocerebral vein
 http://purl.obolibrary.org/obo/ZP_0005615	palatoquadrate arch malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001272	palatoquadrate arch
 http://purl.obolibrary.org/obo/ZP_0003107	palatoquadrate cartilage malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001399	palatoquadrate cartilage
 http://purl.obolibrary.org/obo/ZP_0001096	pancreatic duct malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001372	pancreatic duct
@@ -179,6 +185,7 @@ http://purl.obolibrary.org/obo/ZP_0002853	parapophysis/rib malformed, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0010765	parasphenoid malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000561	parasphenoid
 http://purl.obolibrary.org/obo/ZP_0010764	parietal bone malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000486	parietal bone
 http://purl.obolibrary.org/obo/ZP_0003859	pectoral fin cartilage malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000257	pectoral fin cartilage
+http://purl.obolibrary.org/obo/ZP_0131189	pectoral fin endoskeletal disc malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001456	pectoral fin endoskeletal disc
 http://purl.obolibrary.org/obo/ZP_0003538	pectoral fin malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
 http://purl.obolibrary.org/obo/ZP_0015735	pelvic fin lepidotrichium malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001552	pelvic fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0104435	pelvic fin skeleton malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001387	pelvic fin skeleton
@@ -199,6 +206,7 @@ http://purl.obolibrary.org/obo/ZP_0007295	photoreceptor outer segment layer malf
 http://purl.obolibrary.org/obo/ZP_0001625	pillar of the anterior semicircular canal malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0007054	pillar of the anterior semicircular canal
 http://purl.obolibrary.org/obo/ZP_0001626	pillar of the lateral semicircular canal malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0007055	pillar of the lateral semicircular canal
 http://purl.obolibrary.org/obo/ZP_0001627	pillar of the posterior semicircular canal malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0007056	pillar of the posterior semicircular canal
+http://purl.obolibrary.org/obo/ZP_0107124	pillar of the semicircular canal malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001717	pillar of the semicircular canal
 http://purl.obolibrary.org/obo/ZP_0004221	podocyte malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0009285	podocyte
 http://purl.obolibrary.org/obo/ZP_0001828	post-vent region malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0011581	post-vent vasculature malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005037	post-vent vasculature
@@ -232,6 +240,7 @@ http://purl.obolibrary.org/obo/ZP_0010762	scale malformed, abnormal	http://purl.
 http://purl.obolibrary.org/obo/ZP_0012758	scapulocoracoid malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001455	scapulocoracoid
 http://purl.obolibrary.org/obo/ZP_0000854	semicircular canal malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000431	semicircular canal
 http://purl.obolibrary.org/obo/ZP_0015492	shield malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000071	shield
+http://purl.obolibrary.org/obo/ZP_0106725	skeletal muscle malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005277	skeletal muscle
 http://purl.obolibrary.org/obo/ZP_0001186	slow muscle cell malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
 http://purl.obolibrary.org/obo/ZP_0014550	snout malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0005496	snout
 http://purl.obolibrary.org/obo/ZP_0004462	somite 6 malformed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000982	somite 6

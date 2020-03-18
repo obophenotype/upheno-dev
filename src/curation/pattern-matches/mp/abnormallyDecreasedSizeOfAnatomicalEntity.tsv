@@ -1,5 +1,4 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/MP_0002772	brachypodia	http://purl.obolibrary.org/obo/UBERON_0002387	pes
 http://purl.obolibrary.org/obo/MP_0012480	decreased amygdala size	http://purl.obolibrary.org/obo/UBERON_0001876	amygdala
 http://purl.obolibrary.org/obo/MP_0008226	decreased anterior commissure size	http://purl.obolibrary.org/obo/UBERON_0000935	anterior commissure
 http://purl.obolibrary.org/obo/MP_0000868	decreased anterior vermis size	http://purl.obolibrary.org/obo/UBERON_0003941	cerebellum anterior vermis
@@ -31,6 +30,7 @@ http://purl.obolibrary.org/obo/MP_0008222	decreased hippocampal commissure size	
 http://purl.obolibrary.org/obo/MP_0012466	decreased hippocampal fimbria size	http://purl.obolibrary.org/obo/UBERON_0002310	hippocampus fimbria
 http://purl.obolibrary.org/obo/MP_0020545	decreased hippocampal fornix size	http://purl.obolibrary.org/obo/UBERON_0000052	fornix of brain
 http://purl.obolibrary.org/obo/MP_0003162	decreased lateral semicircular canal size	http://purl.obolibrary.org/obo/UBERON_0001843	lateral semicircular canal
+http://purl.obolibrary.org/obo/MP_0012456	decreased mammillothalamic tract size	http://purl.obolibrary.org/obo/UBERON_0002990	mammillothalamic tract of hypothalamus
 http://purl.obolibrary.org/obo/MP_0009897	decreased maxillary shelf size	http://purl.obolibrary.org/obo/UBERON_0005871	palatine process of maxilla
 http://purl.obolibrary.org/obo/MP_0012089	decreased midbrain size	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
 http://purl.obolibrary.org/obo/MP_0020069	decreased neocortex size	http://purl.obolibrary.org/obo/UBERON_0001950	neocortex
@@ -66,7 +66,7 @@ http://purl.obolibrary.org/obo/MP_0008484	decreased spleen germinal center size	
 http://purl.obolibrary.org/obo/MP_0012099	decreased spongiotrophoblast size	http://purl.obolibrary.org/obo/UBERON_0004021	spongiotrophoblast layer
 http://purl.obolibrary.org/obo/MP_0012281	decreased sternebra size	http://purl.obolibrary.org/obo/UBERON_0002208	sternebra
 http://purl.obolibrary.org/obo/MP_0020554	decreased stria medullaris size	http://purl.obolibrary.org/obo/UBERON_0006086	stria medullaris
-http://purl.obolibrary.org/obo/MP_0012468	decreased striatum area	http://purl.obolibrary.org/obo/UBERON_0002435	striatum
+http://purl.obolibrary.org/obo/MP_0012468	decreased striatum size	http://purl.obolibrary.org/obo/UBERON_0002435	striatum
 http://purl.obolibrary.org/obo/MP_0020537	decreased subiculum size	http://purl.obolibrary.org/obo/UBERON_0002191	subiculum
 http://purl.obolibrary.org/obo/MP_0009520	decreased submandibular gland size	http://purl.obolibrary.org/obo/UBERON_0001736	submandibular gland
 http://purl.obolibrary.org/obo/MP_0020543	decreased substantia nigra size	http://purl.obolibrary.org/obo/UBERON_0002038	substantia nigra
@@ -78,14 +78,12 @@ http://purl.obolibrary.org/obo/MP_0006020	decreased tympanic ring size	http://pu
 http://purl.obolibrary.org/obo/MP_0030900	decreased ulna size	http://purl.obolibrary.org/obo/UBERON_0001424	ulna
 http://purl.obolibrary.org/obo/MP_0012714	decreased ventral ectodermal ridge size	http://purl.obolibrary.org/obo/UBERON_0015855	ventral ectodermal ridge
 http://purl.obolibrary.org/obo/MP_0020558	decreased ventromedial hypothalamic nucleus size	http://purl.obolibrary.org/obo/UBERON_0001935	ventromedial nucleus of hypothalamus
-http://purl.obolibrary.org/obo/MP_0012456	dereased mammillothalamic tract size	http://purl.obolibrary.org/obo/UBERON_0002990	mammillothalamic tract of hypothalamus
 http://purl.obolibrary.org/obo/MP_0000433	microcephaly	http://purl.obolibrary.org/obo/UBERON_0000033	head
 http://purl.obolibrary.org/obo/MP_0003296	microcolon	http://purl.obolibrary.org/obo/UBERON_0001155	colon
 http://purl.obolibrary.org/obo/MP_0030088	microdontia	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
 http://purl.obolibrary.org/obo/MP_0002639	micrognathia	http://purl.obolibrary.org/obo/UBERON_0001708	jaw skeleton
 http://purl.obolibrary.org/obo/MP_0001297	microphthalmia	http://purl.obolibrary.org/obo/UBERON_0000019	camera-type eye
 http://purl.obolibrary.org/obo/MP_0009880	microstomia	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
-http://purl.obolibrary.org/obo/MP_0004708	short lumbar vertebrae	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra
 http://purl.obolibrary.org/obo/MP_0013448	small Harderian gland	http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
 http://purl.obolibrary.org/obo/MP_0001021	small L4 dorsal root ganglion	http://purl.obolibrary.org/obo/UBERON_0003943	fourth lumbar dorsal root ganglion
 http://purl.obolibrary.org/obo/MP_0001024	small L5 dorsal root ganglion	http://purl.obolibrary.org/obo/UBERON_0002859	fifth lumbar dorsal root ganglion
@@ -155,7 +153,7 @@ http://purl.obolibrary.org/obo/MP_0030920	small hair follicle bulb	http://purl.o
 http://purl.obolibrary.org/obo/MP_0000380	small hair follicles	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
 http://purl.obolibrary.org/obo/MP_0002188	small heart	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0013169	small hindlimb buds	http://purl.obolibrary.org/obo/UBERON_0005418	hindlimb bud
-http://purl.obolibrary.org/obo/MP_0008283	small hippocampus	http://purl.obolibrary.org/obo/UBERON_0001954	Ammon's horn
+http://purl.obolibrary.org/obo/MP_0008283	small hippocampus	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
 http://purl.obolibrary.org/obo/MP_0020303	small horns	http://purl.obolibrary.org/obo/UBERON_0006967	horn
 http://purl.obolibrary.org/obo/MP_0013825	small hypoglossal canal	http://purl.obolibrary.org/obo/UBERON_0006682	hypoglossal canal
 http://purl.obolibrary.org/obo/MP_0030079	small incisors	http://purl.obolibrary.org/obo/UBERON_0001098	incisor tooth
@@ -206,10 +204,12 @@ http://purl.obolibrary.org/obo/MP_0006217	small optic disk	http://purl.obolibrar
 http://purl.obolibrary.org/obo/MP_0020342	small optic nerve	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/MP_0030242	small optic pit	http://purl.obolibrary.org/obo/UBERON_0006270	optic pit
 http://purl.obolibrary.org/obo/MP_0006211	small orbits	http://purl.obolibrary.org/obo/UBERON_0001697	orbit of skull
-http://purl.obolibrary.org/obo/MP_0006288	small otic capsule	http://purl.obolibrary.org/obo/UBERON_0005411	bony otic capsule
+http://purl.obolibrary.org/obo/MP_0006288	small otic capsule	http://purl.obolibrary.org/obo/UBERON_0004637	otic capsule
 http://purl.obolibrary.org/obo/MP_0004310	small otic vesicle	http://purl.obolibrary.org/obo/UBERON_0003051	ear vesicle
+http://purl.obolibrary.org/obo/MP_0001127	small ovary	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0001127	small ovary	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009070	small oviduct	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
+http://purl.obolibrary.org/obo/MP_0030998	small pacinian corpuscles	http://purl.obolibrary.org/obo/UBERON_0003719	Pacinian corpuscle
 http://purl.obolibrary.org/obo/MP_0004247	small pancreas	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/MP_0009172	small pancreatic islets	http://purl.obolibrary.org/obo/UBERON_0000006	islet of Langerhans
 http://purl.obolibrary.org/obo/MP_0003113	small parathyroid gland	http://purl.obolibrary.org/obo/UBERON_0001132	parathyroid gland
@@ -286,9 +286,9 @@ http://purl.obolibrary.org/obo/MP_0004610	small vertebrae	http://purl.obolibrary
 http://purl.obolibrary.org/obo/MP_0004670	small vertebral body	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum
 http://purl.obolibrary.org/obo/MP_0003987	small vestibular ganglion	http://purl.obolibrary.org/obo/UBERON_0002824	vestibular ganglion
 http://purl.obolibrary.org/obo/MP_0004317	small vestibular saccule	http://purl.obolibrary.org/obo/UBERON_0001854	saccule of membranous labyrinth
-http://purl.obolibrary.org/obo/MP_0012131	small visceral yolk sac	http://purl.obolibrary.org/obo/UBERON_0001040	yolk sac
+http://purl.obolibrary.org/obo/MP_0012131	small visceral yolk sac	http://purl.obolibrary.org/obo/UBERON_0008852	visceral yolk sac
 http://purl.obolibrary.org/obo/MP_0030266	small vomer bone	http://purl.obolibrary.org/obo/UBERON_0002396	vomer
 http://purl.obolibrary.org/obo/MP_0013597	small vomeronasal organ	http://purl.obolibrary.org/obo/UBERON_0002255	vomeronasal organ
 http://purl.obolibrary.org/obo/MP_0003527	small vulva	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
-http://purl.obolibrary.org/obo/MP_0004680	small xiphoid process	http://purl.obolibrary.org/obo/UBERON_0006430	xiphoid cartilage
+http://purl.obolibrary.org/obo/MP_0004680	small xiphoid process	http://purl.obolibrary.org/obo/UBERON_0002207	xiphoid process
 http://purl.obolibrary.org/obo/MP_0004468	small zygomatic bone	http://purl.obolibrary.org/obo/UBERON_0001683	jugal bone

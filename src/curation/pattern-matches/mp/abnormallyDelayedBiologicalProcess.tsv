@@ -1,5 +1,6 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/MP_0000060	delayed bone ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
+http://purl.obolibrary.org/obo/MP_0009656	delayed chorioallantoic fusion	http://purl.obolibrary.org/obo/GO_0060710	chorio-allantoic fusion
 http://purl.obolibrary.org/obo/MP_0000054	delayed ear emergence	http://purl.obolibrary.org/obo/GO_0060186	outer ear emergence
 http://purl.obolibrary.org/obo/MP_0009649	delayed embryo implantation	http://purl.obolibrary.org/obo/GO_0007566	embryo implantation
 http://purl.obolibrary.org/obo/MP_0003419	delayed endochondral bone ossification	http://purl.obolibrary.org/obo/GO_0001958	endochondral ossification

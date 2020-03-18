@@ -34,7 +34,9 @@ http://purl.obolibrary.org/obo/MP_0005517	decreased liver regeneration	http://pu
 http://purl.obolibrary.org/obo/MP_0003355	decreased ovulation rate	http://purl.obolibrary.org/obo/GO_0030728	ovulation
 http://purl.obolibrary.org/obo/MP_0005528	decreased renal glomerular filtration rate	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
 http://purl.obolibrary.org/obo/MP_0000623	decreased salivation	http://purl.obolibrary.org/obo/GO_0046541	saliva secretion
+http://purl.obolibrary.org/obo/MP_0020870	decreased thigmotaxis	http://purl.obolibrary.org/obo/NBO_0000381	thigmotaxis
 http://purl.obolibrary.org/obo/MP_0002757	decreased vertical activity	http://purl.obolibrary.org/obo/NBO_0000448	vertical activity
+http://purl.obolibrary.org/obo/MP_0030978	impaired binding of sperm to zona pellucida	http://purl.obolibrary.org/obo/GO_0007339	binding of sperm to zona pellucida
 http://purl.obolibrary.org/obo/MP_0001729	impaired embryo implantation	http://purl.obolibrary.org/obo/GO_0007566	embryo implantation
 http://purl.obolibrary.org/obo/MP_0000242	impaired fertilization	http://purl.obolibrary.org/obo/GO_0009566	fertilization
 http://purl.obolibrary.org/obo/MP_0030973	impaired gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
@@ -44,6 +46,8 @@ http://purl.obolibrary.org/obo/MP_0001602	impaired myelopoiesis	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0008544	impaired olfaction	http://purl.obolibrary.org/obo/GO_0007608	sensory perception of smell
 http://purl.obolibrary.org/obo/MP_0001129	impaired ovarian folliculogenesis	http://purl.obolibrary.org/obo/GO_0001541	ovarian follicle development
 http://purl.obolibrary.org/obo/MP_0002796	impaired skin barrier function	http://purl.obolibrary.org/obo/GO_0033561	regulation of water loss via skin
+http://purl.obolibrary.org/obo/MP_0030976	impaired sperm penetration of zona pellucida	http://purl.obolibrary.org/obo/GO_0007341	penetration of zona pellucida
+http://purl.obolibrary.org/obo/MP_0030977	impaired sperm-egg recognition	http://purl.obolibrary.org/obo/GO_0035036	sperm-egg recognition
 http://purl.obolibrary.org/obo/MP_0001522	impaired swimming	http://purl.obolibrary.org/obo/NBO_0000371	aquatic locomotion
 http://purl.obolibrary.org/obo/MP_0001792	impaired wound healing	http://purl.obolibrary.org/obo/GO_0042060	wound healing
 http://purl.obolibrary.org/obo/MP_0003620	oliguria	http://purl.obolibrary.org/obo/GO_0060073	micturition
