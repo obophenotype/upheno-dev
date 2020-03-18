@@ -12,7 +12,7 @@
     * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in part of'.('homeostatic process' ⊓ (∃ 'occurs in'.'blood'))) ⊓ (∃ 'has modifier'.'abnormal'))) is process phenotype and superclass of anatomy phenotype 'abnormal circulating lactate level' (∃ 'has_part'.('amount' ⊓ (∃ 'inheres in'.('lactate' ⊓ (∃ 'part_of'.'blood'))) ⊓ (∃ 'has modifier'.'abnormal'))) 
 
 * 'abnormal urine homeostasis'
-    * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in part of'.('homeostatic process' ⊓ (∃ 'occurs in'.'urine'))) ⊓ (∃ 'has modifier'.'abnormal'))) is process phenotype and superclass of anatomy phenotype 'abnormal urine catecholamine level' (∃ 'has_part'.('amount' ⊓ (∃ 'inheres in'.('catecholamine' ⊓ (∃ 'part_of'.'urine'))) ⊓ (∃ 'has modifier'.'abnormal'))) 
+    * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in part of'.('homeostatic process' ⊓ (∃ 'occurs in'.'urine'))) ⊓ (∃ 'has modifier'.'abnormal'))) is process phenotype and superclass of anatomy phenotype 'abnormal urine magnesium level' (∃ 'has_part'.('amount' ⊓ (∃ 'inheres in'.('ChemIDplus' ⊓ (∃ 'part_of'.'urine'))) ⊓ (∃ 'has modifier'.'abnormal'))) 
 
 * 'abnormal blood pH regulation'
     * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in'.'regulation of pH') ⊓ (∃ 'has modifier'.'abnormal') ⊓ (∃ 'has_central_participant'.'blood'))) is process phenotype and superclass of anatomy phenotype 'alkalemia' (∃ 'has_part'.('decreased amount' ⊓ (∃ 'inheres in'.(('chemical entity' ⊓ (∃ 'has_role'.'acid')) ⊓ (∃ 'part_of'.'blood'))) ⊓ (∃ 'has modifier'.'abnormal'))) 

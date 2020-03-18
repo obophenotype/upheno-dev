@@ -159,7 +159,7 @@
     * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in'.'division septum assembly') ⊓ (∃ 'has modifier'.'abnormal') ⊓ (∃ 'has_central_participant'.'aorta') ⊓ (∃ 'has_central_participant'.'pulmonary artery'))) is process phenotype and superclass of anatomy phenotype 'persistent truncus arteriosis' (∃ 'has_part'.('lacking processual parts' ⊓ (∃ 'inheres in'.'aorta') ⊓ (∃ 'inheres in'.'pulmonary artery') ⊓ (∃ 'towards'.'division septum assembly') ⊓ (∃ 'has modifier'.'abnormal'))) 
 
 * 'abnormal brain development'
-    * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in part of'.'brain development') ⊓ (∃ 'has modifier'.'abnormal'))) is process phenotype and superclass of anatomy phenotype 'abnormal cervical flexure morphology' (∃ 'has_part'.('abnormal' ⊓ (∃ 'inheres in'.'cervical flexure') ⊓ (∃ 'has modifier'.'abnormal'))) 
+    * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in part of'.'brain development') ⊓ (∃ 'has modifier'.'abnormal'))) is process phenotype and superclass of anatomy phenotype 'abnormal rhombic lip morphology' (∃ 'has_part'.('morphology' ⊓ (∃ 'inheres in'.'rhombic lip') ⊓ (∃ 'has modifier'.'abnormal'))) 
 
 * 'abnormal olfactory bulb development'
     * (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in part of'.'olfactory bulb development') ⊓ (∃ 'has modifier'.'abnormal'))) is process phenotype and superclass of anatomy phenotype 'abnormal rostral migratory stream morphology' (∃ 'has_part'.('morphology' ⊓ (∃ 'inheres in'.'rostral migratory stream') ⊓ (∃ 'has modifier'.'abnormal'))) 

@@ -222,7 +222,7 @@
     * (∃ 'has_part'.('functionality' ⊓ (∃ 'inheres in'.'prostate gland') ⊓ (∃ 'has modifier'.'abnormal'))) is anatomy phenotype and superclass of process phenotype 'prostate gland inflammation' (∃ 'has_part'.('increased amount' ⊓ (∃ 'inheres in part of'.('inflammatory response' ⊓ (∃ 'occurs in'.'prostate gland'))) ⊓ (∃ 'has modifier'.'abnormal'))) 
 
 * 'abnormal skin adnexa physiology'
-    * (∃ 'has_part'.('functionality' ⊓ (∃ 'inheres in'.'integumentary adnexa') ⊓ (∃ 'has modifier'.'abnormal'))) is anatomy phenotype and superclass of process phenotype 'abnormal hair cycle' (∃ 'has_part'.('quality' ⊓ (∃ 'inheres in'.'hair cycle') ⊓ (∃ 'has modifier'.'abnormal'))) 
+    * (∃ 'has_part'.('functionality' ⊓ (∃ 'inheres in'.'integumentary adnexa') ⊓ (∃ 'has modifier'.'abnormal'))) is anatomy phenotype and superclass of process phenotype 'panniculitis' (∃ 'has_part'.('increased amount' ⊓ (∃ 'inheres in part of'.('inflammatory response' ⊓ (∃ 'occurs in'.'subcutaneous adipose tissue'))) ⊓ (∃ 'has modifier'.'abnormal'))) 
 
 * 'abnormal thyroid gland physiology'
     * (∃ 'has_part'.('functionality' ⊓ (∃ 'inheres in'.'thyroid gland') ⊓ (∃ 'has modifier'.'abnormal'))) is anatomy phenotype and superclass of process phenotype 'thyroid gland inflammation' (∃ 'has_part'.('increased amount' ⊓ (∃ 'inheres in part of'.('inflammatory response' ⊓ (∃ 'occurs in'.'thyroid gland'))) ⊓ (∃ 'has modifier'.'abnormal'))) 
