@@ -8,9 +8,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/upheno-extra.owl>
 
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131567>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2052675>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7227>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_DDPHENO>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_DPO>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_FYPO>))
@@ -23,6 +20,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_WBPhenotype>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_XPO>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_ZP>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/UPHENO_0000002>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/UPHENO_0000003>))
+
 ############################
 #   Annotation Properties
 ############################
@@ -31,18 +30,18 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/UPHENO_0000002>))
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000002> "has phenotypic orthologue"@en)
 
+# Annotation Property: <http://purl.obolibrary.org/obo/UPHENO_0000003> (has associated biological entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000003> "has associated biological entity"@en)
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2052675> (<http://purl.obolibrary.org/obo/NCBITaxon_2052675>)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_APO> (Ascomycete Phenotype Ontology)
 
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2052675> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_7227> (<http://purl.obolibrary.org/obo/NCBITaxon_7227>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7227> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_APO> "Ascomycete Phenotype Ontology"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_APO> <http://purl.obolibrary.org/obo/UPHENO_UPHENO>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_DDPHENO> (Dicty Phenotype Ontology)
 
@@ -63,6 +62,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_FYPO> <http://purl.obolibrary.
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_HP> "Human Phenotype Ontology"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_HP> <http://purl.obolibrary.org/obo/UPHENO_UPHENO>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_MGPO> (Molecular Glyco-phenotype Ontology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_MGPO> "Molecular Glyco-phenotype Ontology"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_MGPO> <http://purl.obolibrary.org/obo/UPHENO_UPHENO>)
+
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_MP> (Mammalian Phenotype Ontology)
 
