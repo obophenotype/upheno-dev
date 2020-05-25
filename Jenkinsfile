@@ -82,6 +82,7 @@ pipeline {
 				// sh 'chown -R jenkins:jenkins /var/lib/jenkins/workspace/upheno2@2/src/curation'
 				sh 'ls -l /var/lib/jenkins/workspace/upheno2@2/src/curation'
 				sh 'chown -R jenkins:jenkins /var/lib/jenkins/workspace/upheno2@2/src/curation'
+				sh 'ls -l /var/lib/jenkins/workspace/upheno2@2/src/curation'
 				sh 'echo $START_DAY > dow.txt'
 				sh 'echo "$START_DAY"'
 				archiveArtifacts artifacts: "env.txt"
