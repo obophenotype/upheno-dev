@@ -10,7 +10,7 @@ robot_java_args: -Xmx80G
 timeout_external_processes: 500m
 working_directory: /var/lib/jenkins/workspace/upheno2@2/src
 overwrite_matches: True
-skip_pattern_download: True
+skip_pattern_download: False
 max_upheno_id: 9999999
 min_upheno_id: 500
 overwrite_ontologies: True
@@ -18,7 +18,7 @@ overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
-clean: False
+clean: True
 upheno_intermediate_layer_depth: 0
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
