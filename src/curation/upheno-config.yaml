@@ -89,7 +89,7 @@ sources:
   - id: nbo
     mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
   - id: pr
-    mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
+    mirror_from: http://purl.obolibrary.org/obo/pr.owl
   - id: go
     mirror_from: http://purl.obolibrary.org/obo/go.owl
   - id: envo
