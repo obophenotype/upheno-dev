@@ -107,6 +107,9 @@ pipeline {
 				sh 'ls -AlF'
 				sh 'ls -AlF /'
 				dir('.') {
+					sh 'chown chown -R jenkins:jenkins ../curation/'
+				}
+				dir('.') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 
@@ -115,7 +118,6 @@ pipeline {
 
 					dir('./src/scripts') {
 						retry(1){
-							sh 'chown chown -R jenkins:jenkins ../curation/'
 							sh 'pwd'
 							sh 'ls'
 							sh 'ls ../curation'
