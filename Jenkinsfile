@@ -107,7 +107,7 @@ pipeline {
 				sh 'ls -AlF'
 				sh 'ls -AlF /'
 				dir('.') {
-					sh 'chown chown -R jenkins:jenkins ../curation/'
+					sh 'chown chown -R jenkins:jenkins src/curation/'
 				}
 				dir('.') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
