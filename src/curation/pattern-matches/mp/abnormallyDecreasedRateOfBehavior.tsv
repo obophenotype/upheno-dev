@@ -13,6 +13,7 @@ http://purl.obolibrary.org/obo/MP_0003460	decreased fear-related response	http:/
 http://purl.obolibrary.org/obo/MP_0001442	decreased grooming behavior	http://purl.obolibrary.org/obo/NBO_0000027	grooming behavior
 http://purl.obolibrary.org/obo/MP_0001489	decreased startle reflex	http://purl.obolibrary.org/obo/NBO_0000391	startle reflex
 http://purl.obolibrary.org/obo/MP_0003998	decreased thermal nociceptive threshold	http://purl.obolibrary.org/obo/NBO_0000335	thermal nociceptive behavior
+http://purl.obolibrary.org/obo/MP_0020870	decreased thigmotaxis	http://purl.obolibrary.org/obo/NBO_0000381	thigmotaxis
 http://purl.obolibrary.org/obo/MP_0002757	decreased vertical activity	http://purl.obolibrary.org/obo/NBO_0000448	vertical activity
 http://purl.obolibrary.org/obo/MP_0020351	decreased vocalization	http://purl.obolibrary.org/obo/NBO_0000037	vocalization behavior
 http://purl.obolibrary.org/obo/MP_0003158	dysphagia	http://purl.obolibrary.org/obo/NBO_0000545	swallowing
@@ -23,7 +24,6 @@ http://purl.obolibrary.org/obo/MP_0001525	impaired balance	http://purl.obolibrar
 http://purl.obolibrary.org/obo/MP_0009750	impaired behavioral response to addictive substance	http://purl.obolibrary.org/obo/NBO_0001728	behavioral response to addictive substance
 http://purl.obolibrary.org/obo/MP_0009755	impaired behavioral response to alcohol	http://purl.obolibrary.org/obo/NBO_0001763	behavioral response to alcohol
 http://purl.obolibrary.org/obo/MP_0009778	impaired behavioral response to anesthetic	http://purl.obolibrary.org/obo/NBO_0002362	behavioral response to anesthetic
-http://purl.obolibrary.org/obo/MP_0009758	impaired behavioral response to cocaine	http://purl.obolibrary.org/obo/NBO_0001987	behavioral response to cocaine
 http://purl.obolibrary.org/obo/MP_0009757	impaired behavioral response to morphine	http://purl.obolibrary.org/obo/NBO_0002021	behavioral response to morphine
 http://purl.obolibrary.org/obo/MP_0009756	impaired behavioral response to nicotine	http://purl.obolibrary.org/obo/NBO_0002065	behavioral response to nicotine
 http://purl.obolibrary.org/obo/MP_0009747	impaired behavioral response to xenobiotic	http://purl.obolibrary.org/obo/NBO_0001679	behavioral response to xenobiotics

@@ -1,9 +1,11 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
 http://purl.obolibrary.org/obo/HP_0000964	Eczema	http://purl.obolibrary.org/obo/UBERON_0002097	skin of body	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
-http://purl.obolibrary.org/obo/HP_0001829	Foot polydactyly	http://purl.obolibrary.org/obo/UBERON_0001466	pedal digit	http://purl.obolibrary.org/obo/UBERON_0002387	pes
+http://purl.obolibrary.org/obo/HP_0009937	Facial hirsutism	http://purl.obolibrary.org/obo/UBERON_0010171	strand of hair of face	http://purl.obolibrary.org/obo/UBERON_0003101	male organism
 http://purl.obolibrary.org/obo/HP_0001161	Hand polydactyly	http://purl.obolibrary.org/obo/UBERON_0002389	manual digit	http://purl.obolibrary.org/obo/UBERON_0002398	manus
 http://purl.obolibrary.org/obo/HP_0000790	Hematuria	http://purl.obolibrary.org/obo/UBERON_0000178	blood	http://purl.obolibrary.org/obo/UBERON_0001088	urine
+http://purl.obolibrary.org/obo/HP_0001007	Hirsutism	http://purl.obolibrary.org/obo/UBERON_0001037	strand of hair	http://purl.obolibrary.org/obo/UBERON_0003101	male organism
 http://purl.obolibrary.org/obo/HP_0000238	Hydrocephalus	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/HP_0010897	Hypersarcosinuria	http://purl.obolibrary.org/obo/UBERON_0001088	urine	http://purl.obolibrary.org/obo/CHEBI_15611	sarcosine
 http://purl.obolibrary.org/obo/HP_0002249	Melena	http://purl.obolibrary.org/obo/UBERON_0000178	blood	http://purl.obolibrary.org/obo/UBERON_0001988	feces
 http://purl.obolibrary.org/obo/HP_0010112	Mesoaxial foot polydactyly	http://purl.obolibrary.org/obo/UBERON_0019242	pedal digit 2, 3 or 4	http://purl.obolibrary.org/obo/UBERON_0002387	pes
 http://purl.obolibrary.org/obo/HP_0006159	Mesoaxial hand polydactyly	http://purl.obolibrary.org/obo/UBERON_0019232	manual digit 2, 3 or 4	http://purl.obolibrary.org/obo/UBERON_0002398	manus

@@ -2,6 +2,7 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0000815	abnormal Ammon gyrus morphology	http://purl.obolibrary.org/obo/UBERON_0001954	Ammon's horn
 http://purl.obolibrary.org/obo/MP_0010517	abnormal Bachmann's bundle morphology	http://purl.obolibrary.org/obo/UBERON_0005982	Bachmann's bundle
 http://purl.obolibrary.org/obo/MP_0011787	abnormal Bartholin's gland morphology	http://purl.obolibrary.org/obo/UBERON_0000460	major vestibular gland
+http://purl.obolibrary.org/obo/MP_0008521	abnormal Bowman membrane morphology	http://purl.obolibrary.org/obo/UBERON_0004370	anterior limiting lamina of cornea
 http://purl.obolibrary.org/obo/MP_0005239	abnormal Bruch membrane morphology	http://purl.obolibrary.org/obo/UBERON_0003957	Bruch's membrane
 http://purl.obolibrary.org/obo/MP_0012518	abnormal Brunner's gland morphology	http://purl.obolibrary.org/obo/UBERON_0001212	duodenal gland
 http://purl.obolibrary.org/obo/MP_3000003	abnormal Ebner's gland morphology	http://purl.obolibrary.org/obo/UBERON_0013475	gustatory gland
@@ -20,6 +21,7 @@ http://purl.obolibrary.org/obo/MP_0002389	abnormal Peyer's patch follicle morpho
 http://purl.obolibrary.org/obo/MP_0002391	abnormal Peyer's patch germinal center morphology	http://purl.obolibrary.org/obo/UBERON_0004697	Peyer's patch germinal center
 http://purl.obolibrary.org/obo/MP_0000696	abnormal Peyer's patch morphology	http://purl.obolibrary.org/obo/UBERON_0001211	Peyer's patch
 http://purl.obolibrary.org/obo/MP_0004124	abnormal Purkinje fiber morphology	http://purl.obolibrary.org/obo/UBERON_0002354	cardiac Purkinje fiber
+http://purl.obolibrary.org/obo/MP_0004915	abnormal Reichert's cartilage morphology	http://purl.obolibrary.org/obo/UBERON_0004368	Reichert's cartilage
 http://purl.obolibrary.org/obo/MP_0006021	abnormal Reissner membrane morphology	http://purl.obolibrary.org/obo/UBERON_0002281	vestibular membrane of cochlear duct
 http://purl.obolibrary.org/obo/MP_0004305	abnormal Rosenthal canal morphology	http://purl.obolibrary.org/obo/UBERON_0006495	osseus cochlear canal
 http://purl.obolibrary.org/obo/MP_0012026	abnormal S-shaped body morphology	http://purl.obolibrary.org/obo/UBERON_0004199	S-shaped body
@@ -126,6 +128,7 @@ http://purl.obolibrary.org/obo/MP_0010492	abnormal atrium endocardium morphology
 http://purl.obolibrary.org/obo/MP_0010581	abnormal atrium myocardial trabeculae morphology	http://purl.obolibrary.org/obo/UBERON_0005988	atrium myocardial trabecula
 http://purl.obolibrary.org/obo/MP_0010493	abnormal atrium myocardium morphology	http://purl.obolibrary.org/obo/UBERON_0002302	myocardium of atrium
 http://purl.obolibrary.org/obo/MP_0004631	abnormal auditory cortex morphology	http://purl.obolibrary.org/obo/UBERON_0001393	auditory cortex
+http://purl.obolibrary.org/obo/MP_0003330	abnormal auditory tube morphology	http://purl.obolibrary.org/obo/UBERON_0002393	pharyngotympanic tube
 http://purl.obolibrary.org/obo/MP_0002751	abnormal autonomic nervous system morphology	http://purl.obolibrary.org/obo/UBERON_0002410	autonomic nervous system
 http://purl.obolibrary.org/obo/MP_0030806	abnormal autopod joint morphology	http://purl.obolibrary.org/obo/UBERON_0003841	autopod joint
 http://purl.obolibrary.org/obo/MP_0000572	abnormal autopod morphology	http://purl.obolibrary.org/obo/UBERON_0002470	autopod region
@@ -185,6 +188,7 @@ http://purl.obolibrary.org/obo/MP_0030775	abnormal calcaneal tendon morphology	h
 http://purl.obolibrary.org/obo/MP_0009728	abnormal calcaneum morphology	http://purl.obolibrary.org/obo/UBERON_0001450	calcaneus
 http://purl.obolibrary.org/obo/MP_0030163	abnormal canthus morphology	http://purl.obolibrary.org/obo/UBERON_0006742	canthus
 http://purl.obolibrary.org/obo/MP_0003658	abnormal capillary morphology	http://purl.obolibrary.org/obo/UBERON_0001982	capillary
+http://purl.obolibrary.org/obo/MP_0002660	abnormal caput epididymis morphology	http://purl.obolibrary.org/obo/UBERON_0004358	caput epididymis
 http://purl.obolibrary.org/obo/MP_0010795	abnormal cardiac gastric gland morphology	http://purl.obolibrary.org/obo/UBERON_0008859	cardiac gastric gland
 http://purl.obolibrary.org/obo/MP_0009382	abnormal cardiac jelly morphology	http://purl.obolibrary.org/obo/UBERON_0003906	cardiac jelly
 http://purl.obolibrary.org/obo/MP_0011264	abnormal cardiac mesenchyme morphology	http://purl.obolibrary.org/obo/UBERON_0009751	cardiac mesenchyme
@@ -199,6 +203,7 @@ http://purl.obolibrary.org/obo/MP_0030468	abnormal carotid canal morphology	http
 http://purl.obolibrary.org/obo/MP_0000554	abnormal carpal bone morphology	http://purl.obolibrary.org/obo/UBERON_0001435	carpal bone
 http://purl.obolibrary.org/obo/MP_0000163	abnormal cartilage morphology	http://purl.obolibrary.org/obo/UBERON_0002418	cartilage tissue
 http://purl.obolibrary.org/obo/MP_0030875	abnormal cartilaginous joint morphology	http://purl.obolibrary.org/obo/UBERON_0002213	cartilaginous joint
+http://purl.obolibrary.org/obo/MP_0002662	abnormal cauda epididymis morphology	http://purl.obolibrary.org/obo/UBERON_0004360	cauda epididymis
 http://purl.obolibrary.org/obo/MP_0004278	abnormal caudal ganglionic eminence morphology	http://purl.obolibrary.org/obo/UBERON_0004026	caudal ganglionic eminence
 http://purl.obolibrary.org/obo/MP_0012544	abnormal caudal neuropore morphology	http://purl.obolibrary.org/obo/UBERON_0005071	posterior neuropore
 http://purl.obolibrary.org/obo/MP_0002759	abnormal caudal vertebrae morphology	http://purl.obolibrary.org/obo/UBERON_0001095	caudal vertebra
@@ -289,6 +294,7 @@ http://purl.obolibrary.org/obo/MP_0012490	abnormal cochlear VIII nucleus morphol
 http://purl.obolibrary.org/obo/MP_0004598	abnormal cochlear basement membrane morphology	http://purl.obolibrary.org/obo/UBERON_0011922	cochlear basement membrane
 http://purl.obolibrary.org/obo/MP_0002855	abnormal cochlear ganglion morphology	http://purl.obolibrary.org/obo/UBERON_0000395	cochlear ganglion
 http://purl.obolibrary.org/obo/MP_0004426	abnormal cochlear labyrinth morphology	http://purl.obolibrary.org/obo/UBERON_0002499	cochlear labyrinth
+http://purl.obolibrary.org/obo/MP_0003309	abnormal cochlear modiolus morphology	http://purl.obolibrary.org/obo/UBERON_0006723	cochlear modiolus
 http://purl.obolibrary.org/obo/MP_0004716	abnormal cochlear nerve morphology	http://purl.obolibrary.org/obo/UBERON_0004727	cochlear nerve
 http://purl.obolibrary.org/obo/MP_0003308	abnormal cochlear sensory epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0006937	inner ear epithelium
 http://purl.obolibrary.org/obo/MP_0000495	abnormal colon morphology	http://purl.obolibrary.org/obo/UBERON_0001155	colon
@@ -344,6 +350,7 @@ http://purl.obolibrary.org/obo/MP_0030787	abnormal cranial suspensory ligament m
 http://purl.obolibrary.org/obo/MP_0002835	abnormal cranial suture morphology	http://purl.obolibrary.org/obo/UBERON_0003685	cranial suture
 http://purl.obolibrary.org/obo/MP_0009077	abnormal cranial vagina morphology	http://purl.obolibrary.org/obo/UBERON_0003974	upper part of vagina
 http://purl.obolibrary.org/obo/MP_0002116	abnormal craniofacial bone morphology	http://purl.obolibrary.org/obo/UBERON_0003457	head bone
+http://purl.obolibrary.org/obo/MP_0030229	abnormal craniofacial suture morphology	http://purl.obolibrary.org/obo/UBERON_0009198	craniofacial suture
 http://purl.obolibrary.org/obo/MP_0000438	abnormal cranium morphology	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
 http://purl.obolibrary.org/obo/MP_0011833	abnormal cremaster muscle morphology	http://purl.obolibrary.org/obo/UBERON_0008488	cremaster muscle
 http://purl.obolibrary.org/obo/MP_0030304	abnormal cribriform plate morphology	http://purl.obolibrary.org/obo/UBERON_0004546	cribriform plate
@@ -352,6 +359,7 @@ http://purl.obolibrary.org/obo/MP_0004249	abnormal crista ampullaris morphology	
 http://purl.obolibrary.org/obo/MP_0004409	abnormal crista ampullaris neuroepithelium morphology	http://purl.obolibrary.org/obo/UBERON_0006935	crista ampullaris neuroepithelium
 http://purl.obolibrary.org/obo/MP_0010495	abnormal crista terminalis morphology	http://purl.obolibrary.org/obo/UBERON_0005979	crista terminalis
 http://purl.obolibrary.org/obo/MP_0000490	abnormal crypts of Lieberkuhn morphology	http://purl.obolibrary.org/obo/UBERON_0001983	crypt of Lieberkuhn
+http://purl.obolibrary.org/obo/MP_0009372	abnormal cumulus oophorus morphology	http://purl.obolibrary.org/obo/UBERON_0001306	cumulus oophorus
 http://purl.obolibrary.org/obo/MP_0008418	abnormal cutaneous elastic fiber morphology	http://purl.obolibrary.org/obo/UBERON_0003967	cutaneous elastic tissue
 http://purl.obolibrary.org/obo/MP_0008419	abnormal cutaneous microfibril morphology	http://purl.obolibrary.org/obo/UBERON_0004034	cutaneous microfibril
 http://purl.obolibrary.org/obo/MP_0009493	abnormal cystic duct morphology	http://purl.obolibrary.org/obo/UBERON_0001152	cystic duct
@@ -365,6 +373,7 @@ http://purl.obolibrary.org/obo/MP_0030507	abnormal dental papilla morphology	htt
 http://purl.obolibrary.org/obo/MP_0002819	abnormal dental pulp cavity morphology	http://purl.obolibrary.org/obo/UBERON_0002487	tooth cavity
 http://purl.obolibrary.org/obo/MP_0013250	abnormal dental pulp morphology	http://purl.obolibrary.org/obo/UBERON_0001754	dental pulp
 http://purl.obolibrary.org/obo/MP_0000812	abnormal dentate gyrus morphology	http://purl.obolibrary.org/obo/UBERON_0001885	dentate gyrus of hippocampal formation
+http://purl.obolibrary.org/obo/MP_0030981	abnormal dentate gyrus subgranular zone morphology	http://purl.obolibrary.org/obo/UBERON_0009952	dentate gyrus subgranular zone
 http://purl.obolibrary.org/obo/MP_0002818	abnormal dentin morphology	http://purl.obolibrary.org/obo/UBERON_0001751	dentine
 http://purl.obolibrary.org/obo/MP_0030492	abnormal dentoalveolar joint morphology	http://purl.obolibrary.org/obo/UBERON_0001035	dento-alveolar joint
 http://purl.obolibrary.org/obo/MP_0001243	abnormal dermal layer morphology	http://purl.obolibrary.org/obo/UBERON_0002067	dermis
@@ -394,9 +403,12 @@ http://purl.obolibrary.org/obo/MP_0003271	abnormal duodenum morphology	http://pu
 http://purl.obolibrary.org/obo/MP_0013924	abnormal dural venous sinus morphology	http://purl.obolibrary.org/obo/UBERON_0005486	venous dural sinus
 http://purl.obolibrary.org/obo/MP_0003677	abnormal ear lobe morphology	http://purl.obolibrary.org/obo/UBERON_0001847	lobule of pinna
 http://purl.obolibrary.org/obo/MP_0002102	abnormal ear morphology	http://purl.obolibrary.org/obo/UBERON_0001690	ear
+http://purl.obolibrary.org/obo/MP_0000675	abnormal eccrine sweat gland morphology	http://purl.obolibrary.org/obo/UBERON_0000423	eccrine sweat gland
 http://purl.obolibrary.org/obo/MP_0014139	abnormal ectoderm morphology	http://purl.obolibrary.org/obo/UBERON_0000924	ectoderm
 http://purl.obolibrary.org/obo/MP_0006302	abnormal ectomesenchyme morphology	http://purl.obolibrary.org/obo/UBERON_0004031	head ectomesenchyme
 http://purl.obolibrary.org/obo/MP_0011202	abnormal ectoplacental cavity morphology	http://purl.obolibrary.org/obo/UBERON_0008851	ectoplacental cavity
+http://purl.obolibrary.org/obo/MP_0005032	abnormal ectoplacental cone morphology	http://purl.obolibrary.org/obo/UBERON_0004364	ectoplacental cone
+http://purl.obolibrary.org/obo/MP_0004728	abnormal efferent ductules of testis morphology	http://purl.obolibrary.org/obo/UBERON_0006946	efferent duct
 http://purl.obolibrary.org/obo/MP_0002350	abnormal efferent lymphatic vessel morphology	http://purl.obolibrary.org/obo/UBERON_0010397	efferent lymphatic vessel
 http://purl.obolibrary.org/obo/MP_0003085	abnormal egg cylinder morphology	http://purl.obolibrary.org/obo/UBERON_0004013	egg cylinder
 http://purl.obolibrary.org/obo/MP_0006430	abnormal elastic cartilage morphology	http://purl.obolibrary.org/obo/UBERON_0001996	elastic cartilage tissue
@@ -478,6 +490,7 @@ http://purl.obolibrary.org/obo/MP_0000909	abnormal facial motor nucleus morpholo
 http://purl.obolibrary.org/obo/MP_0030039	abnormal facial muscle morphology	http://purl.obolibrary.org/obo/UBERON_0001577	facial muscle
 http://purl.obolibrary.org/obo/MP_0001071	abnormal facial nerve morphology	http://purl.obolibrary.org/obo/UBERON_0001647	facial nerve
 http://purl.obolibrary.org/obo/MP_0030531	abnormal facial skin morphology	http://purl.obolibrary.org/obo/UBERON_1000021	skin of face
+http://purl.obolibrary.org/obo/MP_0030230	abnormal facial suture morphology	http://purl.obolibrary.org/obo/UBERON_0009199	facial suture
 http://purl.obolibrary.org/obo/MP_0030785	abnormal falciform ligament morphology	http://purl.obolibrary.org/obo/UBERON_0001247	falciform ligament
 http://purl.obolibrary.org/obo/MP_0005334	abnormal fat pad morphology	http://purl.obolibrary.org/obo/UBERON_0003916	fat pad
 http://purl.obolibrary.org/obo/MP_0009208	abnormal female genitalia morphology	http://purl.obolibrary.org/obo/UBERON_0003134	female reproductive organ
@@ -514,6 +527,7 @@ http://purl.obolibrary.org/obo/MP_0013164	abnormal forelimb bud morphology	http:
 http://purl.obolibrary.org/obo/MP_0030807	abnormal forelimb joint morphology	http://purl.obolibrary.org/obo/UBERON_0003839	forelimb joint
 http://purl.obolibrary.org/obo/MP_0000550	abnormal forelimb morphology	http://purl.obolibrary.org/obo/UBERON_0002102	forelimb
 http://purl.obolibrary.org/obo/MP_0003854	abnormal forelimb stylopod morphology	http://purl.obolibrary.org/obo/UBERON_0003822	forelimb stylopod
+http://purl.obolibrary.org/obo/MP_0003855	abnormal forelimb zeugopod morphology	http://purl.obolibrary.org/obo/UBERON_0002386	forelimb zeugopod
 http://purl.obolibrary.org/obo/MP_0003553	abnormal foreskin morphology	http://purl.obolibrary.org/obo/UBERON_0001471	skin of prepuce of penis
 http://purl.obolibrary.org/obo/MP_0010784	abnormal forestomach morphology	http://purl.obolibrary.org/obo/UBERON_0008827	murine forestomach
 http://purl.obolibrary.org/obo/MP_0013575	abnormal forestomach-glandular stomach junction morphology	http://purl.obolibrary.org/obo/UBERON_0012270	forestomach-glandular stomach junction
@@ -529,9 +543,11 @@ http://purl.obolibrary.org/obo/MP_0000798	abnormal frontal lobe morphology	http:
 http://purl.obolibrary.org/obo/MP_0002246	abnormal frontal sinus morphology	http://purl.obolibrary.org/obo/UBERON_0001760	frontal sinus
 http://purl.obolibrary.org/obo/MP_0011266	abnormal frontonasal mesenchyme morphology	http://purl.obolibrary.org/obo/UBERON_0009501	mesenchyme of fronto-nasal process
 http://purl.obolibrary.org/obo/MP_0009901	abnormal frontonasal prominence morphology	http://purl.obolibrary.org/obo/UBERON_0004066	frontonasal prominence
+http://purl.obolibrary.org/obo/MP_0010043	abnormal frontonasal suture morphology	http://purl.obolibrary.org/obo/UBERON_0005404	frontonasal suture
 http://purl.obolibrary.org/obo/MP_0009492	abnormal gallbladder epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0002029	epithelium of gall bladder
 http://purl.obolibrary.org/obo/MP_0009465	abnormal gallbladder infundibulum morphology	http://purl.obolibrary.org/obo/UBERON_0015139	infundibulum of gallbladder
 http://purl.obolibrary.org/obo/MP_0005084	abnormal gallbladder morphology	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MP_0031021	abnormal gallbladder smooth muscle morphology	http://purl.obolibrary.org/obo/UBERON_0004240	gall bladder smooth muscle
 http://purl.obolibrary.org/obo/MP_0003082	abnormal gastrocnemius morphology	http://purl.obolibrary.org/obo/UBERON_0001388	gastrocnemius
 http://purl.obolibrary.org/obo/MP_0010153	abnormal gastroesophageal sphincter morphology	http://purl.obolibrary.org/obo/UBERON_0004550	gastroesophageal sphincter
 http://purl.obolibrary.org/obo/MP_3000001	abnormal gastrula morphology	http://purl.obolibrary.org/obo/UBERON_0004734	gastrula
@@ -681,6 +697,7 @@ http://purl.obolibrary.org/obo/MP_0005336	abnormal inguinal fat pad morphology	h
 http://purl.obolibrary.org/obo/MP_0002353	abnormal inguinal lymph node morphology	http://purl.obolibrary.org/obo/UBERON_0001542	inguinal lymph node
 http://purl.obolibrary.org/obo/MP_0013711	abnormal inguinal mammary gland morphology	http://purl.obolibrary.org/obo/UBERON_0008424	inguinal mammary gland
 http://purl.obolibrary.org/obo/MP_0030164	abnormal inner canthus morphology	http://purl.obolibrary.org/obo/UBERON_0005611	inner canthus
+http://purl.obolibrary.org/obo/MP_0002718	abnormal inner cell mass morphology	http://purl.obolibrary.org/obo/UBERON_0000087	inner cell mass
 http://purl.obolibrary.org/obo/MP_0030519	abnormal inner dental epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0006951	inner dental epithelium
 http://purl.obolibrary.org/obo/MP_0002729	abnormal inner ear canal morphology	http://purl.obolibrary.org/obo/UBERON_0003950	inner ear canal
 http://purl.obolibrary.org/obo/MP_0000026	abnormal inner ear morphology	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
@@ -691,6 +708,7 @@ http://purl.obolibrary.org/obo/MP_0002280	abnormal intercostal muscle morphology
 http://purl.obolibrary.org/obo/MP_0009500	abnormal interlobular bile duct morphology	http://purl.obolibrary.org/obo/UBERON_0001246	interlobular bile duct
 http://purl.obolibrary.org/obo/MP_0011326	abnormal interlobular vein morphology	http://purl.obolibrary.org/obo/UBERON_0005168	renal interlobular vein
 http://purl.obolibrary.org/obo/MP_0010796	abnormal intermediate gastric gland morphology	http://purl.obolibrary.org/obo/UBERON_0008860	intermediate gastric gland
+http://purl.obolibrary.org/obo/MP_0010118	abnormal intermediate mesoderm morphology	http://purl.obolibrary.org/obo/UBERON_0003064	intermediate mesoderm
 http://purl.obolibrary.org/obo/MP_0009055	abnormal internal anal sphincter morphology	http://purl.obolibrary.org/obo/UBERON_0001244	internal anal sphincter
 http://purl.obolibrary.org/obo/MP_0004286	abnormal internal auditory canal morphology	http://purl.obolibrary.org/obo/UBERON_0011859	internal acoustic meatus
 http://purl.obolibrary.org/obo/MP_0012730	abnormal internal carotid artery morphology	http://purl.obolibrary.org/obo/UBERON_0001532	internal carotid artery
@@ -698,6 +716,7 @@ http://purl.obolibrary.org/obo/MP_0009209	abnormal internal female genitalia mor
 http://purl.obolibrary.org/obo/MP_0009205	abnormal internal male genitalia morphology	http://purl.obolibrary.org/obo/UBERON_0004054	internal male genitalia
 http://purl.obolibrary.org/obo/MP_0002236	abnormal internal nares morphology	http://purl.obolibrary.org/obo/UBERON_0004771	posterior nasal aperture
 http://purl.obolibrary.org/obo/MP_0011782	abnormal internal urethral orifice morphology	http://purl.obolibrary.org/obo/UBERON_0012242	internal urethral orifice
+http://purl.obolibrary.org/obo/MP_0030195	abnormal internasal suture morphology	http://purl.obolibrary.org/obo/UBERON_0009203	internasal suture
 http://purl.obolibrary.org/obo/MP_0000077	abnormal interparietal bone morphology	http://purl.obolibrary.org/obo/UBERON_0002229	interparietal bone
 http://purl.obolibrary.org/obo/MP_0012199	abnormal interphalangeal joint morphology	http://purl.obolibrary.org/obo/UBERON_0006658	interphalangeal joint
 http://purl.obolibrary.org/obo/MP_0006320	abnormal interscapular fat pad morphology	http://purl.obolibrary.org/obo/UBERON_0014396	interscapular fat pad
@@ -933,6 +952,7 @@ http://purl.obolibrary.org/obo/MP_0009986	abnormal middle cerebellar peduncle mo
 http://purl.obolibrary.org/obo/MP_0020487	abnormal middle cerebral artery morphology	http://purl.obolibrary.org/obo/UBERON_0001627	middle cerebral artery
 http://purl.obolibrary.org/obo/MP_0001016	abnormal middle cervical ganglion morphology	http://purl.obolibrary.org/obo/UBERON_0001990	middle cervical ganglion
 http://purl.obolibrary.org/obo/MP_0030308	abnormal middle cranial fossa morphology	http://purl.obolibrary.org/obo/UBERON_0003722	middle cranial fossa
+http://purl.obolibrary.org/obo/MP_0020900	abnormal middle ear epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0015813	middle ear epithelium
 http://purl.obolibrary.org/obo/MP_0000049	abnormal middle ear morphology	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
 http://purl.obolibrary.org/obo/MP_0005105	abnormal middle ear ossicle morphology	http://purl.obolibrary.org/obo/UBERON_0001686	auditory ossicle bone
 http://purl.obolibrary.org/obo/MP_0030095	abnormal midface morphology	http://purl.obolibrary.org/obo/UBERON_0004089	midface
@@ -942,7 +962,6 @@ http://purl.obolibrary.org/obo/MP_0009529	abnormal minor sublingual duct morphol
 http://purl.obolibrary.org/obo/MP_0010613	abnormal mitral valve anulus morphology	http://purl.obolibrary.org/obo/UBERON_0005995	mitral valve anulus
 http://purl.obolibrary.org/obo/MP_0010614	abnormal mitral valve cusp morphology	http://purl.obolibrary.org/obo/UBERON_0005996	mitral valve cusp
 http://purl.obolibrary.org/obo/MP_0000286	abnormal mitral valve morphology	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
-http://purl.obolibrary.org/obo/MP_0003309	abnormal modiolus morphology	http://purl.obolibrary.org/obo/UBERON_0006723	cochlear modiolus
 http://purl.obolibrary.org/obo/MP_0003932	abnormal molar crown morphology	http://purl.obolibrary.org/obo/UBERON_0003955	molar crown
 http://purl.obolibrary.org/obo/MP_0002689	abnormal molar morphology	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth
 http://purl.obolibrary.org/obo/MP_0030494	abnormal molar root morphology	http://purl.obolibrary.org/obo/UBERON_0008854	root of molar tooth
@@ -987,6 +1006,7 @@ http://purl.obolibrary.org/obo/MP_0030528	abnormal neck skin morphology	http://p
 http://purl.obolibrary.org/obo/MP_0008547	abnormal neocortex morphology	http://purl.obolibrary.org/obo/UBERON_0001950	neocortex
 http://purl.obolibrary.org/obo/MP_0011334	abnormal nephrogenic zone morphology	http://purl.obolibrary.org/obo/UBERON_0009871	nephrogenic zone
 http://purl.obolibrary.org/obo/MP_0003881	abnormal nephron morphology	http://purl.obolibrary.org/obo/UBERON_0001285	nephron
+http://purl.obolibrary.org/obo/MP_0000778	abnormal nervous system tract morphology	http://purl.obolibrary.org/obo/UBERON_0001018	axon tract
 http://purl.obolibrary.org/obo/MP_0009846	abnormal neural crest morphology	http://purl.obolibrary.org/obo/UBERON_0002342	neural crest
 http://purl.obolibrary.org/obo/MP_0011256	abnormal neural fold morphology	http://purl.obolibrary.org/obo/UBERON_0005062	neural fold
 http://purl.obolibrary.org/obo/MP_0005657	abnormal neural plate morphology	http://purl.obolibrary.org/obo/UBERON_0003075	neural plate
@@ -1082,6 +1102,7 @@ http://purl.obolibrary.org/obo/MP_0013608	abnormal ovarian cortex morphology	htt
 http://purl.obolibrary.org/obo/MP_0013606	abnormal ovarian fossa morphology	http://purl.obolibrary.org/obo/UBERON_0016883	ovarian fossa
 http://purl.obolibrary.org/obo/MP_0013609	abnormal ovarian medulla morphology	http://purl.obolibrary.org/obo/UBERON_0013192	ovarian medulla
 http://purl.obolibrary.org/obo/MP_0013311	abnormal ovary capsule morphology	http://purl.obolibrary.org/obo/UBERON_0001307	capsule of ovary
+http://purl.obolibrary.org/obo/MP_0001126	abnormal ovary morphology	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0001126	abnormal ovary morphology	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0003574	abnormal oviduct morphology	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0000988	abnormal pacinian corpuscle morphology	http://purl.obolibrary.org/obo/UBERON_0003719	Pacinian corpuscle
@@ -1210,6 +1231,7 @@ http://purl.obolibrary.org/obo/MP_0005195	abnormal posterior eye segment morphol
 http://purl.obolibrary.org/obo/MP_0030364	abnormal posterior fontanelle morphology	http://purl.obolibrary.org/obo/UBERON_0006683	posterior fontanelle
 http://purl.obolibrary.org/obo/MP_0004275	abnormal postnatal subventricular zone morphology	http://purl.obolibrary.org/obo/UBERON_0010404	lateral ventricle subependymal layer
 http://purl.obolibrary.org/obo/MP_0010745	abnormal pre-Botzinger complex morphology	http://purl.obolibrary.org/obo/UBERON_0006007	pre-Botzinger complex
+http://purl.obolibrary.org/obo/MP_0000799	abnormal precentral gyrus morphology	http://purl.obolibrary.org/obo/UBERON_0002703	precentral gyrus
 http://purl.obolibrary.org/obo/MP_0012275	abnormal prechordal mesoderm morphology	http://purl.obolibrary.org/obo/UBERON_0034878	prechordal mesoderm
 http://purl.obolibrary.org/obo/MP_0004387	abnormal prechordal plate morphology	http://purl.obolibrary.org/obo/UBERON_0003063	prechordal plate
 http://purl.obolibrary.org/obo/MP_0030543	abnormal predentin morphology	http://purl.obolibrary.org/obo/UBERON_0011587	pre-dentine
@@ -1336,6 +1358,7 @@ http://purl.obolibrary.org/obo/MP_0002266	abnormal right major bronchus morpholo
 http://purl.obolibrary.org/obo/MP_0011318	abnormal right renal artery morphology	http://purl.obolibrary.org/obo/UBERON_0001185	right renal artery
 http://purl.obolibrary.org/obo/MP_0011328	abnormal right renal vein morphology	http://purl.obolibrary.org/obo/UBERON_0001141	right renal vein
 http://purl.obolibrary.org/obo/MP_0010487	abnormal right subclavian artery morphology	http://purl.obolibrary.org/obo/UBERON_0001534	right subclavian artery
+http://purl.obolibrary.org/obo/MP_0000923	abnormal roof plate morphology	http://purl.obolibrary.org/obo/UBERON_0003054	roof plate
 http://purl.obolibrary.org/obo/MP_0004279	abnormal rostral migratory stream morphology	http://purl.obolibrary.org/obo/UBERON_0008881	rostral migratory stream
 http://purl.obolibrary.org/obo/MP_0012543	abnormal rostral neuropore morphology	http://purl.obolibrary.org/obo/UBERON_0005070	anterior neuropore
 http://purl.obolibrary.org/obo/MP_0004480	abnormal round window morphology	http://purl.obolibrary.org/obo/UBERON_0002502	round window of inner ear
@@ -1354,6 +1377,7 @@ http://purl.obolibrary.org/obo/MP_0000149	abnormal scapula morphology	http://pur
 http://purl.obolibrary.org/obo/MP_0030832	abnormal scapular coracoid process morphology	http://purl.obolibrary.org/obo/UBERON_0006633	coracoid process of scapula
 http://purl.obolibrary.org/obo/MP_0004347	abnormal scapular spine morphology	http://purl.obolibrary.org/obo/UBERON_0004651	scapula spine
 http://purl.obolibrary.org/obo/MP_0002698	abnormal sclera morphology	http://purl.obolibrary.org/obo/UBERON_0001773	sclera
+http://purl.obolibrary.org/obo/MP_0006029	abnormal sclerotome morphology	http://purl.obolibrary.org/obo/UBERON_0003089	sclerotome
 http://purl.obolibrary.org/obo/MP_0002669	abnormal scrotum morphology	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
 http://purl.obolibrary.org/obo/MP_0000647	abnormal sebaceous gland morphology	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
 http://purl.obolibrary.org/obo/MP_0010356	abnormal second pharyngeal arch artery morphology	http://purl.obolibrary.org/obo/UBERON_0003119	pharyngeal arch artery 2
@@ -1402,6 +1426,7 @@ http://purl.obolibrary.org/obo/MP_0000443	abnormal snout morphology	http://purl.
 http://purl.obolibrary.org/obo/MP_0030533	abnormal snout skin morphology	http://purl.obolibrary.org/obo/UBERON_1000015	skin of snout
 http://purl.obolibrary.org/obo/MP_0030224	abnormal soft palate muscle morphology	http://purl.obolibrary.org/obo/UBERON_0003682	palatal muscle
 http://purl.obolibrary.org/obo/MP_0003081	abnormal soleus morphology	http://purl.obolibrary.org/obo/UBERON_0001389	soleus muscle
+http://purl.obolibrary.org/obo/MP_0001051	abnormal somatic motor system morphology	http://purl.obolibrary.org/obo/UBERON_0003945	somatic motor system
 http://purl.obolibrary.org/obo/MP_0002752	abnormal somatic nervous system morphology	http://purl.obolibrary.org/obo/UBERON_0000012	somatic nervous system
 http://purl.obolibrary.org/obo/MP_0000859	abnormal somatosensory cortex morphology	http://purl.obolibrary.org/obo/UBERON_0008930	somatosensory cortex
 http://purl.obolibrary.org/obo/MP_0012728	abnormal somite border morphology	http://purl.obolibrary.org/obo/UBERON_0015178	somite border
@@ -1645,6 +1670,7 @@ http://purl.obolibrary.org/obo/MP_0006018	abnormal tympanic membrane morphology	
 http://purl.obolibrary.org/obo/MP_0000030	abnormal tympanic ring morphology	http://purl.obolibrary.org/obo/UBERON_0002218	tympanic ring
 http://purl.obolibrary.org/obo/MP_0005108	abnormal ulna morphology	http://purl.obolibrary.org/obo/UBERON_0001424	ulna
 http://purl.obolibrary.org/obo/MP_0030902	abnormal ulnar styloid process morphology	http://purl.obolibrary.org/obo/UBERON_0011575	styloid process of ulna
+http://purl.obolibrary.org/obo/MP_0003955	abnormal ultimobranchial body morphology	http://purl.obolibrary.org/obo/UBERON_0003092	ultimobranchial body
 http://purl.obolibrary.org/obo/MP_0012300	abnormal umbilical cord blood vessel morphology	http://purl.obolibrary.org/obo/UBERON_0010260	umbilical blood vessel
 http://purl.obolibrary.org/obo/MP_0001725	abnormal umbilical cord morphology	http://purl.obolibrary.org/obo/UBERON_0002331	umbilical cord
 http://purl.obolibrary.org/obo/MP_0010667	abnormal umbilical vein morphology	http://purl.obolibrary.org/obo/UBERON_0002066	umbilical vein

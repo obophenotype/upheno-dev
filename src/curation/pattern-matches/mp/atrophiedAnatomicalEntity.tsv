@@ -26,6 +26,7 @@ http://purl.obolibrary.org/obo/MP_0003776	lip atrophy	http://purl.obolibrary.org
 http://purl.obolibrary.org/obo/MP_0012507	midbrain atrophy	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
 http://purl.obolibrary.org/obo/MP_0002269	muscular atrophy	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/MP_0001059	optic nerve atrophy	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
+http://purl.obolibrary.org/obo/MP_0004833	ovary atrophy	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0004833	ovary atrophy	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009064	oviduct atrophy	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0013295	pancreas atrophy	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
@@ -38,6 +39,7 @@ http://purl.obolibrary.org/obo/MP_0009417	skeletal muscle atrophy	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0030584	skin atrophy	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
 http://purl.obolibrary.org/obo/MP_0014078	small intestinal villus atrophy	http://purl.obolibrary.org/obo/UBERON_0001213	intestinal villus
 http://purl.obolibrary.org/obo/MP_0003643	spleen atrophy	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
+http://purl.obolibrary.org/obo/MP_0030986	striatum atrophy	http://purl.obolibrary.org/obo/UBERON_0002435	striatum
 http://purl.obolibrary.org/obo/MP_0003205	testicular atrophy	http://purl.obolibrary.org/obo/UBERON_0000473	testis
 http://purl.obolibrary.org/obo/MP_0003644	thymus atrophy	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
 http://purl.obolibrary.org/obo/MP_0013585	thymus cortex atrophy	http://purl.obolibrary.org/obo/UBERON_0002123	cortex of thymus

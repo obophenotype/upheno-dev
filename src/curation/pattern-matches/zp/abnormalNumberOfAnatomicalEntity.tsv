@@ -1,159 +1,76 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0014160	CaP motoneuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009243	CaP motoneuron
-http://purl.obolibrary.org/obo/ZP_0021372	Kupffer's vesicle amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
 http://purl.obolibrary.org/obo/ZP_0104421	Mauthner neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009149	Mauthner neuron
-http://purl.obolibrary.org/obo/ZP_0022006	Meckel's cartilage amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
 http://purl.obolibrary.org/obo/ZP_0100161	Muller cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009280	Muller cell
 http://purl.obolibrary.org/obo/ZP_0100036	Rohon-Beard neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009150	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/ZP_0022061	T interneuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005815	T interneuron
 http://purl.obolibrary.org/obo/ZP_0016151	adrenocorticotropic hormone secreting cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009216	adrenocorticotropic hormone secreting cell
 http://purl.obolibrary.org/obo/ZP_0100323	amacrine cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009255	amacrine cell
-http://purl.obolibrary.org/obo/ZP_0020620	anatomical structure amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000037	anatomical structure
-http://purl.obolibrary.org/obo/ZP_0022405	angioblastic mesenchymal cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009258	angioblastic mesenchymal cell
 http://purl.obolibrary.org/obo/ZP_0103522	angiogenic sprout amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005604	angiogenic sprout
-http://purl.obolibrary.org/obo/ZP_0100038	anterior neural plate decreased distribution, abnormal	http://purl.obolibrary.org/obo/ZFA_0001462	somite border
-http://purl.obolibrary.org/obo/ZP_0022591	aortic arch 1 amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005005	aortic arch 1
-http://purl.obolibrary.org/obo/ZP_0102484	atrioventricular canal amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001315	atrioventricular canal
-http://purl.obolibrary.org/obo/ZP_0100587	atrioventricular ring amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005073	atrioventricular ring
-http://purl.obolibrary.org/obo/ZP_0021259	atrium amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
 http://purl.obolibrary.org/obo/ZP_0013205	axial blood vessel amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005295	axial blood vessel
-http://purl.obolibrary.org/obo/ZP_0103744	axis amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis
 http://purl.obolibrary.org/obo/ZP_0015488	blastomere amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
-http://purl.obolibrary.org/obo/ZP_0021457	blood amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000007	blood
 http://purl.obolibrary.org/obo/ZP_0100509	blood cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009044	blood cell
-http://purl.obolibrary.org/obo/ZP_0022442	brain amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0100041	cardiac muscle cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
-http://purl.obolibrary.org/obo/ZP_0021258	cardiac ventricle amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
-http://purl.obolibrary.org/obo/ZP_0104082	cartilage tissue amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005622	cartilage tissue
-http://purl.obolibrary.org/obo/ZP_0022589	caudal division of the internal carotid artery amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001051	caudal division of the internal carotid artery
-http://purl.obolibrary.org/obo/ZP_0021729	caudal fin amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
-http://purl.obolibrary.org/obo/ZP_0100427	caudal hematopoietic tissue amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005898	caudal hematopoietic tissue
-http://purl.obolibrary.org/obo/ZP_0102726	central artery amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005020	central artery
 http://purl.obolibrary.org/obo/ZP_0100688	chondrocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte
-http://purl.obolibrary.org/obo/ZP_0022404	common myeloid progenitor amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009021	common myeloid progenitor
-http://purl.obolibrary.org/obo/ZP_0022607	cranial cartilage amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001458	cranial cartilage
-http://purl.obolibrary.org/obo/ZP_0022606	dermatocranium amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000863	dermatocranium
-http://purl.obolibrary.org/obo/ZP_0021607	diencephalon amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000101	diencephalon
-http://purl.obolibrary.org/obo/ZP_0021631	digestive system amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000339	digestive system
 http://purl.obolibrary.org/obo/ZP_0014613	dopaminergic neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009301	dopaminergic neuron
-http://purl.obolibrary.org/obo/ZP_0101718	dorsal aorta amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
-http://purl.obolibrary.org/obo/ZP_0102727	dorsal longitudinal anastomotic vessel amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0013672	dorsal root ganglion amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000200	dorsal root ganglion
-http://purl.obolibrary.org/obo/ZP_0023014	ectomesenchyme amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005771	ectomesenchyme
-http://purl.obolibrary.org/obo/ZP_0103743	endoderm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
 http://purl.obolibrary.org/obo/ZP_0013399	endodermal cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009139	endodermal cell
 http://purl.obolibrary.org/obo/ZP_0013175	endothelial cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell
 http://purl.obolibrary.org/obo/ZP_0100747	enteric neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005775	enteric neuron
-http://purl.obolibrary.org/obo/ZP_0021732	epicardium amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005057	epicardium
-http://purl.obolibrary.org/obo/ZP_0022791	epidermal superficial stratum amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001179	epidermal superficial stratum
-http://purl.obolibrary.org/obo/ZP_0022790	epidermis amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
 http://purl.obolibrary.org/obo/ZP_0101571	erythroid lineage cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009325	erythroid lineage cell
-http://purl.obolibrary.org/obo/ZP_0101559	erythroid progenitor cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009015	erythroid progenitor cell
-http://purl.obolibrary.org/obo/ZP_0021231	exocrine pancreas amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001249	exocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0100003	forerunner cell group amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000023	forerunner cell group
-http://purl.obolibrary.org/obo/ZP_0021814	gill amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000354	gill
 http://purl.obolibrary.org/obo/ZP_0100667	goblet cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009094	goblet cell
-http://purl.obolibrary.org/obo/ZP_0100922	granulocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009048	granulocyte
 http://purl.obolibrary.org/obo/ZP_0104284	green sensitive photoreceptor cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009223	green sensitive photoreceptor cell
-http://purl.obolibrary.org/obo/ZP_0021534	gut amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut
 http://purl.obolibrary.org/obo/ZP_0100015	hair cell anterior macula amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000678	hair cell anterior macula
 http://purl.obolibrary.org/obo/ZP_0102668	hair cell posterior macula amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000281	hair cell posterior macula
-http://purl.obolibrary.org/obo/ZP_0021842	head amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
-http://purl.obolibrary.org/obo/ZP_0021662	head kidney amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000669	head kidney
-http://purl.obolibrary.org/obo/ZP_0022250	heart amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000114	heart
 http://purl.obolibrary.org/obo/ZP_0100159	hematopoietic multipotent progenitor cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009354	hematopoietic multipotent progenitor cell
 http://purl.obolibrary.org/obo/ZP_0101560	hematopoietic stem cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009014	hematopoietic stem cell
 http://purl.obolibrary.org/obo/ZP_0100061	hepatocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte
-http://purl.obolibrary.org/obo/ZP_0021458	hindbrain amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
-http://purl.obolibrary.org/obo/ZP_0021348	hypothalamus amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000032	hypothalamus
-http://purl.obolibrary.org/obo/ZP_0102724	integument amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000368	integument
-http://purl.obolibrary.org/obo/ZP_0022256	intermediate cell mass of mesoderm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000033	intermediate cell mass of mesoderm
-http://purl.obolibrary.org/obo/ZP_0022593	internal carotid artery amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005081	internal carotid artery
 http://purl.obolibrary.org/obo/ZP_0101448	interneuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009051	interneuron
 http://purl.obolibrary.org/obo/ZP_0103299	intersegmental artery amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001061	intersegmental artery
 http://purl.obolibrary.org/obo/ZP_0103298	intersegmental vein amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001057	intersegmental vein
 http://purl.obolibrary.org/obo/ZP_0100034	intersegmental vessel amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
-http://purl.obolibrary.org/obo/ZP_0021864	intestine amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
-http://purl.obolibrary.org/obo/ZP_0022918	ionocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005323	ionocyte
 http://purl.obolibrary.org/obo/ZP_0101332	iridophore amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009199	iridophore
-http://purl.obolibrary.org/obo/ZP_0022858	keratinocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009158	keratinocyte
-http://purl.obolibrary.org/obo/ZP_0022590	lateral dorsal aorta amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001054	lateral dorsal aorta
-http://purl.obolibrary.org/obo/ZP_0104717	lens epithelium amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001326	lens epithelium
-http://purl.obolibrary.org/obo/ZP_0100483	leukocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009309	leukocyte
-http://purl.obolibrary.org/obo/ZP_0021444	liver amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0100073	macrophage amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009141	macrophage
 http://purl.obolibrary.org/obo/ZP_0100937	melanoblast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009249	melanoblast
 http://purl.obolibrary.org/obo/ZP_0100134	melanocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte
-http://purl.obolibrary.org/obo/ZP_0022831	mesoderm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000041	mesoderm
-http://purl.obolibrary.org/obo/ZP_0021459	midbrain amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000128	midbrain
-http://purl.obolibrary.org/obo/ZP_0023015	migratory neural crest amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007085	migratory neural crest
-http://purl.obolibrary.org/obo/ZP_0022417	migratory slow muscle precursor cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001373	migratory slow muscle precursor cell
+http://purl.obolibrary.org/obo/ZP_0106412	microglial cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009077	microglial cell
 http://purl.obolibrary.org/obo/ZP_0100409	motor neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron
 http://purl.obolibrary.org/obo/ZP_0100306	muscle pioneer amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001086	muscle pioneer
 http://purl.obolibrary.org/obo/ZP_0015889	myelinating Schwann cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009135	myelinating Schwann cell
 http://purl.obolibrary.org/obo/ZP_0101599	myeloid cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009324	myeloid cell
-http://purl.obolibrary.org/obo/ZP_0021315	myocardium amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium
-http://purl.obolibrary.org/obo/ZP_0021297	neural crest amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000045	neural crest
 http://purl.obolibrary.org/obo/ZP_0100204	neuromast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000243	neuromast
 http://purl.obolibrary.org/obo/ZP_0100098	neuromast hair cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell
 http://purl.obolibrary.org/obo/ZP_0013346	neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron
 http://purl.obolibrary.org/obo/ZP_0100243	neutrophil amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009327	neutrophil
 http://purl.obolibrary.org/obo/ZP_0100436	nucleate erythrocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte
-http://purl.obolibrary.org/obo/ZP_0021608	olfactory bulb amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000402	olfactory bulb
-http://purl.obolibrary.org/obo/ZP_0022592	optic artery amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005044	optic artery
-http://purl.obolibrary.org/obo/ZP_0022435	optic cup amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001202	optic cup
 http://purl.obolibrary.org/obo/ZP_0013571	osteoblast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009031	osteoblast
 http://purl.obolibrary.org/obo/ZP_0100158	otolith amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001617	otolith
-http://purl.obolibrary.org/obo/ZP_0021899	ovary amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000403	ovary
-http://purl.obolibrary.org/obo/ZP_0021897	pancreas amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000140	pancreas
 http://purl.obolibrary.org/obo/ZP_0100423	pancreatic A cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009104	pancreatic A cell
 http://purl.obolibrary.org/obo/ZP_0100369	pancreatic B cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009102	pancreatic B cell
 http://purl.obolibrary.org/obo/ZP_0021652	pancreatic D cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005743	pancreatic D cell
-http://purl.obolibrary.org/obo/ZP_0022355	paraxial mesoderm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000255	paraxial mesoderm
-http://purl.obolibrary.org/obo/ZP_0102973	pharyngeal arch 3-7 amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001613	pharyngeal arch 3-7
 http://purl.obolibrary.org/obo/ZP_0101487	photoreceptor cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0100440	pigment cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009090	pigment cell
-http://purl.obolibrary.org/obo/ZP_0102725	posterior cardinal vein amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000477	posterior cardinal vein
 http://purl.obolibrary.org/obo/ZP_0101503	posterior lateral line neuromast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000940	posterior lateral line neuromast
-http://purl.obolibrary.org/obo/ZP_0022257	posterior lateral plate mesoderm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005042	posterior lateral plate mesoderm
-http://purl.obolibrary.org/obo/ZP_0103670	presumptive endoderm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000416	presumptive endoderm
-http://purl.obolibrary.org/obo/ZP_0103673	presumptive mesoderm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001377	presumptive mesoderm
 http://purl.obolibrary.org/obo/ZP_0103306	primary motor neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0012915	primordial germ cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009288	primordial germ cell
 http://purl.obolibrary.org/obo/ZP_0100658	prolactin secreting cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009204	prolactin secreting cell
-http://purl.obolibrary.org/obo/ZP_0100019	pronephric duct amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000150	pronephric duct
-http://purl.obolibrary.org/obo/ZP_0100355	pronephric tubule amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
-http://purl.obolibrary.org/obo/ZP_0100353	pronephros amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000151	pronephros
 http://purl.obolibrary.org/obo/ZP_0013027	radial glial cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009292	radial glial cell
 http://purl.obolibrary.org/obo/ZP_0104285	red sensitive photoreceptor cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009224	red sensitive photoreceptor cell
-http://purl.obolibrary.org/obo/ZP_0021583	retina amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0101390	retinal bipolar neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009318	retinal bipolar neuron
 http://purl.obolibrary.org/obo/ZP_0100324	retinal cone cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell
-http://purl.obolibrary.org/obo/ZP_0021500	retinal ganglion cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009310	retinal ganglion cell
-http://purl.obolibrary.org/obo/ZP_0100207	retinal inner nuclear layer amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000119	retinal inner nuclear layer
-http://purl.obolibrary.org/obo/ZP_0100208	retinal outer nuclear layer amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001464	retinal outer nuclear layer
 http://purl.obolibrary.org/obo/ZP_0101574	retinal rod cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
 http://purl.obolibrary.org/obo/ZP_0013497	secondary islet amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005756	secondary islet
 http://purl.obolibrary.org/obo/ZP_0100330	secondary motor neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009247	secondary motor neuron
 http://purl.obolibrary.org/obo/ZP_0101400	slow muscle cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
 http://purl.obolibrary.org/obo/ZP_0102200	somite amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
-http://purl.obolibrary.org/obo/ZP_0015017	somite border amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001462	somite border
 http://purl.obolibrary.org/obo/ZP_0103163	sperm amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009006	sperm
 http://purl.obolibrary.org/obo/ZP_0100755	spinal cord interneuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000778	spinal cord interneuron
 http://purl.obolibrary.org/obo/ZP_0022837	sympathetic chain ganglion amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001556	sympathetic chain ganglion
-http://purl.obolibrary.org/obo/ZP_0104062	telencephalon amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000079	telencephalon
+http://purl.obolibrary.org/obo/ZP_0131028	sympathetic neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005777	sympathetic neuron
 http://purl.obolibrary.org/obo/ZP_0021654	thoracic duct amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005110	thoracic duct
 http://purl.obolibrary.org/obo/ZP_0100464	thrombocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009323	thrombocyte
-http://purl.obolibrary.org/obo/ZP_0022566	thymus amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001078	thymus
-http://purl.obolibrary.org/obo/ZP_0102096	thyroid follicle amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001072	thyroid follicle
-http://purl.obolibrary.org/obo/ZP_0021260	trunk amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
-http://purl.obolibrary.org/obo/ZP_0102217	trunk vasculature amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005024	trunk vasculature
 http://purl.obolibrary.org/obo/ZP_0021655	vascular lymphangioblast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009395	vascular lymphangioblast
-http://purl.obolibrary.org/obo/ZP_0021460	vasculature amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005249	vasculature
-http://purl.obolibrary.org/obo/ZP_0022701	ventral wall of dorsal aorta amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005028	ventral wall of dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0013101	vertebra amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra
-http://purl.obolibrary.org/obo/ZP_0100624	vertebral column amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column
-http://purl.obolibrary.org/obo/ZP_0100795	visceral fat amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005759	visceral fat
-http://purl.obolibrary.org/obo/ZP_0021257	whole organism amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0012913	xanthoblast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005245	xanthoblast
 http://purl.obolibrary.org/obo/ZP_0100749	xanthophore amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009198	xanthophore

@@ -27,4 +27,6 @@ http://purl.obolibrary.org/obo/HP_0025023	Rectal atresia	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/HP_0100682	Tracheal atresia	http://purl.obolibrary.org/obo/UBERON_0003126	trachea
 http://purl.obolibrary.org/obo/HP_0005999	Ureteral atresia	http://purl.obolibrary.org/obo/UBERON_0000056	ureter
 http://purl.obolibrary.org/obo/HP_0000068	Urethral atresia	http://purl.obolibrary.org/obo/UBERON_0000057	urethra
+http://purl.obolibrary.org/obo/HP_0000067	Urethral atresia, female	http://purl.obolibrary.org/obo/UBERON_0001334	female urethra
+http://purl.obolibrary.org/obo/HP_0000052	Urethral atresia, male	http://purl.obolibrary.org/obo/UBERON_0001333	male urethra
 http://purl.obolibrary.org/obo/HP_0000148	Vaginal atresia	http://purl.obolibrary.org/obo/UBERON_0000996	vagina

@@ -2,8 +2,6 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/XPO_0115388	abnormal(ly) decreased length of alimentary system (T)	http://purl.obolibrary.org/obo/XAO_0000125	alimentary system
 http://purl.obolibrary.org/obo/XPO_0115376	abnormal(ly) decreased length of hindgut (T)	http://purl.obolibrary.org/obo/XAO_0000104	hindgut
 http://purl.obolibrary.org/obo/XPO_0115397	abnormal(ly) decreased length of intestine (T)	http://purl.obolibrary.org/obo/XAO_0000129	intestine
-http://purl.obolibrary.org/obo/XPO_0115363	abnormal(ly) decreased length of tail region (T)	http://purl.obolibrary.org/obo/XAO_0000087	tail region
-http://purl.obolibrary.org/obo/XPO_0115334	abnormal(ly) decreased length of trunk region (T)	http://purl.obolibrary.org/obo/XAO_0000054	trunk region
 http://purl.obolibrary.org/obo/XPO_0103560	decreased length of anterior neural fold	http://purl.obolibrary.org/obo/XAO_0000310	anterior neural fold
 http://purl.obolibrary.org/obo/XPO_0103561	decreased length of anterior-posterior axis	http://purl.obolibrary.org/obo/XAO_0005202	anterior-posterior axis
 http://purl.obolibrary.org/obo/XPO_0103562	decreased length of archenteron	http://purl.obolibrary.org/obo/XAO_0000092	archenteron

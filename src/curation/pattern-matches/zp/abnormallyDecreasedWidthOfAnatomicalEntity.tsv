@@ -5,9 +5,9 @@ http://purl.obolibrary.org/obo/ZP_0015830	anterior lateral plate mesoderm decrea
 http://purl.obolibrary.org/obo/ZP_0003784	anterior neural tube decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007038	anterior neural tube
 http://purl.obolibrary.org/obo/ZP_0103801	atrioventricular canal decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001315	atrioventricular canal
 http://purl.obolibrary.org/obo/ZP_0009860	axial chorda mesoderm decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000091	axial chorda mesoderm
-http://purl.obolibrary.org/obo/ZP_0100066	axon retinal neural layer decreased branchiness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001311	roof plate rhombomere region
 http://purl.obolibrary.org/obo/ZP_0004473	blood vessel decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel
 http://purl.obolibrary.org/obo/ZP_0003663	brain decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0131255	caudal fin decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0001304	caudal vein plexus decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
 http://purl.obolibrary.org/obo/ZP_0016666	chondrocranium decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001424	chondrocranium
 http://purl.obolibrary.org/obo/ZP_0006602	common cardinal vein decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000186	common cardinal vein
@@ -21,6 +21,7 @@ http://purl.obolibrary.org/obo/ZP_0002539	eye decreased width, abnormal	http://p
 http://purl.obolibrary.org/obo/ZP_0011907	fast muscle cell decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell
 http://purl.obolibrary.org/obo/ZP_0003226	forebrain decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0016813	green sensitive photoreceptor cell decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009223	green sensitive photoreceptor cell
+http://purl.obolibrary.org/obo/ZP_0131211	hair cell anterior macula decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000678	hair cell anterior macula
 http://purl.obolibrary.org/obo/ZP_0000407	head decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0014566	heart decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000114	heart
 http://purl.obolibrary.org/obo/ZP_0003477	heart primordium decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000028	heart primordium
@@ -51,11 +52,12 @@ http://purl.obolibrary.org/obo/ZP_0007256	pharynx decreased width, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0012244	post-vent region decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0009267	posterior cardinal vein decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000477	posterior cardinal vein
 http://purl.obolibrary.org/obo/ZP_0000211	postoptic commissure decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000059	postoptic commissure
+http://purl.obolibrary.org/obo/ZP_0106748	pronephric proximal straight tubule decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001621	pronephric proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0003920	pupil decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001283	pupil
 http://purl.obolibrary.org/obo/ZP_0016817	red sensitive photoreceptor cell decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009224	red sensitive photoreceptor cell
+http://purl.obolibrary.org/obo/ZP_0106226	retinal outer plexiform layer decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001330	retinal outer plexiform layer
 http://purl.obolibrary.org/obo/ZP_0002583	rhombomere 3 decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000948	rhombomere 3
 http://purl.obolibrary.org/obo/ZP_0003534	rhombomere 5 decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000823	rhombomere 5
-http://purl.obolibrary.org/obo/ZP_0009792	roof plate rhombomere region decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001311	roof plate rhombomere region
 http://purl.obolibrary.org/obo/ZP_0011188	sagitta decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000676	sagitta
 http://purl.obolibrary.org/obo/ZP_0012345	skeletal muscle cell decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
 http://purl.obolibrary.org/obo/ZP_0004576	somite decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite

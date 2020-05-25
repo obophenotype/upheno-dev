@@ -115,6 +115,7 @@ http://purl.obolibrary.org/obo/MP_0005479	decreased circulating triiodothyronine
 http://purl.obolibrary.org/obo/MP_0008554	decreased circulating tumor necrosis factor level	http://purl.obolibrary.org/obo/PR_000000134	tumor necrosis factor	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0013724	decreased circulating tyrosine level	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030728	decreased circulating valine level	http://purl.obolibrary.org/obo/CHEBI_27266	valine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0012370	decreased erythrocyte potassium level	http://purl.obolibrary.org/obo/CHEBI_26216	potassium atom	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0020368	decreased heart iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0002874	decreased hemoglobin content	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0020385	decreased intestinal iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
@@ -124,10 +125,15 @@ http://purl.obolibrary.org/obo/MP_0012605	decreased kidney glutathione level	htt
 http://purl.obolibrary.org/obo/MP_0010376	decreased kidney iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
 http://purl.obolibrary.org/obo/MP_0010026	decreased liver cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0003067	decreased liver copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
-http://purl.obolibrary.org/obo/MP_0010398	decreased liver glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0008743	decreased liver iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0009356	decreased liver triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MP_0000362	decreased mast cell histamine storage	http://purl.obolibrary.org/obo/CHEBI_18295	histamine	http://purl.obolibrary.org/obo/CL_0000097	mast cell
+http://purl.obolibrary.org/obo/MP_0005562	decreased mean corpuscular hemoglobin	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/CL_0000595	enucleate erythrocyte
 http://purl.obolibrary.org/obo/MP_0013303	decreased pancreas iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
+http://purl.obolibrary.org/obo/MP_0009557	decreased platelet ADP level	http://purl.obolibrary.org/obo/CHEBI_16761	ADP	http://purl.obolibrary.org/obo/CL_0000233	platelet
+http://purl.obolibrary.org/obo/MP_0009448	decreased platelet ATP level	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/CL_0000233	platelet
+http://purl.obolibrary.org/obo/MP_0004867	decreased platelet calcium level	http://purl.obolibrary.org/obo/CHEBI_22984	calcium atom	http://purl.obolibrary.org/obo/CL_0000233	platelet
+http://purl.obolibrary.org/obo/MP_0004725	decreased platelet serotonin level	http://purl.obolibrary.org/obo/CHEBI_28790	serotonin	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/MP_0010399	decreased skeletal muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/MP_0008808	decreased spleen iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
 http://purl.obolibrary.org/obo/MP_0030771	decreased urine adrenaline level	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline	http://purl.obolibrary.org/obo/UBERON_0001088	urine

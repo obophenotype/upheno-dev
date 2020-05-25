@@ -28,7 +28,7 @@ http://purl.obolibrary.org/obo/HP_0005645	Intervertebral disk calcification	http
 http://purl.obolibrary.org/obo/HP_0008754	Laryngeal calcification	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
 http://purl.obolibrary.org/obo/HP_0100250	Meningeal calcification	http://purl.obolibrary.org/obo/UBERON_0010743	meningeal cluster
 http://purl.obolibrary.org/obo/HP_0004382	Mitral valve calcification	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
-http://purl.obolibrary.org/obo/HP_0000121	Nephrocalcinosis	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/HP_0000121	Nephrocalcinosis	http://purl.obolibrary.org/obo/UBERON_0008987	renal parenchyma
 http://purl.obolibrary.org/obo/HP_0005213	Pancreatic calcification	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/HP_0012682	Pineal gland calcification	http://purl.obolibrary.org/obo/UBERON_0001905	pineal body
 http://purl.obolibrary.org/obo/HP_0010513	Pituitary calcification	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland

@@ -30,8 +30,6 @@ http://purl.obolibrary.org/obo/MP_0000073	absent craniofacial bones	http://purl.
 http://purl.obolibrary.org/obo/MP_0004354	absent deltoid tuberosity	http://purl.obolibrary.org/obo/UBERON_0002498	deltopectoral crest	http://purl.obolibrary.org/obo/UBERON_0000976	humerus
 http://purl.obolibrary.org/obo/MP_0000814	absent dentate gyrus	http://purl.obolibrary.org/obo/UBERON_0001885	dentate gyrus of hippocampal formation	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
 http://purl.obolibrary.org/obo/MP_0003678	absent ear lobes	http://purl.obolibrary.org/obo/UBERON_0001847	lobule of pinna	http://purl.obolibrary.org/obo/UBERON_0001690	ear
-http://purl.obolibrary.org/obo/MP_0000577	absent eccrine glands	http://purl.obolibrary.org/obo/UBERON_0001820	sweat gland	http://purl.obolibrary.org/obo/UBERON_0001519	skin of manus
-http://purl.obolibrary.org/obo/MP_0004729	absent efferent ductules of testis	http://purl.obolibrary.org/obo/UBERON_0006946	efferent duct	http://purl.obolibrary.org/obo/UBERON_0000473	testis
 http://purl.obolibrary.org/obo/MP_0003404	absent enamel	http://purl.obolibrary.org/obo/UBERON_0001752	enamel	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
 http://purl.obolibrary.org/obo/MP_0000041	absent endolymphatic duct	http://purl.obolibrary.org/obo/UBERON_0001860	endolymphatic duct	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
 http://purl.obolibrary.org/obo/MP_0006013	absent endolymphatic sac	http://purl.obolibrary.org/obo/UBERON_0002223	endolymphatic sac	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
@@ -50,9 +48,7 @@ http://purl.obolibrary.org/obo/MP_0000551	absent forelimb	http://purl.obolibrary
 http://purl.obolibrary.org/obo/MP_0012678	absent fourth ventricle	http://purl.obolibrary.org/obo/UBERON_0002422	fourth ventricle	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle
 http://purl.obolibrary.org/obo/MP_0003250	absent gallbladder	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder	http://purl.obolibrary.org/obo/UBERON_0001173	biliary tree
 http://purl.obolibrary.org/obo/MP_0004570	absent glossopharyngeal nerve	http://purl.obolibrary.org/obo/UBERON_0001649	glossopharyngeal nerve	http://purl.obolibrary.org/obo/UBERON_0001785	cranial nerve
-http://purl.obolibrary.org/obo/MP_0000388	absent hair follicle inner root sheath	http://purl.obolibrary.org/obo/UBERON_0005941	hair inner root sheath	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
 http://purl.obolibrary.org/obo/MP_0000378	absent hair follicles	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle	http://purl.obolibrary.org/obo/UBERON_0001003	skin epidermis
-http://purl.obolibrary.org/obo/MP_0009894	absent hard palate	http://purl.obolibrary.org/obo/UBERON_0003216	hard palate	http://purl.obolibrary.org/obo/UBERON_0001716	secondary palate
 http://purl.obolibrary.org/obo/MP_0003872	absent heart right ventricle	http://purl.obolibrary.org/obo/UBERON_0000948	heart	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
 http://purl.obolibrary.org/obo/MP_0000557	absent hindlimb	http://purl.obolibrary.org/obo/UBERON_0002103	hindlimb	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0000809	absent hippocampus	http://purl.obolibrary.org/obo/UBERON_0001954	Ammon's horn	http://purl.obolibrary.org/obo/UBERON_0000955	brain
@@ -63,7 +59,6 @@ http://purl.obolibrary.org/obo/MP_0008270	absent hippocampus CA4 region	http://p
 http://purl.obolibrary.org/obo/MP_0004352	absent humerus	http://purl.obolibrary.org/obo/UBERON_0000976	humerus	http://purl.obolibrary.org/obo/UBERON_0002102	forelimb
 http://purl.obolibrary.org/obo/MP_0003539	absent hymen	http://purl.obolibrary.org/obo/UBERON_0001346	vaginal hymen	http://purl.obolibrary.org/obo/UBERON_0000474	female reproductive system
 http://purl.obolibrary.org/obo/MP_0004205	absent hyoid bone	http://purl.obolibrary.org/obo/UBERON_0001685	hyoid bone	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
-http://purl.obolibrary.org/obo/MP_0006284	absent hypaxial muscle	http://purl.obolibrary.org/obo/UBERON_0008777	hypaxial musculature	http://purl.obolibrary.org/obo/UBERON_0002101	limb
 http://purl.obolibrary.org/obo/MP_0000499	absent ileum	http://purl.obolibrary.org/obo/UBERON_0002116	ileum	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine
 http://purl.obolibrary.org/obo/MP_0004688	absent ilium	http://purl.obolibrary.org/obo/UBERON_0001273	ilium	http://purl.obolibrary.org/obo/UBERON_0005179	pelvic region element
 http://purl.obolibrary.org/obo/MP_0000125	absent incisors	http://purl.obolibrary.org/obo/UBERON_0001098	incisor tooth	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
@@ -86,13 +81,12 @@ http://purl.obolibrary.org/obo/MP_0000629	absent mammary gland	http://purl.oboli
 http://purl.obolibrary.org/obo/MP_0000087	absent mandible	http://purl.obolibrary.org/obo/UBERON_0001684	mandible	http://purl.obolibrary.org/obo/UBERON_0001708	jaw skeleton
 http://purl.obolibrary.org/obo/MP_0001067	absent mandibular nerve	http://purl.obolibrary.org/obo/UBERON_0000375	mandibular nerve	http://purl.obolibrary.org/obo/UBERON_0001645	trigeminal nerve
 http://purl.obolibrary.org/obo/MP_0004236	absent masseter muscle	http://purl.obolibrary.org/obo/UBERON_0001597	masseter muscle	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
+http://purl.obolibrary.org/obo/MP_0001132	absent mature ovarian follicles	http://purl.obolibrary.org/obo/UBERON_0003982	mature ovarian follicle	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0001132	absent mature ovarian follicles	http://purl.obolibrary.org/obo/UBERON_0003982	mature ovarian follicle	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0004539	absent maxilla	http://purl.obolibrary.org/obo/UBERON_0002397	maxilla	http://purl.obolibrary.org/obo/UBERON_0003277	skeleton of upper jaw
-http://purl.obolibrary.org/obo/MP_0000430	absent maxillary shelf	http://purl.obolibrary.org/obo/UBERON_0005620	primary palate	http://purl.obolibrary.org/obo/UBERON_0001708	jaw skeleton
 http://purl.obolibrary.org/obo/MP_0000908	absent mesencephalic trigeminal nucleus	http://purl.obolibrary.org/obo/UBERON_0001718	mesencephalic nucleus of trigeminal nerve	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
 http://purl.obolibrary.org/obo/MP_0003074	absent metacarpal bones	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone	http://purl.obolibrary.org/obo/UBERON_0004453	metacarpus region
 http://purl.obolibrary.org/obo/MP_0000040	absent middle ear ossicles	http://purl.obolibrary.org/obo/UBERON_0001686	auditory ossicle bone	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
-http://purl.obolibrary.org/obo/MP_0003226	absent modiolus	http://purl.obolibrary.org/obo/UBERON_0006723	cochlear modiolus	http://purl.obolibrary.org/obo/UBERON_0007223	osseus cochlea
 http://purl.obolibrary.org/obo/MP_0003931	absent molars	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
 http://purl.obolibrary.org/obo/MP_0000453	absent mouth	http://purl.obolibrary.org/obo/UBERON_0000165	mouth	http://purl.obolibrary.org/obo/UBERON_0000033	head
 http://purl.obolibrary.org/obo/MP_0008468	absent muscle spindles	http://purl.obolibrary.org/obo/UBERON_0003718	muscle spindle	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
@@ -107,7 +101,9 @@ http://purl.obolibrary.org/obo/MP_0003451	absent olfactory bulb	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0013833	absent olfactory nerve	http://purl.obolibrary.org/obo/UBERON_0001579	olfactory nerve	http://purl.obolibrary.org/obo/UBERON_0001785	cranial nerve
 http://purl.obolibrary.org/obo/MP_0000044	absent organ of Corti	http://purl.obolibrary.org/obo/UBERON_0002227	spiral organ of cochlea	http://purl.obolibrary.org/obo/UBERON_0001855	cochlear duct of membranous labyrinth
 http://purl.obolibrary.org/obo/MP_0005579	absent outer ear	http://purl.obolibrary.org/obo/UBERON_0001691	external ear	http://purl.obolibrary.org/obo/UBERON_0000033	head
+http://purl.obolibrary.org/obo/MP_0002777	absent ovarian follicles	http://purl.obolibrary.org/obo/UBERON_0001305	ovarian follicle	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0002777	absent ovarian follicles	http://purl.obolibrary.org/obo/UBERON_0001305	ovarian follicle	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MP_0003578	absent ovary	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad	http://purl.obolibrary.org/obo/UBERON_0000474	female reproductive system
 http://purl.obolibrary.org/obo/MP_0003578	absent ovary	http://purl.obolibrary.org/obo/UBERON_0000992	ovary	http://purl.obolibrary.org/obo/UBERON_0000474	female reproductive system
 http://purl.obolibrary.org/obo/MP_0003575	absent oviduct	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube	http://purl.obolibrary.org/obo/UBERON_0000474	female reproductive system
 http://purl.obolibrary.org/obo/MP_0013766	absent palatal rugae	http://purl.obolibrary.org/obo/UBERON_0008799	transverse palatine fold	http://purl.obolibrary.org/obo/UBERON_0003216	hard palate
@@ -122,7 +118,6 @@ http://purl.obolibrary.org/obo/MP_0008367	absent pituitary intermediate lobe	htt
 http://purl.obolibrary.org/obo/MP_0000090	absent premaxilla	http://purl.obolibrary.org/obo/UBERON_0002397	maxilla	http://purl.obolibrary.org/obo/UBERON_0002244	premaxilla
 http://purl.obolibrary.org/obo/MP_0004449	absent presphenoid bone	http://purl.obolibrary.org/obo/UBERON_0008828	presphenoid bone	http://purl.obolibrary.org/obo/UBERON_0006428	basisphenoid bone
 http://purl.obolibrary.org/obo/MP_0001159	absent prostate gland	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
-http://purl.obolibrary.org/obo/MP_0002771	absent prostate gland anterior lobe	http://purl.obolibrary.org/obo/UBERON_0008807	coagulating gland	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
 http://purl.obolibrary.org/obo/MP_0000152	absent proximal rib	http://purl.obolibrary.org/obo/UBERON_0010388	proximal segment of rib	http://purl.obolibrary.org/obo/UBERON_0001443	chest
 http://purl.obolibrary.org/obo/MP_0004691	absent pubis	http://purl.obolibrary.org/obo/UBERON_0001275	pubis	http://purl.obolibrary.org/obo/UBERON_0005179	pelvic region element
 http://purl.obolibrary.org/obo/MP_0000553	absent radius	http://purl.obolibrary.org/obo/UBERON_0001423	radius bone	http://purl.obolibrary.org/obo/UBERON_0002102	forelimb
@@ -136,7 +131,6 @@ http://purl.obolibrary.org/obo/MP_0003642	absent seminal vesicle	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0000654	absent sex gland	http://purl.obolibrary.org/obo/UBERON_0003937	reproductive gland	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
 http://purl.obolibrary.org/obo/MP_0004846	absent skeletal muscle	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0004304	absent spiral limbus	http://purl.obolibrary.org/obo/UBERON_0002276	lamina of spiral limbus	http://purl.obolibrary.org/obo/UBERON_0001855	cochlear duct of membranous labyrinth
-http://purl.obolibrary.org/obo/MP_0004666	absent stapedial artery	http://purl.obolibrary.org/obo/UBERON_0006345	stapedial artery	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
 http://purl.obolibrary.org/obo/MP_0004204	absent stapes	http://purl.obolibrary.org/obo/UBERON_0001687	stapes bone	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
 http://purl.obolibrary.org/obo/MP_0000158	absent sternum	http://purl.obolibrary.org/obo/UBERON_0000975	sternum	http://purl.obolibrary.org/obo/UBERON_0001443	chest
 http://purl.obolibrary.org/obo/MP_0001014	absent superior cervical ganglion	http://purl.obolibrary.org/obo/UBERON_0001989	superior cervical ganglion	http://purl.obolibrary.org/obo/UBERON_0000013	sympathetic nervous system

@@ -1,5 +1,6 @@
 defined_class	defined_class_label	chemical_entity	chemical_entity_label	location	location_label
 http://purl.obolibrary.org/obo/HP_0040126	Abnormal vitamin B12 level	http://purl.obolibrary.org/obo/CHEBI_30411	cobalamin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0012446	Decreased CSF 5-methyltetrahydrofolate concentration	http://purl.obolibrary.org/obo/CHEBI_20612	5-methyltetrahydrofolate	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500234	Decreased CSF alanine concentration	http://purl.obolibrary.org/obo/CHEBI_16449	alanine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0025458	Decreased CSF albumin concentration	http://purl.obolibrary.org/obo/PR_000003918	serum albumin	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500204	Decreased CSF arginine concentration	http://purl.obolibrary.org/obo/CHEBI_29016	arginine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
@@ -26,6 +27,7 @@ http://purl.obolibrary.org/obo/HP_0004319	Decreased circulating aldosterone leve
 http://purl.obolibrary.org/obo/HP_0011967	Decreased circulating copper concentration	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0032363	Decreased circulating corticosterone level	http://purl.obolibrary.org/obo/CHEBI_16827	corticosterone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0008163	Decreased circulating cortisol level	http://purl.obolibrary.org/obo/CHEBI_17650	cortisol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0032210	Decreased circulating free T3	http://purl.obolibrary.org/obo/CHEBI_18258	3,3',5-triiodo-L-thyronine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0410343	Decreased circulating heparan sulfate level	http://purl.obolibrary.org/obo/CHEBI_28815	heparan sulfate	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0500140	Decreased circulating hydroxyproline concentration	http://purl.obolibrary.org/obo/CHEBI_18095	trans-4-hydroxy-L-proline	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0030344	Decreased circulating luteinizing hormone level	http://purl.obolibrary.org/obo/CHEBI_81568	Luteinizing hormone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -41,6 +43,7 @@ http://purl.obolibrary.org/obo/HP_0410054	Decreased level of GABA in serum	http:
 http://purl.obolibrary.org/obo/HP_0500162	Decreased level of carnosine in blood	http://purl.obolibrary.org/obo/CHEBI_15727	carnosine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0410056	Decreased level of erythritol in CSF	http://purl.obolibrary.org/obo/CHEBI_17113	erythritol	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0410055	Decreased level of erythritol in urine	http://purl.obolibrary.org/obo/CHEBI_17113	erythritol	http://purl.obolibrary.org/obo/UBERON_0001088	urine
+http://purl.obolibrary.org/obo/HP_0045057	Decreased levels of alpha-fetoprotein	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein	http://purl.obolibrary.org/obo/UBERON_0000479	tissue
 http://purl.obolibrary.org/obo/HP_0012270	Decreased muscle glycogen content	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/HP_0003234	Decreased plasma carnitine	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0030985	Decreased serum bile concentration	http://purl.obolibrary.org/obo/CHEBI_3098	bile acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -64,12 +67,13 @@ http://purl.obolibrary.org/obo/HP_0410209	Folate deficiency in CSF	http://purl.o
 http://purl.obolibrary.org/obo/HP_0500154	Hypoalaninemia	http://purl.obolibrary.org/obo/CHEBI_16449	alanine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003073	Hypoalbuminemia	http://purl.obolibrary.org/obo/PR_000003918	serum albumin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0100493	Hypoammonemia	http://purl.obolibrary.org/obo/CHEBI_16134	ammonia	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0410289	Hypoamylasemia	http://purl.obolibrary.org/obo/PR_000049996	PR:000049996	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0410289	Hypoamylasemia	http://purl.obolibrary.org/obo/PR_000049996	active alpha-amylase isozyme (human)	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0005961	Hypoargininemia	http://purl.obolibrary.org/obo/CHEBI_29016	arginine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0500157	Hypoasparaginemia	http://purl.obolibrary.org/obo/CHEBI_17196	L-asparagine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0002901	Hypocalcemia	http://purl.obolibrary.org/obo/CHEBI_22984	calcium atom	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003127	Hypocalciuria	http://purl.obolibrary.org/obo/CHEBI_22984	calcium atom	http://purl.obolibrary.org/obo/UBERON_0001088	urine
+http://purl.obolibrary.org/obo/HP_0012417	Hypocapnia	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0410215	Hypocapnia in cord blood	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide	http://purl.obolibrary.org/obo/UBERON_0012168	umbilical cord blood
 http://purl.obolibrary.org/obo/HP_0003113	Hypochloremia	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012601	Hypochloriduria	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0003146	Hypocholesterolemia	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -84,7 +88,7 @@ http://purl.obolibrary.org/obo/HP_0002900	Hypokalemia	http://purl.obolibrary.org
 http://purl.obolibrary.org/obo/HP_0500143	Hypoleucinemia	http://purl.obolibrary.org/obo/CHEBI_25017	leucine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0045014	Hypolipidemia	http://purl.obolibrary.org/obo/CHEBI_18059	lipid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0010981	Hypolipoproteinemia	http://purl.obolibrary.org/obo/CHEBI_50404	lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0500142	Hypolysinemia	http://purl.obolibrary.org/obo/CHEBI_25094	lysine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
+http://purl.obolibrary.org/obo/HP_0500142	Hypolysinemia	http://purl.obolibrary.org/obo/CHEBI_25094	lysine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0002917	Hypomagnesemia	http://purl.obolibrary.org/obo/CHEBI_25107	magnesium atom	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012609	Hypomagnesiuria	http://purl.obolibrary.org/obo/CHEBI_25107	magnesium atom	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0003658	Hypomethioninemia	http://purl.obolibrary.org/obo/CHEBI_16811	methionine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -104,12 +108,12 @@ http://purl.obolibrary.org/obo/HP_0500135	Hypotryptophanemia	http://purl.obolibr
 http://purl.obolibrary.org/obo/HP_0500133	Hypotyrosinemia	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003537	Hypouricemia	http://purl.obolibrary.org/obo/CHEBI_27226	uric acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0500132	Hypovalinemia	http://purl.obolibrary.org/obo/CHEBI_27266	valine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0012446	Low CSF 5-methyltetrahydrofolate	http://purl.obolibrary.org/obo/CHEBI_18608	5-methyltetrahydrofolate(2-)	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/HP_0012418	Hypoxemia	http://purl.obolibrary.org/obo/CHEBI_15379	dioxygen	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0410213	Hypoxemia in cord blood	http://purl.obolibrary.org/obo/CHEBI_15379	dioxygen	http://purl.obolibrary.org/obo/UBERON_0012168	umbilical cord blood
 http://purl.obolibrary.org/obo/HP_0003572	Low plasma citrulline	http://purl.obolibrary.org/obo/CHEBI_18211	citrulline	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012053	Low serum calcifediol	http://purl.obolibrary.org/obo/CHEBI_17933	calcidiol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012052	Low serum calcitriol	http://purl.obolibrary.org/obo/CHEBI_17823	calcitriol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0010683	Low tissue non-specific alkaline phosphatase	http://purl.obolibrary.org/obo/PR_000003968	alkaline phosphatase, tissue-nonspecific isozyme	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0010683	Low tissue non-specific alkaline phosphatase	http://purl.obolibrary.org/obo/PR_000003968	alkaline phosphatase, tissue-nonspecific isozyme	http://purl.obolibrary.org/obo/UBERON_0000479	tissue
 http://purl.obolibrary.org/obo/HP_0012656	Reduced CSF dopamine level	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0030086	Reduced CSF lactate	http://purl.obolibrary.org/obo/CHEBI_24996	lactate	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0100507	Reduced blood folate concentration	http://purl.obolibrary.org/obo/CHEBI_27470	folic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0012336	Reduced cerebrospinal fluid 5-methyltetrahydrofolate concentration	http://purl.obolibrary.org/obo/CHEBI_20612	5-methyltetrahydrofolate	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid

@@ -1,5 +1,6 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/HP_0007009	Central nervous system degeneration	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/HP_0007313	Cerebral degeneration	http://purl.obolibrary.org/obo/UBERON_0001893	telencephalon
 http://purl.obolibrary.org/obo/HP_0005102	Cochlear degeneration	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea
 http://purl.obolibrary.org/obo/HP_0007705	Corneal degeneration	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
 http://purl.obolibrary.org/obo/HP_0002314	Degeneration of the lateral corticospinal tracts	http://purl.obolibrary.org/obo/UBERON_0002589	lateral corticospinal tract

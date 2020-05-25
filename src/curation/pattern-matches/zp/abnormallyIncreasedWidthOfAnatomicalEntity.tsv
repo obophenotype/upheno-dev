@@ -27,8 +27,10 @@ http://purl.obolibrary.org/obo/ZP_0102350	choroid plexus telencephalic ventricle
 http://purl.obolibrary.org/obo/ZP_0018454	cloaca increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005781	cloaca
 http://purl.obolibrary.org/obo/ZP_0010029	common cardinal vein increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000186	common cardinal vein
 http://purl.obolibrary.org/obo/ZP_0006270	cranium increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
-http://purl.obolibrary.org/obo/ZP_0012073	dilator operculi increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000498	dilatator operculi
+http://purl.obolibrary.org/obo/ZP_0012073	dilatator operculi increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000498	dilatator operculi
+http://purl.obolibrary.org/obo/ZP_0131006	dorsal funiculus increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000501	dorsal funiculus
 http://purl.obolibrary.org/obo/ZP_0005907	dorsal longitudinal anastomotic vessel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
+http://purl.obolibrary.org/obo/ZP_0106667	endoderm increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
 http://purl.obolibrary.org/obo/ZP_0101661	epiphyseal bar increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001502	epiphyseal bar
 http://purl.obolibrary.org/obo/ZP_0002538	extension increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension
 http://purl.obolibrary.org/obo/ZP_0102871	eye increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
@@ -95,6 +97,7 @@ http://purl.obolibrary.org/obo/ZP_0006549	presumptive mesoderm increased width, 
 http://purl.obolibrary.org/obo/ZP_0002515	presumptive rhombomere 3 increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001213	presumptive rhombomere 3
 http://purl.obolibrary.org/obo/ZP_0002514	presumptive rhombomere 5 increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001211	presumptive rhombomere 5
 http://purl.obolibrary.org/obo/ZP_0100087	pronephric capsular space increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005312	pronephric capsular space
+http://purl.obolibrary.org/obo/ZP_0106749	pronephric distal late tubule increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001624	pronephric distal late tubule
 http://purl.obolibrary.org/obo/ZP_0102539	pronephric glomerulus increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001557	pronephric glomerulus
 http://purl.obolibrary.org/obo/ZP_0021022	pronephric podocyte increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001673	pronephric podocyte
 http://purl.obolibrary.org/obo/ZP_0008485	pronephric tubule increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
@@ -113,7 +116,9 @@ http://purl.obolibrary.org/obo/ZP_0007008	stratum fibrosum et griseum superficia
 http://purl.obolibrary.org/obo/ZP_0101121	striated muscle cell increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005784	striated muscle cell
 http://purl.obolibrary.org/obo/ZP_0006990	tail bud increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000077	tail bud
 http://purl.obolibrary.org/obo/ZP_0017990	trabecula cranii increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001507	trabecula cranii
+http://purl.obolibrary.org/obo/ZP_0106983	trigeminal ganglion increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000295	trigeminal ganglion
 http://purl.obolibrary.org/obo/ZP_0002930	trunk increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
+http://purl.obolibrary.org/obo/ZP_0131007	ventral funiculus increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000605	ventral funiculus
 http://purl.obolibrary.org/obo/ZP_0012081	ventral intermandibularis anterior increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007008	ventral intermandibularis anterior
 http://purl.obolibrary.org/obo/ZP_0012083	ventral intermandibularis posterior increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007048	ventral intermandibularis posterior
 http://purl.obolibrary.org/obo/ZP_0004286	ventral mandibular arch increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch

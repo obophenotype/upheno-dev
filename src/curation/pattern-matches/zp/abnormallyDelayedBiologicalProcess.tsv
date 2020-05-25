@@ -84,11 +84,13 @@ http://purl.obolibrary.org/obo/ZP_0000334	heart development delayed, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0011658	heart formation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060914	heart formation
 http://purl.obolibrary.org/obo/ZP_0000462	heart looping delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001947	heart looping
 http://purl.obolibrary.org/obo/ZP_0002482	heart morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0003007	heart morphogenesis
+http://purl.obolibrary.org/obo/ZP_0106724	heart valve formation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0003188	heart valve formation
 http://purl.obolibrary.org/obo/ZP_0101485	hematopoietic stem cell migration delayed, abnormal	http://purl.obolibrary.org/obo/GO_0035701	hematopoietic stem cell migration
 http://purl.obolibrary.org/obo/ZP_0011657	hemopoiesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0030097	hemopoiesis
 http://purl.obolibrary.org/obo/ZP_0008538	hemostasis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0007599	hemostasis
 http://purl.obolibrary.org/obo/ZP_0008533	hindbrain development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0030902	hindbrain development
 http://purl.obolibrary.org/obo/ZP_0004015	hindbrain morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0021575	hindbrain morphogenesis
+http://purl.obolibrary.org/obo/ZP_0131256	http://purl.obolibrary.org/obo/GO_0072520 delayed, abnormal	http://purl.obolibrary.org/obo/GO_0072520	seminiferous tubule development
 http://purl.obolibrary.org/obo/ZP_0009742	inner ear auditory receptor cell differentiation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0042491	inner ear auditory receptor cell differentiation
 http://purl.obolibrary.org/obo/ZP_0016212	inner ear morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0042472	inner ear morphogenesis
 http://purl.obolibrary.org/obo/ZP_0020036	interstitial cell of Cajal differentiation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0061453	interstitial cell of Cajal differentiation
@@ -98,6 +100,7 @@ http://purl.obolibrary.org/obo/ZP_0008496	lateral line development delayed, abno
 http://purl.obolibrary.org/obo/ZP_0001396	lens development in camera-type eye delayed, abnormal	http://purl.obolibrary.org/obo/GO_0002088	lens development in camera-type eye
 http://purl.obolibrary.org/obo/ZP_0009396	lens morphogenesis in camera-type eye delayed, abnormal	http://purl.obolibrary.org/obo/GO_0002089	lens morphogenesis in camera-type eye
 http://purl.obolibrary.org/obo/ZP_0016083	liver development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001889	liver development
+http://purl.obolibrary.org/obo/ZP_0106496	liver regeneration delayed, abnormal	http://purl.obolibrary.org/obo/GO_0097421	liver regeneration
 http://purl.obolibrary.org/obo/ZP_0020290	locomotor rhythm delayed, abnormal	http://purl.obolibrary.org/obo/GO_0045475	locomotor rhythm
 http://purl.obolibrary.org/obo/ZP_0019783	lymph vessel development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001945	lymph vessel development
 http://purl.obolibrary.org/obo/ZP_0005338	male gonad development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0008584	male gonad development
@@ -112,6 +115,7 @@ http://purl.obolibrary.org/obo/ZP_0014455	multicellular organism development del
 http://purl.obolibrary.org/obo/ZP_0009745	muscle cell migration delayed, abnormal	http://purl.obolibrary.org/obo/GO_0014812	muscle cell migration
 http://purl.obolibrary.org/obo/ZP_0003031	muscle organ morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0048644	muscle organ morphogenesis
 http://purl.obolibrary.org/obo/ZP_0011500	myofibril assembly delayed, abnormal	http://purl.obolibrary.org/obo/GO_0030239	myofibril assembly
+http://purl.obolibrary.org/obo/ZP_0105703	negative regulation of convergent extension involved in axis elongation delayed, abnormal	http://purl.obolibrary.org/obo/GO_1901233	negative regulation of convergent extension involved in axis elongation
 http://purl.obolibrary.org/obo/ZP_0004149	neural crest cell migration delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001755	neural crest cell migration
 http://purl.obolibrary.org/obo/ZP_0002522	neural fold folding delayed, abnormal	http://purl.obolibrary.org/obo/GO_0021505	neural fold folding
 http://purl.obolibrary.org/obo/ZP_0001157	neural retina development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0003407	neural retina development
@@ -145,6 +149,7 @@ http://purl.obolibrary.org/obo/ZP_0008497	posterior lateral line neuromast primo
 http://purl.obolibrary.org/obo/ZP_0001693	pronephric duct development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0039022	pronephric duct development
 http://purl.obolibrary.org/obo/ZP_0010365	pronephric glomerulus morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0035775	pronephric glomerulus morphogenesis
 http://purl.obolibrary.org/obo/ZP_0015302	response to bacterium delayed, abnormal	http://purl.obolibrary.org/obo/GO_0009617	response to bacterium
+http://purl.obolibrary.org/obo/ZP_0130941	response to stress delayed, abnormal	http://purl.obolibrary.org/obo/GO_0006950	response to stress
 http://purl.obolibrary.org/obo/ZP_0004190	retina development in camera-type eye delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060041	retina development in camera-type eye
 http://purl.obolibrary.org/obo/ZP_0001397	retina layer formation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0010842	retina layer formation
 http://purl.obolibrary.org/obo/ZP_0007156	retina morphogenesis in camera-type eye delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060042	retina morphogenesis in camera-type eye

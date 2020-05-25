@@ -64,6 +64,7 @@ http://purl.obolibrary.org/obo/MP_0003633	abnormal nervous system physiology	htt
 http://purl.obolibrary.org/obo/MP_0013570	abnormal neuroendocrine gland physiology	http://purl.obolibrary.org/obo/UBERON_0010133	neuroendocrine gland
 http://purl.obolibrary.org/obo/MP_0012020	abnormal olfactory epithelium physiology	http://purl.obolibrary.org/obo/UBERON_0001997	olfactory epithelium
 http://purl.obolibrary.org/obo/MP_0001983	abnormal olfactory system physiology	http://purl.obolibrary.org/obo/UBERON_0005725	olfactory system
+http://purl.obolibrary.org/obo/MP_0003507	abnormal ovary physiology	http://purl.obolibrary.org/obo/UBERON_0000992	female gonad
 http://purl.obolibrary.org/obo/MP_0003507	abnormal ovary physiology	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0012018	abnormal oviduct physiology	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0002693	abnormal pancreas physiology	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
@@ -88,7 +89,7 @@ http://purl.obolibrary.org/obo/MP_0010680	abnormal skin adnexa physiology	http:/
 http://purl.obolibrary.org/obo/MP_0005501	abnormal skin physiology	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
 http://purl.obolibrary.org/obo/MP_0010156	abnormal small intestinal crypt cell physiology	http://purl.obolibrary.org/obo/UBERON_0001241	crypt of Lieberkuhn of small intestine
 http://purl.obolibrary.org/obo/MP_0005423	abnormal somatic nervous system physiology	http://purl.obolibrary.org/obo/UBERON_0000012	somatic nervous system
-http://purl.obolibrary.org/obo/MP_0001908	abnormal somatosensory cortex physiology	http://purl.obolibrary.org/obo/UBERON_0008930	somatosensory cortex
+http://purl.obolibrary.org/obo/MP_0001908	abnormal somatosensory cortex physiology	http://purl.obolibrary.org/obo/UBERON_0001872	parietal lobe
 http://purl.obolibrary.org/obo/MP_0008737	abnormal spleen physiology	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
 http://purl.obolibrary.org/obo/MP_0013536	abnormal sublingual gland physiology	http://purl.obolibrary.org/obo/UBERON_0001832	sublingual gland
 http://purl.obolibrary.org/obo/MP_0013300	abnormal submandibular gland physiology	http://purl.obolibrary.org/obo/UBERON_0001736	submandibular gland

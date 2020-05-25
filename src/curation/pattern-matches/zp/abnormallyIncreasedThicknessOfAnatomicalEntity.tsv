@@ -4,6 +4,8 @@ http://purl.obolibrary.org/obo/ZP_0003610	Meckel's cartilage increased thickness
 http://purl.obolibrary.org/obo/ZP_0010187	anterior axial hypoblast increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000004	anterior axial hypoblast
 http://purl.obolibrary.org/obo/ZP_0005895	anterior cerebral vein increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001067	anterior cerebral vein
 http://purl.obolibrary.org/obo/ZP_0010358	atrium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
+http://purl.obolibrary.org/obo/ZP_0106937	axis increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis
+http://purl.obolibrary.org/obo/ZP_0105963	bile ductule increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005164	bile ductule
 http://purl.obolibrary.org/obo/ZP_0004514	blastoderm increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001176	blastoderm
 http://purl.obolibrary.org/obo/ZP_0018152	cardiac jelly increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001318	cardiac jelly
 http://purl.obolibrary.org/obo/ZP_0016147	cardiac ventricle increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
@@ -73,6 +75,7 @@ http://purl.obolibrary.org/obo/ZP_0104401	pterygoid process increased thickness,
 http://purl.obolibrary.org/obo/ZP_0016234	quadrate increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000621	quadrate
 http://purl.obolibrary.org/obo/ZP_0017553	retinal ganglion cell layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000024	retinal ganglion cell layer
 http://purl.obolibrary.org/obo/ZP_0018441	retinal inner plexiform layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001329	retinal inner plexiform layer
+http://purl.obolibrary.org/obo/ZP_0105911	retinal outer plexiform layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001330	retinal outer plexiform layer
 http://purl.obolibrary.org/obo/ZP_0002442	retinal pigmented epithelium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000144	retinal pigmented epithelium
 http://purl.obolibrary.org/obo/ZP_0007352	scapulocoracoid increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001455	scapulocoracoid
 http://purl.obolibrary.org/obo/ZP_0009360	shield increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000071	shield

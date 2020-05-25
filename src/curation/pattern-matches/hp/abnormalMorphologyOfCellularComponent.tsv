@@ -9,9 +9,11 @@ http://purl.obolibrary.org/obo/HP_0100494	Abnormal mast cell morphology	http://p
 http://purl.obolibrary.org/obo/HP_0008322	Abnormal mitochondrial morphology	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/HP_0002450	Abnormal motor neuron morphology	http://purl.obolibrary.org/obo/CL_0000100	motor neuron
 http://purl.obolibrary.org/obo/HP_0020047	Abnormal myeloid cell morphology	http://purl.obolibrary.org/obo/CL_0000763	myeloid cell
+http://purl.obolibrary.org/obo/HP_0010974	Abnormal myeloid leukocyte morphology	http://purl.obolibrary.org/obo/CL_0000766	myeloid leukocyte
 http://purl.obolibrary.org/obo/HP_0012176	Abnormal natural killer cell morphology	http://purl.obolibrary.org/obo/CL_0000623	natural killer cell
 http://purl.obolibrary.org/obo/HP_0500032	Abnormal neuron branching	http://purl.obolibrary.org/obo/GO_0044307	dendritic branch
 http://purl.obolibrary.org/obo/HP_0012757	Abnormal neuron morphology	http://purl.obolibrary.org/obo/CL_0000540	neuron
 http://purl.obolibrary.org/obo/HP_0011875	Abnormal platelet morphology	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/HP_0012864	Abnormal sperm morphology	http://purl.obolibrary.org/obo/CL_0000019	sperm
 http://purl.obolibrary.org/obo/HP_0005561	Abnormality of bone marrow cell morphology	http://purl.obolibrary.org/obo/CL_0002092	bone marrow cell
+http://purl.obolibrary.org/obo/HP_0025029	Abnormality of enteric neuron morphology	http://purl.obolibrary.org/obo/CL_0007011	enteric neuron

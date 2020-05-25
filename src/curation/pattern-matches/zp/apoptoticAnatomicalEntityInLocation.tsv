@@ -5,6 +5,7 @@ http://purl.obolibrary.org/obo/ZP_0013908	anterior region endoderm apoptotic, ab
 http://purl.obolibrary.org/obo/ZP_0016198	anterior region neuroectoderm apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0001120	neuroectoderm
 http://purl.obolibrary.org/obo/ZP_0010950	anterior region notochord apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
 http://purl.obolibrary.org/obo/ZP_0016179	anterior region prechordal plate apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
+http://purl.obolibrary.org/obo/ZP_0106991	anterior region trunk apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0001348	anterior-most region hindbrain apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000036	anterior-most region	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0000371	anterior-posterior axis whole organism apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000013	anterior-posterior axis	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0006643	antero-ventral region hindbrain apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000027	antero-ventral region	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
@@ -17,6 +18,7 @@ http://purl.obolibrary.org/obo/ZP_0014156	cell brain apoptotic, abnormal	http://
 http://purl.obolibrary.org/obo/ZP_0102932	cell ciliary marginal zone apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001289	ciliary marginal zone
 http://purl.obolibrary.org/obo/ZP_0006335	cell eye apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0103776	cell forebrain apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
+http://purl.obolibrary.org/obo/ZP_0007542	cell head apoptotic, abnormal	http://purl.obolibrary.org/obo/GO_0005623	cell	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0011625	cell head apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0103773	cell hindbrain apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0018841	cell intestine apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
@@ -51,6 +53,8 @@ http://purl.obolibrary.org/obo/ZP_0009049	hematopoietic multipotent progenitor c
 http://purl.obolibrary.org/obo/ZP_0007066	hepatocyte liver apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0101787	ito cell liver apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009279	ito cell	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0017973	leukocyte head apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009309	leukocyte	http://purl.obolibrary.org/obo/ZFA_0001114	head
+http://purl.obolibrary.org/obo/ZP_0105885	liver female organism apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver	http://purl.obolibrary.org/obo/ZFA_0000303	female organism
+http://purl.obolibrary.org/obo/ZP_0105884	liver male organism apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0016856	macrophage ball apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009141	macrophage	http://purl.obolibrary.org/obo/ZFA_0000006	ball
 http://purl.obolibrary.org/obo/ZP_0101288	macrophage peritoneum apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009141	macrophage	http://purl.obolibrary.org/obo/ZFA_0005120	peritoneum
 http://purl.obolibrary.org/obo/ZP_0015455	mesenchymal cell post-vent region apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009081	mesenchymal cell	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
