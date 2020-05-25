@@ -315,6 +315,25 @@ sources:
       - ido
       - chebi
       - so
+  - id: mgpo
+    mirror_from: https://raw.githubusercontent.com/monarch-initiative/glyco-phenotype-ontology/master/mgpo-base.owl
+    root: http://purl.obolibrary.org/obo/MGPO_0001001
+    prefix_iri: http://purl.obolibrary.org/obo/MGPO_
+    taxon: http://purl.obolibrary.org/obo/UPHENO_MGPO
+    taxon_label: MGPO
+    modifier: False
+    dependencies:
+      - chebi
+      - pr
+  - id: apo
+    mirror_from: http://purl.obolibrary.org/obo/apo.owl
+    root: http://purl.obolibrary.org/obo/APO_0000017
+    prefix_iri: http://purl.obolibrary.org/obo/APO_
+    taxon: http://purl.obolibrary.org/obo/UPHENO_APO
+    taxon_label: APO
+    modifier: False
+    dependencies:
+      - iao
 common_dependencies:
   - go
   - uberon
@@ -334,6 +353,8 @@ species_modules:
   - ddpheno
   - fypo
   - phipo
+  - mgpo
+  - apo
 upheno_profiles:
   - id: mp-hp
     species_modules:
@@ -351,6 +372,8 @@ upheno_profiles:
     - ddpheno
     - fypo
     - phipo
+    - mgpo
+    - apo
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns
