@@ -115,9 +115,11 @@ pipeline {
 
 					dir('./src/scripts') {
 						retry(1){
+							sh 'chown chown -R jenkins:jenkins ../curation/'
 							sh 'pwd'
 							sh 'ls'
 							sh 'ls ../curation'
+							sh 'ls -l ../curation/pattern-matches'
 					// 	//sh 'ls ../curation/tmp'
 					// 	//sh 'ls /work'
 							sh 'env > env.txt'
