@@ -18,7 +18,7 @@ overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
-clean: True
+clean: False
 upheno_intermediate_layer_depth: 0
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
