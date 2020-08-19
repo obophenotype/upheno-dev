@@ -18,7 +18,7 @@ equivalent_class_table.csv: inferred_ontology.owl
 # ^http://purl.obolibrary.org/obo/[MH]P_[0-9]+[,]http://purl.obolibrary.org/obo/[MH]P_[0-9]+$
 
 # OWLSIM DATA
-MONARCH_OWLSIM_DATA=https://raw.githubusercontent.com/monarch-initiative/monarch-owlsim-data/master/data
+MONARCH_OWLSIM_DATA=https://archive.monarchinitiative.org/latest/owlsim/data/
 URL_MP_G2P=$(MONARCH_OWLSIM_DATA)/Mus_musculus/Mm_gene_phenotype.txt
 URL_MP_GL=$(MONARCH_OWLSIM_DATA)/Mus_musculus/Mm_gene_labels.txt
 URL_HP_D2P=$(MONARCH_OWLSIM_DATA)/Homo_sapiens/Hs_disease_phenotype.txt
