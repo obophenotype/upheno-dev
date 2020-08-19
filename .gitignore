@@ -41,3 +41,10 @@ src/scripts/upheno_all_with_relations.owl
 src/scripts/upheno_all_with_relations_mod.owl
 src/curation/upheno_release/all/upheno_old_metazoa.owl
 src/ontology/tmp/mat_upheno.owl
+src/scripts/pattern-matches-oneoff/ontologies/hp.owl
+src/scripts/pattern-matches-oneoff/ontologies/mp.owl
+src/scripts/pattern-matches-oneoff/ontologies/wbphenotype.owl
+src/scripts/pattern-matches-oneoff/ontologies/xpo.owl
+src/scripts/pattern-matches-oneoff/ontologies/zp.owl
+src/scripts/pattern-matches-oneoff/ontologies/xpo.owl
+src/scripts/pattern-matches-oneoff/upheno_patterns/*.yaml
