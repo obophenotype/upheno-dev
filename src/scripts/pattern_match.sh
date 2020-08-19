@@ -2,25 +2,33 @@
 set -e
 
 ONTDIR=../scripts/pattern-matches-oneoff/ontologies/
-TEMPLATEDIR=../scripts/pattern-matches-oneoff/patterns/
-TSVDIR=../scripts/pattern-matches-oneoff/patterns/
+TEMPLATEDIR=../scripts/pattern-matches-oneoff/upheno_patterns/
+TSVDIR=../scripts/pattern-matches-oneoff/matches/
 
-cp ~/ws/human-phenotype-ontology/src/ontology/hp-edit.owl $ONTDIR
-cp ~/ws/mammalian-phenotype-ontology/src/ontology/mp-edit.owl $ONTDIR
-cp ~/ws/c-elegans-phenotype-ontology/src/ontology/components/wbphenotype-equivalent-axioms-subq.owl $ONTDIR
+ONTS="mp hp xpo wbphenotype zp"
+DOWNLOAD=false
+
+PATTERNS=""
+
+for f in ${TEMPLATEDIR}*.yaml
+do
+	PATTERNS="${PATTERNS} $(basename "$f" .yaml)"
+done
+PATTERNS="$(echo -e "${PATTERNS}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
+echo "|$PATTERNS|"
+
+if $DOWNLOAD; then
+	for o in $ONTS
+	do
+		wget http://purl.obolibrary.org/obo/${o}.owl -O ${ONTDIR}${o}.owl
+	done
+fi
 
 for o in ${ONTDIR}*.owl
 do
 	ONT=${o}
-	sed -i '' '/^Import/d' ${ONT}
-	for f in ${TEMPLATEDIR}*.yaml
-	do
-		TEMPLATE=${f}
-		TSV="${f%.yaml}_$(basename $o).tsv"
-		echo "RUNNING MATCH:"
-		echo $TEMPLATE
-		echo $TSV
-		echo $ONT
-		sh run.sh dosdp-tools query --ontology=$ONT --reasoner=elk --obo-prefixes=true --template=$TEMPLATE --outfile=$TSV
-	done
+	TSVONT=${TSVDIR}$(basename "$o" .owl)
+	mkdir $TSVONT
+	sh run.sh dosdp-tools query --ontology=$ONT --reasoner=elk --obo-prefixes=true --template=$TEMPLATEDIR --batch-patterns="${PATTERNS}" --outfile=$TSVONT
 done

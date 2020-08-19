@@ -286,20 +286,24 @@ def prepare_species_specific_phenotype_ontologies(config):
 
 
 
-def match_patterns(upheno_config,pattern_files,matches_dir, overwrite=True):
+def match_patterns(upheno_config,pattern_files,matches_dir, pattern_dir, overwrite=True):
+    patterns = []
     for pattern_path in pattern_files:
-        for id in upheno_config.get_phenotype_ontologies():
-            ontology_path = os.path.join(ontology_for_matching_dir,id+".owl")
-            oid = os.path.basename(ontology_path).replace(".owl", "")
-            pid = os.path.basename(pattern_path).replace(".yaml", ".tsv")
-            outdir = os.path.join(matches_dir, oid)
-            if not os.path.exists(outdir):
-                os.makedirs(outdir)
-            out_tsv = os.path.join(outdir, pid)
-            if overwrite or not os.path.exists(out_tsv):
-                dosdp_pattern_match(ontology_path,pattern_path,out_tsv, TIMEOUT)
-            else:
-                print("Match ({}) already made, bypassing.".format(out_tsv))
+        pid = os.path.basename(pattern_path).replace(".yaml", "")
+        patterns.append(pid)
+    pattern_string = " ".join(patterns)
+    pattern_string = pattern_string.strip()
+
+    for id in upheno_config.get_phenotype_ontologies():
+        ontology_path = os.path.join(ontology_for_matching_dir,id+".owl")
+        oid = os.path.basename(ontology_path).replace(".owl", "")
+        outdir = os.path.join(matches_dir, oid)
+        if not os.path.exists(outdir):
+            os.makedirs(outdir)
+        if overwrite or not os.path.exists(outdir):
+            dosdp_pattern_match(ontology_path, pattern_string, pattern_dir, outdir, TIMEOUT)
+        else:
+            print("Matches for ({}) already made, bypassing.".format(outdir))
 
 def add_taxon_restrictions(ontology_path,ontology_out_path,taxon_restriction,taxon_label,root_phenotype,preserve_eq):
     print("Extracting fillers from "+ontology_path)
@@ -359,7 +363,7 @@ print("### Preparing phenotype ontologies for matching ###")
 prepare_phenotype_ontologies_for_matching(upheno_config.is_overwrite_ontologies())
 
 print("### Matching phenotype ontologies against uPheno patterns ###")
-match_patterns(upheno_config,pattern_files, matches_dir, upheno_config.is_overwrite_matches())
+match_patterns(upheno_config,pattern_files, matches_dir, pattern_dir, upheno_config.is_overwrite_matches())
 
 print("### Prepare phenotype ontology components for integration in uPheno ###")
 prepare_species_specific_phenotype_ontologies(upheno_config)
