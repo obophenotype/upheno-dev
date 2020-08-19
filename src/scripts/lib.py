@@ -243,13 +243,13 @@ def robot_merge(ontology_list, ontology_merged_path, TIMEOUT="3600", robot_opts=
 def list_files(directory, extension):
     return (f for f in os.listdir(directory) if f.endswith('.' + extension))
 
-def dosdp_pattern_match(ontology_path, pattern_path, out_tsv, TIMEOUT="3600"):
-    print("Matching " + ontology_path + " with " + pattern_path+" to "+out_tsv)
+def dosdp_pattern_match(ontology_path, pattern_string, patterndir, outdir, TIMEOUT="3600"):
+    print("Matching " + ontology_path + " with patterns in " + patterndir)
     try:
-        check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--template='+pattern_path,'--outfile='+out_tsv])
+        check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--batch-patterns="'+pattern_string+'"', '--template='+patterndir,'--outfile='+outdir])
     except Exception as e:
         print(e)
-        raise Exception("Matching " + str(ontology_path) + " for DOSDP: " + pattern_path + " failed")
+        raise Exception("Matching " + str(ontology_path) + " for DOSDP patterns failed: " + pattern_string + " failed")
 
 def robot_prepare_ontology_for_dosdp(o, ontology_merged_path,sparql_terms_class_hierarchy, TIMEOUT="3600", robot_opts="-v"):
     """
