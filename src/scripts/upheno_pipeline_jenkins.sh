@@ -18,10 +18,10 @@ ls -l ../curation
 python3 upheno_prepare.py ../curation/upheno-config.yaml
 python3 upheno_create_profiles.py ../curation/upheno-config.yaml
 
-#python3 upheno-stats.py ../curation/upheno-config.yaml
-echo "STATSSKIPPED"
-echo "STATSSKIPPED"
-echo "STATSSKIPPED"
+python3 upheno-stats.py ../curation/upheno-config.yaml
+#echo "STATSSKIPPED"
+#echo "STATSSKIPPED"
+#echo "STATSSKIPPED"
 
 cd ../ontology
 make sim
