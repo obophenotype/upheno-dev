@@ -246,7 +246,7 @@ def list_files(directory, extension):
 def dosdp_pattern_match(ontology_path, pattern_string, patterndir, outdir, TIMEOUT="3600"):
     print("Matching " + ontology_path + " with patterns in " + patterndir)
     try:
-        check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--batch-patterns="'+pattern_string+'"', '--template='+patterndir,'--outfile='+outdir])
+        check_call(['timeout', TIMEOUT, 'dosdp-tools', 'query', '--ontology='+ontology_path, '--reasoner=elk', '--obo-prefixes=true', '--batch-patterns='+pattern_string, '--template='+patterndir,'--outfile='+outdir])
     except Exception as e:
         print(e)
         raise Exception("Matching " + str(ontology_path) + " for DOSDP patterns failed: " + pattern_string + " failed")
