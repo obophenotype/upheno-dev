@@ -6,14 +6,15 @@ report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
-robot_java_args: -Xmx80G
+robot_java_args: -Xmx140G
 timeout_external_processes: 500m
 working_directory: /var/lib/jenkins/workspace/upheno2-pipeline@2/src
 overwrite_matches: True
 skip_pattern_download: False
+java_opts: -Xmx140G
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: True
+overwrite_ontologies: False
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
