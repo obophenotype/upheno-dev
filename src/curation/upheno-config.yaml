@@ -9,11 +9,11 @@ robot_opts: -vv
 robot_java_args: -Xmx16G
 timeout_external_processes: 120m
 working_directory: /work/src
-overwrite_matches: False
+overwrite_matches: True
 skip_pattern_download: True
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: True
+overwrite_ontologies: False
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
