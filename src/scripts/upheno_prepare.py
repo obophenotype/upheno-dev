@@ -23,6 +23,7 @@ upheno_config_file = sys.argv[1]
 #upheno_config_file = os.path.join("/ws/upheno-dev/src/curation/upheno-config.yaml")
 upheno_config = uPhenoConfig(upheno_config_file)
 os.environ['ROBOT_JAVA_ARGS'] = upheno_config.get_robot_java_args()
+os.environ['JAVA_OPTS'] = upheno_config.get_java_opts()
 
 TIMEOUT=str(upheno_config.get_external_timeout())
 ws = upheno_config.get_working_directory()
