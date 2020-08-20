@@ -10,11 +10,11 @@ robot_java_args: -Xmx10G
 java_opts: -Xmx10G
 timeout_external_processes: 120m
 working_directory: /work/src
-overwrite_matches: False
+overwrite_matches: True
 skip_pattern_download: True
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: True
+overwrite_ontologies: False
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
@@ -177,7 +177,6 @@ sources:
     class_hierarchy: asserted
     dependencies:
       - nbo
-      - pr
       - chebi
       - cl
       - mpath
@@ -190,7 +189,6 @@ sources:
     modifier: PATO:0000460
     dependencies:
       - nbo
-      - pr
       - chebi
       - hsapdv
       - cl
@@ -341,40 +339,17 @@ common_dependencies:
   - pato
   - ro
   - iao
-  - ncbitaxon
-  - envo
 species_modules:
   - mp
   - hp
-  - wbphenotype
-  - xpo
-  - dpo
-  - planp
   - zp
-  - ddpheno
-  - fypo
-  - phipo
-  - mgpo
-  - apo
+  - wbphenotype
 upheno_profiles:
   - id: mp-hp
     species_modules:
     - mp
     - hp
-  - id: all
-    species_modules:
-    - mp
-    - hp
     - wbphenotype
-    - xpo
-    - dpo
-    - planp
-    - zp
-    - ddpheno
-    - fypo
-    - phipo
-    - mgpo
-    - apo
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns
