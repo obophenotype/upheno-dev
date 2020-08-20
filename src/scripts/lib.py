@@ -112,6 +112,9 @@ class uPhenoConfig:
 
     def get_robot_opts(self):
         return self.config.get("robot_opts")
+        
+    def get_java_opts(self):
+        return self.config.get("java_opts")
 
     def get_legal_fillers(self):
         return self.config.get("legal_fillers")

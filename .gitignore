@@ -48,3 +48,4 @@ src/scripts/pattern-matches-oneoff/ontologies/xpo.owl
 src/scripts/pattern-matches-oneoff/ontologies/zp.owl
 src/scripts/pattern-matches-oneoff/ontologies/xpo.owl
 src/scripts/pattern-matches-oneoff/upheno_patterns/*.yaml
+src/scripts/__pycache__/lib.cpython-38.pyc
