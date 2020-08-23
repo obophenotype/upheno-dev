@@ -292,8 +292,15 @@ def match_patterns(upheno_config,pattern_files,matches_dir, pattern_dir, overwri
     for pattern_path in pattern_files:
         pid = os.path.basename(pattern_path).replace(".yaml", "")
         patterns.append(pid)
-    pattern_string = " ".join(patterns)
-    pattern_string = pattern_string.strip()
+    #pattern_string = " ".join(patterns)
+    #pattern_string = pattern_string.strip()
+    # Splitting the string in two to avoid Memory Overflow
+    length = len(patterns)
+    middle_index = length // 2
+    first_half = patterns[:middle_index]
+    second_half = patterns[middle_index:]
+    pattern_string1 = " ".join(first_half)
+    pattern_string2 = " ".join(second_half)
 
     for id in upheno_config.get_phenotype_ontologies():
         ontology_path = os.path.join(ontology_for_matching_dir,id+".owl")
@@ -302,7 +309,8 @@ def match_patterns(upheno_config,pattern_files,matches_dir, pattern_dir, overwri
         if not os.path.exists(outdir):
             os.makedirs(outdir)
         if overwrite or not os.path.exists(outdir):
-            dosdp_pattern_match(ontology_path, pattern_string, pattern_dir, outdir, TIMEOUT)
+            dosdp_pattern_match(ontology_path, pattern_string1, pattern_dir, outdir, TIMEOUT)
+            dosdp_pattern_match(ontology_path, pattern_string2, pattern_dir, outdir, TIMEOUT)
         else:
             print("Matches for ({}) already made, bypassing.".format(outdir))
 
