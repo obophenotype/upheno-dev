@@ -21,6 +21,7 @@ src/curation/upheno-fillers/
 src/curation/upheno-fillers-no-id/
 src/curation/upheno-release-prepare/
 src/curation/upheno-release/
+src/curation/upheno-stats/
 src/curation/tmp/
 src/curation/pattern-matches-test/
 src/curation/pattern-matches-test2/
