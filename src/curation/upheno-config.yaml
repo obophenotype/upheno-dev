@@ -18,6 +18,7 @@ overwrite_ontologies: False
 overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
+upheno_id_map: https://data.monarchinitiative.org/upheno2/current/upheno_id_map.txt
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
 clean: False
 upheno_intermediate_layer_depth: 0

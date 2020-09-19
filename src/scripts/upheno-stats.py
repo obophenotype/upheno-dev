@@ -26,7 +26,7 @@ ws = upheno_config.get_working_directory()
 robot_opts=upheno_config.get_robot_opts()
 
 pattern_dir = os.path.join(ws,"curation/patterns-for-matching/")
-stats_dir = os.path.join(ws,"curation/upheno-stats2/")
+stats_dir = os.path.join(ws,"curation/upheno-stats/")
 matches_dir = os.path.join(ws,"curation/pattern-matches/")
 
 

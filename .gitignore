@@ -52,3 +52,6 @@ src/scripts/pattern-matches-oneoff/upheno_patterns/*.yaml
 src/scripts/__pycache__/lib.cpython-38.pyc
 src/scripts/.ipynb_checkpoints/upheno_analysis-checkpoint.ipynb
 src/scripts/.ipynb_checkpoints/lexical_mapping-checkpoint.ipynb
+src/scripts/pattern-matches-oneoff/matches/*
+src/curation/upheno-stats/
+src/curation/upheno-stats2/

@@ -22,6 +22,9 @@ class uPhenoConfig:
     def get_phenotype_ontologies(self):
         return self.config.get("species_modules")
         
+    def get_upheno_id_map(self):
+        return self.config.get("upheno_id_map")
+        
     def get_upheno_intermediate_layer_depth(self):
         return int(self.config.get("upheno_intermediate_layer_depth"))
     

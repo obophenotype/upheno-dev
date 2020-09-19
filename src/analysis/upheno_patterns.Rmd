@@ -1,0 +1,36 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(reshape2)
+library(ggplot2)
+
+ontology <- c(rep("HPO" , 3),rep("MP" , 3),rep("DPO" , 3),rep("WBP" , 3),rep("XPO" , 3),rep("ZP" , 3))
+status   <- rep(c("ND" , "NU" , "U") , 6)
+value    <- c( 0.590524985, 0.1340741234,   0.2754008916,
+                0.2619574338,0.311389122,0.4266534442,
+                0.193877551,    0.3265306122,   0.4795918367,
+                0.6318234611,0.10414247,0.2640340689,
+                0,0.006609583897,0.9933904161,
+                0,0.3952750771,0.6047249229)
+data <- data.frame(ontology,status,value)
+data$ontology <- factor(data$ontology, levels = c("HPO", "MP", "DPO", "WBP", "XPO", "ZP"))
+
+g <- ggplot(data, aes(fill=status, y=value, x=ontology)) + 
+            geom_bar(position="stack", stat="identity")
+           
+g <- g + theme_bw() + theme(axis.title=element_blank(),
+                axis.text.y = element_text(size = 12),
+                axis.text.x = element_text(size = 14), 
+                legend.position=c(0.85,0.3),
+                legend.title=element_blank(),
+                legend.text=element_text(size=10))
+
+ggsave(filename = "upheno_patterns.pdf", g,width = 4, height = 2.5)
+```
+
+```{r}
+g
+```
