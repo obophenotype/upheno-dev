@@ -408,7 +408,7 @@ if upheno_config.is_overwrite_ontologies() or not os.path.exists(allimports_dosd
     robot_prepare_ontology_for_dosdp(allimports_merged,allimports_dosdp,sparql_terms,TIMEOUT=TIMEOUT,robot_opts=robot_opts)
 
 print("Loading the existing ID map, the blacklist for uPheno IDs and determining next available uPheno ID.")
-upheno_map = pd.read_csv(upheno_id_map, sep='\t')
+upheno_map = pd.read_csv(upheno_config.get_upheno_id_map(), sep='\t')
 startid = get_highest_id(upheno_map['defined_class'])
 if startid<minid:
     startid=minid
