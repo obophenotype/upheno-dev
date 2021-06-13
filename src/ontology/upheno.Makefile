@@ -177,3 +177,38 @@ ml: ../curation/upheno-release/all/upheno_xrefs.csv ../curation/upheno-release/a
 t:
 	$(ROBOT) filter -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/small_insulin_test.owl \
 		merge -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/smalltest.owl -o rm_test.owl
+
+
+conf: ../../modules/upheno_all_pattern_conformance.owl
+
+tmp/patterns:
+	rm -r $@
+	mkdir $@
+
+
+../../modules/upheno_all_pattern_conformance.owl: $(PATTERNS) tmp/patterns
+	python3 ../scripts/create_pattern_conformance_module.py
+
+#RELDIR=../curation/upheno-release
+RELDIR=../curation/upheno-stats ../curation/pattern-matches ../curation/upheno-release
+BUCKETDIR=../curation/s3
+#aws s3 
+# we now use S3 directly
+
+S3_VERSION=2020-05-17
+
+prepare_upload:
+	mkdir -p $(BUCKETDIR)/ 
+	rm -rf $(BUCKETDIR)/*
+	mkdir -p $(BUCKETDIR)/current/ 
+	mkdir -p $(BUCKETDIR)/$(S3_VERSION)/
+	cp -r $(RELDIR) $(BUCKETDIR)/current/
+	cp -r $(RELDIR) $(BUCKETDIR)/$(S3_VERSION)/
+	cp ../curation/upheno_id_map.txt $(BUCKETDIR)/current/
+	cp ../curation/upheno_id_map.txt $(BUCKETDIR)/$(S3_VERSION)/
+
+deploy:
+	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/current s3://bbop-ontologies/upheno/current
+	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/$(S3_VERSION) s3://bbop-ontologies/upheno/$(S3_VERSION)
+
+## Set yourself up for AWS:

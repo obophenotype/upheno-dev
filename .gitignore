@@ -58,3 +58,4 @@ src/scripts/matches2020-10-15/
 src/ontology/AWSCLIV2.pkg
 src/curation/upheno_id_map.txt
 sync.sh
+src/curation/s3/
