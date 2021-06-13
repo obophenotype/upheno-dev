@@ -208,7 +208,7 @@ prepare_upload:
 	cp ../curation/upheno_id_map.txt $(BUCKETDIR)/$(S3_VERSION)/
 
 deploy:
-	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/current s3://bbop-ontologies/upheno/current
-	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/$(S3_VERSION) s3://bbop-ontologies/upheno/$(S3_VERSION)
+	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/current s3://bbop-ontologies/upheno/current --acl public-read
+	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/$(S3_VERSION) s3://bbop-ontologies/upheno/$(S3_VERSION) --acl public-read
 
 ## Set yourself up for AWS:
