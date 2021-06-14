@@ -42,3 +42,16 @@ aws_secret_access_key = ***
 
 in `~/.aws/credentials` make sure you add the correct keys as provided above.
 
+# 4. Write to your bucket
+
+Now, you should be set up to write to your s3 bucket. Note that in order for your data to be accessible through `https` after your upload, you need to add `--acl public read`.
+
+```
+aws s3 sync --exclude "*.DS_Store*" my/data-dir s3://bbop-ontologies/myproject/data-dir --acl public-read
+```
+
+If you have previously pushed data to the same location, you wont be able to set it to "publicly readable" by simply rerunning the sync command. If you want to publish previously private data, follow the instructions [here](https://aws.amazon.com/premiumsupport/knowledge-center/read-access-objects-s3-bucket/), e.g.:
+
+```
+aws s3api put-object-acl --bucket s3://bbop-ontologies/myproject/data-dir --key exampleobject --acl public-read
+```
