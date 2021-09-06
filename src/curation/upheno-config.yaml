@@ -147,7 +147,7 @@ sources:
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
   - id: bspo-uberon
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.obo
+    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.owl
   - id: caro-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl
   - id: xao-uberon
