@@ -8,7 +8,7 @@ dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
 robot_java_args: -Xmx30G
 java_opts: -Xmx30G
-timeout_external_processes: 220m
+timeout_external_processes: 500m
 working_directory: /work/src
 overwrite_matches: True
 skip_pattern_download: False
