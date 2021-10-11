@@ -32,7 +32,7 @@ robot_opts=upheno_config.get_robot_opts()
 
 pattern_dir = os.path.join(ws,"curation/patterns-for-matching/")
 ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
-matches_dir = os.path.join(ws,"curation/pattern-matches/")
+matches_dir = os.path.join(ws,"curation/pattern-matches_old/")
 stats_dir = os.path.join(ws,"curation/upheno-stats/")
 module_dir = os.path.join(ws,"curation/tmp/")
 

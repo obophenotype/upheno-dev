@@ -9,7 +9,7 @@ patterns_dir = sys.argv[3]
 obo_prefix = sys.argv[4]
 
 #tsv_dir="/Users/matentzn/ws/human-phenotype-ontology/src/patterns/data/default"
-#matches_dir="/Users/matentzn/ws/upheno-dev/src/curation/pattern-matches/hp"
+#matches_dir="/Users/matentzn/ws/upheno-dev/src/curation/pattern-matches_old/hp"
 #patterns_dir="/Users/matentzn/ws/upheno-dev/src/curation/patterns-for-matching"
 #obo_prefix = "http://purl.obolibrary.org/obo/"
 

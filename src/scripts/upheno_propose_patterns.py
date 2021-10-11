@@ -25,10 +25,10 @@ TIMEOUT=upheno_config.get_external_timeout()
 ws = upheno_config.get_working_directory()
 
 # Data directories
-pattern_dir = os.path.join(ws, "scripts/pattern-matches-oneoff/patterns")
-matches_dir = os.path.join(ws, "scripts/pattern-matches-oneoff/matches")
+pattern_dir = os.path.join(ws, "scripts/pattern-matches_old-oneoff/patterns")
+matches_dir = os.path.join(ws, "scripts/pattern-matches_old-oneoff/matches_old")
 real_patterns_dir = os.path.join(ws, "curation/patterns-for-matching/")
-real_matches_dir = os.path.join(ws, "curation/pattern-matches/")
+real_matches_dir = os.path.join(ws, "curation/pattern-matches_old/")
 ontology_for_matching_dir = os.path.join(ws,"curation/ontologies-for-matching/")
 
 def match_generic_patterns():

@@ -1,0 +1,3 @@
+defined_class	defined_class_label	affected_entity_1_sub	affected_entity_1_sub_label	affected_entity_1_super	affected_entity_1_super_label	pato_id	pato_id_label
+http://purl.obolibrary.org/obo/WBPhenotype_0001300	germ cell cytoplasmic morphology variant	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/CL_0000586	germ cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001498	sperm pseudopod physiology variant	http://purl.obolibrary.org/obo/GO_0031143	pseudopodium	http://purl.obolibrary.org/obo/WBbt_0006798	sperm	http://purl.obolibrary.org/obo/PATO_0001912	physiological state
