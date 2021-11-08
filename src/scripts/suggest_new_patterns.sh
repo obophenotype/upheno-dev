@@ -2,7 +2,7 @@
 
 set -e
 
-DEFAULTVALUE="/Users/matentzn/ws/upheno"
+DEFAULTVALUE="$HOME/upheno"
 LOCAL_UPHENO_DIR="${1:-$DEFAULTVALUE}"
 
 MATCHES_DIR="../scripts/pattern-matches"
@@ -17,7 +17,7 @@ cp $LOCAL_UPHENO_DIR/src/patterns/dosdp-dev/*.yaml $MATCHES_DIR/upheno_patterns
 cp $LOCAL_UPHENO_DIR/src/patterns/dosdp-patterns/*.yaml $MATCHES_DIR/upheno_patterns
 
 echo "Matching generic patterns"
-sh pattern_match.sh DOWNLOAD=true generic_patterns generic_matches
+sh pattern_match.sh generic_patterns generic_matches
 
 echo "Matching uPheno patterns"
 sh pattern_match.sh upheno_patterns upheno_matches
