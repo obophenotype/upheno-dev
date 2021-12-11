@@ -19,20 +19,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_UPHENO>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_WBPhenotype>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_XPO>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_ZP>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/UPHENO_0000002>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/UPHENO_0000003>))
-
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/UPHENO_0000002> (has phenotypic orthologue)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000002> "has phenotypic orthologue"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/UPHENO_0000003> (has associated biological entity)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000003> "has associated biological entity"@en)
 
 ############################
 #   Classes
