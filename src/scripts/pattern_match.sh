@@ -38,5 +38,5 @@ for o in ${ONTDIR}*.owl
 do
 	ONT=${o}
 	TSVONT=${TSVDIR}$(basename "$o" .owl)
-	sh run.sh dosdp-tools query --ontology=$ONT --reasoner=elk --obo-prefixes=true --template=$TEMPLATEDIR --batch-patterns="${PATTERNS}" --outfile=$TSVONT
+	sh run.sh dosdp-tools query --ontology=$ONT --reasoner=elk --obo-prefixes=true --template=$TEMPLATEDIR --batch-patterns="${PATTERNS}" --outfile=$TSVDIR
 done

@@ -12,7 +12,7 @@ mkdir -p $MATCHES_DIR
 
 # Copy the up to date patterns from your upheno repository
 echo "Copying patterns from local upheno repo"
-mkdir $MATCHES_DIR/upheno_patterns
+mkdir -p $MATCHES_DIR/upheno_patterns
 cp $LOCAL_UPHENO_DIR/src/patterns/dosdp-dev/*.yaml $MATCHES_DIR/upheno_patterns
 cp $LOCAL_UPHENO_DIR/src/patterns/dosdp-patterns/*.yaml $MATCHES_DIR/upheno_patterns
 
