@@ -37,6 +37,7 @@ echo "\ndownloading: $TEMPLATEDIR, $PATTERNS"
 for o in ${ONTDIR}*.owl
 do
 	ONT=${o}
-	TSVONT=${TSVDIR}$(basename "$o" .owl)
-	sh run.sh dosdp-tools query --ontology=$ONT --reasoner=elk --obo-prefixes=true --template=$TEMPLATEDIR --batch-patterns="${PATTERNS}" --outfile=$TSVDIR
+	TSVONT="${TSVDIR}/$(basename "$o" .owl)"
+    mkdir -p $TSVONT
+	sh run.sh dosdp-tools query --ontology=$ONT --reasoner=elk --obo-prefixes=true --template=$TEMPLATEDIR --batch-patterns="${PATTERNS}" --outfile=$TSVONT
 done
