@@ -9,6 +9,7 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl>
+Annotation(rdfs:comment "This file contains all relationships used of uPheno and cross species phenotyping.")
 
 Declaration(Class(obo:PATO_0000001))
 Declaration(ObjectProperty(obo:BFO_0000050))
@@ -19,23 +20,19 @@ Declaration(ObjectProperty(obo:RO_0002314))
 Declaration(ObjectProperty(obo:RO_0002503))
 Declaration(ObjectProperty(obo:RO_0002573))
 Declaration(ObjectProperty(obo:UPHENO_0000001))
+Declaration(ObjectProperty(obo:UPHENO_0000003))
 Declaration(ObjectProperty(obo:UPHENO_9000001))
 Declaration(ObjectProperty(obo:UPHENO_9000002))
 Declaration(ObjectProperty(obo:UPHENO_9000003))
 Declaration(ObjectProperty(obo:UPHENO_9000004))
 Declaration(AnnotationProperty(obo:UPHENO_0000002))
-Declaration(AnnotationProperty(obo:UPHENO_0000003))
 ############################
 #   Annotation Properties
 ############################
 
-# Annotation Property: obo:UPHENO_0000002 (has phenotypic orthologue)
+# Annotation Property: obo:UPHENO_0000002 (has phenotypic analogue)
 
-AnnotationAssertion(rdfs:label obo:UPHENO_0000002 "has phenotypic orthologue"@en)
-
-# Annotation Property: obo:UPHENO_0000003 (has associated biological entity)
-
-AnnotationAssertion(rdfs:label obo:UPHENO_0000003 "has associated biological entity"@en)
+AnnotationAssertion(rdfs:label obo:UPHENO_0000002 "has phenotypic analogue"@en)
 
 
 ############################
@@ -45,6 +42,10 @@ AnnotationAssertion(rdfs:label obo:UPHENO_0000003 "has associated biological ent
 # Object Property: obo:UPHENO_0000001 (has phenotype affecting)
 
 AnnotationAssertion(rdfs:label obo:UPHENO_0000001 "has phenotype affecting")
+
+# Object Property: obo:UPHENO_0000003 (phenotype has associated entity)
+
+AnnotationAssertion(rdfs:label obo:UPHENO_0000003 "phenotype has associated entity"@en)
 
 # Object Property: obo:UPHENO_9000001 (primary affected entity)
 
