@@ -13,30 +13,30 @@ Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl>
 Declaration(Class(obo:PATO_0000001))
 Declaration(ObjectProperty(obo:BFO_0000050))
 Declaration(ObjectProperty(obo:BFO_0000051))
+Declaration(ObjectProperty(obo:BFO_0000066))
 Declaration(ObjectProperty(obo:RO_0000052))
 Declaration(ObjectProperty(obo:RO_0002314))
 Declaration(ObjectProperty(obo:RO_0002503))
 Declaration(ObjectProperty(obo:RO_0002573))
 Declaration(ObjectProperty(obo:UPHENO_0000001))
-Declaration(AnnotationProperty(obo:UPHENO_0000002))
-Declaration(AnnotationProperty(obo:UPHENO_0000003))
-
 Declaration(ObjectProperty(obo:UPHENO_9000001))
 Declaration(ObjectProperty(obo:UPHENO_9000002))
 Declaration(ObjectProperty(obo:UPHENO_9000003))
 Declaration(ObjectProperty(obo:UPHENO_9000004))
-
+Declaration(AnnotationProperty(obo:UPHENO_0000002))
+Declaration(AnnotationProperty(obo:UPHENO_0000003))
 ############################
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/UPHENO_0000002> (has phenotypic orthologue)
+# Annotation Property: obo:UPHENO_0000002 (has phenotypic orthologue)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000002> "has phenotypic orthologue"@en)
+AnnotationAssertion(rdfs:label obo:UPHENO_0000002 "has phenotypic orthologue"@en)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/UPHENO_0000003> (has associated biological entity)
+# Annotation Property: obo:UPHENO_0000003 (has associated biological entity)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000003> "has associated biological entity"@en)
+AnnotationAssertion(rdfs:label obo:UPHENO_0000003 "has associated biological entity"@en)
+
 
 ############################
 #   Object Properties
@@ -66,10 +66,7 @@ AnnotationAssertion(rdfs:label obo:UPHENO_9000003 "primary exhibited quality")
 AnnotationAssertion(rdfs:comment obo:UPHENO_9000004 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for materialising inference, not direct use.")
 AnnotationAssertion(rdfs:label obo:UPHENO_9000004 "primary related entity")
 
-# Object Property: obo:UPHENO_9000005 (has upheno source)
 
-AnnotationAssertion(rdfs:comment obo:UPHENO_9000005 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for grouping phenotype classes in uPheno.")
-AnnotationAssertion(rdfs:label obo:UPHENO_9000005 "has upheno source")
 
 
 SubClassOf(ObjectSomeValuesFrom(obo:BFO_0000051 obo:PATO_0000001) ObjectSomeValuesFrom(obo:UPHENO_9000003 obo:PATO_0000001))
@@ -78,4 +75,8 @@ SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0000052 obo:BFO_0
 SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002314) obo:UPHENO_9000002)
 SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002314 ObjectInverseOf(obo:RO_0002314)) obo:BFO_0000051)
 SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002503) obo:UPHENO_9000004)
+SubObjectPropertyOf(ObjectPropertyChain(obo:UPHENO_0000001 obo:BFO_0000050) obo:UPHENO_0000001)
+SubObjectPropertyOf(ObjectPropertyChain(obo:UPHENO_0000001 obo:BFO_0000066) obo:UPHENO_0000001)
+AnnotationAssertion(rdfs:comment obo:UPHENO_9000005 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for grouping phenotype classes in uPheno.")
+AnnotationAssertion(rdfs:label obo:UPHENO_9000005 "has upheno source")
 )
