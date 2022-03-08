@@ -1,12 +1,15 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-ONTDIR=../scripts/pattern-matches-oneoff/ontologies/
-TEMPLATEDIR=../scripts/pattern-matches-oneoff/upheno_patterns/
-TSVDIR=../scripts/pattern-matches-oneoff/matches/
+patterndir=$1
+matchesdir=$2
 
-ONTS="mp hp xpo wbphenotype zp"
-DOWNLOAD=false
+ONTDIR=../scripts/pattern-matches-oneoff/ontologies/
+TEMPLATEDIR=../scripts/pattern-matches-oneoff/$patterndir/
+TSVDIR=../scripts/pattern-matches-oneoff/$matchesdir/
+
+ONTS="mp hp xpo wbphenotype"
+: "${DOWNLOAD:=false}"
 
 PATTERNS=""
 
@@ -29,6 +32,6 @@ for o in ${ONTDIR}*.owl
 do
 	ONT=${o}
 	TSVONT=${TSVDIR}$(basename "$o" .owl)
-	mkdir $TSVONT
+	mkdir -p $TSVONT
 	sh run.sh dosdp-tools query --ontology=$ONT --reasoner=elk --obo-prefixes=true --template=$TEMPLATEDIR --batch-patterns="${PATTERNS}" --outfile=$TSVONT
 done
