@@ -1,0 +1,6 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/ZP_0140661	atrium fibrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
+http://purl.obolibrary.org/obo/ZP_0130782	liver fibrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
+http://purl.obolibrary.org/obo/ZP_0140163	myocardium fibrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium
+http://purl.obolibrary.org/obo/ZP_0141894	pancreas fibrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000140	pancreas
+http://purl.obolibrary.org/obo/ZP_0138248	testis fibrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000598	testis

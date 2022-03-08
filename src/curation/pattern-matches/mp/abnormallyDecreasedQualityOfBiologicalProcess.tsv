@@ -1,0 +1,6 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/MP_0009758	impaired behavioral response to cocaine	http://purl.obolibrary.org/obo/NBO_0001987	behavioral response to cocaine
+http://purl.obolibrary.org/obo/MP_0013240	impaired cardiac muscle regeneration	http://purl.obolibrary.org/obo/GO_0061026	cardiac muscle tissue regeneration
+http://purl.obolibrary.org/obo/MP_0000242	impaired fertilization	http://purl.obolibrary.org/obo/GO_0009566	fertilization
+http://purl.obolibrary.org/obo/MP_0005517	impaired liver regeneration	http://purl.obolibrary.org/obo/GO_0097421	liver regeneration
+http://purl.obolibrary.org/obo/MP_0013239	impaired skeletal muscle regeneration	http://purl.obolibrary.org/obo/GO_0043403	skeletal muscle tissue regeneration

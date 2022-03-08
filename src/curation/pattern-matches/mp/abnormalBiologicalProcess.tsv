@@ -1,0 +1,8 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/MP_0020158	abnormal behavioral response to cocaine	http://purl.obolibrary.org/obo/NBO_0001987	behavioral response to cocaine
+http://purl.obolibrary.org/obo/MP_0013238	abnormal cardiac muscle regeneration	http://purl.obolibrary.org/obo/GO_0061026	cardiac muscle tissue regeneration
+http://purl.obolibrary.org/obo/MP_0002806	abnormal conditioned emotional response	http://purl.obolibrary.org/obo/NBO_0000221	conditioned emotional response
+http://purl.obolibrary.org/obo/MP_0002805	abnormal conditioned taste aversion behavior	http://purl.obolibrary.org/obo/NBO_0000211	conditioned taste aversion
+http://purl.obolibrary.org/obo/MP_0002658	abnormal liver regeneration	http://purl.obolibrary.org/obo/GO_0097421	liver regeneration
+http://purl.obolibrary.org/obo/MP_0031252	abnormal physiological response to hypoxia	http://purl.obolibrary.org/obo/GO_0001666	response to hypoxia
+http://purl.obolibrary.org/obo/MP_0013237	abnormal skeletal muscle regeneration	http://purl.obolibrary.org/obo/GO_0043403	skeletal muscle tissue regeneration
