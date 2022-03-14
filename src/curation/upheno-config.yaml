@@ -66,7 +66,6 @@ blacklisted_upheno_iris:
   - http://purl.obolibrary.org/obo/UPHENO_9000003
   - http://purl.obolibrary.org/obo/UPHENO_9000004
 remove_blacklist:
-  - "<http://purl.obolibrary.org/obo/OBA_*>"
   - http://purl.obolibrary.org/obo/CHEBI_316698
   - http://purl.obolibrary.org/obo/BSPO_0000098
   - http://purl.obolibrary.org/obo/ENVO_01001784
@@ -97,7 +96,7 @@ sources:
   - id: envo
     mirror_from: http://purl.obolibrary.org/obo/envo.owl
   - id: oba
-    mirror_from: http://purl.obolibrary.org/obo/oba.owl
+    mirror_from: https://raw.githubusercontent.com/obophenotype/bio-attribute-ontology/master/oba-base.owl
   - id: uberon 
     mirror_from: http://purl.obolibrary.org/obo/uberon/uberon-base.owl
   - id: ro
@@ -344,6 +343,7 @@ common_dependencies:
   - iao
   - ncbitaxon
   - envo
+  - oba
 species_modules:
   - mp
   - hp
@@ -398,3 +398,4 @@ import_group:
     - id: chebi
     - id: pato
     - id: cl
+    - id: oba
