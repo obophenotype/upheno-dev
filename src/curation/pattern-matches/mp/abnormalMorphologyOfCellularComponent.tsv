@@ -53,6 +53,7 @@ http://purl.obolibrary.org/obo/MP_0010732	abnormal node of Ranvier morphology	ht
 http://purl.obolibrary.org/obo/MP_0013205	abnormal nonmotile primary cilium morphology	http://purl.obolibrary.org/obo/GO_0097730	non-motile cilium
 http://purl.obolibrary.org/obo/MP_0008890	abnormal nuclear lamina morphology	http://purl.obolibrary.org/obo/GO_0005652	nuclear lamina
 http://purl.obolibrary.org/obo/MP_0008830	abnormal nucleolus morphology	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/MP_0031356	abnormal outer dense fiber morphology	http://purl.obolibrary.org/obo/GO_0001520	outer dense fiber
 http://purl.obolibrary.org/obo/MP_0010734	abnormal paranode morphology	http://purl.obolibrary.org/obo/GO_0033270	paranode region of axon
 http://purl.obolibrary.org/obo/MP_0014010	abnormal peroxisome morphology	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
 http://purl.obolibrary.org/obo/MP_0014059	abnormal photoreceptor connecting cilium morphology	http://purl.obolibrary.org/obo/GO_0032391	photoreceptor connecting cilium
@@ -72,6 +73,7 @@ http://purl.obolibrary.org/obo/MP_0009830	abnormal sperm connecting piece morpho
 http://purl.obolibrary.org/obo/MP_0009837	abnormal sperm end piece morphology	http://purl.obolibrary.org/obo/GO_0097229	sperm end piece
 http://purl.obolibrary.org/obo/MP_0030590	abnormal sperm fibrous sheath morphology	http://purl.obolibrary.org/obo/GO_0035686	sperm fibrous sheath
 http://purl.obolibrary.org/obo/MP_0008892	abnormal sperm flagellum morphology	http://purl.obolibrary.org/obo/GO_0036126	sperm flagellum
+http://purl.obolibrary.org/obo/MP_0009230	abnormal sperm head morphology	http://purl.obolibrary.org/obo/GO_0061827	sperm head
 http://purl.obolibrary.org/obo/MP_0009831	abnormal sperm midpiece morphology	http://purl.obolibrary.org/obo/GO_0097225	sperm midpiece
 http://purl.obolibrary.org/obo/MP_0009832	abnormal sperm mitochondrial sheath morphology	http://purl.obolibrary.org/obo/GO_0097226	sperm mitochondrial sheath
 http://purl.obolibrary.org/obo/MP_0009836	abnormal sperm principal piece morphology	http://purl.obolibrary.org/obo/GO_0097228	sperm principal piece

@@ -1,6 +1,7 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0003859	abnormal Harderian gland physiology	http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
 http://purl.obolibrary.org/obo/MP_0013391	abnormal Meibomian gland physiology	http://purl.obolibrary.org/obo/UBERON_0001818	tarsal gland
+http://purl.obolibrary.org/obo/MP_0020356	abnormal Sertoli cell barrier function	http://purl.obolibrary.org/obo/UBERON_0036185	Sertoli cell barrier
 http://purl.obolibrary.org/obo/MP_0005666	abnormal adipose tissue physiology	http://purl.obolibrary.org/obo/UBERON_0001013	adipose tissue
 http://purl.obolibrary.org/obo/MP_0002909	abnormal adrenal gland physiology	http://purl.obolibrary.org/obo/UBERON_0002369	adrenal gland
 http://purl.obolibrary.org/obo/MP_0020412	abnormal amnion physiology	http://purl.obolibrary.org/obo/UBERON_0000305	amnion

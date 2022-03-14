@@ -37,7 +37,7 @@ http://purl.obolibrary.org/obo/MP_0004932	epididymis hypoplasia	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0030892	epiglottis hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000388	epiglottis
 http://purl.obolibrary.org/obo/MP_0010881	esophagus hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
 http://purl.obolibrary.org/obo/MP_0008972	ethmoturbinate hypoplasia	http://purl.obolibrary.org/obo/UBERON_0003973	nasal concha of ethmoid bone
-http://purl.obolibrary.org/obo/MP_0003337	exocrine pancreas hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000017	exocrine pancreas
+http://purl.obolibrary.org/obo/MP_0005492	exocrine pancreas hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000017	exocrine pancreas
 http://purl.obolibrary.org/obo/MP_0009203	external male genitalia hypoplasia	http://purl.obolibrary.org/obo/UBERON_0004053	external male genitalia
 http://purl.obolibrary.org/obo/MP_0013395	eyelid hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
 http://purl.obolibrary.org/obo/MP_0030065	face hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001456	face
@@ -51,7 +51,6 @@ http://purl.obolibrary.org/obo/MP_0030341	fourth pharyngeal arch artery hypoplas
 http://purl.obolibrary.org/obo/MP_0013270	fourth pharyngeal arch hypoplasia	http://purl.obolibrary.org/obo/UBERON_0003115	pharyngeal arch 4
 http://purl.obolibrary.org/obo/MP_0004869	frontal bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000209	tetrapod frontal bone
 http://purl.obolibrary.org/obo/MP_0030250	frontonasal prominence hypoplasia	http://purl.obolibrary.org/obo/UBERON_0004066	frontonasal prominence
-http://purl.obolibrary.org/obo/MP_0013569	gastric gland hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000325	gastric gland
 http://purl.obolibrary.org/obo/MP_0011772	genital tubercle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005876	undifferentiated genital tubercle
 http://purl.obolibrary.org/obo/MP_0004569	glossopharyngeal nerve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001649	glossopharyngeal nerve
 http://purl.obolibrary.org/obo/MP_0011412	gonadal ridge hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005294	gonadal ridge
@@ -62,6 +61,7 @@ http://purl.obolibrary.org/obo/MP_0010446	heart left ventricle hypoplasia	http:/
 http://purl.obolibrary.org/obo/MP_0010422	heart right ventricle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
 http://purl.obolibrary.org/obo/MP_0000287	heart valve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
 http://purl.obolibrary.org/obo/MP_0012264	hindbrain hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
+http://purl.obolibrary.org/obo/MP_0030004	hippocampus hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
 http://purl.obolibrary.org/obo/MP_0009899	hyoid bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001685	hyoid bone
 http://purl.obolibrary.org/obo/MP_0003359	hypaxial muscle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0008777	hypaxial musculature
 http://purl.obolibrary.org/obo/MP_0004223	hypoplastic trabecular meshwork	http://purl.obolibrary.org/obo/UBERON_0005969	eye trabecular meshwork
@@ -187,6 +187,7 @@ http://purl.obolibrary.org/obo/MP_0009214	vas deferens hypoplasia	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0003814	vascular smooth muscle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0004237	blood vessel smooth muscle
 http://purl.obolibrary.org/obo/MP_0010502	ventricle myocardium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001083	myocardium of ventricle
 http://purl.obolibrary.org/obo/MP_0000279	ventricular hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002082	cardiac ventricle
+http://purl.obolibrary.org/obo/MP_0010640	ventricular myocardium compact layer hypoplasia	http://purl.obolibrary.org/obo/UBERON_0004127	compact layer of ventricle
 http://purl.obolibrary.org/obo/MP_0004667	vertebral body hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum
 http://purl.obolibrary.org/obo/MP_0006409	vestibular ganglion hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002824	vestibular ganglion
 http://purl.obolibrary.org/obo/MP_0009900	vomer bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002396	vomer

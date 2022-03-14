@@ -26,6 +26,7 @@ http://purl.obolibrary.org/obo/MP_0004915	abnormal Reichert's cartilage morpholo
 http://purl.obolibrary.org/obo/MP_0006021	abnormal Reissner membrane morphology	http://purl.obolibrary.org/obo/UBERON_0002281	vestibular membrane of cochlear duct
 http://purl.obolibrary.org/obo/MP_0004305	abnormal Rosenthal canal morphology	http://purl.obolibrary.org/obo/UBERON_0006495	osseus cochlear canal
 http://purl.obolibrary.org/obo/MP_0012026	abnormal S-shaped body morphology	http://purl.obolibrary.org/obo/UBERON_0004199	S-shaped body
+http://purl.obolibrary.org/obo/MP_0020355	abnormal Sertoli cell barrier morphology	http://purl.obolibrary.org/obo/UBERON_0036185	Sertoli cell barrier
 http://purl.obolibrary.org/obo/MP_0003827	abnormal Wolffian duct morphology	http://purl.obolibrary.org/obo/UBERON_0003074	mesonephric duct
 http://purl.obolibrary.org/obo/MP_0013397	abnormal Zeis gland morphology	http://purl.obolibrary.org/obo/UBERON_0018233	gland of Zeis
 http://purl.obolibrary.org/obo/MP_0013384	abnormal Zymbal's gland morphology	http://purl.obolibrary.org/obo/UBERON_1000022	Zymbal's gland
@@ -1393,7 +1394,7 @@ http://purl.obolibrary.org/obo/MP_0010356	abnormal second pharyngeal arch artery
 http://purl.obolibrary.org/obo/MP_0006338	abnormal second pharyngeal arch morphology	http://purl.obolibrary.org/obo/UBERON_0003066	pharyngeal arch 2
 http://purl.obolibrary.org/obo/MP_0013223	abnormal second pharyngeal pouch morphology	http://purl.obolibrary.org/obo/UBERON_0007123	pharyngeal pouch 2
 http://purl.obolibrary.org/obo/MP_0000994	abnormal secondary muscle spindle morphology	http://purl.obolibrary.org/obo/UBERON_0004011	secondary muscle spindle
-http://purl.obolibrary.org/obo/MP_0009363	abnormal secondary ovarian follicle morphology	http://purl.obolibrary.org/obo/UBERON_0000036	secondary ovarian follicle
+http://purl.obolibrary.org/obo/MP_0021106	abnormal secondary ovarian follicle morphology	http://purl.obolibrary.org/obo/UBERON_0000036	secondary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0013550	abnormal secondary palate morphology	http://purl.obolibrary.org/obo/UBERON_0001716	secondary palate
 http://purl.obolibrary.org/obo/MP_0000863	abnormal secondary somatosensory cortex morphology	http://purl.obolibrary.org/obo/UBERON_0008934	secondary somatosensory cortex
 http://purl.obolibrary.org/obo/MP_0013563	abnormal secretory circumventricular organ morphology	http://purl.obolibrary.org/obo/UBERON_0010134	secretory circumventricular organ
@@ -1601,6 +1602,7 @@ http://purl.obolibrary.org/obo/MP_0005503	abnormal tendon morphology	http://purl
 http://purl.obolibrary.org/obo/MP_0030799	abnormal tendon sheath morphology	http://purl.obolibrary.org/obo/UBERON_0000304	tendon sheath
 http://purl.obolibrary.org/obo/MP_0030159	abnormal tensor tympani muscle morphology	http://purl.obolibrary.org/obo/UBERON_0001600	tensor tympani
 http://purl.obolibrary.org/obo/MP_0002268	abnormal terminal bronchiole morphology	http://purl.obolibrary.org/obo/UBERON_0002187	terminal bronchiole
+http://purl.obolibrary.org/obo/MP_0009363	abnormal tertiary ovarian follicle morphology	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0031194	abnormal testicular artery morphology	http://purl.obolibrary.org/obo/UBERON_0001187	testicular artery
 http://purl.obolibrary.org/obo/MP_0011416	abnormal testis interstitial tissue morphology	http://purl.obolibrary.org/obo/UBERON_0005212	Leydig cell region of testis
 http://purl.obolibrary.org/obo/MP_0001146	abnormal testis morphology	http://purl.obolibrary.org/obo/UBERON_0000473	testis
