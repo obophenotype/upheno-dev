@@ -23,6 +23,6 @@ echo "Matching uPheno patterns"
 sh pattern_match.sh upheno_patterns upheno_matches
 
 echo "TODO: write python script that reads all the tables in the generic_matches and upheno_matches directories and outputs recommendations for new patterns."
-sh run.sh python3 suggest_new_patterns.py 
+#sh run.sh python3 suggest_new_patterns.py 
 
 echo "Suggest new patterns successful."

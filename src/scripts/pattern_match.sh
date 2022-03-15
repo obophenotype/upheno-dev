@@ -8,7 +8,8 @@ ONTDIR=../scripts/pattern-matches/ontologies/
 TEMPLATEDIR=../scripts/pattern-matches/$patterndir/
 TSVDIR=../scripts/pattern-matches/$matchesdir/
 
-ONTS="mp hp xpo wbphenotype"
+#ONTS="mp hp xpo wbphenotype"
+ONTS="mp hp xpo wbphenotype zfa"
 #: "${DOWNLOAD:=false}"
 
 DOWNLOAD=true
@@ -31,6 +32,18 @@ if $DOWNLOAD; then
 		wget http://purl.obolibrary.org/obo/${o}.owl -O ${ONTDIR}${o}.owl
 	done
 fi
+
+######################
+# fold in bridge files
+## so that patterns use
+## e.g. UBERON classes
+## instead of their own
+## anatomy terms
+######################
+# fold in XPO bridge files
+sh run.sh robot merge -i ${ONTDIR}xpo.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/cl-bridge-to-xao.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-xao.owl -o ${ONTDIR}xpo.owl # test it in isolation
+# fold in ZFA bridge files
+sh run.sh robot merge -i ${ONTDIR}zfa.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/cl-bridge-to-zfa.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-zfa.owl -o ${ONTDIR}zfa.owl # test it in isolation
 
 echo "\ndownloading: $TEMPLATEDIR, $PATTERNS"
 
