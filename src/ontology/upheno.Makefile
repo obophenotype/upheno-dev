@@ -212,3 +212,12 @@ deploy:
 	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/$(S3_VERSION) s3://bbop-ontologies/upheno/$(S3_VERSION) --acl public-read
 
 ## Set yourself up for AWS:
+
+
+## Reports:
+UPHENO_RELEASE_FILE_ANALYSIS=../curation/upheno-release/all/upheno_all_with_relations.owl
+
+reports: reports/phenotype_trait.sssom.tsv
+
+reports/phenotype_trait.sssom.tsv: $(UPHENO_RELEASE_FILE_ANALYSIS)
+	robot query -i $< --query ../sparql/pheno_trait.sparql $@
