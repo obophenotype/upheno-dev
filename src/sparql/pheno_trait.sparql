@@ -14,7 +14,7 @@ WHERE
           rdfs:subClassOf+ <http://purl.obolibrary.org/obo/UPHENO_0001001> ;
           rdfs:subClassOf+ [
                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
-               owl:someValuesFrom ?object_id ]
+               owl:someValuesFrom ?object_id ] .
   
   ?object_id a owl:Class;
           rdfs:label ?object_label;
