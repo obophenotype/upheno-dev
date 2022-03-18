@@ -221,3 +221,6 @@ reports: reports/phenotype_trait.sssom.tsv
 
 reports/phenotype_trait.sssom.tsv: $(UPHENO_RELEASE_FILE_ANALYSIS)
 	robot query -i $< --query ../sparql/pheno_trait.sparql $@
+	sed -i 's/[?]//g' $@
+	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
+	sed -i 's/>//g' $@

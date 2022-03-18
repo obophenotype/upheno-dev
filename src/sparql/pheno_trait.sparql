@@ -5,7 +5,7 @@ prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT distinct ?subject_id ?subject_label ?predicate_id ?object_id ?object_label
+SELECT distinct ?subject_id ?subject_label ?predicate_id ?object_id ?object_label ?match_type
 
 WHERE 
 {
@@ -22,5 +22,6 @@ WHERE
 
  FILTER( !isBlank(?subject_id))
  FILTER( !isBlank(?object_id))
- BIND(<http://www.w3.org/2004/02/skos/core#exactMatch> as ?predicate_id)
+ BIND(<http://purl.obolibrary.org/obo/UPHENO_phenotypeToTrait> as ?predicate_id)
+ BIND("Logical" as ?match_type)
 }
