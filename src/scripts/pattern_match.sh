@@ -41,9 +41,9 @@ fi
 ## anatomy terms
 ######################
 # fold in XPO bridge files
-sh run.sh robot merge -i ${ONTDIR}xpo.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/cl-bridge-to-xao.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-xao.owl -o ${ONTDIR}xpo.owl # test it in isolation
+sh run.sh robot merge -i ../scripts/pattern-matches/ontologies/xpo.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/cl-bridge-to-xao.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-xao.owl -o ../scripts/pattern-matches/ontologies/xpo.owl # test it in isolation
 # fold in ZFA bridge files
-sh run.sh robot merge -i ${ONTDIR}zfa.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/cl-bridge-to-zfa.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-zfa.owl -o ${ONTDIR}zfa.owl # test it in isolation
+sh run.sh robot merge -i ../scripts/pattern-matches/ontologies/zfa.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/cl-bridge-to-zfa.owl -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-zfa.owl -o ../scripts/pattern-matches/ontologies/zfa.owl # test it in isolation
 
 echo "\ndownloading: $TEMPLATEDIR, $PATTERNS"
 
