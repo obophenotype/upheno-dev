@@ -1,0 +1,13 @@
+defined_class	defined_class_label	molecular_function	molecular_function_label
+http://purl.obolibrary.org/obo/DDPHENO_0001255	aberrant binding	http://purl.obolibrary.org/obo/GO_0005488	binding
+http://purl.obolibrary.org/obo/DDPHENO_0001331	aberrant catalase activity	http://purl.obolibrary.org/obo/GO_0004096	catalase activity
+http://purl.obolibrary.org/obo/DDPHENO_0001105	aberrant catalytic activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/DDPHENO_0000321	aberrant cellulose binding	http://purl.obolibrary.org/obo/GO_0030248	cellulose binding
+http://purl.obolibrary.org/obo/DDPHENO_0000147	aberrant chemorepellant activity	http://purl.obolibrary.org/obo/GO_0045499	chemorepellent activity
+http://purl.obolibrary.org/obo/DDPHENO_0000324	aberrant cyclic nucleotide binding	http://purl.obolibrary.org/obo/GO_0030551	cyclic nucleotide binding
+http://purl.obolibrary.org/obo/DDPHENO_0000331	aberrant folic acid binding	http://purl.obolibrary.org/obo/GO_0005542	folic acid binding
+http://purl.obolibrary.org/obo/DDPHENO_0000298	aberrant lipid binding	http://purl.obolibrary.org/obo/GO_0008289	lipid binding
+http://purl.obolibrary.org/obo/DDPHENO_0001171	aberrant molecular function	http://purl.obolibrary.org/obo/GO_0003674	molecular_function
+http://purl.obolibrary.org/obo/DDPHENO_0000320	aberrant polysaccharide binding	http://purl.obolibrary.org/obo/GO_0030247	polysaccharide binding
+http://purl.obolibrary.org/obo/DDPHENO_0000294	aberrant protein binding	http://purl.obolibrary.org/obo/GO_0005515	protein binding
+http://purl.obolibrary.org/obo/DDPHENO_0000327	aberrant small molecule binding	http://purl.obolibrary.org/obo/GO_0036094	small molecule binding

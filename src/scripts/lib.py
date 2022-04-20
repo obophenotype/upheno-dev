@@ -297,6 +297,7 @@ def robot_upheno_release(ontology_list, ontology_merged_path, name, TIMEOUT="360
         callstring.extend(['remove', '--term','http://www.w3.org/2002/07/owl#Nothing', '--axioms','logical','--preserve-structure', 'false'])
         if remove_terms:
             callstring.extend(['remove', '-T', remove_terms, '--preserve-structure', 'false'])
+        callstring.extend(['materialize','--reasoner','ELK','--term','BFO:0000051'])
         callstring.extend(['reason','--reasoner','ELK','reduce','--reasoner','ELK'])
         callstring.extend(['--output', ontology_merged_path])
         check_call(callstring)

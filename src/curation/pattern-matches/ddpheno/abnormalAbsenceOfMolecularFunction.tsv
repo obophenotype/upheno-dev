@@ -1,0 +1,20 @@
+defined_class	defined_class_label	molecular_function	molecular_function_label
+http://purl.obolibrary.org/obo/DDPHENO_0001290	abolished 3',5'-cyclic-AMP phosphodiesterase activity	http://purl.obolibrary.org/obo/GO_0004115	3',5'-cyclic-AMP phosphodiesterase activity
+http://purl.obolibrary.org/obo/DDPHENO_0001291	abolished 3',5'-cyclic-GMP phosphodiesterase activity	http://purl.obolibrary.org/obo/GO_0047555	3',5'-cyclic-GMP phosphodiesterase activity
+http://purl.obolibrary.org/obo/DDPHENO_0001293	abolished adenylate cyclase activity	http://purl.obolibrary.org/obo/GO_0004016	adenylate cyclase activity
+http://purl.obolibrary.org/obo/DDPHENO_0000330	abolished cAMP binding	http://purl.obolibrary.org/obo/GO_0030552	cAMP binding
+http://purl.obolibrary.org/obo/DDPHENO_0001332	abolished catalase activity	http://purl.obolibrary.org/obo/GO_0004096	catalase activity
+http://purl.obolibrary.org/obo/DDPHENO_0001289	abolished catalytic activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/DDPHENO_0000322	abolished cellulose binding	http://purl.obolibrary.org/obo/GO_0030248	cellulose binding
+http://purl.obolibrary.org/obo/DDPHENO_0000150	abolished chemorepellant activity	http://purl.obolibrary.org/obo/GO_0045499	chemorepellent activity
+http://purl.obolibrary.org/obo/DDPHENO_0001386	abolished cytochrome C oxidase activity	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
+http://purl.obolibrary.org/obo/DDPHENO_0000334	abolished folic acid binding	http://purl.obolibrary.org/obo/GO_0005542	folic acid binding
+http://purl.obolibrary.org/obo/DDPHENO_0001299	abolished guanyl-nucleotide exchange factor activity	http://purl.obolibrary.org/obo/GO_0005085	guanyl-nucleotide exchange factor activity
+http://purl.obolibrary.org/obo/DDPHENO_0001295	abolished guanylyl cyclase activity	http://purl.obolibrary.org/obo/GO_0004383	guanylate cyclase activity
+http://purl.obolibrary.org/obo/DDPHENO_0001434	abolished histone deacetylase activity	http://purl.obolibrary.org/obo/GO_0004407	histone deacetylase activity
+http://purl.obolibrary.org/obo/DDPHENO_0000326	abolished lipid binding	http://purl.obolibrary.org/obo/GO_0008289	lipid binding
+http://purl.obolibrary.org/obo/DDPHENO_0001409	abolished phosphatidylinositol binding	http://purl.obolibrary.org/obo/GO_0035091	phosphatidylinositol binding
+http://purl.obolibrary.org/obo/DDPHENO_0001410	abolished phosphatidylinositol-4,5-bisphosphate binding	http://purl.obolibrary.org/obo/GO_0005546	phosphatidylinositol-4,5-bisphosphate binding
+http://purl.obolibrary.org/obo/DDPHENO_0000295	abolished protein binding	http://purl.obolibrary.org/obo/GO_0005515	protein binding
+http://purl.obolibrary.org/obo/DDPHENO_0000347	abolished protein kinase activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
+http://purl.obolibrary.org/obo/DDPHENO_0000328	abolished small molecule binding	http://purl.obolibrary.org/obo/GO_0036094	small molecule binding

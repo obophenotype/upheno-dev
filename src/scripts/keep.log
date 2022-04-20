@@ -1,0 +1,328 @@
+    1  ls
+    2  docker ps
+    3  sudo apt-get update
+    4  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
+    5  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+    6    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    7  sudo apt-get update
+    8  sudo apt-get install docker-ce docker-ce-cli containerd.io
+    9  docker ps
+   10  docker pull obolibrary/odkfull
+   11  git 
+   12  mkdir ws
+   13  cd ws
+   14  git clone https://github.com/obophenotype/ncbitaxon.git
+   15  cd ncbitaxon/
+   16  ls
+   17  cd src
+   18  ls
+   19  cd ..
+   20  git clone https://github.com/monarchinitiative/mondo.git
+   21  git clone https://github.com/monarch-initiative/mondo.git
+   22  cd mondo/src/ontology/
+   23  sh run.sh make matches
+   24  ls
+   25  sh run.sh make NORM
+   26  nano run.sh 
+   27  git pull
+   28  sh run.sh make matches
+   29  ls
+   30  apt-get install gh
+   31  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+   32  sudo apt-add-repository https://cli.github.com/packages
+   33  sudo apt update
+   34  sudo apt install gh
+   35  sudo apt update
+   36  sudo apt install gh
+   37  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+   38  sudo apt-add-repository https://cli.github.com/packages
+   39  sudo apt-get install software-properties-common
+   40  sudo apt-add-repository https://cli.github.com/packages
+   41  sudo apt install gh
+   42  gh --version
+   43  gh auth
+   44  gh auth login
+   45  git status
+   46  git checkout -b pattern_updates_31march
+   47  git status
+   48  git commit -a -m "pattern changes"
+   49  git config --global user.name "Nico Matentzoglu"
+   50  git config --global user.email nicolas.matentzoglu@gmail.com
+   51  sh run.sh make matches_annotations
+   52  ls
+   53  git commit -a -m "pattern changes"
+   54  gh pr matches
+   55  gh pr create
+   56  pwd
+   57  cd ws
+   58  git clone https://github.com/IHCC-cohorts/OLS.git
+   59  git checkout 3.x-dev
+   60  cd OLS
+   61  git checkout 3.x-dev
+   62  make -f docker.Makefile docker-build
+   63  apt install make
+   64  make -f docker.Makefile docker-build
+   65  docker login
+   66  make -f docker.Makefile docker-publish-no-build
+   67  apt install screen
+   68  screen -S dron
+   69  screen -r dron
+   70  screen -r scdo
+   71  screen -S scdo
+   72  screen -S mondo-views
+   73  cd ws
+   74  ls
+   75  git clone https://github.com/INCATools/ontology-development-kit.git
+   76  cd ontology-development-kit/
+   77  git pull
+   78  make docker-test
+   79  docker login
+   80  make docker-publish
+   81  screen -S uberon
+   82  screen -r uberon
+   83  screen -r dron
+   84  ls
+   85  screen -r dron
+   86  screen -dr dron
+   87  quit
+   88  exit
+   89  cd ../
+   90  cd mondo/
+   91  git pull
+   92  git checkout views-code
+   93  cd src/ontology/
+   94  sh run.sh make mondo-views
+   95  mkdir tmp
+   96  sh run.sh make mondo-views
+   97  git status
+   98  git add modules/mondo-harrisons-view.owl
+   99  git commit -m "updateing harrisons-view"
+  100  git push
+  101  git checkout pattern_updates_31marc
+  102  git checkout pattern_updates_31march
+  103  git status
+  104  git commit -m "Updated annotation matches"
+  105  git add ../patterns/data/matches_annotations/*
+  106  git commit -m "Updated annotation matches"
+  107  git push
+  108  screen -r dron
+  109  exit
+  110  screen -l
+  111  screen list
+  112  screen -ls
+  113  screen -r 15640
+  114  screen -ls
+  115  screen -r 13003
+  116  screen -ls
+  117  screen -r 7690
+  118  screen -ls
+  119  screen -r 25665
+  120  l
+  121  pwd
+  122  creen -ls
+  123  screen -ls
+  124  screen -r 25665
+  125  screen -ls
+  126  screen -S odk
+  127  screen -r dron
+  128  screen -r uberon
+  129  screen -r scdo
+  130  cd ws
+  131  git clone https://github.com/EnvironmentOntology/environmental-exposure-ontology.git
+  132  cd environmental-exposure-ontology/src/ontology/
+  133  wget https://www.dropbox.com/s/tob5c78yirxhszh/snomed.obo?dl=0
+  134  ls
+  135  mv snomed.obo\?dl\=0 snomed.obo
+  136  cd ../..
+  137  git pull
+  138  git checkout mappings-2021
+  139  cd src/mapping/
+  140  cp ../ontology/run.sh .
+  141  sh run.sh make all_exposure
+  142  nano run.sh
+  143  sh run.sh make all_exposure
+  144  sh run.sh make slim-exposure.owl
+  145  wget https://raw.githubusercontent.com/cmungall/obo-scripts/master/obo-cat.pl
+  146  sh run.sh make slim-exposure.owl
+  147  sh run.sh make slim-exposure.owl -B
+  148  head tmp-in.obo 
+  149  grep xposur tmp-in.obo | grep name
+  150  rm obo-grep.pl
+  151  wget https://raw.githubusercontent.com/cmungall/obo-scripts/master/obo-grep.pl
+  152  sh run.sh make slim-exposure.owl -B
+  153  ls
+  154  sh run.sh make slim-exposure.owl -B
+  155  ls ob*
+  156  sh run.sh make slim-exposure.owl -B
+  157  docker pull monarchinitiative/ontoml
+  158  nano run.sh
+  159  sh run.sh make all
+  160  cd ~/ws
+  161  git clone https://github.com/Knowledge-Graph-Hub/OntoML.git
+  162  cd ontoml
+  163  cd OntoML/
+  164  make docker-build
+  165  make -f repo.Makefile docker-build
+  166  cd ../environmental-exposure-ontology/src/mapping/
+  167  sh run.sh make all
+  168  screen -S ontoml
+  169  sh run.sh make all
+  170  sh run.sh make all -B
+  171  screen ÃÂÃÂ-r mondo
+  172  cd ws
+  173  cd mondo/src/ontology/
+  174  screen -S mondo
+  175  cd ws
+  176  cd environmental-exposure-ontology/
+  177  git status
+  178  git commit -a -m "recent changes"
+  179  git statustus
+  180  git status
+  181  git push
+  182  git add src/src/mapping/slim-exposure.obo
+  183  git add src/mapping/slim-exposure.obo
+  184  git add src/mapping/run.sh
+  185  git add src/mapping/obo-cat.pl 
+  186  git add src/mapping/obo-grep.pl 
+  187  git commit -m "misisng files"
+  188  git push
+  189  git status
+  190  ls
+  191  screen -r mondo
+  192  exit
+  193  screen list
+  194  screen -l
+  195  screen ls
+  196  screen -ls
+  197  screen 0r odk
+  198  screen -r odk
+  199  screen -r mondo
+  200  screen -r
+  201  screen -r mondo
+  202  cdws
+  203  screen -S dashboard
+  204  screen -r dashboard
+  205  screen ls
+  206  screen -ls
+  207  screen -r odk
+  208  screen -r dashboard
+  209  screen -S ontomatch
+  210  screen -r odk
+  211  screen -ls
+  212  screen -r
+  213  screen -r dashboard
+  214  screen -r mondo
+  215  screen -r dashboard
+  216  ls
+  217  cd ws
+  218  ls
+  219  screen -r dashboard
+  220  screen -r odk
+  221  screen -r dashboard
+  222  screen -r odk
+  223  screen -r dashboard
+  224  screen -r odk
+  225  cd ws
+  226  git clone https://github.com/obophenotype/upheno-dev.git
+  227  cd upheno-dev/
+  228  ls
+  229  cd src/scripts/
+  230  ls
+  231  nano upheno_pipeline.sh
+  232  nano upheno_pipeline_jenkins.sh 
+  233  nano upheno_pipeline.sh
+  234  sh upheno_pipeline.sh
+  235  nano upheno_pipeline.sh
+  236  nano ../curation/upheno-config.yaml
+  237  nano upheno_pipeline.sh
+  238  sh upheno_pipeline.sh
+  239  git status
+  240  pwd
+  241  cd ../curation/
+  242  ls
+  243  nano ~/.aws/credentials
+  244  rm -rf ~/.aws/credentials/
+  245  nano ~/.aws/credentials
+  246  nano ~/.aws/config
+  247  ls
+  248  git status
+  249  git pull
+  250  git status
+  251  git diff upheno-config.yaml 
+  252  ls 
+  253  git pull
+  254  make prepare_upload
+  255  cd ../ontology/
+  256  make prepare_upload
+  257  make deploy
+  258  git pull
+  259  make deploy
+  260  ls ../curation/upheno-release/all/upheno_*
+  261  ls ../curation/pattern-matches/mp/
+  262  grep pattern-matches .
+  263  grep -r pattern-matches .
+  264  grep -r pattern-matches ..
+  265  grep -r pattern-matches ../scripts/
+  266  ls ./curation/s3/2020-05-17/
+  267  ls ../curation/s3/2020-05-17/
+  268  ls ../curation/s3/2020-05-17/pattern-matches/
+  269  ls ../curation/s3/2020-05-17/pattern-matches/mp
+  270  ls ../curation/s3/2020-05-17/pattern-matches/hp
+  271  ls ../curation/s3/2020-05-17/pattern-matches/cpo
+  272  git ststaus
+  273  git status
+  274  git diff
+  275  nano ./curation/upheno-config.yaml
+  276  nano ../curation/upheno-config.yaml
+  277  git commit -a -m "updating condig"
+  278  git push
+  279  git pull
+  280  git push
+  281  git pull
+  282  cd ../
+  283  cd scripts/
+  284* sh upheno_pipeline.sh D
+  285  git pull
+  286  sh upheno_pipeline.sh 
+  287  git pull
+  288  sh upheno_pipeline.sh 
+  289  git pull
+  290  docker pull obolibrary/odkfull
+  291  git pull
+  292  sh upheno_pipeline.sh 
+  293  git pull
+  294  sh upheno_pipeline.sh 
+  295  git status
+  296  ls ../curation/pattern-matches/
+  297  ls ../curation/pattern-matches/zp
+  298  head ../curation/pattern-matches/zp/abnormalAnatomicalEntity.tsv 
+  299  cd ../ontology/
+  300  ls ../curation/s3
+  301  make prepare_upload
+  302  make S3_VERSION=2021-09-09 prepare_upload
+  303  make S3_VERSION=2021-09-09 deploy
+  304  ls
+  305  cd ../scripts/
+  306  nano directory_listing.sh
+  307  sh directory_listing.sh ../curation/s3/current/
+  308  nano upheno_browse.md 
+  309  tree -H '../curation/s3/current' -L 1 --noreport --charset utf-8
+  310  apt install tree
+  311  tree -H '../curation/s3/current' -L 1 --noreport --charset utf-8
+  312  tree -H 'https://bbop-ontologies.s3.amazonaws.com/upheno/current/' -L 1 --noreport --charset utf-8
+  313  cd ../curation/s3/current/
+  314  tree -H 'https://bbop-ontologies.s3.amazonaws.com/upheno/current/' -L 1 --noreport --charset utf-8
+  315  tree -H 'https://bbop-ontologies.s3.amazonaws.com/upheno/current/' -L 10 --noreport --charset utf-8
+  316  tree -H 'https://bbop-ontologies.s3.amazonaws.com/upheno/current/' -L 10 --noreport --charset utf-8 > ../../release.md
+  317  git status
+  318  git add ../../release.md
+  319  git commit -m "Adding release browser"
+  320  git pus
+  321  git push
+  322  tree -H 'https://bbop-ontologies.s3.amazonaws.com/upheno/current' -L 10 --noreport --charset utf-8 > ../../release.md
+  323  git add ../../release.md
+  324  git commit -m "Adding release browser"
+  325  git push
+  326  cd ../../../scripts/
+  327  sh upheno_pipeline.sh 
+  328  history > keep.log
