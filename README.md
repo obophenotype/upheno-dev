@@ -1,6 +1,9 @@
 <!--[![Build Status](https://travis-ci.org/obophenotype/upheno-dev.svg?branch=master)](https://travis-ci.org/obophenotype/upheno-dev)
 [![DOI](https://zenodo.org/badge/13996/obophenotype/upheno-dev.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/upheno-dev)
 -->
+
+Editors, to run a uPheno 2 release, please check: https://obophenotype.github.io/upheno/howto/run-upheno2-release/
+
 # Framework for the automated construction of uPheno 2.0 (alpha)
 
 uPheno 2.0, due December 2019, will be the new version of the Unified Phenotype Ontology ([uPheno](https://github.com/obophenotype/upheno)). 
