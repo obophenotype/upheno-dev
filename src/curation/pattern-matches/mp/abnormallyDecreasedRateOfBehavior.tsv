@@ -1,7 +1,8 @@
 defined_class	defined_class_label	behavior_process	behavior_process_label
 http://purl.obolibrary.org/obo/MP_0002554	aversion to addictive substance	http://purl.obolibrary.org/obo/NBO_0002234	regulation of consumption of an addictive substance
+http://purl.obolibrary.org/obo/MP_0005156	bradykinesia	http://purl.obolibrary.org/obo/NBO_0000449	spontaneous movement behavior
 http://purl.obolibrary.org/obo/MP_0005656	decreased aggression	http://purl.obolibrary.org/obo/NBO_0000015	aggressive behavior
-http://purl.obolibrary.org/obo/MP_0003862	decreased aggression towards males	http://purl.obolibrary.org/obo/NBO_0000110	aggressive behavior towards male mice
+http://purl.obolibrary.org/obo/MP_0003862	decreased aggression towards male mice	http://purl.obolibrary.org/obo/NBO_0000110	aggressive behavior towards male mice
 http://purl.obolibrary.org/obo/MP_0003863	decreased aggression towards mice	http://purl.obolibrary.org/obo/NBO_0000107	aggressive behavior towards mice
 http://purl.obolibrary.org/obo/MP_0003546	decreased alcohol consumption	http://purl.obolibrary.org/obo/NBO_0000131	alcohol consumption
 http://purl.obolibrary.org/obo/MP_0001364	decreased anxiety-related response	http://purl.obolibrary.org/obo/NBO_0000092	anxiety-related behavior
@@ -9,12 +10,14 @@ http://purl.obolibrary.org/obo/MP_0003064	decreased coping response	http://purl.
 http://purl.obolibrary.org/obo/MP_0001417	decreased exploration in new environment	http://purl.obolibrary.org/obo/NBO_0000097	response to novel environment
 http://purl.obolibrary.org/obo/MP_0003460	decreased fear-related response	http://purl.obolibrary.org/obo/NBO_0000091	fear-related behavior
 http://purl.obolibrary.org/obo/MP_0001442	decreased grooming behavior	http://purl.obolibrary.org/obo/NBO_0000027	grooming behavior
+http://purl.obolibrary.org/obo/MP_0001402	decreased locomotor activity	http://purl.obolibrary.org/obo/NBO_0000013	locomotory behavior
 http://purl.obolibrary.org/obo/MP_0001489	decreased startle reflex	http://purl.obolibrary.org/obo/NBO_0000391	startle reflex
 http://purl.obolibrary.org/obo/MP_0020870	decreased thigmotaxis	http://purl.obolibrary.org/obo/NBO_0000381	thigmotaxis
 http://purl.obolibrary.org/obo/MP_0002757	decreased vertical activity	http://purl.obolibrary.org/obo/NBO_0000448	vertical activity
 http://purl.obolibrary.org/obo/MP_0020351	decreased vocalization	http://purl.obolibrary.org/obo/NBO_0000037	vocalization behavior
 http://purl.obolibrary.org/obo/MP_0003158	dysphagia	http://purl.obolibrary.org/obo/NBO_0000545	swallowing
 http://purl.obolibrary.org/obo/MP_0009455	enhanced cued conditioning behavior	http://purl.obolibrary.org/obo/NBO_0000224	cued conditioning behavior
+http://purl.obolibrary.org/obo/MP_0031392	hypoactivity	http://purl.obolibrary.org/obo/NBO_0000338	kinesthetic behavior
 http://purl.obolibrary.org/obo/MP_0005498	hyporesponsive to tactile stimuli	http://purl.obolibrary.org/obo/NBO_0000332	touch related behavior
 http://purl.obolibrary.org/obo/MP_0001525	impaired balance	http://purl.obolibrary.org/obo/NBO_0000318	balance
 http://purl.obolibrary.org/obo/MP_0009750	impaired behavioral response to addictive substance	http://purl.obolibrary.org/obo/NBO_0001728	behavioral response to addictive substance

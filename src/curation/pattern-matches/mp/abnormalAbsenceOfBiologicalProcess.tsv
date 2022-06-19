@@ -1,6 +1,5 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/MP_0009374	absent cumulus expansion	http://purl.obolibrary.org/obo/GO_0001550	ovarian cumulus expansion
-http://purl.obolibrary.org/obo/MP_0009009	absent estrous cycle	http://purl.obolibrary.org/obo/GO_0042698	ovulation cycle
 http://purl.obolibrary.org/obo/MP_0009021	absent estrus	http://purl.obolibrary.org/obo/GO_0060209	estrus
 http://purl.obolibrary.org/obo/MP_0011705	absent fibroblast proliferation	http://purl.obolibrary.org/obo/GO_0048144	fibroblast proliferation
 http://purl.obolibrary.org/obo/MP_0012114	absent inner cell mass proliferation	http://purl.obolibrary.org/obo/GO_0001833	inner cell mass cell proliferation
@@ -13,7 +12,7 @@ http://purl.obolibrary.org/obo/MP_0001435	absent suckling reflex	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0012118	absent trophectoderm cell proliferation	http://purl.obolibrary.org/obo/GO_0001834	trophectodermal cell proliferation
 http://purl.obolibrary.org/obo/MP_0004845	absent vestibuloocular reflex	http://purl.obolibrary.org/obo/NBO_0000416	vestibulo-ocular reflex
 http://purl.obolibrary.org/obo/MP_0003376	amenorrhea	http://purl.obolibrary.org/obo/GO_0042703	menstruation
-http://purl.obolibrary.org/obo/MP_0008869	anovulation	http://purl.obolibrary.org/obo/GO_0030728	ovulation
+http://purl.obolibrary.org/obo/MP_0008869	anovulation	http://purl.obolibrary.org/obo/GO_0001542	ovulation from ovarian follicle
 http://purl.obolibrary.org/obo/MP_0003624	anuria	http://purl.obolibrary.org/obo/GO_0060073	micturition
 http://purl.obolibrary.org/obo/MP_0001957	apnea	http://purl.obolibrary.org/obo/GO_0007585	respiratory gaseous exchange by respiratory system
 http://purl.obolibrary.org/obo/MP_0031122	areflexia	http://purl.obolibrary.org/obo/GO_0060004	reflex

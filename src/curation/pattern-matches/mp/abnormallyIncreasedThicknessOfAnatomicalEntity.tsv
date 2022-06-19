@@ -10,7 +10,7 @@ http://purl.obolibrary.org/obo/MP_0012702	increased embryonic neuroepithelium th
 http://purl.obolibrary.org/obo/MP_0010929	increased osteoid thickness	http://purl.obolibrary.org/obo/UBERON_0008883	osteoid
 http://purl.obolibrary.org/obo/MP_0010973	increased periosteum thickness	http://purl.obolibrary.org/obo/UBERON_0002515	periosteum
 http://purl.obolibrary.org/obo/MP_0011409	increased renal glomerulus basement membrane thickness	http://purl.obolibrary.org/obo/UBERON_0005777	glomerular basement membrane
-http://purl.obolibrary.org/obo/MP_0020724	increased retinal inner nuclear layer thickness	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
+http://purl.obolibrary.org/obo/MP_0020724	increased retina inner nuclear layer thickness	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0005211	increased stomach mucosa thickness	http://purl.obolibrary.org/obo/UBERON_0001276	epithelium of stomach
 http://purl.obolibrary.org/obo/MP_0009347	increased trabecular bone thickness	http://purl.obolibrary.org/obo/UBERON_0002483	trabecular bone tissue
 http://purl.obolibrary.org/obo/MP_0010594	thick aortic valve	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
@@ -45,8 +45,8 @@ http://purl.obolibrary.org/obo/MP_0011524	thick placenta labyrinth	http://purl.o
 http://purl.obolibrary.org/obo/MP_0001179	thick pulmonary interalveolar septum	http://purl.obolibrary.org/obo/UBERON_0004893	interalveolar septum
 http://purl.obolibrary.org/obo/MP_0010601	thick pulmonary valve	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
 http://purl.obolibrary.org/obo/MP_0010605	thick pulmonary valve cusps	http://purl.obolibrary.org/obo/UBERON_0011745	pulmonary valve leaflets
-http://purl.obolibrary.org/obo/MP_0008508	thick retinal ganglion layer	http://purl.obolibrary.org/obo/UBERON_0001792	ganglionic layer of retina
-http://purl.obolibrary.org/obo/MP_0008517	thick retinal outer nuclear layer	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
+http://purl.obolibrary.org/obo/MP_0008508	thick retina ganglion layer	http://purl.obolibrary.org/obo/UBERON_0001792	ganglionic layer of retina
+http://purl.obolibrary.org/obo/MP_0008517	thick retina outer nuclear layer	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0001200	thick skin	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
 http://purl.obolibrary.org/obo/MP_0000588	thick tail	http://purl.obolibrary.org/obo/UBERON_0007812	post-anal tail
 http://purl.obolibrary.org/obo/MP_0010629	thick tricuspid valve	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve

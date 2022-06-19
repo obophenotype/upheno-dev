@@ -5,7 +5,7 @@ http://purl.obolibrary.org/obo/MP_0009656	delayed chorioallantoic fusion	http://
 http://purl.obolibrary.org/obo/MP_0000054	delayed ear emergence	http://purl.obolibrary.org/obo/GO_0060186	outer ear emergence
 http://purl.obolibrary.org/obo/MP_0009649	delayed embryo implantation	http://purl.obolibrary.org/obo/GO_0007566	embryo implantation
 http://purl.obolibrary.org/obo/MP_0003419	delayed endochondral bone ossification	http://purl.obolibrary.org/obo/GO_0001958	endochondral ossification
-http://purl.obolibrary.org/obo/MP_0009008	delayed estrous cycle	http://purl.obolibrary.org/obo/GO_0060209	estrus
+http://purl.obolibrary.org/obo/MP_0031419	delayed estrus	http://purl.obolibrary.org/obo/GO_0060209	estrus
 http://purl.obolibrary.org/obo/MP_0005411	delayed fertilization	http://purl.obolibrary.org/obo/GO_0009566	fertilization
 http://purl.obolibrary.org/obo/MP_0000422	delayed hair appearance	http://purl.obolibrary.org/obo/GO_0042640	anagen
 http://purl.obolibrary.org/obo/MP_0012177	delayed head development	http://purl.obolibrary.org/obo/GO_0060322	head development
@@ -14,7 +14,7 @@ http://purl.obolibrary.org/obo/MP_0003420	delayed intramembranous bone ossificat
 http://purl.obolibrary.org/obo/MP_0000528	delayed kidney development	http://purl.obolibrary.org/obo/GO_0001822	kidney development
 http://purl.obolibrary.org/obo/MP_0031324	delayed liver regeneration	http://purl.obolibrary.org/obo/GO_0097421	liver regeneration
 http://purl.obolibrary.org/obo/MP_0012008	delayed parturition	http://purl.obolibrary.org/obo/GO_0007567	parturition
-http://purl.obolibrary.org/obo/MP_0001938	delayed sexual maturation	http://purl.obolibrary.org/obo/GO_0045136	development of secondary sexual characteristics
+http://purl.obolibrary.org/obo/MP_0001938	delayed sexual maturation	http://purl.obolibrary.org/obo/GO_0003006	developmental process involved in reproduction
 http://purl.obolibrary.org/obo/MP_0031328	delayed skeletal muscle regeneration	http://purl.obolibrary.org/obo/GO_0043403	skeletal muscle tissue regeneration
 http://purl.obolibrary.org/obo/MP_0003794	delayed somite formation	http://purl.obolibrary.org/obo/GO_0061053	somite development
 http://purl.obolibrary.org/obo/MP_0003053	delayed tooth eruption	http://purl.obolibrary.org/obo/GO_0044691	tooth eruption

@@ -2,6 +2,8 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	loca
 http://purl.obolibrary.org/obo/HP_0005120	Abnormal cardiac atrium morphology	http://purl.obolibrary.org/obo/UBERON_0002081	cardiac atrium	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/HP_0001713	Abnormal cardiac ventricle morphology	http://purl.obolibrary.org/obo/UBERON_0002082	cardiac ventricle	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/HP_0100659	Abnormal cerebral vascular morphology	http://purl.obolibrary.org/obo/UBERON_0002049	vasculature	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/HP_0005925	Abnormal hand diaphysis morphology	http://purl.obolibrary.org/obo/UBERON_0004769	diaphysis	http://purl.obolibrary.org/obo/UBERON_0002398	manus
+http://purl.obolibrary.org/obo/HP_0005924	Abnormal hand epiphysis morphology	http://purl.obolibrary.org/obo/UBERON_0001437	epiphysis	http://purl.obolibrary.org/obo/UBERON_0001442	skeleton of manus
 http://purl.obolibrary.org/obo/HP_0001654	Abnormal heart valve morphology	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/HP_0008054	Abnormal morphology of the conjunctival vasculature	http://purl.obolibrary.org/obo/UBERON_0002049	vasculature	http://purl.obolibrary.org/obo/UBERON_0001811	conjunctiva
 http://purl.obolibrary.org/obo/HP_0000630	Abnormal retinal artery morphology	http://purl.obolibrary.org/obo/UBERON_0001637	artery	http://purl.obolibrary.org/obo/UBERON_0000966	retina

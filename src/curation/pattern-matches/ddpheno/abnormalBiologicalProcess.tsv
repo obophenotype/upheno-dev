@@ -5,7 +5,6 @@ http://purl.obolibrary.org/obo/DDPHENO_0000242	aberrant DNA repair	http://purl.o
 http://purl.obolibrary.org/obo/DDPHENO_0000689	aberrant G protein-coupled receptor signaling	http://purl.obolibrary.org/obo/GO_0007186	G protein-coupled receptor signaling pathway
 http://purl.obolibrary.org/obo/DDPHENO_0001433	aberrant GABA signaling pathway	http://purl.obolibrary.org/obo/GO_0007214	gamma-aminobutyric acid signaling pathway
 http://purl.obolibrary.org/obo/DDPHENO_0001219	aberrant Golgi localization	http://purl.obolibrary.org/obo/GO_0051645	Golgi localization
-http://purl.obolibrary.org/obo/DDPHENO_0000020	aberrant RNA interference	http://purl.obolibrary.org/obo/GO_0016246	RNA interference
 http://purl.obolibrary.org/obo/DDPHENO_0001481	aberrant actin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0030036	actin cytoskeleton organization
 http://purl.obolibrary.org/obo/DDPHENO_0001446	aberrant actin filament depolymerization	http://purl.obolibrary.org/obo/GO_0030042	actin filament depolymerization
 http://purl.obolibrary.org/obo/DDPHENO_0000151	aberrant actin filament organization	http://purl.obolibrary.org/obo/GO_0007015	actin filament organization
@@ -145,9 +144,9 @@ http://purl.obolibrary.org/obo/DDPHENO_0000177	aberrant positive regulation of c
 http://purl.obolibrary.org/obo/DDPHENO_0000252	aberrant positive regulation of mitochondrial membrane potential	http://purl.obolibrary.org/obo/GO_0010918	positive regulation of mitochondrial membrane potential
 http://purl.obolibrary.org/obo/DDPHENO_0001022	aberrant positive regulation of stalk cell differentiation	http://purl.obolibrary.org/obo/GO_0031287	positive regulation of sorocarp stalk cell differentiation
 http://purl.obolibrary.org/obo/DDPHENO_0001532	aberrant positive regulation of vegetative growth	http://purl.obolibrary.org/obo/GO_1903666	positive regulation of asexual reproduction
-http://purl.obolibrary.org/obo/DDPHENO_0000008	aberrant post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0016441	posttranscriptional gene silencing
+http://purl.obolibrary.org/obo/DDPHENO_0000008	aberrant post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0016441	post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/DDPHENO_0000012	aberrant pre-miRNA processing	http://purl.obolibrary.org/obo/GO_0031054	pre-miRNA processing
-http://purl.obolibrary.org/obo/DDPHENO_0000022	aberrant production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	production of siRNA involved in RNA interference
+http://purl.obolibrary.org/obo/DDPHENO_0000022	aberrant production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0000471	aberrant protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization
 http://purl.obolibrary.org/obo/DDPHENO_0001247	aberrant protein methylation	http://purl.obolibrary.org/obo/GO_0006479	protein methylation
 http://purl.obolibrary.org/obo/DDPHENO_0001317	aberrant protein modification	http://purl.obolibrary.org/obo/GO_0036211	protein modification process

@@ -6,12 +6,15 @@ http://purl.obolibrary.org/obo/MP_0004892	increased adiponectin level	http://pur
 http://purl.obolibrary.org/obo/MP_0030761	increased adrenaline level	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline
 http://purl.obolibrary.org/obo/MP_0005129	increased adrenocorticotropin level	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
 http://purl.obolibrary.org/obo/MP_0012602	increased alpha-fetoprotein level	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein
+http://purl.obolibrary.org/obo/MP_0021133	increased amino acid betaine level	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
+http://purl.obolibrary.org/obo/MP_0030764	increased anandamide level	http://purl.obolibrary.org/obo/CHEBI_2700	anandamide
 http://purl.obolibrary.org/obo/MP_0031229	increased angiotensin II level	http://purl.obolibrary.org/obo/PR_000036009	angiotensin II
 http://purl.obolibrary.org/obo/MP_0030664	increased arginine level	http://purl.obolibrary.org/obo/CHEBI_29016	arginine
 http://purl.obolibrary.org/obo/MP_0030730	increased beta-alanine level	http://purl.obolibrary.org/obo/CHEBI_16958	beta-alanine
 http://purl.obolibrary.org/obo/MP_0004789	increased bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt
 http://purl.obolibrary.org/obo/MP_0020582	increased ceramide level	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
 http://purl.obolibrary.org/obo/MP_0003982	increased cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
+http://purl.obolibrary.org/obo/MP_0021128	increased choline level	http://purl.obolibrary.org/obo/CHEBI_15354	choline
 http://purl.obolibrary.org/obo/MP_0010061	increased creatine level	http://purl.obolibrary.org/obo/CHEBI_16919	creatine
 http://purl.obolibrary.org/obo/MP_0030684	increased cystathionine level	http://purl.obolibrary.org/obo/CHEBI_17755	cystathionine
 http://purl.obolibrary.org/obo/MP_0001906	increased dopamine level	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine
@@ -24,6 +27,7 @@ http://purl.obolibrary.org/obo/MP_0030736	increased glutamic acid level	http://p
 http://purl.obolibrary.org/obo/MP_0030706	increased glutamine level	http://purl.obolibrary.org/obo/CHEBI_28300	glutamine
 http://purl.obolibrary.org/obo/MP_0012606	increased glutathione level	http://purl.obolibrary.org/obo/CHEBI_16856	glutathione
 http://purl.obolibrary.org/obo/MP_0003441	increased glycerol level	http://purl.obolibrary.org/obo/CHEBI_17754	glycerol
+http://purl.obolibrary.org/obo/MP_0021131	increased glycerophosphocholine level	http://purl.obolibrary.org/obo/CHEBI_36313	glycerophosphocholine
 http://purl.obolibrary.org/obo/MP_0030658	increased glycine level	http://purl.obolibrary.org/obo/CHEBI_15428	glycine
 http://purl.obolibrary.org/obo/MP_0005440	increased glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen
 http://purl.obolibrary.org/obo/MP_0030755	increased histamine level	http://purl.obolibrary.org/obo/CHEBI_18295	histamine
@@ -38,6 +42,7 @@ http://purl.obolibrary.org/obo/MP_0030628	increased methylmalonic acid level	htt
 http://purl.obolibrary.org/obo/MP_0012575	increased noradrenaline level	http://purl.obolibrary.org/obo/CHEBI_33569	noradrenaline
 http://purl.obolibrary.org/obo/MP_0030647	increased ornithine level	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine
 http://purl.obolibrary.org/obo/MP_0030697	increased phenylalanine level	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine
+http://purl.obolibrary.org/obo/MP_0021126	increased phosphocholine level	http://purl.obolibrary.org/obo/CHEBI_18132	phosphocholine
 http://purl.obolibrary.org/obo/MP_0010077	increased phytosterol level	http://purl.obolibrary.org/obo/CHEBI_26125	phytosterols
 http://purl.obolibrary.org/obo/MP_0004147	increased porphyrin level	http://purl.obolibrary.org/obo/CHEBI_8337	porphyrin
 http://purl.obolibrary.org/obo/MP_0005139	increased prolactin level	http://purl.obolibrary.org/obo/PR_000013246	prolactin
@@ -56,6 +61,7 @@ http://purl.obolibrary.org/obo/MP_0005470	increased thyroxine level	http://purl.
 http://purl.obolibrary.org/obo/MP_0008837	increased transforming growth factor beta level	http://purl.obolibrary.org/obo/PR_000000046	TGF-beta
 http://purl.obolibrary.org/obo/MP_0005317	increased triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
 http://purl.obolibrary.org/obo/MP_0005474	increased triiodothyronine level	http://purl.obolibrary.org/obo/CHEBI_18258	3,3',5-triiodo-L-thyronine
+http://purl.obolibrary.org/obo/MP_0021123	increased trimethylamine N-oxide level	http://purl.obolibrary.org/obo/CHEBI_15724	trimethylamine N-oxide
 http://purl.obolibrary.org/obo/MP_0021029	increased tumor necrosis factor (ligand) superfamily member 11 level	http://purl.obolibrary.org/obo/PR_000002107	tumor necrosis factor ligand superfamily member 11
 http://purl.obolibrary.org/obo/MP_0021032	increased tumor necrosis factor receptor superfamily member 11b level	http://purl.obolibrary.org/obo/PR_000016480	tumor necrosis factor receptor superfamily member 11B
 http://purl.obolibrary.org/obo/MP_0005283	increased unsaturated fatty acids level	http://purl.obolibrary.org/obo/CHEBI_27208	unsaturated fatty acid

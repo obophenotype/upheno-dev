@@ -1,5 +1,6 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0000017	big ears	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
+http://purl.obolibrary.org/obo/MP_0000602	dilated liver sinusoidal space	http://purl.obolibrary.org/obo/UBERON_0006729	liver perisinusoidal space
 http://purl.obolibrary.org/obo/MP_0013446	enlarged Harderian gland	http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
 http://purl.obolibrary.org/obo/MP_0030372	enlarged Meckel's cartilage	http://purl.obolibrary.org/obo/UBERON_0003107	Meckel's cartilage
 http://purl.obolibrary.org/obo/MP_0013386	enlarged Meibomian gland	http://purl.obolibrary.org/obo/UBERON_0001818	tarsal gland
@@ -43,7 +44,7 @@ http://purl.obolibrary.org/obo/MP_0000274	enlarged heart	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/MP_0008726	enlarged heart left atrium	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
 http://purl.obolibrary.org/obo/MP_0008727	enlarged heart right atrium	http://purl.obolibrary.org/obo/UBERON_0002078	right cardiac atrium
 http://purl.obolibrary.org/obo/MP_0000573	enlarged hind paws	http://purl.obolibrary.org/obo/UBERON_0002387	pes
-http://purl.obolibrary.org/obo/MP_0008282	enlarged hippocampus	http://purl.obolibrary.org/obo/UBERON_0001954	Ammon's horn
+http://purl.obolibrary.org/obo/MP_0008282	enlarged hippocampus	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
 http://purl.obolibrary.org/obo/MP_0009483	enlarged ileum	http://purl.obolibrary.org/obo/UBERON_0002116	ileum
 http://purl.obolibrary.org/obo/MP_0011571	enlarged inferior vena cava valve	http://purl.obolibrary.org/obo/UBERON_0005485	valve of inferior vena cava
 http://purl.obolibrary.org/obo/MP_0009623	enlarged inguinal lymph nodes	http://purl.obolibrary.org/obo/UBERON_0001542	inguinal lymph node

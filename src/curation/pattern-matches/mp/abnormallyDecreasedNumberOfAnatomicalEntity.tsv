@@ -36,12 +36,13 @@ http://purl.obolibrary.org/obo/MP_0000524	decreased renal tubule number	http://p
 http://purl.obolibrary.org/obo/MP_0003345	decreased rib number	http://purl.obolibrary.org/obo/UBERON_0002228	rib
 http://purl.obolibrary.org/obo/MP_0004649	decreased sacral vertebrae number	http://purl.obolibrary.org/obo/UBERON_0001094	sacral vertebra
 http://purl.obolibrary.org/obo/MP_0013192	decreased sebaceous gland number	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
-http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
+http://purl.obolibrary.org/obo/MP_0031381	decreased secondary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000036	secondary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0014079	decreased small intestinal villus number	http://purl.obolibrary.org/obo/UBERON_0001213	intestinal villus
 http://purl.obolibrary.org/obo/MP_0008482	decreased spleen germinal center number	http://purl.obolibrary.org/obo/UBERON_0005196	spleen germinal center
 http://purl.obolibrary.org/obo/MP_0008477	decreased spleen red pulp amount	http://purl.obolibrary.org/obo/UBERON_0001250	red pulp of spleen
 http://purl.obolibrary.org/obo/MP_0008479	decreased spleen white pulp amount	http://purl.obolibrary.org/obo/UBERON_0001959	white pulp of spleen
 http://purl.obolibrary.org/obo/MP_0012283	decreased sternebra number	http://purl.obolibrary.org/obo/UBERON_0002208	sternebra
+http://purl.obolibrary.org/obo/MP_0011129	decreased tertiary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0004648	decreased thoracic vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002347	thoracic vertebra
 http://purl.obolibrary.org/obo/MP_0030608	decreased tooth number	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
 http://purl.obolibrary.org/obo/MP_0010025	decreased total body fat amount	http://purl.obolibrary.org/obo/UBERON_0001013	adipose tissue

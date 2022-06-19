@@ -3,7 +3,6 @@ http://purl.obolibrary.org/obo/ZP_0000767	RNA processing premature, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0012067	adipose tissue development premature, abnormal	http://purl.obolibrary.org/obo/GO_0060612	adipose tissue development
 http://purl.obolibrary.org/obo/ZP_0009023	aging premature, abnormal	http://purl.obolibrary.org/obo/GO_0007568	aging
 http://purl.obolibrary.org/obo/ZP_0010890	angioblast cell migration premature, abnormal	http://purl.obolibrary.org/obo/GO_0035476	angioblast cell migration
-http://purl.obolibrary.org/obo/ZP_0009026	animal organ senescence premature, abnormal	http://purl.obolibrary.org/obo/GO_0010260	animal organ senescence
 http://purl.obolibrary.org/obo/ZP_0021874	camera-type eye development premature, abnormal	http://purl.obolibrary.org/obo/GO_0043010	camera-type eye development
 http://purl.obolibrary.org/obo/ZP_0006770	chondrocyte development premature, abnormal	http://purl.obolibrary.org/obo/GO_0002063	chondrocyte development
 http://purl.obolibrary.org/obo/ZP_0009520	chondrocyte hypertrophy premature, abnormal	http://purl.obolibrary.org/obo/GO_0003415	chondrocyte hypertrophy
@@ -13,7 +12,6 @@ http://purl.obolibrary.org/obo/ZP_0004198	endochondral ossification premature, a
 http://purl.obolibrary.org/obo/ZP_0011593	germ cell migration premature, abnormal	http://purl.obolibrary.org/obo/GO_0008354	germ cell migration
 http://purl.obolibrary.org/obo/ZP_0014641	hatching premature, abnormal	http://purl.obolibrary.org/obo/GO_0035188	hatching
 http://purl.obolibrary.org/obo/ZP_0018999	male gamete generation premature, abnormal	http://purl.obolibrary.org/obo/GO_0048232	male gamete generation
-http://purl.obolibrary.org/obo/ZP_0019257	mitotic chromosome decondensation premature, abnormal	http://purl.obolibrary.org/obo/GO_0007083	mitotic chromosome decondensation
 http://purl.obolibrary.org/obo/ZP_0010999	myelination premature, abnormal	http://purl.obolibrary.org/obo/GO_0042552	myelination
 http://purl.obolibrary.org/obo/ZP_0101863	neuromast deposition premature, abnormal	http://purl.obolibrary.org/obo/GO_0048885	neuromast deposition
 http://purl.obolibrary.org/obo/ZP_0006189	neuron differentiation premature, abnormal	http://purl.obolibrary.org/obo/GO_0030182	neuron differentiation

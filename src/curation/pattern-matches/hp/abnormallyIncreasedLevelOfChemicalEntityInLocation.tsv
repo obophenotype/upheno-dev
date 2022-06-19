@@ -178,6 +178,7 @@ http://purl.obolibrary.org/obo/HP_0410189	Increased glucose-6-phosphate dehydrog
 http://purl.obolibrary.org/obo/HP_0410186	Increased glucose-6-phosphate dehydrogenase level in tissue	http://purl.obolibrary.org/obo/PR_000007749	glucose-6-phosphate 1-dehydrogenase	http://purl.obolibrary.org/obo/UBERON_0000479	tissue
 http://purl.obolibrary.org/obo/HP_0001900	Increased hemoglobin	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0006568	Increased hepatic glycogen content	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/HP_0003538	Increased iduronate sulfatase level	http://purl.obolibrary.org/obo/PR_000008894	iduronate 2-sulfatase	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003575	Increased intracellular sodium	http://purl.obolibrary.org/obo/CHEBI_26708	sodium atom	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure
 http://purl.obolibrary.org/obo/HP_0410051	Increased level of 3-hydroxy-3-methylglutaric acid in urine	http://purl.obolibrary.org/obo/CHEBI_16831	3-hydroxy-3-methylglutaric acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0410058	Increased level of D-threitol in CSF	http://purl.obolibrary.org/obo/CHEBI_48300	D-threitol	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
@@ -212,7 +213,6 @@ http://purl.obolibrary.org/obo/HP_0009058	Increased muscle lipid content	http://
 http://purl.obolibrary.org/obo/HP_0033100	Increased proteinogenic amino acid level in urine	http://purl.obolibrary.org/obo/CHEBI_83813	proteinogenic amino acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0012202	Increased serum bile acid concentration	http://purl.obolibrary.org/obo/CHEBI_3098	bile acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0025134	Increased serum estradiol	http://purl.obolibrary.org/obo/CHEBI_23965	estradiol	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
-http://purl.obolibrary.org/obo/HP_0003538	Increased serum iduronate sulfatase level	http://purl.obolibrary.org/obo/PR_000008894	iduronate 2-sulfatase	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003452	Increased serum iron	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
 http://purl.obolibrary.org/obo/HP_0002151	Increased serum lactate	http://purl.obolibrary.org/obo/CHEBI_24996	lactate	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
 http://purl.obolibrary.org/obo/HP_0031793	Increased serum leptin	http://purl.obolibrary.org/obo/PR_000009758	leptin	http://purl.obolibrary.org/obo/UBERON_0000178	blood

@@ -6,11 +6,15 @@ http://purl.obolibrary.org/obo/MP_0003962	abnormal adrenaline level	http://purl.
 http://purl.obolibrary.org/obo/MP_0003966	abnormal adrenocorticotropin level	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
 http://purl.obolibrary.org/obo/MP_0011415	abnormal aldosterone level	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone
 http://purl.obolibrary.org/obo/MP_0012600	abnormal alpha-fetoprotein level	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein
+http://purl.obolibrary.org/obo/MP_0021132	abnormal amino acid betaine level	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
+http://purl.obolibrary.org/obo/MP_0021145	abnormal amino acid derivative level	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
 http://purl.obolibrary.org/obo/MP_0005332	abnormal amino acid level	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
+http://purl.obolibrary.org/obo/MP_0030763	abnormal anandamide level	http://purl.obolibrary.org/obo/CHEBI_2700	anandamide
 http://purl.obolibrary.org/obo/MP_0031227	abnormal angiotensin II level	http://purl.obolibrary.org/obo/PR_000036009	angiotensin II
 http://purl.obolibrary.org/obo/MP_0010331	abnormal apolipoprotein level	http://purl.obolibrary.org/obo/CHEBI_39015	apolipoprotein
 http://purl.obolibrary.org/obo/MP_0030663	abnormal arginine level	http://purl.obolibrary.org/obo/CHEBI_29016	arginine
 http://purl.obolibrary.org/obo/MP_0030729	abnormal beta-alanine level	http://purl.obolibrary.org/obo/CHEBI_16958	beta-alanine
+http://purl.obolibrary.org/obo/MP_0031394	abnormal bicarbonate level	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate
 http://purl.obolibrary.org/obo/MP_0004774	abnormal bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt
 http://purl.obolibrary.org/obo/MP_0005320	abnormal biopterin level	http://purl.obolibrary.org/obo/CHEBI_15373	biopterin
 http://purl.obolibrary.org/obo/MP_0009812	abnormal bradykinin level	http://purl.obolibrary.org/obo/CHEBI_3165	bradykinin
@@ -20,6 +24,7 @@ http://purl.obolibrary.org/obo/MP_0011479	abnormal catecholamine level	http://pu
 http://purl.obolibrary.org/obo/MP_0012232	abnormal ceramide level	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
 http://purl.obolibrary.org/obo/MP_0012007	abnormal chloride level	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
 http://purl.obolibrary.org/obo/MP_0003947	abnormal cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
+http://purl.obolibrary.org/obo/MP_0030752	abnormal choline level	http://purl.obolibrary.org/obo/CHEBI_15354	choline
 http://purl.obolibrary.org/obo/MP_0003952	abnormal copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom
 http://purl.obolibrary.org/obo/MP_0003963	abnormal corticosterone level	http://purl.obolibrary.org/obo/CHEBI_16827	corticosterone
 http://purl.obolibrary.org/obo/MP_0010060	abnormal creatine level	http://purl.obolibrary.org/obo/CHEBI_16919	creatine
@@ -38,6 +43,7 @@ http://purl.obolibrary.org/obo/MP_0030735	abnormal glutamic acid level	http://pu
 http://purl.obolibrary.org/obo/MP_0030705	abnormal glutamine level	http://purl.obolibrary.org/obo/CHEBI_28300	glutamine
 http://purl.obolibrary.org/obo/MP_0012603	abnormal glutathione level	http://purl.obolibrary.org/obo/CHEBI_16856	glutathione
 http://purl.obolibrary.org/obo/MP_0003439	abnormal glycerol level	http://purl.obolibrary.org/obo/CHEBI_17754	glycerol
+http://purl.obolibrary.org/obo/MP_0021129	abnormal glycerophosphocholine level	http://purl.obolibrary.org/obo/CHEBI_36313	glycerophosphocholine
 http://purl.obolibrary.org/obo/MP_0030657	abnormal glycine level	http://purl.obolibrary.org/obo/CHEBI_15428	glycine
 http://purl.obolibrary.org/obo/MP_0005437	abnormal glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen
 http://purl.obolibrary.org/obo/MP_0011475	abnormal glycosaminoglycan level	http://purl.obolibrary.org/obo/CHEBI_18085	glycosaminoglycan
@@ -63,6 +69,7 @@ http://purl.obolibrary.org/obo/MP_0030646	abnormal ornithine level	http://purl.o
 http://purl.obolibrary.org/obo/MP_0001574	abnormal oxygen level	http://purl.obolibrary.org/obo/CHEBI_25805	oxygen atom
 http://purl.obolibrary.org/obo/MP_0030696	abnormal phenylalanine level	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine
 http://purl.obolibrary.org/obo/MP_0020885	abnormal phosphate level	http://purl.obolibrary.org/obo/CHEBI_26020	phosphate
+http://purl.obolibrary.org/obo/MP_0021125	abnormal phosphocholine level	http://purl.obolibrary.org/obo/CHEBI_18132	phosphocholine
 http://purl.obolibrary.org/obo/MP_0004777	abnormal phospholipid level	http://purl.obolibrary.org/obo/CHEBI_16247	phospholipid
 http://purl.obolibrary.org/obo/MP_0010076	abnormal phytosterol level	http://purl.obolibrary.org/obo/CHEBI_26125	phytosterols
 http://purl.obolibrary.org/obo/MP_0011989	abnormal porphyrin level	http://purl.obolibrary.org/obo/CHEBI_8337	porphyrin
@@ -95,6 +102,7 @@ http://purl.obolibrary.org/obo/MP_0005469	abnormal thyroxine level	http://purl.o
 http://purl.obolibrary.org/obo/MP_0008836	abnormal transforming growth factor beta level	http://purl.obolibrary.org/obo/PR_000000046	TGF-beta
 http://purl.obolibrary.org/obo/MP_0000187	abnormal triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
 http://purl.obolibrary.org/obo/MP_0005472	abnormal triiodothyronine level	http://purl.obolibrary.org/obo/CHEBI_18258	3,3',5-triiodo-L-thyronine
+http://purl.obolibrary.org/obo/MP_0021122	abnormal trimethylamine N-oxide level	http://purl.obolibrary.org/obo/CHEBI_15724	trimethylamine N-oxide
 http://purl.obolibrary.org/obo/MP_0021028	abnormal tumor necrosis factor (ligand) superfamily member 11 level	http://purl.obolibrary.org/obo/PR_000002107	tumor necrosis factor ligand superfamily member 11
 http://purl.obolibrary.org/obo/MP_0008752	abnormal tumor necrosis factor level	http://purl.obolibrary.org/obo/PR_000000134	tumor necrosis factor
 http://purl.obolibrary.org/obo/MP_0021031	abnormal tumor necrosis factor receptor superfamily member 11b level	http://purl.obolibrary.org/obo/PR_000016480	tumor necrosis factor receptor superfamily member 11B

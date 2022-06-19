@@ -32,10 +32,10 @@ http://purl.obolibrary.org/obo/MP_0000043	organ of Corti degeneration	http://pur
 http://purl.obolibrary.org/obo/MP_0013236	ovary degeneration	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0013584	pancreas degeneration	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/MP_0000958	peripheral nervous system degeneration	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system
-http://purl.obolibrary.org/obo/MP_0001326	retinal degeneration	http://purl.obolibrary.org/obo/UBERON_0000966	retina
-http://purl.obolibrary.org/obo/MP_0031198	retinal inner nuclear layer degeneration	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
-http://purl.obolibrary.org/obo/MP_0020038	retinal macular degeneration	http://purl.obolibrary.org/obo/UBERON_0000053	macula lutea
-http://purl.obolibrary.org/obo/MP_0008518	retinal outer nuclear layer degeneration	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
+http://purl.obolibrary.org/obo/MP_0001326	retina degeneration	http://purl.obolibrary.org/obo/UBERON_0000966	retina
+http://purl.obolibrary.org/obo/MP_0031198	retina inner nuclear layer degeneration	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
+http://purl.obolibrary.org/obo/MP_0020038	retina macular degeneration	http://purl.obolibrary.org/obo/UBERON_0000053	macula lutea
+http://purl.obolibrary.org/obo/MP_0008518	retina outer nuclear layer degeneration	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0013583	salivary gland degeneration	http://purl.obolibrary.org/obo/UBERON_0001044	saliva-secreting gland
 http://purl.obolibrary.org/obo/MP_0013900	seminal vesicle epithelium degeneration	http://purl.obolibrary.org/obo/UBERON_0004805	seminal vesicle epithelium
 http://purl.obolibrary.org/obo/MP_0001154	seminiferous tubule degeneration	http://purl.obolibrary.org/obo/UBERON_0001343	seminiferous tubule of testis

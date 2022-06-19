@@ -48,6 +48,7 @@ http://purl.obolibrary.org/obo/HP_3000048	Abnormal great auricular nerve morphol
 http://purl.obolibrary.org/obo/HP_3000049	Abnormal greater palatine artery morphology	http://purl.obolibrary.org/obo/UBERON_0006664	greater palatine artery
 http://purl.obolibrary.org/obo/HP_0100737	Abnormal hard palate morphology	http://purl.obolibrary.org/obo/UBERON_0003216	hard palate
 http://purl.obolibrary.org/obo/HP_0025100	Abnormal hippocampus morphology	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
+http://purl.obolibrary.org/obo/HP_3000052	Abnormal hyoid bone morphology	http://purl.obolibrary.org/obo/UBERON_0001685	hyoid bone
 http://purl.obolibrary.org/obo/HP_0012286	Abnormal hypothalamus morphology	http://purl.obolibrary.org/obo/UBERON_0001898	hypothalamus
 http://purl.obolibrary.org/obo/HP_0001549	Abnormal ileum morphology	http://purl.obolibrary.org/obo/UBERON_0002116	ileum
 http://purl.obolibrary.org/obo/HP_4000066	Abnormal iliac artery morphology	http://purl.obolibrary.org/obo/UBERON_0005609	iliac artery
@@ -74,6 +75,7 @@ http://purl.obolibrary.org/obo/HP_0410042	Abnormal liver morphology	http://purl.
 http://purl.obolibrary.org/obo/HP_0030146	Abnormal liver parenchyma morphology	http://purl.obolibrary.org/obo/UBERON_0001280	liver parenchyma
 http://purl.obolibrary.org/obo/HP_0002088	Abnormal lung morphology	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/HP_0100766	Abnormal lymphatic vessel morphology	http://purl.obolibrary.org/obo/UBERON_0001473	lymphatic vessel
+http://purl.obolibrary.org/obo/HP_0012369	Abnormal malar bone morphology	http://purl.obolibrary.org/obo/UBERON_0001683	jugal bone
 http://purl.obolibrary.org/obo/HP_3000077	Abnormal mandible condylar process morphology	http://purl.obolibrary.org/obo/UBERON_0004657	mandible condylar process
 http://purl.obolibrary.org/obo/HP_3000078	Abnormal mandible coronoid process morphology	http://purl.obolibrary.org/obo/UBERON_0004660	mandible coronoid process
 http://purl.obolibrary.org/obo/HP_3000003	Abnormal mandibular ramus morphology	http://purl.obolibrary.org/obo/UBERON_0000401	mandibular ramus
@@ -132,7 +134,6 @@ http://purl.obolibrary.org/obo/HP_0002624	Abnormal venous morphology	http://purl
 http://purl.obolibrary.org/obo/HP_0010438	Abnormal ventricular septum morphology	http://purl.obolibrary.org/obo/UBERON_0002094	interventricular septum
 http://purl.obolibrary.org/obo/HP_0030321	Abnormal vertebral artery morphology	http://purl.obolibrary.org/obo/UBERON_0001535	vertebral artery
 http://purl.obolibrary.org/obo/HP_0030277	Abnormal vertebral pedicle morphology	http://purl.obolibrary.org/obo/UBERON_0001078	pedicle of vertebra
-http://purl.obolibrary.org/obo/HP_3000052	Abnormality hyoid bone morphology	http://purl.obolibrary.org/obo/UBERON_0001685	hyoid bone
 http://purl.obolibrary.org/obo/HP_0000525	Abnormality iris morphology	http://purl.obolibrary.org/obo/UBERON_0001769	iris
 http://purl.obolibrary.org/obo/HP_0011732	Abnormality of adrenal morphology	http://purl.obolibrary.org/obo/UBERON_0002369	adrenal gland
 http://purl.obolibrary.org/obo/HP_0025487	Abnormality of bladder morphology	http://purl.obolibrary.org/obo/UBERON_0001255	urinary bladder

@@ -9,3 +9,5 @@ http://purl.obolibrary.org/obo/MP_0011628	increased mitochondrial number	http://
 http://purl.obolibrary.org/obo/MP_0020817	increased photoreceptor outer segment number	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
 http://purl.obolibrary.org/obo/MP_0020430	increased platelet alpha-granule number	http://purl.obolibrary.org/obo/GO_0031091	platelet alpha granule
 http://purl.obolibrary.org/obo/MP_0020433	increased platelet dense granule number	http://purl.obolibrary.org/obo/GO_0042827	platelet dense granule
+http://purl.obolibrary.org/obo/MP_0031408	multi-headed sperm	http://purl.obolibrary.org/obo/GO_0061827	sperm head
+http://purl.obolibrary.org/obo/MP_0009839	multiflagellated sperm	http://purl.obolibrary.org/obo/GO_0036126	sperm flagellum

@@ -26,13 +26,14 @@ http://purl.obolibrary.org/obo/MP_0011120	increased primordial ovarian follicle 
 http://purl.obolibrary.org/obo/MP_0000480	increased rib number	http://purl.obolibrary.org/obo/UBERON_0002228	rib
 http://purl.obolibrary.org/obo/MP_0010101	increased sacral vertebrae number	http://purl.obolibrary.org/obo/UBERON_0001094	sacral vertebra
 http://purl.obolibrary.org/obo/MP_0013191	increased sebaceous gland number	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
-http://purl.obolibrary.org/obo/MP_0011128	increased secondary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
+http://purl.obolibrary.org/obo/MP_0031383	increased secondary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000036	secondary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0012181	increased somite number	http://purl.obolibrary.org/obo/UBERON_0002329	somite
 http://purl.obolibrary.org/obo/MP_0008481	increased spleen germinal center number	http://purl.obolibrary.org/obo/UBERON_0005196	spleen germinal center
 http://purl.obolibrary.org/obo/MP_0008476	increased spleen red pulp amount	http://purl.obolibrary.org/obo/UBERON_0001250	red pulp of spleen
 http://purl.obolibrary.org/obo/MP_0008478	increased spleen white pulp amount	http://purl.obolibrary.org/obo/UBERON_0001959	white pulp of spleen
 http://purl.obolibrary.org/obo/MP_0012284	increased sternebra number	http://purl.obolibrary.org/obo/UBERON_0002208	sternebra
 http://purl.obolibrary.org/obo/MP_0010934	increased subcutaneous adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0002190	subcutaneous adipose tissue
+http://purl.obolibrary.org/obo/MP_0011128	increased tertiary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0004651	increased thoracic vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002347	thoracic vertebra
 http://purl.obolibrary.org/obo/MP_0004644	increased vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra
 http://purl.obolibrary.org/obo/MP_0000008	increased white adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001347	white adipose tissue

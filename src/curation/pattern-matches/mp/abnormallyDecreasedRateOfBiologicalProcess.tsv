@@ -1,10 +1,10 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/MP_0002675	asthenozoospermia	http://purl.obolibrary.org/obo/GO_0030317	flagellated sperm motility
 http://purl.obolibrary.org/obo/MP_0002554	aversion to addictive substance	http://purl.obolibrary.org/obo/NBO_0002234	regulation of consumption of an addictive substance
-http://purl.obolibrary.org/obo/MP_0005156	bradykinesia	http://purl.obolibrary.org/obo/GO_0050881	musculoskeletal movement
+http://purl.obolibrary.org/obo/MP_0005156	bradykinesia	http://purl.obolibrary.org/obo/NBO_0000449	spontaneous movement behavior
 http://purl.obolibrary.org/obo/MP_0001830	decreased activated T cell number	http://purl.obolibrary.org/obo/GO_0050798	activated T cell proliferation
 http://purl.obolibrary.org/obo/MP_0005656	decreased aggression	http://purl.obolibrary.org/obo/NBO_0000015	aggressive behavior
-http://purl.obolibrary.org/obo/MP_0003862	decreased aggression towards males	http://purl.obolibrary.org/obo/NBO_0000110	aggressive behavior towards male mice
+http://purl.obolibrary.org/obo/MP_0003862	decreased aggression towards male mice	http://purl.obolibrary.org/obo/NBO_0000110	aggressive behavior towards male mice
 http://purl.obolibrary.org/obo/MP_0003863	decreased aggression towards mice	http://purl.obolibrary.org/obo/NBO_0000107	aggressive behavior towards mice
 http://purl.obolibrary.org/obo/MP_0003546	decreased alcohol consumption	http://purl.obolibrary.org/obo/NBO_0000131	alcohol consumption
 http://purl.obolibrary.org/obo/MP_0001364	decreased anxiety-related response	http://purl.obolibrary.org/obo/NBO_0000092	anxiety-related behavior
@@ -17,7 +17,8 @@ http://purl.obolibrary.org/obo/MP_0002711	decreased glucagon secretion	http://pu
 http://purl.obolibrary.org/obo/MP_0002715	decreased glycogen catabolism rate	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
 http://purl.obolibrary.org/obo/MP_0001442	decreased grooming behavior	http://purl.obolibrary.org/obo/NBO_0000027	grooming behavior
 http://purl.obolibrary.org/obo/MP_0013759	decreased intestinal glucose absorption	http://purl.obolibrary.org/obo/GO_0001951	intestinal D-glucose absorption
-http://purl.obolibrary.org/obo/MP_0003355	decreased ovulation rate	http://purl.obolibrary.org/obo/GO_0030728	ovulation
+http://purl.obolibrary.org/obo/MP_0001402	decreased locomotor activity	http://purl.obolibrary.org/obo/NBO_0000013	locomotory behavior
+http://purl.obolibrary.org/obo/MP_0003355	decreased ovulation rate	http://purl.obolibrary.org/obo/GO_0001542	ovulation from ovarian follicle
 http://purl.obolibrary.org/obo/MP_0005528	decreased renal glomerular filtration rate	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
 http://purl.obolibrary.org/obo/MP_0000623	decreased salivation	http://purl.obolibrary.org/obo/GO_0046541	saliva secretion
 http://purl.obolibrary.org/obo/MP_0001489	decreased startle reflex	http://purl.obolibrary.org/obo/NBO_0000391	startle reflex
@@ -27,6 +28,7 @@ http://purl.obolibrary.org/obo/MP_0002757	decreased vertical activity	http://pur
 http://purl.obolibrary.org/obo/MP_0020351	decreased vocalization	http://purl.obolibrary.org/obo/NBO_0000037	vocalization behavior
 http://purl.obolibrary.org/obo/MP_0003158	dysphagia	http://purl.obolibrary.org/obo/NBO_0000545	swallowing
 http://purl.obolibrary.org/obo/MP_0009455	enhanced cued conditioning behavior	http://purl.obolibrary.org/obo/NBO_0000224	cued conditioning behavior
+http://purl.obolibrary.org/obo/MP_0031392	hypoactivity	http://purl.obolibrary.org/obo/NBO_0000338	kinesthetic behavior
 http://purl.obolibrary.org/obo/MP_0005498	hyporesponsive to tactile stimuli	http://purl.obolibrary.org/obo/NBO_0000332	touch related behavior
 http://purl.obolibrary.org/obo/MP_0001525	impaired balance	http://purl.obolibrary.org/obo/NBO_0000318	balance
 http://purl.obolibrary.org/obo/MP_0009750	impaired behavioral response to addictive substance	http://purl.obolibrary.org/obo/NBO_0001728	behavioral response to addictive substance

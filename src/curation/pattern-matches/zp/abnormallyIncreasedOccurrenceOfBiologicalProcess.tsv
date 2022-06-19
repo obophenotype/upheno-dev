@@ -63,7 +63,7 @@ http://purl.obolibrary.org/obo/ZP_0141432	chloride transmembrane transport incre
 http://purl.obolibrary.org/obo/ZP_0016291	chondrocyte proliferation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035988	chondrocyte proliferation
 http://purl.obolibrary.org/obo/ZP_0007188	chondroitin sulfate biosynthetic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030206	chondroitin sulfate biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0007190	chondroitin sulfate proteoglycan biosynthetic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050650	chondroitin sulfate proteoglycan biosynthetic process
-http://purl.obolibrary.org/obo/ZP_0009027	chromosome breakage increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031052	chromosome breakage
+http://purl.obolibrary.org/obo/ZP_0009027	chromosome breakage increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031052	programmed DNA elimination by chromosome breakage
 http://purl.obolibrary.org/obo/ZP_0002870	chromosome condensation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030261	chromosome condensation
 http://purl.obolibrary.org/obo/ZP_0102822	chronic inflammatory response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002544	chronic inflammatory response
 http://purl.obolibrary.org/obo/ZP_0019774	cilium assembly increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060271	cilium assembly
@@ -97,7 +97,7 @@ http://purl.obolibrary.org/obo/ZP_0140426	fibrinolysis increased occurrence, abn
 http://purl.obolibrary.org/obo/ZP_0011396	filopodium assembly increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0046847	filopodium assembly
 http://purl.obolibrary.org/obo/ZP_0014820	generation of neurons increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0048699	generation of neurons
 http://purl.obolibrary.org/obo/ZP_0017167	gliogenesis increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0042063	gliogenesis
-http://purl.obolibrary.org/obo/ZP_0017847	glomerular visceral epithelial cell differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072112	glomerular visceral epithelial cell differentiation
+http://purl.obolibrary.org/obo/ZP_0017847	glomerular visceral epithelial cell differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072112	podocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0104544	glutamatergic neuron differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1905962	glutamatergic neuron differentiation
 http://purl.obolibrary.org/obo/ZP_0014438	glutathione metabolic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006749	glutathione metabolic process
 http://purl.obolibrary.org/obo/ZP_0016774	granulocyte differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030851	granulocyte differentiation
@@ -218,7 +218,7 @@ http://purl.obolibrary.org/obo/ZP_0015139	pigment granule aggregation in cell ce
 http://purl.obolibrary.org/obo/ZP_0004778	pigmentation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0043473	pigmentation
 http://purl.obolibrary.org/obo/ZP_0015886	positive regulation of Wnt signaling pathway increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030177	positive regulation of Wnt signaling pathway
 http://purl.obolibrary.org/obo/ZP_0137852	positive regulation of inflammatory response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0050729	positive regulation of inflammatory response
-http://purl.obolibrary.org/obo/ZP_0018185	positive regulation of production of miRNAs involved in gene silencing by miRNA increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1903800	positive regulation of production of miRNAs involved in gene silencing by miRNA
+http://purl.obolibrary.org/obo/ZP_0018185	positive regulation of production of miRNAs involved in gene silencing by miRNA increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1903800	positive regulation of miRNA maturation
 http://purl.obolibrary.org/obo/ZP_0018854	positive regulation of receptor signaling pathway via JAK-STAT increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0046427	positive regulation of receptor signaling pathway via JAK-STAT
 http://purl.obolibrary.org/obo/ZP_0137853	positive regulation of response to endoplasmic reticulum stress increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_1905898	positive regulation of response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/ZP_0018851	primitive erythrocyte differentiation increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0060319	primitive erythrocyte differentiation

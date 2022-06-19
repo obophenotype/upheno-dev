@@ -1,7 +1,6 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/DDPHENO_0001249	abolished C-terminal protein methylation	http://purl.obolibrary.org/obo/GO_0006481	C-terminal protein methylation
 http://purl.obolibrary.org/obo/DDPHENO_0000193	abolished DIF-1 biosynthesis	http://purl.obolibrary.org/obo/GO_0031148	DIF-1 biosynthetic process
-http://purl.obolibrary.org/obo/DDPHENO_0000021	abolished RNA interference	http://purl.obolibrary.org/obo/GO_0016246	RNA interference
 http://purl.obolibrary.org/obo/DDPHENO_0001447	abolished actin filament depolymerization	http://purl.obolibrary.org/obo/GO_0030042	actin filament depolymerization
 http://purl.obolibrary.org/obo/DDPHENO_0001057	abolished actin filament polymerization	http://purl.obolibrary.org/obo/GO_0030041	actin filament polymerization
 http://purl.obolibrary.org/obo/DDPHENO_0001451	abolished actin phosphorylation	http://purl.obolibrary.org/obo/GO_0031289	actin phosphorylation
@@ -75,7 +74,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0000228	abolished positive regulation of 
 http://purl.obolibrary.org/obo/DDPHENO_0001533	abolished positive regulation of vegetative growth	http://purl.obolibrary.org/obo/GO_1903666	positive regulation of asexual reproduction
 http://purl.obolibrary.org/obo/DDPHENO_0000010	abolished post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
 http://purl.obolibrary.org/obo/DDPHENO_0000014	abolished pre-miRNA processing	http://purl.obolibrary.org/obo/GO_0031054	pre-miRNA processing
-http://purl.obolibrary.org/obo/DDPHENO_0000024	abolished production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	production of siRNA involved in RNA interference
+http://purl.obolibrary.org/obo/DDPHENO_0000024	abolished production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0001062	abolished protein kinase activation	http://purl.obolibrary.org/obo/GO_0032147	activation of protein kinase activity
 http://purl.obolibrary.org/obo/DDPHENO_0001393	abolished protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization
 http://purl.obolibrary.org/obo/DDPHENO_0001248	abolished protein methylation	http://purl.obolibrary.org/obo/GO_0006479	protein methylation

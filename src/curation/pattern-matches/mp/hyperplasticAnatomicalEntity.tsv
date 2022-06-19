@@ -36,6 +36,7 @@ http://purl.obolibrary.org/obo/MP_0000275	heart hyperplasia	http://purl.obolibra
 http://purl.obolibrary.org/obo/MP_0003958	heart valve hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
 http://purl.obolibrary.org/obo/MP_0012266	hindbrain hyperplasia	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
 http://purl.obolibrary.org/obo/MP_0000839	hypothalamus hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001898	hypothalamus
+http://purl.obolibrary.org/obo/MP_0021108	intestinal epithelium hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001277	intestinal epithelium
 http://purl.obolibrary.org/obo/MP_0013765	iris hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001769	iris
 http://purl.obolibrary.org/obo/MP_0004968	kidney epithelium hyperplasia	http://purl.obolibrary.org/obo/UBERON_0004819	kidney epithelium
 http://purl.obolibrary.org/obo/MP_0003625	kidney medulla hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000362	renal medulla
@@ -50,6 +51,7 @@ http://purl.obolibrary.org/obo/MP_0001884	mammary gland alveolar hyperplasia	htt
 http://purl.obolibrary.org/obo/MP_0001885	mammary gland duct hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001765	mammary duct
 http://purl.obolibrary.org/obo/MP_0000630	mammary gland hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001911	mammary gland
 http://purl.obolibrary.org/obo/MP_0000898	midbrain hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
+http://purl.obolibrary.org/obo/MP_0031390	myometrium hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001296	myometrium
 http://purl.obolibrary.org/obo/MP_0003654	nasal bone hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001681	nasal bone
 http://purl.obolibrary.org/obo/MP_0001128	ovary hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009110	pancreas hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
@@ -67,7 +69,7 @@ http://purl.obolibrary.org/obo/MP_0000659	prostate gland hyperplasia	http://purl
 http://purl.obolibrary.org/obo/MP_0031365	prostate gland ventral lobe hyperplasia	http://purl.obolibrary.org/obo/UBERON_0007615	prostate gland ventral lobe
 http://purl.obolibrary.org/obo/MP_0004202	pulmonary hyperplasia	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/MP_0001329	retina hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000966	retina
-http://purl.obolibrary.org/obo/MP_0005549	retinal pigment epithelium hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001782	pigmented layer of retina
+http://purl.obolibrary.org/obo/MP_0005549	retina pigment epithelium hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001782	pigmented layer of retina
 http://purl.obolibrary.org/obo/MP_0000619	salivary gland epithelial hyperplasia	http://purl.obolibrary.org/obo/UBERON_0004809	salivary gland epithelium
 http://purl.obolibrary.org/obo/MP_0003610	scrotum hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
 http://purl.obolibrary.org/obo/MP_0009794	sebaceous gland hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland

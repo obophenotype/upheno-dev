@@ -76,7 +76,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0000342	decreased plasma membrane organiz
 http://purl.obolibrary.org/obo/DDPHENO_0001138	decreased positive regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0043547	positive regulation of GTPase activity
 http://purl.obolibrary.org/obo/DDPHENO_0000011	decreased post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
 http://purl.obolibrary.org/obo/DDPHENO_0000016	decreased pre-miRNA processing	http://purl.obolibrary.org/obo/GO_0031054	pre-miRNA processing
-http://purl.obolibrary.org/obo/DDPHENO_0000716	decreased production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	production of siRNA involved in RNA interference
+http://purl.obolibrary.org/obo/DDPHENO_0000716	decreased production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0001058	decreased protein kinase activation	http://purl.obolibrary.org/obo/GO_0032147	activation of protein kinase activity
 http://purl.obolibrary.org/obo/DDPHENO_0001338	decreased protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization
 http://purl.obolibrary.org/obo/DDPHENO_0001327	decreased protein modification	http://purl.obolibrary.org/obo/GO_0036211	protein modification process

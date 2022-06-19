@@ -132,16 +132,13 @@ http://purl.obolibrary.org/obo/MP_0012776	abnormal liver cholesterol level	http:
 http://purl.obolibrary.org/obo/MP_0003065	abnormal liver copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0012777	abnormal liver glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0008738	abnormal liver iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
-http://purl.obolibrary.org/obo/MP_0012778	abnormal liver triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0011924	abnormal liver zinc level	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0001589	abnormal mean corpuscular hemoglobin	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/CL_0000595	enucleate erythrocyte
-http://purl.obolibrary.org/obo/MP_0014068	abnormal muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/MP_0013301	abnormal pancreas iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/MP_0009556	abnormal platelet ADP level	http://purl.obolibrary.org/obo/CHEBI_16761	ADP	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/MP_0009447	abnormal platelet ATP level	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/MP_0004865	abnormal platelet calcium level	http://purl.obolibrary.org/obo/CHEBI_22984	calcium atom	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/MP_0004723	abnormal platelet serotonin level	http://purl.obolibrary.org/obo/CHEBI_28790	serotonin	http://purl.obolibrary.org/obo/CL_0000233	platelet
-http://purl.obolibrary.org/obo/MP_0014069	abnormal skeletal muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/MP_0008739	abnormal spleen iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
 http://purl.obolibrary.org/obo/MP_0011539	abnormal urine aldosterone level	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0011468	abnormal urine amino acid level	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine

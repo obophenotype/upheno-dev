@@ -1326,21 +1326,21 @@ http://purl.obolibrary.org/obo/MP_0002277	abnormal respiratory mucosa morphology
 http://purl.obolibrary.org/obo/MP_0002132	abnormal respiratory system morphology	http://purl.obolibrary.org/obo/UBERON_0001004	respiratory system
 http://purl.obolibrary.org/obo/MP_0013610	abnormal rete ovarii morphology	http://purl.obolibrary.org/obo/UBERON_0010185	rete ovarii
 http://purl.obolibrary.org/obo/MP_0006416	abnormal rete testis morphology	http://purl.obolibrary.org/obo/UBERON_0003959	rete testis
+http://purl.obolibrary.org/obo/MP_0031139	abnormal retina artery morphology	http://purl.obolibrary.org/obo/UBERON_0001620	central retinal artery
+http://purl.obolibrary.org/obo/MP_0010097	abnormal retina blood vessel morphology	http://purl.obolibrary.org/obo/UBERON_0003501	retina blood vessel
+http://purl.obolibrary.org/obo/MP_0005241	abnormal retina ganglion layer morphology	http://purl.obolibrary.org/obo/UBERON_0001792	ganglionic layer of retina
 http://purl.obolibrary.org/obo/MP_0010235	abnormal retina inner limiting membrane morphology	http://purl.obolibrary.org/obo/UBERON_0001794	inner limiting layer of retina
+http://purl.obolibrary.org/obo/MP_0003733	abnormal retina inner nuclear layer morphology	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
+http://purl.obolibrary.org/obo/MP_0003734	abnormal retina inner plexiform layer morphology	http://purl.obolibrary.org/obo/UBERON_0001795	inner plexiform layer of retina
+http://purl.obolibrary.org/obo/MP_0003727	abnormal retina layer morphology	http://purl.obolibrary.org/obo/UBERON_0001781	layer of retina
 http://purl.obolibrary.org/obo/MP_0001325	abnormal retina morphology	http://purl.obolibrary.org/obo/UBERON_0000966	retina
+http://purl.obolibrary.org/obo/MP_0006303	abnormal retina nerve fiber layer morphology	http://purl.obolibrary.org/obo/UBERON_0001793	nerve fiber layer of retina
+http://purl.obolibrary.org/obo/MP_0006069	abnormal retina neuronal layer morphology	http://purl.obolibrary.org/obo/UBERON_0003902	retinal neural layer
 http://purl.obolibrary.org/obo/MP_0010236	abnormal retina outer limiting membrane morphology	http://purl.obolibrary.org/obo/UBERON_0001788	outer limiting layer of retina
-http://purl.obolibrary.org/obo/MP_0031139	abnormal retinal artery morphology	http://purl.obolibrary.org/obo/UBERON_0001620	central retinal artery
-http://purl.obolibrary.org/obo/MP_0010097	abnormal retinal blood vessel morphology	http://purl.obolibrary.org/obo/UBERON_0003501	retina blood vessel
-http://purl.obolibrary.org/obo/MP_0005241	abnormal retinal ganglion layer morphology	http://purl.obolibrary.org/obo/UBERON_0001792	ganglionic layer of retina
-http://purl.obolibrary.org/obo/MP_0003733	abnormal retinal inner nuclear layer morphology	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
-http://purl.obolibrary.org/obo/MP_0003734	abnormal retinal inner plexiform layer morphology	http://purl.obolibrary.org/obo/UBERON_0001795	inner plexiform layer of retina
-http://purl.obolibrary.org/obo/MP_0003727	abnormal retinal layer morphology	http://purl.obolibrary.org/obo/UBERON_0001781	layer of retina
-http://purl.obolibrary.org/obo/MP_0006303	abnormal retinal nerve fiber layer morphology	http://purl.obolibrary.org/obo/UBERON_0001793	nerve fiber layer of retina
-http://purl.obolibrary.org/obo/MP_0006069	abnormal retinal neuronal layer morphology	http://purl.obolibrary.org/obo/UBERON_0003902	retinal neural layer
-http://purl.obolibrary.org/obo/MP_0003731	abnormal retinal outer nuclear layer morphology	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
-http://purl.obolibrary.org/obo/MP_0003732	abnormal retinal outer plexiform layer morphology	http://purl.obolibrary.org/obo/UBERON_0001790	outer plexiform layer of retina
-http://purl.obolibrary.org/obo/MP_0005201	abnormal retinal pigment epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0001782	pigmented layer of retina
-http://purl.obolibrary.org/obo/MP_0002792	abnormal retinal vasculature morphology	http://purl.obolibrary.org/obo/UBERON_0004864	vasculature of retina
+http://purl.obolibrary.org/obo/MP_0003731	abnormal retina outer nuclear layer morphology	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
+http://purl.obolibrary.org/obo/MP_0003732	abnormal retina outer plexiform layer morphology	http://purl.obolibrary.org/obo/UBERON_0001790	outer plexiform layer of retina
+http://purl.obolibrary.org/obo/MP_0005201	abnormal retina pigment epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0001782	pigmented layer of retina
+http://purl.obolibrary.org/obo/MP_0002792	abnormal retina vasculature morphology	http://purl.obolibrary.org/obo/UBERON_0004864	vasculature of retina
 http://purl.obolibrary.org/obo/MP_0005337	abnormal retroperitoneal fat pad morphology	http://purl.obolibrary.org/obo/UBERON_0010411	retroperitoneal fat pad
 http://purl.obolibrary.org/obo/MP_0012451	abnormal retrosplenial granular cortex morphology	http://purl.obolibrary.org/obo/UBERON_0014918	retrosplenial granular cortex
 http://purl.obolibrary.org/obo/MP_0012489	abnormal retrosplenial region morphology	http://purl.obolibrary.org/obo/UBERON_0013531	retrosplenial region
@@ -1609,8 +1609,8 @@ http://purl.obolibrary.org/obo/MP_0001146	abnormal testis morphology	http://purl
 http://purl.obolibrary.org/obo/MP_0013738	abnormal testis tunica albuginea morphology	http://purl.obolibrary.org/obo/UBERON_0006643	tunica albuginea of testis
 http://purl.obolibrary.org/obo/MP_0013739	abnormal testis tunica vaginalis morphology	http://purl.obolibrary.org/obo/UBERON_0006650	tunica vaginalis testis
 http://purl.obolibrary.org/obo/MP_0000832	abnormal thalamus morphology	http://purl.obolibrary.org/obo/UBERON_0001897	dorsal plus ventral thalamus
+http://purl.obolibrary.org/obo/MP_0009365	abnormal theca cell layer morphology	http://purl.obolibrary.org/obo/UBERON_0000155	theca cell layer
 http://purl.obolibrary.org/obo/MP_0009367	abnormal theca externa	http://purl.obolibrary.org/obo/UBERON_0000156	theca externa
-http://purl.obolibrary.org/obo/MP_0009365	abnormal theca folliculi	http://purl.obolibrary.org/obo/UBERON_0000155	theca cell layer
 http://purl.obolibrary.org/obo/MP_0009366	abnormal theca interna	http://purl.obolibrary.org/obo/UBERON_0000157	theca interna
 http://purl.obolibrary.org/obo/MP_0006356	abnormal third pharyngeal arch artery morphology	http://purl.obolibrary.org/obo/UBERON_0003120	pharyngeal arch artery 3
 http://purl.obolibrary.org/obo/MP_0006339	abnormal third pharyngeal arch morphology	http://purl.obolibrary.org/obo/UBERON_0003114	pharyngeal arch 3

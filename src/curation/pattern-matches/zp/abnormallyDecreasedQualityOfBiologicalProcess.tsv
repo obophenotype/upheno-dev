@@ -215,8 +215,8 @@ http://purl.obolibrary.org/obo/ZP_0102219	glial cell migration decreased process
 http://purl.obolibrary.org/obo/ZP_0006442	glial cell proliferation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0014009	glial cell proliferation
 http://purl.obolibrary.org/obo/ZP_0019644	gliogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042063	gliogenesis
 http://purl.obolibrary.org/obo/ZP_0004133	glomerular filtration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
-http://purl.obolibrary.org/obo/ZP_0017878	glomerular visceral epithelial cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072015	glomerular visceral epithelial cell development
-http://purl.obolibrary.org/obo/ZP_0012725	glomerular visceral epithelial cell migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	glomerular visceral epithelial cell migration
+http://purl.obolibrary.org/obo/ZP_0017878	glomerular visceral epithelial cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072015	podocyte development
+http://purl.obolibrary.org/obo/ZP_0012725	glomerular visceral epithelial cell migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	podocyte cell migration
 http://purl.obolibrary.org/obo/ZP_0016144	glucose homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
 http://purl.obolibrary.org/obo/ZP_0006748	glucose import decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
 http://purl.obolibrary.org/obo/ZP_0016145	glucose import in response to insulin stimulus decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044381	glucose import in response to insulin stimulus
@@ -302,7 +302,7 @@ http://purl.obolibrary.org/obo/ZP_0019904	microglia development decreased proces
 http://purl.obolibrary.org/obo/ZP_0001282	microtubule cytoskeleton organization decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
 http://purl.obolibrary.org/obo/ZP_0011101	midbrain-hindbrain boundary development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030917	midbrain-hindbrain boundary development
 http://purl.obolibrary.org/obo/ZP_0106474	mitochondrial ATP synthesis coupled electron transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042775	mitochondrial ATP synthesis coupled electron transport
-http://purl.obolibrary.org/obo/ZP_0018251	mitochondrial ATP synthesis coupled proton transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042776	mitochondrial ATP synthesis coupled proton transport
+http://purl.obolibrary.org/obo/ZP_0018251	mitochondrial ATP synthesis coupled proton transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042776	proton motive force-driven mitochondrial ATP synthesis
 http://purl.obolibrary.org/obo/ZP_0007504	motile cilium assembly decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly
 http://purl.obolibrary.org/obo/ZP_0008525	motor neuron axon guidance decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008045	motor neuron axon guidance
 http://purl.obolibrary.org/obo/ZP_0102106	motor neuron migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0097475	motor neuron migration

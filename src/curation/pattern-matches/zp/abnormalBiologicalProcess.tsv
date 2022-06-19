@@ -372,7 +372,7 @@ http://purl.obolibrary.org/obo/ZP_0017152	germ cell development process quality,
 http://purl.obolibrary.org/obo/ZP_0001564	germ cell migration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008354	germ cell migration
 http://purl.obolibrary.org/obo/ZP_0013046	glial cell differentiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0010001	glial cell differentiation
 http://purl.obolibrary.org/obo/ZP_0011193	glomerular filtration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
-http://purl.obolibrary.org/obo/ZP_0017415	glomerular visceral epithelial cell migration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	glomerular visceral epithelial cell migration
+http://purl.obolibrary.org/obo/ZP_0017415	glomerular visceral epithelial cell migration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	podocyte cell migration
 http://purl.obolibrary.org/obo/ZP_0022263	glomerulus development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032835	glomerulus development
 http://purl.obolibrary.org/obo/ZP_0019507	glucose homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
 http://purl.obolibrary.org/obo/ZP_0017120	glucose import in response to insulin stimulus process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044381	glucose import in response to insulin stimulus
@@ -614,7 +614,6 @@ http://purl.obolibrary.org/obo/ZP_0103301	notochord development process quality,
 http://purl.obolibrary.org/obo/ZP_0006469	notochord formation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0014028	notochord formation
 http://purl.obolibrary.org/obo/ZP_0014141	notochord morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048570	notochord morphogenesis
 http://purl.obolibrary.org/obo/ZP_0019058	nucleolar chromatin organization process quality, abnormal	http://purl.obolibrary.org/obo/GO_1990700	nucleolar chromatin organization
-http://purl.obolibrary.org/obo/ZP_0101932	nucleosome positioning process quality, abnormal	http://purl.obolibrary.org/obo/GO_0016584	nucleosome positioning
 http://purl.obolibrary.org/obo/ZP_0102673	odontogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042476	odontogenesis
 http://purl.obolibrary.org/obo/ZP_0013787	olfactory bulb development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021772	olfactory bulb development
 http://purl.obolibrary.org/obo/ZP_0011278	olfactory nerve formation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021628	olfactory nerve formation

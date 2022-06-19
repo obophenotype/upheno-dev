@@ -166,12 +166,12 @@ http://purl.obolibrary.org/obo/ZP_0015391	fertilization decreased occurrence, ab
 http://purl.obolibrary.org/obo/ZP_0101040	filopodium assembly decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0046847	filopodium assembly
 http://purl.obolibrary.org/obo/ZP_0007383	fin regeneration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031101	fin regeneration
 http://purl.obolibrary.org/obo/ZP_0001322	gastrulation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
-http://purl.obolibrary.org/obo/ZP_0104142	gene silencing by miRNA decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035195	gene silencing by miRNA
+http://purl.obolibrary.org/obo/ZP_0104142	gene silencing by miRNA decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated gene silencing
 http://purl.obolibrary.org/obo/ZP_0101911	germ cell migration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008354	germ cell migration
 http://purl.obolibrary.org/obo/ZP_0106155	germ cell proliferation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
 http://purl.obolibrary.org/obo/ZP_0008934	glial cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0010001	glial cell differentiation
 http://purl.obolibrary.org/obo/ZP_0102972	glomerular filtration decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
-http://purl.obolibrary.org/obo/ZP_0017872	glomerular visceral epithelial cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072112	glomerular visceral epithelial cell differentiation
+http://purl.obolibrary.org/obo/ZP_0017872	glomerular visceral epithelial cell differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0072112	podocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0007679	glycosylation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0070085	glycosylation
 http://purl.obolibrary.org/obo/ZP_0019713	gonadotrophin-releasing hormone neuronal migration to the hypothalamus decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0021828	gonadotrophin-releasing hormone neuronal migration to the hypothalamus
 http://purl.obolibrary.org/obo/ZP_0000545	granulocyte differentiation decreased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030851	granulocyte differentiation

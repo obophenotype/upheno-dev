@@ -15,9 +15,10 @@ http://purl.obolibrary.org/obo/MP_0009166	abnormal pancreatic islet number	http:
 http://purl.obolibrary.org/obo/MP_0011123	abnormal primary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000035	primary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0011119	abnormal primordial ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0003981	primordial ovarian follicle
 http://purl.obolibrary.org/obo/MP_0013190	abnormal sebaceous gland number	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
+http://purl.obolibrary.org/obo/MP_0031380	abnormal secondary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000036	secondary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0012282	abnormal sternebra number	http://purl.obolibrary.org/obo/UBERON_0002208	sternebra
 http://purl.obolibrary.org/obo/MP_0020997	abnormal subcutaneous adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0002190	subcutaneous adipose tissue
-http://purl.obolibrary.org/obo/MP_0011127	abnormal teriary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
+http://purl.obolibrary.org/obo/MP_0011127	abnormal tertiary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0030611	abnormal tooth number	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
 http://purl.obolibrary.org/obo/MP_0020343	abnormal ureteric bud number	http://purl.obolibrary.org/obo/UBERON_0000084	ureteric bud
 http://purl.obolibrary.org/obo/MP_0004643	abnormal vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra

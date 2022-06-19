@@ -4,11 +4,14 @@ http://purl.obolibrary.org/obo/MP_0004893	decreased adiponectin level	http://pur
 http://purl.obolibrary.org/obo/MP_0030762	decreased adrenaline level	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline
 http://purl.obolibrary.org/obo/MP_0005128	decreased adrenocorticotropin level	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
 http://purl.obolibrary.org/obo/MP_0012601	decreased alpha-fetoprotein level	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein
+http://purl.obolibrary.org/obo/MP_0021134	decreased amino acid betaine level	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
+http://purl.obolibrary.org/obo/MP_0030765	decreased anandamide level	http://purl.obolibrary.org/obo/CHEBI_2700	anandamide
 http://purl.obolibrary.org/obo/MP_0031228	decreased angiotensin II level	http://purl.obolibrary.org/obo/PR_000036009	angiotensin II
 http://purl.obolibrary.org/obo/MP_0030665	decreased arginine level	http://purl.obolibrary.org/obo/CHEBI_29016	arginine
 http://purl.obolibrary.org/obo/MP_0012338	decreased bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt
 http://purl.obolibrary.org/obo/MP_0020583	decreased ceramide level	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
 http://purl.obolibrary.org/obo/MP_0003983	decreased cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
+http://purl.obolibrary.org/obo/MP_0030753	decreased choline level	http://purl.obolibrary.org/obo/CHEBI_15354	choline
 http://purl.obolibrary.org/obo/MP_0010062	decreased creatine level	http://purl.obolibrary.org/obo/CHEBI_16919	creatine
 http://purl.obolibrary.org/obo/MP_0030685	decreased cystathionine level	http://purl.obolibrary.org/obo/CHEBI_17755	cystathionine
 http://purl.obolibrary.org/obo/MP_0005643	decreased dopamine level	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine
@@ -21,6 +24,7 @@ http://purl.obolibrary.org/obo/MP_0030737	decreased glutamic acid level	http://p
 http://purl.obolibrary.org/obo/MP_0030707	decreased glutamine level	http://purl.obolibrary.org/obo/CHEBI_28300	glutamine
 http://purl.obolibrary.org/obo/MP_0012604	decreased glutathione level	http://purl.obolibrary.org/obo/CHEBI_16856	glutathione
 http://purl.obolibrary.org/obo/MP_0003440	decreased glycerol level	http://purl.obolibrary.org/obo/CHEBI_17754	glycerol
+http://purl.obolibrary.org/obo/MP_0021130	decreased glycerophosphocholine level	http://purl.obolibrary.org/obo/CHEBI_36313	glycerophosphocholine
 http://purl.obolibrary.org/obo/MP_0030659	decreased glycine level	http://purl.obolibrary.org/obo/CHEBI_15428	glycine
 http://purl.obolibrary.org/obo/MP_0005439	decreased glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen
 http://purl.obolibrary.org/obo/MP_0030756	decreased histamine level	http://purl.obolibrary.org/obo/CHEBI_18295	histamine
@@ -35,6 +39,7 @@ http://purl.obolibrary.org/obo/MP_0030629	decreased methylmalonic acid level	htt
 http://purl.obolibrary.org/obo/MP_0012574	decreased noradrenaline level	http://purl.obolibrary.org/obo/CHEBI_33569	noradrenaline
 http://purl.obolibrary.org/obo/MP_0030648	decreased ornithine level	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine
 http://purl.obolibrary.org/obo/MP_0030698	decreased phenylalanine level	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine
+http://purl.obolibrary.org/obo/MP_0021127	decreased phosphocholine level	http://purl.obolibrary.org/obo/CHEBI_18132	phosphocholine
 http://purl.obolibrary.org/obo/MP_0013437	decreased phytosterol level	http://purl.obolibrary.org/obo/CHEBI_26125	phytosterols
 http://purl.obolibrary.org/obo/MP_0011990	decreased porphyrin level	http://purl.obolibrary.org/obo/CHEBI_8337	porphyrin
 http://purl.obolibrary.org/obo/MP_0005138	decreased prolactin level	http://purl.obolibrary.org/obo/PR_000013246	prolactin
@@ -53,6 +58,7 @@ http://purl.obolibrary.org/obo/MP_0005471	decreased thyroxine level	http://purl.
 http://purl.obolibrary.org/obo/MP_0008838	decreased transforming growth factor beta level	http://purl.obolibrary.org/obo/PR_000000046	TGF-beta
 http://purl.obolibrary.org/obo/MP_0005318	decreased triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
 http://purl.obolibrary.org/obo/MP_0005473	decreased triiodothyronine level	http://purl.obolibrary.org/obo/CHEBI_18258	3,3',5-triiodo-L-thyronine
+http://purl.obolibrary.org/obo/MP_0021124	decreased trimethylamine N-oxide level	http://purl.obolibrary.org/obo/CHEBI_15724	trimethylamine N-oxide
 http://purl.obolibrary.org/obo/MP_0021030	decreased tumor necrosis factor (ligand) superfamily member 11 level	http://purl.obolibrary.org/obo/PR_000002107	tumor necrosis factor ligand superfamily member 11
 http://purl.obolibrary.org/obo/MP_0021033	decreased tumor necrosis factor receptor superfamily member 11b level	http://purl.obolibrary.org/obo/PR_000016480	tumor necrosis factor receptor superfamily member 11B
 http://purl.obolibrary.org/obo/MP_0005285	decreased unsaturated fatty acids level	http://purl.obolibrary.org/obo/CHEBI_27208	unsaturated fatty acid

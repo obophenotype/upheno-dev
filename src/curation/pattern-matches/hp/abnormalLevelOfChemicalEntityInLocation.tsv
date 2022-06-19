@@ -6,12 +6,12 @@ http://purl.obolibrary.org/obo/HP_0500184	Abnormal CSF amino acid concentration	
 http://purl.obolibrary.org/obo/HP_0500202	Abnormal CSF arginine concentration	http://purl.obolibrary.org/obo/CHEBI_29016	arginine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500214	Abnormal CSF aromatic amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_33856	aromatic amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500205	Abnormal CSF aspartate family amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_22658	aspartate family amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
-http://purl.obolibrary.org/obo/HP_0040207	Abnormal CSF biopterin level	http://purl.obolibrary.org/obo/CHEBI_22881	biopterins	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/HP_0040207	Abnormal CSF biopterin concentration	http://purl.obolibrary.org/obo/CHEBI_22881	biopterins	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500185	Abnormal CSF branched chain amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_22918	branched-chain amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500183	Abnormal CSF carboxylic acid concentration	http://purl.obolibrary.org/obo/CHEBI_33575	carboxylic acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500240	Abnormal CSF carnosine concentration	http://purl.obolibrary.org/obo/CHEBI_15727	carnosine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500245	Abnormal CSF citrulline concentration	http://purl.obolibrary.org/obo/CHEBI_18211	citrulline	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
-http://purl.obolibrary.org/obo/HP_0012654	Abnormal CSF dopamine level	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/HP_0012654	Abnormal CSF dopamine concentration	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500199	Abnormal CSF glutamate concentration	http://purl.obolibrary.org/obo/CHEBI_18237	glutamic acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500196	Abnormal CSF glutamine concentration	http://purl.obolibrary.org/obo/CHEBI_28300	glutamine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500195	Abnormal CSF glutamine family amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_24318	glutamine family amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
@@ -19,11 +19,11 @@ http://purl.obolibrary.org/obo/HP_0500229	Abnormal CSF glycine concentration	htt
 http://purl.obolibrary.org/obo/HP_0500235	Abnormal CSF histidine concentration	http://purl.obolibrary.org/obo/CHEBI_27570	histidine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500241	Abnormal CSF homocarnosine concentration	http://purl.obolibrary.org/obo/CHEBI_28050	homocarnosine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500192	Abnormal CSF isoleucine concentration	http://purl.obolibrary.org/obo/CHEBI_24898	isoleucine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
-http://purl.obolibrary.org/obo/HP_0030085	Abnormal CSF lactate level	http://purl.obolibrary.org/obo/CHEBI_24996	lactate	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/HP_0030085	Abnormal CSF lactate concentration	http://purl.obolibrary.org/obo/CHEBI_24996	lactate	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500189	Abnormal CSF leucine concentration	http://purl.obolibrary.org/obo/CHEBI_25017	leucine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500206	Abnormal CSF lysine concentration	http://purl.obolibrary.org/obo/CHEBI_25094	lysine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500209	Abnormal CSF methionine concentration	http://purl.obolibrary.org/obo/CHEBI_16811	methionine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
-http://purl.obolibrary.org/obo/HP_0040203	Abnormal CSF neopterin level	http://purl.obolibrary.org/obo/CHEBI_25500	neopterins	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/HP_0040203	Abnormal CSF neopterin concentration	http://purl.obolibrary.org/obo/CHEBI_25500	neopterins	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500243	Abnormal CSF ornithine concentration	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500215	Abnormal CSF phenylalanine concentration	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0025456	Abnormal CSF protein level	http://purl.obolibrary.org/obo/CHEBI_36080	protein	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
@@ -81,6 +81,7 @@ http://purl.obolibrary.org/obo/HP_0410177	Abnormal glucose-6-phosphate dehydroge
 http://purl.obolibrary.org/obo/HP_0410183	Abnormal glucose-6-phosphate dehydrogenase level in leukocytes	http://purl.obolibrary.org/obo/PR_000007749	glucose-6-phosphate 1-dehydrogenase	http://purl.obolibrary.org/obo/CL_0000738	leukocyte
 http://purl.obolibrary.org/obo/HP_0410184	Abnormal glucose-6-phosphate dehydrogenase level in red blood cells	http://purl.obolibrary.org/obo/PR_000007749	glucose-6-phosphate 1-dehydrogenase	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/HP_0410185	Abnormal glucose-6-phosphate dehydrogenase level in tissue	http://purl.obolibrary.org/obo/PR_000007749	glucose-6-phosphate 1-dehydrogenase	http://purl.obolibrary.org/obo/UBERON_0000479	tissue
+http://purl.obolibrary.org/obo/HP_0500012	Abnormal gonadotropin-releasing hormone concentration	http://purl.obolibrary.org/obo/CHEBI_5520	gonadorelin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0500030	Abnormal hepatic glycogen storage	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/HP_0040134	Abnormal hepatic iron concentration	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/HP_0008306	Abnormal iron deposition in mitochondria	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
@@ -114,7 +115,6 @@ http://purl.obolibrary.org/obo/HP_0012099	Abnormality of circulating catecholami
 http://purl.obolibrary.org/obo/HP_0011731	Abnormality of circulating cortisol level	http://purl.obolibrary.org/obo/CHEBI_17650	cortisol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012111	Abnormality of circulating glucocorticoid level	http://purl.obolibrary.org/obo/CHEBI_24261	glucocorticoid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0004361	Abnormality of circulating leptin level	http://purl.obolibrary.org/obo/PR_000009758	leptin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0500012	Abnormality of gonadotropin-releasing hormone level	http://purl.obolibrary.org/obo/CHEBI_5520	gonadorelin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0011031	Abnormality of iron homeostasis	http://purl.obolibrary.org/obo/CHEBI_24875	iron cation	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0010979	Abnormality of lipoprotein cholesterol concentration	http://purl.obolibrary.org/obo/CHEBI_50404	lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012610	Abnormality of urinary uric acid level	http://purl.obolibrary.org/obo/CHEBI_27226	uric acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine

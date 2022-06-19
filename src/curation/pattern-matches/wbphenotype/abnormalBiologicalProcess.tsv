@@ -143,7 +143,6 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000250	octopamine metabolism variant
 http://purl.obolibrary.org/obo/WBPhenotype_0001048	odorant chemosensory response variant	http://purl.obolibrary.org/obo/GO_0042048	olfactory behavior
 http://purl.obolibrary.org/obo/WBPhenotype_0000105	oocyte meiotic maturation variant	http://purl.obolibrary.org/obo/GO_1903537	meiotic cell cycle process involved in oocyte maturation
 http://purl.obolibrary.org/obo/WBPhenotype_0000186	oogenesis variant	http://purl.obolibrary.org/obo/GO_0048599	oocyte development
-http://purl.obolibrary.org/obo/WBPhenotype_0001740	organ senescence variant	http://purl.obolibrary.org/obo/GO_0010260	animal organ senescence
 http://purl.obolibrary.org/obo/WBPhenotype_0000143	organism UV response variant	http://purl.obolibrary.org/obo/GO_0009411	response to UV
 http://purl.obolibrary.org/obo/WBPhenotype_0000276	organism X ray response variant	http://purl.obolibrary.org/obo/GO_0010165	response to X-ray
 http://purl.obolibrary.org/obo/WBPhenotype_0000191	organism crowding response variant	http://purl.obolibrary.org/obo/GO_0090664	response to high population density

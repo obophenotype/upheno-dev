@@ -2,7 +2,7 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/HP_0040260	Decreased size of nasopharyngeal adenoids	http://purl.obolibrary.org/obo/UBERON_0001732	pharyngeal tonsil
 http://purl.obolibrary.org/obo/HP_0040254	Decreased size of the clitoris	http://purl.obolibrary.org/obo/UBERON_0002411	clitoris
 http://purl.obolibrary.org/obo/HP_0008734	Decreased testicular size	http://purl.obolibrary.org/obo/UBERON_0000473	testis
-http://purl.obolibrary.org/obo/HP_0001593	Maxillary lateral incisor microdontia	http://purl.obolibrary.org/obo/UBERON_0003451	lower jaw incisor
+http://purl.obolibrary.org/obo/HP_0001593	Maxillary lateral incisor microdontia	http://purl.obolibrary.org/obo/UBERON_0018604	upper lateral incisor tooth
 http://purl.obolibrary.org/obo/HP_0004388	Microcolon	http://purl.obolibrary.org/obo/UBERON_0001155	colon
 http://purl.obolibrary.org/obo/HP_0000482	Microcornea	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
 http://purl.obolibrary.org/obo/HP_0000691	Microdontia	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
