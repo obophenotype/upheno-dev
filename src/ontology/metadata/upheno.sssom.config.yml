@@ -1,0 +1,40 @@
+curie_map:
+  MP: http://purl.obolibrary.org/obo/MP_
+  HP: http://purl.obolibrary.org/obo/HP_
+  WBPhenotype: http://purl.obolibrary.org/obo/WBPhenotype_
+  XPO: http://purl.obolibrary.org/obo/XPO_
+  PLANP: http://purl.obolibrary.org/obo/PLANP_
+  ZP: http://purl.obolibrary.org/obo/ZP_
+  DPO: http://purl.obolibrary.org/obo/FBcv_
+  FYPO: http://purl.obolibrary.org/obo/FYPO_
+  DDPHENO: http://purl.obolibrary.org/obo/DDPHENO_
+  phipo: http://purl.obolibrary.org/obo/PHIPO_
+  MGPO: http://purl.obolibrary.org/obo/MGPO_
+  APO: http://purl.obolibrary.org/obo/APO_
+subject_prefixes:
+  - MP
+  - HP
+  - WBPhenotype
+  - XPO
+  - PLANP
+  - ZP
+  - DPO
+  - FYPO
+  - DDPHENO
+  - phipo
+  - MGPO
+  - APO
+
+relations:
+  - oboInOwl:hasDbXref
+  - skos:exactMatch
+  - skos:broadMatch
+  - skos:narrowMatch
+  - skos:closeMatch
+  - skos:relatedMatch
+
+global_metadata:
+  subject_source: http://purl.obolibrary.org/obo/upheno_all_with_relations.owl
+  license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  mapping_date: "2017-09-20"
+  mapping_set_id: "GLOBAL" # Apparently this is the one that matters.
