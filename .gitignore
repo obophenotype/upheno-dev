@@ -67,3 +67,4 @@ src/scripts/pattern-matches/upheno_patterns/
 src/scripts/pattern-matches/ontologies/
 src/ontology/.template.db
 src/ontology/tmp/upheno_all_with_relations.*
+src/ontology/tmp/upheno.db.lexical.yaml
