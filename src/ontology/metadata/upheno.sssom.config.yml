@@ -26,7 +26,6 @@ subject_prefixes:
   - APO
 
 relations:
-  - oboInOwl:hasDbXref
   - skos:exactMatch
   - skos:broadMatch
   - skos:narrowMatch
