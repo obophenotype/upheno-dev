@@ -238,4 +238,4 @@ tmp/upheno_all_with_relations.db: tmp/upheno_all_with_relations.owl
 ## ../../mappings/upheno-lexical.sssom.tsv: tmp/upheno_all_with_relations.db
 ##	runoak -i sqlite:$< lexmatch -R config/upheno-match-rules.yaml --no-recreate -o $@
 
-lexical_matches: ../../mappings/upheno-lexical.sssom.tsv
+lexical_matches: ../mappings/upheno-lexical.sssom.tsv
