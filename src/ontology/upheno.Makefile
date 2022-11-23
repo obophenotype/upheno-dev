@@ -224,3 +224,18 @@ reports/phenotype_trait.sssom.tsv: $(UPHENO_RELEASE_FILE_ANALYSIS)
 	sed -i 's/[?]//g' $@
 	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
 	sed -i 's/>//g' $@
+
+#############################
+#### Lexical matching #######
+#############################
+SCRIPTSDIR=../scripts
+tmp/upheno_all_with_relations.db: tmp/upheno_all_with_relations.owl
+	semsql make $@
+
+../../mappings/upheno-lexical.sssom.tsv: $(SCRIPTSDIR)/upheno-lexmatch.py
+	python $^ run tmp/upheno_all_with_relations.db -c metadata/upheno.sssom.config.yml -r config/upheno-match-rules.yaml --no-recreate -o $@
+
+## ../../mappings/upheno-lexical.sssom.tsv: tmp/upheno_all_with_relations.db
+##	runoak -i sqlite:$< lexmatch -R config/upheno-match-rules.yaml --no-recreate -o $@
+
+lexical_matches: ../mappings/upheno-lexical.sssom.tsv
