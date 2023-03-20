@@ -1,0 +1,23 @@
+{
+  "template": "https://github.com/hrshdhgd/sphintoxetry-cookiecutter",
+  "commit": "2f76dc81449269141024f71a7cca49d014309a6a",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "uPheno-dev",
+      "__project_slug": "upheno_dev",
+      "project_description": "uPheno 2.0, due December 2019, will be the new version of the Unified Phenotype Ontology (uPheno).",
+      "min_python_version": "3.9",
+      "file_name": "main",
+      "greeting_recipient": "World",
+      "full_name": "Vinicius de Souza",
+      "email": "souzadevinicius@gmail.com",
+      "__author": "Vinicius de Souza <souzadevinicius@gmail.com>",
+      "license": "MIT",
+      "github_token_for_doc_deployment": "GH_TOKEN",
+      "github_token_for_pypi_deployment": "PYPI_TOKEN",
+      "_template": "https://github.com/hrshdhgd/sphintoxetry-cookiecutter"
+    }
+  },
+  "directory": null
+}
