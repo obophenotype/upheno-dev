@@ -31,12 +31,12 @@ df = pd.read_csv(upheno_species_lexical_file)
 df.columns = ['iri','p','label']
 
 ## Load logical mappings
-dfl1 = pd.read_csv(upheno_mapping_logical)[['p1','p2']]
+dfl1 = pd.read_csv(upheno_mapping_logical)[['subject_id','object_id']]
 dfl2 = dfl1.copy()
-dfl2.columns = ['p2','p1']
+dfl2.columns = ['object_id','subject_id']
 dfl = pd.concat([dfl1, dfl2], ignore_index=True, sort =False)
 dfl = dfl.drop_duplicates()
-dfl['cat']="logical"
+dfl['mapping_justification']="semapv:LogicalReasoning"
 
 ## Prepare dataframe for labels
 df_label = df[df['p']=="http://www.w3.org/2000/01/rdf-schema#label"][['iri','label']]
@@ -249,14 +249,14 @@ def compute_mappings(dd,l):
                 data.append([pair[1], pair[0]])
     df_mappings =  pd.DataFrame.from_records(data)
     df_mappings = df_mappings.drop_duplicates()
-    df_mappings['cat'] = 'lexical'
-    df_mappings.columns = ['p1','p2','cat']
-    df_maps = pd.merge(df_mappings,l,  how='left', left_on=['p1'], right_on=['iri'])
+    df_mappings['mapping_justification'] = 'semapv:LexicalMatching'
+    df_mappings.columns = ['subject_id','object_id','mapping_justification']
+    df_maps = pd.merge(df_mappings,l,  how='left', left_on=['subject_id'], right_on=['iri'])
     df_maps=df_maps.drop('iri',1)
-    df_maps = pd.merge(df_maps, l,  how='left', left_on=['p2'], right_on=['iri'])
+    df_maps = pd.merge(df_maps, l,  how='left', left_on=['object_id'], right_on=['iri'])
     df_maps=df_maps.drop('iri',1)
-    df_maps['o1']=[re.sub('[_][0-9]+', '', iri.replace("http://purl.obolibrary.org/obo/","")) for iri in df_maps['p1'].values]
-    df_maps['o2']=[re.sub('[_][0-9]+', '', iri.replace("http://purl.obolibrary.org/obo/","")) for iri in df_maps['p2'].values]
+    df_maps['subject_source']=["obo:"+re.sub('[_][0-9]+', '', iri.replace("http://purl.obolibrary.org/obo/","")).lower() for iri in df_maps['subject_id'].values]
+    df_maps['object_source']=["obo:"+re.sub('[_][0-9]+', '', iri.replace("http://purl.obolibrary.org/obo/","")).lower() for iri in df_maps['object_id'].values]
     return df_maps
 
 df_mapping = compute_mappings(dd,l)
@@ -276,8 +276,8 @@ df_maps = df_mapping[df_mapping['o1']!=df_mapping['o2']]
 print(len(w))
 w.to_csv(upheno_mapping_problematic,index=False)
 #df_maps
-# print(df_mapping[df_mapping['p1']=="http://purl.obolibrary.org/obo/ZP_0006897"])
-df_mapping_template = df_mapping[['p1','p2']].copy()
+# print(df_mapping[df_mapping['subject_id']=="http://purl.obolibrary.org/obo/ZP_0006897"])
+df_mapping_template = df_mapping[['subject_id','object_id']].copy()
 df_mapping_template.columns = ['Ontology ID','EquivalentClasses']
 
 df_mapping_template.loc[-1] = ['ID', 'AI obo:UPHENO_0000002']  # adding a row
@@ -292,19 +292,19 @@ df_mapping_template.to_csv(upheno_mapping_lexical_template,index=False)
 
 # Merging the logical mappings with the lexical ones for comparison
 print(df_maps.head())
-df_m = pd.merge(df_maps[['p1','p2','cat']], dfl,  how='outer', on=['p1','p2'])
-df_m = pd.merge(df_m,l,  how='left', left_on=['p1'], right_on=['iri'])
+df_m = pd.merge(df_maps[['subject_id','object_id','mapping_justification']], dfl,  how='outer', on=['subject_id','object_id'])
+df_m = pd.merge(df_m,l,  how='left', left_on=['subject_id'], right_on=['iri'])
 df_m=df_m.drop('iri',1)
-df_m = pd.merge(df_m, l,  how='left', left_on=['p2'], right_on=['iri'])
+df_m = pd.merge(df_m, l,  how='left', left_on=['object_id'], right_on=['iri'])
 df_m=df_m.drop('iri',1)
-df_m['cat'] = df_m["cat_x"].astype(str)+"-" + df_m["cat_y"].astype(str)
-df_m['cat'] = df_m['cat'].str.replace("-nan", "")
-df_m['cat'] = df_m['cat'].str.replace("nan-", "")
-df_m=df_m.drop('cat_x',1)
-df_m=df_m.drop('cat_y',1)
+df_m['mapping_justification'] = df_m["mapping_justification_x"].astype(str)+"-" + df_m["mapping_justification_y"].astype(str)
+df_m['mapping_justification'] = df_m['mapping_justification'].str.replace("-nan", "")
+df_m['mapping_justification'] = df_m['mapping_justification'].str.replace("nan-", "")
+df_m=df_m.drop('mapping_justification_x',1)
+df_m=df_m.drop('mapping_justification_y',1)
 
-print(df_m['cat'].value_counts(normalize=True))
-print(df_m['cat'].value_counts())
+print(df_m['mapping_justification'].value_counts(normalize=True))
+print(df_m['mapping_justification'].value_counts())
 
 df_m.to_csv(upheno_mapping_all,index=False)
 
