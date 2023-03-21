@@ -96,7 +96,7 @@ sources:
   - id: envo
     mirror_from: http://purl.obolibrary.org/obo/envo.owl
   - id: oba
-    mirror_from: https://raw.githubusercontent.com/obophenotype/bio-attribute-ontology/master/oba-base.owl
+    mirror_from: http://purl.obolibrary.org/obo/oba/oba-base.owl
   - id: uberon 
     mirror_from: http://purl.obolibrary.org/obo/uberon/uberon-base.owl
   - id: ro
