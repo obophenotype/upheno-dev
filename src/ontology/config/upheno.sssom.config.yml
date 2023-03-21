@@ -1,0 +1,5 @@
+curie_map:
+  MGPO: http://purl.obolibrary.org/obo/MGPO_
+mapping_set_id: http://purl.obolibrary.org/obo/upheno/mappings/upheno-logical.sssom.tsv
+license: https://creativecommons.org/publicdomain/zero/1.0/
+mapping_set_description: The uPheno logical matches

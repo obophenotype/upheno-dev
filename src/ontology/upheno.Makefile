@@ -56,6 +56,34 @@ upheno_mapping_lexical_all: ../curation/upheno-release/all/upheno_species_lexica
 	python3 ../scripts/lexical_mapping.py all
 	#echo "SKIP upheno_mapping_lexical_"
 
+tmp/sspo-merged.owl: config/sspo-importer.owl
+	$(ROBOT) merge -i $< -o $@
+
+tmp/sspo-base-merged.owl: config/sspo-base-importer.owl
+	$(ROBOT) merge -i $< -o $@
+
+tmp/sspo-filtered.owl: tmp/sspo-merged.owl
+	$(ROBOT) filter -i $< --term http://purl.obolibrary.org/obo/UPHENO_0001001 --term rdfs:label --term oboInOwl:hasExactSynonym --select "self descendants" \
+	query --update ../sparql/upheno-synonyms.ru -o $@
+
+tmp/sspo-base-reasoned.json: tmp/sspo-base-merged.owl
+	$(ROBOT) reason -i $< --exclude-tautologies structural --axiom-generators EquivalentClass \
+	remove --term owl:Nothing convert -f json -o $@
+
+tmp/sspo-merged.db: tmp/sspo-filtered.owl
+	semsql make $@
+
+tmp/sspo-filtered.obo: tmp/sspo-filtered.owl
+	$(ROBOT) convert -i $< -f obo --check false -o $@
+
+mappings/upheno-logical.sssom.tsv: tmp/sspo-base-reasoned.json
+	sssom parse tmp/sspo-base-reasoned.json -I obographs-json -m config/upheno.sssom.config.yml --prefix-map-mode merged --mapping-predicate-filter owl:equivalentClass -o $@
+
+mappings/upheno-lexical.oak.sssom.tsv: tmp/sspo-filtered.obo
+	runoak -i tmp/sspo-filtered.obo lexmatch -R config/match-rules.yaml -L tmp/upheno_lexical.index.yaml -o $@
+
+upheno_mappings: mappings/upheno-lexical.oak.sssom.tsv mappings/upheno-logical.sssom.tsv
+
 #.SECONDEXPANSION:
 ../curation/upheno-release/all/upheno_mapping_logical.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
