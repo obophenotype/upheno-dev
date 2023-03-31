@@ -1,0 +1,510 @@
+defined_class	defined_class_label	affected_entity_1_super	affected_entity_1_super_label	pato_id	pato_id_label
+http://purl.obolibrary.org/obo/WBPhenotype_0002264	ATP levels increased	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001575	ATP levels reduced	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001574	ATP levels variant	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000884	AWB morphology variant	http://purl.obolibrary.org/obo/WBbt_0005671	AWB	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000741	DNA damage checkpoint variant	http://purl.obolibrary.org/obo/GO_0000077	DNA damage checkpoint signaling	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000732	DNA metabolism variant	http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000742	DNA recombination variant	http://purl.obolibrary.org/obo/GO_0006310	DNA recombination	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000433	DNA synthesis variant	http://purl.obolibrary.org/obo/GO_0006260	DNA replication	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001485	ER stress response variant	http://purl.obolibrary.org/obo/GO_0034976	response to endoplasmic reticulum stress	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000873	G1 checkpoint variant	http://purl.obolibrary.org/obo/GO_0044819	mitotic G1/S transition checkpoint signaling	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000874	G2 checkpoint variant	http://purl.obolibrary.org/obo/GO_0044818	mitotic G2/M transition checkpoint	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000552	GABA levels variant	http://purl.obolibrary.org/obo/CHEBI_16865	gamma-aminobutyric acid	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000655	GABA synaptic transmission variant	http://purl.obolibrary.org/obo/GO_0051932	synaptic transmission, GABAergic	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001301	P granule abnormal	http://purl.obolibrary.org/obo/GO_0043186	P granule	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001826	RNA degradation variant	http://purl.obolibrary.org/obo/GO_0006401	RNA catabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001827	RNA metabolism variant	http://purl.obolibrary.org/obo/GO_0016070	RNA metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000028	RNA processing variant	http://purl.obolibrary.org/obo/GO_0006396	RNA processing	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001828	RNAi persistence variant	http://purl.obolibrary.org/obo/GO_0016246		http://purl.obolibrary.org/obo/PATO_0000082	persistence
+http://purl.obolibrary.org/obo/WBPhenotype_0000875	S phase checkpoint variant	http://purl.obolibrary.org/obo/GO_0031573	mitotic intra-S DNA damage checkpoint signaling	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000969	accessory cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005762	accessory cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000507	acetylcholine levels variant	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000223	acetylcholine metabolism variant	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000656	acetylcholine synaptic transmission variant	http://purl.obolibrary.org/obo/GO_0007271	synaptic transmission, cholinergic	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001354	actin cytoskeleton filament morphology phenotype	http://purl.obolibrary.org/obo/GO_0005884	actin filament	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001587	actin organization biogenesis phenotype	http://purl.obolibrary.org/obo/GO_0030036	actin cytoskeleton organization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000818	adult behavior variant	http://purl.obolibrary.org/obo/GO_0030534	adult behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001739	aging variant	http://purl.obolibrary.org/obo/GO_0007568	aging	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001228	alae absent	http://purl.obolibrary.org/obo/WBbt_0007832	cuticular ala	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001412	alae morphology variant	http://purl.obolibrary.org/obo/WBbt_0007832	cuticular ala	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000598	alimentary system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005748	alimentary system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000293	alimentary system pigmentation variant	http://purl.obolibrary.org/obo/WBbt_0005748	alimentary system	http://purl.obolibrary.org/obo/PATO_0002247	degree of pigmentation
+http://purl.obolibrary.org/obo/WBPhenotype_0002228	aluminum response variant	http://purl.obolibrary.org/obo/GO_0010044	response to aluminum ion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000256	amphid neuron morphology variant	http://purl.obolibrary.org/obo/WBbt_0005391	amphid sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000300	amphid sheath cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0006754	amphid sheath cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0004022	amplitude of sinusoidal movement variant	http://purl.obolibrary.org/obo/GO_0040011	locomotion	http://purl.obolibrary.org/obo/PATO_0000080	amplitude
+http://purl.obolibrary.org/obo/WBPhenotype_0000627	anesthetic response variant	http://purl.obolibrary.org/obo/GO_0072347	response to anesthetic	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001517	annulae morphology variant	http://purl.obolibrary.org/obo/GO_0060107	annuli extracellular matrix	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002424	anoxia response variant	http://purl.obolibrary.org/obo/GO_0034059	response to anoxia	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001230	anterior cell migration defective	http://purl.obolibrary.org/obo/GO_0016477	cell migration	http://purl.obolibrary.org/obo/PATO_0001632	anterior to
+http://purl.obolibrary.org/obo/WBPhenotype_0000907	anus morphology variant	http://purl.obolibrary.org/obo/WBbt_0005364	anus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000184	apoptosis fails to occur	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000183	apoptosis increased	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process	http://purl.obolibrary.org/obo/PATO_0002051	increased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0000182	apoptosis reduced	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process	http://purl.obolibrary.org/obo/PATO_0002052	decreased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0000730	apoptosis variant	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000244	apoptotic arrest	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process	http://purl.obolibrary.org/obo/PATO_0000297	arrested
+http://purl.obolibrary.org/obo/WBPhenotype_0001780	associative learning variant	http://purl.obolibrary.org/obo/GO_0008306	associative learning	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002564	associative memory phenotype	http://purl.obolibrary.org/obo/GO_0007613	memory	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001585	asymmetric cell division variant	http://purl.obolibrary.org/obo/GO_0008356	asymmetric cell division	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000736	autophagy variant	http://purl.obolibrary.org/obo/GO_0006914	autophagy	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000880	axon development variant	http://purl.obolibrary.org/obo/GO_0061564	axon development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000632	axon fasciculation variant	http://purl.obolibrary.org/obo/GO_0007413	axonal fasciculation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000384	axon guidance variant	http://purl.obolibrary.org/obo/GO_0007411	axon guidance	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002519	axon length reduced	http://purl.obolibrary.org/obo/GO_0030424	axon	http://purl.obolibrary.org/obo/PATO_0000574	decreased length
+http://purl.obolibrary.org/obo/WBPhenotype_0000180	axon morphology variant	http://purl.obolibrary.org/obo/GO_0030424	axon	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002364	axonal degeneration	http://purl.obolibrary.org/obo/GO_0030424	axon	http://purl.obolibrary.org/obo/PATO_0000639	degenerate
+http://purl.obolibrary.org/obo/WBPhenotype_0000262	axoneme morphology variant	http://purl.obolibrary.org/obo/GO_0005930	axoneme	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000263	axoneme short	http://purl.obolibrary.org/obo/GO_0005930	axoneme	http://purl.obolibrary.org/obo/PATO_0000574	decreased length
+http://purl.obolibrary.org/obo/WBPhenotype_0002514	backing absent	http://purl.obolibrary.org/obo/GO_0043057	backward locomotion	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001005	backward locomotion variant	http://purl.obolibrary.org/obo/GO_0043057	backward locomotion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000913	basal lamina morphology variant	http://purl.obolibrary.org/obo/GO_0005604	basement membrane	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000517	behavior phenotype	http://purl.obolibrary.org/obo/GO_0007610	behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001854	benomyl response variant	http://purl.obolibrary.org/obo/GO_1901561	response to benomyl	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001696	biosynthesis variant	http://purl.obolibrary.org/obo/GO_0009058	biosynthetic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000898	blast cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0006783	blast cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000524	bleach response variant	http://purl.obolibrary.org/obo/GO_1901530	response to hypochlorite	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000025	blistered	http://purl.obolibrary.org/obo/WBbt_0005755	cuticle	http://purl.obolibrary.org/obo/PATO_0001928	blistered
+http://purl.obolibrary.org/obo/WBPhenotype_0000581	body axis morphology variant	http://purl.obolibrary.org/obo/WBbt_0005768	axis	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000072	body morphology variant	http://purl.obolibrary.org/obo/WBbt_0005740	midbody	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000532	body region morphology variant	http://purl.obolibrary.org/obo/WBbt_0005738	body region	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002557	body region phenotype	http://purl.obolibrary.org/obo/WBbt_0005738	body region	http://purl.obolibrary.org/obo/PATO_0000001	quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000278	body region pigmentation phenotype	http://purl.obolibrary.org/obo/WBbt_0005738	body region	http://purl.obolibrary.org/obo/PATO_0002247	degree of pigmentation
+http://purl.obolibrary.org/obo/WBPhenotype_0000926	body wall muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005813	body wall musculature	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001764	carbon dioxide response variant	http://purl.obolibrary.org/obo/GO_0010037	response to carbon dioxide	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000100	cell UV response variant	http://purl.obolibrary.org/obo/GO_0034644	cellular response to UV	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001393	cell acidification variant	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001744	cell adhesion variant	http://purl.obolibrary.org/obo/GO_0007155	cell adhesion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002089	cell component morphology variant	http://purl.obolibrary.org/obo/GO_0005575	cellular_component	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001392	cell cycle arrest	http://purl.obolibrary.org/obo/GO_0007049	cell cycle	http://purl.obolibrary.org/obo/PATO_0000297	arrested
+http://purl.obolibrary.org/obo/WBPhenotype_0000318	cell cycle delayed	http://purl.obolibrary.org/obo/GO_0007049	cell cycle	http://purl.obolibrary.org/obo/PATO_0000502	delayed
+http://purl.obolibrary.org/obo/WBPhenotype_0000740	cell cycle variant	http://purl.obolibrary.org/obo/GO_0007049	cell cycle	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002620	cell death decreased	http://purl.obolibrary.org/obo/GO_0008219	cell death	http://purl.obolibrary.org/obo/PATO_0002052	decreased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0002619	cell death increased	http://purl.obolibrary.org/obo/GO_0008219	cell death	http://purl.obolibrary.org/obo/PATO_0002051	increased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0000729	cell death variant	http://purl.obolibrary.org/obo/GO_0008219	cell death	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000178	cell degeneration	http://purl.obolibrary.org/obo/WBbt_0004017	Cell	http://purl.obolibrary.org/obo/PATO_0000639	degenerate
+http://purl.obolibrary.org/obo/WBPhenotype_0000529	cell development variant	http://purl.obolibrary.org/obo/GO_0048468	cell development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000354	cell differentiation variant	http://purl.obolibrary.org/obo/GO_0030154	cell differentiation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000417	cell division failure	http://purl.obolibrary.org/obo/GO_0051301	cell division	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001235	cell division polarity variant	http://purl.obolibrary.org/obo/GO_0051301	cell division	http://purl.obolibrary.org/obo/PATO_0001769	positional polarity
+http://purl.obolibrary.org/obo/WBPhenotype_0000363	cell division slow	http://purl.obolibrary.org/obo/GO_0051301	cell division	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000746	cell division variant	http://purl.obolibrary.org/obo/GO_0051301	cell division	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000216	cell fate specification variant	http://purl.obolibrary.org/obo/GO_0001708	cell fate specification	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000165	cell fusion variant	http://purl.obolibrary.org/obo/GO_0000768	syncytium formation by plasma membrane fusion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001326	cell gamma ray response variant	http://purl.obolibrary.org/obo/GO_0071480	cellular response to gamma radiation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0010001	cell growth variant	http://purl.obolibrary.org/obo/GO_0016049	cell growth	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000197	cell induction variant	http://purl.obolibrary.org/obo/GO_0031129	inductive cell-cell signaling	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001324	cell ionizing radiation response variant	http://purl.obolibrary.org/obo/GO_0071479	cellular response to ionizing radiation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001657	cell junction variant	http://purl.obolibrary.org/obo/GO_0030054	cell junction	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001399	cell membrane morphology variant	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000393	cell migration failure	http://purl.obolibrary.org/obo/GO_0016477	cell migration	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000594	cell migration variant	http://purl.obolibrary.org/obo/GO_0016477	cell migration	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000533	cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0004017	Cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002552	cell phenotype	http://purl.obolibrary.org/obo/WBbt_0004017	Cell	http://purl.obolibrary.org/obo/PATO_0000001	quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000526	cell pigmentation phenotype	http://purl.obolibrary.org/obo/WBbt_0004017	Cell	http://purl.obolibrary.org/obo/PATO_0002247	degree of pigmentation
+http://purl.obolibrary.org/obo/WBPhenotype_0000104	cell polarity variant	http://purl.obolibrary.org/obo/GO_0007163	establishment or maintenance of cell polarity	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000172	cell proliferation increased	http://purl.obolibrary.org/obo/GO_0008283	cell population proliferation	http://purl.obolibrary.org/obo/PATO_0002051	increased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0000173	cell proliferation reduced	http://purl.obolibrary.org/obo/GO_0008283	cell population proliferation	http://purl.obolibrary.org/obo/PATO_0002052	decreased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0000171	cell proliferation variant	http://purl.obolibrary.org/obo/GO_0008283	cell population proliferation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000258	cell secretion variant	http://purl.obolibrary.org/obo/GO_0032940	secretion by cell	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000142	cell stress response variant	http://purl.obolibrary.org/obo/GO_0033554	cellular response to stress	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001725	cellular osmotic stress response variant	http://purl.obolibrary.org/obo/GO_0071470	cellular response to osmotic stress	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000068	cellular oxidative stress response variant	http://purl.obolibrary.org/obo/GO_0034599	cellular response to oxidative stress	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001530	cephalic sensillum morphology variant	http://purl.obolibrary.org/obo/WBbt_0006920	cephalic sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000523	chemical response variant	http://purl.obolibrary.org/obo/GO_0042221	response to chemical	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001049	chemosensory behavior variant	http://purl.obolibrary.org/obo/GO_0007635	chemosensory behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001434	chemotaxis variant	http://purl.obolibrary.org/obo/GO_0006935	chemotaxis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001584	chromosome alignment variant	http://purl.obolibrary.org/obo/GO_0051310	metaphase plate congression	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001362	chromosome condensation failure	http://purl.obolibrary.org/obo/GO_0030261	chromosome condensation	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001361	chromosome condensation variant	http://purl.obolibrary.org/obo/GO_0030261	chromosome condensation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001348	chromosome morphology variant	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000773	chromosome segregation variant	http://purl.obolibrary.org/obo/GO_0007059	chromosome segregation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000310	cilia absent	http://purl.obolibrary.org/obo/GO_0005929	cilium	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000615	cilia morphology variant	http://purl.obolibrary.org/obo/GO_0005929	cilium	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001526	ciliated neuron morphology variant	http://purl.obolibrary.org/obo/WBbt_0006816	ciliated neuron	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001712	circadian rhythm behavior variant	http://purl.obolibrary.org/obo/GO_0048512	circadian behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000908	cloacal morphology variant	http://purl.obolibrary.org/obo/WBbt_0005774	cloaca	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000599	coelomic system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005749	coelomic system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000911	coelomocyte morphology variant	http://purl.obolibrary.org/obo/WBbt_0005751	coelomocyte	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000647	copulation variant	http://purl.obolibrary.org/obo/GO_0007620	copulation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000492	corpus morphology defective	http://purl.obolibrary.org/obo/WBbt_0003733	corpus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000075	cuticle attachment variant	http://purl.obolibrary.org/obo/GO_0040004	collagen and cuticulin-based cuticle attachment to epithelium	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000201	cuticle development variant	http://purl.obolibrary.org/obo/GO_0042335	cuticle development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000948	cuticle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005755	cuticle	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002408	cytokinesis variant	http://purl.obolibrary.org/obo/GO_0000910	cytokinesis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001794	cytoplasmic processing body variant	http://purl.obolibrary.org/obo/GO_0000932	P-body	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002612	cytoplasmic streaming phenotype	http://purl.obolibrary.org/obo/GO_0099636	cytoplasmic streaming	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001345	cytoskeleton organization biogenesis variant	http://purl.obolibrary.org/obo/GO_0007010	cytoskeleton organization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000308	dauer development phenotype	http://purl.obolibrary.org/obo/GO_0040024	dauer larval development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001539	dauer induction variant	http://purl.obolibrary.org/obo/GO_0043053	dauer entry	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000127	dauer recovery variant	http://purl.obolibrary.org/obo/GO_0043054	dauer exit	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000207	defecation cycle variant	http://purl.obolibrary.org/obo/GO_0035882	defecation rhythm	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000650	defecation variant	http://purl.obolibrary.org/obo/GO_0030421	defecation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001535	deirid sensillum morphology variant	http://purl.obolibrary.org/obo/WBbt_0006926	deirid sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000404	delayed hatching	http://purl.obolibrary.org/obo/GO_0035188	hatching	http://purl.obolibrary.org/obo/PATO_0000502	delayed
+http://purl.obolibrary.org/obo/WBPhenotype_0000882	dendrite development variant	http://purl.obolibrary.org/obo/GO_0016358	dendrite development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002591	dendrite length reduced	http://purl.obolibrary.org/obo/GO_0030425	dendrite	http://purl.obolibrary.org/obo/PATO_0000574	decreased length
+http://purl.obolibrary.org/obo/WBPhenotype_0002647	dendrite morphology variant	http://purl.obolibrary.org/obo/GO_0030425	dendrite	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000518	development phenotype	http://purl.obolibrary.org/obo/GO_0032502	developmental process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000848	developmental delay	http://purl.obolibrary.org/obo/GO_0032502	developmental process	http://purl.obolibrary.org/obo/PATO_0000502	delayed
+http://purl.obolibrary.org/obo/WBPhenotype_0001015	developmental growth variant	http://purl.obolibrary.org/obo/GO_0048589	developmental growth	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001009	developmental pigmentation variant	http://purl.obolibrary.org/obo/GO_0048066	developmental pigmentation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000033	developmental timing variant	http://purl.obolibrary.org/obo/GO_0040034	regulation of development, heterochronic	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000196	distal tip cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0006865	distal tip cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000233	dopamine metabolism variant	http://purl.obolibrary.org/obo/GO_0042417	dopamine metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000718	dosage compensation variant	http://purl.obolibrary.org/obo/GO_0007549	dosage compensation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002092	early endosome morphology variant	http://purl.obolibrary.org/obo/GO_0005769	early endosome	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002490	ectopic axon outgrowth	http://purl.obolibrary.org/obo/GO_0030424	axon	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002492	ectopic body wall muscle	http://purl.obolibrary.org/obo/WBbt_0006804	body wall muscle cell	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002493	ectopic cell	http://purl.obolibrary.org/obo/WBbt_0004017	Cell	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002500	ectopic cleavage furrow	http://purl.obolibrary.org/obo/GO_0032154	cleavage furrow	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002495	ectopic hypodermis	http://purl.obolibrary.org/obo/WBbt_0005733	hypodermis	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002491	ectopic neurite outgrowth	http://purl.obolibrary.org/obo/GO_0043005	neuron projection	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002496	ectopic neuron	http://purl.obolibrary.org/obo/WBbt_0003679	neuron	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002498	ectopic organ	http://purl.obolibrary.org/obo/WBbt_0003760	organ	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002497	ectopic pharyngeal muscle	http://purl.obolibrary.org/obo/WBbt_0005451	pharyngeal muscle cell	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0002499	ectopic vulva	http://purl.obolibrary.org/obo/WBbt_0006748	vulva	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0001330	egg laying event infrequent	http://purl.obolibrary.org/obo/GO_0018991	oviposition	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000272	egg laying irregular	http://purl.obolibrary.org/obo/GO_0018991	oviposition	http://purl.obolibrary.org/obo/PATO_0000044	frequency
+http://purl.obolibrary.org/obo/WBPhenotype_0000640	egg laying variant	http://purl.obolibrary.org/obo/GO_0018991	oviposition	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001836	eggshell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005843	eggshell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000867	embryonic arrest	http://purl.obolibrary.org/obo/GO_0009790	embryo development	http://purl.obolibrary.org/obo/PATO_0000297	arrested
+http://purl.obolibrary.org/obo/WBPhenotype_0000770	embryonic cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0007028	embryonic cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000749	embryonic development variant	http://purl.obolibrary.org/obo/GO_0009790	embryo development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000034	embryonic polarity variant	http://purl.obolibrary.org/obo/WBls_0000003	embryo Ce	http://purl.obolibrary.org/obo/PATO_0001769	positional polarity
+http://purl.obolibrary.org/obo/WBPhenotype_0001421	endocytic transport variant	http://purl.obolibrary.org/obo/GO_0006897	endocytosis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002246	endogenous zinc levels increased	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0002245	endogenous zinc levels reduced	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001880	endoplasmic reticulum morphology variant	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000503	endoreduplication variant	http://purl.obolibrary.org/obo/GO_0042023	DNA endoreduplication	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002090	endosome morphology variant	http://purl.obolibrary.org/obo/GO_0005768	endosome	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000885	engulfment variant	http://purl.obolibrary.org/obo/GO_0043652	engulfment of apoptotic cell	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000125	enzyme activity increased	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity	http://purl.obolibrary.org/obo/PATO_0000912	increased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000124	enzyme activity reduced	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000727	enzyme activity variant	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000811	epithelial cell development variant	http://purl.obolibrary.org/obo/GO_0002064	epithelial cell development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000899	epithelial cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0003672	epithelial cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002630	epithelial system degeneration	http://purl.obolibrary.org/obo/WBbt_0005730	epithelial system	http://purl.obolibrary.org/obo/PATO_0000639	degenerate
+http://purl.obolibrary.org/obo/WBPhenotype_0000600	epithelial system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005730	epithelial system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001636	excess intestinal cells	http://purl.obolibrary.org/obo/WBbt_0005792	intestinal cell	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001635	excess pharyngeal cells	http://purl.obolibrary.org/obo/WBbt_0005460	pharyngeal cell	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000704	excretory canal morphology variant	http://purl.obolibrary.org/obo/WBbt_0005775	excretory canal	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000574	excretory canal short	http://purl.obolibrary.org/obo/WBbt_0005775	excretory canal	http://purl.obolibrary.org/obo/PATO_0000574	decreased length
+http://purl.obolibrary.org/obo/WBPhenotype_0000440	excretory canals long	http://purl.obolibrary.org/obo/WBbt_0005775	excretory canal	http://purl.obolibrary.org/obo/PATO_0000573	increased length
+http://purl.obolibrary.org/obo/WBPhenotype_0000916	excretory cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005812	excretory cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000917	excretory duct cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0004540	excretory duct cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000914	excretory gland cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005776	excretory gland cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000601	excretory secretory system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005736	excretory system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000918	excretory socket cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0004534	excretory socket cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000728	exocytosis variant	http://purl.obolibrary.org/obo/GO_0006887	exocytosis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002558	extracellular component phenotype	http://purl.obolibrary.org/obo/WBbt_0005732	extracellular component	http://purl.obolibrary.org/obo/PATO_0000001	quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001523	extracellular matrix variant	http://purl.obolibrary.org/obo/GO_0031012	extracellular matrix	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000351	failure to hatch	http://purl.obolibrary.org/obo/GO_0035188	hatching	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001184	fat content increased	http://purl.obolibrary.org/obo/CHEBI_18059	lipid	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001183	fat content reduced	http://purl.obolibrary.org/obo/CHEBI_18059	lipid	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001182	fat content variant	http://purl.obolibrary.org/obo/CHEBI_18059	lipid	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000659	feeding behavior variant	http://purl.obolibrary.org/obo/GO_0007631	feeding behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000145	fertility phenotype	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0000274	fertility
+http://purl.obolibrary.org/obo/WBPhenotype_0000684	fewer germ cells	http://purl.obolibrary.org/obo/WBbt_0006796	germ cell	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000662	foraging behavior variant	http://purl.obolibrary.org/obo/GO_0060756	foraging behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000237	foraging hyperactive	http://purl.obolibrary.org/obo/GO_0060756	foraging behavior	http://purl.obolibrary.org/obo/PATO_0000912	increased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000238	foraging reduced	http://purl.obolibrary.org/obo/GO_0060756	foraging behavior	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000774	gametogenesis variant	http://purl.obolibrary.org/obo/GO_0007276	gamete generation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000047	gastrulation variant	http://purl.obolibrary.org/obo/GO_0007369	gastrulation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000717	gene expression variant	http://purl.obolibrary.org/obo/GO_0010467	gene expression	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000043	general pace of development variant	http://purl.obolibrary.org/obo/GO_0032502	developmental process	http://purl.obolibrary.org/obo/PATO_0000161	rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000812	germ cell development variant	http://purl.obolibrary.org/obo/GO_0007281	germ cell development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000900	germ cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0006796	germ cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002485	germline precursor cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0006849	germline precursor cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002660	germline stem cell depletion	http://purl.obolibrary.org/obo/CL_0000086	germ line stem cell (sensu Nematoda and Protostomia)	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000405	giant oocytes	http://purl.obolibrary.org/obo/WBbt_0006797	oocyte	http://purl.obolibrary.org/obo/PATO_0000586	increased size
+http://purl.obolibrary.org/obo/WBPhenotype_0000901	gland cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0003670	gland cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001899	glutathione levels variant	http://purl.obolibrary.org/obo/CHEBI_16856	glutathione	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001892	glycogen levels variant	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001695	glycosyltransferase activity variant	http://purl.obolibrary.org/obo/GO_0016757	glycosyltransferase activity	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002096	golgi apparatus morphology variant	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000691	gonad development variant	http://purl.obolibrary.org/obo/GO_0008406	gonad development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001355	gonad morphology variant	http://purl.obolibrary.org/obo/WBbt_0005175	gonad	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001957	gonad small	http://purl.obolibrary.org/obo/WBbt_0005175	gonad	http://purl.obolibrary.org/obo/PATO_0000587	decreased size
+http://purl.obolibrary.org/obo/WBPhenotype_0000030	growth variant	http://purl.obolibrary.org/obo/GO_0040007	growth	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001489	gubernaculum morphology variant	http://purl.obolibrary.org/obo/WBbt_0008424	gubernaculum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002240	gut granule morphology variant	http://purl.obolibrary.org/obo/GO_0044840	gut granule	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001630	gut obstructed	http://purl.obolibrary.org/obo/WBbt_0005772	intestine	http://purl.obolibrary.org/obo/PATO_0001819	atretic
+http://purl.obolibrary.org/obo/WBPhenotype_0000626	habituation variant	http://purl.obolibrary.org/obo/GO_0046959	habituation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000048	hatching variant	http://purl.obolibrary.org/obo/GO_0035188	hatching	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001294	head bent	http://purl.obolibrary.org/obo/WBbt_0005739	head	http://purl.obolibrary.org/obo/PATO_0000617	bent
+http://purl.obolibrary.org/obo/WBPhenotype_0002625	head degeneration	http://purl.obolibrary.org/obo/WBbt_0005739	head	http://purl.obolibrary.org/obo/PATO_0000639	degenerate
+http://purl.obolibrary.org/obo/WBPhenotype_0000071	head morphology variant	http://purl.obolibrary.org/obo/WBbt_0005739	head	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001516	helical cuticle	http://purl.obolibrary.org/obo/WBbt_0005755	cuticle	http://purl.obolibrary.org/obo/PATO_0000404	coiled
+http://purl.obolibrary.org/obo/WBPhenotype_0002481	heme levels decreased	http://purl.obolibrary.org/obo/CHEBI_30413	heme	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0002482	heme levels increased	http://purl.obolibrary.org/obo/CHEBI_30413	heme	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0002480	heme levels variant	http://purl.obolibrary.org/obo/CHEBI_30413	heme	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000806	hermaphrodite fertility variant	http://purl.obolibrary.org/obo/WBbt_0007849	hermaphrodite	http://purl.obolibrary.org/obo/PATO_0000274	fertility
+http://purl.obolibrary.org/obo/WBPhenotype_0001025	hermaphrodite morphology variant	http://purl.obolibrary.org/obo/WBbt_0007849	hermaphrodite	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000973	homologous recombination increased	http://purl.obolibrary.org/obo/GO_0035825	homologous recombination	http://purl.obolibrary.org/obo/PATO_0002051	increased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0001305	hook morphology variant	http://purl.obolibrary.org/obo/WBbt_0008425	hook	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002463	hookless	http://purl.obolibrary.org/obo/WBbt_0008425	hook	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0002350	hydrogen peroxide levels increased	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0002351	hydrogen peroxide levels reduced	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001878	hydroxyurea response variant	http://purl.obolibrary.org/obo/GO_0072710	response to hydroxyurea	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000642	hyperactive	http://purl.obolibrary.org/obo/GO_0040011	locomotion	http://purl.obolibrary.org/obo/PATO_0000912	increased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000005	hyperactive egg laying	http://purl.obolibrary.org/obo/GO_0018991	oviposition	http://purl.obolibrary.org/obo/PATO_0000912	increased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0002423	hypoxia response variant	http://purl.obolibrary.org/obo/GO_0001666	response to hypoxia	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002238	increased levels of reactive oxygen species	http://purl.obolibrary.org/obo/CHEBI_26523	reactive oxygen species	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001268	induced cell death variant	http://purl.obolibrary.org/obo/GO_0043068	positive regulation of programmed cell death	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000106	inhibition of oocyte maturation variant	http://purl.obolibrary.org/obo/GO_1904145	negative regulation of meiotic cell cycle process involved in oocyte maturation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000107	inhibition of ovulation variant	http://purl.obolibrary.org/obo/GO_0060280	negative regulation of ovulation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001799	inhibition of synaptogenesis hyperactive	http://purl.obolibrary.org/obo/GO_0051964	negative regulation of synapse assembly	http://purl.obolibrary.org/obo/PATO_0002051	increased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0002164	innate immune response variant	http://purl.obolibrary.org/obo/GO_0045087	innate immune response	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001532	inner labial morphology variant	http://purl.obolibrary.org/obo/WBbt_0005116	inner labial sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001658	intercellular junction variant	http://purl.obolibrary.org/obo/GO_0005911	cell-cell junction	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000902	intestinal cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005792	intestinal cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002428	intestinal degeneration	http://purl.obolibrary.org/obo/WBbt_0005772	intestine	http://purl.obolibrary.org/obo/PATO_0000639	degenerate
+http://purl.obolibrary.org/obo/WBPhenotype_0000708	intestinal development variant	http://purl.obolibrary.org/obo/GO_0048565	digestive tract development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000710	intestinal morphology variant	http://purl.obolibrary.org/obo/WBbt_0005772	intestine	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001244	intraflagellar transport absent	http://purl.obolibrary.org/obo/GO_0042073	intraciliary transport	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001231	intraflagellar transport accelerated	http://purl.obolibrary.org/obo/GO_0042073	intraciliary transport	http://purl.obolibrary.org/obo/PATO_0000912	increased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0001242	intraflagellar transport slow	http://purl.obolibrary.org/obo/GO_0042073	intraciliary transport	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000853	intraflagellar transport variant	http://purl.obolibrary.org/obo/GO_0042073	intraciliary transport	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002637	iron levels decreased	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000491	isthmus morphology defective	http://purl.obolibrary.org/obo/WBbt_0003734	isthmus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001531	labial sensillum morphology variant	http://purl.obolibrary.org/obo/WBbt_0005107	labial sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000319	large	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0000586	increased size
+http://purl.obolibrary.org/obo/WBPhenotype_0001032	larval behavior variant	http://purl.obolibrary.org/obo/GO_0030537	larval behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000442	larval development retarded	http://purl.obolibrary.org/obo/GO_0002164	larval development	http://purl.obolibrary.org/obo/PATO_0000502	delayed
+http://purl.obolibrary.org/obo/WBPhenotype_0000750	larval development variant	http://purl.obolibrary.org/obo/GO_0002164	larval development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002091	late endosome morphology variant	http://purl.obolibrary.org/obo/GO_0005770	late endosome	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002227	lead response variant	http://purl.obolibrary.org/obo/GO_0010288	response to lead ion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002031	lectin response variant	http://purl.obolibrary.org/obo/GO_1990840	response to lectin	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000039	life span phenotype	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0000050	life span
+http://purl.obolibrary.org/obo/WBPhenotype_0001897	light response variant	http://purl.obolibrary.org/obo/GO_0009416	response to light stimulus	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001929	linker cell absent	http://purl.obolibrary.org/obo/WBbt_0005062	linker cell	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0002139	linker cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005062	linker cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000725	lipid metabolism variant	http://purl.obolibrary.org/obo/GO_0006629	lipid metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001742	lipid synthesis increased	http://purl.obolibrary.org/obo/GO_0008610	lipid biosynthetic process	http://purl.obolibrary.org/obo/PATO_0002051	increased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0000022	long	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0000573	increased length
+http://purl.obolibrary.org/obo/WBPhenotype_0002097	lysosome morphology variant	http://purl.obolibrary.org/obo/GO_0005764	lysosome	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001430	lysosome organization biogenesis variant	http://purl.obolibrary.org/obo/GO_0007040	lysosome organization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001568	mRNA export variant	http://purl.obolibrary.org/obo/GO_0006406	mRNA export from nucleus	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000136	mRNA levels increased	http://purl.obolibrary.org/obo/CHEBI_33699	messenger RNA	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000137	mRNA levels reduced	http://purl.obolibrary.org/obo/CHEBI_33699	messenger RNA	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001834	mRNA splicing variant	http://purl.obolibrary.org/obo/GO_0000398	mRNA splicing, via spliceosome	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001537	mRNA surveillance variant	http://purl.obolibrary.org/obo/GO_0071028	nuclear mRNA surveillance	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001357	male gonad morphology variant	http://purl.obolibrary.org/obo/WBbt_0006794	male gonad	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000927	male longitudinal muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0006909	longitudinal male muscle	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000648	male mating variant	http://purl.obolibrary.org/obo/GO_0060179	male mating behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001024	male morphology variant	http://purl.obolibrary.org/obo/WBbt_0007850	male	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000963	male pigmentation variant	http://purl.obolibrary.org/obo/WBbt_0007850	male	http://purl.obolibrary.org/obo/PATO_0002247	degree of pigmentation
+http://purl.obolibrary.org/obo/WBPhenotype_0000505	male ray morphology variant	http://purl.obolibrary.org/obo/WBbt_0006941	ray	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0004030	male response to hermaphrodite variant	http://purl.obolibrary.org/obo/GO_0034606	response to hermaphrodite contact	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001863	manganese response variant	http://purl.obolibrary.org/obo/GO_0010042	response to manganese ion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000903	marginal cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0003673	marginal cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000775	meiosis variant	http://purl.obolibrary.org/obo/GO_0051321	meiotic cell cycle	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001499	meiotic chromosome segregation variant	http://purl.obolibrary.org/obo/GO_0045132	meiotic chromosome segregation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001868	meiotic spindle defective	http://purl.obolibrary.org/obo/GO_0072687	meiotic spindle	http://purl.obolibrary.org/obo/PATO_0001624	decreased functionality
+http://purl.obolibrary.org/obo/WBPhenotype_0002270	metabolite content decreased	http://purl.obolibrary.org/obo/CHEBI_25212	metabolite	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0002357	metabolite content increased	http://purl.obolibrary.org/obo/CHEBI_25212	metabolite	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000493	metacorpus morphology defective	http://purl.obolibrary.org/obo/WBbt_0003711	metacorpus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001590	microtubule depolymerization variant	http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001589	microtubule nucleation variant	http://purl.obolibrary.org/obo/GO_0007020	microtubule nucleation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001588	microtubule organization biogenesis variant	http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001591	microtubule polymerization variant	http://purl.obolibrary.org/obo/GO_0046785	microtubule polymerization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001401	mitochondria morphology variant	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001576	mitochondria spacing variant	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/PATO_0000140	position
+http://purl.obolibrary.org/obo/WBPhenotype_0002572	mitophagy abnormal	http://purl.obolibrary.org/obo/GO_0000423	mitophagy	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002573	mitophagy reduced	http://purl.obolibrary.org/obo/GO_0000423	mitophagy	http://purl.obolibrary.org/obo/PATO_0002052	decreased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0001743	mitosis variant	http://purl.obolibrary.org/obo/GO_1903047	mitotic cell cycle process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001378	mitotic chromosome segregation variant	http://purl.obolibrary.org/obo/GO_0000070	mitotic sister chromatid segregation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001331	motor neuron morphology variant	http://purl.obolibrary.org/obo/WBbt_0005409	motor neuron	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000700	multivulva	http://purl.obolibrary.org/obo/WBbt_0006748	vulva	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000474	muscle attachment variant	http://purl.obolibrary.org/obo/GO_0016203	muscle attachment	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000815	muscle cell development variant	http://purl.obolibrary.org/obo/GO_0055001	muscle cell development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000904	muscle cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0003675	muscle cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000715	muscle excess	http://purl.obolibrary.org/obo/WBbt_0003675	muscle cell	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001597	muscle missing	http://purl.obolibrary.org/obo/WBbt_0003675	muscle cell	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000603	muscle system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005737	muscular system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002606	necrotic cell death decreased	http://purl.obolibrary.org/obo/GO_0070265	necrotic cell death	http://purl.obolibrary.org/obo/PATO_0002052	decreased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0001397	necrotic cell death increased	http://purl.obolibrary.org/obo/GO_0070265	necrotic cell death	http://purl.obolibrary.org/obo/PATO_0002051	increased occurrence
+http://purl.obolibrary.org/obo/WBPhenotype_0000415	necrotic cell death variant	http://purl.obolibrary.org/obo/GO_0070265	necrotic cell death	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000481	negative chemotaxis variant	http://purl.obolibrary.org/obo/GO_0050919	negative chemotaxis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000623	nervous system development variant	http://purl.obolibrary.org/obo/GO_0007399	nervous system development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000604	nervous system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005735	nervous system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000944	neurite development variant	http://purl.obolibrary.org/obo/GO_0031175	neuron projection development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001398	neurite morphology variant	http://purl.obolibrary.org/obo/GO_0043005	neuron projection	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000658	neuromuscular synaptic transmission variant	http://purl.obolibrary.org/obo/GO_0007274	neuromuscular synaptic transmission	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000179	neuron degeneration	http://purl.obolibrary.org/obo/WBbt_0003679	neuron	http://purl.obolibrary.org/obo/PATO_0000639	degenerate
+http://purl.obolibrary.org/obo/WBPhenotype_0000816	neuron development variant	http://purl.obolibrary.org/obo/GO_0048666	neuron development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001042	neuron function reduced	http://purl.obolibrary.org/obo/WBbt_0003679	neuron	http://purl.obolibrary.org/obo/PATO_0001624	decreased functionality
+http://purl.obolibrary.org/obo/WBPhenotype_0001140	neuron migration variant	http://purl.obolibrary.org/obo/GO_0001764	neuron migration	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000905	neuron morphology variant	http://purl.obolibrary.org/obo/WBbt_0003679	neuron	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001312	neuron number variant	http://purl.obolibrary.org/obo/WBbt_0003679	neuron	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001310	neuron positioning variant	http://purl.obolibrary.org/obo/WBbt_0003679	neuron	http://purl.obolibrary.org/obo/PATO_0000140	position
+http://purl.obolibrary.org/obo/WBPhenotype_0000972	neuronal sheath cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005811	neuronal sheath cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000221	neurotransmitter metabolism variant	http://purl.obolibrary.org/obo/GO_0042133	neurotransmitter metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001637	no Intestine	http://purl.obolibrary.org/obo/WBbt_0005772	intestine	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0002136	no anchor cell	http://purl.obolibrary.org/obo/WBbt_0004522	anchor cell	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000080	no anterior pharynx	http://purl.obolibrary.org/obo/WBbt_0003733	corpus	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001492	no back end	http://purl.obolibrary.org/obo/WBbt_0005741	tail	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000427	no cuticle	http://purl.obolibrary.org/obo/WBbt_0005755	cuticle	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000190	no dauer recovery	http://purl.obolibrary.org/obo/GO_0043054	dauer exit	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000410	no defecation cycle	http://purl.obolibrary.org/obo/GO_0035882	defecation rhythm	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000395	no differentiated gametes	http://purl.obolibrary.org/obo/CL_0000300	gamete	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000215	no germ line	http://purl.obolibrary.org/obo/WBbt_0005784	germ line	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000291	no oocytes	http://purl.obolibrary.org/obo/WBbt_0006797	oocyte	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001646	no pharynx	http://purl.obolibrary.org/obo/WBbt_0003681	pharynx	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000372	no polar body formation	http://purl.obolibrary.org/obo/WBbt_0008429	polar body	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001098	no rectum	http://purl.obolibrary.org/obo/WBbt_0005773	rectum	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000401	no uterus	http://purl.obolibrary.org/obo/WBbt_0006760	uterus	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000923	nonstriated muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005780	non-striated muscle	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000321	nose morphology variant	http://purl.obolibrary.org/obo/WBbt_0008426	nose	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001028	nuclear appearance variant	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000504	nuclear division variant	http://purl.obolibrary.org/obo/GO_0000280	nuclear division	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001580	nuclear envelope breakdown variant	http://purl.obolibrary.org/obo/GO_0051081	nuclear membrane disassembly	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001877	nuclear membrane morphology variant	http://purl.obolibrary.org/obo/GO_0031965	nuclear membrane	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000511	nuclear positioning variant	http://purl.obolibrary.org/obo/GO_0007097	nuclear migration	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000161	nuclear rotation variant	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/PATO_0001599	rotated
+http://purl.obolibrary.org/obo/WBPhenotype_0001567	nuclei enlarged	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/PATO_0000586	increased size
+http://purl.obolibrary.org/obo/WBPhenotype_0001792	nuclei small	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/PATO_0000587	decreased size
+http://purl.obolibrary.org/obo/WBPhenotype_0000722	nucleolus variant	http://purl.obolibrary.org/obo/GO_0005730	nucleolus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000250	octopamine metabolism variant	http://purl.obolibrary.org/obo/GO_0046333	octopamine metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001048	odorant chemosensory response variant	http://purl.obolibrary.org/obo/GO_0042048	olfactory behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000105	oocyte meiotic maturation variant	http://purl.obolibrary.org/obo/GO_1903537	meiotic cell cycle process involved in oocyte maturation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001260	oocyte morphology variant	http://purl.obolibrary.org/obo/WBbt_0006797	oocyte	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001945	oocytes small	http://purl.obolibrary.org/obo/WBbt_0006797	oocyte	http://purl.obolibrary.org/obo/PATO_0000587	decreased size
+http://purl.obolibrary.org/obo/WBPhenotype_0000186	oogenesis variant	http://purl.obolibrary.org/obo/GO_0048599	oocyte development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002553	organ phenotype	http://purl.obolibrary.org/obo/WBbt_0003760	organ	http://purl.obolibrary.org/obo/PATO_0000001	quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001740	organ senescence variant	http://purl.obolibrary.org/obo/GO_0010260	obsolete animal organ senescence	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000534	organ system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005746	Organ system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002554	organ system phenotype	http://purl.obolibrary.org/obo/WBbt_0005746	Organ system	http://purl.obolibrary.org/obo/PATO_0000001	quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000292	organ system pigmentation phenotype	http://purl.obolibrary.org/obo/WBbt_0005746	Organ system	http://purl.obolibrary.org/obo/PATO_0002247	degree of pigmentation
+http://purl.obolibrary.org/obo/WBPhenotype_0000143	organism UV response variant	http://purl.obolibrary.org/obo/GO_0009411	response to UV	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000276	organism X ray response variant	http://purl.obolibrary.org/obo/GO_0010165	response to X-ray	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000191	organism crowding response variant	http://purl.obolibrary.org/obo/GO_0090664	response to high population density	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001417	organism desiccation response variant	http://purl.obolibrary.org/obo/GO_0009269	response to desiccation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000738	organism environmental stimulus response variant	http://purl.obolibrary.org/obo/GO_0009605	response to external stimulus	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000497	organism gamma ray response variant	http://purl.obolibrary.org/obo/GO_0010332	response to gamma radiation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001273	organism heat response variant	http://purl.obolibrary.org/obo/GO_0009408	response to heat	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000686	organism ionizing radiation response variant	http://purl.obolibrary.org/obo/GO_0010212	response to ionizing radiation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000876	organism osmotic stress response variant	http://purl.obolibrary.org/obo/GO_0006970	response to osmotic stress	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001620	organism oxidative stress response variant	http://purl.obolibrary.org/obo/GO_0006979	response to oxidative stress	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001012	organism pathogen response variant	http://purl.obolibrary.org/obo/GO_0098542	defense response to other organism	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002592	organism response to gravitational force abnormal	http://purl.obolibrary.org/obo/GO_0009629	response to gravity	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001732	organism response to pH variant	http://purl.obolibrary.org/obo/GO_0009268	response to pH	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000147	organism starvation response variant	http://purl.obolibrary.org/obo/GO_0042594	response to starvation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000067	organism stress response variant	http://purl.obolibrary.org/obo/GO_0006950	response to stress	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000146	organism temperature response variant	http://purl.obolibrary.org/obo/GO_0009266	response to temperature stimulus	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001379	organism toxic chemical response variant	http://purl.obolibrary.org/obo/GO_0009636	response to toxic substance	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002555	organismal phenotype	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0000001	quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000041	osmotic integrity variant	http://purl.obolibrary.org/obo/GO_0030104	water homeostasis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001533	outer labial morphology variant	http://purl.obolibrary.org/obo/WBbt_0005501	outer labial sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000666	ovulation variant	http://purl.obolibrary.org/obo/GO_0030728	ovulation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000460	paraquat response variant	http://purl.obolibrary.org/obo/GO_1901562	response to paraquat	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001263	peroxisome morphology variant	http://purl.obolibrary.org/obo/GO_0005777	peroxisome	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000707	pharyngeal development variant	http://purl.obolibrary.org/obo/GO_0060465	pharynx development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000909	pharyngeal intestinal valve morphology variant	http://purl.obolibrary.org/obo/WBbt_0005767	pharyngeal-intestinal valve	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000709	pharyngeal morphology variant	http://purl.obolibrary.org/obo/WBbt_0003681	pharynx	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001046	pharyngeal muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005451	pharyngeal muscle cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000018	pharyngeal pumping increased	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping	http://purl.obolibrary.org/obo/PATO_0000912	increased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0001006	pharyngeal pumping rate variant	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping	http://purl.obolibrary.org/obo/PATO_0000161	rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000019	pharyngeal pumping reduced	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000634	pharyngeal pumping variant	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000257	phasmid neuron morphology variant	http://purl.obolibrary.org/obo/WBbt_0005425	phasmid sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001225	phasmid socket absent	http://purl.obolibrary.org/obo/WBbt_0008410	phasmid socket cell	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0002349	phosphatidylinositol 3-phosphate levels reduced	http://purl.obolibrary.org/obo/CHEBI_26034	phosphatidylinositol 3-phosphate	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000519	physiology phenotype	http://purl.obolibrary.org/obo/GO_0008150	biological_process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000521	pigmentation phenotype	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0002247	degree of pigmentation
+http://purl.obolibrary.org/obo/WBPhenotype_0002058	pore forming toxin response variant	http://purl.obolibrary.org/obo/GO_0035915	pore formation in membrane of another organism	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000635	positive chemotaxis variant	http://purl.obolibrary.org/obo/GO_0050918	positive chemotaxis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000049	postembryonic development variant	http://purl.obolibrary.org/obo/GO_0009791	post-embryonic development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000102	presynaptic vesicle cluster variant	http://purl.obolibrary.org/obo/GO_0097091	synaptic vesicle clustering	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001669	presynaptic vesicle number variant	http://purl.obolibrary.org/obo/GO_0008021	synaptic vesicle	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001359	proctodeum morphology variant	http://purl.obolibrary.org/obo/WBbt_0006795	proctodeum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001172	programmed cell death variant	http://purl.obolibrary.org/obo/GO_0012501	programmed cell death	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001031	pronuclear migration reduced early emb	http://purl.obolibrary.org/obo/GO_0035046	pronuclear migration	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001372	protein DNA interaction variant	http://purl.obolibrary.org/obo/GO_0065004	protein-DNA complex assembly	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001373	protein RNA interaction abolished	http://purl.obolibrary.org/obo/GO_0022618	ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001371	protein RNA interaction variant	http://purl.obolibrary.org/obo/GO_0022618	ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001645	protein degradation variant	http://purl.obolibrary.org/obo/GO_0030163	protein catabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001369	protein interaction variant	http://purl.obolibrary.org/obo/GO_0065003	protein-containing complex assembly	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001644	protein metabolism variant	http://purl.obolibrary.org/obo/GO_0019538	protein metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001383	protein methylation variant	http://purl.obolibrary.org/obo/GO_0006479	protein methylation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001382	protein modification variant	http://purl.obolibrary.org/obo/GO_0036211	protein modification process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001349	protein phosphorylation variant	http://purl.obolibrary.org/obo/GO_0006468	protein phosphorylation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000724	protein secretion variant	http://purl.obolibrary.org/obo/GO_0009306	protein secretion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001806	protein stabilization variant	http://purl.obolibrary.org/obo/GO_0050821	protein stabilization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000436	protein subcellular localization variant	http://purl.obolibrary.org/obo/GO_0034613	cellular protein localization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001168	pseudocleavage absent early emb	http://purl.obolibrary.org/obo/GO_0030590	first cell cycle pseudocleavage	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000949	pseudocoelom morphology variant	http://purl.obolibrary.org/obo/WBbt_0005745	pseudocoelom	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001396	pumping absent	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000495	ray ectopic	http://purl.obolibrary.org/obo/WBbt_0006941	ray	http://purl.obolibrary.org/obo/PATO_0000628	mislocalised
+http://purl.obolibrary.org/obo/WBPhenotype_0001509	rays missing	http://purl.obolibrary.org/obo/WBbt_0006941	ray	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000910	rectal morphology variant	http://purl.obolibrary.org/obo/WBbt_0005773	rectum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002093	recycling endosome morphology variant	http://purl.obolibrary.org/obo/GO_0055037	recycling endosome	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002239	reduced levels of reactive oxygen species	http://purl.obolibrary.org/obo/CHEBI_26523	reactive oxygen species	http://purl.obolibrary.org/obo/PATO_0001997	decreased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000605	reproductive system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005747	reproductive system	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001072	response to food variant	http://purl.obolibrary.org/obo/GO_0032094	response to food	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001840	response to injury variant	http://purl.obolibrary.org/obo/GO_0009611	response to wounding	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000277	rhythm slow	http://purl.obolibrary.org/obo/GO_0048511	rhythmic process	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0001711	rhythmic behavior variant	http://purl.obolibrary.org/obo/GO_0007622	rhythmic behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002176	seam cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005753	seam cell	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002256	selenium response variant	http://purl.obolibrary.org/obo/GO_0010269	response to selenium ion	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000299	sensillum morphology variant	http://purl.obolibrary.org/obo/WBbt_0006929	sensillum	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000222	serotonin metabolism variant	http://purl.obolibrary.org/obo/GO_0042428	serotonin metabolic process	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000822	sex determination variant	http://purl.obolibrary.org/obo/GO_0007530	sex determination	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000324	short	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0000574	decreased length
+http://purl.obolibrary.org/obo/WBPhenotype_0000209	short defecation cycle	http://purl.obolibrary.org/obo/GO_0030421	defecation	http://purl.obolibrary.org/obo/PATO_0000912	increased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000674	slow development	http://purl.obolibrary.org/obo/GO_0032502	developmental process	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000042	slow embryonic development	http://purl.obolibrary.org/obo/GO_0009790	embryo development	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000031	slow growth	http://purl.obolibrary.org/obo/GO_0040007	growth	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000646	sluggish	http://purl.obolibrary.org/obo/GO_0040011	locomotion	http://purl.obolibrary.org/obo/PATO_0000911	decreased rate
+http://purl.obolibrary.org/obo/WBPhenotype_0000229	small	http://purl.obolibrary.org/obo/WBbt_0007833	organism	http://purl.obolibrary.org/obo/PATO_0000587	decreased size
+http://purl.obolibrary.org/obo/WBPhenotype_0001291	social behavior variant	http://purl.obolibrary.org/obo/GO_0035176	social behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000977	somatic gonad morphology variant	http://purl.obolibrary.org/obo/WBbt_0005785	somatic gonad	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000290	sperm absent	http://purl.obolibrary.org/obo/WBbt_0006798	sperm	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0000385	sperm excess	http://purl.obolibrary.org/obo/WBbt_0006798	sperm	http://purl.obolibrary.org/obo/PATO_0000470	increased amount
+http://purl.obolibrary.org/obo/WBPhenotype_0000388	sperm morphology variant	http://purl.obolibrary.org/obo/WBbt_0006798	sperm	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001368	spermatheca absent	http://purl.obolibrary.org/obo/WBbt_0005319	spermatheca	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001659	spermatheca morphology variant	http://purl.obolibrary.org/obo/WBbt_0005319	spermatheca	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000356	spermatogenesis delayed	http://purl.obolibrary.org/obo/GO_0007283	spermatogenesis	http://purl.obolibrary.org/obo/PATO_0000502	delayed
+http://purl.obolibrary.org/obo/WBPhenotype_0000670	spermatogenesis variant	http://purl.obolibrary.org/obo/GO_0007283	spermatogenesis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000443	spicule morphology variant	http://purl.obolibrary.org/obo/WBbt_0005312	copulatory spicule	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002418	spindle absent	http://purl.obolibrary.org/obo/GO_0005819	spindle	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0001681	spindle orientation variant	http://purl.obolibrary.org/obo/GO_0005819	spindle	http://purl.obolibrary.org/obo/PATO_0000133	orientation
+http://purl.obolibrary.org/obo/WBPhenotype_0002416	spindle position variant	http://purl.obolibrary.org/obo/GO_0051293	establishment of spindle localization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002417	spindle rotation variant	http://purl.obolibrary.org/obo/GO_0051294	establishment of spindle orientation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002414	spindle variant	http://purl.obolibrary.org/obo/GO_0007051	spindle organization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000924	striated muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005779	striated muscle	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001515	struts variant	http://purl.obolibrary.org/obo/GO_0060109	medial layer of collagen and cuticulin-based cuticle extracellular matrix	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000616	synapse morphology variant	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000584	synaptic transmission variant	http://purl.obolibrary.org/obo/GO_0007268	chemical synaptic transmission	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001514	synaptic vesicle endocytosis variant	http://purl.obolibrary.org/obo/GO_0048488	synaptic vesicle endocytosis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000654	synaptic vesicle exocytosis variant	http://purl.obolibrary.org/obo/GO_0016079	synaptic vesicle exocytosis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000625	synaptogenesis variant	http://purl.obolibrary.org/obo/GO_0007416	synapse assembly	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000073	tail morphology variant	http://purl.obolibrary.org/obo/WBbt_0005741	tail	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000441	tail rounded	http://purl.obolibrary.org/obo/WBbt_0005741	tail	http://purl.obolibrary.org/obo/PATO_0000411	circular
+http://purl.obolibrary.org/obo/WBPhenotype_0000968	tail spike variant	http://purl.obolibrary.org/obo/WBbt_0006979	tail spike	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000879	telomere length regulation variant	http://purl.obolibrary.org/obo/GO_1904356	regulation of telomere maintenance via telomere lengthening	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001674	telomere morphology variant	http://purl.obolibrary.org/obo/GO_0000781	chromosome, telomeric region	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001525	terminal bulb morphology variant	http://purl.obolibrary.org/obo/WBbt_0003732	terminal bulb	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002512	thermosensory behavior variant	http://purl.obolibrary.org/obo/GO_0040040	thermosensory behavior	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0002513	thermotaxis variant	http://purl.obolibrary.org/obo/GO_0043052	thermotaxis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001746	tight junction defective	http://purl.obolibrary.org/obo/GO_0070160	tight junction	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0002556	tissue phenotype	http://purl.obolibrary.org/obo/WBbt_0005729	Tissue	http://purl.obolibrary.org/obo/PATO_0000001	quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001676	touch receptor cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005237	touch receptor neuron	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0000121	translation variant	http://purl.obolibrary.org/obo/GO_0006412	translation	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000359	tunicamycin response variant	http://purl.obolibrary.org/obo/GO_1904576	response to tunicamycin	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001719	unfolded protein response variant	http://purl.obolibrary.org/obo/GO_0006986	response to unfolded protein	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000289	uterus morphology variant	http://purl.obolibrary.org/obo/WBbt_0006760	uterus	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0004025	velocity of movement variant	http://purl.obolibrary.org/obo/GO_0040011	locomotion	http://purl.obolibrary.org/obo/PATO_0000008	speed
+http://purl.obolibrary.org/obo/WBPhenotype_0000976	ventral cord patterning variant	http://purl.obolibrary.org/obo/WBbt_0005829	ventral nerve cord	http://purl.obolibrary.org/obo/PATO_0000060	spatial pattern
+http://purl.obolibrary.org/obo/WBPhenotype_0001323	vesicle morphology variant	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001332	vesicle number variant	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/PATO_0000070	amount
+http://purl.obolibrary.org/obo/WBPhenotype_0001671	vesicle organization variant	http://purl.obolibrary.org/obo/GO_0016050	vesicle organization	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0001752	vesicle trafficking variant	http://purl.obolibrary.org/obo/GO_0016192	vesicle-mediated transport	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000699	vulva development variant	http://purl.obolibrary.org/obo/GO_0040025	vulval development	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000649	vulva location variant	http://purl.obolibrary.org/obo/GO_0034608	vulval location	http://purl.obolibrary.org/obo/PATO_0001236	process quality
+http://purl.obolibrary.org/obo/WBPhenotype_0000695	vulva morphology variant	http://purl.obolibrary.org/obo/WBbt_0006748	vulva	http://purl.obolibrary.org/obo/PATO_0000051	morphology
+http://purl.obolibrary.org/obo/WBPhenotype_0001262	vulval development incomplete	http://purl.obolibrary.org/obo/GO_0040025	vulval development	http://purl.obolibrary.org/obo/PATO_0000297	arrested
+http://purl.obolibrary.org/obo/WBPhenotype_0000698	vulvaless	http://purl.obolibrary.org/obo/WBbt_0006748	vulva	http://purl.obolibrary.org/obo/PATO_0000462	absent
+http://purl.obolibrary.org/obo/WBPhenotype_0004024	wavelength of movement variant	http://purl.obolibrary.org/obo/GO_0040011	locomotion	http://purl.obolibrary.org/obo/PATO_0001242	wavelength
+http://purl.obolibrary.org/obo/WBPhenotype_0000416	yolk synthesis variant	http://purl.obolibrary.org/obo/GO_0007296	vitellogenesis	http://purl.obolibrary.org/obo/PATO_0001236	process quality
