@@ -56,6 +56,9 @@ upheno_mapping_lexical_all: ../curation/upheno-release/all/upheno_species_lexica
 	python3 ../scripts/lexical_mapping.py all
 	#echo "SKIP upheno_mapping_lexical_"
 
+upheno_mapping_lexical_oak_all: ../curation/upheno-release/all/upheno_all_with_relations.owl
+	echo "Running OAK on uPheno2"
+
 #.SECONDEXPANSION:
 ../curation/upheno-release/all/upheno_mapping_logical.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
