@@ -7,7 +7,7 @@ import yaml
 
 class uPhenoConfig:
     def __init__(self, config_file):
-        self.config = yaml.load(open(config_file, "r"))
+        self.config = yaml.safe_load(open(config_file, "r"))
 
     def get_download_location(self, id):
         return [t["mirror_from"] for t in self.config.get("sources") if t["id"] == id][0]
