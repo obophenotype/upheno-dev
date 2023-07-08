@@ -33,6 +33,7 @@ http://purl.obolibrary.org/obo/MP_0011454	abnormal glomerular endothelium fenest
 http://purl.obolibrary.org/obo/MP_0020358	abnormal inhibitory synapse morphology	http://purl.obolibrary.org/obo/GO_0060077	inhibitory synapse
 http://purl.obolibrary.org/obo/MP_0006267	abnormal intercalated disk morphology	http://purl.obolibrary.org/obo/GO_0014704	intercalated disc
 http://purl.obolibrary.org/obo/MP_0010738	abnormal internode morphology	http://purl.obolibrary.org/obo/GO_0033269	internode region of axon
+http://purl.obolibrary.org/obo/MP_0014239	abnormal intracellular organelle morphology	http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle
 http://purl.obolibrary.org/obo/MP_0010737	abnormal juxtaparanode morphology	http://purl.obolibrary.org/obo/GO_0044224	juxtaparanode region of axon
 http://purl.obolibrary.org/obo/MP_0011060	abnormal kinocilium morphology	http://purl.obolibrary.org/obo/GO_0060091	kinocilium
 http://purl.obolibrary.org/obo/MP_0005058	abnormal lysosome morphology	http://purl.obolibrary.org/obo/GO_0005764	lysosome
@@ -65,6 +66,7 @@ http://purl.obolibrary.org/obo/MP_0004721	abnormal platelet dense granule morpho
 http://purl.obolibrary.org/obo/MP_0008059	abnormal podocyte foot process morphology	http://purl.obolibrary.org/obo/GO_0098846	podocyte foot
 http://purl.obolibrary.org/obo/MP_0020551	abnormal postsynaptic density morphology	http://purl.obolibrary.org/obo/GO_0014069	postsynaptic density
 http://purl.obolibrary.org/obo/MP_0020359	abnormal ribbon synapse morphology	http://purl.obolibrary.org/obo/GO_0097470	ribbon synapse
+http://purl.obolibrary.org/obo/MP_0014238	abnormal ribosome morphology	http://purl.obolibrary.org/obo/GO_0005840	ribosome
 http://purl.obolibrary.org/obo/MP_0004121	abnormal sarcolemma morphology	http://purl.obolibrary.org/obo/GO_0042383	sarcolemma
 http://purl.obolibrary.org/obo/MP_0004090	abnormal sarcomere morphology	http://purl.obolibrary.org/obo/GO_0030017	sarcomere
 http://purl.obolibrary.org/obo/MP_0004088	abnormal sarcoplasmic reticulum morphology	http://purl.obolibrary.org/obo/GO_0016529	sarcoplasmic reticulum

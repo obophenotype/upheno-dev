@@ -11,6 +11,7 @@ http://purl.obolibrary.org/obo/MP_0020007	decreased brain sulfoglycosphingolipid
 http://purl.obolibrary.org/obo/MP_0009617	decreased brain zinc level	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0011218	decreased brainstem copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0002298	brainstem
 http://purl.obolibrary.org/obo/MP_0014072	decreased cardiac muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0001133	cardiac muscle tissue
+http://purl.obolibrary.org/obo/MP_0014246	decreased cellular ATP level	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/CL_0000000	cell
 http://purl.obolibrary.org/obo/MP_0000186	decreased circulating HDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47775	high-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0000183	decreased circulating LDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47774	low-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005146	decreased circulating VLDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47773	very-low-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood

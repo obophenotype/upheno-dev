@@ -31,6 +31,7 @@ http://purl.obolibrary.org/obo/ZP_0004796	adenohypophysis morphogenesis process 
 http://purl.obolibrary.org/obo/ZP_0002911	adherens junction organization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034332	adherens junction organization
 http://purl.obolibrary.org/obo/ZP_0013876	adrenal gland development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030325	adrenal gland development
 http://purl.obolibrary.org/obo/ZP_0014781	adult behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030534	adult behavior
+http://purl.obolibrary.org/obo/ZP_0143516	adult feeding behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008343	adult feeding behavior
 http://purl.obolibrary.org/obo/ZP_0021904	adult locomotory behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008344	adult locomotory behavior
 http://purl.obolibrary.org/obo/ZP_0018249	aerobic respiration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0009060	aerobic respiration
 http://purl.obolibrary.org/obo/ZP_0106976	aggressive behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002118	aggressive behavior
@@ -59,7 +60,6 @@ http://purl.obolibrary.org/obo/ZP_0012870	apoptotic process process quality, abn
 http://purl.obolibrary.org/obo/ZP_0022652	arterial endothelial cell fate commitment process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060844	arterial endothelial cell fate commitment
 http://purl.obolibrary.org/obo/ZP_0017493	artery development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060840	artery development
 http://purl.obolibrary.org/obo/ZP_0013053	artery morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048844	artery morphogenesis
-http://purl.obolibrary.org/obo/ZP_0013440	astral spindle assembly process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055049	astral spindle assembly
 http://purl.obolibrary.org/obo/ZP_0014655	atrial cardiac muscle cell action potential process quality, abnormal	http://purl.obolibrary.org/obo/GO_0086014	atrial cardiac muscle cell action potential
 http://purl.obolibrary.org/obo/ZP_0130874	atrial cardiac muscle cell development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055014	atrial cardiac muscle cell development
 http://purl.obolibrary.org/obo/ZP_0017361	atrial cardiac muscle cell differentiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055011	atrial cardiac muscle cell differentiation
@@ -110,6 +110,7 @@ http://purl.obolibrary.org/obo/ZP_0011756	bulbus arteriosus development process 
 http://purl.obolibrary.org/obo/ZP_0012048	bulbus arteriosus formation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003234	bulbus arteriosus formation
 http://purl.obolibrary.org/obo/ZP_0012955	calcium ion homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
 http://purl.obolibrary.org/obo/ZP_0007800	calcium ion import process quality, abnormal	http://purl.obolibrary.org/obo/GO_0070509	calcium ion import
+http://purl.obolibrary.org/obo/ZP_0145022	calcium-mediated signaling process quality, abnormal	http://purl.obolibrary.org/obo/GO_0019722	calcium-mediated signaling
 http://purl.obolibrary.org/obo/ZP_0014163	camera-type eye development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043010	camera-type eye development
 http://purl.obolibrary.org/obo/ZP_0002941	camera-type eye morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048593	camera-type eye morphogenesis
 http://purl.obolibrary.org/obo/ZP_0013507	camera-type eye photoreceptor cell differentiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060219	camera-type eye photoreceptor cell differentiation
@@ -164,14 +165,15 @@ http://purl.obolibrary.org/obo/ZP_0002435	cell population proliferation process 
 http://purl.obolibrary.org/obo/ZP_0017385	cell proliferation in hindbrain process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021534	cell proliferation in hindbrain
 http://purl.obolibrary.org/obo/ZP_0014362	cell proliferation involved in pronephros development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0039015	cell proliferation involved in pronephros development
 http://purl.obolibrary.org/obo/ZP_0013052	cell-cell junction organization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0045216	cell-cell junction organization
-http://purl.obolibrary.org/obo/ZP_0011402	cellular calcium ion homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006874	cellular calcium ion homeostasis
+http://purl.obolibrary.org/obo/ZP_0011402	cellular calcium ion homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006874	intracellular calcium ion homeostasis
+http://purl.obolibrary.org/obo/ZP_0022232	cellular glutamate homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090461	intracellular glutamate homeostasis
 http://purl.obolibrary.org/obo/ZP_0005647	cellular pigmentation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0033059	cellular pigmentation
-http://purl.obolibrary.org/obo/ZP_0014149	cellular response to DNA damage stimulus process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006974	cellular response to DNA damage stimulus
+http://purl.obolibrary.org/obo/ZP_0014149	cellular response to DNA damage stimulus process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006974	DNA damage response
 http://purl.obolibrary.org/obo/ZP_0013242	cellular response to absence of light process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071485	cellular response to absence of light
 http://purl.obolibrary.org/obo/ZP_0012956	cellular response to electrical stimulus process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071257	cellular response to electrical stimulus
 http://purl.obolibrary.org/obo/ZP_0015631	cellular response to ethanol process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071361	cellular response to ethanol
 http://purl.obolibrary.org/obo/ZP_0141616	cellular response to oxidative stress process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034599	cellular response to oxidative stress
-http://purl.obolibrary.org/obo/ZP_0015801	cellular sodium ion homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006883	cellular sodium ion homeostasis
+http://purl.obolibrary.org/obo/ZP_0015801	cellular sodium ion homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006883	intracellular sodium ion homeostasis
 http://purl.obolibrary.org/obo/ZP_0007904	central nervous system development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007417	central nervous system development
 http://purl.obolibrary.org/obo/ZP_0013500	central nervous system morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021551	central nervous system morphogenesis
 http://purl.obolibrary.org/obo/ZP_0013465	central nervous system myelin formation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032289	central nervous system myelin formation
@@ -372,13 +374,11 @@ http://purl.obolibrary.org/obo/ZP_0017152	germ cell development process quality,
 http://purl.obolibrary.org/obo/ZP_0001564	germ cell migration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008354	germ cell migration
 http://purl.obolibrary.org/obo/ZP_0013046	glial cell differentiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0010001	glial cell differentiation
 http://purl.obolibrary.org/obo/ZP_0011193	glomerular filtration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
-http://purl.obolibrary.org/obo/ZP_0017415	glomerular visceral epithelial cell migration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	podocyte cell migration
 http://purl.obolibrary.org/obo/ZP_0022263	glomerulus development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032835	glomerulus development
 http://purl.obolibrary.org/obo/ZP_0019507	glucose homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
 http://purl.obolibrary.org/obo/ZP_0017120	glucose import in response to insulin stimulus process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044381	glucose import in response to insulin stimulus
 http://purl.obolibrary.org/obo/ZP_0142073	glucose import process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
 http://purl.obolibrary.org/obo/ZP_0102379	glucose metabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
-http://purl.obolibrary.org/obo/ZP_0022232	glutamate homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090461	glutamate homeostasis
 http://purl.obolibrary.org/obo/ZP_0106034	glutathione metabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006749	glutathione metabolic process
 http://purl.obolibrary.org/obo/ZP_0016222	glycogen catabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
 http://purl.obolibrary.org/obo/ZP_0008138	glycosphingolipid biosynthetic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006688	glycosphingolipid biosynthetic process
@@ -489,8 +489,11 @@ http://purl.obolibrary.org/obo/ZP_0103436	macrophage differentiation process qua
 http://purl.obolibrary.org/obo/ZP_0106999	macrophage migration process quality, abnormal	http://purl.obolibrary.org/obo/GO_1905517	macrophage migration
 http://purl.obolibrary.org/obo/ZP_0012954	magnesium ion homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0010960	magnesium ion homeostasis
 http://purl.obolibrary.org/obo/ZP_0013554	male gonad development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008584	male gonad development
+http://purl.obolibrary.org/obo/ZP_0144464	male mating behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060179	male mating behavior
 http://purl.obolibrary.org/obo/ZP_0101724	male sex determination process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030238	male sex determination
+http://purl.obolibrary.org/obo/ZP_0144510	male sex differentiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046661	male sex differentiation
 http://purl.obolibrary.org/obo/ZP_0014573	mastication process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071626	mastication
+http://purl.obolibrary.org/obo/ZP_0142889	maternal-to-zygotic transition of gene expression process quality, abnormal	http://purl.obolibrary.org/obo/GO_0160021	maternal-to-zygotic transition of gene expression
 http://purl.obolibrary.org/obo/ZP_0103409	mating behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007617	mating behavior
 http://purl.obolibrary.org/obo/ZP_0141463	maturation of SSU-rRNA process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030490	maturation of SSU-rRNA
 http://purl.obolibrary.org/obo/ZP_0001263	mechanosensory behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007638	mechanosensory behavior
@@ -528,6 +531,7 @@ http://purl.obolibrary.org/obo/ZP_0013831	midbrain-hindbrain boundary developmen
 http://purl.obolibrary.org/obo/ZP_0010408	midbrain-hindbrain boundary initiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021547	midbrain-hindbrain boundary initiation
 http://purl.obolibrary.org/obo/ZP_0017298	midbrain-hindbrain boundary morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021555	midbrain-hindbrain boundary morphogenesis
 http://purl.obolibrary.org/obo/ZP_0014204	midbrain-hindbrain boundary structural organization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021552	midbrain-hindbrain boundary structural organization
+http://purl.obolibrary.org/obo/ZP_0143322	mitochondrial electron transport, succinate to ubiquinone process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006121	mitochondrial electron transport, succinate to ubiquinone
 http://purl.obolibrary.org/obo/ZP_0142106	mitochondrial genome maintenance process quality, abnormal	http://purl.obolibrary.org/obo/GO_0000002	mitochondrial genome maintenance
 http://purl.obolibrary.org/obo/ZP_0012036	mitochondrion organization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007005	mitochondrion organization
 http://purl.obolibrary.org/obo/ZP_0104623	mitotic S phase process quality, abnormal	http://purl.obolibrary.org/obo/GO_0000084	mitotic S phase
@@ -615,6 +619,7 @@ http://purl.obolibrary.org/obo/ZP_0006469	notochord formation process quality, a
 http://purl.obolibrary.org/obo/ZP_0014141	notochord morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048570	notochord morphogenesis
 http://purl.obolibrary.org/obo/ZP_0019058	nucleolar chromatin organization process quality, abnormal	http://purl.obolibrary.org/obo/GO_1990700	nucleolar chromatin organization
 http://purl.obolibrary.org/obo/ZP_0102673	odontogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042476	odontogenesis
+http://purl.obolibrary.org/obo/ZP_0142830	olfactory behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042048	olfactory behavior
 http://purl.obolibrary.org/obo/ZP_0013787	olfactory bulb development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021772	olfactory bulb development
 http://purl.obolibrary.org/obo/ZP_0011278	olfactory nerve formation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021628	olfactory nerve formation
 http://purl.obolibrary.org/obo/ZP_0017691	olfactory placode development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071698	olfactory placode development
@@ -630,6 +635,7 @@ http://purl.obolibrary.org/obo/ZP_0015608	oocyte maturation process quality, abn
 http://purl.obolibrary.org/obo/ZP_0003692	oocyte morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048601	oocyte morphogenesis
 http://purl.obolibrary.org/obo/ZP_0101868	oogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048477	oogenesis
 http://purl.obolibrary.org/obo/ZP_0022508	optic chiasma development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061360	optic chiasma development
+http://purl.obolibrary.org/obo/ZP_0145098	optic cup formation involved in camera-type eye development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003408	optic cup formation involved in camera-type eye development
 http://purl.obolibrary.org/obo/ZP_0141644	optic cup morphogenesis involved in camera-type eye development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002072	optic cup morphogenesis involved in camera-type eye development
 http://purl.obolibrary.org/obo/ZP_0014740	optic nerve development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021554	optic nerve development
 http://purl.obolibrary.org/obo/ZP_0103375	optic nerve formation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021634	optic nerve formation
@@ -651,7 +657,6 @@ http://purl.obolibrary.org/obo/ZP_0014238	otolith formation process quality, abn
 http://purl.obolibrary.org/obo/ZP_0013693	otolith mineralization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0045299	otolith mineralization
 http://purl.obolibrary.org/obo/ZP_0022186	ovarian follicle development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0001541	ovarian follicle development
 http://purl.obolibrary.org/obo/ZP_0019910	ovulation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030728	ovulation
-http://purl.obolibrary.org/obo/ZP_0010845	oxidative DNA demethylation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0035511	oxidative DNA demethylation
 http://purl.obolibrary.org/obo/ZP_0018248	oxidative phosphorylation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006119	oxidative phosphorylation
 http://purl.obolibrary.org/obo/ZP_0142058	oxygen metabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072592	oxygen metabolic process
 http://purl.obolibrary.org/obo/ZP_0003521	pancreas development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0031016	pancreas development
@@ -687,6 +692,7 @@ http://purl.obolibrary.org/obo/ZP_0013516	pigment granule dispersal process qual
 http://purl.obolibrary.org/obo/ZP_0004434	pigmentation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043473	pigmentation
 http://purl.obolibrary.org/obo/ZP_0013259	pineal gland development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021982	pineal gland development
 http://purl.obolibrary.org/obo/ZP_0102170	pituitary gland development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021983	pituitary gland development
+http://purl.obolibrary.org/obo/ZP_0017415	podocyte cell migration process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	podocyte cell migration
 http://purl.obolibrary.org/obo/ZP_0015609	pole plasm assembly process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007315	pole plasm assembly
 http://purl.obolibrary.org/obo/ZP_0015611	pole plasm mRNA localization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0019094	pole plasm mRNA localization
 http://purl.obolibrary.org/obo/ZP_0005550	post-anal tail morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0036342	post-anal tail morphogenesis
@@ -718,6 +724,7 @@ http://purl.obolibrary.org/obo/ZP_0137558	protein O-linked glycosylation process
 http://purl.obolibrary.org/obo/ZP_0014724	protein farnesylation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0018343	protein farnesylation
 http://purl.obolibrary.org/obo/ZP_0014725	protein geranylgeranylation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0018344	protein geranylgeranylation
 http://purl.obolibrary.org/obo/ZP_0017715	protein kinase B signaling process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043491	protein kinase B signaling
+http://purl.obolibrary.org/obo/ZP_0143081	protein localization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008104	protein localization
 http://purl.obolibrary.org/obo/ZP_0003238	protein localization to nucleus process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034504	protein localization to nucleus
 http://purl.obolibrary.org/obo/ZP_0014077	proteoglycan biosynthetic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030166	proteoglycan biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0100326	proton transmembrane transport process quality, abnormal	http://purl.obolibrary.org/obo/GO_1902600	proton transmembrane transport
@@ -727,6 +734,7 @@ http://purl.obolibrary.org/obo/ZP_0141464	rRNA pseudouridine synthesis process q
 http://purl.obolibrary.org/obo/ZP_0014681	reactive oxygen species metabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072593	reactive oxygen species metabolic process
 http://purl.obolibrary.org/obo/ZP_0008974	receptor clustering process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043113	receptor clustering
 http://purl.obolibrary.org/obo/ZP_0014945	receptor-mediated endocytosis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006898	receptor-mediated endocytosis
+http://purl.obolibrary.org/obo/ZP_0142468	regulation of DNA-templated transcription process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006355	regulation of DNA-templated transcription
 http://purl.obolibrary.org/obo/ZP_0014381	regulation of GTPase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043087	regulation of GTPase activity
 http://purl.obolibrary.org/obo/ZP_0021292	regulation of NIK/NF-kappaB signaling process quality, abnormal	http://purl.obolibrary.org/obo/GO_1901222	regulation of NIK/NF-kappaB signaling
 http://purl.obolibrary.org/obo/ZP_0000849	regulation of Rho-dependent protein serine/threonine kinase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_2000298	regulation of Rho-dependent protein serine/threonine kinase activity
@@ -769,8 +777,7 @@ http://purl.obolibrary.org/obo/ZP_0001580	regulation of synaptic transmission, g
 http://purl.obolibrary.org/obo/ZP_0007379	regulation of synaptic transmission, glycinergic process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060092	regulation of synaptic transmission, glycinergic
 http://purl.obolibrary.org/obo/ZP_0013206	regulation of telomerase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0051972	regulation of telomerase activity
 http://purl.obolibrary.org/obo/ZP_0015255	regulation of the force of heart contraction process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002026	regulation of the force of heart contraction
-http://purl.obolibrary.org/obo/ZP_0003484	regulation of transcription elongation from RNA polymerase II promoter process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034243	regulation of transcription elongation from RNA polymerase II promoter
-http://purl.obolibrary.org/obo/ZP_0142468	regulation of transcription, DNA-templated process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006355	regulation of transcription, DNA-templated
+http://purl.obolibrary.org/obo/ZP_0003484	regulation of transcription elongation by RNA polymerase II process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034243	regulation of transcription elongation by RNA polymerase II
 http://purl.obolibrary.org/obo/ZP_0008540	regulation of vascular endothelial growth factor receptor signaling pathway process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030947	regulation of vascular endothelial growth factor receptor signaling pathway
 http://purl.obolibrary.org/obo/ZP_0006615	regulation of ventricular cardiac muscle cell membrane repolarization process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060307	regulation of ventricular cardiac muscle cell membrane repolarization
 http://purl.obolibrary.org/obo/ZP_0141655	relaxation of cardiac muscle process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055119	relaxation of cardiac muscle
@@ -813,6 +820,7 @@ http://purl.obolibrary.org/obo/ZP_0002261	retina morphogenesis in camera-type ey
 http://purl.obolibrary.org/obo/ZP_0017942	retina vasculature development in camera-type eye process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061298	retina vasculature development in camera-type eye
 http://purl.obolibrary.org/obo/ZP_0140515	retinal blood vessel morphogenesis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061304	retinal blood vessel morphogenesis
 http://purl.obolibrary.org/obo/ZP_0013652	retinal cone cell development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046549	retinal cone cell development
+http://purl.obolibrary.org/obo/ZP_0144195	retinal cone cell fate specification process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042672	retinal cone cell fate specification
 http://purl.obolibrary.org/obo/ZP_0000966	retinal ganglion cell axon guidance process quality, abnormal	http://purl.obolibrary.org/obo/GO_0031290	retinal ganglion cell axon guidance
 http://purl.obolibrary.org/obo/ZP_0002433	retinal pigment epithelium development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003406	retinal pigment epithelium development
 http://purl.obolibrary.org/obo/ZP_0014756	retinal rod cell development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046548	retinal rod cell development
@@ -862,6 +870,7 @@ http://purl.obolibrary.org/obo/ZP_0006098	smoothened signaling pathway process q
 http://purl.obolibrary.org/obo/ZP_0020346	social behavior process quality, abnormal	http://purl.obolibrary.org/obo/GO_0035176	social behavior
 http://purl.obolibrary.org/obo/ZP_0009485	sodium ion homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055078	sodium ion homeostasis
 http://purl.obolibrary.org/obo/ZP_0013547	sodium ion transport process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006814	sodium ion transport
+http://purl.obolibrary.org/obo/ZP_0143395	somatic motor neuron differentiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021523	somatic motor neuron differentiation
 http://purl.obolibrary.org/obo/ZP_0004797	somatotropin secreting cell differentiation process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060126	somatotropin secreting cell differentiation
 http://purl.obolibrary.org/obo/ZP_0010854	somite development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061053	somite development
 http://purl.obolibrary.org/obo/ZP_0019574	somite rostral/caudal axis specification process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032525	somite rostral/caudal axis specification

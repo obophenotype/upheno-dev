@@ -27,6 +27,7 @@ http://purl.obolibrary.org/obo/ZP_0016495	ethmoid cartilage curved ventral, abno
 http://purl.obolibrary.org/obo/ZP_0009887	eye curved lateral, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye	http://purl.obolibrary.org/obo/PATO_0001649	curved lateral
 http://purl.obolibrary.org/obo/ZP_0010050	gut decreased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut	http://purl.obolibrary.org/obo/PATO_0001593	decreased curvature
 http://purl.obolibrary.org/obo/ZP_0131212	hair cell anterior macula splayed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000678	hair cell anterior macula	http://purl.obolibrary.org/obo/PATO_0001785	splayed
+http://purl.obolibrary.org/obo/ZP_0143316	hair cell posterior macula splayed, abnormal	http://purl.obolibrary.org/obo/ZFA_0000281	hair cell posterior macula	http://purl.obolibrary.org/obo/PATO_0001785	splayed
 http://purl.obolibrary.org/obo/ZP_0016181	head curved dorsal, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head	http://purl.obolibrary.org/obo/PATO_0001468	curved dorsal
 http://purl.obolibrary.org/obo/ZP_0003728	head domed, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head	http://purl.obolibrary.org/obo/PATO_0001789	domed
 http://purl.obolibrary.org/obo/ZP_0020425	hypural curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0000364	hypural	http://purl.obolibrary.org/obo/PATO_0000406	curved
@@ -37,10 +38,12 @@ http://purl.obolibrary.org/obo/ZP_0000890	maxilla curved caudal, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0009079	myoseptum curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001089	myoseptum	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0016124	neural arch curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001066	neural arch	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0021759	neural rod curved rostral, abnormal	http://purl.obolibrary.org/obo/ZFA_0000133	neural rod	http://purl.obolibrary.org/obo/PATO_0001466	curved rostral
+http://purl.obolibrary.org/obo/ZP_0143531	neural tube curved ventral, abnormal	http://purl.obolibrary.org/obo/ZFA_0001135	neural tube	http://purl.obolibrary.org/obo/PATO_0001469	curved ventral
 http://purl.obolibrary.org/obo/ZP_0130870	non-Weberian precaudal vertebra increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0001582	non-Weberian precaudal vertebra	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
 http://purl.obolibrary.org/obo/ZP_0000628	notochord curved ventral, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord	http://purl.obolibrary.org/obo/PATO_0001469	curved ventral
 http://purl.obolibrary.org/obo/ZP_0009010	notochord curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0141715	notochord increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
+http://purl.obolibrary.org/obo/ZP_0143535	notochord outer sheath cell curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0005744	notochord outer sheath cell	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0016173	notochord posterior region curved dorsal, abnormal	http://purl.obolibrary.org/obo/ZFA_0001670	notochord posterior region	http://purl.obolibrary.org/obo/PATO_0001468	curved dorsal
 http://purl.obolibrary.org/obo/ZP_0000266	opercle curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0000250	opercle	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0005101	palatoquadrate cartilage curved lateral, abnormal	http://purl.obolibrary.org/obo/ZFA_0001399	palatoquadrate cartilage	http://purl.obolibrary.org/obo/PATO_0001649	curved lateral
@@ -78,6 +81,7 @@ http://purl.obolibrary.org/obo/ZP_0006020	trunk curved lateral, abnormal	http://
 http://purl.obolibrary.org/obo/ZP_0000636	trunk curved ventral, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk	http://purl.obolibrary.org/obo/PATO_0001469	curved ventral
 http://purl.obolibrary.org/obo/ZP_0002347	trunk curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0002564	trunk increased curvature, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
+http://purl.obolibrary.org/obo/ZP_0143469	ventral mandibular arch splayed ventral, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch	http://purl.obolibrary.org/obo/PATO_0002154	splayed ventral
 http://purl.obolibrary.org/obo/ZP_0103098	vertebra curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/ZP_0020501	vertebral column asymmetrically curved, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column	http://purl.obolibrary.org/obo/PATO_0001848	asymmetrically curved
 http://purl.obolibrary.org/obo/ZP_0104436	vertebral column curved dorsal, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column	http://purl.obolibrary.org/obo/PATO_0001468	curved dorsal

@@ -1,9 +1,10 @@
 defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/MP_0004436	absent cochlear outer hair cell electromotility	http://purl.obolibrary.org/obo/GO_0099129	cochlear outer hair cell electromotile response
 http://purl.obolibrary.org/obo/MP_0009374	absent cumulus expansion	http://purl.obolibrary.org/obo/GO_0001550	ovarian cumulus expansion
 http://purl.obolibrary.org/obo/MP_0009021	absent estrus	http://purl.obolibrary.org/obo/GO_0060209	estrus
 http://purl.obolibrary.org/obo/MP_0011705	absent fibroblast proliferation	http://purl.obolibrary.org/obo/GO_0048144	fibroblast proliferation
 http://purl.obolibrary.org/obo/MP_0012114	absent inner cell mass proliferation	http://purl.obolibrary.org/obo/GO_0001833	inner cell mass cell proliferation
-http://purl.obolibrary.org/obo/MP_0001899	absent long term depression	http://purl.obolibrary.org/obo/GO_0060292	long-term synaptic depression
+http://purl.obolibrary.org/obo/MP_0001899	absent long-term depression	http://purl.obolibrary.org/obo/GO_0060292	long-term synaptic depression
 http://purl.obolibrary.org/obo/MP_0009326	absent maternal crouching	http://purl.obolibrary.org/obo/NBO_0000154	maternal crouching
 http://purl.obolibrary.org/obo/MP_0020956	absent mechanical nociception	http://purl.obolibrary.org/obo/NBO_0000334	mechanical nociceptive behavior
 http://purl.obolibrary.org/obo/MP_0006358	absent pinna reflex	http://purl.obolibrary.org/obo/NBO_0000576	pinna reflex
@@ -24,11 +25,9 @@ http://purl.obolibrary.org/obo/MP_0009139	failure of Mullerian duct regression	h
 http://purl.obolibrary.org/obo/MP_0012129	failure of blastocyst formation	http://purl.obolibrary.org/obo/GO_0001825	blastocyst formation
 http://purl.obolibrary.org/obo/MP_0000064	failure of bone resorption	http://purl.obolibrary.org/obo/GO_0045453	bone resorption
 http://purl.obolibrary.org/obo/MP_0009657	failure of chorioallantoic fusion	http://purl.obolibrary.org/obo/GO_0060710	chorio-allantoic fusion
-http://purl.obolibrary.org/obo/MP_0030983	failure of copulatory plug formation	http://purl.obolibrary.org/obo/GO_0042628	mating plug formation
+http://purl.obolibrary.org/obo/MP_0030983	failure of copulatory plug deposition	http://purl.obolibrary.org/obo/GO_0042628	mating plug formation
 http://purl.obolibrary.org/obo/MP_0001728	failure of embryo implantation	http://purl.obolibrary.org/obo/GO_0007566	embryo implantation
-http://purl.obolibrary.org/obo/MP_0008275	failure of endochondral bone ossification	http://purl.obolibrary.org/obo/GO_0001958	endochondral ossification
 http://purl.obolibrary.org/obo/MP_0004251	failure of heart looping	http://purl.obolibrary.org/obo/GO_0001947	heart looping
-http://purl.obolibrary.org/obo/MP_0008276	failure of intramembranous bone ossification	http://purl.obolibrary.org/obo/GO_0001957	intramembranous ossification
 http://purl.obolibrary.org/obo/MP_0001603	failure of myelopoiesis	http://purl.obolibrary.org/obo/GO_0030099	myeloid cell differentiation
 http://purl.obolibrary.org/obo/MP_0001693	failure of primitive streak formation	http://purl.obolibrary.org/obo/GO_0090009	primitive streak formation
 http://purl.obolibrary.org/obo/MP_0000121	failure of tooth eruption	http://purl.obolibrary.org/obo/GO_0044691	tooth eruption
@@ -36,6 +35,7 @@ http://purl.obolibrary.org/obo/MP_0000264	failure of vascular branching	http://p
 http://purl.obolibrary.org/obo/MP_0003406	failure of zygotic cell division	http://purl.obolibrary.org/obo/GO_0010070	zygote asymmetric cell division
 http://purl.obolibrary.org/obo/MP_0001696	failure to gastrulate	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/MP_0013718	galactostasis	http://purl.obolibrary.org/obo/GO_0060156	milk ejection reflex
+http://purl.obolibrary.org/obo/MP_0020869	immotile sperm	http://purl.obolibrary.org/obo/GO_0030317	flagellated sperm motility
 http://purl.obolibrary.org/obo/MP_0010249	lactation failure	http://purl.obolibrary.org/obo/GO_0007595	lactation
 http://purl.obolibrary.org/obo/MP_0001404	no spontaneous movement	http://purl.obolibrary.org/obo/NBO_0000449	spontaneous movement behavior
 http://purl.obolibrary.org/obo/MP_0001437	no swallowing reflex	http://purl.obolibrary.org/obo/NBO_0000418	pharyngeal reflex

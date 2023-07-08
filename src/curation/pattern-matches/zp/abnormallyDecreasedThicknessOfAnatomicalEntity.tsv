@@ -17,6 +17,7 @@ http://purl.obolibrary.org/obo/ZP_0106228	centrum decreased thickness, abnormal	
 http://purl.obolibrary.org/obo/ZP_0000760	cerebellum decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000100	cerebellum
 http://purl.obolibrary.org/obo/ZP_0019511	ciliary marginal zone decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001289	ciliary marginal zone
 http://purl.obolibrary.org/obo/ZP_0014720	compact layer of ventricle decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005062	compact layer of ventricle
+http://purl.obolibrary.org/obo/ZP_0144704	cornea decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000640	cornea
 http://purl.obolibrary.org/obo/ZP_0141478	corneal epithelium decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001683	corneal epithelium
 http://purl.obolibrary.org/obo/ZP_0103897	corneal stroma decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001685	corneal stroma
 http://purl.obolibrary.org/obo/ZP_0005361	cranial nerve II decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000435	cranial nerve II
@@ -29,6 +30,7 @@ http://purl.obolibrary.org/obo/ZP_0010978	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0002777	dorsal longitudinal fasciculus decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005266	dorsal longitudinal fasciculus
 http://purl.obolibrary.org/obo/ZP_0001139	dorsal thalamus decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000653	dorsal thalamus
 http://purl.obolibrary.org/obo/ZP_0104100	ectoderm decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000016	ectoderm
+http://purl.obolibrary.org/obo/ZP_0142794	epidermis decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
 http://purl.obolibrary.org/obo/ZP_0142564	esophageal epithelium decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001499	esophageal epithelium
 http://purl.obolibrary.org/obo/ZP_0004123	exocrine pancreas decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001249	exocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0000761	extension decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension
@@ -61,6 +63,7 @@ http://purl.obolibrary.org/obo/ZP_0102161	kidney decreased thickness, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0006874	lateral dorsal aorta decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001054	lateral dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0012690	lateral longitudinal fasciculus decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000534	lateral longitudinal fasciculus
 http://purl.obolibrary.org/obo/ZP_0106322	lens capsule decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005574	lens capsule
+http://purl.obolibrary.org/obo/ZP_0145364	lens epithelium decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001326	lens epithelium
 http://purl.obolibrary.org/obo/ZP_0002773	medial longitudinal fasciculus decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000543	medial longitudinal fasciculus
 http://purl.obolibrary.org/obo/ZP_0011672	medial rectus decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000301	medial rectus
 http://purl.obolibrary.org/obo/ZP_0006145	median fin fold decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold
@@ -92,6 +95,8 @@ http://purl.obolibrary.org/obo/ZP_0101395	pericardium decreased thickness, abnor
 http://purl.obolibrary.org/obo/ZP_0009177	perichordal connective tissue decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001633	perichordal connective tissue
 http://purl.obolibrary.org/obo/ZP_0137614	periderm decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001185	periderm
 http://purl.obolibrary.org/obo/ZP_0004466	peripheral neuron decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0009063	peripheral neuron
+http://purl.obolibrary.org/obo/ZP_0145348	periventricular grey zone decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000516	periventricular grey zone
+http://purl.obolibrary.org/obo/ZP_0143864	pharyngeal arch decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
 http://purl.obolibrary.org/obo/ZP_0007228	pharyngeal epithelium decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001174	pharyngeal epithelium
 http://purl.obolibrary.org/obo/ZP_0015378	pharyngeal vasculature decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005003	pharyngeal vasculature
 http://purl.obolibrary.org/obo/ZP_0106534	photoreceptor inner segment layer decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001465	photoreceptor inner segment layer
@@ -132,6 +137,7 @@ http://purl.obolibrary.org/obo/ZP_0021192	ventral fin fold decreased thickness, 
 http://purl.obolibrary.org/obo/ZP_0015038	ventral mandibular arch decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch
 http://purl.obolibrary.org/obo/ZP_0001118	ventral thalamus decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000458	ventral thalamus
 http://purl.obolibrary.org/obo/ZP_0002180	ventricular myocardium decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005061	ventricular myocardium
+http://purl.obolibrary.org/obo/ZP_0145248	vertebral body end plate decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0007118	vertebral body end plate
 http://purl.obolibrary.org/obo/ZP_0142436	vertebral column decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column
 http://purl.obolibrary.org/obo/ZP_0100995	vertical myoseptum decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000610	vertical myoseptum
 http://purl.obolibrary.org/obo/ZP_0001090	whole organism decreased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism

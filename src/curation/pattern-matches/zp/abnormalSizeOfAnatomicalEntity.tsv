@@ -82,6 +82,7 @@ http://purl.obolibrary.org/obo/ZP_0139976	retinal cone cell size, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0104593	sagitta size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000676	sagitta
 http://purl.obolibrary.org/obo/ZP_0015029	scale size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale
 http://purl.obolibrary.org/obo/ZP_0014344	shield size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000071	shield
+http://purl.obolibrary.org/obo/ZP_0142800	slow muscle cell size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
 http://purl.obolibrary.org/obo/ZP_0013809	somite 10 size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000974	somite 10
 http://purl.obolibrary.org/obo/ZP_0013810	somite 6 size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000982	somite 6
 http://purl.obolibrary.org/obo/ZP_0013807	somite 7 size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000733	somite 7
@@ -92,6 +93,7 @@ http://purl.obolibrary.org/obo/ZP_0141222	tectal neuropile size, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0014251	tectal ventricle size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000159	tectal ventricle
 http://purl.obolibrary.org/obo/ZP_0017536	telencephalon size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000079	telencephalon
 http://purl.obolibrary.org/obo/ZP_0140572	testis size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000598	testis
+http://purl.obolibrary.org/obo/ZP_0143413	thoracic duct size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005110	thoracic duct
 http://purl.obolibrary.org/obo/ZP_0102097	thyroid follicle size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001072	thyroid follicle
 http://purl.obolibrary.org/obo/ZP_0101654	trabecular layer of ventricle size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005060	trabecular layer of ventricle
 http://purl.obolibrary.org/obo/ZP_0016088	trunk musculature size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000473	trunk musculature

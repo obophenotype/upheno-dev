@@ -23,6 +23,8 @@ http://purl.obolibrary.org/obo/ZP_0005521	dorsal region cerebellum increased siz
 http://purl.obolibrary.org/obo/ZP_0012363	dorsal-ventral axis myotome increased size, abnormal	http://purl.obolibrary.org/obo/BSPO_0000016	dorsal-ventral axis	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
 http://purl.obolibrary.org/obo/ZP_0012362	dorsal-ventral axis notochord increased size, abnormal	http://purl.obolibrary.org/obo/BSPO_0000016	dorsal-ventral axis	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
 http://purl.obolibrary.org/obo/ZP_0015143	epidermis caudal fin increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
+http://purl.obolibrary.org/obo/ZP_0143458	fat cell female organism increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009082	fat cell	http://purl.obolibrary.org/obo/ZFA_0000303	female organism
+http://purl.obolibrary.org/obo/ZP_0143457	fat cell male organism increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009082	fat cell	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0021810	fat cell subcutaneous fat increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009082	fat cell	http://purl.obolibrary.org/obo/ZFA_0005762	subcutaneous fat
 http://purl.obolibrary.org/obo/ZP_0021808	fat cell visceral fat increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009082	fat cell	http://purl.obolibrary.org/obo/ZFA_0005759	visceral fat
 http://purl.obolibrary.org/obo/ZP_0018407	germ line cell testis increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009016	germ line cell	http://purl.obolibrary.org/obo/ZFA_0000598	testis
@@ -43,6 +45,7 @@ http://purl.obolibrary.org/obo/ZP_0007309	proliferative region brain increased s
 http://purl.obolibrary.org/obo/ZP_0002598	proliferative region eye increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000098	proliferative region	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0005360	proliferative region retina increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000098	proliferative region	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0021572	skeletal system head increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000434	skeletal system	http://purl.obolibrary.org/obo/ZFA_0001114	head
+http://purl.obolibrary.org/obo/ZP_0145076	smooth muscle cell bulbus arteriosus increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009118	smooth muscle cell	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0010352	somite post-vent region increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0103442	testis male organism increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000598	testis	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0004173	trunk female organism increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk	http://purl.obolibrary.org/obo/ZFA_0000303	female organism

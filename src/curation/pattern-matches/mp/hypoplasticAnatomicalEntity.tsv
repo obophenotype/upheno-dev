@@ -59,7 +59,7 @@ http://purl.obolibrary.org/obo/MP_0013200	head mesenchyme hypoplasia	http://purl
 http://purl.obolibrary.org/obo/MP_0002740	heart hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0010446	heart left ventricle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
 http://purl.obolibrary.org/obo/MP_0010422	heart right ventricle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
-http://purl.obolibrary.org/obo/MP_0000287	heart valve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
+http://purl.obolibrary.org/obo/MP_0000287	heart valve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000946	cardiac valve
 http://purl.obolibrary.org/obo/MP_0012264	hindbrain hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
 http://purl.obolibrary.org/obo/MP_0030004	hippocampus hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
 http://purl.obolibrary.org/obo/MP_0009899	hyoid bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001685	hyoid bone
@@ -82,6 +82,7 @@ http://purl.obolibrary.org/obo/MP_0014151	lacrimal gland hypoplasia	http://purl.
 http://purl.obolibrary.org/obo/MP_0010647	left atrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
 http://purl.obolibrary.org/obo/MP_0000600	liver hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0008101	lymph node hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
+http://purl.obolibrary.org/obo/MP_0031440	lymphatic vessel hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001473	lymphatic vessel
 http://purl.obolibrary.org/obo/MP_0002223	lymphoid hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001744	lymphoid tissue
 http://purl.obolibrary.org/obo/MP_0010326	malleus hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001689	malleus bone
 http://purl.obolibrary.org/obo/MP_0003344	mammary gland hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001911	mammary gland
@@ -92,6 +93,7 @@ http://purl.obolibrary.org/obo/MP_0030347	mandibular prominence hypoplasia	http:
 http://purl.obolibrary.org/obo/MP_0000457	maxilla hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002397	maxilla
 http://purl.obolibrary.org/obo/MP_0030343	maxillary prominence hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005868	maxillary prominence
 http://purl.obolibrary.org/obo/MP_0009898	maxillary shelf hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005871	palatine process of maxilla
+http://purl.obolibrary.org/obo/MP_0031459	maxillary zygomatic process hypoplasia	http://purl.obolibrary.org/obo/UBERON_0016477	zygomatic process of maxilla
 http://purl.obolibrary.org/obo/MP_0004637	metacarpal bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone
 http://purl.obolibrary.org/obo/MP_0012090	midbrain hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
 http://purl.obolibrary.org/obo/MP_0030124	middle ear ossicle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001686	auditory ossicle bone
@@ -100,6 +102,7 @@ http://purl.obolibrary.org/obo/MP_0000734	muscle hypoplasia	http://purl.obolibra
 http://purl.obolibrary.org/obo/MP_0010500	myocardium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002349	myocardium
 http://purl.obolibrary.org/obo/MP_0009090	myometrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001296	myometrium
 http://purl.obolibrary.org/obo/MP_0000103	nasal bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001681	nasal bone
+http://purl.obolibrary.org/obo/MP_0031450	nasal cartilage hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001823	nasal cartilage
 http://purl.obolibrary.org/obo/MP_0030202	nasal septum cartilage hypoplasia	http://purl.obolibrary.org/obo/UBERON_0003407	cartilage of nasal septum
 http://purl.obolibrary.org/obo/MP_0030198	nasal septum hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001706	nasal septum
 http://purl.obolibrary.org/obo/MP_0030286	occipital bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001676	occipital bone

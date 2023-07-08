@@ -13,6 +13,7 @@ http://purl.obolibrary.org/obo/ZP_0102338	choroid plexus decreased functionality
 http://purl.obolibrary.org/obo/ZP_0019534	cloaca decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005781	cloaca
 http://purl.obolibrary.org/obo/ZP_0010082	endocrine pancreas decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001260	endocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0102900	eye decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
+http://purl.obolibrary.org/obo/ZP_0143567	eye photoreceptor cell decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009154	eye photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0008672	fin vasculature decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005095	fin vasculature
 http://purl.obolibrary.org/obo/ZP_0005663	gall bladder decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000208	gall bladder
 http://purl.obolibrary.org/obo/ZP_0015992	glomerular basement membrane decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005285	glomerular basement membrane
@@ -36,6 +37,7 @@ http://purl.obolibrary.org/obo/ZP_0008005	nervous system decreased functionality
 http://purl.obolibrary.org/obo/ZP_0014808	neuromast decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000243	neuromast
 http://purl.obolibrary.org/obo/ZP_0008175	neuromast hair cell decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell
 http://purl.obolibrary.org/obo/ZP_0137599	pectoral fin decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
+http://purl.obolibrary.org/obo/ZP_0145129	pectoral fin musculature decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000563	pectoral fin musculature
 http://purl.obolibrary.org/obo/ZP_0012339	posterior lateral line neuromast decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000940	posterior lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0000845	primary motor neuron decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0101773	pronephric glomerular basement membrane decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005313	pronephric glomerular basement membrane
@@ -47,6 +49,7 @@ http://purl.obolibrary.org/obo/ZP_0002885	retina decreased functionality, abnorm
 http://purl.obolibrary.org/obo/ZP_0009537	retinal bipolar neuron decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009318	retinal bipolar neuron
 http://purl.obolibrary.org/obo/ZP_0106212	retinal cone cell decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell
 http://purl.obolibrary.org/obo/ZP_0009131	retinal ganglion cell decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009310	retinal ganglion cell
+http://purl.obolibrary.org/obo/ZP_0143568	retinal rod cell decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
 http://purl.obolibrary.org/obo/ZP_0015522	sinoatrial node decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005069	sinoatrial node
 http://purl.obolibrary.org/obo/ZP_0005320	sinus venosus decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000154	sinus venosus
 http://purl.obolibrary.org/obo/ZP_0007990	skeletal muscle cell decreased functionality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell

@@ -7,8 +7,8 @@ http://purl.obolibrary.org/obo/MP_0004016	decreased bone mass	http://purl.obolib
 http://purl.obolibrary.org/obo/MP_0002175	decreased brain weight	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0014169	decreased brown adipose tissue mass	http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
 http://purl.obolibrary.org/obo/MP_0031235	decreased cecum weight	http://purl.obolibrary.org/obo/UBERON_0001153	caecum
+http://purl.obolibrary.org/obo/MP_0003904	decreased cell mass	http://purl.obolibrary.org/obo/CL_0000000	cell
 http://purl.obolibrary.org/obo/MP_0010962	decreased compact bone mass	http://purl.obolibrary.org/obo/UBERON_0001439	compact bone tissue
-http://purl.obolibrary.org/obo/MP_0009429	decreased embryo weight	http://purl.obolibrary.org/obo/UBERON_0000922	embryo
 http://purl.obolibrary.org/obo/MP_0009289	decreased epididymal fat pad weight	http://purl.obolibrary.org/obo/UBERON_0010412	epididymal fat pad
 http://purl.obolibrary.org/obo/MP_0004929	decreased epididymis weight	http://purl.obolibrary.org/obo/UBERON_0001301	epididymis
 http://purl.obolibrary.org/obo/MP_0009424	decreased extensor digitorum longus weight	http://purl.obolibrary.org/obo/UBERON_0001386	extensor digitorum longus
@@ -30,6 +30,8 @@ http://purl.obolibrary.org/obo/MP_0010046	decreased omental fat pad weight	http:
 http://purl.obolibrary.org/obo/MP_0004856	decreased ovary weight	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009066	decreased oviduct weight	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0009109	decreased pancreas weight	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
+http://purl.obolibrary.org/obo/MP_0030588	decreased pancreatic alpha cell mass	http://purl.obolibrary.org/obo/CL_0000171	pancreatic A cell
+http://purl.obolibrary.org/obo/MP_0009114	decreased pancreatic beta cell mass	http://purl.obolibrary.org/obo/CL_0000169	type B pancreatic cell
 http://purl.obolibrary.org/obo/MP_0009301	decreased parametrial fat pad weight	http://purl.obolibrary.org/obo/UBERON_0010413	parametrial fat pad
 http://purl.obolibrary.org/obo/MP_0008938	decreased pituitary gland weight	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
 http://purl.obolibrary.org/obo/MP_0004921	decreased placenta weight	http://purl.obolibrary.org/obo/UBERON_0001987	placenta

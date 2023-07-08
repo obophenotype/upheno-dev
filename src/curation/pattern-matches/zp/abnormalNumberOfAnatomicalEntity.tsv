@@ -32,6 +32,7 @@ http://purl.obolibrary.org/obo/ZP_0139914	hematopoietic cell amount, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0100159	hematopoietic multipotent progenitor cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009354	hematopoietic multipotent progenitor cell
 http://purl.obolibrary.org/obo/ZP_0101560	hematopoietic stem cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009014	hematopoietic stem cell
 http://purl.obolibrary.org/obo/ZP_0100061	hepatocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte
+http://purl.obolibrary.org/obo/ZP_0144194	horizontal cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009315	horizontal cell
 http://purl.obolibrary.org/obo/ZP_0101448	interneuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009051	interneuron
 http://purl.obolibrary.org/obo/ZP_0103299	intersegmental artery amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001061	intersegmental artery
 http://purl.obolibrary.org/obo/ZP_0103298	intersegmental vein amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001057	intersegmental vein
@@ -47,6 +48,7 @@ http://purl.obolibrary.org/obo/ZP_0141104	muscle cell amount, abnormal	http://pu
 http://purl.obolibrary.org/obo/ZP_0100306	muscle pioneer amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001086	muscle pioneer
 http://purl.obolibrary.org/obo/ZP_0015889	myelinating Schwann cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009135	myelinating Schwann cell
 http://purl.obolibrary.org/obo/ZP_0101599	myeloid cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009324	myeloid cell
+http://purl.obolibrary.org/obo/ZP_0142873	neural crest cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009165	neural crest cell
 http://purl.obolibrary.org/obo/ZP_0100204	neuromast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000243	neuromast
 http://purl.obolibrary.org/obo/ZP_0100098	neuromast hair cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell
 http://purl.obolibrary.org/obo/ZP_0141431	neuromast support cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009363	neuromast support cell

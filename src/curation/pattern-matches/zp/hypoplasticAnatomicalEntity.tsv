@@ -14,6 +14,7 @@ http://purl.obolibrary.org/obo/ZP_0017292	axial chorda mesoderm hypoplastic, abn
 http://purl.obolibrary.org/obo/ZP_0010591	basibranchial hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000170	basibranchial
 http://purl.obolibrary.org/obo/ZP_0010600	basihyal cartilage hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
 http://purl.obolibrary.org/obo/ZP_0012193	basipterygium hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000623	basipterygium
+http://purl.obolibrary.org/obo/ZP_0143103	bile canaliculus hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005163	bile canaliculus
 http://purl.obolibrary.org/obo/ZP_0015102	blastema hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
 http://purl.obolibrary.org/obo/ZP_0106276	blastodisc hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001175	blastodisc
 http://purl.obolibrary.org/obo/ZP_0004224	brain hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
@@ -62,6 +63,7 @@ http://purl.obolibrary.org/obo/ZP_0008907	facial ganglion hypoplastic, abnormal	
 http://purl.obolibrary.org/obo/ZP_0010899	fin bud hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001383	fin bud
 http://purl.obolibrary.org/obo/ZP_0016040	fin hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000108	fin
 http://purl.obolibrary.org/obo/ZP_0005395	floor plate hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000022	floor plate
+http://purl.obolibrary.org/obo/ZP_0144851	forebrain hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0020733	gall bladder hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000208	gall bladder
 http://purl.obolibrary.org/obo/ZP_0000403	gut hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut
 http://purl.obolibrary.org/obo/ZP_0015250	hatching gland hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000026	hatching gland
@@ -189,8 +191,10 @@ http://purl.obolibrary.org/obo/ZP_0008436	trabecula communis hypoplastic, abnorm
 http://purl.obolibrary.org/obo/ZP_0004948	trigeminal placode hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000162	trigeminal placode
 http://purl.obolibrary.org/obo/ZP_0003438	trunk hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0006605	trunk vasculature hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005024	trunk vasculature
+http://purl.obolibrary.org/obo/ZP_0143067	upper lip hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005226	upper lip
 http://purl.obolibrary.org/obo/ZP_0000264	vascular lymphangioblast hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009395	vascular lymphangioblast
 http://purl.obolibrary.org/obo/ZP_0007113	ventral fin fold hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001069	ventral fin fold
 http://purl.obolibrary.org/obo/ZP_0003955	ventral mandibular arch hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch
+http://purl.obolibrary.org/obo/ZP_0144158	ventricular endocardium hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001615	ventricular endocardium
 http://purl.obolibrary.org/obo/ZP_0007668	ventricular myocardium hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005061	ventricular myocardium
 http://purl.obolibrary.org/obo/ZP_0003132	whole organism hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism

@@ -19,6 +19,7 @@ http://purl.obolibrary.org/obo/XPO_0126282	absent Schwann cell	http://purl.oboli
 http://purl.obolibrary.org/obo/XPO_0126262	absent Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
 http://purl.obolibrary.org/obo/XPO_0125972	absent T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
 http://purl.obolibrary.org/obo/XPO_0125519	absent abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
+http://purl.obolibrary.org/obo/XPO_0142019	absent abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0125408	absent abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
 http://purl.obolibrary.org/obo/XPO_0126314	absent absorptive cell	http://purl.obolibrary.org/obo/XAO_0003231	absorptive cell
 http://purl.obolibrary.org/obo/XPO_0125655	absent accessory nerve	http://purl.obolibrary.org/obo/XAO_0004214	accessory nerve
@@ -283,6 +284,7 @@ http://purl.obolibrary.org/obo/XPO_0103236	absent ceratohyal	http://purl.obolibr
 http://purl.obolibrary.org/obo/XPO_0125477	absent cerebellum	http://purl.obolibrary.org/obo/XAO_0003098	cerebellum
 http://purl.obolibrary.org/obo/XPO_0125726	absent cerebral artery	http://purl.obolibrary.org/obo/XAO_0000367	cerebral artery
 http://purl.obolibrary.org/obo/XPO_0125225	absent cerebral vein	http://purl.obolibrary.org/obo/XAO_0004160	cerebral vein
+http://purl.obolibrary.org/obo/XPO_0142017	absent cerebrospinal fluid	http://purl.obolibrary.org/obo/XAO_0005506	cerebrospinal fluid
 http://purl.obolibrary.org/obo/XPO_0125551	absent cervical vertebra	http://purl.obolibrary.org/obo/XAO_0003076	cervical vertebra
 http://purl.obolibrary.org/obo/XPO_0125246	absent choana	http://purl.obolibrary.org/obo/XAO_0000277	choana
 http://purl.obolibrary.org/obo/XPO_0125530	absent chondroblast	http://purl.obolibrary.org/obo/XAO_0003238	chondroblast
@@ -354,9 +356,11 @@ http://purl.obolibrary.org/obo/XPO_0124853	absent dermatome	http://purl.obolibra
 http://purl.obolibrary.org/obo/XPO_0124832	absent dermis	http://purl.obolibrary.org/obo/XAO_0000217	dermis
 http://purl.obolibrary.org/obo/XPO_0125058	absent dermomyotome	http://purl.obolibrary.org/obo/XAO_0005080	dermomyotome
 http://purl.obolibrary.org/obo/XPO_0126023	absent descending interneuron	http://purl.obolibrary.org/obo/XAO_0005182	descending interneuron
+http://purl.obolibrary.org/obo/XPO_0142023	absent desmosome	http://purl.obolibrary.org/obo/XAO_0005500	desmosome
 http://purl.obolibrary.org/obo/XPO_0125867	absent diaphysis	http://purl.obolibrary.org/obo/XAO_0004488	diaphysis
 http://purl.obolibrary.org/obo/XPO_0125252	absent diencephalon	http://purl.obolibrary.org/obo/XAO_0000013	diencephalon
 http://purl.obolibrary.org/obo/XPO_0126219	absent digestive enzyme secreting cell	http://purl.obolibrary.org/obo/XAO_0003240	digestive enzyme secreting cell
+http://purl.obolibrary.org/obo/XPO_0142020	absent digestive tract	http://purl.obolibrary.org/obo/XAO_0005501	digestive tract
 http://purl.obolibrary.org/obo/XPO_0124986	absent digit	http://purl.obolibrary.org/obo/XAO_0003032	digit
 http://purl.obolibrary.org/obo/XPO_0125443	absent digit-joint region	http://purl.obolibrary.org/obo/XAO_0004314	digit-joint region
 http://purl.obolibrary.org/obo/XPO_0126276	absent distal mesenchyme	http://purl.obolibrary.org/obo/XAO_0004056	distal mesenchyme
@@ -801,6 +805,7 @@ http://purl.obolibrary.org/obo/XPO_0125521	absent m. transversus ventralis II	ht
 http://purl.obolibrary.org/obo/XPO_0125344	absent m. transversus ventralis II primordium	http://purl.obolibrary.org/obo/XAO_0004436	m. transversus ventralis II primordium
 http://purl.obolibrary.org/obo/XPO_0125688	absent macrophage	http://purl.obolibrary.org/obo/XAO_0005025	macrophage
 http://purl.obolibrary.org/obo/XPO_0125525	absent magnocellular preoptic nucleus	http://purl.obolibrary.org/obo/XAO_0004567	magnocellular preoptic nucleus
+http://purl.obolibrary.org/obo/XPO_0142022	absent main body axis	http://purl.obolibrary.org/obo/XAO_0005502	main body axis
 http://purl.obolibrary.org/obo/XPO_0125139	absent male genitalia	http://purl.obolibrary.org/obo/XAO_0000155	male genitalia
 http://purl.obolibrary.org/obo/XPO_0125649	absent male organism	http://purl.obolibrary.org/obo/XAO_0003006	male organism
 http://purl.obolibrary.org/obo/XPO_0126274	absent mammilary region	http://purl.obolibrary.org/obo/XAO_0004605	mammilary region
@@ -947,6 +952,7 @@ http://purl.obolibrary.org/obo/XPO_0126174	absent myotome of trunk somite 6	http
 http://purl.obolibrary.org/obo/XPO_0125980	absent myotome of trunk somite 7	http://purl.obolibrary.org/obo/XAO_0003119	myotome of trunk somite 7
 http://purl.obolibrary.org/obo/XPO_0125182	absent myotome of trunk somite 8	http://purl.obolibrary.org/obo/XAO_0003120	myotome of trunk somite 8
 http://purl.obolibrary.org/obo/XPO_0126121	absent myotome of trunk somite 9	http://purl.obolibrary.org/obo/XAO_0003125	myotome of trunk somite 9
+http://purl.obolibrary.org/obo/XPO_0142018	absent nasal region	http://purl.obolibrary.org/obo/XAO_0005505	nasal region
 http://purl.obolibrary.org/obo/XPO_0125906	absent nasociliary artery	http://purl.obolibrary.org/obo/XAO_0004175	nasociliary artery
 http://purl.obolibrary.org/obo/XPO_0131517	absent nasociliary nerve	http://purl.obolibrary.org/obo/XAO_0005292	nasociliary nerve
 http://purl.obolibrary.org/obo/XPO_0126026	absent natural killer cell	http://purl.obolibrary.org/obo/XAO_0003156	natural killer cell
@@ -1446,6 +1452,7 @@ http://purl.obolibrary.org/obo/XPO_0103318	absent trabecula cranii	http://purl.o
 http://purl.obolibrary.org/obo/XPO_0126017	absent trachea	http://purl.obolibrary.org/obo/XAO_0000118	trachea
 http://purl.obolibrary.org/obo/XPO_0131507	absent tracheal epithelium	http://purl.obolibrary.org/obo/XAO_0005298	tracheal epithelium
 http://purl.obolibrary.org/obo/XPO_0141692	absent tracheoesophageal fold	http://purl.obolibrary.org/obo/XAO_0005426	tracheoesophageal fold
+http://purl.obolibrary.org/obo/XPO_0142021	absent tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005503	tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0141691	absent transient tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005425	transient tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0125805	absent transporting epithelium	http://purl.obolibrary.org/obo/XAO_0004224	transporting epithelium
 http://purl.obolibrary.org/obo/XPO_0126299	absent transverse process	http://purl.obolibrary.org/obo/XAO_0003102	transverse process

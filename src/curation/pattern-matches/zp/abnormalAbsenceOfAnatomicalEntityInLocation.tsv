@@ -32,6 +32,7 @@ http://purl.obolibrary.org/obo/ZP_0012684	anterior crista otic vesicle absent, a
 http://purl.obolibrary.org/obo/ZP_0103934	anterior region axial mesoderm absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0001204	axial mesoderm
 http://purl.obolibrary.org/obo/ZP_0020645	anterior region caudal hypothalamic zone absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000634	caudal hypothalamic zone
 http://purl.obolibrary.org/obo/ZP_0014936	anterior region cranial vasculature absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0001267	cranial vasculature
+http://purl.obolibrary.org/obo/ZP_0143496	anterior region endoderm absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
 http://purl.obolibrary.org/obo/ZP_0102965	anterior region forebrain absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0000623	anterior region fourth ventricle absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000110	fourth ventricle
 http://purl.obolibrary.org/obo/ZP_0141232	anterior region hindbrain absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
@@ -55,13 +56,13 @@ http://purl.obolibrary.org/obo/ZP_0009953	anterior/posterior compartment boundar
 http://purl.obolibrary.org/obo/ZP_0009957	anterior/posterior compartment boundary rhombomere 7 absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000093	anterior/posterior compartment boundary	http://purl.obolibrary.org/obo/ZFA_0000949	rhombomere 7
 http://purl.obolibrary.org/obo/ZP_0104135	antero-dorsal region rhombomere 1 absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000026	antero-dorsal region	http://purl.obolibrary.org/obo/ZFA_0001031	rhombomere 1
 http://purl.obolibrary.org/obo/ZP_0100478	antero-dorsal region whole organism absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000026	antero-dorsal region	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
-http://purl.obolibrary.org/obo/ZP_0019717	apical plasma membrane pronephric duct absent, abnormal	http://purl.obolibrary.org/obo/GO_0016324	apical plasma membrane	http://purl.obolibrary.org/obo/ZFA_0000150	pronephric duct
 http://purl.obolibrary.org/obo/ZP_0138509	apical side gut absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000057	apical side	http://purl.obolibrary.org/obo/ZFA_0000112	gut
 http://purl.obolibrary.org/obo/ZP_0138141	apical side pronephric tubule absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000057	apical side	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
 http://purl.obolibrary.org/obo/ZP_0138499	apical side ventricular system absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000057	apical side	http://purl.obolibrary.org/obo/ZFA_0001261	ventricular system
 http://purl.obolibrary.org/obo/ZP_0021752	artery cranial vasculature absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000005	artery	http://purl.obolibrary.org/obo/ZFA_0001267	cranial vasculature
 http://purl.obolibrary.org/obo/ZP_0019298	artery pharyngeal arch absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000005	artery	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
 http://purl.obolibrary.org/obo/ZP_0140445	artery regenerating fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000005	artery	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
+http://purl.obolibrary.org/obo/ZP_0144425	artery trunk absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000005	artery	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0101589	astrocyte spinal cord absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009075	astrocyte	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0102362	basal side cardiac muscle cell absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000058	basal side	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0016109	blastema regenerating fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
@@ -83,43 +84,38 @@ http://purl.obolibrary.org/obo/ZP_0011292	blood vessel midbrain hindbrain bounda
 http://purl.obolibrary.org/obo/ZP_0011296	blood vessel optic tectum absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0000445	optic tectum
 http://purl.obolibrary.org/obo/ZP_0011297	blood vessel pharyngeal arch absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
 http://purl.obolibrary.org/obo/ZP_0104232	blood vessel superior ocular sulcus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0005901	superior ocular sulcus
+http://purl.obolibrary.org/obo/ZP_0145115	bone element cranium absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001514	bone element	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
 http://purl.obolibrary.org/obo/ZP_0022199	bone element regenerating fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001514	bone element	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
 http://purl.obolibrary.org/obo/ZP_0012759	bony projection scapulocoracoid absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001637	bony projection	http://purl.obolibrary.org/obo/ZFA_0001455	scapulocoracoid
+http://purl.obolibrary.org/obo/ZP_0145456	brain male organism absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0104344	branchiomotor neuron rhombomere 6 absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005731	branchiomotor neuron	http://purl.obolibrary.org/obo/ZFA_0000069	rhombomere 6
 http://purl.obolibrary.org/obo/ZP_0106880	cardiac jelly atrioventricular canal absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001318	cardiac jelly	http://purl.obolibrary.org/obo/ZFA_0001315	atrioventricular canal
 http://purl.obolibrary.org/obo/ZP_0106124	cardiac muscle cell presumptive sinus venosus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0001722	presumptive sinus venosus
 http://purl.obolibrary.org/obo/ZP_0016881	cartilage element cranium absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001501	cartilage element	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
 http://purl.obolibrary.org/obo/ZP_0010130	cartilage element pectoral fin bud absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001501	cartilage element	http://purl.obolibrary.org/obo/ZFA_0000141	pectoral fin bud
-http://purl.obolibrary.org/obo/ZP_0003370	caveola nervous system absent, abnormal	http://purl.obolibrary.org/obo/GO_0005901	caveola	http://purl.obolibrary.org/obo/ZFA_0000396	nervous system
-http://purl.obolibrary.org/obo/ZP_0003374	caveola peridermal cell absent, abnormal	http://purl.obolibrary.org/obo/GO_0005901	caveola	http://purl.obolibrary.org/obo/ZFA_0009041	peridermal cell
-http://purl.obolibrary.org/obo/ZP_0003366	caveola somite absent, abnormal	http://purl.obolibrary.org/obo/GO_0005901	caveola	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0022277	cell endocardium absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001320	endocardium
 http://purl.obolibrary.org/obo/ZP_0137480	cell intrahepatic bile duct absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0005169	intrahepatic bile duct
 http://purl.obolibrary.org/obo/ZP_0141437	cell neural plate absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000132	neural plate
-http://purl.obolibrary.org/obo/ZP_0002388	cell projection membrane chondrocyte absent, abnormal	http://purl.obolibrary.org/obo/GO_0031253	cell projection membrane	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte
-http://purl.obolibrary.org/obo/ZP_0012707	cell projection membrane peridermal cell absent, abnormal	http://purl.obolibrary.org/obo/GO_0031253	cell projection membrane	http://purl.obolibrary.org/obo/ZFA_0009041	peridermal cell
 http://purl.obolibrary.org/obo/ZP_0022823	cell spinal cord absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0137298	cell yolk syncytial layer absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000088	yolk syncytial layer
 http://purl.obolibrary.org/obo/ZP_0018234	central artery hindbrain absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005020	central artery	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0105712	central region posterior lateral line primordium absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000075	central region	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium
-http://purl.obolibrary.org/obo/ZP_0142181	cholinergic synapse fast muscle cell absent, abnormal	http://purl.obolibrary.org/obo/GO_0098981	cholinergic synapse	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell
 http://purl.obolibrary.org/obo/ZP_0016452	chondroblast pharyngeal arch 3-7 skeleton absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009027	chondroblast	http://purl.obolibrary.org/obo/ZFA_0000095	pharyngeal arch 3-7 skeleton
+http://purl.obolibrary.org/obo/ZP_0143625	chondrocyte articular cartilage absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001644	articular cartilage
 http://purl.obolibrary.org/obo/ZP_0020836	chondrocyte ceratobranchial cartilage absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001516	ceratobranchial cartilage
 http://purl.obolibrary.org/obo/ZP_0007739	chondrocyte gill filament absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0000667	gill filament
+http://purl.obolibrary.org/obo/ZP_0143522	chondrocyte neurocranium absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001580	neurocranium
 http://purl.obolibrary.org/obo/ZP_0005406	chondrocyte pharyngeal arch 3-7 absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001613	pharyngeal arch 3-7
 http://purl.obolibrary.org/obo/ZP_0016456	chondrocyte pharyngeal arch 3-7 skeleton absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0000095	pharyngeal arch 3-7 skeleton
 http://purl.obolibrary.org/obo/ZP_0018834	chondrocyte pharyngeal arch absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
-http://purl.obolibrary.org/obo/ZP_0103591	ciliary membrane pronephros absent, abnormal	http://purl.obolibrary.org/obo/GO_0060170	ciliary membrane	http://purl.obolibrary.org/obo/ZFA_0000151	pronephros
 http://purl.obolibrary.org/obo/ZP_0009880	ciliated cell Kupffer's vesicle absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009032	ciliated cell	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
 http://purl.obolibrary.org/obo/ZP_0009710	circulating cell blood absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009043	circulating cell	http://purl.obolibrary.org/obo/ZFA_0000007	blood
-http://purl.obolibrary.org/obo/ZP_0002421	cleavage furrow blastoderm absent, abnormal	http://purl.obolibrary.org/obo/GO_0032154	cleavage furrow	http://purl.obolibrary.org/obo/ZFA_0001176	blastoderm
-http://purl.obolibrary.org/obo/ZP_0101076	cleavage furrow blastodisc absent, abnormal	http://purl.obolibrary.org/obo/GO_0032154	cleavage furrow	http://purl.obolibrary.org/obo/ZFA_0001175	blastodisc
-http://purl.obolibrary.org/obo/ZP_0005317	cleavage furrow blastomere absent, abnormal	http://purl.obolibrary.org/obo/GO_0032154	cleavage furrow	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0002346	common lymphoid progenitor thymus primordium absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009023	common lymphoid progenitor	http://purl.obolibrary.org/obo/ZFA_0001077	thymus primordium
 http://purl.obolibrary.org/obo/ZP_0102072	compartment boundary rhombomere absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000088	compartment boundary	http://purl.obolibrary.org/obo/ZFA_0001064	rhombomere
 http://purl.obolibrary.org/obo/ZP_0022633	cranial neural crest cell pharyngeal arch absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009003	cranial neural crest cell	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
 http://purl.obolibrary.org/obo/ZP_0103108	dermis fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001119	dermis	http://purl.obolibrary.org/obo/ZFA_0000108	fin
 http://purl.obolibrary.org/obo/ZP_0022198	distal region caudal fin absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000078	distal region	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
+http://purl.obolibrary.org/obo/ZP_0144878	distal region eye absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000078	distal region	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0010525	dopaminergic neuron caudal tuberculum absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009301	dopaminergic neuron	http://purl.obolibrary.org/obo/ZFA_0000633	caudal tuberculum
 http://purl.obolibrary.org/obo/ZP_0101109	dopaminergic neuron diencephalon absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009301	dopaminergic neuron	http://purl.obolibrary.org/obo/ZFA_0000101	diencephalon
 http://purl.obolibrary.org/obo/ZP_0010160	dopaminergic neuron forebrain absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009301	dopaminergic neuron	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
@@ -147,6 +143,7 @@ http://purl.obolibrary.org/obo/ZP_0103267	endodermal cell liver absent, abnormal
 http://purl.obolibrary.org/obo/ZP_0102133	endothelial cell brain absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0023050	endothelial cell dorsal aorta absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0023052	endothelial cell dorsal longitudinal anastomotic vessel absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
+http://purl.obolibrary.org/obo/ZP_0144739	endothelial cell heart absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0000114	heart
 http://purl.obolibrary.org/obo/ZP_0023049	endothelial cell hindbrain absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0023051	endothelial cell intersegmental vessel absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
 http://purl.obolibrary.org/obo/ZP_0141873	endothelial cell lymph vessel absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0005844	lymph vessel
@@ -156,11 +153,15 @@ http://purl.obolibrary.org/obo/ZP_0015594	endothelial cell trunk absent, abnorma
 http://purl.obolibrary.org/obo/ZP_0022703	endothelial cell ventral wall of dorsal aorta absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0005028	ventral wall of dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0003752	endothelial tip cell caudal vein plexus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009303	endothelial tip cell	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
 http://purl.obolibrary.org/obo/ZP_0018113	enteric neuron posterior intestine absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005775	enteric neuron	http://purl.obolibrary.org/obo/ZFA_0000706	posterior intestine
+http://purl.obolibrary.org/obo/ZP_0144032	enterocyte intestinal bulb absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009269	enterocyte	http://purl.obolibrary.org/obo/ZFA_0001076	intestinal bulb
 http://purl.obolibrary.org/obo/ZP_0008820	enterocyte intestinal epithelium absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009269	enterocyte	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
 http://purl.obolibrary.org/obo/ZP_0140491	ependymal cell spinal cord absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009033	ependymal cell	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0016108	epidermal basal stratum regenerating fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001180	epidermal basal stratum	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
 http://purl.obolibrary.org/obo/ZP_0018650	epidermal cell epidermis absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009183	epidermal cell	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
+http://purl.obolibrary.org/obo/ZP_0144030	epithelial cell eye absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0000107	eye
+http://purl.obolibrary.org/obo/ZP_0144031	epithelial cell intestine absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
 http://purl.obolibrary.org/obo/ZP_0141476	epithelium ciliary zone absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001486	epithelium	http://purl.obolibrary.org/obo/ZFA_0001203	ciliary zone
+http://purl.obolibrary.org/obo/ZP_0143172	erythroblast yolk syncytial layer absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005237	erythroblast	http://purl.obolibrary.org/obo/ZFA_0000088	yolk syncytial layer
 http://purl.obolibrary.org/obo/ZP_0019518	erythroid lineage cell posterior lateral mesoderm absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009325	erythroid lineage cell	http://purl.obolibrary.org/obo/ZFA_0005040	posterior lateral mesoderm
 http://purl.obolibrary.org/obo/ZP_0018539	fast muscle cell myotome absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
 http://purl.obolibrary.org/obo/ZP_0141477	fibroblast cornea absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009026	fibroblast	http://purl.obolibrary.org/obo/ZFA_0000640	cornea
@@ -196,6 +197,7 @@ http://purl.obolibrary.org/obo/ZP_0105752	hematopoietic stem cell dorsal aorta a
 http://purl.obolibrary.org/obo/ZP_0102194	hematopoietic stem cell post-vent region absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009014	hematopoietic stem cell	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0002354	hematopoietic stem cell ventral wall of dorsal aorta absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009014	hematopoietic stem cell	http://purl.obolibrary.org/obo/ZFA_0005028	ventral wall of dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0005640	integument ionocyte integument absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005325	integument ionocyte	http://purl.obolibrary.org/obo/ZFA_0000368	integument
+http://purl.obolibrary.org/obo/ZP_0144028	integument post-vent region absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000368	integument	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0141974	integument trunk absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000368	integument	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0002946	intersegmental vessel somite absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0103989	intersegmental vessel thoracic duct absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel	http://purl.obolibrary.org/obo/ZFA_0005110	thoracic duct
@@ -229,6 +231,8 @@ http://purl.obolibrary.org/obo/ZP_0103210	left side lateral plate mesoderm absen
 http://purl.obolibrary.org/obo/ZP_0130808	left side mid intestine absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000000	left side	http://purl.obolibrary.org/obo/ZFA_0001323	mid intestine
 http://purl.obolibrary.org/obo/ZP_0142570	leukocyte brain absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009309	leukocyte	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0101427	liver and biliary system regenerating tissue absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000036	liver and biliary system	http://purl.obolibrary.org/obo/ZFA_0005147	regenerating tissue
+http://purl.obolibrary.org/obo/ZP_0144172	liver female organism absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver	http://purl.obolibrary.org/obo/ZFA_0000303	female organism
+http://purl.obolibrary.org/obo/ZP_0143403	lymph vasculature brain absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005105	lymph vasculature	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0138678	lymph vasculature bulbus arteriosus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005105	lymph vasculature	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0138677	lymph vasculature cardiac ventricle absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005105	lymph vasculature	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
 http://purl.obolibrary.org/obo/ZP_0006753	lymph vasculature trunk absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005105	lymph vasculature	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
@@ -308,7 +312,6 @@ http://purl.obolibrary.org/obo/ZP_0104283	neuroepithelial cell spinal cord absen
 http://purl.obolibrary.org/obo/ZP_0140689	neuromast hair cell anterior-posterior polarized posterior lateral line neuromast absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell	http://purl.obolibrary.org/obo/ZFA_0005920	anterior-posterior polarized posterior lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0140688	neuromast hair cell dorsal-ventral polarized posterior lateral line neuromast absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell	http://purl.obolibrary.org/obo/ZFA_0005919	dorsal-ventral polarized posterior lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0010115	neuromast hair cell posterior lateral line neuromast absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell	http://purl.obolibrary.org/obo/ZFA_0000940	posterior lateral line neuromast
-http://purl.obolibrary.org/obo/ZP_0107132	neuromuscular junction primary motor neuron absent, abnormal	http://purl.obolibrary.org/obo/GO_0031594	neuromuscular junction	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0008284	neuron brain absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0139910	neuron dorsal habenular nucleus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000197	dorsal habenular nucleus
 http://purl.obolibrary.org/obo/ZP_0005594	neuron dorsal root ganglion absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000200	dorsal root ganglion
@@ -316,6 +319,7 @@ http://purl.obolibrary.org/obo/ZP_0001917	neuron enteric nervous system absent, 
 http://purl.obolibrary.org/obo/ZP_0007953	neuron gut absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000112	gut
 http://purl.obolibrary.org/obo/ZP_0001150	neuron hindbrain commissure absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0001692	hindbrain commissure
 http://purl.obolibrary.org/obo/ZP_0019641	neuron hypothalamus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000032	hypothalamus
+http://purl.obolibrary.org/obo/ZP_0144779	neuron inferior olive absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000215	inferior olive
 http://purl.obolibrary.org/obo/ZP_0017876	neuron locus coeruleus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000539	locus coeruleus
 http://purl.obolibrary.org/obo/ZP_0009972	neuron neural crest derived enteric nervous system absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009009	neuron neural crest derived	http://purl.obolibrary.org/obo/ZFA_0001155	enteric nervous system
 http://purl.obolibrary.org/obo/ZP_0020605	neuron neural crest derived gut absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009009	neuron neural crest derived	http://purl.obolibrary.org/obo/ZFA_0000112	gut
@@ -343,6 +347,7 @@ http://purl.obolibrary.org/obo/ZP_0105977	nucleate erythrocyte pharyngeal arch 3
 http://purl.obolibrary.org/obo/ZP_0105978	nucleate erythrocyte pharyngeal arch 4 absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte	http://purl.obolibrary.org/obo/ZFA_0001607	pharyngeal arch 4
 http://purl.obolibrary.org/obo/ZP_0105979	nucleate erythrocyte pharyngeal arch 5 absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte	http://purl.obolibrary.org/obo/ZFA_0001608	pharyngeal arch 5
 http://purl.obolibrary.org/obo/ZP_0105980	nucleate erythrocyte pharyngeal arch 6 absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte	http://purl.obolibrary.org/obo/ZFA_0001609	pharyngeal arch 6
+http://purl.obolibrary.org/obo/ZP_0143760	nucleate erythrocyte trunk absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0104249	nucleate erythrocyte vasculature absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte	http://purl.obolibrary.org/obo/ZFA_0005249	vasculature
 http://purl.obolibrary.org/obo/ZP_0010090	olfactory receptor cell olfactory placode absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009125	olfactory receptor cell	http://purl.obolibrary.org/obo/ZFA_0000048	olfactory placode
 http://purl.obolibrary.org/obo/ZP_0007708	oligodendrocyte spinal cord absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009076	oligodendrocyte	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
@@ -350,10 +355,10 @@ http://purl.obolibrary.org/obo/ZP_0007967	osteoblast ceratohyal cartilage absent
 http://purl.obolibrary.org/obo/ZP_0105959	osteoblast opercle absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009031	osteoblast	http://purl.obolibrary.org/obo/ZFA_0000250	opercle
 http://purl.obolibrary.org/obo/ZP_0022200	osteoblast regenerating fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009031	osteoblast	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
 http://purl.obolibrary.org/obo/ZP_0106153	pectoral fin breeding tubercle male organism absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005797	pectoral fin breeding tubercle	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
-http://purl.obolibrary.org/obo/ZP_0104319	periciliary membrane compartment photoreceptor cell absent, abnormal	http://purl.obolibrary.org/obo/GO_1990075	periciliary membrane compartment	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0141804	pericyte brain vasculature absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009112	pericyte	http://purl.obolibrary.org/obo/ZFA_0000099	brain vasculature
 http://purl.obolibrary.org/obo/ZP_0007327	perineuronal satellite cell cranial ganglion absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009237	perineuronal satellite cell	http://purl.obolibrary.org/obo/ZFA_0000013	cranial ganglion
 http://purl.obolibrary.org/obo/ZP_0106140	peripheral region heart rudiment absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000127	peripheral region	http://purl.obolibrary.org/obo/ZFA_0000115	heart rudiment
+http://purl.obolibrary.org/obo/ZP_0144029	peripheral region pharyngeal musculature absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000127	peripheral region	http://purl.obolibrary.org/obo/ZFA_0001307	pharyngeal musculature
 http://purl.obolibrary.org/obo/ZP_0010529	photopic photoreceptor cell retina absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009220	photopic photoreceptor cell	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0103540	photoreceptor cell epiphysis absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell	http://purl.obolibrary.org/obo/ZFA_0000019	epiphysis
 http://purl.obolibrary.org/obo/ZP_0016795	photoreceptor cell retina absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell	http://purl.obolibrary.org/obo/ZFA_0000152	retina
@@ -362,7 +367,6 @@ http://purl.obolibrary.org/obo/ZP_0006102	photoreceptor outer segment layer reti
 http://purl.obolibrary.org/obo/ZP_0001913	pigment cell head absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009090	pigment cell	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0001914	pigment cell trunk absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009090	pigment cell	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0005204	pioneer neuron olfactory placode absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009066	pioneer neuron	http://purl.obolibrary.org/obo/ZFA_0000048	olfactory placode
-http://purl.obolibrary.org/obo/ZP_0106935	plasma membrane blastomere absent, abnormal	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0012682	posterior crista otic vesicle absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000566	posterior crista	http://purl.obolibrary.org/obo/ZFA_0000051	otic vesicle
 http://purl.obolibrary.org/obo/ZP_0139754	posterior margin rhombomere 1 absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000672	posterior margin	http://purl.obolibrary.org/obo/ZFA_0001031	rhombomere 1
 http://purl.obolibrary.org/obo/ZP_0139751	posterior margin rhombomere 2 absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000672	posterior margin	http://purl.obolibrary.org/obo/ZFA_0000822	rhombomere 2
@@ -384,6 +388,7 @@ http://purl.obolibrary.org/obo/ZP_0021794	posterior region presumptive pronephri
 http://purl.obolibrary.org/obo/ZP_0018759	posterior region trunk absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000072	posterior region	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0016931	posterior region trunk musculature absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000072	posterior region	http://purl.obolibrary.org/obo/ZFA_0000473	trunk musculature
 http://purl.obolibrary.org/obo/ZP_0100301	posterior region whole organism absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000072	posterior region	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0144025	posterior side muscle absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000056	posterior side	http://purl.obolibrary.org/obo/ZFA_0005145	muscle
 http://purl.obolibrary.org/obo/ZP_0019576	posterior side somite absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000056	posterior side	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0102285	posterior side whole organism absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000056	posterior side	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0140174	posterior-most region notochord absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000037	posterior-most region	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
@@ -393,14 +398,13 @@ http://purl.obolibrary.org/obo/ZP_0130742	postero-ventral region diencephalon ab
 http://purl.obolibrary.org/obo/ZP_0014940	pro-T cell thymus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009350	pro-T cell	http://purl.obolibrary.org/obo/ZFA_0001078	thymus
 http://purl.obolibrary.org/obo/ZP_0107058	proximal region fin fold pectoral fin bud absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000077	proximal region	http://purl.obolibrary.org/obo/ZFA_0005316	fin fold pectoral fin bud
 http://purl.obolibrary.org/obo/ZP_0020916	proximal region pronephric duct absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000077	proximal region	http://purl.obolibrary.org/obo/ZFA_0000150	pronephric duct
-http://purl.obolibrary.org/obo/ZP_0007441	recycling endosome membrane pronephric duct absent, abnormal	http://purl.obolibrary.org/obo/GO_0055038	recycling endosome membrane	http://purl.obolibrary.org/obo/ZFA_0000150	pronephric duct
 http://purl.obolibrary.org/obo/ZP_0022174	regenerating tissue hepatocyte absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005147	regenerating tissue	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte
 http://purl.obolibrary.org/obo/ZP_0021428	regeneration epithelium caudal fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001389	regeneration epithelium	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0141754	retina artery absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina	http://purl.obolibrary.org/obo/ZFA_0000005	artery
 http://purl.obolibrary.org/obo/ZP_0141492	retina regenerating tissue absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina	http://purl.obolibrary.org/obo/ZFA_0005147	regenerating tissue
+http://purl.obolibrary.org/obo/ZP_0143418	retinal cone cell retinal outer nuclear layer absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell	http://purl.obolibrary.org/obo/ZFA_0001464	retinal outer nuclear layer
 http://purl.obolibrary.org/obo/ZP_0137680	rhombomere 5 branchiomotor neuron absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000823	rhombomere 5	http://purl.obolibrary.org/obo/ZFA_0005731	branchiomotor neuron
 http://purl.obolibrary.org/obo/ZP_0137679	rhombomere 6 branchiomotor neuron absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000069	rhombomere 6	http://purl.obolibrary.org/obo/ZFA_0005731	branchiomotor neuron
-http://purl.obolibrary.org/obo/ZP_0022542	ribbon synapse neuromast hair cell absent, abnormal	http://purl.obolibrary.org/obo/GO_0097470	ribbon synapse	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell
 http://purl.obolibrary.org/obo/ZP_0130810	right side mid intestine absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000007	right side	http://purl.obolibrary.org/obo/ZFA_0001323	mid intestine
 http://purl.obolibrary.org/obo/ZP_0015816	scapulocoracoid pectoral fin absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001455	scapulocoracoid	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
 http://purl.obolibrary.org/obo/ZP_0010000	scapulocoracoid pectoral fin fold absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001455	scapulocoracoid	http://purl.obolibrary.org/obo/ZFA_0005317	pectoral fin fold
@@ -415,17 +419,16 @@ http://purl.obolibrary.org/obo/ZP_0103118	somatic cell gonad primordium absent, 
 http://purl.obolibrary.org/obo/ZP_0102411	somite post-vent region absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0005153	somite trunk absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0016611	somite whole organism absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0145323	sperm seminiferous tubule absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009006	sperm	http://purl.obolibrary.org/obo/ZFA_0005879	seminiferous tubule
 http://purl.obolibrary.org/obo/ZP_0016020	sperm sperm duct absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009006	sperm	http://purl.obolibrary.org/obo/ZFA_0001268	sperm duct
 http://purl.obolibrary.org/obo/ZP_0018382	sperm testis absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009006	sperm	http://purl.obolibrary.org/obo/ZFA_0000598	testis
 http://purl.obolibrary.org/obo/ZP_0018381	spermatid testis absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005769	spermatid	http://purl.obolibrary.org/obo/ZFA_0000598	testis
-http://purl.obolibrary.org/obo/ZP_0019520	synapse Mauthner neuron absent, abnormal	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/ZFA_0009149	Mauthner neuron
-http://purl.obolibrary.org/obo/ZP_0102277	synapse afferent neuron absent, abnormal	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/ZFA_0009238	afferent neuron
-http://purl.obolibrary.org/obo/ZP_0102274	synapse cranial nerve VIII absent, abnormal	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/ZFA_0000247	cranial nerve VIII
-http://purl.obolibrary.org/obo/ZP_0102275	synapse spinal cord interneuron absent, abnormal	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/ZFA_0000778	spinal cord interneuron
+http://purl.obolibrary.org/obo/ZP_0145322	spermatocyte testis absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009005	spermatocyte	http://purl.obolibrary.org/obo/ZFA_0000598	testis
 http://purl.obolibrary.org/obo/ZP_0014707	tendon pharyngeal arch absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005647	tendon	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
 http://purl.obolibrary.org/obo/ZP_0003625	thrombocyte blood island absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009323	thrombocyte	http://purl.obolibrary.org/obo/ZFA_0000094	blood island
 http://purl.obolibrary.org/obo/ZP_0130880	thrombocyte thymus absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009323	thrombocyte	http://purl.obolibrary.org/obo/ZFA_0001078	thymus
 http://purl.obolibrary.org/obo/ZP_0020983	trabecular layer cardiac ventricle absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0005059	trabecular layer	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
+http://purl.obolibrary.org/obo/ZP_0144174	unfertilized egg female organism absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001570	unfertilized egg	http://purl.obolibrary.org/obo/ZFA_0000303	female organism
 http://purl.obolibrary.org/obo/ZP_0106083	urogenital papilla male organism absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001118	urogenital papilla	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0101698	vascular associated smooth muscle cell dorsal aorta absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009181	vascular associated smooth muscle cell	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0018299	vascular lymphangioblast posterior cardinal vein absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009395	vascular lymphangioblast	http://purl.obolibrary.org/obo/ZFA_0000477	posterior cardinal vein
@@ -453,6 +456,7 @@ http://purl.obolibrary.org/obo/ZP_0020914	ventral region somite absent, abnormal
 http://purl.obolibrary.org/obo/ZP_0020751	ventral region spinal cord absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000084	ventral region	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0102563	ventral region trunk absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000084	ventral region	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0140364	ventral region whole organism absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000084	ventral region	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0144215	ventral side caudal vein plexus absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000068	ventral side	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
 http://purl.obolibrary.org/obo/ZP_0104468	ventral-most region Kolmer-Agduhr neuron absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000039	ventral-most region	http://purl.obolibrary.org/obo/ZFA_0005240	Kolmer-Agduhr neuron
 http://purl.obolibrary.org/obo/ZP_0106061	ventral-most region pharyngeal arch 1 absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000039	ventral-most region	http://purl.obolibrary.org/obo/ZFA_0001612	pharyngeal arch 1
 http://purl.obolibrary.org/obo/ZP_0138631	ventral-most region somite 1 absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000039	ventral-most region	http://purl.obolibrary.org/obo/ZFA_0000072	somite 1
@@ -464,4 +468,5 @@ http://purl.obolibrary.org/obo/ZP_0104462	ventro-medial region Kolmer-Agduhr neu
 http://purl.obolibrary.org/obo/ZP_0103927	ventro-medial region brain absent, abnormal	http://purl.obolibrary.org/obo/BSPO_0000112	ventro-medial region	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0103551	visible light photoreceptor cell epiphysis absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009219	visible light photoreceptor cell	http://purl.obolibrary.org/obo/ZFA_0000019	epiphysis
 http://purl.obolibrary.org/obo/ZP_0001176	xanthophore hypodermis absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009198	xanthophore	http://purl.obolibrary.org/obo/ZFA_0001136	hypodermis
+http://purl.obolibrary.org/obo/ZP_0144600	xanthophore integument absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009198	xanthophore	http://purl.obolibrary.org/obo/ZFA_0000368	integument
 http://purl.obolibrary.org/obo/ZP_0009971	xanthophore trunk absent, abnormal	http://purl.obolibrary.org/obo/ZFA_0009198	xanthophore	http://purl.obolibrary.org/obo/ZFA_0001115	trunk

@@ -2,14 +2,15 @@ defined_class	defined_class_label	entity	entity_label
 http://purl.obolibrary.org/obo/MP_0013442	abnormal Harderian gland size	http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
 http://purl.obolibrary.org/obo/MP_0008134	abnormal Peyer's patch size	http://purl.obolibrary.org/obo/UBERON_0001211	Peyer's patch
 http://purl.obolibrary.org/obo/MP_0020143	abnormal adrenal gland x-zone size	http://purl.obolibrary.org/obo/UBERON_0009024	adrenal gland X zone
+http://purl.obolibrary.org/obo/MP_0020436	abnormal astrocyte size	http://purl.obolibrary.org/obo/CL_0000127	astrocyte
 http://purl.obolibrary.org/obo/MP_0003956	abnormal body size	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0000771	abnormal brain size	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0013229	abnormal brain ventricle size	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle
+http://purl.obolibrary.org/obo/MP_0009135	abnormal brown fat cell size	http://purl.obolibrary.org/obo/CL_0000449	brown fat cell
 http://purl.obolibrary.org/obo/MP_0020538	abnormal cerebellum fastigial nucleus size	http://purl.obolibrary.org/obo/UBERON_0002153	fastigial nucleus
 http://purl.obolibrary.org/obo/MP_0009100	abnormal clitoris size	http://purl.obolibrary.org/obo/UBERON_0002411	clitoris
 http://purl.obolibrary.org/obo/MP_0020573	abnormal corpus callosum size	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
 http://purl.obolibrary.org/obo/MP_0010031	abnormal cranium size	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
-http://purl.obolibrary.org/obo/MP_0001697	abnormal embryo size	http://purl.obolibrary.org/obo/UBERON_0000922	embryo
 http://purl.obolibrary.org/obo/MP_0004926	abnormal epididymis size	http://purl.obolibrary.org/obo/UBERON_0001301	epididymis
 http://purl.obolibrary.org/obo/MP_0002697	abnormal eye size	http://purl.obolibrary.org/obo/UBERON_0000019	camera-type eye
 http://purl.obolibrary.org/obo/MP_0003671	abnormal eyelid aperture	http://purl.obolibrary.org/obo/UBERON_0001819	palpebral fissure
@@ -17,7 +18,7 @@ http://purl.obolibrary.org/obo/MP_0030063	abnormal face size	http://purl.obolibr
 http://purl.obolibrary.org/obo/MP_0004198	abnormal fetal size	http://purl.obolibrary.org/obo/UBERON_0000323	late embryo
 http://purl.obolibrary.org/obo/MP_0012137	abnormal forebrain size	http://purl.obolibrary.org/obo/UBERON_0001890	forebrain
 http://purl.obolibrary.org/obo/MP_0030041	abnormal forehead size	http://purl.obolibrary.org/obo/UBERON_0008200	forehead
-http://purl.obolibrary.org/obo/MP_0020134	abnormal gallbladder size	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MP_0020134	abnormal gallbladder size	http://purl.obolibrary.org/obo/UBERON_0002110	gallbladder
 http://purl.obolibrary.org/obo/MP_0011496	abnormal head size	http://purl.obolibrary.org/obo/UBERON_0000033	head
 http://purl.obolibrary.org/obo/MP_0020323	abnormal heart apex size	http://purl.obolibrary.org/obo/UBERON_0002098	apex of heart
 http://purl.obolibrary.org/obo/MP_0010578	abnormal heart left ventricle size	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
@@ -37,6 +38,7 @@ http://purl.obolibrary.org/obo/MP_0006216	abnormal optic disk size	http://purl.o
 http://purl.obolibrary.org/obo/MP_0006210	abnormal orbit size	http://purl.obolibrary.org/obo/UBERON_0001697	orbit of skull
 http://purl.obolibrary.org/obo/MP_0004853	abnormal ovary size	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009063	abnormal oviduct size	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
+http://purl.obolibrary.org/obo/MP_0031461	abnormal palatal shelf size	http://purl.obolibrary.org/obo/UBERON_0005619	secondary palatal shelf
 http://purl.obolibrary.org/obo/MP_0009106	abnormal pancreas size	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/MP_0009170	abnormal pancreatic islet size	http://purl.obolibrary.org/obo/UBERON_0000006	islet of Langerhans
 http://purl.obolibrary.org/obo/MP_0008936	abnormal pituitary gland size	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
@@ -46,10 +48,12 @@ http://purl.obolibrary.org/obo/MP_0020532	abnormal pons size	http://purl.obolibr
 http://purl.obolibrary.org/obo/MP_0020561	abnormal pontine nuclei size	http://purl.obolibrary.org/obo/UBERON_0002151	pontine nuclear group
 http://purl.obolibrary.org/obo/MP_0020565	abnormal pontocerebellar fibers size	http://purl.obolibrary.org/obo/UBERON_0022421	pontocerebellar tract
 http://purl.obolibrary.org/obo/MP_0020569	abnormal premotor cortex size	http://purl.obolibrary.org/obo/UBERON_0016634	premotor cortex
+http://purl.obolibrary.org/obo/MP_0010866	abnormal prenatal body size	http://purl.obolibrary.org/obo/UBERON_0000922	embryo
 http://purl.obolibrary.org/obo/MP_0004959	abnormal prostate gland size	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland
 http://purl.obolibrary.org/obo/MP_0004907	abnormal seminal vesicle size	http://purl.obolibrary.org/obo/UBERON_0000998	seminal vesicle
 http://purl.obolibrary.org/obo/MP_0006307	abnormal seminiferous tubule size	http://purl.obolibrary.org/obo/UBERON_0001343	seminiferous tubule of testis
 http://purl.obolibrary.org/obo/MP_0012005	abnormal septum pellucidum size	http://purl.obolibrary.org/obo/UBERON_0004714	septum pellucidum
+http://purl.obolibrary.org/obo/MP_0009398	abnormal skeletal muscle fiber size	http://purl.obolibrary.org/obo/CL_0000188	cell of skeletal muscle
 http://purl.obolibrary.org/obo/MP_0009458	abnormal skeletal muscle size	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/MP_0005222	abnormal somite size	http://purl.obolibrary.org/obo/UBERON_0002329	somite
 http://purl.obolibrary.org/obo/MP_0002224	abnormal spleen size	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
@@ -65,3 +69,5 @@ http://purl.obolibrary.org/obo/MP_0009225	abnormal uterine cervix size	http://pu
 http://purl.obolibrary.org/obo/MP_0004902	abnormal uterus size	http://purl.obolibrary.org/obo/UBERON_0000995	uterus
 http://purl.obolibrary.org/obo/MP_0008977	abnormal vagina size	http://purl.obolibrary.org/obo/UBERON_0000996	vagina
 http://purl.obolibrary.org/obo/MP_0020557	abnormal ventromedial hypothalamic nucleus size	http://purl.obolibrary.org/obo/UBERON_0001935	ventromedial nucleus of hypothalamus
+http://purl.obolibrary.org/obo/MP_0009132	abnormal white fat cell size	http://purl.obolibrary.org/obo/CL_0000448	white fat cell
+http://purl.obolibrary.org/obo/MP_0002641	anisopoikilocytosis	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte

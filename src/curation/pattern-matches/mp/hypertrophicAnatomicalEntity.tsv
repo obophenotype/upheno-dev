@@ -1,7 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0013447	Harderian gland hypertrophy	http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
-http://purl.obolibrary.org/obo/MP_0001020	L4 dorsal root ganglion hypertrophy	http://purl.obolibrary.org/obo/UBERON_0003943	fourth lumbar dorsal root ganglion
-http://purl.obolibrary.org/obo/MP_0001023	L5 dorsal root ganglion hypertrophy	http://purl.obolibrary.org/obo/UBERON_0002859	fifth lumbar dorsal root ganglion
 http://purl.obolibrary.org/obo/MP_0013387	Meibomian gland hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001818	tarsal gland
 http://purl.obolibrary.org/obo/MP_0013355	adenohypophysis hypertrophy	http://purl.obolibrary.org/obo/UBERON_0002196	adenohypophysis
 http://purl.obolibrary.org/obo/MP_0002844	aortic hypertrophy	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
@@ -24,7 +22,5 @@ http://purl.obolibrary.org/obo/MP_0010944	respiratory epithelium hypertrophy	htt
 http://purl.obolibrary.org/obo/MP_0009793	sebaceous gland hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
 http://purl.obolibrary.org/obo/MP_0009461	skeletal muscle hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/MP_0010786	stomach fundus hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001160	fundus of stomach
-http://purl.obolibrary.org/obo/MP_0001012	superior cervical ganglion hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001989	superior cervical ganglion
-http://purl.obolibrary.org/obo/MP_0001094	trigeminal ganglion hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001675	trigeminal ganglion
 http://purl.obolibrary.org/obo/MP_0009083	uterus hypertrophy	http://purl.obolibrary.org/obo/UBERON_0000995	uterus
 http://purl.obolibrary.org/obo/MP_0002975	vascular smooth muscle hypertrophy	http://purl.obolibrary.org/obo/UBERON_0004237	blood vessel smooth muscle

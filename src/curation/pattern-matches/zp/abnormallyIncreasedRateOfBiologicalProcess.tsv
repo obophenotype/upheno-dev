@@ -33,6 +33,7 @@ http://purl.obolibrary.org/obo/ZP_0014076	hindgut contraction increased rate, ab
 http://purl.obolibrary.org/obo/ZP_0106406	inflammatory response increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
 http://purl.obolibrary.org/obo/ZP_0011457	larval locomotory behavior increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0008345	larval locomotory behavior
 http://purl.obolibrary.org/obo/ZP_0002616	locomotory behavior increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007626	locomotory behavior
+http://purl.obolibrary.org/obo/ZP_0144023	macrophage migration increased rate, abnormal	http://purl.obolibrary.org/obo/GO_1905517	macrophage migration
 http://purl.obolibrary.org/obo/ZP_0002128	mesodermal cell migration increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0008078	mesodermal cell migration
 http://purl.obolibrary.org/obo/ZP_0007635	metabolic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0008152	metabolic process
 http://purl.obolibrary.org/obo/ZP_0106318	microtubule polymerization increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046785	microtubule polymerization
@@ -52,5 +53,6 @@ http://purl.obolibrary.org/obo/ZP_0018360	respiratory gaseous exchange by respir
 http://purl.obolibrary.org/obo/ZP_0002437	retinal cell programmed cell death increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046666	retinal cell programmed cell death
 http://purl.obolibrary.org/obo/ZP_0006175	skeletal muscle cell proliferation increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0014856	skeletal muscle cell proliferation
 http://purl.obolibrary.org/obo/ZP_0102863	swimming behavior increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0036269	swimming behavior
+http://purl.obolibrary.org/obo/ZP_0143962	swimming increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0036268	swimming
 http://purl.obolibrary.org/obo/ZP_0014569	urea transport increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0015840	urea transport
 http://purl.obolibrary.org/obo/ZP_0140425	wound healing increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0042060	wound healing

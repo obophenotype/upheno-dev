@@ -8,6 +8,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000351	failure to hatch	http://purl.
 http://purl.obolibrary.org/obo/WBPhenotype_0001244	intraflagellar transport absent	http://purl.obolibrary.org/obo/GO_0042073	intraciliary transport
 http://purl.obolibrary.org/obo/WBPhenotype_0000190	no dauer recovery	http://purl.obolibrary.org/obo/GO_0043054	dauer exit
 http://purl.obolibrary.org/obo/WBPhenotype_0000410	no defecation cycle	http://purl.obolibrary.org/obo/GO_0035882	defecation rhythm
+http://purl.obolibrary.org/obo/WBPhenotype_0001373	protein RNA interaction abolished	http://purl.obolibrary.org/obo/GO_0022618	protein-RNA complex assembly
 http://purl.obolibrary.org/obo/WBPhenotype_0001373	protein RNA interaction abolished	http://purl.obolibrary.org/obo/GO_0022618	ribonucleoprotein complex assembly
 http://purl.obolibrary.org/obo/WBPhenotype_0001168	pseudocleavage absent early emb	http://purl.obolibrary.org/obo/GO_0030590	first cell cycle pseudocleavage
 http://purl.obolibrary.org/obo/WBPhenotype_0001396	pumping absent	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping

@@ -36,11 +36,9 @@ http://purl.obolibrary.org/obo/HP_0041191	Fractured epiphysis of third metacarpa
 http://purl.obolibrary.org/obo/HP_0041195	Fractured epiphysis of third metatarsal bone	http://purl.obolibrary.org/obo/UBERON_0004397	epiphysis of third metatarsal bone
 http://purl.obolibrary.org/obo/HP_0041220	Fractured facial bone	http://purl.obolibrary.org/obo/UBERON_0003462	facial bone
 http://purl.obolibrary.org/obo/HP_0041222	Fractured fibula	http://purl.obolibrary.org/obo/UBERON_0001446	fibula
-http://purl.obolibrary.org/obo/HP_0041162	Fractured foot bone	http://purl.obolibrary.org/obo/UBERON_0001445	skeleton of pes
 http://purl.obolibrary.org/obo/HP_0003961	Fractured forearm bones	http://purl.obolibrary.org/obo/UBERON_0003466	forelimb zeugopod bone
 http://purl.obolibrary.org/obo/HP_0041215	Fractured fused metatarsal bones 2-4	http://purl.obolibrary.org/obo/UBERON_0014763	fused metatarsal bones 2-4
 http://purl.obolibrary.org/obo/HP_0041172	Fractured fused sacrum	http://purl.obolibrary.org/obo/UBERON_0003690	fused sacrum
-http://purl.obolibrary.org/obo/HP_0041053	Fractured head	http://purl.obolibrary.org/obo/UBERON_0000033	head
 http://purl.obolibrary.org/obo/HP_0041221	Fractured head of femur	http://purl.obolibrary.org/obo/UBERON_0006767	head of femur
 http://purl.obolibrary.org/obo/HP_0041235	Fractured hindlimb bone	http://purl.obolibrary.org/obo/UBERON_0003464	hindlimb bone
 http://purl.obolibrary.org/obo/HP_0041055	Fractured humerus	http://purl.obolibrary.org/obo/UBERON_0000976	humerus
@@ -104,3 +102,5 @@ http://purl.obolibrary.org/obo/HP_0041143	Fractured tibia	http://purl.obolibrary
 http://purl.obolibrary.org/obo/HP_0003987	Fractured ulna	http://purl.obolibrary.org/obo/UBERON_0001424	ulna
 http://purl.obolibrary.org/obo/HP_0041118	Fractured upper limb segment	http://purl.obolibrary.org/obo/UBERON_0008785	upper limb segment
 http://purl.obolibrary.org/obo/HP_0041166	Fractured vertebra	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra
+http://purl.obolibrary.org/obo/HP_0034500	Glenoid fracture	http://purl.obolibrary.org/obo/UBERON_0006657	glenoid fossa
+http://purl.obolibrary.org/obo/HP_0041162	Metatarsal fracture	http://purl.obolibrary.org/obo/UBERON_0001445	skeleton of pes

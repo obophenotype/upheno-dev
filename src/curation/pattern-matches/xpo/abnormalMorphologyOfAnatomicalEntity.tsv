@@ -20,6 +20,7 @@ http://purl.obolibrary.org/obo/XPO_0103232	abnormal Schwann cell morphology	http
 http://purl.obolibrary.org/obo/XPO_0102392	abnormal Stirnorgan morphology	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
 http://purl.obolibrary.org/obo/XPO_0102715	abnormal T cell morphology	http://purl.obolibrary.org/obo/XAO_0003157	T cell
 http://purl.obolibrary.org/obo/XPO_0103190	abnormal abdominal myoblast morphology	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
+http://purl.obolibrary.org/obo/XPO_0142060	abnormal abdominal wall morphology	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0102481	abnormal abducens nerve morphology	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
 http://purl.obolibrary.org/obo/XPO_0103167	abnormal absorptive cell morphology	http://purl.obolibrary.org/obo/XAO_0003231	absorptive cell
 http://purl.obolibrary.org/obo/XPO_0103228	abnormal accessory nerve morphology	http://purl.obolibrary.org/obo/XAO_0004214	accessory nerve
@@ -287,6 +288,7 @@ http://purl.obolibrary.org/obo/XPO_0103204	abnormal ceratohyal morphology	http:/
 http://purl.obolibrary.org/obo/XPO_0102148	abnormal cerebellum morphology	http://purl.obolibrary.org/obo/XAO_0003098	cerebellum
 http://purl.obolibrary.org/obo/XPO_0102225	abnormal cerebral artery morphology	http://purl.obolibrary.org/obo/XAO_0000367	cerebral artery
 http://purl.obolibrary.org/obo/XPO_0102167	abnormal cerebral vein morphology	http://purl.obolibrary.org/obo/XAO_0004160	cerebral vein
+http://purl.obolibrary.org/obo/XPO_0142058	abnormal cerebrospinal fluid morphology	http://purl.obolibrary.org/obo/XAO_0005506	cerebrospinal fluid
 http://purl.obolibrary.org/obo/XPO_0102600	abnormal cervical vertebra morphology	http://purl.obolibrary.org/obo/XAO_0003076	cervical vertebra
 http://purl.obolibrary.org/obo/XPO_0102052	abnormal choana morphology	http://purl.obolibrary.org/obo/XAO_0000277	choana
 http://purl.obolibrary.org/obo/XPO_0101921	abnormal chondroblast morphology	http://purl.obolibrary.org/obo/XAO_0003238	chondroblast
@@ -359,9 +361,11 @@ http://purl.obolibrary.org/obo/XPO_0102799	abnormal dermatome morphology	http://
 http://purl.obolibrary.org/obo/XPO_0102561	abnormal dermis morphology	http://purl.obolibrary.org/obo/XAO_0000217	dermis
 http://purl.obolibrary.org/obo/XPO_0101892	abnormal dermomyotome morphology	http://purl.obolibrary.org/obo/XAO_0005080	dermomyotome
 http://purl.obolibrary.org/obo/XPO_0103117	abnormal descending interneuron morphology	http://purl.obolibrary.org/obo/XAO_0005182	descending interneuron
+http://purl.obolibrary.org/obo/XPO_0142064	abnormal desmosome morphology	http://purl.obolibrary.org/obo/XAO_0005500	desmosome
 http://purl.obolibrary.org/obo/XPO_0101889	abnormal diaphysis morphology	http://purl.obolibrary.org/obo/XAO_0004488	diaphysis
 http://purl.obolibrary.org/obo/XPO_0102207	abnormal diencephalon morphology	http://purl.obolibrary.org/obo/XAO_0000013	diencephalon
 http://purl.obolibrary.org/obo/XPO_0102830	abnormal digestive enzyme secreting cell morphology	http://purl.obolibrary.org/obo/XAO_0003240	digestive enzyme secreting cell
+http://purl.obolibrary.org/obo/XPO_0142061	abnormal digestive tract morphology	http://purl.obolibrary.org/obo/XAO_0005501	digestive tract
 http://purl.obolibrary.org/obo/XPO_0101810	abnormal digit morphology	http://purl.obolibrary.org/obo/XAO_0003032	digit
 http://purl.obolibrary.org/obo/XPO_0102880	abnormal digit-joint region morphology	http://purl.obolibrary.org/obo/XAO_0004314	digit-joint region
 http://purl.obolibrary.org/obo/XPO_0102601	abnormal disaggregated/reaggregated ectoderm treated with activin morphology	http://purl.obolibrary.org/obo/XAO_0003009	disaggregated/reaggregated ectoderm treated with activin
@@ -809,6 +813,7 @@ http://purl.obolibrary.org/obo/XPO_0102095	abnormal m. transversus ventralis II 
 http://purl.obolibrary.org/obo/XPO_0102304	abnormal m. transversus ventralis II primordium morphology	http://purl.obolibrary.org/obo/XAO_0004436	m. transversus ventralis II primordium
 http://purl.obolibrary.org/obo/XPO_0102848	abnormal macrophage morphology	http://purl.obolibrary.org/obo/XAO_0005025	macrophage
 http://purl.obolibrary.org/obo/XPO_0103052	abnormal magnocellular preoptic nucleus morphology	http://purl.obolibrary.org/obo/XAO_0004567	magnocellular preoptic nucleus
+http://purl.obolibrary.org/obo/XPO_0142063	abnormal main body axis morphology	http://purl.obolibrary.org/obo/XAO_0005502	main body axis
 http://purl.obolibrary.org/obo/XPO_0102397	abnormal male genitalia morphology	http://purl.obolibrary.org/obo/XAO_0000155	male genitalia
 http://purl.obolibrary.org/obo/XPO_0102177	abnormal male organism morphology	http://purl.obolibrary.org/obo/XAO_0003006	male organism
 http://purl.obolibrary.org/obo/XPO_0102707	abnormal mammilary region morphology	http://purl.obolibrary.org/obo/XAO_0004605	mammilary region
@@ -954,6 +959,7 @@ http://purl.obolibrary.org/obo/XPO_0102280	abnormal myotome of trunk somite 6 mo
 http://purl.obolibrary.org/obo/XPO_0102937	abnormal myotome of trunk somite 7 morphology	http://purl.obolibrary.org/obo/XAO_0003119	myotome of trunk somite 7
 http://purl.obolibrary.org/obo/XPO_0102664	abnormal myotome of trunk somite 8 morphology	http://purl.obolibrary.org/obo/XAO_0003120	myotome of trunk somite 8
 http://purl.obolibrary.org/obo/XPO_0103017	abnormal myotome of trunk somite 9 morphology	http://purl.obolibrary.org/obo/XAO_0003125	myotome of trunk somite 9
+http://purl.obolibrary.org/obo/XPO_0142059	abnormal nasal region morphology	http://purl.obolibrary.org/obo/XAO_0005505	nasal region
 http://purl.obolibrary.org/obo/XPO_0103001	abnormal nasociliary artery morphology	http://purl.obolibrary.org/obo/XAO_0004175	nasociliary artery
 http://purl.obolibrary.org/obo/XPO_0141303	abnormal nasociliary nerve morphology	http://purl.obolibrary.org/obo/XAO_0005292	nasociliary nerve
 http://purl.obolibrary.org/obo/XPO_0102446	abnormal natural killer cell morphology	http://purl.obolibrary.org/obo/XAO_0003156	natural killer cell
@@ -1457,6 +1463,7 @@ http://purl.obolibrary.org/obo/XPO_0102544	abnormal trabecula morphology	http://
 http://purl.obolibrary.org/obo/XPO_0102974	abnormal trachea morphology	http://purl.obolibrary.org/obo/XAO_0000118	trachea
 http://purl.obolibrary.org/obo/XPO_0141305	abnormal tracheal epithelium morphology	http://purl.obolibrary.org/obo/XAO_0005298	tracheal epithelium
 http://purl.obolibrary.org/obo/XPO_0141722	abnormal tracheoesophageal fold morphology	http://purl.obolibrary.org/obo/XAO_0005426	tracheoesophageal fold
+http://purl.obolibrary.org/obo/XPO_0142062	abnormal tracheoesophageal septum morphology	http://purl.obolibrary.org/obo/XAO_0005503	tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0141721	abnormal transient tracheoesophageal septum morphology	http://purl.obolibrary.org/obo/XAO_0005425	transient tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0102500	abnormal transporting epithelium morphology	http://purl.obolibrary.org/obo/XAO_0004224	transporting epithelium
 http://purl.obolibrary.org/obo/XPO_0103078	abnormal transverse process morphology	http://purl.obolibrary.org/obo/XAO_0003102	transverse process

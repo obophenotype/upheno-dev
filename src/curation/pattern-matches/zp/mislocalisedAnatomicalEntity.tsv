@@ -24,9 +24,11 @@ http://purl.obolibrary.org/obo/ZP_0012184	blood vessel mislocalised, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0104440	bone tissue mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005621	bone tissue
 http://purl.obolibrary.org/obo/ZP_0103574	brain mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0104347	branchiomotor neuron mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005731	branchiomotor neuron
+http://purl.obolibrary.org/obo/ZP_0143693	bulbus arteriosus mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0101733	cardiac conduction system mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005063	cardiac conduction system
 http://purl.obolibrary.org/obo/ZP_0009335	cardiac jelly mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001318	cardiac jelly
 http://purl.obolibrary.org/obo/ZP_0015279	cardiac muscle cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
+http://purl.obolibrary.org/obo/ZP_0143170	cardiac muscle myoblast mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009234	cardiac muscle myoblast
 http://purl.obolibrary.org/obo/ZP_0020557	cardiac neural crest mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001648	cardiac neural crest
 http://purl.obolibrary.org/obo/ZP_0008378	cardiac ventricle mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
 http://purl.obolibrary.org/obo/ZP_0005103	cartilage element mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001501	cartilage element
@@ -104,6 +106,7 @@ http://purl.obolibrary.org/obo/ZP_0005140	hepatocyte mislocalised, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0017699	hindbrain interneuron mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005209	hindbrain interneuron
 http://purl.obolibrary.org/obo/ZP_0020597	hindbrain mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0015238	immature B cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009343	immature B cell
+http://purl.obolibrary.org/obo/ZP_0144900	inner ear mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000217	inner ear
 http://purl.obolibrary.org/obo/ZP_0022950	insulin secreting cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009101	insulin secreting cell
 http://purl.obolibrary.org/obo/ZP_0019472	intermediate cell mass of mesoderm mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000033	intermediate cell mass of mesoderm
 http://purl.obolibrary.org/obo/ZP_0106329	interopercular-mandibular ligament mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005501	interopercular-mandibular ligament
@@ -125,6 +128,7 @@ http://purl.obolibrary.org/obo/ZP_0102952	lens epithelium mislocalised, abnormal
 http://purl.obolibrary.org/obo/ZP_0002996	lens mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens
 http://purl.obolibrary.org/obo/ZP_0000959	liver mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0138686	liver primordium mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000124	liver primordium
+http://purl.obolibrary.org/obo/ZP_0144362	long single cone cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005947	long single cone cell
 http://purl.obolibrary.org/obo/ZP_0015276	lymphocyte mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009250	lymphocyte
 http://purl.obolibrary.org/obo/ZP_0004728	macrophage mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009141	macrophage
 http://purl.obolibrary.org/obo/ZP_0002157	mandibular arch skeleton mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
@@ -142,6 +146,7 @@ http://purl.obolibrary.org/obo/ZP_0131241	migratory neural crest cell mislocalis
 http://purl.obolibrary.org/obo/ZP_0018808	migratory neural crest mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0007085	migratory neural crest
 http://purl.obolibrary.org/obo/ZP_0002355	motor neuron mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron
 http://purl.obolibrary.org/obo/ZP_0018731	motor nucleus of vagal nerve mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000387	motor nucleus of vagal nerve
+http://purl.obolibrary.org/obo/ZP_0145339	muscle mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle
 http://purl.obolibrary.org/obo/ZP_0004205	muscle pioneer mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001086	muscle pioneer
 http://purl.obolibrary.org/obo/ZP_0009852	myelinating Schwann cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009135	myelinating Schwann cell
 http://purl.obolibrary.org/obo/ZP_0005048	myeloid lineage restricted progenitor cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009356	myeloid lineage restricted progenitor cell
@@ -154,11 +159,13 @@ http://purl.obolibrary.org/obo/ZP_0005990	neuromast hair cell mislocalised, abno
 http://purl.obolibrary.org/obo/ZP_0010163	neuromast mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000243	neuromast
 http://purl.obolibrary.org/obo/ZP_0138041	neuron mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron
 http://purl.obolibrary.org/obo/ZP_0004729	neutrophil mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009327	neutrophil
+http://purl.obolibrary.org/obo/ZP_0143533	notochord inner cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005746	notochord inner cell
 http://purl.obolibrary.org/obo/ZP_0015950	notochord mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
 http://purl.obolibrary.org/obo/ZP_0101830	notochord outer sheath cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005744	notochord outer sheath cell
 http://purl.obolibrary.org/obo/ZP_0003866	nucleate erythrocyte mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte
 http://purl.obolibrary.org/obo/ZP_0021726	olfactory epithelium mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000554	olfactory epithelium
 http://purl.obolibrary.org/obo/ZP_0001571	olfactory receptor cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009125	olfactory receptor cell
+http://purl.obolibrary.org/obo/ZP_0143897	oligodendrocyte mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009076	oligodendrocyte
 http://purl.obolibrary.org/obo/ZP_0139897	opercle mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000250	opercle
 http://purl.obolibrary.org/obo/ZP_0103995	optic cup mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001202	optic cup
 http://purl.obolibrary.org/obo/ZP_0009816	optic fissure mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001284	optic fissure
@@ -174,6 +181,7 @@ http://purl.obolibrary.org/obo/ZP_0007846	pancreatic B cell mislocalised, abnorm
 http://purl.obolibrary.org/obo/ZP_0005091	pancreatic bud mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001390	pancreatic bud
 http://purl.obolibrary.org/obo/ZP_0101311	pectoral fin bud mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000141	pectoral fin bud
 http://purl.obolibrary.org/obo/ZP_0000169	pectoral fin mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
+http://purl.obolibrary.org/obo/ZP_0145422	pericardial cavity mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001655	pericardial cavity
 http://purl.obolibrary.org/obo/ZP_0140539	pharyngeal arch 3-7 mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001613	pharyngeal arch 3-7
 http://purl.obolibrary.org/obo/ZP_0106492	pharyngeal arch cartilage mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001460	pharyngeal arch cartilage
 http://purl.obolibrary.org/obo/ZP_0021248	pharyngeal arch mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
@@ -191,6 +199,8 @@ http://purl.obolibrary.org/obo/ZP_0002640	posterior lateral line primordium misl
 http://purl.obolibrary.org/obo/ZP_0001905	posterior macula mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000558	posterior macula
 http://purl.obolibrary.org/obo/ZP_0006839	prechordal plate mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
 http://purl.obolibrary.org/obo/ZP_0008680	presumptive cardiac ventricle heart tube mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001719	presumptive cardiac ventricle heart tube
+http://purl.obolibrary.org/obo/ZP_0144316	presumptive neural retina mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001071	presumptive neural retina
+http://purl.obolibrary.org/obo/ZP_0144315	presumptive retinal pigmented epithelium mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000064	presumptive retinal pigmented epithelium
 http://purl.obolibrary.org/obo/ZP_0103650	presumptive rhombomere 2 mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001208	presumptive rhombomere 2
 http://purl.obolibrary.org/obo/ZP_0104563	presumptive rhombomere 3 mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001213	presumptive rhombomere 3
 http://purl.obolibrary.org/obo/ZP_0103651	presumptive rhombomere 4 mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001212	presumptive rhombomere 4
@@ -198,6 +208,7 @@ http://purl.obolibrary.org/obo/ZP_0019665	presumptive rhombomere 5 mislocalised,
 http://purl.obolibrary.org/obo/ZP_0017713	primary motor neuron mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0001576	primordial germ cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009288	primordial germ cell
 http://purl.obolibrary.org/obo/ZP_0020596	primordial hindbrain channel mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001052	primordial hindbrain channel
+http://purl.obolibrary.org/obo/ZP_0143360	proepicardial cluster mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005808	proepicardial cluster
 http://purl.obolibrary.org/obo/ZP_0010551	prolactin secreting cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009204	prolactin secreting cell
 http://purl.obolibrary.org/obo/ZP_0003801	proliferative region mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000098	proliferative region
 http://purl.obolibrary.org/obo/ZP_0019007	pronephric distal early tubule mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001622	pronephric distal early tubule
@@ -206,6 +217,8 @@ http://purl.obolibrary.org/obo/ZP_0020340	pronephric podocyte mislocalised, abno
 http://purl.obolibrary.org/obo/ZP_0020700	pronephric proximal convoluted tubule mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001620	pronephric proximal convoluted tubule
 http://purl.obolibrary.org/obo/ZP_0137319	pronephric proximal straight tubule mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001621	pronephric proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0110336	pronephric tubule mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
+http://purl.obolibrary.org/obo/ZP_0144083	renal glomerular capsule epithelium mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0005253	renal glomerular capsule epithelium
+http://purl.obolibrary.org/obo/ZP_0144081	renal glomerulus mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0001288	renal glomerulus
 http://purl.obolibrary.org/obo/ZP_0022974	retina mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0005033	retinal cone cell mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell
 http://purl.obolibrary.org/obo/ZP_0010118	retinal ganglion cell layer mislocalised, abnormal	http://purl.obolibrary.org/obo/ZFA_0000024	retinal ganglion cell layer

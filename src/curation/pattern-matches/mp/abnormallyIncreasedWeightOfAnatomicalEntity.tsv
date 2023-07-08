@@ -7,8 +7,8 @@ http://purl.obolibrary.org/obo/MP_0005605	increased bone mass	http://purl.obolib
 http://purl.obolibrary.org/obo/MP_0002176	increased brain weight	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0014170	increased brown adipose tissue mass	http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
 http://purl.obolibrary.org/obo/MP_0031236	increased cecum weight	http://purl.obolibrary.org/obo/UBERON_0001153	caecum
+http://purl.obolibrary.org/obo/MP_0003903	increased cell mass	http://purl.obolibrary.org/obo/CL_0000000	cell
 http://purl.obolibrary.org/obo/MP_0010961	increased compact bone mass	http://purl.obolibrary.org/obo/UBERON_0001439	compact bone tissue
-http://purl.obolibrary.org/obo/MP_0009430	increased embryo weight	http://purl.obolibrary.org/obo/UBERON_0000922	embryo
 http://purl.obolibrary.org/obo/MP_0009288	increased epididymal fat pad weight	http://purl.obolibrary.org/obo/UBERON_0010412	epididymal fat pad
 http://purl.obolibrary.org/obo/MP_0004928	increased epididymis weight	http://purl.obolibrary.org/obo/UBERON_0001301	epididymis
 http://purl.obolibrary.org/obo/MP_0009423	increased extensor digitorum longus weight	http://purl.obolibrary.org/obo/UBERON_0001386	extensor digitorum longus
@@ -17,12 +17,12 @@ http://purl.obolibrary.org/obo/MP_0009432	increased fetal weight	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0009421	increased gastrocnemius weight	http://purl.obolibrary.org/obo/UBERON_0001388	gastrocnemius
 http://purl.obolibrary.org/obo/MP_0009285	increased gonadal fat pad weight	http://purl.obolibrary.org/obo/UBERON_0003428	gonadal fat pad
 http://purl.obolibrary.org/obo/MP_0011915	increased heart left atrium weight	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
+http://purl.obolibrary.org/obo/MP_0003915	increased heart left ventricle weight	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
 http://purl.obolibrary.org/obo/MP_0011917	increased heart right atrium weight	http://purl.obolibrary.org/obo/UBERON_0002078	right cardiac atrium
 http://purl.obolibrary.org/obo/MP_0003913	increased heart right ventricle weight	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
 http://purl.obolibrary.org/obo/MP_0002833	increased heart weight	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0009292	increased inguinal fat pad weight	http://purl.obolibrary.org/obo/UBERON_0010410	inguinal fat pad
 http://purl.obolibrary.org/obo/MP_0003917	increased kidney weight	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
-http://purl.obolibrary.org/obo/MP_0003915	increased left ventricle weight	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
 http://purl.obolibrary.org/obo/MP_0002981	increased liver weight	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0005630	increased lung weight	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/MP_0003397	increased muscle weight	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
@@ -30,6 +30,8 @@ http://purl.obolibrary.org/obo/MP_0010045	increased omental fat pad weight	http:
 http://purl.obolibrary.org/obo/MP_0004855	increased ovary weight	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0009067	increased oviduct weight	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0009108	increased pancreas weight	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
+http://purl.obolibrary.org/obo/MP_0030589	increased pancreatic alpha cell mass	http://purl.obolibrary.org/obo/CL_0000171	pancreatic A cell
+http://purl.obolibrary.org/obo/MP_0009113	increased pancreatic beta cell mass	http://purl.obolibrary.org/obo/CL_0000169	type B pancreatic cell
 http://purl.obolibrary.org/obo/MP_0009300	increased parametrial fat pad weight	http://purl.obolibrary.org/obo/UBERON_0010413	parametrial fat pad
 http://purl.obolibrary.org/obo/MP_0008939	increased pituitary gland weight	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
 http://purl.obolibrary.org/obo/MP_0004920	increased placenta weight	http://purl.obolibrary.org/obo/UBERON_0001987	placenta

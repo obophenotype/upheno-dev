@@ -1,12 +1,12 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/ZP_0000767	RNA processing premature, abnormal	http://purl.obolibrary.org/obo/GO_0006396	RNA processing
 http://purl.obolibrary.org/obo/ZP_0012067	adipose tissue development premature, abnormal	http://purl.obolibrary.org/obo/GO_0060612	adipose tissue development
-http://purl.obolibrary.org/obo/ZP_0009023	aging premature, abnormal	http://purl.obolibrary.org/obo/GO_0007568	aging
 http://purl.obolibrary.org/obo/ZP_0010890	angioblast cell migration premature, abnormal	http://purl.obolibrary.org/obo/GO_0035476	angioblast cell migration
 http://purl.obolibrary.org/obo/ZP_0021874	camera-type eye development premature, abnormal	http://purl.obolibrary.org/obo/GO_0043010	camera-type eye development
 http://purl.obolibrary.org/obo/ZP_0006770	chondrocyte development premature, abnormal	http://purl.obolibrary.org/obo/GO_0002063	chondrocyte development
 http://purl.obolibrary.org/obo/ZP_0009520	chondrocyte hypertrophy premature, abnormal	http://purl.obolibrary.org/obo/GO_0003415	chondrocyte hypertrophy
 http://purl.obolibrary.org/obo/ZP_0008801	collateral sprouting in absence of injury premature, abnormal	http://purl.obolibrary.org/obo/GO_0048669	collateral sprouting in absence of injury
+http://purl.obolibrary.org/obo/ZP_0144507	developmental process involved in reproduction premature, abnormal	http://purl.obolibrary.org/obo/GO_0003006	developmental process involved in reproduction
 http://purl.obolibrary.org/obo/ZP_0021873	embryo development premature, abnormal	http://purl.obolibrary.org/obo/GO_0009790	embryo development
 http://purl.obolibrary.org/obo/ZP_0004198	endochondral ossification premature, abnormal	http://purl.obolibrary.org/obo/GO_0001958	endochondral ossification
 http://purl.obolibrary.org/obo/ZP_0011593	germ cell migration premature, abnormal	http://purl.obolibrary.org/obo/GO_0008354	germ cell migration

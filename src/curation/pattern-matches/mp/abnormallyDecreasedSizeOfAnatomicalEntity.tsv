@@ -2,12 +2,14 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0012480	decreased amygdala size	http://purl.obolibrary.org/obo/UBERON_0001876	amygdala
 http://purl.obolibrary.org/obo/MP_0008226	decreased anterior commissure size	http://purl.obolibrary.org/obo/UBERON_0000935	anterior commissure
 http://purl.obolibrary.org/obo/MP_0000868	decreased anterior vermis size	http://purl.obolibrary.org/obo/UBERON_0003941	cerebellum anterior vermis
+http://purl.obolibrary.org/obo/MP_0020435	decreased astrocyte size	http://purl.obolibrary.org/obo/CL_0000127	astrocyte
 http://purl.obolibrary.org/obo/MP_0000301	decreased atrioventricular cushion size	http://purl.obolibrary.org/obo/UBERON_0002062	endocardial cushion
 http://purl.obolibrary.org/obo/MP_0012272	decreased axial mesoderm size	http://purl.obolibrary.org/obo/UBERON_0003068	axial mesoderm
 http://purl.obolibrary.org/obo/MP_0001265	decreased body size	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0020141	decreased brain external capsule size	http://purl.obolibrary.org/obo/UBERON_0004545	external capsule of telencephalon
 http://purl.obolibrary.org/obo/MP_0012462	decreased brain internal capsule size	http://purl.obolibrary.org/obo/UBERON_0001887	internal capsule of telencephalon
 http://purl.obolibrary.org/obo/MP_0000774	decreased brain size	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/MP_0009136	decreased brown fat cell size	http://purl.obolibrary.org/obo/CL_0000449	brown fat cell
 http://purl.obolibrary.org/obo/MP_0012488	decreased cerebellum dentate nucleus size	http://purl.obolibrary.org/obo/UBERON_0002132	dentate nucleus
 http://purl.obolibrary.org/obo/MP_0020540	decreased cerebellum fastigial nucleus size	http://purl.obolibrary.org/obo/UBERON_0002153	fastigial nucleus
 http://purl.obolibrary.org/obo/MP_0012472	decreased cerebellum interpositus nucleus size	http://purl.obolibrary.org/obo/UBERON_0004073	cerebellum interpositus nucleus
@@ -16,12 +18,15 @@ http://purl.obolibrary.org/obo/MP_0012486	decreased cochlear VIII nucleus size	h
 http://purl.obolibrary.org/obo/MP_0000900	decreased colliculi size	http://purl.obolibrary.org/obo/UBERON_0002259	corpora quadrigemina
 http://purl.obolibrary.org/obo/MP_0000781	decreased corpus callosum size	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
 http://purl.obolibrary.org/obo/MP_0012484	decreased corticospinal tract size	http://purl.obolibrary.org/obo/UBERON_0002707	corticospinal tract
+http://purl.obolibrary.org/obo/MP_0008427	decreased corticotroph cell size	http://purl.obolibrary.org/obo/CL_0000467	adrenocorticotropic hormone secreting cell
 http://purl.obolibrary.org/obo/MP_0012460	decreased dentate gyrus size	http://purl.obolibrary.org/obo/UBERON_0001885	dentate gyrus of hippocampal formation
 http://purl.obolibrary.org/obo/MP_0001698	decreased embryo size	http://purl.obolibrary.org/obo/UBERON_0000922	embryo
+http://purl.obolibrary.org/obo/MP_0009269	decreased fat cell size	http://purl.obolibrary.org/obo/CL_0000136	fat cell
 http://purl.obolibrary.org/obo/MP_0030825	decreased femur size	http://purl.obolibrary.org/obo/UBERON_0000981	femur
 http://purl.obolibrary.org/obo/MP_0004200	decreased fetal size	http://purl.obolibrary.org/obo/UBERON_0000323	late embryo
 http://purl.obolibrary.org/obo/MP_0012138	decreased forebrain size	http://purl.obolibrary.org/obo/UBERON_0001890	forebrain
 http://purl.obolibrary.org/obo/MP_0012470	decreased genu of the facial nerve size	http://purl.obolibrary.org/obo/UBERON_0014915	genu of facial nerve
+http://purl.obolibrary.org/obo/MP_0008425	decreased gonadotroph cell size	http://purl.obolibrary.org/obo/CL_0000437	gonadtroph
 http://purl.obolibrary.org/obo/MP_0012482	decreased habenula size	http://purl.obolibrary.org/obo/UBERON_0001904	habenula
 http://purl.obolibrary.org/obo/MP_0010580	decreased heart left ventricle size	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
 http://purl.obolibrary.org/obo/MP_0003649	decreased heart right ventricle size	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
@@ -29,16 +34,22 @@ http://purl.obolibrary.org/obo/MP_0012263	decreased hindbrain size	http://purl.o
 http://purl.obolibrary.org/obo/MP_0008222	decreased hippocampal commissure size	http://purl.obolibrary.org/obo/UBERON_0000908	hippocampal commissure
 http://purl.obolibrary.org/obo/MP_0012466	decreased hippocampal fimbria size	http://purl.obolibrary.org/obo/UBERON_0002310	hippocampus fimbria
 http://purl.obolibrary.org/obo/MP_0020545	decreased hippocampal fornix size	http://purl.obolibrary.org/obo/UBERON_0000052	fornix of brain
+http://purl.obolibrary.org/obo/MP_0009912	decreased hyoid bone size	http://purl.obolibrary.org/obo/UBERON_0001685	hyoid bone
+http://purl.obolibrary.org/obo/MP_0009038	decreased inferior colliculus size	http://purl.obolibrary.org/obo/UBERON_0001946	inferior colliculus
+http://purl.obolibrary.org/obo/MP_0008423	decreased lactotroph cell size	http://purl.obolibrary.org/obo/CL_0000439	prolactin secreting cell
 http://purl.obolibrary.org/obo/MP_0003162	decreased lateral semicircular canal size	http://purl.obolibrary.org/obo/UBERON_0001843	lateral semicircular canal
 http://purl.obolibrary.org/obo/MP_0012456	decreased mammillothalamic tract size	http://purl.obolibrary.org/obo/UBERON_0002990	mammillothalamic tract of hypothalamus
 http://purl.obolibrary.org/obo/MP_0009897	decreased maxillary shelf size	http://purl.obolibrary.org/obo/UBERON_0005871	palatine process of maxilla
+http://purl.obolibrary.org/obo/MP_0008935	decreased mean platelet volume	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/MP_0012089	decreased midbrain size	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
 http://purl.obolibrary.org/obo/MP_0020069	decreased neocortex size	http://purl.obolibrary.org/obo/UBERON_0001950	neocortex
 http://purl.obolibrary.org/obo/MP_0013713	decreased nipple size	http://purl.obolibrary.org/obo/UBERON_0002030	nipple
 http://purl.obolibrary.org/obo/MP_0020548	decreased optic chiasm size	http://purl.obolibrary.org/obo/UBERON_0000959	optic chiasma
 http://purl.obolibrary.org/obo/MP_0012464	decreased optic tract size	http://purl.obolibrary.org/obo/UBERON_0001908	optic tract
+http://purl.obolibrary.org/obo/MP_0031462	decreased palatal shelf size	http://purl.obolibrary.org/obo/UBERON_0005619	secondary palatal shelf
 http://purl.obolibrary.org/obo/MP_0009895	decreased palatine bone horizontal plate size	http://purl.obolibrary.org/obo/UBERON_0018242	palatine bone horizontal plate
 http://purl.obolibrary.org/obo/MP_0012183	decreased paraxial mesoderm size	http://purl.obolibrary.org/obo/UBERON_0003077	paraxial mesoderm
+http://purl.obolibrary.org/obo/MP_0009532	decreased parotid gland size	http://purl.obolibrary.org/obo/UBERON_0001831	parotid gland
 http://purl.obolibrary.org/obo/MP_0012476	decreased piriform cortex size	http://purl.obolibrary.org/obo/UBERON_0004725	piriform cortex
 http://purl.obolibrary.org/obo/MP_0011521	decreased placental labyrinth size	http://purl.obolibrary.org/obo/UBERON_0003946	placenta labyrinth
 http://purl.obolibrary.org/obo/MP_0020533	decreased pons size	http://purl.obolibrary.org/obo/UBERON_0000988	pons
@@ -58,8 +69,10 @@ http://purl.obolibrary.org/obo/MP_0012805	decreased rhombomere 6 size	http://pur
 http://purl.obolibrary.org/obo/MP_0012809	decreased rhombomere 7 size	http://purl.obolibrary.org/obo/UBERON_0005523	rhombomere 7
 http://purl.obolibrary.org/obo/MP_0012813	decreased rhombomere 8 size	http://purl.obolibrary.org/obo/UBERON_0005527	rhombomere 8
 http://purl.obolibrary.org/obo/MP_0012478	decreased secondary somatosensory cortex size	http://purl.obolibrary.org/obo/UBERON_0008934	secondary somatosensory cortex
+http://purl.obolibrary.org/obo/MP_0009400	decreased skeletal muscle fiber size	http://purl.obolibrary.org/obo/CL_0000188	cell of skeletal muscle
 http://purl.obolibrary.org/obo/MP_0010240	decreased skeletal muscle size	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/MP_0008142	decreased small intestinal villus size	http://purl.obolibrary.org/obo/UBERON_0001213	intestinal villus
+http://purl.obolibrary.org/obo/MP_0008417	decreased somatotroph cell size	http://purl.obolibrary.org/obo/CL_0000295	somatotropin secreting cell
 http://purl.obolibrary.org/obo/MP_0011732	decreased somite size	http://purl.obolibrary.org/obo/UBERON_0002329	somite
 http://purl.obolibrary.org/obo/MP_0000956	decreased spinal cord size	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
 http://purl.obolibrary.org/obo/MP_0008484	decreased spleen germinal center size	http://purl.obolibrary.org/obo/UBERON_0005196	spleen germinal center
@@ -73,13 +86,16 @@ http://purl.obolibrary.org/obo/MP_0020543	decreased substantia nigra size	http:/
 http://purl.obolibrary.org/obo/MP_0002892	decreased superior colliculus size	http://purl.obolibrary.org/obo/UBERON_0001945	superior colliculus
 http://purl.obolibrary.org/obo/MP_0003166	decreased superior semicircular canal size	http://purl.obolibrary.org/obo/UBERON_0001841	anterior semicircular canal
 http://purl.obolibrary.org/obo/MP_0006102	decreased tegmentum size	http://purl.obolibrary.org/obo/UBERON_0001943	midbrain tegmentum
+http://purl.obolibrary.org/obo/MP_0008421	decreased thyrotroph cell size	http://purl.obolibrary.org/obo/CL_0000476	thyrotroph
 http://purl.obolibrary.org/obo/MP_0009907	decreased tongue size	http://purl.obolibrary.org/obo/UBERON_0001723	tongue
 http://purl.obolibrary.org/obo/MP_0006020	decreased tympanic ring size	http://purl.obolibrary.org/obo/UBERON_0002218	tympanic ring
 http://purl.obolibrary.org/obo/MP_0030900	decreased ulna size	http://purl.obolibrary.org/obo/UBERON_0001424	ulna
 http://purl.obolibrary.org/obo/MP_0012714	decreased ventral ectodermal ridge size	http://purl.obolibrary.org/obo/UBERON_0015855	ventral ectodermal ridge
 http://purl.obolibrary.org/obo/MP_0020558	decreased ventromedial hypothalamic nucleus size	http://purl.obolibrary.org/obo/UBERON_0001935	ventromedial nucleus of hypothalamus
+http://purl.obolibrary.org/obo/MP_0009133	decreased white fat cell size	http://purl.obolibrary.org/obo/CL_0000448	white fat cell
 http://purl.obolibrary.org/obo/MP_0000433	microcephaly	http://purl.obolibrary.org/obo/UBERON_0000033	head
 http://purl.obolibrary.org/obo/MP_0003296	microcolon	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MP_0002813	microcytosis	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0030088	microdontia	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
 http://purl.obolibrary.org/obo/MP_0002639	micrognathia	http://purl.obolibrary.org/obo/UBERON_0001708	jaw skeleton
 http://purl.obolibrary.org/obo/MP_0001297	microphthalmia	http://purl.obolibrary.org/obo/UBERON_0000019	camera-type eye
@@ -147,7 +163,7 @@ http://purl.obolibrary.org/obo/MP_0030134	small fourth pharyngeal arch	http://pu
 http://purl.obolibrary.org/obo/MP_0013910	small fourth ventricle	http://purl.obolibrary.org/obo/UBERON_0002422	fourth ventricle
 http://purl.obolibrary.org/obo/MP_0004377	small frontal bone	http://purl.obolibrary.org/obo/UBERON_0000209	tetrapod frontal bone
 http://purl.obolibrary.org/obo/MP_0030249	small frontonasal prominence	http://purl.obolibrary.org/obo/UBERON_0004066	frontonasal prominence
-http://purl.obolibrary.org/obo/MP_0005675	small gallbladder	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MP_0005675	small gallbladder	http://purl.obolibrary.org/obo/UBERON_0002110	gallbladder
 http://purl.obolibrary.org/obo/MP_0001083	small geniculate ganglion	http://purl.obolibrary.org/obo/UBERON_0001700	geniculate ganglion
 http://purl.obolibrary.org/obo/MP_0001116	small gonad	http://purl.obolibrary.org/obo/UBERON_0000991	gonad
 http://purl.obolibrary.org/obo/MP_0030125	small gonial bone	http://purl.obolibrary.org/obo/UBERON_0003966	gonial bone
@@ -178,6 +194,7 @@ http://purl.obolibrary.org/obo/MP_0003641	small lung	http://purl.obolibrary.org/
 http://purl.obolibrary.org/obo/MP_0010976	small lung lobe	http://purl.obolibrary.org/obo/UBERON_0000101	lobe of lung
 http://purl.obolibrary.org/obo/MP_0010827	small lung saccule	http://purl.obolibrary.org/obo/UBERON_0000116	lung saccule
 http://purl.obolibrary.org/obo/MP_0002217	small lymph nodes	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
+http://purl.obolibrary.org/obo/MP_0031439	small lymphatic vessel	http://purl.obolibrary.org/obo/UBERON_0001473	lymphatic vessel
 http://purl.obolibrary.org/obo/MP_0002716	small male preputial gland	http://purl.obolibrary.org/obo/UBERON_0005301	male preputial gland
 http://purl.obolibrary.org/obo/MP_0008372	small malleus	http://purl.obolibrary.org/obo/UBERON_0001689	malleus bone
 http://purl.obolibrary.org/obo/MP_0008376	small malleus manubrium	http://purl.obolibrary.org/obo/UBERON_0006722	manubrium of malleus
@@ -192,6 +209,7 @@ http://purl.obolibrary.org/obo/MP_0000907	small mesencephalic trigeminal nucleus
 http://purl.obolibrary.org/obo/MP_0011365	small metanephros	http://purl.obolibrary.org/obo/UBERON_0000081	metanephros
 http://purl.obolibrary.org/obo/MP_0030123	small middle ear ossicles	http://purl.obolibrary.org/obo/UBERON_0001686	auditory ossicle bone
 http://purl.obolibrary.org/obo/MP_0006402	small molars	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth
+http://purl.obolibrary.org/obo/MP_0004565	small myocardial fiber	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell
 http://purl.obolibrary.org/obo/MP_0004470	small nasal bone	http://purl.obolibrary.org/obo/UBERON_0001681	nasal bone
 http://purl.obolibrary.org/obo/MP_0030035	small nasal bridge	http://purl.obolibrary.org/obo/UBERON_0008340	nasal bridge
 http://purl.obolibrary.org/obo/MP_0030197	small nasal septum	http://purl.obolibrary.org/obo/UBERON_0001706	nasal septum

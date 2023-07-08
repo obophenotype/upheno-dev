@@ -22,6 +22,7 @@ http://purl.obolibrary.org/obo/ZP_0005487	axonogenesis arrested, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0010503	behavioral fear response arrested, abnormal	http://purl.obolibrary.org/obo/GO_0001662	behavioral fear response
 http://purl.obolibrary.org/obo/ZP_0000450	blood circulation arrested, abnormal	http://purl.obolibrary.org/obo/GO_0008015	blood circulation
 http://purl.obolibrary.org/obo/ZP_0007273	blood vessel development arrested, abnormal	http://purl.obolibrary.org/obo/GO_0001568	blood vessel development
+http://purl.obolibrary.org/obo/ZP_0145116	bone mineralization arrested, abnormal	http://purl.obolibrary.org/obo/GO_0030282	bone mineralization
 http://purl.obolibrary.org/obo/ZP_0008467	brain morphogenesis arrested, abnormal	http://purl.obolibrary.org/obo/GO_0048854	brain morphogenesis
 http://purl.obolibrary.org/obo/ZP_0005780	camera-type eye development arrested, abnormal	http://purl.obolibrary.org/obo/GO_0043010	camera-type eye development
 http://purl.obolibrary.org/obo/ZP_0017469	camera-type eye photoreceptor cell differentiation arrested, abnormal	http://purl.obolibrary.org/obo/GO_0060219	camera-type eye photoreceptor cell differentiation
@@ -31,7 +32,7 @@ http://purl.obolibrary.org/obo/ZP_0005591	cardiac muscle cell proliferation arre
 http://purl.obolibrary.org/obo/ZP_0006164	cardiac muscle contraction arrested, abnormal	http://purl.obolibrary.org/obo/GO_0060048	cardiac muscle contraction
 http://purl.obolibrary.org/obo/ZP_0004322	cardiac muscle progenitor cell migration to the midline involved in heart field formation arrested, abnormal	http://purl.obolibrary.org/obo/GO_0003261	cardiac muscle progenitor cell migration to the midline involved in heart field formation
 http://purl.obolibrary.org/obo/ZP_0102083	cardioblast cell midline fusion arrested, abnormal	http://purl.obolibrary.org/obo/GO_0003317	cardioblast cell midline fusion
-http://purl.obolibrary.org/obo/ZP_0004794	cation transport arrested, abnormal	http://purl.obolibrary.org/obo/GO_0006812	cation transport
+http://purl.obolibrary.org/obo/ZP_0004794	cation transport arrested, abnormal	http://purl.obolibrary.org/obo/GO_0006812	monoatomic cation transport
 http://purl.obolibrary.org/obo/ZP_0016138	cell communication by electrical coupling arrested, abnormal	http://purl.obolibrary.org/obo/GO_0010644	cell communication by electrical coupling
 http://purl.obolibrary.org/obo/ZP_0022846	cell cycle G1/S phase transition arrested, abnormal	http://purl.obolibrary.org/obo/GO_0044843	cell cycle G1/S phase transition
 http://purl.obolibrary.org/obo/ZP_0000303	cell cycle arrested, abnormal	http://purl.obolibrary.org/obo/GO_0007049	cell cycle
@@ -146,6 +147,7 @@ http://purl.obolibrary.org/obo/ZP_0014412	myosin filament assembly arrested, abn
 http://purl.obolibrary.org/obo/ZP_0000099	neural plate anterior/posterior regionalization arrested, abnormal	http://purl.obolibrary.org/obo/GO_0021999	neural plate anterior/posterior regionalization
 http://purl.obolibrary.org/obo/ZP_0008933	neural tube closure arrested, abnormal	http://purl.obolibrary.org/obo/GO_0001843	neural tube closure
 http://purl.obolibrary.org/obo/ZP_0018997	neuromast primordium migration arrested, abnormal	http://purl.obolibrary.org/obo/GO_0048883	neuromast primordium migration
+http://purl.obolibrary.org/obo/ZP_0143918	neuromuscular junction development arrested, abnormal	http://purl.obolibrary.org/obo/GO_0007528	neuromuscular junction development
 http://purl.obolibrary.org/obo/ZP_0004305	neuromuscular synaptic transmission arrested, abnormal	http://purl.obolibrary.org/obo/GO_0007274	neuromuscular synaptic transmission
 http://purl.obolibrary.org/obo/ZP_0010267	neuron differentiation arrested, abnormal	http://purl.obolibrary.org/obo/GO_0030182	neuron differentiation
 http://purl.obolibrary.org/obo/ZP_0010156	neuron migration arrested, abnormal	http://purl.obolibrary.org/obo/GO_0001764	neuron migration
@@ -176,7 +178,7 @@ http://purl.obolibrary.org/obo/ZP_0006158	phototaxis arrested, abnormal	http://p
 http://purl.obolibrary.org/obo/ZP_0015411	pigment granule dispersal arrested, abnormal	http://purl.obolibrary.org/obo/GO_0051876	pigment granule dispersal
 http://purl.obolibrary.org/obo/ZP_0003736	pigmentation arrested, abnormal	http://purl.obolibrary.org/obo/GO_0043473	pigmentation
 http://purl.obolibrary.org/obo/ZP_0015610	pole plasm mRNA localization arrested, abnormal	http://purl.obolibrary.org/obo/GO_0019094	pole plasm mRNA localization
-http://purl.obolibrary.org/obo/ZP_0009589	positive regulation of transcription, DNA-templated arrested, abnormal	http://purl.obolibrary.org/obo/GO_0045893	positive regulation of transcription, DNA-templated
+http://purl.obolibrary.org/obo/ZP_0009589	positive regulation of DNA-templated transcription arrested, abnormal	http://purl.obolibrary.org/obo/GO_0045893	positive regulation of DNA-templated transcription
 http://purl.obolibrary.org/obo/ZP_0007302	post-anal tail morphogenesis arrested, abnormal	http://purl.obolibrary.org/obo/GO_0036342	post-anal tail morphogenesis
 http://purl.obolibrary.org/obo/ZP_0021356	posterior lateral line development arrested, abnormal	http://purl.obolibrary.org/obo/GO_0048916	posterior lateral line development
 http://purl.obolibrary.org/obo/ZP_0002210	posterior lateral line neuromast primordium migration arrested, abnormal	http://purl.obolibrary.org/obo/GO_0048920	posterior lateral line neuromast primordium migration

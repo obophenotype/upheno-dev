@@ -61,6 +61,7 @@ http://purl.obolibrary.org/obo/ZP_0003730	intersegmental vessel shape, abnormal	
 http://purl.obolibrary.org/obo/ZP_0006302	intestinal epithelial cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009399	intestinal epithelial cell
 http://purl.obolibrary.org/obo/ZP_0002786	intestinal epithelium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
 http://purl.obolibrary.org/obo/ZP_0103413	intestine shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
+http://purl.obolibrary.org/obo/ZP_0144612	islet shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005755	islet
 http://purl.obolibrary.org/obo/ZP_0107067	lateral dorsal aorta shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001054	lateral dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0106862	lens fiber cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009401	lens fiber cell
 http://purl.obolibrary.org/obo/ZP_0011942	lens shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens
@@ -104,6 +105,7 @@ http://purl.obolibrary.org/obo/ZP_0103798	pericardial cavity shape, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0005697	pharyngeal arch 2 skeleton shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001276	pharyngeal arch 2 skeleton
 http://purl.obolibrary.org/obo/ZP_0002266	pharyngeal arch 3-7 shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001613	pharyngeal arch 3-7
 http://purl.obolibrary.org/obo/ZP_0003041	pharyngeal arch shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
+http://purl.obolibrary.org/obo/ZP_0145200	photoreceptor outer segment layer shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001466	photoreceptor outer segment layer
 http://purl.obolibrary.org/obo/ZP_0015026	pigment cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009090	pigment cell
 http://purl.obolibrary.org/obo/ZP_0001786	pigmented epithelial cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009241	pigmented epithelial cell
 http://purl.obolibrary.org/obo/ZP_0010042	pillar of the anterior semicircular canal shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0007054	pillar of the anterior semicircular canal
@@ -114,6 +116,7 @@ http://purl.obolibrary.org/obo/ZP_0013055	posterior cardinal vein shape, abnorma
 http://purl.obolibrary.org/obo/ZP_0102391	posterior lateral line neuromast shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000940	posterior lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0003380	posterior lateral line primordium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium
 http://purl.obolibrary.org/obo/ZP_0009947	prechordal plate shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
+http://purl.obolibrary.org/obo/ZP_0143115	primary islet shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005754	primary islet
 http://purl.obolibrary.org/obo/ZP_0103305	primary motor neuron shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0137803	primitive heart tube shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000149	primitive heart tube
 http://purl.obolibrary.org/obo/ZP_0005345	primordial germ cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009288	primordial germ cell
@@ -131,6 +134,7 @@ http://purl.obolibrary.org/obo/ZP_0009632	rhombomere 5 shape, abnormal	http://pu
 http://purl.obolibrary.org/obo/ZP_0015030	scale shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale
 http://purl.obolibrary.org/obo/ZP_0002043	semicircular canal shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000431	semicircular canal
 http://purl.obolibrary.org/obo/ZP_0022524	skeletal muscle cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
+http://purl.obolibrary.org/obo/ZP_0144200	slow muscle cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
 http://purl.obolibrary.org/obo/ZP_0000438	somite border shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001462	somite border
 http://purl.obolibrary.org/obo/ZP_0000013	somite shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0008394	stomodeum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001290	stomodeum

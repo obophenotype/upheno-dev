@@ -52,7 +52,6 @@ http://purl.obolibrary.org/obo/DDPHENO_0000579	aberrant cheating during developm
 http://purl.obolibrary.org/obo/DDPHENO_0001122	aberrant chemotaxis	http://purl.obolibrary.org/obo/GO_0006935	chemotaxis
 http://purl.obolibrary.org/obo/DDPHENO_0001167	aberrant chemotaxis to cAMP	http://purl.obolibrary.org/obo/GO_0043327	chemotaxis to cAMP
 http://purl.obolibrary.org/obo/DDPHENO_0001168	aberrant chemotaxis to folate	http://purl.obolibrary.org/obo/GO_0043326	chemotaxis to folate
-http://purl.obolibrary.org/obo/DDPHENO_0001524	aberrant chromatin assembly	http://purl.obolibrary.org/obo/GO_0031497	chromatin assembly
 http://purl.obolibrary.org/obo/DDPHENO_0000034	aberrant contractile vacuole discharge	http://purl.obolibrary.org/obo/GO_0070177	contractile vacuole discharge
 http://purl.obolibrary.org/obo/DDPHENO_0000556	aberrant contractile vacuole dissociation from plasma membrane	http://purl.obolibrary.org/obo/GO_0140026	contractile vacuole dissociation from plasma membrane
 http://purl.obolibrary.org/obo/DDPHENO_0000553	aberrant contractile vacuole localization	http://purl.obolibrary.org/obo/GO_0140027	contractile vacuole localization
@@ -91,7 +90,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0001472	aberrant inositol phosphate metab
 http://purl.obolibrary.org/obo/DDPHENO_0000601	aberrant intermediate filament bundle assembly	http://purl.obolibrary.org/obo/GO_0045110	intermediate filament bundle assembly
 http://purl.obolibrary.org/obo/DDPHENO_0000600	aberrant intermediate filament organization	http://purl.obolibrary.org/obo/GO_0045109	intermediate filament organization
 http://purl.obolibrary.org/obo/DDPHENO_0001494	aberrant intracellular distribution of mitochondria	http://purl.obolibrary.org/obo/GO_0048312	intracellular distribution of mitochondria
-http://purl.obolibrary.org/obo/DDPHENO_0001026	aberrant ion transport	http://purl.obolibrary.org/obo/GO_0006811	ion transport
+http://purl.obolibrary.org/obo/DDPHENO_0001026	aberrant ion transport	http://purl.obolibrary.org/obo/GO_0006811	monoatomic ion transport
 http://purl.obolibrary.org/obo/DDPHENO_0000477	aberrant lateral pseudopodium formation	http://purl.obolibrary.org/obo/GO_0031271	lateral pseudopodium assembly
 http://purl.obolibrary.org/obo/DDPHENO_0000567	aberrant lipid droplet formation	http://purl.obolibrary.org/obo/GO_0140042	lipid droplet formation
 http://purl.obolibrary.org/obo/DDPHENO_0000566	aberrant lipid storage	http://purl.obolibrary.org/obo/GO_0019915	lipid storage
@@ -115,7 +114,6 @@ http://purl.obolibrary.org/obo/DDPHENO_0001422	aberrant mitotic sister chromatid
 http://purl.obolibrary.org/obo/DDPHENO_0001486	aberrant mitotic spindle elongation	http://purl.obolibrary.org/obo/GO_0000022	mitotic spindle elongation
 http://purl.obolibrary.org/obo/DDPHENO_0001419	aberrant mitotic spindle organization	http://purl.obolibrary.org/obo/GO_0007052	mitotic spindle organization
 http://purl.obolibrary.org/obo/DDPHENO_0000265	aberrant myosin II filament organization	http://purl.obolibrary.org/obo/GO_0031038	myosin II filament organization
-http://purl.obolibrary.org/obo/DDPHENO_0001437	aberrant necrotic cell death	http://purl.obolibrary.org/obo/GO_0070265	necrotic cell death
 http://purl.obolibrary.org/obo/DDPHENO_0001225	aberrant negative chemotaxis	http://purl.obolibrary.org/obo/GO_0050919	negative chemotaxis
 http://purl.obolibrary.org/obo/DDPHENO_0000190	aberrant negative regulation of chemorepellant activity	http://purl.obolibrary.org/obo/GO_1903668	negative regulation of chemorepellent activity
 http://purl.obolibrary.org/obo/DDPHENO_0000253	aberrant negative regulation of mitochondrial membrane potential	http://purl.obolibrary.org/obo/GO_0010917	negative regulation of mitochondrial membrane potential

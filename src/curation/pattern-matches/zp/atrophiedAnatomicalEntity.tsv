@@ -5,6 +5,7 @@ http://purl.obolibrary.org/obo/ZP_0106092	cerebellum atrophied, abnormal	http://
 http://purl.obolibrary.org/obo/ZP_0006016	epidermis atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
 http://purl.obolibrary.org/obo/ZP_0010838	eye atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0003384	forebrain atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
+http://purl.obolibrary.org/obo/ZP_0143912	head atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0021018	hindbrain atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0140127	intestinal epithelial cell atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0009399	intestinal epithelial cell
 http://purl.obolibrary.org/obo/ZP_0140327	intestinal villus atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0005125	intestinal villus
@@ -27,6 +28,7 @@ http://purl.obolibrary.org/obo/ZP_0001514	skeletal muscle atrophied, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0012346	skeletal muscle cell atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
 http://purl.obolibrary.org/obo/ZP_0018622	somite atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0009054	testis atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000598	testis
+http://purl.obolibrary.org/obo/ZP_0143908	thymus atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001078	thymus
 http://purl.obolibrary.org/obo/ZP_0003394	trunk atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0015565	trunk musculature atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000473	trunk musculature
 http://purl.obolibrary.org/obo/ZP_0013912	ventral mandibular arch atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch

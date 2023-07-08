@@ -10,6 +10,7 @@ http://purl.obolibrary.org/obo/MP_0014073	abnormal brain glycogen level	http://p
 http://purl.obolibrary.org/obo/MP_0008811	abnormal brain iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0009616	abnormal brain zinc level	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0011216	abnormal brainstem copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0002298	brainstem
+http://purl.obolibrary.org/obo/MP_0014244	abnormal cellular ATP level	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/CL_0000000	cell
 http://purl.obolibrary.org/obo/MP_0000184	abnormal circulating HDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47775	high-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0000181	abnormal circulating LDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47774	low-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005144	abnormal circulating VLDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47773	very-low-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood

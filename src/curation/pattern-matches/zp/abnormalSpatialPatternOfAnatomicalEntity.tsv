@@ -2,6 +2,8 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0138463	CaP motoneuron spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009243	CaP motoneuron
 http://purl.obolibrary.org/obo/ZP_0020541	CoSA spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005176	CoSA
 http://purl.obolibrary.org/obo/ZP_0100346	Kupffer's vesicle spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
+http://purl.obolibrary.org/obo/ZP_0145024	Purkinje cell layer corpus cerebelli spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001706	Purkinje cell layer corpus cerebelli
+http://purl.obolibrary.org/obo/ZP_0143306	Purkinje cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009071	Purkinje cell
 http://purl.obolibrary.org/obo/ZP_0105706	Reissner's fiber spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005906	Reissner's fiber
 http://purl.obolibrary.org/obo/ZP_0020549	Rohon-Beard neuron spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009150	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/ZP_0018975	adaxial cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000003	adaxial cell
@@ -23,10 +25,12 @@ http://purl.obolibrary.org/obo/ZP_0139730	axial vasculature spatial pattern, abn
 http://purl.obolibrary.org/obo/ZP_0100653	axis spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis
 http://purl.obolibrary.org/obo/ZP_0103954	bile canaliculus spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005163	bile canaliculus
 http://purl.obolibrary.org/obo/ZP_0103829	blastoderm spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001176	blastoderm
+http://purl.obolibrary.org/obo/ZP_0144950	blastomere spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0101392	blood spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000007	blood
 http://purl.obolibrary.org/obo/ZP_0012794	blood vasculature spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001079	blood vasculature
 http://purl.obolibrary.org/obo/ZP_0142617	blood vessel spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel
 http://purl.obolibrary.org/obo/ZP_0014967	brain spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0143830	bulbus arteriosus lymph vessel spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005950	bulbus arteriosus lymph vessel
 http://purl.obolibrary.org/obo/ZP_0020386	cardiac muscle cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0137606	cardiac neural crest spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001648	cardiac neural crest
 http://purl.obolibrary.org/obo/ZP_0020020	cardiac ventricle spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
@@ -39,6 +43,7 @@ http://purl.obolibrary.org/obo/ZP_0022617	cerebellum spatial pattern, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0008562	chondroblast spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009027	chondroblast
 http://purl.obolibrary.org/obo/ZP_0102348	choroid plexus epithelial cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009304	choroid plexus epithelial cell
 http://purl.obolibrary.org/obo/ZP_0102341	choroid plexus spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001443	choroid plexus
+http://purl.obolibrary.org/obo/ZP_0143894	ciliary marginal zone spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001289	ciliary marginal zone
 http://purl.obolibrary.org/obo/ZP_0103894	corneal stroma spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001685	corneal stroma
 http://purl.obolibrary.org/obo/ZP_0105921	corpuscles of Stannius spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001200	corpuscles of Stannius
 http://purl.obolibrary.org/obo/ZP_0141499	cranial blood vessel spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005297	cranial blood vessel
@@ -49,6 +54,9 @@ http://purl.obolibrary.org/obo/ZP_0003372	cranial vasculature spatial pattern, a
 http://purl.obolibrary.org/obo/ZP_0014962	cranium spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
 http://purl.obolibrary.org/obo/ZP_0014985	diencephalon spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000101	diencephalon
 http://purl.obolibrary.org/obo/ZP_0100248	digestive system spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000339	digestive system
+http://purl.obolibrary.org/obo/ZP_0144427	dorsal aorta spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
+http://purl.obolibrary.org/obo/ZP_0144867	dorsal longitudinal anastomotic vessel spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
+http://purl.obolibrary.org/obo/ZP_0142749	endocardial precursor spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005489	endocardial precursor
 http://purl.obolibrary.org/obo/ZP_0103219	endocrine pancreas spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001260	endocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0102251	endoderm spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
 http://purl.obolibrary.org/obo/ZP_0013398	endodermal cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009139	endodermal cell
@@ -56,6 +64,7 @@ http://purl.obolibrary.org/obo/ZP_0019093	endothelial tip cell spatial pattern, 
 http://purl.obolibrary.org/obo/ZP_0104111	epibranchial placode spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001294	epibranchial placode
 http://purl.obolibrary.org/obo/ZP_0021850	epidermal cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009183	epidermal cell
 http://purl.obolibrary.org/obo/ZP_0101264	epiphysis spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000019	epiphysis
+http://purl.obolibrary.org/obo/ZP_0143523	epithelial cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell
 http://purl.obolibrary.org/obo/ZP_0022272	exocrine pancreas spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001249	exocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0141176	eye photoreceptor cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009154	eye photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0141528	facial nerve motor nucleus spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000206	facial nerve motor nucleus
@@ -64,6 +73,7 @@ http://purl.obolibrary.org/obo/ZP_0103563	floor plate spatial pattern, abnormal	
 http://purl.obolibrary.org/obo/ZP_0138328	forebrain neural rod spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0007034	forebrain neural rod
 http://purl.obolibrary.org/obo/ZP_0100718	forebrain spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0005377	forerunner cell group spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000023	forerunner cell group
+http://purl.obolibrary.org/obo/ZP_0144948	germ line cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009016	germ line cell
 http://purl.obolibrary.org/obo/ZP_0103933	germ ring spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000111	germ ring
 http://purl.obolibrary.org/obo/ZP_0006976	glial cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009073	glial cell
 http://purl.obolibrary.org/obo/ZP_0104114	glossopharyngeal ganglion spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001301	glossopharyngeal ganglion
@@ -72,6 +82,7 @@ http://purl.obolibrary.org/obo/ZP_0014965	granulocyte spatial pattern, abnormal	
 http://purl.obolibrary.org/obo/ZP_0140987	granulosa cell layer spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001112	granulosa cell layer
 http://purl.obolibrary.org/obo/ZP_0141768	green sensitive photoreceptor cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009223	green sensitive photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0138515	gut spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut
+http://purl.obolibrary.org/obo/ZP_0143089	head muscle spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001652	head muscle
 http://purl.obolibrary.org/obo/ZP_0014998	head spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0141308	heart rudiment spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000115	heart rudiment
 http://purl.obolibrary.org/obo/ZP_0020284	heart spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000114	heart
@@ -154,6 +165,8 @@ http://purl.obolibrary.org/obo/ZP_0022248	otic placode spatial pattern, abnormal
 http://purl.obolibrary.org/obo/ZP_0100283	otic vesicle spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000051	otic vesicle
 http://purl.obolibrary.org/obo/ZP_0015092	ovary spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000403	ovary
 http://purl.obolibrary.org/obo/ZP_0014988	pancreas spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000140	pancreas
+http://purl.obolibrary.org/obo/ZP_0144870	parachordal vessel spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005034	parachordal vessel
+http://purl.obolibrary.org/obo/ZP_0144143	parapineal organ spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001360	parapineal organ
 http://purl.obolibrary.org/obo/ZP_0140895	parasphenoid spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000561	parasphenoid
 http://purl.obolibrary.org/obo/ZP_0018974	paraxial mesoderm spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000255	paraxial mesoderm
 http://purl.obolibrary.org/obo/ZP_0137473	pectoral fin spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
@@ -166,6 +179,7 @@ http://purl.obolibrary.org/obo/ZP_0001927	pigment cell spatial pattern, abnormal
 http://purl.obolibrary.org/obo/ZP_0003373	post-vent vasculature spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005037	post-vent vasculature
 http://purl.obolibrary.org/obo/ZP_0003379	posterior lateral line neuromast spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000940	posterior lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0100107	posterior lateral line primordium spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium
+http://purl.obolibrary.org/obo/ZP_0143804	posterior lateral mesoderm spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005040	posterior lateral mesoderm
 http://purl.obolibrary.org/obo/ZP_0140963	posterior lateral plate mesoderm spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005042	posterior lateral plate mesoderm
 http://purl.obolibrary.org/obo/ZP_0019996	prechordal plate spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
 http://purl.obolibrary.org/obo/ZP_0100659	presumptive atrium heart tube spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001718	presumptive atrium heart tube
@@ -220,6 +234,7 @@ http://purl.obolibrary.org/obo/ZP_0101611	slow muscle cell spatial pattern, abno
 http://purl.obolibrary.org/obo/ZP_0009245	somatotropin secreting cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009155	somatotropin secreting cell
 http://purl.obolibrary.org/obo/ZP_0014256	somite border spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001462	somite border
 http://purl.obolibrary.org/obo/ZP_0005576	somite spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
+http://purl.obolibrary.org/obo/ZP_0145369	spermatogenic cyst spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005882	spermatogenic cyst
 http://purl.obolibrary.org/obo/ZP_0020548	spinal cord interneuron spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000778	spinal cord interneuron
 http://purl.obolibrary.org/obo/ZP_0100218	spinal cord spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0142286	subcommissural organ spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000683	subcommissural organ
@@ -228,6 +243,7 @@ http://purl.obolibrary.org/obo/ZP_0102553	tail bud spatial pattern, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0020359	tegmentum spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000160	tegmentum
 http://purl.obolibrary.org/obo/ZP_0022380	telencephalon spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000079	telencephalon
 http://purl.obolibrary.org/obo/ZP_0103698	testis spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0000598	testis
+http://purl.obolibrary.org/obo/ZP_0144869	thoracic duct spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0005110	thoracic duct
 http://purl.obolibrary.org/obo/ZP_0100118	thyroid follicle spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001072	thyroid follicle
 http://purl.obolibrary.org/obo/ZP_0013674	thyroid stimulating hormone secreting cell spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0009218	thyroid stimulating hormone secreting cell
 http://purl.obolibrary.org/obo/ZP_0020809	tooth placode spatial pattern, abnormal	http://purl.obolibrary.org/obo/ZFA_0001153	tooth placode

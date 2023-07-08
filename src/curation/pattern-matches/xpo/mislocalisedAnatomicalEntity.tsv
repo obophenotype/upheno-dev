@@ -19,6 +19,7 @@ http://purl.obolibrary.org/obo/XPO_0127946	abnormally localised Schwann cell	htt
 http://purl.obolibrary.org/obo/XPO_0127926	abnormally localised Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
 http://purl.obolibrary.org/obo/XPO_0127627	abnormally localised T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
 http://purl.obolibrary.org/obo/XPO_0127156	abnormally localised abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
+http://purl.obolibrary.org/obo/XPO_0142026	abnormally localised abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0127043	abnormally localised abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
 http://purl.obolibrary.org/obo/XPO_0127979	abnormally localised absorptive cell	http://purl.obolibrary.org/obo/XAO_0003231	absorptive cell
 http://purl.obolibrary.org/obo/XPO_0127299	abnormally localised accessory nerve	http://purl.obolibrary.org/obo/XAO_0004214	accessory nerve
@@ -284,6 +285,7 @@ http://purl.obolibrary.org/obo/XPO_0127216	abnormally localised ceratohyal	http:
 http://purl.obolibrary.org/obo/XPO_0127112	abnormally localised cerebellum	http://purl.obolibrary.org/obo/XAO_0003098	cerebellum
 http://purl.obolibrary.org/obo/XPO_0127374	abnormally localised cerebral artery	http://purl.obolibrary.org/obo/XAO_0000367	cerebral artery
 http://purl.obolibrary.org/obo/XPO_0126848	abnormally localised cerebral vein	http://purl.obolibrary.org/obo/XAO_0004160	cerebral vein
+http://purl.obolibrary.org/obo/XPO_0142024	abnormally localised cerebrospinal fluid	http://purl.obolibrary.org/obo/XAO_0005506	cerebrospinal fluid
 http://purl.obolibrary.org/obo/XPO_0127188	abnormally localised cervical vertebra	http://purl.obolibrary.org/obo/XAO_0003076	cervical vertebra
 http://purl.obolibrary.org/obo/XPO_0126871	abnormally localised choana	http://purl.obolibrary.org/obo/XAO_0000277	choana
 http://purl.obolibrary.org/obo/XPO_0127168	abnormally localised chondroblast	http://purl.obolibrary.org/obo/XAO_0003238	chondroblast
@@ -355,9 +357,11 @@ http://purl.obolibrary.org/obo/XPO_0126462	abnormally localised dermatome	http:/
 http://purl.obolibrary.org/obo/XPO_0126441	abnormally localised dermis	http://purl.obolibrary.org/obo/XAO_0000217	dermis
 http://purl.obolibrary.org/obo/XPO_0126678	abnormally localised dermomyotome	http://purl.obolibrary.org/obo/XAO_0005080	dermomyotome
 http://purl.obolibrary.org/obo/XPO_0127682	abnormally localised descending interneuron	http://purl.obolibrary.org/obo/XAO_0005182	descending interneuron
+http://purl.obolibrary.org/obo/XPO_0142030	abnormally localised desmosome	http://purl.obolibrary.org/obo/XAO_0005500	desmosome
 http://purl.obolibrary.org/obo/XPO_0127521	abnormally localised diaphysis	http://purl.obolibrary.org/obo/XAO_0004488	diaphysis
 http://purl.obolibrary.org/obo/XPO_0126877	abnormally localised diencephalon	http://purl.obolibrary.org/obo/XAO_0000013	diencephalon
 http://purl.obolibrary.org/obo/XPO_0127881	abnormally localised digestive enzyme secreting cell	http://purl.obolibrary.org/obo/XAO_0003240	digestive enzyme secreting cell
+http://purl.obolibrary.org/obo/XPO_0142027	abnormally localised digestive tract	http://purl.obolibrary.org/obo/XAO_0005501	digestive tract
 http://purl.obolibrary.org/obo/XPO_0126603	abnormally localised digit	http://purl.obolibrary.org/obo/XAO_0003032	digit
 http://purl.obolibrary.org/obo/XPO_0127078	abnormally localised digit-joint region	http://purl.obolibrary.org/obo/XAO_0004314	digit-joint region
 http://purl.obolibrary.org/obo/XPO_0127940	abnormally localised distal mesenchyme	http://purl.obolibrary.org/obo/XAO_0004056	distal mesenchyme
@@ -802,6 +806,7 @@ http://purl.obolibrary.org/obo/XPO_0127158	abnormally localised m. transversus v
 http://purl.obolibrary.org/obo/XPO_0126974	abnormally localised m. transversus ventralis II primordium	http://purl.obolibrary.org/obo/XAO_0004436	m. transversus ventralis II primordium
 http://purl.obolibrary.org/obo/XPO_0127333	abnormally localised macrophage	http://purl.obolibrary.org/obo/XAO_0005025	macrophage
 http://purl.obolibrary.org/obo/XPO_0127163	abnormally localised magnocellular preoptic nucleus	http://purl.obolibrary.org/obo/XAO_0004567	magnocellular preoptic nucleus
+http://purl.obolibrary.org/obo/XPO_0142029	abnormally localised main body axis	http://purl.obolibrary.org/obo/XAO_0005502	main body axis
 http://purl.obolibrary.org/obo/XPO_0126762	abnormally localised male genitalia	http://purl.obolibrary.org/obo/XAO_0000155	male genitalia
 http://purl.obolibrary.org/obo/XPO_0127293	abnormally localised male organism	http://purl.obolibrary.org/obo/XAO_0003006	male organism
 http://purl.obolibrary.org/obo/XPO_0127938	abnormally localised mammilary region	http://purl.obolibrary.org/obo/XAO_0004605	mammilary region
@@ -948,6 +953,7 @@ http://purl.obolibrary.org/obo/XPO_0127836	abnormally localised myotome of trunk
 http://purl.obolibrary.org/obo/XPO_0127635	abnormally localised myotome of trunk somite 7	http://purl.obolibrary.org/obo/XAO_0003119	myotome of trunk somite 7
 http://purl.obolibrary.org/obo/XPO_0126805	abnormally localised myotome of trunk somite 8	http://purl.obolibrary.org/obo/XAO_0003120	myotome of trunk somite 8
 http://purl.obolibrary.org/obo/XPO_0127782	abnormally localised myotome of trunk somite 9	http://purl.obolibrary.org/obo/XAO_0003125	myotome of trunk somite 9
+http://purl.obolibrary.org/obo/XPO_0142025	abnormally localised nasal region	http://purl.obolibrary.org/obo/XAO_0005505	nasal region
 http://purl.obolibrary.org/obo/XPO_0127560	abnormally localised nasociliary artery	http://purl.obolibrary.org/obo/XAO_0004175	nasociliary artery
 http://purl.obolibrary.org/obo/XPO_0131555	abnormally localised nasociliary nerve	http://purl.obolibrary.org/obo/XAO_0005292	nasociliary nerve
 http://purl.obolibrary.org/obo/XPO_0127685	abnormally localised natural killer cell	http://purl.obolibrary.org/obo/XAO_0003156	natural killer cell
@@ -1447,6 +1453,7 @@ http://purl.obolibrary.org/obo/XPO_0127649	abnormally localised trabecula cranii
 http://purl.obolibrary.org/obo/XPO_0127674	abnormally localised trachea	http://purl.obolibrary.org/obo/XAO_0000118	trachea
 http://purl.obolibrary.org/obo/XPO_0131545	abnormally localised tracheal epithelium	http://purl.obolibrary.org/obo/XAO_0005298	tracheal epithelium
 http://purl.obolibrary.org/obo/XPO_0141697	abnormally localised tracheoesophageal fold	http://purl.obolibrary.org/obo/XAO_0005426	tracheoesophageal fold
+http://purl.obolibrary.org/obo/XPO_0142028	abnormally localised tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005503	tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0141696	abnormally localised transient tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005425	transient tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0127456	abnormally localised transporting epithelium	http://purl.obolibrary.org/obo/XAO_0004224	transporting epithelium
 http://purl.obolibrary.org/obo/XPO_0127964	abnormally localised transverse process	http://purl.obolibrary.org/obo/XAO_0003102	transverse process

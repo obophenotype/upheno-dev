@@ -21,3 +21,4 @@ http://purl.obolibrary.org/obo/ZP_0018533	spinal cord premature axon ensheathmen
 http://purl.obolibrary.org/obo/ZP_0018532	spinal cord premature central nervous system myelination, abnormal	http://purl.obolibrary.org/obo/GO_0022010	central nervous system myelination	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0107240	symplectic premature ossification, abnormal	http://purl.obolibrary.org/obo/GO_0001503	ossification	http://purl.obolibrary.org/obo/ZFA_0000692	symplectic
 http://purl.obolibrary.org/obo/ZP_0107237	ventral hypohyal bone premature ossification, abnormal	http://purl.obolibrary.org/obo/GO_0001503	ossification	http://purl.obolibrary.org/obo/ZFA_0000300	ventral hypohyal bone
+http://purl.obolibrary.org/obo/ZP_0143278	vertebra premature bone mineralization, abnormal	http://purl.obolibrary.org/obo/GO_0030282	bone mineralization	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra

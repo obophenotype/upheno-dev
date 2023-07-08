@@ -1,5 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/MP_0003130	anal atresia	http://purl.obolibrary.org/obo/UBERON_0001245	anus
+http://purl.obolibrary.org/obo/MP_0003130	anal atresia	http://purl.obolibrary.org/obo/UBERON_0000159	anal canal
 http://purl.obolibrary.org/obo/MP_0006115	aortic valve atresia	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
 http://purl.obolibrary.org/obo/MP_0031315	biliary atresia	http://purl.obolibrary.org/obo/UBERON_0002394	bile duct
 http://purl.obolibrary.org/obo/MP_0000265	blood vessel atresia	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel

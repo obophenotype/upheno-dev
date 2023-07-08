@@ -1,15 +1,18 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0102114	Meckel's cartilage increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
 http://purl.obolibrary.org/obo/ZP_0009258	anal fin increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001162	anal fin
+http://purl.obolibrary.org/obo/ZP_0144777	angiogenic sprout increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005604	angiogenic sprout
 http://purl.obolibrary.org/obo/ZP_0004995	atrioventricular canal increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001315	atrioventricular canal
 http://purl.obolibrary.org/obo/ZP_0009338	atrioventricular valve increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005064	atrioventricular valve
 http://purl.obolibrary.org/obo/ZP_0003274	axis increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis
+http://purl.obolibrary.org/obo/ZP_0144912	barbel increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000622	barbel
 http://purl.obolibrary.org/obo/ZP_0021565	branchiostegal ray 2 increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001281	branchiostegal ray 2
 http://purl.obolibrary.org/obo/ZP_0005493	bulbus arteriosus increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0138684	cardiac muscle cell increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0014542	cardiac ventricle increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
 http://purl.obolibrary.org/obo/ZP_0100573	caudal fin actinotrichium increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005424	caudal fin actinotrichium
 http://purl.obolibrary.org/obo/ZP_0010799	caudal fin increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
+http://purl.obolibrary.org/obo/ZP_0144913	caudal fin lepidotrichium increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001550	caudal fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0104476	ceratohyal cartilage increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001400	ceratohyal cartilage
 http://purl.obolibrary.org/obo/ZP_0010538	cranial nerve VIII increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000247	cranial nerve VIII
 http://purl.obolibrary.org/obo/ZP_0001603	diencephalon increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000101	diencephalon
@@ -33,8 +36,10 @@ http://purl.obolibrary.org/obo/ZP_0018397	lymphangioblast cord increased length,
 http://purl.obolibrary.org/obo/ZP_0100821	male organism increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0015795	mandibular arch skeleton increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
 http://purl.obolibrary.org/obo/ZP_0008863	midbrain hindbrain boundary increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary
+http://purl.obolibrary.org/obo/ZP_0145259	motor neuron increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron
 http://purl.obolibrary.org/obo/ZP_0014294	muscle cell increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell
 http://purl.obolibrary.org/obo/ZP_0002142	neural keel increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000131	neural keel
+http://purl.obolibrary.org/obo/ZP_0142720	notochord increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
 http://purl.obolibrary.org/obo/ZP_0103094	palate increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005509	palate
 http://purl.obolibrary.org/obo/ZP_0000920	palatoquadrate cartilage increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001399	palatoquadrate cartilage
 http://purl.obolibrary.org/obo/ZP_0003525	pancreas increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000140	pancreas
@@ -46,9 +51,11 @@ http://purl.obolibrary.org/obo/ZP_0010582	posterior lateral line primordium incr
 http://purl.obolibrary.org/obo/ZP_0002135	prechordal plate increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
 http://purl.obolibrary.org/obo/ZP_0015368	pronephric distal early tubule increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001622	pronephric distal early tubule
 http://purl.obolibrary.org/obo/ZP_0001714	pronephric distal late tubule increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001624	pronephric distal late tubule
+http://purl.obolibrary.org/obo/ZP_0143138	pronephric glomerulus increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001557	pronephric glomerulus
 http://purl.obolibrary.org/obo/ZP_0009770	pronephric proximal convoluted tubule increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001620	pronephric proximal convoluted tubule
 http://purl.obolibrary.org/obo/ZP_0017397	pronephric proximal straight tubule increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001621	pronephric proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0100572	regenerating fin increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
+http://purl.obolibrary.org/obo/ZP_0143060	renal glomerulus increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001288	renal glomerulus
 http://purl.obolibrary.org/obo/ZP_0000158	rhombomere 3 increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000948	rhombomere 3
 http://purl.obolibrary.org/obo/ZP_0010486	rhombomere 5 increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000823	rhombomere 5
 http://purl.obolibrary.org/obo/ZP_0011142	rhombomere 6 increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000069	rhombomere 6
@@ -71,3 +78,4 @@ http://purl.obolibrary.org/obo/ZP_0106982	trigeminal ganglion increased length, 
 http://purl.obolibrary.org/obo/ZP_0103864	ventral intermandibularis posterior increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0007048	ventral intermandibularis posterior
 http://purl.obolibrary.org/obo/ZP_0016237	ventral mandibular arch increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch
 http://purl.obolibrary.org/obo/ZP_0002978	whole organism increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0144997	yolk increased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000084	yolk

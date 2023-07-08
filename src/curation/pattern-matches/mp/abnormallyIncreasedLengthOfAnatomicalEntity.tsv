@@ -5,7 +5,6 @@ http://purl.obolibrary.org/obo/MP_0004638	elongated metacarpal bones	http://purl
 http://purl.obolibrary.org/obo/MP_0004641	elongated metatarsal bones	http://purl.obolibrary.org/obo/UBERON_0001448	metatarsal bone
 http://purl.obolibrary.org/obo/MP_0012720	elongated neck	http://purl.obolibrary.org/obo/UBERON_0000974	neck
 http://purl.obolibrary.org/obo/MP_0004705	elongated vertebral body	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum
-http://purl.obolibrary.org/obo/MP_0004707	enlarged lumbar vertebrae	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra
 http://purl.obolibrary.org/obo/MP_0001257	increased body length	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0013955	increased colon length	http://purl.obolibrary.org/obo/UBERON_0001155	colon
 http://purl.obolibrary.org/obo/MP_0011812	increased cranium length	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
@@ -17,6 +16,7 @@ http://purl.obolibrary.org/obo/MP_0004695	increased length of long bones	http://
 http://purl.obolibrary.org/obo/MP_0003765	increased palatal length	http://purl.obolibrary.org/obo/UBERON_0001716	secondary palate
 http://purl.obolibrary.org/obo/MP_0013957	increased small intestine length	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine
 http://purl.obolibrary.org/obo/MP_0001281	increased vibrissae length	http://purl.obolibrary.org/obo/UBERON_0011933	vibrissa unit
+http://purl.obolibrary.org/obo/MP_0020085	long ears	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
 http://purl.obolibrary.org/obo/MP_0031288	long eyelid cilia	http://purl.obolibrary.org/obo/UBERON_0001702	eyelash
 http://purl.obolibrary.org/obo/MP_0030070	long face	http://purl.obolibrary.org/obo/UBERON_0001456	face
 http://purl.obolibrary.org/obo/MP_0004348	long femur	http://purl.obolibrary.org/obo/UBERON_0000981	femur

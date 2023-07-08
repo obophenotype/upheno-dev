@@ -1,12 +1,14 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0007031	Kupffer's vesicle decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
 http://purl.obolibrary.org/obo/ZP_0008158	Meckel's cartilage decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
+http://purl.obolibrary.org/obo/ZP_0142718	Meckel's cartilage-palatoquadrate cartilage joint decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007117	Meckel's cartilage-palatoquadrate cartilage joint
 http://purl.obolibrary.org/obo/ZP_0015830	anterior lateral plate mesoderm decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005041	anterior lateral plate mesoderm
 http://purl.obolibrary.org/obo/ZP_0003784	anterior neural tube decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007038	anterior neural tube
 http://purl.obolibrary.org/obo/ZP_0103801	atrioventricular canal decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001315	atrioventricular canal
 http://purl.obolibrary.org/obo/ZP_0009860	axial chorda mesoderm decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000091	axial chorda mesoderm
 http://purl.obolibrary.org/obo/ZP_0004473	blood vessel decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel
 http://purl.obolibrary.org/obo/ZP_0003663	brain decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0143582	bulbus arteriosus decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0131255	caudal fin decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0001304	caudal vein plexus decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
 http://purl.obolibrary.org/obo/ZP_0142129	ceratohyal cartilage decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001400	ceratohyal cartilage
@@ -53,11 +55,14 @@ http://purl.obolibrary.org/obo/ZP_0001238	otic vesicle decreased width, abnormal
 http://purl.obolibrary.org/obo/ZP_0103095	palate decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005509	palate
 http://purl.obolibrary.org/obo/ZP_0103872	parasphenoid decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000561	parasphenoid
 http://purl.obolibrary.org/obo/ZP_0012235	pharyngeal arch decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
+http://purl.obolibrary.org/obo/ZP_0145411	pharyngeal endoderm decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001104	pharyngeal endoderm
 http://purl.obolibrary.org/obo/ZP_0009272	pharyngeal vasculature decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005003	pharyngeal vasculature
 http://purl.obolibrary.org/obo/ZP_0007256	pharynx decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000056	pharynx
 http://purl.obolibrary.org/obo/ZP_0012244	post-vent region decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0009267	posterior cardinal vein decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000477	posterior cardinal vein
+http://purl.obolibrary.org/obo/ZP_0143984	posterior neural tube decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007037	posterior neural tube
 http://purl.obolibrary.org/obo/ZP_0000211	postoptic commissure decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000059	postoptic commissure
+http://purl.obolibrary.org/obo/ZP_0143061	pronephric glomerulus decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001557	pronephric glomerulus
 http://purl.obolibrary.org/obo/ZP_0106748	pronephric proximal straight tubule decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001621	pronephric proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0003920	pupil decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001283	pupil
 http://purl.obolibrary.org/obo/ZP_0016817	red sensitive photoreceptor cell decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009224	red sensitive photoreceptor cell

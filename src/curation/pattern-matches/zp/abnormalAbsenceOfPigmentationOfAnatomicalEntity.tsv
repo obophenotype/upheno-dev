@@ -1,4 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/ZP_0142704	caudal fin unpigmented, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0010640	melanoblast unpigmented, abnormal	http://purl.obolibrary.org/obo/ZFA_0009249	melanoblast
 http://purl.obolibrary.org/obo/ZP_0005652	melanocyte unpigmented, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte
 http://purl.obolibrary.org/obo/ZP_0004676	retinal pigmented epithelium unpigmented, abnormal	http://purl.obolibrary.org/obo/ZFA_0000144	retinal pigmented epithelium

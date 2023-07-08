@@ -19,6 +19,7 @@ http://purl.obolibrary.org/obo/XPO_0132941	abnormal development of Schwann cell	
 http://purl.obolibrary.org/obo/XPO_0132409	abnormal development of Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
 http://purl.obolibrary.org/obo/XPO_0132408	abnormal development of T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
 http://purl.obolibrary.org/obo/XPO_0132827	abnormal development of abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
+http://purl.obolibrary.org/obo/XPO_0142012	abnormal development of abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0133070	abnormal development of abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
 http://purl.obolibrary.org/obo/XPO_0132074	abnormal development of absorptive cell	http://purl.obolibrary.org/obo/XAO_0003231	absorptive cell
 http://purl.obolibrary.org/obo/XPO_0132471	abnormal development of accessory nerve	http://purl.obolibrary.org/obo/XAO_0004214	accessory nerve
@@ -286,6 +287,7 @@ http://purl.obolibrary.org/obo/XPO_0132615	abnormal development of ceratohyal	ht
 http://purl.obolibrary.org/obo/XPO_0132286	abnormal development of cerebellum	http://purl.obolibrary.org/obo/XAO_0003098	cerebellum
 http://purl.obolibrary.org/obo/XPO_0132610	abnormal development of cerebral artery	http://purl.obolibrary.org/obo/XAO_0000367	cerebral artery
 http://purl.obolibrary.org/obo/XPO_0132070	abnormal development of cerebral vein	http://purl.obolibrary.org/obo/XAO_0004160	cerebral vein
+http://purl.obolibrary.org/obo/XPO_0142010	abnormal development of cerebrospinal fluid	http://purl.obolibrary.org/obo/XAO_0005506	cerebrospinal fluid
 http://purl.obolibrary.org/obo/XPO_0133005	abnormal development of cervical vertebra	http://purl.obolibrary.org/obo/XAO_0003076	cervical vertebra
 http://purl.obolibrary.org/obo/XPO_0132536	abnormal development of choana	http://purl.obolibrary.org/obo/XAO_0000277	choana
 http://purl.obolibrary.org/obo/XPO_0132280	abnormal development of chondroblast	http://purl.obolibrary.org/obo/XAO_0003238	chondroblast
@@ -357,9 +359,11 @@ http://purl.obolibrary.org/obo/XPO_0132681	abnormal development of dermatome	htt
 http://purl.obolibrary.org/obo/XPO_0132535	abnormal development of dermis	http://purl.obolibrary.org/obo/XAO_0000217	dermis
 http://purl.obolibrary.org/obo/XPO_0132371	abnormal development of dermomyotome	http://purl.obolibrary.org/obo/XAO_0005080	dermomyotome
 http://purl.obolibrary.org/obo/XPO_0132631	abnormal development of descending interneuron	http://purl.obolibrary.org/obo/XAO_0005182	descending interneuron
+http://purl.obolibrary.org/obo/XPO_0142016	abnormal development of desmosome	http://purl.obolibrary.org/obo/XAO_0005500	desmosome
 http://purl.obolibrary.org/obo/XPO_0132455	abnormal development of diaphysis	http://purl.obolibrary.org/obo/XAO_0004488	diaphysis
 http://purl.obolibrary.org/obo/XPO_0131894	abnormal development of diencephalon	http://purl.obolibrary.org/obo/XAO_0000013	diencephalon
 http://purl.obolibrary.org/obo/XPO_0133054	abnormal development of digestive enzyme secreting cell	http://purl.obolibrary.org/obo/XAO_0003240	digestive enzyme secreting cell
+http://purl.obolibrary.org/obo/XPO_0142013	abnormal development of digestive tract	http://purl.obolibrary.org/obo/XAO_0005501	digestive tract
 http://purl.obolibrary.org/obo/XPO_0131995	abnormal development of digit	http://purl.obolibrary.org/obo/XAO_0003032	digit
 http://purl.obolibrary.org/obo/XPO_0133304	abnormal development of digit-joint region	http://purl.obolibrary.org/obo/XAO_0004314	digit-joint region
 http://purl.obolibrary.org/obo/XPO_0132745	abnormal development of distal mesenchyme	http://purl.obolibrary.org/obo/XAO_0004056	distal mesenchyme
@@ -806,6 +810,7 @@ http://purl.obolibrary.org/obo/XPO_0133192	abnormal development of m. transversu
 http://purl.obolibrary.org/obo/XPO_0132333	abnormal development of m. transversus ventralis II primordium	http://purl.obolibrary.org/obo/XAO_0004436	m. transversus ventralis II primordium
 http://purl.obolibrary.org/obo/XPO_0133107	abnormal development of macrophage	http://purl.obolibrary.org/obo/XAO_0005025	macrophage
 http://purl.obolibrary.org/obo/XPO_0133091	abnormal development of magnocellular preoptic nucleus	http://purl.obolibrary.org/obo/XAO_0004567	magnocellular preoptic nucleus
+http://purl.obolibrary.org/obo/XPO_0142015	abnormal development of main body axis	http://purl.obolibrary.org/obo/XAO_0005502	main body axis
 http://purl.obolibrary.org/obo/XPO_0132546	abnormal development of male genitalia	http://purl.obolibrary.org/obo/XAO_0000155	male genitalia
 http://purl.obolibrary.org/obo/XPO_0132250	abnormal development of male organism	http://purl.obolibrary.org/obo/XAO_0003006	male organism
 http://purl.obolibrary.org/obo/XPO_0132552	abnormal development of mammilary region	http://purl.obolibrary.org/obo/XAO_0004605	mammilary region
@@ -952,6 +957,7 @@ http://purl.obolibrary.org/obo/XPO_0133156	abnormal development of myotome of tr
 http://purl.obolibrary.org/obo/XPO_0133187	abnormal development of myotome of trunk somite 7	http://purl.obolibrary.org/obo/XAO_0003119	myotome of trunk somite 7
 http://purl.obolibrary.org/obo/XPO_0133233	abnormal development of myotome of trunk somite 8	http://purl.obolibrary.org/obo/XAO_0003120	myotome of trunk somite 8
 http://purl.obolibrary.org/obo/XPO_0132511	abnormal development of myotome of trunk somite 9	http://purl.obolibrary.org/obo/XAO_0003125	myotome of trunk somite 9
+http://purl.obolibrary.org/obo/XPO_0142011	abnormal development of nasal region	http://purl.obolibrary.org/obo/XAO_0005505	nasal region
 http://purl.obolibrary.org/obo/XPO_0132623	abnormal development of nasociliary artery	http://purl.obolibrary.org/obo/XAO_0004175	nasociliary artery
 http://purl.obolibrary.org/obo/XPO_0132568	abnormal development of nasociliary nerve	http://purl.obolibrary.org/obo/XAO_0005292	nasociliary nerve
 http://purl.obolibrary.org/obo/XPO_0132407	abnormal development of natural killer cell	http://purl.obolibrary.org/obo/XAO_0003156	natural killer cell
@@ -1455,6 +1461,7 @@ http://purl.obolibrary.org/obo/XPO_0132155	abnormal development of trabecula cra
 http://purl.obolibrary.org/obo/XPO_0132018	abnormal development of trachea	http://purl.obolibrary.org/obo/XAO_0000118	trachea
 http://purl.obolibrary.org/obo/XPO_0132938	abnormal development of tracheal epithelium	http://purl.obolibrary.org/obo/XAO_0005298	tracheal epithelium
 http://purl.obolibrary.org/obo/XPO_0141687	abnormal development of tracheoesophageal fold	http://purl.obolibrary.org/obo/XAO_0005426	tracheoesophageal fold
+http://purl.obolibrary.org/obo/XPO_0142014	abnormal development of tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005503	tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0141686	abnormal development of transient tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005425	transient tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0132967	abnormal development of transporting epithelium	http://purl.obolibrary.org/obo/XAO_0004224	transporting epithelium
 http://purl.obolibrary.org/obo/XPO_0132836	abnormal development of transverse process	http://purl.obolibrary.org/obo/XAO_0003102	transverse process

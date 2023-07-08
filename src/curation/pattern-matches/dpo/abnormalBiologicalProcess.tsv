@@ -1,6 +1,7 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/FBcv_0000423	abnormal DNA repair	http://purl.obolibrary.org/obo/GO_0006281	DNA repair
-http://purl.obolibrary.org/obo/FBcv_0000384	abnormal aging	http://purl.obolibrary.org/obo/GO_0007568	aging
+http://purl.obolibrary.org/obo/FBcv_0007529	abnormal adult locomotory behavior	http://purl.obolibrary.org/obo/GO_0008344	adult locomotory behavior
+http://purl.obolibrary.org/obo/FBcv_0007527	abnormal adult walking behavior	http://purl.obolibrary.org/obo/GO_0007628	adult walking behavior
 http://purl.obolibrary.org/obo/FBcv_0007500	abnormal anesthesia-resistant memory	http://purl.obolibrary.org/obo/GO_0007615	anesthesia-resistant memory
 http://purl.obolibrary.org/obo/FBcv_0000407	abnormal auditory perception	http://purl.obolibrary.org/obo/GO_0007605	sensory perception of sound
 http://purl.obolibrary.org/obo/FBcv_0000686	abnormal axis specification	http://purl.obolibrary.org/obo/GO_0009798	axis specification
@@ -10,7 +11,7 @@ http://purl.obolibrary.org/obo/FBcv_0000671	abnormal cell cycle	http://purl.obol
 http://purl.obolibrary.org/obo/FBcv_0000424	abnormal cell death	http://purl.obolibrary.org/obo/GO_0008219	cell death
 http://purl.obolibrary.org/obo/FBcv_0000427	abnormal cell growth	http://purl.obolibrary.org/obo/GO_0016049	cell growth
 http://purl.obolibrary.org/obo/FBcv_0000716	abnormal cell migration	http://purl.obolibrary.org/obo/GO_0016477	cell migration
-http://purl.obolibrary.org/obo/FBcv_0000403	abnormal chemosensitive behavior	http://purl.obolibrary.org/obo/GO_0007635	chemosensory behavior
+http://purl.obolibrary.org/obo/FBcv_0000403	abnormal chemosensory behavior	http://purl.obolibrary.org/obo/GO_0007635	chemosensory behavior
 http://purl.obolibrary.org/obo/FBcv_0000679	abnormal circadian behavior	http://purl.obolibrary.org/obo/GO_0048512	circadian behavior
 http://purl.obolibrary.org/obo/FBcv_0000394	abnormal circadian rhythm	http://purl.obolibrary.org/obo/GO_0007623	circadian rhythm
 http://purl.obolibrary.org/obo/FBcv_0000684	abnormal cold stress response	http://purl.obolibrary.org/obo/GO_0009409	response to cold
@@ -30,6 +31,7 @@ http://purl.obolibrary.org/obo/FBcv_0000669	abnormal hatching behavior	http://pu
 http://purl.obolibrary.org/obo/FBcv_0000410	abnormal heat stress response	http://purl.obolibrary.org/obo/GO_0009408	response to heat
 http://purl.obolibrary.org/obo/FBcv_0000448	abnormal immune response	http://purl.obolibrary.org/obo/GO_0006955	immune response
 http://purl.obolibrary.org/obo/FBcv_0000720	abnormal jump response	http://purl.obolibrary.org/obo/GO_0007630	jump response
+http://purl.obolibrary.org/obo/FBcv_0007528	abnormal larval locomotory behavior	http://purl.obolibrary.org/obo/GO_0008345	larval locomotory behavior
 http://purl.obolibrary.org/obo/FBcv_0000397	abnormal learning	http://purl.obolibrary.org/obo/GO_0007612	learning
 http://purl.obolibrary.org/obo/FBcv_0000414	abnormal locomotor behavior	http://purl.obolibrary.org/obo/GO_0007626	locomotory behavior
 http://purl.obolibrary.org/obo/FBcv_0000395	abnormal locomotor rhythm	http://purl.obolibrary.org/obo/GO_0045475	locomotor rhythm
@@ -43,7 +45,7 @@ http://purl.obolibrary.org/obo/FBcv_0000398	abnormal memory	http://purl.obolibra
 http://purl.obolibrary.org/obo/FBcv_0000432	abnormal mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
 http://purl.obolibrary.org/obo/FBcv_0000412	abnormal optomotor response	http://purl.obolibrary.org/obo/GO_0007634	optokinetic behavior
 http://purl.obolibrary.org/obo/FBcv_0000409	abnormal osmotic stress response	http://purl.obolibrary.org/obo/GO_0006970	response to osmotic stress
-http://purl.obolibrary.org/obo/FBcv_0006004	abnormal oviposition	http://purl.obolibrary.org/obo/GO_0018991	oviposition
+http://purl.obolibrary.org/obo/FBcv_0006004	abnormal oviposition	http://purl.obolibrary.org/obo/GO_0018991	egg-laying behavior
 http://purl.obolibrary.org/obo/FBcv_0000725	abnormal oxidative stress response	http://purl.obolibrary.org/obo/GO_0006979	response to oxidative stress
 http://purl.obolibrary.org/obo/FBcv_0000393	abnormal pain response	http://purl.obolibrary.org/obo/GO_0048265	response to pain
 http://purl.obolibrary.org/obo/FBcv_0000413	abnormal phototaxis	http://purl.obolibrary.org/obo/GO_0042331	phototaxis

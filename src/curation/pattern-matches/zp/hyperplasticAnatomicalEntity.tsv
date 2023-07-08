@@ -1,4 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/ZP_0144818	atrium hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
 http://purl.obolibrary.org/obo/ZP_0006953	basihyal cartilage hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
 http://purl.obolibrary.org/obo/ZP_0142145	bile ductule hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005164	bile ductule
 http://purl.obolibrary.org/obo/ZP_0015194	blastema hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
@@ -24,6 +25,7 @@ http://purl.obolibrary.org/obo/ZP_0016390	integument hyperplastic, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0016148	interrenal gland hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001345	interrenal gland
 http://purl.obolibrary.org/obo/ZP_0018144	intestinal epithelium hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
 http://purl.obolibrary.org/obo/ZP_0016734	intestinal mucosa hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005660	intestinal mucosa
+http://purl.obolibrary.org/obo/ZP_0143585	intestine hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
 http://purl.obolibrary.org/obo/ZP_0142146	islet hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005755	islet
 http://purl.obolibrary.org/obo/ZP_0000862	kidney hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000529	kidney
 http://purl.obolibrary.org/obo/ZP_0007854	liver hyperplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver

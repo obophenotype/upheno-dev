@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/ZP_0009244	adenohypophysis morphology, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0022475	adipose tissue morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005345	adipose tissue
 http://purl.obolibrary.org/obo/ZP_0102037	afferent neuron morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009238	afferent neuron
 http://purl.obolibrary.org/obo/ZP_0010379	alar plate midbrain region morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001357	alar plate midbrain region
+http://purl.obolibrary.org/obo/ZP_0145048	anal fin lepidotrichium morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001421	anal fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0103786	anal fin morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001162	anal fin
 http://purl.obolibrary.org/obo/ZP_0017018	anal fin pterygiophore morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001420	anal fin pterygiophore
 http://purl.obolibrary.org/obo/ZP_0103907	annular ligament morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001676	annular ligament
@@ -58,6 +59,7 @@ http://purl.obolibrary.org/obo/ZP_0106481	basibranchial morphology, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0022076	basihyal bone morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000316	basihyal bone
 http://purl.obolibrary.org/obo/ZP_0016344	basihyal cartilage morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
 http://purl.obolibrary.org/obo/ZP_0021048	basilar artery morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005002	basilar artery
+http://purl.obolibrary.org/obo/ZP_0143311	bile canaliculus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005163	bile canaliculus
 http://purl.obolibrary.org/obo/ZP_0019124	bile ductule morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005164	bile ductule
 http://purl.obolibrary.org/obo/ZP_0142495	blastema morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
 http://purl.obolibrary.org/obo/ZP_0002420	blastoderm morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001176	blastoderm
@@ -147,6 +149,7 @@ http://purl.obolibrary.org/obo/ZP_0140581	digestive system duct morphology, abno
 http://purl.obolibrary.org/obo/ZP_0006923	digestive system morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000339	digestive system
 http://purl.obolibrary.org/obo/ZP_0014433	dorsal actinotrichium morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000052	dorsal actinotrichium
 http://purl.obolibrary.org/obo/ZP_0001400	dorsal aorta morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
+http://purl.obolibrary.org/obo/ZP_0145047	dorsal fin lepidotrichium morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001418	dorsal fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0103787	dorsal fin morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001173	dorsal fin
 http://purl.obolibrary.org/obo/ZP_0017017	dorsal fin pterygiophore morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001419	dorsal fin pterygiophore
 http://purl.obolibrary.org/obo/ZP_0002239	dorsal habenular nucleus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000197	dorsal habenular nucleus
@@ -160,10 +163,12 @@ http://purl.obolibrary.org/obo/ZP_0138555	dorsal spinal nerve morphology, abnorm
 http://purl.obolibrary.org/obo/ZP_0005475	dorsal telencephalon morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000505	dorsal telencephalon
 http://purl.obolibrary.org/obo/ZP_0022000	dorsomedial optic tract morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000655	dorsomedial optic tract
 http://purl.obolibrary.org/obo/ZP_0004288	dorsoventral diencephalic tract morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001322	dorsoventral diencephalic tract
+http://purl.obolibrary.org/obo/ZP_0143313	duct epithelial cell morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009372	duct epithelial cell
 http://purl.obolibrary.org/obo/ZP_0020093	early embryonic cell morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009002	early embryonic cell
 http://purl.obolibrary.org/obo/ZP_0015203	ectoderm morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000016	ectoderm
 http://purl.obolibrary.org/obo/ZP_0022632	ectomesenchyme morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005771	ectomesenchyme
 http://purl.obolibrary.org/obo/ZP_0001724	endocardial cushion morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001317	endocardial cushion
+http://purl.obolibrary.org/obo/ZP_0142748	endocardial ring morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005072	endocardial ring
 http://purl.obolibrary.org/obo/ZP_0001411	endocardium morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001320	endocardium
 http://purl.obolibrary.org/obo/ZP_0012993	endocrine pancreas morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001260	endocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0000033	endoderm morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
@@ -180,6 +185,7 @@ http://purl.obolibrary.org/obo/ZP_0004723	epidermal cell morphology, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0102269	epidermal superficial stratum morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001179	epidermal superficial stratum
 http://purl.obolibrary.org/obo/ZP_0004673	epidermis morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
 http://purl.obolibrary.org/obo/ZP_0011268	epiphysis morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000019	epiphysis
+http://purl.obolibrary.org/obo/ZP_0145044	epural morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000660	epural
 http://purl.obolibrary.org/obo/ZP_0013624	esophageal epithelium morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001499	esophageal epithelium
 http://purl.obolibrary.org/obo/ZP_0013741	esophagus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000204	esophagus
 http://purl.obolibrary.org/obo/ZP_0003939	ethmoid cartilage morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001405	ethmoid cartilage
@@ -224,6 +230,7 @@ http://purl.obolibrary.org/obo/ZP_0002008	gut morphology, abnormal	http://purl.o
 http://purl.obolibrary.org/obo/ZP_0016480	habenular commissure morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000359	habenular commissure
 http://purl.obolibrary.org/obo/ZP_0131209	hair cell anterior macula morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000678	hair cell anterior macula
 http://purl.obolibrary.org/obo/ZP_0005011	hair cell morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009366	hair cell
+http://purl.obolibrary.org/obo/ZP_0143315	hair cell posterior macula morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000281	hair cell posterior macula
 http://purl.obolibrary.org/obo/ZP_0015057	hatching gland morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000026	hatching gland
 http://purl.obolibrary.org/obo/ZP_0141541	head kidney morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000669	head kidney
 http://purl.obolibrary.org/obo/ZP_0001609	head morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
@@ -381,6 +388,7 @@ http://purl.obolibrary.org/obo/ZP_0000624	notochord morphology, abnormal	http://
 http://purl.obolibrary.org/obo/ZP_0137368	notochord outer sheath cell morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005744	notochord outer sheath cell
 http://purl.obolibrary.org/obo/ZP_0003123	nucleate erythrocyte morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte
 http://purl.obolibrary.org/obo/ZP_0009555	ocular blood vessel morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0007057	ocular blood vessel
+http://purl.obolibrary.org/obo/ZP_0144961	oculomotor nucleus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000553	oculomotor nucleus
 http://purl.obolibrary.org/obo/ZP_0011283	olfactory bulb glomerulus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005661	olfactory bulb glomerulus
 http://purl.obolibrary.org/obo/ZP_0012506	olfactory bulb morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000402	olfactory bulb
 http://purl.obolibrary.org/obo/ZP_0006150	olfactory epithelium morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000554	olfactory epithelium
@@ -494,6 +502,7 @@ http://purl.obolibrary.org/obo/ZP_0005519	postoptic commissure morphology, abnor
 http://purl.obolibrary.org/obo/ZP_0000616	prechordal plate morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
 http://purl.obolibrary.org/obo/ZP_0002672	preoptic area morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000470	preoptic area
 http://purl.obolibrary.org/obo/ZP_0010196	presumptive dorsal mesoderm morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000265	presumptive dorsal mesoderm
+http://purl.obolibrary.org/obo/ZP_0144261	presumptive enteric nervous system morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001334	presumptive enteric nervous system
 http://purl.obolibrary.org/obo/ZP_0017378	presumptive paraxial mesoderm morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000591	presumptive paraxial mesoderm
 http://purl.obolibrary.org/obo/ZP_0104558	presumptive rhombomere 4 morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001212	presumptive rhombomere 4
 http://purl.obolibrary.org/obo/ZP_0104566	presumptive rhombomere 5 morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001211	presumptive rhombomere 5
@@ -503,6 +512,7 @@ http://purl.obolibrary.org/obo/ZP_0014063	primary islet morphology, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0010872	primary motor neuron morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0012855	primary neuron morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009242	primary neuron
 http://purl.obolibrary.org/obo/ZP_0010164	primary olfactory fiber layer morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000267	primary olfactory fiber layer
+http://purl.obolibrary.org/obo/ZP_0144477	primitive mesencephalic artery morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001062	primitive mesencephalic artery
 http://purl.obolibrary.org/obo/ZP_0138629	primitive pectoral fin abductor morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005651	primitive pectoral fin abductor
 http://purl.obolibrary.org/obo/ZP_0138628	primitive pectoral fin adductor morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005650	primitive pectoral fin adductor
 http://purl.obolibrary.org/obo/ZP_0103990	primordial germ cell morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009288	primordial germ cell
@@ -531,6 +541,7 @@ http://purl.obolibrary.org/obo/ZP_0013009	regenerating fin morphology, abnormal	
 http://purl.obolibrary.org/obo/ZP_0013651	renal glomerulus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001288	renal glomerulus
 http://purl.obolibrary.org/obo/ZP_0107060	renal system morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000163	renal system
 http://purl.obolibrary.org/obo/ZP_0014088	renal tubule morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001287	renal tubule
+http://purl.obolibrary.org/obo/ZP_0144377	reticulospinal neuron morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005865	reticulospinal neuron
 http://purl.obolibrary.org/obo/ZP_0000048	retina morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0004100	retinal cone cell morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell
 http://purl.obolibrary.org/obo/ZP_0001380	retinal ganglion cell layer morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000024	retinal ganglion cell layer
@@ -585,8 +596,10 @@ http://purl.obolibrary.org/obo/ZP_0142394	sperm morphology, abnormal	http://purl
 http://purl.obolibrary.org/obo/ZP_0006460	spinal cord interneuron morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000778	spinal cord interneuron
 http://purl.obolibrary.org/obo/ZP_0000617	spinal cord morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0003089	splanchnocranium morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001216	splanchnocranium
+http://purl.obolibrary.org/obo/ZP_0142907	spleen morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000436	spleen
 http://purl.obolibrary.org/obo/ZP_0012828	statoacoustic (VIII) ganglion morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000588	statoacoustic (VIII) ganglion
 http://purl.obolibrary.org/obo/ZP_0014950	sternohyoid morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001651	sternohyoid
+http://purl.obolibrary.org/obo/ZP_0143748	subcommissural organ morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000683	subcommissural organ
 http://purl.obolibrary.org/obo/ZP_0005758	subintestinal vein morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005035	subintestinal vein
 http://purl.obolibrary.org/obo/ZP_0140064	subintestinal venous plexus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005934	subintestinal venous plexus
 http://purl.obolibrary.org/obo/ZP_0017300	superior cervical ganglion morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001572	superior cervical ganglion
@@ -615,11 +628,13 @@ http://purl.obolibrary.org/obo/ZP_0009337	trabecular layer morphology, abnormal	
 http://purl.obolibrary.org/obo/ZP_0012983	tract of the postoptic commissure morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001366	tract of the postoptic commissure
 http://purl.obolibrary.org/obo/ZP_0013759	trigeminal ganglion morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000295	trigeminal ganglion
 http://purl.obolibrary.org/obo/ZP_0131179	trigeminal motor nucleus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001365	trigeminal motor nucleus
+http://purl.obolibrary.org/obo/ZP_0144944	trochlear motor nucleus morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000450	trochlear motor nucleus
 http://purl.obolibrary.org/obo/ZP_0003437	trunk morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0003489	trunk musculature morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000473	trunk musculature
 http://purl.obolibrary.org/obo/ZP_0008165	trunk neural crest cell morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009004	trunk neural crest cell
 http://purl.obolibrary.org/obo/ZP_0000456	trunk vasculature morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005024	trunk vasculature
 http://purl.obolibrary.org/obo/ZP_0016117	uroneural morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000602	uroneural
+http://purl.obolibrary.org/obo/ZP_0145040	urostyle morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000158	urostyle
 http://purl.obolibrary.org/obo/ZP_0015512	utricle morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000700	utricle
 http://purl.obolibrary.org/obo/ZP_0012907	vagal ganglion morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0007067	vagal ganglion
 http://purl.obolibrary.org/obo/ZP_0000457	vascular cord morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0005077	vascular cord
