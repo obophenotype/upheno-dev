@@ -54,7 +54,6 @@ http://purl.obolibrary.org/obo/DDPHENO_0001297	abolished lysosomal protein degra
 http://purl.obolibrary.org/obo/DDPHENO_0001188	abolished macroautophagy	http://purl.obolibrary.org/obo/GO_0016236	macroautophagy
 http://purl.obolibrary.org/obo/DDPHENO_0000351	abolished macropinocytosis	http://purl.obolibrary.org/obo/GO_0044351	macropinocytosis
 http://purl.obolibrary.org/obo/DDPHENO_0000584	abolished mating type determination	http://purl.obolibrary.org/obo/GO_0007531	mating type determination
-http://purl.obolibrary.org/obo/DDPHENO_0001438	abolished necrotic cell death	http://purl.obolibrary.org/obo/GO_0070265	necrotic cell death
 http://purl.obolibrary.org/obo/DDPHENO_0000146	abolished negative chemotaxis	http://purl.obolibrary.org/obo/GO_0050919	negative chemotaxis
 http://purl.obolibrary.org/obo/DDPHENO_0000229	abolished negative regulation of chemorepellant activity	http://purl.obolibrary.org/obo/GO_1903668	negative regulation of chemorepellent activity
 http://purl.obolibrary.org/obo/DDPHENO_0001531	abolished negative regulation of vegetative growth	http://purl.obolibrary.org/obo/GO_1903665	negative regulation of asexual reproduction
@@ -72,7 +71,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0000559	abolished pore formation during c
 http://purl.obolibrary.org/obo/DDPHENO_0000466	abolished positive chemotaxis	http://purl.obolibrary.org/obo/GO_0050918	positive chemotaxis
 http://purl.obolibrary.org/obo/DDPHENO_0000228	abolished positive regulation of chemorepellant activity	http://purl.obolibrary.org/obo/GO_1903669	positive regulation of chemorepellent activity
 http://purl.obolibrary.org/obo/DDPHENO_0001533	abolished positive regulation of vegetative growth	http://purl.obolibrary.org/obo/GO_1903666	positive regulation of asexual reproduction
-http://purl.obolibrary.org/obo/DDPHENO_0000010	abolished post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
+http://purl.obolibrary.org/obo/DDPHENO_0000010	abolished post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	regulatory ncRNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/DDPHENO_0000014	abolished pre-miRNA processing	http://purl.obolibrary.org/obo/GO_0031054	pre-miRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0000024	abolished production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0001062	abolished protein kinase activation	http://purl.obolibrary.org/obo/GO_0032147	activation of protein kinase activity

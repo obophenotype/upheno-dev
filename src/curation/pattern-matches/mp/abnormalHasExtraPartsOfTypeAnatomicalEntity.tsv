@@ -1,4 +1,4 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/MP_0010102	increased caudal vertebrae number	http://purl.obolibrary.org/obo/UBERON_0001095	caudal vertebra
-http://purl.obolibrary.org/obo/MP_0010100	increased cervical vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002413	cervical vertebra
-http://purl.obolibrary.org/obo/MP_0008870	increased mature ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0003982	mature ovarian follicle
+http://purl.obolibrary.org/obo/MP_0009841	foam cell reticulosis	http://purl.obolibrary.org/obo/CL_0000891	foam cell
+http://purl.obolibrary.org/obo/MP_0012065	increased astrocyte number	http://purl.obolibrary.org/obo/CL_0000127	astrocyte
+http://purl.obolibrary.org/obo/MP_0009190	increased pancreatic epsilon cell number	http://purl.obolibrary.org/obo/CL_0005019	pancreatic epsilon cell

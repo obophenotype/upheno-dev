@@ -10,6 +10,7 @@ http://purl.obolibrary.org/obo/ZP_0140882	Kupffer's vesicle increased amount, ab
 http://purl.obolibrary.org/obo/ZP_0140843	Leydig cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009108	Leydig cell
 http://purl.obolibrary.org/obo/ZP_0004913	Mauthner neuron increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009149	Mauthner neuron
 http://purl.obolibrary.org/obo/ZP_0019543	Meckel's cartilage increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
+http://purl.obolibrary.org/obo/ZP_0143494	Meckel's cartilage-palatoquadrate cartilage joint increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007117	Meckel's cartilage-palatoquadrate cartilage joint
 http://purl.obolibrary.org/obo/ZP_0137719	MiD3cm increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005196	MiD3cm
 http://purl.obolibrary.org/obo/ZP_0015046	Muller cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009280	Muller cell
 http://purl.obolibrary.org/obo/ZP_0007469	NCC ionocyte increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005579	NCC ionocyte
@@ -68,6 +69,7 @@ http://purl.obolibrary.org/obo/ZP_0142437	cartilage tissue increased amount, abn
 http://purl.obolibrary.org/obo/ZP_0141064	caudal division of the internal carotid artery increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001051	caudal division of the internal carotid artery
 http://purl.obolibrary.org/obo/ZP_0107049	caudal fin fat increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005767	caudal fin fat
 http://purl.obolibrary.org/obo/ZP_0010345	caudal fin increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
+http://purl.obolibrary.org/obo/ZP_0144919	caudal fin vasculature increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005097	caudal fin vasculature
 http://purl.obolibrary.org/obo/ZP_0100428	caudal hematopoietic tissue increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005898	caudal hematopoietic tissue
 http://purl.obolibrary.org/obo/ZP_0021855	caudal periventricular hypothalamus increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000324	caudal periventricular hypothalamus
 http://purl.obolibrary.org/obo/ZP_0020349	caudal tuberculum increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000633	caudal tuberculum
@@ -102,6 +104,7 @@ http://purl.obolibrary.org/obo/ZP_0018498	dorsal aorta increased amount, abnorma
 http://purl.obolibrary.org/obo/ZP_0141251	dorsal habenular nucleus increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000197	dorsal habenular nucleus
 http://purl.obolibrary.org/obo/ZP_0101205	dorsal longitudinal anastomotic vessel increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0100292	dorsal longitudinal vein increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005031	dorsal longitudinal vein
+http://purl.obolibrary.org/obo/ZP_0142983	dorsal nucleus of ventral telencephalon increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000343	dorsal nucleus of ventral telencephalon
 http://purl.obolibrary.org/obo/ZP_0001893	dorsal root ganglion increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000200	dorsal root ganglion
 http://purl.obolibrary.org/obo/ZP_0103492	dorsal telencephalon increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000505	dorsal telencephalon
 http://purl.obolibrary.org/obo/ZP_0101570	ectoderm increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000016	ectoderm
@@ -137,10 +140,12 @@ http://purl.obolibrary.org/obo/ZP_0106833	floor plate increased amount, abnormal
 http://purl.obolibrary.org/obo/ZP_0021553	forebrain increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0010253	forerunner cell group increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000023	forerunner cell group
 http://purl.obolibrary.org/obo/ZP_0104490	fourth ventricle increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000110	fourth ventricle
+http://purl.obolibrary.org/obo/ZP_0143314	gall bladder increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000208	gall bladder
 http://purl.obolibrary.org/obo/ZP_0101010	germ ring increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000111	germ ring
 http://purl.obolibrary.org/obo/ZP_0007254	ghrelin secreting cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005599	ghrelin secreting cell
 http://purl.obolibrary.org/obo/ZP_0140250	gill filament increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000667	gill filament
 http://purl.obolibrary.org/obo/ZP_0021445	gill increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000354	gill
+http://purl.obolibrary.org/obo/ZP_0142886	gill raker increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000356	gill raker
 http://purl.obolibrary.org/obo/ZP_0102579	glial cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009073	glial cell
 http://purl.obolibrary.org/obo/ZP_0009370	glioblast (sensu Vertebrata) increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009169	glioblast (sensu Vertebrata)
 http://purl.obolibrary.org/obo/ZP_0138185	glioblast increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009010	glioblast
@@ -156,6 +161,7 @@ http://purl.obolibrary.org/obo/ZP_0004863	hair cell posterior macula increased a
 http://purl.obolibrary.org/obo/ZP_0105830	hatching gland increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000026	hatching gland
 http://purl.obolibrary.org/obo/ZP_0019569	head increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0020893	head kidney increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000669	head kidney
+http://purl.obolibrary.org/obo/ZP_0143223	head muscle increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001652	head muscle
 http://purl.obolibrary.org/obo/ZP_0000426	heart increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000114	heart
 http://purl.obolibrary.org/obo/ZP_0130984	heart primordium increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000028	heart primordium
 http://purl.obolibrary.org/obo/ZP_0010720	heart rudiment increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000115	heart rudiment
@@ -206,6 +212,7 @@ http://purl.obolibrary.org/obo/ZP_0018517	lateral dorsal aorta increased amount,
 http://purl.obolibrary.org/obo/ZP_0021854	lateral hypothalamic nucleus increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000227	lateral hypothalamic nucleus
 http://purl.obolibrary.org/obo/ZP_0020758	lateral plate mesoderm increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000121	lateral plate mesoderm
 http://purl.obolibrary.org/obo/ZP_0139927	lateral rectus increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000383	lateral rectus
+http://purl.obolibrary.org/obo/ZP_0142985	lateral zone of dorsal telencephalon increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000536	lateral zone of dorsal telencephalon
 http://purl.obolibrary.org/obo/ZP_0104719	lens epithelium increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001326	lens epithelium
 http://purl.obolibrary.org/obo/ZP_0103027	lens fiber cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009401	lens fiber cell
 http://purl.obolibrary.org/obo/ZP_0006507	lens increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens
@@ -223,7 +230,9 @@ http://purl.obolibrary.org/obo/ZP_0101215	margin increased amount, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0015089	mature neutrophil increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009049	mature neutrophil
 http://purl.obolibrary.org/obo/ZP_0104397	maxilla increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000270	maxilla
 http://purl.obolibrary.org/obo/ZP_0104160	medial caudal lobe increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000388	medial caudal lobe
+http://purl.obolibrary.org/obo/ZP_0142984	medial zone of dorsal telencephalon increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000391	medial zone of dorsal telencephalon
 http://purl.obolibrary.org/obo/ZP_0010314	median fin fold increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold
+http://purl.obolibrary.org/obo/ZP_0144059	medulla oblongata increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000545	medulla oblongata
 http://purl.obolibrary.org/obo/ZP_0009919	melanoblast increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009249	melanoblast
 http://purl.obolibrary.org/obo/ZP_0001371	melanocyte increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte
 http://purl.obolibrary.org/obo/ZP_0139793	mesenchymal cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009081	mesenchymal cell
@@ -250,6 +259,7 @@ http://purl.obolibrary.org/obo/ZP_0020079	nervous system increased amount, abnor
 http://purl.obolibrary.org/obo/ZP_0008166	neural crest cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009165	neural crest cell
 http://purl.obolibrary.org/obo/ZP_0018815	neural crest increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000045	neural crest
 http://purl.obolibrary.org/obo/ZP_0103394	neural plate border increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007082	neural plate border
+http://purl.obolibrary.org/obo/ZP_0144641	neural plate increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000132	neural plate
 http://purl.obolibrary.org/obo/ZP_0022415	neural tube increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001135	neural tube
 http://purl.obolibrary.org/obo/ZP_0010221	neurectodermal cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009080	neurectodermal cell
 http://purl.obolibrary.org/obo/ZP_0009369	neuroblast (sensu Vertebrata) increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009168	neuroblast (sensu Vertebrata)
@@ -265,6 +275,7 @@ http://purl.obolibrary.org/obo/ZP_0100104	neuronal stem cell increased amount, a
 http://purl.obolibrary.org/obo/ZP_0006155	neutrophil increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009327	neutrophil
 http://purl.obolibrary.org/obo/ZP_0100434	non neural ectoderm increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001178	non neural ectoderm
 http://purl.obolibrary.org/obo/ZP_0008891	notochord increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
+http://purl.obolibrary.org/obo/ZP_0143549	notochord inner cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005746	notochord inner cell
 http://purl.obolibrary.org/obo/ZP_0102122	notochord outer sheath cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005744	notochord outer sheath cell
 http://purl.obolibrary.org/obo/ZP_0005009	nucleate erythrocyte increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte
 http://purl.obolibrary.org/obo/ZP_0006070	ocular blood vessel increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007057	ocular blood vessel
@@ -288,6 +299,7 @@ http://purl.obolibrary.org/obo/ZP_0103634	optic furrow increased amount, abnorma
 http://purl.obolibrary.org/obo/ZP_0022381	optic stalk increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000137	optic stalk
 http://purl.obolibrary.org/obo/ZP_0019840	optic tectum increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000445	optic tectum
 http://purl.obolibrary.org/obo/ZP_0105773	optic vesicle increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000050	optic vesicle
+http://purl.obolibrary.org/obo/ZP_0142901	oral cavity increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001027	oral cavity
 http://purl.obolibrary.org/obo/ZP_0142673	osteoclast increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009047	osteoclast
 http://purl.obolibrary.org/obo/ZP_0104098	otic placode increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000138	otic placode
 http://purl.obolibrary.org/obo/ZP_0100284	otic vesicle increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000051	otic vesicle
@@ -353,6 +365,7 @@ http://purl.obolibrary.org/obo/ZP_0001393	posterior lateral line neuromast incre
 http://purl.obolibrary.org/obo/ZP_0021443	posterior lateral line primordium increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium
 http://purl.obolibrary.org/obo/ZP_0022843	posterior lateral mesoderm increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005040	posterior lateral mesoderm
 http://purl.obolibrary.org/obo/ZP_0019800	posterior lateral plate mesoderm increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005042	posterior lateral plate mesoderm
+http://purl.obolibrary.org/obo/ZP_0142986	posterior recess increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005338	posterior recess
 http://purl.obolibrary.org/obo/ZP_0019958	postoptic commissure increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000059	postoptic commissure
 http://purl.obolibrary.org/obo/ZP_0019916	postovulatory follicle increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001571	postovulatory follicle
 http://purl.obolibrary.org/obo/ZP_0131213	premigratory neural crest cell increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007084	premigratory neural crest cell
@@ -387,6 +400,7 @@ http://purl.obolibrary.org/obo/ZP_0019577	pronephros increased amount, abnormal	
 http://purl.obolibrary.org/obo/ZP_0104486	proximal pars anterior increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005581	proximal pars anterior
 http://purl.obolibrary.org/obo/ZP_0021325	regenerating fin increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
 http://purl.obolibrary.org/obo/ZP_0105955	regenerating tissue increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005147	regenerating tissue
+http://purl.obolibrary.org/obo/ZP_0144082	renal glomerular capsule epithelium increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005253	renal glomerular capsule epithelium
 http://purl.obolibrary.org/obo/ZP_0019217	renal glomerulus increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001288	renal glomerulus
 http://purl.obolibrary.org/obo/ZP_0137382	reproductive system increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000632	reproductive system
 http://purl.obolibrary.org/obo/ZP_0019209	retina increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
@@ -411,6 +425,7 @@ http://purl.obolibrary.org/obo/ZP_0007348	rib increased amount, abnormal	http://
 http://purl.obolibrary.org/obo/ZP_0104484	rostral pars anterior increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005580	rostral pars anterior
 http://purl.obolibrary.org/obo/ZP_0021856	rostral parvocellular preoptic nucleus increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000426	rostral parvocellular preoptic nucleus
 http://purl.obolibrary.org/obo/ZP_0021589	scale increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale
+http://purl.obolibrary.org/obo/ZP_0143288	sclera increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005563	sclera
 http://purl.obolibrary.org/obo/ZP_0100111	sclerotome increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001080	sclerotome
 http://purl.obolibrary.org/obo/ZP_0021512	secondary islet increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005756	secondary islet
 http://purl.obolibrary.org/obo/ZP_0102716	segmental plate increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000279	segmental plate
@@ -471,6 +486,7 @@ http://purl.obolibrary.org/obo/ZP_0021112	ventral thalamus increased amount, abn
 http://purl.obolibrary.org/obo/ZP_0018621	ventral wall of dorsal aorta increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005028	ventral wall of dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0141662	ventricular endocardium increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001615	ventricular endocardium
 http://purl.obolibrary.org/obo/ZP_0137429	ventricular epicardium increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005058	ventricular epicardium
+http://purl.obolibrary.org/obo/ZP_0143896	ventricular system increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001261	ventricular system
 http://purl.obolibrary.org/obo/ZP_0021858	ventromedial zone olfactory bulb increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005679	ventromedial zone olfactory bulb
 http://purl.obolibrary.org/obo/ZP_0142478	vertebra increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra
 http://purl.obolibrary.org/obo/ZP_0100625	vertebral column increased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column

@@ -62,7 +62,6 @@ http://purl.obolibrary.org/obo/DDPHENO_0001467	decreased microtubule nucleation	
 http://purl.obolibrary.org/obo/DDPHENO_0001519	decreased mitochondrial fission	http://purl.obolibrary.org/obo/GO_0000266	mitochondrial fission
 http://purl.obolibrary.org/obo/DDPHENO_0001516	decreased mitochondrial fusion	http://purl.obolibrary.org/obo/GO_0008053	mitochondrial fusion
 http://purl.obolibrary.org/obo/DDPHENO_0000136	decreased myosin II assembly	http://purl.obolibrary.org/obo/GO_0031036	myosin II filament assembly
-http://purl.obolibrary.org/obo/DDPHENO_0001439	decreased necrotic cell death	http://purl.obolibrary.org/obo/GO_0070265	necrotic cell death
 http://purl.obolibrary.org/obo/DDPHENO_0000141	decreased negative chemotaxis	http://purl.obolibrary.org/obo/GO_0050919	negative chemotaxis
 http://purl.obolibrary.org/obo/DDPHENO_0001398	decreased oscillatory cAMP signaling	http://purl.obolibrary.org/obo/GO_0140676	oscillatory cAMP signaling
 http://purl.obolibrary.org/obo/DDPHENO_0001324	decreased peptidyl-proline hydroxylation	http://purl.obolibrary.org/obo/GO_0019511	peptidyl-proline hydroxylation
@@ -74,7 +73,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0001127	decreased phototaxis	http://purl.
 http://purl.obolibrary.org/obo/DDPHENO_0000430	decreased pinocytosis	http://purl.obolibrary.org/obo/GO_0006907	pinocytosis
 http://purl.obolibrary.org/obo/DDPHENO_0000342	decreased plasma membrane organization	http://purl.obolibrary.org/obo/GO_0007009	plasma membrane organization
 http://purl.obolibrary.org/obo/DDPHENO_0001138	decreased positive regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0043547	positive regulation of GTPase activity
-http://purl.obolibrary.org/obo/DDPHENO_0000011	decreased post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
+http://purl.obolibrary.org/obo/DDPHENO_0000011	decreased post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	regulatory ncRNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/DDPHENO_0000016	decreased pre-miRNA processing	http://purl.obolibrary.org/obo/GO_0031054	pre-miRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0000716	decreased production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0001058	decreased protein kinase activation	http://purl.obolibrary.org/obo/GO_0032147	activation of protein kinase activity

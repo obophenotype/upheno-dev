@@ -17,6 +17,7 @@ http://purl.obolibrary.org/obo/XPO_0141213	abnormally necrotic Schwann cell	http
 http://purl.obolibrary.org/obo/XPO_0140428	abnormally necrotic Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
 http://purl.obolibrary.org/obo/XPO_0140733	abnormally necrotic T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
 http://purl.obolibrary.org/obo/XPO_0140734	abnormally necrotic abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
+http://purl.obolibrary.org/obo/XPO_0142033	abnormally necrotic abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0140188	abnormally necrotic abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
 http://purl.obolibrary.org/obo/XPO_0140239	abnormally necrotic absorptive cell	http://purl.obolibrary.org/obo/XAO_0003231	absorptive cell
 http://purl.obolibrary.org/obo/XPO_0141199	abnormally necrotic accessory nerve	http://purl.obolibrary.org/obo/XAO_0004214	accessory nerve
@@ -264,6 +265,7 @@ http://purl.obolibrary.org/obo/XPO_0140702	abnormally necrotic ceratohyal	http:/
 http://purl.obolibrary.org/obo/XPO_0140579	abnormally necrotic cerebellum	http://purl.obolibrary.org/obo/XAO_0003098	cerebellum
 http://purl.obolibrary.org/obo/XPO_0141032	abnormally necrotic cerebral artery	http://purl.obolibrary.org/obo/XAO_0000367	cerebral artery
 http://purl.obolibrary.org/obo/XPO_0139824	abnormally necrotic cerebral vein	http://purl.obolibrary.org/obo/XAO_0004160	cerebral vein
+http://purl.obolibrary.org/obo/XPO_0142031	abnormally necrotic cerebrospinal fluid	http://purl.obolibrary.org/obo/XAO_0005506	cerebrospinal fluid
 http://purl.obolibrary.org/obo/XPO_0140678	abnormally necrotic cervical vertebra	http://purl.obolibrary.org/obo/XAO_0003076	cervical vertebra
 http://purl.obolibrary.org/obo/XPO_0140868	abnormally necrotic chondroblast	http://purl.obolibrary.org/obo/XAO_0003238	chondroblast
 http://purl.obolibrary.org/obo/XPO_0139745	abnormally necrotic chondrocranium	http://purl.obolibrary.org/obo/XAO_0003059	chondrocranium
@@ -328,9 +330,11 @@ http://purl.obolibrary.org/obo/XPO_0140635	abnormally necrotic dermatome	http://
 http://purl.obolibrary.org/obo/XPO_0140540	abnormally necrotic dermis	http://purl.obolibrary.org/obo/XAO_0000217	dermis
 http://purl.obolibrary.org/obo/XPO_0140172	abnormally necrotic dermomyotome	http://purl.obolibrary.org/obo/XAO_0005080	dermomyotome
 http://purl.obolibrary.org/obo/XPO_0140669	abnormally necrotic descending interneuron	http://purl.obolibrary.org/obo/XAO_0005182	descending interneuron
+http://purl.obolibrary.org/obo/XPO_0142067	abnormally necrotic desmosome	http://purl.obolibrary.org/obo/XAO_0005500	desmosome
 http://purl.obolibrary.org/obo/XPO_0141236	abnormally necrotic diaphysis	http://purl.obolibrary.org/obo/XAO_0004488	diaphysis
 http://purl.obolibrary.org/obo/XPO_0140213	abnormally necrotic diencephalon	http://purl.obolibrary.org/obo/XAO_0000013	diencephalon
 http://purl.obolibrary.org/obo/XPO_0140697	abnormally necrotic digestive enzyme secreting cell	http://purl.obolibrary.org/obo/XAO_0003240	digestive enzyme secreting cell
+http://purl.obolibrary.org/obo/XPO_0142034	abnormally necrotic digestive tract	http://purl.obolibrary.org/obo/XAO_0005501	digestive tract
 http://purl.obolibrary.org/obo/XPO_0139962	abnormally necrotic digit	http://purl.obolibrary.org/obo/XAO_0003032	digit
 http://purl.obolibrary.org/obo/XPO_0141208	abnormally necrotic digit-joint region	http://purl.obolibrary.org/obo/XAO_0004314	digit-joint region
 http://purl.obolibrary.org/obo/XPO_0140449	abnormally necrotic distal mesenchyme	http://purl.obolibrary.org/obo/XAO_0004056	distal mesenchyme
@@ -760,6 +764,7 @@ http://purl.obolibrary.org/obo/XPO_0140853	abnormally necrotic m. transversus ve
 http://purl.obolibrary.org/obo/XPO_0140262	abnormally necrotic m. transversus ventralis II primordium	http://purl.obolibrary.org/obo/XAO_0004436	m. transversus ventralis II primordium
 http://purl.obolibrary.org/obo/XPO_0140606	abnormally necrotic macrophage	http://purl.obolibrary.org/obo/XAO_0005025	macrophage
 http://purl.obolibrary.org/obo/XPO_0140404	abnormally necrotic magnocellular preoptic nucleus	http://purl.obolibrary.org/obo/XAO_0004567	magnocellular preoptic nucleus
+http://purl.obolibrary.org/obo/XPO_0142036	abnormally necrotic main body axis	http://purl.obolibrary.org/obo/XAO_0005502	main body axis
 http://purl.obolibrary.org/obo/XPO_0139866	abnormally necrotic male genitalia	http://purl.obolibrary.org/obo/XAO_0000155	male genitalia
 http://purl.obolibrary.org/obo/XPO_0140706	abnormally necrotic male organism	http://purl.obolibrary.org/obo/XAO_0003006	male organism
 http://purl.obolibrary.org/obo/XPO_0140879	abnormally necrotic mammilary region	http://purl.obolibrary.org/obo/XAO_0004605	mammilary region
@@ -897,6 +902,7 @@ http://purl.obolibrary.org/obo/XPO_0139884	abnormally necrotic myotome of trunk 
 http://purl.obolibrary.org/obo/XPO_0141155	abnormally necrotic myotome of trunk somite 7	http://purl.obolibrary.org/obo/XAO_0003119	myotome of trunk somite 7
 http://purl.obolibrary.org/obo/XPO_0140849	abnormally necrotic myotome of trunk somite 8	http://purl.obolibrary.org/obo/XAO_0003120	myotome of trunk somite 8
 http://purl.obolibrary.org/obo/XPO_0140993	abnormally necrotic myotome of trunk somite 9	http://purl.obolibrary.org/obo/XAO_0003125	myotome of trunk somite 9
+http://purl.obolibrary.org/obo/XPO_0142032	abnormally necrotic nasal region	http://purl.obolibrary.org/obo/XAO_0005505	nasal region
 http://purl.obolibrary.org/obo/XPO_0140255	abnormally necrotic nasociliary artery	http://purl.obolibrary.org/obo/XAO_0004175	nasociliary artery
 http://purl.obolibrary.org/obo/XPO_0141117	abnormally necrotic nasociliary nerve	http://purl.obolibrary.org/obo/XAO_0005292	nasociliary nerve
 http://purl.obolibrary.org/obo/XPO_0141068	abnormally necrotic natural killer cell	http://purl.obolibrary.org/obo/XAO_0003156	natural killer cell
@@ -1380,6 +1386,7 @@ http://purl.obolibrary.org/obo/XPO_0140180	abnormally necrotic trabecula cranii	
 http://purl.obolibrary.org/obo/XPO_0139900	abnormally necrotic trachea	http://purl.obolibrary.org/obo/XAO_0000118	trachea
 http://purl.obolibrary.org/obo/XPO_0141078	abnormally necrotic tracheal epithelium	http://purl.obolibrary.org/obo/XAO_0005298	tracheal epithelium
 http://purl.obolibrary.org/obo/XPO_0141702	abnormally necrotic tracheoesophageal fold	http://purl.obolibrary.org/obo/XAO_0005426	tracheoesophageal fold
+http://purl.obolibrary.org/obo/XPO_0142035	abnormally necrotic tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005503	tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0141701	abnormally necrotic transient tracheoesophageal septum	http://purl.obolibrary.org/obo/XAO_0005425	transient tracheoesophageal septum
 http://purl.obolibrary.org/obo/XPO_0140690	abnormally necrotic transporting epithelium	http://purl.obolibrary.org/obo/XAO_0004224	transporting epithelium
 http://purl.obolibrary.org/obo/XPO_0141248	abnormally necrotic transverse process	http://purl.obolibrary.org/obo/XAO_0003102	transverse process

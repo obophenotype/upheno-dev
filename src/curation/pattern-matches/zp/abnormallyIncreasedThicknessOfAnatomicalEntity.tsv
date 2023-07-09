@@ -1,4 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/ZP_0144845	Bruch's membrane increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005562	Bruch's membrane
 http://purl.obolibrary.org/obo/ZP_0011804	DEL increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000711	DEL
 http://purl.obolibrary.org/obo/ZP_0003610	Meckel's cartilage increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
 http://purl.obolibrary.org/obo/ZP_0137285	Weberian apparatus increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001188	Weberian apparatus
@@ -31,6 +32,7 @@ http://purl.obolibrary.org/obo/ZP_0018209	fin fold actinotrichium increased thic
 http://purl.obolibrary.org/obo/ZP_0004418	germ ring increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000111	germ ring
 http://purl.obolibrary.org/obo/ZP_0140665	gill filament increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000667	gill filament
 http://purl.obolibrary.org/obo/ZP_0018447	glomerular basement membrane increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005285	glomerular basement membrane
+http://purl.obolibrary.org/obo/ZP_0142956	gut epithelium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005123	gut epithelium
 http://purl.obolibrary.org/obo/ZP_0141022	habenular commissure increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000359	habenular commissure
 http://purl.obolibrary.org/obo/ZP_0103309	hemal arch increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000519	hemal arch
 http://purl.obolibrary.org/obo/ZP_0001751	hyaloid vessel increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005046	hyaloid vessel
@@ -79,7 +81,9 @@ http://purl.obolibrary.org/obo/ZP_0004146	pronephric glomerular basement membran
 http://purl.obolibrary.org/obo/ZP_0005910	prosencephalic artery increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005049	prosencephalic artery
 http://purl.obolibrary.org/obo/ZP_0104401	pterygoid process increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005902	pterygoid process
 http://purl.obolibrary.org/obo/ZP_0016234	quadrate increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000621	quadrate
+http://purl.obolibrary.org/obo/ZP_0144116	retina increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0017553	retinal ganglion cell layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000024	retinal ganglion cell layer
+http://purl.obolibrary.org/obo/ZP_0145459	retinal inner nuclear layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000119	retinal inner nuclear layer
 http://purl.obolibrary.org/obo/ZP_0018441	retinal inner plexiform layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001329	retinal inner plexiform layer
 http://purl.obolibrary.org/obo/ZP_0105911	retinal outer plexiform layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001330	retinal outer plexiform layer
 http://purl.obolibrary.org/obo/ZP_0002442	retinal pigmented epithelium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000144	retinal pigmented epithelium

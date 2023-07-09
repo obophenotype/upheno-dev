@@ -27,6 +27,7 @@ http://purl.obolibrary.org/obo/ZP_0137588	abductor muscle decreased amount, abno
 http://purl.obolibrary.org/obo/ZP_0010083	acinar cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009277	acinar cell
 http://purl.obolibrary.org/obo/ZP_0004549	actinotrichium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005435	actinotrichium
 http://purl.obolibrary.org/obo/ZP_0005693	adaxial cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000003	adaxial cell
+http://purl.obolibrary.org/obo/ZP_0143218	adductor mandibulae decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007049	adductor mandibulae
 http://purl.obolibrary.org/obo/ZP_0137587	adductor muscle decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005268	adductor muscle
 http://purl.obolibrary.org/obo/ZP_0103873	adenohypophyseal placode decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001198	adenohypophyseal placode
 http://purl.obolibrary.org/obo/ZP_0010241	adenohypophysis decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001282	adenohypophysis
@@ -43,8 +44,10 @@ http://purl.obolibrary.org/obo/ZP_0130727	anterior commissure decreased amount, 
 http://purl.obolibrary.org/obo/ZP_0104236	anterior lateral line ganglion decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001391	anterior lateral line ganglion
 http://purl.obolibrary.org/obo/ZP_0000087	anterior lateral line neuromast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001472	anterior lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0103363	anterior lateral line placode decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001316	anterior lateral line placode
+http://purl.obolibrary.org/obo/ZP_0143810	anterior lateral mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005039	anterior lateral mesoderm
 http://purl.obolibrary.org/obo/ZP_0020368	anterior lateral plate mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005041	anterior lateral plate mesoderm
 http://purl.obolibrary.org/obo/ZP_0142416	anterior macula decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000168	anterior macula
+http://purl.obolibrary.org/obo/ZP_0142680	anterior mesenteric artery decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005080	anterior mesenteric artery
 http://purl.obolibrary.org/obo/ZP_0107161	anterior neural keel decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007024	anterior neural keel
 http://purl.obolibrary.org/obo/ZP_0021757	anterior neural plate decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007016	anterior neural plate
 http://purl.obolibrary.org/obo/ZP_0140827	anterior neural rod decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007031	anterior neural rod
@@ -57,6 +60,7 @@ http://purl.obolibrary.org/obo/ZP_0020879	aortic arch 5 decreased amount, abnorm
 http://purl.obolibrary.org/obo/ZP_0020877	aortic arch 6 decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005016	aortic arch 6
 http://purl.obolibrary.org/obo/ZP_0005250	aortic arch decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005004	aortic arch
 http://purl.obolibrary.org/obo/ZP_0018704	apical ectodermal ridge decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001702	apical ectodermal ridge
+http://purl.obolibrary.org/obo/ZP_0143294	apical ectodermal ridge pectoral fin bud decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000085	apical ectodermal ridge pectoral fin bud
 http://purl.obolibrary.org/obo/ZP_0019638	artery decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000005	artery
 http://purl.obolibrary.org/obo/ZP_0017586	astrocyte decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009075	astrocyte
 http://purl.obolibrary.org/obo/ZP_0102376	atrial endocardium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001614	atrial endocardium
@@ -71,6 +75,8 @@ http://purl.obolibrary.org/obo/ZP_0101810	axial mesoderm decreased amount, abnor
 http://purl.obolibrary.org/obo/ZP_0100112	axial vasculature decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001073	axial vasculature
 http://purl.obolibrary.org/obo/ZP_0100655	axis decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis
 http://purl.obolibrary.org/obo/ZP_0022195	basal regeneration epithelium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005150	basal regeneration epithelium
+http://purl.obolibrary.org/obo/ZP_0144015	basophilic erythroblast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005236	basophilic erythroblast
+http://purl.obolibrary.org/obo/ZP_0143104	bile canaliculus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005163	bile canaliculus
 http://purl.obolibrary.org/obo/ZP_0005939	bile ductule decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005164	bile ductule
 http://purl.obolibrary.org/obo/ZP_0022532	blastema decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
 http://purl.obolibrary.org/obo/ZP_0015192	blastemal cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009178	blastemal cell
@@ -86,6 +92,7 @@ http://purl.obolibrary.org/obo/ZP_0006824	blood vessel decreased amount, abnorma
 http://purl.obolibrary.org/obo/ZP_0003650	blood vessel endothelial cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009036	blood vessel endothelial cell
 http://purl.obolibrary.org/obo/ZP_0022552	blood vessel endothelium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005257	blood vessel endothelium
 http://purl.obolibrary.org/obo/ZP_0006000	blue sensitive photoreceptor cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009222	blue sensitive photoreceptor cell
+http://purl.obolibrary.org/obo/ZP_0144298	bone tissue decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005621	bone tissue
 http://purl.obolibrary.org/obo/ZP_0018956	brain decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0102129	brain vasculature decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000099	brain vasculature
 http://purl.obolibrary.org/obo/ZP_0009143	brainstem and spinal white matter decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000318	brainstem and spinal white matter
@@ -144,6 +151,7 @@ http://purl.obolibrary.org/obo/ZP_0140413	corpus cerebelli decreased amount, abn
 http://purl.obolibrary.org/obo/ZP_0102984	corpuscles of Stannius decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001200	corpuscles of Stannius
 http://purl.obolibrary.org/obo/ZP_0140901	cranial blood vessel decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005297	cranial blood vessel
 http://purl.obolibrary.org/obo/ZP_0001064	cranial cartilage decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001458	cranial cartilage
+http://purl.obolibrary.org/obo/ZP_0143368	cranial ganglion decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000013	cranial ganglion
 http://purl.obolibrary.org/obo/ZP_0018811	cranial motor neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005730	cranial motor neuron
 http://purl.obolibrary.org/obo/ZP_0107101	cranial nerve II decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000435	cranial nerve II
 http://purl.obolibrary.org/obo/ZP_0107091	cranial nerve IX decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000668	cranial nerve IX
@@ -153,6 +161,7 @@ http://purl.obolibrary.org/obo/ZP_0107088	cranial nerve X decreased amount, abno
 http://purl.obolibrary.org/obo/ZP_0007919	cranial neural crest cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009003	cranial neural crest cell
 http://purl.obolibrary.org/obo/ZP_0017980	cranial neural crest decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001194	cranial neural crest
 http://purl.obolibrary.org/obo/ZP_0101992	cranial vasculature decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001267	cranial vasculature
+http://purl.obolibrary.org/obo/ZP_0143852	cranial vault decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault
 http://purl.obolibrary.org/obo/ZP_0103334	cranium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
 http://purl.obolibrary.org/obo/ZP_0019560	dentary decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000191	dentary
 http://purl.obolibrary.org/obo/ZP_0019550	dermatocranium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000863	dermatocranium
@@ -194,6 +203,7 @@ http://purl.obolibrary.org/obo/ZP_0001015	epibranchial ganglion decreased amount
 http://purl.obolibrary.org/obo/ZP_0104113	epibranchial placode decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001294	epibranchial placode
 http://purl.obolibrary.org/obo/ZP_0015016	epidermal cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009183	epidermal cell
 http://purl.obolibrary.org/obo/ZP_0141610	epidermal stem cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007122	epidermal stem cell
+http://purl.obolibrary.org/obo/ZP_0142795	epidermis decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
 http://purl.obolibrary.org/obo/ZP_0020280	epiphysis decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000019	epiphysis
 http://purl.obolibrary.org/obo/ZP_0101054	epithalamus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000509	epithalamus
 http://purl.obolibrary.org/obo/ZP_0004236	erythroblast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005237	erythroblast
@@ -234,6 +244,7 @@ http://purl.obolibrary.org/obo/ZP_0021815	gill decreased amount, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0008172	glial cell (sensu Vertebrata) decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009147	glial cell (sensu Vertebrata)
 http://purl.obolibrary.org/obo/ZP_0007394	glial cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009073	glial cell
 http://purl.obolibrary.org/obo/ZP_0103616	glioblast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009010	glioblast
+http://purl.obolibrary.org/obo/ZP_0144084	glomerular capillary decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005284	glomerular capillary
 http://purl.obolibrary.org/obo/ZP_0104091	glossopharyngeal ganglion decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001301	glossopharyngeal ganglion
 http://purl.obolibrary.org/obo/ZP_0005876	glucagon secreting cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009103	glucagon secreting cell
 http://purl.obolibrary.org/obo/ZP_0006671	glutamatergic neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009290	glutamatergic neuron
@@ -274,21 +285,25 @@ http://purl.obolibrary.org/obo/ZP_0103780	hindbrain nucleus decreased amount, ab
 http://purl.obolibrary.org/obo/ZP_0017191	horizontal cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009315	horizontal cell
 http://purl.obolibrary.org/obo/ZP_0019582	horizontal myoseptum decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000671	horizontal myoseptum
 http://purl.obolibrary.org/obo/ZP_0001422	hyaloid vessel decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005046	hyaloid vessel
+http://purl.obolibrary.org/obo/ZP_0143222	hyohyoideus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007052	hyohyoideus
 http://purl.obolibrary.org/obo/ZP_0004182	hyosymplectic cartilage decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001422	hyosymplectic cartilage
 http://purl.obolibrary.org/obo/ZP_0101406	hypoblast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000117	hypoblast
 http://purl.obolibrary.org/obo/ZP_0020206	hypochord decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000031	hypochord
 http://purl.obolibrary.org/obo/ZP_0018026	hypocretin-secreting neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005778	hypocretin-secreting neuron
 http://purl.obolibrary.org/obo/ZP_0020846	hypophysis decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000118	hypophysis
 http://purl.obolibrary.org/obo/ZP_0019618	hypothalamus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000032	hypothalamus
+http://purl.obolibrary.org/obo/ZP_0143848	hypural decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000364	hypural
 http://purl.obolibrary.org/obo/ZP_0010182	immature eye decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001678	immature eye
 http://purl.obolibrary.org/obo/ZP_0101713	immature gonad decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005272	immature gonad
 http://purl.obolibrary.org/obo/ZP_0015097	immune system decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001159	immune system
+http://purl.obolibrary.org/obo/ZP_0142831	inferior lobe decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000165	inferior lobe
 http://purl.obolibrary.org/obo/ZP_0000898	infraorbital lateral line neuromast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000813	infraorbital lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0020087	inner ear decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000217	inner ear
 http://purl.obolibrary.org/obo/ZP_0005461	inner optic circle decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005054	inner optic circle
 http://purl.obolibrary.org/obo/ZP_0020495	integument decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000368	integument
 http://purl.obolibrary.org/obo/ZP_0007468	integument ionocyte decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005325	integument ionocyte
 http://purl.obolibrary.org/obo/ZP_0104783	interhyal-hyosymplectic joint decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005860	interhyal-hyosymplectic joint
+http://purl.obolibrary.org/obo/ZP_0143220	interhyoideus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007051	interhyoideus
 http://purl.obolibrary.org/obo/ZP_0019278	intermediate cell mass of mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000033	intermediate cell mass of mesoderm
 http://purl.obolibrary.org/obo/ZP_0105653	intermediate mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001206	intermediate mesoderm
 http://purl.obolibrary.org/obo/ZP_0021750	internal carotid artery decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005081	internal carotid artery
@@ -329,6 +344,8 @@ http://purl.obolibrary.org/obo/ZP_0004640	leukocyte decreased amount, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0019076	liver decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0103463	liver primordium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000124	liver primordium
 http://purl.obolibrary.org/obo/ZP_0101459	locus coeruleus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000539	locus coeruleus
+http://purl.obolibrary.org/obo/ZP_0142951	long double cone cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005945	long double cone cell
+http://purl.obolibrary.org/obo/ZP_0142953	long single cone cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005947	long single cone cell
 http://purl.obolibrary.org/obo/ZP_0022932	lymphangioblast cord decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005605	lymphangioblast cord
 http://purl.obolibrary.org/obo/ZP_0012045	lymphangioblast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009393	lymphangioblast
 http://purl.obolibrary.org/obo/ZP_0007110	lymphangiogenic sprout decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005603	lymphangiogenic sprout
@@ -361,6 +378,8 @@ http://purl.obolibrary.org/obo/ZP_0010044	mesothelial cell decreased amount, abn
 http://purl.obolibrary.org/obo/ZP_0021751	metencephalic artery decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005084	metencephalic artery
 http://purl.obolibrary.org/obo/ZP_0001178	microglial cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009077	microglial cell
 http://purl.obolibrary.org/obo/ZP_0012508	microvillous olfactory receptor neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009359	microvillous olfactory receptor neuron
+http://purl.obolibrary.org/obo/ZP_0144539	mid cerebral vein decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005010	mid cerebral vein
+http://purl.obolibrary.org/obo/ZP_0144330	mid intestine decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001323	mid intestine
 http://purl.obolibrary.org/obo/ZP_0019211	midbrain decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000128	midbrain
 http://purl.obolibrary.org/obo/ZP_0020730	midbrain hindbrain boundary decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary
 http://purl.obolibrary.org/obo/ZP_0104147	midbrain hindbrain boundary neural rod decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007046	midbrain hindbrain boundary neural rod
@@ -405,6 +424,7 @@ http://purl.obolibrary.org/obo/ZP_0002781	neuroepithelial cell decreased amount,
 http://purl.obolibrary.org/obo/ZP_0019477	neurogenic field decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007059	neurogenic field
 http://purl.obolibrary.org/obo/ZP_0003085	neuromast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000243	neuromast
 http://purl.obolibrary.org/obo/ZP_0000091	neuromast hair cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell
+http://purl.obolibrary.org/obo/ZP_0143509	neuromast mantle cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009362	neuromast mantle cell
 http://purl.obolibrary.org/obo/ZP_0018073	neuromast support cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009363	neuromast support cell
 http://purl.obolibrary.org/obo/ZP_0002881	neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron
 http://purl.obolibrary.org/obo/ZP_0008286	neuronal stem cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009019	neuronal stem cell
@@ -413,6 +433,7 @@ http://purl.obolibrary.org/obo/ZP_0020135	neutrophil progenitor cell decreased a
 http://purl.obolibrary.org/obo/ZP_0140817	non neural ectoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001178	non neural ectoderm
 http://purl.obolibrary.org/obo/ZP_0141791	noradrenergic neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005873	noradrenergic neuron
 http://purl.obolibrary.org/obo/ZP_0020207	notochord decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
+http://purl.obolibrary.org/obo/ZP_0143550	notochord inner cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005746	notochord inner cell
 http://purl.obolibrary.org/obo/ZP_0000396	nucleate erythrocyte decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte
 http://purl.obolibrary.org/obo/ZP_0017960	nucleus of the caudal commissure decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005850	nucleus of the caudal commissure
 http://purl.obolibrary.org/obo/ZP_0013975	ocular blood vessel decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007057	ocular blood vessel
@@ -471,8 +492,11 @@ http://purl.obolibrary.org/obo/ZP_0100489	pectoral artery decreased amount, abno
 http://purl.obolibrary.org/obo/ZP_0103414	pectoral fin bud decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000141	pectoral fin bud
 http://purl.obolibrary.org/obo/ZP_0104078	pectoral fin cartilage decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000257	pectoral fin cartilage
 http://purl.obolibrary.org/obo/ZP_0019010	pectoral fin decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
+http://purl.obolibrary.org/obo/ZP_0145285	pectoral fin distal radial decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001588	pectoral fin distal radial
+http://purl.obolibrary.org/obo/ZP_0143299	pectoral fin field decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001453	pectoral fin field
 http://purl.obolibrary.org/obo/ZP_0010673	pectoral fin lepidotrichium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001551	pectoral fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0014992	pectoral fin musculature decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000563	pectoral fin musculature
+http://purl.obolibrary.org/obo/ZP_0145063	pectoral fin proximal radial decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001587	pectoral fin proximal radial
 http://purl.obolibrary.org/obo/ZP_0015736	pectoral fin radial decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001586	pectoral fin radial
 http://purl.obolibrary.org/obo/ZP_0130983	pectoral protractor decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005863	pectoral protractor
 http://purl.obolibrary.org/obo/ZP_0137584	pelvic fin musculature decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000258	pelvic fin musculature
@@ -519,16 +543,19 @@ http://purl.obolibrary.org/obo/ZP_0101635	portion of connective tissue decreased
 http://purl.obolibrary.org/obo/ZP_0102192	post-vent region decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
 http://purl.obolibrary.org/obo/ZP_0019394	posterior cardinal vein decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000477	posterior cardinal vein
 http://purl.obolibrary.org/obo/ZP_0105779	posterior caudal vein decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001063	posterior caudal vein
+http://purl.obolibrary.org/obo/ZP_0145134	posterior hypaxial muscle decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005926	posterior hypaxial muscle
 http://purl.obolibrary.org/obo/ZP_0131064	posterior intestine decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000706	posterior intestine
 http://purl.obolibrary.org/obo/ZP_0020005	posterior lateral line decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000944	posterior lateral line
 http://purl.obolibrary.org/obo/ZP_0103230	posterior lateral line ganglion decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001314	posterior lateral line ganglion
 http://purl.obolibrary.org/obo/ZP_0018537	posterior lateral line nerve decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000175	posterior lateral line nerve
 http://purl.obolibrary.org/obo/ZP_0000084	posterior lateral line neuromast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000940	posterior lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0019585	posterior lateral line primordium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium
+http://purl.obolibrary.org/obo/ZP_0143258	posterior lateral line system decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001471	posterior lateral line system
 http://purl.obolibrary.org/obo/ZP_0020286	posterior lateral mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005040	posterior lateral mesoderm
 http://purl.obolibrary.org/obo/ZP_0019799	posterior lateral plate mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005042	posterior lateral plate mesoderm
 http://purl.obolibrary.org/obo/ZP_0142417	posterior macula decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000558	posterior macula
 http://purl.obolibrary.org/obo/ZP_0019427	posterior pancreatic bud decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001370	posterior pancreatic bud
+http://purl.obolibrary.org/obo/ZP_0143241	posterior recess decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005338	posterior recess
 http://purl.obolibrary.org/obo/ZP_0130726	postoptic commissure decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000059	postoptic commissure
 http://purl.obolibrary.org/obo/ZP_0101265	prechordal plate decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
 http://purl.obolibrary.org/obo/ZP_0020467	preoptic area decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000470	preoptic area
@@ -568,6 +595,8 @@ http://purl.obolibrary.org/obo/ZP_0105810	pronephric duct opening decreased amou
 http://purl.obolibrary.org/obo/ZP_0021156	pronephric glomerulus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001557	pronephric glomerulus
 http://purl.obolibrary.org/obo/ZP_0138322	pronephric mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000067	pronephric mesoderm
 http://purl.obolibrary.org/obo/ZP_0001417	pronephric podocyte decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001673	pronephric podocyte
+http://purl.obolibrary.org/obo/ZP_0143044	pronephric proximal convoluted tubule decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001620	pronephric proximal convoluted tubule
+http://purl.obolibrary.org/obo/ZP_0143045	pronephric proximal straight tubule decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001621	pronephric proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0100271	pronephric tubule decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
 http://purl.obolibrary.org/obo/ZP_0100354	pronephros decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000151	pronephros
 http://purl.obolibrary.org/obo/ZP_0019630	protoneuromast decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005227	protoneuromast
@@ -606,6 +635,7 @@ http://purl.obolibrary.org/obo/ZP_0106622	rhombomere 8 decreased amount, abnorma
 http://purl.obolibrary.org/obo/ZP_0001374	rod bipolar cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009321	rod bipolar cell
 http://purl.obolibrary.org/obo/ZP_0104485	rostral pars anterior decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005580	rostral pars anterior
 http://purl.obolibrary.org/obo/ZP_0007399	scale decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale
+http://purl.obolibrary.org/obo/ZP_0143289	sclera decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005563	sclera
 http://purl.obolibrary.org/obo/ZP_0100682	sclerotome decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001080	sclerotome
 http://purl.obolibrary.org/obo/ZP_0020399	secondary islet decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005756	secondary islet
 http://purl.obolibrary.org/obo/ZP_0003952	secondary motor neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009247	secondary motor neuron
@@ -613,6 +643,8 @@ http://purl.obolibrary.org/obo/ZP_0021363	segmental plate decreased amount, abno
 http://purl.obolibrary.org/obo/ZP_0100804	seminiferous tubule lumen decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005884	seminiferous tubule lumen
 http://purl.obolibrary.org/obo/ZP_0001388	sensory neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009053	sensory neuron
 http://purl.obolibrary.org/obo/ZP_0010178	shield decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000071	shield
+http://purl.obolibrary.org/obo/ZP_0142952	short double cone cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005946	short double cone cell
+http://purl.obolibrary.org/obo/ZP_0142954	short single cone cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005948	short single cone cell
 http://purl.obolibrary.org/obo/ZP_0100666	sinus venosus decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000154	sinus venosus
 http://purl.obolibrary.org/obo/ZP_0019118	skeletal muscle cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
 http://purl.obolibrary.org/obo/ZP_0018739	skeletal muscle decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005277	skeletal muscle
@@ -634,6 +666,7 @@ http://purl.obolibrary.org/obo/ZP_0018465	spinal cord decreased amount, abnormal
 http://purl.obolibrary.org/obo/ZP_0000025	spinal cord interneuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000778	spinal cord interneuron
 http://purl.obolibrary.org/obo/ZP_0100381	spleen decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000436	spleen
 http://purl.obolibrary.org/obo/ZP_0020726	statoacoustic (VIII) ganglion decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000588	statoacoustic (VIII) ganglion
+http://purl.obolibrary.org/obo/ZP_0143211	sternohyoid decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001651	sternohyoid
 http://purl.obolibrary.org/obo/ZP_0020759	subcutaneous fat decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005762	subcutaneous fat
 http://purl.obolibrary.org/obo/ZP_0007808	subintestinal vein decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005035	subintestinal vein
 http://purl.obolibrary.org/obo/ZP_0102304	superior cervical ganglion decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001572	superior cervical ganglion
@@ -659,12 +692,14 @@ http://purl.obolibrary.org/obo/ZP_0000497	thyroid follicle decreased amount, abn
 http://purl.obolibrary.org/obo/ZP_0022460	thyroid primordium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001081	thyroid primordium
 http://purl.obolibrary.org/obo/ZP_0010520	thyroid stimulating hormone secreting cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009218	thyroid stimulating hormone secreting cell
 http://purl.obolibrary.org/obo/ZP_0020810	tooth placode decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001153	tooth placode
+http://purl.obolibrary.org/obo/ZP_0144541	trabecula cranii decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001507	trabecula cranii
 http://purl.obolibrary.org/obo/ZP_0138040	trabecular layer of ventricle decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005060	trabecular layer of ventricle
 http://purl.obolibrary.org/obo/ZP_0004152	trigeminal ganglion decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000295	trigeminal ganglion
 http://purl.obolibrary.org/obo/ZP_0012545	trigeminal sensory neuron decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005768	trigeminal sensory neuron
 http://purl.obolibrary.org/obo/ZP_0020908	trunk decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0100110	trunk mesenchyme decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000081	trunk mesenchyme
 http://purl.obolibrary.org/obo/ZP_0004971	trunk neural crest cell decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009004	trunk neural crest cell
+http://purl.obolibrary.org/obo/ZP_0144530	trunk neural crest decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001024	trunk neural crest
 http://purl.obolibrary.org/obo/ZP_0021016	trunk vasculature decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005024	trunk vasculature
 http://purl.obolibrary.org/obo/ZP_0103445	unfertilized egg decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001570	unfertilized egg
 http://purl.obolibrary.org/obo/ZP_0004924	vH ionocyte decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005327	vH ionocyte
@@ -681,6 +716,8 @@ http://purl.obolibrary.org/obo/ZP_0021043	vasculature decreased amount, abnormal
 http://purl.obolibrary.org/obo/ZP_0138558	ventral aorta decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000604	ventral aorta
 http://purl.obolibrary.org/obo/ZP_0140748	ventral fin fold decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001069	ventral fin fold
 http://purl.obolibrary.org/obo/ZP_0104248	ventral hypothalamic zone decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000707	ventral hypothalamic zone
+http://purl.obolibrary.org/obo/ZP_0143214	ventral intermandibularis anterior decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007008	ventral intermandibularis anterior
+http://purl.obolibrary.org/obo/ZP_0143216	ventral intermandibularis posterior decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0007048	ventral intermandibularis posterior
 http://purl.obolibrary.org/obo/ZP_0106328	ventral mandibular arch decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch
 http://purl.obolibrary.org/obo/ZP_0101809	ventral mesoderm decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000083	ventral mesoderm
 http://purl.obolibrary.org/obo/ZP_0107152	ventral oblique extraocular muscle decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000861	ventral oblique extraocular muscle
@@ -690,6 +727,7 @@ http://purl.obolibrary.org/obo/ZP_0021102	ventral thalamus decreased amount, abn
 http://purl.obolibrary.org/obo/ZP_0018592	ventral wall of dorsal aorta decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005028	ventral wall of dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0102377	ventricular endocardium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001615	ventricular endocardium
 http://purl.obolibrary.org/obo/ZP_0106511	ventricular myocardium decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005061	ventricular myocardium
+http://purl.obolibrary.org/obo/ZP_0143893	ventricular zone decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001083	ventricular zone
 http://purl.obolibrary.org/obo/ZP_0022658	ventromedial zone olfactory bulb decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005679	ventromedial zone olfactory bulb
 http://purl.obolibrary.org/obo/ZP_0017014	vertebra decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra
 http://purl.obolibrary.org/obo/ZP_0100626	vertebral column decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column
@@ -700,3 +738,4 @@ http://purl.obolibrary.org/obo/ZP_0006094	xanthoblast decreased amount, abnormal
 http://purl.obolibrary.org/obo/ZP_0003317	xanthophore decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009198	xanthophore
 http://purl.obolibrary.org/obo/ZP_0141434	yolk decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000084	yolk
 http://purl.obolibrary.org/obo/ZP_0018980	yolk syncytial layer decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000088	yolk syncytial layer
+http://purl.obolibrary.org/obo/ZP_0143014	zona limitans intrathalamica decreased amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001344	zona limitans intrathalamica

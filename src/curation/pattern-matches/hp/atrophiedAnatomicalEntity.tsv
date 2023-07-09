@@ -26,6 +26,7 @@ http://purl.obolibrary.org/obo/HP_0001089	Iris atrophy	http://purl.obolibrary.or
 http://purl.obolibrary.org/obo/HP_0012241	Levator palpebrae superioris atrophy	http://purl.obolibrary.org/obo/UBERON_0001604	levator palpebrae superioris
 http://purl.obolibrary.org/obo/HP_0003797	Limb-girdle muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0004480	musculature of limb
 http://purl.obolibrary.org/obo/HP_0007210	Lower limb amyotrophy	http://purl.obolibrary.org/obo/UBERON_0004482	musculature of lower limb
+http://purl.obolibrary.org/obo/HP_0007373	Motor neuron atrophy	http://purl.obolibrary.org/obo/CL_0000100	motor neuron
 http://purl.obolibrary.org/obo/HP_0000648	Optic atrophy	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/HP_0012037	Pectoralis amyotrophy	http://purl.obolibrary.org/obo/UBERON_0001495	pectoral muscle
 http://purl.obolibrary.org/obo/HP_0008988	Pelvic girdle muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0001497	muscle of pelvic girdle
@@ -40,6 +41,6 @@ http://purl.obolibrary.org/obo/HP_0003202	Skeletal muscle atrophy	http://purl.ob
 http://purl.obolibrary.org/obo/HP_0012242	Superior rectus atrophy	http://purl.obolibrary.org/obo/UBERON_0006533	rectus extraocular muscle
 http://purl.obolibrary.org/obo/HP_0000029	Testicular atrophy	http://purl.obolibrary.org/obo/UBERON_0000473	testis
 http://purl.obolibrary.org/obo/HP_0003393	Thenar muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0014376	thenar muscle
-http://purl.obolibrary.org/obo/HP_0011399	Tibialis atrophy	http://purl.obolibrary.org/obo/UBERON_0008230	tibialis
+http://purl.obolibrary.org/obo/HP_0011399	Tibialis anterior muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0008230	tibialis
 http://purl.obolibrary.org/obo/HP_0009129	Upper limb amyotrophy	http://purl.obolibrary.org/obo/UBERON_0004481	musculature of upper limb
 http://purl.obolibrary.org/obo/HP_0011473	Villous atrophy	http://purl.obolibrary.org/obo/UBERON_0001213	intestinal villus

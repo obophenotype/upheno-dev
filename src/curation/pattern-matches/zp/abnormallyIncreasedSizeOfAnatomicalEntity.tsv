@@ -2,10 +2,13 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0142407	B cell increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009142	B cell
 http://purl.obolibrary.org/obo/ZP_0002526	Kupffer's vesicle increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
 http://purl.obolibrary.org/obo/ZP_0007229	Meckel's cartilage increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
+http://purl.obolibrary.org/obo/ZP_0142955	Muller cell increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009280	Muller cell
 http://purl.obolibrary.org/obo/ZP_0138557	NaK ionocyte increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005326	NaK ionocyte
 http://purl.obolibrary.org/obo/ZP_0016485	adenohypophyseal placode increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001198	adenohypophyseal placode
 http://purl.obolibrary.org/obo/ZP_0004620	adenohypophysis increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001282	adenohypophysis
 http://purl.obolibrary.org/obo/ZP_0106420	adipose tissue increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005345	adipose tissue
+http://purl.obolibrary.org/obo/ZP_0143478	anguloarticular increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000467	anguloarticular
+http://purl.obolibrary.org/obo/ZP_0144705	anterior chamber eye increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005876	anterior chamber eye
 http://purl.obolibrary.org/obo/ZP_0141377	anterior commissure increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001108	anterior commissure
 http://purl.obolibrary.org/obo/ZP_0007420	anterior crista increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000619	anterior crista
 http://purl.obolibrary.org/obo/ZP_0010028	anterior macula increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000168	anterior macula
@@ -17,6 +20,7 @@ http://purl.obolibrary.org/obo/ZP_0003593	axial chorda mesoderm increased size, 
 http://purl.obolibrary.org/obo/ZP_0000576	ball increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000006	ball
 http://purl.obolibrary.org/obo/ZP_0017791	barbel increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000622	barbel
 http://purl.obolibrary.org/obo/ZP_0002735	basal communicating artery increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005000	basal communicating artery
+http://purl.obolibrary.org/obo/ZP_0143475	basihyal bone increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000316	basihyal bone
 http://purl.obolibrary.org/obo/ZP_0002743	basilar artery increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005002	basilar artery
 http://purl.obolibrary.org/obo/ZP_0001310	basophilic erythroblast increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005236	basophilic erythroblast
 http://purl.obolibrary.org/obo/ZP_0006593	blastoderm cell increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009177	blastoderm cell
@@ -31,6 +35,7 @@ http://purl.obolibrary.org/obo/ZP_0001207	cardiac ventricle increased size, abno
 http://purl.obolibrary.org/obo/ZP_0019132	caudal artery increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000011	caudal artery
 http://purl.obolibrary.org/obo/ZP_0010424	caudal commissure increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000320	caudal commissure
 http://purl.obolibrary.org/obo/ZP_0002731	caudal division of the internal carotid artery increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001051	caudal division of the internal carotid artery
+http://purl.obolibrary.org/obo/ZP_0144920	caudal fin blood vessel increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005304	caudal fin blood vessel
 http://purl.obolibrary.org/obo/ZP_0013947	caudal fin increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0019134	caudal vein increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
 http://purl.obolibrary.org/obo/ZP_0011580	caudal vein plexus increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
@@ -52,6 +57,7 @@ http://purl.obolibrary.org/obo/ZP_0001604	diencephalon increased size, abnormal	
 http://purl.obolibrary.org/obo/ZP_0010922	dorsal aorta increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0101486	dorsal longitudinal anastomotic vessel increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0003459	dorsal telencephalon increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000505	dorsal telencephalon
+http://purl.obolibrary.org/obo/ZP_0143706	endocardial cushion increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001317	endocardial cushion
 http://purl.obolibrary.org/obo/ZP_0004594	endocrine pancreas increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001260	endocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0137515	endolymphatic sac increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005912	endolymphatic sac
 http://purl.obolibrary.org/obo/ZP_0005242	epibranchial ganglion increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001555	epibranchial ganglion
@@ -61,6 +67,7 @@ http://purl.obolibrary.org/obo/ZP_0000344	epiphysis increased size, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0007606	epithalamus increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000509	epithalamus
 http://purl.obolibrary.org/obo/ZP_0005856	erythroblast increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005237	erythroblast
 http://purl.obolibrary.org/obo/ZP_0006558	erythroid lineage cell increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009325	erythroid lineage cell
+http://purl.obolibrary.org/obo/ZP_0143481	exoccipital increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000661	exoccipital
 http://purl.obolibrary.org/obo/ZP_0006477	exocrine pancreas increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001249	exocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0010325	extension increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension
 http://purl.obolibrary.org/obo/ZP_0000852	external yolk syncytial layer increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000309	external yolk syncytial layer
@@ -91,6 +98,7 @@ http://purl.obolibrary.org/obo/ZP_0007262	hindbrain increased size, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0140534	hypophyseal fenestra increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005625	hypophyseal fenestra
 http://purl.obolibrary.org/obo/ZP_0018063	hypophysis increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000118	hypophysis
 http://purl.obolibrary.org/obo/ZP_0001598	hypothalamus increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000032	hypothalamus
+http://purl.obolibrary.org/obo/ZP_0143476	infraorbital increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000376	infraorbital
 http://purl.obolibrary.org/obo/ZP_0005729	inner ear increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000217	inner ear
 http://purl.obolibrary.org/obo/ZP_0003115	intermediate cell mass of mesoderm increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000033	intermediate cell mass of mesoderm
 http://purl.obolibrary.org/obo/ZP_0103136	interrenal gland increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001345	interrenal gland
@@ -176,6 +184,7 @@ http://purl.obolibrary.org/obo/ZP_0005564	pronephric glomerulus increased size, 
 http://purl.obolibrary.org/obo/ZP_0100257	pronephric proximal straight tubule increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001621	pronephric proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0008942	pronephric tubule increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
 http://purl.obolibrary.org/obo/ZP_0106653	proximal convoluted tubule increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005290	proximal convoluted tubule
+http://purl.obolibrary.org/obo/ZP_0143488	quadrate increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000621	quadrate
 http://purl.obolibrary.org/obo/ZP_0019737	renal capsular space increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005283	renal capsular space
 http://purl.obolibrary.org/obo/ZP_0006108	renal duct increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005289	renal duct
 http://purl.obolibrary.org/obo/ZP_0017829	renal glomerular capsule increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005254	renal glomerular capsule
@@ -203,6 +212,7 @@ http://purl.obolibrary.org/obo/ZP_0006634	somite increased size, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0106165	spermatogonium increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009007	spermatogonium
 http://purl.obolibrary.org/obo/ZP_0003121	spleen increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000436	spleen
 http://purl.obolibrary.org/obo/ZP_0010881	statoacoustic (VIII) ganglion increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000588	statoacoustic (VIII) ganglion
+http://purl.obolibrary.org/obo/ZP_0143482	supraorbital bone increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000691	supraorbital bone
 http://purl.obolibrary.org/obo/ZP_0005148	tail bud increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000077	tail bud
 http://purl.obolibrary.org/obo/ZP_0141213	tectal neuropile increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005907	tectal neuropile
 http://purl.obolibrary.org/obo/ZP_0000323	tectal ventricle increased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000159	tectal ventricle

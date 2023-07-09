@@ -3,6 +3,7 @@ http://purl.obolibrary.org/obo/ZP_0002631	Meckel's cartilage increased width, ab
 http://purl.obolibrary.org/obo/ZP_0012075	adductor hyohyoid increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000715	adductor hyohyoid
 http://purl.obolibrary.org/obo/ZP_0012085	adductor mandibulae increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007049	adductor mandibulae
 http://purl.obolibrary.org/obo/ZP_0012071	adductor operculi increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000465	adductor operculi
+http://purl.obolibrary.org/obo/ZP_0145041	anal fin proximal radial increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000268	anal fin proximal radial
 http://purl.obolibrary.org/obo/ZP_0010146	anterior neural keel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007024	anterior neural keel
 http://purl.obolibrary.org/obo/ZP_0001837	anterior neural plate increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007016	anterior neural plate
 http://purl.obolibrary.org/obo/ZP_0009754	atrial myocardium increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001374	atrial myocardium
@@ -16,6 +17,8 @@ http://purl.obolibrary.org/obo/ZP_0017242	basal plate cartilage increased width,
 http://purl.obolibrary.org/obo/ZP_0001105	bile canaliculus increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005163	bile canaliculus
 http://purl.obolibrary.org/obo/ZP_0015209	blastema increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
 http://purl.obolibrary.org/obo/ZP_0010324	blood island increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000094	blood island
+http://purl.obolibrary.org/obo/ZP_0144264	brain increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0144183	bulbus arteriosus increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0138685	cardiac muscle cell increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0005211	cardiac ventricle increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
 http://purl.obolibrary.org/obo/ZP_0018502	caudal division of the internal carotid artery increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001051	caudal division of the internal carotid artery
@@ -30,6 +33,8 @@ http://purl.obolibrary.org/obo/ZP_0018454	cloaca increased width, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0010029	common cardinal vein increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000186	common cardinal vein
 http://purl.obolibrary.org/obo/ZP_0006270	cranium increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
 http://purl.obolibrary.org/obo/ZP_0012073	dilatator operculi increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000498	dilatator operculi
+http://purl.obolibrary.org/obo/ZP_0144445	dorsal aorta increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
+http://purl.obolibrary.org/obo/ZP_0145045	dorsal fin proximal radial increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000947	dorsal fin proximal radial
 http://purl.obolibrary.org/obo/ZP_0131006	dorsal funiculus increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000501	dorsal funiculus
 http://purl.obolibrary.org/obo/ZP_0005907	dorsal longitudinal anastomotic vessel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0106667	endoderm increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
@@ -42,6 +47,7 @@ http://purl.obolibrary.org/obo/ZP_0007823	floor plate rhombomere region increase
 http://purl.obolibrary.org/obo/ZP_0001819	forebrain increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0003024	forebrain midbrain boundary increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001367	forebrain midbrain boundary
 http://purl.obolibrary.org/obo/ZP_0005180	forerunner cell group increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000023	forerunner cell group
+http://purl.obolibrary.org/obo/ZP_0144085	glomerular basement membrane increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005285	glomerular basement membrane
 http://purl.obolibrary.org/obo/ZP_0002338	gut increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut
 http://purl.obolibrary.org/obo/ZP_0010010	head increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0012079	head muscle increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001652	head muscle
@@ -49,6 +55,7 @@ http://purl.obolibrary.org/obo/ZP_0009398	heart increased width, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0009399	heart tube increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000360	heart tube
 http://purl.obolibrary.org/obo/ZP_0017147	hindbrain increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0005874	hindbrain neural keel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007029	hindbrain neural keel
+http://purl.obolibrary.org/obo/ZP_0145281	hyaloid vessel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005046	hyaloid vessel
 http://purl.obolibrary.org/obo/ZP_0000927	hyosymplectic cartilage increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001422	hyosymplectic cartilage
 http://purl.obolibrary.org/obo/ZP_0006652	hypophyseal fenestra increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005625	hypophyseal fenestra
 http://purl.obolibrary.org/obo/ZP_0101662	inter-ventral hypohyal joint increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005476	inter-ventral hypohyal joint
@@ -83,6 +90,7 @@ http://purl.obolibrary.org/obo/ZP_0022374	optic stalk increased width, abnormal	
 http://purl.obolibrary.org/obo/ZP_0008466	organizer inducing center increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001125	organizer inducing center
 http://purl.obolibrary.org/obo/ZP_0100687	palate increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005509	palate
 http://purl.obolibrary.org/obo/ZP_0138656	palatoquadrate arch increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001272	palatoquadrate arch
+http://purl.obolibrary.org/obo/ZP_0143526	parasphenoid increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000561	parasphenoid
 http://purl.obolibrary.org/obo/ZP_0002555	paraxial mesoderm increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000255	paraxial mesoderm
 http://purl.obolibrary.org/obo/ZP_0015892	pectoral fin increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
 http://purl.obolibrary.org/obo/ZP_0006425	pharyngeal arch 2 skeleton increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001276	pharyngeal arch 2 skeleton

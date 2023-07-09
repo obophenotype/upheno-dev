@@ -1,5 +1,6 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0005374	Kupffer's vesicle decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
+http://purl.obolibrary.org/obo/ZP_0144972	anguloarticular decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000467	anguloarticular
 http://purl.obolibrary.org/obo/ZP_0020409	aqueous humor decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0005564	aqueous humor
 http://purl.obolibrary.org/obo/ZP_0101829	atrium decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
 http://purl.obolibrary.org/obo/ZP_0006800	blood decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000007	blood
@@ -16,6 +17,7 @@ http://purl.obolibrary.org/obo/ZP_0003328	cerebellum decreased volume, abnormal	
 http://purl.obolibrary.org/obo/ZP_0011889	cranial nerve II decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000435	cranial nerve II
 http://purl.obolibrary.org/obo/ZP_0104626	eye decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0142142	fast muscle cell decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell
+http://purl.obolibrary.org/obo/ZP_0144392	fertilized egg decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0005772	fertilized egg
 http://purl.obolibrary.org/obo/ZP_0003329	forebrain decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0002600	fourth ventricle decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000110	fourth ventricle
 http://purl.obolibrary.org/obo/ZP_0002248	head decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
@@ -35,6 +37,7 @@ http://purl.obolibrary.org/obo/ZP_0138412	nucleate erythrocyte decreased volume,
 http://purl.obolibrary.org/obo/ZP_0012617	opercle decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000250	opercle
 http://purl.obolibrary.org/obo/ZP_0010832	otic vesicle decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000051	otic vesicle
 http://purl.obolibrary.org/obo/ZP_0004389	pancreas decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000140	pancreas
+http://purl.obolibrary.org/obo/ZP_0144973	parasphenoid decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0000561	parasphenoid
 http://purl.obolibrary.org/obo/ZP_0006962	presumptive atrium heart tube decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0001718	presumptive atrium heart tube
 http://purl.obolibrary.org/obo/ZP_0006963	presumptive cardiac ventricle heart tube decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0001719	presumptive cardiac ventricle heart tube
 http://purl.obolibrary.org/obo/ZP_0107184	pronephric distal late tubule decreased volume, abnormal	http://purl.obolibrary.org/obo/ZFA_0001624	pronephric distal late tubule

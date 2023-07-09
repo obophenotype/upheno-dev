@@ -1,5 +1,7 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
 http://purl.obolibrary.org/obo/ZP_0103871	anterior region basihyal cartilage decreased width, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
+http://purl.obolibrary.org/obo/ZP_0143497	anterior region endoderm decreased width, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
+http://purl.obolibrary.org/obo/ZP_0142711	anterior region head decreased width, abnormal	http://purl.obolibrary.org/obo/BSPO_0000071	anterior region	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0104122	anterior-posterior axis somite decreased width, abnormal	http://purl.obolibrary.org/obo/BSPO_0000013	anterior-posterior axis	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0021993	blood vessel trunk vasculature decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0005024	trunk vasculature
 http://purl.obolibrary.org/obo/ZP_0140560	caudal fin principal ray regenerating fin decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001585	caudal fin principal ray	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
@@ -10,6 +12,7 @@ http://purl.obolibrary.org/obo/ZP_0008671	central region subintestinal vein decr
 http://purl.obolibrary.org/obo/ZP_0138427	cranial vault female organism decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault	http://purl.obolibrary.org/obo/ZFA_0000303	female organism
 http://purl.obolibrary.org/obo/ZP_0138426	cranial vault male organism decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0020773	left-right axis roof plate rhombomere region decreased width, abnormal	http://purl.obolibrary.org/obo/BSPO_0000017	left-right axis	http://purl.obolibrary.org/obo/ZFA_0001311	roof plate rhombomere region
+http://purl.obolibrary.org/obo/ZP_0144282	lumen intestinal bulb decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005930	lumen	http://purl.obolibrary.org/obo/ZFA_0001076	intestinal bulb
 http://purl.obolibrary.org/obo/ZP_0012254	melanophore stripe anal fin decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001463	melanophore stripe	http://purl.obolibrary.org/obo/ZFA_0001162	anal fin
-http://purl.obolibrary.org/obo/ZP_0020744	neuromuscular junction fast muscle cell decreased width, abnormal	http://purl.obolibrary.org/obo/GO_0031594	neuromuscular junction	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell
+http://purl.obolibrary.org/obo/ZP_0144907	posterior region head decreased width, abnormal	http://purl.obolibrary.org/obo/BSPO_0000072	posterior region	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0138425	ventral region cranial vault decreased width, abnormal	http://purl.obolibrary.org/obo/BSPO_0000084	ventral region	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault

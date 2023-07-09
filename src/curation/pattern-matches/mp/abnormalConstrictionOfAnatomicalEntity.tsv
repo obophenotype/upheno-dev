@@ -5,7 +5,7 @@ http://purl.obolibrary.org/obo/MP_0006117	aortic valve stenosis	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0006135	artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001637	artery
 http://purl.obolibrary.org/obo/MP_0013228	brain ventricle stenosis	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle
 http://purl.obolibrary.org/obo/MP_0002958	cerebral aqueductal stenosis	http://purl.obolibrary.org/obo/UBERON_0002289	midbrain cerebral aqueduct
-http://purl.obolibrary.org/obo/MP_0030062	choanal stenosis	http://purl.obolibrary.org/obo/UBERON_0010425	internal naris
+http://purl.obolibrary.org/obo/MP_0030062	choanal stenosis	http://purl.obolibrary.org/obo/UBERON_0004771	posterior nasal aperture
 http://purl.obolibrary.org/obo/MP_0001143	constricted vagina orifice	http://purl.obolibrary.org/obo/UBERON_0012317	vagina orifice
 http://purl.obolibrary.org/obo/MP_0003389	constriction of pericardium	http://purl.obolibrary.org/obo/UBERON_0002407	pericardium
 http://purl.obolibrary.org/obo/MP_0003024	coronary artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001621	coronary artery
@@ -32,8 +32,10 @@ http://purl.obolibrary.org/obo/MP_0010438	pulmonary vein stenosis	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0003307	pyloric stenosis	http://purl.obolibrary.org/obo/UBERON_0001166	pylorus
 http://purl.obolibrary.org/obo/MP_0011356	renal artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001184	renal artery
 http://purl.obolibrary.org/obo/MP_0031142	retina artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001620	central retinal artery
+http://purl.obolibrary.org/obo/MP_0021170	spinal stenosis	http://purl.obolibrary.org/obo/UBERON_0006692	vertebral canal
 http://purl.obolibrary.org/obo/MP_0004630	spiral modiolar artery stenosis	http://purl.obolibrary.org/obo/UBERON_0002505	spiral modiolar artery
-http://purl.obolibrary.org/obo/MP_0010471	supravalvar aortic stenosis	http://purl.obolibrary.org/obo/UBERON_0001496	ascending aorta
+http://purl.obolibrary.org/obo/MP_0030001	subglottis stenosis	http://purl.obolibrary.org/obo/UBERON_0036068	subglottis
+http://purl.obolibrary.org/obo/MP_0010471	supravalvar aortic stenosis	http://purl.obolibrary.org/obo/UBERON_0010172	bulb of aorta
 http://purl.obolibrary.org/obo/MP_0010883	trachea stenosis	http://purl.obolibrary.org/obo/UBERON_0003126	trachea
 http://purl.obolibrary.org/obo/MP_0006124	tricuspid valve stenosis	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve
 http://purl.obolibrary.org/obo/MP_0012302	umbilical artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001310	umbilical artery
@@ -42,3 +44,4 @@ http://purl.obolibrary.org/obo/MP_0003588	ureter stenosis	http://purl.obolibrary
 http://purl.obolibrary.org/obo/MP_0011490	ureteropelvic junction stenosis	http://purl.obolibrary.org/obo/UBERON_0009972	ureteropelvic junction
 http://purl.obolibrary.org/obo/MP_0003592	urethra stricture	http://purl.obolibrary.org/obo/UBERON_0000057	urethra
 http://purl.obolibrary.org/obo/MP_0005412	vascular stenosis	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
+http://purl.obolibrary.org/obo/MP_0031477	vein stenosis	http://purl.obolibrary.org/obo/UBERON_0001638	vein

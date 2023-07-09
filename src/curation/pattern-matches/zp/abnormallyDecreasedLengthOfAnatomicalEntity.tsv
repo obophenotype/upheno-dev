@@ -28,6 +28,7 @@ http://purl.obolibrary.org/obo/ZP_0100739	cardiac muscle cell decreased length, 
 http://purl.obolibrary.org/obo/ZP_0006046	cardiac ventricle decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
 http://purl.obolibrary.org/obo/ZP_0002281	cartilage element decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001501	cartilage element
 http://purl.obolibrary.org/obo/ZP_0000584	caudal fin decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
+http://purl.obolibrary.org/obo/ZP_0144430	caudal fin principal ray decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001585	caudal fin principal ray
 http://purl.obolibrary.org/obo/ZP_0139806	caudal vein decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
 http://purl.obolibrary.org/obo/ZP_0001303	caudal vein plexus decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
 http://purl.obolibrary.org/obo/ZP_0018990	caudal vertebra decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000326	caudal vertebra
@@ -93,6 +94,7 @@ http://purl.obolibrary.org/obo/ZP_0003158	intestine decreased length, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0002052	intrahepatic bile duct decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005169	intrahepatic bile duct
 http://purl.obolibrary.org/obo/ZP_0103674	lateral facial lymph vessel decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005837	lateral facial lymph vessel
 http://purl.obolibrary.org/obo/ZP_0002625	lateral longitudinal fasciculus decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000534	lateral longitudinal fasciculus
+http://purl.obolibrary.org/obo/ZP_0144850	lepidotrichium decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001554	lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0018373	lymphangioblast cord decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005605	lymphangioblast cord
 http://purl.obolibrary.org/obo/ZP_0018751	male organism decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0002322	mandibular arch skeleton decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
@@ -103,10 +105,12 @@ http://purl.obolibrary.org/obo/ZP_0015835	mesoderm decreased length, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0020317	mid cerebral vein decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005010	mid cerebral vein
 http://purl.obolibrary.org/obo/ZP_0014327	mid intestine decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001323	mid intestine
 http://purl.obolibrary.org/obo/ZP_0016052	motor neuron decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron
+http://purl.obolibrary.org/obo/ZP_0144048	mouth decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000547	mouth
 http://purl.obolibrary.org/obo/ZP_0001823	myotome decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
 http://purl.obolibrary.org/obo/ZP_0001298	neural keel decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000131	neural keel
 http://purl.obolibrary.org/obo/ZP_0001652	neural plate decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000132	neural plate
 http://purl.obolibrary.org/obo/ZP_0007053	neural rod decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000133	neural rod
+http://purl.obolibrary.org/obo/ZP_0143635	neural spine decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001336	neural spine
 http://purl.obolibrary.org/obo/ZP_0006402	neurocranial trabecula decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001321	neurocranial trabecula
 http://purl.obolibrary.org/obo/ZP_0007235	neurocranium decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001580	neurocranium
 http://purl.obolibrary.org/obo/ZP_0001631	notochord decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
@@ -148,6 +152,7 @@ http://purl.obolibrary.org/obo/ZP_0001296	prechordal plate decreased length, abn
 http://purl.obolibrary.org/obo/ZP_0008253	presumptive cardiac ventricle heart tube decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001719	presumptive cardiac ventricle heart tube
 http://purl.obolibrary.org/obo/ZP_0007931	presumptive mesoderm decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001377	presumptive mesoderm
 http://purl.obolibrary.org/obo/ZP_0018985	preural vertebra decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000734	preural vertebra
+http://purl.obolibrary.org/obo/ZP_0144462	primary motor neuron decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009244	primary motor neuron
 http://purl.obolibrary.org/obo/ZP_0014922	primitive heart tube decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000149	primitive heart tube
 http://purl.obolibrary.org/obo/ZP_0009772	pronephric distal early tubule decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001622	pronephric distal early tubule
 http://purl.obolibrary.org/obo/ZP_0009774	pronephric distal late tubule decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001624	pronephric distal late tubule
@@ -157,16 +162,19 @@ http://purl.obolibrary.org/obo/ZP_0001713	pronephric proximal convoluted tubule 
 http://purl.obolibrary.org/obo/ZP_0009771	pronephric proximal straight tubule decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001621	pronephric proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0102540	pronephric tubule decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
 http://purl.obolibrary.org/obo/ZP_0101877	pronephros decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000151	pronephros
+http://purl.obolibrary.org/obo/ZP_0143046	proximal straight tubule decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005291	proximal straight tubule
 http://purl.obolibrary.org/obo/ZP_0003918	pupil decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001283	pupil
 http://purl.obolibrary.org/obo/ZP_0001958	quadrate decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000621	quadrate
 http://purl.obolibrary.org/obo/ZP_0016816	red sensitive photoreceptor cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009224	red sensitive photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0010643	regenerating fin decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
+http://purl.obolibrary.org/obo/ZP_0144113	renal glomerulus decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001288	renal glomerulus
 http://purl.obolibrary.org/obo/ZP_0004101	retinal cone cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell
 http://purl.obolibrary.org/obo/ZP_0017326	retinal rod cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
 http://purl.obolibrary.org/obo/ZP_0018605	rhombomere 3 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000948	rhombomere 3
 http://purl.obolibrary.org/obo/ZP_0018606	rhombomere 4 decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001032	rhombomere 4
 http://purl.obolibrary.org/obo/ZP_0139939	rhombomere decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0001064	rhombomere
 http://purl.obolibrary.org/obo/ZP_0006547	segmental plate decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000279	segmental plate
+http://purl.obolibrary.org/obo/ZP_0145436	short single cone cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0005948	short single cone cell
 http://purl.obolibrary.org/obo/ZP_0131033	skeletal muscle cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
 http://purl.obolibrary.org/obo/ZP_0001838	slow muscle cell decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
 http://purl.obolibrary.org/obo/ZP_0001822	somite decreased length, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite

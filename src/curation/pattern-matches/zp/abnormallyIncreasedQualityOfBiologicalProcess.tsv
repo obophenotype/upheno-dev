@@ -2,7 +2,9 @@ defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/ZP_0107121	ATP metabolic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046034	ATP metabolic process
 http://purl.obolibrary.org/obo/ZP_0012722	BMP signaling pathway increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030509	BMP signaling pathway
 http://purl.obolibrary.org/obo/ZP_0019581	DNA damage checkpoint signaling increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0000077	DNA damage checkpoint signaling
+http://purl.obolibrary.org/obo/ZP_0144345	DNA replication increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006260	DNA replication
 http://purl.obolibrary.org/obo/ZP_0015208	Notch signaling pathway increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007219	Notch signaling pathway
+http://purl.obolibrary.org/obo/ZP_0144429	T cell differentiation in thymus increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0033077	T cell differentiation in thymus
 http://purl.obolibrary.org/obo/ZP_0015574	Wnt signaling pathway increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
 http://purl.obolibrary.org/obo/ZP_0018314	activation of NF-kappaB-inducing kinase activity increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007250	activation of NF-kappaB-inducing kinase activity
 http://purl.obolibrary.org/obo/ZP_0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process
@@ -11,9 +13,11 @@ http://purl.obolibrary.org/obo/ZP_0101048	aggressive behavior increased process 
 http://purl.obolibrary.org/obo/ZP_0141250	alternative mRNA splicing, via spliceosome increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0000380	alternative mRNA splicing, via spliceosome
 http://purl.obolibrary.org/obo/ZP_0016755	angiogenesis increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0001525	angiogenesis
 http://purl.obolibrary.org/obo/ZP_0010784	apoptotic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
+http://purl.obolibrary.org/obo/ZP_0144346	arachidonic acid metabolic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0019369	arachidonic acid metabolic process
 http://purl.obolibrary.org/obo/ZP_0022558	blood circulation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008015	blood circulation
 http://purl.obolibrary.org/obo/ZP_0021562	bone development increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060348	bone development
 http://purl.obolibrary.org/obo/ZP_0006781	bone mineralization increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030282	bone mineralization
+http://purl.obolibrary.org/obo/ZP_0142870	calcium-mediated signaling increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0019722	calcium-mediated signaling
 http://purl.obolibrary.org/obo/ZP_0003662	canonical Wnt signaling pathway increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/ZP_0104224	cardiac muscle cell proliferation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060038	cardiac muscle cell proliferation
 http://purl.obolibrary.org/obo/ZP_0014576	cardiac muscle tissue regeneration increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061026	cardiac muscle tissue regeneration
@@ -33,6 +37,7 @@ http://purl.obolibrary.org/obo/ZP_0014420	endocrine pancreas development increas
 http://purl.obolibrary.org/obo/ZP_0006725	endoplasmic reticulum unfolded protein response increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030968	endoplasmic reticulum unfolded protein response
 http://purl.obolibrary.org/obo/ZP_0017083	endothelial to hematopoietic transition increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0098508	endothelial to hematopoietic transition
 http://purl.obolibrary.org/obo/ZP_0018359	erythrocyte differentiation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030218	erythrocyte differentiation
+http://purl.obolibrary.org/obo/ZP_0144347	fatty acid elongation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030497	fatty acid elongation
 http://purl.obolibrary.org/obo/ZP_0106875	fear response increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042596	fear response
 http://purl.obolibrary.org/obo/ZP_0002977	feeding behavior increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007631	feeding behavior
 http://purl.obolibrary.org/obo/ZP_0018438	female sex determination increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030237	female sex determination
@@ -50,6 +55,7 @@ http://purl.obolibrary.org/obo/ZP_0103789	hyperosmotic salinity response increas
 http://purl.obolibrary.org/obo/ZP_0010820	inflammatory response increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
 http://purl.obolibrary.org/obo/ZP_0021792	inflammatory response to wounding increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090594	inflammatory response to wounding
 http://purl.obolibrary.org/obo/ZP_0006592	intrinsic apoptotic signaling pathway increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0097193	intrinsic apoptotic signaling pathway
+http://purl.obolibrary.org/obo/ZP_0144349	linoleic acid metabolic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043651	linoleic acid metabolic process
 http://purl.obolibrary.org/obo/ZP_0017654	lipid storage increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0019915	lipid storage
 http://purl.obolibrary.org/obo/ZP_0014676	liver regeneration increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0097421	liver regeneration
 http://purl.obolibrary.org/obo/ZP_0017618	locomotion increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0040011	locomotion
@@ -63,6 +69,7 @@ http://purl.obolibrary.org/obo/ZP_0016898	melanin biosynthetic process increased
 http://purl.obolibrary.org/obo/ZP_0001797	mesodermal cell fate specification increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007501	mesodermal cell fate specification
 http://purl.obolibrary.org/obo/ZP_0010806	microglial cell activation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
 http://purl.obolibrary.org/obo/ZP_0017036	myelination increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042552	myelination
+http://purl.obolibrary.org/obo/ZP_0143803	myeloid cell development increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061515	myeloid cell development
 http://purl.obolibrary.org/obo/ZP_0021528	neuromast hair cell differentiation involved in neuromast regeneration increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0070658	neuromast hair cell differentiation involved in neuromast regeneration
 http://purl.obolibrary.org/obo/ZP_0140897	neuron differentiation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030182	neuron differentiation
 http://purl.obolibrary.org/obo/ZP_0012723	nodal signaling pathway increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0038092	nodal signaling pathway

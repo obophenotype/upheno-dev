@@ -1,9 +1,15 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
 http://purl.obolibrary.org/obo/MP_0008853	decreased abdominal adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001013	adipose tissue	http://purl.obolibrary.org/obo/UBERON_0000916	abdomen
 http://purl.obolibrary.org/obo/MP_0010869	decreased bone trabecula number	http://purl.obolibrary.org/obo/UBERON_0000440	trabecula	http://purl.obolibrary.org/obo/UBERON_0001474	bone element
-http://purl.obolibrary.org/obo/MP_0001539	decreased caudal vertebrae number	http://purl.obolibrary.org/obo/UBERON_0001095	caudal vertebra	http://purl.obolibrary.org/obo/UBERON_0007812	post-anal tail
+http://purl.obolibrary.org/obo/MP_0009974	decreased cerebral cortex pyramidal cell number	http://purl.obolibrary.org/obo/CL_0000598	pyramidal neuron	http://purl.obolibrary.org/obo/UBERON_0000956	cerebral cortex
 http://purl.obolibrary.org/obo/MP_0011359	decreased glomerular capillary number	http://purl.obolibrary.org/obo/UBERON_0001982	capillary	http://purl.obolibrary.org/obo/UBERON_0000074	renal glomerulus
+http://purl.obolibrary.org/obo/MP_0000208	decreased hematocrit	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0009971	decreased hippocampus pyramidal cell number	http://purl.obolibrary.org/obo/CL_0000598	pyramidal neuron	http://purl.obolibrary.org/obo/UBERON_0001954	Ammon's horn
 http://purl.obolibrary.org/obo/MP_0011846	decreased kidney collecting duct number	http://purl.obolibrary.org/obo/UBERON_0001232	collecting duct of renal tubule	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MP_0020904	decreased middle ear goblet cell number	http://purl.obolibrary.org/obo/CL_0000160	goblet cell	http://purl.obolibrary.org/obo/UBERON_0015813	middle ear epithelium
+http://purl.obolibrary.org/obo/MP_0013414	decreased myeloid cell number in bone marrow	http://purl.obolibrary.org/obo/CL_0000763	myeloid cell	http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/MP_0005113	decreased spinal cord ventral horn cell number	http://purl.obolibrary.org/obo/CL_0000100	motor neuron	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
+http://purl.obolibrary.org/obo/MP_0009339	decreased splenocyte number	http://purl.obolibrary.org/obo/CL_0000000	cell	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
 http://purl.obolibrary.org/obo/MP_0008985	hemimelia	http://purl.obolibrary.org/obo/UBERON_0003606	limb long bone	http://purl.obolibrary.org/obo/UBERON_0002101	limb
 http://purl.obolibrary.org/obo/MP_0001280	loss of vibrissae	http://purl.obolibrary.org/obo/UBERON_0011933	vibrissa unit	http://purl.obolibrary.org/obo/UBERON_0004089	midface
 http://purl.obolibrary.org/obo/MP_0000565	oligodactyly	http://purl.obolibrary.org/obo/UBERON_0002544	digit	http://purl.obolibrary.org/obo/UBERON_0002101	limb

@@ -1,4 +1,5 @@
 defined_class	defined_class_label	molecular_function	molecular_function_label
+http://purl.obolibrary.org/obo/ZP_0145393	ATP-dependent histone chaperone activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0140674	ATP-dependent histone chaperone activity
 http://purl.obolibrary.org/obo/ZP_0019874	MAP kinase kinase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0004708	MAP kinase kinase activity
 http://purl.obolibrary.org/obo/ZP_0140137	NADH dehydrogenase (ubiquinone) activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008137	NADH dehydrogenase (ubiquinone) activity
 http://purl.obolibrary.org/obo/ZP_0005625	alkaline phosphatase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0004035	alkaline phosphatase activity

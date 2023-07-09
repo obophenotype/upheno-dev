@@ -16,6 +16,8 @@ http://purl.obolibrary.org/obo/MP_0006197	ocular hypotelorism	http://purl.obolib
 http://purl.obolibrary.org/obo/MP_0013933	short Meckel's cartilage	http://purl.obolibrary.org/obo/UBERON_0003107	Meckel's cartilage
 http://purl.obolibrary.org/obo/MP_0030420	short basicranium	http://purl.obolibrary.org/obo/UBERON_0002517	basicranium
 http://purl.obolibrary.org/obo/MP_0030244	short chin	http://purl.obolibrary.org/obo/UBERON_0008199	chin
+http://purl.obolibrary.org/obo/MP_0004466	short cochlear outer hair cells	http://purl.obolibrary.org/obo/CL_0000601	cochlear outer hair cell
+http://purl.obolibrary.org/obo/MP_0020084	short ears	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
 http://purl.obolibrary.org/obo/MP_0013898	short eyelid cilia	http://purl.obolibrary.org/obo/UBERON_0001702	eyelash
 http://purl.obolibrary.org/obo/MP_0030066	short face	http://purl.obolibrary.org/obo/UBERON_0001456	face
 http://purl.obolibrary.org/obo/MP_0030384	short facial bone	http://purl.obolibrary.org/obo/UBERON_0003462	facial bone

@@ -57,7 +57,6 @@ http://purl.obolibrary.org/obo/DDPHENO_0001468	increased microtubule nucleation	
 http://purl.obolibrary.org/obo/DDPHENO_0001520	increased mitochondrial fission	http://purl.obolibrary.org/obo/GO_0000266	mitochondrial fission
 http://purl.obolibrary.org/obo/DDPHENO_0001517	increased mitochondrial fusion	http://purl.obolibrary.org/obo/GO_0008053	mitochondrial fusion
 http://purl.obolibrary.org/obo/DDPHENO_0000134	increased myosin II assembly	http://purl.obolibrary.org/obo/GO_0031036	myosin II filament assembly
-http://purl.obolibrary.org/obo/DDPHENO_0001440	increased necrotic cell death	http://purl.obolibrary.org/obo/GO_0070265	necrotic cell death
 http://purl.obolibrary.org/obo/DDPHENO_0000144	increased negative chemotaxis	http://purl.obolibrary.org/obo/GO_0050919	negative chemotaxis
 http://purl.obolibrary.org/obo/DDPHENO_0001397	increased oscillatory cAMP signaling	http://purl.obolibrary.org/obo/GO_0140676	oscillatory cAMP signaling
 http://purl.obolibrary.org/obo/DDPHENO_0001323	increased peptidyl-proline hydroxylation	http://purl.obolibrary.org/obo/GO_0019511	peptidyl-proline hydroxylation
@@ -67,7 +66,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0000048	increased phosphatidylinositol bi
 http://purl.obolibrary.org/obo/DDPHENO_0001123	increased phototaxis	http://purl.obolibrary.org/obo/GO_0042331	phototaxis
 http://purl.obolibrary.org/obo/DDPHENO_0000448	increased pinocytosis	http://purl.obolibrary.org/obo/GO_0006907	pinocytosis
 http://purl.obolibrary.org/obo/DDPHENO_0001139	increased positive regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0043547	positive regulation of GTPase activity
-http://purl.obolibrary.org/obo/DDPHENO_0000530	increased post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
+http://purl.obolibrary.org/obo/DDPHENO_0000530	increased post-transciptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	regulatory ncRNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/DDPHENO_0000015	increased pre-miRNA processing	http://purl.obolibrary.org/obo/GO_0031054	pre-miRNA processing
 http://purl.obolibrary.org/obo/DDPHENO_0001061	increased protein kinase activation	http://purl.obolibrary.org/obo/GO_0032147	activation of protein kinase activity
 http://purl.obolibrary.org/obo/DDPHENO_0001337	increased protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization

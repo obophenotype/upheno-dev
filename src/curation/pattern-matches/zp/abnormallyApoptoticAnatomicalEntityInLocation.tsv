@@ -47,6 +47,7 @@ http://purl.obolibrary.org/obo/ZP_0004085	eye photoreceptor cell retinal photore
 http://purl.obolibrary.org/obo/ZP_0009057	germ line cell testis apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009016	germ line cell	http://purl.obolibrary.org/obo/ZFA_0000598	testis
 http://purl.obolibrary.org/obo/ZP_0009036	gut male organism apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0009042	head kidney male organism apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000669	head kidney	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
+http://purl.obolibrary.org/obo/ZP_0143601	hematopoietic cell caudal hematopoietic tissue apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005830	hematopoietic cell	http://purl.obolibrary.org/obo/ZFA_0005898	caudal hematopoietic tissue
 http://purl.obolibrary.org/obo/ZP_0102108	hematopoietic cell head kidney apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005830	hematopoietic cell	http://purl.obolibrary.org/obo/ZFA_0000669	head kidney
 http://purl.obolibrary.org/obo/ZP_0009049	hematopoietic multipotent progenitor cell male organism apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009354	hematopoietic multipotent progenitor cell	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
 http://purl.obolibrary.org/obo/ZP_0007066	hepatocyte liver apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte	http://purl.obolibrary.org/obo/ZFA_0000123	liver
@@ -73,9 +74,11 @@ http://purl.obolibrary.org/obo/ZP_0010976	neuron spinal cord apoptotic, abnormal
 http://purl.obolibrary.org/obo/ZP_0001908	neuron statoacoustic (VIII) ganglion apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000588	statoacoustic (VIII) ganglion
 http://purl.obolibrary.org/obo/ZP_0142228	neuronal stem cell brain apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009019	neuronal stem cell	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0006941	neuronal stem cell spinal cord apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009019	neuronal stem cell	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
+http://purl.obolibrary.org/obo/ZP_0142840	neutrophil caudal fin apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009327	neutrophil	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0003122	nucleate erythrocyte kidney apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte	http://purl.obolibrary.org/obo/ZFA_0000529	kidney
 http://purl.obolibrary.org/obo/ZP_0138182	oligodendrocyte spinal cord apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009076	oligodendrocyte	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0140907	peripheral region retina apoptotic, abnormal	http://purl.obolibrary.org/obo/BSPO_0000127	peripheral region	http://purl.obolibrary.org/obo/ZFA_0000152	retina
+http://purl.obolibrary.org/obo/ZP_0143155	photoreceptor cell retinal outer nuclear layer apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell	http://purl.obolibrary.org/obo/ZFA_0001464	retinal outer nuclear layer
 http://purl.obolibrary.org/obo/ZP_0012683	posterior crista otic vesicle apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000566	posterior crista	http://purl.obolibrary.org/obo/ZFA_0000051	otic vesicle
 http://purl.obolibrary.org/obo/ZP_0016194	proliferative region tail bud apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000098	proliferative region	http://purl.obolibrary.org/obo/ZFA_0000077	tail bud
 http://purl.obolibrary.org/obo/ZP_0009045	renal tubule male organism apoptotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001287	renal tubule	http://purl.obolibrary.org/obo/ZFA_0000242	male organism

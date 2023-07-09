@@ -33,9 +33,10 @@ http://purl.obolibrary.org/obo/MP_0010691	hair follicle inner root sheath hyperp
 http://purl.obolibrary.org/obo/MP_0010688	hair follicle outer root sheath hyperplasia	http://purl.obolibrary.org/obo/UBERON_0005942	hair outer root sheath
 http://purl.obolibrary.org/obo/MP_0013201	head mesenchyme hyperplasia	http://purl.obolibrary.org/obo/UBERON_0005253	head mesenchyme
 http://purl.obolibrary.org/obo/MP_0000275	heart hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000948	heart
-http://purl.obolibrary.org/obo/MP_0003958	heart valve hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
+http://purl.obolibrary.org/obo/MP_0003958	heart valve hyperplasia	http://purl.obolibrary.org/obo/UBERON_0000946	cardiac valve
 http://purl.obolibrary.org/obo/MP_0012266	hindbrain hyperplasia	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
 http://purl.obolibrary.org/obo/MP_0000839	hypothalamus hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001898	hypothalamus
+http://purl.obolibrary.org/obo/MP_0005490	increased club cell number	http://purl.obolibrary.org/obo/CL_0000158	club cell
 http://purl.obolibrary.org/obo/MP_0021108	intestinal epithelium hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001277	intestinal epithelium
 http://purl.obolibrary.org/obo/MP_0013765	iris hyperplasia	http://purl.obolibrary.org/obo/UBERON_0001769	iris
 http://purl.obolibrary.org/obo/MP_0004968	kidney epithelium hyperplasia	http://purl.obolibrary.org/obo/UBERON_0004819	kidney epithelium

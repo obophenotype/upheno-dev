@@ -1,4 +1,5 @@
 defined_class	defined_class_label	entity	entity_label
+http://purl.obolibrary.org/obo/MP_0010815	enlarged alveolar lamellar bodies	http://purl.obolibrary.org/obo/GO_0097208	alveolar lamellar body
 http://purl.obolibrary.org/obo/MP_0009595	enlarged corneocyte envelope	http://purl.obolibrary.org/obo/GO_0001533	cornified envelope
 http://purl.obolibrary.org/obo/MP_0030917	enlarged melanosome	http://purl.obolibrary.org/obo/GO_0042470	melanosome
 http://purl.obolibrary.org/obo/MP_0009233	enlarged sperm head	http://purl.obolibrary.org/obo/GO_0061827	sperm head

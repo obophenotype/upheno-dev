@@ -87,6 +87,7 @@ http://purl.obolibrary.org/obo/ZP_0020060	neural crest cell migration involved i
 http://purl.obolibrary.org/obo/ZP_0015207	neurogenesis decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0022008	neurogenesis
 http://purl.obolibrary.org/obo/ZP_0003205	neuron differentiation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0030182	neuron differentiation
 http://purl.obolibrary.org/obo/ZP_0106411	neutrophil chemotaxis decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0030593	neutrophil chemotaxis
+http://purl.obolibrary.org/obo/ZP_0144021	neutrophil migration decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_1990266	neutrophil migration
 http://purl.obolibrary.org/obo/ZP_0002980	optokinetic behavior decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007634	optokinetic behavior
 http://purl.obolibrary.org/obo/ZP_0101380	oxidative phosphorylation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006119	oxidative phosphorylation
 http://purl.obolibrary.org/obo/ZP_0008984	oxygen metabolic process decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0072592	oxygen metabolic process
@@ -102,3 +103,4 @@ http://purl.obolibrary.org/obo/ZP_0006614	swimming decreased rate, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0001483	thigmotaxis decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0001966	thigmotaxis
 http://purl.obolibrary.org/obo/ZP_0003924	urea transport decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0015840	urea transport
 http://purl.obolibrary.org/obo/ZP_0006156	visual behavior decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007632	visual behavior
+http://purl.obolibrary.org/obo/ZP_0143422	voluntary musculoskeletal movement decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0050882	voluntary musculoskeletal movement

@@ -13,6 +13,7 @@ http://purl.obolibrary.org/obo/ZP_0020403	caudal artery dilated, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0003347	caudal vein dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
 http://purl.obolibrary.org/obo/ZP_0004062	caudal vein plexus dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
 http://purl.obolibrary.org/obo/ZP_0001140	central canal dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000938	central canal
+http://purl.obolibrary.org/obo/ZP_0145425	cloaca dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005781	cloaca
 http://purl.obolibrary.org/obo/ZP_0008183	cloacal chamber dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000330	cloacal chamber
 http://purl.obolibrary.org/obo/ZP_0016769	common bile duct dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005165	common bile duct
 http://purl.obolibrary.org/obo/ZP_0002746	cranial blood vessel dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005297	cranial blood vessel
@@ -31,6 +32,7 @@ http://purl.obolibrary.org/obo/ZP_0019683	hindbrain dilated, abnormal	http://pur
 http://purl.obolibrary.org/obo/ZP_0009872	hyaloid vein dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005047	hyaloid vein
 http://purl.obolibrary.org/obo/ZP_0001421	hyaloid vessel dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005046	hyaloid vessel
 http://purl.obolibrary.org/obo/ZP_0142006	inner optic circle dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005054	inner optic circle
+http://purl.obolibrary.org/obo/ZP_0143416	intersegmental lymph vessel dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005319	intersegmental lymph vessel
 http://purl.obolibrary.org/obo/ZP_0003832	intersegmental vessel dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
 http://purl.obolibrary.org/obo/ZP_0002054	intrahepatic bile duct dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005169	intrahepatic bile duct
 http://purl.obolibrary.org/obo/ZP_0009712	lateral dorsal aorta dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001054	lateral dorsal aorta
@@ -64,5 +66,6 @@ http://purl.obolibrary.org/obo/ZP_0004051	sinus venosus dilated, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0004069	subintestinal vein dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005035	subintestinal vein
 http://purl.obolibrary.org/obo/ZP_0008931	tectal ventricle dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000159	tectal ventricle
 http://purl.obolibrary.org/obo/ZP_0130707	telencephalic ventricle dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0000696	telencephalic ventricle
+http://purl.obolibrary.org/obo/ZP_0143415	thoracic duct dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005110	thoracic duct
 http://purl.obolibrary.org/obo/ZP_0004067	trunk vasculature dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0005024	trunk vasculature
 http://purl.obolibrary.org/obo/ZP_0001270	ventricular system dilated, abnormal	http://purl.obolibrary.org/obo/ZFA_0001261	ventricular system

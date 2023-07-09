@@ -1,5 +1,4 @@
 defined_class	defined_class_label	biological_process	biological_process_label
-http://purl.obolibrary.org/obo/MP_0002675	asthenozoospermia	http://purl.obolibrary.org/obo/GO_0030317	flagellated sperm motility
 http://purl.obolibrary.org/obo/MP_0002554	aversion to addictive substance	http://purl.obolibrary.org/obo/NBO_0002234	regulation of consumption of an addictive substance
 http://purl.obolibrary.org/obo/MP_0005156	bradykinesia	http://purl.obolibrary.org/obo/NBO_0000449	spontaneous movement behavior
 http://purl.obolibrary.org/obo/MP_0001830	decreased activated T cell number	http://purl.obolibrary.org/obo/GO_0050798	activated T cell proliferation
@@ -46,14 +45,11 @@ http://purl.obolibrary.org/obo/MP_0001729	impaired embryo implantation	http://pu
 http://purl.obolibrary.org/obo/MP_0030973	impaired gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
 http://purl.obolibrary.org/obo/MP_0006325	impaired hearing	http://purl.obolibrary.org/obo/GO_0007605	sensory perception of sound
 http://purl.obolibrary.org/obo/MP_0001524	impaired limb coordination	http://purl.obolibrary.org/obo/NBO_0000342	limb coordination
-http://purl.obolibrary.org/obo/MP_0003356	impaired luteinization	http://purl.obolibrary.org/obo/GO_0001553	luteinization
 http://purl.obolibrary.org/obo/MP_0001602	impaired myelopoiesis	http://purl.obolibrary.org/obo/GO_0030099	myeloid cell differentiation
-http://purl.obolibrary.org/obo/MP_0008544	impaired olfaction	http://purl.obolibrary.org/obo/GO_0007608	sensory perception of smell
 http://purl.obolibrary.org/obo/MP_0001129	impaired ovarian folliculogenesis	http://purl.obolibrary.org/obo/GO_0001541	ovarian follicle development
 http://purl.obolibrary.org/obo/MP_0004000	impaired passive avoidance behavior	http://purl.obolibrary.org/obo/NBO_0000218	passive avoidance learning behavior
 http://purl.obolibrary.org/obo/MP_0006243	impaired pupillary reflex	http://purl.obolibrary.org/obo/NBO_0000412	pupillary light reflex
 http://purl.obolibrary.org/obo/MP_0001523	impaired righting response	http://purl.obolibrary.org/obo/NBO_0000578	righting reflex
-http://purl.obolibrary.org/obo/MP_0002796	impaired skin barrier function	http://purl.obolibrary.org/obo/GO_0033561	regulation of water loss via skin
 http://purl.obolibrary.org/obo/MP_0030976	impaired sperm penetration of zona pellucida	http://purl.obolibrary.org/obo/GO_0007341	penetration of zona pellucida
 http://purl.obolibrary.org/obo/MP_0030977	impaired sperm-egg recognition	http://purl.obolibrary.org/obo/GO_0035036	sperm-egg recognition
 http://purl.obolibrary.org/obo/MP_0001522	impaired swimming	http://purl.obolibrary.org/obo/NBO_0000371	aquatic locomotion
@@ -63,4 +59,3 @@ http://purl.obolibrary.org/obo/MP_0001732	postnatal growth retardation	http://pu
 http://purl.obolibrary.org/obo/MP_0003423	reduced thrombolysis	http://purl.obolibrary.org/obo/GO_0042730	fibrinolysis
 http://purl.obolibrary.org/obo/MP_0000424	retarded hair growth	http://purl.obolibrary.org/obo/GO_0042640	anagen
 http://purl.obolibrary.org/obo/MP_0003238	slow REM	http://purl.obolibrary.org/obo/NBO_0000159	rapid eye movement sleep
-http://purl.obolibrary.org/obo/MP_0011614	slow aging	http://purl.obolibrary.org/obo/GO_0007568	aging

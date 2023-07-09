@@ -6,10 +6,12 @@ http://purl.obolibrary.org/obo/MP_0005543	decreased cornea thickness	http://purl
 http://purl.obolibrary.org/obo/MP_0020855	decreased corneal epithelium thickness	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
 http://purl.obolibrary.org/obo/MP_0003092	decreased corneal stroma thickness	http://purl.obolibrary.org/obo/UBERON_0001777	substantia propria of cornea
 http://purl.obolibrary.org/obo/MP_0012703	decreased embryonic neuroepithelium thickness	http://purl.obolibrary.org/obo/UBERON_0004022	germinal neuroepithelium
+http://purl.obolibrary.org/obo/MP_0021158	decreased heart left ventricle wall thickness	http://purl.obolibrary.org/obo/UBERON_0036285	wall of left ventricle
+http://purl.obolibrary.org/obo/MP_0021160	decreased heart right ventricle wall thickness	http://purl.obolibrary.org/obo/UBERON_0036286	wall of right ventricle
+http://purl.obolibrary.org/obo/MP_0014219	decreased intestinal mucosa thickness	http://purl.obolibrary.org/obo/UBERON_0001242	intestinal mucosa
 http://purl.obolibrary.org/obo/MP_0010930	decreased osteoid thickness	http://purl.obolibrary.org/obo/UBERON_0008883	osteoid
 http://purl.obolibrary.org/obo/MP_0010974	decreased periosteum thickness	http://purl.obolibrary.org/obo/UBERON_0002515	periosteum
 http://purl.obolibrary.org/obo/MP_0011859	decreased renal glomerulus basement membrane thickness	http://purl.obolibrary.org/obo/UBERON_0005777	glomerular basement membrane
-http://purl.obolibrary.org/obo/MP_0008511	decreased retina inner nuclear layer thickness	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0009346	decreased trabecular bone thickness	http://purl.obolibrary.org/obo/UBERON_0002483	trabecular bone tissue
 http://purl.obolibrary.org/obo/MP_0002577	reduced enamel thickness	http://purl.obolibrary.org/obo/UBERON_0001752	enamel
 http://purl.obolibrary.org/obo/MP_0003102	sclera thinning	http://purl.obolibrary.org/obo/UBERON_0001773	sclera
@@ -54,6 +56,7 @@ http://purl.obolibrary.org/obo/MP_0013827	thin oculomotor nerve	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0030281	thin parietal bone	http://purl.obolibrary.org/obo/UBERON_0000210	tetrapod parietal bone
 http://purl.obolibrary.org/obo/MP_0011523	thin placenta labyrinth	http://purl.obolibrary.org/obo/UBERON_0003946	placenta labyrinth
 http://purl.obolibrary.org/obo/MP_0008507	thin retina ganglion layer	http://purl.obolibrary.org/obo/UBERON_0001792	ganglionic layer of retina
+http://purl.obolibrary.org/obo/MP_0008511	thin retina inner nuclear layer	http://purl.obolibrary.org/obo/UBERON_0001791	inner nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0008513	thin retina inner plexiform layer	http://purl.obolibrary.org/obo/UBERON_0001795	inner plexiform layer of retina
 http://purl.obolibrary.org/obo/MP_0008515	thin retina outer nuclear layer	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0008519	thin retina outer plexiform layer	http://purl.obolibrary.org/obo/UBERON_0001790	outer plexiform layer of retina

@@ -63,6 +63,7 @@ http://purl.obolibrary.org/obo/ZP_0020380	embryonic viscerocranium morphogenesis
 http://purl.obolibrary.org/obo/ZP_0002320	endochondral bone morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060350	endochondral bone morphogenesis
 http://purl.obolibrary.org/obo/ZP_0009445	endochondral ossification delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001958	endochondral ossification
 http://purl.obolibrary.org/obo/ZP_0011395	endothelial cell migration delayed, abnormal	http://purl.obolibrary.org/obo/GO_0043542	endothelial cell migration
+http://purl.obolibrary.org/obo/ZP_0144776	endothelial tube lumen extension involved in blood vessel lumen ensheathment delayed, abnormal	http://purl.obolibrary.org/obo/GO_1902355	endothelial tube lumen extension involved in blood vessel lumen ensheathment
 http://purl.obolibrary.org/obo/ZP_0001325	epiboly delayed, abnormal	http://purl.obolibrary.org/obo/GO_0090504	epiboly
 http://purl.obolibrary.org/obo/ZP_0000567	epiboly involved in gastrulation with mouth forming second delayed, abnormal	http://purl.obolibrary.org/obo/GO_0055113	epiboly involved in gastrulation with mouth forming second
 http://purl.obolibrary.org/obo/ZP_0022719	epithelial to mesenchymal transition delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001837	epithelial to mesenchymal transition
@@ -142,6 +143,7 @@ http://purl.obolibrary.org/obo/ZP_0000226	ossification involved in bone maturati
 http://purl.obolibrary.org/obo/ZP_0022290	osteoblast differentiation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
 http://purl.obolibrary.org/obo/ZP_0007943	osteoclast differentiation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0030316	osteoclast differentiation
 http://purl.obolibrary.org/obo/ZP_0009743	otic placode formation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0043049	otic placode formation
+http://purl.obolibrary.org/obo/ZP_0143259	otic vesicle development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0071599	otic vesicle development
 http://purl.obolibrary.org/obo/ZP_0012631	ovarian follicle development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0001541	ovarian follicle development
 http://purl.obolibrary.org/obo/ZP_0004387	pancreas development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0031016	pancreas development
 http://purl.obolibrary.org/obo/ZP_0012215	pectoral fin development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0033339	pectoral fin development
@@ -152,10 +154,12 @@ http://purl.obolibrary.org/obo/ZP_0017158	pigment granule aggregation in cell ce
 http://purl.obolibrary.org/obo/ZP_0004336	pigmentation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0043473	pigmentation
 http://purl.obolibrary.org/obo/ZP_0008364	post-anal tail morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0036342	post-anal tail morphogenesis
 http://purl.obolibrary.org/obo/ZP_0008497	posterior lateral line neuromast primordium migration delayed, abnormal	http://purl.obolibrary.org/obo/GO_0048920	posterior lateral line neuromast primordium migration
+http://purl.obolibrary.org/obo/ZP_0143275	primary neural tube formation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0014020	primary neural tube formation
 http://purl.obolibrary.org/obo/ZP_0001693	pronephric duct development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0039022	pronephric duct development
 http://purl.obolibrary.org/obo/ZP_0010365	pronephric glomerulus morphogenesis delayed, abnormal	http://purl.obolibrary.org/obo/GO_0035775	pronephric glomerulus morphogenesis
 http://purl.obolibrary.org/obo/ZP_0140470	regulation of cell cycle delayed, abnormal	http://purl.obolibrary.org/obo/GO_0051726	regulation of cell cycle
 http://purl.obolibrary.org/obo/ZP_0142116	response to absence of light delayed, abnormal	http://purl.obolibrary.org/obo/GO_0009646	response to absence of light
+http://purl.obolibrary.org/obo/ZP_0143421	response to auditory stimulus delayed, abnormal	http://purl.obolibrary.org/obo/GO_0010996	response to auditory stimulus
 http://purl.obolibrary.org/obo/ZP_0015302	response to bacterium delayed, abnormal	http://purl.obolibrary.org/obo/GO_0009617	response to bacterium
 http://purl.obolibrary.org/obo/ZP_0141171	response to light stimulus delayed, abnormal	http://purl.obolibrary.org/obo/GO_0009416	response to light stimulus
 http://purl.obolibrary.org/obo/ZP_0130941	response to stress delayed, abnormal	http://purl.obolibrary.org/obo/GO_0006950	response to stress
@@ -168,6 +172,7 @@ http://purl.obolibrary.org/obo/ZP_0014905	retinal ganglion cell axon guidance de
 http://purl.obolibrary.org/obo/ZP_0010270	retinal rod cell differentiation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060221	retinal rod cell differentiation
 http://purl.obolibrary.org/obo/ZP_0018154	semicircular canal development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060872	semicircular canal development
 http://purl.obolibrary.org/obo/ZP_0016051	semicircular canal formation delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060876	semicircular canal formation
+http://purl.obolibrary.org/obo/ZP_0143257	semicircular canal fusion delayed, abnormal	http://purl.obolibrary.org/obo/GO_0060879	semicircular canal fusion
 http://purl.obolibrary.org/obo/ZP_0131256	seminiferous tubule development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0072520	seminiferous tubule development
 http://purl.obolibrary.org/obo/ZP_0140268	sexual reproduction delayed, abnormal	http://purl.obolibrary.org/obo/GO_0019953	sexual reproduction
 http://purl.obolibrary.org/obo/ZP_0000658	skeletal muscle tissue development delayed, abnormal	http://purl.obolibrary.org/obo/GO_0007519	skeletal muscle tissue development

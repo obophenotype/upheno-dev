@@ -345,6 +345,7 @@ http://purl.obolibrary.org/obo/ZP_0107750	breeding tubercle quality, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0108139	brush border epithelial cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009143	brush border epithelial cell
 http://purl.obolibrary.org/obo/ZP_0108795	bulbo-spinal tract quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000626	bulbo-spinal tract
 http://purl.obolibrary.org/obo/ZP_0109297	bulbus arteriosus inner layer quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005068	bulbus arteriosus inner layer
+http://purl.obolibrary.org/obo/ZP_0145382	bulbus arteriosus lymph vessel quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005950	bulbus arteriosus lymph vessel
 http://purl.obolibrary.org/obo/ZP_0109549	bulbus arteriosus middle layer quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005067	bulbus arteriosus middle layer
 http://purl.obolibrary.org/obo/ZP_0110039	bulbus arteriosus outer layer quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005066	bulbus arteriosus outer layer
 http://purl.obolibrary.org/obo/ZP_0108268	bulbus arteriosus quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
@@ -353,11 +354,13 @@ http://purl.obolibrary.org/obo/ZP_0107334	capillary loop nephron quality, abnorm
 http://purl.obolibrary.org/obo/ZP_0108024	capillary quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005250	capillary
 http://purl.obolibrary.org/obo/ZP_0107573	cardiac conduction system quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005063	cardiac conduction system
 http://purl.obolibrary.org/obo/ZP_0108620	cardiac jelly quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001318	cardiac jelly
+http://purl.obolibrary.org/obo/ZP_0145390	cardiac lymphatic endothelial cluster quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005954	cardiac lymphatic endothelial cluster
 http://purl.obolibrary.org/obo/ZP_0108591	cardiac mesenchymal cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009259	cardiac mesenchymal cell
 http://purl.obolibrary.org/obo/ZP_0109936	cardiac muscle cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0108995	cardiac muscle myoblast quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009234	cardiac muscle myoblast
 http://purl.obolibrary.org/obo/ZP_0108467	cardiac muscle quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005280	cardiac muscle
 http://purl.obolibrary.org/obo/ZP_0109583	cardiac neural crest quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001648	cardiac neural crest
+http://purl.obolibrary.org/obo/ZP_0145388	cardiac ventricle lymph vessel quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005951	cardiac ventricle lymph vessel
 http://purl.obolibrary.org/obo/ZP_0007873	cardiac ventricle quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
 http://purl.obolibrary.org/obo/ZP_0107816	cardinal system quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000096	cardinal system
 http://purl.obolibrary.org/obo/ZP_0108618	cardiovascular system quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000010	cardiovascular system
@@ -569,6 +572,7 @@ http://purl.obolibrary.org/obo/ZP_0109793	corneal primordium quality, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0110241	corneal stroma quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001685	corneal stroma
 http://purl.obolibrary.org/obo/ZP_0109424	corneo-scleral junction quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005570	corneo-scleral junction
 http://purl.obolibrary.org/obo/ZP_0107618	coronary artery quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005812	coronary artery
+http://purl.obolibrary.org/obo/ZP_0145385	coronary capillary plexus quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005953	coronary capillary plexus
 http://purl.obolibrary.org/obo/ZP_0108549	coronary capillary quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005813	coronary capillary
 http://purl.obolibrary.org/obo/ZP_0108427	coronary vein quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005814	coronary vein
 http://purl.obolibrary.org/obo/ZP_0110036	coronoid process quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005905	coronoid process
@@ -1034,6 +1038,7 @@ http://purl.obolibrary.org/obo/ZP_0107611	ganglion quality, abnormal	http://purl
 http://purl.obolibrary.org/obo/ZP_0108021	gastrula cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009182	gastrula cell
 http://purl.obolibrary.org/obo/ZP_0107485	germ line cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009016	germ line cell
 http://purl.obolibrary.org/obo/ZP_0109093	germ ring quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000111	germ ring
+http://purl.obolibrary.org/obo/ZP_0145387	germline stem cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005956	germline stem cell
 http://purl.obolibrary.org/obo/ZP_0109207	ghrelin secreting cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005599	ghrelin secreting cell
 http://purl.obolibrary.org/obo/ZP_0109705	gigantocellular part of magnocellular preoptic nucleus quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000210	gigantocellular part of magnocellular preoptic nucleus
 http://purl.obolibrary.org/obo/ZP_0109122	gill filament quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000667	gill filament
@@ -1093,12 +1098,14 @@ http://purl.obolibrary.org/obo/ZP_0108272	head mesenchyme quality, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0107672	head muscle quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001652	head muscle
 http://purl.obolibrary.org/obo/ZP_0000598	head quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0108769	head sensory canal system quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005391	head sensory canal system
+http://purl.obolibrary.org/obo/ZP_0145386	heart lymph vessel quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005949	heart lymph vessel
+http://purl.obolibrary.org/obo/ZP_0145379	heart lymphatic system quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005952	heart lymphatic system
 http://purl.obolibrary.org/obo/ZP_0108353	heart primordium quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000028	heart primordium
 http://purl.obolibrary.org/obo/ZP_0000044	heart quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000114	heart
 http://purl.obolibrary.org/obo/ZP_0108617	heart rudiment quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000115	heart rudiment
 http://purl.obolibrary.org/obo/ZP_0107991	heart tube quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000360	heart tube
 http://purl.obolibrary.org/obo/ZP_0142643	heart valve cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009402	heart valve cell
-http://purl.obolibrary.org/obo/ZP_0142650	heart valve endothelial cells quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009404	heart valve endothelial cells
+http://purl.obolibrary.org/obo/ZP_0142650	heart valve endothelial cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009404	heart valve endothelial cell
 http://purl.obolibrary.org/obo/ZP_0142632	heart valve interstitial cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009403	heart valve interstitial cell
 http://purl.obolibrary.org/obo/ZP_0107357	heart valve quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005065	heart valve
 http://purl.obolibrary.org/obo/ZP_0107639	heart vasculature quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005811	heart vasculature
@@ -1466,6 +1473,8 @@ http://purl.obolibrary.org/obo/ZP_0142637	liver pancreas connecting vessel quali
 http://purl.obolibrary.org/obo/ZP_0108404	liver primordium quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000124	liver primordium
 http://purl.obolibrary.org/obo/ZP_0000571	liver quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0107471	locus coeruleus quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000539	locus coeruleus
+http://purl.obolibrary.org/obo/ZP_0145378	long double cone cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005945	long double cone cell
+http://purl.obolibrary.org/obo/ZP_0145377	long single cone cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005947	long single cone cell
 http://purl.obolibrary.org/obo/ZP_0109485	longitudinal hypochordal quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000230	longitudinal hypochordal
 http://purl.obolibrary.org/obo/ZP_0110280	longitudinal lateral lymphatic vessel quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005106	longitudinal lateral lymphatic vessel
 http://purl.obolibrary.org/obo/ZP_0110195	lower left intestinal lymph vessel quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005845	lower left intestinal lymph vessel
@@ -1487,6 +1496,7 @@ http://purl.obolibrary.org/obo/ZP_0108722	lymphatic branchial arch 2 quality, ab
 http://purl.obolibrary.org/obo/ZP_0108565	lymphatic branchial arch 3 quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005834	lymphatic branchial arch 3
 http://purl.obolibrary.org/obo/ZP_0108125	lymphatic branchial arch 4 quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005835	lymphatic branchial arch 4
 http://purl.obolibrary.org/obo/ZP_0109555	lymphatic capillary quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005252	lymphatic capillary
+http://purl.obolibrary.org/obo/ZP_0145381	lymphatic endothelial cluster quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005955	lymphatic endothelial cluster
 http://purl.obolibrary.org/obo/ZP_0109000	lymphatic system quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000385	lymphatic system
 http://purl.obolibrary.org/obo/ZP_0107553	lymphocyte quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009250	lymphocyte
 http://purl.obolibrary.org/obo/ZP_0107412	lymphoid progenitor cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009355	lymphoid progenitor cell
@@ -2101,6 +2111,7 @@ http://purl.obolibrary.org/obo/ZP_0108783	periventricular grey zone quality, abn
 http://purl.obolibrary.org/obo/ZP_0109729	periventricular nucleus of caudal tuberculum quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000408	periventricular nucleus of caudal tuberculum
 http://purl.obolibrary.org/obo/ZP_0108470	periventricular nucleus of ventral telencephalon quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001666	periventricular nucleus of ventral telencephalon
 http://purl.obolibrary.org/obo/ZP_0109373	periventricular nucleus quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000260	periventricular nucleus
+http://purl.obolibrary.org/obo/ZP_0145380	perivitelline fluid quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005943	perivitelline fluid
 http://purl.obolibrary.org/obo/ZP_0109162	phagocyte quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009140	phagocyte
 http://purl.obolibrary.org/obo/ZP_0107563	pharyngeal arch 1 quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001612	pharyngeal arch 1
 http://purl.obolibrary.org/obo/ZP_0107568	pharyngeal arch 2 quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001611	pharyngeal arch 2
@@ -2570,6 +2581,8 @@ http://purl.obolibrary.org/obo/ZP_0109098	serotonergic neuron quality, abnormal	
 http://purl.obolibrary.org/obo/ZP_0109726	serotonin secreting cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009213	serotonin secreting cell
 http://purl.obolibrary.org/obo/ZP_0108087	serous membrane quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005425	serous membrane
 http://purl.obolibrary.org/obo/ZP_0108709	shield quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0000071	shield
+http://purl.obolibrary.org/obo/ZP_0145384	short double cone cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005946	short double cone cell
+http://purl.obolibrary.org/obo/ZP_0145383	short single cone cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005948	short single cone cell
 http://purl.obolibrary.org/obo/ZP_0110191	silver iridophore quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005152	silver iridophore
 http://purl.obolibrary.org/obo/ZP_0108933	simple columnar epithelial cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009089	simple columnar epithelial cell
 http://purl.obolibrary.org/obo/ZP_0107938	simple columnar epithelium quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001496	simple columnar epithelium
@@ -2698,6 +2711,7 @@ http://purl.obolibrary.org/obo/ZP_0108495	statoacoustic (VIII) ganglion quality,
 http://purl.obolibrary.org/obo/ZP_0110253	statoacoustic (VIII) nucleus quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001638	statoacoustic (VIII) nucleus
 http://purl.obolibrary.org/obo/ZP_0110072	stellate cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009072	stellate cell
 http://purl.obolibrary.org/obo/ZP_0108596	stellate interneuron quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009297	stellate interneuron
+http://purl.obolibrary.org/obo/ZP_0145389	stem cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0005957	stem cell
 http://purl.obolibrary.org/obo/ZP_0108528	sternohyoid quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001651	sternohyoid
 http://purl.obolibrary.org/obo/ZP_0107657	steroid hormone secreting cell quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0009106	steroid hormone secreting cell
 http://purl.obolibrary.org/obo/ZP_0107757	stomodeum quality, abnormal	http://purl.obolibrary.org/obo/ZFA_0001290	stomodeum

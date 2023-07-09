@@ -3,15 +3,12 @@ http://purl.obolibrary.org/obo/HP_0031380	Abnormal B cell proliferation	http://p
 http://purl.obolibrary.org/obo/HP_0011400	Abnormal CNS myelination	http://purl.obolibrary.org/obo/GO_0022010	central nervous system myelination
 http://purl.obolibrary.org/obo/HP_0410035	Abnormal T cell activation	http://purl.obolibrary.org/obo/GO_0042110	T cell activation
 http://purl.obolibrary.org/obo/HP_0031379	Abnormal T cell proliferation	http://purl.obolibrary.org/obo/GO_0042098	T cell proliferation
-http://purl.obolibrary.org/obo/HP_0010929	Abnormal blood cation concentration	http://purl.obolibrary.org/obo/GO_0055080	cation homeostasis
+http://purl.obolibrary.org/obo/HP_0010929	Abnormal blood cation concentration	http://purl.obolibrary.org/obo/GO_0055080	monoatomic cation homeostasis
 http://purl.obolibrary.org/obo/HP_0011422	Abnormal blood chloride concentration	http://purl.obolibrary.org/obo/GO_0055064	chloride ion homeostasis
-http://purl.obolibrary.org/obo/HP_0010927	Abnormal blood inorganic cation concentration	http://purl.obolibrary.org/obo/GO_0072507	divalent inorganic cation homeostasis
-http://purl.obolibrary.org/obo/HP_0010930	Abnormal blood monovalent inorganic cation concentration	http://purl.obolibrary.org/obo/GO_0055067	monovalent inorganic cation homeostasis
 http://purl.obolibrary.org/obo/HP_0100529	Abnormal blood phosphate concentration	http://purl.obolibrary.org/obo/GO_0055062	phosphate ion homeostasis
-http://purl.obolibrary.org/obo/HP_0008277	Abnormal blood zinc concentration	http://purl.obolibrary.org/obo/GO_0055069	zinc ion homeostasis
 http://purl.obolibrary.org/obo/HP_0031377	Abnormal cell proliferation	http://purl.obolibrary.org/obo/GO_0008283	cell population proliferation
 http://purl.obolibrary.org/obo/HP_0010909	Abnormal circulating arginine concentration	http://purl.obolibrary.org/obo/GO_0006525	arginine metabolic process
-http://purl.obolibrary.org/obo/HP_0004338	Abnormal circulating aromatic amino acid concentration	http://purl.obolibrary.org/obo/GO_0009072	aromatic amino acid family metabolic process
+http://purl.obolibrary.org/obo/HP_0004338	Abnormal circulating aromatic amino acid concentration	http://purl.obolibrary.org/obo/GO_0009072	aromatic amino acid metabolic process
 http://purl.obolibrary.org/obo/HP_0010899	Abnormal circulating aspartate family amino acid concentration	http://purl.obolibrary.org/obo/GO_0009066	aspartate family amino acid metabolic process
 http://purl.obolibrary.org/obo/HP_0010892	Abnormal circulating branched chain amino acid concentration	http://purl.obolibrary.org/obo/GO_0009081	branched-chain amino acid metabolic process
 http://purl.obolibrary.org/obo/HP_0004363	Abnormal circulating calcium concentration	http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
@@ -33,7 +30,7 @@ http://purl.obolibrary.org/obo/HP_0004357	Abnormal circulating leucine concentra
 http://purl.obolibrary.org/obo/HP_0010964	Abnormal circulating long-chain fatty-acid concentration	http://purl.obolibrary.org/obo/GO_0001676	long-chain fatty acid metabolic process
 http://purl.obolibrary.org/obo/HP_0010908	Abnormal circulating lysine concentration	http://purl.obolibrary.org/obo/GO_0006553	lysine metabolic process
 http://purl.obolibrary.org/obo/HP_0010901	Abnormal circulating methionine concentration	http://purl.obolibrary.org/obo/GO_0006555	methionine metabolic process
-http://purl.obolibrary.org/obo/HP_0010996	Abnormal circulating monocarboxylic acid cocentration	http://purl.obolibrary.org/obo/GO_0032787	monocarboxylic acid metabolic process
+http://purl.obolibrary.org/obo/HP_0010996	Abnormal circulating monocarboxylic acid concentration	http://purl.obolibrary.org/obo/GO_0032787	monocarboxylic acid metabolic process
 http://purl.obolibrary.org/obo/HP_0010932	Abnormal circulating nucleobase concentration	http://purl.obolibrary.org/obo/GO_0009112	nucleobase metabolic process
 http://purl.obolibrary.org/obo/HP_0012025	Abnormal circulating ornithine concentration	http://purl.obolibrary.org/obo/GO_0006591	ornithine metabolic process
 http://purl.obolibrary.org/obo/HP_0010893	Abnormal circulating phenylalanine concentration	http://purl.obolibrary.org/obo/GO_0006558	L-phenylalanine metabolic process
@@ -72,13 +69,13 @@ http://purl.obolibrary.org/obo/HP_0003130	Abnormal peripheral myelination	http:/
 http://purl.obolibrary.org/obo/HP_0012347	Abnormal protein N-linked glycosylation	http://purl.obolibrary.org/obo/GO_0006487	protein N-linked glycosylation
 http://purl.obolibrary.org/obo/HP_0012358	Abnormal protein O-linked glycosylation	http://purl.obolibrary.org/obo/GO_0006493	protein O-linked glycosylation
 http://purl.obolibrary.org/obo/HP_0012346	Abnormal protein glycosylation	http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
-http://purl.obolibrary.org/obo/HP_0011038	Abnormal renal resorption	http://purl.obolibrary.org/obo/GO_0070293	renal absorption
+http://purl.obolibrary.org/obo/HP_0011038	Abnormal renal tubular resorption	http://purl.obolibrary.org/obo/GO_0070293	renal absorption
 http://purl.obolibrary.org/obo/HP_0012535	Abnormal synaptic transmission	http://purl.obolibrary.org/obo/GO_0007268	chemical synaptic transmission
 http://purl.obolibrary.org/obo/HP_0012590	Abnormal urine output	http://purl.obolibrary.org/obo/GO_0060073	micturition
 http://purl.obolibrary.org/obo/HP_0007670	Abnormal vestibulo-ocular reflex	http://purl.obolibrary.org/obo/NBO_0000416	vestibulo-ocular reflex
 http://purl.obolibrary.org/obo/HP_0003254	Abnormality of DNA repair	http://purl.obolibrary.org/obo/GO_0006281	DNA repair
 http://purl.obolibrary.org/obo/HP_0000816	Abnormality of Krebs cycle metabolism	http://purl.obolibrary.org/obo/GO_0072350	tricarboxylic acid metabolic process
-http://purl.obolibrary.org/obo/HP_0004337	Abnormality of amino acid metabolism	http://purl.obolibrary.org/obo/GO_0006520	cellular amino acid metabolic process
+http://purl.obolibrary.org/obo/HP_0004337	Abnormality of amino acid metabolism	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/HP_0011028	Abnormality of blood circulation	http://purl.obolibrary.org/obo/GO_0008015	blood circulation
 http://purl.obolibrary.org/obo/HP_0011115	Abnormality of chemokine secretion	http://purl.obolibrary.org/obo/GO_0032602	chemokine production
 http://purl.obolibrary.org/obo/HP_0011019	Abnormality of chromosome condensation	http://purl.obolibrary.org/obo/GO_0030261	chromosome condensation
@@ -110,7 +107,7 @@ http://purl.obolibrary.org/obo/HP_0100508	Abnormality of vitamin metabolism	http
 http://purl.obolibrary.org/obo/HP_0000718	Aggressive behavior	http://purl.obolibrary.org/obo/NBO_0000015	aggressive behavior
 http://purl.obolibrary.org/obo/HP_0000713	Agitation	http://purl.obolibrary.org/obo/NBO_0000129	agitation behavior
 http://purl.obolibrary.org/obo/HP_0000739	Anxiety	http://purl.obolibrary.org/obo/NBO_0000092	anxiety-related behavior
-http://purl.obolibrary.org/obo/HP_0000708	Behavioral abnormality	http://purl.obolibrary.org/obo/NBO_0000313	behavior process
+http://purl.obolibrary.org/obo/HP_0000708	Atypical behavior	http://purl.obolibrary.org/obo/NBO_0000313	behavior process
 http://purl.obolibrary.org/obo/HP_0040012	Chromosome breakage	http://purl.obolibrary.org/obo/GO_0031052	programmed DNA elimination by chromosome breakage
 http://purl.obolibrary.org/obo/HP_0100639	Erectile dysfunction	http://purl.obolibrary.org/obo/GO_0043084	penile erection
 http://purl.obolibrary.org/obo/HP_0004345	Ganglioside accumulation	http://purl.obolibrary.org/obo/GO_0001573	ganglioside metabolic process

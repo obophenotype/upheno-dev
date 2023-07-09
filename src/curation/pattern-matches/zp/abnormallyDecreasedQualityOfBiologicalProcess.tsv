@@ -15,10 +15,13 @@ http://purl.obolibrary.org/obo/ZP_0007516	Schwann cell migration decreased proce
 http://purl.obolibrary.org/obo/ZP_0007512	Schwann cell proliferation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0014010	Schwann cell proliferation
 http://purl.obolibrary.org/obo/ZP_0104076	T cell migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072678	T cell migration
 http://purl.obolibrary.org/obo/ZP_0010571	Wnt signaling pathway decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
+http://purl.obolibrary.org/obo/ZP_0143361	Wnt signaling pathway involved in heart development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003306	Wnt signaling pathway involved in heart development
 http://purl.obolibrary.org/obo/ZP_0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process
 http://purl.obolibrary.org/obo/ZP_0005699	activation of innate immune response decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002218	activation of innate immune response
 http://purl.obolibrary.org/obo/ZP_0012377	adenohypophysis formation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048847	adenohypophysis formation
+http://purl.obolibrary.org/obo/ZP_0144348	adiponectin-activated signaling pathway decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0033211	adiponectin-activated signaling pathway
 http://purl.obolibrary.org/obo/ZP_0020774	adipose tissue development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060612	adipose tissue development
+http://purl.obolibrary.org/obo/ZP_0143517	adult feeding behavior decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008343	adult feeding behavior
 http://purl.obolibrary.org/obo/ZP_0102452	aerobic respiration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0009060	aerobic respiration
 http://purl.obolibrary.org/obo/ZP_0020232	afferent axon development in posterior lateral line nerve decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048933	afferent axon development in posterior lateral line nerve
 http://purl.obolibrary.org/obo/ZP_0012388	amacrine cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0035881	amacrine cell differentiation
@@ -28,6 +31,8 @@ http://purl.obolibrary.org/obo/ZP_0004164	angiogenesis decreased process quality
 http://purl.obolibrary.org/obo/ZP_0008444	angular vestibuloocular reflex decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060006	angular vestibuloocular reflex
 http://purl.obolibrary.org/obo/ZP_0011724	anterior lateral line development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048899	anterior lateral line development
 http://purl.obolibrary.org/obo/ZP_0017845	anterior/posterior pattern specification involved in pronephros development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034672	anterior/posterior pattern specification involved in pronephros development
+http://purl.obolibrary.org/obo/ZP_0142967	aortic valve morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003180	aortic valve morphogenesis
+http://purl.obolibrary.org/obo/ZP_0143328	atrial cardiac muscle cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055011	atrial cardiac muscle cell differentiation
 http://purl.obolibrary.org/obo/ZP_0021163	atrioventricular canal development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0036302	atrioventricular canal development
 http://purl.obolibrary.org/obo/ZP_0130876	atrioventricular canal morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_1905222	atrioventricular canal morphogenesis
 http://purl.obolibrary.org/obo/ZP_0002658	atrioventricular valve formation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003190	atrioventricular valve formation
@@ -86,14 +91,17 @@ http://purl.obolibrary.org/obo/ZP_0141487	cell division decreased process qualit
 http://purl.obolibrary.org/obo/ZP_0016526	cell migration involved in heart jogging decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003305	cell migration involved in heart jogging
 http://purl.obolibrary.org/obo/ZP_0004329	cell migration involved in mesendoderm migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090134	cell migration involved in mesendoderm migration
 http://purl.obolibrary.org/obo/ZP_0012729	cell migration involved in sprouting angiogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002042	cell migration involved in sprouting angiogenesis
+http://purl.obolibrary.org/obo/ZP_0143578	cell migration to the midline involved in heart development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003318	cell migration to the midline involved in heart development
 http://purl.obolibrary.org/obo/ZP_0005176	cell population proliferation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008283	cell population proliferation
 http://purl.obolibrary.org/obo/ZP_0100413	cell-cell adhesion decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
 http://purl.obolibrary.org/obo/ZP_0017674	cell-cell adhesion involved in gastrulation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0070586	cell-cell adhesion involved in gastrulation
 http://purl.obolibrary.org/obo/ZP_0008136	cell-cell adhesion mediated by cadherin decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044331	cell-cell adhesion mediated by cadherin
+http://purl.obolibrary.org/obo/ZP_0145429	cellular manganese ion homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030026	intracellular manganese ion homeostasis
 http://purl.obolibrary.org/obo/ZP_0007178	cellular respiration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0045333	cellular respiration
 http://purl.obolibrary.org/obo/ZP_0014693	cellular response to ionizing radiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071479	cellular response to ionizing radiation
-http://purl.obolibrary.org/obo/ZP_0008442	cellular sodium ion homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006883	cellular sodium ion homeostasis
-http://purl.obolibrary.org/obo/ZP_0016541	cellular triglyceride homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0035356	cellular triglyceride homeostasis
+http://purl.obolibrary.org/obo/ZP_0008442	cellular sodium ion homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006883	intracellular sodium ion homeostasis
+http://purl.obolibrary.org/obo/ZP_0016541	cellular triglyceride homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0035356	intracellular triglyceride homeostasis
+http://purl.obolibrary.org/obo/ZP_0143577	central nervous system development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007417	central nervous system development
 http://purl.obolibrary.org/obo/ZP_0011513	central nervous system morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021551	central nervous system morphogenesis
 http://purl.obolibrary.org/obo/ZP_0011849	central nervous system myelination decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0022010	central nervous system myelination
 http://purl.obolibrary.org/obo/ZP_0104139	cerebellar granule cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021707	cerebellar granule cell differentiation
@@ -104,6 +112,7 @@ http://purl.obolibrary.org/obo/ZP_0003961	chondrocyte differentiation decreased 
 http://purl.obolibrary.org/obo/ZP_0017743	chondrocyte hypertrophy decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003415	chondrocyte hypertrophy
 http://purl.obolibrary.org/obo/ZP_0140980	chorion development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060717	chorion development
 http://purl.obolibrary.org/obo/ZP_0019255	chromosome organization decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
+http://purl.obolibrary.org/obo/ZP_0144501	chromosome segregation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007059	chromosome segregation
 http://purl.obolibrary.org/obo/ZP_0018462	cilium assembly decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060271	cilium assembly
 http://purl.obolibrary.org/obo/ZP_0018038	circadian sleep/wake cycle decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042745	circadian sleep/wake cycle
 http://purl.obolibrary.org/obo/ZP_0014838	closure of optic fissure decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061386	closure of optic fissure
@@ -115,10 +124,12 @@ http://purl.obolibrary.org/obo/ZP_0021642	conditioned place preference decreased
 http://purl.obolibrary.org/obo/ZP_0020616	convergent extension decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060026	convergent extension
 http://purl.obolibrary.org/obo/ZP_0011531	convergent extension involved in axis elongation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060028	convergent extension involved in axis elongation
 http://purl.obolibrary.org/obo/ZP_0008155	convergent extension involved in gastrulation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060027	convergent extension involved in gastrulation
+http://purl.obolibrary.org/obo/ZP_0144703	cornea development in camera-type eye decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061303	cornea development in camera-type eye
 http://purl.obolibrary.org/obo/ZP_0011561	cortical granule exocytosis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060471	cortical granule exocytosis
 http://purl.obolibrary.org/obo/ZP_0014638	cortisol metabolic process decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034650	cortisol metabolic process
 http://purl.obolibrary.org/obo/ZP_0101683	cortisol secretion decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043400	cortisol secretion
 http://purl.obolibrary.org/obo/ZP_0016328	cranial ganglion maturation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061558	cranial ganglion maturation
+http://purl.obolibrary.org/obo/ZP_0142863	cranial skeletal system development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_1904888	cranial skeletal system development
 http://purl.obolibrary.org/obo/ZP_0014873	cytokine production involved in inflammatory response decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002534	cytokine production involved in inflammatory response
 http://purl.obolibrary.org/obo/ZP_0137275	cytoskeleton organization decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007010	cytoskeleton organization
 http://purl.obolibrary.org/obo/ZP_0107192	defense response decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006952	defense response
@@ -138,8 +149,10 @@ http://purl.obolibrary.org/obo/ZP_0002979	determination of left/right asymmetry 
 http://purl.obolibrary.org/obo/ZP_0007503	determination of left/right symmetry decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007368	determination of left/right symmetry
 http://purl.obolibrary.org/obo/ZP_0002992	determination of liver left/right asymmetry decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071910	determination of liver left/right asymmetry
 http://purl.obolibrary.org/obo/ZP_0002982	determination of pancreatic left/right asymmetry decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0035469	determination of pancreatic left/right asymmetry
+http://purl.obolibrary.org/obo/ZP_0143338	detoxification of inorganic compound decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061687	detoxification of inorganic compound
 http://purl.obolibrary.org/obo/ZP_0012141	developmental growth decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/ZP_0021791	developmental process decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032502	developmental process
+http://purl.obolibrary.org/obo/ZP_0142862	digestive tract development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048565	digestive tract development
 http://purl.obolibrary.org/obo/ZP_0013890	digestive tract morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048546	digestive tract morphogenesis
 http://purl.obolibrary.org/obo/ZP_0003964	direct ossification decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0036072	direct ossification
 http://purl.obolibrary.org/obo/ZP_0018586	dorsal aorta morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0035912	dorsal aorta morphogenesis
@@ -215,8 +228,6 @@ http://purl.obolibrary.org/obo/ZP_0102219	glial cell migration decreased process
 http://purl.obolibrary.org/obo/ZP_0006442	glial cell proliferation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0014009	glial cell proliferation
 http://purl.obolibrary.org/obo/ZP_0019644	gliogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042063	gliogenesis
 http://purl.obolibrary.org/obo/ZP_0004133	glomerular filtration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
-http://purl.obolibrary.org/obo/ZP_0017878	glomerular visceral epithelial cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072015	podocyte development
-http://purl.obolibrary.org/obo/ZP_0012725	glomerular visceral epithelial cell migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	podocyte cell migration
 http://purl.obolibrary.org/obo/ZP_0016144	glucose homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
 http://purl.obolibrary.org/obo/ZP_0006748	glucose import decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
 http://purl.obolibrary.org/obo/ZP_0016145	glucose import in response to insulin stimulus decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044381	glucose import in response to insulin stimulus
@@ -238,6 +249,7 @@ http://purl.obolibrary.org/obo/ZP_0020987	hematopoietic stem cell homeostasis de
 http://purl.obolibrary.org/obo/ZP_0018146	hemoglobin biosynthetic process decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042541	hemoglobin biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0002085	hemopoiesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030097	hemopoiesis
 http://purl.obolibrary.org/obo/ZP_0009479	hepaticobiliary system process decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061007	hepaticobiliary system process
+http://purl.obolibrary.org/obo/ZP_0143827	hepatocyte proliferation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072574	hepatocyte proliferation
 http://purl.obolibrary.org/obo/ZP_0002206	hindbrain morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021575	hindbrain morphogenesis
 http://purl.obolibrary.org/obo/ZP_0019137	histone H3-K4 methylation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0051568	histone H3-K4 methylation
 http://purl.obolibrary.org/obo/ZP_0007175	histone H4-K20 methylation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034770	histone H4-K20 methylation
@@ -302,10 +314,11 @@ http://purl.obolibrary.org/obo/ZP_0019904	microglia development decreased proces
 http://purl.obolibrary.org/obo/ZP_0001282	microtubule cytoskeleton organization decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
 http://purl.obolibrary.org/obo/ZP_0011101	midbrain-hindbrain boundary development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030917	midbrain-hindbrain boundary development
 http://purl.obolibrary.org/obo/ZP_0106474	mitochondrial ATP synthesis coupled electron transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042775	mitochondrial ATP synthesis coupled electron transport
-http://purl.obolibrary.org/obo/ZP_0018251	mitochondrial ATP synthesis coupled proton transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042776	proton motive force-driven mitochondrial ATP synthesis
 http://purl.obolibrary.org/obo/ZP_0007504	motile cilium assembly decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly
+http://purl.obolibrary.org/obo/ZP_0144201	motor behavior decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061744	motor behavior
 http://purl.obolibrary.org/obo/ZP_0008525	motor neuron axon guidance decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008045	motor neuron axon guidance
 http://purl.obolibrary.org/obo/ZP_0102106	motor neuron migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0097475	motor neuron migration
+http://purl.obolibrary.org/obo/ZP_0144861	multicellular organismal locomotion decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0071965	multicellular organismal locomotion
 http://purl.obolibrary.org/obo/ZP_0020577	muscle adaptation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043500	muscle adaptation
 http://purl.obolibrary.org/obo/ZP_0002936	muscle attachment decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0016203	muscle attachment
 http://purl.obolibrary.org/obo/ZP_0012201	musculoskeletal movement decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0050881	musculoskeletal movement
@@ -313,6 +326,7 @@ http://purl.obolibrary.org/obo/ZP_0012666	myelin maintenance decreased process q
 http://purl.obolibrary.org/obo/ZP_0011760	myelination decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042552	myelination
 http://purl.obolibrary.org/obo/ZP_0006726	myelination of posterior lateral line nerve axons decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048932	myelination of posterior lateral line nerve axons
 http://purl.obolibrary.org/obo/ZP_0018566	myeloid cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061515	myeloid cell development
+http://purl.obolibrary.org/obo/ZP_0144601	myeloid cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030099	myeloid cell differentiation
 http://purl.obolibrary.org/obo/ZP_0018567	myeloid leukocyte differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002573	myeloid leukocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0101822	myotome development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0061055	myotome development
 http://purl.obolibrary.org/obo/ZP_0016143	negative regulation of glucocorticoid secretion decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_2000850	negative regulation of glucocorticoid secretion
@@ -351,6 +365,7 @@ http://purl.obolibrary.org/obo/ZP_0016547	oligodendrocyte differentiation decrea
 http://purl.obolibrary.org/obo/ZP_0138673	oocyte maturation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0001556	oocyte maturation
 http://purl.obolibrary.org/obo/ZP_0140979	oogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048477	oogenesis
 http://purl.obolibrary.org/obo/ZP_0011151	opsin transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0036372	opsin transport
+http://purl.obolibrary.org/obo/ZP_0143107	optic cup morphogenesis involved in camera-type eye development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002072	optic cup morphogenesis involved in camera-type eye development
 http://purl.obolibrary.org/obo/ZP_0011887	optic nerve development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021554	optic nerve development
 http://purl.obolibrary.org/obo/ZP_0103345	optic nerve formation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021634	optic nerve formation
 http://purl.obolibrary.org/obo/ZP_0103344	optic nerve morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021631	optic nerve morphogenesis
@@ -364,12 +379,13 @@ http://purl.obolibrary.org/obo/ZP_0010987	otic vesicle morphogenesis decreased p
 http://purl.obolibrary.org/obo/ZP_0100071	otolith development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048840	otolith development
 http://purl.obolibrary.org/obo/ZP_0141050	otolith formation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032475	otolith formation
 http://purl.obolibrary.org/obo/ZP_0008246	outflow tract morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003151	outflow tract morphogenesis
-http://purl.obolibrary.org/obo/ZP_0021595	oviposition decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0018991	oviposition
+http://purl.obolibrary.org/obo/ZP_0021595	oviposition decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0018991	egg-laying behavior
 http://purl.obolibrary.org/obo/ZP_0100488	oxygen transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0015671	oxygen transport
 http://purl.obolibrary.org/obo/ZP_0005124	pancreas development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0031016	pancreas development
 http://purl.obolibrary.org/obo/ZP_0010947	paraxial mesoderm development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048339	paraxial mesoderm development
 http://purl.obolibrary.org/obo/ZP_0005147	paraxial mesodermal cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048342	paraxial mesodermal cell differentiation
 http://purl.obolibrary.org/obo/ZP_0005700	pattern recognition receptor signaling pathway decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002221	pattern recognition receptor signaling pathway
+http://purl.obolibrary.org/obo/ZP_0144985	pectoral fin development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0033339	pectoral fin development
 http://purl.obolibrary.org/obo/ZP_0022283	perichondral ossification decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0036073	perichondral ossification
 http://purl.obolibrary.org/obo/ZP_0018075	peripheral nervous system axon regeneration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0014012	peripheral nervous system axon regeneration
 http://purl.obolibrary.org/obo/ZP_0010631	pharyngeal system development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060037	pharyngeal system development
@@ -381,8 +397,10 @@ http://purl.obolibrary.org/obo/ZP_0016432	phototransduction, visible light decre
 http://purl.obolibrary.org/obo/ZP_0016550	pigment cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0070285	pigment cell development
 http://purl.obolibrary.org/obo/ZP_0009643	pigmentation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043473	pigmentation
 http://purl.obolibrary.org/obo/ZP_0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_1904938	planar cell polarity pathway involved in axon guidance
+http://purl.obolibrary.org/obo/ZP_0012725	podocyte cell migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	podocyte cell migration
+http://purl.obolibrary.org/obo/ZP_0017878	podocyte development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072015	podocyte development
+http://purl.obolibrary.org/obo/ZP_0139800	positive regulation of DNA-templated transcription decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0045893	positive regulation of DNA-templated transcription
 http://purl.obolibrary.org/obo/ZP_0007538	positive regulation of deoxyribonuclease activity decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032077	positive regulation of deoxyribonuclease activity
-http://purl.obolibrary.org/obo/ZP_0139800	positive regulation of transcription, DNA-templated decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0045893	positive regulation of transcription, DNA-templated
 http://purl.obolibrary.org/obo/ZP_0003446	posterior lateral line development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048916	posterior lateral line development
 http://purl.obolibrary.org/obo/ZP_0010785	posterior lateral line neuromast deposition decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048922	posterior lateral line neuromast deposition
 http://purl.obolibrary.org/obo/ZP_0003447	posterior lateral line neuromast development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048919	posterior lateral line neuromast development
@@ -406,12 +424,13 @@ http://purl.obolibrary.org/obo/ZP_0102168	proteasomal protein catabolic process 
 http://purl.obolibrary.org/obo/ZP_0006833	protein glycosylation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
 http://purl.obolibrary.org/obo/ZP_0012586	protein kinase B signaling decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043491	protein kinase B signaling
 http://purl.obolibrary.org/obo/ZP_0018250	protein oxidation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0018158	protein oxidation
+http://purl.obolibrary.org/obo/ZP_0018251	proton motive force-driven mitochondrial ATP synthesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042776	proton motive force-driven mitochondrial ATP synthesis
+http://purl.obolibrary.org/obo/ZP_0143043	psychomotor behavior decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0036343	psychomotor behavior
 http://purl.obolibrary.org/obo/ZP_0004332	rRNA processing decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006364	rRNA processing
 http://purl.obolibrary.org/obo/ZP_0004333	rRNA transcription decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0009303	rRNA transcription
 http://purl.obolibrary.org/obo/ZP_0014612	regeneration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0031099	regeneration
 http://purl.obolibrary.org/obo/ZP_0009319	regulation of JNK cascade decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046328	regulation of JNK cascade
 http://purl.obolibrary.org/obo/ZP_0016630	regulation of NMDA receptor activity decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_2000310	regulation of NMDA receptor activity
-http://purl.obolibrary.org/obo/ZP_0003469	regulation of actin cytoskeleton reorganization decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_2000249	regulation of actin cytoskeleton reorganization
 http://purl.obolibrary.org/obo/ZP_0106549	regulation of appetite decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032098	regulation of appetite
 http://purl.obolibrary.org/obo/ZP_0006910	regulation of cardiac muscle contraction by calcium ion signaling decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0010882	regulation of cardiac muscle contraction by calcium ion signaling
 http://purl.obolibrary.org/obo/ZP_0139742	regulation of cell cycle decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0051726	regulation of cell cycle
@@ -460,6 +479,7 @@ http://purl.obolibrary.org/obo/ZP_0009868	retinal blood vessel morphogenesis dec
 http://purl.obolibrary.org/obo/ZP_0012209	retinal cone cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046549	retinal cone cell development
 http://purl.obolibrary.org/obo/ZP_0014832	retinal cone cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042670	retinal cone cell differentiation
 http://purl.obolibrary.org/obo/ZP_0103346	retinal ganglion cell axon guidance decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0031290	retinal ganglion cell axon guidance
+http://purl.obolibrary.org/obo/ZP_0144319	retinal pigment epithelium development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003406	retinal pigment epithelium development
 http://purl.obolibrary.org/obo/ZP_0006443	retinal rod cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046548	retinal rod cell development
 http://purl.obolibrary.org/obo/ZP_0014833	retinal rod cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060221	retinal rod cell differentiation
 http://purl.obolibrary.org/obo/ZP_0002207	retinoic acid receptor signaling pathway decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048384	retinoic acid receptor signaling pathway
@@ -520,6 +540,7 @@ http://purl.obolibrary.org/obo/ZP_0020313	venous blood vessel morphogenesis decr
 http://purl.obolibrary.org/obo/ZP_0019977	venous endothelial cell migration involved in lymph vessel development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060855	venous endothelial cell migration involved in lymph vessel development
 http://purl.obolibrary.org/obo/ZP_0012053	ventral spinal cord interneuron specification decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021521	ventral spinal cord interneuron specification
 http://purl.obolibrary.org/obo/ZP_0006915	ventricular cardiac muscle cell action potential decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0086005	ventricular cardiac muscle cell action potential
+http://purl.obolibrary.org/obo/ZP_0143329	ventricular cardiac muscle cell differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055012	ventricular cardiac muscle cell differentiation
 http://purl.obolibrary.org/obo/ZP_0016728	ventricular cardiac muscle tissue morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055010	ventricular cardiac muscle tissue morphogenesis
 http://purl.obolibrary.org/obo/ZP_0103247	ventricular trabecula myocardium morphogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003222	ventricular trabecula myocardium morphogenesis
 http://purl.obolibrary.org/obo/ZP_0137520	ventriculo bulbo valve development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003173	ventriculo bulbo valve development
@@ -528,6 +549,8 @@ http://purl.obolibrary.org/obo/ZP_0107093	vestibular reflex decreased process qu
 http://purl.obolibrary.org/obo/ZP_0007796	visual behavior decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007632	visual behavior
 http://purl.obolibrary.org/obo/ZP_0101187	visual learning decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008542	visual learning
 http://purl.obolibrary.org/obo/ZP_0001865	visual perception decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007601	visual perception
+http://purl.obolibrary.org/obo/ZP_0143149	visually-mediated background adaptation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0120303	visually-mediated background adaptation
+http://purl.obolibrary.org/obo/ZP_0144269	vitellogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007296	vitellogenesis
 http://purl.obolibrary.org/obo/ZP_0100486	water transport decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006833	water transport
 http://purl.obolibrary.org/obo/ZP_0014277	wound healing decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042060	wound healing
 http://purl.obolibrary.org/obo/ZP_0000792	xanthophore differentiation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0050936	xanthophore differentiation

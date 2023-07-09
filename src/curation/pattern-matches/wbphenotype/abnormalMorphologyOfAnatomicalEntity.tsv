@@ -11,7 +11,6 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000581	body axis morphology variant	
 http://purl.obolibrary.org/obo/WBPhenotype_0000072	body morphology variant	http://purl.obolibrary.org/obo/WBbt_0005740	midbody
 http://purl.obolibrary.org/obo/WBPhenotype_0000532	body region morphology variant	http://purl.obolibrary.org/obo/WBbt_0005738	body region
 http://purl.obolibrary.org/obo/WBPhenotype_0000926	body wall muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005813	body wall musculature
-http://purl.obolibrary.org/obo/WBPhenotype_0001399	cell membrane morphology variant	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
 http://purl.obolibrary.org/obo/WBPhenotype_0000533	cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0004017	Cell
 http://purl.obolibrary.org/obo/WBPhenotype_0001530	cephalic sensillum morphology variant	http://purl.obolibrary.org/obo/WBbt_0006920	cephalic sensillum
 http://purl.obolibrary.org/obo/WBPhenotype_0001526	ciliated neuron morphology variant	http://purl.obolibrary.org/obo/WBbt_0006816	ciliated neuron
@@ -60,7 +59,6 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000905	neuron morphology variant	htt
 http://purl.obolibrary.org/obo/WBPhenotype_0000972	neuronal sheath cell morphology variant	http://purl.obolibrary.org/obo/WBbt_0005811	neuronal sheath cell
 http://purl.obolibrary.org/obo/WBPhenotype_0000923	nonstriated muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005780	non-striated muscle
 http://purl.obolibrary.org/obo/WBPhenotype_0000321	nose morphology variant	http://purl.obolibrary.org/obo/WBbt_0008426	nose
-http://purl.obolibrary.org/obo/WBPhenotype_0001877	nuclear membrane morphology variant	http://purl.obolibrary.org/obo/GO_0031965	nuclear membrane
 http://purl.obolibrary.org/obo/WBPhenotype_0001260	oocyte morphology variant	http://purl.obolibrary.org/obo/WBbt_0006797	oocyte
 http://purl.obolibrary.org/obo/WBPhenotype_0000534	organ system morphology variant	http://purl.obolibrary.org/obo/WBbt_0005746	Organ system
 http://purl.obolibrary.org/obo/WBPhenotype_0001533	outer labial morphology variant	http://purl.obolibrary.org/obo/WBbt_0005501	outer labial sensillum
@@ -79,7 +77,6 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000388	sperm morphology variant	http
 http://purl.obolibrary.org/obo/WBPhenotype_0001659	spermatheca morphology variant	http://purl.obolibrary.org/obo/WBbt_0005319	spermatheca
 http://purl.obolibrary.org/obo/WBPhenotype_0000443	spicule morphology variant	http://purl.obolibrary.org/obo/WBbt_0005312	copulatory spicule
 http://purl.obolibrary.org/obo/WBPhenotype_0000924	striated muscle morphology variant	http://purl.obolibrary.org/obo/WBbt_0005779	striated muscle
-http://purl.obolibrary.org/obo/WBPhenotype_0000616	synapse morphology variant	http://purl.obolibrary.org/obo/GO_0045202	synapse
 http://purl.obolibrary.org/obo/WBPhenotype_0000073	tail morphology variant	http://purl.obolibrary.org/obo/WBbt_0005741	tail
 http://purl.obolibrary.org/obo/WBPhenotype_0000968	tail spike variant	http://purl.obolibrary.org/obo/WBbt_0006979	tail spike
 http://purl.obolibrary.org/obo/WBPhenotype_0001525	terminal bulb morphology variant	http://purl.obolibrary.org/obo/WBbt_0003732	terminal bulb

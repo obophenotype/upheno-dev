@@ -1,4 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/MP_0010576	premature closure of the ductus arteriosus	http://purl.obolibrary.org/obo/UBERON_0005440	ductus arteriosus
 http://purl.obolibrary.org/obo/MP_0030350	premature coronal suture closure	http://purl.obolibrary.org/obo/UBERON_0002489	coronal suture
 http://purl.obolibrary.org/obo/MP_0000081	premature cranial suture closure	http://purl.obolibrary.org/obo/UBERON_0003685	cranial suture
 http://purl.obolibrary.org/obo/MP_0030444	premature cranial synchondrosis closure	http://purl.obolibrary.org/obo/UBERON_0001725	cranial synchondrosis

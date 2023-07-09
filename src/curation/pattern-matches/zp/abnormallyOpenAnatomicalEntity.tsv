@@ -1,5 +1,7 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/ZP_0145099	eye open, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
 http://purl.obolibrary.org/obo/ZP_0003562	inter-parietal joint open, abnormal	http://purl.obolibrary.org/obo/ZFA_0005607	inter-parietal joint
+http://purl.obolibrary.org/obo/ZP_0145286	mandibular arch skeleton open, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
 http://purl.obolibrary.org/obo/ZP_0005097	mouth open, abnormal	http://purl.obolibrary.org/obo/ZFA_0000547	mouth
 http://purl.obolibrary.org/obo/ZP_0011269	neural tube open, abnormal	http://purl.obolibrary.org/obo/ZFA_0001135	neural tube
 http://purl.obolibrary.org/obo/ZP_0002351	optic fissure open, abnormal	http://purl.obolibrary.org/obo/ZFA_0001284	optic fissure
