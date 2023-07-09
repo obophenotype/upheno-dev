@@ -289,7 +289,7 @@ def add_upheno_id(df, pattern):
     df = df.drop_duplicates()
     df = df.reindex(sorted(df.columns), axis=1)
     df["pattern"] = pattern
-    df["id"] = df.apply("-".join, axis=1)
+    df["id"] = df.apply(lambda row: "-".join(row.astype(str)), axis=1)
     df = pd.merge(df, upheno_map, on="id", how="left")
     df["defined_class"] = [generate_id(i) for i in df["defined_class"]]
     upheno_map = upheno_map.append(df[["id", "defined_class"]])
