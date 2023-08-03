@@ -46,6 +46,8 @@ public class CompareOntologyLinksApp {
             return "asserted";
         } else if(linkImplied(l,r)) {
            return "inferred";
+        } else if(linkWouldCauseUnsatisfiability(l,r)) {
+            return "incoherent";
         } else {
             return "none";
         }
@@ -211,6 +213,25 @@ public class CompareOntologyLinksApp {
             ax = df.getOWLSubClassOfAxiom(df.getOWLClass(l.e1),df.getOWLObjectSomeValuesFrom(df.getOWLObjectProperty(l.relation),df.getOWLClass(l.e2)));
         }
         return r.isEntailed(ax);
+    }
+
+
+    private boolean linkWouldCauseUnsatisfiability(LinkBetweenEntity l, OWLReasoner r) {
+        Set<OWLAxiom> axiom = new HashSet<>(r.getRootOntology().getLogicalAxioms());
+        OWLAxiom ax;
+        if(l.relation.equals(subClassIRI)) {
+            ax = df.getOWLSubClassOfAxiom(df.getOWLClass(l.e1),df.getOWLClass(l.e2));
+        } else {
+            // we assume its and existential restricton.
+            ax = df.getOWLSubClassOfAxiom(df.getOWLClass(l.e1),df.getOWLObjectSomeValuesFrom(df.getOWLObjectProperty(l.relation),df.getOWLClass(l.e2)));
+        }
+        axiom.add(ax);
+        r.getRootOntology().getOWLOntologyManager().addAxiom(r.getRootOntology(),ax);
+        r.flush();
+        boolean unsat= r.getUnsatisfiableClasses().getEntities().isEmpty();
+        r.getRootOntology().getOWLOntologyManager().removeAxiom(r.getRootOntology(),ax);
+        r.flush();
+        return unsat;
     }
 
     @SuppressWarnings("SuspiciousMethodCalls")

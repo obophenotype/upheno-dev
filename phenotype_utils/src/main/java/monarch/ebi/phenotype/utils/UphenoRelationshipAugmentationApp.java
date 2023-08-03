@@ -21,7 +21,7 @@ public class UphenoRelationshipAugmentationApp {
     private final Set<OWLClass> phenotypes = new HashSet<>();
     private final File ontology_file;
     private final File ontology_dir_out;
-    private static OWLDataFactory df = OWLManager.getOWLDataFactory();
+    private final static OWLDataFactory df = OWLManager.getOWLDataFactory();
 
 
     public UphenoRelationshipAugmentationApp(File ontology_file, File ontology_dir_out, File phenotype_list_file) throws IOException, OWLOntologyCreationException {
@@ -141,12 +141,14 @@ public class UphenoRelationshipAugmentationApp {
                             }
                             if (bearer_expression.isAnonymous()) {
                                 for (OWLClass cbearer : bearer_expression.getClassesInSignature()) {
-                                    OWLAnnotationAssertionAxiom hae = df.getOWLAnnotationAssertionAxiom(Entities.has_associated_entity, named.getIRI(), cbearer.getIRI());
-                                    add.add(hae);
+                                    OWLObjectSomeValuesFrom relation = df.getOWLObjectSomeValuesFrom(Entities.has_associated_entity, cbearer);
+                                    OWLSubClassOfAxiom ax_new = df.getOWLSubClassOfAxiom(named, relation);
+                                    add.add(ax_new);
                                 }
                             } else {
-                                OWLAnnotationAssertionAxiom hae = df.getOWLAnnotationAssertionAxiom(Entities.has_associated_entity, named.getIRI(), bearer_expression.asOWLClass().getIRI());
-                                add.add(hae);
+                                OWLObjectSomeValuesFrom relation = df.getOWLObjectSomeValuesFrom(Entities.has_associated_entity, bearer_expression.asOWLClass());
+                                OWLSubClassOfAxiom ax_new = df.getOWLSubClassOfAxiom(named, relation);
+                                add.add(ax_new);
                             }
                         }
                     }
