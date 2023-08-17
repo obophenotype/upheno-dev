@@ -6,7 +6,7 @@ Editors, to run a uPheno 2 release, please check: https://obophenotype.github.io
 
 # Framework for the automated construction of uPheno 2.0 (alpha)
 
-uPheno 2.0, due December 2019, will be the new version of the Unified Phenotype Ontology ([uPheno](https://github.com/obophenotype/upheno)). 
+uPheno 2.0 is the upcoming new version of the Unified Phenotype Ontology ([uPheno](https://github.com/obophenotype/upheno)). 
 
 The uPheno project aims to unify the annotation of phenotypes across species in a manner analogous to unification of gene function annotation by the Gene Ontology. uPheno 2.0 builds on earlier efforts with a new strategy that directly leverages the work of the phenotype ontology development community and incorporates phenotypes from a much wider range of species. We have organised a [collaborative community effort](https://github.com/obophenotype/upheno/wiki/Phenotype-Ontologies-Reconciliation-Effort), including representatives of all major model organism databases, to document and align [formal design patterns](https://github.com/obophenotype/upheno/tree/master/src/patterns) for representing phenotypes and further develop reference ontologies, such as PATO, which are used in these patterns.  A common development infrastructure makes it easy to use these design patterns to generate both species-specific ontologies and a species-independent layer that subsumes them. 
 
