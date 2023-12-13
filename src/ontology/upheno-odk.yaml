@@ -278,3 +278,9 @@ import_group:
     - id: pato
     - id: cl
     - id: mpath
+components:
+  products:
+    - filename: upheno-deprecated.owl
+      use_template: TRUE
+      templates:
+        - obsolete.tsv
