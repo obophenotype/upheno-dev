@@ -218,7 +218,7 @@ def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
         if filename in exclude_patterns:
             continue
         if not upheno_config.is_skip_pattern_download():
-            try:
+            # try:
                 x = urllib.request.urlopen(url).read()
                 y = ruamel.yaml.round_trip_load(x, preserve_quotes=True)
                 print(file_path)
@@ -235,18 +235,18 @@ def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
                 if "RO:0002314" in y["relations"].values(): # inheres in part of
                     new_pattern = y.copy()
                     new_pattern["relations"] = {}
-                    for k,v in y["relations"]:
+                    for k,v in y["relations"].items():
                         if v == "RO:0002314":
                             new_pattern["relations"][k] = "RO:0000052"
                         else:
                             new_pattern["relations"][k] = v
-                    new_file_path = os.path.splitext(file_path) + "-modified.yaml"
+                    new_file_path = os.path.splitext(file_path)[0] + "-modified.yaml"
                     with open(new_file_path, "w") as outfile:
                         ruamel.yaml.round_trip_dump(new_pattern, outfile, explicit_start=True, width=5000)
                         filenames.append(new_file_path)
 
-            except Exception as exc:
-                print(exc)
+            # except Exception as exc:
+                # print(exc)
 
         if os.path.isfile(file_path):
             filenames.append(filename)
