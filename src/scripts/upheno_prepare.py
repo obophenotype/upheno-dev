@@ -12,6 +12,7 @@ import shutil
 import sys
 import urllib.request
 import warnings
+import json
 from subprocess import CalledProcessError, check_call
 
 import pandas as pd
@@ -207,13 +208,15 @@ def get_pattern_urls(upheno_pattern_repos):
     return upheno_patterns
 
 
-def download_patterns(upheno_pattern_repos, pattern_dir):
+def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
     upheno_patterns = get_pattern_urls(upheno_pattern_repos)
     filenames = []
     for url in upheno_patterns:
-        print("Downloading " + url)
         filename = os.path.basename(url)
         file_path = os.path.join(pattern_dir, filename)
+        print("Downloading " + filename + " from " + url + " to " + pattern_dir)
+        if filename in exclude_patterns:
+            continue
         if not upheno_config.is_skip_pattern_download():
             try:
                 x = urllib.request.urlopen(url).read()
@@ -226,6 +229,21 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
 
                 with open(file_path, "w") as outfile:
                     ruamel.yaml.round_trip_dump(y, outfile, explicit_start=True, width=5000)
+
+                # generate inheres_in matches for any inheres_in_part_of patterns
+                #
+                if "RO:0002314" in y["relations"].values(): # inheres in part of
+                    new_pattern = json.loads(json.dumps(y))
+                    new_pattern["relations"] = {}
+                    for k,v in y["relations"]:
+                        if v == "RO:0002314":
+                            new_pattern["relations"]["inheres_in"] = "RO:0000052"
+                        else:
+                            new_pattern["relations"][k] = v
+                    new_file_path = os.path.splitext(file_path) + "_modified_inheres_in.yaml"
+                    with open(new_file_path, "w") as outfile:
+                        ruamel.yaml.round_trip_dump(new_pattern, outfile, explicit_start=True, width=5000)
+                        filenames.append(new_file_path)
 
             except Exception as exc:
                 print(exc)
@@ -523,12 +541,15 @@ if upheno_config.is_clean_dir():
 
 
 print("### Download patterns ###")
-pattern_files = download_patterns(upheno_config.get_pattern_repos(), pattern_dir)
+exclude_patterns = upheno_config.get_exclude_patterns()
+pattern_files = download_patterns(upheno_config.get_pattern_repos(), pattern_dir, exclude_patterns)
 pattern_files = [
     os.path.join(pattern_dir, f)
     for f in os.listdir(pattern_dir)
     if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith(".yaml")
 ]
+
+exit(0)
 
 print("### Download sources ###")
 print("ROBOT args: " + os.environ["ROBOT_JAVA_ARGS"])
