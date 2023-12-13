@@ -233,14 +233,14 @@ def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
                 # generate inheres_in matches for any inheres_in_part_of patterns
                 #
                 if "RO:0002314" in y["relations"].values(): # inheres in part of
-                    new_pattern = json.loads(json.dumps(y))
+                    new_pattern = y.copy()
                     new_pattern["relations"] = {}
                     for k,v in y["relations"]:
                         if v == "RO:0002314":
-                            new_pattern["relations"]["inheres_in"] = "RO:0000052"
+                            new_pattern["relations"][k] = "RO:0000052"
                         else:
                             new_pattern["relations"][k] = v
-                    new_file_path = os.path.splitext(file_path) + "_modified_inheres_in.yaml"
+                    new_file_path = os.path.splitext(file_path) + "-modified.yaml"
                     with open(new_file_path, "w") as outfile:
                         ruamel.yaml.round_trip_dump(new_pattern, outfile, explicit_start=True, width=5000)
                         filenames.append(new_file_path)
