@@ -386,6 +386,42 @@ def prepare_species_specific_phenotype_ontologies(config):
             )
             robot_upheno_component(o_base_taxon, remove_eqs_file)
 
+def postprocess_modified_patterns(upheno_config, pattern_files, matches_dir):
+    patterns = []
+    delete_files = []
+    delete_files.extend(pattern_files)
+    
+    for pattern_path in pattern_files:
+        pid = os.path.basename(pattern_path).replace(".yaml", "")
+        patterns.append(pid)
+    
+    for id in upheno_config.get_phenotype_ontologies():
+        oid_matches_path = os.path.join(matches_dir, id)
+        for pattern in patterns:
+            # Load both the modified and unm modified tsv files
+            # merge them and write them back to the unmodified file
+            unmodified_tsv_path = os.path.join(oid_matches_path, pattern + ".tsv")
+            modified_tsv_path = os.path.join(oid_matches_path, pattern + "-modification.tsv")
+            if not os.path.exists(modified_tsv_path):
+                continue
+            if not os.path.exists(unmodified_tsv_path):
+                continue
+            df_unmodified = pd.read_csv(unmodified_tsv_path, sep="\t")
+            df_modified = pd.read_csv(modified_tsv_path, sep="\t")
+            df_combined = pd.concat([df_unmodified, df_modified])
+            # Remove duplicate rows
+            df_final = df_combined.drop_duplicates()
+            df_final.to_csv(unmodified_tsv_path, sep="\t", index=False)
+            delete_files.append(modified_tsv_path)
+    
+    # Delete the modified tsv files and their corresponding patterns:
+    for file_path in delete_files:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+
+
+            
+        
 
 def match_patterns(upheno_config, pattern_files, matches_dir, pattern_dir, overwrite=True):
     patterns = []
@@ -413,6 +449,14 @@ def match_patterns(upheno_config, pattern_files, matches_dir, pattern_dir, overw
             dosdp_pattern_match(ontology_path, pattern_string2, pattern_dir, outdir, TIMEOUT)
         else:
             print("Matches for ({}) already made, bypassing.".format(outdir))
+    
+    postprocess_modified_patterns = [
+        os.path.join(pattern_dir, f)
+        for f in os.listdir(pattern_dir)
+        if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith("-modification.yaml")
+        ]
+
+    postprocess_modified_patterns(upheno_config, postprocess_modified_patterns, matches_dir)
 
 
 def add_taxon_restrictions(
