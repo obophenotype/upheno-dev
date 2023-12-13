@@ -115,6 +115,9 @@ class uPhenoConfig:
     def get_pattern_repos(self):
         return self.config.get("pattern_repos")
 
+    def get_exclude_patterns(self):
+        return self.config.get("exclude_patterns")
+    
     def get_working_directory(self):
         return self.config.get("working_directory")
 
