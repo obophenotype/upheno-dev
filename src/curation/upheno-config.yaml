@@ -145,8 +145,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/caro.owl
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
-  - id: bspo-uberon
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.owl
   - id: caro-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl
   - id: xao-uberon
@@ -161,8 +159,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl
   - id: caro-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-caro.owl
-  - id: bspo-cl
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-bspo.owl
   - id: fbbt-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.owl
   #- id: plana-uberon
@@ -224,10 +220,8 @@ sources:
       - bfo
       - xao
       - xao-uberon
-      - bspo-uberon
       - caro-uberon
       - xao-cl
-      - bspo-cl
       - caro-cl
       - caro
   - id: planp
@@ -242,9 +236,7 @@ sources:
       - plana
       #- plana-uberon
       #- plana-cl
-      - bspo-uberon
       - caro-uberon
-      - bspo-cl
       - caro-cl
       - caro
       #- ncit
@@ -262,10 +254,8 @@ sources:
       - mpath
       - bfo
       - zfa-uberon
-      - bspo-uberon
       - caro-uberon
       - caro
-      - bspo-cl
       - caro-cl
       - cl
   - id: dpo
