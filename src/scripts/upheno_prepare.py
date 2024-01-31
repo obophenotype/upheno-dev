@@ -208,15 +208,20 @@ def get_pattern_urls(upheno_pattern_repos):
     return upheno_patterns
 
 
-def download_patterns(upheno_pattern_repos, pattern_dir):
+def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
     upheno_patterns = get_pattern_urls(upheno_pattern_repos)
     filenames = []
     for url in upheno_patterns:
         filename = os.path.basename(url)
         file_path = os.path.join(pattern_dir, filename)
         print("Downloading " + filename + " from " + url + " to " + pattern_dir)
+        # we exclude the inheres_in patterns because they are superceded by the modified 
+        # inheres_in_part_of patterns
+        # 
+        if filename in exclude_patterns:
+            continue
         if not upheno_config.is_skip_pattern_download():
-            try:
+            # try:
                 x = urllib.request.urlopen(url).read()
                 y = ruamel.yaml.round_trip_load(x, preserve_quotes=True)
                 print(file_path)
@@ -243,8 +248,8 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
                         ruamel.yaml.round_trip_dump(new_pattern, outfile, explicit_start=True, width=5000)
                         filenames.append(new_file_path)
 
-            except Exception as exc:
-                print(exc)
+            # except Exception as exc:
+                # print(exc)
 
         if os.path.isfile(file_path):
             filenames.append(filename)
@@ -539,12 +544,15 @@ if upheno_config.is_clean_dir():
 
 
 print("### Download patterns ###")
-pattern_files = download_patterns(upheno_config.get_pattern_repos(), pattern_dir)
+exclude_patterns = upheno_config.get_exclude_patterns()
+pattern_files = download_patterns(upheno_config.get_pattern_repos(), pattern_dir, exclude_patterns)
 pattern_files = [
     os.path.join(pattern_dir, f)
     for f in os.listdir(pattern_dir)
     if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith(".yaml")
 ]
+
+exit(0)
 
 print("### Download sources ###")
 print("ROBOT args: " + os.environ["ROBOT_JAVA_ARGS"])
