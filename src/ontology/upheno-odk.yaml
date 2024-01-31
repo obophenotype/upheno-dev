@@ -113,8 +113,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/xao.owl
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
-  - id: bspo-uberon
-    mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/bridge/uberon-bridge-to-bspo.obo
   - id: caro-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl
   - id: xao-uberon
@@ -177,7 +175,6 @@ sources:
       - bfo
       - xao
       - xao-uberon
-      - bspo-uberon
       - caro-uberon
   - id: planp
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
@@ -190,12 +187,11 @@ sources:
     dependencies:
       - plana
       #- plana-uberon
-      - bspo-uberon
       - caro-uberon
       #- ncit
   - id: zp
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
-    root: http://purl.obolibrary.org/obo/ZP_00000000
+    root: http://purl.obolibrary.org/obo/ZP_0000000
     prefix_iri: http://purl.obolibrary.org/obo/ZP_
     taxon: http://purl.obolibrary.org/obo/ZP
     taxon_label: ZPO
@@ -207,7 +203,6 @@ sources:
       - mpath
       - bfo
       - zfa-uberon
-      - bspo-uberon
       - caro-uberon
   - id: dpo
     mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
