@@ -13,8 +13,9 @@ def main():
     parser.add_argument('--upheno_id_map', type=str, help='upheno id map file')
     parser.add_argument('--patterns_dir', type=str, help='directory containing pattern files')
     parser.add_argument('--matches_dir', type=str, help='directory containing pattern matches')
+    parser.add_argument('--output', type=str, help='output file')
     args = parser.parse_args()
-    create_upheno_sssom(args.upheno_id_map, args.patterns_dir, args.matches_dir)
+    create_upheno_sssom(args.upheno_id_map, args.patterns_dir, args.matches_dir, args.output)
 
 def get_id_columns(pattern_file):
     try:
@@ -26,7 +27,7 @@ def get_id_columns(pattern_file):
         print("Could not get id columns: " + pattern_file)
         return None
 
-def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir):
+def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, output_file):
 
     all_pattern_matches_map = dict()
 
@@ -90,7 +91,7 @@ def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir):
     meta['mapping_set_id'] = 'https://data.monarchinitiative.org/mappings/upheno/upheno-species-independent.sssom.tsv'
     msdf = from_sssom_dataframe(df_out, prefix_map=converter, meta=meta)
     msdf.clean_prefix_map()
-    write_table(msdf, open("upheno-species-independent.sssom.tsv", "w"))
+    write_table(msdf, open(output_file, "w"))
 
 def filter_row(df, id_columns, fillers):
     n = 0

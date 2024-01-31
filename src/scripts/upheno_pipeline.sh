@@ -55,7 +55,8 @@ sh run.sh python3 upheno-stats.py ../curation/upheno-config.yaml
 sh run.sh python3 create_sssom.py \
     --upheno_id_map ../curation/upheno_id_map.txt \
     --patterns_dir ../curation/patterns-for-matching \
-    --matches_dir ../curation/pattern-matches
+    --matches_dir ../curation/pattern-matches \
+    --output ../../mappings/upheno-species-independent.sssom.tsv
 
 cd ../ontology/
 sh run.sh make o sim reports
