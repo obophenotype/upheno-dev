@@ -9,7 +9,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 def:
-  text: An increased level of %s in the %s.
+  text: Increased level of %s in the %s.
   vars:
   - role
   - location

@@ -16,7 +16,7 @@ contributors:
 - https://orcid.org/0000-0002-9900-7880
 - https://orcid.org/0000-0002-9611-1279
 def:
-  text: An apoptotic %s in %s.
+  text: Apoptotic %s in %s.
   vars:
   - anatomical_entity
   - location

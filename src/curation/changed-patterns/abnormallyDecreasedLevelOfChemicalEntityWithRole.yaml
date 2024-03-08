@@ -9,7 +9,7 @@ contributors:
 - https://orcid.org/0000-0001-5208-3432
 - https://orcid.org/0000-0002-3528-5267
 def:
-  text: An decreased level of %s.
+  text: Decreased level of %s.
   vars:
   - role
 description: ''

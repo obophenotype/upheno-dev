@@ -12,7 +12,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0002-7356-1779
 def:
-  text: Changed decreased coiling of the %s.
+  text: Decreased coiling of the %s.
   vars:
   - anatomical_entity
 description: ''

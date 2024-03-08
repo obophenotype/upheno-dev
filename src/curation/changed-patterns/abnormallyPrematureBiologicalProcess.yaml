@@ -8,7 +8,7 @@ contributors:
 - https://orcid.org/0000-0001-7487-610X
 - https://orcid.org/0000-0002-3528-5267
 def:
-  text: An early start time of %s.
+  text: Early start time of %s.
   vars:
   - biological_process
 description: ''

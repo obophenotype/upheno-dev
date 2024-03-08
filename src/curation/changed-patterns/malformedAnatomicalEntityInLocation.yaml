@@ -15,7 +15,7 @@ contributors:
 - https://orcid.org/0000-0002-7356-1779
 - https://orcid.org/0000-0001-5208-3432
 def:
-  text: An formed/malformed %s in %s.
+  text: Formed/malformed %s in %s.
   vars:
   - anatomical_entity
   - location

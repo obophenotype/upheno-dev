@@ -5,7 +5,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0001-9076-6015
 def:
-  text: An decreased functionality of the %s.
+  text: Decreased functionality of the %s.
   vars:
   - anatomical_entity
 description: ''

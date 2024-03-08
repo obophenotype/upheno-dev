@@ -8,7 +8,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0002-3528-5267
 def:
-  text: An increased amount of %s.
+  text: Increased amount of %s.
   vars:
   - role
 description: ''

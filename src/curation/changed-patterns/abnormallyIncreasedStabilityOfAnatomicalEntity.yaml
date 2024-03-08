@@ -7,7 +7,7 @@ contributors:
 - https://orcid.org/0000-0002-7356-1779
 - https://orcid.org/0000-0002-4532-2703
 def:
-  text: An increased stability of the %s.
+  text: Increased stability of the %s.
   vars:
   - anatomical_entity
 description: ''
