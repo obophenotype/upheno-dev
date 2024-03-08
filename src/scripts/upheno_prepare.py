@@ -552,7 +552,7 @@ pattern_files = [
     if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith(".yaml")
 ]
 
-exit(0)
+
 
 print("### Download sources ###")
 print("ROBOT args: " + os.environ["ROBOT_JAVA_ARGS"])
