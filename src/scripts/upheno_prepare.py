@@ -12,6 +12,7 @@ import shutil
 import sys
 import urllib.request
 import warnings
+import json
 from subprocess import CalledProcessError, check_call
 
 import pandas as pd
@@ -207,15 +208,20 @@ def get_pattern_urls(upheno_pattern_repos):
     return upheno_patterns
 
 
-def download_patterns(upheno_pattern_repos, pattern_dir):
+def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
     upheno_patterns = get_pattern_urls(upheno_pattern_repos)
     filenames = []
     for url in upheno_patterns:
-        print("Downloading " + url)
         filename = os.path.basename(url)
         file_path = os.path.join(pattern_dir, filename)
+        print("Downloading " + filename + " from " + url + " to " + pattern_dir)
+        # we exclude the inheres_in patterns because they are superceded by the modified 
+        # inheres_in_part_of patterns
+        # 
+        if filename in exclude_patterns:
+            continue
         if not upheno_config.is_skip_pattern_download():
-            try:
+            # try:
                 x = urllib.request.urlopen(url).read()
                 y = ruamel.yaml.round_trip_load(x, preserve_quotes=True)
                 print(file_path)
@@ -227,8 +233,23 @@ def download_patterns(upheno_pattern_repos, pattern_dir):
                 with open(file_path, "w") as outfile:
                     ruamel.yaml.round_trip_dump(y, outfile, explicit_start=True, width=5000)
 
-            except Exception as exc:
-                print(exc)
+                # generate inheres_in matches for any inheres_in_part_of patterns
+                #
+                if "RO:0002314" in y["relations"].values(): # inheres in part of
+                    new_pattern = y.copy()
+                    new_pattern["relations"] = {}
+                    for k,v in y["relations"].items():
+                        if v == "RO:0002314":
+                            new_pattern["relations"][k] = "RO:0000052"
+                        else:
+                            new_pattern["relations"][k] = v
+                    new_file_path = os.path.splitext(file_path)[0] + "-modified.yaml"
+                    with open(new_file_path, "w") as outfile:
+                        ruamel.yaml.round_trip_dump(new_pattern, outfile, explicit_start=True, width=5000)
+                        filenames.append(new_file_path)
+
+            # except Exception as exc:
+                # print(exc)
 
         if os.path.isfile(file_path):
             filenames.append(filename)
@@ -386,6 +407,42 @@ def prepare_species_specific_phenotype_ontologies(config):
             )
             robot_upheno_component(o_base_taxon, remove_eqs_file)
 
+def postprocess_modified_patterns(upheno_config, pattern_files, matches_dir):
+    patterns = []
+    delete_files = []
+    delete_files.extend(pattern_files)
+    
+    for pattern_path in pattern_files:
+        pid = os.path.basename(pattern_path).replace(".yaml", "")
+        patterns.append(pid)
+    
+    for id in upheno_config.get_phenotype_ontologies():
+        oid_matches_path = os.path.join(matches_dir, id)
+        for pattern in patterns:
+            # Load both the modified and unm modified tsv files
+            # merge them and write them back to the unmodified file
+            unmodified_tsv_path = os.path.join(oid_matches_path, pattern + ".tsv")
+            modified_tsv_path = os.path.join(oid_matches_path, pattern + "-modification.tsv")
+            if not os.path.exists(modified_tsv_path):
+                continue
+            if not os.path.exists(unmodified_tsv_path):
+                continue
+            df_unmodified = pd.read_csv(unmodified_tsv_path, sep="\t")
+            df_modified = pd.read_csv(modified_tsv_path, sep="\t")
+            df_combined = pd.concat([df_unmodified, df_modified])
+            # Remove duplicate rows
+            df_final = df_combined.drop_duplicates()
+            df_final.to_csv(unmodified_tsv_path, sep="\t", index=False)
+            delete_files.append(modified_tsv_path)
+    
+    # Delete the modified tsv files and their corresponding patterns:
+    for file_path in delete_files:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+
+
+            
+        
 
 def match_patterns(upheno_config, pattern_files, matches_dir, pattern_dir, overwrite=True):
     patterns = []
@@ -413,6 +470,14 @@ def match_patterns(upheno_config, pattern_files, matches_dir, pattern_dir, overw
             dosdp_pattern_match(ontology_path, pattern_string2, pattern_dir, outdir, TIMEOUT)
         else:
             print("Matches for ({}) already made, bypassing.".format(outdir))
+    
+    modified_patterns_to_process = [
+        os.path.join(pattern_dir, f)
+        for f in os.listdir(pattern_dir)
+        if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith("-modification.yaml")
+        ]
+
+    postprocess_modified_patterns(upheno_config, modified_patterns_to_process, matches_dir)
 
 
 def add_taxon_restrictions(
@@ -479,12 +544,15 @@ if upheno_config.is_clean_dir():
 
 
 print("### Download patterns ###")
-pattern_files = download_patterns(upheno_config.get_pattern_repos(), pattern_dir)
+exclude_patterns = upheno_config.get_exclude_patterns()
+pattern_files = download_patterns(upheno_config.get_pattern_repos(), pattern_dir, exclude_patterns)
 pattern_files = [
     os.path.join(pattern_dir, f)
     for f in os.listdir(pattern_dir)
     if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith(".yaml")
 ]
+
+
 
 print("### Download sources ###")
 print("ROBOT args: " + os.environ["ROBOT_JAVA_ARGS"])

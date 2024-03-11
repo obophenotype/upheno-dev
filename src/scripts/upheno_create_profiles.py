@@ -65,7 +65,7 @@ upheno_prepare_dir = os.path.join(ws, "curation/upheno-release-prepare/")
 upheno_release_dir = os.path.join(ws, "curation/upheno-release/")
 ontology_for_matching_dir = os.path.join(ws, "curation/ontologies-for-matching/")
 upheno_patterns_data_manual_dir = os.path.join(ws, "patterns/data/default/")
-upheno_patterns_dir = os.path.join(ws, "patterns/dosdp-patterns/")
+upheno_patterns_dir = os.path.join(ws, "curation/changed-patterns/")
 upheno_ontology_dir = os.path.join(ws, "ontology/")
 
 
@@ -473,6 +473,122 @@ def create_upheno_core_manual_phenotypes(manual_tsv_files, allimports_dosdp):
 
 ### Methods end
 
+### PATTERN RENAME CODE (REFACTOR!!!)
+
+replacements = {
+    "Abnormal change": "UHAUIYHIUHIUH",
+    "abnormal bending": "bending",
+    "abnormal closing": "closing",
+    "abnormal coiling": "coiling",
+    "abnormal decreased": "decreased",
+    "abnormal increased": "increased",
+    "abnormal duplication": "duplication",
+    "abnormal fusion": "fusion",
+    "abnormal incomplete": "incomplete",
+    "abnormal opening": "opening",
+    "Abnormal ability": "Ability",
+    "A deviation from the normal": "Changed",
+    "A morphological abnormality": "Changed morphology",
+    "abnormality of": "changed",
+    "Abnormal accumulation": "Accumulation",
+    "Abnormal dilation": "Dilation",
+    "Abnormal local accumulation": "Local accumulation",
+    "An abnormality": "A change",
+    "Abnormal morphological asymmetry": "Morphological asymmetry",
+    "Abnormal proliferation": "proliferation",
+    "Abnormal prominence": "prominence",
+    "abnormal decrease": "decrease",
+    "An abnormal development": "Changed development",
+    "An abnormal reduction": "A reduction",
+    "An abnormal ": "A changed ",
+    "An abnormality ": "A change ",
+    "an abnormal ": "a changed ",
+    "abnormally curled":   "curling",
+    "abnormal bending":   "bending",
+    "abnormal ": "changed ",
+    "Abnormal ": "Changed ",
+    "An abnormally": "",
+    "abnormally ": "",
+    "Abnormally ": "",
+    "UHAUIYHIUHIUH": "Abnormal change"
+}
+
+
+
+
+def get_all_patterns_as_yml(pattern_directory_path):
+    all_configs = []
+    for pattern_file_path in glob.glob(pattern_directory_path + '*.yaml'):
+        with open(pattern_file_path, 'r') as pattern_file:
+            y = yaml.safe_load(pattern_file)
+            all_configs.append(y)
+    return all_configs
+
+def print_if_changed(original, new):
+    if original != new:
+        #print(f"{original}: {new}")
+        pass
+
+def update_text(original_text, replacements):
+    first_capital = original_text[0].isupper()
+    new_text = original_text
+    for old, new in replacements.items():
+        new_text = new_text.replace(old, new)
+    new_text = re.sub(r'\s+', ' ', new_text).strip()
+    if first_capital:
+        new_text = new_text[0].upper() + new_text[1:]
+    return new_text
+
+def process_text(slot, pattern, changes, replacements):
+    if slot:
+        if 'text' in pattern[slot]:
+            original_text = pattern[slot]['text']
+        else:
+            print(f"XXX: {slot} does not have a text field. Skipping.")
+            return
+    else:
+        original_text = pattern['text']
+    new_text = update_text(original_text, replacements)
+    if original_text != new_text:
+        print(f"{original_text}\t{new_text}")
+        changes[original_text] = new_text
+        if slot:
+            pattern[slot]['text'] = new_text
+        else:
+            pattern['text'] = new_text
+    else:
+        print(f"{original_text}\tTODO")
+
+def change_pattern(pattern_yaml, replacements, changes):
+    pattern_yaml['description'] = ""
+    if 'abnormal' in pattern_yaml['classes']:
+        pattern_yaml['classes']['abnormal'] = 'PATO:0000460'
+
+    process_text('name', pattern_yaml, changes, replacements)
+    process_text('def', pattern_yaml, changes, replacements)
+    
+    if 'annotations' in pattern_yaml:
+        for annotation in pattern_yaml['annotations']:
+            if annotation['annotationProperty'] == 'exact_synonym':
+                process_text(None, annotation, changes, replacements)
+    
+
+def update_abnormal_patterns_to_changed(all_configs, replacements):
+    updated_patterns = []
+    changes = {}
+    for pattern in all_configs:
+        change_pattern(pattern, replacements=replacements, changes = changes)
+        updated_patterns.append(pattern)
+    return updated_patterns, changes
+
+def write_patterns_to_file(updated_patterns, changed_pattern_directory_path):
+    for pattern in updated_patterns:
+        with open(changed_pattern_directory_path + pattern['pattern_name'] + '.yaml', 'w') as pattern_file:
+            yaml.dump(pattern, pattern_file, default_flow_style=False)
+
+all_configs = get_all_patterns_as_yml(pattern_dir)
+updated_patterns, changes = update_abnormal_patterns_to_changed(all_configs, replacements)
+write_patterns_to_file(updated_patterns, upheno_patterns_dir)
 
 ### Run
 
@@ -606,9 +722,9 @@ for upheno_combination_id in upheno_config.get_upheno_profiles():
 
     # For all tsvs, generate the dosdp instances and drop them in the combo directory
     print("Profile: Generate uPheno intermediate layer")
-    for pattern in os.listdir(pattern_dir):
+    for pattern in os.listdir(upheno_patterns_dir):
         if pattern.endswith(".yaml"):
-            pattern_file = os.path.join(pattern_dir, pattern)
+            pattern_file = os.path.join(upheno_patterns_dir, pattern)
             tsv_file_name = pattern.replace(".yaml", ".tsv")
             tsv_file = os.path.join(profile_dir, tsv_file_name)
             if os.path.exists(tsv_file):

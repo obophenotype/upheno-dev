@@ -1,0 +1,1736 @@
+Prefix(:=<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>
+<http://purl.obolibrary.org/obo/upheno/releases/2023-12-13/components/upheno-deprecated.owl>
+Annotation(owl:versionInfo "2023-12-13")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031759>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031760>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031761>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031762>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031763>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031764>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031765>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031766>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0031767>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047542>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047543>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047544>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047545>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047546>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047547>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047548>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047549>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047550>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047551>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047552>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047553>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047554>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047555>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047556>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047557>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047558>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047559>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047560>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047561>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047562>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047563>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047564>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047565>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047566>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047567>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047568>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047569>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047570>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047571>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047572>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047573>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047574>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047575>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047576>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047577>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047578>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047579>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047580>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047581>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047582>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047583>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047584>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047585>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047586>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047587>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047588>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047589>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047590>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047591>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047592>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047593>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047594>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047595>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047596>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047597>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047598>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047599>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047600>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047601>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047602>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047603>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047604>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047605>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047606>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047607>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047608>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047609>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047610>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047611>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047612>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047613>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047614>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047615>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047616>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047617>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047618>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047619>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047620>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047621>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047622>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047624>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047625>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047626>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047627>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047628>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047629>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047630>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047631>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047632>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047633>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047634>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047635>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047636>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047637>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047638>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047639>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047640>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047641>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047642>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047643>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047644>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047645>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047646>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047647>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047648>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047649>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047650>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047651>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047652>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047653>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047654>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047655>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047656>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047657>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047658>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047659>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047660>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047661>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047662>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047663>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047664>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047665>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047666>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047667>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047668>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047669>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047670>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047671>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047672>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047673>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047674>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047675>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047676>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047677>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047678>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047679>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047680>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047681>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047682>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047683>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047684>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047685>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047686>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047687>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047688>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047689>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047690>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047691>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047692>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047693>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047694>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047696>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047697>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047698>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047699>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047700>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047701>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047702>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047703>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047704>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047705>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047706>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047707>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047708>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047709>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047710>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047711>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047712>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047713>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047714>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047715>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047716>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047717>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047718>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047719>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047720>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047721>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047722>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047723>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047724>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047725>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047726>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047727>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047728>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047729>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047730>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047731>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047733>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047734>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047735>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047736>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047737>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047738>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047739>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047740>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047741>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047742>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047743>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047744>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047745>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047746>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047747>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047748>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047749>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047750>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047751>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047752>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047753>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047754>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047755>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047756>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047757>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047758>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047759>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047760>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047761>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047762>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047763>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047764>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047765>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047766>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047767>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047768>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047769>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047770>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047771>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047772>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047773>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047774>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047775>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047776>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047777>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047778>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047779>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047780>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047781>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047782>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047783>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047784>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047785>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047786>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047787>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047788>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047789>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047790>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047791>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047792>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047793>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047794>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047795>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047796>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047797>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047798>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047799>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047800>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047801>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047802>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047803>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047804>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047805>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047806>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047807>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0047808>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078578>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0080051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0080052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0080053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086130>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086131>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086132>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086133>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031759> (<http://purl.obolibrary.org/obo/UPHENO_0031759>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031759> "http://purl.obolibrary.org/obo/UBERON_0001062-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031759> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031760> (<http://purl.obolibrary.org/obo/UPHENO_0031760>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031760> "http://purl.obolibrary.org/obo/UBERON_0000061-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031760> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031761> (<http://purl.obolibrary.org/obo/UPHENO_0031761>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031761> "http://purl.obolibrary.org/obo/PLANA_0000418-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031761> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031762> (<http://purl.obolibrary.org/obo/UPHENO_0031762>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031762> "http://purl.obolibrary.org/obo/UBERON_0000475-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031762> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031763> (<http://purl.obolibrary.org/obo/UPHENO_0031763>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031763> "http://purl.obolibrary.org/obo/UBERON_0000465-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031763> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031764> (<http://purl.obolibrary.org/obo/UPHENO_0031764>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031764> "http://purl.obolibrary.org/obo/UBERON_0010000-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031764> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031765> (<http://purl.obolibrary.org/obo/UPHENO_0031765>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031765> "http://purl.obolibrary.org/obo/UBERON_0011676-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031765> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031766> (<http://purl.obolibrary.org/obo/UPHENO_0031766>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031766> "http://purl.obolibrary.org/obo/UBERON_0000033-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031766> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0031767> (<http://purl.obolibrary.org/obo/UPHENO_0031767>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0031767> "http://purl.obolibrary.org/obo/PLANA_0000421-lesionInAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0031767> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047542> (<http://purl.obolibrary.org/obo/UPHENO_0047542>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047542> "http://purl.obolibrary.org/obo/UBERON_0005893-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047542> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047543> (<http://purl.obolibrary.org/obo/UPHENO_0047543>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047543> "http://purl.obolibrary.org/obo/UBERON_0004121-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047543> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047544> (<http://purl.obolibrary.org/obo/UPHENO_0047544>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047544> "http://purl.obolibrary.org/obo/UBERON_0005156-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047544> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047545> (<http://purl.obolibrary.org/obo/UPHENO_0047545>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047545> "http://purl.obolibrary.org/obo/UBERON_0000061-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047545> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047546> (<http://purl.obolibrary.org/obo/UPHENO_0047546>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047546> "http://purl.obolibrary.org/obo/UBERON_0000062-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047546> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047547> (<http://purl.obolibrary.org/obo/UPHENO_0047547>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047547> "http://purl.obolibrary.org/obo/UBERON_0010313-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047547> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047548> (<http://purl.obolibrary.org/obo/UPHENO_0047548>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047548> "http://purl.obolibrary.org/obo/UBERON_0004120-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047548> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047549> (<http://purl.obolibrary.org/obo/UPHENO_0047549>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047549> "http://purl.obolibrary.org/obo/UBERON_0010314-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047549> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047550> (<http://purl.obolibrary.org/obo/UPHENO_0047550>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047550> "http://purl.obolibrary.org/obo/UBERON_0000981-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047550> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047551> (<http://purl.obolibrary.org/obo/UPHENO_0047551>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047551> "http://purl.obolibrary.org/obo/UBERON_0000465-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047551> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047552> (<http://purl.obolibrary.org/obo/UPHENO_0047552>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047552> "http://purl.obolibrary.org/obo/UBERON_0000047-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047552> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047553> (<http://purl.obolibrary.org/obo/UPHENO_0047553>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047553> "http://purl.obolibrary.org/obo/UBERON_0004765-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047553> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047554> (<http://purl.obolibrary.org/obo/UPHENO_0047554>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047554> "http://purl.obolibrary.org/obo/UBERON_0000020-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047554> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047555> (<http://purl.obolibrary.org/obo/UPHENO_0047555>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047555> "http://purl.obolibrary.org/obo/UBERON_0000064-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047555> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047556> (<http://purl.obolibrary.org/obo/UPHENO_0047556>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047556> "http://purl.obolibrary.org/obo/UBERON_0008202-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047556> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047557> (<http://purl.obolibrary.org/obo/UPHENO_0047557>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047557> "http://purl.obolibrary.org/obo/UBERON_0001474-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047557> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047558> (<http://purl.obolibrary.org/obo/UPHENO_0047558>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047558> "http://purl.obolibrary.org/obo/UBERON_0001804-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047558> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047559> (<http://purl.obolibrary.org/obo/UPHENO_0047559>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047559> "http://purl.obolibrary.org/obo/UBERON_0003608-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047559> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047560> (<http://purl.obolibrary.org/obo/UPHENO_0047560>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047560> "http://purl.obolibrary.org/obo/UBERON_0003606-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047560> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047561> (<http://purl.obolibrary.org/obo/UPHENO_0047561>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047561> "http://purl.obolibrary.org/obo/UBERON_0003826-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047561> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047562> (<http://purl.obolibrary.org/obo/UPHENO_0047562>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047562> "http://purl.obolibrary.org/obo/UBERON_0015052-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047562> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047563> (<http://purl.obolibrary.org/obo/UPHENO_0047563>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047563> "http://purl.obolibrary.org/obo/UBERON_0000019-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047563> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047564> (<http://purl.obolibrary.org/obo/UPHENO_0047564>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047564> "http://purl.obolibrary.org/obo/UBERON_0010363-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047564> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047565> (<http://purl.obolibrary.org/obo/UPHENO_0047565>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047565> "http://purl.obolibrary.org/obo/UBERON_0010000-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047565> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047566> (<http://purl.obolibrary.org/obo/UPHENO_0047566>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047566> "http://purl.obolibrary.org/obo/UBERON_0015019-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047566> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047567> (<http://purl.obolibrary.org/obo/UPHENO_0047567>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047567> "http://purl.obolibrary.org/obo/UBERON_0010740-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047567> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047568> (<http://purl.obolibrary.org/obo/UPHENO_0047568>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047568> "http://purl.obolibrary.org/obo/UBERON_0015212-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047568> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047569> (<http://purl.obolibrary.org/obo/UPHENO_0047569>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047569> "http://purl.obolibrary.org/obo/UBERON_0001062-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047569> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047570> (<http://purl.obolibrary.org/obo/UPHENO_0047570>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047570> "http://purl.obolibrary.org/obo/UBERON_0004375-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047570> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047571> (<http://purl.obolibrary.org/obo/UPHENO_0047571>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047571> "http://purl.obolibrary.org/obo/UBERON_0010742-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047571> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047572> (<http://purl.obolibrary.org/obo/UPHENO_0047572>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047572> "http://purl.obolibrary.org/obo/UBERON_0007844-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047572> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047573> (<http://purl.obolibrary.org/obo/UPHENO_0047573>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047573> "http://purl.obolibrary.org/obo/UBERON_0013515-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047573> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047574> (<http://purl.obolibrary.org/obo/UPHENO_0047574>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047574> "http://purl.obolibrary.org/obo/UBERON_0000970-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047574> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047575> (<http://purl.obolibrary.org/obo/UPHENO_0047575>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047575> "http://purl.obolibrary.org/obo/UBERON_0003107-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047575> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047576> (<http://purl.obolibrary.org/obo/UPHENO_0047576>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047576> "http://purl.obolibrary.org/obo/UBERON_0000476-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047576> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047577> (<http://purl.obolibrary.org/obo/UPHENO_0047577>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047577> "http://purl.obolibrary.org/obo/UBERON_0002513-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047577> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047578> (<http://purl.obolibrary.org/obo/UPHENO_0047578>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047578> "http://purl.obolibrary.org/obo/UBERON_0000995-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047578> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047579> (<http://purl.obolibrary.org/obo/UPHENO_0047579>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047579> "http://purl.obolibrary.org/obo/UBERON_0002495-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047579> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047580> (<http://purl.obolibrary.org/obo/UPHENO_0047580>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047580> "http://purl.obolibrary.org/obo/UBERON_0005764-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047580> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047581> (<http://purl.obolibrary.org/obo/UPHENO_0047581>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047581> "http://purl.obolibrary.org/obo/UBERON_0003464-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047581> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047582> (<http://purl.obolibrary.org/obo/UPHENO_0047582>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047582> "http://purl.obolibrary.org/obo/UBERON_0015022-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047582> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047583> (<http://purl.obolibrary.org/obo/UPHENO_0047583>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047583> "http://purl.obolibrary.org/obo/UBERON_0015061-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047583> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047584> (<http://purl.obolibrary.org/obo/UPHENO_0047584>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047584> "http://purl.obolibrary.org/obo/UBERON_0002228-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047584> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047585> (<http://purl.obolibrary.org/obo/UPHENO_0047585>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047585> "http://purl.obolibrary.org/obo/UBERON_0003933-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047585> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047586> (<http://purl.obolibrary.org/obo/UPHENO_0047586>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047586> "http://purl.obolibrary.org/obo/UBERON_0002428-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047586> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047587> (<http://purl.obolibrary.org/obo/UPHENO_0047587>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047587> "http://purl.obolibrary.org/obo/UBERON_0013522-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047587> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047588> (<http://purl.obolibrary.org/obo/UPHENO_0047588>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047588> "http://purl.obolibrary.org/obo/UBERON_0013765-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047588> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047589> (<http://purl.obolibrary.org/obo/UPHENO_0047589>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047589> "http://purl.obolibrary.org/obo/UBERON_0011004-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047589> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047590> (<http://purl.obolibrary.org/obo/UPHENO_0047590>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047590> "http://purl.obolibrary.org/obo/UBERON_0005055-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047590> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047591> (<http://purl.obolibrary.org/obo/UPHENO_0047591>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047591> "http://purl.obolibrary.org/obo/UBERON_0034944-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047591> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047592> (<http://purl.obolibrary.org/obo/UPHENO_0047592>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047592> "http://purl.obolibrary.org/obo/UBERON_0004446-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047592> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047593> (<http://purl.obolibrary.org/obo/UPHENO_0047593>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047593> "http://purl.obolibrary.org/obo/UBERON_0004389-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047593> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047594> (<http://purl.obolibrary.org/obo/UPHENO_0047594>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047594> "http://purl.obolibrary.org/obo/UBERON_0004387-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047594> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047595> (<http://purl.obolibrary.org/obo/UPHENO_0047595>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047595> "http://purl.obolibrary.org/obo/UBERON_0008962-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047595> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047596> (<http://purl.obolibrary.org/obo/UPHENO_0047596>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047596> "http://purl.obolibrary.org/obo/UBERON_0015053-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047596> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047597> (<http://purl.obolibrary.org/obo/UPHENO_0047597>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047597> "http://purl.obolibrary.org/obo/UBERON_0003607-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047597> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047598> (<http://purl.obolibrary.org/obo/UPHENO_0047598>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047598> "http://purl.obolibrary.org/obo/UBERON_0000976-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047598> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047599> (<http://purl.obolibrary.org/obo/UPHENO_0047599>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047599> "http://purl.obolibrary.org/obo/UBERON_0011973-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047599> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047600> (<http://purl.obolibrary.org/obo/UPHENO_0047600>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047600> "http://purl.obolibrary.org/obo/UBERON_0010741-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047600> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047601> (<http://purl.obolibrary.org/obo/UPHENO_0047601>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047601> "http://purl.obolibrary.org/obo/UBERON_0003461-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047601> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047602> (<http://purl.obolibrary.org/obo/UPHENO_0047602>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047602> "http://purl.obolibrary.org/obo/UBERON_0003460-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047602> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047603> (<http://purl.obolibrary.org/obo/UPHENO_0047603>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047603> "http://purl.obolibrary.org/obo/UBERON_0004395-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047603> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047604> (<http://purl.obolibrary.org/obo/UPHENO_0047604>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047604> "http://purl.obolibrary.org/obo/UBERON_0004250-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047604> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047605> (<http://purl.obolibrary.org/obo/UPHENO_0047605>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047605> "http://purl.obolibrary.org/obo/UBERON_0004390-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047605> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047606> (<http://purl.obolibrary.org/obo/UPHENO_0047606>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047606> "http://purl.obolibrary.org/obo/UBERON_0004391-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047606> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047607> (<http://purl.obolibrary.org/obo/UPHENO_0047607>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047607> "http://purl.obolibrary.org/obo/UBERON_0001424-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047607> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047608> (<http://purl.obolibrary.org/obo/UPHENO_0047608>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047608> "http://purl.obolibrary.org/obo/UBERON_0001423-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047608> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047609> (<http://purl.obolibrary.org/obo/UPHENO_0047609>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047609> "http://purl.obolibrary.org/obo/UBERON_0003466-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047609> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047610> (<http://purl.obolibrary.org/obo/UPHENO_0047610>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047610> "http://purl.obolibrary.org/obo/UBERON_0015021-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047610> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047611> (<http://purl.obolibrary.org/obo/UPHENO_0047611>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047611> "http://purl.obolibrary.org/obo/UBERON_0015001-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047611> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047612> (<http://purl.obolibrary.org/obo/UPHENO_0047612>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047612> "http://purl.obolibrary.org/obo/UBERON_0001437-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047612> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047613> (<http://purl.obolibrary.org/obo/UPHENO_0047613>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047613> "http://purl.obolibrary.org/obo/UBERON_0005913-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047613> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047614> (<http://purl.obolibrary.org/obo/UPHENO_0047614>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047614> "http://purl.obolibrary.org/obo/UBERON_0015003-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047614> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047615> (<http://purl.obolibrary.org/obo/UPHENO_0047615>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047615> "http://purl.obolibrary.org/obo/ZFA_0001321-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047615> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047616> (<http://purl.obolibrary.org/obo/UPHENO_0047616>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047616> "http://purl.obolibrary.org/obo/ZFA_0005249-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047616> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047617> (<http://purl.obolibrary.org/obo/UPHENO_0047617>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047617> "http://purl.obolibrary.org/obo/UBERON_0002203-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047617> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047618> (<http://purl.obolibrary.org/obo/UPHENO_0047618>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047618> "http://purl.obolibrary.org/obo/UBERON_0000025-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047618> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047619> (<http://purl.obolibrary.org/obo/UPHENO_0047619>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047619> "http://purl.obolibrary.org/obo/UBERON_0000026-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047619> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047620> (<http://purl.obolibrary.org/obo/UPHENO_0047620>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047620> "http://purl.obolibrary.org/obo/ZFA_0000477-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047620> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047621> (<http://purl.obolibrary.org/obo/UPHENO_0047621>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047621> "http://purl.obolibrary.org/obo/UBERON_0002201-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047621> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047622> (<http://purl.obolibrary.org/obo/UPHENO_0047622>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047622> "http://purl.obolibrary.org/obo/UBERON_0002200-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047622> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047623> (<http://purl.obolibrary.org/obo/UPHENO_0047623>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047623> "http://purl.obolibrary.org/obo/UBERON_0006914-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047623> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047624> (<http://purl.obolibrary.org/obo/UPHENO_0047624>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047624> "http://purl.obolibrary.org/obo/UBERON_0008897-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047624> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047625> (<http://purl.obolibrary.org/obo/UPHENO_0047625>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047625> "http://purl.obolibrary.org/obo/UBERON_0000490-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047625> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047626> (<http://purl.obolibrary.org/obo/UPHENO_0047626>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047626> "http://purl.obolibrary.org/obo/ZFA_0001550-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047626> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047627> (<http://purl.obolibrary.org/obo/UPHENO_0047627>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047627> "http://purl.obolibrary.org/obo/UBERON_0003082-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047627> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047628> (<http://purl.obolibrary.org/obo/UPHENO_0047628>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047628> "http://purl.obolibrary.org/obo/UBERON_0003524-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047628> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047629> (<http://purl.obolibrary.org/obo/UPHENO_0047629>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047629> "http://purl.obolibrary.org/obo/ZFA_0000108-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047629> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047630> (<http://purl.obolibrary.org/obo/UPHENO_0047630>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047630> "http://purl.obolibrary.org/obo/UBERON_0005945-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047630> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047631> (<http://purl.obolibrary.org/obo/UPHENO_0047631>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047631> "http://purl.obolibrary.org/obo/ZFA_0005597-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047631> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047632> (<http://purl.obolibrary.org/obo/UPHENO_0047632>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047632> "http://purl.obolibrary.org/obo/UBERON_0004852-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047632> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047633> (<http://purl.obolibrary.org/obo/UPHENO_0047633>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047633> "http://purl.obolibrary.org/obo/UBERON_0005389-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047633> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047634> (<http://purl.obolibrary.org/obo/UPHENO_0047634>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047634> "http://purl.obolibrary.org/obo/ZFA_0001554-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047634> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047635> (<http://purl.obolibrary.org/obo/UPHENO_0047635>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047635> "http://purl.obolibrary.org/obo/UBERON_0005388-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047635> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047636> (<http://purl.obolibrary.org/obo/UPHENO_0047636>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047636> "http://purl.obolibrary.org/obo/UBERON_0003519-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047636> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047637> (<http://purl.obolibrary.org/obo/UPHENO_0047637>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047637> "http://purl.obolibrary.org/obo/UBERON_0014892-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047637> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047638> (<http://purl.obolibrary.org/obo/UPHENO_0047638>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047638> "http://purl.obolibrary.org/obo/UBERON_2001089-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047638> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047639> (<http://purl.obolibrary.org/obo/UPHENO_0047639>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047639> "http://purl.obolibrary.org/obo/UBERON_0019304-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047639> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047640> (<http://purl.obolibrary.org/obo/UPHENO_0047640>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047640> "http://purl.obolibrary.org/obo/UBERON_0000480-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047640> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047641> (<http://purl.obolibrary.org/obo/UPHENO_0047641>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047641> "http://purl.obolibrary.org/obo/UBERON_0000481-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047641> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047642> (<http://purl.obolibrary.org/obo/UPHENO_0047642>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047642> "http://purl.obolibrary.org/obo/UBERON_0005492-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047642> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047643> (<http://purl.obolibrary.org/obo/UPHENO_0047643>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047643> "http://purl.obolibrary.org/obo/UBERON_0003513-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047643> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047644> (<http://purl.obolibrary.org/obo/UPHENO_0047644>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047644> "http://purl.obolibrary.org/obo/UBERON_0000487-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047644> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047645> (<http://purl.obolibrary.org/obo/UPHENO_0047645>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047645> "http://purl.obolibrary.org/obo/UBERON_0000489-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047645> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047646> (<http://purl.obolibrary.org/obo/UPHENO_0047646>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047646> "http://purl.obolibrary.org/obo/UBERON_0000482-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047646> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047647> (<http://purl.obolibrary.org/obo/UPHENO_0047647>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047647> "http://purl.obolibrary.org/obo/UBERON_0000483-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047647> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047648> (<http://purl.obolibrary.org/obo/UPHENO_0047648>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047648> "http://purl.obolibrary.org/obo/UBERON_0003509-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047648> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047649> (<http://purl.obolibrary.org/obo/UPHENO_0047649>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047649> "http://purl.obolibrary.org/obo/UBERON_0000479-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047649> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047650> (<http://purl.obolibrary.org/obo/UPHENO_0047650>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047650> "http://purl.obolibrary.org/obo/UBERON_0005805-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047650> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047651> (<http://purl.obolibrary.org/obo/UPHENO_0047651>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047651> "http://purl.obolibrary.org/obo/UBERON_0007301-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047651> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047652> (<http://purl.obolibrary.org/obo/UPHENO_0047652>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047652> "http://purl.obolibrary.org/obo/UBERON_0008998-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047652> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047653> (<http://purl.obolibrary.org/obo/UPHENO_0047653>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047653> "http://purl.obolibrary.org/obo/UBERON_0003060-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047653> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047654> (<http://purl.obolibrary.org/obo/UPHENO_0047654>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047654> "http://purl.obolibrary.org/obo/ZFA_0001094-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047654> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047655> (<http://purl.obolibrary.org/obo/UPHENO_0047655>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047655> "http://purl.obolibrary.org/obo/UBERON_0000475-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047655> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047656> (<http://purl.obolibrary.org/obo/UPHENO_0047656>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047656> "http://purl.obolibrary.org/obo/UBERON_0000477-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047656> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047657> (<http://purl.obolibrary.org/obo/UPHENO_0047657>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047657> "http://purl.obolibrary.org/obo/UBERON_0007307-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047657> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047658> (<http://purl.obolibrary.org/obo/UPHENO_0047658>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047658> "http://purl.obolibrary.org/obo/ZFA_0009256-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047658> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047659> (<http://purl.obolibrary.org/obo/UPHENO_0047659>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047659> "http://purl.obolibrary.org/obo/UBERON_4300037-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047659> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047660> (<http://purl.obolibrary.org/obo/UPHENO_0047660>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047660> "http://purl.obolibrary.org/obo/UBERON_0000468-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047660> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047661> (<http://purl.obolibrary.org/obo/UPHENO_0047661>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047661> "http://purl.obolibrary.org/obo/UBERON_0002407-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047661> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047662> (<http://purl.obolibrary.org/obo/UPHENO_0047662>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047662> "http://purl.obolibrary.org/obo/UBERON_0011362-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047662> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047663> (<http://purl.obolibrary.org/obo/UPHENO_0047663>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047663> "http://purl.obolibrary.org/obo/UBERON_4400005-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047663> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047664> (<http://purl.obolibrary.org/obo/UPHENO_0047664>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047664> "http://purl.obolibrary.org/obo/ZFA_0001089-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047664> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047665> (<http://purl.obolibrary.org/obo/UPHENO_0047665>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047665> "http://purl.obolibrary.org/obo/UBERON_0013768-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047665> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047666> (<http://purl.obolibrary.org/obo/UPHENO_0047666>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047666> "http://purl.obolibrary.org/obo/UBERON_3000961-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047666> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047667> (<http://purl.obolibrary.org/obo/UPHENO_0047667>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047667> "http://purl.obolibrary.org/obo/UBERON_0001792-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047667> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047668> (<http://purl.obolibrary.org/obo/UPHENO_0047668>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047668> "http://purl.obolibrary.org/obo/UBERON_0001794-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047668> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047669> (<http://purl.obolibrary.org/obo/UPHENO_0047669>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047669> "http://purl.obolibrary.org/obo/UBERON_0000463-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047669> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047670> (<http://purl.obolibrary.org/obo/UPHENO_0047670>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047670> "http://purl.obolibrary.org/obo/UBERON_0004819-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047670> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047671> (<http://purl.obolibrary.org/obo/UPHENO_0047671>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047671> "http://purl.obolibrary.org/obo/UBERON_0002514-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047671> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047672> (<http://purl.obolibrary.org/obo/UPHENO_0047672>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047672> "http://purl.obolibrary.org/obo/ZFA_0001639-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047672> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047673> (<http://purl.obolibrary.org/obo/UPHENO_0047673>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047673> "http://purl.obolibrary.org/obo/UBERON_2000084-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047673> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047674> (<http://purl.obolibrary.org/obo/UPHENO_0047674>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047674> "http://purl.obolibrary.org/obo/ZFA_0001079-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047674> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047675> (<http://purl.obolibrary.org/obo/UPHENO_0047675>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047675> "http://purl.obolibrary.org/obo/UBERON_0006553-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047675> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047676> (<http://purl.obolibrary.org/obo/UPHENO_0047676>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047676> "http://purl.obolibrary.org/obo/UBERON_0011216-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047676> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047677> (<http://purl.obolibrary.org/obo/UPHENO_0047677>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047677> "http://purl.obolibrary.org/obo/ZFA_0009116-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047677> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047678> (<http://purl.obolibrary.org/obo/UPHENO_0047678>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047678> "http://purl.obolibrary.org/obo/ZFA_0009115-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047678> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047679> (<http://purl.obolibrary.org/obo/UPHENO_0047679>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047679> "http://purl.obolibrary.org/obo/ZFA_0009114-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047679> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047680> (<http://purl.obolibrary.org/obo/UPHENO_0047680>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047680> "http://purl.obolibrary.org/obo/UBERON_0001781-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047680> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047681> (<http://purl.obolibrary.org/obo/UPHENO_0047681>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047681> "http://purl.obolibrary.org/obo/UBERON_0002199-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047681> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047682> (<http://purl.obolibrary.org/obo/UPHENO_0047682>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047682> "http://purl.obolibrary.org/obo/UBERON_0004376-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047682> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047683> (<http://purl.obolibrary.org/obo/UPHENO_0047683>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047683> "http://purl.obolibrary.org/obo/UBERON_0006555-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047683> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047684> (<http://purl.obolibrary.org/obo/UPHENO_0047684>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047684> "http://purl.obolibrary.org/obo/UBERON_0005103-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047684> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047685> (<http://purl.obolibrary.org/obo/UPHENO_0047685>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047685> "http://purl.obolibrary.org/obo/ZFA_0005313-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047685> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047686> (<http://purl.obolibrary.org/obo/UPHENO_0047686>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047686> "http://purl.obolibrary.org/obo/UBERON_0001782-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047686> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047687> (<http://purl.obolibrary.org/obo/UPHENO_0047687>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047687> "http://purl.obolibrary.org/obo/UBERON_0004923-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047687> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047688> (<http://purl.obolibrary.org/obo/UPHENO_0047688>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047688> "http://purl.obolibrary.org/obo/ZFA_0000538-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047688> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047689> (<http://purl.obolibrary.org/obo/UPHENO_0047689>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047689> "http://purl.obolibrary.org/obo/UBERON_0010371-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047689> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047690> (<http://purl.obolibrary.org/obo/UPHENO_0047690>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047690> "http://purl.obolibrary.org/obo/UBERON_2001286-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047690> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047691> (<http://purl.obolibrary.org/obo/UPHENO_0047691>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047691> "http://purl.obolibrary.org/obo/UBERON_0036303-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047691> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047692> (<http://purl.obolibrary.org/obo/UPHENO_0047692>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047692> "http://purl.obolibrary.org/obo/UBERON_0036302-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047692> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047693> (<http://purl.obolibrary.org/obo/UPHENO_0047693>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047693> "http://purl.obolibrary.org/obo/ZFA_0000099-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047693> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047694> (<http://purl.obolibrary.org/obo/UPHENO_0047694>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047694> "http://purl.obolibrary.org/obo/ZFA_0005304-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047694> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047695> (<http://purl.obolibrary.org/obo/UPHENO_0047695>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047695> "http://purl.obolibrary.org/obo/UBERON_0002065-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047695> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047696> (<http://purl.obolibrary.org/obo/UPHENO_0047696>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047696> "http://purl.obolibrary.org/obo/UBERON_0015808-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047696> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047697> (<http://purl.obolibrary.org/obo/UPHENO_0047697>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047697> "http://purl.obolibrary.org/obo/ZFA_0001061-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047697> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047698> (<http://purl.obolibrary.org/obo/UPHENO_0047698>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047698> "http://purl.obolibrary.org/obo/UBERON_0002067-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047698> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047699> (<http://purl.obolibrary.org/obo/UPHENO_0047699>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047699> "http://purl.obolibrary.org/obo/UBERON_0000440-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047699> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047700> (<http://purl.obolibrary.org/obo/UPHENO_0047700>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047700> "http://purl.obolibrary.org/obo/UBERON_0002616-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047700> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047701> (<http://purl.obolibrary.org/obo/UPHENO_0047701>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047701> "http://purl.obolibrary.org/obo/ZFA_0001617-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047701> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047702> (<http://purl.obolibrary.org/obo/UPHENO_0047702>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047702> "http://purl.obolibrary.org/obo/UBERON_0013754-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047702> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047703> (<http://purl.obolibrary.org/obo/UPHENO_0047703>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047703> "http://purl.obolibrary.org/obo/UBERON_2002284-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047703> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047704> (<http://purl.obolibrary.org/obo/UPHENO_0047704>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047704> "http://purl.obolibrary.org/obo/UBERON_0004111-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047704> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047705> (<http://purl.obolibrary.org/obo/UPHENO_0047705>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047705> "http://purl.obolibrary.org/obo/ZFA_0001056-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047705> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047706> (<http://purl.obolibrary.org/obo/UPHENO_0047706>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047706> "http://purl.obolibrary.org/obo/ZFA_0001176-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047706> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047707> (<http://purl.obolibrary.org/obo/UPHENO_0047707>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047707> "http://purl.obolibrary.org/obo/ZFA_0000086-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047707> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047708> (<http://purl.obolibrary.org/obo/UPHENO_0047708>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047708> "http://purl.obolibrary.org/obo/ZFA_0000084-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047708> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047709> (<http://purl.obolibrary.org/obo/UPHENO_0047709>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047709> "http://purl.obolibrary.org/obo/UBERON_0002050-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047709> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047710> (<http://purl.obolibrary.org/obo/UPHENO_0047710>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047710> "http://purl.obolibrary.org/obo/ZFA_0000082-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047710> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047711> (<http://purl.obolibrary.org/obo/UPHENO_0047711>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047711> "http://purl.obolibrary.org/obo/UBERON_0004119-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047711> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047712> (<http://purl.obolibrary.org/obo/UPHENO_0047712>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047712> "http://purl.obolibrary.org/obo/UBERON_0007625-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047712> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047713> (<http://purl.obolibrary.org/obo/UPHENO_0047713>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047713> "http://purl.obolibrary.org/obo/UBERON_0001638-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047713> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047714> (<http://purl.obolibrary.org/obo/UPHENO_0047714>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047714> "http://purl.obolibrary.org/obo/UBERON_4500008-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047714> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047715> (<http://purl.obolibrary.org/obo/UPHENO_0047715>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047715> "http://purl.obolibrary.org/obo/UBERON_0001637-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047715> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047716> (<http://purl.obolibrary.org/obo/UPHENO_0047716>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047716> "http://purl.obolibrary.org/obo/UBERON_0007619-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047716> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047717> (<http://purl.obolibrary.org/obo/UPHENO_0047717>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047717> "http://purl.obolibrary.org/obo/UBERON_2005304-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047717> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047718> (<http://purl.obolibrary.org/obo/UPHENO_0047718>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047718> "http://purl.obolibrary.org/obo/ZFA_0001286-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047718> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047719> (<http://purl.obolibrary.org/obo/UPHENO_0047719>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047719> "http://purl.obolibrary.org/obo/ZFA_0001285-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047719> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047720> (<http://purl.obolibrary.org/obo/UPHENO_0047720>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047720> "http://purl.obolibrary.org/obo/UBERON_0002280-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047720> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047721> (<http://purl.obolibrary.org/obo/UPHENO_0047721>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047721> "http://purl.obolibrary.org/obo/UBERON_0002049-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047721> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047722> (<http://purl.obolibrary.org/obo/UPHENO_0047722>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047722> "http://purl.obolibrary.org/obo/UBERON_0001630-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047722> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047723> (<http://purl.obolibrary.org/obo/UPHENO_0047723>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047723> "http://purl.obolibrary.org/obo/UBERON_0003932-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047723> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047724> (<http://purl.obolibrary.org/obo/UPHENO_0047724>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047724> "http://purl.obolibrary.org/obo/UBERON_0003496-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047724> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047725> (<http://purl.obolibrary.org/obo/UPHENO_0047725>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047725> "http://purl.obolibrary.org/obo/UBERON_0004344-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047725> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047726> (<http://purl.obolibrary.org/obo/UPHENO_0047726>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047726> "http://purl.obolibrary.org/obo/UBERON_0017650-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047726> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047727> (<http://purl.obolibrary.org/obo/UPHENO_0047727>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047727> "http://purl.obolibrary.org/obo/UBERON_0001986-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047727> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047728> (<http://purl.obolibrary.org/obo/UPHENO_0047728>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047728> "http://purl.obolibrary.org/obo/UBERON_2001257-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047728> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047729> (<http://purl.obolibrary.org/obo/UPHENO_0047729>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047729> "http://purl.obolibrary.org/obo/UBERON_0007842-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047729> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047730> (<http://purl.obolibrary.org/obo/UPHENO_0047730>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047730> "http://purl.obolibrary.org/obo/UBERON_0004573-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047730> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047731> (<http://purl.obolibrary.org/obo/UPHENO_0047731>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047731> "http://purl.obolibrary.org/obo/ZFA_0005755-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047731> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047732> (<http://purl.obolibrary.org/obo/UPHENO_0047732>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047732> "http://purl.obolibrary.org/obo/UBERON_0010204-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047732> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047733> (<http://purl.obolibrary.org/obo/UPHENO_0047733>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047733> "http://purl.obolibrary.org/obo/UBERON_0003920-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047733> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047734> (<http://purl.obolibrary.org/obo/UPHENO_0047734>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047734> "http://purl.obolibrary.org/obo/UBERON_0006876-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047734> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047735> (<http://purl.obolibrary.org/obo/UPHENO_0047735>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047735> "http://purl.obolibrary.org/obo/UBERON_0005423-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047735> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047736> (<http://purl.obolibrary.org/obo/UPHENO_0047736>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047736> "http://purl.obolibrary.org/obo/UBERON_0001981-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047736> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047737> (<http://purl.obolibrary.org/obo/UPHENO_0047737>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047737> "http://purl.obolibrary.org/obo/ZFA_0005754-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047737> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047738> (<http://purl.obolibrary.org/obo/UPHENO_0047738>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047738> "http://purl.obolibrary.org/obo/UBERON_4000174-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047738> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047739> (<http://purl.obolibrary.org/obo/UPHENO_0047739>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047739> "http://purl.obolibrary.org/obo/UBERON_0012075-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047739> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047740> (<http://purl.obolibrary.org/obo/UPHENO_0047740>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047740> "http://purl.obolibrary.org/obo/UBERON_0003914-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047740> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047741> (<http://purl.obolibrary.org/obo/UPHENO_0047741>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047741> "http://purl.obolibrary.org/obo/UBERON_4000172-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047741> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047742> (<http://purl.obolibrary.org/obo/UPHENO_0047742>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047742> "http://purl.obolibrary.org/obo/UBERON_2005049-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047742> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047743> (<http://purl.obolibrary.org/obo/UPHENO_0047743>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047743> "http://purl.obolibrary.org/obo/UBERON_2000610-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047743> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047744> (<http://purl.obolibrary.org/obo/UPHENO_0047744>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047744> "http://purl.obolibrary.org/obo/UBERON_0006068-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047744> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047745> (<http://purl.obolibrary.org/obo/UPHENO_0047745>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047745> "http://purl.obolibrary.org/obo/UBERON_0003473-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047745> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047746> (<http://purl.obolibrary.org/obo/UPHENO_0047746>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047746> "http://purl.obolibrary.org/obo/UBERON_0000083-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047746> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047747> (<http://purl.obolibrary.org/obo/UPHENO_0047747>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047747> "http://purl.obolibrary.org/obo/ZFA_0000054-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047747> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047748> (<http://purl.obolibrary.org/obo/UPHENO_0047748>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047748> "http://purl.obolibrary.org/obo/ZFA_0001029-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047748> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047749> (<http://purl.obolibrary.org/obo/UPHENO_0047749>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047749> "http://purl.obolibrary.org/obo/UBERON_0005777-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047749> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047750> (<http://purl.obolibrary.org/obo/UPHENO_0047750>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047750> "http://purl.obolibrary.org/obo/ZFA_0000610-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047750> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047751> (<http://purl.obolibrary.org/obo/UPHENO_0047751>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047751> "http://purl.obolibrary.org/obo/ZFA_0001267-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047751> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047752> (<http://purl.obolibrary.org/obo/UPHENO_0047752>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047752> "http://purl.obolibrary.org/obo/UBERON_4000162-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047752> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047753> (<http://purl.obolibrary.org/obo/UPHENO_0047753>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047753> "http://purl.obolibrary.org/obo/UBERON_0005090-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047753> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047754> (<http://purl.obolibrary.org/obo/UPHENO_0047754>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047754> "http://purl.obolibrary.org/obo/UBERON_0000073-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047754> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047755> (<http://purl.obolibrary.org/obo/UPHENO_0047755>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047755> "http://purl.obolibrary.org/obo/UBERON_0014907-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047755> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047756> (<http://purl.obolibrary.org/obo/UPHENO_0047756>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047756> "http://purl.obolibrary.org/obo/UBERON_0008911-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047756> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047757> (<http://purl.obolibrary.org/obo/UPHENO_0047757>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047757> "http://purl.obolibrary.org/obo/UBERON_0007383-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047757> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047758> (<http://purl.obolibrary.org/obo/UPHENO_0047758>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047758> "http://purl.obolibrary.org/obo/UBERON_0014903-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047758> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047759> (<http://purl.obolibrary.org/obo/UPHENO_0047759>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047759> "http://purl.obolibrary.org/obo/UBERON_0001048-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047759> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047760> (<http://purl.obolibrary.org/obo/UPHENO_0047760>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047760> "http://purl.obolibrary.org/obo/UBERON_0005769-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047760> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047761> (<http://purl.obolibrary.org/obo/UPHENO_0047761>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047761> "http://purl.obolibrary.org/obo/UBERON_0003102-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047761> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047762> (<http://purl.obolibrary.org/obo/UPHENO_0047762>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047762> "http://purl.obolibrary.org/obo/UBERON_0009201-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047762> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047763> (<http://purl.obolibrary.org/obo/UPHENO_0047763>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047763> "http://purl.obolibrary.org/obo/UBERON_0003103-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047763> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047764> (<http://purl.obolibrary.org/obo/UPHENO_0047764>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047764> "http://purl.obolibrary.org/obo/ZFA_0001257-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047764> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047765> (<http://purl.obolibrary.org/obo/UPHENO_0047765>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047765> "http://purl.obolibrary.org/obo/UBERON_0003463-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047765> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047766> (<http://purl.obolibrary.org/obo/UPHENO_0047766>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047766> "http://purl.obolibrary.org/obo/UBERON_0008907-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047766> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047767> (<http://purl.obolibrary.org/obo/UPHENO_0047767>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047767> "http://purl.obolibrary.org/obo/ZFA_0009091-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047767> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047768> (<http://purl.obolibrary.org/obo/UPHENO_0047768>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047768> "http://purl.obolibrary.org/obo/UBERON_0000063-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047768> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047769> (<http://purl.obolibrary.org/obo/UPHENO_0047769>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047769> "http://purl.obolibrary.org/obo/ZFA_0000152-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047769> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047770> (<http://purl.obolibrary.org/obo/UPHENO_0047770>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047770> "http://purl.obolibrary.org/obo/ZFA_0005605-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047770> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047771> (<http://purl.obolibrary.org/obo/UPHENO_0047771>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047771> "http://purl.obolibrary.org/obo/ZFA_0000150-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047771> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047772> (<http://purl.obolibrary.org/obo/UPHENO_0047772>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047772> "http://purl.obolibrary.org/obo/ZFA_0005046-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047772> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047773> (<http://purl.obolibrary.org/obo/UPHENO_0047773>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047773> "http://purl.obolibrary.org/obo/ZFA_0000035-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047773> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047774> (<http://purl.obolibrary.org/obo/UPHENO_0047774>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047774> "http://purl.obolibrary.org/obo/ZFA_0005049-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047774> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047775> (<http://purl.obolibrary.org/obo/UPHENO_0047775>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047775> "http://purl.obolibrary.org/obo/ZFA_0000144-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047775> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047776> (<http://purl.obolibrary.org/obo/UPHENO_0047776>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047776> "http://purl.obolibrary.org/obo/UBERON_0010522-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047776> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047777> (<http://purl.obolibrary.org/obo/UPHENO_0047777>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047777> "http://purl.obolibrary.org/obo/UBERON_0004537-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047777> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047778> (<http://purl.obolibrary.org/obo/UPHENO_0047778>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047778> "http://purl.obolibrary.org/obo/ZFA_0001119-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047778> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047779> (<http://purl.obolibrary.org/obo/UPHENO_0047779>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047779> "http://purl.obolibrary.org/obo/UBERON_0000058-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047779> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047780> (<http://purl.obolibrary.org/obo/UPHENO_0047780>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047780> "http://purl.obolibrary.org/obo/ZFA_0005277-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047780> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047781> (<http://purl.obolibrary.org/obo/UPHENO_0047781>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047781> "http://purl.obolibrary.org/obo/ZFA_0005037-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047781> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047782> (<http://purl.obolibrary.org/obo/UPHENO_0047782>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047782> "http://purl.obolibrary.org/obo/UBERON_0000055-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047782> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047783> (<http://purl.obolibrary.org/obo/UPHENO_0047783>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047783> "http://purl.obolibrary.org/obo/ZFA_0001477-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047783> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047784> (<http://purl.obolibrary.org/obo/UPHENO_0047784>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047784> "http://purl.obolibrary.org/obo/ZFA_0000024-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047784> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047785> (<http://purl.obolibrary.org/obo/UPHENO_0047785>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047785> "http://purl.obolibrary.org/obo/UBERON_0000965-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047785> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047786> (<http://purl.obolibrary.org/obo/UPHENO_0047786>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047786> "http://purl.obolibrary.org/obo/UBERON_0000966-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047786> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047787> (<http://purl.obolibrary.org/obo/UPHENO_0047787>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047787> "http://purl.obolibrary.org/obo/UBERON_0012275-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047787> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047788> (<http://purl.obolibrary.org/obo/UPHENO_0047788>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047788> "http://purl.obolibrary.org/obo/ZFA_0001463-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047788> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047789> (<http://purl.obolibrary.org/obo/UPHENO_0047789>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047789> "http://purl.obolibrary.org/obo/UBERON_0005177-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047789> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047790> (<http://purl.obolibrary.org/obo/UPHENO_0047790>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047790> "http://purl.obolibrary.org/obo/ZFA_0005145-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047790> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047791> (<http://purl.obolibrary.org/obo/UPHENO_0047791>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047791> "http://purl.obolibrary.org/obo/ZFA_0005024-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047791> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047792> (<http://purl.obolibrary.org/obo/UPHENO_0047792>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047792> "http://purl.obolibrary.org/obo/UBERON_0000042-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047792> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047793> (<http://purl.obolibrary.org/obo/UPHENO_0047793>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047793> "http://purl.obolibrary.org/obo/ZFA_0005025-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047793> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047794> (<http://purl.obolibrary.org/obo/UPHENO_0047794>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047794> "http://purl.obolibrary.org/obo/ZFA_0000014-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047794> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047795> (<http://purl.obolibrary.org/obo/UPHENO_0047795>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047795> "http://purl.obolibrary.org/obo/ZFA_0000135-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047795> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047796> (<http://purl.obolibrary.org/obo/UPHENO_0047796>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047796> "http://purl.obolibrary.org/obo/UBERON_0022303-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047796> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047797> (<http://purl.obolibrary.org/obo/UPHENO_0047797>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047797> "http://purl.obolibrary.org/obo/UBERON_0000957-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047797> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047798> (<http://purl.obolibrary.org/obo/UPHENO_0047798>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047798> "http://purl.obolibrary.org/obo/UBERON_0005291-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047798> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047799> (<http://purl.obolibrary.org/obo/UPHENO_0047799>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047799> "http://purl.obolibrary.org/obo/UBERON_0005162-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047799> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047800> (<http://purl.obolibrary.org/obo/UPHENO_0047800>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047800> "http://purl.obolibrary.org/obo/UBERON_0004756-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047800> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047801> (<http://purl.obolibrary.org/obo/UPHENO_0047801>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047801> "http://purl.obolibrary.org/obo/UBERON_0002457-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047801> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047802> (<http://purl.obolibrary.org/obo/UPHENO_0047802>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047802> "http://purl.obolibrary.org/obo/ZFA_0000368-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047802> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047803> (<http://purl.obolibrary.org/obo/UPHENO_0047803>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047803> "http://purl.obolibrary.org/obo/UBERON_0004750-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047803> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047804> (<http://purl.obolibrary.org/obo/UPHENO_0047804>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047804> "http://purl.obolibrary.org/obo/ZFA_0009052-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047804> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047805> (<http://purl.obolibrary.org/obo/UPHENO_0047805>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047805> "http://purl.obolibrary.org/obo/UBERON_0000947-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047805> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047806> (<http://purl.obolibrary.org/obo/UPHENO_0047806>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047806> "http://purl.obolibrary.org/obo/UBERON_0002328-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047806> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047807> (<http://purl.obolibrary.org/obo/UPHENO_0047807>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047807> "http://purl.obolibrary.org/obo/UBERON_2005025-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047807> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0047808> (<http://purl.obolibrary.org/obo/UPHENO_0047808>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0047808> "http://purl.obolibrary.org/obo/UBERON_2001463-abnormalFractureOfAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0047808> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0078578> (<http://purl.obolibrary.org/obo/UPHENO_0078578>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0078578> "http://purl.obolibrary.org/obo/UBERON_0001062-apoptoticAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0078578> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0080051> (<http://purl.obolibrary.org/obo/UPHENO_0080051>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0080051> "http://purl.obolibrary.org/obo/GO_0005623-http://purl.obolibrary.org/obo/BFO_0000004-apoptoticAnatomicalEntityInLocation.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0080051> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0080052> (<http://purl.obolibrary.org/obo/UPHENO_0080052>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0080052> "http://purl.obolibrary.org/obo/GO_0005634-http://purl.obolibrary.org/obo/BFO_0000004-apoptoticAnatomicalEntityInLocation.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0080052> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0080053> (<http://purl.obolibrary.org/obo/UPHENO_0080053>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0080053> "http://purl.obolibrary.org/obo/UBERON_0001062-http://purl.obolibrary.org/obo/BFO_0000004-apoptoticAnatomicalEntityInLocation.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0080053> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0086128> (<http://purl.obolibrary.org/obo/UPHENO_0086128>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0086128> "http://purl.obolibrary.org/obo/UBERON_0001062-non-functionalAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0086128> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0086129> (<http://purl.obolibrary.org/obo/UPHENO_0086129>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0086129> "http://purl.obolibrary.org/obo/UBERON_0001711-non-functionalAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0086129> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0086130> (<http://purl.obolibrary.org/obo/UPHENO_0086130>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0086130> "http://purl.obolibrary.org/obo/UBERON_0002107-non-functionalAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0086130> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0086131> (<http://purl.obolibrary.org/obo/UPHENO_0086131>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0086131> "http://purl.obolibrary.org/obo/UBERON_0001004-non-functionalAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0086131> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0086132> (<http://purl.obolibrary.org/obo/UPHENO_0086132>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0086132> "http://purl.obolibrary.org/obo/UBERON_0002113-non-functionalAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0086132> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0086133> (<http://purl.obolibrary.org/obo/UPHENO_0086133>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0086133> "http://purl.obolibrary.org/obo/UBERON_0004681-non-functionalAnatomicalEntity.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0086133> "true"^^xsd:boolean)
+
+
+)
