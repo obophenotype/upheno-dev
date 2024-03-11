@@ -471,13 +471,13 @@ def match_patterns(upheno_config, pattern_files, matches_dir, pattern_dir, overw
         else:
             print("Matches for ({}) already made, bypassing.".format(outdir))
     
-    postprocess_modified_patterns = [
+    modified_patterns_to_process = [
         os.path.join(pattern_dir, f)
         for f in os.listdir(pattern_dir)
         if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith("-modification.yaml")
         ]
 
-    postprocess_modified_patterns(upheno_config, postprocess_modified_patterns, matches_dir)
+    postprocess_modified_patterns(upheno_config, modified_patterns_to_process, matches_dir)
 
 
 def add_taxon_restrictions(
