@@ -8,6 +8,7 @@ Created on Mon Oct 8 14:24:37 2018
 
 import glob
 import os
+import re
 import sys
 import urllib.request
 from shutil import copyfile
