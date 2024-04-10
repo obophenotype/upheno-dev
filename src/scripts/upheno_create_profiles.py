@@ -6,6 +6,7 @@ Created on Mon Oct 8 14:24:37 2018
 @author: Nicolas Matentzoglu
 """
 
+import glob
 import os
 import sys
 import urllib.request
