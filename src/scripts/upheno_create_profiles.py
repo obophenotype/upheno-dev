@@ -68,6 +68,7 @@ upheno_release_dir = os.path.join(ws, "curation/upheno-release/")
 ontology_for_matching_dir = os.path.join(ws, "curation/ontologies-for-matching/")
 upheno_patterns_data_manual_dir = os.path.join(ws, "patterns/data/default/")
 upheno_patterns_dir = os.path.join(ws, "curation/changed-patterns/")
+upheno_patterns_main_dir = os.path.join(ws, "patterns/dosdp-patterns/")
 upheno_ontology_dir = os.path.join(ws, "ontology/")
 
 
@@ -449,7 +450,7 @@ def get_taxon_restriction_table(ids):
 
 
 def create_upheno_core_manual_phenotypes(manual_tsv_files, allimports_dosdp):
-    global upheno_patterns_data_manual_dir, upheno_patterns_dir, TIMEOUT, robot_opts, upheno_prepare_dir
+    global upheno_patterns_data_manual_dir, upheno_patterns_main_dir, TIMEOUT, robot_opts, upheno_prepare_dir
     ontologies = []
     for pattern_tsv in os.listdir(upheno_patterns_data_manual_dir):
         if pattern_tsv.endswith(".tsv"):
@@ -458,7 +459,7 @@ def create_upheno_core_manual_phenotypes(manual_tsv_files, allimports_dosdp):
             manual_tsv_files.append(pattern_tsv_file)
             pattern_file_name = pattern_tsv.replace(".tsv", ".yaml")
             pattern_ontology_name = pattern_tsv.replace(".tsv", ".owl")
-            upheno_pattern_file = os.path.join(upheno_patterns_dir, pattern_file_name)
+            upheno_pattern_file = os.path.join(upheno_patterns_main_dir, pattern_file_name)
             ontology_file = os.path.join(upheno_prepare_dir, pattern_ontology_name)
             if overwrite_dosdp_upheno or not os.path.exists(ontology_file):
                 dosdp_generate(
