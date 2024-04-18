@@ -22,7 +22,7 @@ equivalentTo:
   - anatomical_entity
   - location
 name:
-  text: changed %s topology in %s
+  text: '%s topology in %s phenotype'
   vars:
   - anatomical_entity
   - location

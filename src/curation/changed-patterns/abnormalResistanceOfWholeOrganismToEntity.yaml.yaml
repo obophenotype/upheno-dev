@@ -23,7 +23,7 @@ equivalentTo:
   vars:
   - entity
 name:
-  text: changed resistance of organism to %s
+  text: resistance of organism to %s phenotype
   vars:
   - entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml

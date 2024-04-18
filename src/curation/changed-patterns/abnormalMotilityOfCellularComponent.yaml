@@ -17,7 +17,7 @@ equivalentTo:
   vars:
   - cellular_component
 name:
-  text: changed %s motility
+  text: '%s motility phenotype'
   vars:
   - cellular_component
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMotilityOfCellularComponent.yaml

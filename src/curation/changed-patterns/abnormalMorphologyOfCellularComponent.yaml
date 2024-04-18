@@ -22,7 +22,7 @@ equivalentTo:
   vars:
   - cellular_component
 name:
-  text: changed morphology of %s
+  text: morphology of %s phenotype
   vars:
   - cellular_component
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfCellularComponent.yaml

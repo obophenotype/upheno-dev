@@ -15,7 +15,7 @@ equivalentTo:
   vars:
   - anatomical_entity
 name:
-  text: changed %s mobility
+  text: '%s mobility phenotype'
   vars:
   - anatomical_entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMobilityOfAnatomicalEntity.yaml

@@ -31,7 +31,7 @@ equivalentTo:
   - anatomical_entity
   - location
 name:
-  text: changed %s of %s mass density
+  text: '%s of %s mass density phenotype'
   vars:
   - anatomical_entity
   - location

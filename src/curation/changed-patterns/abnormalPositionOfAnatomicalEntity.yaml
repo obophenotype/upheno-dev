@@ -19,7 +19,7 @@ equivalentTo:
   vars:
   - entity
 name:
-  text: changed location of %s
+  text: location of %s phenotype
   vars:
   - entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntity.yaml

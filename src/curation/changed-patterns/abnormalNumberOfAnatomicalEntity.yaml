@@ -26,7 +26,7 @@ equivalentTo:
   vars:
   - anatomical_entity
 name:
-  text: changed number of anatomical enitites of type %s
+  text: number of anatomical enitites of type %s phenotype
   vars:
   - anatomical_entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntity.yaml

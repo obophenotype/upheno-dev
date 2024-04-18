@@ -23,7 +23,7 @@ equivalentTo:
   - development
   - stage
 name:
-  text: changed %s rate during %s
+  text: '%s rate during %s phenotype'
   vars:
   - development
   - stage

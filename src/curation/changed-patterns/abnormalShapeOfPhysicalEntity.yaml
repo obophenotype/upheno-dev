@@ -24,7 +24,7 @@ equivalentTo:
   vars:
   - entity
 name:
-  text: changed shape of %s
+  text: shape of %s phenotype
   vars:
   - entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntity.yaml

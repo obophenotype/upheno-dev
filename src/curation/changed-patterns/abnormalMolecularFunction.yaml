@@ -22,7 +22,7 @@ equivalentTo:
   vars:
   - molecular_function
 name:
-  text: changed %s
+  text: '%s phenotype'
   vars:
   - molecular_function
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMolecularFunction.yaml

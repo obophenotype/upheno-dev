@@ -17,7 +17,7 @@ equivalentTo:
   vars:
   - anatomical_entity
 name:
-  text: changed stability of %s
+  text: stability of %s phenotype
   vars:
   - anatomical_entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalStabilityOfAnatomicalEntity.yaml

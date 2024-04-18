@@ -20,7 +20,7 @@ equivalentTo:
   vars:
   - biological_process
 name:
-  text: changed %s rate
+  text: '%s rate phenotype'
   vars:
   - biological_process
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcess.yaml

@@ -31,7 +31,7 @@ equivalentTo:
   - anatomical_entity
   - location
 name:
-  text: changed number of anatomical entities of type %s in %s
+  text: number of anatomical entities of type %s in %s phenotype
   vars:
   - anatomical_entity
   - location

@@ -21,7 +21,7 @@ equivalentTo:
   - biological_process
   - stage
 name:
-  text: changed %s rate before %s
+  text: '%s rate before %s phenotype'
   vars:
   - biological_process
   - stage

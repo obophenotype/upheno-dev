@@ -18,7 +18,7 @@ contributors:
 - https://orcid.org/0000-0002-7356-1779
 - https://orcid.org/0000-0001-9076-6015
 def:
-  text: A morphological abnormality of the %s in the %s.
+  text: Changed morphology of the %s in the %s.
   vars:
   - anatomical_entity
   - location
@@ -30,7 +30,7 @@ equivalentTo:
   - anatomical_entity
   - location
 name:
-  text: changed %s morphology in the %s
+  text: '%s morphology in the %s phenotype'
   vars:
   - anatomical_entity
   - location

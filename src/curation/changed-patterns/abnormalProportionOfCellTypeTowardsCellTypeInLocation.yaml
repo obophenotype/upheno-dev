@@ -8,7 +8,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 def:
-  text: A deviation from the normal proportion of %s relative to %s in the %s.
+  text: Changed proportion of %s relative to %s in the %s.
   vars:
   - cell
   - compared_cell
@@ -22,7 +22,7 @@ equivalentTo:
   - location
   - compared_cell
 name:
-  text: changed proportion of %s relative to %s in %s
+  text: proportion of %s relative to %s in %s phenotype
   vars:
   - cell
   - compared_cell

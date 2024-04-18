@@ -26,7 +26,7 @@ equivalentTo:
   vars:
   - cellular_component
 name:
-  text: changed number of %s
+  text: number of %s phenotype
   vars:
   - cellular_component
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfCellularComponent.yaml
