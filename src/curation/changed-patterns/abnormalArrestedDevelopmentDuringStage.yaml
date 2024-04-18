@@ -11,7 +11,7 @@ contributors:
 - https://orcid.org/0000-0002-4532-2703
 - https://orcid.org/0000-0002-7073-9172
 def:
-  text: Abnormal(ly) arrested (of) %s in the %s.
+  text: Arrested %s in the %s.
   vars:
   - development
   - stage

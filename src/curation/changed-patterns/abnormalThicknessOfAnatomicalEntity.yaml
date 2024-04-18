@@ -2,7 +2,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 annotations:
 - annotationProperty: exact_synonym
-  text: '%s thickness abnormality'
+  text: '%s thickness phenotype'
   vars:
   - anatomical_entity
 classes:

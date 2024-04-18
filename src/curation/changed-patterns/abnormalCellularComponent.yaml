@@ -12,7 +12,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 def:
-  text: Abnormality of %s.
+  text: Changed %s.
   vars:
   - cellular_component
 description: ''

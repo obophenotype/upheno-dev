@@ -492,7 +492,6 @@ replacements = {
     "Abnormal ability": "Ability",
     "A deviation from the normal": "Changed",
     "A morphological abnormality": "Changed morphology",
-    "abnormality of": "changed",
     "Abnormal accumulation": "Accumulation",
     "Abnormal dilation": "Dilation",
     "Abnormal local accumulation": "Local accumulation",
@@ -504,7 +503,9 @@ replacements = {
     "An abnormal development": "Changed development",
     "An abnormal reduction": "A reduction",
     "An abnormal ": "A changed ",
+    "functional abnormality of": "functional change of",
     "An abnormality ": "A change ",
+    "abnormality of": "changed",
     "an abnormal ": "a changed ",
     "abnormally curled":   "curling",
     "abnormal bending":   "bending",
@@ -515,7 +516,6 @@ replacements = {
     "Abnormally ": "",
     "UHAUIYHIUHIUH": "Abnormal change"
 }
-
 
 
 
@@ -568,6 +568,14 @@ def change_pattern(pattern_yaml, replacements, changes):
         pattern_yaml['classes']['abnormal'] = 'PATO:0000460'
 
     process_text('name', pattern_yaml, changes, replacements)
+    updated_name = pattern_yaml['name']['text']
+    if updated_name.startswith("changed "):
+        phenotype_name = updated_name.replace("changed ", "")+" phenotype"
+        
+        if updated_name != phenotype_name:
+            print(f"{updated_name}\t{phenotype_name}")
+            pattern_yaml['name']['text'] = phenotype_name
+    
     process_text('def', pattern_yaml, changes, replacements)
     
     if 'annotations' in pattern_yaml:

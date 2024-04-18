@@ -19,7 +19,7 @@ contributors:
 - https://orcid.org/0000-0001-7941-2961
 - https://orcid.org/0000-0003-4606-0597
 def:
-  text: Abnormality of %s.
+  text: Changed %s.
   vars:
   - anatomical_entity
 description: ''
