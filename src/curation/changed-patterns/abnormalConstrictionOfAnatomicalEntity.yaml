@@ -35,7 +35,7 @@ name:
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConstrictionOfAnatomicalEntity.yaml
 pattern_name: abnormalConstrictionOfAnatomicalEntity
 relations:
-  characteristic_of_part_of: RO:0002314
+  characteristic_of_part_of: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
 vars:

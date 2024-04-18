@@ -23,7 +23,7 @@ equivalentTo:
   vars:
   - location
 name:
-  text: changed protein localization in %s
+  text: protein localization in %s phenotype
   vars:
   - location
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalEfficacyOfProteinLocalizationInCellularComponent.yaml

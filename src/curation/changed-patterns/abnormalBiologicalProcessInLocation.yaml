@@ -25,7 +25,7 @@ equivalentTo:
   - biological_process
   - location
 name:
-  text: changed %s in %s
+  text: '%s in %s phenotype'
   vars:
   - biological_process
   - location

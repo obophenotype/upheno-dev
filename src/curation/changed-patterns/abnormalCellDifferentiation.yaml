@@ -19,7 +19,7 @@ equivalentTo:
   vars:
   - celltype
 name:
-  text: changed %s cell differentiation
+  text: '%s cell differentiation phenotype'
   vars:
   - celltype
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellDifferentiation.yaml

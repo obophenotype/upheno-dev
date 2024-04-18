@@ -20,7 +20,7 @@ equivalentTo:
   - chemical
   - location
 name:
-  text: changed %s concentration in %s
+  text: '%s concentration in %s phenotype'
   vars:
   - chemical
   - location

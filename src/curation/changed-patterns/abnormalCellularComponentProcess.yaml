@@ -18,7 +18,7 @@ equivalentTo:
   - biological_process
   - cellular_component
 name:
-  text: changed %s involving %s
+  text: '%s involving %s phenotype'
   vars:
   - biological_process
   - cellular_component

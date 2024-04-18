@@ -6,7 +6,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 def:
-  text: A functional abnormality of the %s in %s.
+  text: A functional changed the %s in %s.
   vars:
   - anatomical_entity
   - entity

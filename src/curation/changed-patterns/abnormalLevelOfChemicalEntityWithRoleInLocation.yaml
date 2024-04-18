@@ -23,7 +23,7 @@ equivalentTo:
   - role
   - location
 name:
-  text: changed %s %s level
+  text: '%s %s level phenotype'
   vars:
   - role
   - location

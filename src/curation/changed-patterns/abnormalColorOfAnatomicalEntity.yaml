@@ -2,7 +2,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 annotations:
 - annotationProperty: exact_synonym
-  text: abnormality of %s color
+  text: changed %s color
   vars:
   - anatomical_entity
 - annotationProperty: exact_synonym
@@ -26,7 +26,7 @@ equivalentTo:
   vars:
   - anatomical_entity
 name:
-  text: changed %s color
+  text: '%s color phenotype'
   vars:
   - anatomical_entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalColorOfAnatomicalEntity.yaml

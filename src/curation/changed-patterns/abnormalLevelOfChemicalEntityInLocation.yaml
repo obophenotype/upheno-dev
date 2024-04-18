@@ -25,7 +25,7 @@ equivalentTo:
   - chemical_entity
   - location
 name:
-  text: changed %s %s level
+  text: '%s %s level phenotype'
   vars:
   - location
   - chemical_entity

@@ -17,7 +17,7 @@ equivalentTo:
   vars:
   - chemical
 name:
-  text: changed %s concentration
+  text: '%s concentration phenotype'
   vars:
   - chemical
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConcentrationOfChemicalEntity.yaml

@@ -17,7 +17,7 @@ equivalentTo:
   vars:
   - cellular_component
 name:
-  text: abnormality of %s function
+  text: '%s function phenotype'
   vars:
   - cellular_component
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfCellularComponent.yaml

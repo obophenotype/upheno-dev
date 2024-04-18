@@ -2,7 +2,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 annotations:
 - annotationProperty: exact_synonym
-  text: '%s type abnormality of %s color'
+  text: '%s type changed %s color'
   vars:
   - color
   - entity

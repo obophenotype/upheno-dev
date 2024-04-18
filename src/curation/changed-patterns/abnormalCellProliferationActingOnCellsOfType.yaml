@@ -19,7 +19,7 @@ equivalentTo:
   vars:
   - cell
 name:
-  text: changed %s proliferation
+  text: '%s proliferation phenotype'
   vars:
   - cell
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationActingOnCellsOfType.yaml

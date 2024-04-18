@@ -19,7 +19,7 @@ equivalentTo:
   vars:
   - role
 name:
-  text: changed %s level
+  text: '%s level phenotype'
   vars:
   - role
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRole.yaml

@@ -22,7 +22,7 @@ equivalentTo:
   - cell
   - anatomical_entity
 name:
-  text: changed %s proliferation in %s
+  text: '%s proliferation in %s phenotype'
   vars:
   - cell
   - anatomical_entity
