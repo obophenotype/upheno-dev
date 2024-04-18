@@ -481,6 +481,8 @@ def create_upheno_core_manual_phenotypes(manual_tsv_files, allimports_dosdp):
 replacements = {
     "Abnormal change": "UHAUIYHIUHIUH",
     "abnormal bending": "bending",
+    "Any abnormality ": "Any change ",
+    "Abnormal(ly) arrested (of)": "Arrested",
     "abnormal closing": "closing",
     "abnormal coiling": "coiling",
     "abnormal decreased": "decreased",
@@ -489,6 +491,8 @@ replacements = {
     "abnormal fusion": "fusion",
     "abnormal incomplete": "incomplete",
     "abnormal opening": "opening",
+    "thickness abnormality": "thickness phenotype",
+    "body abnormally": "body",
     "Abnormal ability": "Ability",
     "A deviation from the normal": "Changed",
     "A morphological abnormality": "Changed morphology",
@@ -496,6 +500,7 @@ replacements = {
     "Abnormal dilation": "Dilation",
     "Abnormal local accumulation": "Local accumulation",
     "An abnormality": "A change",
+    "Abnormality of ": "Changed ",
     "Abnormal morphological asymmetry": "Morphological asymmetry",
     "Abnormal proliferation": "proliferation",
     "Abnormal prominence": "prominence",
@@ -514,7 +519,7 @@ replacements = {
     "An abnormally": "",
     "abnormally ": "",
     "Abnormally ": "",
-    "UHAUIYHIUHIUH": "Abnormal change"
+    "UHAUIYHIUHIUH": "Phenotypic change"
 }
 
 

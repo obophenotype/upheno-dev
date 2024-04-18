@@ -5,7 +5,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0002-9611-1279
 def:
-  text: Abnormal change from one fully differentiated cellular state into another
+  text: Phenotypic change from one fully differentiated cellular state into another
     in %s.
   vars:
   - anatomical_entity
