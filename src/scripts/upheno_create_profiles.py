@@ -380,7 +380,7 @@ def extract_upheno_fillers_for_all_ontologies(oids):
         )
 
 
-def add_upheno_ids_to_fillers(pattern_dir):
+def add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir):
     for pattern in os.listdir(pattern_dir):
         if pattern.endswith(".yaml"):
             tsv_file_name = pattern.replace(".yaml", ".tsv")
@@ -391,6 +391,7 @@ def add_upheno_ids_to_fillers(pattern_dir):
                     df = pd.read_csv(tsv, sep="\t")
                     tsv_name = os.path.basename(tsv)
                     df = add_upheno_id(df, tsv_name.replace(".tsv$", ""))
+                    # filter out independent continuant rows
                     df.to_csv(tsv, sep="\t", index=False)
 
 
@@ -636,7 +637,7 @@ print(
 )
 extract_upheno_fillers_for_all_ontologies(upheno_config.get_phenotype_ontologies())
 
-add_upheno_ids_to_fillers(pattern_dir)
+add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir)
 upheno_map = upheno_map.drop_duplicates()
 upheno_map.sort_values("defined_class", inplace=True)
 upheno_map.to_csv(upheno_id_map, sep="\t", index=False)
