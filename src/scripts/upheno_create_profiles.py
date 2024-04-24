@@ -391,7 +391,9 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir):
                     df = pd.read_csv(tsv, sep="\t")
                     tsv_name = os.path.basename(tsv)
                     df = add_upheno_id(df, tsv_name.replace(".tsv$", ""))
-                    # filter out independent continuant rows
+                    # filter out "independent continuant" locations
+                    if 'location' in df.columns:
+                        df = df[~df["location"].str.startswith("http://purl.obolibrary.org/obo/BFO_")]
                     df.to_csv(tsv, sep="\t", index=False)
 
 
