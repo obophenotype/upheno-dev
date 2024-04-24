@@ -371,6 +371,8 @@ pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns
 exclude_patterns:
   - abnormalMorphologyOfAnatomicalEntity.yaml
+  - abnormalAnatomicalEntityNotParts.yaml
+  - abnormalAbsenceOfBehavior.yaml
 release_artefacts: 
   - base
   - simple-non-classified
