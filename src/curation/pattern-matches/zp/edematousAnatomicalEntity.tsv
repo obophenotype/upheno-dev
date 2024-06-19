@@ -7,18 +7,21 @@ http://purl.obolibrary.org/obo/ZP_0004636	brain edematous, abnormal	http://purl.
 http://purl.obolibrary.org/obo/ZP_0140223	caudal fin edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0014101	caudal vein edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
 http://purl.obolibrary.org/obo/ZP_0006324	caudal vein plexus edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
+http://purl.obolibrary.org/obo/ZP_0149393	cerebellum edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000100	cerebellum
 http://purl.obolibrary.org/obo/ZP_0009986	coelom edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001438	coelom
 http://purl.obolibrary.org/obo/ZP_0107175	cornea edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000640	cornea
 http://purl.obolibrary.org/obo/ZP_0000581	cranium edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000737	cranium
 http://purl.obolibrary.org/obo/ZP_0014229	epicardium edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0005057	epicardium
 http://purl.obolibrary.org/obo/ZP_0003083	extension edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension
 http://purl.obolibrary.org/obo/ZP_0005827	eye edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000107	eye
+http://purl.obolibrary.org/obo/ZP_0146123	forebrain edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000109	forebrain
 http://purl.obolibrary.org/obo/ZP_0006407	fourth ventricle edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000110	fourth ventricle
 http://purl.obolibrary.org/obo/ZP_0005051	gut edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut
 http://purl.obolibrary.org/obo/ZP_0010437	gut epithelium edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0005123	gut epithelium
 http://purl.obolibrary.org/obo/ZP_0014369	hatching gland edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000026	hatching gland
 http://purl.obolibrary.org/obo/ZP_0001451	head edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0001192	heart edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000114	heart
+http://purl.obolibrary.org/obo/ZP_0148833	heart tube edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000360	heart tube
 http://purl.obolibrary.org/obo/ZP_0017768	hepatocyte edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte
 http://purl.obolibrary.org/obo/ZP_0004983	hindbrain edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000029	hindbrain
 http://purl.obolibrary.org/obo/ZP_0012041	inner ear edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000217	inner ear
@@ -48,6 +51,7 @@ http://purl.obolibrary.org/obo/ZP_0015259	pronephros edematous, abnormal	http://
 http://purl.obolibrary.org/obo/ZP_0008541	retina edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
 http://purl.obolibrary.org/obo/ZP_0006996	sinus venosus edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000154	sinus venosus
 http://purl.obolibrary.org/obo/ZP_0140403	swim bladder edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000076	swim bladder
+http://purl.obolibrary.org/obo/ZP_0145698	telencephalon edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0000079	telencephalon
 http://purl.obolibrary.org/obo/ZP_0001452	trunk edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0008277	ventral fin fold edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001069	ventral fin fold
 http://purl.obolibrary.org/obo/ZP_0006880	ventricular system edematous, abnormal	http://purl.obolibrary.org/obo/ZFA_0001261	ventricular system

@@ -279,3 +279,8 @@ components:
       use_template: TRUE
       templates:
         - obsolete.tsv
+    - filename: upheno-alignments.owl
+      use_template: true
+      templates:
+        - phenotypes-without-patterns.tsv
+        - phenotype-alignments.tsv

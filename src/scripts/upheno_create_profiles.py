@@ -34,6 +34,8 @@ from lib import (
     write_list_to_file,
 )
 
+from create_sssom import create_upheno_sssom
+
 ### Configuration
 yaml.warnings({"YAMLLoadWarning": False})
 upheno_config_file = sys.argv[1]
@@ -99,7 +101,8 @@ upheno_components_dir = os.path.join(upheno_ontology_dir, "components/")
 upheno_core_ontology = os.path.join(upheno_prepare_dir, "upheno-core.owl")
 upheno_extra_axioms_ontology = os.path.join(upheno_components_dir, "upheno-extra.owl")
 upheno_relations_ontology = os.path.join(upheno_components_dir, "upheno-relations.owl")
-
+upheno_species_neutral_mappings_tsv = os.path.join(upheno_prepare_dir, "upheno-species-independent.sssom.tsv")
+upheno_species_neutral_mappings_owl = os.path.join(upheno_prepare_dir, "upheno-species-independent.sssom.owl")
 
 # generated Files
 legal_iri_patterns_path = os.path.join(raw_ontologies_dir, "legal_fillers.txt")
@@ -295,7 +298,7 @@ def add_upheno_id(df, pattern):
     df["id"] = df.apply(lambda row: "-".join(row.astype(str)), axis=1)
     df = pd.merge(df, upheno_map, on="id", how="left")
     df["defined_class"] = [generate_id(i) for i in df["defined_class"]]
-    upheno_map = upheno_map.append(df[["id", "defined_class"]])
+    upheno_map = pd.concat([upheno_map, df[["id", "defined_class"]]], ignore_index=True)
     df = df.drop(["pattern", "id"], axis=1)
     return df
 
@@ -650,6 +653,9 @@ print(
 )
 replace_owl_thing_in_tsvs(pattern_dir)
 
+# Output the species independent mappings as an SSSOM file.
+create_upheno_sssom(upheno_id_map, upheno_patterns_dir, matches_dir, upheno_species_neutral_mappings_tsv, upheno_species_neutral_mappings_owl)
+
 print("Generating uPheno core (part of uPheno common to all profiles).")
 # Extra axioms, upheno relations, the manually curated intermediate phenotypes part of the upheno repo
 manual_tsv_files = (
@@ -661,6 +667,7 @@ upheno_core_parts.append(upheno_relations_ontology)
 upheno_core_manual_phenotypes = create_upheno_core_manual_phenotypes(
     manual_tsv_files, allimports_dosdp
 )
+
 upheno_core_parts.extend(upheno_core_manual_phenotypes)
 if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
     robot_merge(upheno_core_parts, upheno_core_ontology, TIMEOUT, robot_opts)

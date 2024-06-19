@@ -2,6 +2,7 @@
 pattern_name: abnormallyDecreasedLengthOfAnatomicalEntityAttachedToLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntityAttachedToLocation.yaml
 description: "Anatomical entity is observed to be of decreased length while attached to another anatomical entity. This pattern is primary used for HPO contracture terms, such as HP_0001239 'Wrist flexion contracture'."
+
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 
@@ -10,16 +11,20 @@ classes:
   anatomical entity: UBERON:0001062
   decreased length: PATO:0000574
   independent continuant: BFO:0000004
+
 relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
   attached_to: RO:0002371
+
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+
 vars:
   anatomical_entity: "'anatomical entity'"
   location: "'independent continuant'"
+
 name:
   text: "decreased length of %s attached to %s"
   vars:

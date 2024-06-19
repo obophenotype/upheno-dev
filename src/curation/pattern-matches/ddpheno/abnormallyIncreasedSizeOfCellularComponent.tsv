@@ -1,4 +1,5 @@
 defined_class	defined_class_label	entity	entity_label
+http://purl.obolibrary.org/obo/DDPHENO_0000531	increased contractile vacuole size	http://purl.obolibrary.org/obo/GO_0000331	contractile vacuole
 http://purl.obolibrary.org/obo/DDPHENO_0001204	increased endosome size	http://purl.obolibrary.org/obo/GO_0005768	endosome
 http://purl.obolibrary.org/obo/DDPHENO_0001208	increased lysosome size	http://purl.obolibrary.org/obo/GO_0005764	lysosome
 http://purl.obolibrary.org/obo/DDPHENO_0001496	increased phagolysosome size	http://purl.obolibrary.org/obo/GO_0032010	phagolysosome

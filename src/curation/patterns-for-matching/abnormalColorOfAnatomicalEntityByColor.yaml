@@ -1,7 +1,13 @@
 ---
 pattern_name: abnormalColorOfAnatomicalEntityByColor
+
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalColorOfAnatomicalEntityByColor.yaml
 description: "Anatomical entity with an abnormal specified color."
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/MP_0003136
+#    - http://purl.obolibrary.org/obo/MP_0011414
+
 contributors:
 - https://orcid.org/0000-0001-8314-2140
 - https://orcid.org/0000-0002-7073-9172
@@ -13,15 +19,19 @@ classes:
   abnormal: PATO:0000460
   anatomical_entity: UBERON:0001062
   color: PATO:0000014
+
 relations:
   characteristic_of: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
+
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+
 vars:
   entity: "'anatomical_entity'"
   color: "'color'"
+
 name:
   text: "abnormally %s %s color"
   vars:

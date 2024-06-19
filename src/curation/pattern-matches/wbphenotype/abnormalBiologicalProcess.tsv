@@ -55,7 +55,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000068	cellular oxidative stress res
 http://purl.obolibrary.org/obo/WBPhenotype_0000523	chemical response variant	http://purl.obolibrary.org/obo/GO_0042221	response to chemical
 http://purl.obolibrary.org/obo/WBPhenotype_0001049	chemosensory behavior variant	http://purl.obolibrary.org/obo/GO_0007635	chemosensory behavior
 http://purl.obolibrary.org/obo/WBPhenotype_0001434	chemotaxis variant	http://purl.obolibrary.org/obo/GO_0006935	chemotaxis
-http://purl.obolibrary.org/obo/WBPhenotype_0001584	chromosome alignment variant	http://purl.obolibrary.org/obo/GO_0051310	metaphase plate congression
+http://purl.obolibrary.org/obo/WBPhenotype_0001584	chromosome alignment variant	http://purl.obolibrary.org/obo/GO_0051310	metaphase chromosome alignment
 http://purl.obolibrary.org/obo/WBPhenotype_0001361	chromosome condensation variant	http://purl.obolibrary.org/obo/GO_0030261	chromosome condensation
 http://purl.obolibrary.org/obo/WBPhenotype_0000773	chromosome segregation variant	http://purl.obolibrary.org/obo/GO_0007059	chromosome segregation
 http://purl.obolibrary.org/obo/WBPhenotype_0001712	circadian rhythm behavior variant	http://purl.obolibrary.org/obo/GO_0048512	circadian behavior
@@ -76,7 +76,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0001015	developmental growth variant	
 http://purl.obolibrary.org/obo/WBPhenotype_0001009	developmental pigmentation variant	http://purl.obolibrary.org/obo/GO_0048066	developmental pigmentation
 http://purl.obolibrary.org/obo/WBPhenotype_0000033	developmental timing variant	http://purl.obolibrary.org/obo/GO_0040034	regulation of development, heterochronic
 http://purl.obolibrary.org/obo/WBPhenotype_0000233	dopamine metabolism variant	http://purl.obolibrary.org/obo/GO_0042417	dopamine metabolic process
-http://purl.obolibrary.org/obo/WBPhenotype_0000718	dosage compensation variant	http://purl.obolibrary.org/obo/GO_0007549	dosage compensation
+http://purl.obolibrary.org/obo/WBPhenotype_0000718	dosage compensation variant	http://purl.obolibrary.org/obo/GO_0007549	sex-chromosome dosage compensation
 http://purl.obolibrary.org/obo/WBPhenotype_0000640	egg laying variant	http://purl.obolibrary.org/obo/GO_0018991	egg-laying behavior
 http://purl.obolibrary.org/obo/WBPhenotype_0000749	embryonic development variant	http://purl.obolibrary.org/obo/GO_0009790	embryo development
 http://purl.obolibrary.org/obo/WBPhenotype_0001421	endocytic transport variant	http://purl.obolibrary.org/obo/GO_0006897	endocytosis
@@ -133,6 +133,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000658	neuromuscular synaptic transm
 http://purl.obolibrary.org/obo/WBPhenotype_0000816	neuron development variant	http://purl.obolibrary.org/obo/GO_0048666	neuron development
 http://purl.obolibrary.org/obo/WBPhenotype_0001140	neuron migration variant	http://purl.obolibrary.org/obo/GO_0001764	neuron migration
 http://purl.obolibrary.org/obo/WBPhenotype_0000221	neurotransmitter metabolism variant	http://purl.obolibrary.org/obo/GO_0042133	neurotransmitter metabolic process
+http://purl.obolibrary.org/obo/WBPhenotype_0000221	neurotransmitter metabolism variant	http://purl.obolibrary.org/obo/GO_0042133	obsolete neurotransmitter metabolic process
 http://purl.obolibrary.org/obo/WBPhenotype_0000504	nuclear division variant	http://purl.obolibrary.org/obo/GO_0000280	nuclear division
 http://purl.obolibrary.org/obo/WBPhenotype_0001580	nuclear envelope breakdown variant	http://purl.obolibrary.org/obo/GO_0051081	nuclear membrane disassembly
 http://purl.obolibrary.org/obo/WBPhenotype_0000511	nuclear positioning variant	http://purl.obolibrary.org/obo/GO_0007097	nuclear migration
@@ -160,7 +161,8 @@ http://purl.obolibrary.org/obo/WBPhenotype_0001379	organism toxic chemical respo
 http://purl.obolibrary.org/obo/WBPhenotype_0000666	ovulation variant	http://purl.obolibrary.org/obo/GO_0030728	ovulation
 http://purl.obolibrary.org/obo/WBPhenotype_0000460	paraquat response variant	http://purl.obolibrary.org/obo/GO_1901562	response to paraquat
 http://purl.obolibrary.org/obo/WBPhenotype_0000707	pharyngeal development variant	http://purl.obolibrary.org/obo/GO_0060465	pharynx development
-http://purl.obolibrary.org/obo/WBPhenotype_0000634	pharyngeal pumping variant	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping
+http://purl.obolibrary.org/obo/WBPhenotype_0000634	pharyngeal pumping variant	http://purl.obolibrary.org/obo/GO_0043050	nematode pharyngeal pumping
+http://purl.obolibrary.org/obo/WBPhenotype_0000519	physiology phenotype	http://purl.obolibrary.org/obo/GO_0008150	biological process
 http://purl.obolibrary.org/obo/WBPhenotype_0000519	physiology phenotype	http://purl.obolibrary.org/obo/GO_0008150	biological_process
 http://purl.obolibrary.org/obo/WBPhenotype_0002058	pore forming toxin response variant	http://purl.obolibrary.org/obo/GO_0035915	pore formation in membrane of another organism
 http://purl.obolibrary.org/obo/WBPhenotype_0000635	positive chemotaxis variant	http://purl.obolibrary.org/obo/GO_0050918	positive chemotaxis

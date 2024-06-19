@@ -11,6 +11,7 @@ http://purl.obolibrary.org/obo/HP_0000998	Hypertrichosis	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/HP_0005404	Increased B cell count	http://purl.obolibrary.org/obo/CL_0000236	B cell
 http://purl.obolibrary.org/obo/HP_0100828	Increased T cell count	http://purl.obolibrary.org/obo/CL_0000084	T cell
 http://purl.obolibrary.org/obo/HP_0031807	Increased basophil count	http://purl.obolibrary.org/obo/CL_0000767	basophil
+http://purl.obolibrary.org/obo/HP_0040014	Increased mitochondrial number	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/HP_0100495	Mastocytosis	http://purl.obolibrary.org/obo/CL_0000097	mast cell
 http://purl.obolibrary.org/obo/HP_0012311	Monocytosis	http://purl.obolibrary.org/obo/CL_0000576	monocyte
 http://purl.obolibrary.org/obo/HP_0006114	Multiple palmar creases	http://purl.obolibrary.org/obo/UBERON_0019246	palmar skin crease

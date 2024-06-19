@@ -2,6 +2,7 @@
 pattern_name: abnormalAbsenceOfBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml
 description: ""
+
 contributors:
 - https://orcid.org/0000-0001-9076-6015
 - https://orcid.org/0000-0001-5208-3432
@@ -11,14 +12,18 @@ classes:
   absent: PATO:0000462
   abnormal: PATO:0000460
   biological process: GO:0008150
+
 relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
+
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+
 vars:
   biological_process: "'biological process'"
+
 name:
   text: "absent %s"
   vars:

@@ -6,7 +6,7 @@ import glob
 import argparse
 from sssom.context import get_converter
 from sssom.parsers import from_sssom_dataframe
-from sssom.writers import write_table
+from sssom.writers import write_table, write_owl
 
 def main():
     parser = argparse.ArgumentParser(description='Create SSSOM file from upheno id map and pattern matches')
@@ -27,7 +27,7 @@ def get_id_columns(pattern_file):
         print("Could not get id columns: " + pattern_file)
         return None
 
-def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, output_file):
+def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, output_file_tsv, output_file_owl):
 
     all_pattern_matches_map = dict()
 
@@ -91,7 +91,8 @@ def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, output_file):
     meta['mapping_set_id'] = 'https://data.monarchinitiative.org/mappings/upheno/upheno-species-independent.sssom.tsv'
     msdf = from_sssom_dataframe(df_out, prefix_map=converter, meta=meta)
     msdf.clean_prefix_map()
-    write_table(msdf, open(output_file, "w"))
+    write_table(msdf, open(output_file_tsv, "w"))
+    write_owl(msdf, open(output_file_owl, "w"))
 
 def filter_row(df, id_columns, fillers):
     n = 0

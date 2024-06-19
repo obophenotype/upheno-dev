@@ -21,6 +21,7 @@ http://purl.obolibrary.org/obo/MP_0001677	absent apical ectodermal ridge	http://
 http://purl.obolibrary.org/obo/MP_0004541	absent auditory tube	http://purl.obolibrary.org/obo/UBERON_0002393	pharyngotympanic tube	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
 http://purl.obolibrary.org/obo/MP_0000862	absent barrels in primary somatosensory cortex	http://purl.obolibrary.org/obo/UBERON_0010415	barrel cortex	http://purl.obolibrary.org/obo/UBERON_0008933	primary somatosensory cortex
 http://purl.obolibrary.org/obo/MP_0012677	absent brain ventricles	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle	http://purl.obolibrary.org/obo/UBERON_0003947	brain ventricle/choroid plexus
+http://purl.obolibrary.org/obo/MP_0006268	absent cardiac desmosomes	http://purl.obolibrary.org/obo/GO_0030057	desmosome	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell
 http://purl.obolibrary.org/obo/MP_0000555	absent carpal bone	http://purl.obolibrary.org/obo/UBERON_0001435	carpal bone	http://purl.obolibrary.org/obo/UBERON_0002101	limb
 http://purl.obolibrary.org/obo/MP_0002898	absent cartilage	http://purl.obolibrary.org/obo/UBERON_0002418	cartilage tissue	http://purl.obolibrary.org/obo/UBERON_0001434	skeletal system
 http://purl.obolibrary.org/obo/MP_0000888	absent cerebellar granule layer	http://purl.obolibrary.org/obo/UBERON_0002956	granular layer of cerebellar cortex	http://purl.obolibrary.org/obo/UBERON_0002129	cerebellar cortex
@@ -37,7 +38,7 @@ http://purl.obolibrary.org/obo/MP_0004717	absent cochlear nerve	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0004923	absent common crus	http://purl.obolibrary.org/obo/UBERON_0005600	crus commune	http://purl.obolibrary.org/obo/UBERON_0007833	osseus semicircular canal
 http://purl.obolibrary.org/obo/MP_0000239	absent common myeloid progenitor cells	http://purl.obolibrary.org/obo/CL_0000049	common myeloid progenitor	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0012247	absent cornea	http://purl.obolibrary.org/obo/UBERON_0000964	cornea	http://purl.obolibrary.org/obo/UBERON_0001801	anterior segment of eyeball
-http://purl.obolibrary.org/obo/MP_0004283	absent corneal endothelium	http://purl.obolibrary.org/obo/UBERON_0001985	corneal endothelium	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
+http://purl.obolibrary.org/obo/MP_0004283	absent cornea endothelium	http://purl.obolibrary.org/obo/UBERON_0001985	corneal endothelium	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
 http://purl.obolibrary.org/obo/MP_0000073	absent craniofacial bones	http://purl.obolibrary.org/obo/UBERON_0003457	head bone	http://purl.obolibrary.org/obo/UBERON_0005944	axial skeleton plus cranial skeleton
 http://purl.obolibrary.org/obo/MP_0004354	absent deltoid tuberosity	http://purl.obolibrary.org/obo/UBERON_0002498	deltopectoral crest	http://purl.obolibrary.org/obo/UBERON_0000976	humerus
 http://purl.obolibrary.org/obo/MP_0000814	absent dentate gyrus	http://purl.obolibrary.org/obo/UBERON_0001885	dentate gyrus of hippocampal formation	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
@@ -47,6 +48,7 @@ http://purl.obolibrary.org/obo/MP_0000041	absent endolymphatic duct	http://purl.
 http://purl.obolibrary.org/obo/MP_0006013	absent endolymphatic sac	http://purl.obolibrary.org/obo/UBERON_0002223	endolymphatic sac	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
 http://purl.obolibrary.org/obo/MP_0001048	absent enteric neurons	http://purl.obolibrary.org/obo/UBERON_0010380	enteric nerve	http://purl.obolibrary.org/obo/UBERON_0002005	enteric nervous system
 http://purl.obolibrary.org/obo/MP_0000487	absent enterocytes	http://purl.obolibrary.org/obo/CL_0000584	enterocyte	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
+http://purl.obolibrary.org/obo/MP_0010852	absent epidermal lamellar bodies	http://purl.obolibrary.org/obo/GO_0042599	lamellar body	http://purl.obolibrary.org/obo/CL_0000362	epidermal cell
 http://purl.obolibrary.org/obo/MP_0001217	absent epidermis	http://purl.obolibrary.org/obo/UBERON_0001003	skin epidermis	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
 http://purl.obolibrary.org/obo/MP_0001232	absent epidermis stratum basale	http://purl.obolibrary.org/obo/UBERON_0002025	stratum basale of epidermis	http://purl.obolibrary.org/obo/UBERON_0001003	skin epidermis
 http://purl.obolibrary.org/obo/MP_0001241	absent epidermis stratum corneum	http://purl.obolibrary.org/obo/UBERON_0002027	stratum corneum of epidermis	http://purl.obolibrary.org/obo/UBERON_0001003	skin epidermis
@@ -77,6 +79,7 @@ http://purl.obolibrary.org/obo/MP_0000499	absent ileum	http://purl.obolibrary.or
 http://purl.obolibrary.org/obo/MP_0004688	absent ilium	http://purl.obolibrary.org/obo/UBERON_0001273	ilium	http://purl.obolibrary.org/obo/UBERON_0005179	pelvic region element
 http://purl.obolibrary.org/obo/MP_0000125	absent incisors	http://purl.obolibrary.org/obo/UBERON_0001098	incisor tooth	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
 http://purl.obolibrary.org/obo/MP_0004318	absent incus	http://purl.obolibrary.org/obo/UBERON_0001688	incus bone	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
+http://purl.obolibrary.org/obo/MP_0011063	absent inner hair cell kinocilia	http://purl.obolibrary.org/obo/GO_0060091	kinocilium	http://purl.obolibrary.org/obo/CL_0000589	cochlear inner hair cell
 http://purl.obolibrary.org/obo/MP_0004383	absent interparietal bone	http://purl.obolibrary.org/obo/UBERON_0002229	interparietal bone	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
 http://purl.obolibrary.org/obo/MP_0004683	absent intervertebral disk	http://purl.obolibrary.org/obo/UBERON_0001066	intervertebral disk	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra
 http://purl.obolibrary.org/obo/MP_0010708	absent iris stroma	http://purl.obolibrary.org/obo/UBERON_0001779	iris stroma	http://purl.obolibrary.org/obo/UBERON_0001769	iris
@@ -99,7 +102,6 @@ http://purl.obolibrary.org/obo/MP_0000908	absent mesencephalic trigeminal nucleu
 http://purl.obolibrary.org/obo/MP_0003074	absent metacarpal bones	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone	http://purl.obolibrary.org/obo/UBERON_0004453	metacarpus region
 http://purl.obolibrary.org/obo/MP_0000040	absent middle ear ossicles	http://purl.obolibrary.org/obo/UBERON_0001686	auditory ossicle bone	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
 http://purl.obolibrary.org/obo/MP_0003931	absent molars	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
-http://purl.obolibrary.org/obo/MP_0000453	absent mouth	http://purl.obolibrary.org/obo/UBERON_0000165	mouth	http://purl.obolibrary.org/obo/UBERON_0000033	head
 http://purl.obolibrary.org/obo/MP_0008468	absent muscle spindles	http://purl.obolibrary.org/obo/UBERON_0003718	muscle spindle	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/MP_0000293	absent myocardial trabeculae	http://purl.obolibrary.org/obo/UBERON_0000440	trabecula	http://purl.obolibrary.org/obo/UBERON_0002349	myocardium
 http://purl.obolibrary.org/obo/MP_0004473	absent nasal bone	http://purl.obolibrary.org/obo/UBERON_0001681	nasal bone	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
@@ -113,9 +115,11 @@ http://purl.obolibrary.org/obo/MP_0013833	absent olfactory nerve	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0003647	absent oligodendrocytes	http://purl.obolibrary.org/obo/CL_0000128	oligodendrocyte	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
 http://purl.obolibrary.org/obo/MP_0000044	absent organ of Corti	http://purl.obolibrary.org/obo/UBERON_0002227	spiral organ of cochlea	http://purl.obolibrary.org/obo/UBERON_0001855	cochlear duct of membranous labyrinth
 http://purl.obolibrary.org/obo/MP_0005579	absent outer ear	http://purl.obolibrary.org/obo/UBERON_0001691	external ear	http://purl.obolibrary.org/obo/UBERON_0000033	head
+http://purl.obolibrary.org/obo/MP_0011645	absent oviduct epithelium motile cilium	http://purl.obolibrary.org/obo/GO_0031514	motile cilium	http://purl.obolibrary.org/obo/UBERON_0007589	ciliated columnar oviduct epithelium
 http://purl.obolibrary.org/obo/MP_0013766	absent palatal rugae	http://purl.obolibrary.org/obo/UBERON_0008799	transverse palatine fold	http://purl.obolibrary.org/obo/UBERON_0003216	hard palate
 http://purl.obolibrary.org/obo/MP_0004476	absent palatine bone	http://purl.obolibrary.org/obo/UBERON_0001682	palatine bone	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
 http://purl.obolibrary.org/obo/MP_0003655	absent pancreas	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
+http://purl.obolibrary.org/obo/MP_0009162	absent pancreatic acinar cell zymogen granule	http://purl.obolibrary.org/obo/GO_0042588	zymogen granule	http://purl.obolibrary.org/obo/CL_0002064	pancreatic acinar cell
 http://purl.obolibrary.org/obo/MP_0000680	absent parathyroid glands	http://purl.obolibrary.org/obo/UBERON_0000949	endocrine system	http://purl.obolibrary.org/obo/UBERON_0001132	parathyroid gland
 http://purl.obolibrary.org/obo/MP_0004419	absent parietal bone	http://purl.obolibrary.org/obo/UBERON_0000210	tetrapod parietal bone	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
 http://purl.obolibrary.org/obo/MP_0003388	absent pericardium	http://purl.obolibrary.org/obo/UBERON_0002407	pericardium	http://purl.obolibrary.org/obo/UBERON_0000948	heart
@@ -131,6 +135,7 @@ http://purl.obolibrary.org/obo/MP_0000152	absent proximal rib	http://purl.obolib
 http://purl.obolibrary.org/obo/MP_0004691	absent pubis	http://purl.obolibrary.org/obo/UBERON_0001275	pubis	http://purl.obolibrary.org/obo/UBERON_0005179	pelvic region element
 http://purl.obolibrary.org/obo/MP_0000553	absent radius	http://purl.obolibrary.org/obo/UBERON_0001423	radius bone	http://purl.obolibrary.org/obo/UBERON_0002102	forelimb
 http://purl.obolibrary.org/obo/MP_0004975	absent regulatory T cells	http://purl.obolibrary.org/obo/CL_0000815	regulatory T cell	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0011054	absent respiratory motile cilia	http://purl.obolibrary.org/obo/GO_0031514	motile cilium	http://purl.obolibrary.org/obo/CL_0002368	respiratory epithelial cell
 http://purl.obolibrary.org/obo/MP_0006096	absent retina bipolar cells	http://purl.obolibrary.org/obo/CL_0000748	retinal bipolar neuron	http://purl.obolibrary.org/obo/UBERON_0000966	retina
 http://purl.obolibrary.org/obo/MP_0000614	absent salivary gland	http://purl.obolibrary.org/obo/UBERON_0001044	saliva-secreting gland	http://purl.obolibrary.org/obo/UBERON_0002330	exocrine system
 http://purl.obolibrary.org/obo/MP_0004341	absent scapula	http://purl.obolibrary.org/obo/UBERON_0006849	scapula	http://purl.obolibrary.org/obo/UBERON_0001467	shoulder
@@ -139,6 +144,7 @@ http://purl.obolibrary.org/obo/MP_0000648	absent sebaceous gland	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0000036	absent semicircular canals	http://purl.obolibrary.org/obo/UBERON_0007833	osseus semicircular canal	http://purl.obolibrary.org/obo/UBERON_0001839	bony labyrinth
 http://purl.obolibrary.org/obo/MP_0000654	absent sex gland	http://purl.obolibrary.org/obo/UBERON_0003937	reproductive gland	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
 http://purl.obolibrary.org/obo/MP_0004846	absent skeletal muscle	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
+http://purl.obolibrary.org/obo/MP_0008437	absent somatotroph secretory granules	http://purl.obolibrary.org/obo/GO_0030141	secretory granule	http://purl.obolibrary.org/obo/CL_0000295	somatotropin secreting cell
 http://purl.obolibrary.org/obo/MP_0004304	absent spiral limbus	http://purl.obolibrary.org/obo/UBERON_0002276	lamina of spiral limbus	http://purl.obolibrary.org/obo/UBERON_0001855	cochlear duct of membranous labyrinth
 http://purl.obolibrary.org/obo/MP_0004204	absent stapes	http://purl.obolibrary.org/obo/UBERON_0001687	stapes bone	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
 http://purl.obolibrary.org/obo/MP_0000158	absent sternum	http://purl.obolibrary.org/obo/UBERON_0000975	sternum	http://purl.obolibrary.org/obo/UBERON_0001443	chest

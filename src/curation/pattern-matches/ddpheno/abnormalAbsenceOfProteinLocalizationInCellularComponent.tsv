@@ -22,10 +22,12 @@ http://purl.obolibrary.org/obo/DDPHENO_0000649	abolished protein localization to
 http://purl.obolibrary.org/obo/DDPHENO_0000629	abolished protein localization to macropinosome	http://purl.obolibrary.org/obo/GO_0044354	macropinosome
 http://purl.obolibrary.org/obo/DDPHENO_0001400	abolished protein localization to microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center
 http://purl.obolibrary.org/obo/DDPHENO_0001399	abolished protein localization to microtubules	http://purl.obolibrary.org/obo/GO_0005874	microtubule
+http://purl.obolibrary.org/obo/DDPHENO_0000797	abolished protein localization to mitotic actomyosin contractile ring	http://purl.obolibrary.org/obo/GO_0110085	mitotic actomyosin contractile ring
 http://purl.obolibrary.org/obo/DDPHENO_0000661	abolished protein localization to mitotic spindle	http://purl.obolibrary.org/obo/GO_0072686	mitotic spindle
 http://purl.obolibrary.org/obo/DDPHENO_0000665	abolished protein localization to mitotic spindle midzone	http://purl.obolibrary.org/obo/GO_1990023	mitotic spindle midzone
 http://purl.obolibrary.org/obo/DDPHENO_0001428	abolished protein localization to nuclear envelope	http://purl.obolibrary.org/obo/GO_0005635	nuclear envelope
 http://purl.obolibrary.org/obo/DDPHENO_0000105	abolished protein localization to nucleolus	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/DDPHENO_0000453	abolished protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0000453	abolished protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0000621	abolished protein localization to phagocytic vesicle	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle
 http://purl.obolibrary.org/obo/DDPHENO_0001394	abolished protein localization to plasma membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane

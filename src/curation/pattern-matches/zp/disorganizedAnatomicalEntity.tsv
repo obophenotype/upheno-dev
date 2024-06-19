@@ -22,8 +22,11 @@ http://purl.obolibrary.org/obo/ZP_0140443	brain vasculature disorganized, abnorm
 http://purl.obolibrary.org/obo/ZP_0007314	brainstem and spinal white matter disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000318	brainstem and spinal white matter
 http://purl.obolibrary.org/obo/ZP_0018730	branchiomotor neuron disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005731	branchiomotor neuron
 http://purl.obolibrary.org/obo/ZP_0003884	branchiostegal ray disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000476	branchiostegal ray
+http://purl.obolibrary.org/obo/ZP_0149606	cardiac muscle cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0100831	cardiac muscle disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005280	cardiac muscle
 http://purl.obolibrary.org/obo/ZP_0005791	caudal fin disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
+http://purl.obolibrary.org/obo/ZP_0146459	caudal fin principal ray disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001585	caudal fin principal ray
+http://purl.obolibrary.org/obo/ZP_0146263	caudal fin vasculature disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005097	caudal fin vasculature
 http://purl.obolibrary.org/obo/ZP_0008262	caudal vein disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
 http://purl.obolibrary.org/obo/ZP_0009282	caudal vein plexus disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001286	caudal vein plexus
 http://purl.obolibrary.org/obo/ZP_0104378	central artery disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005020	central artery
@@ -62,6 +65,7 @@ http://purl.obolibrary.org/obo/ZP_0144387	dorsal tooth row disorganized, abnorma
 http://purl.obolibrary.org/obo/ZP_0016324	endocardium disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001320	endocardium
 http://purl.obolibrary.org/obo/ZP_0006040	endocrine pancreas disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001260	endocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0016444	endothelial cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell
+http://purl.obolibrary.org/obo/ZP_0147106	ependymal cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009033	ependymal cell
 http://purl.obolibrary.org/obo/ZP_0003556	epibranchial ganglion disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001555	epibranchial ganglion
 http://purl.obolibrary.org/obo/ZP_0006148	epidermis disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
 http://purl.obolibrary.org/obo/ZP_0141467	epiphysis disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000019	epiphysis
@@ -101,7 +105,6 @@ http://purl.obolibrary.org/obo/ZP_0104625	hypothalamus disorganized, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0009652	inner limiting membrane disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001029	inner limiting membrane
 http://purl.obolibrary.org/obo/ZP_0005790	integument disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000368	integument
 http://purl.obolibrary.org/obo/ZP_0007753	intermandibularis disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000369	intermandibularis
-http://purl.obolibrary.org/obo/ZP_0003183	intersegmental vessel disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
 http://purl.obolibrary.org/obo/ZP_0000384	intestinal bulb epithelium disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005126	intestinal bulb epithelium
 http://purl.obolibrary.org/obo/ZP_0006304	intestinal epithelial cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009399	intestinal epithelial cell
 http://purl.obolibrary.org/obo/ZP_0014060	intestinal rod disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005737	intestinal rod
@@ -115,6 +118,7 @@ http://purl.obolibrary.org/obo/ZP_0002999	lens disorganized, abnormal	http://pur
 http://purl.obolibrary.org/obo/ZP_0006276	lens epithelium disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001326	lens epithelium
 http://purl.obolibrary.org/obo/ZP_0101350	lens fiber cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009401	lens fiber cell
 http://purl.obolibrary.org/obo/ZP_0001792	liver disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
+http://purl.obolibrary.org/obo/ZP_0146574	long double cone cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005945	long double cone cell
 http://purl.obolibrary.org/obo/ZP_0143391	macula utricle disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000030	macula utricle
 http://purl.obolibrary.org/obo/ZP_0001966	mandibular arch skeleton disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
 http://purl.obolibrary.org/obo/ZP_0005690	margin disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000038	margin
@@ -135,7 +139,6 @@ http://purl.obolibrary.org/obo/ZP_0102422	muscle pioneer disorganized, abnormal	
 http://purl.obolibrary.org/obo/ZP_0008461	musculature system disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000548	musculature system
 http://purl.obolibrary.org/obo/ZP_0104756	myoblast disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009025	myoblast
 http://purl.obolibrary.org/obo/ZP_0010672	myocardium disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium
-http://purl.obolibrary.org/obo/ZP_0008729	myoseptum disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001089	myoseptum
 http://purl.obolibrary.org/obo/ZP_0004826	myotome disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
 http://purl.obolibrary.org/obo/ZP_0143544	neural arch disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001066	neural arch
 http://purl.obolibrary.org/obo/ZP_0003808	neural rod disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000133	neural rod
@@ -192,6 +195,7 @@ http://purl.obolibrary.org/obo/ZP_0011682	posterior cardinal vein disorganized, 
 http://purl.obolibrary.org/obo/ZP_0007419	posterior crista disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000566	posterior crista
 http://purl.obolibrary.org/obo/ZP_0007838	posterior intestine epithelium disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005128	posterior intestine epithelium
 http://purl.obolibrary.org/obo/ZP_0010982	posterior lateral line primordium disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001157	posterior lateral line primordium
+http://purl.obolibrary.org/obo/ZP_0146162	postoptic commissure disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000059	postoptic commissure
 http://purl.obolibrary.org/obo/ZP_0140158	pretectum disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000418	pretectum
 http://purl.obolibrary.org/obo/ZP_0010704	pronephric duct disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000150	pronephric duct
 http://purl.obolibrary.org/obo/ZP_0008503	pronephric glomerular basement membrane disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005313	pronephric glomerular basement membrane
@@ -202,7 +206,6 @@ http://purl.obolibrary.org/obo/ZP_0016818	red sensitive photoreceptor cell disor
 http://purl.obolibrary.org/obo/ZP_0140307	regenerating fin disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
 http://purl.obolibrary.org/obo/ZP_0011631	renal glomerulus disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001288	renal glomerulus
 http://purl.obolibrary.org/obo/ZP_0000655	retina disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000152	retina
-http://purl.obolibrary.org/obo/ZP_0016327	retinal cone cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009262	retinal cone cell
 http://purl.obolibrary.org/obo/ZP_0005041	retinal ganglion cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009310	retinal ganglion cell
 http://purl.obolibrary.org/obo/ZP_0001763	retinal ganglion cell layer disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000024	retinal ganglion cell layer
 http://purl.obolibrary.org/obo/ZP_0010590	retinal inner nuclear layer disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000119	retinal inner nuclear layer
@@ -212,18 +215,17 @@ http://purl.obolibrary.org/obo/ZP_0002448	retinal outer nuclear layer disorganiz
 http://purl.obolibrary.org/obo/ZP_0001709	retinal outer plexiform layer disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001330	retinal outer plexiform layer
 http://purl.obolibrary.org/obo/ZP_0000047	retinal photoreceptor layer disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000143	retinal photoreceptor layer
 http://purl.obolibrary.org/obo/ZP_0003364	retinal pigmented epithelium disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000144	retinal pigmented epithelium
-http://purl.obolibrary.org/obo/ZP_0005035	retinal rod cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
 http://purl.obolibrary.org/obo/ZP_0106753	rhombomere disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001064	rhombomere
 http://purl.obolibrary.org/obo/ZP_0005983	rod bipolar cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009321	rod bipolar cell
 http://purl.obolibrary.org/obo/ZP_0144432	scale disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale
 http://purl.obolibrary.org/obo/ZP_0001904	semicircular canal disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000431	semicircular canal
 http://purl.obolibrary.org/obo/ZP_0141317	seminiferous tubule disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005879	seminiferous tubule
-http://purl.obolibrary.org/obo/ZP_0006837	skeletal muscle cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
+http://purl.obolibrary.org/obo/ZP_0146576	short double cone cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005946	short double cone cell
 http://purl.obolibrary.org/obo/ZP_0011805	skeletal muscle disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005277	skeletal muscle
 http://purl.obolibrary.org/obo/ZP_0001839	slow muscle cell disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
-http://purl.obolibrary.org/obo/ZP_0009254	somite border disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001462	somite border
 http://purl.obolibrary.org/obo/ZP_0001488	somite disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0010137	spinal cord interneuron disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000778	spinal cord interneuron
+http://purl.obolibrary.org/obo/ZP_0146339	spleen disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000436	spleen
 http://purl.obolibrary.org/obo/ZP_0012296	sternohyoid disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0001651	sternohyoid
 http://purl.obolibrary.org/obo/ZP_0005909	subintestinal vein disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0005035	subintestinal vein
 http://purl.obolibrary.org/obo/ZP_0010026	swim bladder disorganized, abnormal	http://purl.obolibrary.org/obo/ZFA_0000076	swim bladder

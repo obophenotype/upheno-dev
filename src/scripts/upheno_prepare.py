@@ -17,6 +17,7 @@ from subprocess import CalledProcessError, check_call
 
 import pandas as pd
 import requests
+import yaml
 import ruamel.yaml
 from lib import (
     cdir,
@@ -171,7 +172,7 @@ def get_files_of_type_from_github_repo_dir(q, type):
     url = gh + q
     f = requests.get(url)
     contents = f.text
-    raw = ruamel.yaml.load(contents)
+    raw = yaml.safe_load(contents)
     tsvs = []
     for e in raw:
         tsv = e["name"]
@@ -198,7 +199,7 @@ def get_upheno_pattern_urls(upheno_pattern_repo):
 
 def export_yaml(data, fn):
     with open(fn, "w") as outfile:
-        ruamel.yaml.dump(data, outfile)
+        yaml.dump(data, outfile)
 
 
 def get_pattern_urls(upheno_pattern_repos):
@@ -222,16 +223,23 @@ def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
             continue
         if not upheno_config.is_skip_pattern_download():
             # try:
-                x = urllib.request.urlopen(url).read()
-                y = ruamel.yaml.round_trip_load(x, preserve_quotes=True)
                 print(file_path)
+                x = urllib.request.urlopen(url).read()
+                yamlr = ruamel.yaml.YAML()
+                yamlr.preserve_quotes = True
+                
+                # Load the YAML data from a string
+                y = yamlr.load(x)
                 if upheno_config.is_match_owl_thing():
                     for v in y["vars"]:
                         vsv = re.sub("[']", "", y["vars"][v])
                         y["classes"][vsv] = "owl:Thing"
 
+                yamlr.explicit_start = True
+                yamlr.width = 5000
+
                 with open(file_path, "w") as outfile:
-                    ruamel.yaml.round_trip_dump(y, outfile, explicit_start=True, width=5000)
+                    yamlr.dump(y, outfile)
 
                 # generate inheres_in matches for any inheres_in_part_of patterns
                 #
@@ -245,7 +253,7 @@ def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns):
                             new_pattern["relations"][k] = v
                     new_file_path = os.path.splitext(file_path)[0] + "-modified.yaml"
                     with open(new_file_path, "w") as outfile:
-                        ruamel.yaml.round_trip_dump(new_pattern, outfile, explicit_start=True, width=5000)
+                        yamlr.dump(new_pattern, outfile)
                         filenames.append(new_file_path)
 
             # except Exception as exc:

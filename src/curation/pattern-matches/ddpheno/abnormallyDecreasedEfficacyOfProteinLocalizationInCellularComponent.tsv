@@ -20,10 +20,12 @@ http://purl.obolibrary.org/obo/DDPHENO_0000650	decreased protein localization to
 http://purl.obolibrary.org/obo/DDPHENO_0000630	decreased protein localization to macropinosome	http://purl.obolibrary.org/obo/GO_0044354	macropinosome
 http://purl.obolibrary.org/obo/DDPHENO_0001401	decreased protein localization to microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center
 http://purl.obolibrary.org/obo/DDPHENO_0001402	decreased protein localization to microtubules	http://purl.obolibrary.org/obo/GO_0005874	microtubule
+http://purl.obolibrary.org/obo/DDPHENO_0000778	decreased protein localization to mitotic actomyosin contractile ring	http://purl.obolibrary.org/obo/GO_0110085	mitotic actomyosin contractile ring
 http://purl.obolibrary.org/obo/DDPHENO_0000662	decreased protein localization to mitotic spindle	http://purl.obolibrary.org/obo/GO_0072686	mitotic spindle
 http://purl.obolibrary.org/obo/DDPHENO_0000666	decreased protein localization to mitotic spindle midzone	http://purl.obolibrary.org/obo/GO_1990023	mitotic spindle midzone
 http://purl.obolibrary.org/obo/DDPHENO_0001429	decreased protein localization to nuclear envelope	http://purl.obolibrary.org/obo/GO_0005635	nuclear envelope
 http://purl.obolibrary.org/obo/DDPHENO_0000106	decreased protein localization to nucleolus	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/DDPHENO_0001340	decreased protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0001340	decreased protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0000622	decreased protein localization to phagocytic vesicle	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle
 http://purl.obolibrary.org/obo/DDPHENO_0001395	decreased protein localization to plasma membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane

@@ -1,62 +1,11 @@
 
 TMPDIR=../curation/tmp
-ONTOLOGIES=hp mp wbphenotype xpo
-ONTOLOGY_FILES = $(patsubst %, $(TMPDIR)/%.owl, $(ONTOLOGIES))
-OWLTOOLS=OWLTOOLS_MEMORY=150G owltools --no-logging 
-
-merged_ontology.owl: $(ONTOLOGY_FILES)
-	$(ROBOT) merge $(patsubst %, -i %, $^) -o $@
-
-inferred_ontology.owl: merged_ontology.owl
-	$(ROBOT) reason -i $< --reasoner ELK --axiom-generators "EquivalentClass" -o $@
-
-equivalent_class_table.csv: inferred_ontology.owl
-	$(ROBOT) query -f csv -i $< --query ../sparql/equivalent-classes-violation.sparql $@
-	
-
-# To get MP/HP mappings:
-# ^http://purl.obolibrary.org/obo/[MH]P_[0-9]+[,]http://purl.obolibrary.org/obo/[MH]P_[0-9]+$
-
-# OWLSIM DATA
-MONARCH_OWLSIM_DATA=https://archive.monarchinitiative.org/latest/owlsim/data/
-URL_MP_G2P=$(MONARCH_OWLSIM_DATA)/Mus_musculus/Mm_gene_phenotype.txt
-URL_MP_GL=$(MONARCH_OWLSIM_DATA)/Mus_musculus/Mm_gene_labels.txt
-URL_HP_D2P=$(MONARCH_OWLSIM_DATA)/Homo_sapiens/Hs_disease_phenotype.txt
-URL_HP_DL=$(MONARCH_OWLSIM_DATA)/Homo_sapiens/Hs_disease_labels.txt
-URL_ZP_G2P=$(MONARCH_OWLSIM_DATA)/Danio_rerio/Dr_gene_phenotype.txt
-URL_ZP_GL=$(MONARCH_OWLSIM_DATA)/Danio_rerio/Dr_gene_labels.txt
-MP_G2P=$(TMPDIR)/Mm_gene_phenotype.txt
-MP_GL=$(TMPDIR)/Mm_gene_labels.txt
-HP_D2P=$(TMPDIR)/Hs_disease_phenotype.txt
-HP_DL=$(TMPDIR)/Hs_disease_labels.txt
-ZP_G2P=$(TMPDIR)/Dr_gene_phenotype.txt
-ZP_GL=$(TMPDIR)/Dr_gene_labels.txt
-
-download_sources:
-	if ! [ -f $(MP_G2P) ]; then wget $(URL_MP_G2P) -O $(MP_G2P); fi
-	if ! [ -f $(MP_GL) ]; then wget $(URL_MP_GL) -O $(MP_GL); fi
-	if ! [ -f $(HP_D2P) ]; then wget $(URL_HP_D2P) -O $(HP_D2P); fi
-	if ! [ -f $(HP_DL) ]; then wget $(URL_HP_DL) -O $(HP_DL); fi
-	if ! [ -f $(ZP_G2P) ]; then wget $(URL_ZP_G2P) -O $(ZP_G2P); fi
-	if ! [ -f $(ZP_GL) ]; then wget $(URL_ZP_GL) -O $(ZP_GL); fi
-
-
-
-#../curation/upheno-release/%/upheno_phenodigm_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
-#	$(OWLTOOLS) $< --sim-save-phenodigm-class-scores -m 2.5 -x HP,MP -a $@
-
-#../curation/upheno-release/%/upheno_jaccard_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
-#	$(OWLTOOLS) $< --make-default-abox --fsim-compare-atts -p ../curation/upheno-sim.properties -o $@
-
-#../curation/upheno-release/%/upheno_all_with_relations.ttl: ../curation/upheno-release/%/upheno_all_with_relations.owl
-#	$(ROBOT) convert -i $< -o $@
 
 #ttl: ../curation/upheno-release/all/upheno_all_with_relations.ttl
 upheno_mapping_lexical_all: ../curation/upheno-release/all/upheno_species_lexical.csv ../curation/upheno-release/all/upheno_mapping_logical.csv
 	python3 ../scripts/lexical_mapping.py all
 	#echo "SKIP upheno_mapping_lexical_"
 
-#.SECONDEXPANSION:
 ../curation/upheno-release/all/upheno_mapping_logical.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
 	#echo "SKIP upheno_mapping_logical"
@@ -170,49 +119,8 @@ SIMCUTOFF=0.5
 
 o: ../curation/upheno-release/all/upheno_old_metazoa_semsim.owl ../curation/upheno-release/all/upheno_lattice_model_semsim.owl ../curation/upheno-release/all/upheno_equivalence_model_semsim.owl
 
-sim: ../curation/upheno-release/all/upheno_old_metazoa_jaccard.tsv ../curation/upheno-release/all/upheno_lattice_model_jaccard.tsv ../curation/upheno-release/all/upheno_equivalence_model_jaccard.tsv
 
 ml: ../curation/upheno-release/all/upheno_xrefs.csv ../curation/upheno-release/all/upheno_parentage.csv ../curation/upheno-release/all/upheno_associated_entities.csv ../curation/upheno-release/all/upheno_lexical_data.csv
-
-t:
-	$(ROBOT) filter -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/small_insulin_test.owl \
-		merge -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/smalltest.owl -o rm_test.owl
-
-
-conf: ../../modules/upheno_all_pattern_conformance.owl
-
-tmp/patterns:
-	rm -r $@
-	mkdir $@
-
-
-../../modules/upheno_all_pattern_conformance.owl: $(PATTERNS) tmp/patterns
-	python3 ../scripts/create_pattern_conformance_module.py
-
-#RELDIR=../curation/upheno-release
-RELDIR=../curation/upheno-stats ../curation/pattern-matches ../curation/upheno-release
-BUCKETDIR=../curation/s3
-#aws s3 
-# we now use S3 directly
-
-S3_VERSION=2020-05-17
-
-prepare_upload:
-	mkdir -p $(BUCKETDIR)/ 
-	rm -rf $(BUCKETDIR)/*
-	mkdir -p $(BUCKETDIR)/current/ 
-	mkdir -p $(BUCKETDIR)/$(S3_VERSION)/
-	cp -r $(RELDIR) $(BUCKETDIR)/current/
-	cp -r $(RELDIR) $(BUCKETDIR)/$(S3_VERSION)/
-	cp ../curation/upheno_id_map.txt $(BUCKETDIR)/current/
-	cp ../curation/upheno_id_map.txt $(BUCKETDIR)/$(S3_VERSION)/
-
-deploy:
-	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/current s3://bbop-ontologies/upheno/current --acl public-read
-	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/$(S3_VERSION) s3://bbop-ontologies/upheno/$(S3_VERSION) --acl public-read
-
-## Set yourself up for AWS:
-
 
 ## Reports:
 UPHENO_RELEASE_FILE_ANALYSIS=../curation/upheno-release/all/upheno_all_with_relations.owl
@@ -224,3 +132,58 @@ reports/phenotype_trait.sssom.tsv: $(UPHENO_RELEASE_FILE_ANALYSIS)
 	sed -i 's/[?]//g' $@
 	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
 	sed -i 's/>//g' $@
+
+###### uPheno pipeline
+
+upheno:
+	####### Step 1: download sources and match patterns ########
+	$(MAKE) ../curation/pattern-matches/README.md
+
+	####### Step 2: uPheno intermediate layer and species-profiles ########
+	$(MAKE) ../curation/upheno-release/all/upheno_all_with_relations.owl
+
+	####### Step 3: uPheno mappings ########
+	$(MAKE) ../mappings/upheno-species-independent.sssom.tsv
+
+	####### Step 4: uPheno stats ########
+	$(MAKE) ../curation/upheno-stats/pheno_eq_analysis.csv
+
+	####### Step 5: uPheno similarity experiments ########
+	$(MAKE) o sim reports
+	@echo "Release successfully completed, ready to deploy."
+
+
+../curation/pattern-matches/README.md: ../curation/upheno-config.yaml
+	# In this first part of the pipeline, the following steps are executed 
+	# (comprehensive configuration of the pipeline can be found in ../curation/upheno-config.yaml)
+
+	# 1. Download all patterns from a set of specified repositories (see config file 'pattern_repos'.)
+	#    Optionally, pattern fillers can be replaced by owl:Thing, so that logical definitions with unaligned fillers but 
+	#    otherwise matching patterns are considered positive matches
+	# 2. Download all source ontologies (see config file: 'sources')
+	#    Ontologies are merged and converted two OWL using ROBOT.
+	#    For bridge ontologies, a special mode 'xref', allows to try and exploit xrefs directly to construct 
+	#    a subclass-of alignment; these should be replaced by proper alignments over time.
+	# 3. Prepare phenotype ontologies for matching.
+	#    Phenotype ontologies with all their imports (a special imports module) are merged. Taxon restrictions
+	#    are introduced and labels rewritten.
+	# 4. Match patterns: All patterns as downloaded in step 1.1 are matched agains all phenotype ontologies.
+	#    This results in one tsv file with matches per phenotype ontology and pattern.
+	python ../scripts/upheno_prepare.py ../curation/upheno-config.yaml
+
+
+
+../curation/upheno-release/all/upheno_all_with_relations.owl: ../curation/upheno-config.yaml
+	# 1. Extract uPheno fillers from pattern matches (step 1.4). The primary bearer is filled up, 
+	#    i.e. every class between the pattern filler and a particular species specific filler class is instantiated
+	#    (minus a blacklist)
+	# 2. For every profile (config 'upheno_combinations'), create a new directory, then compile all patterns 
+	#    from the previous step using dosdp. Add taxon restrictions 
+	python ../scripts/upheno_create_profiles.py ../curation/upheno-config.yaml
+
+../curation/upheno-stats/pheno_eq_analysis.csv:
+	python ../scripts/upheno-stats.py ../curation/upheno-config.yaml
+
+../mappings/upheno-species-independent.sssom.tsv:
+	python3 ../scripts/upheno_build.py upheno create_species_independent_sssom_mappings --upheno_id_map ../curation/upheno_id_map.txt --patterns_dir ../curation/patterns-for-matching --matches_dir ../curation/pattern-matches --output $@
+
