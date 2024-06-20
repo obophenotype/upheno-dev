@@ -1,6 +1,8 @@
 import click
+import os
 import logging
 from create_sssom import create_upheno_sssom
+from lib import uPhenoConfig, download_patterns as dl_patterns
 
 # Setup logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -45,13 +47,16 @@ def create_species_independent_sssom_mappings(ctx, upheno_id_map, patterns_dir, 
 
 # Subcommand: validate_mappings
 @upheno.command()
-@click.argument('mappings_file')
-@click.option('--report', '-r', default='validation_report.txt', help='Report file for validation')
+@click.option('--upheno-config', help='uPheno config file')
+@click.option('--pattern-directory', help='Pattern directory to download to.')
 @click.pass_context
-def validate_mappings(ctx, mappings_file, report):
+def download_patterns(ctx, upheno_config, pattern_directory):
     """Validate the mappings"""
-    logger.debug(f'Validating mappings in {mappings_file} and writing report to {report}')
-    click.echo('Validating mappings...')
+    logger.debug(f'Download uPheno Patterns to {pattern_directory}.')
+    click.echo('Download uPheno Patterns...')
+    config = uPhenoConfig(upheno_config)
+    exclude_patterns = config.get_exclude_patterns()
+    dl_patterns(config.get_pattern_repos(), pattern_directory, exclude_patterns, config)
 
 # Subcommand: help
 @upheno.command()

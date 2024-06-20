@@ -90,7 +90,7 @@ sources:
   - id: nbo
     mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
   - id: pr
-    mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
+    mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
   - id: go
     mirror_from: http://purl.obolibrary.org/obo/go.owl
   - id: envo
@@ -102,7 +102,7 @@ sources:
   - id: ro
     mirror_from: http://purl.obolibrary.org/obo/ro.owl
   - id: chebi
-    mirror_from: http://purl.obolibrary.org/obo/chebi.owl
+    mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
   - id: hsapdv
     mirror_from: http://purl.obolibrary.org/obo/hsapdv.owl
   - id: pato
@@ -348,10 +348,6 @@ species_modules:
   - mgpo
   - apo
 upheno_profiles:
-  - id: mp-hp
-    species_modules:
-    - mp
-    - hp
   - id: all
     species_modules:
     - mp

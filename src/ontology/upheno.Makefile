@@ -187,3 +187,16 @@ upheno:
 ../mappings/upheno-species-independent.sssom.tsv:
 	python3 ../scripts/upheno_build.py upheno create_species_independent_sssom_mappings --upheno_id_map ../curation/upheno_id_map.txt --patterns_dir ../curation/patterns-for-matching --matches_dir ../curation/pattern-matches --output $@
 
+############################
+###### Components ###########
+############################
+
+$(TEMPLATEDIR)/phenotype-alignments.tsv:
+	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1305526284&single=true&output=tsv" -O $@
+
+$(TEMPLATEDIR)/phenotype-alignments.tsv:
+	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1901003626&single=true&output=tsv" -O $@
+
+$(COMPONENTSDIR)/upheno-species-neutral.owl:
+	$(ROBOT) merge -i ../curation/upheno-release/all/upheno_all_with_relations.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ -o $@

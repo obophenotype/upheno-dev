@@ -140,6 +140,9 @@ http://purl.obolibrary.org/obo/MP_0013723	increased circulating tyrosine level	h
 http://purl.obolibrary.org/obo/MP_0030727	increased circulating valine level	http://purl.obolibrary.org/obo/CHEBI_27266	valine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0012371	increased erythrocyte potassium level	http://purl.obolibrary.org/obo/CHEBI_26216	potassium atom	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0011188	increased erythrocyte protoporphyrin level	http://purl.obolibrary.org/obo/CHEBI_8337	porphyrin	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
+http://purl.obolibrary.org/obo/MP_0014478	increased feces bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt	http://purl.obolibrary.org/obo/UBERON_0001988	feces
+http://purl.obolibrary.org/obo/MP_0014480	increased feces cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0001988	feces
+http://purl.obolibrary.org/obo/MP_0014483	increased feces water content	http://purl.obolibrary.org/obo/CHEBI_15377	water	http://purl.obolibrary.org/obo/UBERON_0001988	feces
 http://purl.obolibrary.org/obo/MP_0020367	increased heart iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0005564	increased hemoglobin content	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0020369	increased intestinal iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
@@ -152,6 +155,7 @@ http://purl.obolibrary.org/obo/MP_0003066	increased liver copper level	http://pu
 http://purl.obolibrary.org/obo/MP_0010400	increased liver glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0008807	increased liver iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0009355	increased liver triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MP_0031632	increased lung cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/MP_0005561	increased mean corpuscular hemoglobin	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/CL_0000595	enucleate erythrocyte
 http://purl.obolibrary.org/obo/MP_0003249	increased muscle free fatty acids level	http://purl.obolibrary.org/obo/CHEBI_35366	fatty acid	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/MP_0031616	increased muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002385	muscle tissue

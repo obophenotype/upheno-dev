@@ -116,6 +116,9 @@ http://purl.obolibrary.org/obo/MP_0008554	decreased circulating tumor necrosis f
 http://purl.obolibrary.org/obo/MP_0013724	decreased circulating tyrosine level	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030728	decreased circulating valine level	http://purl.obolibrary.org/obo/CHEBI_27266	valine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0012370	decreased erythrocyte potassium level	http://purl.obolibrary.org/obo/CHEBI_26216	potassium atom	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
+http://purl.obolibrary.org/obo/MP_0014479	decreased feces bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt	http://purl.obolibrary.org/obo/UBERON_0001988	feces
+http://purl.obolibrary.org/obo/MP_0014481	decreased feces cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0001988	feces
+http://purl.obolibrary.org/obo/MP_0014484	decreased feces water content	http://purl.obolibrary.org/obo/CHEBI_15377	water	http://purl.obolibrary.org/obo/UBERON_0001988	feces
 http://purl.obolibrary.org/obo/MP_0020368	decreased heart iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0002874	decreased hemoglobin content	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0020385	decreased intestinal iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
@@ -127,6 +130,7 @@ http://purl.obolibrary.org/obo/MP_0010026	decreased liver cholesterol level	http
 http://purl.obolibrary.org/obo/MP_0003067	decreased liver copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0008743	decreased liver iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0009356	decreased liver triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MP_0031631	decreased lung cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/MP_0000362	decreased mast cell histamine storage	http://purl.obolibrary.org/obo/CHEBI_18295	histamine	http://purl.obolibrary.org/obo/CL_0000097	mast cell
 http://purl.obolibrary.org/obo/MP_0005562	decreased mean corpuscular hemoglobin	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/CL_0000595	enucleate erythrocyte
 http://purl.obolibrary.org/obo/MP_0031615	decreased muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002385	muscle tissue

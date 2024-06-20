@@ -275,6 +275,7 @@ import_group:
     - id: mpath
 components:
   products:
+    - filename: upheno-species-neutral.owl
     - filename: upheno-deprecated.owl
       use_template: TRUE
       templates:
