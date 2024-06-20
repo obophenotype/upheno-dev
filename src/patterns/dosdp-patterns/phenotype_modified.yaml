@@ -25,6 +25,13 @@ name:
   vars:
    - bearer
    - modifier
+  
+def:
+  text: "A phenotypic effect of %s in %s."
+  vars:
+  - bearer
+  - modifier
+
 
 equivalentTo:
   text: "'has_part' some ('quality' and ('inheres_in_part_of' some %s) and ('has_modifier' some %s))"

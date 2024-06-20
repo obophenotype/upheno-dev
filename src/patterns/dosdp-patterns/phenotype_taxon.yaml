@@ -26,6 +26,12 @@ name:
    - bearer
    - taxon
 
+def:
+  text: "A phenotypic effect related to %s (%s)."
+  vars:
+  - bearer
+  - taxon
+
 equivalentTo:
   text: "'has_part' some ('quality' and ('inheres_in_part_of' some %s) and ('has_upheno_source' some %s))"
   vars:
