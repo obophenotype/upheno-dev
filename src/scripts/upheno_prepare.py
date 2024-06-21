@@ -62,16 +62,12 @@ if upheno_config.is_clean_dir():
     os.makedirs(module_dir)
     shutil.rmtree(stats_dir)
     os.makedirs(stats_dir)
+    shutil.rmtree(pattern_dir)
+    os.makedirs(pattern_dir)
 
 print("### Download patterns ###")
-exclude_patterns = upheno_config.get_exclude_patterns()
-shutil.rmtree(pattern_dir)
-download_patterns(upheno_config.get_pattern_repos(), pattern_dir, exclude_patterns, upheno_config)
-pattern_files = [
-    os.path.join(pattern_dir, f)
-    for f in os.listdir(pattern_dir)
-    if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith(".yaml")
-]
+download_patterns(upheno_config.get_pattern_repos(), pattern_dir, upheno_config)
+
 
 print("### Download sources ###")
 print("ROBOT args: " + os.environ["ROBOT_JAVA_ARGS"])
@@ -99,7 +95,6 @@ prepare_phenotype_ontologies_for_matching(
 print("### Matching phenotype ontologies against uPheno patterns ###")
 match_patterns(
     upheno_config=upheno_config,
-    pattern_files=pattern_files,
     matches_dir=matches_dir,
     pattern_dir=pattern_dir,
     ontology_for_matching_dir=ontology_for_matching_dir,
