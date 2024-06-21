@@ -149,7 +149,7 @@ upheno:
 	$(MAKE) ../curation/upheno-stats/pheno_eq_analysis.csv
 
 	####### Step 5: uPheno similarity experiments ########
-	$(MAKE) o sim reports
+	$(MAKE) o reports
 	@echo "Release successfully completed, ready to deploy."
 
 
