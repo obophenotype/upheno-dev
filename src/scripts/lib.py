@@ -688,7 +688,7 @@ def dosdp_generate_all(pattern_names, data_dir, data_dir_owl, pattern_dir, restr
             "generate",
             "--infile=" + data_dir,
             "--template=" + pattern_dir,
-            "--batch-patterns=" + f"\"{pattern_names_string}\"",
+            "--batch-patterns=" + pattern_names_string,
             "--obo-prefixes=true",
         ]
         if restrict_logical:
@@ -743,8 +743,9 @@ def get_pattern_urls(upheno_pattern_repos):
     return upheno_patterns
 
 
-def download_patterns(upheno_pattern_repos, pattern_dir, exclude_patterns, upheno_config):
+def download_patterns(upheno_pattern_repos, pattern_dir, upheno_config):
     upheno_patterns = get_pattern_urls(upheno_pattern_repos)
+    exclude_patterns = upheno_config.get_exclude_patterns()
     filenames = []
     for url in upheno_patterns:
         filename = os.path.basename(url)
@@ -1416,8 +1417,13 @@ def postprocess_modified_patterns(upheno_config, pattern_files, matches_dir: str
             os.remove(file_path)
 
 
-def match_patterns(upheno_config, pattern_files, matches_dir, pattern_dir, ontology_for_matching_dir, timeout,
+def match_patterns(upheno_config, matches_dir, pattern_dir, ontology_for_matching_dir, timeout,
                    overwrite=True):
+    pattern_files = [
+        os.path.join(pattern_dir, f)
+        for f in os.listdir(pattern_dir)
+        if os.path.isfile(os.path.join(pattern_dir, f)) and f.endswith(".yaml")
+    ]
     patterns = []
     for pattern_path in pattern_files:
         pid = str(os.path.basename(pattern_path).replace(".yaml", ""))
