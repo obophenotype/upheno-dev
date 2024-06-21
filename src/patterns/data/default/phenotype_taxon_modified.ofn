@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont5>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,7 +6,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<urn:unnamed:ontology#ont1>
+Ontology(<urn:unnamed:ontology#ont5>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
@@ -16,13 +16,18 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/UPHENO_9000005>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
+
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0001005> (<http://purl.obolibrary.org/obo/UPHENO_0001005>)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0001005> (abnormal phenotype by ontology source)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0001005> "A phenotypic effect of http://www.w3.org/2002/07/owl#Thing in abnormal (Unified Phenotype Ontology)."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0001005> "abnormal phenotype by ontology source"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/UPHENO_9000005> <http://purl.obolibrary.org/obo/UPHENO_UPHENO>))))
 
 
