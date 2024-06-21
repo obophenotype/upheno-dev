@@ -55,6 +55,6 @@ sh run.sh python3 upheno-stats.py ../curation/upheno-config.yaml
 #docker run -v $PWD/../../:/work -w /work/src/scripts --rm -ti obolibrary/odkfull:v1.5 $RUN_SSSOM
 
 cd ../ontology/
-sh run.sh make o sim reports
+sh run.sh make o reports
 
 echo "Release successfully completed, ready to deploy."
