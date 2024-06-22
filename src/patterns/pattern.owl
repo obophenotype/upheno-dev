@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont1>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -15,7 +15,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml>))
-Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
@@ -33,32 +32,31 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 
 # Class: <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> (phenotype, 'bearer')
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> "A phenotypic effect related to 'bearer'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> "phenotype"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype.yaml> "phenotype, 'bearer'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing))))
 
 # Class: <http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> ('bearer' phenotype, 'modifier')
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> "A phenotypic effect of 'bearer' in 'modifier'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> "phenotype_modified"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> "'bearer' phenotype, 'modifier'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype_modified.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>))))
 
 # Class: <http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> ('bearer' phenotype, 'taxon')
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> "A phenotypic effect related to 'bearer' ('taxon')."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> "phenotype_taxon"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> "'bearer' phenotype, 'taxon'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/UPHENO_9000005> owl:Thing))))
 
 # Class: <http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> ('bearer' phenotype, 'taxon', 'modifier')
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> "A phenotypic effect of 'bearer' in 'modifier' ('taxon')."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> "phenotype_taxon_modified"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> "'bearer' phenotype, 'taxon', 'modifier'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/phenotype_taxon_modified.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/UPHENO_9000005> owl:Thing))))
-
-# Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml> (<http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml>)
-
-AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml> "xrefToSubClass"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/upheno/patterns-dev/xrefToSubClass.yaml> owl:Thing)
 
 # Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> (abnormal 'anatomical entity')
 

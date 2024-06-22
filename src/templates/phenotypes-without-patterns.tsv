@@ -1,3 +1,11 @@
-Ontology ID	Label	Definition	GitHub Issue
-ID	A rdfs:label	A IAO:0000115	AI IAO:0000233
-http://purl.obolibrary.org/obo/UPHENO_3000000	craniofacial or craniocervical phenotype	An abnormal phenotype involving the craniofacial and craniocervical regions, encompassing abnormalities in the head, face, and neck junction.	
+Ontology ID	Label	Parent	Definition	GitHub Issue
+ID	A rdfs:label	SC %	A IAO:0000115	AI IAO:0000233
+UPHENO:3000000	craniofacial/craniocervical phenotype	UPHENO:0001001	An abnormal phenotype involving the craniofacial and craniocervical regions, encompassing abnormalities in the head, face, and neck junction.	
+UPHENO:3000001	embryonic development/birth phenotype	UPHENO:0001001	A phenotype involving the development of the embryo or fetus and conditions present at birth.	
+UPHENO:3000002	mortality/aging phenotype	UPHENO:0001001	A mortality/aging phenotype refers to the observable characteristics and traits associated with both the processes of aging and the factors influencing mortality (death) in an organism. 	
+UPHENO:3000003	neoplasm (phenotype)	UPHENO:0001001		
+UPHENO:3000004	renal/urinary system phenotype	UPHENO:0001001		
+UPHENO:3000005	reproductive system phenotype	UPHENO:0001001		
+UPHENO:3000006	taste/olfaction phenotype	UPHENO:0001001		
+UPHENO:3000007	vision/eye phenotype	UPHENO:0001001		
+UPHENO:3000009	vision/eye phenotype	UPHENO:0001001		

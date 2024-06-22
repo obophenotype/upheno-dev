@@ -40,6 +40,12 @@ $(MAPPING_DIR)/upheno-species-independent.sssom.tsv:
 		--matches_dir ../curation/pattern-matches \
 		--output $@
 
+custom_reports: $(REPORTDIR)/upheno-associated-entities \
+    $(REPORTDIR)/upheno-mapping-all \
+    $(REPORTDIR)/upheno-mapping-lexical \
+    $(REPORTDIR)/upheno-mapping-lexical-template \
+    $(REPORTDIR)/upheno-eq-analysis
+
 ##########################################
 ####### uPheno release artefacts #########
 ##########################################
@@ -126,8 +132,11 @@ upheno_create_profiles: ../curation/upheno-config.yaml
 	test $@
 
 ############################
-###### Components ###########
+###### Components ##########
 ############################
+
+$(TEMPLATEDIR)/phenotypes-without-patterns.tsv:
+	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1901003626&single=true&output=tsv" -O $@
 
 $(TEMPLATEDIR)/phenotype-alignments.tsv:
 	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1305526284&single=true&output=tsv" -O $@
@@ -136,3 +145,16 @@ $(COMPONENTSDIR)/upheno-species-neutral.owl:
 	$(ROBOT) merge -i ../curation/upheno-release-prepare/all/upheno_layer.owl \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
+
+####################################
+###### Import preparation ##########
+####################################
+
+ifeq ($(strip $(MERGE_MIRRORS)),true)
+$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
+	$(ROBOT) merge $(patsubst %, -i %, $^) \
+		remove --axioms disjoint --preserve-structure false remove --term http://www.w3.org/2002/07/owl#Nothing --axioms logical --preserve-structure false \
+		remove -T config/terms_to_remove.txt --preserve-structure false \
+		convert --format ofn --output $@
+.PRECIOUS: $(MIRRORDIR)/merged.owl
+endif

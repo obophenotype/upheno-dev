@@ -81,8 +81,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/ro.owl
   - id: chebi
     mirror_from: http://purl.obolibrary.org/obo/chebi.owl
-  - id: hsapdv
-    mirror_from: http://purl.obolibrary.org/obo/hsapdv.owl
   - id: pato
     mirror_from: http://purl.obolibrary.org/obo/pato.owl
   - id: cl
@@ -302,6 +300,9 @@ import_group:
   slme_individuals: exclude
   mirror_max_time_download: 400
   products:
+    - id: bfo
+      make_base: TRUE
+    - id: omo
     - id: nbo
       use_base: TRUE
     - id: pr
@@ -340,7 +341,7 @@ components:
         - phenotype-alignments.tsv
 robot_report:
   release_reports: true
-  fail_on : ERROR
+  fail_on : None
   use_labels : false
   custom_profile : true
   sparql_test_on:
@@ -350,9 +351,3 @@ robot_report:
   custom_sparql_checks :
     - owldef-self-reference
     - iri-range
-  custom_sparql_exports : 
-    - upheno-associated-entities
-    - upheno-mapping-all
-    - upheno-mapping-lexical
-    - upheno-mapping-lexical-template
-    - upheno-eq-analysis

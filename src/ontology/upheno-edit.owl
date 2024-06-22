@@ -4,23 +4,17 @@ Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/upheno.owl>
-Import(<http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/imports/merged_import.owl>)
-Annotation(rdfs:comment "uPheno Dev")
+Import(<http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-species-neutral.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl>)
 
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_00000000>))
-
-
-############################
-#   Classes
-############################
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_00000000> (upheno)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_00000000> "upheno"@en)
-
+Annotation(dcterms:description "The Unified Phenotype Ontology (uPheno) is an ontology that integrates other species-specific phenotype ontology.")
+Annotation(dcterms:title "Unified Phenotype Ontology (uPheno)")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
 
 )

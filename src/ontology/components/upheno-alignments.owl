@@ -71,6 +71,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0005394>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0005397>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0010768>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0010771>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002642>))
@@ -103,8 +104,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000007>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000009>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 
@@ -131,11 +133,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0000223> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000478> (<http://purl.obolibrary.org/obo/HP_0000478>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/HP_0000478> <http://purl.obolibrary.org/obo/UPHENO_3000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0000478> <http://purl.obolibrary.org/obo/UPHENO_3000007>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000504> (<http://purl.obolibrary.org/obo/HP_0000504>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/HP_0000504> <http://purl.obolibrary.org/obo/UPHENO_3000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0000504> <http://purl.obolibrary.org/obo/UPHENO_3000007>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000598> (<http://purl.obolibrary.org/obo/HP_0000598>)
 
@@ -263,7 +265,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004733> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0005367> (<http://purl.obolibrary.org/obo/MP_0005367>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0005367> <http://purl.obolibrary.org/obo/UPHENO_3000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0005367> <http://purl.obolibrary.org/obo/UPHENO_3000004>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0005369> (<http://purl.obolibrary.org/obo/MP_0005369>)
 
@@ -339,7 +341,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0005390> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0005391> (<http://purl.obolibrary.org/obo/MP_0005391>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0005391> <http://purl.obolibrary.org/obo/UPHENO_3000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0005391> <http://purl.obolibrary.org/obo/UPHENO_3000007>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0005394> (<http://purl.obolibrary.org/obo/MP_0005394>)
 
@@ -365,10 +367,53 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0078688> <http://purl.obolibra
 
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0078689> <http://purl.obolibrary.org/obo/UPHENO_3000007>)
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_3000000> (craniofacial or craniocervical phenotype)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000000> (craniofacial/craniocervical phenotype)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000000> "An abnormal phenotype involving the craniofacial and craniocervical regions, encompassing abnormalities in the head, face, and neck junction.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000000> "craniofacial or craniocervical phenotype")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000000> "craniofacial/craniocervical phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000000> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000001> (embryonic development/birth phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000001> "A phenotype involving the development of the embryo or fetus and conditions present at birth.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000001> "embryonic development/birth phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000001> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000002> (mortality/aging phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000002> "A mortality/aging phenotype refers to the observable characteristics and traits associated with both the processes of aging and the factors influencing mortality (death) in an organism. ")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000002> "mortality/aging phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000002> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000003> (neoplasm (phenotype))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000003> "neoplasm (phenotype)")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000003> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000004> (renal/urinary system phenotype)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000004> "renal/urinary system phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000005> (reproductive system phenotype)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000005> "reproductive system phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000005> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000006> (taste/olfaction phenotype)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000006> "taste/olfaction phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000007> (vision/eye phenotype)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000007> "vision/eye phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000007> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000009> (vision/eye phenotype)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000009> "vision/eye phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000009> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 
 )

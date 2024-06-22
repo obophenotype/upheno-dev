@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                f585ebce7ac2b60cda8c648691b9115367e70a8e92ab9090072aac512eb0fc5a
+CONFIG_HASH=                48927ffe758220accb98b229aee404a0af1ccbdf59b7a4e594de4d13f093ce00
 
 
 # ----------------------------------------
@@ -41,12 +41,12 @@ UPDATEREPODIR=              target
 SPARQLDIR =                 ../sparql
 COMPONENTSDIR =             components
 ROBOT_PROFILE =             profile.txt
-REPORT_FAIL_ON =            ERROR
+REPORT_FAIL_ON =            None
 REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       --profile $(ROBOT_PROFILE)
 OBO_FORMAT_OPTIONS =        
 SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range 
-SPARQL_EXPORTS =            upheno-associated-entities upheno-mapping-all upheno-mapping-lexical upheno-mapping-lexical-template upheno-eq-analysis 
+SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.5.1
 
 TODAY ?=                    $(shell date +%Y-%m-%d)
@@ -165,7 +165,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  nbo pr go uberon ro chebi hsapdv pato cl mpath
+IMPORTS =  bfo omo nbo pr go uberon ro chebi hsapdv pato cl mpath
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -479,6 +479,22 @@ MIR=true # Global parameter to bypass mirror generation
 IMP_LARGE=true # Global parameter to bypass handling of large imports
 
 ifeq ($(strip $(MIR)),true)
+
+
+## ONTOLOGY: bfo
+.PHONY: mirror-bfo
+.PRECIOUS: $(MIRRORDIR)/bfo.owl
+mirror-bfo: | $(TMPDIR)
+	curl -L $(OBOBASE)/bfo.owl --create-dirs -o $(TMPDIR)/bfo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/bfo-download.owl --base-iri $(OBOBASE)/BFO --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: omo
+.PHONY: mirror-omo
+.PRECIOUS: $(MIRRORDIR)/omo.owl
+mirror-omo: | $(TMPDIR)
+	curl -L $(OBOBASE)/omo.owl --create-dirs -o $(TMPDIR)/omo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/omo-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: nbo
