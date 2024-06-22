@@ -1,2 +1,10 @@
 http://purl.obolibrary.org/obo/BSPO_0000098
 http://purl.obolibrary.org/obo/GO_0051024
+http://purl.obolibrary.org/obo/GO_0071310
+http://purl.obolibrary.org/obo/GO_0080111
+http://purl.obolibrary.org/obo/GO_0042133
+http://purl.obolibrary.org/obo/GO_0006807
+http://purl.obolibrary.org/obo/GO_0000003
+http://purl.obolibrary.org/obo/GO_0090242
+http://purl.obolibrary.org/obo/GO_0097224
+http://purl.obolibrary.org/obo/GO_0051024
