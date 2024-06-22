@@ -12,18 +12,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-
-
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0001001> (phenotype)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0001001> (<http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0001001> "A phenotypic effect related to http://www.w3.org/2002/07/owl#Thing."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0001001> "phenotype"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing))))
 
 

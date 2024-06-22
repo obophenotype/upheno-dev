@@ -1509,3 +1509,41 @@ def download_sources(module_dir, upheno_config, xref_pattern, robot_opts, timeou
                             sparql_dir=sparql_dir)
             print("%s compiled successfully through xrefs." % filename)
             upheno_config.set_path_for_ontology(oid, filename)
+
+
+def get_all_phenotypes(upheno_config, stats_dir):
+    phenotypes = []
+    for oid in upheno_config.get_phenotype_ontologies():
+        phenotype_class_metadata = os.path.join(stats_dir, oid + "_phenotype_data.csv")
+        if os.path.exists(phenotype_class_metadata):
+            try:
+                df = pd.read_csv(phenotype_class_metadata)
+                df["o"] = oid
+                phenotypes.append(df)
+            except:
+                print("{} could not be loaded..".format(phenotype_class_metadata))
+        else:
+            print("{} does not exist!".format(phenotype_class_metadata))
+    return pd.concat(phenotypes)
+
+def compute_upheno_stats(upheno_config, pattern_dir, matches_dir, stats_dir):
+    defined = get_defined_phenotypes(upheno_config, pattern_dir, matches_dir)
+    df_pheno = get_all_phenotypes(upheno_config, stats_dir)
+    df_pheno["upheno"] = df_pheno["s"].isin(defined)
+    df_pheno["eq"] = df_pheno["ldef"].notna()
+    df_pheno.drop_duplicates(inplace=True)
+    
+    print("Summary: ")
+    print(df_pheno.head())
+    print(df_pheno.describe())
+    print("")
+    print("How many uPheno conformant classes?")
+    print(df_pheno[["s", "upheno"]].groupby("upheno").count())
+    print("")
+    print("How many classes with EQs?")
+    print(df_pheno[["s", "eq"]].groupby("eq").count())
+    print("")
+    print("How many uPheno conformant classes that do not have EQs (bug!!)?")
+    print(df_pheno[df_pheno["upheno"] & (~df_pheno["eq"])])
+    print(df_pheno[df_pheno["upheno"]][["s", "eq"]].groupby("eq").count())
+    df_pheno.to_csv(os.path.join(stats_dir, "upheno-eq-analysis.csv"))

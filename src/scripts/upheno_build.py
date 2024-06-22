@@ -2,7 +2,7 @@ import click
 import os
 import logging
 from create_sssom import create_upheno_sssom
-from lib import uPhenoConfig, download_patterns as dl_patterns
+from lib import uPhenoConfig, download_patterns as dl_patterns, compute_upheno_stats
 
 # Setup logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -57,6 +57,29 @@ def download_patterns(ctx, upheno_config, pattern_directory):
     config = uPhenoConfig(upheno_config)
     exclude_patterns = config.get_exclude_patterns()
     dl_patterns(config.get_pattern_repos(), pattern_directory, exclude_patterns, config)
+
+
+@upheno.command()
+@click.option('--upheno-config', help='uPheno config file')
+@click.option('--pattern-directory', help='Pattern directory to download to.')
+@click.option('--stats-directory', help='Pattern directory to download to.')
+@click.option('--matches-directory', help='Pattern directory to download to.')
+@click.pass_context
+def compute_upheno_statistics(ctx, upheno_config, pattern_directory, stats_directory, matches_directory):
+    """Validate the mappings"""
+    logger.debug(f'Download uPheno Patterns to {pattern_directory}.')
+    click.echo('Download uPheno Patterns...')
+    upheno_config = uPhenoConfig(upheno_config)
+    os.environ["ROBOT_JAVA_ARGS"] = upheno_config.get_robot_java_args()
+
+    TIMEOUT = str(upheno_config.get_external_timeout())
+    robot_opts = upheno_config.get_robot_opts()
+
+    compute_upheno_stats(upheno_config, pattern_directory, stats_directory, matches_directory, robot_opts, TIMEOUT)
+
+
+
+
 
 # Subcommand: help
 @upheno.command()

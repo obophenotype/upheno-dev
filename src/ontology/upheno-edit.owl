@@ -8,13 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/upheno.owl>
 Import(<http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/imports/wbbt_import.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/imports/plana_import.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/imports/xao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/imports/zfa_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/merged_import.owl>)
 Annotation(rdfs:comment "uPheno Dev")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_00000000>))
