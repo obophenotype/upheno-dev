@@ -148,7 +148,6 @@ src/curation/s3/
 src/curation/s3/hp/abnormalDegenerationOfAnatomicalEntity.tsv
 src/curation/tmp/
 src/curation/upheno-fillers-no-id/
-src/curation/upheno-fillers/
 src/curation/upheno-profiles/
 src/curation/upheno-release-prepare/
 src/curation/upheno-release/
