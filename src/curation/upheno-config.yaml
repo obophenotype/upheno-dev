@@ -11,14 +11,14 @@ java_opts: -Xmx30G
 timeout_external_processes: 500m
 working_directory: /work/src
 overwrite_matches: True
+overwrite_ontologies: True
+overwrite_upheno_intermediate: True
+upheno_id_map: ../curation/upheno_id_map.txt
 skip_pattern_download: False
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: True
-overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
-upheno_id_map: ../curation/upheno_id_map.txt
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
 clean: False
 upheno_intermediate_layer_depth: 0
