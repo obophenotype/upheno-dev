@@ -1,7 +1,15 @@
 import click
 import os
 import logging
-from lib import uPhenoConfig, download_patterns as dl_patterns, compute_upheno_stats, create_upheno_sssom
+import pandas as pd
+from lib import (
+    uPhenoConfig,
+    download_patterns as dl_patterns,
+    compute_upheno_stats,
+    create_upheno_sssom,
+    get_highest_id,
+    add_upheno_ids_to_fillers_and_filter_out_bfo
+)
 
 # Setup logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -24,12 +32,40 @@ def upheno(ctx, verbose):
 
 # Subcommand: prepare_patterns
 @upheno.command()
-@click.argument('pattern_dir')
-@click.option('--output', '-o', default='patterns_output.txt', help='Output file for patterns')
-def prepare_patterns(pattern_dir, output):
+@click.option('--patterns-directory', help='Output file for SSSOM')
+@click.option('--fillers-directory')
+@click.option('--tmp-directory')
+@click.option('--upheno-config', help='uPheno config file')
+def add_upheno_ids_to_fillers(patterns_directory, fillers_directory, tmp_directory, upheno_config):
     """Prepare pattern files for upheno"""
-    logger.debug(f'Preparing patterns from {pattern_dir} and writing to {output}')
-    click.echo('Preparing patterns...')
+    logger.debug(f'Adding uPheno IDs to fillers and writing to {fillers_directory}')
+    click.echo('Adding uPheno IDs to fillers...')
+    config = uPhenoConfig(upheno_config)
+    upheno_prefix = "http://purl.obolibrary.org/obo/UPHENO_"
+    upheno_map = pd.read_csv(config.get_upheno_id_map(), sep="\t")
+    minid = config.get_min_upheno_id()
+    maxid = config.get_max_upheno_id()
+    startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
+
+    blacklisted_upheno_ids_path = os.path.join(tmp_directory, "blacklisted_upheno_iris.txt")
+
+    if startid < minid:
+        startid = minid
+
+    print(f"Starting ID: {startid}")
+
+    # Do not use these Upheno IDs
+    with open(blacklisted_upheno_ids_path) as f:
+        blacklisted_upheno_ids = f.read().splitlines()
+
+    add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir=patterns_directory,
+                                                 upheno_map=upheno_map,
+                                                 blacklisted_upheno_ids=blacklisted_upheno_ids,
+                                                 maxid=maxid,
+                                                 startid=startid,
+                                                 upheno_config=config,
+                                                 upheno_fillers_dir=fillers_directory,
+                                                 upheno_prefix=upheno_prefix)
 
 
 # Subcommand: create_sssom
