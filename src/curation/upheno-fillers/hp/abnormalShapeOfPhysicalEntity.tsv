@@ -1,0 +1,11 @@
+entity	defined_class
+http://purl.obolibrary.org/obo/GO_0005739	http://purl.obolibrary.org/obo/UPHENO_0005993
+http://purl.obolibrary.org/obo/UBERON_0001870	http://purl.obolibrary.org/obo/UPHENO_0005994
+http://purl.obolibrary.org/obo/UBERON_0001819	http://purl.obolibrary.org/obo/UPHENO_0005995
+http://purl.obolibrary.org/obo/BFO_0000002	http://purl.obolibrary.org/obo/UPHENO_0080300
+http://purl.obolibrary.org/obo/UBERON_0001676	http://purl.obolibrary.org/obo/UPHENO_0005996
+http://purl.obolibrary.org/obo/UBERON_0000965	http://purl.obolibrary.org/obo/UPHENO_0005997
+http://purl.obolibrary.org/obo/CL_0000233	http://purl.obolibrary.org/obo/UPHENO_0005985
+http://purl.obolibrary.org/obo/UBERON_0000964	http://purl.obolibrary.org/obo/UPHENO_0005998
+http://purl.obolibrary.org/obo/UBERON_0001691	http://purl.obolibrary.org/obo/UPHENO_0005986
+http://purl.obolibrary.org/obo/CL_0000232	http://purl.obolibrary.org/obo/UPHENO_0005987

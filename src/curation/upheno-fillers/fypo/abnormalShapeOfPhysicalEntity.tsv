@@ -1,0 +1,4 @@
+entity	defined_class
+http://purl.obolibrary.org/obo/BFO_0000002	http://purl.obolibrary.org/obo/UPHENO_0080300
+http://purl.obolibrary.org/obo/CL_0000521	http://purl.obolibrary.org/obo/UPHENO_0080301
+http://purl.obolibrary.org/obo/CL_0000596	http://purl.obolibrary.org/obo/UPHENO_0080302
