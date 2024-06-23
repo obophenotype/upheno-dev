@@ -30,7 +30,7 @@ http://purl.obolibrary.org/obo/GO_1900534	http://purl.obolibrary.org/obo/UPHENO_
 http://purl.obolibrary.org/obo/GO_0061502	http://purl.obolibrary.org/obo/UPHENO_0077468
 http://purl.obolibrary.org/obo/GO_0016203	http://purl.obolibrary.org/obo/UPHENO_0077469
 http://purl.obolibrary.org/obo/GO_0061744	http://purl.obolibrary.org/obo/UPHENO_0077470
-http://purl.obolibrary.org/obo/GO_0021923	http://purl.obolibrary.org/obo/UPHENO_0089850
+http://purl.obolibrary.org/obo/GO_0021923	http://purl.obolibrary.org/obo/UPHENO_0089315
 http://purl.obolibrary.org/obo/GO_0071425	http://purl.obolibrary.org/obo/UPHENO_0077474
 http://purl.obolibrary.org/obo/GO_0051923	http://purl.obolibrary.org/obo/UPHENO_0077475
 http://purl.obolibrary.org/obo/GO_0007529	http://purl.obolibrary.org/obo/UPHENO_0077476
@@ -193,7 +193,7 @@ http://purl.obolibrary.org/obo/GO_0006915	http://purl.obolibrary.org/obo/UPHENO_
 http://purl.obolibrary.org/obo/GO_0033278	http://purl.obolibrary.org/obo/UPHENO_0077776
 http://purl.obolibrary.org/obo/GO_0048384	http://purl.obolibrary.org/obo/UPHENO_0077781
 http://purl.obolibrary.org/obo/GO_0060030	http://purl.obolibrary.org/obo/UPHENO_0077783
-http://purl.obolibrary.org/obo/GO_0060395	http://purl.obolibrary.org/obo/UPHENO_0089851
+http://purl.obolibrary.org/obo/GO_0060395	http://purl.obolibrary.org/obo/UPHENO_0089316
 http://purl.obolibrary.org/obo/GO_0061484	http://purl.obolibrary.org/obo/UPHENO_0084248
 http://purl.obolibrary.org/obo/GO_0009060	http://purl.obolibrary.org/obo/UPHENO_0082848
 http://purl.obolibrary.org/obo/GO_0060038	http://purl.obolibrary.org/obo/UPHENO_0077789
@@ -205,7 +205,7 @@ http://purl.obolibrary.org/obo/GO_0072378	http://purl.obolibrary.org/obo/UPHENO_
 http://purl.obolibrary.org/obo/GO_0072019	http://purl.obolibrary.org/obo/UPHENO_0084249
 http://purl.obolibrary.org/obo/GO_0006909	http://purl.obolibrary.org/obo/UPHENO_0077798
 http://purl.obolibrary.org/obo/GO_0001881	http://purl.obolibrary.org/obo/UPHENO_0077435
-http://purl.obolibrary.org/obo/GO_0097222	http://purl.obolibrary.org/obo/UPHENO_0089852
+http://purl.obolibrary.org/obo/GO_0097222	http://purl.obolibrary.org/obo/UPHENO_0089317
 http://purl.obolibrary.org/obo/GO_0061053	http://purl.obolibrary.org/obo/UPHENO_0077440
 http://purl.obolibrary.org/obo/GO_0040011	http://purl.obolibrary.org/obo/UPHENO_0077444
 http://purl.obolibrary.org/obo/GO_0042552	http://purl.obolibrary.org/obo/UPHENO_0084250
@@ -250,7 +250,7 @@ http://purl.obolibrary.org/obo/GO_0042476	http://purl.obolibrary.org/obo/UPHENO_
 http://purl.obolibrary.org/obo/GO_0009566	http://purl.obolibrary.org/obo/UPHENO_0077515
 http://purl.obolibrary.org/obo/GO_0046956	http://purl.obolibrary.org/obo/UPHENO_0077516
 http://purl.obolibrary.org/obo/GO_0042119	http://purl.obolibrary.org/obo/UPHENO_0077517
-http://purl.obolibrary.org/obo/GO_0046959	http://purl.obolibrary.org/obo/UPHENO_0089853
+http://purl.obolibrary.org/obo/GO_0046959	http://purl.obolibrary.org/obo/UPHENO_0089318
 http://purl.obolibrary.org/obo/GO_0001966	http://purl.obolibrary.org/obo/UPHENO_0077520
 http://purl.obolibrary.org/obo/GO_0030261	http://purl.obolibrary.org/obo/UPHENO_0077521
 http://purl.obolibrary.org/obo/GO_0007259	http://purl.obolibrary.org/obo/UPHENO_0077526
@@ -294,11 +294,11 @@ http://purl.obolibrary.org/obo/GO_0035988	http://purl.obolibrary.org/obo/UPHENO_
 http://purl.obolibrary.org/obo/GO_0043410	http://purl.obolibrary.org/obo/UPHENO_0084254
 http://purl.obolibrary.org/obo/GO_0008366	http://purl.obolibrary.org/obo/UPHENO_0077587
 http://purl.obolibrary.org/obo/GO_0097150	http://purl.obolibrary.org/obo/UPHENO_0077590
-http://purl.obolibrary.org/obo/GO_0043414	http://purl.obolibrary.org/obo/UPHENO_0089854
+http://purl.obolibrary.org/obo/GO_0043414	http://purl.obolibrary.org/obo/UPHENO_0089319
 http://purl.obolibrary.org/obo/GO_0035987	http://purl.obolibrary.org/obo/UPHENO_0077591
 http://purl.obolibrary.org/obo/GO_0007283	http://purl.obolibrary.org/obo/UPHENO_0077595
 http://purl.obolibrary.org/obo/GO_0090402	http://purl.obolibrary.org/obo/UPHENO_0077597
-http://purl.obolibrary.org/obo/GO_0033687	http://purl.obolibrary.org/obo/UPHENO_0089855
+http://purl.obolibrary.org/obo/GO_0033687	http://purl.obolibrary.org/obo/UPHENO_0089320
 http://purl.obolibrary.org/obo/GO_0031146	http://purl.obolibrary.org/obo/UPHENO_0077601
 http://purl.obolibrary.org/obo/GO_0048932	http://purl.obolibrary.org/obo/UPHENO_0077604
 http://purl.obolibrary.org/obo/GO_0048933	http://purl.obolibrary.org/obo/UPHENO_0077607
@@ -325,12 +325,12 @@ http://purl.obolibrary.org/obo/GO_0048922	http://purl.obolibrary.org/obo/UPHENO_
 http://purl.obolibrary.org/obo/GO_0007219	http://purl.obolibrary.org/obo/UPHENO_0077637
 http://purl.obolibrary.org/obo/GO_0006121	http://purl.obolibrary.org/obo/UPHENO_0084255
 http://purl.obolibrary.org/obo/GO_0003094	http://purl.obolibrary.org/obo/UPHENO_0077639
-http://purl.obolibrary.org/obo/GO_0006120	http://purl.obolibrary.org/obo/UPHENO_0089856
+http://purl.obolibrary.org/obo/GO_0006120	http://purl.obolibrary.org/obo/UPHENO_0089321
 http://purl.obolibrary.org/obo/GO_0043473	http://purl.obolibrary.org/obo/UPHENO_0077640
 http://purl.obolibrary.org/obo/GO_0006487	http://purl.obolibrary.org/obo/UPHENO_0077642
 http://purl.obolibrary.org/obo/GO_0006123	http://purl.obolibrary.org/obo/UPHENO_0084256
 http://purl.obolibrary.org/obo/GO_0006486	http://purl.obolibrary.org/obo/UPHENO_0085184
-http://purl.obolibrary.org/obo/GO_0006122	http://purl.obolibrary.org/obo/UPHENO_0089857
+http://purl.obolibrary.org/obo/GO_0006122	http://purl.obolibrary.org/obo/UPHENO_0089322
 http://purl.obolibrary.org/obo/GO_0043478	http://purl.obolibrary.org/obo/UPHENO_0077643
 http://purl.obolibrary.org/obo/GO_0030593	http://purl.obolibrary.org/obo/UPHENO_0077645
 http://purl.obolibrary.org/obo/GO_0021529	http://purl.obolibrary.org/obo/UPHENO_0077647
@@ -364,7 +364,7 @@ http://purl.obolibrary.org/obo/GO_0007596	http://purl.obolibrary.org/obo/UPHENO_
 http://purl.obolibrary.org/obo/GO_0042246	http://purl.obolibrary.org/obo/UPHENO_0077689
 http://purl.obolibrary.org/obo/GO_0046847	http://purl.obolibrary.org/obo/UPHENO_0077690
 http://purl.obolibrary.org/obo/GO_0035701	http://purl.obolibrary.org/obo/UPHENO_0077692
-http://purl.obolibrary.org/obo/GO_0071929	http://purl.obolibrary.org/obo/UPHENO_0089858
+http://purl.obolibrary.org/obo/GO_0071929	http://purl.obolibrary.org/obo/UPHENO_0089323
 http://purl.obolibrary.org/obo/GO_0046849	http://purl.obolibrary.org/obo/UPHENO_0084258
 http://purl.obolibrary.org/obo/GO_0009652	http://purl.obolibrary.org/obo/UPHENO_0077693
 http://purl.obolibrary.org/obo/GO_0001935	http://purl.obolibrary.org/obo/UPHENO_0077699
