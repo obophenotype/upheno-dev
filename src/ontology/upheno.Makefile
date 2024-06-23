@@ -158,3 +158,11 @@ $(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
 		convert --format ofn --output $@
 .PRECIOUS: $(MIRRORDIR)/merged.owl
 endif
+
+
+debug_fillers:
+	python3 ../scripts/upheno_build.py add-upheno-ids-to-fillers \
+		--upheno-config ../curation/upheno-config.yaml \
+		--patterns-directory ../curation/patterns-for-matching \
+		--fillers-directory ../curation/upheno-fillers \
+		--tmp-directory ../curation/tmp
