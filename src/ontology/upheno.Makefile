@@ -129,7 +129,7 @@ upheno_create_profiles: ../curation/upheno-config.yaml
 	# 2. For every profile (config 'upheno_combinations'), create a new directory, then compile all patterns 
 	#    from the previous step using dosdp. Add taxon restrictions 
 	python ../scripts/upheno_create_profiles.py ../curation/upheno-config.yaml
-	test $@
+	test -f ../curation/curation/upheno-release-prepare/all/upheno_layer.owl
 
 ############################
 ###### Components ##########
@@ -142,7 +142,7 @@ $(TEMPLATEDIR)/phenotype-alignments.tsv:
 	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1305526284&single=true&output=tsv" -O $@
 
 $(COMPONENTSDIR)/upheno-species-neutral.owl:
-	$(ROBOT) merge -i ../curation/upheno-release-prepare/all/upheno_layer.owl \
+	$(ROBOT) merge -i ../curation/curation/upheno-release-prepare/all/upheno_layer.owl \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
