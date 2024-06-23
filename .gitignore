@@ -154,7 +154,6 @@ src/curation/upheno-release-prepare/
 src/curation/upheno-release/
 src/curation/upheno-stats/
 src/curation/upheno-stats2/
-src/curation/upheno_id_map.txt
 src/curation/upheno_release/all/upheno_old_metazoa.owl
 src/ontology/AWSCLIV2.pkg
 src/ontology/archive/inferred_ontology.owl
