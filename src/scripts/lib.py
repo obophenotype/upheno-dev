@@ -1163,6 +1163,7 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(
 
                     # Update the highest id from the last runs
                     startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
+                    startid = startid + 1
 
                     if startid < minid:
                         startid = minid
@@ -1181,6 +1182,8 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(
                         df = df[~df["location"].str.startswith("http://purl.obolibrary.org/obo/BFO_")]
                     # noinspection PyTypeChecker
                     df.to_csv(tsv, sep="\t", index=False)
+
+    return upheno_map
 
 
 def replace_owl_thing_in_tsvs(pattern_dir, upheno_config, upheno_fillers_dir):
@@ -1760,12 +1763,13 @@ def compute_upheno_fillers(
                                               legal_pattern_vars_path=legal_pattern_vars_path,
                                               timeout=timeout)
 
-    add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir=original_pattern_dir,
-                                                 upheno_map=upheno_map,
-                                                 blacklisted_upheno_ids=blacklisted_upheno_ids,
-                                                 upheno_config=upheno_config,
-                                                 upheno_fillers_dir=upheno_fillers_dir,
-                                                 upheno_prefix=upheno_prefix)
+    upheno_map = add_upheno_ids_to_fillers_and_filter_out_bfo(
+         pattern_dir=original_pattern_dir,
+         upheno_map=upheno_map,
+         blacklisted_upheno_ids=blacklisted_upheno_ids,
+         upheno_config=upheno_config,
+         upheno_fillers_dir=upheno_fillers_dir,
+         upheno_prefix=upheno_prefix)
     upheno_map = upheno_map.drop_duplicates()
     upheno_map.sort_values("defined_class", inplace=True)
     upheno_map.to_csv(upheno_id_map, sep="\t", index=False)

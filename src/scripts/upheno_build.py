@@ -49,7 +49,7 @@ def add_upheno_ids_to_fillers(patterns_directory, fillers_directory, tmp_directo
     with open(blacklisted_upheno_ids_path) as f:
         blacklisted_upheno_ids = f.read().splitlines()
 
-    add_upheno_ids_to_fillers_and_filter_out_bfo(
+    upheno_map = add_upheno_ids_to_fillers_and_filter_out_bfo(
             pattern_dir=patterns_directory,
             upheno_map=upheno_map,
             blacklisted_upheno_ids=blacklisted_upheno_ids,
