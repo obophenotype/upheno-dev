@@ -1,9 +1,9 @@
 anatomical_entity	location	defined_class
-http://purl.obolibrary.org/obo/GO_0005811	http://purl.obolibrary.org/obo/UBERON_0001348	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/GO_0005811	http://purl.obolibrary.org/obo/UBERON_0001348	http://purl.obolibrary.org/obo/UPHENO_0088495
 http://purl.obolibrary.org/obo/UBERON_0001232	http://purl.obolibrary.org/obo/UBERON_0002113	http://purl.obolibrary.org/obo/UPHENO_0006907
-http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UBERON_0001348	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UBERON_0001348	http://purl.obolibrary.org/obo/UPHENO_0088496
 http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UBERON_0002113	http://purl.obolibrary.org/obo/UPHENO_0006911
-http://purl.obolibrary.org/obo/CL_0000763	http://purl.obolibrary.org/obo/UBERON_0002371	http://purl.obolibrary.org/obo/UPHENO_0084757
-http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UBERON_0015813	http://purl.obolibrary.org/obo/UPHENO_0084757
-http://purl.obolibrary.org/obo/CL_0000160	http://purl.obolibrary.org/obo/UBERON_0015813	http://purl.obolibrary.org/obo/UPHENO_0084757
-http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UBERON_0002371	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/CL_0000763	http://purl.obolibrary.org/obo/UBERON_0002371	http://purl.obolibrary.org/obo/UPHENO_0085404
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UBERON_0015813	http://purl.obolibrary.org/obo/UPHENO_0085406
+http://purl.obolibrary.org/obo/CL_0000160	http://purl.obolibrary.org/obo/UBERON_0015813	http://purl.obolibrary.org/obo/UPHENO_0085408
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UBERON_0002371	http://purl.obolibrary.org/obo/UPHENO_0085409

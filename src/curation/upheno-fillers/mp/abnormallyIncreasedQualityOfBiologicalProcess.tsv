@@ -1,11 +1,11 @@
 biological_process	defined_class
 http://purl.obolibrary.org/obo/NBO_0001987	http://purl.obolibrary.org/obo/UPHENO_0080661
 http://purl.obolibrary.org/obo/GO_0043403	http://purl.obolibrary.org/obo/UPHENO_0083259
-http://purl.obolibrary.org/obo/GO_0040038	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/GO_0040038	http://purl.obolibrary.org/obo/UPHENO_0089307
 http://purl.obolibrary.org/obo/GO_0097421	http://purl.obolibrary.org/obo/UPHENO_0080720
-http://purl.obolibrary.org/obo/GO_0030317	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/GO_0030317	http://purl.obolibrary.org/obo/UPHENO_0084777
 http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/UPHENO_0080662
 http://purl.obolibrary.org/obo/GO_0061026	http://purl.obolibrary.org/obo/UPHENO_0080742
-http://purl.obolibrary.org/obo/GO_0042628	http://purl.obolibrary.org/obo/UPHENO_0084757
-http://purl.obolibrary.org/obo/GO_0044321	http://purl.obolibrary.org/obo/UPHENO_0084757
-http://purl.obolibrary.org/obo/GO_0007056	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/GO_0042628	http://purl.obolibrary.org/obo/UPHENO_0089308
+http://purl.obolibrary.org/obo/GO_0044321	http://purl.obolibrary.org/obo/UPHENO_0089309
+http://purl.obolibrary.org/obo/GO_0007056	http://purl.obolibrary.org/obo/UPHENO_0089310

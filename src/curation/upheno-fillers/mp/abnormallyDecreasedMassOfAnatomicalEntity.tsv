@@ -1,13 +1,13 @@
 anatomical_entity	defined_class
 http://purl.obolibrary.org/obo/UBERON_0010414	http://purl.obolibrary.org/obo/UPHENO_0082743
 http://purl.obolibrary.org/obo/UBERON_0002084	http://purl.obolibrary.org/obo/UPHENO_0082744
-http://purl.obolibrary.org/obo/CL_0000000	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/CL_0000000	http://purl.obolibrary.org/obo/UPHENO_0086388
 http://purl.obolibrary.org/obo/UBERON_0010412	http://purl.obolibrary.org/obo/UPHENO_0082745
 http://purl.obolibrary.org/obo/UBERON_0002483	http://purl.obolibrary.org/obo/UPHENO_0082746
 http://purl.obolibrary.org/obo/UBERON_0010413	http://purl.obolibrary.org/obo/UPHENO_0082747
 http://purl.obolibrary.org/obo/UBERON_0002240	http://purl.obolibrary.org/obo/UPHENO_0082748
 http://purl.obolibrary.org/obo/UBERON_0002080	http://purl.obolibrary.org/obo/UPHENO_0082749
-http://purl.obolibrary.org/obo/CL_0000169	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/CL_0000169	http://purl.obolibrary.org/obo/UPHENO_0086389
 http://purl.obolibrary.org/obo/UBERON_0000981	http://purl.obolibrary.org/obo/UPHENO_0082750
 http://purl.obolibrary.org/obo/UBERON_0002048	http://purl.obolibrary.org/obo/UPHENO_0082751
 http://purl.obolibrary.org/obo/UBERON_0001630	http://purl.obolibrary.org/obo/UPHENO_0082752
@@ -27,7 +27,7 @@ http://purl.obolibrary.org/obo/UBERON_0001388	http://purl.obolibrary.org/obo/UPH
 http://purl.obolibrary.org/obo/UBERON_0001347	http://purl.obolibrary.org/obo/UPHENO_0082765
 http://purl.obolibrary.org/obo/UBERON_0002078	http://purl.obolibrary.org/obo/UPHENO_0082766
 http://purl.obolibrary.org/obo/UBERON_0001264	http://purl.obolibrary.org/obo/UPHENO_0082767
-http://purl.obolibrary.org/obo/CL_0000171	http://purl.obolibrary.org/obo/UPHENO_0084757
+http://purl.obolibrary.org/obo/CL_0000171	http://purl.obolibrary.org/obo/UPHENO_0086390
 http://purl.obolibrary.org/obo/UBERON_0002113	http://purl.obolibrary.org/obo/UPHENO_0082768
 http://purl.obolibrary.org/obo/UBERON_0001386	http://purl.obolibrary.org/obo/UPHENO_0082769
 http://purl.obolibrary.org/obo/UBERON_0002079	http://purl.obolibrary.org/obo/UPHENO_0082770
