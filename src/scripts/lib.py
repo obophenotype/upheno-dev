@@ -1021,19 +1021,20 @@ def is_blacklisted(upheno_id, blacklisted_upheno_ids):
     return upheno_id in blacklisted_upheno_ids
 
 
-def generate_id(i, blacklisted_upheno_ids, startid, maxid, upheno_prefix):
-    if isinstance(i, str):
-        if i.startswith(upheno_prefix):
-            return i
-    startid = startid + 1
-    if startid > maxid:
-        raise ValueError("The ID space has been exhausted (maximum 10 million). Order a new one!")
-    upheno_id = upheno_prefix + str(startid).zfill(7)
-    if upheno_id in blacklisted_upheno_ids:
-        print("BLACK:" + upheno_id)
-        return generate_id(i, blacklisted_upheno_ids, startid, maxid, upheno_prefix)
-    else:
-        return upheno_id
+def generate_id(i, id_gen, upheno_prefix):
+    if isinstance(i, str) and i.startswith(upheno_prefix):
+        return i
+    return next(id_gen)
+
+
+def id_generator(startid, maxid, upheno_prefix, blacklisted_upheno_ids):
+    current_id = startid
+    while current_id <= maxid:
+        upheno_id = upheno_prefix + str(current_id).zfill(7)
+        if upheno_id not in blacklisted_upheno_ids:
+            yield upheno_id
+        current_id += 1
+    raise ValueError(f"The ID space has been exhausted (maximum {maxid}). Order a new one!")
 
 
 def add_upheno_id(df, pattern, upheno_map, blacklisted_upheno_ids, startid, maxid, upheno_prefix):
@@ -1044,12 +1045,23 @@ def add_upheno_id(df, pattern, upheno_map, blacklisted_upheno_ids, startid, maxi
     df["pattern"] = pattern
     df["id"] = df.apply(lambda row: "-".join(row.astype(str)), axis=1)
     df = pd.merge(df, upheno_map, on="id", how="left")
-    df["defined_class"] = [generate_id(i, blacklisted_upheno_ids, startid, maxid, upheno_prefix) for i in
-                           df["defined_class"]]
-    # TODO the following statement is disconnected but I dont know if it means something
-    # upheno_map = pd.concat([upheno_map, df[["id", "defined_class"]]], ignore_index=True)
+
+    id_gen = id_generator(
+        startid=startid,
+        maxid=maxid,
+        upheno_prefix=upheno_prefix,
+        blacklisted_upheno_ids=blacklisted_upheno_ids
+    )
+
+    # Update the DataFrame
+    df["defined_class"] = [
+        generate_id(i=i, id_gen=id_gen, upheno_prefix=upheno_prefix) for i in df["defined_class"]
+    ]
+
+    upheno_map = pd.concat([upheno_map, df[["id", "defined_class"]]], ignore_index=True)
     df = df.drop(["pattern", "id"], axis=1)
-    return df
+    df = df.drop_duplicates()
+    return df, upheno_map
 
 
 def extract_upheno_fillers(
@@ -1131,7 +1143,11 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir,
                                                  upheno_map,
                                                  blacklisted_upheno_ids,
                                                  upheno_fillers_dir,
-                                                 upheno_config, startid, maxid, upheno_prefix):
+                                                 upheno_config,
+                                                 upheno_prefix):
+    minid = upheno_config.get_min_upheno_id()
+    maxid = upheno_config.get_max_upheno_id()
+
     for pattern in os.listdir(pattern_dir):
         if pattern.endswith(".yaml"):
             tsv_file_name = pattern.replace(".yaml", ".tsv")
@@ -1142,13 +1158,27 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir,
                     # noinspection PyTypeChecker
                     df = pd.read_csv(tsv, sep="\t")
                     tsv_name = os.path.basename(tsv)
-                    df = add_upheno_id(df, tsv_name.replace(".tsv$", ""), upheno_map, blacklisted_upheno_ids, startid,
-                                       maxid, upheno_prefix)
+
+                    # Update the highest id from the last runs
+                    startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
+                    
+                    if startid < minid:
+                        startid = minid
+                    df, upheno_map = add_upheno_id(
+                        df=df,
+                        pattern=tsv_name.replace(".tsv$", ""),
+                        upheno_map=upheno_map,
+                        blacklisted_upheno_ids=blacklisted_upheno_ids,
+                        startid=startid,
+                        maxid=maxid, upheno_prefix=upheno_prefix
+                    )
                     # filter out "independent continuant" locations
                     if 'location' in df.columns:
                         df = df[~df["location"].str.startswith("http://purl.obolibrary.org/obo/BFO_")]
                     # noinspection PyTypeChecker
                     df.to_csv(tsv, sep="\t", index=False)
+
+    return upheno_map
 
 
 def replace_owl_thing_in_tsvs(pattern_dir, upheno_config, upheno_fillers_dir):
@@ -1685,21 +1715,18 @@ def generate_rewritten_patterns(upheno_patterns_main_dir, pattern_dir, upheno_pa
 
 
 def compute_upheno_fillers(
-            upheno_config: uPhenoConfig,
-            raw_ontologies_dir,
-            upheno_fillers_dir,
-            original_pattern_dir,
-            java_fill,
-            ontology_for_matching_dir,
-            sspo_matches_dir):
+        upheno_config: uPhenoConfig,
+        raw_ontologies_dir,
+        upheno_fillers_dir,
+        original_pattern_dir,
+        java_fill,
+        ontology_for_matching_dir,
+        sspo_matches_dir):
     upheno_prefix = "http://purl.obolibrary.org/obo/UPHENO_"
     upheno_id_map = upheno_config.get_upheno_id_map()
     upheno_map = pd.read_csv(upheno_id_map, sep="\t")
-    minid = upheno_config.get_min_upheno_id()
-    maxid = upheno_config.get_max_upheno_id()
     java_opts = upheno_config.get_robot_java_args()
     timeout = upheno_config.get_external_timeout()
-    startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
 
     blacklisted_upheno_ids_path = os.path.join(raw_ontologies_dir, "blacklisted_upheno_iris.txt")
     write_list_to_file(file_path=blacklisted_upheno_ids_path, filelist=upheno_config.get_blacklisted_upheno_ids())
@@ -1710,11 +1737,6 @@ def compute_upheno_fillers(
     write_list_to_file(file_path=legal_iri_patterns_path, filelist=upheno_config.get_legal_fillers())
     write_list_to_file(file_path=legal_pattern_vars_path,
                        filelist=upheno_config.get_instantiate_superclasses_pattern_vars())
-
-    if startid < minid:
-        startid = minid
-
-    print(f"Starting ID: {startid}")
 
     # Do not use these Upheno IDs
     with open(blacklisted_upheno_ids_path) as f:
@@ -1739,8 +1761,6 @@ def compute_upheno_fillers(
     add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir=original_pattern_dir,
                                                  upheno_map=upheno_map,
                                                  blacklisted_upheno_ids=blacklisted_upheno_ids,
-                                                 maxid=maxid,
-                                                 startid=startid,
                                                  upheno_config=upheno_config,
                                                  upheno_fillers_dir=upheno_fillers_dir,
                                                  upheno_prefix=upheno_prefix)

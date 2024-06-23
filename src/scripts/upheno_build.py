@@ -7,7 +7,6 @@ from lib import (
     download_patterns as dl_patterns,
     compute_upheno_stats,
     create_upheno_sssom,
-    get_highest_id,
     add_upheno_ids_to_fillers_and_filter_out_bfo
 )
 
@@ -43,16 +42,8 @@ def add_upheno_ids_to_fillers(patterns_directory, fillers_directory, tmp_directo
     config = uPhenoConfig(upheno_config)
     upheno_prefix = "http://purl.obolibrary.org/obo/UPHENO_"
     upheno_map = pd.read_csv(config.get_upheno_id_map(), sep="\t")
-    minid = config.get_min_upheno_id()
-    maxid = config.get_max_upheno_id()
-    startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
 
     blacklisted_upheno_ids_path = os.path.join(tmp_directory, "blacklisted_upheno_iris.txt")
-
-    if startid < minid:
-        startid = minid
-
-    print(f"Starting ID: {startid}")
 
     # Do not use these Upheno IDs
     with open(blacklisted_upheno_ids_path) as f:
@@ -61,8 +52,6 @@ def add_upheno_ids_to_fillers(patterns_directory, fillers_directory, tmp_directo
     add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir=patterns_directory,
                                                  upheno_map=upheno_map,
                                                  blacklisted_upheno_ids=blacklisted_upheno_ids,
-                                                 maxid=maxid,
-                                                 startid=startid,
                                                  upheno_config=config,
                                                  upheno_fillers_dir=fillers_directory,
                                                  upheno_prefix=upheno_prefix)
