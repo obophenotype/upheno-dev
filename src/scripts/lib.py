@@ -1058,6 +1058,9 @@ def add_upheno_id(df, pattern, upheno_map, blacklisted_upheno_ids, startid, maxi
         generate_id(i=i, id_gen=id_gen, upheno_prefix=upheno_prefix) for i in df["defined_class"]
     ]
 
+    # filter out "independent continuant" locations
+    if 'location' in df.columns:
+        df = df[~df["location"].str.startswith("http://purl.obolibrary.org/obo/BFO_")]
     upheno_map = pd.concat([upheno_map, df[["defined_class", "id"]]], ignore_index=True)
     df = df.drop(["pattern", "id"], axis=1)
     df = df.drop_duplicates()
@@ -1177,9 +1180,6 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(
                         upheno_prefix=upheno_prefix
                     )
 
-                    # filter out "independent continuant" locations
-                    if 'location' in df.columns:
-                        df = df[~df["location"].str.startswith("http://purl.obolibrary.org/obo/BFO_")]
                     # noinspection PyTypeChecker
                     df.to_csv(tsv, sep="\t", index=False)
 
