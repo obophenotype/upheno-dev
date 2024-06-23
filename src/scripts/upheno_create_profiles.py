@@ -120,7 +120,7 @@ upheno_combination_id = "all"
 
 print("#### 5.1 Merge all tsvs from the ontologies participating in this profiles together")
 oids = upheno_config.get_upheno_profile_components(upheno_combination_id)
-profile_dir = os.path.join(upheno_prepare_dir, "dosdp-data")
+profile_dir = os.path.join(ws, "patterns/data/automatic")
 cdir(profile_dir)
 # TODO Since we are just generating one massive thing, maybe we can omit this?
 export_merged_tsvs_for_combination(merged_tsv_dir=profile_dir, oids=oids,
