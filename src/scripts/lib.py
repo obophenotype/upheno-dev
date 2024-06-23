@@ -1058,7 +1058,7 @@ def add_upheno_id(df, pattern, upheno_map, blacklisted_upheno_ids, startid, maxi
         generate_id(i=i, id_gen=id_gen, upheno_prefix=upheno_prefix) for i in df["defined_class"]
     ]
 
-    upheno_map = pd.concat([upheno_map, df[["id", "defined_class"]]], ignore_index=True)
+    upheno_map = pd.concat([upheno_map, df[["defined_class", "id"]]], ignore_index=True)
     df = df.drop(["pattern", "id"], axis=1)
     df = df.drop_duplicates()
     return df, upheno_map
@@ -1139,12 +1139,14 @@ def extract_upheno_fillers_for_all_ontologies(oids, ontology_for_matching_dir,
         )
 
 
-def add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir,
-                                                 upheno_map,
-                                                 blacklisted_upheno_ids,
-                                                 upheno_fillers_dir,
-                                                 upheno_config,
-                                                 upheno_prefix):
+def add_upheno_ids_to_fillers_and_filter_out_bfo(
+        pattern_dir,
+        upheno_map,
+        blacklisted_upheno_ids,
+        upheno_fillers_dir,
+        upheno_config,
+        upheno_prefix
+):
     minid = upheno_config.get_min_upheno_id()
     maxid = upheno_config.get_max_upheno_id()
 
@@ -1161,7 +1163,7 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir,
 
                     # Update the highest id from the last runs
                     startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
-                    
+
                     if startid < minid:
                         startid = minid
                     df, upheno_map = add_upheno_id(
@@ -1170,15 +1172,15 @@ def add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir,
                         upheno_map=upheno_map,
                         blacklisted_upheno_ids=blacklisted_upheno_ids,
                         startid=startid,
-                        maxid=maxid, upheno_prefix=upheno_prefix
+                        maxid=maxid,
+                        upheno_prefix=upheno_prefix
                     )
+
                     # filter out "independent continuant" locations
                     if 'location' in df.columns:
                         df = df[~df["location"].str.startswith("http://purl.obolibrary.org/obo/BFO_")]
                     # noinspection PyTypeChecker
                     df.to_csv(tsv, sep="\t", index=False)
-
-    return upheno_map
 
 
 def replace_owl_thing_in_tsvs(pattern_dir, upheno_config, upheno_fillers_dir):

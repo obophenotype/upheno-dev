@@ -49,12 +49,17 @@ def add_upheno_ids_to_fillers(patterns_directory, fillers_directory, tmp_directo
     with open(blacklisted_upheno_ids_path) as f:
         blacklisted_upheno_ids = f.read().splitlines()
 
-    add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir=patterns_directory,
-                                                 upheno_map=upheno_map,
-                                                 blacklisted_upheno_ids=blacklisted_upheno_ids,
-                                                 upheno_config=config,
-                                                 upheno_fillers_dir=fillers_directory,
-                                                 upheno_prefix=upheno_prefix)
+    add_upheno_ids_to_fillers_and_filter_out_bfo(
+            pattern_dir=patterns_directory,
+            upheno_map=upheno_map,
+            blacklisted_upheno_ids=blacklisted_upheno_ids,
+            upheno_config=config,
+            upheno_fillers_dir=fillers_directory,
+            upheno_prefix=upheno_prefix)
+
+    upheno_map = upheno_map.drop_duplicates()
+    upheno_map.sort_values("defined_class", inplace=True)
+    upheno_map.to_csv(config.get_upheno_id_map(), sep="\t", index=False)
 
 
 # Subcommand: create_sssom
