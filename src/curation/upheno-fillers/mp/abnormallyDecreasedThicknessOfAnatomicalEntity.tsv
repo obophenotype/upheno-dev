@@ -23,8 +23,8 @@ http://purl.obolibrary.org/obo/UBERON_0005343	http://purl.obolibrary.org/obo/UPH
 http://purl.obolibrary.org/obo/UBERON_0002074	http://purl.obolibrary.org/obo/UPHENO_0080792
 http://purl.obolibrary.org/obo/UBERON_0004493	http://purl.obolibrary.org/obo/UPHENO_0080793
 http://purl.obolibrary.org/obo/UBERON_0010402	http://purl.obolibrary.org/obo/UPHENO_0080794
-http://purl.obolibrary.org/obo/UBERON_0005065	http://purl.obolibrary.org/obo/UPHENO_0090033
-http://purl.obolibrary.org/obo/UBERON_0005063	http://purl.obolibrary.org/obo/UPHENO_0090034
+http://purl.obolibrary.org/obo/UBERON_0005065	http://purl.obolibrary.org/obo/UPHENO_0091026
+http://purl.obolibrary.org/obo/UBERON_0005063	http://purl.obolibrary.org/obo/UPHENO_0091027
 http://purl.obolibrary.org/obo/UBERON_0002072	http://purl.obolibrary.org/obo/UPHENO_0080795
 http://purl.obolibrary.org/obo/UBERON_0001103	http://purl.obolibrary.org/obo/UPHENO_0080796
 http://purl.obolibrary.org/obo/UBERON_0000014	http://purl.obolibrary.org/obo/UPHENO_0080797
@@ -60,8 +60,8 @@ http://purl.obolibrary.org/obo/UBERON_0001650	http://purl.obolibrary.org/obo/UPH
 http://purl.obolibrary.org/obo/UBERON_0000956	http://purl.obolibrary.org/obo/UPHENO_0080827
 http://purl.obolibrary.org/obo/UBERON_0003946	http://purl.obolibrary.org/obo/UPHENO_0080828
 http://purl.obolibrary.org/obo/UBERON_0001647	http://purl.obolibrary.org/obo/UPHENO_0080829
-http://purl.obolibrary.org/obo/GO_0043209	http://purl.obolibrary.org/obo/UPHENO_0090035
-http://purl.obolibrary.org/obo/GO_0036126	http://purl.obolibrary.org/obo/UPHENO_0090036
+http://purl.obolibrary.org/obo/GO_0043209	http://purl.obolibrary.org/obo/UPHENO_0091028
+http://purl.obolibrary.org/obo/GO_0036126	http://purl.obolibrary.org/obo/UPHENO_0091029
 http://purl.obolibrary.org/obo/UBERON_0002094	http://purl.obolibrary.org/obo/UPHENO_0080830
 http://purl.obolibrary.org/obo/UBERON_0001003	http://purl.obolibrary.org/obo/UPHENO_0080831
 http://purl.obolibrary.org/obo/UBERON_0002974	http://purl.obolibrary.org/obo/UPHENO_0080832
@@ -78,5 +78,5 @@ http://purl.obolibrary.org/obo/UBERON_0036286	http://purl.obolibrary.org/obo/UPH
 http://purl.obolibrary.org/obo/UBERON_0001835	http://purl.obolibrary.org/obo/UPHENO_0080853
 http://purl.obolibrary.org/obo/UBERON_0036285	http://purl.obolibrary.org/obo/UPHENO_0086087
 http://purl.obolibrary.org/obo/UBERON_0001834	http://purl.obolibrary.org/obo/UPHENO_0080841
-http://purl.obolibrary.org/obo/UBERON_0036288	http://purl.obolibrary.org/obo/UPHENO_0090037
+http://purl.obolibrary.org/obo/UBERON_0036288	http://purl.obolibrary.org/obo/UPHENO_0091030
 http://purl.obolibrary.org/obo/UBERON_0008829	http://purl.obolibrary.org/obo/UPHENO_0080842

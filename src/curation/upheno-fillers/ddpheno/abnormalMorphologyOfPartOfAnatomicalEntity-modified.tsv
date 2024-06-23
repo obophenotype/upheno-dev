@@ -1,9 +1,9 @@
 anatomical_entity	defined_class
-http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UPHENO_0088726
-http://purl.obolibrary.org/obo/GO_0000331	http://purl.obolibrary.org/obo/UPHENO_0089155
-http://purl.obolibrary.org/obo/GO_0005635	http://purl.obolibrary.org/obo/UPHENO_0089156
-http://purl.obolibrary.org/obo/GO_0005768	http://purl.obolibrary.org/obo/UPHENO_0089152
-http://purl.obolibrary.org/obo/GO_0005634	http://purl.obolibrary.org/obo/UPHENO_0088752
-http://purl.obolibrary.org/obo/GO_0043226	http://purl.obolibrary.org/obo/UPHENO_0089157
-http://purl.obolibrary.org/obo/GO_0005764	http://purl.obolibrary.org/obo/UPHENO_0088762
-http://purl.obolibrary.org/obo/GO_0005739	http://purl.obolibrary.org/obo/UPHENO_0088666
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/UPHENO_0088830
+http://purl.obolibrary.org/obo/GO_0000331	http://purl.obolibrary.org/obo/UPHENO_0089259
+http://purl.obolibrary.org/obo/GO_0005635	http://purl.obolibrary.org/obo/UPHENO_0089260
+http://purl.obolibrary.org/obo/GO_0005768	http://purl.obolibrary.org/obo/UPHENO_0089256
+http://purl.obolibrary.org/obo/GO_0005634	http://purl.obolibrary.org/obo/UPHENO_0088856
+http://purl.obolibrary.org/obo/GO_0043226	http://purl.obolibrary.org/obo/UPHENO_0089261
+http://purl.obolibrary.org/obo/GO_0005764	http://purl.obolibrary.org/obo/UPHENO_0088866
+http://purl.obolibrary.org/obo/GO_0005739	http://purl.obolibrary.org/obo/UPHENO_0088770
