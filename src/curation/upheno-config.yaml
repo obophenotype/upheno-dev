@@ -20,7 +20,7 @@ min_upheno_id: 500
 match_owl_thing: False
 allow_non_upheno_eq: False
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
-clean: False
+clean: True
 upheno_intermediate_layer_depth: 0
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
@@ -65,20 +65,6 @@ blacklisted_upheno_iris:
   - http://purl.obolibrary.org/obo/UPHENO_9000002
   - http://purl.obolibrary.org/obo/UPHENO_9000003
   - http://purl.obolibrary.org/obo/UPHENO_9000004
-remove_blacklist:
-  - http://purl.obolibrary.org/obo/CHEBI_316698
-  - http://purl.obolibrary.org/obo/BSPO_0000098
-  - http://purl.obolibrary.org/obo/ENVO_01001784
-  - http://purl.obolibrary.org/obo/GO_00000236
-  - http://purl.obolibrary.org/obo/BSPO_0000120
-  - http://purl.obolibrary.org/obo/BSPO_0000121
-  - http://purl.obolibrary.org/obo/BSPO_0000099
-  - http://purl.obolibrary.org/obo/NCBITaxon_40151
-  - http://purl.obolibrary.org/obo/NCBITaxon_51337
-  - http://purl.obolibrary.org/obo/NCBITaxon_63221
-  - http://purl.obolibrary.org/obo/NCIT_C3824
-  - http://purl.obolibrary.org/obo/PLANA_0000077
-  - http://purl.obolibrary.org/obo/PLANA_0007501
 instantiate_superclasses_pattern_vars:
   - anatomical_entity
   - biological_process
@@ -369,23 +355,3 @@ exclude_patterns:
   - abnormalMorphologyOfAnatomicalEntity.yaml
   - abnormalAnatomicalEntityNotParts.yaml
   - abnormalAbsenceOfBehavior.yaml
-release_artefacts: 
-  - base
-  - simple-non-classified
-  - full
-primary_release: full
-export_formats:
-  - owl
-  - obo
-  - json
-import_group:
-  products:
-    - id: nbo
-    - id: pr
-    - id: go
-    - id: uberon 
-    - id: ro
-    - id: chebi
-    - id: pato
-    - id: cl
-    - id: oba

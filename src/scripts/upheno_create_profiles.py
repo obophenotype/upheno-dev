@@ -9,84 +9,61 @@ Created on Mon Oct 8 14:24:37 2018
 import os
 import sys
 
-import pandas as pd
 import yaml
 
-from create_sssom import create_upheno_sssom
 from lib import (
     cdir,
-    dosdp_extract_pattern_seed,
     dosdp_generate,
     dosdp_generate_all,
     get_taxon_restriction_table,
-    remove_all_sources_of_unsatisfiability,
-    robot_children_list,
-    robot_extract_module,
-    robot_extract_seed,
     export_merged_tsvs_for_combination,
-    augment_upheno_relationships,
     robot_merge,
     create_upheno_core_manual_phenotypes,
-    extract_upheno_fillers_for_all_ontologies,
-    add_upheno_ids_to_fillers_and_filter_out_bfo,
-    replace_owl_thing_in_tsvs,
     robot_prepare_ontology_for_dosdp,
-    robot_query,
-    robot_remove_terms,
-    robot_upheno_release,
     uPhenoConfig,
-    get_highest_id,
-    write_list_to_file,
-    get_all_patterns_as_yml,
-    update_abnormal_patterns_to_changed,
-    write_patterns_to_file,
+    compute_upheno_fillers,
+    generate_rewritten_patterns,
 )
 
 # Configuration
 yaml.warnings({"YAMLLoadWarning": False})
 upheno_config_file = sys.argv[1]
-# upheno_config_file = os.path.join("/ws/upheno-dev/src/curation/upheno-config.yaml")
 upheno_config = uPhenoConfig(config_file=upheno_config_file)
 os.environ["ROBOT_JAVA_ARGS"] = upheno_config.get_robot_java_args()
 
 timeout = upheno_config.get_external_timeout()
 ws = upheno_config.get_working_directory()
 robot_opts = upheno_config.get_robot_opts()
-maxid = upheno_config.get_max_upheno_id()
-minid = upheno_config.get_min_upheno_id()
-startid = minid
+
 blacklisted_upheno_ids = []
 overwrite_dosdp_upheno = upheno_config.is_overwrite_upheno_intermediate()
 
-# globals
-upheno_prefix = "http://purl.obolibrary.org/obo/UPHENO_"
 
 # Data directories
-# upheno_filler_data_file = os.path.join(ws,"curation/upheno_fillers.yml")
-# upheno_filler_ontologies_list = os.path.join(ws,"curation/ontologies.txt")
-# phenotype_ontologies_list = os.path.join(ws,"curation/phenotype_ontologies.tsv")
-pattern_dir = os.path.join(ws, "curation/patterns-for-matching/")
-matches_dir = os.path.join(ws, "curation/pattern-matches/")
-upheno_fillers_dir = os.path.join(ws, "curation/upheno-fillers/")
+original_pattern_dir = os.path.join(ws, "curation/patterns-for-matching/")
+upheno_preprocessed_patterns_dir = os.path.join(ws, "curation/changed-patterns/")
+sspo_matches_dir = os.path.join(ws, "curation/pattern-matches/")
+
 upheno_profiles_dir = os.path.join(ws, "curation/upheno-profiles/")
 raw_ontologies_dir = os.path.join(ws, "curation/tmp/")
 upheno_prepare_dir = os.path.join(ws, "curation/upheno-release-prepare/")
-upheno_release_dir = os.path.join(ws, "curation/upheno-release/")
 ontology_for_matching_dir = os.path.join(ws, "curation/ontologies-for-matching/")
+upheno_fillers_dir = os.path.join(ws, "curation/upheno-fillers/")
+
 upheno_patterns_data_manual_dir = os.path.join(ws, "patterns/data/default/")
-upheno_patterns_dir = os.path.join(ws, "curation/changed-patterns/")
 upheno_patterns_main_dir = os.path.join(ws, "patterns/dosdp-patterns/")
+
 upheno_ontology_dir = os.path.join(ws, "ontology/")
 
-cdir(pattern_dir)
-cdir(matches_dir)
 cdir(upheno_fillers_dir)
+cdir(original_pattern_dir)
+cdir(upheno_preprocessed_patterns_dir)
+cdir(sspo_matches_dir)
 cdir(raw_ontologies_dir)
 cdir(upheno_prepare_dir)
 cdir(ontology_for_matching_dir)
 
 # Files
-upheno_id_map = os.path.join(ws, "curation/upheno_id_map.txt")
 java_fill = os.path.join(ws, "scripts/upheno-filler-pipeline.jar")
 java_relationships = os.path.join(ws, "scripts/upheno-relationship-augmentation.jar")
 sparql_terms = os.path.join(ws, "sparql/terms.sparql")
@@ -108,73 +85,13 @@ upheno_species_neutral_mappings_tsv = os.path.join(upheno_prepare_dir, "upheno-s
 upheno_species_neutral_mappings_owl = os.path.join(upheno_prepare_dir, "upheno-species-independent.sssom.owl")
 
 # generated Files
-legal_iri_patterns_path = os.path.join(raw_ontologies_dir, "legal_fillers.txt")
-legal_pattern_vars_path = os.path.join(raw_ontologies_dir, "legal_pattern_vars.txt")
-blacklisted_upheno_ids_path = os.path.join(raw_ontologies_dir, "blacklisted_upheno_iris.txt")
-
-
-write_list_to_file(file_path=legal_iri_patterns_path, filelist=upheno_config.get_legal_fillers())
-write_list_to_file(
-    file_path=legal_pattern_vars_path, filelist=upheno_config.get_instantiate_superclasses_pattern_vars()
-)
-write_list_to_file(file_path=blacklisted_upheno_ids_path, filelist=upheno_config.get_blacklisted_upheno_ids())
 
 java_opts = upheno_config.get_robot_java_args()
 
-def generate_rewritten_patterns(upheno_patterns_main_dir, pattern_dir, upheno_patterns_dir):
-    replacements = {
-        "Abnormal change": "UHAUIYHIUHIUH",
-        "abnormal bending": "bending",
-        "Any abnormality ": "Any change ",
-        "Abnormal(ly) arrested (of)": "Arrested",
-        "abnormal closing": "closing",
-        "abnormal coiling": "coiling",
-        "abnormal decreased": "decreased",
-        "abnormal increased": "increased",
-        "abnormal duplication": "duplication",
-        "abnormal fusion": "fusion",
-        "abnormal incomplete": "incomplete",
-        "abnormal opening": "opening",
-        "thickness abnormality": "thickness phenotype",
-        "body abnormally": "body",
-        "Abnormal ability": "Ability",
-        "A deviation from the normal": "Changed",
-        "A morphological abnormality": "Changed morphology",
-        "Abnormal accumulation": "Accumulation",
-        "Abnormal dilation": "Dilation",
-        "Abnormal local accumulation": "Local accumulation",
-        "An abnormality": "A change",
-        "Abnormality of ": "Changed ",
-        "Abnormal morphological asymmetry": "Morphological asymmetry",
-        "Abnormal proliferation": "proliferation",
-        "Abnormal prominence": "prominence",
-        "abnormal decrease": "decrease",
-        "An abnormal development": "Changed development",
-        "An abnormal reduction": "A reduction",
-        "An abnormal ": "A changed ",
-        "functional abnormality of": "functional change of",
-        "An abnormality ": "A change ",
-        "abnormality of": "changed",
-        "an abnormal ": "a changed ",
-        "abnormally curled": "curling",
-        "abnormal ": "changed ",
-        "Abnormal ": "Changed ",
-        "An abnormally": "",
-        "abnormally ": "",
-        "Abnormally ": "",
-        "UHAUIYHIUHIUH": "Phenotypic change"
-    }
-
-    all_configs_main = get_all_patterns_as_yml(upheno_patterns_main_dir)
-    all_configs_upheno = get_all_patterns_as_yml(pattern_dir)
-    all_configs_main.extend(all_configs_upheno)
-    updated_patterns, changes = update_abnormal_patterns_to_changed(all_configs_main, replacements)
-    write_patterns_to_file(updated_patterns, upheno_patterns_dir)
-
 print("### Generate change patterns ###")
-generate_rewritten_patterns(upheno_patterns_main_dir=upheno_patterns_main_dir, 
-                            pattern_dir=pattern_dir, 
-                            upheno_patterns_dir=upheno_patterns_dir)
+generate_rewritten_patterns(upheno_patterns_main_dir=upheno_patterns_main_dir,
+                            pattern_dir=original_pattern_dir,
+                            upheno_patterns_dir=upheno_preprocessed_patterns_dir)
 
 print("### Preparing a dictionary for DOSDP extraction from the all imports merged ontology.")
 # Used to loop up labels in the pattern generation process, so maybe I don't need anything other than rdfs:label?
@@ -184,57 +101,14 @@ if upheno_config.is_overwrite_ontologies() or not os.path.exists(allimports_dosd
     )
 
 print("### Loading the existing ID map, the blacklist for uPheno IDs and determining next available uPheno ID.")
-upheno_map = pd.read_csv(upheno_config.get_upheno_id_map(), sep="\t")
-startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
-if startid < minid:
-    startid = minid
-
-print(f"Starting ID: {startid}")
-
-# Do not use these Upheno IDs
-with open(blacklisted_upheno_ids_path) as f:
-    blacklisted_upheno_ids = f.read().splitlines()
-
-# print(blacklisted_upheno_ids)
-
-print(
-    "Compute the uPheno fillers for all individual ontologies, including the assignment of the ids. "
-    "The actual intermediate layer is produced, by profile, at a later stage."
-)
-extract_upheno_fillers_for_all_ontologies(oids=upheno_config.get_phenotype_ontologies(),
-                                        java_fill=java_fill,
-                                        ontology_for_matching_dir=ontology_for_matching_dir,
-                                        matches_dir=matches_dir,
-                                        pattern_dir=pattern_dir,
-                                        upheno_config=upheno_config,
-                                        upheno_fillers_dir=upheno_fillers_dir,
-                                        java_opts=java_opts,
-                                        legal_iri_patterns_path=legal_iri_patterns_path,
-                                        legal_pattern_vars_path=legal_pattern_vars_path,
-                                        timeout=timeout)
-
-add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir=pattern_dir,
-                                            upheno_map=upheno_map,
-                                            blacklisted_upheno_ids=blacklisted_upheno_ids,
-                                            maxid=maxid,
-                                            startid=startid,
-                                            upheno_config=upheno_config,
-                                            upheno_fillers_dir=upheno_fillers_dir,
-                                            upheno_prefix=upheno_prefix)
-upheno_map = upheno_map.drop_duplicates()
-upheno_map.sort_values("defined_class", inplace=True)
-upheno_map.to_csv(upheno_id_map, sep="\t", index=False)
-# sys.exit("Intermediadte test stop")
-
-print(
-    "Rewriting owl:Thing in DOSDP files (should be unnecessary, "
-    "review https://github.com/INCATools/dosdp-tools/issues/154)."
-)
-replace_owl_thing_in_tsvs(pattern_dir, upheno_config=upheno_config, upheno_fillers_dir=upheno_fillers_dir)
-
-# Output the species independent mappings as an SSSOM file.
-create_upheno_sssom(upheno_id_map, upheno_patterns_dir, matches_dir, upheno_species_neutral_mappings_tsv,
-                    upheno_species_neutral_mappings_owl)
+java_fill = os.path.join(ws, "scripts/upheno-filler-pipeline.jar")
+compute_upheno_fillers(upheno_config=upheno_config,
+                       raw_ontologies_dir=raw_ontologies_dir,
+                       upheno_fillers_dir=upheno_fillers_dir,
+                       java_fill=java_fill,
+                       ontology_for_matching_dir=ontology_for_matching_dir,
+                       sspo_matches_dir=sspo_matches_dir,
+                       original_pattern_dir=original_pattern_dir)
 
 print("Generating uPheno core (part of uPheno common to all profiles).")
 # Extra axioms, upheno relations, the manually curated intermediate phenotypes part of the upheno repo
@@ -244,7 +118,7 @@ manual_tsv_files = (
 upheno_core_manual_phenotypes = create_upheno_core_manual_phenotypes(
     manual_tsv_files, allimports_dosdp, timeout=timeout,
     overwrite_dosdp_upheno=overwrite_dosdp_upheno,
-    upheno_patterns_dir=upheno_patterns_dir,
+    upheno_patterns_dir=upheno_preprocessed_patterns_dir,
     upheno_prepare_dir=upheno_prepare_dir,
     upheno_patterns_data_manual_dir=upheno_patterns_data_manual_dir,
 )
@@ -253,24 +127,27 @@ upheno_core_parts = [upheno_extra_axioms_ontology, upheno_relations_ontology]
 upheno_core_parts.extend(upheno_core_manual_phenotypes)
 
 if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
-    robot_merge(upheno_core_parts, upheno_core_ontology, timeout, robot_opts)
+    robot_merge(ontology_list=upheno_core_parts,
+                ontology_merged_path=upheno_core_ontology,
+                timeout=timeout,
+                robot_opts=robot_opts)
 
 print("Generating uPheno profiles..")
 upheno_combination_id = "all"
 
 print("Generating profile: " + upheno_combination_id)
 oids = upheno_config.get_upheno_profile_components(upheno_combination_id)
-profile_dir = os.path.join(upheno_profiles_dir, upheno_combination_id)
+profile_dir = os.path.join(upheno_prepare_dir, upheno_combination_id)
 cdir(profile_dir)
 final_upheno_combo_dir = os.path.join(upheno_prepare_dir, upheno_combination_id)
-final_upheno_profile_release_dir = os.path.join(upheno_release_dir, upheno_combination_id)
+final_upheno_profile_release_dir = os.path.join(upheno_prepare_dir, upheno_combination_id)
 cdir(final_upheno_combo_dir)
 cdir(final_upheno_profile_release_dir)
 
 print("Merge all tsvs from the ontologies participating in this profiles together")
 export_merged_tsvs_for_combination(profile_dir, oids,
-                                    pattern_dir=pattern_dir,
-                                    upheno_fillers_dir=upheno_fillers_dir)
+                                   pattern_dir=original_pattern_dir,
+                                   upheno_fillers_dir=upheno_fillers_dir)
 
 print("Create all top level phenotypes relevant to this profile (SSPO top level classes)")
 upheno_top_level_phenotypes_ontology = os.path.join(
@@ -331,9 +208,9 @@ tsvs.extend(manual_tsv_files)
 # For all tsvs, generate the dosdp instances and drop them in the combo directory
 print("Profile: Generate uPheno intermediate layer")
 pattern_names = []
-for pattern in os.listdir(upheno_patterns_dir):
+for pattern in os.listdir(upheno_preprocessed_patterns_dir):
     if pattern.endswith(".yaml"):
-        pattern_file = os.path.join(upheno_patterns_dir, pattern)
+        pattern_file = os.path.join(upheno_preprocessed_patterns_dir, pattern)
         tsv_file_name = pattern.replace(".yaml", ".tsv")
         pattern_name = pattern.replace(".yaml", "")
         tsv_file = os.path.join(profile_dir, tsv_file_name)
@@ -345,8 +222,12 @@ for pattern in os.listdir(upheno_patterns_dir):
 
 first_pattern = os.path.join(final_upheno_combo_dir, pattern_names[0] + ".owl")
 if overwrite_dosdp_upheno or not os.path.exists(first_pattern):
-    dosdp_generate_all(pattern_names, profile_dir, final_upheno_combo_dir, upheno_patterns_dir, False, timeout,
-                        ontology=allimports_dosdp)
+    dosdp_generate_all(pattern_names, profile_dir,
+                       final_upheno_combo_dir,
+                       upheno_preprocessed_patterns_dir,
+                       False,
+                       timeout,
+                       ontology=allimports_dosdp)
 
 print(
     "Profile: Collect all ontologies (taxon restricted versions) and their dependencies as needed by this profile."

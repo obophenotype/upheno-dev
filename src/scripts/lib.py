@@ -1,13 +1,16 @@
+import glob
+import logging
 import os
+import re
+import urllib.request
 from subprocess import check_call
 
 import pandas as pd
-import yaml
-import urllib.request
-import re
 import ruamel.yaml
-import logging
-import glob
+import yaml
+from sssom.context import get_converter
+from sssom.parsers import from_sssom_dataframe
+from sssom.writers import write_table, write_owl
 
 
 class uPhenoConfig:
@@ -37,9 +40,6 @@ class uPhenoConfig:
 
     def get_remove_disjoints(self):
         return self.config.get("remove_disjoints")
-
-    def get_remove_blacklist(self):
-        return self.config.get("remove_blacklist")
 
     def get_blacklisted_upheno_ids(self):
         return self.config.get("blacklisted_upheno_iris")
@@ -741,6 +741,92 @@ def get_pattern_urls(upheno_pattern_repos):
     for upheno_pattern_repo in upheno_pattern_repos:
         upheno_patterns.extend(get_upheno_pattern_urls(upheno_pattern_repo))
     return upheno_patterns
+
+
+def get_id_columns(pattern_file):
+    try:
+        with open(pattern_file, "r") as stream:
+            pattern_json = yaml.safe_load(stream)
+            idcolumns = list(pattern_json["vars"].keys())
+            return idcolumns
+    except Exception as e:
+        logging.error(f"Could not get id columns in {pattern_file}: {e}", exc_info=True)
+        return None
+
+
+def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, output_file_tsv, output_file_owl):
+    all_pattern_matches_map = dict()
+
+    for pattern_match_tsv in glob.glob(matches_dir + "/**/*.tsv"):
+        pattern_name = os.path.basename(pattern_match_tsv).split(".")[0]
+        df = pd.read_csv(pattern_match_tsv, sep='\t')
+        if pattern_name in all_pattern_matches_map:
+            all_pattern_matches_map[pattern_name] = pd.concat([all_pattern_matches_map[pattern_name], df])
+        else:
+            all_pattern_matches_map[pattern_name] = df
+
+    cache_pattern_file_to_idcolumn = dict()
+
+    df = pd.read_csv(upheno_id_map, sep='\t')
+
+    sssom = []
+
+    converter = get_converter()
+
+    for index, row in df.iterrows():
+        tokens = row['id'].split('-')
+        fillers = tokens[:-1]
+        pattern_name = tokens[-1].split('.')[0]
+        pattern_file = pattern_name + ".yaml"
+        id_columns = cache_pattern_file_to_idcolumn.get(pattern_file)
+        if id_columns is None:
+            id_columns = get_id_columns(os.path.join(patterns_dir, pattern_file))
+            cache_pattern_file_to_idcolumn[pattern_file] = id_columns
+        if id_columns is None:
+            continue
+        # print(tokens)
+        # print(pattern_file)
+        # print(id_columns)
+        # print(fillers)
+        tsv_df = all_pattern_matches_map[pattern_name]
+        # filtered = tsv[lambda df: filter_row(df, id_columns, fillers) ]
+
+        mask = pd.Series(True, index=tsv_df.index)
+        for col, filler in zip(id_columns, fillers):
+            mask = mask & (tsv_df[col] == filler)
+        subset_df = tsv_df[mask]
+
+        # print(subset_df)
+
+        upheno_id = row['defined_class']
+
+        for index2, row2 in subset_df.iterrows():
+            species_specific_id = row2['defined_class']
+            sssom.append([
+                converter.compress(upheno_id),
+                "semapv:crossSpeciesExactMatch",
+                converter.compress(species_specific_id),
+                "semapv:LogicalMatching"
+            ])
+
+    df_out = pd.DataFrame(sssom, columns=['subject_id', 'predicate_id', 'object_id', 'mapping_justification'])
+
+    meta = dict()
+    meta['mapping_set_id'] = 'https://data.monarchinitiative.org/mappings/upheno/upheno-species-independent.sssom.tsv'
+    msdf = from_sssom_dataframe(df_out, prefix_map=converter, meta=meta)
+    msdf.clean_prefix_map()
+    write_table(msdf, open(output_file_tsv, "w"))
+    write_owl(msdf, open(output_file_owl, "w"))
+
+
+def filter_row(df, id_columns, fillers):
+    n = 0
+    while n < len(id_columns):
+        column = id_columns[n]
+        filler = fillers[n]
+        if df[column] != filler:
+            return False
+    return True
 
 
 def download_patterns(upheno_pattern_repos, pattern_dir, upheno_config):
@@ -1511,20 +1597,18 @@ def download_sources(module_dir, upheno_config, xref_pattern, robot_opts, timeou
             upheno_config.set_path_for_ontology(oid, filename)
 
 
-def get_all_phenotypes(upheno_config, stats_dir):
+def get_all_phenotypes(upheno_config, stats_dir: str):
     phenotypes = []
     for oid in upheno_config.get_phenotype_ontologies():
         phenotype_class_metadata = os.path.join(stats_dir, oid + "_phenotype_data.csv")
         if os.path.exists(phenotype_class_metadata):
-            try:
-                df = pd.read_csv(phenotype_class_metadata)
-                df["o"] = oid
-                phenotypes.append(df)
-            except:
-                print("{} could not be loaded..".format(phenotype_class_metadata))
+            df = pd.read_csv(phenotype_class_metadata)
+            df["o"] = oid
+            phenotypes.append(df)
         else:
             print("{} does not exist!".format(phenotype_class_metadata))
     return pd.concat(phenotypes)
+
 
 def compute_upheno_stats(upheno_config, pattern_dir, matches_dir, stats_dir):
     defined = get_defined_phenotypes(upheno_config, pattern_dir, matches_dir)
@@ -1532,7 +1616,7 @@ def compute_upheno_stats(upheno_config, pattern_dir, matches_dir, stats_dir):
     df_pheno["upheno"] = df_pheno["s"].isin(defined)
     df_pheno["eq"] = df_pheno["ldef"].notna()
     df_pheno.drop_duplicates(inplace=True)
-    
+
     print("Summary: ")
     print(df_pheno.head())
     print(df_pheno.describe())
@@ -1547,3 +1631,123 @@ def compute_upheno_stats(upheno_config, pattern_dir, matches_dir, stats_dir):
     print(df_pheno[df_pheno["upheno"] & (~df_pheno["eq"])])
     print(df_pheno[df_pheno["upheno"]][["s", "eq"]].groupby("eq").count())
     df_pheno.to_csv(os.path.join(stats_dir, "upheno-eq-analysis.csv"))
+
+
+def generate_rewritten_patterns(upheno_patterns_main_dir, pattern_dir, upheno_patterns_dir):
+    replacements = {
+        "Abnormal change": "UHAUIYHIUHIUH",
+        "abnormal bending": "bending",
+        "Any abnormality ": "Any change ",
+        "Abnormal(ly) arrested (of)": "Arrested",
+        "abnormal closing": "closing",
+        "abnormal coiling": "coiling",
+        "abnormal decreased": "decreased",
+        "abnormal increased": "increased",
+        "abnormal duplication": "duplication",
+        "abnormal fusion": "fusion",
+        "abnormal incomplete": "incomplete",
+        "abnormal opening": "opening",
+        "thickness abnormality": "thickness phenotype",
+        "body abnormally": "body",
+        "Abnormal ability": "Ability",
+        "A deviation from the normal": "Changed",
+        "A morphological abnormality": "Changed morphology",
+        "Abnormal accumulation": "Accumulation",
+        "Abnormal dilation": "Dilation",
+        "Abnormal local accumulation": "Local accumulation",
+        "An abnormality": "A change",
+        "Abnormality of ": "Changed ",
+        "Abnormal morphological asymmetry": "Morphological asymmetry",
+        "Abnormal proliferation": "proliferation",
+        "Abnormal prominence": "prominence",
+        "abnormal decrease": "decrease",
+        "An abnormal development": "Changed development",
+        "An abnormal reduction": "A reduction",
+        "An abnormal ": "A changed ",
+        "functional abnormality of": "functional change of",
+        "An abnormality ": "A change ",
+        "abnormality of": "changed",
+        "an abnormal ": "a changed ",
+        "abnormally curled": "curling",
+        "abnormal ": "changed ",
+        "Abnormal ": "Changed ",
+        "An abnormally": "",
+        "abnormally ": "",
+        "Abnormally ": "",
+        "UHAUIYHIUHIUH": "Phenotypic change"
+    }
+
+    all_configs_main = get_all_patterns_as_yml(upheno_patterns_main_dir)
+    all_configs_upheno = get_all_patterns_as_yml(pattern_dir)
+    all_configs_main.extend(all_configs_upheno)
+    updated_patterns, changes = update_abnormal_patterns_to_changed(all_configs_main, replacements)
+    write_patterns_to_file(updated_patterns, upheno_patterns_dir)
+
+
+def compute_upheno_fillers(
+            upheno_config: uPhenoConfig,
+            raw_ontologies_dir,
+            upheno_fillers_dir,
+            original_pattern_dir,
+            java_fill,
+            ontology_for_matching_dir,
+            sspo_matches_dir):
+    upheno_prefix = "http://purl.obolibrary.org/obo/UPHENO_"
+    upheno_id_map = upheno_config.get_upheno_id_map()
+    upheno_map = pd.read_csv(upheno_id_map, sep="\t")
+    minid = upheno_config.get_min_upheno_id()
+    maxid = upheno_config.get_max_upheno_id()
+    java_opts = upheno_config.get_robot_java_args()
+    timeout = upheno_config.get_external_timeout()
+    startid = get_highest_id(upheno_map["defined_class"], upheno_prefix)
+
+    blacklisted_upheno_ids_path = os.path.join(raw_ontologies_dir, "blacklisted_upheno_iris.txt")
+    write_list_to_file(file_path=blacklisted_upheno_ids_path, filelist=upheno_config.get_blacklisted_upheno_ids())
+
+    legal_iri_patterns_path = os.path.join(raw_ontologies_dir, "legal_fillers.txt")
+    legal_pattern_vars_path = os.path.join(raw_ontologies_dir, "legal_pattern_vars.txt")
+
+    write_list_to_file(file_path=legal_iri_patterns_path, filelist=upheno_config.get_legal_fillers())
+    write_list_to_file(file_path=legal_pattern_vars_path,
+                       filelist=upheno_config.get_instantiate_superclasses_pattern_vars())
+
+    if startid < minid:
+        startid = minid
+
+    print(f"Starting ID: {startid}")
+
+    # Do not use these Upheno IDs
+    with open(blacklisted_upheno_ids_path) as f:
+        blacklisted_upheno_ids = f.read().splitlines()
+
+    print(
+        "Compute the uPheno fillers for all individual ontologies, including the assignment of the ids. "
+        "The actual intermediate layer is produced, by profile, at a later stage."
+    )
+    extract_upheno_fillers_for_all_ontologies(oids=upheno_config.get_phenotype_ontologies(),
+                                              java_fill=java_fill,
+                                              ontology_for_matching_dir=ontology_for_matching_dir,
+                                              matches_dir=sspo_matches_dir,
+                                              pattern_dir=original_pattern_dir,
+                                              upheno_config=upheno_config,
+                                              upheno_fillers_dir=upheno_fillers_dir,
+                                              java_opts=java_opts,
+                                              legal_iri_patterns_path=legal_iri_patterns_path,
+                                              legal_pattern_vars_path=legal_pattern_vars_path,
+                                              timeout=timeout)
+
+    add_upheno_ids_to_fillers_and_filter_out_bfo(pattern_dir=original_pattern_dir,
+                                                 upheno_map=upheno_map,
+                                                 blacklisted_upheno_ids=blacklisted_upheno_ids,
+                                                 maxid=maxid,
+                                                 startid=startid,
+                                                 upheno_config=upheno_config,
+                                                 upheno_fillers_dir=upheno_fillers_dir,
+                                                 upheno_prefix=upheno_prefix)
+    upheno_map = upheno_map.drop_duplicates()
+    upheno_map.sort_values("defined_class", inplace=True)
+    upheno_map.to_csv(upheno_id_map, sep="\t", index=False)
+
+    # TODO: Rewriting owl:Thing in DOSDP files (should be unnecessary, "
+    # review https://github.com/INCATools/dosdp-tools/issues/154).
+    replace_owl_thing_in_tsvs(original_pattern_dir, upheno_config=upheno_config, upheno_fillers_dir=upheno_fillers_dir)
