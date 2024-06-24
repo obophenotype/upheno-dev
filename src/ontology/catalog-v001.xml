@@ -2,7 +2,7 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/merged_import.owl" uri="imports/merged_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-species-neutral.owl" uri="components/upheno-species-neutral.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl" uri="components/upheno-relations.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl" uri="components/upheno-deprecated.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl" uri="components/upheno-alignments.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>

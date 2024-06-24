@@ -4,7 +4,7 @@ github_org: obophenotype
 repo: upheno
 report_fail_on: none
 use_dosdps: TRUE
-dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
+dosdp_tools_options: "--obo-prefixes=true"
 robot_opts: -vv
 robot_java_args: -Xmx10G
 git_main_branch: master
@@ -329,7 +329,7 @@ import_group:
       make_base: TRUE
 components:
   products:
-    - filename: upheno-species-neutral.owl
+    - filename: upheno-relations.owl
     - filename: upheno-deprecated.owl
       use_template: TRUE
       templates:
