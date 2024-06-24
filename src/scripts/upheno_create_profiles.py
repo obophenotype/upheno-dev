@@ -122,10 +122,11 @@ print("#### 5.1 Merge all tsvs from the ontologies participating in this profile
 oids = upheno_config.get_upheno_profile_components(upheno_combination_id)
 profile_dir = os.path.join(ws, "patterns/data/automatic")
 cdir(profile_dir)
-# TODO Since we are just generating one massive thing, maybe we can omit this?
-export_merged_tsvs_for_combination(merged_tsv_dir=profile_dir, oids=oids,
+export_merged_tsvs_for_combination(merged_tsv_dir=profile_dir,
+                                   oids=oids,
                                    pattern_dir=original_pattern_dir,
-                                   upheno_fillers_dir=upheno_fillers_dir)
+                                   upheno_fillers_dir=upheno_fillers_dir,
+                                   upheno_id_map=upheno_config.get_upheno_id_map())
 
 print("Create all top level phenotypes relevant to this profile (SSPO top level classes)")
 final_upheno_combo_dir = os.path.join(upheno_prepare_dir, upheno_combination_id)

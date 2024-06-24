@@ -1,4 +1,4 @@
-Ontology ID	Label	Obsolete	ZFIN Annotation	Replaced	GitHub Issue
+Ontology ID	Label	Obsolete	Annotation	Replaced	GitHub Issue
 ID	A rdfs:label	AT owl:deprecated^^xsd:boolean	AT rdfs:comment^^xsd:string	AI IAO:0100001	AI IAO:0000233
 http://purl.obolibrary.org/obo/UPHENO_0047542		true	http://purl.obolibrary.org/obo/UBERON_0005893-abnormalFractureOfAnatomicalEntity.tsv
 http://purl.obolibrary.org/obo/UPHENO_0047543		true	http://purl.obolibrary.org/obo/UBERON_0004121-abnormalFractureOfAnatomicalEntity.tsv

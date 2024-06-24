@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                48927ffe758220accb98b229aee404a0af1ccbdf59b7a4e594de4d13f093ce00
+CONFIG_HASH=                bb2b492533105b159499c306ec06e39608c579e6d206db4ffe496a072ed0d7f3
 
 
 # ----------------------------------------
@@ -638,7 +638,7 @@ ALL_PATTERN_NAMES=$(strip $(patsubst %.yaml,%, $(notdir $(wildcard $(PATTERNDIR)
 
 PATTERN_CLEAN_FILES=../patterns/all_pattern_terms.txt \
 	$(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_TERM_FILES_DEFAULT) \
-	
+	$(DOSDP_OWL_FILES_AUTOMATIC) $(DOSDP_TERM_FILES_AUTOMATIC) 
 
 # Note to future generations: prepending ./ is a safety measure to ensure that 
 # the environment does not malicously set `PATTERN_CLEAN_FILES` to `\`.
@@ -694,6 +694,18 @@ $(DOSDP_OWL_FILES_DEFAULT): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_DEFAULT) $(AL
     --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --outfile=$(PATTERNDIR)/data/default; fi
 
 
+
+# DOSDP automatic pipeline
+
+DOSDP_OWL_FILES_AUTOMATIC = $(patsubst %.tsv, $(PATTERNDIR)/data/automatic/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/automatic/*.tsv)))
+DOSDP_TERM_FILES_AUTOMATIC = $(patsubst %.tsv, $(PATTERNDIR)/data/automatic/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/automatic/*.tsv)))
+DOSDP_TSV_FILES_AUTOMATIC = $(wildcard $(PATTERNDIR)/data/automatic/*.tsv)
+DOSDP_PATTERN_NAMES_AUTOMATIC = $(strip $(patsubst %.tsv,%, $(notdir $(wildcard $(PATTERNDIR)/data/automatic/*.tsv))))
+
+$(DOSDP_OWL_FILES_AUTOMATIC): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_AUTOMATIC) $(ALL_PATTERN_FILES)
+	if [ $(PAT) = true ] && [ "${DOSDP_PATTERN_NAMES_AUTOMATIC}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
+    --infile=$(PATTERNDIR)/data/automatic --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_AUTOMATIC)" \
+    --ontology=$< --obo-prefixes=true --outfile=$(PATTERNDIR)/data/automatic; fi
 # Generate template file seeds
 
 ## Generate template file seeds
@@ -701,8 +713,11 @@ $(PATTERNDIR)/data/default/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERND
 	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@; fi
 
 
+$(PATTERNDIR)/data/automatic/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/automatic/%.tsv
+	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@; fi
+
 # Generating the seed file from all the TSVs. If Pattern generation is deactivated, we still extract a seed from definitions.owl
-$(TMPDIR)/all_pattern_terms.txt: $(DOSDP_TERM_FILES_DEFAULT)   $(TMPDIR)/pattern_owl_seed.txt
+$(TMPDIR)/all_pattern_terms.txt: $(DOSDP_TERM_FILES_DEFAULT)   $(DOSDP_TERM_FILES_AUTOMATIC) $(TMPDIR)/pattern_owl_seed.txt
 	if [ $(PAT) = true ]; then cat $^ | sort | uniq > $@; else $(ROBOT) query --use-graphs true -f csv -i $(PATTERNDIR)/definitions.owl \
     --query ../sparql/terms.sparql $@; fi
 
@@ -716,8 +731,8 @@ $(PATTERNDIR)/pattern.owl: $(ALL_PATTERN_FILES)
 	if [ $(PAT) = true ]; then $(DOSDPT) prototype --obo-prefixes true --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@; fi
 
 # Generating the individual pattern modules and merging them into definitions.owl
-$(PATTERNDIR)/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT)  
-	if [ $(PAT) = true ] && [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]   && [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $^) \
+$(PATTERNDIR)/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT)   $(DOSDP_OWL_FILES_AUTOMATIC)
+	if [ $(PAT) = true ] && [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]   || [ "${DOSDP_PATTERN_NAMES_AUTOMATIC}" ] && [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $^) \
 		annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl \
       --annotation owl:versionInfo $(VERSION) -o definitions.ofn && mv definitions.ofn $@; fi
 
@@ -865,7 +880,7 @@ public_release:
 # General Validation
 # ----------------------------------------
 TSV=
-ALL_TSV_FILES=$(DOSDP_TSV_FILES_DEFAULT)
+ALL_TSV_FILES=$(DOSDP_TSV_FILES_AUTOMATIC) $(DOSDP_TSV_FILES_DEFAULT)
 
 validate-tsv: $(TSV) | $(TMPDIR)
 	for FILE in $< ; do \

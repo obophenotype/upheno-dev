@@ -159,10 +159,22 @@ $(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
 .PRECIOUS: $(MIRRORDIR)/merged.owl
 endif
 
+$(REPORTDIR)/obsolete_filler_classes.tsv: $(MIRRORDIR)/merged.owl
+	$(ROBOT) query -f csv -i $< --query ../sparql/obsolete_filler_classes.sparql $@
 
 debug_fillers:
 	python3 ../scripts/upheno_build.py add-upheno-ids-to-fillers \
 		--upheno-config ../curation/upheno-config.yaml \
 		--patterns-directory ../curation/patterns-for-matching \
 		--fillers-directory ../curation/upheno-fillers \
+		--output-directory ../patterns/data/automatic \
 		--tmp-directory ../curation/tmp
+
+merge_modified_patterns:
+	python3 ../scripts/upheno_build.py postprocess-modified-patterns \
+		--upheno-config ../curation/upheno-config.yaml \
+		--patterns-directory ../curation/patterns-for-matching \
+		--fillers-directory ../curation/upheno-fillers
+
+obsolete_fillers: $(REPORTDIR)/obsolete_filler_classes.tsv
+	echo "Obsolete fillers detected. Please update the patterns."

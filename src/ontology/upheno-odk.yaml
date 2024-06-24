@@ -339,6 +339,10 @@ components:
       templates:
         - phenotypes-without-patterns.tsv
         - phenotype-alignments.tsv
+pattern_pipelines_group:
+  products:
+    - id: automatic
+      dosdp_tools_options: "--obo-prefixes=true"
 robot_report:
   release_reports: true
   fail_on : None
