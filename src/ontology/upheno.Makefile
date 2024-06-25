@@ -152,9 +152,10 @@ $(COMPONENTSDIR)/upheno-species-neutral.owl:
 
 ifeq ($(strip $(MERGE_MIRRORS)),true)
 $(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
-	$(ROBOT) merge $(patsubst %, -i %, $^) \
+	$(ROBOT) merge $(patsubst %, -i %, $(ALL_MIRRORS)) \
 		remove --axioms disjoint --preserve-structure false remove --term http://www.w3.org/2002/07/owl#Nothing --axioms logical --preserve-structure false \
 		remove -T config/terms_to_remove.txt --preserve-structure false \
+		query --update ../sparql/rm_declarations.ru \
 		convert --format ofn --output $@
 .PRECIOUS: $(MIRRORDIR)/merged.owl
 endif
@@ -176,7 +177,8 @@ merge_modified_patterns:
 		--patterns-directory ../curation/patterns-for-matching \
 		--fillers-directory ../curation/upheno-fillers
 
-obsolete_fillers: $(REPORTDIR)/obsolete_filler_classes.tsv
+obsolete_fillers:
+	$(MAKE) $(REPORTDIR)/obsolete_filler_classes.tsv IMP=false MIR=false -B
 	python3 ../scripts/upheno_build.py obsolete-classes-from-tsvs \
 		--obsoleted-template ../templates/obsolete.tsv \
 		--obsolete-fillers-file $(REPORTDIR)/obsolete_filler_classes.tsv \
