@@ -1,4 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0147568	bone callus protruding out of vertebra, abnormal	http://purl.obolibrary.org/obo/ZFA_0005941	bone callus	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra
 http://purl.obolibrary.org/obo/ZP_0105808	cardiac muscle cell protruding out of compact layer of ventricle, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0005062	compact layer of ventricle
 http://purl.obolibrary.org/obo/ZP_0107229	cardiac muscle cell protruding out of myocardium, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium
 http://purl.obolibrary.org/obo/ZP_0131075	epithelial cell protruding out of epidermal superficial stratum, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001179	epidermal superficial stratum

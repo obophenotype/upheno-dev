@@ -21,7 +21,6 @@ http://purl.obolibrary.org/obo/HP_0009642	Broad distal phalanx of the thumb	http
 http://purl.obolibrary.org/obo/HP_0010186	Broad distal phalanx of the toes	http://purl.obolibrary.org/obo/UBERON_0003867	distal phalanx of pes
 http://purl.obolibrary.org/obo/HP_0011229	Broad eyebrow	http://purl.obolibrary.org/obo/UBERON_0010163	eyebrow
 http://purl.obolibrary.org/obo/HP_0000283	Broad face	http://purl.obolibrary.org/obo/UBERON_0001456	face
-http://purl.obolibrary.org/obo/HP_0006417	Broad femoral metaphyses	http://purl.obolibrary.org/obo/UBERON_0006865	metaphysis of femur
 http://purl.obolibrary.org/obo/HP_0006429	Broad femoral neck	http://purl.obolibrary.org/obo/UBERON_0007119	neck of femur
 http://purl.obolibrary.org/obo/HP_0001500	Broad finger	http://purl.obolibrary.org/obo/UBERON_0002389	manual digit
 http://purl.obolibrary.org/obo/HP_0011300	Broad fingertip	http://purl.obolibrary.org/obo/UBERON_0009552	distal segment of manual digit
@@ -97,6 +96,7 @@ http://purl.obolibrary.org/obo/HP_0000260	Wide anterior fontanel	http://purl.obo
 http://purl.obolibrary.org/obo/HP_0008784	Wide capital femoral epiphyses	http://purl.obolibrary.org/obo/UBERON_0004412	proximal epiphysis of femur
 http://purl.obolibrary.org/obo/HP_0010537	Wide cranial sutures	http://purl.obolibrary.org/obo/UBERON_0003685	cranial suture
 http://purl.obolibrary.org/obo/HP_0006387	Wide distal femoral metaphysis	http://purl.obolibrary.org/obo/UBERON_0006864	distal metaphysis of femur
+http://purl.obolibrary.org/obo/HP_0006417	Wide femoral metaphysis	http://purl.obolibrary.org/obo/UBERON_0006865	metaphysis of femur
 http://purl.obolibrary.org/obo/HP_0004261	Wide hamate bone	http://purl.obolibrary.org/obo/UBERON_0001433	distal carpal bone 4
 http://purl.obolibrary.org/obo/HP_0003935	Wide humeral diaphysis	http://purl.obolibrary.org/obo/UBERON_0004652	humerus diaphysis
 http://purl.obolibrary.org/obo/HP_0003886	Wide humerus	http://purl.obolibrary.org/obo/UBERON_0000976	humerus

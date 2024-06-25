@@ -37,6 +37,7 @@ http://purl.obolibrary.org/obo/MP_0004860	dilated kidney collecting duct	http://
 http://purl.obolibrary.org/obo/MP_0006015	dilated lateral semicircular canal	http://purl.obolibrary.org/obo/UBERON_0001843	lateral semicircular canal
 http://purl.obolibrary.org/obo/MP_0000825	dilated lateral ventricle	http://purl.obolibrary.org/obo/UBERON_0002285	telencephalic ventricle
 http://purl.obolibrary.org/obo/MP_0011223	dilated lymph node medullary sinus	http://purl.obolibrary.org/obo/UBERON_0009744	lymph node medullary sinus
+http://purl.obolibrary.org/obo/MP_0011632	dilated mitochondrion	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/MP_0011293	dilated nephron	http://purl.obolibrary.org/obo/UBERON_0001285	nephron
 http://purl.obolibrary.org/obo/MP_0009069	dilated oviduct	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
 http://purl.obolibrary.org/obo/MP_0014232	dilated pancreatic acinus	http://purl.obolibrary.org/obo/UBERON_0001263	pancreatic acinus
@@ -52,6 +53,7 @@ http://purl.obolibrary.org/obo/MP_0003670	dilated renal glomerular capsule	http:
 http://purl.obolibrary.org/obo/MP_0002705	dilated renal tubule	http://purl.obolibrary.org/obo/UBERON_0001231	nephron tubule
 http://purl.obolibrary.org/obo/MP_0010856	dilated respiratory conducting tube	http://purl.obolibrary.org/obo/UBERON_0000117	respiratory tube
 http://purl.obolibrary.org/obo/MP_0006423	dilated rete testis	http://purl.obolibrary.org/obo/UBERON_0003959	rete testis
+http://purl.obolibrary.org/obo/MP_0004089	dilated sarcoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0016529	sarcoplasmic reticulum
 http://purl.obolibrary.org/obo/MP_0008309	dilated scala media	http://purl.obolibrary.org/obo/UBERON_0002295	scala media
 http://purl.obolibrary.org/obo/MP_0013320	dilated seminal vesicle	http://purl.obolibrary.org/obo/UBERON_0000998	seminal vesicle
 http://purl.obolibrary.org/obo/MP_0009257	dilated seminiferous tubule	http://purl.obolibrary.org/obo/UBERON_0001343	seminiferous tubule of testis

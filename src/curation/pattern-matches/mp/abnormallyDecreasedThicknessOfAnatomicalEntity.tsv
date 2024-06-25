@@ -2,13 +2,15 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0031177	decreased Descemet membrane thickness	http://purl.obolibrary.org/obo/UBERON_0004367	Descemet's membrane
 http://purl.obolibrary.org/obo/MP_0010997	decreased aorta wall thickness	http://purl.obolibrary.org/obo/UBERON_0004663	aorta wall
 http://purl.obolibrary.org/obo/MP_0000135	decreased compact bone thickness	http://purl.obolibrary.org/obo/UBERON_0001439	compact bone tissue
+http://purl.obolibrary.org/obo/MP_0020855	decreased cornea epithelium thickness	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
+http://purl.obolibrary.org/obo/MP_0003092	decreased cornea stroma thickness	http://purl.obolibrary.org/obo/UBERON_0001777	substantia propria of cornea
 http://purl.obolibrary.org/obo/MP_0005543	decreased cornea thickness	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
-http://purl.obolibrary.org/obo/MP_0020855	decreased corneal epithelium thickness	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
-http://purl.obolibrary.org/obo/MP_0003092	decreased corneal stroma thickness	http://purl.obolibrary.org/obo/UBERON_0001777	substantia propria of cornea
 http://purl.obolibrary.org/obo/MP_0012703	decreased embryonic neuroepithelium thickness	http://purl.obolibrary.org/obo/UBERON_0004022	germinal neuroepithelium
+http://purl.obolibrary.org/obo/MP_0014315	decreased heart left ventricle anterior wall thickness	http://purl.obolibrary.org/obo/UBERON_0036288	anterior wall of left ventricle
 http://purl.obolibrary.org/obo/MP_0021158	decreased heart left ventricle wall thickness	http://purl.obolibrary.org/obo/UBERON_0036285	wall of left ventricle
 http://purl.obolibrary.org/obo/MP_0021160	decreased heart right ventricle wall thickness	http://purl.obolibrary.org/obo/UBERON_0036286	wall of right ventricle
 http://purl.obolibrary.org/obo/MP_0014219	decreased intestinal mucosa thickness	http://purl.obolibrary.org/obo/UBERON_0001242	intestinal mucosa
+http://purl.obolibrary.org/obo/MP_0011731	decreased myelin sheath thickness	http://purl.obolibrary.org/obo/GO_0043209	myelin sheath
 http://purl.obolibrary.org/obo/MP_0010930	decreased osteoid thickness	http://purl.obolibrary.org/obo/UBERON_0008883	osteoid
 http://purl.obolibrary.org/obo/MP_0010974	decreased periosteum thickness	http://purl.obolibrary.org/obo/UBERON_0002515	periosteum
 http://purl.obolibrary.org/obo/MP_0011859	decreased renal glomerulus basement membrane thickness	http://purl.obolibrary.org/obo/UBERON_0005777	glomerular basement membrane
@@ -44,9 +46,11 @@ http://purl.obolibrary.org/obo/MP_0004126	thin hypodermis	http://purl.obolibrary
 http://purl.obolibrary.org/obo/MP_0013834	thin hypoglossal nerve	http://purl.obolibrary.org/obo/UBERON_0001650	hypoglossal nerve
 http://purl.obolibrary.org/obo/MP_0030277	thin interparietal bone	http://purl.obolibrary.org/obo/UBERON_0002229	interparietal bone
 http://purl.obolibrary.org/obo/MP_0010725	thin interventricular septum	http://purl.obolibrary.org/obo/UBERON_0002094	interventricular septum
+http://purl.obolibrary.org/obo/MP_0031525	thin left ventricle myocardium compact layer	http://purl.obolibrary.org/obo/UBERON_0005063	left ventricular compact myocardium
 http://purl.obolibrary.org/obo/MP_0003775	thin lip	http://purl.obolibrary.org/obo/UBERON_0001833	lip
 http://purl.obolibrary.org/obo/MP_0003784	thin lip vermilion border	http://purl.obolibrary.org/obo/UBERON_0016915	vermilion
 http://purl.obolibrary.org/obo/MP_0008910	thin long bone epiphysis	http://purl.obolibrary.org/obo/UBERON_0001437	epiphysis
+http://purl.obolibrary.org/obo/MP_0014313	thin lower lip	http://purl.obolibrary.org/obo/UBERON_0001835	lower lip
 http://purl.obolibrary.org/obo/MP_0010328	thin malleus neck	http://purl.obolibrary.org/obo/UBERON_0005355	malleus neck
 http://purl.obolibrary.org/obo/MP_0020501	thin mandibular nerve	http://purl.obolibrary.org/obo/UBERON_0000375	mandibular nerve
 http://purl.obolibrary.org/obo/MP_0002652	thin myocardium	http://purl.obolibrary.org/obo/UBERON_0004493	cardiac muscle tissue of myocardium
@@ -61,7 +65,9 @@ http://purl.obolibrary.org/obo/MP_0008513	thin retina inner plexiform layer	http
 http://purl.obolibrary.org/obo/MP_0008515	thin retina outer nuclear layer	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0008519	thin retina outer plexiform layer	http://purl.obolibrary.org/obo/UBERON_0001790	outer plexiform layer of retina
 http://purl.obolibrary.org/obo/MP_0004674	thin ribs	http://purl.obolibrary.org/obo/UBERON_0002228	rib
+http://purl.obolibrary.org/obo/MP_0031526	thin right ventricle myocardium compact layer	http://purl.obolibrary.org/obo/UBERON_0005065	right ventricular compact myocardium
 http://purl.obolibrary.org/obo/MP_0001199	thin skin	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MP_0009242	thin sperm flagellum	http://purl.obolibrary.org/obo/GO_0036126	sperm flagellum
 http://purl.obolibrary.org/obo/MP_0004863	thin spiral ligament	http://purl.obolibrary.org/obo/UBERON_0006725	spiral ligament
 http://purl.obolibrary.org/obo/MP_0004364	thin stria vascularis	http://purl.obolibrary.org/obo/UBERON_0002282	stria vascularis of cochlear duct
 http://purl.obolibrary.org/obo/MP_0000589	thin tail	http://purl.obolibrary.org/obo/UBERON_0007812	post-anal tail

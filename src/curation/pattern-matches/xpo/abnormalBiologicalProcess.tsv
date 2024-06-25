@@ -3,7 +3,7 @@ http://purl.obolibrary.org/obo/XPO_0141877	abnormal 2-deoxyribose 1-phosphate me
 http://purl.obolibrary.org/obo/XPO_0141864	abnormal 5-methylcytosine metabolic process	http://purl.obolibrary.org/obo/GO_0019857	5-methylcytosine metabolic process
 http://purl.obolibrary.org/obo/XPO_0141793	abnormal ATP metabolic process	http://purl.obolibrary.org/obo/GO_0046034	ATP metabolic process
 http://purl.obolibrary.org/obo/XPO_0131700	abnormal BMP signaling pathway	http://purl.obolibrary.org/obo/GO_0030509	BMP signaling pathway
-http://purl.obolibrary.org/obo/XPO_0141902	abnormal D-methionine transport	http://purl.obolibrary.org/obo/GO_0048473	D-methionine transport
+http://purl.obolibrary.org/obo/XPO_0141902	abnormal D-methionine transport	http://purl.obolibrary.org/obo/GO_0048473	D-methionine transmembrane transport
 http://purl.obolibrary.org/obo/XPO_0141910	abnormal D-ribose metabolic process	http://purl.obolibrary.org/obo/GO_0006014	D-ribose metabolic process
 http://purl.obolibrary.org/obo/XPO_0141912	abnormal D-serine metabolic process	http://purl.obolibrary.org/obo/GO_0070178	D-serine metabolic process
 http://purl.obolibrary.org/obo/XPO_0131718	abnormal JNK cascade	http://purl.obolibrary.org/obo/GO_0007254	JNK cascade
@@ -32,6 +32,7 @@ http://purl.obolibrary.org/obo/XPO_0131699	abnormal axon extension involved in a
 http://purl.obolibrary.org/obo/XPO_0131742	abnormal axon extension involved in regeneration	http://purl.obolibrary.org/obo/GO_0048677	axon extension involved in regeneration
 http://purl.obolibrary.org/obo/XPO_0116429	abnormal behavior	http://purl.obolibrary.org/obo/GO_0007610	behavior
 http://purl.obolibrary.org/obo/XPO_0131401	abnormal behavioral response to pain	http://purl.obolibrary.org/obo/GO_0048266	behavioral response to pain
+http://purl.obolibrary.org/obo/XPO_0116434	abnormal biological process	http://purl.obolibrary.org/obo/GO_0008150	biological process
 http://purl.obolibrary.org/obo/XPO_0116434	abnormal biological process	http://purl.obolibrary.org/obo/GO_0008150	biological_process
 http://purl.obolibrary.org/obo/XPO_0141778	abnormal biosynthetic process	http://purl.obolibrary.org/obo/GO_0009058	biosynthetic process
 http://purl.obolibrary.org/obo/XPO_0141871	abnormal cadaverine transport	http://purl.obolibrary.org/obo/GO_0015839	cadaverine transport
@@ -105,8 +106,7 @@ http://purl.obolibrary.org/obo/XPO_0131468	abnormal heart looping	http://purl.ob
 http://purl.obolibrary.org/obo/XPO_0131469	abnormal heart process	http://purl.obolibrary.org/obo/GO_0003015	heart process
 http://purl.obolibrary.org/obo/XPO_0141750	abnormal hematopoietic stem cell homeostasis	http://purl.obolibrary.org/obo/GO_0061484	hematopoietic stem cell homeostasis
 http://purl.obolibrary.org/obo/XPO_0141751	abnormal hepatocyte homeostasis	http://purl.obolibrary.org/obo/GO_0036333	hepatocyte homeostasis
-http://purl.obolibrary.org/obo/XPO_0141887	abnormal histidine metabolic process	http://purl.obolibrary.org/obo/GO_0006547	histidine metabolic process
-http://purl.obolibrary.org/obo/XPO_0131716	abnormal histone methylation	http://purl.obolibrary.org/obo/GO_0016571	histone methylation
+http://purl.obolibrary.org/obo/XPO_0141887	abnormal histidine metabolic process	http://purl.obolibrary.org/obo/GO_0006547	L-histidine metabolic process
 http://purl.obolibrary.org/obo/XPO_0141753	abnormal homeostasis of number of cells	http://purl.obolibrary.org/obo/GO_0048872	homeostasis of number of cells
 http://purl.obolibrary.org/obo/XPO_0141752	abnormal homeostasis of number of cells within a tissue	http://purl.obolibrary.org/obo/GO_0048873	homeostasis of number of cells within a tissue
 http://purl.obolibrary.org/obo/XPO_0141754	abnormal homeostatic process	http://purl.obolibrary.org/obo/GO_0042592	homeostatic process
@@ -127,7 +127,7 @@ http://purl.obolibrary.org/obo/XPO_0141893	abnormal isoleucine metabolic process
 http://purl.obolibrary.org/obo/XPO_0141863	abnormal lactate metabolic process	http://purl.obolibrary.org/obo/GO_0006089	lactate metabolic process
 http://purl.obolibrary.org/obo/XPO_0141859	abnormal lactose catabolic process	http://purl.obolibrary.org/obo/GO_0005990	lactose catabolic process
 http://purl.obolibrary.org/obo/XPO_0103445	abnormal left/right axis specification	http://purl.obolibrary.org/obo/GO_0070986	left/right axis specification
-http://purl.obolibrary.org/obo/XPO_0141895	abnormal leucine metabolic process	http://purl.obolibrary.org/obo/GO_0006551	leucine metabolic process
+http://purl.obolibrary.org/obo/XPO_0141895	abnormal leucine metabolic process	http://purl.obolibrary.org/obo/GO_0006551	L-leucine metabolic process
 http://purl.obolibrary.org/obo/XPO_0141758	abnormal leukocyte homeostasis	http://purl.obolibrary.org/obo/GO_0001776	leukocyte homeostasis
 http://purl.obolibrary.org/obo/XPO_0141846	abnormal linoleic acid metabolic process	http://purl.obolibrary.org/obo/GO_0043651	linoleic acid metabolic process
 http://purl.obolibrary.org/obo/XPO_0141759	abnormal lipid homeostasis	http://purl.obolibrary.org/obo/GO_0055088	lipid homeostasis
@@ -140,7 +140,7 @@ http://purl.obolibrary.org/obo/XPO_0141897	abnormal malonic acid transport	http:
 http://purl.obolibrary.org/obo/XPO_0141898	abnormal maltose metabolic process	http://purl.obolibrary.org/obo/GO_0000023	maltose metabolic process
 http://purl.obolibrary.org/obo/XPO_0141899	abnormal mandelate metabolic process	http://purl.obolibrary.org/obo/GO_0018924	mandelate metabolic process
 http://purl.obolibrary.org/obo/XPO_0141900	abnormal mannose metabolic process	http://purl.obolibrary.org/obo/GO_0006013	mannose metabolic process
-http://purl.obolibrary.org/obo/XPO_0141901	abnormal mannose to fructose-6-phosphate metabolic process	http://purl.obolibrary.org/obo/GO_0061611	mannose to fructose-6-phosphate metabolic process
+http://purl.obolibrary.org/obo/XPO_0141901	abnormal mannose to fructose-6-phosphate metabolic process	http://purl.obolibrary.org/obo/GO_0061611	mannose to fructose-6-phosphate catabolic process
 http://purl.obolibrary.org/obo/XPO_0131407	abnormal mating behavior	http://purl.obolibrary.org/obo/GO_0007617	mating behavior
 http://purl.obolibrary.org/obo/XPO_0131403	abnormal mechanosensory behavior	http://purl.obolibrary.org/obo/GO_0007638	mechanosensory behavior
 http://purl.obolibrary.org/obo/XPO_0141776	abnormal metabolic process	http://purl.obolibrary.org/obo/GO_0008152	metabolic process
@@ -155,13 +155,13 @@ http://purl.obolibrary.org/obo/XPO_0141764	abnormal myeloid cell homeostasis	htt
 http://purl.obolibrary.org/obo/XPO_0131746	abnormal neural tube closure	http://purl.obolibrary.org/obo/GO_0001843	neural tube closure
 http://purl.obolibrary.org/obo/XPO_0141765	abnormal neuron cellular homeostasis	http://purl.obolibrary.org/obo/GO_0070050	neuron cellular homeostasis
 http://purl.obolibrary.org/obo/XPO_0141775	abnormal nitrogen compound metabolic process	http://purl.obolibrary.org/obo/GO_0006807	nitrogen compound metabolic process
+http://purl.obolibrary.org/obo/XPO_0141775	abnormal nitrogen compound metabolic process	http://purl.obolibrary.org/obo/GO_0006807	obsolete nitrogen compound metabolic process
 http://purl.obolibrary.org/obo/XPO_0131721	abnormal nodal signaling pathway	http://purl.obolibrary.org/obo/GO_0038092	nodal signaling pathway
 http://purl.obolibrary.org/obo/XPO_0131402	abnormal olfactory behavior	http://purl.obolibrary.org/obo/GO_0042048	olfactory behavior
 http://purl.obolibrary.org/obo/XPO_0131405	abnormal optokinetic behavior	http://purl.obolibrary.org/obo/GO_0007634	optokinetic behavior
 http://purl.obolibrary.org/obo/XPO_0141905	abnormal ornithine metabolic process	http://purl.obolibrary.org/obo/GO_0006591	ornithine metabolic process
 http://purl.obolibrary.org/obo/XPO_0141879	abnormal oxalate metabolic process	http://purl.obolibrary.org/obo/GO_0033609	oxalate metabolic process
 http://purl.obolibrary.org/obo/XPO_0141906	abnormal palmitic acid metabolic process	http://purl.obolibrary.org/obo/GO_1900533	palmitic acid metabolic process
-http://purl.obolibrary.org/obo/XPO_0131723	abnormal pathway-restricted SMAD protein phosphorylation	http://purl.obolibrary.org/obo/GO_0060389	pathway-restricted SMAD protein phosphorylation
 http://purl.obolibrary.org/obo/XPO_0141779	abnormal peptide hormone processing	http://purl.obolibrary.org/obo/GO_0016486	peptide hormone processing
 http://purl.obolibrary.org/obo/XPO_0141884	abnormal phosphagen metabolic process	http://purl.obolibrary.org/obo/GO_0006599	phosphagen metabolic process
 http://purl.obolibrary.org/obo/XPO_0131731	abnormal pigment accumulation in tissues	http://purl.obolibrary.org/obo/GO_0043480	pigment accumulation in tissues
@@ -171,7 +171,7 @@ http://purl.obolibrary.org/obo/XPO_0141724	abnormal prevention of polyspermy	htt
 http://purl.obolibrary.org/obo/XPO_0141791	abnormal primary metabolic process	http://purl.obolibrary.org/obo/GO_0044238	primary metabolic process
 http://purl.obolibrary.org/obo/XPO_0141848	abnormal proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/XPO_0141794	abnormal prosthetic group metabolic process	http://purl.obolibrary.org/obo/GO_0051189	prosthetic group metabolic process
-http://purl.obolibrary.org/obo/XPO_0131727	abnormal protein kinase B signaling	http://purl.obolibrary.org/obo/GO_0043491	protein kinase B signaling
+http://purl.obolibrary.org/obo/XPO_0131727	abnormal protein kinase B signaling	http://purl.obolibrary.org/obo/GO_0043491	phosphatidylinositol 3-kinase/protein kinase B signal transduction
 http://purl.obolibrary.org/obo/XPO_0131724	abnormal protein phosphorylation	http://purl.obolibrary.org/obo/GO_0006468	protein phosphorylation
 http://purl.obolibrary.org/obo/XPO_0103446	abnormal proximal/distal axis specification	http://purl.obolibrary.org/obo/GO_0009946	proximal/distal axis specification
 http://purl.obolibrary.org/obo/XPO_0141861	abnormal purine nucleoside metabolic process	http://purl.obolibrary.org/obo/GO_0042278	purine nucleoside metabolic process

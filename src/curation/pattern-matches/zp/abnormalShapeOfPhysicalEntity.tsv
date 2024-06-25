@@ -12,17 +12,21 @@ http://purl.obolibrary.org/obo/ZP_0006952	basihyal cartilage shape, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0106736	blastomere shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0001762	brain shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0005099	branchiostegal ray 3 shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001280	branchiostegal ray 3
+http://purl.obolibrary.org/obo/ZP_0147345	bulbus arteriosus shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0004526	cardiac muscle cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0004978	cardiac ventricle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
+http://purl.obolibrary.org/obo/ZP_0147890	caudal fin principal ray shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001585	caudal fin principal ray
 http://purl.obolibrary.org/obo/ZP_0007319	caudal fin shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0016172	central canal shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000938	central canal
 http://purl.obolibrary.org/obo/ZP_0012927	centrum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000126	centrum
+http://purl.obolibrary.org/obo/ZP_0147177	ceratobranchial 4 cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001519	ceratobranchial 4 cartilage
 http://purl.obolibrary.org/obo/ZP_0006422	ceratohyal bone shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000578	ceratohyal bone
 http://purl.obolibrary.org/obo/ZP_0011604	ceratohyal cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001400	ceratohyal cartilage
 http://purl.obolibrary.org/obo/ZP_0020696	cerebellum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000100	cerebellum
 http://purl.obolibrary.org/obo/ZP_0012551	chondrocranium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001424	chondrocranium
 http://purl.obolibrary.org/obo/ZP_0007208	chondrocyte shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte
 http://purl.obolibrary.org/obo/ZP_0020271	choroid plexus fourth ventricle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001446	choroid plexus fourth ventricle
+http://purl.obolibrary.org/obo/ZP_0147100	choroid plexus third ventricle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001444	choroid plexus third ventricle
 http://purl.obolibrary.org/obo/ZP_0005266	cranial cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001458	cranial cartilage
 http://purl.obolibrary.org/obo/ZP_0012500	cranial nerve II shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000435	cranial nerve II
 http://purl.obolibrary.org/obo/ZP_0102890	cranial nerve VII shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000664	cranial nerve VII
@@ -32,6 +36,7 @@ http://purl.obolibrary.org/obo/ZP_0000496	dentary shape, abnormal	http://purl.ob
 http://purl.obolibrary.org/obo/ZP_0016294	dorsal hyoid arch shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001401	dorsal hyoid arch
 http://purl.obolibrary.org/obo/ZP_0008791	dorsal longitudinal anastomotic vessel shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0004130	endoderm shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
+http://purl.obolibrary.org/obo/ZP_0147105	ependymal cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009033	ependymal cell
 http://purl.obolibrary.org/obo/ZP_0004700	epidermal cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009183	epidermal cell
 http://purl.obolibrary.org/obo/ZP_0005159	ethmoid cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001405	ethmoid cartilage
 http://purl.obolibrary.org/obo/ZP_0022511	extension shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000106	extension
@@ -61,6 +66,7 @@ http://purl.obolibrary.org/obo/ZP_0003730	intersegmental vessel shape, abnormal	
 http://purl.obolibrary.org/obo/ZP_0006302	intestinal epithelial cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009399	intestinal epithelial cell
 http://purl.obolibrary.org/obo/ZP_0002786	intestinal epithelium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
 http://purl.obolibrary.org/obo/ZP_0103413	intestine shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
+http://purl.obolibrary.org/obo/ZP_0146534	iris shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001238	iris
 http://purl.obolibrary.org/obo/ZP_0144612	islet shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005755	islet
 http://purl.obolibrary.org/obo/ZP_0107067	lateral dorsal aorta shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001054	lateral dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0106862	lens fiber cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009401	lens fiber cell
@@ -70,7 +76,6 @@ http://purl.obolibrary.org/obo/ZP_0010540	macula shape, abnormal	http://purl.obo
 http://purl.obolibrary.org/obo/ZP_0002155	mandibular arch skeleton shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
 http://purl.obolibrary.org/obo/ZP_0009675	maxilla shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000270	maxilla
 http://purl.obolibrary.org/obo/ZP_0003494	median fin shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005597	median fin
-http://purl.obolibrary.org/obo/ZP_0009914	melanocyte shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte
 http://purl.obolibrary.org/obo/ZP_0003001	midbrain hindbrain boundary shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary
 http://purl.obolibrary.org/obo/ZP_0003229	midbrain shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000128	midbrain
 http://purl.obolibrary.org/obo/ZP_0103090	mouth shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000547	mouth
@@ -131,10 +136,12 @@ http://purl.obolibrary.org/obo/ZP_0141374	retinal cone cell shape, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0141405	retinal rod cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
 http://purl.obolibrary.org/obo/ZP_0009633	rhombomere 3 shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000948	rhombomere 3
 http://purl.obolibrary.org/obo/ZP_0009632	rhombomere 5 shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000823	rhombomere 5
+http://purl.obolibrary.org/obo/ZP_0146470	sagitta shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000676	sagitta
 http://purl.obolibrary.org/obo/ZP_0015030	scale shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale
 http://purl.obolibrary.org/obo/ZP_0002043	semicircular canal shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000431	semicircular canal
 http://purl.obolibrary.org/obo/ZP_0022524	skeletal muscle cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
 http://purl.obolibrary.org/obo/ZP_0144200	slow muscle cell shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
+http://purl.obolibrary.org/obo/ZP_0146366	snout shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005496	snout
 http://purl.obolibrary.org/obo/ZP_0000438	somite border shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001462	somite border
 http://purl.obolibrary.org/obo/ZP_0000013	somite shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0008394	stomodeum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001290	stomodeum
@@ -146,6 +153,7 @@ http://purl.obolibrary.org/obo/ZP_0011789	trunk neural crest cell shape, abnorma
 http://purl.obolibrary.org/obo/ZP_0008700	trunk shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
 http://purl.obolibrary.org/obo/ZP_0006656	ventral mandibular arch shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch
 http://purl.obolibrary.org/obo/ZP_0008358	vertebra shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001189	vertebra
+http://purl.obolibrary.org/obo/ZP_0146232	vertebral column shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001559	vertebral column
 http://purl.obolibrary.org/obo/ZP_0100993	vertical myoseptum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000610	vertical myoseptum
 http://purl.obolibrary.org/obo/ZP_0007321	white matter shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001682	white matter
 http://purl.obolibrary.org/obo/ZP_0000159	whole organism shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism

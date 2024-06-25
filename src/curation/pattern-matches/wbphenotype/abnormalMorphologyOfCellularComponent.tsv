@@ -23,6 +23,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0002091	late endosome morphology vari
 http://purl.obolibrary.org/obo/WBPhenotype_0002097	lysosome morphology variant	http://purl.obolibrary.org/obo/GO_0005764	lysosome
 http://purl.obolibrary.org/obo/WBPhenotype_0001401	mitochondria morphology variant	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/WBPhenotype_0001398	neurite morphology variant	http://purl.obolibrary.org/obo/GO_0043005	neuron projection
+http://purl.obolibrary.org/obo/WBPhenotype_0001028	nuclear appearance variant	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
 http://purl.obolibrary.org/obo/WBPhenotype_0001028	nuclear appearance variant	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/WBPhenotype_0001877	nuclear membrane morphology variant	http://purl.obolibrary.org/obo/GO_0031965	nuclear membrane
 http://purl.obolibrary.org/obo/WBPhenotype_0000722	nucleolus variant	http://purl.obolibrary.org/obo/GO_0005730	nucleolus

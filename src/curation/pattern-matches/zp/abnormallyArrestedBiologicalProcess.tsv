@@ -32,7 +32,6 @@ http://purl.obolibrary.org/obo/ZP_0005591	cardiac muscle cell proliferation arre
 http://purl.obolibrary.org/obo/ZP_0006164	cardiac muscle contraction arrested, abnormal	http://purl.obolibrary.org/obo/GO_0060048	cardiac muscle contraction
 http://purl.obolibrary.org/obo/ZP_0004322	cardiac muscle progenitor cell migration to the midline involved in heart field formation arrested, abnormal	http://purl.obolibrary.org/obo/GO_0003261	cardiac muscle progenitor cell migration to the midline involved in heart field formation
 http://purl.obolibrary.org/obo/ZP_0102083	cardioblast cell midline fusion arrested, abnormal	http://purl.obolibrary.org/obo/GO_0003317	cardioblast cell midline fusion
-http://purl.obolibrary.org/obo/ZP_0004794	cation transport arrested, abnormal	http://purl.obolibrary.org/obo/GO_0006812	monoatomic cation transport
 http://purl.obolibrary.org/obo/ZP_0016138	cell communication by electrical coupling arrested, abnormal	http://purl.obolibrary.org/obo/GO_0010644	cell communication by electrical coupling
 http://purl.obolibrary.org/obo/ZP_0022846	cell cycle G1/S phase transition arrested, abnormal	http://purl.obolibrary.org/obo/GO_0044843	cell cycle G1/S phase transition
 http://purl.obolibrary.org/obo/ZP_0000303	cell cycle arrested, abnormal	http://purl.obolibrary.org/obo/GO_0007049	cell cycle
@@ -108,6 +107,7 @@ http://purl.obolibrary.org/obo/ZP_0104178	hyperosmotic salinity response arreste
 http://purl.obolibrary.org/obo/ZP_0102158	immunoglobulin heavy chain V-D-J recombination arrested, abnormal	http://purl.obolibrary.org/obo/GO_0071707	immunoglobulin heavy chain V-D-J recombination
 http://purl.obolibrary.org/obo/ZP_0003161	intestine smooth muscle contraction arrested, abnormal	http://purl.obolibrary.org/obo/GO_0014827	intestine smooth muscle contraction
 http://purl.obolibrary.org/obo/ZP_0005660	intrahepatic bile duct development arrested, abnormal	http://purl.obolibrary.org/obo/GO_0035622	intrahepatic bile duct development
+http://purl.obolibrary.org/obo/ZP_0146271	intussusceptive angiogenesis arrested, abnormal	http://purl.obolibrary.org/obo/GO_0002041	intussusceptive angiogenesis
 http://purl.obolibrary.org/obo/ZP_0003666	larval development arrested, abnormal	http://purl.obolibrary.org/obo/GO_0002164	larval development
 http://purl.obolibrary.org/obo/ZP_0002703	larval locomotory behavior arrested, abnormal	http://purl.obolibrary.org/obo/GO_0008345	larval locomotory behavior
 http://purl.obolibrary.org/obo/ZP_0102949	lens development in camera-type eye arrested, abnormal	http://purl.obolibrary.org/obo/GO_0002088	lens development in camera-type eye
@@ -136,6 +136,7 @@ http://purl.obolibrary.org/obo/ZP_0006864	mitotic cell cycle arrested, abnormal	
 http://purl.obolibrary.org/obo/ZP_0007004	mitotic cell cycle, embryonic arrested, abnormal	http://purl.obolibrary.org/obo/GO_0045448	mitotic cell cycle, embryonic
 http://purl.obolibrary.org/obo/ZP_0002868	mitotic prometaphase arrested, abnormal	http://purl.obolibrary.org/obo/GO_0000236	mitotic prometaphase
 http://purl.obolibrary.org/obo/ZP_0006808	mitotic sister chromatid segregation arrested, abnormal	http://purl.obolibrary.org/obo/GO_0000070	mitotic sister chromatid segregation
+http://purl.obolibrary.org/obo/ZP_0004794	monoatomic cation transport arrested, abnormal	http://purl.obolibrary.org/obo/GO_0006812	monoatomic cation transport
 http://purl.obolibrary.org/obo/ZP_0003777	multicellular organism development arrested, abnormal	http://purl.obolibrary.org/obo/GO_0007275	multicellular organism development
 http://purl.obolibrary.org/obo/ZP_0010505	multicellular organismal response to stress arrested, abnormal	http://purl.obolibrary.org/obo/GO_0033555	multicellular organismal response to stress
 http://purl.obolibrary.org/obo/ZP_0004420	muscle cell migration arrested, abnormal	http://purl.obolibrary.org/obo/GO_0014812	muscle cell migration

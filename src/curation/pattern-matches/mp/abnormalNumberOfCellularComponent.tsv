@@ -1,4 +1,5 @@
 defined_class	defined_class_label	cellular_component	cellular_component_label
+http://purl.obolibrary.org/obo/MP_0003706	abnormal cell nucleus count	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
 http://purl.obolibrary.org/obo/MP_0003706	abnormal cell nucleus count	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/MP_0004023	abnormal chromosome number	http://purl.obolibrary.org/obo/GO_0005694	chromosome
 http://purl.obolibrary.org/obo/MP_0020279	abnormal creatine kinase level	http://purl.obolibrary.org/obo/GO_0002185	creatine kinase complex

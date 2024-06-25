@@ -1,4 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/ZP_0146931	Meckel's cartilage-palatoquadrate cartilage joint increased mass density, abnormal	http://purl.obolibrary.org/obo/ZFA_0007117	Meckel's cartilage-palatoquadrate cartilage joint
 http://purl.obolibrary.org/obo/ZP_0100708	centrum increased mass density, abnormal	http://purl.obolibrary.org/obo/ZFA_0000126	centrum
 http://purl.obolibrary.org/obo/ZP_0100709	hemal arch increased mass density, abnormal	http://purl.obolibrary.org/obo/ZFA_0000519	hemal arch
 http://purl.obolibrary.org/obo/ZP_0144104	integument increased mass density, abnormal	http://purl.obolibrary.org/obo/ZFA_0000368	integument

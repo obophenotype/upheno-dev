@@ -1,7 +1,17 @@
 ---
 pattern_name: abnormallyIncreasedVolumeOfAnatomicalEntity
+
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedVolumeOfAnatomicalEntity.yaml
+
 description: 'Abnormally increased volume of anatomical entity, e.g. overexpanded pulmonary alveoli.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/HP_0000414  # Bulbous nose
+#    - http://purl.obolibrary.org/obo/XPO_0115308  # abnormally increased volume of brain
+#    - http://purl.obolibrary.org/obo/MP_0001183  # overexpanded pulmonary alveoli
+#    - http://purl.obolibrary.org/obo/ZP_0003908  # head increased volume, abnormal
+#    - http://purl.obolibrary.org/obo/ZP_0142585  #  macrophage increased volume, abnormal
+
 contributors:
 - https://orcid.org/0000-0002-7073-9172    # David Osumi-Sutherland
 - https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
@@ -13,14 +23,18 @@ classes:
   increased_volume: PATO:0000595
   abnormal: PATO:0000460
   anatomical_entity: UBERON:0001062
+
 relations:
   characteristic_of: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
+
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+
 vars:
   anatomical_entity: "'anatomical_entity'"
+
 name:
   text: "abnormally increased volume of %s"
   vars:

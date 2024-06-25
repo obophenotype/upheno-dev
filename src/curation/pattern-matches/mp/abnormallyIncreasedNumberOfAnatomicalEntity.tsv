@@ -32,13 +32,17 @@ http://purl.obolibrary.org/obo/MP_0002776	increased Sertoli cell number	http://p
 http://purl.obolibrary.org/obo/MP_0005015	increased T cell number	http://purl.obolibrary.org/obo/CL_0000084	T cell
 http://purl.obolibrary.org/obo/MP_0013763	increased T-helper cell number	http://purl.obolibrary.org/obo/CL_0000912	helper T cell
 http://purl.obolibrary.org/obo/MP_0012764	increased alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000789	alpha-beta T cell
+http://purl.obolibrary.org/obo/MP_0010891	increased alveolar lamellar body number	http://purl.obolibrary.org/obo/GO_0097208	alveolar lamellar body
 http://purl.obolibrary.org/obo/MP_0014228	increased alveolar macrophage number	http://purl.obolibrary.org/obo/CL_0000583	alveolar macrophage
 http://purl.obolibrary.org/obo/MP_0008105	increased amacrine cell number	http://purl.obolibrary.org/obo/CL_0000561	amacrine cell
 http://purl.obolibrary.org/obo/MP_0002606	increased basophil cell number	http://purl.obolibrary.org/obo/CL_0000767	basophil
 http://purl.obolibrary.org/obo/MP_0000321	increased bone marrow cell number	http://purl.obolibrary.org/obo/CL_0002092	bone marrow cell
 http://purl.obolibrary.org/obo/MP_0010829	increased bronchioalveolar stem cell number	http://purl.obolibrary.org/obo/CL_0002638	bronchioalveolar stem cell
 http://purl.obolibrary.org/obo/MP_0000005	increased brown adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
+http://purl.obolibrary.org/obo/MP_0031594	increased cardiac jelly amount	http://purl.obolibrary.org/obo/UBERON_0003906	cardiac jelly
 http://purl.obolibrary.org/obo/MP_0010102	increased caudal vertebrae number	http://purl.obolibrary.org/obo/UBERON_0001095	caudal vertebra
+http://purl.obolibrary.org/obo/MP_0003707	increased cell nucleus count	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
+http://purl.obolibrary.org/obo/MP_0003707	increased cell nucleus count	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/MP_0030553	increased cementoblast number	http://purl.obolibrary.org/obo/CL_0000061	cementoblast
 http://purl.obolibrary.org/obo/MP_0010841	increased central memory CD4-positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000904	central memory CD4-positive, alpha-beta T cell
 http://purl.obolibrary.org/obo/MP_0010847	increased central memory CD8 positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000907	central memory CD8-positive, alpha-beta T cell
@@ -54,6 +58,7 @@ http://purl.obolibrary.org/obo/MP_0002681	increased corpora lutea number	http://
 http://purl.obolibrary.org/obo/MP_0020575	increased corpus callosum cell number	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
 http://purl.obolibrary.org/obo/MP_0008340	increased corticotroph cell number	http://purl.obolibrary.org/obo/CL_0000467	adrenocorticotropic hormone secreting cell
 http://purl.obolibrary.org/obo/MP_0008126	increased dendritic cell number	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell
+http://purl.obolibrary.org/obo/MP_0021019	increased dendritic spine number	http://purl.obolibrary.org/obo/GO_0043197	dendritic spine
 http://purl.obolibrary.org/obo/MP_0011449	increased dopaminergic neuron number	http://purl.obolibrary.org/obo/CL_0000700	dopaminergic neuron
 http://purl.obolibrary.org/obo/MP_0005090	increased double-negative T cell number	http://purl.obolibrary.org/obo/CL_0002489	double negative thymocyte
 http://purl.obolibrary.org/obo/MP_0005091	increased double-positive T cell number	http://purl.obolibrary.org/obo/CL_0000809	double-positive, alpha-beta thymocyte
@@ -68,6 +73,7 @@ http://purl.obolibrary.org/obo/MP_0011686	increased epidermal stem cell number	h
 http://purl.obolibrary.org/obo/MP_0011178	increased erythroblast number	http://purl.obolibrary.org/obo/CL_0000765	erythroblast
 http://purl.obolibrary.org/obo/MP_0003131	increased erythrocyte cell number	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0003135	increased erythroid progenitor cell number	http://purl.obolibrary.org/obo/CL_0000038	erythroid progenitor cell
+http://purl.obolibrary.org/obo/MP_0031612	increased fetal cardiomyocyte number	http://purl.obolibrary.org/obo/CL_0002495	fetal cardiomyocyte
 http://purl.obolibrary.org/obo/MP_0011242	increased fetal derived definitive erythrocyte cell number	http://purl.obolibrary.org/obo/CL_0002357	fetal derived definitive erythrocyte
 http://purl.obolibrary.org/obo/MP_0008173	increased follicular B cell number	http://purl.obolibrary.org/obo/CL_0000843	follicular B cell
 http://purl.obolibrary.org/obo/MP_0008346	increased gamma-delta T cell number	http://purl.obolibrary.org/obo/CL_0000798	gamma-delta T cell
@@ -106,6 +112,7 @@ http://purl.obolibrary.org/obo/MP_0013704	increased megakaryocyte-erythroid prog
 http://purl.obolibrary.org/obo/MP_0008728	increased memory B cell number	http://purl.obolibrary.org/obo/CL_0000787	memory B cell
 http://purl.obolibrary.org/obo/MP_0008049	increased memory T cell number	http://purl.obolibrary.org/obo/CL_0000813	memory T cell
 http://purl.obolibrary.org/obo/MP_0011427	increased mesangial cell number	http://purl.obolibrary.org/obo/CL_0000650	mesangial cell
+http://purl.obolibrary.org/obo/MP_0011628	increased mitochondrial number	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/MP_0000220	increased monocyte cell number	http://purl.obolibrary.org/obo/CL_0000576	monocyte
 http://purl.obolibrary.org/obo/MP_0005192	increased motor neuron number	http://purl.obolibrary.org/obo/CL_0000100	motor neuron
 http://purl.obolibrary.org/obo/MP_0008485	increased muscle spindle number	http://purl.obolibrary.org/obo/UBERON_0003718	muscle spindle
@@ -118,13 +125,17 @@ http://purl.obolibrary.org/obo/MP_0009723	increased nipple number	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0030509	increased number of epithelial cell rests of Malassez	http://purl.obolibrary.org/obo/CL_0002166	epithelial cell of Malassez
 http://purl.obolibrary.org/obo/MP_0010919	increased number of pulmonary neuroendocrine bodies	http://purl.obolibrary.org/obo/UBERON_0010002	pulmonary neuroendocrine body
 http://purl.obolibrary.org/obo/MP_0030455	increased odontoblast number	http://purl.obolibrary.org/obo/CL_0000060	odontoblast
+http://purl.obolibrary.org/obo/MP_0010892	increased oligodendrocyte progenitor number	http://purl.obolibrary.org/obo/CL_0002453	oligodendrocyte precursor cell
 http://purl.obolibrary.org/obo/MP_0004988	increased osteoblast cell number	http://purl.obolibrary.org/obo/CL_0000062	osteoblast
 http://purl.obolibrary.org/obo/MP_0004984	increased osteoclast cell number	http://purl.obolibrary.org/obo/CL_0000092	osteoclast
 http://purl.obolibrary.org/obo/MP_0030482	increased osteocyte number	http://purl.obolibrary.org/obo/CL_0000137	osteocyte
 http://purl.obolibrary.org/obo/MP_0009159	increased pancreatic acinar cell number	http://purl.obolibrary.org/obo/CL_0002064	pancreatic acinar cell
 http://purl.obolibrary.org/obo/MP_0003645	increased pancreatic beta cell number	http://purl.obolibrary.org/obo/CL_0000169	type B pancreatic cell
+http://purl.obolibrary.org/obo/MP_0020817	increased photoreceptor outer segment number	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
 http://purl.obolibrary.org/obo/MP_0008097	increased plasma cell number	http://purl.obolibrary.org/obo/CL_0000786	plasma cell
 http://purl.obolibrary.org/obo/MP_0008524	increased plasmacytoid dendritic cell number	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell
+http://purl.obolibrary.org/obo/MP_0020430	increased platelet alpha-granule number	http://purl.obolibrary.org/obo/GO_0031091	platelet alpha granule
+http://purl.obolibrary.org/obo/MP_0020433	increased platelet dense granule number	http://purl.obolibrary.org/obo/GO_0042827	platelet dense granule
 http://purl.obolibrary.org/obo/MP_0003132	increased pre-B cell number	http://purl.obolibrary.org/obo/CL_0000817	precursor B cell
 http://purl.obolibrary.org/obo/MP_0000464	increased presacral vertebrae number	http://purl.obolibrary.org/obo/UBERON_0004451	trunk or cervical vertebra
 http://purl.obolibrary.org/obo/MP_0011124	increased primary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000035	primary ovarian follicle
@@ -173,6 +184,8 @@ http://purl.obolibrary.org/obo/MP_0004327	increased vestibular hair cell number	
 http://purl.obolibrary.org/obo/MP_0000008	increased white adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001347	white adipose tissue
 http://purl.obolibrary.org/obo/MP_0009537	interstitial cells of Cajal hyperplasia	http://purl.obolibrary.org/obo/CL_0002088	interstitial cell of Cajal
 http://purl.obolibrary.org/obo/MP_0011301	juxtaglomerular cell hyperplasia	http://purl.obolibrary.org/obo/CL_0000648	kidney granular cell
+http://purl.obolibrary.org/obo/MP_0031408	multi-headed sperm	http://purl.obolibrary.org/obo/GO_0061827	sperm head
+http://purl.obolibrary.org/obo/MP_0009839	multiflagellated sperm	http://purl.obolibrary.org/obo/GO_0036126	sperm flagellum
 http://purl.obolibrary.org/obo/MP_0002640	reticulocytosis	http://purl.obolibrary.org/obo/CL_0000558	reticulocyte
 http://purl.obolibrary.org/obo/MP_0009248	small caput epididymis	http://purl.obolibrary.org/obo/UBERON_0004358	caput epididymis
 http://purl.obolibrary.org/obo/MP_0006369	supernumerary incisors	http://purl.obolibrary.org/obo/UBERON_0001098	incisor tooth

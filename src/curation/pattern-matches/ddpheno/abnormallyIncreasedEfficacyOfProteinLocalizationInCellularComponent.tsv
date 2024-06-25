@@ -24,6 +24,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0000663	increased protein localization to
 http://purl.obolibrary.org/obo/DDPHENO_0000667	increased protein localization to mitotic spindle midzone	http://purl.obolibrary.org/obo/GO_1990023	mitotic spindle midzone
 http://purl.obolibrary.org/obo/DDPHENO_0001430	increased protein localization to nuclear envelope	http://purl.obolibrary.org/obo/GO_0005635	nuclear envelope
 http://purl.obolibrary.org/obo/DDPHENO_0000107	increased protein localization to nucleolus	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/DDPHENO_0001341	increased protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0001341	increased protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0000623	increased protein localization to phagocytic vesicle	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle
 http://purl.obolibrary.org/obo/DDPHENO_0001396	increased protein localization to plasma membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane

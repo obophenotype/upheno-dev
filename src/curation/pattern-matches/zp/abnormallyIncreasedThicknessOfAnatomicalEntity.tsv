@@ -41,10 +41,12 @@ http://purl.obolibrary.org/obo/ZP_0016389	integument increased thickness, abnorm
 http://purl.obolibrary.org/obo/ZP_0000383	intestinal bulb epithelium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005126	intestinal bulb epithelium
 http://purl.obolibrary.org/obo/ZP_0014679	intestinal villus increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005125	intestinal villus
 http://purl.obolibrary.org/obo/ZP_0000380	intestine increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
+http://purl.obolibrary.org/obo/ZP_0147929	intrahepatic bile duct increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005169	intrahepatic bile duct
 http://purl.obolibrary.org/obo/ZP_0137697	lens capsule increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005574	lens capsule
 http://purl.obolibrary.org/obo/ZP_0003878	lens epithelium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001326	lens epithelium
 http://purl.obolibrary.org/obo/ZP_0004546	lepidotrichium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001554	lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0002276	mandibular arch skeleton increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001227	mandibular arch skeleton
+http://purl.obolibrary.org/obo/ZP_0146943	mandibular symphysis increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005488	mandibular symphysis
 http://purl.obolibrary.org/obo/ZP_0007365	margin increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000038	margin
 http://purl.obolibrary.org/obo/ZP_0010593	medial rectus increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000301	medial rectus
 http://purl.obolibrary.org/obo/ZP_0003271	median fin fold increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000040	median fin fold
@@ -89,6 +91,7 @@ http://purl.obolibrary.org/obo/ZP_0105911	retinal outer plexiform layer increase
 http://purl.obolibrary.org/obo/ZP_0002442	retinal pigmented epithelium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000144	retinal pigmented epithelium
 http://purl.obolibrary.org/obo/ZP_0007352	scapulocoracoid increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001455	scapulocoracoid
 http://purl.obolibrary.org/obo/ZP_0009360	shield increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000071	shield
+http://purl.obolibrary.org/obo/ZP_0146227	slow muscle cell increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell
 http://purl.obolibrary.org/obo/ZP_0140532	symplectic increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000692	symplectic
 http://purl.obolibrary.org/obo/ZP_0010320	tail bud increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000077	tail bud
 http://purl.obolibrary.org/obo/ZP_0140229	trabecular layer increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005059	trabecular layer

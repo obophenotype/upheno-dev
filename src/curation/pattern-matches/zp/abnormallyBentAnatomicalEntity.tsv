@@ -2,6 +2,7 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0000905	Meckel's cartilage bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001205	Meckel's cartilage
 http://purl.obolibrary.org/obo/ZP_0018204	axis bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis
 http://purl.obolibrary.org/obo/ZP_0016130	basihyal bone bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000316	basihyal bone
+http://purl.obolibrary.org/obo/ZP_0146975	basihyal cartilage bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
 http://purl.obolibrary.org/obo/ZP_0004521	caudal fin bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0010005	central canal bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0000938	central canal
 http://purl.obolibrary.org/obo/ZP_0004956	ceratobranchial cartilage bent, abnormal	http://purl.obolibrary.org/obo/ZFA_0001516	ceratobranchial cartilage

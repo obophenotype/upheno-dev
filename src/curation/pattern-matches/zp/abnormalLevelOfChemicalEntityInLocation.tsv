@@ -12,13 +12,16 @@ http://purl.obolibrary.org/obo/ZP_0103627	Melanin melanocyte amount, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0021289	Melanin whole organism amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_89634	Melanin	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0101537	NAD head amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_13389	NAD	http://purl.obolibrary.org/obo/ZFA_0001114	head
 http://purl.obolibrary.org/obo/ZP_0104415	adrenaline whole organism amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0146072	amyloid-beta polypeptide 42 telencephalon amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_64647	amyloid-beta polypeptide 42	http://purl.obolibrary.org/obo/ZFA_0000079	telencephalon
 http://purl.obolibrary.org/obo/ZP_0106424	calcium(2+) blastomere amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0102849	calcium(2+) blood plasma amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)	http://purl.obolibrary.org/obo/ZFA_0005654	blood plasma
 http://purl.obolibrary.org/obo/ZP_0101139	carbohydrate anatomical structure amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate	http://purl.obolibrary.org/obo/ZFA_0000037	anatomical structure
+http://purl.obolibrary.org/obo/ZP_0149044	carnitine muscle amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine	http://purl.obolibrary.org/obo/ZFA_0005145	muscle
 http://purl.obolibrary.org/obo/ZP_0104414	catecholamine whole organism amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0141175	ceramide brain amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0100790	cholesterol blood amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/ZFA_0000007	blood
 http://purl.obolibrary.org/obo/ZP_0101185	cholesterol liver amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/ZFA_0000123	liver
+http://purl.obolibrary.org/obo/ZP_0148928	cholesterol whole organism amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0103507	cholesteryl ester liver amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_17002	cholesteryl ester	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0102343	cholesteryl ester whole organism amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_17002	cholesteryl ester	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0137306	chondroitin sulfate whole organism amount, abnormal	http://purl.obolibrary.org/obo/CHEBI_37397	chondroitin sulfate	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism

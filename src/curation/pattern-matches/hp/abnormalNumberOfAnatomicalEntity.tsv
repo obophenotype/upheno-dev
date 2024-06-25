@@ -6,6 +6,7 @@ http://purl.obolibrary.org/obo/HP_0011362	Abnormal hair quantity	http://purl.obo
 http://purl.obolibrary.org/obo/HP_0011893	Abnormal leukocyte count	http://purl.obolibrary.org/obo/CL_0000738	leukocyte
 http://purl.obolibrary.org/obo/HP_0040088	Abnormal lymphocyte count	http://purl.obolibrary.org/obo/CL_0000542	lymphocyte
 http://purl.obolibrary.org/obo/HP_0030326	Abnormal macrophage count	http://purl.obolibrary.org/obo/CL_0000235	macrophage
+http://purl.obolibrary.org/obo/HP_0012102	Abnormal mitochondrial number	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/HP_0012310	Abnormal monocyte count	http://purl.obolibrary.org/obo/CL_0000576	monocyte
 http://purl.obolibrary.org/obo/HP_0040089	Abnormal natural killer cell count	http://purl.obolibrary.org/obo/CL_0000623	natural killer cell
 http://purl.obolibrary.org/obo/HP_0011991	Abnormal neutrophil count	http://purl.obolibrary.org/obo/CL_0000775	neutrophil

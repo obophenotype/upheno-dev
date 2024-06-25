@@ -1,6 +1,7 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0140659	atrium necrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
 http://purl.obolibrary.org/obo/ZP_0014548	ball necrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000006	ball
+http://purl.obolibrary.org/obo/ZP_0147552	blastomere necrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0002272	brain necrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0010867	caudal fin necrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0000397	central nervous system necrotic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000012	central nervous system

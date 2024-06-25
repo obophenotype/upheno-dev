@@ -1,10 +1,13 @@
 defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/ZP_0149033	DNA damage response increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006974	DNA damage response
 http://purl.obolibrary.org/obo/ZP_0016543	ERK1 and ERK2 cascade increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0070371	ERK1 and ERK2 cascade
 http://purl.obolibrary.org/obo/ZP_0101024	aerobic respiration increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0009060	aerobic respiration
 http://purl.obolibrary.org/obo/ZP_0140213	ammonium transmembrane transport increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0072488	ammonium transmembrane transport
+http://purl.obolibrary.org/obo/ZP_0149017	anaerobic respiration increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0009061	anaerobic respiration
 http://purl.obolibrary.org/obo/ZP_0004961	apoptotic DNA fragmentation increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006309	apoptotic DNA fragmentation
 http://purl.obolibrary.org/obo/ZP_0004962	apoptotic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/ZP_0001672	associative learning increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0008306	associative learning
+http://purl.obolibrary.org/obo/ZP_0149032	autophagy increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006914	autophagy
 http://purl.obolibrary.org/obo/ZP_0001532	blood circulation increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0008015	blood circulation
 http://purl.obolibrary.org/obo/ZP_0005957	calcium ion import increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0070509	calcium ion import
 http://purl.obolibrary.org/obo/ZP_0014673	cardiac muscle cell proliferation increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0060038	cardiac muscle cell proliferation
@@ -18,12 +21,14 @@ http://purl.obolibrary.org/obo/ZP_0008190	cilium or flagellum-dependent cell mot
 http://purl.obolibrary.org/obo/ZP_0008630	collagen biosynthetic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0032964	collagen biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0106409	defense response to bacterium increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0042742	defense response to bacterium
 http://purl.obolibrary.org/obo/ZP_0018017	developmental growth increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
+http://purl.obolibrary.org/obo/ZP_0148519	endothelial to hematopoietic transition increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0098508	endothelial to hematopoietic transition
 http://purl.obolibrary.org/obo/ZP_0003423	epithelial cell proliferation increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0050673	epithelial cell proliferation
 http://purl.obolibrary.org/obo/ZP_0131013	feeding behavior increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007631	feeding behavior
 http://purl.obolibrary.org/obo/ZP_0103668	fertilization increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0009566	fertilization
 http://purl.obolibrary.org/obo/ZP_0014196	fin regeneration increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0031101	fin regeneration
 http://purl.obolibrary.org/obo/ZP_0004837	generation of neurons increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0048699	generation of neurons
 http://purl.obolibrary.org/obo/ZP_0140322	glucose import increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
+http://purl.obolibrary.org/obo/ZP_0149046	glucose metabolic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
 http://purl.obolibrary.org/obo/ZP_0006968	glycolytic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
 http://purl.obolibrary.org/obo/ZP_0131161	growth increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0040007	growth
 http://purl.obolibrary.org/obo/ZP_0138063	habituation increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046959	habituation
@@ -49,7 +54,10 @@ http://purl.obolibrary.org/obo/ZP_0105891	ovulation increased rate, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0137400	oxygen metabolic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0072592	oxygen metabolic process
 http://purl.obolibrary.org/obo/ZP_0003059	peripheral nervous system neuron axonogenesis increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0048936	peripheral nervous system neuron axonogenesis
 http://purl.obolibrary.org/obo/ZP_0021357	posterior lateral line neuromast deposition increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0048922	posterior lateral line neuromast deposition
+http://purl.obolibrary.org/obo/ZP_0149034	protein ubiquitination increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0016567	protein ubiquitination
+http://purl.obolibrary.org/obo/ZP_0148132	regulation of cytoplasmic pattern recognition receptor signaling pathway increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/ZP_0018360	respiratory gaseous exchange by respiratory system increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007585	respiratory gaseous exchange by respiratory system
+http://purl.obolibrary.org/obo/ZP_0149053	response to cadmium ion increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046686	response to cadmium ion
 http://purl.obolibrary.org/obo/ZP_0002437	retinal cell programmed cell death increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046666	retinal cell programmed cell death
 http://purl.obolibrary.org/obo/ZP_0006175	skeletal muscle cell proliferation increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0014856	skeletal muscle cell proliferation
 http://purl.obolibrary.org/obo/ZP_0102863	swimming behavior increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0036269	swimming behavior

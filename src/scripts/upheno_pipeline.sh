@@ -28,14 +28,12 @@ set -e
 #    This results in one tsv file with matches per phenotype ontology and pattern.
 # TODO: Remember that it is possible to manually add patterns to the pattern directory;
 
-sh run.sh python3 upheno_prepare.py ../curation/upheno-config.yaml
+#sh run.sh python3 upheno_prepare.py ../curation/upheno-config.yaml
 
 ####### Step 2: Generate uPheno 2 Core ########
 # The second step is to generate all manually curated intermediate uPheno classes that are common to all profiles.
 # These are generated using the normal ODK pipelines (patterns).
 # DEPRECATED STEP! NOW PART OF THE PROFILE GENERATION!
-
-#cd ../ontology && sh run.sh make ../patterns/definitions.owl -B && cd ../scripts
 
 ####### Step 3: uPheno intermediate layer and species-profiles ########
 
@@ -49,7 +47,14 @@ sh run.sh python3 upheno_prepare.py ../curation/upheno-config.yaml
 #    from the previous step using dosdp. Add taxon restrictions 
 
 sh run.sh python3 upheno_create_profiles.py ../curation/upheno-config.yaml
+
 sh run.sh python3 upheno-stats.py ../curation/upheno-config.yaml
+
+
+#RUN_SSSOM="python3 create_sssom.py --upheno_id_map ../curation/upheno_id_map.txt --patterns_dir ../curation/patterns-for-matching --matches_dir ../curation/pattern-matches --output ../../mappings/upheno-species-independent.sssom.tsv"
+#docker run -v $PWD/../../:/work -w /work/src/scripts --rm -ti obolibrary/odkfull:v1.5 $RUN_SSSOM
+
 cd ../ontology/
-sh run.sh make o sim reports
+sh run.sh make o reports
+
 echo "Release successfully completed, ready to deploy."

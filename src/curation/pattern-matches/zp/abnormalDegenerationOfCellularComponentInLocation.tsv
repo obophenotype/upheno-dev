@@ -27,6 +27,7 @@ http://purl.obolibrary.org/obo/ZP_0144100	myelin sheath lateral line degenerate,
 http://purl.obolibrary.org/obo/ZP_0000249	myofibril fast muscle cell degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0030016	myofibril	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell
 http://purl.obolibrary.org/obo/ZP_0008469	myofibril muscle degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0030016	myofibril	http://purl.obolibrary.org/obo/ZFA_0005145	muscle
 http://purl.obolibrary.org/obo/ZP_0130968	myofibril skeletal muscle degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0030016	myofibril	http://purl.obolibrary.org/obo/ZFA_0005277	skeletal muscle
+http://purl.obolibrary.org/obo/ZP_0146480	nuclear lamina hepatocyte degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0005652	nuclear lamina	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte
 http://purl.obolibrary.org/obo/ZP_0144411	peroxisome liver degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0005777	peroxisome	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0016056	photoreceptor inner segment retinal rod cell degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0001917	photoreceptor inner segment	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
 http://purl.obolibrary.org/obo/ZP_0106383	photoreceptor outer segment eye photoreceptor cell degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment	http://purl.obolibrary.org/obo/ZFA_0009154	eye photoreceptor cell
@@ -35,6 +36,7 @@ http://purl.obolibrary.org/obo/ZP_0102006	photoreceptor outer segment retinal co
 http://purl.obolibrary.org/obo/ZP_0015499	photoreceptor outer segment retinal rod cell degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
 http://purl.obolibrary.org/obo/ZP_0103958	plasma membrane hepatocyte degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte
 http://purl.obolibrary.org/obo/ZP_0141387	rod photoreceptor outer segment retinal rod cell degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0120200	rod photoreceptor outer segment	http://purl.obolibrary.org/obo/ZFA_0009275	retinal rod cell
+http://purl.obolibrary.org/obo/ZP_0147566	skeletal muscle myofibril skeletal muscle cell degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0098723	skeletal muscle myofibril	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell
 http://purl.obolibrary.org/obo/ZP_0100990	skeletal muscle myofibril skeletal muscle degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0098723	skeletal muscle myofibril	http://purl.obolibrary.org/obo/ZFA_0005277	skeletal muscle
 http://purl.obolibrary.org/obo/ZP_0021911	synapse brain degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/ZFA_0000008	brain
 http://purl.obolibrary.org/obo/ZP_0100785	vacuole liver degenerate, abnormal	http://purl.obolibrary.org/obo/GO_0005773	vacuole	http://purl.obolibrary.org/obo/ZFA_0000123	liver

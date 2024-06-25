@@ -12,16 +12,20 @@ classes:
   entity1: UBERON:0001062
   entity2: UBERON:0001062
   increased distance: PATO:0000374
+
 relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
   towards: RO:0002503
+
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+
 vars:
   entity1: "'entity1'"
   entity2: "'entity2'"
+
 name:
   text: "increased distance between %s and %s"
   vars:

@@ -1,5 +1,6 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/WBPhenotype_0001228	alae absent	http://purl.obolibrary.org/obo/WBbt_0007832	cuticular ala
+http://purl.obolibrary.org/obo/WBPhenotype_0000310	cilia absent	http://purl.obolibrary.org/obo/GO_0005929	cilium
 http://purl.obolibrary.org/obo/WBPhenotype_0002463	hookless	http://purl.obolibrary.org/obo/WBbt_0008425	hook
 http://purl.obolibrary.org/obo/WBPhenotype_0001929	linker cell absent	http://purl.obolibrary.org/obo/WBbt_0005062	linker cell
 http://purl.obolibrary.org/obo/WBPhenotype_0001637	no Intestine	http://purl.obolibrary.org/obo/WBbt_0005772	intestine
@@ -18,4 +19,5 @@ http://purl.obolibrary.org/obo/WBPhenotype_0001225	phasmid socket absent	http://
 http://purl.obolibrary.org/obo/WBPhenotype_0001509	rays missing	http://purl.obolibrary.org/obo/WBbt_0006941	ray
 http://purl.obolibrary.org/obo/WBPhenotype_0000290	sperm absent	http://purl.obolibrary.org/obo/WBbt_0006798	sperm
 http://purl.obolibrary.org/obo/WBPhenotype_0001368	spermatheca absent	http://purl.obolibrary.org/obo/WBbt_0005319	spermatheca
+http://purl.obolibrary.org/obo/WBPhenotype_0002418	spindle absent	http://purl.obolibrary.org/obo/GO_0005819	spindle
 http://purl.obolibrary.org/obo/WBPhenotype_0000698	vulvaless	http://purl.obolibrary.org/obo/WBbt_0006748	vulva

@@ -1,4 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/WBPhenotype_0002364	axonal degeneration	http://purl.obolibrary.org/obo/GO_0030424	axon
 http://purl.obolibrary.org/obo/WBPhenotype_0000178	cell degeneration	http://purl.obolibrary.org/obo/WBbt_0004017	Cell
 http://purl.obolibrary.org/obo/WBPhenotype_0002630	epithelial system degeneration	http://purl.obolibrary.org/obo/WBbt_0005730	epithelial system
 http://purl.obolibrary.org/obo/WBPhenotype_0002625	head degeneration	http://purl.obolibrary.org/obo/WBbt_0005739	head

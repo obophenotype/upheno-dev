@@ -2,6 +2,8 @@ defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0010522	calcified aorta	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
 http://purl.obolibrary.org/obo/MP_0010524	calcified aortic arch	http://purl.obolibrary.org/obo/UBERON_0001508	arch of aorta
 http://purl.obolibrary.org/obo/MP_0006116	calcified aortic valve	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
+http://purl.obolibrary.org/obo/MP_0031519	calcified aortic valve annulus	http://purl.obolibrary.org/obo/UBERON_0005991	aortic valve anulus
+http://purl.obolibrary.org/obo/MP_0031518	calcified aortic valve cusp	http://purl.obolibrary.org/obo/UBERON_0005990	aortic valve cusp
 http://purl.obolibrary.org/obo/MP_0006133	calcified artery	http://purl.obolibrary.org/obo/UBERON_0001637	artery
 http://purl.obolibrary.org/obo/MP_0030014	calcified brain	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0030776	calcified calcaneal tendon	http://purl.obolibrary.org/obo/UBERON_0003701	calcaneal tendon
@@ -9,6 +11,8 @@ http://purl.obolibrary.org/obo/MP_0004685	calcified intervertebral disk	http://p
 http://purl.obolibrary.org/obo/MP_0006209	calcified intraocular region	http://purl.obolibrary.org/obo/UBERON_0000019	camera-type eye
 http://purl.obolibrary.org/obo/MP_0003200	calcified joint	http://purl.obolibrary.org/obo/UBERON_0000982	skeletal joint
 http://purl.obolibrary.org/obo/MP_0006121	calcified mitral valve	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
+http://purl.obolibrary.org/obo/MP_0031521	calcified mitral valve annulus	http://purl.obolibrary.org/obo/UBERON_0005995	mitral valve anulus
+http://purl.obolibrary.org/obo/MP_0031520	calcified mitral valve cusp	http://purl.obolibrary.org/obo/UBERON_0005996	mitral valve cusp
 http://purl.obolibrary.org/obo/MP_0003199	calcified muscle	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/MP_0010534	calcified myocardium	http://purl.obolibrary.org/obo/UBERON_0002349	myocardium
 http://purl.obolibrary.org/obo/MP_0014108	calcified pancreas	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas

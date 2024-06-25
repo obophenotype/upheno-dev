@@ -5,6 +5,7 @@ http://purl.obolibrary.org/obo/ZP_0001232	brain degenerate, abnormal	http://purl
 http://purl.obolibrary.org/obo/ZP_0007483	caudal fin degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0139954	caudal fin lepidotrichium degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001550	caudal fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0002528	central nervous system degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000012	central nervous system
+http://purl.obolibrary.org/obo/ZP_0148987	ceratobranchial cartilage degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001516	ceratobranchial cartilage
 http://purl.obolibrary.org/obo/ZP_0005832	cerebellum degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000100	cerebellum
 http://purl.obolibrary.org/obo/ZP_0102634	chondrocyte degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte
 http://purl.obolibrary.org/obo/ZP_0142625	cloaca degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0005781	cloaca
@@ -40,6 +41,7 @@ http://purl.obolibrary.org/obo/ZP_0012102	muscle cell degenerate, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0002918	muscle degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle
 http://purl.obolibrary.org/obo/ZP_0007930	myocardium degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium
 http://purl.obolibrary.org/obo/ZP_0001498	myotome degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0145482	neural crest degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000045	neural crest
 http://purl.obolibrary.org/obo/ZP_0010491	neuroectoderm degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001120	neuroectoderm
 http://purl.obolibrary.org/obo/ZP_0018161	neuromast hair cell degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell
 http://purl.obolibrary.org/obo/ZP_0000474	neuron degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron

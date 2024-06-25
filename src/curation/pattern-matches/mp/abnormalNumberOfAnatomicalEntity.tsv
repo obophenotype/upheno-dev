@@ -27,10 +27,13 @@ http://purl.obolibrary.org/obo/MP_0012064	abnormal astrocyte number	http://purl.
 http://purl.obolibrary.org/obo/MP_0012442	abnormal basophil cell number	http://purl.obolibrary.org/obo/CL_0000767	basophil
 http://purl.obolibrary.org/obo/MP_0000172	abnormal bone marrow cell number	http://purl.obolibrary.org/obo/CL_0002092	bone marrow cell
 http://purl.obolibrary.org/obo/MP_0001778	abnormal brown adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
-http://purl.obolibrary.org/obo/MP_0009126	abnormal brown fat cell number	http://purl.obolibrary.org/obo/CL_0000449	brown fat cell
+http://purl.obolibrary.org/obo/MP_0009126	abnormal brown fat cell number	http://purl.obolibrary.org/obo/CL_0000449	brown adipocyte
+http://purl.obolibrary.org/obo/MP_0003706	abnormal cell nucleus count	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
+http://purl.obolibrary.org/obo/MP_0003706	abnormal cell nucleus count	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/MP_0030551	abnormal cementoblast number	http://purl.obolibrary.org/obo/CL_0000061	cementoblast
 http://purl.obolibrary.org/obo/MP_0012771	abnormal central memory CD4-positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000904	central memory CD4-positive, alpha-beta T cell
 http://purl.obolibrary.org/obo/MP_0012772	abnormal central memory CD8-positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000907	central memory CD8-positive, alpha-beta T cell
+http://purl.obolibrary.org/obo/MP_0004023	abnormal chromosome number	http://purl.obolibrary.org/obo/GO_0005694	chromosome
 http://purl.obolibrary.org/obo/MP_0004406	abnormal cochlear hair cell number	http://purl.obolibrary.org/obo/CL_0000202	auditory hair cell
 http://purl.obolibrary.org/obo/MP_0004394	abnormal cochlear inner hair cell number	http://purl.obolibrary.org/obo/CL_0000589	cochlear inner hair cell
 http://purl.obolibrary.org/obo/MP_0004400	abnormal cochlear outer hair cell number	http://purl.obolibrary.org/obo/CL_0000601	cochlear outer hair cell
@@ -38,6 +41,7 @@ http://purl.obolibrary.org/obo/MP_0013462	abnormal conjunctiva goblet cell numbe
 http://purl.obolibrary.org/obo/MP_0020572	abnormal corpus callosum cell number	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
 http://purl.obolibrary.org/obo/MP_0008125	abnormal dendritic cell number	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell
 http://purl.obolibrary.org/obo/MP_0013408	abnormal dendritic epidermal T cell number	http://purl.obolibrary.org/obo/CL_0000916	dendritic epidermal T cell
+http://purl.obolibrary.org/obo/MP_0021017	abnormal dendritic spine number	http://purl.obolibrary.org/obo/GO_0043197	dendritic spine
 http://purl.obolibrary.org/obo/MP_0013456	abnormal eccrine gland number	http://purl.obolibrary.org/obo/UBERON_0000423	eccrine sweat gland
 http://purl.obolibrary.org/obo/MP_0013762	abnormal effector T cell number	http://purl.obolibrary.org/obo/CL_0000911	effector T cell
 http://purl.obolibrary.org/obo/MP_0012770	abnormal effector memory CD4-positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000905	effector memory CD4-positive, alpha-beta T cell
@@ -47,6 +51,7 @@ http://purl.obolibrary.org/obo/MP_0002602	abnormal eosinophil cell number	http:/
 http://purl.obolibrary.org/obo/MP_0011177	abnormal erythroblast number	http://purl.obolibrary.org/obo/CL_0000765	erythroblast
 http://purl.obolibrary.org/obo/MP_0001586	abnormal erythrocyte cell number	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0013896	abnormal eyelid cilium number	http://purl.obolibrary.org/obo/UBERON_0001702	eyelash
+http://purl.obolibrary.org/obo/MP_0031610	abnormal fetal cardiomyocyte number	http://purl.obolibrary.org/obo/CL_0002495	fetal cardiomyocyte
 http://purl.obolibrary.org/obo/MP_0011241	abnormal fetal derived definitive erythrocyte cell number	http://purl.obolibrary.org/obo/CL_0002357	fetal derived definitive erythrocyte
 http://purl.obolibrary.org/obo/MP_0008345	abnormal gamma-delta T cell number	http://purl.obolibrary.org/obo/CL_0000798	gamma-delta T cell
 http://purl.obolibrary.org/obo/MP_0013680	abnormal germinal center B cell number	http://purl.obolibrary.org/obo/CL_0000844	germinal center B cell
@@ -89,10 +94,13 @@ http://purl.obolibrary.org/obo/MP_0020578	abnormal pancreatic beta cell number	h
 http://purl.obolibrary.org/obo/MP_0020579	abnormal pancreatic delta cell number	http://purl.obolibrary.org/obo/CL_0000173	pancreatic D cell
 http://purl.obolibrary.org/obo/MP_0020580	abnormal pancreatic epsilon cell number	http://purl.obolibrary.org/obo/CL_0005019	pancreatic epsilon cell
 http://purl.obolibrary.org/obo/MP_0009166	abnormal pancreatic islet number	http://purl.obolibrary.org/obo/UBERON_0000006	islet of Langerhans
+http://purl.obolibrary.org/obo/MP_0020815	abnormal photoreceptor outer segment number	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
 http://purl.obolibrary.org/obo/MP_0008096	abnormal plasma cell number	http://purl.obolibrary.org/obo/CL_0000786	plasma cell
 http://purl.obolibrary.org/obo/MP_0013940	abnormal plasmablast number	http://purl.obolibrary.org/obo/CL_0000980	plasmablast
 http://purl.obolibrary.org/obo/MP_0008123	abnormal plasmacytoid dendritic cell number	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell
+http://purl.obolibrary.org/obo/MP_0020429	abnormal platelet alpha-granule number	http://purl.obolibrary.org/obo/GO_0031091	platelet alpha granule
 http://purl.obolibrary.org/obo/MP_0011898	abnormal platelet cell number	http://purl.obolibrary.org/obo/CL_0000233	platelet
+http://purl.obolibrary.org/obo/MP_0004722	abnormal platelet dense granule number	http://purl.obolibrary.org/obo/GO_0042827	platelet dense granule
 http://purl.obolibrary.org/obo/MP_0011123	abnormal primary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000035	primary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0011119	abnormal primordial ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0003981	primordial ovarian follicle
 http://purl.obolibrary.org/obo/MP_0020387	abnormal radial glial cell number	http://purl.obolibrary.org/obo/CL_0000681	radial glial cell
@@ -105,6 +113,7 @@ http://purl.obolibrary.org/obo/MP_0002673	abnormal sperm number	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0014261	abnormal spleen B cell follicle number	http://purl.obolibrary.org/obo/UBERON_0001249	spleen lymphoid follicle
 http://purl.obolibrary.org/obo/MP_0012282	abnormal sternebra number	http://purl.obolibrary.org/obo/UBERON_0002208	sternebra
 http://purl.obolibrary.org/obo/MP_0020997	abnormal subcutaneous adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0002190	subcutaneous adipose tissue
+http://purl.obolibrary.org/obo/MP_0004792	abnormal synaptic vesicle number	http://purl.obolibrary.org/obo/GO_0008021	synaptic vesicle
 http://purl.obolibrary.org/obo/MP_0011127	abnormal tertiary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0009369	abnormal theca cell number	http://purl.obolibrary.org/obo/CL_0000503	theca cell
 http://purl.obolibrary.org/obo/MP_0030611	abnormal tooth number	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
@@ -113,4 +122,4 @@ http://purl.obolibrary.org/obo/MP_0004643	abnormal vertebrae number	http://purl.
 http://purl.obolibrary.org/obo/MP_0004326	abnormal vestibular hair cell number	http://purl.obolibrary.org/obo/CL_0000609	vestibular hair cell
 http://purl.obolibrary.org/obo/MP_0009003	abnormal vibrissa number	http://purl.obolibrary.org/obo/UBERON_0011933	vibrissa unit
 http://purl.obolibrary.org/obo/MP_0001781	abnormal white adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001347	white adipose tissue
-http://purl.obolibrary.org/obo/MP_0009129	abnormal white fat cell number	http://purl.obolibrary.org/obo/CL_0000448	white fat cell
+http://purl.obolibrary.org/obo/MP_0009129	abnormal white fat cell number	http://purl.obolibrary.org/obo/CL_0000448	white adipocyte

@@ -12,7 +12,6 @@ http://purl.obolibrary.org/obo/ZP_0005226	atrium increased width, abnormal	http:
 http://purl.obolibrary.org/obo/ZP_0002537	axial chorda mesoderm increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000091	axial chorda mesoderm
 http://purl.obolibrary.org/obo/ZP_0010477	axial hypoblast increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001378	axial hypoblast
 http://purl.obolibrary.org/obo/ZP_0009304	axial mesoderm increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001204	axial mesoderm
-http://purl.obolibrary.org/obo/ZP_0001818	axis increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis
 http://purl.obolibrary.org/obo/ZP_0017242	basal plate cartilage increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001425	basal plate cartilage
 http://purl.obolibrary.org/obo/ZP_0001105	bile canaliculus increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005163	bile canaliculus
 http://purl.obolibrary.org/obo/ZP_0015209	blastema increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
@@ -65,6 +64,8 @@ http://purl.obolibrary.org/obo/ZP_0018507	internal carotid artery increased widt
 http://purl.obolibrary.org/obo/ZP_0005900	intersegmental vessel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
 http://purl.obolibrary.org/obo/ZP_0140328	intestinal lamina propria mucosa increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005659	intestinal lamina propria mucosa
 http://purl.obolibrary.org/obo/ZP_0006112	intrahepatic bile duct increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005169	intrahepatic bile duct
+http://purl.obolibrary.org/obo/ZP_0145477	lamina densa increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005286	lamina densa
+http://purl.obolibrary.org/obo/ZP_0145478	lamina rara interna increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005287	lamina rara interna
 http://purl.obolibrary.org/obo/ZP_0003628	lateral mesoderm increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001065	lateral mesoderm
 http://purl.obolibrary.org/obo/ZP_0010326	lateral plate mesoderm increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000121	lateral plate mesoderm
 http://purl.obolibrary.org/obo/ZP_0012069	levator arcus palatini increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000384	levator arcus palatini
@@ -76,6 +77,7 @@ http://purl.obolibrary.org/obo/ZP_0001328	mesoderm increased width, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0005333	midbrain hindbrain boundary increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary
 http://purl.obolibrary.org/obo/ZP_0005875	midbrain hindbrain boundary neural keel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007045	midbrain hindbrain boundary neural keel
 http://purl.obolibrary.org/obo/ZP_0017149	midbrain increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000128	midbrain
+http://purl.obolibrary.org/obo/ZP_0146786	muscle cell increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell
 http://purl.obolibrary.org/obo/ZP_0006834	myoseptum increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001089	myoseptum
 http://purl.obolibrary.org/obo/ZP_0000582	myotome increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
 http://purl.obolibrary.org/obo/ZP_0002542	neural keel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000131	neural keel
@@ -125,11 +127,11 @@ http://purl.obolibrary.org/obo/ZP_0141185	rib increased width, abnormal	http://p
 http://purl.obolibrary.org/obo/ZP_0007473	roof plate midbrain region increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000355	roof plate midbrain region
 http://purl.obolibrary.org/obo/ZP_0003627	segmental plate increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000279	segmental plate
 http://purl.obolibrary.org/obo/ZP_0008384	shield increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000071	shield
-http://purl.obolibrary.org/obo/ZP_0000153	somite increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0012077	sternohyoid increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001651	sternohyoid
 http://purl.obolibrary.org/obo/ZP_0007008	stratum fibrosum et griseum superficiale increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001347	stratum fibrosum et griseum superficiale
 http://purl.obolibrary.org/obo/ZP_0101121	striated muscle cell increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005784	striated muscle cell
 http://purl.obolibrary.org/obo/ZP_0006990	tail bud increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000077	tail bud
+http://purl.obolibrary.org/obo/ZP_0148735	telencephalic white matter increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000597	telencephalic white matter
 http://purl.obolibrary.org/obo/ZP_0017990	trabecula cranii increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001507	trabecula cranii
 http://purl.obolibrary.org/obo/ZP_0106983	trigeminal ganglion increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000295	trigeminal ganglion
 http://purl.obolibrary.org/obo/ZP_0002930	trunk increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
@@ -138,6 +140,7 @@ http://purl.obolibrary.org/obo/ZP_0012081	ventral intermandibularis anterior inc
 http://purl.obolibrary.org/obo/ZP_0012083	ventral intermandibularis posterior increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007048	ventral intermandibularis posterior
 http://purl.obolibrary.org/obo/ZP_0004286	ventral mandibular arch increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001273	ventral mandibular arch
 http://purl.obolibrary.org/obo/ZP_0010172	ventricular myocardium increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005061	ventricular myocardium
+http://purl.obolibrary.org/obo/ZP_0146186	vertebral body end plate increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0007118	vertebral body end plate
 http://purl.obolibrary.org/obo/ZP_0002950	vertical myoseptum increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000610	vertical myoseptum
 http://purl.obolibrary.org/obo/ZP_0007745	whole organism increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0101536	yolk syncytial layer increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000088	yolk syncytial layer

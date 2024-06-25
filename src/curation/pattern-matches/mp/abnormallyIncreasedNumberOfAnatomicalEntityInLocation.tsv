@@ -4,11 +4,13 @@ http://purl.obolibrary.org/obo/MP_0011419	erythrocyturia	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/MP_0005161	hematuria	http://purl.obolibrary.org/obo/UBERON_0000178	blood	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0020411	increased abdominal adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001013	adipose tissue	http://purl.obolibrary.org/obo/UBERON_0000916	abdomen
 http://purl.obolibrary.org/obo/MP_0010868	increased bone trabecula number	http://purl.obolibrary.org/obo/UBERON_0000440	trabecula	http://purl.obolibrary.org/obo/UBERON_0001474	bone element
+http://purl.obolibrary.org/obo/MP_0009138	increased brown fat lipid droplet number	http://purl.obolibrary.org/obo/GO_0005811	lipid droplet	http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
 http://purl.obolibrary.org/obo/MP_0009973	increased cerebral cortex pyramidal cell number	http://purl.obolibrary.org/obo/CL_0000598	pyramidal neuron	http://purl.obolibrary.org/obo/UBERON_0000956	cerebral cortex
 http://purl.obolibrary.org/obo/MP_0009970	increased hippocampus pyramidal cell number	http://purl.obolibrary.org/obo/CL_0000598	pyramidal neuron	http://purl.obolibrary.org/obo/UBERON_0001954	Ammon's horn
 http://purl.obolibrary.org/obo/MP_0011847	increased kidney collecting duct number	http://purl.obolibrary.org/obo/UBERON_0001232	collecting duct of renal tubule	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
 http://purl.obolibrary.org/obo/MP_0020903	increased middle ear goblet cell number	http://purl.obolibrary.org/obo/CL_0000160	goblet cell	http://purl.obolibrary.org/obo/UBERON_0015813	middle ear epithelium
 http://purl.obolibrary.org/obo/MP_0013415	increased myeloid cell number in bone marrow	http://purl.obolibrary.org/obo/CL_0000763	myeloid cell	http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/MP_0011052	increased respiratory motile cilia number	http://purl.obolibrary.org/obo/GO_0031514	motile cilium	http://purl.obolibrary.org/obo/CL_0002368	respiratory epithelial cell
 http://purl.obolibrary.org/obo/MP_0009338	increased splenocyte number	http://purl.obolibrary.org/obo/CL_0000000	cell	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
 http://purl.obolibrary.org/obo/MP_0000571	interdigital webbing	http://purl.obolibrary.org/obo/UBERON_0001419	skin of limb	http://purl.obolibrary.org/obo/UBERON_0006012	interdigital region
 http://purl.obolibrary.org/obo/MP_0004095	ocular distichiasis	http://purl.obolibrary.org/obo/UBERON_0001702	eyelash	http://purl.obolibrary.org/obo/UBERON_0001456	face

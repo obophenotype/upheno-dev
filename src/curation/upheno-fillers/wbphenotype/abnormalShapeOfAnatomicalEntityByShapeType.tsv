@@ -1,0 +1,5 @@
+entity	shape	defined_class
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/PATO_0000411	http://purl.obolibrary.org/obo/UPHENO_0041181
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/PATO_0000052	http://purl.obolibrary.org/obo/UPHENO_0041226
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/PATO_0000617	http://purl.obolibrary.org/obo/UPHENO_0041234
+http://purl.obolibrary.org/obo/UBERON_0001062	http://purl.obolibrary.org/obo/PATO_0000404	http://purl.obolibrary.org/obo/UPHENO_0041206

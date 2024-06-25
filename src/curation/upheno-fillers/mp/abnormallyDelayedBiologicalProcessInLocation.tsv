@@ -1,0 +1,11 @@
+biological_process	location	defined_class
+http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/UBERON_0001017	http://purl.obolibrary.org/obo/UPHENO_0084007
+http://purl.obolibrary.org/obo/GO_0042246	http://purl.obolibrary.org/obo/UBERON_0001264	http://purl.obolibrary.org/obo/UPHENO_0084008
+http://purl.obolibrary.org/obo/GO_0042246	http://purl.obolibrary.org/obo/UBERON_0000160	http://purl.obolibrary.org/obo/UPHENO_0084009
+http://purl.obolibrary.org/obo/GO_0042246	http://purl.obolibrary.org/obo/UBERON_0001017	http://purl.obolibrary.org/obo/UPHENO_0084010
+http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/UBERON_0001630	http://purl.obolibrary.org/obo/UPHENO_0084011
+http://purl.obolibrary.org/obo/GO_0042246	http://purl.obolibrary.org/obo/UBERON_0000010	http://purl.obolibrary.org/obo/UPHENO_0084013
+http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/UBERON_0000160	http://purl.obolibrary.org/obo/UPHENO_0084014
+http://purl.obolibrary.org/obo/GO_0042246	http://purl.obolibrary.org/obo/UBERON_0001630	http://purl.obolibrary.org/obo/UPHENO_0084015
+http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/UBERON_0001264	http://purl.obolibrary.org/obo/UPHENO_0084017
+http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/UBERON_0000010	http://purl.obolibrary.org/obo/UPHENO_0084018

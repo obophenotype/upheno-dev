@@ -3,14 +3,15 @@ http://purl.obolibrary.org/obo/MP_0001242	hyperkeratosis	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/MP_0031178	increased Descemet membrane thickness	http://purl.obolibrary.org/obo/UBERON_0004367	Descemet's membrane
 http://purl.obolibrary.org/obo/MP_0010996	increased aorta wall thickness	http://purl.obolibrary.org/obo/UBERON_0004663	aorta wall
 http://purl.obolibrary.org/obo/MP_0004148	increased compact bone thickness	http://purl.obolibrary.org/obo/UBERON_0001439	compact bone tissue
+http://purl.obolibrary.org/obo/MP_0020854	increased cornea epithelium thickness	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
+http://purl.obolibrary.org/obo/MP_0009742	increased cornea stroma thickness	http://purl.obolibrary.org/obo/UBERON_0001777	substantia propria of cornea
 http://purl.obolibrary.org/obo/MP_0011962	increased cornea thickness	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
-http://purl.obolibrary.org/obo/MP_0020854	increased corneal epithelium thickness	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
-http://purl.obolibrary.org/obo/MP_0009742	increased corneal stroma thickness	http://purl.obolibrary.org/obo/UBERON_0001777	substantia propria of cornea
 http://purl.obolibrary.org/obo/MP_0012702	increased embryonic neuroepithelium thickness	http://purl.obolibrary.org/obo/UBERON_0004022	germinal neuroepithelium
 http://purl.obolibrary.org/obo/MP_0021162	increased heart left ventricle anterior wall thickness	http://purl.obolibrary.org/obo/UBERON_0036288	anterior wall of left ventricle
 http://purl.obolibrary.org/obo/MP_0021157	increased heart left ventricle wall thickness	http://purl.obolibrary.org/obo/UBERON_0036285	wall of left ventricle
 http://purl.obolibrary.org/obo/MP_0021159	increased heart right ventricle wall thickness	http://purl.obolibrary.org/obo/UBERON_0036286	wall of right ventricle
 http://purl.obolibrary.org/obo/MP_0014218	increased intestinal mucosa thickness	http://purl.obolibrary.org/obo/UBERON_0001242	intestinal mucosa
+http://purl.obolibrary.org/obo/MP_0011730	increased myelin sheath thickness	http://purl.obolibrary.org/obo/GO_0043209	myelin sheath
 http://purl.obolibrary.org/obo/MP_0010929	increased osteoid thickness	http://purl.obolibrary.org/obo/UBERON_0008883	osteoid
 http://purl.obolibrary.org/obo/MP_0010973	increased periosteum thickness	http://purl.obolibrary.org/obo/UBERON_0002515	periosteum
 http://purl.obolibrary.org/obo/MP_0011409	increased renal glomerulus basement membrane thickness	http://purl.obolibrary.org/obo/UBERON_0005777	glomerular basement membrane
@@ -39,6 +40,7 @@ http://purl.obolibrary.org/obo/MP_0011154	thick hippocampus stratum radiatum	htt
 http://purl.obolibrary.org/obo/MP_0004127	thick hypodermis	http://purl.obolibrary.org/obo/UBERON_0002072	hypodermis
 http://purl.obolibrary.org/obo/MP_0010724	thick interventricular septum	http://purl.obolibrary.org/obo/UBERON_0002094	interventricular septum
 http://purl.obolibrary.org/obo/MP_0003774	thick lip	http://purl.obolibrary.org/obo/UBERON_0001833	lip
+http://purl.obolibrary.org/obo/MP_0014312	thick lower lip	http://purl.obolibrary.org/obo/UBERON_0001835	lower lip
 http://purl.obolibrary.org/obo/MP_0011143	thick lung-associated mesenchyme	http://purl.obolibrary.org/obo/UBERON_0004883	lung mesenchyme
 http://purl.obolibrary.org/obo/MP_0010620	thick mitral valve	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
 http://purl.obolibrary.org/obo/MP_0010617	thick mitral valve cusps	http://purl.obolibrary.org/obo/UBERON_0007151	mitral valve leaflet
@@ -54,6 +56,7 @@ http://purl.obolibrary.org/obo/MP_0014265	thick retina inner plexiform layer	htt
 http://purl.obolibrary.org/obo/MP_0008517	thick retina outer nuclear layer	http://purl.obolibrary.org/obo/UBERON_0001789	outer nuclear layer of retina
 http://purl.obolibrary.org/obo/MP_0014266	thick retina outer plexiform layer	http://purl.obolibrary.org/obo/UBERON_0001790	outer plexiform layer of retina
 http://purl.obolibrary.org/obo/MP_0001200	thick skin	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MP_0009241	thick sperm flagellum	http://purl.obolibrary.org/obo/GO_0036126	sperm flagellum
 http://purl.obolibrary.org/obo/MP_0000588	thick tail	http://purl.obolibrary.org/obo/UBERON_0007812	post-anal tail
 http://purl.obolibrary.org/obo/MP_0010629	thick tricuspid valve	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve
 http://purl.obolibrary.org/obo/MP_0010626	thick tricuspid valve cusps	http://purl.obolibrary.org/obo/UBERON_0005484	tricuspid valve leaflet

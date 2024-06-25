@@ -5,6 +5,7 @@ http://purl.obolibrary.org/obo/MP_0000876	Purkinje cell degeneration	http://purl
 http://purl.obolibrary.org/obo/MP_0009074	Wolffian duct degeneration	http://purl.obolibrary.org/obo/UBERON_0003074	mesonephric duct
 http://purl.obolibrary.org/obo/MP_0008103	amacrine cell degeneration	http://purl.obolibrary.org/obo/CL_0000561	amacrine cell
 http://purl.obolibrary.org/obo/MP_0000129	ameloblast degeneration	http://purl.obolibrary.org/obo/CL_0000059	ameloblast
+http://purl.obolibrary.org/obo/MP_0005405	axon degeneration	http://purl.obolibrary.org/obo/GO_0030424	axon
 http://purl.obolibrary.org/obo/MP_0012562	blood vessel degeneration	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
 http://purl.obolibrary.org/obo/MP_0009416	cardiac muscle degeneration	http://purl.obolibrary.org/obo/UBERON_0001133	cardiac muscle tissue
 http://purl.obolibrary.org/obo/MP_0004709	cervical vertebrae degeneration	http://purl.obolibrary.org/obo/UBERON_0002413	cervical vertebra
@@ -46,6 +47,8 @@ http://purl.obolibrary.org/obo/MP_0000043	organ of Corti degeneration	http://pur
 http://purl.obolibrary.org/obo/MP_0013236	ovary degeneration	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/MP_0013584	pancreas degeneration	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/MP_0000958	peripheral nervous system degeneration	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system
+http://purl.obolibrary.org/obo/MP_0008580	photoreceptor inner segment degeneration	http://purl.obolibrary.org/obo/GO_0001917	photoreceptor inner segment
+http://purl.obolibrary.org/obo/MP_0008584	photoreceptor outer segment degeneration	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
 http://purl.obolibrary.org/obo/MP_0004586	pillar cell degeneration	http://purl.obolibrary.org/obo/CL_1000191	pillar cell
 http://purl.obolibrary.org/obo/MP_0008444	retina cone cell degeneration	http://purl.obolibrary.org/obo/CL_0000573	retinal cone cell
 http://purl.obolibrary.org/obo/MP_0001326	retina degeneration	http://purl.obolibrary.org/obo/UBERON_0000966	retina

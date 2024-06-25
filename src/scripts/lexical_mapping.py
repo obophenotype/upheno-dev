@@ -264,9 +264,9 @@ def compute_mappings(dd, l):
     df_mappings["cat"] = "lexical"
     df_mappings.columns = ["p1", "p2", "cat"]
     df_maps = pd.merge(df_mappings, l, how="left", left_on=["p1"], right_on=["iri"])
-    df_maps = df_maps.drop("iri", 1)
+    df_maps = df_maps.drop("iri", axis=1)
     df_maps = pd.merge(df_maps, l, how="left", left_on=["p2"], right_on=["iri"])
-    df_maps = df_maps.drop("iri", 1)
+    df_maps = df_maps.drop("iri", axis=1)
     df_maps["o1"] = [
         re.sub("[_][0-9]+", "", iri.replace("http://purl.obolibrary.org/obo/", ""))
         for iri in df_maps["p1"].values
@@ -313,14 +313,14 @@ df_mapping_template.to_csv(upheno_mapping_lexical_template, index=False)
 print(df_maps.head())
 df_m = pd.merge(df_maps[["p1", "p2", "cat"]], dfl, how="outer", on=["p1", "p2"])
 df_m = pd.merge(df_m, l, how="left", left_on=["p1"], right_on=["iri"])
-df_m = df_m.drop("iri", 1)
+df_m = df_m.drop("iri", axis=1)
 df_m = pd.merge(df_m, l, how="left", left_on=["p2"], right_on=["iri"])
-df_m = df_m.drop("iri", 1)
+df_m = df_m.drop("iri", axis=1)
 df_m["cat"] = df_m["cat_x"].astype(str) + "-" + df_m["cat_y"].astype(str)
 df_m["cat"] = df_m["cat"].str.replace("-nan", "")
 df_m["cat"] = df_m["cat"].str.replace("nan-", "")
-df_m = df_m.drop("cat_x", 1)
-df_m = df_m.drop("cat_y", 1)
+df_m = df_m.drop("cat_x", axis=1)
+df_m = df_m.drop("cat_y", axis=1)
 
 print(df_m["cat"].value_counts(normalize=True))
 print(df_m["cat"].value_counts())

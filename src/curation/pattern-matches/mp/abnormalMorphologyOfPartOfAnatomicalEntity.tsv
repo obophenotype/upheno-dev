@@ -25,6 +25,7 @@ http://purl.obolibrary.org/obo/MP_0004124	abnormal Purkinje fiber morphology	htt
 http://purl.obolibrary.org/obo/MP_0004915	abnormal Reichert's cartilage morphology	http://purl.obolibrary.org/obo/UBERON_0004368	Reichert's cartilage
 http://purl.obolibrary.org/obo/MP_0003954	abnormal Reichert's membrane morphology	http://purl.obolibrary.org/obo/UBERON_0004369	Reichert's membrane
 http://purl.obolibrary.org/obo/MP_0006021	abnormal Reissner membrane morphology	http://purl.obolibrary.org/obo/UBERON_0002281	vestibular membrane of cochlear duct
+http://purl.obolibrary.org/obo/MP_0014402	abnormal Reissner's fiber morphology	http://purl.obolibrary.org/obo/UBERON_0011357	Reissner's fiber
 http://purl.obolibrary.org/obo/MP_0004305	abnormal Rosenthal canal morphology	http://purl.obolibrary.org/obo/UBERON_0006495	osseus cochlear canal
 http://purl.obolibrary.org/obo/MP_0012026	abnormal S-shaped body morphology	http://purl.obolibrary.org/obo/UBERON_0004199	S-shaped body
 http://purl.obolibrary.org/obo/MP_0020355	abnormal Sertoli cell barrier morphology	http://purl.obolibrary.org/obo/UBERON_0036185	Sertoli cell barrier
@@ -101,7 +102,7 @@ http://purl.obolibrary.org/obo/MP_0009866	abnormal aorta wall morphology	http://
 http://purl.obolibrary.org/obo/MP_0004113	abnormal aortic arch morphology	http://purl.obolibrary.org/obo/UBERON_0001508	arch of aorta
 http://purl.obolibrary.org/obo/MP_0012510	abnormal aortic sac morphology	http://purl.obolibrary.org/obo/UBERON_0005432	aortic sac
 http://purl.obolibrary.org/obo/MP_0010482	abnormal aortic sinus morphology	http://purl.obolibrary.org/obo/UBERON_0003707	sinus of Valsalva
-http://purl.obolibrary.org/obo/MP_0010598	abnormal aortic valve anulus morphology	http://purl.obolibrary.org/obo/UBERON_0005991	aortic valve anulus
+http://purl.obolibrary.org/obo/MP_0010598	abnormal aortic valve annulus morphology	http://purl.obolibrary.org/obo/UBERON_0005991	aortic valve anulus
 http://purl.obolibrary.org/obo/MP_0010595	abnormal aortic valve cusp morphology	http://purl.obolibrary.org/obo/UBERON_0005990	aortic valve cusp
 http://purl.obolibrary.org/obo/MP_0002747	abnormal aortic valve morphology	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
 http://purl.obolibrary.org/obo/MP_0010650	abnormal aorticopulmonary septum morphology	http://purl.obolibrary.org/obo/UBERON_0006207	aortico-pulmonary spiral septum
@@ -169,6 +170,7 @@ http://purl.obolibrary.org/obo/MP_0009025	abnormal brain dura mater morphology	h
 http://purl.obolibrary.org/obo/MP_0010152	abnormal brain ependyma morphology	http://purl.obolibrary.org/obo/UBERON_0005357	brain ependyma
 http://purl.obolibrary.org/obo/MP_0020139	abnormal brain external capsule morphology	http://purl.obolibrary.org/obo/UBERON_0004545	external capsule of telencephalon
 http://purl.obolibrary.org/obo/MP_0008128	abnormal brain internal capsule morphology	http://purl.obolibrary.org/obo/UBERON_0001887	internal capsule of telencephalon
+http://purl.obolibrary.org/obo/MP_0009804	abnormal brain interventricular foramen morphology	http://purl.obolibrary.org/obo/UBERON_0003993	interventricular foramen of CNS
 http://purl.obolibrary.org/obo/MP_0009022	abnormal brain meninges morphology	http://purl.obolibrary.org/obo/UBERON_0003547	brain meninx
 http://purl.obolibrary.org/obo/MP_0002152	abnormal brain morphology	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0009026	abnormal brain pia mater morphology	http://purl.obolibrary.org/obo/UBERON_0003549	brain pia mater
@@ -322,13 +324,13 @@ http://purl.obolibrary.org/obo/MP_0010585	abnormal conotruncal ridge morphology	
 http://purl.obolibrary.org/obo/MP_0010583	abnormal conotruncus morphology	http://purl.obolibrary.org/obo/UBERON_0006060	conotruncus
 http://purl.obolibrary.org/obo/MP_0010000	abnormal copula pyramidis morphology	http://purl.obolibrary.org/obo/UBERON_0005347	copula pyramidis
 http://purl.obolibrary.org/obo/MP_0003093	abnormal cornea anterior stroma morphology	http://purl.obolibrary.org/obo/UBERON_0003952	anterior stroma of cornea
+http://purl.obolibrary.org/obo/MP_0005301	abnormal cornea endothelium morphology	http://purl.obolibrary.org/obo/UBERON_0001985	corneal endothelium
+http://purl.obolibrary.org/obo/MP_0006000	abnormal cornea epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
 http://purl.obolibrary.org/obo/MP_0013477	abnormal cornea limbus morphology	http://purl.obolibrary.org/obo/UBERON_0006761	corneo-scleral junction
 http://purl.obolibrary.org/obo/MP_0001312	abnormal cornea morphology	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
 http://purl.obolibrary.org/obo/MP_0003094	abnormal cornea posterior stroma morphology	http://purl.obolibrary.org/obo/UBERON_0003953	posterior stroma of cornea
-http://purl.obolibrary.org/obo/MP_0005301	abnormal corneal endothelium morphology	http://purl.obolibrary.org/obo/UBERON_0001985	corneal endothelium
-http://purl.obolibrary.org/obo/MP_0006000	abnormal corneal epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
-http://purl.obolibrary.org/obo/MP_0011650	abnormal corneal stroma collagen fibril morphology	http://purl.obolibrary.org/obo/UBERON_0011865	corneal stroma collagen fibril
-http://purl.obolibrary.org/obo/MP_0005300	abnormal corneal stroma morphology	http://purl.obolibrary.org/obo/UBERON_0001777	substantia propria of cornea
+http://purl.obolibrary.org/obo/MP_0011650	abnormal cornea stroma collagen fibril morphology	http://purl.obolibrary.org/obo/UBERON_0011865	corneal stroma collagen fibril
+http://purl.obolibrary.org/obo/MP_0005300	abnormal cornea stroma morphology	http://purl.obolibrary.org/obo/UBERON_0001777	substantia propria of cornea
 http://purl.obolibrary.org/obo/MP_0003840	abnormal coronal suture morphology	http://purl.obolibrary.org/obo/UBERON_0002489	coronal suture
 http://purl.obolibrary.org/obo/MP_0004111	abnormal coronary artery morphology	http://purl.obolibrary.org/obo/UBERON_0001621	coronary artery
 http://purl.obolibrary.org/obo/MP_0010436	abnormal coronary sinus morphology	http://purl.obolibrary.org/obo/UBERON_0005438	coronary sinus
@@ -623,14 +625,17 @@ http://purl.obolibrary.org/obo/MP_0010545	abnormal heart layer morphology	http:/
 http://purl.obolibrary.org/obo/MP_0003923	abnormal heart left atrium morphology	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
 http://purl.obolibrary.org/obo/MP_0003921	abnormal heart left ventricle morphology	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
 http://purl.obolibrary.org/obo/MP_0010429	abnormal heart left ventricle outflow tract morphology	http://purl.obolibrary.org/obo/UBERON_0005956	outflow part of left ventricle
+http://purl.obolibrary.org/obo/MP_0031533	abnormal heart left ventricle wall morphology	http://purl.obolibrary.org/obo/UBERON_0036285	wall of left ventricle
 http://purl.obolibrary.org/obo/MP_0000266	abnormal heart morphology	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0003922	abnormal heart right atrium morphology	http://purl.obolibrary.org/obo/UBERON_0002078	right cardiac atrium
 http://purl.obolibrary.org/obo/MP_0003920	abnormal heart right ventricle morphology	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
 http://purl.obolibrary.org/obo/MP_0010428	abnormal heart right ventricle outflow tract morphology	http://purl.obolibrary.org/obo/UBERON_0005953	outflow part of right ventricle
+http://purl.obolibrary.org/obo/MP_0031534	abnormal heart right ventricle wall morphology	http://purl.obolibrary.org/obo/UBERON_0036286	wall of right ventricle
 http://purl.obolibrary.org/obo/MP_0006113	abnormal heart septum morphology	http://purl.obolibrary.org/obo/UBERON_0002099	cardiac septum
 http://purl.obolibrary.org/obo/MP_0000270	abnormal heart tube morphology	http://purl.obolibrary.org/obo/UBERON_0004141	heart tube
 http://purl.obolibrary.org/obo/MP_0000285	abnormal heart valve morphology	http://purl.obolibrary.org/obo/UBERON_0000946	cardiac valve
 http://purl.obolibrary.org/obo/MP_0005294	abnormal heart ventricle morphology	http://purl.obolibrary.org/obo/UBERON_0002082	cardiac ventricle
+http://purl.obolibrary.org/obo/MP_0031532	abnormal heart ventricle wall morphology	http://purl.obolibrary.org/obo/UBERON_0004784	heart ventricle wall
 http://purl.obolibrary.org/obo/MP_0002396	abnormal hematopoietic system morphology/development	http://purl.obolibrary.org/obo/UBERON_0002390	hematopoietic system
 http://purl.obolibrary.org/obo/MP_0012246	abnormal hepatic cord morphology	http://purl.obolibrary.org/obo/UBERON_0005452	hepatic cord
 http://purl.obolibrary.org/obo/MP_0012234	abnormal hepatic diverticulum morphology	http://purl.obolibrary.org/obo/UBERON_0008835	hepatic diverticulum
@@ -740,7 +745,6 @@ http://purl.obolibrary.org/obo/MP_0006320	abnormal interscapular fat pad morphol
 http://purl.obolibrary.org/obo/MP_0010662	abnormal intersomitic artery morphology	http://purl.obolibrary.org/obo/UBERON_0002457	intersomitic artery
 http://purl.obolibrary.org/obo/MP_0012255	abnormal intersomitic vein morphology	http://purl.obolibrary.org/obo/UBERON_0007679	intersomitic vein
 http://purl.obolibrary.org/obo/MP_0012253	abnormal intersomitic vessel morphology	http://purl.obolibrary.org/obo/UBERON_0014907	intersomitic vessel
-http://purl.obolibrary.org/obo/MP_0009804	abnormal interventricular foramen morphology	http://purl.obolibrary.org/obo/UBERON_0003993	interventricular foramen of CNS
 http://purl.obolibrary.org/obo/MP_0008823	abnormal interventricular septum membranous part morphology	http://purl.obolibrary.org/obo/UBERON_0004666	interventricular septum membranous part
 http://purl.obolibrary.org/obo/MP_0000281	abnormal interventricular septum morphology	http://purl.obolibrary.org/obo/UBERON_0002094	interventricular septum
 http://purl.obolibrary.org/obo/MP_0010498	abnormal interventricular septum muscular part morphology	http://purl.obolibrary.org/obo/UBERON_0004667	interventricular septum muscular part
@@ -771,7 +775,6 @@ http://purl.obolibrary.org/obo/MP_0011312	abnormal kidney afferent arteriole mor
 http://purl.obolibrary.org/obo/MP_0011315	abnormal kidney arcuate artery morphology	http://purl.obolibrary.org/obo/UBERON_0001552	kidney arcuate artery
 http://purl.obolibrary.org/obo/MP_0011325	abnormal kidney arcuate vein morphology	http://purl.obolibrary.org/obo/UBERON_0004719	kidney arcuate vein
 http://purl.obolibrary.org/obo/MP_0011309	abnormal kidney arterial blood vessel morphology	http://purl.obolibrary.org/obo/UBERON_0003644	kidney arterial blood vessel
-http://purl.obolibrary.org/obo/MP_0000530	abnormal kidney blood vessel morphology	http://purl.obolibrary.org/obo/UBERON_0003517	kidney blood vessel
 http://purl.obolibrary.org/obo/MP_0004195	abnormal kidney calyx morphology	http://purl.obolibrary.org/obo/UBERON_0006517	kidney calyx
 http://purl.obolibrary.org/obo/MP_0011310	abnormal kidney capillary morphology	http://purl.obolibrary.org/obo/UBERON_0003527	kidney capillary
 http://purl.obolibrary.org/obo/MP_0011383	abnormal kidney capsule morphology	http://purl.obolibrary.org/obo/UBERON_0002015	kidney capsule
@@ -803,6 +806,7 @@ http://purl.obolibrary.org/obo/MP_0011335	abnormal kidney pelvis smooth muscle m
 http://purl.obolibrary.org/obo/MP_0011336	abnormal kidney pelvis urothelium morphology	http://purl.obolibrary.org/obo/UBERON_0004788	kidney pelvis urothelium
 http://purl.obolibrary.org/obo/MP_0004192	abnormal kidney pyramid morphology	http://purl.obolibrary.org/obo/UBERON_0004200	kidney pyramid
 http://purl.obolibrary.org/obo/MP_0011324	abnormal kidney vasa recta morphology	http://purl.obolibrary.org/obo/UBERON_0004726	vasa recta
+http://purl.obolibrary.org/obo/MP_0000530	abnormal kidney vasculature morphology	http://purl.obolibrary.org/obo/UBERON_0003517	kidney blood vessel
 http://purl.obolibrary.org/obo/MP_0011311	abnormal kidney venous blood vessel morphology	http://purl.obolibrary.org/obo/UBERON_0014401	renal venous blood vessel
 http://purl.obolibrary.org/obo/MP_0030837	abnormal knee joint morphology	http://purl.obolibrary.org/obo/UBERON_0001485	knee joint
 http://purl.obolibrary.org/obo/MP_0030881	abnormal knee morphology	http://purl.obolibrary.org/obo/UBERON_0001465	knee
@@ -982,7 +986,7 @@ http://purl.obolibrary.org/obo/MP_0030095	abnormal midface morphology	http://pur
 http://purl.obolibrary.org/obo/MP_0009705	abnormal midgut morphology	http://purl.obolibrary.org/obo/UBERON_0001045	midgut
 http://purl.obolibrary.org/obo/MP_0003791	abnormal minor salivary gland morphology	http://purl.obolibrary.org/obo/UBERON_0001830	minor salivary gland
 http://purl.obolibrary.org/obo/MP_0009529	abnormal minor sublingual duct morphology	http://purl.obolibrary.org/obo/UBERON_0003986	minor sublingual duct
-http://purl.obolibrary.org/obo/MP_0010613	abnormal mitral valve anulus morphology	http://purl.obolibrary.org/obo/UBERON_0005995	mitral valve anulus
+http://purl.obolibrary.org/obo/MP_0010613	abnormal mitral valve annulus morphology	http://purl.obolibrary.org/obo/UBERON_0005995	mitral valve anulus
 http://purl.obolibrary.org/obo/MP_0010614	abnormal mitral valve cusp morphology	http://purl.obolibrary.org/obo/UBERON_0005996	mitral valve cusp
 http://purl.obolibrary.org/obo/MP_0000286	abnormal mitral valve morphology	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
 http://purl.obolibrary.org/obo/MP_0003932	abnormal molar crown morphology	http://purl.obolibrary.org/obo/UBERON_0003955	molar crown
@@ -1315,7 +1319,7 @@ http://purl.obolibrary.org/obo/MP_0011641	abnormal pulmonary collagen fibril mor
 http://purl.obolibrary.org/obo/MP_0010900	abnormal pulmonary interalveolar septum morphology	http://purl.obolibrary.org/obo/UBERON_0004893	interalveolar septum
 http://purl.obolibrary.org/obo/MP_0010918	abnormal pulmonary neuroendocrine body morphology	http://purl.obolibrary.org/obo/UBERON_0010002	pulmonary neuroendocrine body
 http://purl.obolibrary.org/obo/MP_0000486	abnormal pulmonary trunk morphology	http://purl.obolibrary.org/obo/UBERON_0002333	pulmonary trunk
-http://purl.obolibrary.org/obo/MP_0010606	abnormal pulmonary valve anulus morphology	http://purl.obolibrary.org/obo/UBERON_0005993	pulmonary valve anulus
+http://purl.obolibrary.org/obo/MP_0010606	abnormal pulmonary valve annulus morphology	http://purl.obolibrary.org/obo/UBERON_0005993	pulmonary valve anulus
 http://purl.obolibrary.org/obo/MP_0010602	abnormal pulmonary valve cusp morphology	http://purl.obolibrary.org/obo/UBERON_0005992	pulmonary valve cusp
 http://purl.obolibrary.org/obo/MP_0002748	abnormal pulmonary valve morphology	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
 http://purl.obolibrary.org/obo/MP_0002726	abnormal pulmonary vein morphology	http://purl.obolibrary.org/obo/UBERON_0002016	pulmonary vein
@@ -1443,8 +1447,8 @@ http://purl.obolibrary.org/obo/MP_0030607	abnormal sex cord morphology	http://pu
 http://purl.obolibrary.org/obo/MP_0000653	abnormal sex gland morphology	http://purl.obolibrary.org/obo/UBERON_0003937	reproductive gland
 http://purl.obolibrary.org/obo/MP_0030816	abnormal shoulder joint morphology	http://purl.obolibrary.org/obo/UBERON_0016884	shoulder joint
 http://purl.obolibrary.org/obo/MP_0004115	abnormal sinoatrial node morphology	http://purl.obolibrary.org/obo/UBERON_0002351	sinoatrial node
+http://purl.obolibrary.org/obo/MP_0011646	abnormal sinoatrial valve morphology	http://purl.obolibrary.org/obo/UBERON_0002086	sinoatrial valve
 http://purl.obolibrary.org/obo/MP_0011573	abnormal sinotubular junction morphology	http://purl.obolibrary.org/obo/UBERON_0010173	sinotubular junction
-http://purl.obolibrary.org/obo/MP_0011646	abnormal sinuatrial valve morphology	http://purl.obolibrary.org/obo/UBERON_0002086	sinoatrial valve
 http://purl.obolibrary.org/obo/MP_0006355	abnormal sixth pharyngeal arch artery morphology	http://purl.obolibrary.org/obo/UBERON_0003123	pharyngeal arch artery 6
 http://purl.obolibrary.org/obo/MP_0006347	abnormal sixth pharyngeal arch morphology	http://purl.obolibrary.org/obo/UBERON_0003117	pharyngeal arch 6
 http://purl.obolibrary.org/obo/MP_0009411	abnormal skeletal muscle fiber triad morphology	http://purl.obolibrary.org/obo/UBERON_0004057	skeletal muscle fiber triad
@@ -1691,7 +1695,7 @@ http://purl.obolibrary.org/obo/MP_0003120	abnormal tracheal cartilage morphology
 http://purl.obolibrary.org/obo/MP_0002285	abnormal tracheal ciliated epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0001901	epithelium of trachea
 http://purl.obolibrary.org/obo/MP_0002284	abnormal tracheal smooth muscle morphology	http://purl.obolibrary.org/obo/UBERON_0003387	smooth muscle of trachea
 http://purl.obolibrary.org/obo/MP_0000803	abnormal transverse gyrus of Heschl morphology	http://purl.obolibrary.org/obo/UBERON_0003939	transverse gyrus of Heschl
-http://purl.obolibrary.org/obo/MP_0010621	abnormal tricuspid valve anulus morphology	http://purl.obolibrary.org/obo/UBERON_0005997	tricuspid valve anulus
+http://purl.obolibrary.org/obo/MP_0010621	abnormal tricuspid valve annulus morphology	http://purl.obolibrary.org/obo/UBERON_0005997	tricuspid valve anulus
 http://purl.obolibrary.org/obo/MP_0010622	abnormal tricuspid valve cusp morphology	http://purl.obolibrary.org/obo/UBERON_0005998	tricuspid valve cusp
 http://purl.obolibrary.org/obo/MP_0002624	abnormal tricuspid valve morphology	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve
 http://purl.obolibrary.org/obo/MP_0000906	abnormal trigeminal V mesencephalic nucleus morphology	http://purl.obolibrary.org/obo/UBERON_0001718	mesencephalic nucleus of trigeminal nerve
@@ -1733,7 +1737,6 @@ http://purl.obolibrary.org/obo/MP_0000537	abnormal urethra morphology	http://pur
 http://purl.obolibrary.org/obo/MP_0011485	abnormal urethra urothelium morphology	http://purl.obolibrary.org/obo/UBERON_0004787	urethra urothelium
 http://purl.obolibrary.org/obo/MP_0011840	abnormal urethral crest morphology	http://purl.obolibrary.org/obo/UBERON_0012296	urethral crest
 http://purl.obolibrary.org/obo/MP_0011792	abnormal urethral gland morphology	http://purl.obolibrary.org/obo/UBERON_0001338	urethral gland
-http://purl.obolibrary.org/obo/MP_0011773	abnormal urinary bladder blood vessel morphology	http://purl.obolibrary.org/obo/UBERON_0012239	urinary bladder vasculature
 http://purl.obolibrary.org/obo/MP_0011774	abnormal urinary bladder detrusor smooth muscle morphology	http://purl.obolibrary.org/obo/UBERON_0000381	urinary bladder detrusor smooth muscle
 http://purl.obolibrary.org/obo/MP_0011785	abnormal urinary bladder fundus morphology	http://purl.obolibrary.org/obo/UBERON_0006082	fundus of urinary bladder
 http://purl.obolibrary.org/obo/MP_0000538	abnormal urinary bladder morphology	http://purl.obolibrary.org/obo/UBERON_0001255	urinary bladder
@@ -1741,6 +1744,7 @@ http://purl.obolibrary.org/obo/MP_0011766	abnormal urinary bladder mucosa morpho
 http://purl.obolibrary.org/obo/MP_0011784	abnormal urinary bladder neck morphology	http://purl.obolibrary.org/obo/UBERON_0001258	neck of urinary bladder
 http://purl.obolibrary.org/obo/MP_0011768	abnormal urinary bladder trigone morphology	http://purl.obolibrary.org/obo/UBERON_0001257	trigone of urinary bladder
 http://purl.obolibrary.org/obo/MP_0000540	abnormal urinary bladder urothelium morphology	http://purl.obolibrary.org/obo/UBERON_0004645	urinary bladder urothelium
+http://purl.obolibrary.org/obo/MP_0011773	abnormal urinary bladder vasculature morphology	http://purl.obolibrary.org/obo/UBERON_0012239	urinary bladder vasculature
 http://purl.obolibrary.org/obo/MP_0011835	abnormal urogenital fold morphology	http://purl.obolibrary.org/obo/UBERON_0004876	urogenital fold
 http://purl.obolibrary.org/obo/MP_0011853	abnormal urorectal septum morphology	http://purl.obolibrary.org/obo/UBERON_0005760	urorectal septum
 http://purl.obolibrary.org/obo/MP_0003995	abnormal uterine artery morphology	http://purl.obolibrary.org/obo/UBERON_0002493	uterine artery

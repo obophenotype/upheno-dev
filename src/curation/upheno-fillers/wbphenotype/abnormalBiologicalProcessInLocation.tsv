@@ -1,0 +1,5 @@
+biological_process	location	defined_class
+http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/GO_0005783	http://purl.obolibrary.org/obo/UPHENO_0059882
+http://purl.obolibrary.org/obo/GO_0008150	http://purl.obolibrary.org/obo/GO_0043226	http://purl.obolibrary.org/obo/UPHENO_0059928
+http://purl.obolibrary.org/obo/GO_0008152	http://purl.obolibrary.org/obo/GO_0043226	http://purl.obolibrary.org/obo/UPHENO_0059931
+http://purl.obolibrary.org/obo/GO_0008152	http://purl.obolibrary.org/obo/GO_0005783	http://purl.obolibrary.org/obo/UPHENO_0059908

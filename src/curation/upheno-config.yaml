@@ -11,14 +11,14 @@ java_opts: -Xmx30G
 timeout_external_processes: 500m
 working_directory: /work/src
 overwrite_matches: True
+overwrite_ontologies: True
+overwrite_upheno_intermediate: True
+upheno_id_map: ../curation/upheno_id_map.txt
 skip_pattern_download: False
 max_upheno_id: 9999999
 min_upheno_id: 500
-overwrite_ontologies: True
-overwrite_upheno_intermediate: True
 match_owl_thing: False
 allow_non_upheno_eq: False
-upheno_id_map: https://bbop-ontologies.s3.amazonaws.com/upheno/current/upheno_id_map.txt
 upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
 clean: True
 upheno_intermediate_layer_depth: 0
@@ -65,20 +65,6 @@ blacklisted_upheno_iris:
   - http://purl.obolibrary.org/obo/UPHENO_9000002
   - http://purl.obolibrary.org/obo/UPHENO_9000003
   - http://purl.obolibrary.org/obo/UPHENO_9000004
-remove_blacklist:
-  - http://purl.obolibrary.org/obo/CHEBI_316698
-  - http://purl.obolibrary.org/obo/BSPO_0000098
-  - http://purl.obolibrary.org/obo/ENVO_01001784
-  - http://purl.obolibrary.org/obo/GO_00000236
-  - http://purl.obolibrary.org/obo/BSPO_0000120
-  - http://purl.obolibrary.org/obo/BSPO_0000121
-  - http://purl.obolibrary.org/obo/BSPO_0000099
-  - http://purl.obolibrary.org/obo/NCBITaxon_40151
-  - http://purl.obolibrary.org/obo/NCBITaxon_51337
-  - http://purl.obolibrary.org/obo/NCBITaxon_63221
-  - http://purl.obolibrary.org/obo/NCIT_C3824
-  - http://purl.obolibrary.org/obo/PLANA_0000077
-  - http://purl.obolibrary.org/obo/PLANA_0007501
 instantiate_superclasses_pattern_vars:
   - anatomical_entity
   - biological_process
@@ -90,7 +76,7 @@ sources:
   - id: nbo
     mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
   - id: pr
-    mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
+    mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
   - id: go
     mirror_from: http://purl.obolibrary.org/obo/go.owl
   - id: envo
@@ -102,7 +88,7 @@ sources:
   - id: ro
     mirror_from: http://purl.obolibrary.org/obo/ro.owl
   - id: chebi
-    mirror_from: http://purl.obolibrary.org/obo/chebi.owl
+    mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
   - id: hsapdv
     mirror_from: http://purl.obolibrary.org/obo/hsapdv.owl
   - id: pato
@@ -145,8 +131,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/caro.owl
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
-  - id: bspo-uberon
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.owl
   - id: caro-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl
   - id: xao-uberon
@@ -161,8 +145,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl
   - id: caro-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-caro.owl
-  - id: bspo-cl
-    mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-bspo.owl
   - id: fbbt-cl
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.owl
   #- id: plana-uberon
@@ -224,10 +206,8 @@ sources:
       - bfo
       - xao
       - xao-uberon
-      - bspo-uberon
       - caro-uberon
       - xao-cl
-      - bspo-cl
       - caro-cl
       - caro
   - id: planp
@@ -242,9 +222,7 @@ sources:
       - plana
       #- plana-uberon
       #- plana-cl
-      - bspo-uberon
       - caro-uberon
-      - bspo-cl
       - caro-cl
       - caro
       #- ncit
@@ -262,10 +240,8 @@ sources:
       - mpath
       - bfo
       - zfa-uberon
-      - bspo-uberon
       - caro-uberon
       - caro
-      - bspo-cl
       - caro-cl
       - cl
   - id: dpo
@@ -358,10 +334,6 @@ species_modules:
   - mgpo
   - apo
 upheno_profiles:
-  - id: mp-hp
-    species_modules:
-    - mp
-    - hp
   - id: all
     species_modules:
     - mp
@@ -379,23 +351,7 @@ upheno_profiles:
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns
-release_artefacts: 
-  - base
-  - simple-non-classified
-  - full
-primary_release: full
-export_formats:
-  - owl
-  - obo
-  - json
-import_group:
-  products:
-    - id: nbo
-    - id: pr
-    - id: go
-    - id: uberon 
-    - id: ro
-    - id: chebi
-    - id: pato
-    - id: cl
-    - id: oba
+exclude_patterns:
+  - abnormalMorphologyOfAnatomicalEntity.yaml
+  - abnormalAnatomicalEntityNotParts.yaml
+  - abnormalAbsenceOfBehavior.yaml

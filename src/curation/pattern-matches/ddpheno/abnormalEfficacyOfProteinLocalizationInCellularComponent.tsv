@@ -21,10 +21,12 @@ http://purl.obolibrary.org/obo/DDPHENO_0000648	aberrant protein localization to 
 http://purl.obolibrary.org/obo/DDPHENO_0000628	aberrant protein localization to macropinosome	http://purl.obolibrary.org/obo/GO_0044354	macropinosome
 http://purl.obolibrary.org/obo/DDPHENO_0001513	aberrant protein localization to microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center
 http://purl.obolibrary.org/obo/DDPHENO_0001514	aberrant protein localization to microtubules	http://purl.obolibrary.org/obo/GO_0005874	microtubule
+http://purl.obolibrary.org/obo/DDPHENO_0000796	aberrant protein localization to mitotic actomyosin contractile ring	http://purl.obolibrary.org/obo/GO_0110085	mitotic actomyosin contractile ring
 http://purl.obolibrary.org/obo/DDPHENO_0000660	aberrant protein localization to mitotic spindle	http://purl.obolibrary.org/obo/GO_0072686	mitotic spindle
 http://purl.obolibrary.org/obo/DDPHENO_0000664	aberrant protein localization to mitotic spindle midzone	http://purl.obolibrary.org/obo/GO_1990023	mitotic spindle midzone
 http://purl.obolibrary.org/obo/DDPHENO_0001427	aberrant protein localization to nuclear envelope	http://purl.obolibrary.org/obo/GO_0005635	nuclear envelope
 http://purl.obolibrary.org/obo/DDPHENO_0000104	aberrant protein localization to nucleolus	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/DDPHENO_0001336	aberrant protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	cell nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0001336	aberrant protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/DDPHENO_0000620	aberrant protein localization to phagocytic vesicle	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle
 http://purl.obolibrary.org/obo/DDPHENO_0001335	aberrant protein localization to plasma membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane

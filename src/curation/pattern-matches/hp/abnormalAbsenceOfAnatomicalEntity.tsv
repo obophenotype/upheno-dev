@@ -76,7 +76,6 @@ http://purl.obolibrary.org/obo/HP_0005199	Aplasia of the abdominal wall musculat
 http://purl.obolibrary.org/obo/HP_0008753	Aplasia of the epiglottis	http://purl.obolibrary.org/obo/UBERON_0000388	epiglottis
 http://purl.obolibrary.org/obo/HP_0100862	Aplasia of the femoral head	http://purl.obolibrary.org/obo/UBERON_0006767	head of femur
 http://purl.obolibrary.org/obo/HP_0100863	Aplasia of the femoral neck	http://purl.obolibrary.org/obo/UBERON_0007119	neck of femur
-http://purl.obolibrary.org/obo/HP_0009380	Aplasia of the fingers	http://purl.obolibrary.org/obo/UBERON_0002389	manual digit
 http://purl.obolibrary.org/obo/HP_0011372	Aplasia of the inner ear	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
 http://purl.obolibrary.org/obo/HP_0010999	Aplasia of the optic tract	http://purl.obolibrary.org/obo/UBERON_0001908	optic tract
 http://purl.obolibrary.org/obo/HP_0011381	Aplasia of the semicircular canal	http://purl.obolibrary.org/obo/UBERON_0001840	semicircular canal
@@ -93,6 +92,7 @@ http://purl.obolibrary.org/obo/HP_0009013	Congenital absence of gluteal muscles	
 http://purl.obolibrary.org/obo/HP_0031942	Congenital absence of portal vein	http://purl.obolibrary.org/obo/UBERON_0002017	portal vein
 http://purl.obolibrary.org/obo/HP_0012744	Femoral aplasia	http://purl.obolibrary.org/obo/UBERON_0000981	femur
 http://purl.obolibrary.org/obo/HP_0002990	Fibular aplasia	http://purl.obolibrary.org/obo/UBERON_0001446	fibula
+http://purl.obolibrary.org/obo/HP_0009380	Finger aplasia	http://purl.obolibrary.org/obo/UBERON_0002389	manual digit
 http://purl.obolibrary.org/obo/HP_0006443	Patellar aplasia	http://purl.obolibrary.org/obo/UBERON_0002446	patella
 http://purl.obolibrary.org/obo/HP_0011756	Posterior pituitary agenesis	http://purl.obolibrary.org/obo/UBERON_0002198	neurohypophysis
 http://purl.obolibrary.org/obo/HP_0000104	Renal agenesis	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
