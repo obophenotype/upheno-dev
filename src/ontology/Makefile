@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                68f222d8befc813c6e2f71fa3f070ffa8ab807c6d8f6544916b4f920dfaf400b
+CONFIG_HASH=                ba079ace8d3d742c52f67ba7be258c84655fee778bba2dbd3259cd547270e11c
 
 
 # ----------------------------------------
@@ -363,7 +363,7 @@ ALLSEED = $(PRESEED)  $(TMPDIR)/all_pattern_terms.txt \
 $(IMPORTSEED): $(ALLSEED) | $(TMPDIR)
 	if [ $(IMP) = true ]; then cat $(ALLSEED) | sort | uniq > $@; fi
 
-ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 
+ANNOTATION_PROPERTIES=rdfs:label owl:deprecated IAO:0000115 
 
 # ----------------------------------------
 # Import modules
@@ -693,7 +693,7 @@ $(DOSDP_OWL_FILES_DEFAULT): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_DEFAULT) $(AL
     --infile=$(PATTERNDIR)/data/default/ --template=$(PATTERNDIR)/dosdp-patterns --batch-patterns="$(DOSDP_PATTERN_NAMES_DEFAULT)" \
     --ontology=$< --obo-prefixes=true --outfile=$(PATTERNDIR)/data/default; fi
 
-default: $(DOSDP_OWL_FILES_DEFAULT)
+
 
 # DOSDP automatic pipeline
 

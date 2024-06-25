@@ -298,6 +298,10 @@ import_group:
     - <http://purl.obolibrary.org/obo/uberon/core#SENSU*>
     - <http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>
   slme_individuals: exclude
+  annotation_properties:
+    - rdfs:label
+    - owl:deprecated
+    - IAO:0000115
   mirror_max_time_download: 400
   products:
     - id: bfo

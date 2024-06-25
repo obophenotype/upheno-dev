@@ -23,7 +23,7 @@ equivalentTo:
   vars:
   - cellular_component
 name:
-  text: Increased number of %s
+  text: increased number of %s
   vars:
   - cellular_component
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfCellularComponent.yaml

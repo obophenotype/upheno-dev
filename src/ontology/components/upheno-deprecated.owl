@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2024-06-24/components/upheno-deprecated.owl>
-Annotation(owl:versionInfo "2024-06-24")
+<http://purl.obolibrary.org/obo/upheno/releases/2024-06-25/components/upheno-deprecated.owl>
+Annotation(owl:versionInfo "2024-06-25")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000633>))

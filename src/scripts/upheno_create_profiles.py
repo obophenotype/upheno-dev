@@ -13,9 +13,6 @@ import yaml
 
 from lib import (
     cdir,
-    dosdp_generate,
-    dosdp_generate_all,
-    get_taxon_restriction_table,
     export_merged_tsvs_for_combination,
     robot_merge,
     create_upheno_core_manual_phenotypes,
@@ -116,100 +113,12 @@ if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
                 robot_opts=robot_opts)
 
 print("### 5. Generating uPheno base..")
-upheno_combination_id = "all"
-
-print("#### 5.1 Merge all tsvs from the ontologies participating in this profiles together")
-oids = upheno_config.get_upheno_profile_components(upheno_combination_id)
+oids = upheno_config.get_upheno_profile_components("all")
 profile_dir = os.path.join(ws, "patterns/data/automatic")
 cdir(profile_dir)
 export_merged_tsvs_for_combination(merged_tsv_dir=profile_dir,
                                    oids=oids,
                                    pattern_dir=original_pattern_dir,
                                    upheno_fillers_dir=upheno_fillers_dir,
+                                   legal_fillers=upheno_config.get_legal_fillers(),
                                    upheno_id_map=upheno_config.get_upheno_id_map())
-
-print("Create all top level phenotypes relevant to this profile (SSPO top level classes)")
-final_upheno_combo_dir = os.path.join(upheno_prepare_dir, upheno_combination_id)
-cdir(final_upheno_combo_dir)
-
-upheno_top_level_phenotypes_ontology = os.path.join(
-    final_upheno_combo_dir, "upheno_top_level_phenotypes.owl"
-)
-upheno_top_level_phenotypes_modified_ontology = os.path.join(
-    final_upheno_combo_dir, "upheno_top_level_phenotypes_modified.owl"
-)
-upheno_top_level_phenotypes_non_modified_ontology = os.path.join(
-    final_upheno_combo_dir, "upheno_top_level_phenotypes_non_modified.owl"
-)
-phenotype_tsv = os.path.join(final_upheno_combo_dir, "upheno_top_level_phenotypes.tsv")
-phenotype_modified_tsv = os.path.join(
-    final_upheno_combo_dir, "upheno_top_level_phenotypes_modified.tsv"
-)
-if overwrite_dosdp_upheno or not os.path.exists(upheno_top_level_phenotypes_ontology):
-    df_tr = get_taxon_restriction_table(oids, upheno_config)
-    phenotype_pattern_taxon = os.path.join(upheno_preprocessed_patterns_dir, "phenotype_taxon.yaml")
-    phenotype_pattern_taxon_modified = os.path.join(upheno_preprocessed_patterns_dir, "phenotype_taxon_modified.yaml")
-    df_tr["modifier"] = df_tr["modifier"].astype(str)
-    df_tr_no_modifier = df_tr[df_tr["modifier"] == "False"]
-    print(str(df_tr_no_modifier[["defined_class", "bearer", "modifier"]]))
-    df_tr_modifier = df_tr[df_tr["modifier"] != "False"]
-    print(str(df_tr_modifier[["defined_class", "bearer", "modifier"]]))
-    df_tr_no_modifier.to_csv(phenotype_tsv, sep="\t", index=False)
-    df_tr_modifier.to_csv(phenotype_modified_tsv, sep="\t", index=False)
-    dosdp_generate(
-        phenotype_pattern_taxon,
-        phenotype_tsv,
-        upheno_top_level_phenotypes_non_modified_ontology,
-        restrict_logical=True,
-        timeout=timeout,
-        ontology=allimports_dosdp,
-    )
-    dosdp_generate(
-        phenotype_pattern_taxon_modified,
-        phenotype_modified_tsv,
-        upheno_top_level_phenotypes_modified_ontology,
-        restrict_logical=True,
-        timeout=timeout,
-        ontology=allimports_dosdp,
-    )
-    robot_merge(
-        [
-            upheno_top_level_phenotypes_non_modified_ontology,
-            upheno_top_level_phenotypes_modified_ontology,
-        ],
-        upheno_top_level_phenotypes_ontology,
-        timeout,
-        robot_opts,
-    )
-# upheno_intermediate_ontologies contains all the files that will be merged together to form the
-# intermediate (i.e. uPheno) layer of this profile, including the core, top-level and upheno-class component
-upheno_intermediate_ontologies = [upheno_top_level_phenotypes_ontology, upheno_core_ontology]
-
-# For all tsvs, generate the dosdp instances and drop them in the combo directory
-print("Profile: Generate uPheno intermediate layer")
-pattern_names = []
-for pattern in os.listdir(upheno_preprocessed_patterns_dir):
-    if pattern.endswith(".yaml"):
-        pattern_file = os.path.join(upheno_preprocessed_patterns_dir, pattern)
-        tsv_file_name = pattern.replace(".yaml", ".tsv")
-        pattern_name = pattern.replace(".yaml", "")
-        tsv_file = os.path.join(profile_dir, tsv_file_name)
-        if os.path.exists(tsv_file):
-            pattern_names.append(pattern_name)
-            outfile = os.path.join(final_upheno_combo_dir, pattern.replace(".yaml", ".owl"))
-            upheno_intermediate_ontologies.append(outfile)
-
-first_pattern = os.path.join(final_upheno_combo_dir, pattern_names[0] + ".owl")
-if overwrite_dosdp_upheno or not os.path.exists(first_pattern):
-    dosdp_generate_all(pattern_names=pattern_names,
-                       data_dir=profile_dir,
-                       data_dir_owl=final_upheno_combo_dir,
-                       pattern_dir=upheno_preprocessed_patterns_dir,
-                       restrict_logical=False,
-                       timeout=timeout,
-                       ontology=allimports_dosdp)
-
-print("### Profile: Create upheno intermediate layer")
-upheno_layer_ontology = os.path.join(final_upheno_combo_dir, "upheno_layer.owl")
-if overwrite_dosdp_upheno or not os.path.exists(upheno_layer_ontology):
-    robot_merge(upheno_intermediate_ontologies, upheno_layer_ontology, timeout, robot_opts)

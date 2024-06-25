@@ -7,7 +7,7 @@ annotations:
   - entity
 classes:
   abnormal: PATO:0000460
-  cellular organism: CARO:0010004
+  cellular organism: UBERON:0000468
   decreased resistance to: PATO:0001651
   entity: BFO:0000001
 contributors:

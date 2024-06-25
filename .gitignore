@@ -214,3 +214,4 @@ src/scripts/upheno_all_with_relations_mod.owl
 sync.sh
 src/scripts/__pycache__/
 src/scripts/chebi.txt
+src/ontology/log.txt

@@ -2,7 +2,7 @@ subject_id	subject_label	object_id	object_label
 ID		SC %	
 MP:0005375	adipose tissue phenotype	UPHENO:0076797	abnormal adipose tissue morphology
 MP:0005386	behavior/neurological phenotype	UPHENO:0049622	abnormal behavior
-MP:0005385	cardiovascular system phenotype	UPHENO:0080362	abnormal cardiovascular system
+MP:0005385	cardiovascular system phenotype	UPHENO:0004507	abnormal cardiovascular system
 MP:0005384	cellular phenotype	UPHENO:0086172	abnormal cell
 MP:0005382	craniofacial phenotype	UPHENO:3000000	craniofacial or craniocervical phenotype
 MP:0005381	digestive/alimentary phenotype	UPHENO:0002833	abnormal digestive system
@@ -32,7 +32,7 @@ UPHENO:0078688	abnormal sensory perception of taste	UPHENO:3000007	taste/olfacti
 UPHENO:0078689	abnormal sensory perception of smell	UPHENO:3000007	taste/olfaction phenotype
 HP:0009124	Abnormality of adipose tissue	UPHENO:0076797	abnormal adipose tissue morphology
 HP:0000708	Behavioral abnormality	UPHENO:0049622	abnormal behavior
-HP:0001626	Abnormality of the cardiovascular system	UPHENO:0080362	abnormal cardiovascular system
+HP:0001626	Abnormality of the cardiovascular system	UPHENO:0004507	abnormal cardiovascular system
 HP:0025354	Abnormal cellular phenotype	UPHENO:0086172	abnormal cell
 HP:0000152	Abnormality of head or neck	UPHENO:3000000	craniofacial/craniocervical phenotype
 HP:0025031	Abnormality of the digestive system	UPHENO:0002833	abnormal digestive system
