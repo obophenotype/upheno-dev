@@ -1704,3 +1704,8 @@ http://purl.obolibrary.org/obo/UPHENO_0051148		true	http://purl.obolibrary.org/o
 http://purl.obolibrary.org/obo/UPHENO_0051478		true	http://purl.obolibrary.org/obo/GO_0005272-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031746	
 http://purl.obolibrary.org/obo/UPHENO_0051215		true	http://purl.obolibrary.org/obo/GO_0005215-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0080366	
 http://purl.obolibrary.org/obo/UPHENO_0051520		true	http://purl.obolibrary.org/obo/GO_0005249-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031750	
+http://purl.obolibrary.org/obo/UPHENO_0080366		true	http://purl.obolibrary.org/obo/GO_0005215-abnormalMolecularFunction.tsv	http://purl.obolibrary.org/obo/UPHENO_0051215	
+http://purl.obolibrary.org/obo/UPHENO_0050409		true	http://purl.obolibrary.org/obo/GO_0003824-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031742	
+http://purl.obolibrary.org/obo/UPHENO_0050590		true	http://purl.obolibrary.org/obo/GO_0004129-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031752	
+http://purl.obolibrary.org/obo/UPHENO_0051262		true	http://purl.obolibrary.org/obo/GO_0055077-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031753	
+http://purl.obolibrary.org/obo/UPHENO_0068524		true	http://purl.obolibrary.org/obo/CHEBI_36080-http://purl.obolibrary.org/obo/UBERON_0001359-abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv	http://purl.obolibrary.org/obo/UPHENO_0078557	
