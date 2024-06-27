@@ -1,7 +1,6 @@
 entity	defined_class
 http://purl.obolibrary.org/obo/UBERON_0000033	http://purl.obolibrary.org/obo/UPHENO_0075148
 http://purl.obolibrary.org/obo/UBERON_0000473	http://purl.obolibrary.org/obo/UPHENO_0075149
-http://purl.obolibrary.org/obo/GO_0097226	http://purl.obolibrary.org/obo/UPHENO_0090183
 http://purl.obolibrary.org/obo/UBERON_0002336	http://purl.obolibrary.org/obo/UPHENO_0075150
 http://purl.obolibrary.org/obo/UBERON_0000995	http://purl.obolibrary.org/obo/UPHENO_0075151
 http://purl.obolibrary.org/obo/UBERON_0000992	http://purl.obolibrary.org/obo/UPHENO_0075152
@@ -10,7 +9,6 @@ http://purl.obolibrary.org/obo/UBERON_0002054	http://purl.obolibrary.org/obo/UPH
 http://purl.obolibrary.org/obo/UBERON_0002098	http://purl.obolibrary.org/obo/UPHENO_0075154
 http://purl.obolibrary.org/obo/CL_0000232	http://purl.obolibrary.org/obo/UPHENO_0086456
 http://purl.obolibrary.org/obo/UBERON_0002370	http://purl.obolibrary.org/obo/UPHENO_0075155
-http://purl.obolibrary.org/obo/GO_0042470	http://purl.obolibrary.org/obo/UPHENO_0090185
 http://purl.obolibrary.org/obo/UBERON_0000988	http://purl.obolibrary.org/obo/UPHENO_0075156
 http://purl.obolibrary.org/obo/UBERON_0002329	http://purl.obolibrary.org/obo/UPHENO_0075157
 http://purl.obolibrary.org/obo/UBERON_0002208	http://purl.obolibrary.org/obo/UPHENO_0075158
@@ -33,7 +31,6 @@ http://purl.obolibrary.org/obo/UBERON_0001697	http://purl.obolibrary.org/obo/UPH
 http://purl.obolibrary.org/obo/UBERON_0000002	http://purl.obolibrary.org/obo/UPHENO_0075174
 http://purl.obolibrary.org/obo/UBERON_0004086	http://purl.obolibrary.org/obo/UPHENO_0075175
 http://purl.obolibrary.org/obo/CL_0000188	http://purl.obolibrary.org/obo/UPHENO_0086457
-http://purl.obolibrary.org/obo/GO_0001750	http://purl.obolibrary.org/obo/UPHENO_0090187
 http://purl.obolibrary.org/obo/UBERON_0000998	http://purl.obolibrary.org/obo/UPHENO_0075176
 http://purl.obolibrary.org/obo/UBERON_0004714	http://purl.obolibrary.org/obo/UPHENO_0075177
 http://purl.obolibrary.org/obo/UBERON_0000955	http://purl.obolibrary.org/obo/UPHENO_0075178
