@@ -1698,3 +1698,9 @@ http://purl.obolibrary.org/obo/UPHENO_0078819		true	http://purl.obolibrary.org/o
 http://purl.obolibrary.org/obo/UPHENO_0078826		true	http://purl.obolibrary.org/obo/CHEBI_87209-abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv	http://purl.obolibrary.org/obo/UPHENO_0077111	
 http://purl.obolibrary.org/obo/UPHENO_0078941		true	http://purl.obolibrary.org/obo/CHEBI_10023-abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv	http://purl.obolibrary.org/obo/UPHENO_0077090	
 http://purl.obolibrary.org/obo/UPHENO_0078754		true	http://purl.obolibrary.org/obo/CHEBI_27363-abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv	http://purl.obolibrary.org/obo/UPHENO_0076996	
+http://purl.obolibrary.org/obo/UPHENO_0050674		true	http://purl.obolibrary.org/obo/GO_0008086-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031758	
+http://purl.obolibrary.org/obo/UPHENO_0050660		true	http://purl.obolibrary.org/obo/GO_0003674-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031743	
+http://purl.obolibrary.org/obo/UPHENO_0051148		true	http://purl.obolibrary.org/obo/GO_0016491-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0086370	
+http://purl.obolibrary.org/obo/UPHENO_0051478		true	http://purl.obolibrary.org/obo/GO_0005272-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031746	
+http://purl.obolibrary.org/obo/UPHENO_0051215		true	http://purl.obolibrary.org/obo/GO_0005215-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0080366	
+http://purl.obolibrary.org/obo/UPHENO_0051520		true	http://purl.obolibrary.org/obo/GO_0005249-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031750	
