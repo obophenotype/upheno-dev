@@ -12,6 +12,7 @@ Annotation(owl:versionInfo "2024-06-25")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000633>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000657>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000676>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000678>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000685>))
@@ -92,6 +93,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005859>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005874>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005876>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005880>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005891>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005910>))
@@ -112,6 +114,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018754>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018815>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018817>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018839>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018840>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018853>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0018857>))
@@ -421,6 +424,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049480>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049492>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049498>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049499>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049521>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049532>))
@@ -444,6 +448,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049714>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049718>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049734>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049735>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049748>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049749>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049760>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049764>))
@@ -470,6 +475,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050095>))
@@ -500,6 +506,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050490>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050519>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050532>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050535>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050585>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050591>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050597>))
@@ -507,6 +514,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050598>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050618>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050624>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050628>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050644>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050661>))
@@ -520,8 +528,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050896>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050897>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050899>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050913>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050927>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050972>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050974>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0051030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0051041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0051068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0051084>))
@@ -550,6 +560,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0051484>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0051500>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0051574>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052173>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052235>))
@@ -678,6 +689,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055089>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055122>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055137>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055139>))
@@ -714,6 +726,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059819>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059820>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059821>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059824>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059832>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059838>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059841>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059852>))
@@ -725,6 +738,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0063962>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0063969>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0063970>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0066867>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0067673>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0067715>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0069925>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071019>))
@@ -734,6 +748,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071152>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071156>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0076151>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0076680>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0076909>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0077482>))
@@ -753,7 +768,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078659>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078660>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078664>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078673>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078884>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079303>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079305>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079317>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079355>))
@@ -790,6 +807,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0083369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0083370>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0083434>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0083742>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0084240>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0085176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0085181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086128>))
@@ -814,6 +832,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_000057
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0000633> "http://purl.obolibrary.org/obo/GO_0006725-abnormallyDelayedBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0000633")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0000633> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0000657> (<http://purl.obolibrary.org/obo/UPHENO_0000657>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0000657> "http://purl.obolibrary.org/obo/GO_0071310-abnormallyDelayedBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0000657")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0000657> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0000676> (<http://purl.obolibrary.org/obo/UPHENO_0000676>)
 
@@ -1215,6 +1238,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_000585
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0005874> "http://purl.obolibrary.org/obo/GO_0019438-abnormallyDecreasedRateOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0005874")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0005874> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0005876> (<http://purl.obolibrary.org/obo/UPHENO_0005876>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0005876> "http://purl.obolibrary.org/obo/GO_0006807-abnormallyDecreasedRateOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0005876")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0005876> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0005880> (<http://purl.obolibrary.org/obo/UPHENO_0005880>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0005880> "http://purl.obolibrary.org/obo/GO_0015077-abnormallyDecreasedRateOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0005880")
@@ -1314,6 +1342,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_001881
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0018817> "http://purl.obolibrary.org/obo/GO_1901360-abnormallyArrestedBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0018817")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0018817> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0018839> (<http://purl.obolibrary.org/obo/UPHENO_0018839>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0018839> "http://purl.obolibrary.org/obo/GO_0006807-abnormallyArrestedBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0018839")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0018839> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0018840> (<http://purl.obolibrary.org/obo/UPHENO_0018840>)
 
@@ -2860,6 +2893,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_004948
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0049492> "http://purl.obolibrary.org/obo/GO_0071704-abnormallyPrematureBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0049492")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0049492> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0049498> (<http://purl.obolibrary.org/obo/UPHENO_0049498>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0049498> "http://purl.obolibrary.org/obo/GO_0006807-abnormallyPrematureBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0049498")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0049498> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0049499> (<http://purl.obolibrary.org/obo/UPHENO_0049499>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0049499> "http://purl.obolibrary.org/obo/GO_0006928-abnormallyPrematureBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0049499")
@@ -2974,6 +3012,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_004973
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0049735> "http://purl.obolibrary.org/obo/GO_1901360-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0049735")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0049735> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0049748> (<http://purl.obolibrary.org/obo/UPHENO_0049748>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0049748> "http://purl.obolibrary.org/obo/GO_0006807-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0049748")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0049748> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0049749> (<http://purl.obolibrary.org/obo/UPHENO_0049749>)
 
@@ -3104,6 +3147,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005002
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050031> "http://purl.obolibrary.org/obo/GO_0042493-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050031")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050031> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0050036> (<http://purl.obolibrary.org/obo/UPHENO_0050036>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050036> "http://purl.obolibrary.org/obo/GO_0042133-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050036")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050036> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0050057> (<http://purl.obolibrary.org/obo/UPHENO_0050057>)
 
@@ -3255,6 +3303,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005053
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050535> "http://purl.obolibrary.org/obo/GO_0014065-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050535")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050535> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0050567> (<http://purl.obolibrary.org/obo/UPHENO_0050567>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050567> "http://purl.obolibrary.org/obo/GO_0090242-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050567")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050567> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0050585> (<http://purl.obolibrary.org/obo/UPHENO_0050585>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050585> "http://purl.obolibrary.org/obo/GO_0006305-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050585")
@@ -3289,6 +3342,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005061
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050624> "http://purl.obolibrary.org/obo/GO_0006757-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050624")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050624> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0050628> (<http://purl.obolibrary.org/obo/UPHENO_0050628>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050628> "http://purl.obolibrary.org/obo/GO_0071310-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050628")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050628> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0050635> (<http://purl.obolibrary.org/obo/UPHENO_0050635>)
 
@@ -3355,6 +3413,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005089
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050913> "http://purl.obolibrary.org/obo/GO_0072511-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050913")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050913> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0050927> (<http://purl.obolibrary.org/obo/UPHENO_0050927>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050927> "http://purl.obolibrary.org/obo/GO_0080111-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050927")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050927> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0050972> (<http://purl.obolibrary.org/obo/UPHENO_0050972>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050972> "http://purl.obolibrary.org/obo/GO_0019932-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050972")
@@ -3364,6 +3427,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005097
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0050974> "http://purl.obolibrary.org/obo/GO_0048017-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0050974")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0050974> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0051030> (<http://purl.obolibrary.org/obo/UPHENO_0051030>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0051030> "http://purl.obolibrary.org/obo/GO_0000003-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0051030")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0051030> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0051041> (<http://purl.obolibrary.org/obo/UPHENO_0051041>)
 
@@ -3504,6 +3572,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005157
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0052173> "http://purl.obolibrary.org/obo/GO_0071704-abnormallyDecreasedQualityOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0052173")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0052173> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0052179> (<http://purl.obolibrary.org/obo/UPHENO_0052179>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0052179> "http://purl.obolibrary.org/obo/GO_0006807-abnormallyDecreasedQualityOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0052179")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0052179> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0052200> (<http://purl.obolibrary.org/obo/UPHENO_0052200>)
 
@@ -4145,6 +4218,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005510
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0055113> "http://purl.obolibrary.org/obo/GO_0006725-abnormallyIncreasedRateOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0055113")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0055113> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0055121> (<http://purl.obolibrary.org/obo/UPHENO_0055121>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0055121> "http://purl.obolibrary.org/obo/GO_0006807-abnormallyIncreasedRateOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0055121")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0055121> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0055122> (<http://purl.obolibrary.org/obo/UPHENO_0055122>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0055122> "http://purl.obolibrary.org/obo/GO_0006928-abnormallyIncreasedRateOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0055122")
@@ -4325,6 +4403,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_005982
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0059824> "http://purl.obolibrary.org/obo/GO_0051188-http://purl.obolibrary.org/obo/UBERON_0000178-abnormalBiologicalProcessInLocation-http://purl.obolibrary.org/obo/UPHENO_0059824")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0059824> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0059832> (<http://purl.obolibrary.org/obo/UPHENO_0059832>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0059832> "http://purl.obolibrary.org/obo/GO_0006807-http://purl.obolibrary.org/obo/UBERON_0000178-abnormalBiologicalProcessInLocation-http://purl.obolibrary.org/obo/UPHENO_0059832")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0059832> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0059838> (<http://purl.obolibrary.org/obo/UPHENO_0059838>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0059838> "http://purl.obolibrary.org/obo/GO_0046483-http://purl.obolibrary.org/obo/UBERON_0000178-abnormalBiologicalProcessInLocation-http://purl.obolibrary.org/obo/UPHENO_0059838")
@@ -4380,6 +4463,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_006397
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0066867> "http://purl.obolibrary.org/obo/GO_0051699-abnormallyDecreasedRateOfMolecularFunction-http://purl.obolibrary.org/obo/UPHENO_0066867")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0066867> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0067673> (<http://purl.obolibrary.org/obo/UPHENO_0067673>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0067673> "http://purl.obolibrary.org/obo/GO_0097224-abnormalMorphologyOfCellularComponent-http://purl.obolibrary.org/obo/UPHENO_0067673")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0067673> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0067715> (<http://purl.obolibrary.org/obo/UPHENO_0067715>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0067715> "http://purl.obolibrary.org/obo/GO_0005623-abnormalMorphologyOfCellularComponent-http://purl.obolibrary.org/obo/UPHENO_0067715")
@@ -4424,6 +4512,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_007115
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0071170> "http://purl.obolibrary.org/obo/GO_1901360-http://purl.obolibrary.org/obo/UBERON_0010230-abnormalAbsenceOfBiologicalProcessInLocation-http://purl.obolibrary.org/obo/UPHENO_0071170")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0071170> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0076151> (<http://purl.obolibrary.org/obo/UPHENO_0076151>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0076151> "http://purl.obolibrary.org/obo/CHEBI_22584-abnormallyDecreasedResistanceOfWholeOrganismToEntity-http://purl.obolibrary.org/obo/UPHENO_0076151")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0076151> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0076680> (<http://purl.obolibrary.org/obo/UPHENO_0076680>)
 
@@ -4520,10 +4613,20 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_007866
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0078673> "http://purl.obolibrary.org/obo/GO_0060389-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0078673")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0078673> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0078884> (<http://purl.obolibrary.org/obo/UPHENO_0078884>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0078884> "http://purl.obolibrary.org/obo/CHEBI_22584-abnormallyIncreasedResistanceOfWholeOrganismToEntity-http://purl.obolibrary.org/obo/UPHENO_0078884")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0078884> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0079303> (<http://purl.obolibrary.org/obo/UPHENO_0079303>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0079303> "http://purl.obolibrary.org/obo/GO_0006306-abnormallyIncreasedOccurrenceOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0079303")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0079303> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0079305> (<http://purl.obolibrary.org/obo/UPHENO_0079305>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0079305> "http://purl.obolibrary.org/obo/GO_0080111-abnormallyIncreasedOccurrenceOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0079305")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0079305> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0079317> (<http://purl.obolibrary.org/obo/UPHENO_0079317>)
 
@@ -4704,6 +4807,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_008343
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0083742> "http://purl.obolibrary.org/obo/GO_0043984-abnormallyIncreasedOccurrenceOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0083742")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0083742> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0084240> (<http://purl.obolibrary.org/obo/UPHENO_0084240>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0084240> "http://purl.obolibrary.org/obo/GO_0080111-abnormallyDecreasedOccurrenceOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0084240")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0084240> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0085176> (<http://purl.obolibrary.org/obo/UPHENO_0085176>)
 
