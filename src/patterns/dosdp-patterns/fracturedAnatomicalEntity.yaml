@@ -13,7 +13,7 @@ contributors:
 - https://orcid.org/0000-0001-5208-3432
 - https://orcid.org/0000-0002-8169-9049
 def:
-  text: A partial or complete breakage of the %s.
+  text: A partial or complete fracture of the %s.
   vars:
   - anatomical_entity
 description: ''
