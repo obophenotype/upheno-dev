@@ -271,12 +271,6 @@ http://purl.obolibrary.org/obo/UPHENO_0080051		true	http://purl.obolibrary.org/o
 http://purl.obolibrary.org/obo/UPHENO_0080052		true	http://purl.obolibrary.org/obo/GO_0005634-http://purl.obolibrary.org/obo/BFO_0000004-apoptoticAnatomicalEntityInLocation.tsv		
 http://purl.obolibrary.org/obo/UPHENO_0080053		true	http://purl.obolibrary.org/obo/UBERON_0001062-http://purl.obolibrary.org/obo/BFO_0000004-apoptoticAnatomicalEntityInLocation.tsv		
 http://purl.obolibrary.org/obo/UPHENO_0078578		true	http://purl.obolibrary.org/obo/UBERON_0001062-apoptoticAnatomicalEntity.tsv		
-http://purl.obolibrary.org/obo/UPHENO_0086128		true	http://purl.obolibrary.org/obo/UBERON_0001062-non-functionalAnatomicalEntity.tsv		
-http://purl.obolibrary.org/obo/UPHENO_0086129		true	http://purl.obolibrary.org/obo/UBERON_0001711-non-functionalAnatomicalEntity.tsv		
-http://purl.obolibrary.org/obo/UPHENO_0086130		true	http://purl.obolibrary.org/obo/UBERON_0002107-non-functionalAnatomicalEntity.tsv		
-http://purl.obolibrary.org/obo/UPHENO_0086131		true	http://purl.obolibrary.org/obo/UBERON_0001004-non-functionalAnatomicalEntity.tsv		
-http://purl.obolibrary.org/obo/UPHENO_0086132		true	http://purl.obolibrary.org/obo/UBERON_0002113-non-functionalAnatomicalEntity.tsv		
-http://purl.obolibrary.org/obo/UPHENO_0086133		true	http://purl.obolibrary.org/obo/UBERON_0004681-non-functionalAnatomicalEntity.tsv		
 http://purl.obolibrary.org/obo/UPHENO_0031759		true	http://purl.obolibrary.org/obo/UBERON_0001062-lesionInAnatomicalEntity.tsv		
 http://purl.obolibrary.org/obo/UPHENO_0031760		true	http://purl.obolibrary.org/obo/UBERON_0000061-lesionInAnatomicalEntity.tsv		
 http://purl.obolibrary.org/obo/UPHENO_0031761		true	http://purl.obolibrary.org/obo/PLANA_0000418-lesionInAnatomicalEntity.tsv		
