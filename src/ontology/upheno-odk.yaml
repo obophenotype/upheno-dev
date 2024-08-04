@@ -339,6 +339,10 @@ components:
       use_template: TRUE
       templates:
         - obsolete.tsv
+    - filename: upheno-top.owl
+      use_template: true
+      templates:
+        - phenotype-top-level.tsv
     - filename: upheno-alignments.owl
       use_template: true
       templates:
