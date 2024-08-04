@@ -1709,3 +1709,5 @@ http://purl.obolibrary.org/obo/UPHENO_0050409		true	http://purl.obolibrary.org/o
 http://purl.obolibrary.org/obo/UPHENO_0050590		true	http://purl.obolibrary.org/obo/GO_0004129-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031752	
 http://purl.obolibrary.org/obo/UPHENO_0051262		true	http://purl.obolibrary.org/obo/GO_0055077-abnormalBiologicalProcess.tsv	http://purl.obolibrary.org/obo/UPHENO_0031753	
 http://purl.obolibrary.org/obo/UPHENO_0068524		true	http://purl.obolibrary.org/obo/CHEBI_36080-http://purl.obolibrary.org/obo/UBERON_0001359-abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv	http://purl.obolibrary.org/obo/UPHENO_0078557	
+http://purl.obolibrary.org/obo/UPHENO_0079523		true	http://purl.obolibrary.org/obo/CL_0000635-abnormalDegenerationOfCellularComponent.tsv	http://purl.obolibrary.org/obo/UPHENO_0086348	
+http://purl.obolibrary.org/obo/UPHENO_0079516		true	http://purl.obolibrary.org/obo/CL_0000121-abnormalDegenerationOfCellularComponent.tsv	http://purl.obolibrary.org/obo/UPHENO_0086323	
