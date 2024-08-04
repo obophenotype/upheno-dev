@@ -28,8 +28,6 @@ MP:0005390	skeleton phenotype	UPHENO:0002964	abnormal skeletal system
 MP:0005394	taste/olfaction phenotype	UPHENO:3000007	taste/olfaction phenotype
 MP:0005391	vision/eye phenotype	UPHENO:3000007	vision/eye phenotype
 MP:0004733	abnormal thoracic cavity morphology	UPHENO:0075866	abnormal thoracic cavity
-UPHENO:0078688	abnormal sensory perception of taste	UPHENO:3000007	taste/olfaction phenotype
-UPHENO:0078689	abnormal sensory perception of smell	UPHENO:3000007	taste/olfaction phenotype
 HP:0009124	Abnormality of adipose tissue	UPHENO:0076797	abnormal adipose tissue morphology
 HP:0000708	Behavioral abnormality	UPHENO:0049622	abnormal behavior
 HP:0001626	Abnormality of the cardiovascular system	UPHENO:0004507	abnormal cardiovascular system
