@@ -29,7 +29,7 @@ UPHENO:3000001	embryonic development/birth phenotype	UPHENO:0001001	phenotype	ht
 UPHENO:3000002	mortality/aging phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
 UPHENO:3000003	neoplasm phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
 UPHENO:3000004	renal/urinary system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
-UPHENO:3000007	taste/olfaction phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000006	taste/olfaction phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
 UPHENO:3000007	vision/eye phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
 UPHENO:0050177	renal system phenotype	UPHENO:3000004	renal/urinary system phenotype	
 UPHENO:0001002	phenotypic effect	UPHENO:0001001	phenotype	

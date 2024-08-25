@@ -259,6 +259,7 @@ release_artefacts:
   - custom-upheno-bridge
   - custom-upheno-equivalence-model
   - custom-upheno-old-model
+  - custom-upheno-curated
 sssom_mappingset_group:
   products:
     - id: upheno-oba
@@ -266,6 +267,7 @@ sssom_mappingset_group:
     - id: upheno-species-independent
       maintenance: manual
 primary_release: full
+use_mappings: TRUE
 export_formats:
   - owl
   - obo
@@ -335,19 +337,32 @@ import_group:
 components:
   products:
     - filename: upheno-relations.owl
+      description: "Contains all direct relationships to EQ entities."
     - filename: upheno-deprecated.owl
+      description: "Contains all the deprecated entities."
       use_template: TRUE
       templates:
         - obsolete.tsv
     - filename: upheno-top.owl
+      description: "Contains all the top-level entity declarations."
       use_template: true
       templates:
         - phenotype-top-level.tsv
     - filename: upheno-alignments.owl
+      description: "Contains manual alignments between SSPO classes and uPheno classes."
+      use_template: true
+      templates:
+        - phenotype-alignments.tsv
+    - filename: upheno-manual-curation.owl
+      description: "Contains all manually curated uPheno classes (without EQs)."
       use_template: true
       templates:
         - phenotypes-without-patterns.tsv
-        - phenotype-alignments.tsv
+    - filename: upheno-bridge.owl
+      description: "Contains all subclass relationships between SSPOs and uPheno."
+      use_mappings: true
+      mappings:
+        - upheno-species-independent.sssom.tsv
 pattern_pipelines_group:
   products:
     - id: automatic

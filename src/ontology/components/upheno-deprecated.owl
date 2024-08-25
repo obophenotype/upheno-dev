@@ -1486,6 +1486,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079433>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079484>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079492>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079516>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079523>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079697>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079885>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0079886>))
@@ -9809,6 +9811,18 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_007948
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0079492> "http://purl.obolibrary.org/obo/GO_0007050-abnormallyDecreasedQualityOfBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0079492")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0079492> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0079516> (<http://purl.obolibrary.org/obo/UPHENO_0079516>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_0079516> <http://purl.obolibrary.org/obo/UPHENO_0086323>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0079516> "http://purl.obolibrary.org/obo/CL_0000121-abnormalDegenerationOfCellularComponent.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0079516> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0079523> (<http://purl.obolibrary.org/obo/UPHENO_0079523>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_0079523> <http://purl.obolibrary.org/obo/UPHENO_0086348>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0079523> "http://purl.obolibrary.org/obo/CL_0000635-abnormalDegenerationOfCellularComponent.tsv")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0079523> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0079697> (<http://purl.obolibrary.org/obo/UPHENO_0079697>)
 

@@ -6,5 +6,7 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl" uri="components/upheno-deprecated.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl" uri="components/upheno-top.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl" uri="components/upheno-alignments.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl" uri="components/upheno-manual-curation.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-bridge.owl" uri="components/upheno-bridge.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

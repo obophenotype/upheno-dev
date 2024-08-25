@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                8189032a244e6212fa4d5421b25ff9242e24d24a85d7d84277038cb5ec4bb332
+CONFIG_HASH=                9ef075e66b19ddee91b524b2bc462f40b4bbdfa439b3cc111ccff0bf6a731933
 
 
 # ----------------------------------------
@@ -54,7 +54,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(PATTERNDIR)/definitions.owl $(COMPONENTSDIR)/upheno-relations.owl $(COMPONENTSDIR)/upheno-deprecated.owl $(COMPONENTSDIR)/upheno-top.owl $(COMPONENTSDIR)/upheno-alignments.owl 
+OTHER_SRC =                 $(PATTERNDIR)/definitions.owl $(COMPONENTSDIR)/upheno-relations.owl $(COMPONENTSDIR)/upheno-deprecated.owl $(COMPONENTSDIR)/upheno-top.owl $(COMPONENTSDIR)/upheno-alignments.owl $(COMPONENTSDIR)/upheno-manual-curation.owl $(COMPONENTSDIR)/upheno-bridge.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 PATTERNDIR=                 ../patterns
@@ -62,10 +62,16 @@ PATTERN_TESTER=             dosdp validate -i
 DOSDPT=                     dosdp-tools
 PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.owl
 
+MAPPINGDIR=                 ../mappings
+MAPPING_TESTER=             sssom validate
+SSSOMPY=                    sssom
+MAPPINGS=                   upheno-oba upheno-species-independent 
+MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
+
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-bridge upheno-equivalence-model upheno-old-model )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-bridge upheno-equivalence-model upheno-old-model upheno-curated )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -472,12 +478,29 @@ $(COMPONENTSDIR)/upheno-top.owl: $(TEMPLATEDIR)/phenotype-top-level.tsv
 .PRECIOUS: $(COMPONENTSDIR)/upheno-top.owl
 
 
-$(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotypes-without-patterns.tsv $(TEMPLATEDIR)/phenotype-alignments.tsv
+$(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv
 	if [ $(COMP) = true ] ; then $(ROBOT) template  \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
 .PRECIOUS: $(COMPONENTSDIR)/upheno-alignments.owl
+
+
+$(COMPONENTSDIR)/upheno-manual-curation.owl: $(TEMPLATEDIR)/phenotypes-without-patterns.tsv
+	if [ $(COMP) = true ] ; then $(ROBOT) template  \
+		$(patsubst %, --template %, $^) \
+		$(ANNOTATE_CONVERT_FILE); fi
+
+.PRECIOUS: $(COMPONENTSDIR)/upheno-manual-curation.owl
+
+
+$(COMPONENTSDIR)/upheno-bridge.owl: $(MAPPINGDIR)/upheno-species-independent.sssom.tsv
+	if [ $(COMP) = true ] ; then $(SSSOMPY) merge $^ --output $(TMPDIR)/upheno-bridge.owl-merged.sssom.tsv &&\
+		$(SSSOMPY) convert $(TMPDIR)/upheno-bridge.owl-merged.sssom.tsv  --output $(TMPDIR)/upheno-bridge.owl-converted.sssom.owl &&\
+		$(ROBOT) merge -i $(TMPDIR)/upheno-bridge.owl-converted.sssom.owl \
+		$(ANNOTATE_CONVERT_FILE); fi
+
+.PRECIOUS: $(COMPONENTSDIR)/upheno-bridge.owl
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
@@ -745,6 +768,26 @@ $(PATTERNDIR)/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT)   $(DOSDP_OWL_FILES_AU
       --annotation owl:versionInfo $(VERSION) -o definitions.ofn && mv definitions.ofn $@; fi
 
 
+# ----------------------------------------
+# SSSOM Mapping Files
+# ----------------------------------------
+
+validate-sssom-%:
+	tsvalid $(MAPPINGDIR)/$*.sssom.tsv --comment "#"
+	sssom validate $(MAPPINGDIR)/$*.sssom.tsv
+
+# This mappingset is manually curated, so we only check that the file actually exists.
+$(MAPPINGDIR)/upheno-oba.sssom.tsv:
+	test -f $@
+
+# This mappingset is manually curated, so we only check that the file actually exists.
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv:
+	test -f $@
+
+validate_mappings:
+	$(MAKE_FAST) $(foreach n,$(MAPPINGS), validate-sssom-$(n))
+
+
 
 # ----------------------------------------
 # Release artefacts: export formats
@@ -790,6 +833,12 @@ upheno-equivalence-model.json: upheno-equivalence-model.owl
 upheno-old-model.obo: upheno-old-model.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 upheno-old-model.json: upheno-old-model.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
+upheno-curated.obo: upheno-curated.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+upheno-curated.json: upheno-curated.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
@@ -865,6 +914,9 @@ upheno-equivalence-model.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
 
 upheno-old-model.owl:
+	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
+
+upheno-curated.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools

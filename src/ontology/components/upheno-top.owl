@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2024-08-04/components/upheno-top.owl>
-Annotation(owl:versionInfo "2024-08-04")
+<http://purl.obolibrary.org/obo/upheno/releases/2024-08-06/components/upheno-top.owl>
+Annotation(owl:versionInfo "2024-08-06")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001002>))
@@ -45,6 +45,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000007>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
 
@@ -217,6 +218,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000003> <http://purl.obolibra
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/upheno#top_level>)
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000006> (<http://purl.obolibrary.org/obo/UPHENO_3000006>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000007> (<http://purl.obolibrary.org/obo/UPHENO_3000007>)
 
