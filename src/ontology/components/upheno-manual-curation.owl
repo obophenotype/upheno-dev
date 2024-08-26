@@ -1,14 +1,71 @@
-<?xml version="1.0"?>
-<rdf:RDF 
-     xml:base="http://purl.obolibrary.org/obo/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl"/>
+Prefix(:=<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
-    <!-- This is a placeholder, it will be regenerated when makefile is first executed -->
-</rdf:RDF>
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl>
+<http://purl.obolibrary.org/obo/upheno/releases/2024-08-26/components/upheno-manual-curation.owl>
+Annotation(owl:versionInfo "2024-08-26")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000007>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000000> (craniofacial/craniocervical phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000000> "A phenotype involving the craniofacial and craniocervical regions, encompassing abnormalities in the head, face, and neck junction.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000000> "craniofacial/craniocervical phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000000> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000001> (embryonic development/birth phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000001> "A phenotype involving the development of the embryo or fetus and conditions present at birth.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000001> "embryonic development/birth phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000001> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000002> (mortality/aging phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000002> "A mortality/aging phenotype refers to the observable characteristics and traits associated with both the processes of aging and the factors influencing mortality (death) in an organism. ")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000002> "mortality/aging phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000002> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000003> (neoplasm phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000003> "An organ or organ-system phenotype that consists of uncontrolled autonomous cell-proliferation which can occur in any part of the body as a benign or malignant neoplasm (tumor).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000003> "neoplasm phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000003> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000004> (renal/urinary system phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000004> "The observable morphological and physiological characteristics of any of the organs or tissues responsible for fluid volume regulation, regulating electrolytes, maintaining acid-base homeostasis, and elimination of water and water soluble waste products in a mammalian organism that are manifested through development and lifespan.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000004> "renal/urinary system phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000006> (taste/olfaction phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000006> "The observable morphological and physiological characteristics of the organs involved in and perception of taste and smell in an organism that are manifested through development and lifespan")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000006> "taste/olfaction phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000007> (vision/eye phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000007> "The observable morphological and physiological characteristics of the spheroid organ and optic nerve that serve to detect light that are manifested through development and lifespan.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000007> "vision/eye phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000007> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+
+)

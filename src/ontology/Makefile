@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                9ef075e66b19ddee91b524b2bc462f40b4bbdfa439b3cc111ccff0bf6a731933
+CONFIG_HASH=                95d05642f6d8d707d1f3521b98110c0c3cf47075db7333d6b33b92c7a3c3aa8f
 
 
 # ----------------------------------------
@@ -71,7 +71,7 @@ MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.ts
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-bridge upheno-equivalence-model upheno-old-model upheno-curated )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-bridge upheno-equivalence-model upheno-old-model upheno-curated upheno-composite )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -171,7 +171,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo omo nbo pr go uberon ro chebi hsapdv pato cl mpath
+IMPORTS =  bfo omo nbo pr go uberon ro chebi hsapdv pato cl mpath mp hp dpo wbphenotype ddpheno zp xpo planp
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -605,6 +605,70 @@ mirror-mpath: | $(TMPDIR)
 	curl -L $(OBOBASE)/mpath.owl --create-dirs -o $(TMPDIR)/mpath-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) remove -i $(TMPDIR)/mpath-download.owl --base-iri $(OBOBASE)/MPATH --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
+
+## ONTOLOGY: mp
+.PHONY: mirror-mp
+.PRECIOUS: $(MIRRORDIR)/mp.owl
+mirror-mp: | $(TMPDIR)
+	curl -L $(OBOBASE)/mp/mp-base.owl --create-dirs -o $(TMPDIR)/mp-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/mp-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: hp
+.PHONY: mirror-hp
+.PRECIOUS: $(MIRRORDIR)/hp.owl
+mirror-hp: | $(TMPDIR)
+	curl -L $(OBOBASE)/hp/hp-base.owl --create-dirs -o $(TMPDIR)/hp-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/hp-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: dpo
+.PHONY: mirror-dpo
+.PRECIOUS: $(MIRRORDIR)/dpo.owl
+mirror-dpo: | $(TMPDIR)
+	curl -L $(OBOBASE)/dpo/dpo-base.owl --create-dirs -o $(TMPDIR)/dpo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/dpo-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: wbphenotype
+.PHONY: mirror-wbphenotype
+.PRECIOUS: $(MIRRORDIR)/wbphenotype.owl
+mirror-wbphenotype: | $(TMPDIR)
+	curl -L $(OBOBASE)/wbphenotype/wbphenotype-base.owl --create-dirs -o $(TMPDIR)/wbphenotype-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/wbphenotype-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: ddpheno
+.PHONY: mirror-ddpheno
+.PRECIOUS: $(MIRRORDIR)/ddpheno.owl
+mirror-ddpheno: | $(TMPDIR)
+	curl -L $(OBOBASE)/ddpheno/ddpheno-base.owl --create-dirs -o $(TMPDIR)/ddpheno-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/ddpheno-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: zp
+.PHONY: mirror-zp
+.PRECIOUS: $(MIRRORDIR)/zp.owl
+mirror-zp: | $(TMPDIR)
+	curl -L $(OBOBASE)/zp/zp-base.owl --create-dirs -o $(TMPDIR)/zp-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/zp-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: xpo
+.PHONY: mirror-xpo
+.PRECIOUS: $(MIRRORDIR)/xpo.owl
+mirror-xpo: | $(TMPDIR)
+	curl -L $(OBOBASE)/xpo/xpo-base.owl --create-dirs -o $(TMPDIR)/xpo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/xpo-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: planp
+.PHONY: mirror-planp
+.PRECIOUS: $(MIRRORDIR)/planp.owl
+mirror-planp: | $(TMPDIR)
+	curl -L $(OBOBASE)/planp/planp-base.owl --create-dirs -o $(TMPDIR)/planp-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/planp-download.owl -o $(TMPDIR)/$@.owl
+
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true
 
@@ -842,6 +906,12 @@ upheno-curated.json: upheno-curated.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
+upheno-composite.obo: upheno-composite.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+upheno-composite.json: upheno-composite.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -917,6 +987,9 @@ upheno-old-model.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
 
 upheno-curated.owl:
+	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
+
+upheno-composite.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools
