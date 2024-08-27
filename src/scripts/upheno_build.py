@@ -124,17 +124,18 @@ def postprocess_modified_patterns(patterns_directory, fillers_directory, upheno_
 
 # Subcommand: create_sssom
 @upheno.command()
-@click.option('--upheno-id-map', default='sssom_output.tsv', help='Output file for SSSOM')
-@click.option('--patterns-dir', default='sssom_output.tsv', help='Output file for SSSOM')
-@click.option('--matches-dir', default='sssom_output.tsv', help='Output file for SSSOM')
-@click.option('--output-file-tsv', default='sssom_output.tsv', help='Output file for SSSOM')
-@click.option('--output-file-owl', default='sssom_output.tsv', help='Output file for SSSOM')
-def create_species_independent_sssom_mappings(upheno_id_map, patterns_dir, matches_dir, output_file_tsv,
-                                              output_file_owl):
+@click.option('--upheno-id-map', help='Output file for SSSOM')
+@click.option('--patterns-dir', help='Output file for SSSOM')
+@click.option('--matches-dir', help='Output file for SSSOM')
+@click.option('--obsolete-file-tsv', help='Obsolete TSV template file for uPheno')
+@click.option('--output-file-tsv', help='Output file for SSSOM')
+@click.option('--output-file-owl', help='Output file for SSSOM')
+def create_species_independent_sssom_mappings(upheno_id_map, patterns_dir, matches_dir, obsolete_file_tsv, 
+                                              output_file_tsv, output_file_owl):
     """Create SSSOM file from upheno id map and pattern matches"""
     logger.debug(f'Creating species-neutral SSSOM mappings: {output_file_tsv} and writing to {output_file_owl}')
     click.echo('Creating SSSOM...')
-    create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, output_file_tsv, output_file_owl)
+    create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, obsolete_file_tsv, output_file_tsv, output_file_owl)
 
 
 # Subcommand: validate_mappings
