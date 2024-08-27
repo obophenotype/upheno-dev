@@ -1,0 +1,19 @@
+# curie_map:
+#   NBO: http://purl.obolibrary.org/obo/NBO_
+#   GO: http://purl.obolibrary.org/obo/GO_
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/vocab/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://w3id.org/sssom/license/unspecified
+# mapping_set_id: https://data.monarchinitiative.org/mappings/upheno/nbo-go.sssom.tsv
+subject_id	object_id	predicate_id	mapping_justification
+NBO:0000011	GO:0035176	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000375	GO:0042330	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000027	GO:0007625	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000084	GO:0048512	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000008	GO:0007622	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000084	GO:0048512	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000013	GO:0007626	skos:exactMatch	semapv:ManualMappingCuration
