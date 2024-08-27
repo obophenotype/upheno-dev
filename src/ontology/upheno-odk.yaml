@@ -352,6 +352,14 @@ import_group:
       use_base: TRUE
     - id: planp
       use_base: TRUE
+    - id: fypo
+      use_base: TRUE
+    - id: phipo
+      use_base: TRUE
+    - id: mgpo
+      use_base: TRUE
+    - id: apo
+      make_base: TRUE
 components:
   products:
     - filename: upheno-relations.owl

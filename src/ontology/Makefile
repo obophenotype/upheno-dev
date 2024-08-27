@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                95d05642f6d8d707d1f3521b98110c0c3cf47075db7333d6b33b92c7a3c3aa8f
+CONFIG_HASH=                d39b7882d8c8e0a05395f8b90dd46d47456a4927980760ad7c25b6bc8aad6a1c
 
 
 # ----------------------------------------
@@ -171,7 +171,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo omo nbo pr go uberon ro chebi hsapdv pato cl mpath mp hp dpo wbphenotype ddpheno zp xpo planp
+IMPORTS =  bfo omo nbo pr go uberon ro chebi hsapdv pato cl mpath mp hp dpo wbphenotype ddpheno zp xpo planp fypo phipo mgpo apo
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -669,12 +669,44 @@ mirror-planp: | $(TMPDIR)
 	curl -L $(OBOBASE)/planp/planp-base.owl --create-dirs -o $(TMPDIR)/planp-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) convert -i $(TMPDIR)/planp-download.owl -o $(TMPDIR)/$@.owl
 
+
+## ONTOLOGY: fypo
+.PHONY: mirror-fypo
+.PRECIOUS: $(MIRRORDIR)/fypo.owl
+mirror-fypo: | $(TMPDIR)
+	curl -L $(OBOBASE)/fypo/fypo-base.owl --create-dirs -o $(TMPDIR)/fypo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/fypo-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: phipo
+.PHONY: mirror-phipo
+.PRECIOUS: $(MIRRORDIR)/phipo.owl
+mirror-phipo: | $(TMPDIR)
+	curl -L $(OBOBASE)/phipo/phipo-base.owl --create-dirs -o $(TMPDIR)/phipo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/phipo-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: mgpo
+.PHONY: mirror-mgpo
+.PRECIOUS: $(MIRRORDIR)/mgpo.owl
+mirror-mgpo: | $(TMPDIR)
+	curl -L $(OBOBASE)/mgpo/mgpo-base.owl --create-dirs -o $(TMPDIR)/mgpo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/mgpo-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: apo
+.PHONY: mirror-apo
+.PRECIOUS: $(MIRRORDIR)/apo.owl
+mirror-apo: | $(TMPDIR)
+	curl -L $(OBOBASE)/apo.owl --create-dirs -o $(TMPDIR)/apo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/apo-download.owl --base-iri $(OBOBASE)/APO --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true
 
 ifeq ($(strip $(MERGE_MIRRORS)),true)
 $(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
-	$(ROBOT) merge $(patsubst %, -i %, $^)  -o $@
+	$(ROBOT) merge $(patsubst %, -i %, $^)  remove --axioms equivalent --preserve-structure false -o $@
 .PRECIOUS: $(MIRRORDIR)/merged.owl
 endif
 
