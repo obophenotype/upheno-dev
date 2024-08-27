@@ -215,3 +215,4 @@ sync.sh
 src/scripts/__pycache__/
 src/scripts/chebi.txt
 src/ontology/log.txt
+src/ontology/imports/merged_import.owl

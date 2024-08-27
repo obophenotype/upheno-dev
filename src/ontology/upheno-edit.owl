@@ -7,7 +7,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/upheno.owl>
-Import(<http://purl.obolibrary.org/obo/upheno/imports/merged_import.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>)
