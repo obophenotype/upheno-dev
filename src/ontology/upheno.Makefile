@@ -2,17 +2,17 @@
 #### Mappings and reports #####
 ###############################
 
-$(TMPDIR)/upheno_species_lexical.csv: upheno.owl
+$(TMPDIR)/upheno-species-lexical.csv: upheno.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype-classes-labels.sparql $@
 
 $(REPORTDIR)/upheno-mapping-all.csv \
 $(REPORTDIR)/upheno-mapping-lexical.csv \
-$(REPORTDIR)/upheno-mapping-lexical-template.csv: $(TMPDIR)/upheno_species_lexical.csv $(TMPDIR)/upheno_mapping_logical.csv
+$(REPORTDIR)/upheno-mapping-lexical-template.csv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
 	python3 ../scripts/lexical_mapping.py all
 
-$(REPORTDIR)/upheno-mapping-logical.csv: upheno.owl
+$(TMPDIR)/upheno-mapping-logical.csv: upheno.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
-	#echo "SKIP upheno_mapping_logical"
+	#echo "SKIP $@"
 
 $(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
 	# TODO replace with relationgraph
@@ -20,7 +20,7 @@ $(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
 	#$(ROBOT) query -i tmp/mat_upheno.owl -f csv --query ../sparql/phenotype_entity_associations.sparql $@
 	touch $@
 
-$(MAPPING_DIR)/upheno-oba.sssom.tsv: upheno.owl
+$(MAPPINGDIR)/upheno-oba.sssom.tsv: upheno.owl
 	robot query -i $< --query ../sparql/pheno_trait.sparql $@
 	sed -i 's/[?]//g' $@
 	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
@@ -33,18 +33,24 @@ $(REPORTDIR)/upheno-eq-analysis.csv:
 		--matches-directory ../curation/pattern-matches
 	test -f $@
 
-$(MAPPING_DIR)/upheno-species-independent.sssom.tsv:
-	python3 ../scripts/upheno_build.py upheno create_species_independent_sssom_mappings \
-		--upheno_id_map ../curation/upheno_id_map.txt \
-		--patterns_dir ../curation/patterns-for-matching \
-		--matches_dir ../curation/pattern-matches \
-		--output $@
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl:
+	python3 ../scripts/upheno_build.py create-species-independent-sssom-mappings \
+		--upheno-id-map ../curation/upheno_id_map.txt \
+		--patterns-dir ../curation/patterns-for-matching \
+		--matches-dir ../curation/pattern-matches \
+		--obsolete-file-tsv ../templates/obsolete.tsv \
+		--output-file-owl $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent.sssom.tsv
 
-custom_reports: $(REPORTDIR)/upheno-associated-entities \
-    $(REPORTDIR)/upheno-mapping-all \
-    $(REPORTDIR)/upheno-mapping-lexical \
-    $(REPORTDIR)/upheno-mapping-lexical-template \
-    $(REPORTDIR)/upheno-eq-analysis
+$(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
+	sssom convert -i $< -O owl -o $@
+
+
+custom_reports: $(REPORTDIR)/upheno-associated-entities.csv \
+    $(REPORTDIR)/upheno-mapping-all.csv \
+    $(REPORTDIR)/upheno-mapping-lexical.csv \
+    $(REPORTDIR)/upheno-mapping-lexical-template.csv \
+    $(REPORTDIR)/upheno-eq-analysis.csv
 
 ##########################################
 ####### uPheno release artefacts #########
@@ -70,6 +76,9 @@ $(TMPDIR)/upheno-old-metazoa.owl:
 	$(ROBOT) merge --input-iri http://purl.obolibrary.org/obo/upheno/metazoa.owl -o $@
 .PRECIOUS: $(TMPDIR)/upheno-old-metazoa.owl
 
+$(EDIT_PREPROCESSED): $(SRC)
+	$(ROBOT) merge -i $< -i imports/merged_import.owl convert --format ofn --output $@
+
 upheno-old-model.owl: $(TMPDIR)/upheno-old-metazoa.owl
 	$(ROBOT) remove -i $< --axioms DisjointClasses \
 	 remove --axioms DisjointUnion \
@@ -91,6 +100,22 @@ upheno-old-model.owl: $(TMPDIR)/upheno-old-metazoa.owl
 	    --select "self descendants equivalents" \
 	 annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 	 -o $@
+
+upheno-curated.owl: upheno-basic.owl
+	$(ROBOT) merge -i upheno-basic.owl \
+		query --update ../sparql/rearrange-upheno.ru \
+		reduce \
+		query --update ../sparql/rearrange-upheno-top.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f ofn -o $@
+
+upheno-composite.owl: upheno-basic.owl
+	$(ROBOT) merge -i upheno-basic.owl \
+		query --update ../sparql/rearrange-upheno.ru \
+		reduce \
+		query --update ../sparql/rearrange-upheno-top.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f ofn -o $@
 
 ###### uPheno pipeline
 
@@ -141,8 +166,18 @@ $(TEMPLATEDIR)/phenotypes-without-patterns.tsv:
 $(TEMPLATEDIR)/phenotype-alignments.tsv:
 	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1305526284&single=true&output=tsv" -O $@
 
+$(TEMPLATEDIR)/phenotype-top-level.tsv:
+	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=627170903&single=true&output=tsv" -O $@
+
 $(COMPONENTSDIR)/upheno-species-neutral.owl:
 	$(ROBOT) merge -i ../curation/upheno-release-prepare/all/upheno_layer.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f ofn -o $@
+
+$(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl
+	$(ROBOT) merge -i $(SRC) -i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+		query --query $(SPARQLDIR)/construct-upheno-bridge.sparql tmp/bridge.ttl
+	$(ROBOT) merge -i tmp/bridge.ttl \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
@@ -177,9 +212,22 @@ merge_modified_patterns:
 		--patterns-directory ../curation/patterns-for-matching \
 		--fillers-directory ../curation/upheno-fillers
 
+FILE_TO_OBSOLETE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=368192736&single=true&output=tsv"
+
+tmp/to_obsolete.tsv:
+	#wget $(FILE_TO_OBSOLETE_URL) -O $@
+	touch $@
+
 obsolete_fillers:
-	$(MAKE) $(REPORTDIR)/obsolete_filler_classes.tsv IMP=false MIR=false -B
+	#$(MAKE) $(REPORTDIR)/obsolete_filler_classes.tsv tmp/to_obsolete.tsv IMP=false MIR=false -B
 	python3 ../scripts/upheno_build.py obsolete-classes-from-tsvs \
 		--obsoleted-template ../templates/obsolete.tsv \
 		--obsolete-fillers-file $(REPORTDIR)/obsolete_filler_classes.tsv \
+		--to-obsolete-entities-file tmp/to_obsolete.tsv \
+		--upheno-id-map ../curation/upheno_id_map.txt \
 		--dosdp-tsv-directory ../patterns/data/automatic
+
+
+base_report:
+	$(MAKE) IMP=false PAT=false MIR=false upheno-base.owl -B
+	$(ROBOT) report -i upheno-base.owl $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --print 5 -o tmp/$@.tsv
