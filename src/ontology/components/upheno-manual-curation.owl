@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2024-08-26/components/upheno-manual-curation.owl>
-Annotation(owl:versionInfo "2024-08-26")
+<http://purl.obolibrary.org/obo/upheno/releases/2024-08-28/components/upheno-manual-curation.owl>
+Annotation(owl:versionInfo "2024-08-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000000>))
@@ -39,7 +39,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000001> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000002> (mortality/aging phenotype)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000002> "A mortality/aging phenotype refers to the observable characteristics and traits associated with both the processes of aging and the factors influencing mortality (death) in an organism. ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_3000002> "A mortality/aging phenotype refers to the observable characteristics and traits associated with both the processes of aging and the factors influencing mortality (death) in an organism.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_3000002> "mortality/aging phenotype")
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000002> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
