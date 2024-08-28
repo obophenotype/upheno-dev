@@ -267,6 +267,8 @@ sssom_mappingset_group:
       maintenance: manual
     - id: upheno-species-independent
       maintenance: manual
+    - id: nbo-go
+      maintenance: manual
 primary_release: full
 use_mappings: TRUE
 export_formats:
@@ -357,7 +359,8 @@ import_group:
     - id: phipo
       use_base: TRUE
     - id: mgpo
-      use_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/monarch-initiative/glyco-phenotype-ontology/master/mgpo-full.owl
+      make_base: TRUE
     - id: apo
       make_base: TRUE
 components:
