@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                d39b7882d8c8e0a05395f8b90dd46d47456a4927980760ad7c25b6bc8aad6a1c
+CONFIG_HASH=                0d88b281f5388a191c13c6760ac8d250484320c0d43bac1cc8a5866a73cb5c90
 
 
 # ----------------------------------------
@@ -65,7 +65,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 MAPPINGDIR=                 ../mappings
 MAPPING_TESTER=             sssom validate
 SSSOMPY=                    sssom
-MAPPINGS=                   upheno-oba upheno-species-independent 
+MAPPINGS=                   upheno-oba upheno-species-independent nbo-go 
 MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
 
 
@@ -199,7 +199,7 @@ all_subsets: $(SUBSET_FILES)
 # ----------------------------------------
 
 
-MAPPINGS =  upheno-oba upheno-species-independent
+MAPPINGS =  upheno-oba upheno-species-independent nbo-go
 
 MAPPING_FILES = $(patsubst %, $(MAPPINGDIR)/%.sssom.tsv, $(MAPPINGS))
 
@@ -690,8 +690,7 @@ mirror-phipo: | $(TMPDIR)
 .PHONY: mirror-mgpo
 .PRECIOUS: $(MIRRORDIR)/mgpo.owl
 mirror-mgpo: | $(TMPDIR)
-	curl -L $(OBOBASE)/mgpo/mgpo-base.owl --create-dirs -o $(TMPDIR)/mgpo-download.owl --retry 4 --max-time 400 && \
-	$(ROBOT) convert -i $(TMPDIR)/mgpo-download.owl -o $(TMPDIR)/$@.owl
+	$(ROBOT) remove -I https://raw.githubusercontent.com/monarch-initiative/glyco-phenotype-ontology/master/mgpo-full.owl --base-iri $(OBOBASE)/MGPO  --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: apo
@@ -878,6 +877,10 @@ $(MAPPINGDIR)/upheno-oba.sssom.tsv:
 
 # This mappingset is manually curated, so we only check that the file actually exists.
 $(MAPPINGDIR)/upheno-species-independent.sssom.tsv:
+	test -f $@
+
+# This mappingset is manually curated, so we only check that the file actually exists.
+$(MAPPINGDIR)/nbo-go.sssom.tsv:
 	test -f $@
 
 validate_mappings:
