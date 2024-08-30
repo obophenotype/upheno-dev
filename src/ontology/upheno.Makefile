@@ -26,6 +26,9 @@ $(MAPPINGDIR)/upheno-oba.sssom.tsv: upheno.owl
 	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
 	sed -i 's/>//g' $@
 
+$(MAPPINGDIR)/uberon.sssom.tsv: mirror/uberon.owl
+	$(ROBOT) sssom:xref-extract -i $< --mapping-file $@ --map-prefix-to-predicate "UBERON http://w3id.org/semapv/vocab/crossSpeciesExactMatch"
+
 $(REPORTDIR)/upheno-eq-analysis.csv:
 	python3 ../scripts/upheno_build.py upheno compute_upheno_statistics \
 		--upheno-config ../curation/upheno-config.yaml \
@@ -33,10 +36,11 @@ $(REPORTDIR)/upheno-eq-analysis.csv:
 		--matches-directory ../curation/pattern-matches
 	test -f $@
 
-$(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl:
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl:
 	python3 ../scripts/upheno_build.py create-species-independent-sssom-mappings \
 		--upheno-id-map ../curation/upheno_id_map.txt \
 		--patterns-dir ../curation/patterns-for-matching \
+		--anatomy-mappings $(MAPPINGDIR)/uberon.sssom.tsv \
 		--matches-dir ../curation/pattern-matches \
 		--obsolete-file-tsv ../templates/obsolete.tsv \
 		--output-file-owl $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
