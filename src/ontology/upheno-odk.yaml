@@ -267,7 +267,11 @@ sssom_mappingset_group:
       maintenance: manual
     - id: upheno-species-independent
       maintenance: manual
+    - id: upheno-cross-species
+      maintenance: manual
     - id: nbo-go
+      maintenance: manual
+    - id: uberon
       maintenance: manual
 primary_release: full
 use_mappings: TRUE
@@ -275,6 +279,10 @@ export_formats:
   - owl
   - obo
   - json
+robot_plugins:
+  plugins:
+    - name: sssom
+      mirror_from: https://github.com/gouttegd/sssom-java/releases/download/sssom-java-0.9.0/sssom-robot-plugin-0.9.0.jar
 import_group:
   use_base_merging: TRUE
   base_merge_drop_equivalent_class_axioms: TRUE

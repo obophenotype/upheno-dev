@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                0d88b281f5388a191c13c6760ac8d250484320c0d43bac1cc8a5866a73cb5c90
+CONFIG_HASH=                90f34a71057877c34dae996fe3fa4b7dd7f81dcbb4ea7c3a4206bed892c0c2ff
 
 
 # ----------------------------------------
@@ -65,7 +65,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 MAPPINGDIR=                 ../mappings
 MAPPING_TESTER=             sssom validate
 SSSOMPY=                    sssom
-MAPPINGS=                   upheno-oba upheno-species-independent nbo-go 
+MAPPINGS=                   upheno-oba upheno-species-independent upheno-cross-species nbo-go uberon 
 MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
 
 
@@ -133,7 +133,7 @@ custom_robot_plugins:
 
 
 .PHONY: extra_robot_plugins
-extra_robot_plugins: 
+extra_robot_plugins:  $(ROBOT_PLUGINS_DIRECTORY)/sssom.jar 
 
 
 # Install all ROBOT plugins to the runtime plugins directory
@@ -152,6 +152,9 @@ $(ROBOT_PLUGINS_DIRECTORY)/%.jar:
 	fi
 
 # Specific rules for supplementary plugins defined in configuration
+
+$(ROBOT_PLUGINS_DIRECTORY)/sssom.jar:
+	curl -L -o $@ https://github.com/gouttegd/sssom-java/releases/download/sssom-java-0.9.0/sssom-robot-plugin-0.9.0.jar
 
 
 # ----------------------------------------
@@ -199,7 +202,7 @@ all_subsets: $(SUBSET_FILES)
 # ----------------------------------------
 
 
-MAPPINGS =  upheno-oba upheno-species-independent nbo-go
+MAPPINGS =  upheno-oba upheno-species-independent upheno-cross-species nbo-go uberon
 
 MAPPING_FILES = $(patsubst %, $(MAPPINGDIR)/%.sssom.tsv, $(MAPPINGS))
 
@@ -880,7 +883,15 @@ $(MAPPINGDIR)/upheno-species-independent.sssom.tsv:
 	test -f $@
 
 # This mappingset is manually curated, so we only check that the file actually exists.
+$(MAPPINGDIR)/upheno-cross-species.sssom.tsv:
+	test -f $@
+
+# This mappingset is manually curated, so we only check that the file actually exists.
 $(MAPPINGDIR)/nbo-go.sssom.tsv:
+	test -f $@
+
+# This mappingset is manually curated, so we only check that the file actually exists.
+$(MAPPINGDIR)/uberon.sssom.tsv:
 	test -f $@
 
 validate_mappings:
