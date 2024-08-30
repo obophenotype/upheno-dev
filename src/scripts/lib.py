@@ -754,7 +754,7 @@ def get_id_columns(pattern_file):
         return None
 
 
-def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, obsolete_file_tsv, output_file_tsv, output_file_owl):
+def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, anatomy_mappings, obsolete_file_tsv, output_file_tsv, output_file_owl):
     all_pattern_matches_map = dict()
     df_obsolete = pd.read_csv(obsolete_file_tsv, sep='\t')
     obsolete_ids = set(df_obsolete['Ontology ID'])
@@ -770,10 +770,16 @@ def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, obsolete_file_
     cache_pattern_file_to_idcolumn = dict()
 
     df = pd.read_csv(upheno_id_map, sep='\t')
+    df_anatomy_mappings = pd.read_csv(anatomy_mappings, sep='\t', comment='#')
+    anatomy_index = {}
+    converter = get_converter()
+    
+    for index, row in df_anatomy_mappings.iterrows():
+        uberon_id = converter.expand(row['subject_id'])
+        ssao_id = converter.expand(row['object_id'])
+        anatomy_index[ssao_id] = uberon_id
 
     sssom = []
-
-    converter = get_converter()
 
     for index, row in df.iterrows():
         tokens = row['id'].split('-')
@@ -791,6 +797,8 @@ def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, obsolete_file_
         # print(id_columns)
         # print(fillers)
         tsv_df = all_pattern_matches_map[pattern_name]
+        for column in id_columns:
+            tsv_df[column] = tsv_df[column].map(anatomy_index).fillna(tsv_df[column])
         # filtered = tsv[lambda df: filter_row(df, id_columns, fillers) ]
 
         mask = pd.Series(True, index=tsv_df.index)
