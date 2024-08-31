@@ -13870,3 +13870,31 @@ http://purl.obolibrary.org/obo/UPHENO_0079829		true	http://purl.obolibrary.org/o
 http://purl.obolibrary.org/obo/UPHENO_0002332		true	http://purl.obolibrary.org/obo/UBERON_0001062-abnormalFunctionalityOfAnatomicalEntity.tsv	http://purl.obolibrary.org/obo/UPHENO_0082875	
 http://purl.obolibrary.org/obo/UPHENO_0079845		true	http://purl.obolibrary.org/obo/NBO_0000011-abnormalBehavior.tsv	http://purl.obolibrary.org/obo/UPHENO_0049713	
 http://purl.obolibrary.org/obo/UPHENO_0002412		true	http://purl.obolibrary.org/obo/UBERON_0000056-abnormalFunctionalityOfAnatomicalEntity.tsv	http://purl.obolibrary.org/obo/UPHENO_0082878	
+http://purl.obolibrary.org/obo/UPHENO_0012678		true	http://purl.obolibrary.org/obo/UBERON_0009567-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0012704		true	http://purl.obolibrary.org/obo/UBERON_0002389-http://purl.obolibrary.org/obo/XAO_0004106-abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0012722		true	http://purl.obolibrary.org/obo/UBERON_0001466-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0013240		true	http://purl.obolibrary.org/obo/UBERON_0001981-http://purl.obolibrary.org/obo/ZFA_0005901-abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0015989		true	http://purl.obolibrary.org/obo/UBERON_0001981-http://purl.obolibrary.org/obo/ZFA_0005901-abnormalMorphologyOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0018662		true	http://purl.obolibrary.org/obo/GO_0007626-abnormallyArrestedBiologicalProcess.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0027826		true	http://purl.obolibrary.org/obo/UBERON_0002222-http://purl.obolibrary.org/obo/XAO_0004106-abnormalAbsenceOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0028293		true	http://purl.obolibrary.org/obo/UBERON_0001981-http://purl.obolibrary.org/obo/ZFA_0005901-abnormalAbsenceOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0030653		true	http://purl.obolibrary.org/obo/UBERON_0007567-http://purl.obolibrary.org/obo/ZFA_0009111-abnormalAbsenceOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0035296		true	http://purl.obolibrary.org/obo/UBERON_0004765-http://purl.obolibrary.org/obo/XAO_0004106-abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0035297		true	http://purl.obolibrary.org/obo/UBERON_0004765-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0035347		true	http://purl.obolibrary.org/obo/UBERON_0002389-http://purl.obolibrary.org/obo/XAO_0004106-abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0035478		true	http://purl.obolibrary.org/obo/UBERON_0001466-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0035555		true	http://purl.obolibrary.org/obo/UBERON_0010544-http://purl.obolibrary.org/obo/XAO_0004106-abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0040263		true	http://purl.obolibrary.org/obo/UBERON_0007567-http://purl.obolibrary.org/obo/ZFA_0009111-abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0056462		true	http://purl.obolibrary.org/obo/UBERON_0001466-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0056621		true	http://purl.obolibrary.org/obo/UBERON_0002389-http://purl.obolibrary.org/obo/XAO_0004106-abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0056633		true	http://purl.obolibrary.org/obo/UBERON_0007844-http://purl.obolibrary.org/obo/XAO_0004106-abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0056634		true	http://purl.obolibrary.org/obo/UBERON_0007844-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0057019		true	http://purl.obolibrary.org/obo/UBERON_0001981-http://purl.obolibrary.org/obo/ZFA_0005901-abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0058906		true	http://purl.obolibrary.org/obo/UBERON_0005387-http://purl.obolibrary.org/obo/ZFA_0005674-abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0070619		true	http://purl.obolibrary.org/obo/UBERON_0009879-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDuplicatedAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0070711		true	http://purl.obolibrary.org/obo/UBERON_0007832-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDuplicatedAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0070718		true	http://purl.obolibrary.org/obo/UBERON_0006714-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDuplicatedAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0070856		true	http://purl.obolibrary.org/obo/UBERON_0001466-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDuplicatedAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0070934		true	http://purl.obolibrary.org/obo/UBERON_0000981-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDuplicatedAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0073513		true	http://purl.obolibrary.org/obo/UBERON_0000920-http://purl.obolibrary.org/obo/ZFA_0001570-malformedAnatomicalEntityInLocation.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0089277		true	http://purl.obolibrary.org/obo/GO_0036126-http://purl.obolibrary.org/obo/PATO_0000404-abnormalShapeOfAnatomicalEntityByShapeType.tsv		
