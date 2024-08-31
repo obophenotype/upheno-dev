@@ -4197,10 +4197,6 @@ UPHENO:0012563	semapv:crossSpeciesExactMatch	HP:0009532	semapv:LogicalMatching
 UPHENO:0012565	semapv:crossSpeciesExactMatch	HP:0009211	semapv:LogicalMatching
 UPHENO:0012568	semapv:crossSpeciesExactMatch	HP:0009329	semapv:LogicalMatching
 UPHENO:0012576	semapv:crossSpeciesExactMatch	HP:0009521	semapv:LogicalMatching
-UPHENO:0012678	semapv:crossSpeciesExactMatch	XPO:0103777	semapv:LogicalMatching
-UPHENO:0012704	semapv:crossSpeciesExactMatch	XPO:0103779	semapv:LogicalMatching
-UPHENO:0012722	semapv:crossSpeciesExactMatch	XPO:0103778	semapv:LogicalMatching
-UPHENO:0013240	semapv:crossSpeciesExactMatch	ZP:0104230	semapv:LogicalMatching
 UPHENO:0013914	semapv:crossSpeciesExactMatch	MP:0013445	semapv:LogicalMatching
 UPHENO:0013920	semapv:crossSpeciesExactMatch	MP:0002269	semapv:LogicalMatching
 UPHENO:0013920	semapv:crossSpeciesExactMatch	ZP:0137769	semapv:LogicalMatching
@@ -4618,7 +4614,6 @@ UPHENO:0015278	semapv:crossSpeciesExactMatch	HP:0000630	semapv:LogicalMatching
 UPHENO:0015298	semapv:crossSpeciesExactMatch	ZP:0141014	semapv:LogicalMatching
 UPHENO:0015306	semapv:crossSpeciesExactMatch	HP:0008054	semapv:LogicalMatching
 UPHENO:0015310	semapv:crossSpeciesExactMatch	HP:0011391	semapv:LogicalMatching
-UPHENO:0015989	semapv:crossSpeciesExactMatch	ZP:0101472	semapv:LogicalMatching
 UPHENO:0018381	semapv:crossSpeciesExactMatch	MP:0013845	semapv:LogicalMatching
 UPHENO:0018382	semapv:crossSpeciesExactMatch	MP:0013943	semapv:LogicalMatching
 UPHENO:0018383	semapv:crossSpeciesExactMatch	MP:0013986	semapv:LogicalMatching
@@ -4712,7 +4707,6 @@ UPHENO:0018657	semapv:crossSpeciesExactMatch	ZP:0000602	semapv:LogicalMatching
 UPHENO:0018658	semapv:crossSpeciesExactMatch	ZP:0007428	semapv:LogicalMatching
 UPHENO:0018659	semapv:crossSpeciesExactMatch	ZP:0003894	semapv:LogicalMatching
 UPHENO:0018660	semapv:crossSpeciesExactMatch	ZP:0007304	semapv:LogicalMatching
-UPHENO:0018662	semapv:crossSpeciesExactMatch	ZP:0001670	semapv:LogicalMatching
 UPHENO:0018668	semapv:crossSpeciesExactMatch	ZP:0004322	semapv:LogicalMatching
 UPHENO:0018670	semapv:crossSpeciesExactMatch	ZP:0004321	semapv:LogicalMatching
 UPHENO:0018672	semapv:crossSpeciesExactMatch	ZP:0001871	semapv:LogicalMatching
@@ -5129,9 +5123,6 @@ UPHENO:0027622	semapv:crossSpeciesExactMatch	HP:0009203	semapv:LogicalMatching
 UPHENO:0027626	semapv:crossSpeciesExactMatch	HP:0009321	semapv:LogicalMatching
 UPHENO:0027632	semapv:crossSpeciesExactMatch	HP:0009488	semapv:LogicalMatching
 UPHENO:0027634	semapv:crossSpeciesExactMatch	HP:0009513	semapv:LogicalMatching
-UPHENO:0027826	semapv:crossSpeciesExactMatch	XPO:0103695	semapv:LogicalMatching
-UPHENO:0028293	semapv:crossSpeciesExactMatch	ZP:0104232	semapv:LogicalMatching
-UPHENO:0030653	semapv:crossSpeciesExactMatch	ZP:0022174	semapv:LogicalMatching
 UPHENO:0031103	semapv:crossSpeciesExactMatch	MP:0006411	semapv:LogicalMatching
 UPHENO:0031130	semapv:crossSpeciesExactMatch	ZP:0020434	semapv:LogicalMatching
 UPHENO:0031132	semapv:crossSpeciesExactMatch	MP:0000440	semapv:LogicalMatching
@@ -5604,12 +5595,6 @@ UPHENO:0035190	semapv:crossSpeciesExactMatch	HP:0009932	semapv:LogicalMatching
 UPHENO:0035198	semapv:crossSpeciesExactMatch	HP:0003380	semapv:LogicalMatching
 UPHENO:0035205	semapv:crossSpeciesExactMatch	HP:0012165	semapv:LogicalMatching
 UPHENO:0035208	semapv:crossSpeciesExactMatch	HP:0006611	semapv:LogicalMatching
-UPHENO:0035296	semapv:crossSpeciesExactMatch	XPO:0103836	semapv:LogicalMatching
-UPHENO:0035297	semapv:crossSpeciesExactMatch	XPO:0103841	semapv:LogicalMatching
-UPHENO:0035347	semapv:crossSpeciesExactMatch	XPO:0103832	semapv:LogicalMatching
-UPHENO:0035478	semapv:crossSpeciesExactMatch	XPO:0103838	semapv:LogicalMatching
-UPHENO:0035555	semapv:crossSpeciesExactMatch	XPO:0103834	semapv:LogicalMatching
-UPHENO:0040263	semapv:crossSpeciesExactMatch	ZP:0022173	semapv:LogicalMatching
 UPHENO:0041025	semapv:crossSpeciesExactMatch	HP:0004425	semapv:LogicalMatching
 UPHENO:0041025	semapv:crossSpeciesExactMatch	MP:0030047	semapv:LogicalMatching
 UPHENO:0041026	semapv:crossSpeciesExactMatch	MP:0005497	semapv:LogicalMatching
@@ -9674,12 +9659,6 @@ UPHENO:0056327	semapv:crossSpeciesExactMatch	HP:0006067	semapv:LogicalMatching
 UPHENO:0056328	semapv:crossSpeciesExactMatch	HP:0009958	semapv:LogicalMatching
 UPHENO:0056333	semapv:crossSpeciesExactMatch	HP:0000238	semapv:LogicalMatching
 UPHENO:0056336	semapv:crossSpeciesExactMatch	HP:0009971	semapv:LogicalMatching
-UPHENO:0056462	semapv:crossSpeciesExactMatch	XPO:0103413	semapv:LogicalMatching
-UPHENO:0056621	semapv:crossSpeciesExactMatch	XPO:0103609	semapv:LogicalMatching
-UPHENO:0056633	semapv:crossSpeciesExactMatch	XPO:0103407	semapv:LogicalMatching
-UPHENO:0056634	semapv:crossSpeciesExactMatch	XPO:0103406	semapv:LogicalMatching
-UPHENO:0057019	semapv:crossSpeciesExactMatch	ZP:0101473	semapv:LogicalMatching
-UPHENO:0058906	semapv:crossSpeciesExactMatch	ZP:0021384	semapv:LogicalMatching
 UPHENO:0059908	semapv:crossSpeciesExactMatch	WBPhenotype:0001352	semapv:LogicalMatching
 UPHENO:0059931	semapv:crossSpeciesExactMatch	WBPhenotype:0001283	semapv:LogicalMatching
 UPHENO:0063523	semapv:crossSpeciesExactMatch	MP:0011861	semapv:LogicalMatching
@@ -12020,11 +11999,6 @@ UPHENO:0070509	semapv:crossSpeciesExactMatch	ZP:0022383	semapv:LogicalMatching
 UPHENO:0070515	semapv:crossSpeciesExactMatch	ZP:0010033	semapv:LogicalMatching
 UPHENO:0070516	semapv:crossSpeciesExactMatch	ZP:0000730	semapv:LogicalMatching
 UPHENO:0070530	semapv:crossSpeciesExactMatch	HP:0006176	semapv:LogicalMatching
-UPHENO:0070619	semapv:crossSpeciesExactMatch	XPO:0115791	semapv:LogicalMatching
-UPHENO:0070711	semapv:crossSpeciesExactMatch	XPO:0115790	semapv:LogicalMatching
-UPHENO:0070718	semapv:crossSpeciesExactMatch	XPO:0115792	semapv:LogicalMatching
-UPHENO:0070856	semapv:crossSpeciesExactMatch	XPO:0115779	semapv:LogicalMatching
-UPHENO:0070934	semapv:crossSpeciesExactMatch	XPO:0115780	semapv:LogicalMatching
 UPHENO:0071021	semapv:crossSpeciesExactMatch	MP:0005175	semapv:LogicalMatching
 UPHENO:0071023	semapv:crossSpeciesExactMatch	MP:0004086	semapv:LogicalMatching
 UPHENO:0071027	semapv:crossSpeciesExactMatch	MP:0006159	semapv:LogicalMatching
@@ -12447,7 +12421,6 @@ UPHENO:0072643	semapv:crossSpeciesExactMatch	ZP:0010800	semapv:LogicalMatching
 UPHENO:0072647	semapv:crossSpeciesExactMatch	ZP:0000920	semapv:LogicalMatching
 UPHENO:0072648	semapv:crossSpeciesExactMatch	ZP:0010802	semapv:LogicalMatching
 UPHENO:0072650	semapv:crossSpeciesExactMatch	ZP:0021182	semapv:LogicalMatching
-UPHENO:0073513	semapv:crossSpeciesExactMatch	ZP:0003711	semapv:LogicalMatching
 UPHENO:0073841	semapv:crossSpeciesExactMatch	ZP:0015404	semapv:LogicalMatching
 UPHENO:0073843	semapv:crossSpeciesExactMatch	MP:0000127	semapv:LogicalMatching
 UPHENO:0073846	semapv:crossSpeciesExactMatch	ZP:0003644	semapv:LogicalMatching
@@ -21532,7 +21505,6 @@ UPHENO:0089269	semapv:crossSpeciesExactMatch	MP:0000576	semapv:LogicalMatching
 UPHENO:0089271	semapv:crossSpeciesExactMatch	MP:0009237	semapv:LogicalMatching
 UPHENO:0089272	semapv:crossSpeciesExactMatch	MP:0010047	semapv:LogicalMatching
 UPHENO:0089274	semapv:crossSpeciesExactMatch	MP:0014306	semapv:LogicalMatching
-UPHENO:0089277	semapv:crossSpeciesExactMatch	MP:0009238	semapv:LogicalMatching
 UPHENO:0089279	semapv:crossSpeciesExactMatch	MP:0002686	semapv:LogicalMatching
 UPHENO:0089282	semapv:crossSpeciesExactMatch	MP:0031506	semapv:LogicalMatching
 UPHENO:0089284	semapv:crossSpeciesExactMatch	MP:0004612	semapv:LogicalMatching
