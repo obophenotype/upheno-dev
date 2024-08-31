@@ -13898,3 +13898,5 @@ http://purl.obolibrary.org/obo/UPHENO_0070856		true	http://purl.obolibrary.org/o
 http://purl.obolibrary.org/obo/UPHENO_0070934		true	http://purl.obolibrary.org/obo/UBERON_0000981-http://purl.obolibrary.org/obo/XAO_0004107-abnormallyDuplicatedAnatomicalEntityInLocation.tsv		
 http://purl.obolibrary.org/obo/UPHENO_0073513		true	http://purl.obolibrary.org/obo/UBERON_0000920-http://purl.obolibrary.org/obo/ZFA_0001570-malformedAnatomicalEntityInLocation.tsv		
 http://purl.obolibrary.org/obo/UPHENO_0089277		true	http://purl.obolibrary.org/obo/GO_0036126-http://purl.obolibrary.org/obo/PATO_0000404-abnormalShapeOfAnatomicalEntityByShapeType.tsv		
+http://purl.obolibrary.org/obo/UPHENO_0078924		true	http://purl.obolibrary.org/obo/CHEBI_1086440-abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv
+http://purl.obolibrary.org/obo/UPHENO_0076258		true	http://purl.obolibrary.org/obo/CHEBI_1086440-abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv

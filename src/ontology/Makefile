@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                90f34a71057877c34dae996fe3fa4b7dd7f81dcbb4ea7c3a4206bed892c0c2ff
+CONFIG_HASH=                7d991385dddaa98972b90996bfe02630772a43850fb572fc8a0d53be279e3316
 
 
 # ----------------------------------------
@@ -174,7 +174,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo omo nbo pr go uberon ro chebi hsapdv pato cl mpath mp hp dpo wbphenotype ddpheno zp xpo planp fypo phipo mgpo apo
+IMPORTS =  bfo omo nbo pr go uberon bspo ro chebi hsapdv pato cl mpath mp hp dpo wbphenotype ddpheno zp xpo planp fypo phipo mgpo apo
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -393,7 +393,7 @@ $(IMPORTDIR)/merged_terms_combined.txt: $(ALL_TERMS_COMBINED)
 
 $(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(IMPORTDIR)/merged_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
-		remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/SO_*>" remove  --select "<http://purl.obolibrary.org/obo/cl#abbreviation*>" remove  --select "<http://purl.obolibrary.org/obo/cl#added_for_HCA*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#LATIN*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PLURAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SENSU*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>"  \
+		remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/XAO_*>" remove  --select "<http://purl.obolibrary.org/obo/WBbt_*>" remove  --select "<http://purl.obolibrary.org/obo/DDANAT_*>" remove  --select "<http://purl.obolibrary.org/obo/CHEBItemp_*>" remove  --select "<http://purl.obolibrary.org/obo/WBls_*>" remove  --select "<http://purl.obolibrary.org/obo/ZFA_*>" remove  --select "<http://purl.obolibrary.org/obo/PLANA_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/SO_*>" remove  --select "<http://purl.obolibrary.org/obo/cl#abbreviation*>" remove  --select "<http://purl.obolibrary.org/obo/cl#added_for_HCA*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#LATIN*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PLURAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SENSU*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>"  \
 		extract -T $(IMPORTDIR)/merged_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
 		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/merged_terms_combined.txt --select complement --select annotation-properties \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
@@ -562,6 +562,14 @@ mirror-uberon: | $(TMPDIR)
 	$(ROBOT) convert -i $(TMPDIR)/uberon-download.owl -o $(TMPDIR)/$@.owl
 
 
+## ONTOLOGY: bspo
+.PHONY: mirror-bspo
+.PRECIOUS: $(MIRRORDIR)/bspo.owl
+mirror-bspo: | $(TMPDIR)
+	curl -L $(OBOBASE)/bspo.owl --create-dirs -o $(TMPDIR)/bspo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/bspo-download.owl --base-iri $(OBOBASE)/BSPO --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+
+
 ## ONTOLOGY: ro
 .PHONY: mirror-ro
 .PRECIOUS: $(MIRRORDIR)/ro.owl
@@ -589,8 +597,8 @@ mirror-hsapdv: | $(TMPDIR)
 .PHONY: mirror-pato
 .PRECIOUS: $(MIRRORDIR)/pato.owl
 mirror-pato: | $(TMPDIR)
-	curl -L $(OBOBASE)/pato/pato-base.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 400 && \
-	$(ROBOT) convert -i $(TMPDIR)/pato-download.owl -o $(TMPDIR)/$@.owl
+	curl -L $(OBOBASE)/pato.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/pato-download.owl --base-iri $(OBOBASE)/PATO --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: cl
@@ -669,8 +677,8 @@ mirror-xpo: | $(TMPDIR)
 .PHONY: mirror-planp
 .PRECIOUS: $(MIRRORDIR)/planp.owl
 mirror-planp: | $(TMPDIR)
-	curl -L $(OBOBASE)/planp/planp-base.owl --create-dirs -o $(TMPDIR)/planp-download.owl --retry 4 --max-time 400 && \
-	$(ROBOT) convert -i $(TMPDIR)/planp-download.owl -o $(TMPDIR)/$@.owl
+	curl -L $(OBOBASE)/planp.owl --create-dirs -o $(TMPDIR)/planp-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/planp-download.owl --base-iri $(OBOBASE)/PLANP --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: fypo

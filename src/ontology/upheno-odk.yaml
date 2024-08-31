@@ -293,6 +293,13 @@ import_group:
     - <http://www.informatics.jax.org/marker/MGI:*>
     - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/XAO_*>
+    - <http://purl.obolibrary.org/obo/WBbt_*>
+    - <http://purl.obolibrary.org/obo/DDANAT_*>
+    - <http://purl.obolibrary.org/obo/CHEBItemp_*>
+    - <http://purl.obolibrary.org/obo/WBls_*>
+    - <http://purl.obolibrary.org/obo/ZFA_*>
+    - <http://purl.obolibrary.org/obo/PLANA_*>
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/SO_*>
     - <http://purl.obolibrary.org/obo/cl#abbreviation*>
@@ -331,6 +338,8 @@ import_group:
       make_base: TRUE
     - id: uberon 
       use_base: TRUE
+    - id: bspo
+      make_base: TRUE
     - id: ro
       use_base: TRUE
     - id: chebi
@@ -341,7 +350,7 @@ import_group:
       base_iris:
         - http://purl.obolibrary.org/obo/HsapDv_
     - id: pato
-      use_base: TRUE
+      make_base: TRUE
     - id: cl
       use_base: TRUE
     - id: mpath
@@ -361,7 +370,7 @@ import_group:
     - id: xpo
       use_base: TRUE
     - id: planp
-      use_base: TRUE
+      make_base: TRUE
     - id: fypo
       use_base: TRUE
     - id: phipo
