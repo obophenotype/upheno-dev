@@ -193,6 +193,8 @@ ifeq ($(strip $(MERGE_MIRRORS)),true)
 $(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
 	$(ROBOT) merge $(patsubst %, -i %, $(ALL_MIRRORS)) \
 		remove --axioms disjoint --preserve-structure false remove --term http://www.w3.org/2002/07/owl#Nothing --axioms logical --preserve-structure false \
+		remove --term RO:0000052 --term RO:0002314 --axioms tbox --preserve-structure false \
+		remove --axioms equivalent --preserve-structure false \
 		remove -T config/terms_to_remove.txt --preserve-structure false \
 		query --update ../sparql/rm_declarations.ru \
 		convert --format ofn --output $@
