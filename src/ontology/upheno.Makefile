@@ -1,3 +1,6 @@
+
+SSPOS = mp hp zp dpo wbphenotype xpo planp ddpheno fypo apo mgpo phipo
+
 ###############################
 #### Mappings and reports #####
 ###############################
@@ -29,11 +32,15 @@ $(MAPPINGDIR)/upheno-oba.sssom.tsv: upheno.owl
 $(MAPPINGDIR)/uberon.sssom.tsv: mirror/uberon.owl
 	if [ $(COMP) = true ] ; then $(ROBOT) sssom:xref-extract -i $< --mapping-file $@ --map-prefix-to-predicate "UBERON http://w3id.org/semapv/vocab/crossSpeciesExactMatch"; fi
 
-$(REPORTDIR)/upheno-eq-analysis.csv:
-	python3 ../scripts/upheno_build.py compute_upheno_statistics \
+$(REPORTDIR)/%_phenotype_data.csv: $(MIRRORDIR)/%.owl $(SPARQLDIR)/%_phenotypes.sparql
+	$(ROBOT) query -f csv -i $< --query $(SPARQLDIR)/$*_phenotypes.sparql $@
+
+$(REPORTDIR)/upheno-eq-analysis.csv: $(foreach n,$(SSPOS), $(REPORTDIR)/$(n)_phenotype_data.csv)
+	python3 ../scripts/upheno_build.py compute-upheno-statistics \
 		--upheno-config ../curation/upheno-config.yaml \
-		--patterns-directory ../curation/patterns-for-matching \
-		--matches-directory ../curation/pattern-matches
+		--pattern-directory ../curation/patterns-for-matching \
+		--matches-directory ../curation/pattern-matches \
+		--stats-directory $(REPORTDIR)/
 	test -f $@
 
 $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl:
@@ -45,6 +52,11 @@ $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-
 		--obsolete-file-tsv ../templates/obsolete.tsv \
 		--output-file-owl $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
 		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent.sssom.tsv; fi
+
+$(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
+	mkdir -p $(TMPDIR)/cross-species/
+	python3 ../scripts/upheno_build.py generate-cross-species-mappings --species-lexical $(TMPDIR)/upheno-species-lexical.csv -m $(TMPDIR)/upheno-mapping-logical.csv -o $(TMPDIR)/cross-species/
+	ssom parse $(TMPDIR)/cross-species/upheno_custom_mapping.sssom.tsv --metadata config/upheno-cross-species.sssom.tsv -C merged -o $@
 
 $(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
 	sssom convert -i $< -O owl -o $@
@@ -113,14 +125,6 @@ upheno-curated.owl: upheno-basic.owl
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
-upheno-composite.owl: upheno-basic.owl
-	$(ROBOT) merge -i upheno-basic.owl \
-		query --update ../sparql/rearrange-upheno.ru \
-		reduce \
-		query --update ../sparql/rearrange-upheno-top.ru \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
-		convert -f ofn -o $@
-
 ###### uPheno pipeline
 
 upheno:
@@ -165,13 +169,17 @@ upheno_create_profiles: ../curation/upheno-config.yaml
 ############################
 
 $(TEMPLATEDIR)/phenotypes-without-patterns.tsv:
-	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1901003626&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1901003626&single=true&output=tsv" -O $@
 
 $(TEMPLATEDIR)/phenotype-alignments.tsv:
-	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=1305526284&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1305526284&single=true&output=tsv" -O $@
 
 $(TEMPLATEDIR)/phenotype-top-level.tsv:
-	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=627170903&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=627170903&single=true&output=tsv" -O $@
+
+$(TEMPLATEDIR)/root-alignments.tsv:
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1260598340&single=true&output=tsv" -O $@
+
 
 $(COMPONENTSDIR)/upheno-species-neutral.owl:
 	$(ROBOT) merge -i ../curation/upheno-release-prepare/all/upheno_layer.owl \
@@ -181,7 +189,7 @@ $(COMPONENTSDIR)/upheno-species-neutral.owl:
 $(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl
 	$(ROBOT) merge -i $(SRC) -i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
 		query --query $(SPARQLDIR)/construct-upheno-bridge.sparql tmp/bridge.ttl
-	$(ROBOT) merge -i tmp/bridge.ttl \
+	$(ROBOT) merge -i tmp/bridge.ttl -i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
