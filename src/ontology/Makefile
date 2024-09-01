@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                7d991385dddaa98972b90996bfe02630772a43850fb572fc8a0d53be279e3316
+CONFIG_HASH=                26b5275bcc5e1d021621a0a98df3d536bc2fd0c6f585064843fd5e96ae771ca5
 
 
 # ----------------------------------------
@@ -71,7 +71,7 @@ MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.ts
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-bridge upheno-equivalence-model upheno-old-model upheno-curated upheno-composite )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-bridge upheno-equivalence-model upheno-old-model upheno-curated )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -481,7 +481,7 @@ $(COMPONENTSDIR)/upheno-top.owl: $(TEMPLATEDIR)/phenotype-top-level.tsv
 .PRECIOUS: $(COMPONENTSDIR)/upheno-top.owl
 
 
-$(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv
+$(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv $(TEMPLATEDIR)/root-alignments.tsv
 	if [ $(COMP) = true ] ; then $(ROBOT) template  \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
@@ -960,12 +960,6 @@ upheno-curated.json: upheno-curated.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
-upheno-composite.obo: upheno-composite.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-upheno-composite.json: upheno-composite.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json &&\
-		mv $@.tmp.json $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -1041,9 +1035,6 @@ upheno-old-model.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
 
 upheno-curated.owl:
-	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
-
-upheno-composite.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools
