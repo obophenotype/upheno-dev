@@ -8,11 +8,6 @@ SSPOS = mp hp zp dpo wbphenotype xpo planp ddpheno fypo apo mgpo phipo
 $(TMPDIR)/upheno-species-lexical.csv: upheno.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype-classes-labels.sparql $@
 
-$(REPORTDIR)/upheno-mapping-all.csv \
-$(REPORTDIR)/upheno-mapping-lexical.csv \
-$(REPORTDIR)/upheno-mapping-lexical-template.csv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
-	python3 ../scripts/lexical_mapping.py all
-
 $(TMPDIR)/upheno-mapping-logical.csv: upheno.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
 	#echo "SKIP $@"
@@ -56,24 +51,21 @@ $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-
 $(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
 	mkdir -p $(TMPDIR)/cross-species/
 	python3 ../scripts/upheno_build.py generate-cross-species-mappings --species-lexical $(TMPDIR)/upheno-species-lexical.csv -m $(TMPDIR)/upheno-mapping-logical.csv -o $(TMPDIR)/cross-species/
-	ssom parse $(TMPDIR)/cross-species/upheno_custom_mapping.sssom.tsv --metadata config/upheno-cross-species.sssom.tsv -C merged -o $@
+	sssom parse $(TMPDIR)/cross-species/upheno_custom_mapping.sssom.tsv --metadata config/upheno-cross-species.sssom.tsv -C merged -o $@
 
 $(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
 	sssom convert -i $< -O owl -o $@
 
 
 custom_reports: $(REPORTDIR)/upheno-associated-entities.csv \
-    $(REPORTDIR)/upheno-mapping-all.csv \
-    $(REPORTDIR)/upheno-mapping-lexical.csv \
-    $(REPORTDIR)/upheno-mapping-lexical-template.csv \
     $(REPORTDIR)/upheno-eq-analysis.csv
 
 ##########################################
 ####### uPheno release artefacts #########
 ##########################################
 
-$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl: upheno.owl $(REPORTDIR)/upheno-mapping-lexical-template.csv
-	$(ROBOT) template -i $< --merge-before --template $(REPORTDIR)/upheno-mapping-lexical-template.csv \
+$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl: upheno.owl $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv
+	$(ROBOT) template -i $< --merge-before --template $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv \
    		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: .$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl
 
@@ -123,7 +115,12 @@ upheno-curated.owl: upheno-basic.owl
 		reduce \
 		query --update ../sparql/rearrange-upheno-top.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
-		convert -f ofn -o $@
+		convert -f owl -o $@
+
+upheno-base-with-bridge.owl: upheno-base.owl $(COMPONENTSDIR)/upheno-bridge.owl
+	$(ROBOT) merge -i upheno-base.owl -i $(COMPONENTSDIR)/upheno-bridge.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f owl -o $@
 
 ###### uPheno pipeline
 
