@@ -7,10 +7,11 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2024-08-31/components/upheno-manual-curation.owl>
-Annotation(owl:versionInfo "2024-08-31")
+<http://purl.obolibrary.org/obo/upheno/releases/2024-09-02/components/upheno-manual-curation.owl>
+Annotation(owl:versionInfo "2024-09-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000002>))
@@ -24,6 +25,12 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 ############################
 #   Classes
 ############################
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0001003> (taxon specific phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0001003> "A grouping class to organise all taxon-specific phenotype terms under, such as \"Phenotypic Abnormality\" in HPO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0001003> "taxon specific phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0001003> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000000> (craniofacial/craniocervical phenotype)
 
