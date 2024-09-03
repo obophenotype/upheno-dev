@@ -171,6 +171,47 @@ def compute_upheno_statistics(upheno_config, pattern_directory, stats_directory,
                          stats_dir=stats_directory)
 
 
+@upheno.command()
+@click.option(
+    "--species-lexical",
+    "-s",
+    metavar="FILE",
+    required=True,
+    help="Species lexical file",
+    type=click.types.Path(),
+)
+@click.option(
+    "--mapping-logical",
+    "-m",
+    metavar="FILE",
+    required=True,
+    help="Mapping logical file",
+    type=click.types.Path(),
+)
+@click.option(
+    "--phenotypic-effect-terms",
+    "-p",
+    default=["abnormally", "abnormal", "aberrant", "variant"],
+    show_default=True,
+    multiple=True,
+    type=click.Choice(["abnormally", "abnormal", "aberrant", "variant"], case_sensitive=False),
+    help="Phenotypic Effect Terms: The terms passed in this parameter will be removed and the word 'abnormal' will be prepended the label",
+)
+@click.option(
+    "--output",
+    "-o",
+    metavar="FILE",
+    required=True,
+    help="Output Folder",
+    type=click.types.Path(),
+)
+def generate_cross_species_mappings(
+    species_lexical: click.Path, mapping_logical: click.Path, phenotypic_effect_terms: List[str], output: click.Path
+) -> None:
+    """Command to generate cross species mappings"""
+    lm = LexicalMapping(species_lexical, mapping_logical, stopwords=phenotypic_effect_terms)
+    lm.generate_mapping_files(output)
+
 # Subcommand: help
 @upheno.command()
 @click.pass_context
