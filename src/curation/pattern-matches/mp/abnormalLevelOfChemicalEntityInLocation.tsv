@@ -98,7 +98,7 @@ http://purl.obolibrary.org/obo/MP_0006357	abnormal circulating mineral level	htt
 http://purl.obolibrary.org/obo/MP_0003372	abnormal circulating mineralocorticoid level	http://purl.obolibrary.org/obo/CHEBI_25354	mineralocorticoid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005663	abnormal circulating noradrenaline level	http://purl.obolibrary.org/obo/CHEBI_33569	noradrenaline	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030649	abnormal circulating ornithine level	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/MP_0008459	abnormal circulating pancreatic peptide level	http://purl.obolibrary.org/obo/PR_000013164	pancreatic prohormone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0008459	abnormal circulating pancreatic peptide level	http://purl.obolibrary.org/obo/PR_000013164	pancreatic polypeptide prohormone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0002903	abnormal circulating parathyroid hormone level	http://purl.obolibrary.org/obo/PR_000013429	parathyroid hormone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030669	abnormal circulating phenylalanine level	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0001565	abnormal circulating phosphate level	http://purl.obolibrary.org/obo/CHEBI_26020	phosphate	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -123,6 +123,10 @@ http://purl.obolibrary.org/obo/MP_0008552	abnormal circulating tumor necrosis fa
 http://purl.obolibrary.org/obo/MP_0013722	abnormal circulating tyrosine level	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030726	abnormal circulating valine level	http://purl.obolibrary.org/obo/CHEBI_27266	valine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0012369	abnormal erythrocyte potassium level	http://purl.obolibrary.org/obo/CHEBI_26216	potassium atom	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
+http://purl.obolibrary.org/obo/MP_0014475	abnormal feces bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt	http://purl.obolibrary.org/obo/UBERON_0001988	feces
+http://purl.obolibrary.org/obo/MP_0014477	abnormal feces cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0001988	feces
+http://purl.obolibrary.org/obo/MP_0014476	abnormal feces lipid level	http://purl.obolibrary.org/obo/CHEBI_18059	lipid	http://purl.obolibrary.org/obo/UBERON_0001988	feces
+http://purl.obolibrary.org/obo/MP_0014482	abnormal feces water content	http://purl.obolibrary.org/obo/CHEBI_15377	water	http://purl.obolibrary.org/obo/UBERON_0001988	feces
 http://purl.obolibrary.org/obo/MP_0008741	abnormal heart iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0005563	abnormal hemoglobin content	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0008740	abnormal intestinal iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
@@ -134,7 +138,10 @@ http://purl.obolibrary.org/obo/MP_0003065	abnormal liver copper level	http://pur
 http://purl.obolibrary.org/obo/MP_0012777	abnormal liver glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0008738	abnormal liver iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0011924	abnormal liver zinc level	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MP_0031630	abnormal lung cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/MP_0001589	abnormal mean corpuscular hemoglobin	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/CL_0000595	enucleate erythrocyte
+http://purl.obolibrary.org/obo/MP_0014068	abnormal muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0002385	muscle tissue
+http://purl.obolibrary.org/obo/MP_0031412	abnormal muscle triglyceride level	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride	http://purl.obolibrary.org/obo/UBERON_0002385	muscle tissue
 http://purl.obolibrary.org/obo/MP_0013301	abnormal pancreas iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/MP_0009556	abnormal platelet ADP level	http://purl.obolibrary.org/obo/CHEBI_16761	ADP	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/MP_0009447	abnormal platelet ATP level	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/CL_0000233	platelet

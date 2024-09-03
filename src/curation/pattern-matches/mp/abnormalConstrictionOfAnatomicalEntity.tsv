@@ -3,6 +3,7 @@ http://purl.obolibrary.org/obo/MP_0009052	anal stenosis	http://purl.obolibrary.o
 http://purl.obolibrary.org/obo/MP_0010463	aorta stenosis	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
 http://purl.obolibrary.org/obo/MP_0006117	aortic valve stenosis	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
 http://purl.obolibrary.org/obo/MP_0006135	artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001637	artery
+http://purl.obolibrary.org/obo/MP_0031575	atrioventricular valve stenosis	http://purl.obolibrary.org/obo/UBERON_0002133	atrioventricular valve
 http://purl.obolibrary.org/obo/MP_0013228	brain ventricle stenosis	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle
 http://purl.obolibrary.org/obo/MP_0002958	cerebral aqueductal stenosis	http://purl.obolibrary.org/obo/UBERON_0002289	midbrain cerebral aqueduct
 http://purl.obolibrary.org/obo/MP_0030062	choanal stenosis	http://purl.obolibrary.org/obo/UBERON_0004771	posterior nasal aperture
@@ -21,7 +22,7 @@ http://purl.obolibrary.org/obo/MP_0013843	hepatic portal vein stenosis	http://pu
 http://purl.obolibrary.org/obo/MP_0011974	intestinal stenosis	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
 http://purl.obolibrary.org/obo/MP_0013963	jugular vein stenosis	http://purl.obolibrary.org/obo/UBERON_0004711	jugular vein
 http://purl.obolibrary.org/obo/MP_0012491	larynx stenosis	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
-http://purl.obolibrary.org/obo/MP_0002003	miotic pupils	http://purl.obolibrary.org/obo/UBERON_0001771	pupil
+http://purl.obolibrary.org/obo/MP_0002003	miotic pupil	http://purl.obolibrary.org/obo/UBERON_0001771	pupil
 http://purl.obolibrary.org/obo/MP_0006122	mitral valve stenosis	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
 http://purl.obolibrary.org/obo/MP_0030469	optic canal stenosis	http://purl.obolibrary.org/obo/UBERON_0005745	optic foramen
 http://purl.obolibrary.org/obo/MP_0012495	pharyngeal arch artery stenosis	http://purl.obolibrary.org/obo/UBERON_0004363	pharyngeal arch artery
@@ -32,6 +33,7 @@ http://purl.obolibrary.org/obo/MP_0010438	pulmonary vein stenosis	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0003307	pyloric stenosis	http://purl.obolibrary.org/obo/UBERON_0001166	pylorus
 http://purl.obolibrary.org/obo/MP_0011356	renal artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001184	renal artery
 http://purl.obolibrary.org/obo/MP_0031142	retina artery stenosis	http://purl.obolibrary.org/obo/UBERON_0001620	central retinal artery
+http://purl.obolibrary.org/obo/MP_0031585	semilunar valve stenosis	http://purl.obolibrary.org/obo/UBERON_0005623	semi-lunar valve
 http://purl.obolibrary.org/obo/MP_0021170	spinal stenosis	http://purl.obolibrary.org/obo/UBERON_0006692	vertebral canal
 http://purl.obolibrary.org/obo/MP_0004630	spiral modiolar artery stenosis	http://purl.obolibrary.org/obo/UBERON_0002505	spiral modiolar artery
 http://purl.obolibrary.org/obo/MP_0030001	subglottis stenosis	http://purl.obolibrary.org/obo/UBERON_0036068	subglottis

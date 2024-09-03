@@ -28,6 +28,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000621	excretory system development 
 http://purl.obolibrary.org/obo/WBPhenotype_0000943	ganglion development variant	http://purl.obolibrary.org/obo/WBbt_0005189	ganglion
 http://purl.obolibrary.org/obo/WBPhenotype_0000813	gland cell development variant	http://purl.obolibrary.org/obo/WBbt_0003670	gland cell
 http://purl.obolibrary.org/obo/WBPhenotype_0001488	gubernaculum development variant	http://purl.obolibrary.org/obo/WBbt_0008424	gubernaculum
+http://purl.obolibrary.org/obo/WBPhenotype_0000103	gut granule development variant	http://purl.obolibrary.org/obo/GO_0044840	gut granule
 http://purl.obolibrary.org/obo/WBPhenotype_0002209	hook development variant	http://purl.obolibrary.org/obo/WBbt_0008425	hook
 http://purl.obolibrary.org/obo/WBPhenotype_0000705	intestinal cell development variant	http://purl.obolibrary.org/obo/WBbt_0005792	intestinal cell
 http://purl.obolibrary.org/obo/WBPhenotype_0000955	lateral ganglia development variant	http://purl.obolibrary.org/obo/WBbt_0005105	lateral ganglion
@@ -36,6 +37,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000922	male longitudinal muscle deve
 http://purl.obolibrary.org/obo/WBPhenotype_0001487	male spicule development variant	http://purl.obolibrary.org/obo/WBbt_0005312	copulatory spicule
 http://purl.obolibrary.org/obo/WBPhenotype_0000199	male tail sensory ray development variant	http://purl.obolibrary.org/obo/WBbt_0006941	ray
 http://purl.obolibrary.org/obo/WBPhenotype_0000814	marginal cell development variant	http://purl.obolibrary.org/obo/WBbt_0003673	marginal cell
+http://purl.obolibrary.org/obo/WBPhenotype_0000540	muscle arm development variant	http://purl.obolibrary.org/obo/GO_0036194	muscle cell projection
 http://purl.obolibrary.org/obo/WBPhenotype_0000622	muscle system development variant	http://purl.obolibrary.org/obo/WBbt_0005737	muscular system
 http://purl.obolibrary.org/obo/WBPhenotype_0000883	nerve ring development variant	http://purl.obolibrary.org/obo/WBbt_0006749	nerve ring
 http://purl.obolibrary.org/obo/WBPhenotype_0000950	neuronal sheath cell development variant	http://purl.obolibrary.org/obo/WBbt_0005811	neuronal sheath cell
@@ -43,6 +45,7 @@ http://purl.obolibrary.org/obo/WBPhenotype_0000945	neuropil development variant	
 http://purl.obolibrary.org/obo/WBPhenotype_0000860	nonstriated muscle development variant	http://purl.obolibrary.org/obo/WBbt_0005780	non-striated muscle
 http://purl.obolibrary.org/obo/WBPhenotype_0000530	organ system development variant	http://purl.obolibrary.org/obo/WBbt_0005746	Organ system
 http://purl.obolibrary.org/obo/WBPhenotype_0000531	organism development variant	http://purl.obolibrary.org/obo/WBbt_0007833	organism
+http://purl.obolibrary.org/obo/WBPhenotype_0000200	pericellular component development variant	http://purl.obolibrary.org/obo/GO_0031012	extracellular matrix
 http://purl.obolibrary.org/obo/WBPhenotype_0000098	pharyngeal intestinal valve development variant	http://purl.obolibrary.org/obo/WBbt_0005767	pharyngeal-intestinal valve
 http://purl.obolibrary.org/obo/WBPhenotype_0000946	pharyngeal nervous system development variant	http://purl.obolibrary.org/obo/WBbt_0005440	pharyngeal nervous system
 http://purl.obolibrary.org/obo/WBPhenotype_0000957	posterior lateral ganglion development variant	http://purl.obolibrary.org/obo/WBbt_0005465	posterior lateral ganglion

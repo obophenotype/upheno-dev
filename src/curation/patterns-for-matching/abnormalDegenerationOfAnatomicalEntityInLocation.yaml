@@ -2,6 +2,7 @@
 pattern_name: abnormalDegenerationOfAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDegenerationOfAnatomicalEntityInLocation.yaml
 description: "Deterioration or loss of function of a tissue that was once present in a location."
+
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 
@@ -10,16 +11,20 @@ classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
   independent continuant: BFO:0000004
+
 relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
   part_of: BFO:0000050
+
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+
 vars:
   anatomical_entity: "'anatomical entity'"
   location: "'independent continuant'"
+
 name:
   text: "%s degeneration in %s"
   vars:

@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/MP_0004642	fused metatarsal bones	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0030473	fused molars	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth
 http://purl.obolibrary.org/obo/MP_0008730	fused phalanges	http://purl.obolibrary.org/obo/UBERON_0003221	phalanx	http://purl.obolibrary.org/obo/UBERON_0003221	phalanx
 http://purl.obolibrary.org/obo/MP_0020350	fused pharyngeal arches	http://purl.obolibrary.org/obo/UBERON_0002539	pharyngeal arch	http://purl.obolibrary.org/obo/UBERON_0002539	pharyngeal arch
+http://purl.obolibrary.org/obo/MP_0008139	fused podocyte foot processes	http://purl.obolibrary.org/obo/GO_0098846	podocyte foot	http://purl.obolibrary.org/obo/GO_0098846	podocyte foot
 http://purl.obolibrary.org/obo/MP_0011530	fused radius and ulna	http://purl.obolibrary.org/obo/UBERON_0001423	radius bone	http://purl.obolibrary.org/obo/UBERON_0001424	ulna
 http://purl.obolibrary.org/obo/MP_0014080	fused small intestinal villi	http://purl.obolibrary.org/obo/UBERON_0001213	intestinal villus	http://purl.obolibrary.org/obo/UBERON_0001213	intestinal villus
 http://purl.obolibrary.org/obo/MP_0011733	fused somites	http://purl.obolibrary.org/obo/UBERON_0002329	somite	http://purl.obolibrary.org/obo/UBERON_0002329	somite
@@ -31,8 +32,8 @@ http://purl.obolibrary.org/obo/MP_0010701	fusion of atlas and odontoid process	h
 http://purl.obolibrary.org/obo/MP_0013949	fusion of axis and occipital bones	http://purl.obolibrary.org/obo/UBERON_0001093	vertebral bone 2	http://purl.obolibrary.org/obo/UBERON_0001676	occipital bone
 http://purl.obolibrary.org/obo/MP_0004572	fusion of basioccipital and basisphenoid bone	http://purl.obolibrary.org/obo/UBERON_0001692	basioccipital bone	http://purl.obolibrary.org/obo/UBERON_0006428	basisphenoid bone
 http://purl.obolibrary.org/obo/MP_0004568	fusion of glossopharyngeal and vagus nerve	http://purl.obolibrary.org/obo/UBERON_0001649	glossopharyngeal nerve	http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve
-http://purl.obolibrary.org/obo/MP_0004613	fusion of vertebral arches	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra	http://purl.obolibrary.org/obo/UBERON_0003861	neural arch
-http://purl.obolibrary.org/obo/MP_0004612	fusion of vertebral bodies	http://purl.obolibrary.org/obo/UBERON_0003861	neural arch	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum
+http://purl.obolibrary.org/obo/MP_0004613	fusion of vertebral arches	http://purl.obolibrary.org/obo/UBERON_0003861	neural arch	http://purl.obolibrary.org/obo/UBERON_0003861	neural arch
+http://purl.obolibrary.org/obo/MP_0004612	fusion of vertebral bodies	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum
 http://purl.obolibrary.org/obo/MP_0030110	incudomalleolar fusion	http://purl.obolibrary.org/obo/UBERON_0001688	incus bone	http://purl.obolibrary.org/obo/UBERON_0001689	malleus bone
 http://purl.obolibrary.org/obo/MP_0004621	lumbar vertebral fusion	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra
 http://purl.obolibrary.org/obo/MP_0009487	rectourethral fusion	http://purl.obolibrary.org/obo/UBERON_0001052	rectum	http://purl.obolibrary.org/obo/UBERON_0000057	urethra

@@ -1,0 +1,12 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?subclass ?superclass
+WHERE {
+  ?superclass rdfs:subClassOf <http://purl.obolibrary.org/obo/UPHENO_0001001> .
+  ?subclass rdfs:subClassOf+ ?superclass .
+  
+  # Optionally, filter out the class being a subclass of itself
+  FILTER (?subclass != ?superclass)
+}
+ORDER BY ?subclass ?superclass

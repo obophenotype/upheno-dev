@@ -1,4 +1,5 @@
 defined_class	defined_class_label	entity	entity_label	shape	shape_label
+http://purl.obolibrary.org/obo/HP_0012087	Abnormal mitochondrial shape	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/HP_0000377	Abnormal pinna morphology	http://purl.obolibrary.org/obo/UBERON_0001691	external ear	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/HP_0012524	Abnormal platelet shape	http://purl.obolibrary.org/obo/CL_0000233	platelet	http://purl.obolibrary.org/obo/PATO_0000052	shape
 http://purl.obolibrary.org/obo/HP_0011218	Abnormal shape of the frontal region	http://purl.obolibrary.org/obo/UBERON_0001870	frontal cortex	http://purl.obolibrary.org/obo/PATO_0000052	shape
@@ -172,7 +173,6 @@ http://purl.obolibrary.org/obo/HP_0200021	Down-sloping shoulders	http://purl.obo
 http://purl.obolibrary.org/obo/HP_0000494	Downslanted palpebral fissures	http://purl.obolibrary.org/obo/UBERON_0001819	palpebral fissure	http://purl.obolibrary.org/obo/PATO_0002143	sloped downward
 http://purl.obolibrary.org/obo/HP_0000947	Dumbbell-shaped long bone	http://purl.obolibrary.org/obo/UBERON_0002495	long bone	http://purl.obolibrary.org/obo/PATO_0001876	dumbbell-shaped
 http://purl.obolibrary.org/obo/HP_0002810	Dumbbell-shaped metaphyses	http://purl.obolibrary.org/obo/UBERON_0001438	metaphysis	http://purl.obolibrary.org/obo/PATO_0001876	dumbbell-shaped
-http://purl.obolibrary.org/obo/HP_0002006	Facial cleft	http://purl.obolibrary.org/obo/UBERON_0001456	face	http://purl.obolibrary.org/obo/PATO_0001786	split
 http://purl.obolibrary.org/obo/HP_0002980	Femoral bowing	http://purl.obolibrary.org/obo/UBERON_0000981	femur	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
 http://purl.obolibrary.org/obo/HP_0010502	Fibular bowing	http://purl.obolibrary.org/obo/UBERON_0001446	fibula	http://purl.obolibrary.org/obo/PATO_0000406	curved
 http://purl.obolibrary.org/obo/HP_0002834	Flared femoral metaphysis	http://purl.obolibrary.org/obo/UBERON_0006865	metaphysis of femur	http://purl.obolibrary.org/obo/PATO_0001785	splayed
@@ -200,7 +200,7 @@ http://purl.obolibrary.org/obo/HP_0000085	Horseshoe kidney	http://purl.obolibrar
 http://purl.obolibrary.org/obo/HP_0011373	Incomplete partition of the cochlea	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea	http://purl.obolibrary.org/obo/PATO_0001796	decreased coiling
 http://purl.obolibrary.org/obo/HP_0008751	Laryngeal cleft	http://purl.obolibrary.org/obo/UBERON_0001737	larynx	http://purl.obolibrary.org/obo/PATO_0000403	cleft
 http://purl.obolibrary.org/obo/HP_0005787	Lumbar platyspondyly	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra	http://purl.obolibrary.org/obo/PATO_0000407	flat
-http://purl.obolibrary.org/obo/HP_0000161	Median cleft lip	http://purl.obolibrary.org/obo/UBERON_0001833	lip	http://purl.obolibrary.org/obo/PATO_0002169	split medially
+http://purl.obolibrary.org/obo/HP_0000161	Median cleft upper lip	http://purl.obolibrary.org/obo/UBERON_0001833	lip	http://purl.obolibrary.org/obo/PATO_0002169	split medially
 http://purl.obolibrary.org/obo/HP_0003989	Notched ulna	http://purl.obolibrary.org/obo/UBERON_0001424	ulna	http://purl.obolibrary.org/obo/PATO_0001495	notched
 http://purl.obolibrary.org/obo/HP_0000300	Oval face	http://purl.obolibrary.org/obo/UBERON_0001456	face	http://purl.obolibrary.org/obo/PATO_0001891	ovate
 http://purl.obolibrary.org/obo/HP_0003309	Ovoid thoracolumbar vertebrae	http://purl.obolibrary.org/obo/UBERON_0011677	trunk vertebra	http://purl.obolibrary.org/obo/PATO_0001891	ovate
@@ -258,12 +258,13 @@ http://purl.obolibrary.org/obo/HP_0003883	Tapered humerus	http://purl.obolibrary
 http://purl.obolibrary.org/obo/HP_0006108	Tapered metacarpals	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone	http://purl.obolibrary.org/obo/PATO_0001500	tapered
 http://purl.obolibrary.org/obo/HP_0006192	Tapered phalanx of finger	http://purl.obolibrary.org/obo/UBERON_0001436	phalanx of manus	http://purl.obolibrary.org/obo/PATO_0001500	tapered
 http://purl.obolibrary.org/obo/HP_0011309	Tapered toe	http://purl.obolibrary.org/obo/UBERON_0001466	pedal digit	http://purl.obolibrary.org/obo/PATO_0001500	tapered
+http://purl.obolibrary.org/obo/HP_0002006	Tessier cleft	http://purl.obolibrary.org/obo/UBERON_0001456	face	http://purl.obolibrary.org/obo/PATO_0001786	split
 http://purl.obolibrary.org/obo/HP_0004592	Thoracic platyspondyly	http://purl.obolibrary.org/obo/UBERON_0002347	thoracic vertebra	http://purl.obolibrary.org/obo/PATO_0000407	flat
 http://purl.obolibrary.org/obo/HP_0002982	Tibial bowing	http://purl.obolibrary.org/obo/UBERON_0000979	tibia	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
 http://purl.obolibrary.org/obo/HP_0005621	Trapezoidal vertebral body	http://purl.obolibrary.org/obo/UBERON_0001075	bony vertebral centrum	http://purl.obolibrary.org/obo/PATO_0002044	trapezoid
-http://purl.obolibrary.org/obo/HP_0010587	Triangular epiphyses	http://purl.obolibrary.org/obo/UBERON_0001437	epiphysis	http://purl.obolibrary.org/obo/PATO_0001875	triangular
 http://purl.obolibrary.org/obo/HP_0009171	Triangular epiphyses of the metacarpals	http://purl.obolibrary.org/obo/UBERON_0004390	epiphysis of metacarpal bone	http://purl.obolibrary.org/obo/PATO_0001875	triangular
 http://purl.obolibrary.org/obo/HP_0010238	Triangular epiphyses of the phalanges of the hand	http://purl.obolibrary.org/obo/UBERON_0004387	epiphysis of phalanx of manus	http://purl.obolibrary.org/obo/PATO_0001875	triangular
+http://purl.obolibrary.org/obo/HP_0010587	Triangular epiphysis	http://purl.obolibrary.org/obo/UBERON_0001437	epiphysis	http://purl.obolibrary.org/obo/PATO_0001875	triangular
 http://purl.obolibrary.org/obo/HP_0010025	Triangular epiphysis of the 1st metacarpal	http://purl.obolibrary.org/obo/UBERON_0004391	epiphysis of first metacarpal bone	http://purl.obolibrary.org/obo/PATO_0001875	triangular
 http://purl.obolibrary.org/obo/HP_0010159	Triangular epiphysis of the 1st metatarsal	http://purl.obolibrary.org/obo/UBERON_0004395	epiphysis of first metatarsal bone	http://purl.obolibrary.org/obo/PATO_0001875	triangular
 http://purl.obolibrary.org/obo/HP_0003884	Triangular humerus	http://purl.obolibrary.org/obo/UBERON_0000976	humerus	http://purl.obolibrary.org/obo/PATO_0001875	triangular

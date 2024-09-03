@@ -2,6 +2,7 @@
 pattern_name: abnormallyIncreasedRateOfBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml
 description: "Abnormally increased frequency of a biological process occuring (per some unit of time)."
+
 contributors:
 - https://orcid.org/0000-0001-9076-6015
 - https://orcid.org/0000-0001-5208-3432
@@ -12,12 +13,15 @@ classes:
   increased rate: PATO:0000912
   abnormal: PATO:0000460
   biological_process: GO:0008150
+
 relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
+
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+
 vars:
   biological_process: "'biological_process'"
 name:

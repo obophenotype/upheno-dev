@@ -13,8 +13,8 @@ http://purl.obolibrary.org/obo/ZP_0103522	angiogenic sprout amount, abnormal	htt
 http://purl.obolibrary.org/obo/ZP_0013205	axial blood vessel amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005295	axial blood vessel
 http://purl.obolibrary.org/obo/ZP_0015488	blastomere amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
 http://purl.obolibrary.org/obo/ZP_0100509	blood cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009044	blood cell
-http://purl.obolibrary.org/obo/ZP_0100041	cardiac muscle cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0100688	chondrocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte
+http://purl.obolibrary.org/obo/ZP_0146326	ciliated olfactory receptor neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009358	ciliated olfactory receptor neuron
 http://purl.obolibrary.org/obo/ZP_0014613	dopaminergic neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009301	dopaminergic neuron
 http://purl.obolibrary.org/obo/ZP_0013672	dorsal root ganglion amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0000200	dorsal root ganglion
 http://purl.obolibrary.org/obo/ZP_0013399	endodermal cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009139	endodermal cell
@@ -37,12 +37,10 @@ http://purl.obolibrary.org/obo/ZP_0101448	interneuron amount, abnormal	http://pu
 http://purl.obolibrary.org/obo/ZP_0103299	intersegmental artery amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001061	intersegmental artery
 http://purl.obolibrary.org/obo/ZP_0103298	intersegmental vein amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001057	intersegmental vein
 http://purl.obolibrary.org/obo/ZP_0100034	intersegmental vessel amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
-http://purl.obolibrary.org/obo/ZP_0101332	iridophore amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009199	iridophore
-http://purl.obolibrary.org/obo/ZP_0100073	macrophage amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009141	macrophage
 http://purl.obolibrary.org/obo/ZP_0100937	melanoblast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009249	melanoblast
-http://purl.obolibrary.org/obo/ZP_0100134	melanocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte
 http://purl.obolibrary.org/obo/ZP_0139727	melanoleucophore amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0005928	melanoleucophore
 http://purl.obolibrary.org/obo/ZP_0106412	microglial cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009077	microglial cell
+http://purl.obolibrary.org/obo/ZP_0146329	microvillous olfactory receptor neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009359	microvillous olfactory receptor neuron
 http://purl.obolibrary.org/obo/ZP_0100409	motor neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009052	motor neuron
 http://purl.obolibrary.org/obo/ZP_0141104	muscle cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell
 http://purl.obolibrary.org/obo/ZP_0100306	muscle pioneer amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001086	muscle pioneer
@@ -54,8 +52,7 @@ http://purl.obolibrary.org/obo/ZP_0100098	neuromast hair cell amount, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0141431	neuromast support cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009363	neuromast support cell
 http://purl.obolibrary.org/obo/ZP_0013346	neuron amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron
 http://purl.obolibrary.org/obo/ZP_0142223	neuronal stem cell amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009019	neuronal stem cell
-http://purl.obolibrary.org/obo/ZP_0100243	neutrophil amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009327	neutrophil
-http://purl.obolibrary.org/obo/ZP_0100436	nucleate erythrocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009256	nucleate erythrocyte
+http://purl.obolibrary.org/obo/ZP_0149540	oligodendrocyte amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009076	oligodendrocyte
 http://purl.obolibrary.org/obo/ZP_0140575	oocyte stage IV amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001568	oocyte stage IV
 http://purl.obolibrary.org/obo/ZP_0013571	osteoblast amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0009031	osteoblast
 http://purl.obolibrary.org/obo/ZP_0100158	otolith amount, abnormal	http://purl.obolibrary.org/obo/ZFA_0001617	otolith

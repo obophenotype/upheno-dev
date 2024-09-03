@@ -1,5 +1,6 @@
 defined_class	defined_class_label	molecular_function	molecular_function_label
 http://purl.obolibrary.org/obo/ZP_0145393	ATP-dependent histone chaperone activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0140674	ATP-dependent histone chaperone activity
+http://purl.obolibrary.org/obo/ZP_0149042	DNA-methyltransferase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0009008	DNA-methyltransferase activity
 http://purl.obolibrary.org/obo/ZP_0019874	MAP kinase kinase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0004708	MAP kinase kinase activity
 http://purl.obolibrary.org/obo/ZP_0140137	NADH dehydrogenase (ubiquinone) activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008137	NADH dehydrogenase (ubiquinone) activity
 http://purl.obolibrary.org/obo/ZP_0005625	alkaline phosphatase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0004035	alkaline phosphatase activity
@@ -8,6 +9,7 @@ http://purl.obolibrary.org/obo/ZP_0140200	dopamine neurotransmitter receptor act
 http://purl.obolibrary.org/obo/ZP_0001581	gap junction hemi-channel activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0055077	gap junction hemi-channel activity
 http://purl.obolibrary.org/obo/ZP_0141025	glutathione transferase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0004364	glutathione transferase activity
 http://purl.obolibrary.org/obo/ZP_0100067	heparan sulfate 6-O-sulfotransferase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0017095	heparan sulfate 6-O-sulfotransferase activity
+http://purl.obolibrary.org/obo/ZP_0149047	histone H3 methyltransferase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0140938	histone H3 methyltransferase activity
 http://purl.obolibrary.org/obo/ZP_0021430	light-activated voltage-gated calcium channel activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008086	light-activated voltage-gated calcium channel activity
 http://purl.obolibrary.org/obo/ZP_0137827	photoreceptor activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0009881	photoreceptor activity
 http://purl.obolibrary.org/obo/ZP_0013080	sodium channel activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0005272	sodium channel activity

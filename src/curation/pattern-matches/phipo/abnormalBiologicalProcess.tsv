@@ -23,6 +23,7 @@ http://purl.obolibrary.org/obo/PHIPO_0000244	abnormal protein localization to nu
 http://purl.obolibrary.org/obo/PHIPO_0001118	abnormal protein modification	http://purl.obolibrary.org/obo/GO_0036211	protein modification process
 http://purl.obolibrary.org/obo/PHIPO_0001119	abnormal protein phosphorylation	http://purl.obolibrary.org/obo/GO_0006468	protein phosphorylation
 http://purl.obolibrary.org/obo/PHIPO_0000265	abnormal protein transport	http://purl.obolibrary.org/obo/GO_0015031	protein transport
+http://purl.obolibrary.org/obo/PHIPO_0000043	abnormal reproduction phenotype	http://purl.obolibrary.org/obo/GO_0000003	obsolete reproduction
 http://purl.obolibrary.org/obo/PHIPO_0000043	abnormal reproduction phenotype	http://purl.obolibrary.org/obo/GO_0000003	reproduction
 http://purl.obolibrary.org/obo/PHIPO_0000048	abnormal sexual reproduction	http://purl.obolibrary.org/obo/GO_0019953	sexual reproduction
 http://purl.obolibrary.org/obo/PHIPO_0000077	abnormal sexual sporulation	http://purl.obolibrary.org/obo/GO_0034293	sexual sporulation

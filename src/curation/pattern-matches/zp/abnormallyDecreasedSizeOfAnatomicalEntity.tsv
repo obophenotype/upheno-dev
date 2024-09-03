@@ -29,7 +29,6 @@ http://purl.obolibrary.org/obo/ZP_0008816	basal plate midbrain region decreased 
 http://purl.obolibrary.org/obo/ZP_0005261	basibranchial decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000170	basibranchial
 http://purl.obolibrary.org/obo/ZP_0005833	basihyal bone decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000316	basihyal bone
 http://purl.obolibrary.org/obo/ZP_0001985	basihyal cartilage decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001510	basihyal cartilage
-http://purl.obolibrary.org/obo/ZP_0007392	blastema decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001270	blastema
 http://purl.obolibrary.org/obo/ZP_0015490	blastoderm decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001176	blastoderm
 http://purl.obolibrary.org/obo/ZP_0007789	blastodisc decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001175	blastodisc
 http://purl.obolibrary.org/obo/ZP_0140881	blastomere decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000093	blastomere
@@ -41,6 +40,7 @@ http://purl.obolibrary.org/obo/ZP_0000892	branchiostegal ray decreased size, abn
 http://purl.obolibrary.org/obo/ZP_0006958	bulbus arteriosus decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000173	bulbus arteriosus
 http://purl.obolibrary.org/obo/ZP_0001543	cardiac muscle cell decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell
 http://purl.obolibrary.org/obo/ZP_0000528	cardiac ventricle decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
+http://purl.obolibrary.org/obo/ZP_0149701	cartilage element decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001501	cartilage element
 http://purl.obolibrary.org/obo/ZP_0130972	cartilage tissue decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005622	cartilage tissue
 http://purl.obolibrary.org/obo/ZP_0002664	caudal fin decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0014000	caudal vein decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
@@ -89,11 +89,13 @@ http://purl.obolibrary.org/obo/ZP_0010733	dorsal fin decreased size, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0017131	dorsal fin fold decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000102	dorsal fin fold
 http://purl.obolibrary.org/obo/ZP_0140554	dorsal habenular nucleus decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000197	dorsal habenular nucleus
 http://purl.obolibrary.org/obo/ZP_0016288	dorsal hyoid arch decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001401	dorsal hyoid arch
+http://purl.obolibrary.org/obo/ZP_0146268	dorsal longitudinal anastomotic vessel decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005025	dorsal longitudinal anastomotic vessel
 http://purl.obolibrary.org/obo/ZP_0005324	endocardial ring decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005072	endocardial ring
 http://purl.obolibrary.org/obo/ZP_0001412	endocardium decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001320	endocardium
 http://purl.obolibrary.org/obo/ZP_0005741	endocrine pancreas decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001260	endocrine pancreas
 http://purl.obolibrary.org/obo/ZP_0001791	endoderm decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000017	endoderm
 http://purl.obolibrary.org/obo/ZP_0137321	endolymphatic sac decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005912	endolymphatic sac
+http://purl.obolibrary.org/obo/ZP_0147332	endothelial cell decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell
 http://purl.obolibrary.org/obo/ZP_0015823	entopterygoid decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000657	entopterygoid
 http://purl.obolibrary.org/obo/ZP_0005887	epibranchial placode decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001294	epibranchial placode
 http://purl.obolibrary.org/obo/ZP_0103192	epidermal cell decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009183	epidermal cell
@@ -120,6 +122,7 @@ http://purl.obolibrary.org/obo/ZP_0000425	fourth ventricle decreased size, abnor
 http://purl.obolibrary.org/obo/ZP_0001086	gall bladder decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000208	gall bladder
 http://purl.obolibrary.org/obo/ZP_0019442	germ line cell decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009016	germ line cell
 http://purl.obolibrary.org/obo/ZP_0001955	gill decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000354	gill
+http://purl.obolibrary.org/obo/ZP_0149676	gill lamella decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000211	gill lamella
 http://purl.obolibrary.org/obo/ZP_0007400	gill raker decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000356	gill raker
 http://purl.obolibrary.org/obo/ZP_0010284	glomerular layer decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000357	glomerular layer
 http://purl.obolibrary.org/obo/ZP_0018336	glossopharyngeal ganglion decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001301	glossopharyngeal ganglion
@@ -150,10 +153,12 @@ http://purl.obolibrary.org/obo/ZP_0143955	hyaloid vessel decreased size, abnorma
 http://purl.obolibrary.org/obo/ZP_0002246	hyomandibula decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000672	hyomandibula
 http://purl.obolibrary.org/obo/ZP_0000065	hyosymplectic cartilage decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001422	hyosymplectic cartilage
 http://purl.obolibrary.org/obo/ZP_0006429	hypobranchial cartilage decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001522	hypobranchial cartilage
+http://purl.obolibrary.org/obo/ZP_0147017	hypohyal bone decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001381	hypohyal bone
 http://purl.obolibrary.org/obo/ZP_0009551	hypophyseal fenestra decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005625	hypophyseal fenestra
 http://purl.obolibrary.org/obo/ZP_0103395	hypophysis decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000118	hypophysis
 http://purl.obolibrary.org/obo/ZP_0000615	hypothalamus decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000032	hypothalamus
 http://purl.obolibrary.org/obo/ZP_0006534	immature eye decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001678	immature eye
+http://purl.obolibrary.org/obo/ZP_0148246	immature gonad decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005272	immature gonad
 http://purl.obolibrary.org/obo/ZP_0000993	inner ear decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000217	inner ear
 http://purl.obolibrary.org/obo/ZP_0007614	intermediate cell mass of mesoderm decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000033	intermediate cell mass of mesoderm
 http://purl.obolibrary.org/obo/ZP_0014805	interrenal gland decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001345	interrenal gland
@@ -163,6 +168,7 @@ http://purl.obolibrary.org/obo/ZP_0000511	intersegmental vessel decreased size, 
 http://purl.obolibrary.org/obo/ZP_0002784	intestinal bulb decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001076	intestinal bulb
 http://purl.obolibrary.org/obo/ZP_0002787	intestinal epithelium decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
 http://purl.obolibrary.org/obo/ZP_0001794	intestine decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
+http://purl.obolibrary.org/obo/ZP_0147495	intestine lumen decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005807	intestine lumen
 http://purl.obolibrary.org/obo/ZP_0015553	iridophore decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0009199	iridophore
 http://purl.obolibrary.org/obo/ZP_0016253	iris decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001238	iris
 http://purl.obolibrary.org/obo/ZP_0013906	islet decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005755	islet
@@ -176,7 +182,6 @@ http://purl.obolibrary.org/obo/ZP_0015081	lateral line primordium decreased size
 http://purl.obolibrary.org/obo/ZP_0009630	lateral longitudinal fasciculus decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000534	lateral longitudinal fasciculus
 http://purl.obolibrary.org/obo/ZP_0020285	lateral plate mesoderm decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000121	lateral plate mesoderm
 http://purl.obolibrary.org/obo/ZP_0001856	lateral semicircular canal decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000220	lateral semicircular canal
-http://purl.obolibrary.org/obo/ZP_0000650	lens decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000035	lens
 http://purl.obolibrary.org/obo/ZP_0010226	lip decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0007006	lip
 http://purl.obolibrary.org/obo/ZP_0000720	liver decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver
 http://purl.obolibrary.org/obo/ZP_0002888	liver primordium decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000124	liver primordium
@@ -242,6 +247,7 @@ http://purl.obolibrary.org/obo/ZP_0000764	otic placode decreased size, abnormal	
 http://purl.obolibrary.org/obo/ZP_0001010	otic vesicle decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000051	otic vesicle
 http://purl.obolibrary.org/obo/ZP_0001258	otolith decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001617	otolith
 http://purl.obolibrary.org/obo/ZP_0001906	otolith organ decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000559	otolith organ
+http://purl.obolibrary.org/obo/ZP_0148012	ovarian follicle decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001110	ovarian follicle
 http://purl.obolibrary.org/obo/ZP_0019441	ovarian follicle stage I decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001263	ovarian follicle stage I
 http://purl.obolibrary.org/obo/ZP_0012636	ovary decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000403	ovary
 http://purl.obolibrary.org/obo/ZP_0100117	paired fin decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005596	paired fin
@@ -306,12 +312,13 @@ http://purl.obolibrary.org/obo/ZP_0012738	posterior macula decreased size, abnor
 http://purl.obolibrary.org/obo/ZP_0005745	posterior pancreatic bud decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001370	posterior pancreatic bud
 http://purl.obolibrary.org/obo/ZP_0001945	postoptic commissure decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000059	postoptic commissure
 http://purl.obolibrary.org/obo/ZP_0010191	prechordal plate decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000060	prechordal plate
+http://purl.obolibrary.org/obo/ZP_0147782	premaxilla decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000567	premaxilla
 http://purl.obolibrary.org/obo/ZP_0022383	preoptic area decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000470	preoptic area
+http://purl.obolibrary.org/obo/ZP_0149220	presumptive atrium heart tube decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001718	presumptive atrium heart tube
 http://purl.obolibrary.org/obo/ZP_0006063	presumptive cardiac ventricle heart tube decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001719	presumptive cardiac ventricle heart tube
 http://purl.obolibrary.org/obo/ZP_0008305	presumptive neural retina decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001071	presumptive neural retina
 http://purl.obolibrary.org/obo/ZP_0104560	presumptive rhombomere 4 decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001212	presumptive rhombomere 4
 http://purl.obolibrary.org/obo/ZP_0104567	presumptive rhombomere 5 decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001211	presumptive rhombomere 5
-http://purl.obolibrary.org/obo/ZP_0001108	primary islet decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005754	primary islet
 http://purl.obolibrary.org/obo/ZP_0138621	primitive pectoral fin abductor decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005651	primitive pectoral fin abductor
 http://purl.obolibrary.org/obo/ZP_0138306	primitive pectoral fin adductor decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005650	primitive pectoral fin adductor
 http://purl.obolibrary.org/obo/ZP_0012642	pronephric distal late tubule decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001624	pronephric distal late tubule
@@ -347,7 +354,6 @@ http://purl.obolibrary.org/obo/ZP_0103227	rhombomere decreased size, abnormal	ht
 http://purl.obolibrary.org/obo/ZP_0002144	saccule decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000428	saccule
 http://purl.obolibrary.org/obo/ZP_0005445	sagitta decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000676	sagitta
 http://purl.obolibrary.org/obo/ZP_0015033	scale decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale
-http://purl.obolibrary.org/obo/ZP_0001061	scapulocoracoid decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001455	scapulocoracoid
 http://purl.obolibrary.org/obo/ZP_0015299	segmental plate decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000279	segmental plate
 http://purl.obolibrary.org/obo/ZP_0000995	semicircular canal decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000431	semicircular canal
 http://purl.obolibrary.org/obo/ZP_0140991	seminiferous tubule decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005879	seminiferous tubule
@@ -361,7 +367,6 @@ http://purl.obolibrary.org/obo/ZP_0010336	somite 2 decreased size, abnormal	http
 http://purl.obolibrary.org/obo/ZP_0010337	somite 3 decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000732	somite 3
 http://purl.obolibrary.org/obo/ZP_0010342	somite 4 decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000857	somite 4
 http://purl.obolibrary.org/obo/ZP_0010318	somite 5 decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000073	somite 5
-http://purl.obolibrary.org/obo/ZP_0001406	somite decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite
 http://purl.obolibrary.org/obo/ZP_0106164	spermatogenic cyst decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005882	spermatogenic cyst
 http://purl.obolibrary.org/obo/ZP_0006938	spinal cord decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
 http://purl.obolibrary.org/obo/ZP_0101929	spinal cord neural keel decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0007028	spinal cord neural keel
@@ -372,6 +377,7 @@ http://purl.obolibrary.org/obo/ZP_0003988	sternohyoid decreased size, abnormal	h
 http://purl.obolibrary.org/obo/ZP_0000810	stomodeum decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001290	stomodeum
 http://purl.obolibrary.org/obo/ZP_0014002	subintestinal vein decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005035	subintestinal vein
 http://purl.obolibrary.org/obo/ZP_0141872	subintestinal venous plexus decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005934	subintestinal venous plexus
+http://purl.obolibrary.org/obo/ZP_0148223	subopercle decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000284	subopercle
 http://purl.obolibrary.org/obo/ZP_0102300	superior cervical ganglion decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001572	superior cervical ganglion
 http://purl.obolibrary.org/obo/ZP_0015794	supraorbital bone decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000691	supraorbital bone
 http://purl.obolibrary.org/obo/ZP_0005125	swim bladder decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000076	swim bladder
@@ -391,6 +397,7 @@ http://purl.obolibrary.org/obo/ZP_0005058	thoracic duct decreased size, abnormal
 http://purl.obolibrary.org/obo/ZP_0000726	thymus decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001078	thymus
 http://purl.obolibrary.org/obo/ZP_0009503	thyroid follicle decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001072	thyroid follicle
 http://purl.obolibrary.org/obo/ZP_0000498	thyroid primordium decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001081	thyroid primordium
+http://purl.obolibrary.org/obo/ZP_0149503	tooth 4V decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001143	tooth 4V
 http://purl.obolibrary.org/obo/ZP_0002111	trabecula cranii decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0001507	trabecula cranii
 http://purl.obolibrary.org/obo/ZP_0101658	trabecular layer of ventricle decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0005060	trabecular layer of ventricle
 http://purl.obolibrary.org/obo/ZP_0004742	trigeminal ganglion decreased size, abnormal	http://purl.obolibrary.org/obo/ZFA_0000295	trigeminal ganglion

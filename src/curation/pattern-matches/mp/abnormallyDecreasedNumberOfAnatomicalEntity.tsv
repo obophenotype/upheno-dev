@@ -30,13 +30,15 @@ http://purl.obolibrary.org/obo/MP_0008087	decreased T helper 1 cell number	http:
 http://purl.obolibrary.org/obo/MP_0008091	decreased T-helper 2 cell number	http://purl.obolibrary.org/obo/CL_0000546	T-helper 2 cell
 http://purl.obolibrary.org/obo/MP_0013764	decreased T-helper cell number	http://purl.obolibrary.org/obo/CL_0000912	helper T cell
 http://purl.obolibrary.org/obo/MP_0012765	decreased alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000789	alpha-beta T cell
+http://purl.obolibrary.org/obo/MP_0010890	decreased alveolar lamellar body number	http://purl.obolibrary.org/obo/GO_0097208	alveolar lamellar body
 http://purl.obolibrary.org/obo/MP_0014229	decreased alveolar macrophage number	http://purl.obolibrary.org/obo/CL_0000583	alveolar macrophage
 http://purl.obolibrary.org/obo/MP_0008106	decreased amacrine cell number	http://purl.obolibrary.org/obo/CL_0000561	amacrine cell
 http://purl.obolibrary.org/obo/MP_0002607	decreased basophil cell number	http://purl.obolibrary.org/obo/CL_0000767	basophil
 http://purl.obolibrary.org/obo/MP_0000333	decreased bone marrow cell number	http://purl.obolibrary.org/obo/CL_0002092	bone marrow cell
 http://purl.obolibrary.org/obo/MP_0010830	decreased bronchioalveolar stem cell number	http://purl.obolibrary.org/obo/CL_0002638	bronchioalveolar stem cell
 http://purl.obolibrary.org/obo/MP_0001780	decreased brown adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
-http://purl.obolibrary.org/obo/MP_0009128	decreased brown fat cell number	http://purl.obolibrary.org/obo/CL_0000449	brown fat cell
+http://purl.obolibrary.org/obo/MP_0009128	decreased brown fat cell number	http://purl.obolibrary.org/obo/CL_0000449	brown adipocyte
+http://purl.obolibrary.org/obo/MP_0031593	decreased cardiac jelly amount	http://purl.obolibrary.org/obo/UBERON_0003906	cardiac jelly
 http://purl.obolibrary.org/obo/MP_0001539	decreased caudal vertebrae number	http://purl.obolibrary.org/obo/UBERON_0001095	caudal vertebra
 http://purl.obolibrary.org/obo/MP_0030552	decreased cementoblast number	http://purl.obolibrary.org/obo/CL_0000061	cementoblast
 http://purl.obolibrary.org/obo/MP_0010842	decreased central memory CD4-positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000904	central memory CD4-positive, alpha-beta T cell
@@ -55,9 +57,11 @@ http://purl.obolibrary.org/obo/MP_0002680	decreased corpora lutea number	http://
 http://purl.obolibrary.org/obo/MP_0020576	decreased corpus callosum cell number	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
 http://purl.obolibrary.org/obo/MP_0008341	decreased corticotroph cell number	http://purl.obolibrary.org/obo/CL_0000467	adrenocorticotropic hormone secreting cell
 http://purl.obolibrary.org/obo/MP_0008127	decreased dendritic cell number	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell
+http://purl.obolibrary.org/obo/MP_0021018	decreased dendritic spine number	http://purl.obolibrary.org/obo/GO_0043197	dendritic spine
 http://purl.obolibrary.org/obo/MP_0011448	decreased dopaminergic neuron number	http://purl.obolibrary.org/obo/CL_0000700	dopaminergic neuron
 http://purl.obolibrary.org/obo/MP_0005089	decreased double-negative T cell number	http://purl.obolibrary.org/obo/CL_0002489	double negative thymocyte
 http://purl.obolibrary.org/obo/MP_0005092	decreased double-positive T cell number	http://purl.obolibrary.org/obo/CL_0000809	double-positive, alpha-beta thymocyte
+http://purl.obolibrary.org/obo/MP_0014403	decreased early pro-B cell number	http://purl.obolibrary.org/obo/CL_0002046	early pro-B cell
 http://purl.obolibrary.org/obo/MP_0013458	decreased eccrine gland number	http://purl.obolibrary.org/obo/UBERON_0000423	eccrine sweat gland
 http://purl.obolibrary.org/obo/MP_0010845	decreased effector memory CD4-positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000905	effector memory CD4-positive, alpha-beta T cell
 http://purl.obolibrary.org/obo/MP_0010851	decreased effector memory CD8-positive, alpha-beta T cell number	http://purl.obolibrary.org/obo/CL_0000913	effector memory CD8-positive, alpha-beta T cell
@@ -70,6 +74,7 @@ http://purl.obolibrary.org/obo/MP_0011179	decreased erythroblast number	http://p
 http://purl.obolibrary.org/obo/MP_0002875	decreased erythrocyte cell number	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0008973	decreased erythroid progenitor cell number	http://purl.obolibrary.org/obo/CL_0000038	erythroid progenitor cell
 http://purl.obolibrary.org/obo/MP_0013897	decreased eyelid cilium number	http://purl.obolibrary.org/obo/UBERON_0001702	eyelash
+http://purl.obolibrary.org/obo/MP_0031611	decreased fetal cardiomyocyte number	http://purl.obolibrary.org/obo/CL_0002495	fetal cardiomyocyte
 http://purl.obolibrary.org/obo/MP_0011243	decreased fetal derived definitive erythrocyte cell number	http://purl.obolibrary.org/obo/CL_0002357	fetal derived definitive erythrocyte
 http://purl.obolibrary.org/obo/MP_0008174	decreased follicular B cell number	http://purl.obolibrary.org/obo/CL_0000843	follicular B cell
 http://purl.obolibrary.org/obo/MP_0008200	decreased follicular dendritic cell number	http://purl.obolibrary.org/obo/CL_0000442	follicular dendritic cell
@@ -91,6 +96,7 @@ http://purl.obolibrary.org/obo/MP_0008215	decreased immature B cell number	http:
 http://purl.obolibrary.org/obo/MP_0013666	decreased immature NK cell number	http://purl.obolibrary.org/obo/CL_0000823	immature natural killer cell
 http://purl.obolibrary.org/obo/MP_0030609	decreased incisor number	http://purl.obolibrary.org/obo/UBERON_0001098	incisor tooth
 http://purl.obolibrary.org/obo/MP_0020831	decreased jugular lymph sac number	http://purl.obolibrary.org/obo/UBERON_0011765	jugular lymph sac
+http://purl.obolibrary.org/obo/MP_0014404	decreased late pro-B cell number	http://purl.obolibrary.org/obo/CL_0002048	late pro-B cell
 http://purl.obolibrary.org/obo/MP_0000221	decreased leukocyte cell number	http://purl.obolibrary.org/obo/CL_0000738	leukocyte
 http://purl.obolibrary.org/obo/MP_0004647	decreased lumbar vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra
 http://purl.obolibrary.org/obo/MP_0002219	decreased lymph node number	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
@@ -113,6 +119,7 @@ http://purl.obolibrary.org/obo/MP_0008050	decreased memory T cell number	http://
 http://purl.obolibrary.org/obo/MP_0011428	decreased mesangial cell number	http://purl.obolibrary.org/obo/CL_0000650	mesangial cell
 http://purl.obolibrary.org/obo/MP_0004636	decreased metacarpal bone number	http://purl.obolibrary.org/obo/UBERON_0002374	metacarpal bone
 http://purl.obolibrary.org/obo/MP_0004640	decreased metatarsal bone number	http://purl.obolibrary.org/obo/UBERON_0001448	metatarsal bone
+http://purl.obolibrary.org/obo/MP_0011629	decreased mitochondrial number	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/MP_0006400	decreased molar number	http://purl.obolibrary.org/obo/UBERON_0003655	molar tooth
 http://purl.obolibrary.org/obo/MP_0000223	decreased monocyte cell number	http://purl.obolibrary.org/obo/CL_0000576	monocyte
 http://purl.obolibrary.org/obo/MP_0000939	decreased motor neuron number	http://purl.obolibrary.org/obo/CL_0000100	motor neuron
@@ -130,6 +137,7 @@ http://purl.obolibrary.org/obo/MP_0006421	decreased number of peritubular myoid 
 http://purl.obolibrary.org/obo/MP_0010920	decreased number of pulmonary neuroendocrine bodies	http://purl.obolibrary.org/obo/UBERON_0010002	pulmonary neuroendocrine body
 http://purl.obolibrary.org/obo/MP_0020348	decreased olfactory sensory neuron number	http://purl.obolibrary.org/obo/CL_0000207	olfactory receptor cell
 http://purl.obolibrary.org/obo/MP_0009808	decreased oligodendrocyte number	http://purl.obolibrary.org/obo/CL_0000128	oligodendrocyte
+http://purl.obolibrary.org/obo/MP_0000954	decreased oligodendrocyte progenitor number	http://purl.obolibrary.org/obo/CL_0002453	oligodendrocyte precursor cell
 http://purl.obolibrary.org/obo/MP_0005431	decreased oocyte number	http://purl.obolibrary.org/obo/CL_0000023	oocyte
 http://purl.obolibrary.org/obo/MP_0004989	decreased osteoblast cell number	http://purl.obolibrary.org/obo/CL_0000062	osteoblast
 http://purl.obolibrary.org/obo/MP_0004985	decreased osteoclast cell number	http://purl.obolibrary.org/obo/CL_0000092	osteoclast
@@ -141,8 +149,11 @@ http://purl.obolibrary.org/obo/MP_0009177	decreased pancreatic alpha cell number
 http://purl.obolibrary.org/obo/MP_0003339	decreased pancreatic beta cell number	http://purl.obolibrary.org/obo/CL_0000169	type B pancreatic cell
 http://purl.obolibrary.org/obo/MP_0009181	decreased pancreatic delta cell number	http://purl.obolibrary.org/obo/CL_0000173	pancreatic D cell
 http://purl.obolibrary.org/obo/MP_0009168	decreased pancreatic islet number	http://purl.obolibrary.org/obo/UBERON_0000006	islet of Langerhans
+http://purl.obolibrary.org/obo/MP_0020816	decreased photoreceptor outer segment number	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
 http://purl.obolibrary.org/obo/MP_0008098	decreased plasma cell number	http://purl.obolibrary.org/obo/CL_0000786	plasma cell
 http://purl.obolibrary.org/obo/MP_0008124	decreased plasmacytoid dendritic cell number	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell
+http://purl.obolibrary.org/obo/MP_0020431	decreased platelet alpha-granule number	http://purl.obolibrary.org/obo/GO_0031091	platelet alpha granule
+http://purl.obolibrary.org/obo/MP_0020432	decreased platelet dense granule number	http://purl.obolibrary.org/obo/GO_0042827	platelet dense granule
 http://purl.obolibrary.org/obo/MP_0011753	decreased podocyte number	http://purl.obolibrary.org/obo/CL_0000653	podocyte
 http://purl.obolibrary.org/obo/MP_0008209	decreased pre-B cell number	http://purl.obolibrary.org/obo/CL_0000817	precursor B cell
 http://purl.obolibrary.org/obo/MP_0000461	decreased presacral vertebrae number	http://purl.obolibrary.org/obo/UBERON_0004451	trunk or cervical vertebra
@@ -177,6 +188,7 @@ http://purl.obolibrary.org/obo/MP_0008477	decreased spleen red pulp amount	http:
 http://purl.obolibrary.org/obo/MP_0008479	decreased spleen white pulp amount	http://purl.obolibrary.org/obo/UBERON_0001959	white pulp of spleen
 http://purl.obolibrary.org/obo/MP_0030989	decreased spongiotrophoblast cell number	http://purl.obolibrary.org/obo/CL_0002499	spongiotrophoblast cell
 http://purl.obolibrary.org/obo/MP_0012283	decreased sternebra number	http://purl.obolibrary.org/obo/UBERON_0002208	sternebra
+http://purl.obolibrary.org/obo/MP_0008844	decreased subcutaneous adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0002190	subcutaneous adipose tissue
 http://purl.obolibrary.org/obo/MP_0011129	decreased tertiary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0009370	decreased theca cell number	http://purl.obolibrary.org/obo/CL_0000503	theca cell
 http://purl.obolibrary.org/obo/MP_0004648	decreased thoracic vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002347	thoracic vertebra
@@ -198,7 +210,7 @@ http://purl.obolibrary.org/obo/MP_0006057	decreased vascular endothelial cell nu
 http://purl.obolibrary.org/obo/MP_0004645	decreased vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra
 http://purl.obolibrary.org/obo/MP_0004328	decreased vestibular hair cell number	http://purl.obolibrary.org/obo/CL_0000609	vestibular hair cell
 http://purl.obolibrary.org/obo/MP_0001783	decreased white adipose tissue amount	http://purl.obolibrary.org/obo/UBERON_0001347	white adipose tissue
-http://purl.obolibrary.org/obo/MP_0009131	decreased white fat cell number	http://purl.obolibrary.org/obo/CL_0000448	white fat cell
+http://purl.obolibrary.org/obo/MP_0009131	decreased white fat cell number	http://purl.obolibrary.org/obo/CL_0000448	white adipocyte
 http://purl.obolibrary.org/obo/MP_0008538	decreased zigzag hair amount	http://purl.obolibrary.org/obo/UBERON_0010513	strand of zigzag hair
 http://purl.obolibrary.org/obo/MP_0013409	increased dendritic epidermal T cell number	http://purl.obolibrary.org/obo/CL_0000916	dendritic epidermal T cell
 http://purl.obolibrary.org/obo/MP_0002687	oligozoospermia	http://purl.obolibrary.org/obo/CL_0000019	sperm

@@ -1,146 +1,93 @@
 
-TMPDIR=../curation/tmp
-ONTOLOGIES=hp mp wbphenotype xpo
-ONTOLOGY_FILES = $(patsubst %, $(TMPDIR)/%.owl, $(ONTOLOGIES))
-OWLTOOLS=OWLTOOLS_MEMORY=150G owltools --no-logging 
+SSPOS = mp hp zp dpo wbphenotype xpo planp ddpheno fypo apo mgpo phipo
 
-merged_ontology.owl: $(ONTOLOGY_FILES)
-	$(ROBOT) merge $(patsubst %, -i %, $^) -o $@
+###############################
+#### Mappings and reports #####
+###############################
 
-inferred_ontology.owl: merged_ontology.owl
-	$(ROBOT) reason -i $< --reasoner ELK --axiom-generators "EquivalentClass" -o $@
-
-equivalent_class_table.csv: inferred_ontology.owl
-	$(ROBOT) query -f csv -i $< --query ../sparql/equivalent-classes-violation.sparql $@
-	
-
-# To get MP/HP mappings:
-# ^http://purl.obolibrary.org/obo/[MH]P_[0-9]+[,]http://purl.obolibrary.org/obo/[MH]P_[0-9]+$
-
-# OWLSIM DATA
-MONARCH_OWLSIM_DATA=https://archive.monarchinitiative.org/latest/owlsim/data/
-URL_MP_G2P=$(MONARCH_OWLSIM_DATA)/Mus_musculus/Mm_gene_phenotype.txt
-URL_MP_GL=$(MONARCH_OWLSIM_DATA)/Mus_musculus/Mm_gene_labels.txt
-URL_HP_D2P=$(MONARCH_OWLSIM_DATA)/Homo_sapiens/Hs_disease_phenotype.txt
-URL_HP_DL=$(MONARCH_OWLSIM_DATA)/Homo_sapiens/Hs_disease_labels.txt
-URL_ZP_G2P=$(MONARCH_OWLSIM_DATA)/Danio_rerio/Dr_gene_phenotype.txt
-URL_ZP_GL=$(MONARCH_OWLSIM_DATA)/Danio_rerio/Dr_gene_labels.txt
-MP_G2P=$(TMPDIR)/Mm_gene_phenotype.txt
-MP_GL=$(TMPDIR)/Mm_gene_labels.txt
-HP_D2P=$(TMPDIR)/Hs_disease_phenotype.txt
-HP_DL=$(TMPDIR)/Hs_disease_labels.txt
-ZP_G2P=$(TMPDIR)/Dr_gene_phenotype.txt
-ZP_GL=$(TMPDIR)/Dr_gene_labels.txt
-
-download_sources:
-	if ! [ -f $(MP_G2P) ]; then wget $(URL_MP_G2P) -O $(MP_G2P); fi
-	if ! [ -f $(MP_GL) ]; then wget $(URL_MP_GL) -O $(MP_GL); fi
-	if ! [ -f $(HP_D2P) ]; then wget $(URL_HP_D2P) -O $(HP_D2P); fi
-	if ! [ -f $(HP_DL) ]; then wget $(URL_HP_DL) -O $(HP_DL); fi
-	if ! [ -f $(ZP_G2P) ]; then wget $(URL_ZP_G2P) -O $(ZP_G2P); fi
-	if ! [ -f $(ZP_GL) ]; then wget $(URL_ZP_GL) -O $(ZP_GL); fi
-
-
-
-#../curation/upheno-release/%/upheno_phenodigm_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
-#	$(OWLTOOLS) $< --sim-save-phenodigm-class-scores -m 2.5 -x HP,MP -a $@
-
-#../curation/upheno-release/%/upheno_jaccard_similarity.tsv: ../curation/upheno-release/all/upheno_for_semantic_similarity.owl
-#	$(OWLTOOLS) $< --make-default-abox --fsim-compare-atts -p ../curation/upheno-sim.properties -o $@
-
-#../curation/upheno-release/%/upheno_all_with_relations.ttl: ../curation/upheno-release/%/upheno_all_with_relations.owl
-#	$(ROBOT) convert -i $< -o $@
-
-#ttl: ../curation/upheno-release/all/upheno_all_with_relations.ttl
-upheno_mapping_lexical_all: ../curation/upheno-release/all/upheno_species_lexical.csv ../curation/upheno-release/all/upheno_mapping_logical.csv
-	python3 ../scripts/lexical_mapping.py all
-	#echo "SKIP upheno_mapping_lexical_"
-
-#.SECONDEXPANSION:
-../curation/upheno-release/all/upheno_mapping_logical.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
-	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
-	#echo "SKIP upheno_mapping_logical"
-
-../curation/upheno-release/all/upheno_species_lexical.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
+$(TMPDIR)/upheno-species-lexical.csv: upheno.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype-classes-labels.sparql $@
-	#echo "SKIP upheno_species_lexical"
 
-../curation/upheno-release/all/upheno_associated_entities.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
-	#$(ROBOT) materialize --reasoner ELK -i $< --term "<http://purl.obolibrary.org/obo/UPHENO_0000001>" -o tmp/mat_upheno.owl
-	$(ROBOT) query -i tmp/mat_upheno.owl -f csv --query ../sparql/phenotype_entity_associations.sparql $@
+$(TMPDIR)/upheno-mapping-logical.csv: upheno.owl
+	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
+	#echo "SKIP $@"
 
-../curation/upheno-release/all/upheno_parentage.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
-	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype_upheno_parents.sparql $@
+$(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
+	# TODO replace with relationgraph
+	#$(ROBOT) materialize --reasoner ELK -i $< --term "<http://purl.obolibrary.org/obo/UPHENO_0000001>" -o $(TMPDIR)/mat_upheno.owl
+	#$(ROBOT) query -i tmp/mat_upheno.owl -f csv --query ../sparql/phenotype_entity_associations.sparql $@
+	touch $@
 
-../curation/upheno-release/all/upheno_lexical_data.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
-	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype_upheno_lexical.sparql $@
+$(MAPPINGDIR)/upheno-oba.sssom.tsv: upheno.owl
+	robot query -i $< --query ../sparql/pheno_trait.sparql $@
+	sed -i 's/[?]//g' $@
+	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
+	sed -i 's/>//g' $@
 
-../curation/upheno-release/all/upheno_xrefs.csv: ../curation/upheno-release/all/upheno_all_with_relations.owl
-	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype_xrefs.sparql $@
+$(MAPPINGDIR)/uberon.sssom.tsv: mirror/uberon.owl
+	if [ $(COMP) = true ] ; then $(ROBOT) sssom:xref-extract -i $< --mapping-file $@ --map-prefix-to-predicate "UBERON http://w3id.org/semapv/vocab/crossSpeciesExactMatch"; fi
+
+$(REPORTDIR)/%_phenotype_data.csv: $(MIRRORDIR)/%.owl $(SPARQLDIR)/%_phenotypes.sparql
+	$(ROBOT) query -f csv -i $< --query $(SPARQLDIR)/$*_phenotypes.sparql $@
+
+$(REPORTDIR)/upheno-eq-analysis.csv: $(foreach n,$(SSPOS), $(REPORTDIR)/$(n)_phenotype_data.csv)
+	python3 ../scripts/upheno_build.py compute-upheno-statistics \
+		--upheno-config ../curation/upheno-config.yaml \
+		--pattern-directory ../curation/patterns-for-matching \
+		--matches-directory ../curation/pattern-matches \
+		--stats-directory $(REPORTDIR)/
+	test -f $@
+
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl:
+	if [ $(COMP) = true ] ; then python3 ../scripts/upheno_build.py create-species-independent-sssom-mappings \
+		--upheno-id-map ../curation/upheno_id_map.txt \
+		--patterns-dir ../curation/patterns-for-matching \
+		--anatomy-mappings $(MAPPINGDIR)/uberon.sssom.tsv \
+		--matches-dir ../curation/pattern-matches \
+		--obsolete-file-tsv ../templates/obsolete.tsv \
+		--output-file-owl $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent.sssom.tsv; fi
+
+$(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
+	mkdir -p $(TMPDIR)/cross-species/
+	python3 ../scripts/upheno_build.py generate-cross-species-mappings --species-lexical $(TMPDIR)/upheno-species-lexical.csv -m $(TMPDIR)/upheno-mapping-logical.csv -o $(TMPDIR)/cross-species/
+	sssom parse $(TMPDIR)/cross-species/upheno_custom_mapping.sssom.tsv --metadata config/upheno-cross-species.sssom.tsv -C merged -o $@
+
+$(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
+	sssom convert -i $< -O owl -o $@
 
 
-../curation/upheno-release/all/upheno_labels.owl: ../curation/upheno-release/all/upheno_all_with_relations.owl
-	$(ROBOT) filter -i $< \
-		--term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
-		--select "self descendants annotations" \
-		filter --term rdfs:label --trim false -o $@
-	#echo "SKIP upheno_labels"
-	
-../curation/upheno-release/all/upheno_special_labels.owl: ../curation/upheno-release/all/upheno_old_metazoa.owl
-	$(ROBOT) query -i $< --query ../sparql/construct_phenotype_iri_labels.sparql $@
-	# echo "SKIP upheno_special_labels"
+custom_reports: $(REPORTDIR)/upheno-associated-entities.csv \
+    $(REPORTDIR)/upheno-eq-analysis.csv
 
-../curation/upheno-release/all/upheno_incl_lexical.owl: ../curation/upheno-release/all/upheno_all_with_relations.owl upheno_mapping_lexical_all
-	$(ROBOT) template -i $< --merge-before --template ../curation/upheno-release/all/upheno_mapping_lexical_template.csv \
-    annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-	#echo "SKIP upheno_species_lexical"
-.PRECIOUS: ../curation/upheno-release/all/upheno_incl_lexical.owl
+##########################################
+####### uPheno release artefacts #########
+##########################################
 
-../curation/upheno-release/all/upheno_equivalence_model.owl: ../curation/upheno-release/all/upheno_incl_lexical.owl
-	#echo "SKIP upheno_equivalence_model_semsim"
-	$(ROBOT) query -i $< --update ../sparql/upheno-equivalence-model.ru --output $@.tmp.owl && mv $@.tmp.owl $@
-.PRECIOUS: ../curation/upheno-release/all/upheno_equivalence_model.owl
+$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl: upheno.owl $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv
+	$(ROBOT) template -i $< --merge-before --template $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv \
+   		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: .$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl
 
-../curation/upheno-release/all/upheno_equivalence_model_semsim.owl: ../curation/upheno-release/all/upheno_equivalence_model.owl ../curation/upheno-release/all/upheno_labels.owl
-	#echo "SKIP upheno_equivalence_model_semsim"
+upheno-equivalence-model.owl: $(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl
 	$(ROBOT) merge -i $< \
+	  query --update ../sparql/upheno-equivalence-model.ru \
 	  reason \
 	    --reasoner ELK \
 	  filter \
 	    --term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
 	    --select "self descendants equivalents" \
-		merge -i ../curation/upheno-release/all/upheno_labels.owl \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 	    --output $@
 
-../curation/upheno-release/all/upheno_lattice_model_subs.owl: ../curation/upheno-release/all/upheno_incl_lexical.owl ../curation/upheno-release/all/upheno_mapping_lexical.csv
-	java -jar ../scripts/upheno-assertmatches.jar $< $@ ../curation/upheno-release/all/upheno_mapping_lexical.csv
-	#echo "Skip upheno_lattice_model_subs"
-
-
-../curation/upheno-release/all/upheno_lattice_model.owl: ../curation/upheno-release/all/upheno_incl_lexical.owl ../curation/upheno-release/all/upheno_lattice_model_subs.owl
-	$(ROBOT) merge -i $< -i ../curation/upheno-release/all/upheno_lattice_model_subs.owl -o $@
-	# echo "Skip upheno_lattice_model_subs"
-.PRECIOUS: ../curation/upheno-release/all/upheno_lattice_model.owl
-
-../curation/upheno-release/all/upheno_lattice_model_semsim.owl: ../curation/upheno-release/all/upheno_lattice_model.owl ../curation/upheno-release/all/upheno_labels.owl
-	#echo "Skip upheno_lattice_model_semsim"
-	$(ROBOT) merge -i $< \
-		reason \
-			--reasoner ELK \
-		filter \
-			--term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
-			--select "self descendants equivalents" \
-		merge -i ../curation/upheno-release/all/upheno_labels.owl \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
-	    --output $@
-
-../curation/upheno-release/all/upheno_old_metazoa.owl:
+$(TMPDIR)/upheno-old-metazoa.owl:
 	$(ROBOT) merge --input-iri http://purl.obolibrary.org/obo/upheno/metazoa.owl -o $@
-	#echo "skip upheno_old_metazoa"
+.PRECIOUS: $(TMPDIR)/upheno-old-metazoa.owl
 
-../curation/upheno-release/all/upheno_old_metazoa_semsim.owl: ../curation/upheno-release/all/upheno_old_metazoa.owl ../curation/upheno-release/all/upheno_labels.owl ../curation/upheno-release/all/upheno_special_labels.owl
-	#echo "SKIP upheno_old_metazoa_semsim"
+$(EDIT_PREPROCESSED): $(SRC)
+	$(ROBOT) merge -i $< -i imports/merged_import.owl convert --format ofn --output $@
+
+upheno-old-model.owl: $(TMPDIR)/upheno-old-metazoa.owl
 	$(ROBOT) remove -i $< --axioms DisjointClasses \
 	 remove --axioms DisjointUnion \
 	 remove --axioms DifferentIndividuals \
@@ -159,68 +106,139 @@ upheno_mapping_lexical_all: ../curation/upheno-release/all/upheno_species_lexica
 	 filter \
 	    --term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
 	    --select "self descendants equivalents" \
-	 merge -i ../curation/upheno-release/all/upheno_labels.owl \
-	 merge -i ../curation/upheno-release/all/upheno_special_labels.owl \
 	 annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 	 -o $@
 
-SIMCUTOFF=0.5
-../curation/upheno-release/all/upheno_%_jaccard.tsv: ../curation/upheno-release/all/upheno_%_semsim.owl
-	java -jar ../scripts/upheno-semanticsimilarity.jar $< ../curation/tmp/mp-class-hierarchy.txt ../curation/tmp/hp-class-hierarchy.txt "http://purl.obolibrary.org/obo/UPHENO_0001001" $@ nm $(SIMCUTOFF)
+upheno-curated.owl: upheno-basic.owl
+	$(ROBOT) merge -i upheno-basic.owl \
+		query --update ../sparql/rearrange-upheno.ru \
+		reduce \
+		query --update ../sparql/rearrange-upheno-top.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f owl -o $@
 
-o: ../curation/upheno-release/all/upheno_old_metazoa_semsim.owl ../curation/upheno-release/all/upheno_lattice_model_semsim.owl ../curation/upheno-release/all/upheno_equivalence_model_semsim.owl
+upheno-base-with-bridge.owl: upheno-base.owl $(COMPONENTSDIR)/upheno-bridge.owl
+	$(ROBOT) merge -i upheno-base.owl -i $(COMPONENTSDIR)/upheno-bridge.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f owl -o $@
 
-sim: ../curation/upheno-release/all/upheno_old_metazoa_jaccard.tsv ../curation/upheno-release/all/upheno_lattice_model_jaccard.tsv ../curation/upheno-release/all/upheno_equivalence_model_jaccard.tsv
+###### uPheno pipeline
 
-ml: ../curation/upheno-release/all/upheno_xrefs.csv ../curation/upheno-release/all/upheno_parentage.csv ../curation/upheno-release/all/upheno_associated_entities.csv ../curation/upheno-release/all/upheno_lexical_data.csv
+upheno:
+	####### Step 0: Housekeeping ########
+	$(MAKE) update_patterns -B
 
-t:
-	$(ROBOT) filter -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/small_insulin_test.owl \
-		merge -I https://raw.githubusercontent.com/monarch-ebi-dev/ontologies/master/smalltest.owl -o rm_test.owl
+	####### Step 1: download sources and match patterns ########
+	$(MAKE) upheno_prepare -B
+
+	####### Step 2: uPheno intermediate layer and species-profiles ########
+	$(MAKE) upheno_create_profiles -B
+
+upheno_prepare: ../curation/upheno-config.yaml
+	# In this first part of the pipeline, the following steps are executed 
+	# (comprehensive configuration of the pipeline can be found in ../curation/upheno-config.yaml)
+
+	# 1. Download all patterns from a set of specified repositories (see config file 'pattern_repos'.)
+	#    Optionally, pattern fillers can be replaced by owl:Thing, so that logical definitions with unaligned fillers but 
+	#    otherwise matching patterns are considered positive matches
+	# 2. Download all source ontologies (see config file: 'sources')
+	#    Ontologies are merged and converted two OWL using ROBOT.
+	#    For bridge ontologies, a special mode 'xref', allows to try and exploit xrefs directly to construct 
+	#    a subclass-of alignment; these should be replaced by proper alignments over time.
+	# 3. Prepare phenotype ontologies for matching.
+	#    Phenotype ontologies with all their imports (a special imports module) are merged. Taxon restrictions
+	#    are introduced and labels rewritten.
+	# 4. Match patterns: All patterns as downloaded in step 1.1 are matched agains all phenotype ontologies.
+	#    This results in one tsv file with matches per phenotype ontology and pattern.
+	python ../scripts/upheno_prepare.py ../curation/upheno-config.yaml
+
+upheno_create_profiles: ../curation/upheno-config.yaml
+	# 1. Extract uPheno fillers from pattern matches (step 1.4). The primary bearer is filled up, 
+	#    i.e. every class between the pattern filler and a particular species specific filler class is instantiated
+	#    (minus a blacklist)
+	# 2. For every profile (config 'upheno_combinations'), create a new directory, then compile all patterns 
+	#    from the previous step using dosdp. Add taxon restrictions 
+	python ../scripts/upheno_create_profiles.py ../curation/upheno-config.yaml
+	test -f ../curation/upheno-release-prepare/all/upheno_layer.owl
+
+############################
+###### Components ##########
+############################
+
+$(TEMPLATEDIR)/phenotypes-without-patterns.tsv:
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1901003626&single=true&output=tsv" -O $@
+
+$(TEMPLATEDIR)/phenotype-alignments.tsv:
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1305526284&single=true&output=tsv" -O $@
+
+$(TEMPLATEDIR)/phenotype-top-level.tsv:
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=627170903&single=true&output=tsv" -O $@
+
+$(TEMPLATEDIR)/root-alignments.tsv:
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1260598340&single=true&output=tsv" -O $@
 
 
-conf: ../../modules/upheno_all_pattern_conformance.owl
+$(COMPONENTSDIR)/upheno-species-neutral.owl:
+	$(ROBOT) merge -i ../curation/upheno-release-prepare/all/upheno_layer.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f ofn -o $@
 
-tmp/patterns:
-	rm -r $@
-	mkdir $@
+$(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl
+	$(ROBOT) merge -i $(SRC) -i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+		query --query $(SPARQLDIR)/construct-upheno-bridge.sparql tmp/bridge.ttl
+	$(ROBOT) merge -i tmp/bridge.ttl -i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f ofn -o $@
+
+####################################
+###### Import preparation ##########
+####################################
+
+ifeq ($(strip $(MERGE_MIRRORS)),true)
+$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
+	$(ROBOT) merge $(patsubst %, -i %, $(ALL_MIRRORS)) \
+		remove --axioms disjoint --preserve-structure false remove --term http://www.w3.org/2002/07/owl#Nothing --axioms logical --preserve-structure false \
+		remove --term RO:0000052 --term RO:0002314 --axioms tbox --preserve-structure false \
+		remove --axioms equivalent --preserve-structure false \
+		remove -T config/terms_to_remove.txt --preserve-structure false \
+		query --update ../sparql/rm_declarations.ru \
+		convert --format ofn --output $@
+.PRECIOUS: $(MIRRORDIR)/merged.owl
+endif
+
+$(REPORTDIR)/obsolete_filler_classes.tsv: $(MIRRORDIR)/merged.owl
+	$(ROBOT) query -f csv -i $< --query ../sparql/obsolete_filler_classes.sparql $@
+
+add_upheno_ids_to_fillers:
+	python3 ../scripts/upheno_build.py add-upheno-ids-to-fillers \
+		--upheno-config ../curation/upheno-config.yaml \
+		--patterns-directory ../curation/patterns-for-matching \
+		--fillers-directory ../curation/upheno-fillers \
+		--output-directory ../patterns/data/automatic \
+		--tmp-directory ../curation/tmp
+
+merge_modified_patterns:
+	python3 ../scripts/upheno_build.py postprocess-modified-patterns \
+		--upheno-config ../curation/upheno-config.yaml \
+		--patterns-directory ../curation/patterns-for-matching \
+		--fillers-directory ../curation/upheno-fillers
+
+FILE_TO_OBSOLETE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=368192736&single=true&output=tsv"
+
+tmp/to_obsolete.tsv:
+	#wget $(FILE_TO_OBSOLETE_URL) -O $@
+	touch $@
+
+obsolete_fillers:
+	#$(MAKE) $(REPORTDIR)/obsolete_filler_classes.tsv tmp/to_obsolete.tsv IMP=false MIR=false -B
+	python3 ../scripts/upheno_build.py obsolete-classes-from-tsvs \
+		--obsoleted-template ../templates/obsolete.tsv \
+		--obsolete-fillers-file $(REPORTDIR)/obsolete_filler_classes.tsv \
+		--to-obsolete-entities-file tmp/to_obsolete.tsv \
+		--upheno-id-map ../curation/upheno_id_map.txt \
+		--dosdp-tsv-directory ../patterns/data/automatic
 
 
-../../modules/upheno_all_pattern_conformance.owl: $(PATTERNS) tmp/patterns
-	python3 ../scripts/create_pattern_conformance_module.py
-
-#RELDIR=../curation/upheno-release
-RELDIR=../curation/upheno-stats ../curation/pattern-matches ../curation/upheno-release
-BUCKETDIR=../curation/s3
-#aws s3 
-# we now use S3 directly
-
-S3_VERSION=2020-05-17
-
-prepare_upload:
-	mkdir -p $(BUCKETDIR)/ 
-	rm -rf $(BUCKETDIR)/*
-	mkdir -p $(BUCKETDIR)/current/ 
-	mkdir -p $(BUCKETDIR)/$(S3_VERSION)/
-	cp -r $(RELDIR) $(BUCKETDIR)/current/
-	cp -r $(RELDIR) $(BUCKETDIR)/$(S3_VERSION)/
-	cp ../curation/upheno_id_map.txt $(BUCKETDIR)/current/
-	cp ../curation/upheno_id_map.txt $(BUCKETDIR)/$(S3_VERSION)/
-
-deploy:
-	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/current s3://bbop-ontologies/upheno/current --acl public-read
-	aws s3 sync --exclude "*.DS_Store*" $(BUCKETDIR)/$(S3_VERSION) s3://bbop-ontologies/upheno/$(S3_VERSION) --acl public-read
-
-## Set yourself up for AWS:
-
-
-## Reports:
-UPHENO_RELEASE_FILE_ANALYSIS=../curation/upheno-release/all/upheno_all_with_relations.owl
-
-reports: reports/phenotype_trait.sssom.tsv
-
-reports/phenotype_trait.sssom.tsv: $(UPHENO_RELEASE_FILE_ANALYSIS)
-	robot query -i $< --query ../sparql/pheno_trait.sparql $@
-	sed -i 's/[?]//g' $@
-	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
-	sed -i 's/>//g' $@
+base_report:
+	$(MAKE) IMP=false PAT=false MIR=false upheno-base.owl -B
+	$(ROBOT) report -i upheno-base.owl $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --print 5 -o tmp/$@.tsv

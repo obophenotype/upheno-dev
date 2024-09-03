@@ -1,6 +1,7 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/XPO_0128000	absent behavior	http://purl.obolibrary.org/obo/GO_0007610	behavior
 http://purl.obolibrary.org/obo/XPO_0131474	absent behavioral response to pain	http://purl.obolibrary.org/obo/GO_0048266	behavioral response to pain
+http://purl.obolibrary.org/obo/XPO_0116494	absent biological process	http://purl.obolibrary.org/obo/GO_0008150	biological process
 http://purl.obolibrary.org/obo/XPO_0116494	absent biological process	http://purl.obolibrary.org/obo/GO_0008150	biological_process
 http://purl.obolibrary.org/obo/XPO_0131473	absent courtship behavior	http://purl.obolibrary.org/obo/GO_0007619	courtship behavior
 http://purl.obolibrary.org/obo/XPO_0131481	absent feeding behavior	http://purl.obolibrary.org/obo/GO_0007631	feeding behavior

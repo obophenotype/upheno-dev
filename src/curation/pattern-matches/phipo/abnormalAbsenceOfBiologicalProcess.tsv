@@ -1,7 +1,7 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/PHIPO_0000971	abolished formation of autophagosomes	http://purl.obolibrary.org/obo/GO_0000045	autophagosome assembly
 http://purl.obolibrary.org/obo/PHIPO_0000110	abolished formation of pathogen penetration structure	http://purl.obolibrary.org/obo/GO_0075053	penetration peg formation
-http://purl.obolibrary.org/obo/PHIPO_0000340	abolished pathogen cell to cell migration within host	http://purl.obolibrary.org/obo/GO_0106259	cell-to-cell migration in host
+http://purl.obolibrary.org/obo/PHIPO_0000340	abolished pathogen cell to cell migration within host	http://purl.obolibrary.org/obo/GO_0106259	symbiont-mediated cell-to-cell migration in host
 http://purl.obolibrary.org/obo/PHIPO_0000245	abolished protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization
 http://purl.obolibrary.org/obo/PHIPO_0000248	abolished protein localization to nucleus	http://purl.obolibrary.org/obo/GO_0034504	protein localization to nucleus
 http://purl.obolibrary.org/obo/PHIPO_0001090	abolished protein secretion	http://purl.obolibrary.org/obo/GO_0009306	protein secretion
@@ -9,3 +9,4 @@ http://purl.obolibrary.org/obo/PHIPO_0000363	absence of pathogen growth within h
 http://purl.obolibrary.org/obo/PHIPO_0000948	mutualism absent	http://purl.obolibrary.org/obo/GO_0085030	mutualism
 http://purl.obolibrary.org/obo/PHIPO_0000948	mutualism absent	http://purl.obolibrary.org/obo/GO_0085030	symbiotic process benefiting host
 http://purl.obolibrary.org/obo/PHIPO_0000355	pathogen penetration into host absent	http://purl.obolibrary.org/obo/GO_0044409	entry into host
+http://purl.obolibrary.org/obo/PHIPO_0000355	pathogen penetration into host absent	http://purl.obolibrary.org/obo/GO_0044409	symbiont entry into host

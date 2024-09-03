@@ -9,11 +9,12 @@ http://purl.obolibrary.org/obo/MP_0000640	adrenal gland hypoplasia	http://purl.o
 http://purl.obolibrary.org/obo/MP_0004460	alisphenoid bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0006721	alisphenoid bone
 http://purl.obolibrary.org/obo/MP_0010541	aorta hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
 http://purl.obolibrary.org/obo/MP_0010485	aortic arch hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001508	arch of aorta
+http://purl.obolibrary.org/obo/MP_0031567	aortic valve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
 http://purl.obolibrary.org/obo/MP_0030890	arytenoid cartilage hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001740	arytenoid cartilage
 http://purl.obolibrary.org/obo/MP_0010469	ascending aorta hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001496	ascending aorta
 http://purl.obolibrary.org/obo/MP_0030992	atrioventricular cushion hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002062	endocardial cushion
 http://purl.obolibrary.org/obo/MP_0010533	atrioventricular node hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002352	atrioventricular node
-http://purl.obolibrary.org/obo/MP_0004055	atrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002081	cardiac atrium
+http://purl.obolibrary.org/obo/MP_0010501	atrium myocardium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002302	myocardium of atrium
 http://purl.obolibrary.org/obo/MP_0012273	axial mesoderm hypoplasia	http://purl.obolibrary.org/obo/UBERON_0003068	axial mesoderm
 http://purl.obolibrary.org/obo/MP_0000071	axial skeleton hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005944	axial skeleton plus cranial skeleton
 http://purl.obolibrary.org/obo/MP_0030027	basioccipital bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001692	basioccipital bone
@@ -26,7 +27,7 @@ http://purl.obolibrary.org/obo/MP_0004337	clavicle hypoplasia	http://purl.obolib
 http://purl.obolibrary.org/obo/MP_0009101	clitoris hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002411	clitoris
 http://purl.obolibrary.org/obo/MP_0003637	cochlear ganglion hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000395	cochlear ganglion
 http://purl.obolibrary.org/obo/MP_0010587	conotruncal ridge hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005967	conotruncal ridge
-http://purl.obolibrary.org/obo/MP_0020858	corneal epithelium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
+http://purl.obolibrary.org/obo/MP_0020858	cornea epithelium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001772	corneal epithelium
 http://purl.obolibrary.org/obo/MP_0030874	cricoid cartilage hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002375	cricoid cartilage
 http://purl.obolibrary.org/obo/MP_0010474	descending aorta hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001514	descending aorta
 http://purl.obolibrary.org/obo/MP_0012092	diencephalon hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001894	diencephalon
@@ -56,10 +57,12 @@ http://purl.obolibrary.org/obo/MP_0004569	glossopharyngeal nerve hypoplasia	http
 http://purl.obolibrary.org/obo/MP_0011412	gonadal ridge hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005294	gonadal ridge
 http://purl.obolibrary.org/obo/MP_0008382	gonial bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0003966	gonial bone
 http://purl.obolibrary.org/obo/MP_0013200	head mesenchyme hypoplasia	http://purl.obolibrary.org/obo/UBERON_0005253	head mesenchyme
+http://purl.obolibrary.org/obo/MP_0004055	heart atrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002081	cardiac atrium
 http://purl.obolibrary.org/obo/MP_0002740	heart hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000948	heart
+http://purl.obolibrary.org/obo/MP_0010647	heart left atrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
 http://purl.obolibrary.org/obo/MP_0010446	heart left ventricle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
+http://purl.obolibrary.org/obo/MP_0010648	heart right atrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002078	right cardiac atrium
 http://purl.obolibrary.org/obo/MP_0010422	heart right ventricle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
-http://purl.obolibrary.org/obo/MP_0000287	heart valve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000946	cardiac valve
 http://purl.obolibrary.org/obo/MP_0012264	hindbrain hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
 http://purl.obolibrary.org/obo/MP_0030004	hippocampus hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
 http://purl.obolibrary.org/obo/MP_0009899	hyoid bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001685	hyoid bone
@@ -79,7 +82,6 @@ http://purl.obolibrary.org/obo/MP_0003626	kidney medulla hypoplasia	http://purl.
 http://purl.obolibrary.org/obo/MP_0011565	kidney papillary hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001228	renal papilla
 http://purl.obolibrary.org/obo/MP_0030056	lacrimal bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001680	lacrimal bone
 http://purl.obolibrary.org/obo/MP_0014151	lacrimal gland hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001817	lacrimal gland
-http://purl.obolibrary.org/obo/MP_0010647	left atrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
 http://purl.obolibrary.org/obo/MP_0000600	liver hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002107	liver
 http://purl.obolibrary.org/obo/MP_0008101	lymph node hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
 http://purl.obolibrary.org/obo/MP_0031440	lymphatic vessel hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001473	lymphatic vessel
@@ -98,6 +100,7 @@ http://purl.obolibrary.org/obo/MP_0004637	metacarpal bone hypoplasia	http://purl
 http://purl.obolibrary.org/obo/MP_0012090	midbrain hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
 http://purl.obolibrary.org/obo/MP_0030124	middle ear ossicle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001686	auditory ossicle bone
 http://purl.obolibrary.org/obo/MP_0012085	midface hypoplasia	http://purl.obolibrary.org/obo/UBERON_0004089	midface
+http://purl.obolibrary.org/obo/MP_0031523	mitral valve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
 http://purl.obolibrary.org/obo/MP_0000734	muscle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/MP_0010500	myocardium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002349	myocardium
 http://purl.obolibrary.org/obo/MP_0009090	myometrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001296	myometrium
@@ -142,17 +145,18 @@ http://purl.obolibrary.org/obo/MP_0004693	pubis hypoplasia	http://purl.obolibrar
 http://purl.obolibrary.org/obo/MP_0010460	pulmonary artery hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002012	pulmonary artery
 http://purl.obolibrary.org/obo/MP_0001178	pulmonary hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/MP_0010458	pulmonary trunk hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002333	pulmonary trunk
+http://purl.obolibrary.org/obo/MP_0031528	pulmonary valve hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
 http://purl.obolibrary.org/obo/MP_0010528	pulmonary vein hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002016	pulmonary vein
 http://purl.obolibrary.org/obo/MP_0004356	radius hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001423	radius bone
 http://purl.obolibrary.org/obo/MP_0003446	renal hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
 http://purl.obolibrary.org/obo/MP_0002984	retina hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000966	retina
-http://purl.obolibrary.org/obo/MP_0010648	right atrium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002078	right cardiac atrium
 http://purl.obolibrary.org/obo/MP_0010542	right ventricular myocardium hypoplasia	http://purl.obolibrary.org/obo/UBERON_0006567	right ventricle myocardium
 http://purl.obolibrary.org/obo/MP_0004344	scapular bone hypoplasia	http://purl.obolibrary.org/obo/UBERON_0006849	scapula
 http://purl.obolibrary.org/obo/MP_0003611	scrotum hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
 http://purl.obolibrary.org/obo/MP_0013193	sebaceous gland hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
 http://purl.obolibrary.org/obo/MP_0013268	second pharyngeal arch hypoplasia	http://purl.obolibrary.org/obo/UBERON_0003066	pharyngeal arch 2
 http://purl.obolibrary.org/obo/MP_0005148	seminal vesicle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0000998	seminal vesicle
+http://purl.obolibrary.org/obo/MP_0031542	sinoatrial node hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002351	sinoatrial node
 http://purl.obolibrary.org/obo/MP_0010558	sinus venosus hypoplasia	http://purl.obolibrary.org/obo/UBERON_0002063	sinus venosus
 http://purl.obolibrary.org/obo/MP_0013271	sixth pharyngeal arch hypoplasia	http://purl.obolibrary.org/obo/UBERON_0003117	pharyngeal arch 6
 http://purl.obolibrary.org/obo/MP_0009460	skeletal muscle hypoplasia	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue

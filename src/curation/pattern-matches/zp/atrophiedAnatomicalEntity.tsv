@@ -1,5 +1,6 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/ZP_0008588	brain atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0148886	cardiac ventricle atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
 http://purl.obolibrary.org/obo/ZP_0010839	caudal fin atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
 http://purl.obolibrary.org/obo/ZP_0106092	cerebellum atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000100	cerebellum
 http://purl.obolibrary.org/obo/ZP_0006016	epidermis atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis
@@ -18,6 +19,7 @@ http://purl.obolibrary.org/obo/ZP_0020899	muscle cell atrophied, abnormal	http:/
 http://purl.obolibrary.org/obo/ZP_0018902	myotome atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
 http://purl.obolibrary.org/obo/ZP_0002109	pectoral fin atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
 http://purl.obolibrary.org/obo/ZP_0100700	pelvic fin atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001184	pelvic fin
+http://purl.obolibrary.org/obo/ZP_0146871	pharyngeal arch atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
 http://purl.obolibrary.org/obo/ZP_0106361	pharynx atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0000056	pharynx
 http://purl.obolibrary.org/obo/ZP_0021075	pronephric glomerulus atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001557	pronephric glomerulus
 http://purl.obolibrary.org/obo/ZP_0020674	pronephric tubule atrophied, abnormal	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule

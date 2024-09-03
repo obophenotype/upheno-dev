@@ -1,5 +1,6 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0013598	Leydig cell hypertrophy	http://purl.obolibrary.org/obo/CL_0000178	Leydig cell
+http://purl.obolibrary.org/obo/MP_0009981	abnormal cerebellum emboliform nucleus morphology	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
 http://purl.obolibrary.org/obo/MP_0000017	big ears	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
 http://purl.obolibrary.org/obo/MP_0000602	dilated liver sinusoidal space	http://purl.obolibrary.org/obo/UBERON_0006729	liver perisinusoidal space
 http://purl.obolibrary.org/obo/MP_0013446	enlarged Harderian gland	http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
@@ -12,6 +13,7 @@ http://purl.obolibrary.org/obo/MP_0000642	enlarged adrenal glands	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0008300	enlarged adrenal medulla	http://purl.obolibrary.org/obo/UBERON_0001236	adrenal medulla
 http://purl.obolibrary.org/obo/MP_0000646	enlarged adrenocortical cells	http://purl.obolibrary.org/obo/CL_0002097	cortical cell of adrenal gland
 http://purl.obolibrary.org/obo/MP_0004556	enlarged allantois	http://purl.obolibrary.org/obo/UBERON_0004340	allantois
+http://purl.obolibrary.org/obo/MP_0010815	enlarged alveolar lamellar bodies	http://purl.obolibrary.org/obo/GO_0097208	alveolar lamellar body
 http://purl.obolibrary.org/obo/MP_0010591	enlarged aortic valve	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
 http://purl.obolibrary.org/obo/MP_0009631	enlarged axillary lymph nodes	http://purl.obolibrary.org/obo/UBERON_0001097	axillary lymph node
 http://purl.obolibrary.org/obo/MP_0011380	enlarged brain ventricles	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle
@@ -25,6 +27,7 @@ http://purl.obolibrary.org/obo/MP_0031442	enlarged cerebral aqueduct	http://purl
 http://purl.obolibrary.org/obo/MP_0008542	enlarged cervical lymph nodes	http://purl.obolibrary.org/obo/UBERON_0002429	cervical lymph node
 http://purl.obolibrary.org/obo/MP_0001267	enlarged chest	http://purl.obolibrary.org/obo/UBERON_0001443	chest
 http://purl.obolibrary.org/obo/MP_0003529	enlarged clitoris	http://purl.obolibrary.org/obo/UBERON_0002411	clitoris
+http://purl.obolibrary.org/obo/MP_0009595	enlarged corneocyte envelope	http://purl.obolibrary.org/obo/GO_0001533	cornified envelope
 http://purl.obolibrary.org/obo/MP_0009256	enlarged corpus epididymis	http://purl.obolibrary.org/obo/UBERON_0004359	corpus epididymis
 http://purl.obolibrary.org/obo/MP_0000439	enlarged cranium	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
 http://purl.obolibrary.org/obo/MP_0008490	enlarged dorsal root ganglion	http://purl.obolibrary.org/obo/UBERON_0000044	dorsal root ganglion
@@ -44,9 +47,6 @@ http://purl.obolibrary.org/obo/MP_0009342	enlarged gallbladder	http://purl.oboli
 http://purl.obolibrary.org/obo/MP_0008383	enlarged gonial bone	http://purl.obolibrary.org/obo/UBERON_0003966	gonial bone
 http://purl.obolibrary.org/obo/MP_0000381	enlarged hair follicles	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
 http://purl.obolibrary.org/obo/MP_0000274	enlarged heart	http://purl.obolibrary.org/obo/UBERON_0000948	heart
-http://purl.obolibrary.org/obo/MP_0008726	enlarged heart left atrium	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
-http://purl.obolibrary.org/obo/MP_0008727	enlarged heart right atrium	http://purl.obolibrary.org/obo/UBERON_0002078	right cardiac atrium
-http://purl.obolibrary.org/obo/MP_0000573	enlarged hind paws	http://purl.obolibrary.org/obo/UBERON_0002387	pes
 http://purl.obolibrary.org/obo/MP_0008282	enlarged hippocampus	http://purl.obolibrary.org/obo/UBERON_0002421	hippocampal formation
 http://purl.obolibrary.org/obo/MP_0009483	enlarged ileum	http://purl.obolibrary.org/obo/UBERON_0002116	ileum
 http://purl.obolibrary.org/obo/MP_0011571	enlarged inferior vena cava valve	http://purl.obolibrary.org/obo/UBERON_0005485	valve of inferior vena cava
@@ -67,9 +67,9 @@ http://purl.obolibrary.org/obo/MP_0010200	enlarged lymphatic vessel	http://purl.
 http://purl.obolibrary.org/obo/MP_0030348	enlarged mandibular prominence	http://purl.obolibrary.org/obo/UBERON_0005867	mandibular prominence
 http://purl.obolibrary.org/obo/MP_0030345	enlarged maxillary prominence	http://purl.obolibrary.org/obo/UBERON_0005868	maxillary prominence
 http://purl.obolibrary.org/obo/MP_0030318	enlarged maxillary zygomatic process	http://purl.obolibrary.org/obo/UBERON_0016477	zygomatic process of maxilla
+http://purl.obolibrary.org/obo/MP_0030917	enlarged melanosome	http://purl.obolibrary.org/obo/GO_0042470	melanosome
 http://purl.obolibrary.org/obo/MP_0008466	enlarged mesenteric lymph nodes	http://purl.obolibrary.org/obo/UBERON_0002509	mesenteric lymph node
 http://purl.obolibrary.org/obo/MP_0010618	enlarged mitral valve	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
-http://purl.obolibrary.org/obo/MP_0004564	enlarged myocardial fiber	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell
 http://purl.obolibrary.org/obo/MP_0004474	enlarged nasal bone	http://purl.obolibrary.org/obo/UBERON_0001681	nasal bone
 http://purl.obolibrary.org/obo/MP_0030316	enlarged neurocranium	http://purl.obolibrary.org/obo/UBERON_0001703	neurocranium
 http://purl.obolibrary.org/obo/MP_0030287	enlarged occipital bone	http://purl.obolibrary.org/obo/UBERON_0001676	occipital bone
@@ -83,7 +83,6 @@ http://purl.obolibrary.org/obo/MP_0009171	enlarged pancreatic islets	http://purl
 http://purl.obolibrary.org/obo/MP_0003112	enlarged parathyroid gland	http://purl.obolibrary.org/obo/UBERON_0001132	parathyroid gland
 http://purl.obolibrary.org/obo/MP_0013864	enlarged paraumbilical vein	http://purl.obolibrary.org/obo/UBERON_0035655	paraumbilical vein
 http://purl.obolibrary.org/obo/MP_0004421	enlarged parietal bone	http://purl.obolibrary.org/obo/UBERON_0000210	tetrapod parietal bone
-http://purl.obolibrary.org/obo/MP_0020242	enlarged paws	http://purl.obolibrary.org/obo/UBERON_0002470	autopod region
 http://purl.obolibrary.org/obo/MP_0000291	enlarged pericardium	http://purl.obolibrary.org/obo/UBERON_0002407	pericardium
 http://purl.obolibrary.org/obo/MP_0030312	enlarged pharyngeal arch	http://purl.obolibrary.org/obo/UBERON_0002539	pharyngeal arch
 http://purl.obolibrary.org/obo/MP_0013364	enlarged pineal gland	http://purl.obolibrary.org/obo/UBERON_0001905	pineal body
@@ -101,6 +100,7 @@ http://purl.obolibrary.org/obo/MP_0001150	enlarged scrotum	http://purl.obolibrar
 http://purl.obolibrary.org/obo/MP_0000652	enlarged sebaceous gland	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
 http://purl.obolibrary.org/obo/MP_0002997	enlarged seminal vesicle	http://purl.obolibrary.org/obo/UBERON_0000998	seminal vesicle
 http://purl.obolibrary.org/obo/MP_0006308	enlarged seminiferous tubules	http://purl.obolibrary.org/obo/UBERON_0001343	seminiferous tubule of testis
+http://purl.obolibrary.org/obo/MP_0009233	enlarged sperm head	http://purl.obolibrary.org/obo/GO_0061827	sperm head
 http://purl.obolibrary.org/obo/MP_0001237	enlarged spinous cells	http://purl.obolibrary.org/obo/CL_0000649	prickle cell
 http://purl.obolibrary.org/obo/MP_0000691	enlarged spleen	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
 http://purl.obolibrary.org/obo/MP_0003883	enlarged stomach	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
@@ -132,36 +132,48 @@ http://purl.obolibrary.org/obo/MP_0004316	enlarged vestibular saccule	http://pur
 http://purl.obolibrary.org/obo/MP_0003528	enlarged vulva	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
 http://purl.obolibrary.org/obo/MP_0012160	expanded anterior visceral endoderm	http://purl.obolibrary.org/obo/UBERON_0004044	anterior visceral endoderm
 http://purl.obolibrary.org/obo/MP_0011353	expanded mesangial matrix	http://purl.obolibrary.org/obo/UBERON_0012352	mesangial matrix
+http://purl.obolibrary.org/obo/MP_0014328	increased Purkinje cell size	http://purl.obolibrary.org/obo/CL_0000121	Purkinje cell
+http://purl.obolibrary.org/obo/MP_0014286	increased adrenal gland zona fasciculata size	http://purl.obolibrary.org/obo/UBERON_0002054	zona fasciculata of adrenal gland
 http://purl.obolibrary.org/obo/MP_0012479	increased amygdala size	http://purl.obolibrary.org/obo/UBERON_0001876	amygdala
 http://purl.obolibrary.org/obo/MP_0008228	increased anterior commissure size	http://purl.obolibrary.org/obo/UBERON_0000935	anterior commissure
 http://purl.obolibrary.org/obo/MP_0020434	increased astrocyte size	http://purl.obolibrary.org/obo/CL_0000127	astrocyte
 http://purl.obolibrary.org/obo/MP_0003808	increased atrioventricular cushion size	http://purl.obolibrary.org/obo/UBERON_0002062	endocardial cushion
+http://purl.obolibrary.org/obo/MP_0031547	increased atrioventricular node size	http://purl.obolibrary.org/obo/UBERON_0002352	atrioventricular node
+http://purl.obolibrary.org/obo/MP_0020242	increased autopod size	http://purl.obolibrary.org/obo/UBERON_0002470	autopod region
 http://purl.obolibrary.org/obo/MP_0012274	increased axial mesoderm size	http://purl.obolibrary.org/obo/UBERON_0003068	axial mesoderm
 http://purl.obolibrary.org/obo/MP_0001264	increased body size	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0020140	increased brain external capsule size	http://purl.obolibrary.org/obo/UBERON_0004545	external capsule of telencephalon
 http://purl.obolibrary.org/obo/MP_0012461	increased brain internal capsule size	http://purl.obolibrary.org/obo/UBERON_0001887	internal capsule of telencephalon
 http://purl.obolibrary.org/obo/MP_0005238	increased brain size	http://purl.obolibrary.org/obo/UBERON_0000955	brain
-http://purl.obolibrary.org/obo/MP_0009119	increased brown fat cell size	http://purl.obolibrary.org/obo/CL_0000449	brown fat cell
+http://purl.obolibrary.org/obo/MP_0009119	increased brown fat cell size	http://purl.obolibrary.org/obo/CL_0000449	brown adipocyte
 http://purl.obolibrary.org/obo/MP_0012487	increased cerebellum dentate nucleus size	http://purl.obolibrary.org/obo/UBERON_0002132	dentate nucleus
 http://purl.obolibrary.org/obo/MP_0020539	increased cerebellum fastigial nucleus size	http://purl.obolibrary.org/obo/UBERON_0002153	fastigial nucleus
 http://purl.obolibrary.org/obo/MP_0012471	increased cerebellum interpositus nucleus size	http://purl.obolibrary.org/obo/UBERON_0004073	cerebellum interpositus nucleus
 http://purl.obolibrary.org/obo/MP_0012473	increased cingulate cortex size	http://purl.obolibrary.org/obo/UBERON_0003027	cingulate cortex
+http://purl.obolibrary.org/obo/MP_0014299	increased cochlea size	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea
 http://purl.obolibrary.org/obo/MP_0012485	increased cochlear VIII nucleus size	http://purl.obolibrary.org/obo/UBERON_0001720	cochlear nucleus
+http://purl.obolibrary.org/obo/MP_0031500	increased cornea size	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
 http://purl.obolibrary.org/obo/MP_0012443	increased corpus callosum size	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
 http://purl.obolibrary.org/obo/MP_0012483	increased corticospinal tract size	http://purl.obolibrary.org/obo/UBERON_0002707	corticospinal tract
 http://purl.obolibrary.org/obo/MP_0008426	increased corticotroph cell size	http://purl.obolibrary.org/obo/CL_0000467	adrenocorticotropic hormone secreting cell
 http://purl.obolibrary.org/obo/MP_0012459	increased dentate gyrus size	http://purl.obolibrary.org/obo/UBERON_0001885	dentate gyrus of hippocampal formation
 http://purl.obolibrary.org/obo/MP_0001699	increased embryo size	http://purl.obolibrary.org/obo/UBERON_0000922	embryo
-http://purl.obolibrary.org/obo/MP_0006094	increased fat cell size	http://purl.obolibrary.org/obo/CL_0000136	fat cell
+http://purl.obolibrary.org/obo/MP_0006094	increased fat cell size	http://purl.obolibrary.org/obo/CL_0000136	adipocyte
 http://purl.obolibrary.org/obo/MP_0030823	increased femur size	http://purl.obolibrary.org/obo/UBERON_0000981	femur
+http://purl.obolibrary.org/obo/MP_0031609	increased fetal cardiomyocyte size	http://purl.obolibrary.org/obo/CL_0002495	fetal cardiomyocyte
 http://purl.obolibrary.org/obo/MP_0004199	increased fetal size	http://purl.obolibrary.org/obo/UBERON_0000323	late embryo
 http://purl.obolibrary.org/obo/MP_0012139	increased forebrain size	http://purl.obolibrary.org/obo/UBERON_0001890	forebrain
 http://purl.obolibrary.org/obo/MP_0012469	increased genu of the facial nerve size	http://purl.obolibrary.org/obo/UBERON_0014915	genu of facial nerve
 http://purl.obolibrary.org/obo/MP_0008424	increased gonadotroph cell size	http://purl.obolibrary.org/obo/CL_0000437	gonadtroph
 http://purl.obolibrary.org/obo/MP_0012481	increased habenula size	http://purl.obolibrary.org/obo/UBERON_0001904	habenula
+http://purl.obolibrary.org/obo/MP_0008725	increased heart atrium size	http://purl.obolibrary.org/obo/UBERON_0002081	cardiac atrium
+http://purl.obolibrary.org/obo/MP_0008726	increased heart left atrium size	http://purl.obolibrary.org/obo/UBERON_0002079	left cardiac atrium
 http://purl.obolibrary.org/obo/MP_0010579	increased heart left ventricle size	http://purl.obolibrary.org/obo/UBERON_0002084	heart left ventricle
+http://purl.obolibrary.org/obo/MP_0008727	increased heart right atrium size	http://purl.obolibrary.org/obo/UBERON_0002078	right cardiac atrium
 http://purl.obolibrary.org/obo/MP_0010563	increased heart right ventricle size	http://purl.obolibrary.org/obo/UBERON_0002080	heart right ventricle
+http://purl.obolibrary.org/obo/MP_0008772	increased heart ventricle size	http://purl.obolibrary.org/obo/UBERON_0002082	cardiac ventricle
 http://purl.obolibrary.org/obo/MP_0012265	increased hindbrain size	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
+http://purl.obolibrary.org/obo/MP_0000573	increased hindlimb autopod size	http://purl.obolibrary.org/obo/UBERON_0002387	pes
 http://purl.obolibrary.org/obo/MP_0008224	increased hippocampal commissure size	http://purl.obolibrary.org/obo/UBERON_0000908	hippocampal commissure
 http://purl.obolibrary.org/obo/MP_0012465	increased hippocampal fimbria size	http://purl.obolibrary.org/obo/UBERON_0002310	hippocampus fimbria
 http://purl.obolibrary.org/obo/MP_0020546	increased hippocampal fornix size	http://purl.obolibrary.org/obo/UBERON_0000052	fornix of brain
@@ -171,10 +183,14 @@ http://purl.obolibrary.org/obo/MP_0008422	increased lactotroph cell size	http://
 http://purl.obolibrary.org/obo/MP_0006398	increased long bone epiphyseal plate size	http://purl.obolibrary.org/obo/UBERON_0002516	epiphyseal plate
 http://purl.obolibrary.org/obo/MP_0012455	increased mammillothalamic tract size	http://purl.obolibrary.org/obo/UBERON_0002990	mammillothalamic tract of hypothalamus
 http://purl.obolibrary.org/obo/MP_0012091	increased midbrain size	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
+http://purl.obolibrary.org/obo/MP_0011630	increased mitochondrial size	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/MP_0004564	increased myocardial fiber size	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell
 http://purl.obolibrary.org/obo/MP_0020067	increased neocortex size	http://purl.obolibrary.org/obo/UBERON_0001950	neocortex
 http://purl.obolibrary.org/obo/MP_0020549	increased optic chiasm size	http://purl.obolibrary.org/obo/UBERON_0000959	optic chiasma
 http://purl.obolibrary.org/obo/MP_0012463	increased optic tract size	http://purl.obolibrary.org/obo/UBERON_0001908	optic tract
+http://purl.obolibrary.org/obo/MP_0031492	increased oval window size	http://purl.obolibrary.org/obo/UBERON_0002501	oval window
 http://purl.obolibrary.org/obo/MP_0031463	increased palatal shelf size	http://purl.obolibrary.org/obo/UBERON_0005619	secondary palatal shelf
+http://purl.obolibrary.org/obo/MP_0031540	increased papillary muscle size	http://purl.obolibrary.org/obo/UBERON_0002494	papillary muscle of heart
 http://purl.obolibrary.org/obo/MP_0009531	increased parotid gland size	http://purl.obolibrary.org/obo/UBERON_0001831	parotid gland
 http://purl.obolibrary.org/obo/MP_0012475	increased piriform cortex size	http://purl.obolibrary.org/obo/UBERON_0004725	piriform cortex
 http://purl.obolibrary.org/obo/MP_0011529	increased placenta intervillous maternal lacunae size	http://purl.obolibrary.org/obo/UBERON_0010006	placenta intervillous maternal lacunae
@@ -194,11 +210,15 @@ http://purl.obolibrary.org/obo/MP_0012802	increased rhombomere 5 size	http://pur
 http://purl.obolibrary.org/obo/MP_0012806	increased rhombomere 6 size	http://purl.obolibrary.org/obo/UBERON_0005519	rhombomere 6
 http://purl.obolibrary.org/obo/MP_0012810	increased rhombomere 7 size	http://purl.obolibrary.org/obo/UBERON_0005523	rhombomere 7
 http://purl.obolibrary.org/obo/MP_0012814	increased rhombomere 8 size	http://purl.obolibrary.org/obo/UBERON_0005527	rhombomere 8
+http://purl.obolibrary.org/obo/MP_0031493	increased round window size	http://purl.obolibrary.org/obo/UBERON_0002502	round window of inner ear
 http://purl.obolibrary.org/obo/MP_0012477	increased secondary somatosensory cortex size	http://purl.obolibrary.org/obo/UBERON_0008934	secondary somatosensory cortex
+http://purl.obolibrary.org/obo/MP_0031545	increased sinoatrial node size	http://purl.obolibrary.org/obo/UBERON_0002351	sinoatrial node
 http://purl.obolibrary.org/obo/MP_0009399	increased skeletal muscle fiber size	http://purl.obolibrary.org/obo/CL_0000188	cell of skeletal muscle
 http://purl.obolibrary.org/obo/MP_0003398	increased skeletal muscle size	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/MP_0008416	increased somatotroph cell size	http://purl.obolibrary.org/obo/CL_0000295	somatotropin secreting cell
+http://purl.obolibrary.org/obo/MP_0014463	increased sperm mitochondrial sheath size	http://purl.obolibrary.org/obo/GO_0097226	sperm mitochondrial sheath
 http://purl.obolibrary.org/obo/MP_0002809	increased spinal cord size	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
+http://purl.obolibrary.org/obo/MP_0014347	increased spleen B cell follicle size	http://purl.obolibrary.org/obo/UBERON_0001249	spleen lymphoid follicle
 http://purl.obolibrary.org/obo/MP_0008483	increased spleen germinal center size	http://purl.obolibrary.org/obo/UBERON_0005196	spleen germinal center
 http://purl.obolibrary.org/obo/MP_0012098	increased spongiotrophoblast size	http://purl.obolibrary.org/obo/UBERON_0004021	spongiotrophoblast layer
 http://purl.obolibrary.org/obo/MP_0020555	increased stria medullaris size	http://purl.obolibrary.org/obo/UBERON_0006086	stria medullaris
@@ -211,7 +231,7 @@ http://purl.obolibrary.org/obo/MP_0008420	increased thyrotroph cell size	http://
 http://purl.obolibrary.org/obo/MP_0009906	increased tongue size	http://purl.obolibrary.org/obo/UBERON_0001723	tongue
 http://purl.obolibrary.org/obo/MP_0030901	increased ulna size	http://purl.obolibrary.org/obo/UBERON_0001424	ulna
 http://purl.obolibrary.org/obo/MP_0020559	increased ventromedial hypothalamic nucleus size	http://purl.obolibrary.org/obo/UBERON_0001935	ventromedial nucleus of hypothalamus
-http://purl.obolibrary.org/obo/MP_0009118	increased white fat cell size	http://purl.obolibrary.org/obo/CL_0000448	white fat cell
+http://purl.obolibrary.org/obo/MP_0009118	increased white fat cell size	http://purl.obolibrary.org/obo/CL_0000448	white adipocyte
 http://purl.obolibrary.org/obo/MP_0000085	large anterior fontanelle	http://purl.obolibrary.org/obo/UBERON_0002510	anterior fontanel
 http://purl.obolibrary.org/obo/MP_0030432	large cranial foramen ovale	http://purl.obolibrary.org/obo/UBERON_0001698	foramen ovale of skull
 http://purl.obolibrary.org/obo/MP_0030068	large face	http://purl.obolibrary.org/obo/UBERON_0001456	face
