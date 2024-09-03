@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                26b5275bcc5e1d021621a0a98df3d536bc2fd0c6f585064843fd5e96ae771ca5
+CONFIG_HASH=                da70a89e66db1af71a305902dec3b09146abf43e18504ab285c2597d35318653
 
 
 # ----------------------------------------
@@ -71,7 +71,7 @@ MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.ts
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-bridge upheno-equivalence-model upheno-old-model upheno-curated )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-basic $(ONT)-full upheno-base-with-bridge upheno-equivalence-model upheno-old-model upheno-curated )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -936,12 +936,6 @@ upheno-base-with-bridge.json: upheno-base-with-bridge.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
-upheno-bridge.obo: upheno-bridge.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-upheno-bridge.json: upheno-bridge.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json &&\
-		mv $@.tmp.json $@
 upheno-equivalence-model.obo: upheno-equivalence-model.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 upheno-equivalence-model.json: upheno-equivalence-model.owl
@@ -1023,9 +1017,6 @@ $(ONT)-basic.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(KEEPRELATION
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
 upheno-base-with-bridge.owl:
-	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
-
-upheno-bridge.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in upheno.Makefile!" && false
 
 upheno-equivalence-model.owl:

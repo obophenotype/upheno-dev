@@ -256,7 +256,6 @@ release_artefacts:
   - basic
   - full
   - custom-upheno-base-with-bridge
-  - custom-upheno-bridge
   - custom-upheno-equivalence-model
   - custom-upheno-old-model
   - custom-upheno-curated
