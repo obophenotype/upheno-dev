@@ -279,6 +279,8 @@ export_formats:
   - json
 robot_plugins:
   plugins:
+    - name: upheno
+      mirror_from: https://github.com/monarch-initiative/monarch-robot-plugins/releases/latest/download/monarch-robot-extensions.jar
     - name: sssom
       mirror_from: https://github.com/gouttegd/sssom-java/releases/download/sssom-java-0.9.0/sssom-robot-plugin-0.9.0.jar
 import_group:
@@ -298,6 +300,12 @@ import_group:
     - <http://purl.obolibrary.org/obo/WBls_*>
     - <http://purl.obolibrary.org/obo/ZFA_*>
     - <http://purl.obolibrary.org/obo/PLANA_*>
+    - <http://purl.obolibrary.org/obo/FBbt_*>
+    - <http://purl.obolibrary.org/obo/FBdv_*>
+    - <http://purl.obolibrary.org/obo/PCO_*>
+    - <http://purl.obolibrary.org/obo/NCIT_*>
+    - <http://purl.obolibrary.org/obo/BTO_*>
+    - <http://www.ebi.ac.uk/efo/EFO_*>
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/SO_*>
     - <http://purl.obolibrary.org/obo/cl#abbreviation*>
