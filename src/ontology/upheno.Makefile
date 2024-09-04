@@ -56,6 +56,24 @@ $(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.c
 $(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
 	sssom convert -i $< -O owl -o $@
 
+%.db: %.owl
+	@rm -f $*.db
+	@rm -f .template.db
+	@rm -f .template.db.tmp
+	@rm -f $*-relation-graph.tsv.gz
+	RUST_BACKTRACE=full semsql make $*.db -P config/prefixes.csv
+	@rm -f .template.db
+	@rm -f .template.db.tmp
+	@rm -f $*-relation-graph.tsv.gz
+	@test -f $*.db || (echo "Error: File not found!" && exit 1)
+
+.PRECIOUS: %.db
+
+semsim/upheno-0.4.semsimian.tsv: upheno.db $(IMPORTDIR)/all_phenotype_terms.txt
+	runoak --stacktrace -vvv -i semsimian:sqlite:upheno.db similarity -p i \
+	--set1-file $(IMPORTDIR)/all_phenotype_terms.txt \
+	--set2-file $(IMPORTDIR)/all_phenotype_terms.txt \
+	--min-jaccard-similarity 0.4 -O csv -o $@
 
 custom_reports: $(REPORTDIR)/upheno-associated-entities.csv \
     $(REPORTDIR)/upheno-eq-analysis.csv
@@ -89,25 +107,25 @@ $(EDIT_PREPROCESSED): $(SRC)
 
 upheno-old-model.owl: $(TMPDIR)/upheno-old-metazoa.owl
 	$(ROBOT) remove -i $< --axioms DisjointClasses \
-	 remove --axioms DisjointUnion \
-	 remove --axioms DifferentIndividuals \
-	 remove --axioms NegativeObjectPropertyAssertion \
-	 remove --axioms NegativeDataPropertyAssertion \
-	 remove --axioms FunctionalObjectProperty \
-	 remove --axioms InverseFunctionalObjectProperty \
-	 remove --axioms ReflexiveObjectProperty \
-	 remove --axioms IrrefexiveObjectProperty \
-	 remove --axioms DisjointObjectProperties \
-	 remove --axioms FunctionalDataProperty \
-	 remove --axioms DisjointDataProperties \
-	 remove --term owl:Nothing \
-	 remove --axioms "annotation" \
-	 reason --reasoner ELK \
-	 filter \
-	    --term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
-	    --select "self descendants equivalents" \
-	 annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
-	 -o $@
+		remove --axioms DisjointUnion \
+		remove --axioms DifferentIndividuals \
+		remove --axioms NegativeObjectPropertyAssertion \
+		remove --axioms NegativeDataPropertyAssertion \
+		remove --axioms FunctionalObjectProperty \
+		remove --axioms InverseFunctionalObjectProperty \
+		remove --axioms ReflexiveObjectProperty \
+		remove --axioms IrrefexiveObjectProperty \
+		remove --axioms DisjointObjectProperties \
+		remove --axioms FunctionalDataProperty \
+		remove --axioms DisjointDataProperties \
+		remove --term owl:Nothing \
+		remove --axioms "annotation" \
+		reason --reasoner ELK \
+		filter \
+			--term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
+			--select "self descendants equivalents" \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		-o $@
 
 upheno-curated.owl: upheno-basic.owl
 	$(ROBOT) merge -i upheno-basic.owl \
@@ -194,9 +212,36 @@ $(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independ
 ###### Import preparation ##########
 ####################################
 
+$(IMPORTDIR)/all_phenotype_terms.txt: mirror/merged.owl
+	$(ROBOT) query -f csv -i $< --query ../sparql/all_phenotype_terms.sparql $@
+	sed -i 's/[?]//g' $@
+	sed -i 's/http:[/][/]purl[.]obolibrary[.]org[/]obo[/]//g' $@
+	sed -i 's/_/:/g' $@
+	
+
+$(IMPORTDIR)/merged_terms_combined.txt: $(ALL_TERMS_COMBINED) $(IMPORTDIR)/all_phenotype_terms.txt
+	if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
+
+ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 ifeq ($(strip $(MERGE_MIRRORS)),true)
 $(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
 	$(ROBOT) merge $(patsubst %, -i %, $(ALL_MIRRORS)) \
+		upheno:extract-upheno-relations \
+			--root-phenotype UPHENO:0001001 \
+			--root-phenotype MP:0000001 \
+			--root-phenotype HP:0000118 \
+			--root-phenotype WBPhenotype:0000886 \
+			--root-phenotype XPO:00000000 \
+			--root-phenotype XPO:0000000 \
+			--root-phenotype PLANP:00000000 \
+			--root-phenotype ZP:0000000 \
+			--root-phenotype FBcv:0001347 \
+			--root-phenotype FYPO:0000001 \
+			--root-phenotype DDPHENO:0010000 \
+			--root-phenotype PHIPO:0000505 \
+			--root-phenotype MGPO:0001001 \
+			--root-phenotype APO:0000017 \
+			--relation UPHENO:0000003 --relation UPHENO:0000001 \
 		remove --axioms disjoint --preserve-structure false remove --term http://www.w3.org/2002/07/owl#Nothing --axioms logical --preserve-structure false \
 		remove --term RO:0000052 --term RO:0002314 --axioms tbox --preserve-structure false \
 		remove --axioms equivalent --preserve-structure false \
