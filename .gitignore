@@ -240,3 +240,7 @@ upheno-old-model.owl
 upheno.json
 upheno.obo
 upheno.owl
+src/ontology/upheno.db
+src/ontology/semsim/upheno-0.4.semsimian.tsv
+src/ontology/imports/all_phenotype_terms.txt
+src/ontology/config/prefixes.csv

@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                da70a89e66db1af71a305902dec3b09146abf43e18504ab285c2597d35318653
+CONFIG_HASH=                6d08c1892cf5022d04f85e26f8e689356a8bac275e24f2e6cb105e7d2097bb56
 
 
 # ----------------------------------------
@@ -133,7 +133,7 @@ custom_robot_plugins:
 
 
 .PHONY: extra_robot_plugins
-extra_robot_plugins:  $(ROBOT_PLUGINS_DIRECTORY)/sssom.jar 
+extra_robot_plugins:  $(ROBOT_PLUGINS_DIRECTORY)/upheno.jar  $(ROBOT_PLUGINS_DIRECTORY)/sssom.jar 
 
 
 # Install all ROBOT plugins to the runtime plugins directory
@@ -152,6 +152,9 @@ $(ROBOT_PLUGINS_DIRECTORY)/%.jar:
 	fi
 
 # Specific rules for supplementary plugins defined in configuration
+
+$(ROBOT_PLUGINS_DIRECTORY)/upheno.jar:
+	curl -L -o $@ https://github.com/monarch-initiative/monarch-robot-plugins/releases/latest/download/monarch-robot-extensions.jar
 
 $(ROBOT_PLUGINS_DIRECTORY)/sssom.jar:
 	curl -L -o $@ https://github.com/gouttegd/sssom-java/releases/download/sssom-java-0.9.0/sssom-robot-plugin-0.9.0.jar
@@ -393,7 +396,7 @@ $(IMPORTDIR)/merged_terms_combined.txt: $(ALL_TERMS_COMBINED)
 
 $(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(IMPORTDIR)/merged_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
-		remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/XAO_*>" remove  --select "<http://purl.obolibrary.org/obo/WBbt_*>" remove  --select "<http://purl.obolibrary.org/obo/DDANAT_*>" remove  --select "<http://purl.obolibrary.org/obo/CHEBItemp_*>" remove  --select "<http://purl.obolibrary.org/obo/WBls_*>" remove  --select "<http://purl.obolibrary.org/obo/ZFA_*>" remove  --select "<http://purl.obolibrary.org/obo/PLANA_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/SO_*>" remove  --select "<http://purl.obolibrary.org/obo/cl#abbreviation*>" remove  --select "<http://purl.obolibrary.org/obo/cl#added_for_HCA*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#LATIN*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PLURAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SENSU*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>"  \
+		remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/XAO_*>" remove  --select "<http://purl.obolibrary.org/obo/WBbt_*>" remove  --select "<http://purl.obolibrary.org/obo/DDANAT_*>" remove  --select "<http://purl.obolibrary.org/obo/CHEBItemp_*>" remove  --select "<http://purl.obolibrary.org/obo/WBls_*>" remove  --select "<http://purl.obolibrary.org/obo/ZFA_*>" remove  --select "<http://purl.obolibrary.org/obo/PLANA_*>" remove  --select "<http://purl.obolibrary.org/obo/FBbt_*>" remove  --select "<http://purl.obolibrary.org/obo/FBcv_*>" remove  --select "<http://purl.obolibrary.org/obo/PCO_*>" remove  --select "<http://purl.obolibrary.org/obo/NCIT_*>" remove  --select "<http://purl.obolibrary.org/obo/BTO_*>" remove  --select "<http://www.ebi.ac.uk/efo/EFO_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/SO_*>" remove  --select "<http://purl.obolibrary.org/obo/cl#abbreviation*>" remove  --select "<http://purl.obolibrary.org/obo/cl#added_for_HCA*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#LATIN*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PLURAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SENSU*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>"  \
 		extract -T $(IMPORTDIR)/merged_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
 		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/merged_terms_combined.txt --select complement --select annotation-properties \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
