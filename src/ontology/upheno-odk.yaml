@@ -265,6 +265,8 @@ sssom_mappingset_group:
       maintenance: manual
     - id: upheno-species-independent
       maintenance: manual
+    - id: upheno-lexical
+      maintenance: manual
     - id: upheno-cross-species
       maintenance: manual
     - id: nbo-go

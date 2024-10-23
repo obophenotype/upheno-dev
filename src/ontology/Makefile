@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                1e77a49593b43cb269ead22e0f03aa7e85284fb88e0e8b01cb02248f733fccd6
+CONFIG_HASH=                bd81b2a27db2a8712339e7c75ddfc54af797ede910a207485ad4179a01f54550
 
 
 # ----------------------------------------
@@ -65,7 +65,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 MAPPINGDIR=                 ../mappings
 MAPPING_TESTER=             sssom validate
 SSSOMPY=                    sssom
-MAPPINGS=                   upheno-oba upheno-species-independent upheno-cross-species nbo-go uberon 
+MAPPINGS=                   upheno-oba upheno-species-independent upheno-lexical upheno-cross-species nbo-go uberon 
 MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
 
 
@@ -205,7 +205,7 @@ all_subsets: $(SUBSET_FILES)
 # ----------------------------------------
 
 
-MAPPINGS =  upheno-oba upheno-species-independent upheno-cross-species nbo-go uberon
+MAPPINGS =  upheno-oba upheno-species-independent upheno-lexical upheno-cross-species nbo-go uberon
 
 MAPPING_FILES = $(patsubst %, $(MAPPINGDIR)/%.sssom.tsv, $(MAPPINGS))
 
@@ -891,6 +891,10 @@ $(MAPPINGDIR)/upheno-oba.sssom.tsv:
 
 # This mappingset is manually curated, so we only check that the file actually exists.
 $(MAPPINGDIR)/upheno-species-independent.sssom.tsv:
+	test -f $@
+
+# This mappingset is manually curated, so we only check that the file actually exists.
+$(MAPPINGDIR)/upheno-lexical.sssom.tsv:
 	test -f $@
 
 # This mappingset is manually curated, so we only check that the file actually exists.

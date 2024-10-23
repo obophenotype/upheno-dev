@@ -1,12 +1,33 @@
 
 SSPOS = mp hp zp dpo wbphenotype xpo planp ddpheno fypo apo mgpo phipo
 
+%.db: %.owl
+	@rm -f $*.db
+	@rm -f .template.db
+	@rm -f .template.db.tmp
+	@rm -f $*-relation-graph.tsv.gz
+	RUST_BACKTRACE=full semsql make $*.db -P config/prefixes.csv
+	@rm -f .template.db
+	@rm -f .template.db.tmp
+	@rm -f $*-relation-graph.tsv.gz
+	@test -f $*.db || (echo "Error: File not found!" && exit 1)
+
+.PRECIOUS: %.db
+
 ###############################
 #### Mappings and reports #####
 ###############################
 
 $(TMPDIR)/upheno-species-lexical.csv: upheno.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/phenotype-classes-labels.sparql $@
+
+$(TMPDIR)/upheno-species-lexical-oak.sssom.tsv: upheno.db
+	runoak -i sqlite:$< lexmatch -R config/upheno-match-rules.yaml -o $@
+
+# Currently only the oak lexical match is used for the upheno-lexical.sssom.tsv
+# Should this be a merge of the upheno-species-independent.sssom.tsv and oak lexical match?
+$(MAPPINGDIR)/upheno-lexical.sssom.tsv: $(TMPDIR)/upheno-species-lexical-oak.sssom.tsv
+	sssom filter $< -o $@ --predicate_id skos:exactMatch
 
 $(TMPDIR)/upheno-mapping-logical.csv: upheno.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/cross-species-mappings.sparql $@
@@ -18,8 +39,8 @@ $(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
 	#$(ROBOT) query -i tmp/mat_upheno.owl -f csv --query ../sparql/phenotype_entity_associations.sparql $@
 	touch $@
 
-$(MAPPINGDIR)/upheno-oba.sssom.tsv: upheno.owl
-	robot query -i $< --query ../sparql/pheno_trait.sparql $@
+$(MAPPINGDIR)/upheno-oba.sssom.tsv: #upheno.owl
+	robot query -i upheno.owl --query ../sparql/pheno_trait.sparql $@
 	sed -i 's/[?]//g' $@
 	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
 	sed -i 's/>//g' $@
@@ -55,19 +76,6 @@ $(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.c
 
 $(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
 	sssom convert -i $< -O owl -o $@
-
-%.db: %.owl
-	@rm -f $*.db
-	@rm -f .template.db
-	@rm -f .template.db.tmp
-	@rm -f $*-relation-graph.tsv.gz
-	RUST_BACKTRACE=full semsql make $*.db -P config/prefixes.csv
-	@rm -f .template.db
-	@rm -f .template.db.tmp
-	@rm -f $*-relation-graph.tsv.gz
-	@test -f $*.db || (echo "Error: File not found!" && exit 1)
-
-.PRECIOUS: %.db
 
 semsim/upheno-0.4.semsimian.tsv: upheno.db $(IMPORTDIR)/all_phenotype_terms.txt
 	runoak --stacktrace -vvv -i semsimian:sqlite:upheno.db similarity -p i \
