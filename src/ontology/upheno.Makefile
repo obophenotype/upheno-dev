@@ -90,7 +90,9 @@ custom_reports: $(REPORTDIR)/upheno-associated-entities.csv \
 ####### uPheno release artefacts #########
 ##########################################
 
-$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl: upheno.owl $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv
+# $(MAPPINGDIR)/upheno-cross-species.sssom.tsv is a dependency here because that goal
+# is responsible for generating $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv as well
+$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl: upheno.owl $(MAPPINGDIR)/upheno-cross-species.sssom.tsv
 	$(ROBOT) template -i $< --merge-before --template $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv \
    		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: .$(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl
