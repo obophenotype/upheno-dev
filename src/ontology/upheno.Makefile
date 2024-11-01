@@ -39,11 +39,21 @@ $(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
 	#$(ROBOT) query -i tmp/mat_upheno.owl -f csv --query ../sparql/phenotype_entity_associations.sparql $@
 	touch $@
 
-$(MAPPINGDIR)/upheno-oba.sssom.tsv: #upheno.owl
-	robot query -i upheno.owl --query ../sparql/pheno_trait.sparql $@
-	sed -i 's/[?]//g' $@
-	sed -i 's/<http:[/][/]purl[.]obolibrary[.]org[/]obo[/]/obo:/g' $@
-	sed -i 's/>//g' $@
+$(TMPDIR)/oba.owl:
+	wget -O $@ "http://purl.obolibrary.org/obo/oba.owl"
+
+$(TMPDIR)/upheno-oba.owl: #upheno.owl $(TMPDIR)/oba.owl $(COMPONENTSDIR)/upheno-haspart-characteristicofpartof-chain.owl
+	$(ROBOT) merge -i upheno.owl -i $(TMPDIR)/oba.owl -i $(COMPONENTSDIR)/upheno-haspart-characteristicofpartof-chain.owl \
+		remove --axioms DisjointClasses \
+		materialize --term BFO:0000051 \
+		query --update ../sparql/pheno_trait.ru \
+		reason -o $@
+
+$(TMPDIR)/upheno-oba.json: $(TMPDIR)/upheno-oba.owl
+	$(ROBOT) convert -i $(TMPDIR)/upheno-oba.owl -o $@
+
+$(MAPPINGDIR)/upheno-oba.sssom.tsv: $(TMPDIR)/upheno-oba.json
+	sssom parse $(TMPDIR)/upheno-oba.json -I obographs-json -C merged -F UPHENO:phenotypeToTrait -o $@
 
 $(MAPPINGDIR)/uberon.sssom.tsv: mirror/uberon.owl
 	if [ $(COMP) = true ] ; then $(ROBOT) sssom:xref-extract -i $< --mapping-file $@ --map-prefix-to-predicate "UBERON http://w3id.org/semapv/vocab/crossSpeciesExactMatch"; fi
