@@ -819,7 +819,7 @@ def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, anatomy_mappin
                 converter.compress(upheno_id),
                 "semapv:crossSpeciesExactMatch",
                 converter.compress(species_specific_id),
-                "semapv:LogicalMatching"
+                "semapv:LogicalReasoning"
             ])
 
     df_out = pd.DataFrame(sssom, columns=['subject_id', 'predicate_id', 'object_id', 'mapping_justification'])
@@ -2118,7 +2118,7 @@ class LexicalMapping:
         df_m["mapping_justification"] = df_m["cat"].map(
             {
                 "lexical": "semapv:LexicalMatching",
-                "logical": "semapv:LogicalMatching",
+                "logical": "semapv:LogicalReasoning",
                 "lexical-logical": "semapv:LexicalAndLogicalMatching",
             }
         )
