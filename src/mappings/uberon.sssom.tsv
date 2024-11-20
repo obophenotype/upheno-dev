@@ -25070,6 +25070,9 @@ UBERON:8410023	right colic artery	semapv:crossSpeciesExactMatch	FMA:14811	semapv
 UBERON:8410037	high endothelial venule	skos:narrowMatch	NCIT:C32739	semapv:UnspecifiedMatching
 UBERON:8410070	levator costarum	semapv:crossSpeciesExactMatch	FMA:71312	semapv:UnspecifiedMatching
 UBERON:8410078	right lymphatic duct	semapv:crossSpeciesExactMatch	FMA:5832	semapv:UnspecifiedMatching
+UBERON:8420001	ethmoidal vein	semapv:crossSpeciesExactMatch	FMA:51770	semapv:UnspecifiedMatching
+UBERON:8420002	anterior ethmoidal vein	semapv:crossSpeciesExactMatch	FMA:51771	semapv:UnspecifiedMatching
+UBERON:8420003	posterior ethmoidal vein	semapv:crossSpeciesExactMatch	FMA:51772	semapv:UnspecifiedMatching
 UBERON:8480045	subiliac lymph node	semapv:crossSpeciesExactMatch	FMA:323407	semapv:UnspecifiedMatching
 UBERON:8480048	calf	semapv:crossSpeciesExactMatch	FMA:24984	semapv:UnspecifiedMatching
 UBERON:8480049	front hindlimb zeugopod	semapv:crossSpeciesExactMatch	FMA:24985	semapv:UnspecifiedMatching
@@ -25122,4 +25125,13 @@ UBERON:8600102	left anterior descending artery	semapv:crossSpeciesExactMatch	FMA
 UBERON:8600103	anterior internal vertebral venous plexus	semapv:crossSpeciesExactMatch	FMA:4869	semapv:UnspecifiedMatching
 UBERON:8600104	intervertebral vein	semapv:crossSpeciesExactMatch	FMA:76736	semapv:UnspecifiedMatching
 UBERON:8600105	lumbar vein	semapv:crossSpeciesExactMatch	FMA:70889	semapv:UnspecifiedMatching
+UBERON:8600106	anterior humeral circumflex artery	semapv:crossSpeciesExactMatch	FMA:22680	semapv:UnspecifiedMatching
+UBERON:8600107	posterior humeral circumflex artery	semapv:crossSpeciesExactMatch	FMA:22684	semapv:UnspecifiedMatching
+UBERON:8600108	proximal ureter	semapv:crossSpeciesExactMatch	FMA:15882	semapv:UnspecifiedMatching
+UBERON:8600109	distal ureter	semapv:crossSpeciesExactMatch	FMA:15883	semapv:UnspecifiedMatching
+UBERON:8600110	intramural ureter	semapv:crossSpeciesExactMatch	FMA:77289	semapv:UnspecifiedMatching
+UBERON:8600111	right distal ureter	semapv:crossSpeciesExactMatch	FMA:15886	semapv:UnspecifiedMatching
+UBERON:8600112	left distal ureter	semapv:crossSpeciesExactMatch	FMA:15887	semapv:UnspecifiedMatching
+UBERON:8600113	right proximal ureter	semapv:crossSpeciesExactMatch	FMA:15884	semapv:UnspecifiedMatching
+UBERON:8600114	left proximal ureter	semapv:crossSpeciesExactMatch	FMA:15885	semapv:UnspecifiedMatching
 UBERON:8850000	lumen of pulmonary alveolus	semapv:crossSpeciesExactMatch	FMA:62779	semapv:UnspecifiedMatching
