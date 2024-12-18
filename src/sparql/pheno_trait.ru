@@ -15,16 +15,19 @@ INSERT {
 
 WHERE 
 {
-  ?subject_id a owl:Class;
-          rdfs:label ?subject_label;
-          rdfs:subClassOf+ <http://purl.obolibrary.org/obo/UPHENO_0001001> ;
-          rdfs:subClassOf+ [
-               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
-               owl:someValuesFrom ?object_id ] .
-  
-  ?object_id a owl:Class;
-          rdfs:label ?object_label;
-          rdfs:subClassOf+ <http://purl.obolibrary.org/obo/OBA_0000001> .
+  ?subject_id 
+        rdfs:subClassOf+ <http://purl.obolibrary.org/obo/UPHENO_0001001> ;
+        rdfs:subClassOf+ [
+                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
+                owl:someValuesFrom ?object_id ] .
+  ?object_id rdfs:subClassOf+ <http://purl.obolibrary.org/obo/OBA_0000001> .
+
+#  FILTER NOT EXISTS {
+#        ?object_id_more_specific rdfs:subClassOf ?object_id .
+#        ?subject_id rdfs:subClassOf+ [
+#                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
+#                owl:someValuesFrom ?object_id_more_specific ] .
+#  }
 
  FILTER( !isBlank(?subject_id))
  FILTER( !isBlank(?object_id))

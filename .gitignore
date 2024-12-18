@@ -247,3 +247,4 @@ src/ontology/config/prefixes.csv
 src/ontology/upheno-test.db
 src/ontology/upheno-test.owl
 upheno-test.owl
+src/mappings/upheno-oba.kgx
