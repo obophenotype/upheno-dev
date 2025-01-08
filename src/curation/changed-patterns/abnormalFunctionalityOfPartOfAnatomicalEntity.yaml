@@ -7,7 +7,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 def:
-  text: Any functional anomaly of the %s.
+  text: Any functional anomaly of the %s or one of its parts.
   vars:
   - anatomical_entity
 description: ''
