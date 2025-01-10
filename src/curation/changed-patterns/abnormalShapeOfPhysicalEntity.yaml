@@ -2,7 +2,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 annotations:
 - annotationProperty: exact_synonym
-  text: shaped %s
+  text: misshaped %s
   vars:
   - entity
 classes:
