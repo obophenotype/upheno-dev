@@ -1009,12 +1009,13 @@ def export_yaml(data, fn):
         yaml.dump(data, outfile)
 
 
-def get_all_patterns_as_yml(pattern_directory_path):
+def get_all_patterns_as_yml(pattern_directory_path, ignore_modified=False):
     all_configs = []
     for pattern_file_path in glob.glob(pattern_directory_path + '*.yaml'):
-        with open(pattern_file_path, 'r') as pattern_file:
-            y = yaml.safe_load(pattern_file)
-            all_configs.append(y)
+        if not pattern_file_path.endswith("-modified.yaml") or not ignore_modified:
+            with open(pattern_file_path, 'r') as pattern_file:
+                y = yaml.safe_load(pattern_file)
+                all_configs.append(y)
     return all_configs
 
 
@@ -1090,8 +1091,16 @@ def update_abnormal_patterns_to_changed(all_configs, replacements):
 
 def write_patterns_to_file(updated_patterns, changed_pattern_directory_path):
     for pattern in updated_patterns:
-        with open(changed_pattern_directory_path + pattern['pattern_name'] + '.yaml', 'w') as pattern_file:
-            yaml.dump(pattern, pattern_file, default_flow_style=False)
+        if 'pattern_name' in pattern:
+            pattern_name = f"{changed_pattern_directory_path}{pattern['pattern_name']}"
+            print(f"Processing {pattern_name}")
+            if not pattern_name.endswith(".yaml"):
+                pattern_name += ".yaml"
+            with open(pattern_name, 'w') as pattern_file:
+                yaml.dump(pattern, pattern_file, default_flow_style=False)    
+        else:
+            print(f"Pattern does not have a pattern_name field: {pattern}")
+    
 
 
 def get_taxon_restriction_table(ids, upheno_config):
@@ -1803,7 +1812,13 @@ def compute_upheno_stats(upheno_config, pattern_dir, matches_dir, stats_dir):
     df_pheno.to_csv(os.path.join(stats_dir, "upheno-eq-analysis.csv"))
 
 
-def generate_rewritten_patterns(upheno_patterns_main_dir, pattern_dir, upheno_patterns_dir):
+def generate_rewritten_patterns(patterns_directory, upheno_patterns_dir):
+    """_summary_
+
+    Args:
+        pattern_dir (str): All SSPO patterns
+        upheno_patterns_dir (str): Output directory for the rewritten patterns
+    """
     replacements = {
         "Abnormal change": "UHAUIYHIUHIUH",
         "abnormal bending": "bending",
@@ -1847,9 +1862,7 @@ def generate_rewritten_patterns(upheno_patterns_main_dir, pattern_dir, upheno_pa
         "UHAUIYHIUHIUH": "Phenotypic change"
     }
 
-    all_configs_main = get_all_patterns_as_yml(upheno_patterns_main_dir)
-    all_configs_upheno = get_all_patterns_as_yml(pattern_dir)
-    all_configs_main.extend(all_configs_upheno)
+    all_configs_main = get_all_patterns_as_yml(patterns_directory, ignore_modified=True)    
     updated_patterns, changes = update_abnormal_patterns_to_changed(all_configs_main, replacements)
     write_patterns_to_file(updated_patterns, upheno_patterns_dir)
 

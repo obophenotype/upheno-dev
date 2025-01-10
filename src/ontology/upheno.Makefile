@@ -288,6 +288,27 @@ merge_modified_patterns:
 		--patterns-directory ../curation/patterns-for-matching \
 		--fillers-directory ../curation/upheno-fillers
 
+download_patterns:
+	python3 ../scripts/upheno_build.py download-patterns \
+		--upheno-config ../curation/upheno-config.yaml \
+		--pattern-directory ../curation/patterns-for-matching
+
+
+preprocess_dosdp_patterns:
+	python3 ../scripts/upheno_build.py preprocess-dosdp-patterns \
+		--patterns-directory ../curation/patterns-for-matching/ \
+		--processed-patterns-directory ../curation/changed-patterns/
+
+update_dosdp_patterns_for_generation:
+	rm -rf ../patterns/dosdp-patterns/*.yaml
+	cp ../curation/changed-patterns/*.yaml ../patterns/dosdp-patterns/
+	cp ../patterns/dosdp-patterns-curated/*.yaml ../patterns/dosdp-patterns/
+
+full_patterns_pipeline:
+	#$(MAKE) download_patterns -B
+	$(MAKE) preprocess_dosdp_patterns -B
+	$(MAKE) update_dosdp_patterns_for_generation -B
+
 FILE_TO_OBSOLETE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=368192736&single=true&output=tsv"
 
 tmp/to_obsolete.tsv:
