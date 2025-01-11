@@ -215,6 +215,8 @@ $(TEMPLATEDIR)/phenotype-top-level.tsv:
 $(TEMPLATEDIR)/root-alignments.tsv:
 	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1260598340&single=true&output=tsv" -O $@
 
+$(TEMPLATEDIR)/axiom-injections.tsv:
+	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vRx0gi2I-Ks14LGNibiy6YzW-3A45_jZOnYsBNmaIjF3M8vrXboJwBYle525RXVscXhGGlOzGe05VhX/pub?gid=1825106877&single=true&output=tsv" -O $@
 
 $(COMPONENTSDIR)/upheno-species-neutral.owl:
 	$(ROBOT) merge -i ../curation/upheno-release-prepare/all/upheno_layer.owl \
@@ -231,6 +233,12 @@ $(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independ
 ####################################
 ###### Import preparation ##########
 ####################################
+
+# go has to be relaxed before it can be merged
+mirror-go: | $(TMPDIR)
+	curl -L $(OBOBASE)/go/go-base.owl --create-dirs -o $(TMPDIR)/go-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) relax -i $(TMPDIR)/go-download.owl convert -o $(TMPDIR)/$@.owl
+
 
 $(IMPORTDIR)/all_phenotype_terms.txt: mirror/merged.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/all_phenotype_terms.sparql $@
@@ -328,3 +336,27 @@ obsolete_fillers:
 base_report:
 	$(MAKE) IMP=false PAT=false MIR=false upheno-base.owl -B
 	$(ROBOT) report -i upheno-base.owl $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --print 5 -o tmp/$@.tsv
+
+#################################
+## Patterns managed on GDocs ####
+#################################
+
+abnormalCellularComponent=https://docs.google.com/spreadsheets/d/e/2PACX-1vRx0gi2I-Ks14LGNibiy6YzW-3A45_jZOnYsBNmaIjF3M8vrXboJwBYle525RXVscXhGGlOzGe05VhX/pub?gid=1218954488&single=true&output=tsv
+
+$(PATTERNDIR)/data/automatic/abnormalCellularComponent.tsv:
+	wget "$(abnormalCellularComponent)" -O $@
+
+prepare_release:
+	@echo "WARNING WARNING WARNING: DO NOT USE THIS COMMAND, use sh prepare_release.sh instead!"
+
+.PHONY: prepare_release_customised
+prepare_release_customised: all_odk
+	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR) &&\
+	mkdir -p $(RELEASEDIR)/patterns && cp -rf $(PATTERN_RELEASE_FILES) $(RELEASEDIR)/patterns &&\
+	rm -f $(CLEANFILES) &&\
+	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release \
+        on your git hosting site such as GitHub or GitLab"
+
+.PHONY: prepare_release_fast
+prepare_release_fast:
+	$(MAKE) prepare_release_customised IMP=false PAT=false MIR=false COMP=false
