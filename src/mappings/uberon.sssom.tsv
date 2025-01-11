@@ -202,7 +202,6 @@ UBERON:0000033	head	semapv:crossSpeciesExactMatch	TAO:0001114	semapv:Unspecified
 UBERON:0000033	head	semapv:crossSpeciesExactMatch	TGMA:0000002	semapv:UnspecifiedMatching
 UBERON:0000033	head	semapv:crossSpeciesExactMatch	WBbt:0005739	semapv:UnspecifiedMatching
 UBERON:0000033	head	semapv:crossSpeciesExactMatch	XAO:0003024	semapv:UnspecifiedMatching
-UBERON:0000033	head	semapv:crossSpeciesExactMatch	ZFA:0001114	semapv:UnspecifiedMatching
 UBERON:0000035	primary ovarian follicle	semapv:crossSpeciesExactMatch	EMAPA:35631	semapv:UnspecifiedMatching
 UBERON:0000035	primary ovarian follicle	semapv:crossSpeciesExactMatch	FMA:18634	semapv:UnspecifiedMatching
 UBERON:0000035	primary ovarian follicle	semapv:crossSpeciesExactMatch	MA:0002907	semapv:UnspecifiedMatching
@@ -7092,7 +7091,6 @@ UBERON:0002043	dorsal raphe nucleus	semapv:crossSpeciesExactMatch	EMAPA:35293	se
 UBERON:0002043	dorsal raphe nucleus	semapv:crossSpeciesExactMatch	FMA:68462	semapv:UnspecifiedMatching
 UBERON:0002043	dorsal raphe nucleus	semapv:crossSpeciesExactMatch	MA:0002980	semapv:UnspecifiedMatching
 UBERON:0002043	dorsal raphe nucleus	semapv:crossSpeciesExactMatch	TAO:0000366	semapv:UnspecifiedMatching
-UBERON:0002043	dorsal raphe nucleus	semapv:crossSpeciesExactMatch	ZFA:0000366	semapv:UnspecifiedMatching
 UBERON:0002044	ventral nucleus of posterior commissure	semapv:crossSpeciesExactMatch	EMAPA:35597	semapv:UnspecifiedMatching
 UBERON:0002044	ventral nucleus of posterior commissure	semapv:crossSpeciesExactMatch	FMA:68464	semapv:UnspecifiedMatching
 UBERON:0002044	ventral nucleus of posterior commissure	semapv:crossSpeciesExactMatch	MA:0001072	semapv:UnspecifiedMatching
@@ -8532,7 +8530,6 @@ UBERON:0002323	coelemic cavity lumen	skos:narrowMatch	NCIT:C25444	semapv:Unspeci
 UBERON:0002323	coelemic cavity lumen	semapv:crossSpeciesExactMatch	EHDAA2:0000267	semapv:UnspecifiedMatching
 UBERON:0002323	coelemic cavity lumen	semapv:crossSpeciesExactMatch	FMA:85006	semapv:UnspecifiedMatching
 UBERON:0002323	coelemic cavity lumen	semapv:crossSpeciesExactMatch	TAO:0001438	semapv:UnspecifiedMatching
-UBERON:0002323	coelemic cavity lumen	semapv:crossSpeciesExactMatch	ZFA:0001438	semapv:UnspecifiedMatching
 UBERON:0002324	muscle of back	semapv:crossSpeciesExactMatch	EMAPA:35161	semapv:UnspecifiedMatching
 UBERON:0002324	muscle of back	semapv:crossSpeciesExactMatch	FMA:85216	semapv:UnspecifiedMatching
 UBERON:0002324	muscle of back	semapv:crossSpeciesExactMatch	MA:0000496	semapv:UnspecifiedMatching
@@ -10408,7 +10405,6 @@ UBERON:0003040	central gray substance of midbrain	semapv:crossSpeciesExactMatch	
 UBERON:0003040	central gray substance of midbrain	semapv:crossSpeciesExactMatch	MA:0000209	semapv:UnspecifiedMatching
 UBERON:0003040	central gray substance of midbrain	semapv:crossSpeciesExactMatch	MA:0002895	semapv:UnspecifiedMatching
 UBERON:0003040	central gray substance of midbrain	semapv:crossSpeciesExactMatch	TAO:0000518	semapv:UnspecifiedMatching
-UBERON:0003040	central gray substance of midbrain	semapv:crossSpeciesExactMatch	ZFA:0000518	semapv:UnspecifiedMatching
 UBERON:0003041	trigeminal nerve fibers	semapv:crossSpeciesExactMatch	FMA:72501	semapv:UnspecifiedMatching
 UBERON:0003043	posterior part of anterior commissure	semapv:crossSpeciesExactMatch	EMAPA:37410	semapv:UnspecifiedMatching
 UBERON:0003043	posterior part of anterior commissure	semapv:crossSpeciesExactMatch	FMA:61964	semapv:UnspecifiedMatching
@@ -18781,6 +18777,7 @@ UBERON:0007811	craniocervical region	skos:narrowMatch	EV:0100009	semapv:Unspecif
 UBERON:0007811	craniocervical region	skos:narrowMatch	NCIT:C12418	semapv:UnspecifiedMatching
 UBERON:0007811	craniocervical region	semapv:crossSpeciesExactMatch	FMA:280881	semapv:UnspecifiedMatching
 UBERON:0007811	craniocervical region	semapv:crossSpeciesExactMatch	MA:0000006	semapv:UnspecifiedMatching
+UBERON:0007811	craniocervical region	semapv:crossSpeciesExactMatch	ZFA:0001114	semapv:UnspecifiedMatching
 UBERON:0007812	post-anal tail	skos:narrowMatch	NCIT:C77663	semapv:UnspecifiedMatching
 UBERON:0007812	post-anal tail	semapv:crossSpeciesExactMatch	AAO:0010338	semapv:UnspecifiedMatching
 UBERON:0007812	post-anal tail	semapv:crossSpeciesExactMatch	MA:0000008	semapv:UnspecifiedMatching
@@ -21424,6 +21421,7 @@ UBERON:0011979	epiphysis of distal phalanx of manus	semapv:crossSpeciesExactMatc
 UBERON:0011996	pharyngeal adductor	semapv:crossSpeciesExactMatch	TAO:0000463	semapv:UnspecifiedMatching
 UBERON:0011996	pharyngeal adductor	semapv:crossSpeciesExactMatch	ZFA:0000463	semapv:UnspecifiedMatching
 UBERON:0011997	coelom	semapv:crossSpeciesExactMatch	EHDAA2:0004731	semapv:UnspecifiedMatching
+UBERON:0011997	coelom	semapv:crossSpeciesExactMatch	ZFA:0001438	semapv:UnspecifiedMatching
 UBERON:0012054	myocoele	skos:broadMatch	VHOG:0001283	semapv:UnspecifiedMatching
 UBERON:0012054	myocoele	semapv:crossSpeciesExactMatch	EMAPA:31134	semapv:UnspecifiedMatching
 UBERON:0012055	left lung lower lobe bronchiole	semapv:crossSpeciesExactMatch	EHDAA2:0000947	semapv:UnspecifiedMatching

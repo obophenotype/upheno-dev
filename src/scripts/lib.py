@@ -788,8 +788,10 @@ def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, anatomy_mappin
         pattern_file = pattern_name + ".yaml"
         id_columns = cache_pattern_file_to_idcolumn.get(pattern_file)
         if id_columns is None:
-            id_columns = get_id_columns(os.path.join(patterns_dir, pattern_file))
-            cache_pattern_file_to_idcolumn[pattern_file] = id_columns
+            pattern_path_new=os.path.join(patterns_dir, pattern_file)
+            if os.path.exists(pattern_path_new):
+                id_columns = get_id_columns(pattern_path_new)
+                cache_pattern_file_to_idcolumn[pattern_file] = id_columns
         if id_columns is None:
             continue
         # print(tokens)
@@ -1826,6 +1828,7 @@ def generate_rewritten_patterns(patterns_directory, upheno_patterns_dir):
         "Abnormal(ly) arrested (of)": "Arrested",
         "abnormal closing": "closing",
         "abnormal coiling": "coiling",
+        "abnormally shaped": "misshaped",
         "abnormal decreased": "decreased",
         "abnormal increased": "increased",
         "abnormal duplication": "duplication",

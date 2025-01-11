@@ -310,6 +310,9 @@ import_group:
     - <http://www.ebi.ac.uk/efo/EFO_*>
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/SO_*>
+    - <http://purl.obolibrary.org/obo/PO_*>
+    - <http://purl.obolibrary.org/obo/FAO_*>
+    - <http://purl.obolibrary.org/obo/CLM_*>
     - <http://purl.obolibrary.org/obo/cl#abbreviation*>
     - <http://purl.obolibrary.org/obo/cl#added_for_HCA*>
     - <http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>
@@ -339,11 +342,13 @@ import_group:
     - id: omo
     - id: nbo
       use_base: TRUE
+    - id: oba
+      use_base: TRUE
     - id: pr
       make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
     - id: go
-      make_base: TRUE
+      use_base: TRUE
     - id: uberon 
       use_base: TRUE
     - id: bspo
@@ -392,11 +397,18 @@ components:
   products:
     - filename: upheno-relations.owl
       description: "Contains all direct relationships to EQ entities."
+    - filename: upheno-special-inference-rules.owl
+      description: "Contains special inference rules for uPheno that are generally wrong. They are removed at the end of the release process."
     - filename: upheno-deprecated.owl
       description: "Contains all the deprecated entities."
       use_template: TRUE
       templates:
         - obsolete.tsv
+    - filename: upheno-axiom-injections.owl
+      description: "Contains correct axioms that should be moved into their respective upstream ontologies."
+      use_template: TRUE
+      templates:
+        - axiom-injections.tsv
     - filename: upheno-top.owl
       description: "Contains all the top-level entity declarations."
       use_template: true

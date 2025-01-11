@@ -13,6 +13,7 @@
 #   MP: http://purl.obolibrary.org/obo/MP_
 #   MPATH: http://purl.obolibrary.org/obo/MPATH_
 #   NBO: http://purl.obolibrary.org/obo/NBO_
+#   OBA: http://purl.obolibrary.org/obo/OBA_
 #   PATO: http://purl.obolibrary.org/obo/PATO_
 #   PHIPO: http://purl.obolibrary.org/obo/PHIPO_
 #   PLANP: http://purl.obolibrary.org/obo/PLANP_
@@ -32,7 +33,7 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/420de1b9-9b82-4057-b7db-d2cd3f1427e6
+# mapping_set_id: https://w3id.org/sssom/mappings/26dbf331-204f-4420-9b1c-045ea3570534
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string	subject_preprocessing	object_preprocessing
 APO:0000023	development	skos:exactMatch	WBPhenotype:0000518	development phenotype	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	development		semapv:RegularExpressionReplacement
 APO:0000027	filamentous growth	skos:exactMatch	GO:0030447	filamentous growth	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	filamentous growth		
@@ -63,10 +64,13 @@ APO:0000049	morphology	skos:exactMatch	PATO:0000051	morphology	semapv:LexicalMat
 APO:0000049	morphology	skos:exactMatch	WBPhenotype:0000520	morphology phenotype	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	morphology		semapv:RegularExpressionReplacement
 APO:0000051	cell shape	skos:exactMatch	FBcv:0000429	abnormal cell shape	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell shape		semapv:RegularExpressionReplacement
 APO:0000051	cell shape	skos:exactMatch	FYPO:0001126	abnormal cell shape	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell shape		semapv:RegularExpressionReplacement
+APO:0000051	cell shape	skos:exactMatch	OBA:0000052	cell shape	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell shape		
 APO:0000052	cell size	skos:exactMatch	FBcv:0000428	abnormal cell size	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell size		semapv:RegularExpressionReplacement
 APO:0000052	cell size	skos:exactMatch	FYPO:0001127	abnormal cell size	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell size		semapv:RegularExpressionReplacement
+APO:0000052	cell size	skos:exactMatch	OBA:0000055	cell size	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell size		
 APO:0000053	cell wall morphology	skos:exactMatch	FYPO:0002947	abnormal cell wall morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell wall morphology		semapv:RegularExpressionReplacement
 APO:0000054	cytoskeleton morphology	skos:exactMatch	FYPO:0003063	abnormal cytoskeleton morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cytoskeleton morphology		semapv:RegularExpressionReplacement
+APO:0000054	cytoskeleton morphology	skos:exactMatch	OBA:1000013	cytoskeleton morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cytoskeleton morphology		
 APO:0000055	mitochondrial morphology	skos:exactMatch	DDPHENO:0001078	aberrant mitochondrion morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mitochondrial morphology		semapv:RegularExpressionReplacement
 APO:0000055	mitochondrial morphology	skos:exactMatch	FYPO:0000359	abnormal mitochondrial morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mitochondrial morphology		semapv:RegularExpressionReplacement
 APO:0000055	mitochondrial morphology	skos:exactMatch	HP:0008322	Abnormal mitochondrial morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mitochondrial morphology		semapv:RegularExpressionReplacement
@@ -175,6 +179,7 @@ APO:0000312	cell death	skos:exactMatch	MP:0000313	abnormal cell death	semapv:Lex
 APO:0000314	cell lysis	skos:exactMatch	FYPO:0002488	cell lysis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell lysis		
 APO:0000314	cell lysis	skos:exactMatch	PHIPO:0000936	cell lysis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell lysis		
 APO:0000315	plasma membrane morphology	skos:exactMatch	MP:0003950	abnormal plasma membrane morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plasma membrane morphology		semapv:RegularExpressionReplacement
+APO:0000315	plasma membrane morphology	skos:exactMatch	OBA:1000089	plasma membrane morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plasma membrane morphology		
 APO:0000315	plasma membrane morphology	skos:exactMatch	XPO:0102693	abnormal plasma membrane morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plasma membrane morphology		semapv:RegularExpressionReplacement
 APO:0000320	germ tube formation	skos:exactMatch	GO:0075009	germ tube formation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	germ tube formation		
 APO:0000330	haploproficient	skos:exactMatch	FYPO:0002334	haploproficient	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	haploproficient		
@@ -223,10 +228,13 @@ BSPO:0000199	animal-vegetal axis	skos:exactMatch	XPO:0107259	abnormal animal-veg
 BSPO:0001001	medial-lateral axis	skos:exactMatch	PLANP:0000002	abnormal medial-lateral axis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	medial-lateral axis		semapv:RegularExpressionReplacement
 CHEBI:133538	L-lysine zwitterion	skos:exactMatch	CHEBI:194466	L-Lysine zwitterion	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	l-lysine zwitterion		
 CHEBI:17089	glycoprotein	skos:exactMatch	PR:000037069	glycoprotein	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	glycoprotein		
+CHEBI:24499	heparan sulfate proteoglycan	skos:exactMatch	PR:000001307	CD44 molecule	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	heparan sulfate proteoglycan		
 CHEBI:35143	hemoglobin	skos:exactMatch	HP:0011902	Abnormal hemoglobin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hemoglobin		semapv:RegularExpressionReplacement
 CHEBI:35143	hemoglobin	skos:exactMatch	MP:0001588	abnormal hemoglobin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hemoglobin		semapv:RegularExpressionReplacement
 CHEBI:36080	protein	skos:exactMatch	PR:000000001	protein	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protein		
 CHEBI:4767	Elastin	skos:exactMatch	PR:000007034	elastin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	elastin		
+CHEBI:64628	somatostatin	skos:exactMatch	PR:000015665	somatostatin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	somatostatin		
+CHEBI:65311	corticotropin-releasing hormone	skos:exactMatch	PR:000005867	corticoliberin	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	corticotropin-releasing hormone		
 CHEBI:81571	Leptin	skos:exactMatch	PR:000009758	leptin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	leptin		
 CHEBI:81572	Adiponectin	skos:exactMatch	PR:000003777	adiponectin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	adiponectin		
 CHEBI:81580	Prolactin	skos:exactMatch	PR:000013246	prolactin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	prolactin		
@@ -310,7 +318,6 @@ CL:0000215	barrier cell	skos:exactMatch	XPO:0101297	abnormal barrier cell	semapv
 CL:0000221	ectodermal cell	skos:exactMatch	XPO:0101490	abnormal ectodermal cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ectodermal cell		semapv:RegularExpressionReplacement
 CL:0000222	mesodermal cell	skos:exactMatch	XPO:0101269	abnormal mesodermal cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mesodermal cell		semapv:RegularExpressionReplacement
 CL:0000223	endodermal cell	skos:exactMatch	XPO:0101500	abnormal endodermal cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	endodermal cell		semapv:RegularExpressionReplacement
-CL:0000228	multinucleate cell	skos:exactMatch	PLANP:0000681	abnormal syncytium	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	syncytium		semapv:RegularExpressionReplacement
 CL:0000235	macrophage	skos:exactMatch	XPO:0101216	abnormal macrophage	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	macrophage		semapv:RegularExpressionReplacement
 CL:0000236	B cell	skos:exactMatch	XPO:0101518	abnormal B cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	b cell		semapv:RegularExpressionReplacement
 CL:0000242	Merkel cell	skos:exactMatch	XPO:0100704	abnormal Merkel cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	merkel cell		semapv:RegularExpressionReplacement
@@ -330,6 +337,7 @@ CL:0000362	epidermal cell	skos:exactMatch	XPO:0100714	abnormal epidermal cell	se
 CL:0000393	electrically responsive cell	skos:exactMatch	PLANP:0000183	abnormal electrically responsive cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	electrically responsive cell		semapv:RegularExpressionReplacement
 CL:0000404	electrically signaling cell	skos:exactMatch	PLANP:0000196	abnormal electrically signaling cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	electrically signaling cell		semapv:RegularExpressionReplacement
 CL:0000424	excretory cell	skos:exactMatch	PLANP:0000586	abnormal excretory cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	excretory cell		semapv:RegularExpressionReplacement
+CL:0000431	iridophore	skos:exactMatch	XPO:0101322	abnormal iridophore	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	iridophore		semapv:RegularExpressionReplacement
 CL:0000440	melanocyte stimulating hormone secreting cell	skos:exactMatch	XPO:0100946	abnormal melanotrope	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	melanotrope		semapv:RegularExpressionReplacement
 CL:0000467	adrenocorticotropic hormone secreting cell	skos:exactMatch	MP:0008327	abnormal corticotroph morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adrenocorticotrophic hormone secreting cell		semapv:RegularExpressionReplacement
 CL:0000467	adrenocorticotropic hormone secreting cell	skos:exactMatch	MP:0008327	abnormal corticotroph morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	corticotrophin hormone secreting cell		semapv:RegularExpressionReplacement
@@ -360,6 +368,7 @@ CL:0000623	natural killer cell	skos:exactMatch	XPO:0100814	abnormal natural kill
 CL:0000653	podocyte	skos:exactMatch	XPO:0101417	abnormal podocyte	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	podocyte		semapv:RegularExpressionReplacement
 CL:0000669	pericyte	skos:exactMatch	XPO:0100477	abnormal pericyte	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pericyte		semapv:RegularExpressionReplacement
 CL:0000670	primordial germ cell	skos:exactMatch	XPO:0100626	abnormal primordial germ cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	primordial germ cell		semapv:RegularExpressionReplacement
+CL:0000678	commissural neuron	skos:exactMatch	PLANP:0000367	abnormal commissural neuron	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	commissural neuron		semapv:RegularExpressionReplacement
 CL:0000681	radial glial cell	skos:exactMatch	XPO:0101125	abnormal radial glial cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	radial glial cell		semapv:RegularExpressionReplacement
 CL:0000700	dopaminergic neuron	skos:exactMatch	PLANP:0000092	abnormal dopaminergic neuron	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dopaminergic neuron		semapv:RegularExpressionReplacement
 CL:0000723	somatic stem cell	skos:exactMatch	XPO:0100515	abnormal somatic stem cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	somatic stem cell		semapv:RegularExpressionReplacement
@@ -405,6 +414,7 @@ CL:0011026	progenitor cell	skos:exactMatch	PLANP:0000304	abnormal progenitor cel
 CL:0011026	progenitor cell	skos:exactMatch	XPO:0100285	abnormal progenitor cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	progenitor cell		semapv:RegularExpressionReplacement
 CL:1000428	stem cell of epidermis	skos:exactMatch	MP:0011004	abnormal epidermal stem cell morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	stem cell of epidermis		semapv:RegularExpressionReplacement
 CL:1001502	mitral cell	skos:exactMatch	XPO:0101139	abnormal mitral cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mitral cell		semapv:RegularExpressionReplacement
+CL:1100001	secretory epithelial cell	skos:exactMatch	XPO:0100415	abnormal secretory epithelial cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	secretory epithelial cell		semapv:RegularExpressionReplacement
 CL:2000029	central nervous system neuron	skos:exactMatch	PLANP:0000011	abnormal central nervous system neuron	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	central nervous system neuron		semapv:RegularExpressionReplacement
 CL:2000032	peripheral nervous system neuron	skos:exactMatch	PLANP:0000088	abnormal peripheral nervous system neuron	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	peripheral nervous system neuron		semapv:RegularExpressionReplacement
 DDPHENO:0000002	aberrant standing slug morphology	skos:exactMatch	HP:0001167	Abnormal finger morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	finger morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -676,6 +686,7 @@ DDPHENO:0000754	increased protein tyrosine phosphatase activity	skos:exactMatch	
 DDPHENO:0000756	aberrant STAT signaling pathway	skos:exactMatch	GO:0097696	cell surface receptor signaling pathway via STAT	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	receptor signaling pathway via stat	semapv:RegularExpressionReplacement	
 DDPHENO:0000758	aberrant regulation of STAT signaling pathway	skos:exactMatch	GO:1904892	regulation of receptor signaling pathway via STAT	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	regulation of receptor signaling pathway via stat	semapv:RegularExpressionReplacement	
 DDPHENO:0000761	aberrant Ras protein signal transduction	skos:exactMatch	GO:0007265	Ras protein signal transduction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ras protein signal transduction	semapv:RegularExpressionReplacement	
+DDPHENO:0000765	aberrant protein-containing complex assembly	skos:exactMatch	FYPO:0000447	abnormal protein-containing complex assembly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protein-containing complex assembly	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 DDPHENO:0000765	aberrant protein-containing complex assembly	skos:exactMatch	GO:0065003	protein-containing complex assembly	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cellular protein complex assembly	semapv:RegularExpressionReplacement	
 DDPHENO:0000765	aberrant protein-containing complex assembly	skos:exactMatch	GO:0065003	protein-containing complex assembly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protein-containing complex assembly	semapv:RegularExpressionReplacement	
 DDPHENO:0000768	increased cellular DNA damage response	skos:exactMatch	UPHENO:0089830	increased DNA damage response	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	increased dna damage response		
@@ -715,8 +726,6 @@ DDPHENO:0000827	aberrant Rap protein signal transduction	skos:exactMatch	GO:0032
 DDPHENO:0000831	aberrant Rac protein signal transduction	skos:exactMatch	GO:0016601	Rac protein signal transduction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rac protein signal transduction	semapv:RegularExpressionReplacement	
 DDPHENO:0000835	aberrant small GTPase mediated signal transduction	skos:exactMatch	GO:0007264	small GTPase-mediated signal transduction	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	small gtpase mediated signal transduction	semapv:RegularExpressionReplacement	
 DDPHENO:0001003	aberrant response to stimulus	skos:exactMatch	GO:0050896	response to stimulus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	response to stimulus	semapv:RegularExpressionReplacement	
-DDPHENO:0001005	aberrant cellular metabolic process	skos:exactMatch	GO:0044237	cellular metabolic process	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cellular metabolism	semapv:RegularExpressionReplacement	
-DDPHENO:0001005	aberrant cellular metabolic process	skos:exactMatch	GO:0044237	cellular metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cellular metabolic process	semapv:RegularExpressionReplacement	
 DDPHENO:0001005	aberrant cellular metabolic process	skos:exactMatch	XPO:0141790	abnormal cellular metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cellular metabolic process	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 DDPHENO:0001006	aberrant phagocytosis	skos:exactMatch	GO:0006909	phagocytosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	phagocytosis	semapv:RegularExpressionReplacement	
 DDPHENO:0001006	aberrant phagocytosis	skos:exactMatch	HP:0010977	Abnormal phagocytosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	phagocytosis	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -783,6 +792,7 @@ DDPHENO:0001078	aberrant mitochondrion morphology	skos:exactMatch	HP:0008322	Abn
 DDPHENO:0001078	aberrant mitochondrion morphology	skos:exactMatch	HP:0008322	Abnormal mitochondrial morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mitochondrion morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 DDPHENO:0001078	aberrant mitochondrion morphology	skos:exactMatch	MP:0006035	abnormal mitochondrial morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mitochondrial morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 DDPHENO:0001078	aberrant mitochondrion morphology	skos:exactMatch	MP:0006035	abnormal mitochondrial morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mitochondrion morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+DDPHENO:0001078	aberrant mitochondrion morphology	skos:exactMatch	OBA:0002821	mitochondrion morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mitochondrion morphology	semapv:RegularExpressionReplacement	
 DDPHENO:0001084	aberrant vegetative growth	skos:exactMatch	GO:0019954	asexual reproduction	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	asexual reproduction	semapv:RegularExpressionReplacement	
 DDPHENO:0001084	aberrant vegetative growth	skos:exactMatch	PHIPO:0000047	abnormal asexual reproduction	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	asexual reproduction	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 DDPHENO:0001095	aberrant DIF-1 biosynthesis	skos:exactMatch	GO:0031148	DIF-1 biosynthetic process	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	dif-1 biosynthetic process	semapv:RegularExpressionReplacement	
@@ -1087,7 +1097,9 @@ FBcv:0000426	decreased cell death	skos:exactMatch	UPHENO:0005634	decreased cell 
 FBcv:0000427	abnormal cell growth	skos:exactMatch	FYPO:0002862	abnormal cell growth	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell growth	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FBcv:0000427	abnormal cell growth	skos:exactMatch	GO:0016049	cell growth	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell growth	semapv:RegularExpressionReplacement	
 FBcv:0000428	abnormal cell size	skos:exactMatch	FYPO:0001127	abnormal cell size	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell size	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+FBcv:0000428	abnormal cell size	skos:exactMatch	OBA:0000055	cell size	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell size	semapv:RegularExpressionReplacement	
 FBcv:0000429	abnormal cell shape	skos:exactMatch	FYPO:0001126	abnormal cell shape	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell shape	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+FBcv:0000429	abnormal cell shape	skos:exactMatch	OBA:0000052	cell shape	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell shape	semapv:RegularExpressionReplacement	
 FBcv:0000430	abnormal cell polarity	skos:exactMatch	FYPO:0005568	abnormal cell polarity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell polarity	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FBcv:0000431	abnormal meiotic cell cycle	skos:exactMatch	FYPO:0000052	abnormal meiotic cell cycle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	meiotic cell cycle	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FBcv:0000431	abnormal meiotic cell cycle	skos:exactMatch	GO:0051321	meiotic cell cycle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	meiotic cell cycle	semapv:RegularExpressionReplacement	
@@ -1235,6 +1247,7 @@ FYPO:0000119	abnormal spindle assembly	skos:exactMatch	XPO:0131735	abnormal spin
 FYPO:0000120	abnormal spindle	skos:exactMatch	GO:0005819	spindle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	spindle	semapv:RegularExpressionReplacement	
 FYPO:0000121	abnormal sporulation	skos:exactMatch	GO:0043934	sporulation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sporulation	semapv:RegularExpressionReplacement	
 FYPO:0000131	abnormal mitotic spindle elongation	skos:exactMatch	GO:0000022	mitotic spindle elongation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mitotic spindle elongation	semapv:RegularExpressionReplacement	
+FYPO:0000135	abnormal plasma membrane sterol distribution	skos:exactMatch	OBA:0000123	plasma membrane sterol distribution	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plasma membrane sterol distribution	semapv:RegularExpressionReplacement	
 FYPO:0000136	cellular physical quality phenotype	skos:exactMatch	FYPO:0004638	abnormal cellular physical quality phenotype	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cellular physical quality phenotype		semapv:RegularExpressionReplacement
 FYPO:0000138	localization phenotype	skos:exactMatch	PHIPO:0000235	localization phenotype	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	localization phenotype		
 FYPO:0000138	localization phenotype	skos:exactMatch	UPHENO:0049927	localization phenotype	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	localization phenotype		
@@ -1335,6 +1348,7 @@ FYPO:0000430	abnormal fermentation	skos:exactMatch	GO:0006113	fermentation	semap
 FYPO:0000440	sensitive to antimycin A	skos:exactMatch	PHIPO:0000822	sensitive to antimycin A	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sensitive to antimycin a		
 FYPO:0000441	resistance to antimycin A	skos:exactMatch	PHIPO:0000583	resistance to antimycin A	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	resistance to antimycin a		
 FYPO:0000445	cell cycle arrest in mitotic G1 phase	skos:exactMatch	FYPO:0005097	abnormal cell cycle arrest in mitotic G1 phase	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell cycle arrest in mitotic g1 phase		semapv:RegularExpressionReplacement
+FYPO:0000447	abnormal protein-containing complex assembly	skos:exactMatch	GO:0065003	protein-containing complex assembly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protein-containing complex assembly	semapv:RegularExpressionReplacement	
 FYPO:0000448	abnormal MCM complex assembly	skos:exactMatch	GO:0072689	MCM complex assembly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mcm complex assembly	semapv:RegularExpressionReplacement	
 FYPO:0000464	decreased intracellular transport	skos:exactMatch	UPHENO:0005664	decreased intracellular transport	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased intracellular transport		
 FYPO:0000468	abnormal mating type switching	skos:exactMatch	GO:0007533	mating type switching	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mating type switching	semapv:RegularExpressionReplacement	
@@ -1487,10 +1501,11 @@ FYPO:0001103	resistance to hydrogen peroxide	skos:exactMatch	PHIPO:0000632	resis
 FYPO:0001104	abnormal catalase activity	skos:exactMatch	GO:0004096	catalase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	catalase activity	semapv:RegularExpressionReplacement	
 FYPO:0001104	abnormal catalase activity	skos:exactMatch	MP:0011592	abnormal catalase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	catalase activity	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0001106	abnormal glutathione-disulfide reductase activity	skos:exactMatch	GO:0004362	glutathione-disulfide reductase (NADPH) activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	glutathione-disulfide reductase activity	semapv:RegularExpressionReplacement	
+FYPO:0001126	abnormal cell shape	skos:exactMatch	OBA:0000052	cell shape	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell shape	semapv:RegularExpressionReplacement	
+FYPO:0001127	abnormal cell size	skos:exactMatch	OBA:0000055	cell size	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell size	semapv:RegularExpressionReplacement	
 FYPO:0001167	abnormal ATPase activity	skos:exactMatch	GO:0140657	ATP-dependent activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	atpase activity	semapv:RegularExpressionReplacement	
 FYPO:0001172	abnormal 7-methylguanosine cap hypermethylation	skos:exactMatch	GO:0036261	7-methylguanosine cap hypermethylation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	7-methylguanosine cap hypermethylation	semapv:RegularExpressionReplacement	
 FYPO:0001183	abnormal alpha-glucosidase activity	skos:exactMatch	GO:0090599	alpha-glucosidase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alpha-glucosidase activity	semapv:RegularExpressionReplacement	
-FYPO:0001184	abnormal maltase activity	skos:exactMatch	GO:0032450	maltose alpha-glucosidase activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	maltase activity	semapv:RegularExpressionReplacement	
 FYPO:0001184	abnormal maltase activity	skos:exactMatch	MP:0020048	abnormal maltase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	maltase activity	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0001186	decreased maltase activity	skos:exactMatch	MP:0020049	decreased maltase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased maltase activity		
 FYPO:0001188	sensitive to Calcofluor White	skos:exactMatch	PHIPO:0001020	sensitive to calcofluor white	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sensitive to calcofluor white		
@@ -1561,7 +1576,7 @@ FYPO:0001797	abnormal translation	skos:exactMatch	GO:0006412	translation	semapv:
 FYPO:0001797	abnormal translation	skos:exactMatch	MP:0013272	abnormal translation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	translation	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0001816	abnormal phosphoribosylamine-glycine ligase activity	skos:exactMatch	GO:0004637	phosphoribosylamine-glycine ligase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	phosphoribosylamine-glycine ligase activity	semapv:RegularExpressionReplacement	
 FYPO:0001818	abnormal phosphoribosylformylglycinamidine cyclo-ligase activity	skos:exactMatch	GO:0004641	phosphoribosylformylglycinamidine cyclo-ligase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	phosphoribosylformylglycinamidine cyclo-ligase activity	semapv:RegularExpressionReplacement	
-FYPO:0001827	abnormal glucose import	skos:exactMatch	GO:0046323	glucose import	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	glucose import	semapv:RegularExpressionReplacement	
+FYPO:0001827	abnormal glucose import	skos:exactMatch	GO:0046323	D-glucose import	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	glucose import	semapv:RegularExpressionReplacement	
 FYPO:0001831	abnormal phosphoglycerate mutase activity	skos:exactMatch	GO:0004619	phosphoglycerate mutase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	phosphoglycerate mutase activity	semapv:RegularExpressionReplacement	
 FYPO:0001841	abnormal adenylyl cyclase activity	skos:exactMatch	GO:0004016	adenylate cyclase activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	adenylyl cyclase activity	semapv:RegularExpressionReplacement	
 FYPO:0001847	abnormal ferric-chelate reductase activity	skos:exactMatch	GO:0000293	ferric-chelate reductase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ferric-chelate reductase activity	semapv:RegularExpressionReplacement	
@@ -1686,14 +1701,15 @@ FYPO:0003037	abnormal cell phenotype	skos:exactMatch	PHIPO:0000034	cell phenotyp
 FYPO:0003037	abnormal cell phenotype	skos:exactMatch	PHIPO:0000404	abnormal cell phenotype	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell phenotype	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0003037	abnormal cell phenotype	skos:exactMatch	UPHENO:0086172	cell phenotype	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell phenotype	semapv:RegularExpressionReplacement	
 FYPO:0003037	abnormal cell phenotype	skos:exactMatch	WBPhenotype:0002552	cell phenotype	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell phenotype	semapv:RegularExpressionReplacement	
+FYPO:0003038	abnormal RNA stability	skos:exactMatch	OBA:0000009	RNA stability	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rna stability	semapv:RegularExpressionReplacement	
 FYPO:0003044	abnormal heterochromatin assembly	skos:exactMatch	GO:0031507	heterochromatin formation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	heterochromatin assembly	semapv:RegularExpressionReplacement	
 FYPO:0003057	abnormal RNA localization	skos:exactMatch	GO:0006403	RNA localization	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rna localization	semapv:RegularExpressionReplacement	
 FYPO:0003057	abnormal RNA localization	skos:exactMatch	PHIPO:0000251	abnormal RNA localization	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rna localization	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0003057	abnormal RNA localization	skos:exactMatch	WBPhenotype:0002664	RNA subcellular localization variant	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	rna localization	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0003058	normal RNA localization	skos:exactMatch	PHIPO:0000253	normal RNA localization	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	normal rna localization		
+FYPO:0003063	abnormal cytoskeleton morphology	skos:exactMatch	OBA:1000013	cytoskeleton morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cytoskeleton morphology	semapv:RegularExpressionReplacement	
 FYPO:0003064	abnormal microtubule cytoskeleton morphology	skos:exactMatch	MP:0020850	abnormal microtubule cytoskeleton morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	microtubule cytoskeleton morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0003067	abnormal replication fork reversal	skos:exactMatch	GO:0071932	replication fork reversal	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	replication fork reversal	semapv:RegularExpressionReplacement	
-FYPO:0003072	abnormal primary amine oxidase activity	skos:exactMatch	GO:0008131	primary amine oxidase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	primary amine oxidase activity	semapv:RegularExpressionReplacement	
 FYPO:0003079	abnormal genetic imprinting at mating-type locus	skos:exactMatch	GO:0071515	mating-type locus imprinting	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	genetic imprinting at mating-type locus	semapv:RegularExpressionReplacement	
 FYPO:0003088	abnormal replication fork arrest	skos:exactMatch	GO:0043111	replication fork arrest	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	replication fork arrest	semapv:RegularExpressionReplacement	
 FYPO:0003089	abnormal replication fork arrest at rDNA repeats	skos:exactMatch	GO:0031582	replication fork arrest at rDNA repeats	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	replication fork arrest at rdna repeats	semapv:RegularExpressionReplacement	
@@ -1923,7 +1939,7 @@ FYPO:0005490	abnormal protein localization to vacuole	skos:exactMatch	GO:0072665
 FYPO:0005502	abnormal transcription	skos:exactMatch	MP:0020845	abnormal DNA-templated transcription	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	transcription	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0005509	abnormal meiotic sister chromatid segregation	skos:exactMatch	GO:0045144	meiotic sister chromatid segregation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	meiotic sister chromatid segregation	semapv:RegularExpressionReplacement	
 FYPO:0005521	abnormal nucleosome organization	skos:exactMatch	GO:0034728	nucleosome organization	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nucleosome organization	semapv:RegularExpressionReplacement	
-FYPO:0005539	abnormal telomerase RNA reverse transcriptase activity	skos:exactMatch	GO:0003721	telomerase RNA reverse transcriptase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	telomerase rna reverse transcriptase activity	semapv:RegularExpressionReplacement	
+FYPO:0005539	abnormal telomerase RNA reverse transcriptase activity	skos:exactMatch	GO:0003720	telomerase activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	telomerase rna reverse transcriptase activity	semapv:RegularExpressionReplacement	
 FYPO:0005558	abnormal microtubule bundle	skos:exactMatch	GO:0097427	microtubule bundle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	microtubule bundle	semapv:RegularExpressionReplacement	
 FYPO:0005573	abnormal nuclear transport	skos:exactMatch	GO:0051169	nuclear transport	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nuclear transport	semapv:RegularExpressionReplacement	
 FYPO:0005573	abnormal nuclear transport	skos:exactMatch	PHIPO:0000263	abnormal nuclear transport	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nuclear transport	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -1978,7 +1994,6 @@ FYPO:0006453	abnormal histone acetyltransferase activity	skos:exactMatch	GO:0004
 FYPO:0006454	abnormal protein localization to meiotic spindle	skos:exactMatch	GO:1905359	protein localization to meiotic spindle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protein localization to meiotic spindle	semapv:RegularExpressionReplacement	
 FYPO:0006463	abnormal mRNA cleavage and polyadenylation specificity factor complex assembly	skos:exactMatch	GO:0110105	mRNA cleavage and polyadenylation specificity factor complex assembly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mrna cleavage and polyadenylation specificity factor complex assembly	semapv:RegularExpressionReplacement	
 FYPO:0006477	abnormal mitotic metaphase/anaphase transition	skos:exactMatch	GO:0007091	metaphase/anaphase transition of mitotic cell cycle	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mitotic metaphase/anaphase transition	semapv:RegularExpressionReplacement	
-FYPO:0006479	abnormal cohesin loading	skos:exactMatch	GO:0071921	cohesin loading	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cohesin loading	semapv:RegularExpressionReplacement	
 FYPO:0006491	abnormal chitin synthase activity	skos:exactMatch	GO:0004100	chitin synthase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	chitin synthase activity	semapv:RegularExpressionReplacement	
 FYPO:0006508	abnormal telomere morphology	skos:exactMatch	HP:0031412	Abnormal telomere morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	telomere morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0006508	abnormal telomere morphology	skos:exactMatch	MP:0010207	abnormal telomere morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	telomere morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -1988,6 +2003,7 @@ FYPO:0006526	abnormal meiosis II	skos:exactMatch	GO:0007135	meiosis II	semapv:Le
 FYPO:0006526	abnormal meiosis II	skos:exactMatch	PHIPO:0000096	abnormal meiosis II	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	meiosis ii	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 FYPO:0006527	decreased proteolysis	skos:exactMatch	UPHENO:0005841	decreased proteolysis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased proteolysis		
 FYPO:0006533	abnormal protein localization to cell periphery	skos:exactMatch	GO:1990778	protein localization to cell periphery	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protein localization to cell periphery	semapv:RegularExpressionReplacement	
+FYPO:0006545	abnormal membrane lipid distribution	skos:exactMatch	OBA:0000098	membrane lipid distribution	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	membrane lipid distribution	semapv:RegularExpressionReplacement	
 FYPO:0006551	abnormal gene expression	skos:exactMatch	GO:0010467	gene expression	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gene expression	semapv:RegularExpressionReplacement	
 FYPO:0006553	normal protein localization to nucleus	skos:exactMatch	PHIPO:0000271	normal protein localization to nucleus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	normal protein localization to nucleus		
 FYPO:0006555	abnormal multiple protein binding to DNA	skos:exactMatch	PHIPO:0000151	abnormal multiple protein binding to DNA	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	multiple protein binding to dna	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -2081,6 +2097,7 @@ FYPO:0008089	abnormal mitochondrial fusion	skos:exactMatch	GO:0008053	mitochondr
 FYPO:0008111	abnormal snRNA modification	skos:exactMatch	GO:0040031	snRNA modification	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	snrna modification	semapv:RegularExpressionReplacement	
 FYPO:0008216	abnormal DNA N-glycosylase activity	skos:exactMatch	GO:0019104	DNA N-glycosylase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dna n-glycosylase activity	semapv:RegularExpressionReplacement	
 FYPO:0008289	abnormal guanyl-nucleotide exchange factor activity	skos:exactMatch	GO:0005085	guanyl-nucleotide exchange factor activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	guanyl-nucleotide exchange factor activity	semapv:RegularExpressionReplacement	
+FYPO:0008349	abnormal 5'-nucleotidase activity	skos:exactMatch	GO:0008253	5'-nucleotidase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	5'-nucleotidase activity	semapv:RegularExpressionReplacement	
 FYPO:0009031	resistance to bleomycin	skos:exactMatch	PHIPO:0000572	resistance to bleomycin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	resistance to bleomycin		
 FYPO:0009070	resistance to itraconazole	skos:exactMatch	PHIPO:0000675	resistance to itraconazole	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	resistance to itraconazole		
 FYPO:0009071	sensitive to itraconazole	skos:exactMatch	PHIPO:0000879	sensitive to itraconazole	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sensitive to itraconazole		
@@ -2252,7 +2269,8 @@ GO:0004711	ribosomal protein S6 kinase activity	skos:exactMatch	XPO:0133391	abno
 GO:0004731	purine-nucleoside phosphorylase activity	skos:exactMatch	MP:0011595	abnormal purine-nucleoside phosphorylase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	purine-nucleoside phosphorylase activity		semapv:RegularExpressionReplacement
 GO:0004743	pyruvate kinase activity	skos:exactMatch	MP:0020243	abnormal pyruvate kinase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pyruvate kinase activity		semapv:RegularExpressionReplacement
 GO:0004784	superoxide dismutase activity	skos:exactMatch	HP:0031835	Abnormal superoxide dismutase level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	superoxide:superoxide oxidoreductase activity		semapv:RegularExpressionReplacement
-GO:0004806	triglyceride lipase activity	skos:exactMatch	MP:0011580	abnormal triglyceride lipase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	triglyceride lipase activity		semapv:RegularExpressionReplacement
+GO:0004806	triacylglycerol lipase activity	skos:exactMatch	MP:0011580	abnormal triglyceride lipase activity	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	triglyceride lipase activity		semapv:RegularExpressionReplacement
+GO:0004806	triacylglycerol lipase activity	skos:exactMatch	MP:0011580	abnormal triglyceride lipase activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	triacylglycerol lipase activity		semapv:RegularExpressionReplacement
 GO:0005215	transporter activity	skos:exactMatch	PHIPO:0000330	abnormal transporter activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	transporter activity		semapv:RegularExpressionReplacement
 GO:0005604	basement membrane	skos:exactMatch	WBPhenotype:0002588	basement membrane phenotype	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	basement membrane		semapv:RegularExpressionReplacement
 GO:0005615	extracellular space	skos:exactMatch	PLANP:0000588	abnormal extracellular space	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	extracellular space		semapv:RegularExpressionReplacement
@@ -2582,14 +2600,12 @@ GO:0016853	isomerase activity	skos:exactMatch	XPO:0141815	abnormal isomerase act
 GO:0016874	ligase activity	skos:exactMatch	XPO:0141816	abnormal ligase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ligase activity		semapv:RegularExpressionReplacement
 GO:0018924	mandelate metabolic process	skos:exactMatch	XPO:0141899	abnormal mandelate metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mandelate metabolic process		semapv:RegularExpressionReplacement
 GO:0018933	nicotine metabolic process	skos:exactMatch	MP:0012695	abnormal nicotine metabolism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nicotine metabolism		semapv:RegularExpressionReplacement
-GO:0018967	tetrachloroethylene metabolic process	skos:exactMatch	MP:0020372	abnormal tetrachloroethene metabolism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tetrachloroethylene metabolism		semapv:RegularExpressionReplacement
-GO:0018967	tetrachloroethylene metabolic process	skos:exactMatch	MP:0020372	abnormal tetrachloroethene metabolism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tetrachloroethene metabolism		semapv:RegularExpressionReplacement
 GO:0018979	trichloroethylene metabolic process	skos:exactMatch	MP:0012696	abnormal trichloroethene metabolism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	trichloroethylene metabolism		semapv:RegularExpressionReplacement
 GO:0018979	trichloroethylene metabolic process	skos:exactMatch	MP:0012696	abnormal trichloroethene metabolism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	trichloroethene metabolism		semapv:RegularExpressionReplacement
 GO:0019098	reproductive behavior	skos:exactMatch	NBO:0000010	reproductive behavior	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	reproductive behaviour		
 GO:0019098	reproductive behavior	skos:exactMatch	NBO:0000010	reproductive behavior	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	reproductive behavior		
 GO:0019230	proprioception	skos:exactMatch	NBO:0000317	vestibular behavior	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	proprioception		
-GO:0019369	arachidonic acid metabolic process	skos:exactMatch	XPO:0141867	abnormal arachidonic acid metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	arachidonic acid metabolic process		semapv:RegularExpressionReplacement
+GO:0019369	arachidonate metabolic process	skos:exactMatch	XPO:0141867	abnormal arachidonic acid metabolic process	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	arachidonic acid metabolic process		semapv:RegularExpressionReplacement
 GO:0019395	fatty acid oxidation	skos:exactMatch	MP:0010953	abnormal fatty acid oxidation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fatty acid oxidation		semapv:RegularExpressionReplacement
 GO:0019507	pyridine metabolic process	skos:exactMatch	XPO:0141908	abnormal pyridine metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pyridine metabolic process		semapv:RegularExpressionReplacement
 GO:0019530	taurine metabolic process	skos:exactMatch	XPO:0141915	abnormal taurine metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	taurine metabolic process		semapv:RegularExpressionReplacement
@@ -2598,7 +2614,6 @@ GO:0019674	NAD metabolic process	skos:exactMatch	XPO:0141780	abnormal NAD metabo
 GO:0019693	ribose phosphate metabolic process	skos:exactMatch	XPO:0141911	abnormal ribose phosphate metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ribose phosphate metabolic process		semapv:RegularExpressionReplacement
 GO:0019725	cellular homeostasis	skos:exactMatch	XPO:0141742	abnormal cellular homeostasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cellular homeostasis		semapv:RegularExpressionReplacement
 GO:0019748	secondary metabolic process	skos:exactMatch	XPO:0141781	abnormal secondary metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	secondary metabolic process		semapv:RegularExpressionReplacement
-GO:0019857	5-methylcytosine metabolic process	skos:exactMatch	XPO:0141864	abnormal 5-methylcytosine metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	5-methylcytosine metabolic process		semapv:RegularExpressionReplacement
 GO:0019858	cytosine metabolic process	skos:exactMatch	XPO:0141875	abnormal cytosine metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cytosine metabolic process		semapv:RegularExpressionReplacement
 GO:0019859	thymine metabolic process	skos:exactMatch	XPO:0141916	abnormal thymine metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	thymine metabolic process		semapv:RegularExpressionReplacement
 GO:0019860	uracil metabolic process	skos:exactMatch	XPO:0141919	abnormal uracil metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	uracil metabolic process		semapv:RegularExpressionReplacement
@@ -2712,8 +2727,6 @@ GO:0032154	cleavage furrow	skos:exactMatch	XPO:0101406	abnormal cleavage furrow	
 GO:0032179	germ tube	skos:exactMatch	PHIPO:0000940	abnormal germ tube	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	germ tube		semapv:RegularExpressionReplacement
 GO:0032259	methylation	skos:exactMatch	XPO:0141782	abnormal methylation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	methylation		semapv:RegularExpressionReplacement
 GO:0032402	melanosome transport	skos:exactMatch	MP:0008834	abnormal melanosome transport	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	melanosome transport		semapv:RegularExpressionReplacement
-GO:0032450	maltose alpha-glucosidase activity	skos:exactMatch	MP:0020048	abnormal maltase activity	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	maltase activity		semapv:RegularExpressionReplacement
-GO:0032450	maltose alpha-glucosidase activity	skos:exactMatch	MP:0020048	abnormal maltase activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	maltose alpha-glucosidase activity		semapv:RegularExpressionReplacement
 GO:0032451	demethylase activity	skos:exactMatch	XPO:0141817	abnormal demethylase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	demethylase activity		semapv:RegularExpressionReplacement
 GO:0032502	developmental process	skos:exactMatch	XPO:0133403	abnormal developmental process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	developmental process		semapv:RegularExpressionReplacement
 GO:0032808	lacrimal gland development	skos:exactMatch	MP:0013331	abnormal lacrimal gland development	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lacrimal gland development		semapv:RegularExpressionReplacement
@@ -2727,7 +2740,6 @@ GO:0033391	chromatoid body	skos:exactMatch	PLANP:0000570	abnormal chromatoid bod
 GO:0033500	carbohydrate homeostasis	skos:exactMatch	XPO:0141737	abnormal carbohydrate homeostasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	carbohydrate homeostasis		semapv:RegularExpressionReplacement
 GO:0033609	oxalate metabolic process	skos:exactMatch	XPO:0141879	abnormal oxalate metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oxalate metabolic process		semapv:RegularExpressionReplacement
 GO:0033687	osteoblast proliferation	skos:exactMatch	MP:0030437	abnormal osteoblast proliferation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	osteoblast proliferation		semapv:RegularExpressionReplacement
-GO:0033878	hormone-sensitive lipase activity	skos:exactMatch	MP:0011589	abnormal hormone-sensitive lipase activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hormone-sensitive lipase activity		semapv:RegularExpressionReplacement
 GO:0034102	erythrocyte clearance	skos:exactMatch	MP:0010034	abnormal erythrocyte clearance	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	erythrocyte clearance		semapv:RegularExpressionReplacement
 GO:0034117	erythrocyte aggregation	skos:exactMatch	MP:0020453	abnormal erythrocyte aggregation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	erythrocyte aggregation		semapv:RegularExpressionReplacement
 GO:0034293	sexual sporulation	skos:exactMatch	PHIPO:0000077	abnormal sexual sporulation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	meiotic sporulation		semapv:RegularExpressionReplacement
@@ -2753,7 +2765,7 @@ GO:0035176	social behavior	skos:exactMatch	MP:0002557	abnormal social/conspecifi
 GO:0035176	social behavior	skos:exactMatch	NBO:0000011	social behavior	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	social behaviour		
 GO:0035176	social behavior	skos:exactMatch	NBO:0000011	social behavior	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	social behavior		
 GO:0035176	social behavior	skos:exactMatch	XPO:0131406	abnormal social behavior	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	social behavior		semapv:RegularExpressionReplacement
-GO:0035623	renal glucose absorption	skos:exactMatch	MP:0011447	abnormal renal glucose reabsorption	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal glucose absorption		semapv:RegularExpressionReplacement
+GO:0035623	renal D-glucose absorption	skos:exactMatch	MP:0011447	abnormal renal glucose reabsorption	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal glucose absorption		semapv:RegularExpressionReplacement
 GO:0035630	bone mineralization involved in bone maturation	skos:exactMatch	MP:0011721	abnormal bone mineralization involved in bone maturation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bone mineralization involved in bone maturation		semapv:RegularExpressionReplacement
 GO:0035640	exploration behavior	skos:exactMatch	NBO:0000100	exploration behavior	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	exploration behavior		
 GO:0035988	chondrocyte proliferation	skos:exactMatch	MP:0014099	abnormal chondrocyte proliferation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	chondrocyte proliferation		semapv:RegularExpressionReplacement
@@ -2872,11 +2884,11 @@ GO:0043084	penile erection	skos:exactMatch	MP:0001379	abnormal penile erection	s
 GO:0043186	P granule	skos:exactMatch	WBPhenotype:0001301	P granule abnormal	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	p granule		semapv:RegularExpressionReplacement
 GO:0043226	organelle	skos:exactMatch	PLANP:0000306	abnormal organelle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	organelle		semapv:RegularExpressionReplacement
 GO:0043227	membrane-bounded organelle	skos:exactMatch	PLANP:0000131	abnormal membrane-bounded organelle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	membrane-bounded organelle		semapv:RegularExpressionReplacement
-GO:0043228	non-membrane-bounded organelle	skos:exactMatch	PLANP:0000192	abnormal non-membrane-bounded organelle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	non-membrane-bounded organelle		semapv:RegularExpressionReplacement
+GO:0043228	membraneless organelle	skos:exactMatch	PLANP:0000192	abnormal non-membrane-bounded organelle	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	non-membrane-bounded organelle		semapv:RegularExpressionReplacement
 GO:0043229	intracellular organelle	skos:exactMatch	PLANP:0000373	abnormal intracellular organelle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intracellular organelle		semapv:RegularExpressionReplacement
 GO:0043230	extracellular organelle	skos:exactMatch	PLANP:0000039	abnormal extracellular organelle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	extracellular organelle		semapv:RegularExpressionReplacement
 GO:0043231	intracellular membrane-bounded organelle	skos:exactMatch	PLANP:0000398	abnormal intracellular membrane-bounded organelle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intracellular membrane-bounded organelle		semapv:RegularExpressionReplacement
-GO:0043232	intracellular non-membrane-bounded organelle	skos:exactMatch	PLANP:0000067	abnormal intracellular non-membrane-bounded organelle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intracellular non-membrane-bounded organelle		semapv:RegularExpressionReplacement
+GO:0043232	intracellular membraneless organelle	skos:exactMatch	PLANP:0000067	abnormal intracellular non-membrane-bounded organelle	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	intracellular non-membrane-bounded organelle		semapv:RegularExpressionReplacement
 GO:0043276	anoikis	skos:exactMatch	MP:0011809	abnormal anoikis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	detachment induced cell death		semapv:RegularExpressionReplacement
 GO:0043276	anoikis	skos:exactMatch	MP:0011809	abnormal anoikis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	suspension induced apoptosis		semapv:RegularExpressionReplacement
 GO:0043276	anoikis	skos:exactMatch	MP:0011809	abnormal anoikis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anoikis		semapv:RegularExpressionReplacement
@@ -2901,7 +2913,6 @@ GO:0043676	tectum	skos:exactMatch	UBERON:0002314	midbrain tectum	semapv:LexicalM
 GO:0043679	axon terminus	skos:exactMatch	UBERON:0012453	nerve ending	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nerve ending		
 GO:0043931	ossification involved in bone maturation	skos:exactMatch	MP:0011722	abnormal ossification involved in bone maturation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ossification involved in bone maturation		semapv:RegularExpressionReplacement
 GO:0043932	ossification involved in bone remodeling	skos:exactMatch	MP:0011720	abnormal ossification involved in bone remodeling	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ossification involved in bone remodeling		semapv:RegularExpressionReplacement
-GO:0044237	cellular metabolic process	skos:exactMatch	XPO:0141790	abnormal cellular metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cellular metabolic process		semapv:RegularExpressionReplacement
 GO:0044238	primary metabolic process	skos:exactMatch	XPO:0141791	abnormal primary metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	primary metabolic process		semapv:RegularExpressionReplacement
 GO:0044281	small molecule metabolic process	skos:exactMatch	XPO:0141792	abnormal small molecule metabolic process	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	small molecule metabolic process		semapv:RegularExpressionReplacement
 GO:0044291	cell-cell contact zone	skos:exactMatch	PLANP:0000110	abnormal cell-cell contact zone	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell-cell contact zone		semapv:RegularExpressionReplacement
@@ -3068,6 +3079,7 @@ GO:0060384	innervation	skos:exactMatch	MP:0002184	abnormal innervation	semapv:Le
 GO:0060417	yolk	skos:exactMatch	UBERON:2000084	yolk	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	yolk		
 GO:0060438	trachea development	skos:exactMatch	MP:0013496	abnormal trachea development	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	trachea development		semapv:RegularExpressionReplacement
 GO:0060468	prevention of polyspermy	skos:exactMatch	XPO:0141724	abnormal prevention of polyspermy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	prevention of polyspermy		semapv:RegularExpressionReplacement
+GO:0060478	acrosomal vesicle exocytosis	skos:exactMatch	MP:0031376	abnormal acrosomal vesicle exocytosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	acrosomal vesicle exocytosis		semapv:RegularExpressionReplacement
 GO:0060484	lung-associated mesenchyme development	skos:exactMatch	MP:0011142	abnormal lung-associated mesenchyme development	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lung-associated mesenchyme development		semapv:RegularExpressionReplacement
 GO:0060539	diaphragm development	skos:exactMatch	MP:0012251	abnormal diaphragm development	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	diaphragm development		semapv:RegularExpressionReplacement
 GO:0060541	respiratory system development	skos:exactMatch	MP:0003115	abnormal respiratory system development	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	respiratory system development		semapv:RegularExpressionReplacement
@@ -3113,7 +3125,6 @@ GO:0070295	renal water absorption	skos:exactMatch	MP:0010108	abnormal renal wate
 GO:0070384	Harderian gland development	skos:exactMatch	MP:0013439	abnormal Harderian gland development	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	harderian gland development		semapv:RegularExpressionReplacement
 GO:0070527	platelet aggregation	skos:exactMatch	HP:0030402	Abnormal platelet aggregation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	platelet aggregation		semapv:RegularExpressionReplacement
 GO:0070527	platelet aggregation	skos:exactMatch	MP:0009548	abnormal platelet aggregation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	platelet aggregation		semapv:RegularExpressionReplacement
-GO:0070547	L-tyrosine aminotransferase activity	skos:exactMatch	MP:0020045	abnormal tyrosine aminotransferase activity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	l-tyrosine aminotransferase activity		semapv:RegularExpressionReplacement
 GO:0070701	mucus layer	skos:exactMatch	PLANP:0000609	abnormal mucus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mucus		semapv:RegularExpressionReplacement
 GO:0070701	mucus layer	skos:exactMatch	UBERON:0000912	mucus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mucus		
 GO:0070986	left/right axis specification	skos:exactMatch	XPO:0103445	abnormal left/right axis specification	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	left/right axis specification		semapv:RegularExpressionReplacement
@@ -3262,9 +3273,9 @@ HP:0000074	Ureteropelvic junction obstruction	skos:exactMatch	MP:0011490	uretero
 HP:0000074	Ureteropelvic junction obstruction	skos:exactMatch	MP:0011491	ureteropelvic junction obstruction	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pelviureteric junction obstruction		
 HP:0000074	Ureteropelvic junction obstruction	skos:exactMatch	MP:0011491	ureteropelvic junction obstruction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ureteropelvic junction obstruction		
 HP:0000074	Ureteropelvic junction obstruction	skos:exactMatch	UPHENO:0085684	ureteropelvic junction obstruction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ureteropelvic junction obstruction		
+HP:0000076	Vesicoureteral reflux	skos:exactMatch	MP:0001948	vesicoureteral reflux	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ureteral reflux		
 HP:0000076	Vesicoureteral reflux	skos:exactMatch	MP:0001948	vesicoureteral reflux	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	vesicoureteric reflux		
 HP:0000076	Vesicoureteral reflux	skos:exactMatch	MP:0001948	vesicoureteral reflux	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vesicoureteral reflux		
-HP:0000076	Vesicoureteral reflux	skos:exactMatch	MP:0003590	ureteral reflux	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ureteral reflux		
 HP:0000086	Ectopic kidney	skos:exactMatch	MP:0003600	ectopic kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal ectopia		
 HP:0000086	Ectopic kidney	skos:exactMatch	MP:0003600	ectopic kidney	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ectopic kidney		
 HP:0000089	Renal hypoplasia	skos:exactMatch	MP:0003446	renal hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoplastic kidney		
@@ -3278,7 +3289,6 @@ HP:0000099	Glomerulonephritis	skos:exactMatch	MP:0002743	glomerulonephritis	sema
 HP:0000099	Glomerulonephritis	skos:exactMatch	MP:0002743	glomerulonephritis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	glomerulonephritis		
 HP:0000099	Glomerulonephritis	skos:exactMatch	MPATH:197	glomerulonephritis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	glomerulonephritis		
 HP:0000103	Polyuria	skos:exactMatch	MP:0001762	polyuria	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	polyuria		
-HP:0000104	Renal agenesis	skos:exactMatch	MP:0000520	absent kidney	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal agenesis		
 HP:0000105	Enlarged kidney	skos:exactMatch	MP:0003068	enlarged kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	nephromegaly		
 HP:0000105	Enlarged kidney	skos:exactMatch	MP:0003068	enlarged kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal enlargement		
 HP:0000105	Enlarged kidney	skos:exactMatch	MP:0003068	enlarged kidney	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	enlarged kidney		
@@ -3286,8 +3296,6 @@ HP:0000105	Enlarged kidney	skos:exactMatch	UPHENO:0001171	increased size of the 
 HP:0000105	Enlarged kidney	skos:exactMatch	XPO:0129755	increased size of the kidney	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	enlarged kidney		
 HP:0000107	Renal cyst	skos:exactMatch	MP:0003675	kidney cyst	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal cyst		
 HP:0000108	Renal corticomedullary cysts	skos:exactMatch	MP:0011308	kidney corticomedullary cyst	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal corticomedullary cysts		
-HP:0000110	Renal dysplasia	skos:exactMatch	MP:0002135	abnormal kidney morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal dysplasia		
-HP:0000113	Polycystic kidney dysplasia	skos:exactMatch	MP:0008528	polycystic kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	polycystic kidneys		
 HP:0000121	Nephrocalcinosis	skos:exactMatch	MP:0003197	nephrocalcinosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nephrocalcinosis		
 HP:0000122	Unilateral renal agenesis	skos:exactMatch	MP:0003604	single kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	unilateral kidney agenesis		
 HP:0000122	Unilateral renal agenesis	skos:exactMatch	MP:0003604	single kidney	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	unilateral renal agenesis		
@@ -3321,7 +3329,6 @@ HP:0000171	Microglossia	skos:exactMatch	UPHENO:0081135	tongue hypoplasia	semapv:
 HP:0000171	Microglossia	skos:exactMatch	XPO:0128105	decreased size of the tongue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	small tongue		semapv:RegularExpressionReplacement
 HP:0000174	Abnormal palate morphology	skos:exactMatch	MP:0003755	abnormal palate morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	palate morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0000175	Cleft palate	skos:exactMatch	MP:0000111	cleft palate	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cleft palate		
-HP:0000176	Submucous cleft hard palate	skos:exactMatch	MP:0011615	submucous cleft palate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	submucosal cleft palate		
 HP:0000176	Submucous cleft hard palate	skos:exactMatch	MP:0013548	submucous cleft hard palate	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	submucous cleft hard palate		
 HP:0000177	Abnormal upper lip morphology	skos:exactMatch	MP:0012523	abnormal upper lip morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	upper lip morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0000178	Abnormal lower lip morphology	skos:exactMatch	MP:0012524	abnormal lower lip morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lower lip morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -3372,12 +3379,14 @@ HP:0000276	Long face	skos:exactMatch	MP:0030070	long face	semapv:LexicalMatching
 HP:0000277	Abnormal mandible morphology	skos:exactMatch	MP:0000458	abnormal mandible morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mandible morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0000278	Retrognathia	skos:exactMatch	MP:0004282	retrognathia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	retrognathia		
 HP:0000278	Retrognathia	skos:exactMatch	MP:0030273	mandibular retrognathia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	receding mandible		
+HP:0000278	Retrognathia	skos:exactMatch	MP:0030273	mandibular retrognathia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mandibular retrognathia		
 HP:0000280	Coarse facial features	skos:exactMatch	MP:0030074	coarse facial features	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	coarse face		
 HP:0000280	Coarse facial features	skos:exactMatch	MP:0030074	coarse facial features	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	coarse facial features		
 HP:0000283	Broad face	skos:exactMatch	MP:0030069	broad face	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	broad face		
 HP:0000286	Epicanthus	skos:exactMatch	UBERON:0013766	epicanthal fold	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	epicanthal fold		
 HP:0000286	Epicanthus	skos:exactMatch	UBERON:0013766	epicanthal fold	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	epicanthus		
 HP:0000288	Abnormality of the philtrum	skos:exactMatch	UBERON:0005402	philtrum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	philtrum	semapv:RegularExpressionReplacement	
+HP:0000290	Abnormal forehead morphology	skos:exactMatch	MP:0030031	abnormal forehead morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	forehead morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0000303	Mandibular prognathia	skos:exactMatch	MP:0010208	prognathia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	prognathism		
 HP:0000303	Mandibular prognathia	skos:exactMatch	MP:0010208	prognathia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	prognathia		
 HP:0000303	Mandibular prognathia	skos:exactMatch	MP:0030050	large mandible	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	enlarged mandible		
@@ -3404,7 +3413,6 @@ HP:0000347	Micrognathia	skos:exactMatch	MP:0000460	mandible hypoplasia	semapv:Le
 HP:0000347	Micrognathia	skos:exactMatch	MP:0000460	mandible hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mandibular hypoplasia		
 HP:0000347	Micrognathia	skos:exactMatch	MP:0002639	micrognathia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	micrognathia		
 HP:0000347	Micrognathia	skos:exactMatch	MP:0004592	small mandible	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	small mandible		
-HP:0000347	Micrognathia	skos:exactMatch	MP:0030273	mandibular retrognathia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mandibular retrognathia		
 HP:0000347	Micrognathia	skos:exactMatch	UPHENO:0069249	decreased size of the mandible	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	small mandible		
 HP:0000347	Micrognathia	skos:exactMatch	UPHENO:0081314	mandible hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoplastic mandible		
 HP:0000348	High forehead	skos:exactMatch	MP:0030032	high forehead	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	high forehead		
@@ -3499,7 +3507,6 @@ HP:0000527	Long eyelashes	skos:exactMatch	MP:0031288	long eyelid cilia	semapv:Le
 HP:0000528	Anophthalmia	skos:exactMatch	MP:0001293	anophthalmia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anophthalmia		
 HP:0000531	Corneal crystals	skos:exactMatch	MP:0005544	cornea deposits	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	corneal deposits		
 HP:0000537	Epicanthus inversus	skos:exactMatch	MP:0006168	epicanthus inversus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	epicanthus inversus		
-HP:0000538	Pseudopapilledema	skos:exactMatch	MP:0006223	optic nerve swelling	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pseudopapilledema		
 HP:0000540	Hypermetropia	skos:exactMatch	MP:0006153	hypermetropia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hyperopia		
 HP:0000540	Hypermetropia	skos:exactMatch	MP:0006153	hypermetropia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hypermetropia		
 HP:0000541	Retinal detachment	skos:exactMatch	MP:0003099	retina detachment	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	retinal detachment		
@@ -3516,7 +3523,6 @@ HP:0000573	Retinal hemorrhage	skos:exactMatch	MP:0006185	retina hemorrhage	semap
 HP:0000577	Exotropia	skos:exactMatch	MP:0005255	exotropia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	exotropia		
 HP:0000579	Nasolacrimal duct obstruction	skos:exactMatch	MP:0013451	nasolacrimal duct obstruction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nasolacrimal duct obstruction		
 HP:0000579	Nasolacrimal duct obstruction	skos:exactMatch	UPHENO:0085680	nasolacrimal duct obstruction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nasolacrimal duct obstruction		
-HP:0000581	Blepharophimosis	skos:exactMatch	MP:0005287	narrow eye opening	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	blepharophimosis		
 HP:0000586	Shallow orbits	skos:exactMatch	MP:0006213	shallow orbits	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	shallow orbits		
 HP:0000587	Abnormal optic nerve morphology	skos:exactMatch	MP:0001330	abnormal optic nerve morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	optic nerve morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0000587	Abnormal optic nerve morphology	skos:exactMatch	XPO:0103142	abnormal optic nerve morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	optic nerve morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -3540,7 +3546,6 @@ HP:0000615	Abnormal pupil morphology	skos:exactMatch	MP:0001317	abnormal pupil m
 HP:0000615	Abnormal pupil morphology	skos:exactMatch	XPO:0103210	abnormal pupil morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pupil morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0000618	Blindness	skos:exactMatch	MP:0002001	blindness	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	blindness		
 HP:0000621	Entropion	skos:exactMatch	MP:0006165	entropion	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	entropion		
-HP:0000622	Blurred vision	skos:exactMatch	MP:0006149	decreased visual acuity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	blurred vision		
 HP:0000629	Periorbital fullness	skos:exactMatch	MP:0030098	periorbital fullness	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	periorbital puffiness		
 HP:0000629	Periorbital fullness	skos:exactMatch	MP:0030098	periorbital fullness	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	periorbital fullness		
 HP:0000630	Abnormal retinal artery morphology	skos:exactMatch	MP:0031139	abnormal retina artery morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	retinal artery morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -3602,8 +3607,6 @@ HP:0000798	Oligozoospermia	skos:exactMatch	MP:0002687	oligozoospermia	semapv:Lex
 HP:0000798	Oligozoospermia	skos:exactMatch	MP:0002687	oligozoospermia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oligozoospermia		
 HP:0000802	Impotence	skos:exactMatch	MP:0031646	impotence	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	impotence		
 HP:0000803	Renal cortical cysts	skos:exactMatch	MP:0000522	kidney cortex cyst	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal cortical cysts		
-HP:0000811	Abnormal external genitalia	skos:exactMatch	UBERON:0004176	external genitalia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	external genitalia	semapv:RegularExpressionReplacement	
-HP:0000811	Abnormal external genitalia	skos:exactMatch	UBERON:0004176	external genitalia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	external genitalia	semapv:RegularExpressionReplacement	
 HP:0000812	Abnormal internal genitalia	skos:exactMatch	UBERON:0004175	internal genitalia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	internal genitalia	semapv:RegularExpressionReplacement	
 HP:0000812	Abnormal internal genitalia	skos:exactMatch	UBERON:0004175	internal genitalia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	internal genitalia	semapv:RegularExpressionReplacement	
 HP:0000813	Bicornuate uterus	skos:exactMatch	UPHENO:0041664	bicornuate uterus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bicornuate uterus		
@@ -3641,9 +3644,9 @@ HP:0000926	Platyspondyly	skos:exactMatch	MP:0011175	platyspondylia	semapv:Lexica
 HP:0000926	Platyspondyly	skos:exactMatch	MP:0011175	platyspondylia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	flattened vertebral bodies		
 HP:0000926	Platyspondyly	skos:exactMatch	MP:0011175	platyspondylia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	platyspondyly		
 HP:0000932	Abnormal posterior cranial fossa morphology	skos:exactMatch	MP:0030309	abnormal posterior cranial fossa morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	posterior cranial fossa morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0000938	Osteopenia	skos:exactMatch	MP:0000063	decreased bone mineral density	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	osteopenia		
 HP:0000939	Osteoporosis	skos:exactMatch	MP:0000066	osteoporosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	osteoporosis		
 HP:0000940	Abnormal diaphysis morphology	skos:exactMatch	XPO:0101889	abnormal diaphysis morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	diaphysis morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+HP:0000944	Abnormal metaphysis morphology	skos:exactMatch	MP:0000133	abnormal long bone metaphysis morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	metaphysis morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0000947	Dumbbell-shaped long bone	skos:exactMatch	UPHENO:0041666	dumbbell-shaped long bone	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dumbbell-shaped long bone		
 HP:0000952	Jaundice	skos:exactMatch	MP:0000611	jaundice	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	jaundice		
 HP:0000953	Hyperpigmentation of the skin	skos:exactMatch	MP:0030926	increased skin pigmentation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cutaneous hyperpigmentation		
@@ -3652,6 +3655,7 @@ HP:0000953	Hyperpigmentation of the skin	skos:exactMatch	MP:0030926	increased sk
 HP:0000958	Dry skin	skos:exactMatch	MP:0003853	dry skin	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	xerosis		
 HP:0000958	Dry skin	skos:exactMatch	MP:0003853	dry skin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dry skin		
 HP:0000961	Cyanosis	skos:exactMatch	MP:0001575	cyanosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cyanosis		
+HP:0000962	Hyperkeratosis	skos:exactMatch	MP:0001242	hyperkeratosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	epidermal hyperkeratosis		
 HP:0000962	Hyperkeratosis	skos:exactMatch	MP:0001242	hyperkeratosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hyperkeratosis		
 HP:0000962	Hyperkeratosis	skos:exactMatch	MPATH:154	hyperkeratosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hyperkeratosis		
 HP:0000963	Thin skin	skos:exactMatch	MP:0001199	thin skin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	thin skin		
@@ -3683,10 +3687,8 @@ HP:0001067	Neurofibroma	skos:exactMatch	MPATH:435	neurofibroma	semapv:LexicalMat
 HP:0001081	Cholelithiasis	skos:exactMatch	MP:0002830	gallstones	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cholelithiasis		
 HP:0001083	Ectopia lentis	skos:exactMatch	MP:0031428	lens dislocation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lens dislocation		
 HP:0001083	Ectopia lentis	skos:exactMatch	MP:0031428	lens dislocation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ectopia lentis		
-HP:0001085	Papilledema	skos:exactMatch	MP:0006223	optic nerve swelling	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	papilledema		
 HP:0001089	Iris atrophy	skos:exactMatch	MP:0006228	iris atrophy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	iris atrophy		
 HP:0001089	Iris atrophy	skos:exactMatch	UPHENO:0014052	iris atrophy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	iris atrophy		
-HP:0001093	Optic nerve dysplasia	skos:exactMatch	MP:0001330	abnormal optic nerve morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	optic nerve dysplasia		
 HP:0001096	Keratoconjunctivitis	skos:exactMatch	MP:0006194	keratoconjunctivitis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	keratoconjunctivitis		
 HP:0001097	Keratoconjunctivitis sicca	skos:exactMatch	MP:0001337	dry eyes	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	xerophthalmia		
 HP:0001097	Keratoconjunctivitis sicca	skos:exactMatch	MP:0013466	keratoconjunctivitis sicca	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	keratitis sicca		
@@ -3763,10 +3765,8 @@ HP:0001355	Megalencephaly	skos:exactMatch	MP:0005238	increased brain size	semapv
 HP:0001360	Holoprosencephaly	skos:exactMatch	MP:0005157	holoprosencephaly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	holoprosencephaly		
 HP:0001363	Craniosynostosis	skos:exactMatch	MP:0000081	premature cranial suture closure	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	early fusion of cranial sutures		
 HP:0001363	Craniosynostosis	skos:exactMatch	MP:0000081	premature cranial suture closure	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	craniosynostosis		
-HP:0001363	Craniosynostosis	skos:exactMatch	MP:0030392	premature fontanelle closure	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	premature fontanel closure		
 HP:0001367	Abnormal joint morphology	skos:exactMatch	MP:0002932	abnormal joint morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	joint morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0001367	Abnormal joint morphology	skos:exactMatch	XPO:0103218	abnormal joint morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	joint morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0001369	Arthritis	skos:exactMatch	MP:0002993	arthritis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	arthritis		
 HP:0001369	Arthritis	skos:exactMatch	MPATH:195	arthritis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	arthritis		
 HP:0001370	Rheumatoid arthritis	skos:exactMatch	MP:0003561	rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rheumatoid arthritis		
 HP:0001373	Joint dislocation	skos:exactMatch	MP:0030795	joint dislocation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	joint dislocation		
@@ -3801,7 +3801,6 @@ HP:0001538	Protuberant abdomen	skos:exactMatch	UPHENO:0085725	exserted abdomen	s
 HP:0001539	Omphalocele	skos:exactMatch	MP:0003052	omphalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	exomphalos		
 HP:0001539	Omphalocele	skos:exactMatch	MP:0003052	omphalocele	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	omphalocele		
 HP:0001541	Ascites	skos:exactMatch	MP:0005324	ascites	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ascites		
-HP:0001543	Gastroschisis	skos:exactMatch	MP:0000757	herniated abdominal wall	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	gastroschisis		
 HP:0001544	Prominent umbilicus	skos:exactMatch	UPHENO:0082915	prominent umbilicus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	prominent umbilicus		
 HP:0001547	Abnormal rib cage morphology	skos:exactMatch	MP:0004624	abnormal thoracic cage morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	rib cage morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0001549	Abnormal ileum morphology	skos:exactMatch	MP:0002581	abnormal ileum morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ileum morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -3861,8 +3860,6 @@ HP:0001674	Complete atrioventricular canal defect	skos:exactMatch	MP:0010413	com
 HP:0001674	Complete atrioventricular canal defect	skos:exactMatch	MP:0010413	complete atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	complete common av canal		
 HP:0001674	Complete atrioventricular canal defect	skos:exactMatch	MP:0010413	complete atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	complete atrioventricular septal defect		
 HP:0001674	Complete atrioventricular canal defect	skos:exactMatch	MP:0010413	complete atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	complete atrioventricular canal defect		
-HP:0001674	Complete atrioventricular canal defect	skos:exactMatch	UBERON:0002087	atrioventricular canal	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	atrioventricular canal		
-HP:0001674	Complete atrioventricular canal defect	skos:exactMatch	XPO:0100837	abnormal atrioventricular canal	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	atrioventricular canal		semapv:RegularExpressionReplacement
 HP:0001678	Atrioventricular block	skos:exactMatch	MP:0010519	atrioventricular block	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	atrioventricular block		
 HP:0001680	Coarctation of aorta	skos:exactMatch	MP:0003387	aorta coarctation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	aortic coarctation		
 HP:0001680	Coarctation of aorta	skos:exactMatch	MP:0003387	aorta coarctation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	coarctation of aorta		
@@ -3900,7 +3897,6 @@ HP:0001741	Phimosis	skos:exactMatch	MP:0003554	phimosis	semapv:LexicalMatching	o
 HP:0001744	Splenomegaly	skos:exactMatch	MP:0000691	enlarged spleen	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	splenomegaly		
 HP:0001746	Asplenia	skos:exactMatch	MP:0000690	absent spleen	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	asplenia		
 HP:0001747	Accessory spleen	skos:exactMatch	MP:0003342	accessory spleen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	accessory spleen		
-HP:0001748	Polysplenia	skos:exactMatch	MP:0003342	accessory spleen	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	polysplenia		
 HP:0001750	Single ventricle	skos:exactMatch	MP:0010432	common ventricle	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	single ventricle		
 HP:0001760	Abnormal foot morphology	skos:exactMatch	XPO:0102089	abnormal foot morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	foot morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0001762	Talipes equinovarus	skos:exactMatch	MP:0000576	clubfoot	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	talipes equinovarus		
@@ -3934,7 +3930,6 @@ HP:0001903	Anemia	skos:exactMatch	MP:0001577	anemia	semapv:LexicalMatching	oakli
 HP:0001903	Anemia	skos:exactMatch	MP:0001577	anemia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anemia		
 HP:0001911	Abnormal granulocyte morphology	skos:exactMatch	MP:0002441	abnormal granulocyte morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	granulocyte morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0001912	Abnormal basophil morphology	skos:exactMatch	MP:0002422	abnormal basophil morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	basophil morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0001913	Granulocytopenia	skos:exactMatch	MP:0000334	decreased granulocyte number	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	granulocytopenia		
 HP:0001917	Renal amyloidosis	skos:exactMatch	MP:0021147	renal amyloidosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	renal amyloidosis		
 HP:0001920	Renal artery stenosis	skos:exactMatch	MP:0011356	renal artery stenosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	renal artery stenosis		
 HP:0001923	Reticulocytosis	skos:exactMatch	MP:0002640	reticulocytosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	reticulocytosis		
@@ -3948,18 +3943,15 @@ HP:0001942	Metabolic acidosis	skos:exactMatch	MP:0012551	metabolic acidosis	sema
 HP:0001943	Hypoglycemia	skos:exactMatch	MP:0000189	hypoglycemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoglycaemia		
 HP:0001943	Hypoglycemia	skos:exactMatch	MP:0000189	hypoglycemia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hypoglycemia		
 HP:0001944	Dehydration	skos:exactMatch	MP:0001429	dehydration	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dehydration		
-HP:0001946	Ketosis	skos:exactMatch	MP:0002575	increased circulating ketone body level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hyperketosis		
 HP:0001946	Ketosis	skos:exactMatch	MP:0030970	ketosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hyperketosis		
 HP:0001946	Ketosis	skos:exactMatch	MP:0030970	ketosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ketosis		
 HP:0001947	Renal tubular acidosis	skos:exactMatch	MP:0000525	renal tubular acidosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	renal tubular acidosis		
 HP:0001948	Alkalosis	skos:exactMatch	MP:0003028	alkalosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alkalosis		
-HP:0001952	Glucose intolerance	skos:exactMatch	MP:0005293	impaired glucose tolerance	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	glucose intolerance		
 HP:0001959	Polydipsia	skos:exactMatch	MP:0001426	polydipsia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	polydipsia		
 HP:0001961	Hypoplastic heart	skos:exactMatch	MP:0002740	heart hypoplasia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypoplastic heart		
 HP:0001961	Hypoplastic heart	skos:exactMatch	UPHENO:0081262	heart hypoplasia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypoplastic heart		
 HP:0001965	Abnormal scalp morphology	skos:exactMatch	MP:0030178	abnormal scalp morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	scalp morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0001966	Abnormal glomerular mesangium morphology	skos:exactMatch	MP:0011339	abnormal glomerular mesangium morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	glomerular mesangium morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0001967	Diffuse mesangial sclerosis	skos:exactMatch	MP:0011353	expanded mesangial matrix	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mesangial sclerosis		
 HP:0001970	Tubulointerstitial nephritis	skos:exactMatch	MP:0011405	tubulointerstitial nephritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	interstitial nephritis		
 HP:0001970	Tubulointerstitial nephritis	skos:exactMatch	MP:0011405	tubulointerstitial nephritis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tubulointerstitial nephritis		
 HP:0001972	Macrocytic anemia	skos:exactMatch	MP:0002811	macrocytic anemia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	macrocytic anemia		
@@ -3994,7 +3986,6 @@ HP:0002035	Rectal prolapse	skos:exactMatch	MP:0000493	rectal prolapse	semapv:Lex
 HP:0002036	Hiatus hernia	skos:exactMatch	MP:0003258	hiatal hernia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hiatal hernia		
 HP:0002045	Hypothermia	skos:exactMatch	MP:0005534	decreased body temperature	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypothermia		
 HP:0002048	Renal cortical atrophy	skos:exactMatch	MP:0011423	kidney cortex atrophy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal cortical atrophy		
-HP:0002062	Abnormal pyramidal tract morphology	skos:exactMatch	MP:0002878	abnormal corticospinal tract morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pyramidal tract morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0002067	Bradykinesia	skos:exactMatch	MP:0005156	bradykinesia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bradykinesia		
 HP:0002079	Hypoplasia of the corpus callosum	skos:exactMatch	UPHENO:0081381	corpus callosum hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoplastic corpus callosum		
 HP:0002079	Hypoplasia of the corpus callosum	skos:exactMatch	UPHENO:0081381	corpus callosum hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	corpus callosum hypoplasia		
@@ -4040,7 +4031,6 @@ HP:0002155	Hypertriglyceridemia	skos:exactMatch	MP:0001552	increased circulating
 HP:0002157	Azotemia	skos:exactMatch	MP:0009644	uremia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	azotaemia		
 HP:0002157	Azotemia	skos:exactMatch	MP:0009644	uremia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	azotemia		
 HP:0002160	Hyperhomocystinemia	skos:exactMatch	MP:0012335	increased circulating homocysteine level	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hyperhomocystinemia		
-HP:0002164	Nail dysplasia	skos:exactMatch	MP:0000579	abnormal nail morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	nail dysplasia		
 HP:0002167	Abnormal speech pattern	skos:exactMatch	MP:0001529	abnormal vocalization	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vocalization	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0002170	Intracranial hemorrhage	skos:exactMatch	MP:0001915	intracranial hemorrhage	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intracranial hemorrhage		
 HP:0002171	Gliosis	skos:exactMatch	MP:0002183	gliosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gliosis		
@@ -4116,7 +4106,6 @@ HP:0002492	Abnormal corticospinal tract morphology	skos:exactMatch	MP:0002878	ab
 HP:0002494	Abnormal rapid eye movement sleep	skos:exactMatch	NBO:0000159	rapid eye movement sleep	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	rem sleep	semapv:RegularExpressionReplacement	
 HP:0002494	Abnormal rapid eye movement sleep	skos:exactMatch	NBO:0000159	rapid eye movement sleep	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rapid eye movement sleep	semapv:RegularExpressionReplacement	
 HP:0002507	Semilobar holoprosencephaly	skos:exactMatch	MP:0014278	semilobar holoprosencephaly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	semilobar holoprosencephaly		
-HP:0002508	Brainstem dysplasia	skos:exactMatch	MP:0005277	abnormal brainstem morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	brainstem dysplasia		
 HP:0002509	Limb hypertonia	skos:exactMatch	MP:0012053	limb hypertonicity	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	limb hypertonia		
 HP:0002538	Abnormal cerebral cortex morphology	skos:exactMatch	MP:0000788	abnormal cerebral cortex morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cerebral cortex morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0002557	Hypoplastic nipples	skos:exactMatch	UPHENO:0081287	nipple hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nipple hypoplasia		
@@ -4434,7 +4423,6 @@ HP:0004306	Abnormal endocardium morphology	skos:exactMatch	XPO:0101891	abnormal 
 HP:0004311	Abnormal macrophage morphology	skos:exactMatch	MP:0002446	abnormal macrophage morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	macrophage morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0004311	Abnormal macrophage morphology	skos:exactMatch	XPO:0102848	abnormal macrophage morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	macrophage morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0004312	Abnormal reticulocyte morphology	skos:exactMatch	MP:0002424	abnormal reticulocyte morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	reticulocyte morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0004313	Decreased circulating antibody concentration	skos:exactMatch	MP:0001805	decreased IgG level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypogammaglobulinemia		
 HP:0004313	Decreased circulating antibody concentration	skos:exactMatch	MP:0002460	decreased immunoglobulin level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	decreased immunoglobulin level		
 HP:0004315	Decreased circulating IgG concentration	skos:exactMatch	MP:0001805	decreased IgG level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	decreased igg level		
 HP:0004319	Decreased circulating aldosterone concentration	skos:exactMatch	MP:0002667	decreased circulating aldosterone level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoaldosteronism		
@@ -4442,13 +4430,13 @@ HP:0004322	Short stature	skos:exactMatch	MP:0001255	decreased body height	semapv
 HP:0004324	Increased body weight	skos:exactMatch	MP:0001260	increased body weight	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	increased body weight		
 HP:0004325	Decreased body weight	skos:exactMatch	MP:0001262	decreased body weight	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased body weight		
 HP:0004326	Cachexia	skos:exactMatch	MP:0005150	cachexia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cachexia		
+HP:0004328	Abnormal anterior eye segment morphology	skos:exactMatch	MP:0005193	abnormal anterior eye segment morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	anterior segment morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0004328	Abnormal anterior eye segment morphology	skos:exactMatch	MP:0005193	abnormal anterior eye segment morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anterior eye segment morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0004329	Abnormal posterior eye segment morphology	skos:exactMatch	MP:0005195	abnormal posterior eye segment morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	posterior eye segment morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0004332	Abnormal lymphocyte morphology	skos:exactMatch	MP:0002619	abnormal lymphocyte morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lymphocyte morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0004332	Abnormal lymphocyte morphology	skos:exactMatch	XPO:0102081	abnormal lymphocyte morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lymphocyte morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0004334	Dermal atrophy	skos:exactMatch	MP:0030584	skin atrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	atrophic skin		
 HP:0004334	Dermal atrophy	skos:exactMatch	MP:0030584	skin atrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	skin atrophy		
-HP:0004336	Myelin outfoldings	skos:exactMatch	MP:0012674	tomacula	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	myelin outfoldings		
 HP:0004349	Reduced bone mineral density	skos:exactMatch	MP:0000063	decreased bone mineral density	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	reduced bone mineral density		
 HP:0004380	Aortic valve calcification	skos:exactMatch	MP:0006116	calcified aortic valve	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	aortic valve calcification		
 HP:0004380	Aortic valve calcification	skos:exactMatch	UPHENO:0067809	aortic valve calcification	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	aortic valve calcification		
@@ -4501,13 +4489,10 @@ HP:0004840	Hypochromic microcytic anemia	skos:exactMatch	MP:0008388	hypochromic 
 HP:0004857	Hyperchromic macrocytic anemia	skos:exactMatch	MP:0008945	hyperchromic macrocytic anemia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hyperchromic macrocytic anemia		
 HP:0004871	Perineal fistula	skos:exactMatch	MP:0003316	perineal fistula	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	perineal fistula		
 HP:0004878	Intercostal muscle weakness	skos:exactMatch	UPHENO:0080571	decreased intercostal muscle strength	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	intercostal muscle weakness		
-HP:0004935	Pulmonary artery atresia	skos:exactMatch	MP:0006130	pulmonary valve atresia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pulmonary atresia		
-HP:0004935	Pulmonary artery atresia	skos:exactMatch	MP:0010521	absent pulmonary artery	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pulmonary artery atresia		
 HP:0004935	Pulmonary artery atresia	skos:exactMatch	UPHENO:0063646	pulmonary artery atresia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pulmonary artery atresia		
 HP:0004936	Venous thrombosis	skos:exactMatch	MP:0031158	abnormal venous thrombosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	venous thrombosis		semapv:RegularExpressionReplacement
 HP:0004937	Pulmonary artery aneurysm	skos:exactMatch	MP:0010462	pulmonary artery aneurysm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pulmonary artery aneurysm		
 HP:0004942	Aortic aneurysm	skos:exactMatch	MP:0006278	aortic aneurysm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	aortic aneurysm		
-HP:0004947	Arteriovenous fistula	skos:exactMatch	MP:0006093	arteriovenous malformation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	arteriovenous fistula		
 HP:0004959	Descending thoracic aorta aneurysm	skos:exactMatch	MP:0010660	descending thoracic aorta aneurysm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	descending thoracic aorta aneurysm		
 HP:0004960	Absent pulmonary artery	skos:exactMatch	MP:0010521	absent pulmonary artery	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent pulmonary artery		
 HP:0004960	Absent pulmonary artery	skos:exactMatch	UPHENO:0009006	absent pulmonary artery	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent pulmonary artery		
@@ -4541,8 +4526,6 @@ HP:0005156	Hypoplastic left atrium	skos:exactMatch	MP:0010647	heart left atrium 
 HP:0005160	Total anomalous pulmonary venous return	skos:exactMatch	MP:0010441	total anomalous pulmonary venous connection	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	total anomalous pulmonary venous drainage		
 HP:0005160	Total anomalous pulmonary venous return	skos:exactMatch	MP:0010441	total anomalous pulmonary venous connection	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	total anomalous pulmonary venous connection		
 HP:0005160	Total anomalous pulmonary venous return	skos:exactMatch	MP:0010441	total anomalous pulmonary venous connection	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	total anomalous pulmonary venous return		
-HP:0005164	Dysplastic pulmonary valve	skos:exactMatch	MP:0002748	abnormal pulmonary valve morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pulmonary valve dysplasia		
-HP:0005164	Dysplastic pulmonary valve	skos:exactMatch	MP:0002748	abnormal pulmonary valve morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	dysplastic pulmonary valve		
 HP:0005165	Shortened PR interval	skos:exactMatch	MP:0010511	shortened PR interval	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	shortened pr interval		
 HP:0005180	Tricuspid regurgitation	skos:exactMatch	MP:0006044	tricuspid valve regurgitation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	tricuspid regurgitation		
 HP:0005182	Bicuspid pulmonary valve	skos:exactMatch	MP:0010527	bicuspid pulmonary valve	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bicuspid pulmonary valve		
@@ -4554,7 +4537,6 @@ HP:0005218	Anoperineal fistula	skos:exactMatch	MP:0003317	anoperineal fistula	se
 HP:0005224	Rectal abscess	skos:exactMatch	MP:0003302	perirectal abscess	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	perirectal abscess		
 HP:0005225	Intestinal edema	skos:exactMatch	MP:0003288	intestinal edema	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intestinal edema		
 HP:0005225	Intestinal edema	skos:exactMatch	WBPhenotype:0002629	intestinal edema	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intestinal edema		
-HP:0005232	Pancreatic dysplasia	skos:exactMatch	MP:0001944	abnormal pancreas morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pancreatic dysplasia		
 HP:0005233	Hypoplasia of the gallbladder	skos:exactMatch	UPHENO:0081349	gallbladder hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoplastic gallbladder		
 HP:0005263	Gastritis	skos:exactMatch	MP:0001873	stomach inflammation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	gastritis		
 HP:0005265	Abnormal jejunum morphology	skos:exactMatch	MP:0004002	abnormal jejunum morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	jejunum morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -4586,6 +4568,7 @@ HP:0005404	Increased B cell count	skos:exactMatch	MP:0005014	increased B cell nu
 HP:0005419	Decreased T cell activation	skos:exactMatch	UPHENO:0005495	decreased T cell activation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased t cell activation		
 HP:0005441	Sclerotic cranial sutures	skos:exactMatch	MP:0030359	cranial suture sclerosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	sclerotic cranial sutures		
 HP:0005458	Premature closure of fontanelles	skos:exactMatch	MP:0030392	premature fontanelle closure	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	obliterated fontanelles		
+HP:0005458	Premature closure of fontanelles	skos:exactMatch	MP:0030392	premature fontanelle closure	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	premature fontanel closure		
 HP:0005465	Facial hyperostosis	skos:exactMatch	MP:0030418	facial hyperostosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	facial hyperostosis		
 HP:0005473	Fusion of middle ear ossicles	skos:exactMatch	MP:0003740	fusion of middle ear ossicles	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fusion of middle ear ossicles		
 HP:0005483	Abnormal epiglottis morphology	skos:exactMatch	MP:0010371	abnormal epiglottis morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	epiglottis morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -4613,6 +4596,7 @@ HP:0005792	Short humerus	skos:exactMatch	XPO:0103573	decreased length of humerus
 HP:0005912	Biliary atresia	skos:exactMatch	MP:0031315	biliary atresia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	biliary duct atresia		
 HP:0005912	Biliary atresia	skos:exactMatch	MP:0031315	biliary atresia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	biliary atresia		
 HP:0005922	Abnormal hand morphology	skos:exactMatch	XPO:0101973	abnormal hand morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hand morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+HP:0005930	Abnormal epiphysis morphology	skos:exactMatch	MP:0000131	abnormal long bone epiphysis morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	epiphysis morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0005930	Abnormal epiphysis morphology	skos:exactMatch	XPO:0102369	abnormal epiphysis morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	epiphysis morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0005938	Abnormal respiratory motile cilium morphology	skos:exactMatch	MP:0011050	abnormal respiratory motile cilium morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	respiratory motile cilium morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0005959	Impaired gluconeogenesis	skos:exactMatch	MP:0030973	impaired gluconeogenesis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	impaired gluconeogenesis		
@@ -4628,7 +4612,6 @@ HP:0006288	Advanced eruption of teeth	skos:exactMatch	UPHENO:0049436	premature t
 HP:0006297	Enamel hypoplasia	skos:exactMatch	UPHENO:0081269	enamel hypoplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	enamel hypoplasia		
 HP:0006335	Persistence of primary teeth	skos:exactMatch	UPHENO:0081973	persistent primary dentition	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	persistent primary dentition		
 HP:0006336	Short dental root	skos:exactMatch	MP:0030497	short tooth root	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	short dental root		
-HP:0006342	Peg-shaped maxillary lateral incisors	skos:exactMatch	MP:0030499	conical tooth	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	peg-shaped tooth		
 HP:0006429	Broad femoral neck	skos:exactMatch	MP:0030794	broad femur neck	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	wide femoral neck		
 HP:0006429	Broad femoral neck	skos:exactMatch	MP:0030794	broad femur neck	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	broad femoral neck		
 HP:0006443	Patellar aplasia	skos:exactMatch	MP:0004694	absent patella	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	absent patella		
@@ -4675,7 +4658,6 @@ HP:0006960	Choroid plexus calcification	skos:exactMatch	UPHENO:0067923	choroid p
 HP:0006988	Alobar holoprosencephaly	skos:exactMatch	MP:0014277	alobar holoprosencephaly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alobar holoprosencephaly		
 HP:0007009	Central nervous system degeneration	skos:exactMatch	UPHENO:0074047	central nervous system degeneration	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	central nervous system degeneration		
 HP:0007016	Corticospinal tract hypoplasia	skos:exactMatch	UPHENO:0081294	corticospinal tract hypoplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	corticospinal tract hypoplasia		
-HP:0007033	Cerebellar dysplasia	skos:exactMatch	MP:0000849	abnormal cerebellum morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cerebellar dysplasia		
 HP:0007047	Atrophy of the dentate nucleus	skos:exactMatch	UPHENO:0014093	dentate nucleus atrophy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	atrophy of the dentate nucleus		
 HP:0007082	Dilated third ventricle	skos:exactMatch	MP:0000827	dilated third ventricle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dilated third ventricle		
 HP:0007082	Dilated third ventricle	skos:exactMatch	UPHENO:0084118	dilated third ventricle	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	dilated third ventricle		
@@ -4694,7 +4676,6 @@ HP:0007376	Abnormal choroid plexus morphology	skos:exactMatch	MP:0000820	abnorma
 HP:0007384	Aberrant melanosome maturation	skos:exactMatch	MP:0030915	abnormal melanosome maturation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	melanosome maturation	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0007430	Generalized edema	skos:exactMatch	MP:0013807	generalized edema	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	generalized tissue edema		
 HP:0007430	Generalized edema	skos:exactMatch	MP:0013807	generalized edema	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	generalized edema		
-HP:0007543	Epidermal hyperkeratosis	skos:exactMatch	MP:0001242	hyperkeratosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	epidermal hyperkeratosis		
 HP:0007633	Bilateral microphthalmos	skos:exactMatch	MP:0031290	bilateral microphthalmia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	bilateral microphthalmos		
 HP:0007656	Lacrimal gland aplasia	skos:exactMatch	MP:0001347	absent lacrimal glands	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	lacrimal gland aplasia		
 HP:0007663	Reduced visual acuity	skos:exactMatch	MP:0006149	decreased visual acuity	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	decreased visual acuity		
@@ -4726,7 +4707,6 @@ HP:0007957	Corneal opacity	skos:exactMatch	MP:0001314	cornea opacity	semapv:Lexi
 HP:0007968	Remnants of the hyaloid vascular system	skos:exactMatch	MP:0010711	persistent hyperplastic primary vitreous	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	persistent hyperplasia of primary vitreous		
 HP:0007968	Remnants of the hyaloid vascular system	skos:exactMatch	MP:0010711	persistent hyperplastic primary vitreous	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	persistent hyperplastic primary vitreous		
 HP:0007971	Lamellar cataract	skos:exactMatch	MP:0010262	lamellar cataract	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lamellar cataract		
-HP:0007973	Retinal dysplasia	skos:exactMatch	MP:0001325	abnormal retina morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	retinal dysplasia		
 HP:0007985	Retinal arteriolar occlusion	skos:exactMatch	MP:0031146	retina arteriole occlusion	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	retinal arteriolar occlusion		
 HP:0007990	Hypoplastic iris stroma	skos:exactMatch	MP:0006230	iris stroma hypoplasia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypoplastic iris stroma		
 HP:0007990	Hypoplastic iris stroma	skos:exactMatch	UPHENO:0081221	iris stroma hypoplasia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypoplastic iris stroma		
@@ -4741,16 +4721,14 @@ HP:0008081	Pes valgus	skos:exactMatch	MP:0031291	pes valgus	semapv:LexicalMatchi
 HP:0008151	Prolonged prothrombin time	skos:exactMatch	MP:0012356	increased prothrombin time	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	prolonged prothrombin time		
 HP:0008155	Mucopolysacchariduria	skos:exactMatch	MP:0011473	increased urine glycosaminoglycan level	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mucopolysacchariduria		
 HP:0008163	Decreased circulating cortisol level	skos:exactMatch	MP:0014162	decreased circulating cortisol level	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased circulating cortisol level		
-HP:0008188	Thyroid dysgenesis	skos:exactMatch	MP:0000681	abnormal thyroid gland morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	thyroid dysplasia		
-HP:0008216	Adrenal gland dysgenesis	skos:exactMatch	MP:0000639	abnormal adrenal gland morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adrenal gland dysplasia		
 HP:0008216	Adrenal gland dysgenesis	skos:exactMatch	UPHENO:0047405	dysgenesis of the adrenal gland	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	adrenal gland dysgenesis		
 HP:0008222	Female infertility	skos:exactMatch	MP:0001926	female infertility	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	female infertility		
 HP:0008232	Elevated circulating follicle stimulating hormone level	skos:exactMatch	MP:0001750	increased circulating follicle stimulating hormone level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	increased circulating follicle stimulating hormone level		
 HP:0008322	Abnormal mitochondrial morphology	skos:exactMatch	MP:0006035	abnormal mitochondrial morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mitochondrion morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0008322	Abnormal mitochondrial morphology	skos:exactMatch	MP:0006035	abnormal mitochondrial morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mitochondrial morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+HP:0008322	Abnormal mitochondrial morphology	skos:exactMatch	OBA:0002821	mitochondrion morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mitochondrion morphology	semapv:RegularExpressionReplacement	
 HP:0008365	Abnormal talus morphology	skos:exactMatch	MP:0005109	abnormal talus morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	talus morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0008368	Tarsal synostosis	skos:exactMatch	MP:0008919	fused tarsal bones	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tarsal bone fusion		
-HP:0008404	Nail dystrophy	skos:exactMatch	MP:0000579	abnormal nail morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	onychodystrophy		
 HP:0008404	Nail dystrophy	skos:exactMatch	MP:0012400	nail dystrophy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nail dystrophy		
 HP:0008419	Intervertebral disk degeneration	skos:exactMatch	MP:0004684	intervertebral disk degeneration	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intervertebral disk degeneration		
 HP:0008419	Intervertebral disk degeneration	skos:exactMatch	UPHENO:0073944	intervertebral disk degeneration	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intervertebral disk degeneration		
@@ -4853,7 +4831,6 @@ HP:0010286	Abnormal salivary gland morphology	skos:exactMatch	MP:0000613	abnorma
 HP:0010296	Ankyloglossia	skos:exactMatch	MP:0013264	tongue ankylosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ankyloglossia		
 HP:0010297	Bifid tongue	skos:exactMatch	MP:0009909	bifid tongue	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bifid tongue		
 HP:0010299	Abnormal dentin morphology	skos:exactMatch	MP:0002818	abnormal dentin morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dentin morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0010301	Spinal dysraphism	skos:exactMatch	MP:0003054	spina bifida	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	spinal dysraphism		
 HP:0010307	Stridor	skos:exactMatch	MP:0013752	stridor	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	stridor		
 HP:0010309	Bifid sternum	skos:exactMatch	MP:0004320	split sternum	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	bifid sternum		
 HP:0010310	Chylothorax	skos:exactMatch	MP:0003660	chylothorax	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	chylothorax		
@@ -4867,6 +4844,7 @@ HP:0010438	Abnormal ventricular septum morphology	skos:exactMatch	MP:0000281	abn
 HP:0010442	Polydactyly	skos:exactMatch	MP:0000562	polydactyly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	polydactyly		
 HP:0010444	Pulmonic regurgitation	skos:exactMatch	MP:0006048	pulmonary valve regurgitation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pulmonary valve insufficiency		
 HP:0010444	Pulmonic regurgitation	skos:exactMatch	MP:0006048	pulmonary valve regurgitation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pulmonary valve regurgitation		
+HP:0010445	Primum atrial septal defect	skos:exactMatch	MP:0010404	ostium primum atrial septal defect	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ostium primum asd		
 HP:0010445	Primum atrial septal defect	skos:exactMatch	MP:0010404	ostium primum atrial septal defect	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ostium primum atrial septal defect		
 HP:0010445	Primum atrial septal defect	skos:exactMatch	MP:0010404	ostium primum atrial septal defect	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	primum atrial septal defect		
 HP:0010446	Tricuspid stenosis	skos:exactMatch	MP:0006124	tricuspid valve stenosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	tricuspid stenosis		
@@ -4912,7 +4890,6 @@ HP:0010696	Polar cataract	skos:exactMatch	MP:0010258	polar cataract	semapv:Lexic
 HP:0010701	Abnormal circulating immunoglobulin concentration	skos:exactMatch	MP:0002490	abnormal immunoglobulin level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	immunoglobulin concentration	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0010701	Abnormal circulating immunoglobulin concentration	skos:exactMatch	MP:0002490	abnormal immunoglobulin level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	immunoglobulin level	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0010702	Increased circulating antibody concentration	skos:exactMatch	MP:0002461	increased immunoglobulin level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	increased immunoglobulin level		
-HP:0010702	Increased circulating antibody concentration	skos:exactMatch	MP:0002493	increased IgG level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypergammaglobulinemia		
 HP:0010735	Polyostotic fibrous dysplasia	skos:exactMatch	MP:0031350	polyostotic fibrous dysplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	polyostotic fibrous dysplasia		
 HP:0010736	Monostotic fibrous dysplasia	skos:exactMatch	MP:0031349	monostotic fibrous dysplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	monostotic fibrous dysplasia		
 HP:0010743	Short metatarsal	skos:exactMatch	UPHENO:0046418	decreased length of metatarsal bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	short metatarsal bone		
@@ -4968,6 +4945,7 @@ HP:0011035	Abnormal renal cortex morphology	skos:exactMatch	MP:0000521	abnormal 
 HP:0011037	Decreased urine output	skos:exactMatch	MP:0031358	decreased urine output	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased urine output		
 HP:0011040	Abnormal intrahepatic bile duct morphology	skos:exactMatch	MP:0009497	abnormal intrahepatic bile duct morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intrahepatic bile duct morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0011063	Abnormal incisor morphology	skos:exactMatch	MP:0005358	abnormal incisor morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	incisor morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+HP:0011065	Conical incisor	skos:exactMatch	MP:0030499	conical tooth	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	peg-shaped tooth		
 HP:0011068	Odontoma	skos:exactMatch	MPATH:387	odontoma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	odontoma		
 HP:0011069	Supernumerary tooth	skos:exactMatch	MP:0004033	supernumerary teeth	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	supernumerary teeth		
 HP:0011070	Abnormal molar morphology	skos:exactMatch	MP:0002689	abnormal molar morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	molar morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -5070,6 +5048,7 @@ HP:0011573	Hypoplastic tricuspid valve	skos:exactMatch	UPHENO:0081165	tricuspid 
 HP:0011573	Hypoplastic tricuspid valve	skos:exactMatch	UPHENO:0081165	tricuspid valve hypoplasia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypoplastic tricuspid valve		
 HP:0011576	Intermediate atrioventricular canal defect	skos:exactMatch	MP:0010415	intermediate atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	intermediate atrioventricular septal defect		
 HP:0011576	Intermediate atrioventricular canal defect	skos:exactMatch	MP:0010415	intermediate atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	intermediate atrioventricular canal defect		
+HP:0011577	Partial atrioventricular canal defect	skos:exactMatch	MP:0010414	partial atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	partial atrioventricular septal defect		
 HP:0011577	Partial atrioventricular canal defect	skos:exactMatch	MP:0010414	partial atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	partial atrioventricular canal defect		
 HP:0011581	Double outlet left ventricle	skos:exactMatch	MP:0010427	double outlet left ventricle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	double outlet left ventricle		
 HP:0011588	Cervical aortic arch	skos:exactMatch	MP:0004161	cervical aortic arch	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cervical aortic arch		
@@ -5199,7 +5178,6 @@ HP:0012206	Abnormal sperm motility	skos:exactMatch	MP:0002674	abnormal sperm mot
 HP:0012207	Reduced sperm motility	skos:exactMatch	MP:0002675	asthenozoospermia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	asthenospermia		
 HP:0012207	Reduced sperm motility	skos:exactMatch	MP:0002675	asthenozoospermia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	asthenozoospermia		
 HP:0012208	Immotile sperm	skos:exactMatch	MP:0020869	immotile sperm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	immotile sperm		
-HP:0012210	Abnormal renal morphology	skos:exactMatch	MP:0002135	abnormal kidney morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal malformation		
 HP:0012210	Abnormal renal morphology	skos:exactMatch	MP:0002135	abnormal kidney morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0012211	Abnormal renal physiology	skos:exactMatch	MP:0002136	abnormal kidney physiology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal functional ity	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0012211	Abnormal renal physiology	skos:exactMatch	MP:0002136	abnormal kidney physiology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	renal physiology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -5209,8 +5187,6 @@ HP:0012230	Rhegmatogenous retinal detachment	skos:exactMatch	MP:0020441	rhegmato
 HP:0012231	Exudative retinal detachment	skos:exactMatch	MP:0020442	serous retina detachment	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	serous retinal detachment		
 HP:0012231	Exudative retinal detachment	skos:exactMatch	MP:0020442	serous retina detachment	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	exudative retinal detachment		
 HP:0012232	Shortened QT interval	skos:exactMatch	MP:0003900	shortened QT interval	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	shortened qt interval		
-HP:0012233	Intramuscular hematoma	skos:exactMatch	MP:0031136	muscle hemorrhage	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intramuscular hemorrhage		
-HP:0012234	Agranulocytosis	skos:exactMatch	MP:0000334	decreased granulocyte number	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	agranulocytosis		
 HP:0012238	Increased circulating chylomicron concentration	skos:exactMatch	MP:0009699	hyperchylomicronemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hyperchylomicronemia		
 HP:0012241	Levator palpebrae superioris atrophy	skos:exactMatch	UPHENO:0014084	levator palpebrae superioris atrophy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	levator palpebrae superioris atrophy		
 HP:0012243	Abnormal reproductive system morphology	skos:exactMatch	MP:0002160	abnormal reproductive system morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	reproductive system morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -5492,8 +5468,6 @@ HP:0025636	Endometritis	skos:exactMatch	MP:0009360	endometrium inflammation	sema
 HP:0025636	Endometritis	skos:exactMatch	MP:0009360	endometrium inflammation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	endometritis		
 HP:0025668	Abnormal neck morphology	skos:exactMatch	MP:0012719	abnormal neck morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	neck morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0025675	Premature closure of the ductus arteriosus	skos:exactMatch	MP:0010576	premature closure of the ductus arteriosus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	premature closure of the ductus arteriosus		
-HP:0025707	Hypoplastic nasal bone	skos:exactMatch	MP:0000103	nasal bone hypoplasia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypoplastic nasal bone		
-HP:0025707	Hypoplastic nasal bone	skos:exactMatch	UPHENO:0081161	nasal bone hypoplasia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypoplastic nasal bone		
 HP:0025713	Neurite dystrophy	skos:exactMatch	MP:0021020	neurite dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dystrophic neurite		
 HP:0025713	Neurite dystrophy	skos:exactMatch	MP:0021020	neurite dystrophy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	neurite dystrophy		
 HP:0025722	Cerebral infarct	skos:exactMatch	MP:0021003	cerebral infarct	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cerebral infarct		
@@ -5522,7 +5496,6 @@ HP:0030153	Cholangiocarcinoma	skos:exactMatch	MPATH:354	cholangiocarcinoma	semap
 HP:0030175	Myelin tomacula	skos:exactMatch	MP:0012674	tomacula	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tomacula		
 HP:0030187	Titubation	skos:exactMatch	MP:0009514	titubation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	titubation		
 HP:0030191	Abnormal peripheral nervous system synaptic transmission	skos:exactMatch	MP:0002913	abnormal PNS synaptic transmission	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pns synaptic transmission	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0030260	Microphallus	skos:exactMatch	MP:0005188	small penis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	microphallus		
 HP:0030261	Absent penis	skos:exactMatch	MP:0011876	absent penis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent penis		
 HP:0030261	Absent penis	skos:exactMatch	UPHENO:0008782	absent penis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent penis		
 HP:0030277	Abnormal vertebral pedicle morphology	skos:exactMatch	MP:0004604	abnormal vertebral pedicle morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vertebral pedicle morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -5556,7 +5529,6 @@ HP:0030687	Abnormal glucagon level	skos:exactMatch	MP:0002695	abnormal circulati
 HP:0030716	Acrania	skos:exactMatch	MP:0003104	acrania	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	acrania		
 HP:0030718	Right atrial enlargement	skos:exactMatch	MP:0008727	increased heart right atrium size	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	enlarged heart right atrium		
 HP:0030731	Carcinoma	skos:exactMatch	MPATH:549	carcinoma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	carcinoma		
-HP:0030732	Dysplastic tricuspid valve	skos:exactMatch	MP:0002624	abnormal tricuspid valve morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tricuspid valve dysplasia		
 HP:0030735	Ureterovesical junction obstruction	skos:exactMatch	MP:0011492	ureterovesical junction obstruction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ureterovesical junction obstruction		
 HP:0030735	Ureterovesical junction obstruction	skos:exactMatch	UPHENO:0085685	ureterovesical junction obstruction	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ureterovesical junction obstruction		
 HP:0030746	Intraventricular hemorrhage	skos:exactMatch	MP:0001917	intraventricular hemorrhage	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intraventricular hemorrhage		
@@ -5590,10 +5562,10 @@ HP:0030853	Heterotaxy	skos:exactMatch	MP:0004133	heterotaxia	semapv:LexicalMatch
 HP:0030853	Heterotaxy	skos:exactMatch	MP:0004133	heterotaxia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	heterotaxy		
 HP:0030855	Anterior staphyloma	skos:exactMatch	MP:0008815	anterior staphyloma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anterior staphyloma		
 HP:0030867	Vertical orbital dystopia	skos:exactMatch	MP:0030253	vertical orbital dystopia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vertical orbital dystopia		
-HP:0030869	Anorchism	skos:exactMatch	MP:0006415	absent testes	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	anorchism		
 HP:0030875	Abnormality of pulmonary circulation	skos:exactMatch	MP:0002295	abnormal pulmonary circulation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pulmonary circulation	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0030882	Coronary artery aneurysm	skos:exactMatch	MP:0010477	coronary artery aneurysm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	coronary artery aneurysm		
 HP:0030895	Abnormal gastrointestinal motility	skos:exactMatch	MP:0011082	abnormal gastrointestinal motility	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gastrointestinal motility	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+HP:0030897	Decreased intestinal transit time	skos:exactMatch	MP:0014576	decreased intestinal transit time	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased intestinal transit time		
 HP:0030934	Oral erythroplakia	skos:exactMatch	MP:0013492	oral erythroplakia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oral erythroplakia		
 HP:0030935	Abnormal intestinal smooth muscle morphology	skos:exactMatch	MP:0008802	abnormal intestinal smooth muscle morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intestinal smooth muscle morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0030939	Palpebral thickening	skos:exactMatch	MP:0006162	thick eyelids	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	thick eyelids		
@@ -5607,7 +5579,7 @@ HP:0030966	Abnormal pulmonary artery morphology	skos:exactMatch	XPO:0101842	abno
 HP:0030968	Abnormal pulmonary vein morphology	skos:exactMatch	MP:0002726	abnormal pulmonary vein morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pulmonary vein morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0030968	Abnormal pulmonary vein morphology	skos:exactMatch	XPO:0103180	abnormal pulmonary vein morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pulmonary vein morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0030992	Abnormal pancreatic duct morphology	skos:exactMatch	MP:0009143	abnormal pancreatic duct morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pancreatic duct morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0030995	Peritoneal effusion	skos:exactMatch	MP:0005324	ascites	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	peritoneal effusion		
+HP:0030999	Abnormal vestibular saccule morphology	skos:exactMatch	MP:0006089	abnormal vestibular saccule morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	saccule morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0030999	Abnormal vestibular saccule morphology	skos:exactMatch	MP:0006089	abnormal vestibular saccule morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vestibular saccule morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0031000	Vestibular saccular degeneration	skos:exactMatch	MP:0004329	vestibular saccular degeneration	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vestibular saccular degeneration		
 HP:0031002	Neuritis	skos:exactMatch	MP:0030990	nerve inflammation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	neuritis		
@@ -5660,6 +5632,7 @@ HP:0031328	Perivascular cardiac fibrosis	skos:exactMatch	MP:0031586	perivascular
 HP:0031331	Abnormal cardiomyocyte morphology	skos:exactMatch	MP:0000278	abnormal myocardial fiber morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cardiac muscle cell morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0031348	Dextrotransposition of the great arteries	skos:exactMatch	MP:0011665	d-loop transposition of the great arteries	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	d-loop transposition of the great arteries		
 HP:0031349	Levotransposition of the great arteries	skos:exactMatch	MP:0031515	l-loop transposition of the great arteries	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	levotransposition of the great arteries		
+HP:0031353	Otitis media with effusion	skos:exactMatch	MP:0030410	middle ear effusion	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	middle ear effusions		
 HP:0031364	Ecchymosis	skos:exactMatch	MP:0009276	ecchymosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ecchymosis		
 HP:0031364	Ecchymosis	skos:exactMatch	MPATH:120	ecchymosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ecchymosis		
 HP:0031377	Abnormal cell proliferation	skos:exactMatch	MP:0000350	abnormal cell proliferation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cell proliferation	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -5766,7 +5739,6 @@ HP:0032198	Decreased prothrombin time	skos:exactMatch	MP:0012355	decreased proth
 HP:0032199	Abnormal prothrombin time	skos:exactMatch	MP:0012354	abnormal prothrombin time	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	prothrombin time	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0032200	Perivascular fibrosis	skos:exactMatch	MP:0011749	perivascular fibrosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	perivascular fibrosis		
 HP:0032226	Abnormal sebaceous gland morphology	skos:exactMatch	MP:0000647	abnormal sebaceous gland morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sebaceous gland morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0032231	Hypochromia	skos:exactMatch	MP:0005562	decreased mean corpuscular hemoglobin	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypochromia		
 HP:0032245	Abnormal metabolism	skos:exactMatch	MP:0005266	abnormal metabolism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	metabolism	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0032251	Abnormal immune system morphology	skos:exactMatch	MP:0000685	abnormal immune system morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	immune system morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0032251	Abnormal immune system morphology	skos:exactMatch	XPO:0102213	abnormal immune system morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	immune system morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -5884,7 +5856,6 @@ HP:0033988	Amygdala microinfarct	skos:exactMatch	MP:0021007	amygdala microinfarc
 HP:0033989	Hippocampal microinfarct	skos:exactMatch	MP:0021006	hippocampal microinfarct	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hippocampal microinfarct		
 HP:0034005	Decreased dendritic spine number	skos:exactMatch	MP:0021018	decreased dendritic spine number	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased dendritic spine number		
 HP:0034221	Abnormal temporal lobe morphology	skos:exactMatch	MP:0000801	abnormal temporal lobe morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	temporal lobe morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0034222	Temporal lobe dysplasia	skos:exactMatch	MP:0000801	abnormal temporal lobe morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	temporal lobe dysplasia		
 HP:0034251	Abnormal corneal reflex	skos:exactMatch	NBO:0000415	corneal reflex	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	corneal reflex	semapv:RegularExpressionReplacement	
 HP:0034253	Eosinophil nuclear hypersegmentation	skos:exactMatch	MP:0021181	increased eosinophil nuclear segmentation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	eosinophil nuclear hypersegmentation		
 HP:0034259	Hypoplasia of the midbrain	skos:exactMatch	MP:0012090	midbrain hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoplastic mesencephalon		
@@ -5952,7 +5923,6 @@ HP:0040107	Abnormal posterior semicircular canal morphology	skos:exactMatch	XPO:
 HP:0040108	Abnormal anterior semicircular canal morphology	skos:exactMatch	XPO:0103015	abnormal anterior semicircular canal morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anterior semicircular canal morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0040109	Abnormal utricle morphology	skos:exactMatch	MP:0006090	abnormal utricle morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	utricle morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0040109	Abnormal utricle morphology	skos:exactMatch	XPO:0102933	abnormal utricle morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	utricle morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0040110	Abnormal saccule morphology	skos:exactMatch	MP:0006089	abnormal vestibular saccule morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	saccule morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0040126	Abnormal circulating vitamin B12 concentration	skos:exactMatch	MP:0011227	abnormal vitamin B12 level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vitamin b12 level	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0040129	Abnormal nerve conduction velocity	skos:exactMatch	MP:0005403	abnormal nerve conduction	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nerve conduction	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0040140	Degeneration of the striatum	skos:exactMatch	UPHENO:0074039	striatum degeneration	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	degeneration of the striatum		
@@ -5965,6 +5935,7 @@ HP:0040218	Reduced natural killer cell count	skos:exactMatch	MP:0008045	decrease
 HP:0040219	Absent natural killer cells	skos:exactMatch	MP:0008046	absent NK cells	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	absent natural killer cells		
 HP:0040223	Pulmonary hemorrhage	skos:exactMatch	MP:0001182	lung hemorrhage	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pulmonary hemorrhage		
 HP:0040238	Impaired neutrophil chemotaxis	skos:exactMatch	MP:0008720	impaired neutrophil chemotaxis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	impaired neutrophil chemotaxis		
+HP:0040242	Muscle hemorrhage	skos:exactMatch	MP:0031136	muscle hemorrhage	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intramuscular hemorrhage		
 HP:0040242	Muscle hemorrhage	skos:exactMatch	MP:0031136	muscle hemorrhage	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	muscle hemorrhage		
 HP:0040253	Increased size of the clitoris	skos:exactMatch	UPHENO:0001284	increased size of the clitoris	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	increased size of the clitoris		
 HP:0040254	Decreased size of the clitoris	skos:exactMatch	UPHENO:0069241	decreased size of the clitoris	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased size of the clitoris		
@@ -5992,8 +5963,6 @@ HP:0041055	Fractured humerus	skos:exactMatch	UPHENO:0081409	broken humerus	semap
 HP:0041055	Fractured humerus	skos:exactMatch	UPHENO:0081409	broken humerus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	broken humerus		
 HP:0041061	Fractured calcaneus	skos:exactMatch	UPHENO:0080463	fractured calcaneus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone calcaneus		
 HP:0041061	Fractured calcaneus	skos:exactMatch	UPHENO:0080463	fractured calcaneus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured calcaneus		
-HP:0041064	Fractured knee	skos:exactMatch	UPHENO:0080444	fractured knee	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone knee		
-HP:0041064	Fractured knee	skos:exactMatch	UPHENO:0080444	fractured knee	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured knee		
 HP:0041073	Fractured thoracic vertebra	skos:exactMatch	UPHENO:0080529	fractured thoracic vertebra	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone thoracic vertebra		
 HP:0041073	Fractured thoracic vertebra	skos:exactMatch	UPHENO:0080529	fractured thoracic vertebra	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured thoracic vertebra		
 HP:0041082	Fractured skull	skos:exactMatch	UPHENO:0080445	fractured skull	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured skull		
@@ -6062,8 +6031,8 @@ HP:0041172	Fractured fused sacrum	skos:exactMatch	UPHENO:0080506	fractured fused
 HP:0041172	Fractured fused sacrum	skos:exactMatch	UPHENO:0080506	fractured fused sacrum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured fused sacrum		
 HP:0041173	Fractured metacarpophalangeal joint	skos:exactMatch	UPHENO:0080512	fractured metacarpophalangeal joint	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone metacarpophalangeal joint		
 HP:0041173	Fractured metacarpophalangeal joint	skos:exactMatch	UPHENO:0080512	fractured metacarpophalangeal joint	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured metacarpophalangeal joint		
-HP:0041174	Fractured distal phalanx of manus	skos:exactMatch	UPHENO:0080482	fractured distal phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone distal phalanx of manus		
-HP:0041174	Fractured distal phalanx of manus	skos:exactMatch	UPHENO:0080482	fractured distal phalanx of manus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured distal phalanx of manus		
+HP:0041174	Fractured distal finger phalanx	skos:exactMatch	UPHENO:0080482	fractured distal phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone distal phalanx of manus		
+HP:0041174	Fractured distal finger phalanx	skos:exactMatch	UPHENO:0080482	fractured distal phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fractured distal phalanx of manus		
 HP:0041175	Fractured middle phalanx of pes	skos:exactMatch	UPHENO:0080486	fractured middle phalanx of pes	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone middle phalanx of pes		
 HP:0041175	Fractured middle phalanx of pes	skos:exactMatch	UPHENO:0080486	fractured middle phalanx of pes	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured middle phalanx of pes		
 HP:0041176	Fractured distal phalanx of manual digit 2	skos:exactMatch	UPHENO:0080500	fractured distal phalanx of manual digit 2	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone distal phalanx of manual digit 2		
@@ -6147,8 +6116,8 @@ HP:0041223	Fractured metatarsal bone of digit 5	skos:exactMatch	UPHENO:0080428	f
 HP:0041223	Fractured metatarsal bone of digit 5	skos:exactMatch	UPHENO:0080428	fractured metatarsal bone of digit 5	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured metatarsal bone of digit 5		
 HP:0041224	Fractured manual digit bone	skos:exactMatch	UPHENO:0080528	fractured manual digit bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone manual digit bone		
 HP:0041224	Fractured manual digit bone	skos:exactMatch	UPHENO:0080528	fractured manual digit bone	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured manual digit bone		
-HP:0041225	Fractured metacarpal bone of digit 1	skos:exactMatch	UPHENO:0080442	fractured metacarpal bone of digit 1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone metacarpal bone of digit 1		
-HP:0041225	Fractured metacarpal bone of digit 1	skos:exactMatch	UPHENO:0080442	fractured metacarpal bone of digit 1	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured metacarpal bone of digit 1		
+HP:0041225	Fractured 1st metacarpal	skos:exactMatch	UPHENO:0080442	fractured metacarpal bone of digit 1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone metacarpal bone of digit 1		
+HP:0041225	Fractured 1st metacarpal	skos:exactMatch	UPHENO:0080442	fractured metacarpal bone of digit 1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fractured metacarpal bone of digit 1		
 HP:0041226	Fractured distal tarsal bone	skos:exactMatch	UPHENO:0080440	fractured distal tarsal bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone distal tarsal bone		
 HP:0041226	Fractured distal tarsal bone	skos:exactMatch	UPHENO:0080440	fractured distal tarsal bone	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured distal tarsal bone		
 HP:0041227	Fractured distal tarsal bone 2	skos:exactMatch	UPHENO:0080464	fractured distal tarsal bone 2	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone distal tarsal bone 2		
@@ -6165,18 +6134,18 @@ HP:0041234	Fractured bone of jaw	skos:exactMatch	UPHENO:0080436	fractured bone o
 HP:0041234	Fractured bone of jaw	skos:exactMatch	UPHENO:0080436	fractured bone of jaw	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured bone of jaw		
 HP:0041235	Fractured hindlimb bone	skos:exactMatch	UPHENO:0080501	fractured hindlimb bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone hindlimb bone		
 HP:0041235	Fractured hindlimb bone	skos:exactMatch	UPHENO:0080501	fractured hindlimb bone	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured hindlimb bone		
-HP:0041236	Fractured middle phalanx of manus	skos:exactMatch	UPHENO:0080493	fractured middle phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone middle phalanx of manus		
-HP:0041236	Fractured middle phalanx of manus	skos:exactMatch	UPHENO:0080493	fractured middle phalanx of manus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured middle phalanx of manus		
+HP:0041236	Fractured middle finger phalanx	skos:exactMatch	UPHENO:0080493	fractured middle phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone middle phalanx of manus		
+HP:0041236	Fractured middle finger phalanx	skos:exactMatch	UPHENO:0080493	fractured middle phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fractured middle phalanx of manus		
 HP:0041237	Fractured patella	skos:exactMatch	UPHENO:0080430	fractured patella	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone patella		
 HP:0041237	Fractured patella	skos:exactMatch	UPHENO:0080430	fractured patella	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured patella		
-HP:0041239	Fractured manual digit 1 phalanx	skos:exactMatch	UPHENO:0080497	fractured manual digit 1 phalanx	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone manual digit 1 phalanx		
-HP:0041239	Fractured manual digit 1 phalanx	skos:exactMatch	UPHENO:0080497	fractured manual digit 1 phalanx	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured manual digit 1 phalanx		
+HP:0041239	Fractured thumb phalanx	skos:exactMatch	UPHENO:0080497	fractured manual digit 1 phalanx	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone manual digit 1 phalanx		
+HP:0041239	Fractured thumb phalanx	skos:exactMatch	UPHENO:0080497	fractured manual digit 1 phalanx	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fractured manual digit 1 phalanx		
 HP:0041240	Fractured phalanx of pes	skos:exactMatch	UPHENO:0080468	fractured phalanx of pes	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone phalanx of pes		
 HP:0041240	Fractured phalanx of pes	skos:exactMatch	UPHENO:0080468	fractured phalanx of pes	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured phalanx of pes		
-HP:0041241	Fractured phalanx of manus	skos:exactMatch	UPHENO:0080504	fractured phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone phalanx of manus		
-HP:0041241	Fractured phalanx of manus	skos:exactMatch	UPHENO:0080504	fractured phalanx of manus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured phalanx of manus		
-HP:0041243	Fractured proximal phalanx of manus	skos:exactMatch	UPHENO:0080523	fractured proximal phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone proximal phalanx of manus		
-HP:0041243	Fractured proximal phalanx of manus	skos:exactMatch	UPHENO:0080523	fractured proximal phalanx of manus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured proximal phalanx of manus		
+HP:0041241	Fractured finger phalanx	skos:exactMatch	UPHENO:0080504	fractured phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone phalanx of manus		
+HP:0041241	Fractured finger phalanx	skos:exactMatch	UPHENO:0080504	fractured phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fractured phalanx of manus		
+HP:0041243	Fractured proximal finger phalanx	skos:exactMatch	UPHENO:0080523	fractured proximal phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone proximal phalanx of manus		
+HP:0041243	Fractured proximal finger phalanx	skos:exactMatch	UPHENO:0080523	fractured proximal phalanx of manus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fractured proximal phalanx of manus		
 HP:0041244	Fractured scapula	skos:exactMatch	UPHENO:0080505	fractured scapula	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone scapula		
 HP:0041244	Fractured scapula	skos:exactMatch	UPHENO:0080505	fractured scapula	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fractured scapula		
 HP:0041245	Fractured shoulder bone	skos:exactMatch	UPHENO:0080472	fractured shoulder bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone shoulder bone		
@@ -6256,7 +6225,6 @@ HP:0100614	Myositis	skos:exactMatch	MPATH:200	myositis	semapv:LexicalMatching	oa
 HP:0100629	Midline facial cleft	skos:exactMatch	MP:0000108	midline facial cleft	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	midline facial cleft		
 HP:0100633	Esophagitis	skos:exactMatch	MP:0003278	esophageal inflammation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	oesophagitis		
 HP:0100633	Esophagitis	skos:exactMatch	MP:0003278	esophageal inflammation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	esophagitis		
-HP:0100639	Erectile dysfunction	skos:exactMatch	MP:0031646	impotence	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	erectile dysfunction		
 HP:0100645	Cystocele	skos:exactMatch	MP:0003614	urinary bladder prolapse	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	prolapsed bladder		
 HP:0100645	Cystocele	skos:exactMatch	MP:0003614	urinary bladder prolapse	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cystocele		
 HP:0100646	Thyroiditis	skos:exactMatch	MP:0003504	thyroid gland inflammation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	thyroiditis		
@@ -6289,7 +6257,6 @@ HP:0100750	Atelectasis	skos:exactMatch	MP:0001177	atelectasis	semapv:LexicalMatc
 HP:0100758	Gangrene	skos:exactMatch	MP:0031126	gangrene	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gangrene		
 HP:0100766	Abnormal lymphatic vessel morphology	skos:exactMatch	MP:0001879	abnormal lymphatic vessel morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lymphatic vessel morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:0100767	Abnormal placenta morphology	skos:exactMatch	MP:0001711	abnormal placenta morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	placenta morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:0100769	Synovitis	skos:exactMatch	MP:0002933	joint inflammation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	synovitis		
 HP:0100774	Hyperostosis	skos:exactMatch	MP:0030222	hyperostosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bone hypertrophy		
 HP:0100774	Hyperostosis	skos:exactMatch	MP:0030222	hyperostosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hyperostosis		
 HP:0100781	Abnormal sacroiliac joint morphology	skos:exactMatch	MP:0030821	abnormal sacroiliac joint morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sacroiliac joint morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -6377,6 +6344,7 @@ HP:0410156	Increased level of N-acetylneuraminic acid in urine	skos:exactMatch	U
 HP:0410156	Increased level of N-acetylneuraminic acid in urine	skos:exactMatch	UPHENO:0068549	increased level of N-acetylneuraminic acid in urine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	increased level of n-acetylneuraminic acid in urine		
 HP:0410170	Hippocampal atrophy	skos:exactMatch	MP:0030003	hippocampus atrophy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hippocampal atrophy		
 HP:0410175	Hyperketonemia	skos:exactMatch	MP:0002575	increased circulating ketone body level	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hyperketonemia		
+HP:0410204	Increased intestinal transit time	skos:exactMatch	MP:0014575	increased intestinal transit time	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	increased intestinal transit time		
 HP:0410246	Increased circulating IgD concentration	skos:exactMatch	MP:0002496	increased IgD level	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	increased igd level		
 HP:0410260	Asymmetrical gluteal crease	skos:exactMatch	UPHENO:0084747	asymmetry of gluteal sulcus phenotype	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	asymmetrical gluteal sulcus		
 HP:0410278	Pituitary gland cyst	skos:exactMatch	UPHENO:0081072	pituitary gland cyst	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pituitary gland cyst		
@@ -6429,6 +6397,7 @@ HP:0500167	Hypergastrinemia	skos:exactMatch	MP:0004731	increased circulating gas
 HP:0500253	Increased level of gamma-aminobutyric acid in urine	skos:exactMatch	UPHENO:0068150	increased level of gamma-aminobutyric acid in urine	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	increased level of gamma-aminobutyric acid in urine		
 HP:0500253	Increased level of gamma-aminobutyric acid in urine	skos:exactMatch	UPHENO:0068150	increased level of gamma-aminobutyric acid in urine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	increased level of gamma-aminobutyric acid in urine		
 HP:3000003	Abnormal mandibular ramus morphology	skos:exactMatch	MP:0010150	abnormal mandibular ramus morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mandibular ramus morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+HP:3000022	Abnormal external ear cartilage morphology	skos:exactMatch	MP:0030422	abnormal outer ear cartilage morphology	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	external ear cartilage morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:3000038	Abnormal cricoid cartilage morphology	skos:exactMatch	MP:0002258	abnormal cricoid cartilage morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cricoid cartilage morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:3000041	Abnormality of external carotid artery	skos:exactMatch	XPO:0101154	abnormal external carotid artery	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ity of external carotid artery	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:3000042	Abnormal jugular vein morphology	skos:exactMatch	MP:0013872	abnormal jugular vein morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	jugular vein morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -6457,18 +6426,17 @@ HP:4000149	Lymph node necrosis	skos:exactMatch	MP:0031052	lymph node necrosis	se
 HP:5200069	Spinning	skos:exactMatch	MP:0001411	spinning	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	spinning		
 HP:5200104	Abnormal play	skos:exactMatch	NBO:0000075	playing behavior	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	play	semapv:RegularExpressionReplacement	
 HP:5200200	Olfactory hallucination	skos:exactMatch	NBO:0000611	olfactory hallucination	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	olfactory hallucination		
+HP:5201016	Submucous cleft palate	skos:exactMatch	MP:0011615	submucous cleft palate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	submucosal cleft palate		
 HP:5201016	Submucous cleft palate	skos:exactMatch	MP:0011615	submucous cleft palate	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	submucous cleft palate		
 HP:6000036	Long telomere length	skos:exactMatch	MP:0030928	increased telomere length	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	elongated telomeres		
 HP:6000060	Aerophagia	skos:exactMatch	MP:0010994	aerophagia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	aerophagia		
 HP:6000062	Abnormal nipple discharge	skos:exactMatch	MP:0013137	nipple discharge	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nipple discharge	semapv:RegularExpressionReplacement	
 HP:6000065	Esophageal fibrosis	skos:exactMatch	MP:0014158	esophagus fibrosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	esophageal fibrosis		
 HP:6000115	Decreased urine creatinine level	skos:exactMatch	MP:0011471	decreased urine creatinine level	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased urine creatinine level		
-HP:6000135	Low semen volume	skos:exactMatch	MP:0002687	oligozoospermia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypospermia		
 HP:6000146	Hydrosalpinx	skos:exactMatch	MP:0009069	dilated oviduct	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hydrosalpinx		
 HP:6000156	Pancreatic atrophy	skos:exactMatch	MP:0013295	pancreas atrophy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pancreatic atrophy		
 HP:6000190	Abnormal seminal vesicle morphology	skos:exactMatch	MP:0002059	abnormal seminal vesicle morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	seminal vesicle morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 HP:6000254	Abnormal proximal convoluted tubule morphology	skos:exactMatch	MP:0004756	abnormal proximal convoluted tubule morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	proximal convoluted tubule morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-HP:6000299	Forearm	skos:exactMatch	UBERON:0002386	forelimb zeugopod	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	forearm		
 HP:6000303	Decreased skin turgor	skos:exactMatch	MP:0003653	decreased skin turgor	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased skin turgor		
 HP:6000312	Thickened Descemet membrane	skos:exactMatch	MP:0031178	increased Descemet membrane thickness	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	thick descemet membrane		
 HP:6000312	Thickened Descemet membrane	skos:exactMatch	MP:0031178	increased Descemet membrane thickness	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	thickened descemet membrane		
@@ -6515,9 +6483,7 @@ MP:0000114	cleft chin	skos:exactMatch	UPHENO:0041112	cleft chin	semapv:LexicalMa
 MP:0000117	absent tooth placode	skos:exactMatch	UPHENO:0009251	absent tooth placode	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent tooth placode		
 MP:0000122	premature tooth eruption	skos:exactMatch	UPHENO:0049436	premature tooth eruption	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	premature tooth eruption		
 MP:0000129	ameloblast degeneration	skos:exactMatch	UPHENO:0079527	ameloblast degeneration	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ameloblast degeneration		
-MP:0000131	abnormal long bone epiphysis morphology	skos:exactMatch	UBERON:0001437	epiphysis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	epiphysis	semapv:RegularExpressionReplacement	
-MP:0000131	abnormal long bone epiphysis morphology	skos:exactMatch	XPO:0100737	abnormal epiphysis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	epiphysis	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-MP:0000133	abnormal long bone metaphysis morphology	skos:exactMatch	UBERON:0001438	metaphysis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	metaphysis	semapv:RegularExpressionReplacement	
+MP:0000131	abnormal long bone epiphysis morphology	skos:exactMatch	XPO:0102369	abnormal epiphysis morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	epiphysis morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0000136	abnormal microglial cell morphology	skos:exactMatch	XPO:0102333	abnormal microglial cell morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	microglial cell morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0000149	abnormal scapula morphology	skos:exactMatch	XPO:0102865	abnormal scapula morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	scapula morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0000150	abnormal rib morphology	skos:exactMatch	XPO:0102702	abnormal rib morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rib morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -6526,6 +6492,7 @@ MP:0000158	absent sternum	skos:exactMatch	UPHENO:0009412	absent sternum	semapv:L
 MP:0000160	kyphosis	skos:exactMatch	WBPhenotype:0002608	humpback	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	humpback		
 MP:0000166	abnormal chondrocyte morphology	skos:exactMatch	XPO:0101682	abnormal chondrocyte morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	chondrocyte morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0000175	absent bone marrow cell	skos:exactMatch	UPHENO:0086254	absent bone marrow cell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent bone marrow cell		
+MP:0000230	abnormal systemic arterial blood pressure	skos:exactMatch	OBA:0000143	systemic arterial blood pressure	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	systemic arterial blood pressure	semapv:RegularExpressionReplacement	
 MP:0000265	blood vessel atresia	skos:exactMatch	UPHENO:0063573	blood vessel atresia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	blood vessel atresia		
 MP:0000266	abnormal heart morphology	skos:exactMatch	XPO:0101645	abnormal heart morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	heart morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0000269	abnormal heart looping	skos:exactMatch	XPO:0131468	abnormal heart looping	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	heart looping	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -6899,6 +6866,8 @@ MP:0001513	limb grasping	skos:exactMatch	NBO:0000584	clutching reflex	semapv:Lex
 MP:0001513	limb grasping	skos:exactMatch	NBO:0000584	clutching reflex	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	clutching reflex	semapv:RegularExpressionReplacement	
 MP:0001513	limb grasping	skos:exactMatch	NBO:0000584	clutching reflex	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	limb grasping		
 MP:0001614	abnormal blood vessel morphology	skos:exactMatch	XPO:0101686	abnormal blood vessel morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	blood vessel morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+MP:0001619	abnormal vascular permeability	skos:exactMatch	OBA:0000174	vascular permeability	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vascular permeability	semapv:RegularExpressionReplacement	
+MP:0001629	abnormal heart rate	skos:exactMatch	OBA:1001087	heart rate	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	heart rate	semapv:RegularExpressionReplacement	
 MP:0001652	colonic necrosis	skos:exactMatch	UPHENO:0084797	necrotic colon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	necrotic colon		
 MP:0001652	colonic necrosis	skos:exactMatch	XPO:0139726	abnormally necrotic colon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	necrotic colon		semapv:RegularExpressionReplacement
 MP:0001653	gastric necrosis	skos:exactMatch	UPHENO:0084806	necrotic stomach	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	necrotic stomach		
@@ -6988,7 +6957,6 @@ MP:0002557	abnormal social/conspecific interaction behavior	skos:exactMatch	NBO:
 MP:0002557	abnormal social/conspecific interaction behavior	skos:exactMatch	NBO:0000011	social behavior	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	social behavior	semapv:RegularExpressionReplacement	
 MP:0002557	abnormal social/conspecific interaction behavior	skos:exactMatch	XPO:0131406	abnormal social behavior	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	social behavior	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002574	increased vertical activity	skos:exactMatch	UPHENO:0054934	increased vertical activity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	increased vertical activity		
-MP:0002575	increased circulating ketone body level	skos:exactMatch	MP:0030970	ketosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hyperketosis		
 MP:0002576	abnormal enamel morphology	skos:exactMatch	XPO:0103039	abnormal enamel morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	enamel morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002581	abnormal ileum morphology	skos:exactMatch	XPO:0102938	abnormal ileum morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ileum morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002583	absent extraembryonic ectoderm	skos:exactMatch	UPHENO:0008496	absent extraembryonic ectoderm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent extraembryonic ectoderm		
@@ -7002,7 +6970,6 @@ MP:0002637	small uterus	skos:exactMatch	UPHENO:0069389	decreased size of the ute
 MP:0002638	abnormal pupillary reflex	skos:exactMatch	NBO:0000412	pupillary light reflex	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pupillary reflex	semapv:RegularExpressionReplacement	
 MP:0002648	delaminated enamel	skos:exactMatch	UPHENO:0085391	delaminated enamel	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	delaminated enamel		
 MP:0002651	abnormal sciatic nerve morphology	skos:exactMatch	XPO:0102464	abnormal sciatic nerve morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sciatic nerve morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-MP:0002653	abnormal ependyma morphology	skos:exactMatch	UBERON:0004670	ependyma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ependyma	semapv:RegularExpressionReplacement	
 MP:0002655	abnormal keratinocyte morphology	skos:exactMatch	XPO:0102918	abnormal keratinocyte morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	keratinocyte morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002659	pituitary gland hypoplasia	skos:exactMatch	UPHENO:0081113	pituitary gland hypoplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pituitary gland hypoplasia		
 MP:0002676	uterus hyperplasia	skos:exactMatch	UPHENO:0083585	uterus hyperplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hyperplastic uterus		
@@ -7058,8 +7025,6 @@ MP:0002882	abnormal neuron morphology	skos:exactMatch	XPO:0101828	abnormal neuro
 MP:0002884	abnormal pharyngeal arch morphology	skos:exactMatch	XPO:0102204	abnormal branchial arch morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	branchial arch morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002884	abnormal pharyngeal arch morphology	skos:exactMatch	XPO:0102223	abnormal pharyngeal arch morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pharyngeal arch morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002908	delayed wound healing	skos:exactMatch	UPHENO:0000534	delayed wound healing	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	delayed wound healing		
-MP:0002928	abnormal bile duct morphology	skos:exactMatch	UBERON:0002394	bile duct	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	bile duct	semapv:RegularExpressionReplacement	
-MP:0002928	abnormal bile duct morphology	skos:exactMatch	XPO:0101193	abnormal bile duct	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	bile duct	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002928	abnormal bile duct morphology	skos:exactMatch	XPO:0102825	abnormal bile duct morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bile duct morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002932	abnormal joint morphology	skos:exactMatch	XPO:0103218	abnormal joint morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	joint morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0002946	delayed axon extension	skos:exactMatch	UPHENO:0000653	delayed axon extension	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	delayed axon extension		
@@ -7069,7 +7034,6 @@ MP:0002984	retina hypoplasia	skos:exactMatch	UPHENO:0081222	retina hypoplasia	se
 MP:0002984	retina hypoplasia	skos:exactMatch	UPHENO:0081222	retina hypoplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	retina hypoplasia		
 MP:0002989	small kidney	skos:exactMatch	UPHENO:0069110	decreased size of the kidney	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	small kidney		
 MP:0002989	small kidney	skos:exactMatch	XPO:0128275	decreased size of the kidney	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	small kidney		semapv:RegularExpressionReplacement
-MP:0002993	arthritis	skos:exactMatch	MPATH:195	arthritis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	arthritis		
 MP:0002997	enlarged seminal vesicle	skos:exactMatch	UPHENO:0001400	increased size of the seminal vesicle	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	enlarged seminal vesicle		
 MP:0003014	abnormal kidney medulla morphology	skos:exactMatch	UBERON:0000362	renal medulla	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	renal medulla	semapv:RegularExpressionReplacement	
 MP:0003053	delayed tooth eruption	skos:exactMatch	UPHENO:0000512	delayed tooth eruption	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	delayed tooth eruption		
@@ -7226,7 +7190,6 @@ MP:0003776	lip atrophy	skos:exactMatch	UPHENO:0013991	lip atrophy	semapv:Lexical
 MP:0003779	lip cyst	skos:exactMatch	UPHENO:0083427	lip cyst	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lip cyst		
 MP:0003782	short lip	skos:exactMatch	UPHENO:0046729	decreased length of lip	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	short lip		
 MP:0003797	abnormal compact bone morphology	skos:exactMatch	UBERON:0002482	lamellar bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lamellar bone	semapv:RegularExpressionReplacement	
-MP:0003809	abnormal hair shaft morphology	skos:exactMatch	UBERON:0002074	hair shaft	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hair shaft	semapv:RegularExpressionReplacement	
 MP:0003810	abnormal hair cuticle	skos:exactMatch	UBERON:0002076	cuticle of hair	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hair cuticle	semapv:RegularExpressionReplacement	
 MP:0003812	abnormal hair medulla	skos:exactMatch	UBERON:0005184	hair medulla	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hair medulla	semapv:RegularExpressionReplacement	
 MP:0003817	abnormal pituitary diverticulum morphology	skos:exactMatch	XPO:0102753	abnormal Rathke's pouch morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	rathkes pouch morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -7258,6 +7221,7 @@ MP:0003940	abnormal dermatome morphology	skos:exactMatch	XPO:0102799	abnormal de
 MP:0003946	renal necrosis	skos:exactMatch	UPHENO:0084805	necrotic kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	necrotic kidney		
 MP:0003946	renal necrosis	skos:exactMatch	XPO:0140552	abnormally necrotic kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	necrotic kidney		semapv:RegularExpressionReplacement
 MP:0003948	abnormal gas homeostasis	skos:exactMatch	XPO:0141748	abnormal gas homeostasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gas homeostasis	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+MP:0003950	abnormal plasma membrane morphology	skos:exactMatch	OBA:1000089	plasma membrane morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plasma membrane morphology	semapv:RegularExpressionReplacement	
 MP:0003950	abnormal plasma membrane morphology	skos:exactMatch	XPO:0102693	abnormal plasma membrane morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plasma membrane morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0003955	abnormal ultimobranchial body morphology	skos:exactMatch	XPO:0102655	abnormal ultimobranchial body morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ultimobranchial body morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0003974	abnormal endocardium morphology	skos:exactMatch	XPO:0101891	abnormal endocardium morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	endocardium morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -7473,6 +7437,7 @@ MP:0004839	bile duct hyperplasia	skos:exactMatch	UPHENO:0083533	bile duct hyperp
 MP:0004844	abnormal vestibuloocular reflex	skos:exactMatch	NBO:0000416	vestibulo-ocular reflex	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	vor	semapv:RegularExpressionReplacement	
 MP:0004844	abnormal vestibuloocular reflex	skos:exactMatch	NBO:0000416	vestibulo-ocular reflex	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	vestibuloocular reflex	semapv:RegularExpressionReplacement	
 MP:0004846	absent skeletal muscle	skos:exactMatch	XPO:0125370	absent skeletal muscle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent skeletal muscle		
+MP:0004859	abnormal synaptic plasticity	skos:exactMatch	OBA:0000141	synaptic plasticity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	synaptic plasticity	semapv:RegularExpressionReplacement	
 MP:0004861	abnormal Raphe nucleus morphology	skos:exactMatch	UBERON:0004684	raphe nuclei	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	raphe nuclei	semapv:RegularExpressionReplacement	
 MP:0004861	abnormal Raphe nucleus morphology	skos:exactMatch	XPO:0103231	abnormal raphe nucleus morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	raphe nucleus morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0004862	small scala tympani	skos:exactMatch	UPHENO:0069356	decreased size of the scala tympani	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	small scala tympani		
@@ -7524,6 +7489,7 @@ MP:0005065	abnormal neutrophil morphology	skos:exactMatch	XPO:0107341	abnormal n
 MP:0005068	abnormal NK cell morphology	skos:exactMatch	XPO:0100814	abnormal natural killer cell	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	natural killer cell	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0005075	abnormal melanosome morphology	skos:exactMatch	PLANP:0000608	abnormal melanosome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	melanosome	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0005095	decreased T cell proliferation	skos:exactMatch	UPHENO:0005444	decreased T cell proliferation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	decreased t cell proliferation		
+MP:0005098	abnormal optic choroid morphology	skos:exactMatch	XPO:0101818	abnormal uveal tract morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	uveal tract morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0005098	abnormal optic choroid morphology	skos:exactMatch	XPO:0103160	abnormal choroid morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	choroid morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0005099	abnormal ciliary body morphology	skos:exactMatch	XPO:0103022	abnormal ciliary body morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ciliary body morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0005104	abnormal tarsal bone morphology	skos:exactMatch	XPO:0103072	abnormal tarsus morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tarsus morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -7647,6 +7613,7 @@ MP:0006017	dilated superior semicircular canal	skos:exactMatch	UPHENO:0084168	di
 MP:0006017	dilated superior semicircular canal	skos:exactMatch	UPHENO:0084168	dilated anterior semicircular canal	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	dilated anterior semicircular canal		
 MP:0006029	abnormal sclerotome morphology	skos:exactMatch	XPO:0101690	abnormal sclerotome morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sclerotome morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0006031	abnormal pharyngeal pouch morphology	skos:exactMatch	XPO:0102804	abnormal pharyngeal pouch morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pharyngeal pouch morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+MP:0006035	abnormal mitochondrial morphology	skos:exactMatch	OBA:0002821	mitochondrion morphology	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mitochondrion morphology	semapv:RegularExpressionReplacement	
 MP:0006035	abnormal mitochondrial morphology	skos:exactMatch	WBPhenotype:0001401	mitochondria morphology variant	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mitochondria morphology	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 MP:0006050	pulmonary fibrosis	skos:exactMatch	UPHENO:0076299	lung fibrosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lung fibrosis		
 MP:0006055	abnormal vascular endothelial cell morphology	skos:exactMatch	XPO:0100601	abnormal vascular endothelium	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vascular endothelium	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
@@ -8094,7 +8061,6 @@ MP:0010492	abnormal atrium endocardium morphology	skos:exactMatch	UBERON:0002166
 MP:0010500	myocardium hypoplasia	skos:exactMatch	UPHENO:0081220	myocardium hypoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypoplastic myocardium		
 MP:0010500	myocardium hypoplasia	skos:exactMatch	UPHENO:0081220	myocardium hypoplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	myocardium hypoplasia		
 MP:0010521	absent pulmonary artery	skos:exactMatch	UPHENO:0009006	absent pulmonary artery	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent pulmonary artery		
-MP:0010521	absent pulmonary artery	skos:exactMatch	UPHENO:0063646	pulmonary artery atresia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pulmonary artery atresia		
 MP:0010521	absent pulmonary artery	skos:exactMatch	XPO:0125948	absent pulmonary artery	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	absent pulmonary artery		
 MP:0010522	calcified aorta	skos:exactMatch	UPHENO:0067822	aorta calcification	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	calcified aorta		
 MP:0010523	calcified thoracic aorta	skos:exactMatch	UPHENO:0067825	thoracic aorta calcification	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	calcified thoracic aorta		
@@ -9261,8 +9227,10 @@ NBO:0040003	escape behavior	skos:exactMatch	XPO:0141265	abnormal escape behavior
 NBO:0040004	surface breathing	skos:exactMatch	XPO:0141266	abnormal surface breathing	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	surface breathing		semapv:RegularExpressionReplacement
 NBO:0040005	visually guided collision avoidance behavior	skos:exactMatch	XPO:0141263	abnormal visually guided collision avoidance behavior	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	visually guided collision avoidance behavior		semapv:RegularExpressionReplacement
 NBO:0050001	inchworming behavior	skos:exactMatch	PLANP:0000812	abnormally inchworming	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	inchworming		semapv:RegularExpressionReplacement
+OBA:1000089	plasma membrane morphology	skos:exactMatch	XPO:0102693	abnormal plasma membrane morphology	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plasma membrane morphology		semapv:RegularExpressionReplacement
 PATO:0000050	life span	skos:exactMatch	WBPhenotype:0000039	life span phenotype	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	life span		semapv:RegularExpressionReplacement
 PATO:0000051	morphology	skos:exactMatch	WBPhenotype:0000520	morphology phenotype	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	morphology		semapv:RegularExpressionReplacement
+PATO:0000070	amount	skos:exactMatch	PATO:0103000	quantitative	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	quantitative		
 PATO:0000460	abnormal	skos:exactMatch	WBPhenotype:0000886	nematode phenotype	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym		semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 PATO:0000573	increased length	skos:exactMatch	WBPhenotype:0000022	long	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	long		
 PATO:0000574	decreased length	skos:exactMatch	WBPhenotype:0000324	short	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	short		
@@ -9442,6 +9410,7 @@ PLANP:0000314	abnormal distal tubule	skos:exactMatch	XPO:0100487	abnormal distal
 PLANP:0000317	abnormal esophagus	skos:exactMatch	UBERON:0001043	esophagus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	esophagus	semapv:RegularExpressionReplacement	
 PLANP:0000317	abnormal esophagus	skos:exactMatch	XPO:0100797	abnormal esophagus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ity of esophagus	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 PLANP:0000317	abnormal esophagus	skos:exactMatch	XPO:0100797	abnormal esophagus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	esophagus	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+PLANP:0000323	abnormal ventral midline	skos:exactMatch	UBERON:0009571	ventral midline	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ventral midline	semapv:RegularExpressionReplacement	
 PLANP:0000330	abnormal multipolar neuron	skos:exactMatch	WBPhenotype:0001679	multipolar neuron	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	multipolar neuron	semapv:RegularExpressionReplacement	
 PLANP:0000335	abnormal interneuron	skos:exactMatch	XPO:0100336	abnormal interneuron	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ity of interneuron	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 PLANP:0000335	abnormal interneuron	skos:exactMatch	XPO:0100336	abnormal interneuron	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	interneuron	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement

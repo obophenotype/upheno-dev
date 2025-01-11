@@ -13,6 +13,8 @@ Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-bridge.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-special-inference-rules.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl>)
 
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
