@@ -42,18 +42,30 @@ $(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
 $(TMPDIR)/oba.owl:
 	wget -O $@ "http://purl.obolibrary.org/obo/oba.owl"
 
-$(TMPDIR)/upheno-oba.owl: #upheno.owl $(TMPDIR)/oba.owl $(COMPONENTSDIR)/upheno-haspart-characteristicofpartof-chain.owl
+$(TMPDIR)/upheno-oba.owl: upheno.owl $(TMPDIR)/oba.owl $(COMPONENTSDIR)/upheno-haspart-characteristicofpartof-chain.owl
 	$(ROBOT) merge -i upheno.owl -i $(TMPDIR)/oba.owl -i $(COMPONENTSDIR)/upheno-haspart-characteristicofpartof-chain.owl \
 		remove --axioms DisjointClasses \
+		remove --term rdfs:label --select complement --select annotation-properties \
 		materialize --term BFO:0000051 \
 		query --update ../sparql/pheno_trait.ru \
-		reason -o $@
+		reason reduce \
+		query --update ../sparql/pheno_trait_materialise.ru -o $@
 
 $(TMPDIR)/upheno-oba.json: $(TMPDIR)/upheno-oba.owl
 	$(ROBOT) convert -i $(TMPDIR)/upheno-oba.owl -o $@
 
 $(MAPPINGDIR)/upheno-oba.sssom.tsv: $(TMPDIR)/upheno-oba.json
 	sssom parse $(TMPDIR)/upheno-oba.json -I obographs-json -C merged -F UPHENO:phenotypeToTrait -o $@
+
+$(MAPPINGDIR)/upheno-oba.kgx: $(TMPDIR)/upheno-oba.json
+	kgx transform --input-format obojson \
+                  --output $@ \
+                  --output-format tsv \
+                  $(TMPDIR)/upheno-oba.json
+	awk 'NR==1 || /UPHENO:phenotypeToTrait/' $(MAPPINGDIR)/upheno-oba.kgx_edges.tsv > $(TMPDIR)/upheno-oba.kgx_edges.tsv
+	mv $(TMPDIR)/upheno-oba.kgx_edges.tsv $(MAPPINGDIR)/upheno-oba.kgx_edges.tsv
+	rm $(MAPPINGDIR)/upheno-oba.kgx_nodes.tsv
+	touch $@
 
 $(MAPPINGDIR)/uberon.sssom.tsv: mirror/uberon.owl
 	if [ $(COMP) = true ] ; then $(ROBOT) sssom:xref-extract -i $< --mapping-file $@ --map-prefix-to-predicate "UBERON http://w3id.org/semapv/vocab/crossSpeciesExactMatch"; fi
@@ -69,7 +81,9 @@ $(REPORTDIR)/upheno-eq-analysis.csv: $(foreach n,$(SSPOS), $(REPORTDIR)/$(n)_phe
 		--stats-directory $(REPORTDIR)/
 	test -f $@
 
-$(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl:
+# TODO missing dependency for "a change in a file in ../curation/pattern-matches" which
+# is the true dependency here
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl: $(MAPPINGDIR)/uberon.sssom.tsv ../templates/obsolete.tsv ../curation/upheno_id_map.txt
 	if [ $(COMP) = true ] ; then python3 ../scripts/upheno_build.py create-species-independent-sssom-mappings \
 		--upheno-id-map ../curation/upheno_id_map.txt \
 		--patterns-dir ../curation/patterns-for-matching \
@@ -300,7 +314,6 @@ download_patterns:
 	python3 ../scripts/upheno_build.py download-patterns \
 		--upheno-config ../curation/upheno-config.yaml \
 		--pattern-directory ../curation/patterns-for-matching
-
 
 preprocess_dosdp_patterns:
 	python3 ../scripts/upheno_build.py preprocess-dosdp-patterns \
