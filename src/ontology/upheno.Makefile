@@ -178,7 +178,7 @@ upheno-base-with-bridge.owl: upheno-base.owl $(COMPONENTSDIR)/upheno-bridge.owl
 
 upheno:
 	####### Step 0: Housekeeping ########
-	$(MAKE) update_patterns -B
+	$(MAKE) download_patterns -B
 
 	####### Step 1: download sources and match patterns ########
 	$(MAKE) upheno_prepare -B
@@ -312,7 +312,7 @@ merge_modified_patterns:
 
 download_patterns:
 	python3 ../scripts/upheno_build.py download-patterns \
-		--upheno-config ../curation/upheno-config.yaml \
+		--upheno-config upheno-odk.yaml \
 		--pattern-directory ../curation/patterns-for-matching
 
 preprocess_dosdp_patterns:
