@@ -35,7 +35,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0000112	decreased cellular localization	h
 http://purl.obolibrary.org/obo/DDPHENO_0000586	decreased cellular response to hypoxia	http://purl.obolibrary.org/obo/GO_0071456	cellular response to hypoxia
 http://purl.obolibrary.org/obo/DDPHENO_0000414	decreased cellular thermotolerance	http://purl.obolibrary.org/obo/GO_0070370	cellular heat acclimation
 http://purl.obolibrary.org/obo/DDPHENO_0001159	decreased cellulose biosynthesis	http://purl.obolibrary.org/obo/GO_0030244	cellulose biosynthetic process
-http://purl.obolibrary.org/obo/DDPHENO_0001373	decreased chemotaxis to arachidonic acid	http://purl.obolibrary.org/obo/GO_0034670	chemotaxis to arachidonic acid
+http://purl.obolibrary.org/obo/DDPHENO_0001373	decreased chemotaxis to arachidonic acid	http://purl.obolibrary.org/obo/GO_0034670	chemotaxis to arachidonate
 http://purl.obolibrary.org/obo/DDPHENO_0000522	decreased chemotaxis to cAMP	http://purl.obolibrary.org/obo/GO_0043327	chemotaxis to cAMP
 http://purl.obolibrary.org/obo/DDPHENO_0000523	decreased chemotaxis to folate	http://purl.obolibrary.org/obo/GO_0043326	chemotaxis to folate
 http://purl.obolibrary.org/obo/DDPHENO_0000011	decreased co-transcriptional gene silencing by RNA interference machinery	http://purl.obolibrary.org/obo/GO_0033562	co-transcriptional gene silencing by RNA interference machinery

@@ -1,5 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/XPO_0103150	abnormal B cell morphology	http://purl.obolibrary.org/obo/XAO_0003158	B cell
+http://purl.obolibrary.org/obo/XPO_0103150	abnormal B cell morphology	http://purl.obolibrary.org/obo/XAO_0003158	B-cell
 http://purl.obolibrary.org/obo/XPO_0102705	abnormal Bowman's gland morphology	http://purl.obolibrary.org/obo/XAO_0005075	Bowman's gland
 http://purl.obolibrary.org/obo/XPO_0102545	abnormal Brachet's cleft morphology	http://purl.obolibrary.org/obo/XAO_0004456	Brachet's cleft
 http://purl.obolibrary.org/obo/XPO_0102945	abnormal Eberth-Kastschenko layer morphology	http://purl.obolibrary.org/obo/XAO_0005036	Eberth-Kastschenko layer
@@ -11,14 +11,14 @@ http://purl.obolibrary.org/obo/XPO_0141307	abnormal M band morphology	http://pur
 http://purl.obolibrary.org/obo/XPO_0102855	abnormal Mauthner cell morphology	http://purl.obolibrary.org/obo/XAO_0005035	Mauthner cell
 http://purl.obolibrary.org/obo/XPO_0102398	abnormal Meckel's cartilage morphology	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
 http://purl.obolibrary.org/obo/XPO_0102336	abnormal Merkel cell morphology	http://purl.obolibrary.org/obo/XAO_0003254	Merkel cell
-http://purl.obolibrary.org/obo/XPO_0102756	abnormal Muller cell morphology	http://purl.obolibrary.org/obo/XAO_0005007	Muller cell
+http://purl.obolibrary.org/obo/XPO_0102756	abnormal Muller cell morphology	http://purl.obolibrary.org/obo/XAO_0005007	Mueller cell
 http://purl.obolibrary.org/obo/XPO_0102114	abnormal Mullerian duct morphology	http://purl.obolibrary.org/obo/XAO_0000330	Mullerian duct
 http://purl.obolibrary.org/obo/XPO_0102753	abnormal Rathke's pouch morphology	http://purl.obolibrary.org/obo/XAO_0000430	Rathke's pouch
 http://purl.obolibrary.org/obo/XPO_0102878	abnormal Rohon-Beard neuron morphology	http://purl.obolibrary.org/obo/XAO_0003022	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/XPO_0141314	abnormal Roux spot morphology	http://purl.obolibrary.org/obo/XAO_0005290	Roux spot
 http://purl.obolibrary.org/obo/XPO_0103232	abnormal Schwann cell morphology	http://purl.obolibrary.org/obo/XAO_0005044	Schwann cell
 http://purl.obolibrary.org/obo/XPO_0102392	abnormal Stirnorgan morphology	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
-http://purl.obolibrary.org/obo/XPO_0102715	abnormal T cell morphology	http://purl.obolibrary.org/obo/XAO_0003157	T cell
+http://purl.obolibrary.org/obo/XPO_0102715	abnormal T cell morphology	http://purl.obolibrary.org/obo/XAO_0003157	T-cell
 http://purl.obolibrary.org/obo/XPO_0103190	abnormal abdominal myoblast morphology	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
 http://purl.obolibrary.org/obo/XPO_0142060	abnormal abdominal wall morphology	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0102481	abnormal abducens nerve morphology	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
@@ -467,7 +467,7 @@ http://purl.obolibrary.org/obo/XPO_0102369	abnormal epiphysis morphology	http://
 http://purl.obolibrary.org/obo/XPO_0101850	abnormal epithelial cell morphology	http://purl.obolibrary.org/obo/XAO_0003249	epithelial cell
 http://purl.obolibrary.org/obo/XPO_0101824	abnormal epithelium morphology	http://purl.obolibrary.org/obo/XAO_0003045	epithelium
 http://purl.obolibrary.org/obo/XPO_0102067	abnormal epsilon cell morphology	http://purl.obolibrary.org/obo/XAO_0005167	epsilon cell
-http://purl.obolibrary.org/obo/XPO_0102739	abnormal erythroid cell morphology	http://purl.obolibrary.org/obo/XAO_0004150	erythroid cell
+http://purl.obolibrary.org/obo/XPO_0102739	abnormal erythroid cell morphology	http://purl.obolibrary.org/obo/XAO_0004150	erythroid lineage cell
 http://purl.obolibrary.org/obo/XPO_0141308	abnormal esophageal epithelium morphology	http://purl.obolibrary.org/obo/XAO_0005299	esophageal epithelium
 http://purl.obolibrary.org/obo/XPO_0102429	abnormal esophagus morphology	http://purl.obolibrary.org/obo/XAO_0000127	esophagus
 http://purl.obolibrary.org/obo/XPO_0102576	abnormal ethmoid bone morphology	http://purl.obolibrary.org/obo/XAO_0005191	ethmoid bone

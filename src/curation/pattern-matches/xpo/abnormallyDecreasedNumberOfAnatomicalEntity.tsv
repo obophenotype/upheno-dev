@@ -1,12 +1,12 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/XPO_0131382	abnormally decreased number of B cell	http://purl.obolibrary.org/obo/XAO_0003158	B cell
+http://purl.obolibrary.org/obo/XPO_0131382	abnormally decreased number of B cell	http://purl.obolibrary.org/obo/XAO_0003158	B-cell
 http://purl.obolibrary.org/obo/XPO_0131329	abnormally decreased number of Leydig cell	http://purl.obolibrary.org/obo/XAO_0004405	Leydig cell
 http://purl.obolibrary.org/obo/XPO_0131377	abnormally decreased number of Mauthner cell	http://purl.obolibrary.org/obo/XAO_0005035	Mauthner cell
 http://purl.obolibrary.org/obo/XPO_0131195	abnormally decreased number of Merkel cell	http://purl.obolibrary.org/obo/XAO_0003254	Merkel cell
-http://purl.obolibrary.org/obo/XPO_0131309	abnormally decreased number of Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Muller cell
+http://purl.obolibrary.org/obo/XPO_0131309	abnormally decreased number of Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Mueller cell
 http://purl.obolibrary.org/obo/XPO_0131372	abnormally decreased number of Rohon-Beard neuron	http://purl.obolibrary.org/obo/XAO_0003022	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/XPO_0131313	abnormally decreased number of Schwann cell	http://purl.obolibrary.org/obo/XAO_0005044	Schwann cell
-http://purl.obolibrary.org/obo/XPO_0131229	abnormally decreased number of T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
+http://purl.obolibrary.org/obo/XPO_0131229	abnormally decreased number of T cell	http://purl.obolibrary.org/obo/XAO_0003157	T-cell
 http://purl.obolibrary.org/obo/XPO_0131290	abnormally decreased number of abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
 http://purl.obolibrary.org/obo/XPO_0131348	abnormally decreased number of absorptive cell	http://purl.obolibrary.org/obo/XAO_0003231	absorptive cell
 http://purl.obolibrary.org/obo/XPO_0131248	abnormally decreased number of acid secreting cell	http://purl.obolibrary.org/obo/XAO_0003232	acid secreting cell
@@ -93,7 +93,7 @@ http://purl.obolibrary.org/obo/XPO_0131260	abnormally decreased number of epicar
 http://purl.obolibrary.org/obo/XPO_0131257	abnormally decreased number of epidermal cell	http://purl.obolibrary.org/obo/XAO_0004621	epidermal cell
 http://purl.obolibrary.org/obo/XPO_0131194	abnormally decreased number of epithelial cell	http://purl.obolibrary.org/obo/XAO_0003249	epithelial cell
 http://purl.obolibrary.org/obo/XPO_0131267	abnormally decreased number of epsilon cell	http://purl.obolibrary.org/obo/XAO_0005167	epsilon cell
-http://purl.obolibrary.org/obo/XPO_0131337	abnormally decreased number of erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid cell
+http://purl.obolibrary.org/obo/XPO_0131337	abnormally decreased number of erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid lineage cell
 http://purl.obolibrary.org/obo/XPO_0131314	abnormally decreased number of exocrine cell	http://purl.obolibrary.org/obo/XAO_0003250	exocrine cell
 http://purl.obolibrary.org/obo/XPO_0131256	abnormally decreased number of eye photoreceptor cell	http://purl.obolibrary.org/obo/XAO_0004110	eye photoreceptor cell
 http://purl.obolibrary.org/obo/XPO_0131323	abnormally decreased number of fibroblast	http://purl.obolibrary.org/obo/XAO_0003017	fibroblast

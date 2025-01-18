@@ -30,6 +30,8 @@ http://purl.obolibrary.org/obo/MP_0009712	impaired conditioned place preference 
 http://purl.obolibrary.org/obo/MP_0020969	impaired conditioned taste aversion behavior	http://purl.obolibrary.org/obo/NBO_0000211	conditioned taste aversion
 http://purl.obolibrary.org/obo/MP_0009454	impaired contextual conditioning behavior	http://purl.obolibrary.org/obo/NBO_0000223	contextual conditioning behavior
 http://purl.obolibrary.org/obo/MP_0001405	impaired coordination	http://purl.obolibrary.org/obo/NBO_0000339	motor coordination
+http://purl.obolibrary.org/obo/MP_0014587	impaired fine motor coordination	http://purl.obolibrary.org/obo/NBO_0000348	fine motor coordination
+http://purl.obolibrary.org/obo/MP_0014588	impaired gross motor coordination	http://purl.obolibrary.org/obo/NBO_0000347	gross motor coordination
 http://purl.obolibrary.org/obo/MP_0001524	impaired limb coordination	http://purl.obolibrary.org/obo/NBO_0000342	limb coordination
 http://purl.obolibrary.org/obo/MP_0004000	impaired passive avoidance behavior	http://purl.obolibrary.org/obo/NBO_0000218	passive avoidance learning behavior
 http://purl.obolibrary.org/obo/MP_0006243	impaired pupillary reflex	http://purl.obolibrary.org/obo/NBO_0000412	pupillary light reflex

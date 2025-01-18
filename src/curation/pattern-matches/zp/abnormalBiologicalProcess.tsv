@@ -380,7 +380,7 @@ http://purl.obolibrary.org/obo/ZP_0011193	glomerular filtration process quality,
 http://purl.obolibrary.org/obo/ZP_0022263	glomerulus development process quality, abnormal	http://purl.obolibrary.org/obo/GO_0032835	glomerulus development
 http://purl.obolibrary.org/obo/ZP_0019507	glucose homeostasis process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
 http://purl.obolibrary.org/obo/ZP_0017120	glucose import in response to insulin stimulus process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044381	glucose import in response to insulin stimulus
-http://purl.obolibrary.org/obo/ZP_0142073	glucose import process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
+http://purl.obolibrary.org/obo/ZP_0142073	glucose import process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
 http://purl.obolibrary.org/obo/ZP_0102379	glucose metabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
 http://purl.obolibrary.org/obo/ZP_0106034	glutathione metabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006749	glutathione metabolic process
 http://purl.obolibrary.org/obo/ZP_0016222	glycogen catabolic process process quality, abnormal	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
@@ -788,7 +788,6 @@ http://purl.obolibrary.org/obo/ZP_0011006	regulation of smooth muscle contractio
 http://purl.obolibrary.org/obo/ZP_0004272	regulation of smoothened signaling pathway process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008589	regulation of smoothened signaling pathway
 http://purl.obolibrary.org/obo/ZP_0001580	regulation of synaptic transmission, glutamatergic process quality, abnormal	http://purl.obolibrary.org/obo/GO_0051966	regulation of synaptic transmission, glutamatergic
 http://purl.obolibrary.org/obo/ZP_0007379	regulation of synaptic transmission, glycinergic process quality, abnormal	http://purl.obolibrary.org/obo/GO_0060092	regulation of synaptic transmission, glycinergic
-http://purl.obolibrary.org/obo/ZP_0013206	regulation of telomerase activity process quality, abnormal	http://purl.obolibrary.org/obo/GO_0051972	regulation of telomerase activity
 http://purl.obolibrary.org/obo/ZP_0015255	regulation of the force of heart contraction process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002026	regulation of the force of heart contraction
 http://purl.obolibrary.org/obo/ZP_0003484	regulation of transcription elongation by RNA polymerase II process quality, abnormal	http://purl.obolibrary.org/obo/GO_0034243	regulation of transcription elongation by RNA polymerase II
 http://purl.obolibrary.org/obo/ZP_0008540	regulation of vascular endothelial growth factor receptor signaling pathway process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030947	regulation of vascular endothelial growth factor receptor signaling pathway

@@ -6,7 +6,6 @@ http://purl.obolibrary.org/obo/HP_0500184	Abnormal CSF amino acid concentration	
 http://purl.obolibrary.org/obo/HP_0500202	Abnormal CSF arginine concentration	http://purl.obolibrary.org/obo/CHEBI_29016	arginine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500214	Abnormal CSF aromatic amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_33856	aromatic amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500205	Abnormal CSF aspartate family amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_22658	aspartate family amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
-http://purl.obolibrary.org/obo/HP_0040207	Abnormal CSF biopterin concentration	http://purl.obolibrary.org/obo/CHEBI_22881	biopterins	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500185	Abnormal CSF branched chain amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_22918	branched-chain amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500183	Abnormal CSF carboxylic acid concentration	http://purl.obolibrary.org/obo/CHEBI_33575	carboxylic acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500240	Abnormal CSF carnosine concentration	http://purl.obolibrary.org/obo/CHEBI_15727	carnosine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
@@ -27,6 +26,7 @@ http://purl.obolibrary.org/obo/HP_0040203	Abnormal CSF neopterin concentration	h
 http://purl.obolibrary.org/obo/HP_0500243	Abnormal CSF ornithine concentration	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500215	Abnormal CSF phenylalanine concentration	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0025456	Abnormal CSF protein concentration	http://purl.obolibrary.org/obo/CHEBI_36080	protein	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/HP_0040207	Abnormal CSF pterin concentration	http://purl.obolibrary.org/obo/CHEBI_22881	biopterins	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500231	Abnormal CSF pyruvate family amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_26463	pyruvate family amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500226	Abnormal CSF serine concentration	http://purl.obolibrary.org/obo/CHEBI_17822	serine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0500225	Abnormal CSF serine family amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_26650	serine family amino acid	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
@@ -61,7 +61,7 @@ http://purl.obolibrary.org/obo/HP_0012071	Abnormal circulating acylcarnitine con
 http://purl.obolibrary.org/obo/HP_0011043	Abnormal circulating adrenocorticotropin concentration	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0010916	Abnormal circulating alanine concentration	http://purl.obolibrary.org/obo/CHEBI_16449	alanine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012116	Abnormal circulating albumin concentration	http://purl.obolibrary.org/obo/PR_000003918	albumin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0040085	Abnormal circulating aldosterone	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0040085	Abnormal circulating aldosterone concentration	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0045056	Abnormal circulating alpha-fetoprotein concentration	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003112	Abnormal circulating amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0500180	Abnormal circulating amino sulfonic acid concentration	http://purl.obolibrary.org/obo/CHEBI_37793	amino sulfonic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -136,7 +136,7 @@ http://purl.obolibrary.org/obo/HP_0033108	Abnormal circulating proteinogenic ami
 http://purl.obolibrary.org/obo/HP_0004352	Abnormal circulating purine concentration	http://purl.obolibrary.org/obo/CHEBI_35584	purine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0004353	Abnormal circulating pyrimidine concentration	http://purl.obolibrary.org/obo/CHEBI_39447	pyrimidines	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0010915	Abnormal circulating pyruvate family amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_26463	pyruvate family amino acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0040084	Abnormal circulating renin	http://purl.obolibrary.org/obo/PR_000013883	renin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0040084	Abnormal circulating renin concentration	http://purl.obolibrary.org/obo/PR_000013883	renin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0010898	Abnormal circulating sarcosine concentration	http://purl.obolibrary.org/obo/CHEBI_15611	sarcosine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012278	Abnormal circulating serine concentration	http://purl.obolibrary.org/obo/CHEBI_17822	serine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0010894	Abnormal circulating serine family amino acid concentration	http://purl.obolibrary.org/obo/CHEBI_26650	serine family amino acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood

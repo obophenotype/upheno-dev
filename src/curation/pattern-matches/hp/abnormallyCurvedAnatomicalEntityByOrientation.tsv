@@ -1,6 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	orientation	orientation_label
 http://purl.obolibrary.org/obo/HP_0000907	Anterior rib cupping	http://purl.obolibrary.org/obo/UBERON_0002228	rib	http://purl.obolibrary.org/obo/PATO_0002154	splayed ventral
-http://purl.obolibrary.org/obo/HP_0000483	Astigmatism	http://purl.obolibrary.org/obo/UBERON_0000964	cornea	http://purl.obolibrary.org/obo/PATO_0001848	asymmetrically curved
 http://purl.obolibrary.org/obo/HP_0003956	Bowed forearm bones	http://purl.obolibrary.org/obo/UBERON_0003466	forelimb zeugopod bone	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
 http://purl.obolibrary.org/obo/HP_0003865	Bowed humerus	http://purl.obolibrary.org/obo/UBERON_0000976	humerus	http://purl.obolibrary.org/obo/PATO_0001592	increased curvature
 http://purl.obolibrary.org/obo/HP_0006488	Bowing of the arm	http://purl.obolibrary.org/obo/UBERON_0008962	forelimb bone	http://purl.obolibrary.org/obo/PATO_0000406	curved

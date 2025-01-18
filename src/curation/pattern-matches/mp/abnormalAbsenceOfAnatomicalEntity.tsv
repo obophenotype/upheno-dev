@@ -167,6 +167,7 @@ http://purl.obolibrary.org/obo/MP_0004806	absent germ cells	http://purl.obolibra
 http://purl.obolibrary.org/obo/MP_0008179	absent germinal center B cells	http://purl.obolibrary.org/obo/CL_0000844	germinal center B cell
 http://purl.obolibrary.org/obo/MP_0001000	absent golgi tendon organ	http://purl.obolibrary.org/obo/UBERON_0004012	golgi tendon organ
 http://purl.obolibrary.org/obo/MP_0008336	absent gonadotrophs	http://purl.obolibrary.org/obo/CL_0000437	gonadtroph
+http://purl.obolibrary.org/obo/MP_0014593	absent gonadotropin-releasing hormone neuron	http://purl.obolibrary.org/obo/CL_0011111	gonadotropin-releasing hormone neuron
 http://purl.obolibrary.org/obo/MP_0008381	absent gonial bone	http://purl.obolibrary.org/obo/UBERON_0003966	gonial bone
 http://purl.obolibrary.org/obo/MP_0013698	absent granulocyte monocyte progenitor cells	http://purl.obolibrary.org/obo/CL_0000557	granulocyte monocyte progenitor cell
 http://purl.obolibrary.org/obo/MP_0006365	absent guard hair	http://purl.obolibrary.org/obo/UBERON_0010512	strand of guard hair
@@ -199,7 +200,7 @@ http://purl.obolibrary.org/obo/MP_0013826	absent hypoglossal canal	http://purl.o
 http://purl.obolibrary.org/obo/MP_0013835	absent hypoglossal nerve	http://purl.obolibrary.org/obo/UBERON_0001650	hypoglossal nerve
 http://purl.obolibrary.org/obo/MP_0008213	absent immature B cells	http://purl.obolibrary.org/obo/CL_0000816	immature B cell
 http://purl.obolibrary.org/obo/MP_0009039	absent inferior colliculus	http://purl.obolibrary.org/obo/UBERON_0001946	inferior colliculus
-http://purl.obolibrary.org/obo/MP_0020493	absent inferior vena cava	http://purl.obolibrary.org/obo/UBERON_0001072	posterior vena cava
+http://purl.obolibrary.org/obo/MP_0020493	absent inferior vena cava	http://purl.obolibrary.org/obo/UBERON_0001072	inferior vena cava
 http://purl.obolibrary.org/obo/MP_0013490	absent infundibular recess of third ventricle	http://purl.obolibrary.org/obo/UBERON_0006250	infundibular recess of 3rd ventricle
 http://purl.obolibrary.org/obo/MP_0009622	absent inguinal lymph nodes	http://purl.obolibrary.org/obo/UBERON_0001542	inguinal lymph node
 http://purl.obolibrary.org/obo/MP_0004964	absent inner cell mass	http://purl.obolibrary.org/obo/UBERON_0000087	inner cell mass
@@ -391,7 +392,7 @@ http://purl.obolibrary.org/obo/MP_0010646	absent pulmonary vein	http://purl.obol
 http://purl.obolibrary.org/obo/MP_0009509	absent rectum	http://purl.obolibrary.org/obo/UBERON_0001052	rectum
 http://purl.obolibrary.org/obo/MP_0012268	absent red nucleus	http://purl.obolibrary.org/obo/UBERON_0001947	red nucleus
 http://purl.obolibrary.org/obo/MP_0011354	absent renal glomerulus	http://purl.obolibrary.org/obo/UBERON_0005749	glomerular tuft
-http://purl.obolibrary.org/obo/MP_0010863	absent respiratory mucosa goblet cells	http://purl.obolibrary.org/obo/CL_0002370	respiratory goblet cell
+http://purl.obolibrary.org/obo/MP_0010863	absent respiratory mucosa goblet cells	http://purl.obolibrary.org/obo/CL_0002370	respiratory tract goblet cell
 http://purl.obolibrary.org/obo/MP_0009773	absent retina	http://purl.obolibrary.org/obo/UBERON_0000966	retina
 http://purl.obolibrary.org/obo/MP_0008447	absent retina cone cells	http://purl.obolibrary.org/obo/CL_0000573	retinal cone cell
 http://purl.obolibrary.org/obo/MP_0008068	absent retina ganglion cell	http://purl.obolibrary.org/obo/CL_0000740	retinal ganglion cell
@@ -416,7 +417,7 @@ http://purl.obolibrary.org/obo/MP_0030352	absent sagittal suture	http://purl.obo
 http://purl.obolibrary.org/obo/MP_0000033	absent scala media	http://purl.obolibrary.org/obo/UBERON_0002295	scala media
 http://purl.obolibrary.org/obo/MP_0010710	absent sclera	http://purl.obolibrary.org/obo/UBERON_0001773	sclera
 http://purl.obolibrary.org/obo/MP_0006295	absent sclerotome	http://purl.obolibrary.org/obo/UBERON_0003089	sclerotome
-http://purl.obolibrary.org/obo/MP_0013380	absent sebocyte	http://purl.obolibrary.org/obo/CL_0002140	acinar cell of sebaceous gland
+http://purl.obolibrary.org/obo/MP_0013380	absent sebocyte	http://purl.obolibrary.org/obo/CL_0002140	skin sebocyte
 http://purl.obolibrary.org/obo/MP_0006345	absent second pharyngeal arch	http://purl.obolibrary.org/obo/UBERON_0003066	pharyngeal arch 2
 http://purl.obolibrary.org/obo/MP_0030339	absent second pharyngeal arch artery	http://purl.obolibrary.org/obo/UBERON_0003119	pharyngeal arch artery 2
 http://purl.obolibrary.org/obo/MP_0013224	absent second pharyngeal pouch	http://purl.obolibrary.org/obo/UBERON_0007123	pharyngeal pouch 2
@@ -501,8 +502,8 @@ http://purl.obolibrary.org/obo/MP_0001714	absent trophoblast giant cells	http://
 http://purl.obolibrary.org/obo/MP_0003151	absent tunnel of Corti	http://purl.obolibrary.org/obo/UBERON_0005972	tunnel of Corti
 http://purl.obolibrary.org/obo/MP_0004873	absent turbinates	http://purl.obolibrary.org/obo/UBERON_0001762	turbinate bone
 http://purl.obolibrary.org/obo/MP_0030155	absent tympanic cavity	http://purl.obolibrary.org/obo/UBERON_0004114	tympanic cavity
-http://purl.obolibrary.org/obo/MP_0010817	absent type I pneumocytes	http://purl.obolibrary.org/obo/CL_0002062	type I pneumocyte
-http://purl.obolibrary.org/obo/MP_0010812	absent type II pneumocytes	http://purl.obolibrary.org/obo/CL_0002063	type II pneumocyte
+http://purl.obolibrary.org/obo/MP_0010817	absent type I pneumocytes	http://purl.obolibrary.org/obo/CL_0002062	pulmonary alveolar type 1 cell
+http://purl.obolibrary.org/obo/MP_0010812	absent type II pneumocytes	http://purl.obolibrary.org/obo/CL_0002063	pulmonary alveolar type 2 cell
 http://purl.obolibrary.org/obo/MP_0004914	absent ultimobranchial body	http://purl.obolibrary.org/obo/UBERON_0003092	ultimobranchial body
 http://purl.obolibrary.org/obo/MP_0012134	absent umbilical cord	http://purl.obolibrary.org/obo/UBERON_0002331	umbilical cord
 http://purl.obolibrary.org/obo/MP_0012301	absent umbilical cord blood vessels	http://purl.obolibrary.org/obo/UBERON_0010260	umbilical blood vessel

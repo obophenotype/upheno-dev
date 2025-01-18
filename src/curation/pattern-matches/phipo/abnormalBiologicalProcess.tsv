@@ -31,4 +31,5 @@ http://purl.obolibrary.org/obo/PHIPO_0000498	abnormal toxin biosynthetic process
 http://purl.obolibrary.org/obo/PHIPO_0000257	abnormal transport	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/PHIPO_0000267	abnormal vacuolar transport	http://purl.obolibrary.org/obo/GO_0007034	vacuolar transport
 http://purl.obolibrary.org/obo/PHIPO_0001147	cellular metabolic process phenotype	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
+http://purl.obolibrary.org/obo/PHIPO_0001147	cellular metabolic process phenotype	http://purl.obolibrary.org/obo/GO_0044237	obsolete cellular metabolic process
 http://purl.obolibrary.org/obo/PHIPO_0000467	presence of effector-independent host hypersensitive response	http://purl.obolibrary.org/obo/GO_0009626	plant-type hypersensitive response

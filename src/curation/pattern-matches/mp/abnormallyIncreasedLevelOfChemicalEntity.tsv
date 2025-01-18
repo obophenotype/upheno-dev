@@ -1,20 +1,25 @@
 defined_class	defined_class_label	chemical_entity	chemical_entity_label
 http://purl.obolibrary.org/obo/MP_0002318	hypercapnia	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide
 http://purl.obolibrary.org/obo/MP_0002319	hyperoxia	http://purl.obolibrary.org/obo/CHEBI_25805	oxygen atom
+http://purl.obolibrary.org/obo/MP_0031226	increased CXCL10 level	http://purl.obolibrary.org/obo/PR_000006064	C-X-C motif chemokine 10
 http://purl.obolibrary.org/obo/MP_0030676	increased acetylcholine level	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
 http://purl.obolibrary.org/obo/MP_0004892	increased adiponectin level	http://purl.obolibrary.org/obo/PR_000003777	adiponectin
 http://purl.obolibrary.org/obo/MP_0030761	increased adrenaline level	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline
 http://purl.obolibrary.org/obo/MP_0005129	increased adrenocorticotropin level	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
+http://purl.obolibrary.org/obo/MP_0031640	increased alanine level	http://purl.obolibrary.org/obo/CHEBI_16449	alanine
 http://purl.obolibrary.org/obo/MP_0012602	increased alpha-fetoprotein level	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein
 http://purl.obolibrary.org/obo/MP_0021133	increased amino acid betaine level	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
+http://purl.obolibrary.org/obo/MP_0014527	increased amino acid level	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
 http://purl.obolibrary.org/obo/MP_0030764	increased anandamide level	http://purl.obolibrary.org/obo/CHEBI_2700	anandamide
 http://purl.obolibrary.org/obo/MP_0031229	increased angiotensin II level	http://purl.obolibrary.org/obo/PR_000036009	angiotensin II
 http://purl.obolibrary.org/obo/MP_0030664	increased arginine level	http://purl.obolibrary.org/obo/CHEBI_29016	arginine
 http://purl.obolibrary.org/obo/MP_0030730	increased beta-alanine level	http://purl.obolibrary.org/obo/CHEBI_16958	beta-alanine
 http://purl.obolibrary.org/obo/MP_0004789	increased bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt
+http://purl.obolibrary.org/obo/MP_0014537	increased calcium level	http://purl.obolibrary.org/obo/CHEBI_22984	calcium atom
 http://purl.obolibrary.org/obo/MP_0020582	increased ceramide level	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
 http://purl.obolibrary.org/obo/MP_0003982	increased cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
 http://purl.obolibrary.org/obo/MP_0021128	increased choline level	http://purl.obolibrary.org/obo/CHEBI_15354	choline
+http://purl.obolibrary.org/obo/MP_0014539	increased copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom
 http://purl.obolibrary.org/obo/MP_0010061	increased creatine level	http://purl.obolibrary.org/obo/CHEBI_16919	creatine
 http://purl.obolibrary.org/obo/MP_0030684	increased cystathionine level	http://purl.obolibrary.org/obo/CHEBI_17755	cystathionine
 http://purl.obolibrary.org/obo/MP_0001906	increased dopamine level	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine
@@ -34,17 +39,21 @@ http://purl.obolibrary.org/obo/MP_0005440	increased glycogen level	http://purl.o
 http://purl.obolibrary.org/obo/MP_0030755	increased histamine level	http://purl.obolibrary.org/obo/CHEBI_18295	histamine
 http://purl.obolibrary.org/obo/MP_0014429	increased hyaluronic acid level	http://purl.obolibrary.org/obo/CHEBI_16336	hyaluronic acid
 http://purl.obolibrary.org/obo/MP_0030678	increased hydroxyproline level	http://purl.obolibrary.org/obo/CHEBI_24741	hydroxyproline
+http://purl.obolibrary.org/obo/MP_0014541	increased iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom
 http://purl.obolibrary.org/obo/MP_0030712	increased isoleucine level	http://purl.obolibrary.org/obo/CHEBI_24898	isoleucine
 http://purl.obolibrary.org/obo/MP_0030747	increased leucine level	http://purl.obolibrary.org/obo/CHEBI_25017	leucine
 http://purl.obolibrary.org/obo/MP_0009816	increased leukotriene level	http://purl.obolibrary.org/obo/CHEBI_25029	leukotriene
 http://purl.obolibrary.org/obo/MP_0014460	increased lipid level	http://purl.obolibrary.org/obo/CHEBI_18059	lipid
 http://purl.obolibrary.org/obo/MP_0005133	increased luteinizing hormone level	http://purl.obolibrary.org/obo/CHEBI_81568	Luteinizing hormone
 http://purl.obolibrary.org/obo/MP_0030721	increased lysine level	http://purl.obolibrary.org/obo/CHEBI_25094	lysine
+http://purl.obolibrary.org/obo/MP_0031659	increased magnesium level	http://purl.obolibrary.org/obo/CHEBI_25107	magnesium atom
 http://purl.obolibrary.org/obo/MP_0030641	increased methionine level	http://purl.obolibrary.org/obo/CHEBI_16811	methionine
 http://purl.obolibrary.org/obo/MP_0030628	increased methylmalonic acid level	http://purl.obolibrary.org/obo/CHEBI_30860	methylmalonic acid
+http://purl.obolibrary.org/obo/MP_0014535	increased mineral level	http://purl.obolibrary.org/obo/CHEBI_46662	mineral
 http://purl.obolibrary.org/obo/MP_0012575	increased noradrenaline level	http://purl.obolibrary.org/obo/CHEBI_33569	noradrenaline
 http://purl.obolibrary.org/obo/MP_0030647	increased ornithine level	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine
 http://purl.obolibrary.org/obo/MP_0030697	increased phenylalanine level	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine
+http://purl.obolibrary.org/obo/MP_0014545	increased phosphate level	http://purl.obolibrary.org/obo/CHEBI_26020	phosphate
 http://purl.obolibrary.org/obo/MP_0021126	increased phosphocholine level	http://purl.obolibrary.org/obo/CHEBI_18132	phosphocholine
 http://purl.obolibrary.org/obo/MP_0010077	increased phytosterol level	http://purl.obolibrary.org/obo/CHEBI_26125	phytosterols
 http://purl.obolibrary.org/obo/MP_0004147	increased porphyrin level	http://purl.obolibrary.org/obo/CHEBI_8337	porphyrin
@@ -71,3 +80,4 @@ http://purl.obolibrary.org/obo/MP_0005283	increased unsaturated fatty acids leve
 http://purl.obolibrary.org/obo/MP_0030724	increased valine level	http://purl.obolibrary.org/obo/CHEBI_27266	valine
 http://purl.obolibrary.org/obo/MP_0031255	increased vitamin C level	http://purl.obolibrary.org/obo/CHEBI_29073	L-ascorbic acid
 http://purl.obolibrary.org/obo/MP_0012337	increased vitamin D level	http://purl.obolibrary.org/obo/CHEBI_27300	vitamin D
+http://purl.obolibrary.org/obo/MP_0014549	increased zinc level	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom

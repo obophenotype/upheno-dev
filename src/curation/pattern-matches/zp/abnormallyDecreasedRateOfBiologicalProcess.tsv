@@ -52,7 +52,7 @@ http://purl.obolibrary.org/obo/ZP_0014092	fin regeneration decreased rate, abnor
 http://purl.obolibrary.org/obo/ZP_0149356	forward locomotion decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0043056	forward locomotion
 http://purl.obolibrary.org/obo/ZP_0006589	gastrulation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/ZP_0004132	glomerular filtration decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
-http://purl.obolibrary.org/obo/ZP_0003620	glucose import decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
+http://purl.obolibrary.org/obo/ZP_0003620	glucose import decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
 http://purl.obolibrary.org/obo/ZP_0101378	glycolytic process decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
 http://purl.obolibrary.org/obo/ZP_0000544	granulocyte differentiation decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0030851	granulocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0004262	growth decreased rate, abnormal	http://purl.obolibrary.org/obo/GO_0040007	growth

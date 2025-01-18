@@ -1,5 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/XPO_0139950	abnormally necrotic B cell	http://purl.obolibrary.org/obo/XAO_0003158	B cell
+http://purl.obolibrary.org/obo/XPO_0139950	abnormally necrotic B cell	http://purl.obolibrary.org/obo/XAO_0003158	B-cell
 http://purl.obolibrary.org/obo/XPO_0141077	abnormally necrotic Bowman's gland	http://purl.obolibrary.org/obo/XAO_0005075	Bowman's gland
 http://purl.obolibrary.org/obo/XPO_0140986	abnormally necrotic Brachet's cleft	http://purl.obolibrary.org/obo/XAO_0004456	Brachet's cleft
 http://purl.obolibrary.org/obo/XPO_0140539	abnormally necrotic Eberth-Kastschenko layer	http://purl.obolibrary.org/obo/XAO_0005036	Eberth-Kastschenko layer
@@ -9,13 +9,13 @@ http://purl.obolibrary.org/obo/XPO_0140649	abnormally necrotic Leydig cell	http:
 http://purl.obolibrary.org/obo/XPO_0140143	abnormally necrotic Mauthner cell	http://purl.obolibrary.org/obo/XAO_0005035	Mauthner cell
 http://purl.obolibrary.org/obo/XPO_0140524	abnormally necrotic Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
 http://purl.obolibrary.org/obo/XPO_0140278	abnormally necrotic Merkel cell	http://purl.obolibrary.org/obo/XAO_0003254	Merkel cell
-http://purl.obolibrary.org/obo/XPO_0139887	abnormally necrotic Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Muller cell
+http://purl.obolibrary.org/obo/XPO_0139887	abnormally necrotic Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Mueller cell
 http://purl.obolibrary.org/obo/XPO_0140437	abnormally necrotic Mullerian duct	http://purl.obolibrary.org/obo/XAO_0000330	Mullerian duct
 http://purl.obolibrary.org/obo/XPO_0141095	abnormally necrotic Rathke's pouch	http://purl.obolibrary.org/obo/XAO_0000430	Rathke's pouch
 http://purl.obolibrary.org/obo/XPO_0141198	abnormally necrotic Rohon-Beard neuron	http://purl.obolibrary.org/obo/XAO_0003022	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/XPO_0141213	abnormally necrotic Schwann cell	http://purl.obolibrary.org/obo/XAO_0005044	Schwann cell
 http://purl.obolibrary.org/obo/XPO_0140428	abnormally necrotic Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
-http://purl.obolibrary.org/obo/XPO_0140733	abnormally necrotic T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
+http://purl.obolibrary.org/obo/XPO_0140733	abnormally necrotic T cell	http://purl.obolibrary.org/obo/XAO_0003157	T-cell
 http://purl.obolibrary.org/obo/XPO_0140734	abnormally necrotic abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
 http://purl.obolibrary.org/obo/XPO_0142033	abnormally necrotic abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0140188	abnormally necrotic abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
@@ -432,7 +432,7 @@ http://purl.obolibrary.org/obo/XPO_0141098	abnormally necrotic epiphysis	http://
 http://purl.obolibrary.org/obo/XPO_0140059	abnormally necrotic epithelial cell	http://purl.obolibrary.org/obo/XAO_0003249	epithelial cell
 http://purl.obolibrary.org/obo/XPO_0139869	abnormally necrotic epithelium	http://purl.obolibrary.org/obo/XAO_0003045	epithelium
 http://purl.obolibrary.org/obo/XPO_0140360	abnormally necrotic epsilon cell	http://purl.obolibrary.org/obo/XAO_0005167	epsilon cell
-http://purl.obolibrary.org/obo/XPO_0140973	abnormally necrotic erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid cell
+http://purl.obolibrary.org/obo/XPO_0140973	abnormally necrotic erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid lineage cell
 http://purl.obolibrary.org/obo/XPO_0140864	abnormally necrotic esophageal epithelium	http://purl.obolibrary.org/obo/XAO_0005299	esophageal epithelium
 http://purl.obolibrary.org/obo/XPO_0140146	abnormally necrotic esophagus	http://purl.obolibrary.org/obo/XAO_0000127	esophagus
 http://purl.obolibrary.org/obo/XPO_0140765	abnormally necrotic ethmoid bone	http://purl.obolibrary.org/obo/XAO_0005191	ethmoid bone

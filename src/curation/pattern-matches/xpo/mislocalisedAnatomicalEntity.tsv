@@ -1,5 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/XPO_0127532	abnormally localised B cell	http://purl.obolibrary.org/obo/XAO_0003158	B cell
+http://purl.obolibrary.org/obo/XPO_0127532	abnormally localised B cell	http://purl.obolibrary.org/obo/XAO_0003158	B-cell
 http://purl.obolibrary.org/obo/XPO_0127855	abnormally localised Bowman's gland	http://purl.obolibrary.org/obo/XAO_0005075	Bowman's gland
 http://purl.obolibrary.org/obo/XPO_0127090	abnormally localised Brachet's cleft	http://purl.obolibrary.org/obo/XAO_0004456	Brachet's cleft
 http://purl.obolibrary.org/obo/XPO_0127289	abnormally localised Eberth-Kastschenko layer	http://purl.obolibrary.org/obo/XAO_0005036	Eberth-Kastschenko layer
@@ -10,14 +10,14 @@ http://purl.obolibrary.org/obo/XPO_0131570	abnormally localised M band	http://pu
 http://purl.obolibrary.org/obo/XPO_0127322	abnormally localised Mauthner cell	http://purl.obolibrary.org/obo/XAO_0005035	Mauthner cell
 http://purl.obolibrary.org/obo/XPO_0127437	abnormally localised Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
 http://purl.obolibrary.org/obo/XPO_0127653	abnormally localised Merkel cell	http://purl.obolibrary.org/obo/XAO_0003254	Merkel cell
-http://purl.obolibrary.org/obo/XPO_0126402	abnormally localised Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Muller cell
+http://purl.obolibrary.org/obo/XPO_0126402	abnormally localised Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Mueller cell
 http://purl.obolibrary.org/obo/XPO_0127555	abnormally localised Mullerian duct	http://purl.obolibrary.org/obo/XAO_0000330	Mullerian duct
 http://purl.obolibrary.org/obo/XPO_0127152	abnormally localised Rathke's pouch	http://purl.obolibrary.org/obo/XAO_0000430	Rathke's pouch
 http://purl.obolibrary.org/obo/XPO_0127816	abnormally localised Rohon-Beard neuron	http://purl.obolibrary.org/obo/XAO_0003022	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/XPO_0131553	abnormally localised Roux spot	http://purl.obolibrary.org/obo/XAO_0005290	Roux spot
 http://purl.obolibrary.org/obo/XPO_0127946	abnormally localised Schwann cell	http://purl.obolibrary.org/obo/XAO_0005044	Schwann cell
 http://purl.obolibrary.org/obo/XPO_0127926	abnormally localised Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
-http://purl.obolibrary.org/obo/XPO_0127627	abnormally localised T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
+http://purl.obolibrary.org/obo/XPO_0127627	abnormally localised T cell	http://purl.obolibrary.org/obo/XAO_0003157	T-cell
 http://purl.obolibrary.org/obo/XPO_0127156	abnormally localised abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
 http://purl.obolibrary.org/obo/XPO_0142026	abnormally localised abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0127043	abnormally localised abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
@@ -461,7 +461,7 @@ http://purl.obolibrary.org/obo/XPO_0127606	abnormally localised epiphysis	http:/
 http://purl.obolibrary.org/obo/XPO_0126725	abnormally localised epithelial cell	http://purl.obolibrary.org/obo/XAO_0003249	epithelial cell
 http://purl.obolibrary.org/obo/XPO_0126732	abnormally localised epithelium	http://purl.obolibrary.org/obo/XAO_0003045	epithelium
 http://purl.obolibrary.org/obo/XPO_0127265	abnormally localised epsilon cell	http://purl.obolibrary.org/obo/XAO_0005167	epsilon cell
-http://purl.obolibrary.org/obo/XPO_0127837	abnormally localised erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid cell
+http://purl.obolibrary.org/obo/XPO_0127837	abnormally localised erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid lineage cell
 http://purl.obolibrary.org/obo/XPO_0131566	abnormally localised esophageal epithelium	http://purl.obolibrary.org/obo/XAO_0005299	esophageal epithelium
 http://purl.obolibrary.org/obo/XPO_0127899	abnormally localised esophagus	http://purl.obolibrary.org/obo/XAO_0000127	esophagus
 http://purl.obolibrary.org/obo/XPO_0127539	abnormally localised ethmoid bone	http://purl.obolibrary.org/obo/XAO_0005191	ethmoid bone

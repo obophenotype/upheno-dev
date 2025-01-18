@@ -1,5 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/XPO_0101518	abnormal B cell	http://purl.obolibrary.org/obo/XAO_0003158	B cell
+http://purl.obolibrary.org/obo/XPO_0101518	abnormal B cell	http://purl.obolibrary.org/obo/XAO_0003158	B-cell
 http://purl.obolibrary.org/obo/XPO_0101073	abnormal Bowman's gland	http://purl.obolibrary.org/obo/XAO_0005075	Bowman's gland
 http://purl.obolibrary.org/obo/XPO_0100913	abnormal Brachet's cleft	http://purl.obolibrary.org/obo/XAO_0004456	Brachet's cleft
 http://purl.obolibrary.org/obo/XPO_0101313	abnormal Eberth-Kastschenko layer	http://purl.obolibrary.org/obo/XAO_0005036	Eberth-Kastschenko layer
@@ -11,14 +11,14 @@ http://purl.obolibrary.org/obo/XPO_0131686	abnormal M band	http://purl.obolibrar
 http://purl.obolibrary.org/obo/XPO_0101223	abnormal Mauthner cell	http://purl.obolibrary.org/obo/XAO_0005035	Mauthner cell
 http://purl.obolibrary.org/obo/XPO_0100766	abnormal Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
 http://purl.obolibrary.org/obo/XPO_0100704	abnormal Merkel cell	http://purl.obolibrary.org/obo/XAO_0003254	Merkel cell
-http://purl.obolibrary.org/obo/XPO_0101124	abnormal Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Muller cell
+http://purl.obolibrary.org/obo/XPO_0101124	abnormal Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Mueller cell
 http://purl.obolibrary.org/obo/XPO_0100482	abnormal Mullerian duct	http://purl.obolibrary.org/obo/XAO_0000330	Mullerian duct
 http://purl.obolibrary.org/obo/XPO_0101121	abnormal Rathke's pouch	http://purl.obolibrary.org/obo/XAO_0000430	Rathke's pouch
 http://purl.obolibrary.org/obo/XPO_0101246	abnormal Rohon-Beard neuron	http://purl.obolibrary.org/obo/XAO_0003022	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/XPO_0131669	abnormal Roux spot	http://purl.obolibrary.org/obo/XAO_0005290	Roux spot
 http://purl.obolibrary.org/obo/XPO_0101600	abnormal Schwann cell	http://purl.obolibrary.org/obo/XAO_0005044	Schwann cell
 http://purl.obolibrary.org/obo/XPO_0100760	abnormal Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
-http://purl.obolibrary.org/obo/XPO_0101083	abnormal T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
+http://purl.obolibrary.org/obo/XPO_0101083	abnormal T cell	http://purl.obolibrary.org/obo/XAO_0003157	T-cell
 http://purl.obolibrary.org/obo/XPO_0101558	abnormal abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
 http://purl.obolibrary.org/obo/XPO_0142053	abnormal abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0100849	abnormal abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
@@ -470,7 +470,7 @@ http://purl.obolibrary.org/obo/XPO_0100737	abnormal epiphysis	http://purl.obolib
 http://purl.obolibrary.org/obo/XPO_0100218	abnormal epithelial cell	http://purl.obolibrary.org/obo/XAO_0003249	epithelial cell
 http://purl.obolibrary.org/obo/XPO_0100192	abnormal epithelium	http://purl.obolibrary.org/obo/XAO_0003045	epithelium
 http://purl.obolibrary.org/obo/XPO_0100435	abnormal epsilon cell	http://purl.obolibrary.org/obo/XAO_0005167	epsilon cell
-http://purl.obolibrary.org/obo/XPO_0101107	abnormal erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid cell
+http://purl.obolibrary.org/obo/XPO_0101107	abnormal erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid lineage cell
 http://purl.obolibrary.org/obo/XPO_0131682	abnormal esophageal epithelium	http://purl.obolibrary.org/obo/XAO_0005299	esophageal epithelium
 http://purl.obolibrary.org/obo/XPO_0100797	abnormal esophagus	http://purl.obolibrary.org/obo/XAO_0000127	esophagus
 http://purl.obolibrary.org/obo/XPO_0100944	abnormal ethmoid bone	http://purl.obolibrary.org/obo/XAO_0005191	ethmoid bone

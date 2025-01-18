@@ -1,4 +1,5 @@
 defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/HP_0000745	Abnormal diminished volition	http://purl.obolibrary.org/obo/NBO_0000233	motivation behavior
 http://purl.obolibrary.org/obo/HP_0008669	Abnormal spermatogenesis	http://purl.obolibrary.org/obo/GO_0007283	spermatogenesis
 http://purl.obolibrary.org/obo/HP_0001251	Ataxia	http://purl.obolibrary.org/obo/NBO_0000339	motor coordination
 http://purl.obolibrary.org/obo/HP_0000405	Conductive hearing impairment	http://purl.obolibrary.org/obo/GO_0055127	vibrational conductance of sound to the inner ear
@@ -7,7 +8,6 @@ http://purl.obolibrary.org/obo/HP_0005419	Decreased T cell activation	http://pur
 http://purl.obolibrary.org/obo/HP_0002731	Decreased lymphocyte apoptosis	http://purl.obolibrary.org/obo/GO_0070227	lymphocyte apoptotic process
 http://purl.obolibrary.org/obo/HP_0000824	Decreased response to growth hormone stimulation test	http://purl.obolibrary.org/obo/GO_0030252	growth hormone secretion
 http://purl.obolibrary.org/obo/HP_0011037	Decreased urine output	http://purl.obolibrary.org/obo/GO_0060073	micturition
-http://purl.obolibrary.org/obo/HP_0000745	Diminished motivation	http://purl.obolibrary.org/obo/NBO_0000233	motivation behavior
 http://purl.obolibrary.org/obo/HP_0000734	Disinhibition	http://purl.obolibrary.org/obo/NBO_0000604	social inhibition
 http://purl.obolibrary.org/obo/HP_0006285	Enamel hypomineralization	http://purl.obolibrary.org/obo/GO_0070166	enamel mineralization
 http://purl.obolibrary.org/obo/HP_0001508	Failure to thrive	http://purl.obolibrary.org/obo/GO_0040007	growth

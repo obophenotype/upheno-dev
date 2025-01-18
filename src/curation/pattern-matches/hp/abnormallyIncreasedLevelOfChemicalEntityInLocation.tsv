@@ -18,7 +18,6 @@ http://purl.obolibrary.org/obo/HP_0003153	Cystathioninuria	http://purl.obolibrar
 http://purl.obolibrary.org/obo/HP_0003131	Cystinuria	http://purl.obolibrary.org/obo/CHEBI_17376	cystine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0008301	Dermatan sulfate excretion in urine	http://purl.obolibrary.org/obo/CHEBI_18376	dermatan sulfate	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0008339	Diaminoaciduria	http://purl.obolibrary.org/obo/CHEBI_35987	diamino acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
-http://purl.obolibrary.org/obo/HP_0040145	Dicarboxylic acidemia	http://purl.obolibrary.org/obo/CHEBI_35692	dicarboxylic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003215	Dicarboxylic aciduria	http://purl.obolibrary.org/obo/CHEBI_35692	dicarboxylic acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0040208	Elevated CSF biopterin level	http://purl.obolibrary.org/obo/CHEBI_22881	biopterins	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
 http://purl.obolibrary.org/obo/HP_0012655	Elevated CSF dopamine concentration	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
@@ -31,7 +30,6 @@ http://purl.obolibrary.org/obo/HP_0033157	Elevated circulating 3-methylhistidine
 http://purl.obolibrary.org/obo/HP_0033302	Elevated circulating 4-hydroxyphenylacetic acid concentration	http://purl.obolibrary.org/obo/CHEBI_18101	4-hydroxyphenylacetic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0033175	Elevated circulating 5-oxoproline concentration	http://purl.obolibrary.org/obo/CHEBI_16010	5-oxoproline	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0010569	Elevated circulating 7-dehydrocholesterol concentration	http://purl.obolibrary.org/obo/CHEBI_192164	7-Dehydrocholesterol 5,6-oxide	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0034604	Elevated circulating DOPA concentration	http://purl.obolibrary.org/obo/CHEBI_49168	dopa	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0033155	Elevated circulating L-alloisoleucine concentration	http://purl.obolibrary.org/obo/CHEBI_43433	L-alloisoleucine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0031945	Elevated circulating N,N-dimethylglycine concentration	http://purl.obolibrary.org/obo/CHEBI_17724	N,N-dimethylglycine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0034617	Elevated circulating S-adenosyl methionine concentration	http://purl.obolibrary.org/obo/CHEBI_156255	S-adenosyl-D-methionine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -94,8 +92,8 @@ http://purl.obolibrary.org/obo/HP_0011966	Elevated plasma citrulline	http://purl
 http://purl.obolibrary.org/obo/HP_0011864	Elevated plasma pyrophosphate	http://purl.obolibrary.org/obo/CHEBI_18361	diphosphate(4-)	http://purl.obolibrary.org/obo/UBERON_0001969	blood plasma
 http://purl.obolibrary.org/obo/HP_0012236	Elevated sweat chloride	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/UBERON_0001089	sweat
 http://purl.obolibrary.org/obo/HP_0010679	Elevated tissue non-specific alkaline phosphatase	http://purl.obolibrary.org/obo/PR_000003968	alkaline phosphatase, tissue-nonspecific isozyme	http://purl.obolibrary.org/obo/UBERON_0000479	tissue
+http://purl.obolibrary.org/obo/HP_0045034	Elevated urinary 3-aminoisobutyric acid	http://purl.obolibrary.org/obo/CHEBI_27389	3-aminoisobutyric acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0040155	Elevated urinary 3-hydroxybutyric acid	http://purl.obolibrary.org/obo/CHEBI_20067	3-hydroxybutyric acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
-http://purl.obolibrary.org/obo/HP_0045034	Elevated urinary aminoisobutyric acid	http://purl.obolibrary.org/obo/CHEBI_27389	3-aminoisobutyric acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0040156	Elevated urinary carboxylic acid	http://purl.obolibrary.org/obo/CHEBI_33575	carboxylic acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0011976	Elevated urinary catecholamine level	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0003163	Elevated urinary delta-aminolevulinic acid	http://purl.obolibrary.org/obo/CHEBI_17549	5-aminolevulinic acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
@@ -122,7 +120,6 @@ http://purl.obolibrary.org/obo/HP_0003260	Hydroxyprolinemia	http://purl.obolibra
 http://purl.obolibrary.org/obo/HP_0003080	Hydroxyprolinuria	http://purl.obolibrary.org/obo/CHEBI_18240	4-hydroxy-L-proline	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0003348	Hyperalaninemia	http://purl.obolibrary.org/obo/CHEBI_16449	alanine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0012117	Hyperalbuminemia	http://purl.obolibrary.org/obo/PR_000003918	albumin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0000859	Hyperaldosteronism	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0001987	Hyperammonemia	http://purl.obolibrary.org/obo/CHEBI_16134	ammonia	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0410288	Hyperamylasemia	http://purl.obolibrary.org/obo/PR_000049996	active alpha-amylase isozyme (human)	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0500153	Hyperargininemia	http://purl.obolibrary.org/obo/CHEBI_29016	arginine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -222,6 +219,7 @@ http://purl.obolibrary.org/obo/HP_0003138	Increased blood urea nitrogen	http://p
 http://purl.obolibrary.org/obo/HP_0003154	Increased circulating ACTH level	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0032273	Increased circulating N-acetylaspartic acid concentration	http://purl.obolibrary.org/obo/CHEBI_21547	N-acetyl-L-aspartic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0410194	Increased circulating UDP glucose-4-epimerase concentration	http://purl.obolibrary.org/obo/PR_000007812	UDP-glucose 4-epimerase	http://purl.obolibrary.org/obo/UBERON_0001969	blood plasma
+http://purl.obolibrary.org/obo/HP_0000859	Increased circulating aldosterone concentration	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0032491	Increased circulating argininosuccinic acid	http://purl.obolibrary.org/obo/CHEBI_184023	Argininosuccinic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0500159	Increased circulating aspartic acid concentration	http://purl.obolibrary.org/obo/CHEBI_17053	L-aspartic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0430074	Increased circulating beta-carotene concentration	http://purl.obolibrary.org/obo/CHEBI_17579	beta-carotene	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -243,7 +241,8 @@ http://purl.obolibrary.org/obo/HP_0002151	Increased circulating lactate concentr
 http://purl.obolibrary.org/obo/HP_0410206	Increased circulating nicotinurate level	http://purl.obolibrary.org/obo/CHEBI_7563	N-nicotinoylglycine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0031216	Increased circulating progesterone	http://purl.obolibrary.org/obo/CHEBI_17026	progesterone	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
 http://purl.obolibrary.org/obo/HP_0004368	Increased circulating purine concentration	http://purl.obolibrary.org/obo/CHEBI_35584	purine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/HP_0000848	Increased circulating renin level	http://purl.obolibrary.org/obo/PR_000013883	renin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/HP_0003542	Increased circulating pyruvate concentration	http://purl.obolibrary.org/obo/CHEBI_15361	pyruvate	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
+http://purl.obolibrary.org/obo/HP_0000848	Increased circulating renin concentration	http://purl.obolibrary.org/obo/PR_000013883	renin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0033643	Increased circulating very long-chain fatty acid concentration	http://purl.obolibrary.org/obo/CHEBI_27283	very long-chain fatty acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0410171	Increased cotinine level	http://purl.obolibrary.org/obo/CHEBI_68641	(-)-cotinine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0410197	Increased erythrocyte UDP glucose-4-epimerase concentration	http://purl.obolibrary.org/obo/PR_000007812	UDP-glucose 4-epimerase	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
@@ -284,7 +283,6 @@ http://purl.obolibrary.org/obo/HP_0012202	Increased serum bile acid concentratio
 http://purl.obolibrary.org/obo/HP_0025134	Increased serum estradiol	http://purl.obolibrary.org/obo/CHEBI_23965	estradiol	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
 http://purl.obolibrary.org/obo/HP_0031793	Increased serum leptin	http://purl.obolibrary.org/obo/PR_000009758	leptin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003566	Increased serum prostaglandin E2	http://purl.obolibrary.org/obo/CHEBI_15551	prostaglandin E2	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
-http://purl.obolibrary.org/obo/HP_0003542	Increased serum pyruvate	http://purl.obolibrary.org/obo/CHEBI_15361	pyruvate	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
 http://purl.obolibrary.org/obo/HP_0003144	Increased serum serotonin	http://purl.obolibrary.org/obo/CHEBI_28790	serotonin	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
 http://purl.obolibrary.org/obo/HP_0030088	Increased serum testosterone level	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0011424	Increased serum zinc	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/UBERON_0001977	blood serum
@@ -323,6 +321,7 @@ http://purl.obolibrary.org/obo/HP_0003239	Phosphoethanolaminuria	http://purl.obo
 http://purl.obolibrary.org/obo/HP_0010473	Porphyrinuria	http://purl.obolibrary.org/obo/CHEBI_26214	porphyrins	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0003137	Prolinuria	http://purl.obolibrary.org/obo/CHEBI_26271	proline	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0000093	Proteinuria	http://purl.obolibrary.org/obo/CHEBI_16541	protein polypeptide chain	http://purl.obolibrary.org/obo/UBERON_0001088	urine
+http://purl.obolibrary.org/obo/HP_0002570	Steatorrhea	http://purl.obolibrary.org/obo/CHEBI_18059	lipid	http://purl.obolibrary.org/obo/UBERON_0001988	feces
 http://purl.obolibrary.org/obo/HP_0031137	Storage in hepatocytes	http://purl.obolibrary.org/obo/CHEBI_50860	organic molecular entity	http://purl.obolibrary.org/obo/CL_0000182	hepatocyte
 http://purl.obolibrary.org/obo/HP_0003614	Trimethylaminuria	http://purl.obolibrary.org/obo/CHEBI_18139	trimethylamine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/HP_0003361	Tryptophanuria	http://purl.obolibrary.org/obo/CHEBI_27897	tryptophan	http://purl.obolibrary.org/obo/UBERON_0001088	urine

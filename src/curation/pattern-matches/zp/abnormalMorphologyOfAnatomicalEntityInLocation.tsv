@@ -164,6 +164,7 @@ http://purl.obolibrary.org/obo/ZP_0100548	chondrocyte mandibular arch skeleton m
 http://purl.obolibrary.org/obo/ZP_0103140	chondrocyte neurocranial trabecula morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001321	neurocranial trabecula
 http://purl.obolibrary.org/obo/ZP_0017267	chondrocyte pharyngeal arch cartilage morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001460	pharyngeal arch cartilage
 http://purl.obolibrary.org/obo/ZP_0143653	chorion ovary morphology, abnormal	http://purl.obolibrary.org/obo/ZFA_0000329	chorion	http://purl.obolibrary.org/obo/ZFA_0000403	ovary
+http://purl.obolibrary.org/obo/ZP_0013337	chromatin blastoderm cell morphology, abnormal	http://purl.obolibrary.org/obo/GO_0000785	chromatin	http://purl.obolibrary.org/obo/ZFA_0009177	blastoderm cell
 http://purl.obolibrary.org/obo/ZP_0022726	chromosome cell morphology, abnormal	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/ZFA_0009000	cell
 http://purl.obolibrary.org/obo/ZP_0007154	chromosome gastrula cell morphology, abnormal	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/ZFA_0009182	gastrula cell
 http://purl.obolibrary.org/obo/ZP_0018403	chromosome oocyte morphology, abnormal	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/ZFA_0001109	oocyte

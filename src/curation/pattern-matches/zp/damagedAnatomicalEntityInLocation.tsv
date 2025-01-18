@@ -4,6 +4,7 @@ http://purl.obolibrary.org/obo/ZP_0016970	axon cranial ganglion damaged, abnorma
 http://purl.obolibrary.org/obo/ZP_0011013	basal lamina intestinal epithelium damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0001485	basal lamina	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
 http://purl.obolibrary.org/obo/ZP_0148739	blood vessel endothelial cell intersegmental vessel damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009036	blood vessel endothelial cell	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
 http://purl.obolibrary.org/obo/ZP_0021793	cell brain damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0007541	chromatin lens damaged, abnormal	http://purl.obolibrary.org/obo/GO_0000785	chromatin	http://purl.obolibrary.org/obo/ZFA_0000035	lens
 http://purl.obolibrary.org/obo/ZP_0149238	chromosome epidermal basal stratum damaged, abnormal	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/ZFA_0001180	epidermal basal stratum
 http://purl.obolibrary.org/obo/ZP_0014902	chromosome whole organism damaged, abnormal	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
 http://purl.obolibrary.org/obo/ZP_0019594	desmosome neuromast hair cell damaged, abnormal	http://purl.obolibrary.org/obo/GO_0030057	desmosome	http://purl.obolibrary.org/obo/ZFA_0009367	neuromast hair cell

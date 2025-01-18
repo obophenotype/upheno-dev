@@ -80,6 +80,7 @@ http://purl.obolibrary.org/obo/MP_0008346	increased gamma-delta T cell number	ht
 http://purl.obolibrary.org/obo/MP_0008350	increased gamma-delta intraepithelial T cell number	http://purl.obolibrary.org/obo/CL_0000801	gamma-delta intraepithelial T cell
 http://purl.obolibrary.org/obo/MP_0008177	increased germinal center B cell number	http://purl.obolibrary.org/obo/CL_0000844	germinal center B cell
 http://purl.obolibrary.org/obo/MP_0008334	increased gonadotroph cell number	http://purl.obolibrary.org/obo/CL_0000437	gonadtroph
+http://purl.obolibrary.org/obo/MP_0014591	increased gonadotropin-releasing hormone neuron number	http://purl.obolibrary.org/obo/CL_0011111	gonadotropin-releasing hormone neuron
 http://purl.obolibrary.org/obo/MP_0013696	increased granulocyte monocyte progenitor cell number	http://purl.obolibrary.org/obo/CL_0000557	granulocyte monocyte progenitor cell
 http://purl.obolibrary.org/obo/MP_0000322	increased granulocyte number	http://purl.obolibrary.org/obo/CL_0000094	granulocyte
 http://purl.obolibrary.org/obo/MP_0012110	increased hair follicle number	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
@@ -143,7 +144,7 @@ http://purl.obolibrary.org/obo/MP_0008394	increased primordial germ cell number	
 http://purl.obolibrary.org/obo/MP_0011120	increased primordial ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0003981	primordial ovarian follicle
 http://purl.obolibrary.org/obo/MP_0020389	increased radial glial cell number	http://purl.obolibrary.org/obo/CL_0000681	radial glial cell
 http://purl.obolibrary.org/obo/MP_0004973	increased regulatory T cell number	http://purl.obolibrary.org/obo/CL_0000815	regulatory T cell
-http://purl.obolibrary.org/obo/MP_0010861	increased respiratory mucosa goblet cell number	http://purl.obolibrary.org/obo/CL_0002370	respiratory goblet cell
+http://purl.obolibrary.org/obo/MP_0010861	increased respiratory mucosa goblet cell number	http://purl.obolibrary.org/obo/CL_0002370	respiratory tract goblet cell
 http://purl.obolibrary.org/obo/MP_0008445	increased retina cone cell number	http://purl.obolibrary.org/obo/CL_0000573	retinal cone cell
 http://purl.obolibrary.org/obo/MP_0002983	increased retina ganglion cell number	http://purl.obolibrary.org/obo/CL_0000740	retinal ganglion cell
 http://purl.obolibrary.org/obo/MP_0006070	increased retina photoreceptor cell number	http://purl.obolibrary.org/obo/CL_0000287	eye photoreceptor cell
@@ -152,12 +153,13 @@ http://purl.obolibrary.org/obo/MP_0000480	increased rib number	http://purl.oboli
 http://purl.obolibrary.org/obo/MP_0010101	increased sacral vertebrae number	http://purl.obolibrary.org/obo/UBERON_0001094	sacral vertebra
 http://purl.obolibrary.org/obo/MP_0000730	increased satellite cell number	http://purl.obolibrary.org/obo/CL_0000594	skeletal muscle satellite cell
 http://purl.obolibrary.org/obo/MP_0013191	increased sebaceous gland number	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
-http://purl.obolibrary.org/obo/MP_0013378	increased sebocyte number	http://purl.obolibrary.org/obo/CL_0002140	acinar cell of sebaceous gland
+http://purl.obolibrary.org/obo/MP_0013378	increased sebocyte number	http://purl.obolibrary.org/obo/CL_0002140	skin sebocyte
 http://purl.obolibrary.org/obo/MP_0031383	increased secondary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000036	secondary ovarian follicle
 http://purl.obolibrary.org/obo/MP_0006006	increased sensory neuron number	http://purl.obolibrary.org/obo/CL_0000101	sensory neuron
 http://purl.obolibrary.org/obo/MP_0010915	increased solitary pulmonary neuroendocrine cell number	http://purl.obolibrary.org/obo/CL_0002066	Feyrter cell
 http://purl.obolibrary.org/obo/MP_0008328	increased somatotroph cell number	http://purl.obolibrary.org/obo/CL_0000295	somatotropin secreting cell
 http://purl.obolibrary.org/obo/MP_0012181	increased somite number	http://purl.obolibrary.org/obo/UBERON_0002329	somite
+http://purl.obolibrary.org/obo/MP_0014596	increased sperm cytoplasmic droplet number	http://purl.obolibrary.org/obo/GO_0097598	sperm cytoplasmic droplet
 http://purl.obolibrary.org/obo/MP_0030603	increased sperm number	http://purl.obolibrary.org/obo/CL_0000019	sperm
 http://purl.obolibrary.org/obo/MP_0014262	increased spleen B cell follicle number	http://purl.obolibrary.org/obo/UBERON_0001249	spleen lymphoid follicle
 http://purl.obolibrary.org/obo/MP_0008481	increased spleen germinal center number	http://purl.obolibrary.org/obo/UBERON_0005196	spleen germinal center
@@ -176,7 +178,7 @@ http://purl.obolibrary.org/obo/MP_0009922	increased transitional stage T1 B cell
 http://purl.obolibrary.org/obo/MP_0009925	increased transitional stage T2 B cell number	http://purl.obolibrary.org/obo/CL_0000959	T2 B cell
 http://purl.obolibrary.org/obo/MP_0010229	increased transitional stage T3 B cell number	http://purl.obolibrary.org/obo/CL_0000960	T3 B cell
 http://purl.obolibrary.org/obo/MP_0009397	increased trophoblast giant cell number	http://purl.obolibrary.org/obo/CL_0002488	trophoblast giant cell
-http://purl.obolibrary.org/obo/MP_0010810	increased type II pneumocyte number	http://purl.obolibrary.org/obo/CL_0002063	type II pneumocyte
+http://purl.obolibrary.org/obo/MP_0010810	increased type II pneumocyte number	http://purl.obolibrary.org/obo/CL_0002063	pulmonary alveolar type 2 cell
 http://purl.obolibrary.org/obo/MP_0009394	increased uterine NK cell number	http://purl.obolibrary.org/obo/CL_0002343	decidual natural killer cell, human
 http://purl.obolibrary.org/obo/MP_0006056	increased vascular endothelial cell number	http://purl.obolibrary.org/obo/CL_0002139	endothelial cell of vascular tree
 http://purl.obolibrary.org/obo/MP_0004644	increased vertebrae number	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra

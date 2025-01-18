@@ -19,7 +19,6 @@ http://purl.obolibrary.org/obo/ZP_0007512	Schwann cell proliferation decreased p
 http://purl.obolibrary.org/obo/ZP_0104076	T cell migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072678	T cell migration
 http://purl.obolibrary.org/obo/ZP_0010571	Wnt signaling pathway decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
 http://purl.obolibrary.org/obo/ZP_0143361	Wnt signaling pathway involved in heart development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003306	Wnt signaling pathway involved in heart development
-http://purl.obolibrary.org/obo/ZP_0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process
 http://purl.obolibrary.org/obo/ZP_0005699	activation of innate immune response decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002218	activation of innate immune response
 http://purl.obolibrary.org/obo/ZP_0012377	adenohypophysis formation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048847	adenohypophysis formation
 http://purl.obolibrary.org/obo/ZP_0144348	adiponectin-activated signaling pathway decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0033211	adiponectin-activated signaling pathway
@@ -246,7 +245,7 @@ http://purl.obolibrary.org/obo/ZP_0006442	glial cell proliferation decreased pro
 http://purl.obolibrary.org/obo/ZP_0019644	gliogenesis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042063	gliogenesis
 http://purl.obolibrary.org/obo/ZP_0004133	glomerular filtration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
 http://purl.obolibrary.org/obo/ZP_0016144	glucose homeostasis decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
-http://purl.obolibrary.org/obo/ZP_0006748	glucose import decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
+http://purl.obolibrary.org/obo/ZP_0006748	glucose import decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
 http://purl.obolibrary.org/obo/ZP_0016145	glucose import in response to insulin stimulus decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0044381	glucose import in response to insulin stimulus
 http://purl.obolibrary.org/obo/ZP_0148283	glutamate receptor clustering decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0097688	glutamate receptor clustering
 http://purl.obolibrary.org/obo/ZP_0100648	glycolytic process decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
@@ -426,7 +425,6 @@ http://purl.obolibrary.org/obo/ZP_0016432	phototransduction, visible light decre
 http://purl.obolibrary.org/obo/ZP_0016550	pigment cell development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0070285	pigment cell development
 http://purl.obolibrary.org/obo/ZP_0009643	pigmentation decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0043473	pigmentation
 http://purl.obolibrary.org/obo/ZP_0146155	pineal gland development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0021982	pineal gland development
-http://purl.obolibrary.org/obo/ZP_0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_1904938	planar cell polarity pathway involved in axon guidance
 http://purl.obolibrary.org/obo/ZP_0012725	podocyte cell migration decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0090521	podocyte cell migration
 http://purl.obolibrary.org/obo/ZP_0017878	podocyte development decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0072015	podocyte development
 http://purl.obolibrary.org/obo/ZP_0139800	positive regulation of DNA-templated transcription decreased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0045893	positive regulation of DNA-templated transcription

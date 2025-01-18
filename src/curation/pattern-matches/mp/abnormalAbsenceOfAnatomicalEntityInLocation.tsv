@@ -136,6 +136,7 @@ http://purl.obolibrary.org/obo/MP_0004691	absent pubis	http://purl.obolibrary.or
 http://purl.obolibrary.org/obo/MP_0000553	absent radius	http://purl.obolibrary.org/obo/UBERON_0001423	radius bone	http://purl.obolibrary.org/obo/UBERON_0002102	forelimb
 http://purl.obolibrary.org/obo/MP_0004975	absent regulatory T cells	http://purl.obolibrary.org/obo/CL_0000815	regulatory T cell	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0011054	absent respiratory motile cilia	http://purl.obolibrary.org/obo/GO_0031514	motile cilium	http://purl.obolibrary.org/obo/CL_0002368	respiratory epithelial cell
+http://purl.obolibrary.org/obo/MP_0011054	absent respiratory motile cilia	http://purl.obolibrary.org/obo/GO_0031514	motile cilium	http://purl.obolibrary.org/obo/CL_0002368	respiratory tract epithelial cell
 http://purl.obolibrary.org/obo/MP_0006096	absent retina bipolar cells	http://purl.obolibrary.org/obo/CL_0000748	retinal bipolar neuron	http://purl.obolibrary.org/obo/UBERON_0000966	retina
 http://purl.obolibrary.org/obo/MP_0000614	absent salivary gland	http://purl.obolibrary.org/obo/UBERON_0001044	saliva-secreting gland	http://purl.obolibrary.org/obo/UBERON_0002330	exocrine system
 http://purl.obolibrary.org/obo/MP_0004341	absent scapula	http://purl.obolibrary.org/obo/UBERON_0006849	scapula	http://purl.obolibrary.org/obo/UBERON_0001467	shoulder

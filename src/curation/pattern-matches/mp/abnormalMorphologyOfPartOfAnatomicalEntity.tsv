@@ -707,7 +707,7 @@ http://purl.obolibrary.org/obo/MP_0005106	abnormal incus morphology	http://purl.
 http://purl.obolibrary.org/obo/MP_0009985	abnormal inferior cerebellar peduncle morphology	http://purl.obolibrary.org/obo/UBERON_0002163	inferior cerebellar peduncle
 http://purl.obolibrary.org/obo/MP_0030871	abnormal inferior horn of thyroid cartilage morphology	http://purl.obolibrary.org/obo/UBERON_0011625	inferior horn of thyroid cartilage
 http://purl.obolibrary.org/obo/MP_0030847	abnormal inferior pubic ramus morphology	http://purl.obolibrary.org/obo/UBERON_0014439	inferior pubic ramus
-http://purl.obolibrary.org/obo/MP_0006063	abnormal inferior vena cava morphology	http://purl.obolibrary.org/obo/UBERON_0001072	posterior vena cava
+http://purl.obolibrary.org/obo/MP_0006063	abnormal inferior vena cava morphology	http://purl.obolibrary.org/obo/UBERON_0001072	inferior vena cava
 http://purl.obolibrary.org/obo/MP_0010490	abnormal inferior vena cava valve morphology	http://purl.obolibrary.org/obo/UBERON_0005485	valve of inferior vena cava
 http://purl.obolibrary.org/obo/MP_0013966	abnormal infrahyoid muscle morphology	http://purl.obolibrary.org/obo/UBERON_0008523	infrahyoid muscle
 http://purl.obolibrary.org/obo/MP_0030296	abnormal infraorbital foramen morphology	http://purl.obolibrary.org/obo/UBERON_0018407	infra-orbital foramen of maxilla
@@ -749,6 +749,7 @@ http://purl.obolibrary.org/obo/MP_0008823	abnormal interventricular septum membr
 http://purl.obolibrary.org/obo/MP_0000281	abnormal interventricular septum morphology	http://purl.obolibrary.org/obo/UBERON_0002094	interventricular septum
 http://purl.obolibrary.org/obo/MP_0010498	abnormal interventricular septum muscular part morphology	http://purl.obolibrary.org/obo/UBERON_0004667	interventricular septum muscular part
 http://purl.obolibrary.org/obo/MP_0004173	abnormal intervertebral disk morphology	http://purl.obolibrary.org/obo/UBERON_0001066	intervertebral disk
+http://purl.obolibrary.org/obo/MP_0014505	abnormal intestinal crypt stem cell morphology	http://purl.obolibrary.org/obo/CL_0002250	intestinal crypt stem cell
 http://purl.obolibrary.org/obo/MP_0000488	abnormal intestinal epithelium morphology	http://purl.obolibrary.org/obo/UBERON_0001277	intestinal epithelium
 http://purl.obolibrary.org/obo/MP_0000511	abnormal intestinal mucosa morphology	http://purl.obolibrary.org/obo/UBERON_0001242	intestinal mucosa
 http://purl.obolibrary.org/obo/MP_0008802	abnormal intestinal smooth muscle morphology	http://purl.obolibrary.org/obo/UBERON_0004221	intestine smooth muscle

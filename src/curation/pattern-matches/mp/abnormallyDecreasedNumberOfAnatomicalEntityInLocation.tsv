@@ -14,6 +14,7 @@ http://purl.obolibrary.org/obo/MP_0013414	decreased myeloid cell number in bone 
 http://purl.obolibrary.org/obo/MP_0004529	decreased outer hair cell stereocilia number	http://purl.obolibrary.org/obo/GO_0032420	stereocilium	http://purl.obolibrary.org/obo/CL_0000601	cochlear outer hair cell
 http://purl.obolibrary.org/obo/MP_0014095	decreased pancreatic acinar cell zymogen granule number	http://purl.obolibrary.org/obo/GO_0042588	zymogen granule	http://purl.obolibrary.org/obo/CL_0002064	pancreatic acinar cell
 http://purl.obolibrary.org/obo/MP_0011053	decreased respiratory motile cilia number	http://purl.obolibrary.org/obo/GO_0031514	motile cilium	http://purl.obolibrary.org/obo/CL_0002368	respiratory epithelial cell
+http://purl.obolibrary.org/obo/MP_0011053	decreased respiratory motile cilia number	http://purl.obolibrary.org/obo/GO_0031514	motile cilium	http://purl.obolibrary.org/obo/CL_0002368	respiratory tract epithelial cell
 http://purl.obolibrary.org/obo/MP_0008436	decreased somatotroph secretory granule number	http://purl.obolibrary.org/obo/GO_0030141	secretory granule	http://purl.obolibrary.org/obo/CL_0000295	somatotropin secreting cell
 http://purl.obolibrary.org/obo/MP_0005113	decreased spinal cord ventral horn cell number	http://purl.obolibrary.org/obo/CL_0000100	motor neuron	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
 http://purl.obolibrary.org/obo/MP_0009339	decreased splenocyte number	http://purl.obolibrary.org/obo/CL_0000000	cell	http://purl.obolibrary.org/obo/UBERON_0002106	spleen

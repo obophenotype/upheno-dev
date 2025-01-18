@@ -11,7 +11,6 @@ http://purl.obolibrary.org/obo/ZP_0014880	T cell apoptotic process increased occ
 http://purl.obolibrary.org/obo/ZP_0009235	TOR signaling increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0031929	TOR signaling
 http://purl.obolibrary.org/obo/ZP_0014390	Wnt signaling pathway increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
 http://purl.obolibrary.org/obo/ZP_0005043	actin filament polymerization increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0030041	actin filament polymerization
-http://purl.obolibrary.org/obo/ZP_0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process
 http://purl.obolibrary.org/obo/ZP_0021471	acute inflammatory response increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0002526	acute inflammatory response
 http://purl.obolibrary.org/obo/ZP_0141783	adult feeding behavior increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0008343	adult feeding behavior
 http://purl.obolibrary.org/obo/ZP_0140795	aerobic respiration increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0009060	aerobic respiration
@@ -53,7 +52,6 @@ http://purl.obolibrary.org/obo/ZP_0005551	cell proliferation involved in kidney 
 http://purl.obolibrary.org/obo/ZP_0006913	cell proliferation involved in pronephros development increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0039015	cell proliferation involved in pronephros development
 http://purl.obolibrary.org/obo/ZP_0017598	cell surface receptor signaling pathway via JAK-STAT increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0007259	cell surface receptor signaling pathway via JAK-STAT
 http://purl.obolibrary.org/obo/ZP_0101447	cell-cell adhesion increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
-http://purl.obolibrary.org/obo/ZP_0149079	cellular lipid catabolic process increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0044242	cellular lipid catabolic process
 http://purl.obolibrary.org/obo/ZP_0007100	cellular response to growth factor stimulus increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0071363	cellular response to growth factor stimulus
 http://purl.obolibrary.org/obo/ZP_0012614	cellular response to oxidative stress increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0034599	cellular response to oxidative stress
 http://purl.obolibrary.org/obo/ZP_0015869	cellular response to unfolded protein increased occurrence, abnormal	http://purl.obolibrary.org/obo/GO_0034620	cellular response to unfolded protein

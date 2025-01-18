@@ -1,13 +1,16 @@
 defined_class	defined_class_label	chemical_entity	chemical_entity_label
+http://purl.obolibrary.org/obo/MP_0031224	abnormal CXCL10 level	http://purl.obolibrary.org/obo/PR_000006064	C-X-C motif chemokine 10
 http://purl.obolibrary.org/obo/MP_0030675	abnormal acetylcholine level	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
 http://purl.obolibrary.org/obo/MP_0012233	abnormal acidic glycosphingolipid level	http://purl.obolibrary.org/obo/CHEBI_36526	acidic glycosphingolipid
 http://purl.obolibrary.org/obo/MP_0004891	abnormal adiponectin level	http://purl.obolibrary.org/obo/PR_000003777	adiponectin
 http://purl.obolibrary.org/obo/MP_0003962	abnormal adrenaline level	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline
 http://purl.obolibrary.org/obo/MP_0003966	abnormal adrenocorticotropin level	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
+http://purl.obolibrary.org/obo/MP_0031638	abnormal alanine level	http://purl.obolibrary.org/obo/CHEBI_16449	alanine
 http://purl.obolibrary.org/obo/MP_0011415	abnormal aldosterone level	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone
 http://purl.obolibrary.org/obo/MP_0012600	abnormal alpha-fetoprotein level	http://purl.obolibrary.org/obo/PR_000003809	alpha-fetoprotein
 http://purl.obolibrary.org/obo/MP_0021132	abnormal amino acid betaine level	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
 http://purl.obolibrary.org/obo/MP_0021145	abnormal amino acid derivative level	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
+http://purl.obolibrary.org/obo/MP_0021145	abnormal amino acid derivative level	http://purl.obolibrary.org/obo/CHEBI_83821	amino-acid derivative
 http://purl.obolibrary.org/obo/MP_0005332	abnormal amino acid level	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
 http://purl.obolibrary.org/obo/MP_0030763	abnormal anandamide level	http://purl.obolibrary.org/obo/CHEBI_2700	anandamide
 http://purl.obolibrary.org/obo/MP_0031227	abnormal angiotensin II level	http://purl.obolibrary.org/obo/PR_000036009	angiotensin II

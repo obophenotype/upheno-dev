@@ -1,5 +1,5 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/XPO_0133043	abnormal development of B cell	http://purl.obolibrary.org/obo/XAO_0003158	B cell
+http://purl.obolibrary.org/obo/XPO_0133043	abnormal development of B cell	http://purl.obolibrary.org/obo/XAO_0003158	B-cell
 http://purl.obolibrary.org/obo/XPO_0132791	abnormal development of Bowman's gland	http://purl.obolibrary.org/obo/XAO_0005075	Bowman's gland
 http://purl.obolibrary.org/obo/XPO_0133098	abnormal development of Brachet's cleft	http://purl.obolibrary.org/obo/XAO_0004456	Brachet's cleft
 http://purl.obolibrary.org/obo/XPO_0133316	abnormal development of Eberth-Kastschenko layer	http://purl.obolibrary.org/obo/XAO_0005036	Eberth-Kastschenko layer
@@ -10,14 +10,14 @@ http://purl.obolibrary.org/obo/XPO_0132892	abnormal development of M band	http:/
 http://purl.obolibrary.org/obo/XPO_0132239	abnormal development of Mauthner cell	http://purl.obolibrary.org/obo/XAO_0005035	Mauthner cell
 http://purl.obolibrary.org/obo/XPO_0133039	abnormal development of Meckel's cartilage	http://purl.obolibrary.org/obo/XAO_0003085	Meckel's cartilage
 http://purl.obolibrary.org/obo/XPO_0132614	abnormal development of Merkel cell	http://purl.obolibrary.org/obo/XAO_0003254	Merkel cell
-http://purl.obolibrary.org/obo/XPO_0132698	abnormal development of Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Muller cell
+http://purl.obolibrary.org/obo/XPO_0132698	abnormal development of Muller cell	http://purl.obolibrary.org/obo/XAO_0005007	Mueller cell
 http://purl.obolibrary.org/obo/XPO_0132723	abnormal development of Mullerian duct	http://purl.obolibrary.org/obo/XAO_0000330	Mullerian duct
 http://purl.obolibrary.org/obo/XPO_0133229	abnormal development of Rathke's pouch	http://purl.obolibrary.org/obo/XAO_0000430	Rathke's pouch
 http://purl.obolibrary.org/obo/XPO_0133128	abnormal development of Rohon-Beard neuron	http://purl.obolibrary.org/obo/XAO_0003022	Rohon-Beard neuron
 http://purl.obolibrary.org/obo/XPO_0133042	abnormal development of Roux spot	http://purl.obolibrary.org/obo/XAO_0005290	Roux spot
 http://purl.obolibrary.org/obo/XPO_0132941	abnormal development of Schwann cell	http://purl.obolibrary.org/obo/XAO_0005044	Schwann cell
 http://purl.obolibrary.org/obo/XPO_0132409	abnormal development of Stirnorgan	http://purl.obolibrary.org/obo/XAO_0001012	Stirnorgan
-http://purl.obolibrary.org/obo/XPO_0132408	abnormal development of T cell	http://purl.obolibrary.org/obo/XAO_0003157	T cell
+http://purl.obolibrary.org/obo/XPO_0132408	abnormal development of T cell	http://purl.obolibrary.org/obo/XAO_0003157	T-cell
 http://purl.obolibrary.org/obo/XPO_0132827	abnormal development of abdominal myoblast	http://purl.obolibrary.org/obo/XAO_0001016	abdominal myoblast
 http://purl.obolibrary.org/obo/XPO_0142012	abnormal development of abdominal wall	http://purl.obolibrary.org/obo/XAO_0005504	abdominal wall
 http://purl.obolibrary.org/obo/XPO_0133070	abnormal development of abducens nerve	http://purl.obolibrary.org/obo/XAO_0003093	abducens nerve
@@ -464,7 +464,7 @@ http://purl.obolibrary.org/obo/XPO_0132321	abnormal development of epiphysis	htt
 http://purl.obolibrary.org/obo/XPO_0131961	abnormal development of epithelial cell	http://purl.obolibrary.org/obo/XAO_0003249	epithelial cell
 http://purl.obolibrary.org/obo/XPO_0132017	abnormal development of epithelium	http://purl.obolibrary.org/obo/XAO_0003045	epithelium
 http://purl.obolibrary.org/obo/XPO_0132222	abnormal development of epsilon cell	http://purl.obolibrary.org/obo/XAO_0005167	epsilon cell
-http://purl.obolibrary.org/obo/XPO_0133286	abnormal development of erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid cell
+http://purl.obolibrary.org/obo/XPO_0133286	abnormal development of erythroid cell	http://purl.obolibrary.org/obo/XAO_0004150	erythroid lineage cell
 http://purl.obolibrary.org/obo/XPO_0133290	abnormal development of esophageal epithelium	http://purl.obolibrary.org/obo/XAO_0005299	esophageal epithelium
 http://purl.obolibrary.org/obo/XPO_0132213	abnormal development of esophagus	http://purl.obolibrary.org/obo/XAO_0000127	esophagus
 http://purl.obolibrary.org/obo/XPO_0132565	abnormal development of ethmoid bone	http://purl.obolibrary.org/obo/XAO_0005191	ethmoid bone

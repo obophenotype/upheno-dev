@@ -1,4 +1,5 @@
 defined_class	defined_class_label	chemical_entity	chemical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/MP_0031641	alaninuria	http://purl.obolibrary.org/obo/CHEBI_16449	alanine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0003311	aminoaciduria	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0020401	argininuria	http://purl.obolibrary.org/obo/CHEBI_29016	arginine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0030689	cystathioninuria	http://purl.obolibrary.org/obo/CHEBI_17755	cystathionine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
@@ -19,15 +20,19 @@ http://purl.obolibrary.org/obo/MP_0020406	hyperthreoninuria	http://purl.obolibra
 http://purl.obolibrary.org/obo/MP_0003906	increased aorta elastin content	http://purl.obolibrary.org/obo/PR_000007034	elastin	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
 http://purl.obolibrary.org/obo/MP_0005565	increased blood urea nitrogen level	http://purl.obolibrary.org/obo/CHEBI_16199	urea	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0008821	increased blood uric acid level	http://purl.obolibrary.org/obo/CHEBI_27226	uric acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0031654	increased brain calcium level	http://purl.obolibrary.org/obo/CHEBI_22984	calcium atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0010162	increased brain cholesterol level	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0011214	increased brain copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0020365	increased brain iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/MP_0031657	increased brain magnesium level	http://purl.obolibrary.org/obo/CHEBI_25107	magnesium atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0012228	increased brain sterol level	http://purl.obolibrary.org/obo/CHEBI_15889	sterol	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0020008	increased brain sulfoglycosphingolipid level	http://purl.obolibrary.org/obo/CHEBI_36477	sulfoglycosphingolipid	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0009618	increased brain zinc level	http://purl.obolibrary.org/obo/CHEBI_27363	zinc atom	http://purl.obolibrary.org/obo/UBERON_0000955	brain
 http://purl.obolibrary.org/obo/MP_0011217	increased brainstem copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0002298	brainstem
 http://purl.obolibrary.org/obo/MP_0014071	increased cardiac muscle glycogen level	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen	http://purl.obolibrary.org/obo/UBERON_0001133	cardiac muscle tissue
 http://purl.obolibrary.org/obo/MP_0014245	increased cellular ATP level	http://purl.obolibrary.org/obo/CHEBI_15422	ATP	http://purl.obolibrary.org/obo/CL_0000000	cell
+http://purl.obolibrary.org/obo/MP_0031649	increased cerebrospinal fluid glucose level	http://purl.obolibrary.org/obo/CHEBI_17234	glucose	http://purl.obolibrary.org/obo/UBERON_0001359	cerebrospinal fluid
+http://purl.obolibrary.org/obo/MP_0031220	increased circulating CXCL10 level	http://purl.obolibrary.org/obo/PR_000006064	C-X-C motif chemokine 10	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0001556	increased circulating HDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47775	high-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0000182	increased circulating LDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47774	low-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005145	increased circulating VLDL cholesterol level	http://purl.obolibrary.org/obo/CHEBI_47773	very-low-density lipoprotein cholesterol	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -37,6 +42,7 @@ http://purl.obolibrary.org/obo/MP_0001748	increased circulating adrenocorticotro
 http://purl.obolibrary.org/obo/MP_0030673	increased circulating alanine level	http://purl.obolibrary.org/obo/CHEBI_16449	alanine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0002666	increased circulating aldosterone level	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0002968	increased circulating alkaline phosphatase level	http://purl.obolibrary.org/obo/PR_000003968	alkaline phosphatase, tissue-nonspecific isozyme	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0014530	increased circulating amino acid level	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005309	increased circulating ammonia level	http://purl.obolibrary.org/obo/CHEBI_16134	ammonia	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0006375	increased circulating angiotensinogen level	http://purl.obolibrary.org/obo/PR_000036009	angiotensin II	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005610	increased circulating antidiuretic hormone level	http://purl.obolibrary.org/obo/CHEBI_9937	vasopressin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -63,6 +69,7 @@ http://purl.obolibrary.org/obo/MP_0005182	increased circulating estradiol level	
 http://purl.obolibrary.org/obo/MP_0001750	increased circulating follicle stimulating hormone level	http://purl.obolibrary.org/obo/CHEBI_81569	Follicle stimulating hormone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0001554	increased circulating free fatty acids level	http://purl.obolibrary.org/obo/CHEBI_35366	fatty acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0010087	increased circulating fructosamine level	http://purl.obolibrary.org/obo/CHEBI_24103	fructosamine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0014582	increased circulating gastric inhibitory polypeptide level	http://purl.obolibrary.org/obo/PR_000007986	gastric inhibitory polypeptide	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0004731	increased circulating gastrin level	http://purl.obolibrary.org/obo/PR_000007856	gastrin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0011612	increased circulating ghrelin level	http://purl.obolibrary.org/obo/CHEBI_75431	ghrelin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0002712	increased circulating glucagon level	http://purl.obolibrary.org/obo/PR_000007891	pro-glucagon	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -81,6 +88,7 @@ http://purl.obolibrary.org/obo/MP_0014427	increased circulating hyaluronic acid 
 http://purl.obolibrary.org/obo/MP_0030681	increased circulating hydroxyproline level	http://purl.obolibrary.org/obo/CHEBI_24741	hydroxyproline	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0002079	increased circulating insulin level	http://purl.obolibrary.org/obo/PR_000009054	insulin gene translation product	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0004702	increased circulating insulin-like growth factor I level	http://purl.obolibrary.org/obo/PR_000009182	insulin-like growth factor I	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0008573	increased circulating interferon-alpha level	http://purl.obolibrary.org/obo/PR_000024938	interferon alpha	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0008575	increased circulating interferon-beta level	http://purl.obolibrary.org/obo/PR_000008924	interferon beta 1	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0008577	increased circulating interferon-gamma level	http://purl.obolibrary.org/obo/PR_000000017	interferon gamma	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0008638	increased circulating interleukin-1 alpha level	http://purl.obolibrary.org/obo/PR_000001135	interleukin-1 alpha	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -113,10 +121,13 @@ http://purl.obolibrary.org/obo/MP_0030718	increased circulating lysine level	htt
 http://purl.obolibrary.org/obo/MP_0010092	increased circulating magnesium level	http://purl.obolibrary.org/obo/CHEBI_25107	magnesium atom	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030644	increased circulating methionine level	http://purl.obolibrary.org/obo/CHEBI_16811	methionine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030630	increased circulating methylmalonic acid level	http://purl.obolibrary.org/obo/CHEBI_30860	methylmalonic acid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0014547	increased circulating mineral level	http://purl.obolibrary.org/obo/CHEBI_46662	mineral	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0003373	increased circulating mineralocorticoid level	http://purl.obolibrary.org/obo/CHEBI_25354	mineralocorticoid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005665	increased circulating noradrenaline level	http://purl.obolibrary.org/obo/CHEBI_33569	noradrenaline	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030650	increased circulating ornithine level	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0014567	increased circulating pancreatic peptide level	http://purl.obolibrary.org/obo/PR_000013164	pancreatic prohormone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0002904	increased circulating parathyroid hormone level	http://purl.obolibrary.org/obo/PR_000013429	parathyroid hormone	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0014570	increased circulating peptide YY level	http://purl.obolibrary.org/obo/PR_000013526	peptide YY	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030670	increased circulating phenylalanine level	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0001566	increased circulating phosphate level	http://purl.obolibrary.org/obo/CHEBI_26020	phosphate	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0003980	increased circulating phospholipid level	http://purl.obolibrary.org/obo/CHEBI_16247	phospholipid	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -125,6 +136,8 @@ http://purl.obolibrary.org/obo/MP_0005186	increased circulating progesterone lev
 http://purl.obolibrary.org/obo/MP_0005124	increased circulating prolactin level	http://purl.obolibrary.org/obo/PR_000013246	prolactin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030667	increased circulating proline level	http://purl.obolibrary.org/obo/CHEBI_26271	proline	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0003352	increased circulating renin level	http://purl.obolibrary.org/obo/PR_000013883	renin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0014573	increased circulating resistin level	http://purl.obolibrary.org/obo/PR_000013896	resistin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0014565	increased circulating secretin level	http://purl.obolibrary.org/obo/PR_000014543	secretin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030694	increased circulating serine level	http://purl.obolibrary.org/obo/CHEBI_17822	serine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0005633	increased circulating sodium level	http://purl.obolibrary.org/obo/CHEBI_26708	sodium atom	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030638	increased circulating taurine level	http://purl.obolibrary.org/obo/CHEBI_15891	taurine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
@@ -138,6 +151,7 @@ http://purl.obolibrary.org/obo/MP_0005480	increased circulating triiodothyronine
 http://purl.obolibrary.org/obo/MP_0008553	increased circulating tumor necrosis factor level	http://purl.obolibrary.org/obo/PR_000000134	tumor necrosis factor	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0013723	increased circulating tyrosine level	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/MP_0030727	increased circulating valine level	http://purl.obolibrary.org/obo/CHEBI_27266	valine	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MP_0012368	increased erythrocyte magnesium level	http://purl.obolibrary.org/obo/CHEBI_25107	magnesium atom	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0012371	increased erythrocyte potassium level	http://purl.obolibrary.org/obo/CHEBI_26216	potassium atom	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0011188	increased erythrocyte protoporphyrin level	http://purl.obolibrary.org/obo/CHEBI_8337	porphyrin	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
 http://purl.obolibrary.org/obo/MP_0014478	increased feces bile salt level	http://purl.obolibrary.org/obo/CHEBI_22868	bile salt	http://purl.obolibrary.org/obo/UBERON_0001988	feces
@@ -145,8 +159,8 @@ http://purl.obolibrary.org/obo/MP_0014480	increased feces cholesterol level	http
 http://purl.obolibrary.org/obo/MP_0014483	increased feces water content	http://purl.obolibrary.org/obo/CHEBI_15377	water	http://purl.obolibrary.org/obo/UBERON_0001988	feces
 http://purl.obolibrary.org/obo/MP_0020367	increased heart iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0005564	increased hemoglobin content	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin	http://purl.obolibrary.org/obo/UBERON_0000178	blood
-http://purl.obolibrary.org/obo/MP_0020369	increased intestinal iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
 http://purl.obolibrary.org/obo/MP_0010247	increased intestine copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
+http://purl.obolibrary.org/obo/MP_0020369	increased intestine iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
 http://purl.obolibrary.org/obo/MP_0010243	increased kidney copper level	http://purl.obolibrary.org/obo/CHEBI_28694	copper atom	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
 http://purl.obolibrary.org/obo/MP_0012607	increased kidney glutathione level	http://purl.obolibrary.org/obo/CHEBI_16856	glutathione	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
 http://purl.obolibrary.org/obo/MP_0010375	increased kidney iron level	http://purl.obolibrary.org/obo/CHEBI_18248	iron atom	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
@@ -197,14 +211,16 @@ http://purl.obolibrary.org/obo/MP_0011770	increased urine selenium level	http://
 http://purl.obolibrary.org/obo/MP_0006316	increased urine sodium level	http://purl.obolibrary.org/obo/CHEBI_26708	sodium atom	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0009472	increased urine sulfate level	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0009810	increased urine uric acid level	http://purl.obolibrary.org/obo/CHEBI_27226	uric acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
-http://purl.obolibrary.org/obo/MP_0012552	lactic acidosis	http://purl.obolibrary.org/obo/CHEBI_28358	rac-lactic acid	http://purl.obolibrary.org/obo/UBERON_0006314	bodily fluid
+http://purl.obolibrary.org/obo/MP_0012552	lactic acidosis	http://purl.obolibrary.org/obo/CHEBI_28358	rac-lactic acid	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/MP_0020403	lysinuria	http://purl.obolibrary.org/obo/CHEBI_25094	lysine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0005059	lysosomal protein accumulation	http://purl.obolibrary.org/obo/CHEBI_16541	protein polypeptide chain	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/MP_0031637	methioninuria	http://purl.obolibrary.org/obo/CHEBI_16811	methionine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0030614	methylmalonic aciduria	http://purl.obolibrary.org/obo/CHEBI_30860	methylmalonic acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0006034	myoglobinuria	http://purl.obolibrary.org/obo/CHEBI_7044	myoglobin	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0030612	organic aciduria	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0020402	ornithinuria	http://purl.obolibrary.org/obo/CHEBI_18257	ornithine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0011765	oroticaciduria	http://purl.obolibrary.org/obo/CHEBI_16742	orotic acid	http://purl.obolibrary.org/obo/UBERON_0001088	urine
+http://purl.obolibrary.org/obo/MP_0031642	phenylalaninuria	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0020404	prolinuria	http://purl.obolibrary.org/obo/CHEBI_26271	proline	http://purl.obolibrary.org/obo/UBERON_0001088	urine
 http://purl.obolibrary.org/obo/MP_0002791	steatorrhea	http://purl.obolibrary.org/obo/CHEBI_18059	lipid	http://purl.obolibrary.org/obo/UBERON_0001988	feces
 http://purl.obolibrary.org/obo/MP_0020405	taurinuria	http://purl.obolibrary.org/obo/CHEBI_15891	taurine	http://purl.obolibrary.org/obo/UBERON_0001088	urine

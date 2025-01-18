@@ -18,7 +18,7 @@ http://purl.obolibrary.org/obo/MP_0013845	abnormal eye muscle topology	http://pu
 http://purl.obolibrary.org/obo/MP_0013927	abnormal facial nerve topology	http://purl.obolibrary.org/obo/UBERON_0001647	facial nerve
 http://purl.obolibrary.org/obo/MP_0006065	abnormal heart position or orientation	http://purl.obolibrary.org/obo/UBERON_0000948	heart
 http://purl.obolibrary.org/obo/MP_0013836	abnormal hypoglossal nerve topology	http://purl.obolibrary.org/obo/UBERON_0001650	hypoglossal nerve
-http://purl.obolibrary.org/obo/MP_0020485	abnormal inferior vena cava topology	http://purl.obolibrary.org/obo/UBERON_0001072	posterior vena cava
+http://purl.obolibrary.org/obo/MP_0020485	abnormal inferior vena cava topology	http://purl.obolibrary.org/obo/UBERON_0001072	inferior vena cava
 http://purl.obolibrary.org/obo/MP_0013997	abnormal internal carotid artery topology	http://purl.obolibrary.org/obo/UBERON_0001532	internal carotid artery
 http://purl.obolibrary.org/obo/MP_0014023	abnormal intestine placement	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
 http://purl.obolibrary.org/obo/MP_0020486	abnormal lens topology	http://purl.obolibrary.org/obo/UBERON_0000965	lens of camera-type eye
@@ -28,6 +28,7 @@ http://purl.obolibrary.org/obo/MP_0020491	abnormal ovary topology	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0013861	abnormal pancreas topology	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
 http://purl.obolibrary.org/obo/MP_0006241	abnormal placement of pupils	http://purl.obolibrary.org/obo/UBERON_0001771	pupil
 http://purl.obolibrary.org/obo/MP_0000901	abnormal position of colliculi	http://purl.obolibrary.org/obo/UBERON_0002259	corpora quadrigemina
+http://purl.obolibrary.org/obo/MP_0014598	abnormal sperm cytoplasmic droplet placement	http://purl.obolibrary.org/obo/GO_0097598	sperm cytoplasmic droplet
 http://purl.obolibrary.org/obo/MP_0013871	abnormal stapedial artery topology	http://purl.obolibrary.org/obo/UBERON_0006345	stapedial artery
 http://purl.obolibrary.org/obo/MP_0010807	abnormal stomach position or orientation	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
 http://purl.obolibrary.org/obo/MP_0020492	abnormal superior mesenteric vein topology	http://purl.obolibrary.org/obo/UBERON_0001138	superior mesenteric vein

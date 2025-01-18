@@ -27,7 +27,7 @@ http://purl.obolibrary.org/obo/ZP_0131013	feeding behavior increased rate, abnor
 http://purl.obolibrary.org/obo/ZP_0103668	fertilization increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0009566	fertilization
 http://purl.obolibrary.org/obo/ZP_0014196	fin regeneration increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0031101	fin regeneration
 http://purl.obolibrary.org/obo/ZP_0004837	generation of neurons increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0048699	generation of neurons
-http://purl.obolibrary.org/obo/ZP_0140322	glucose import increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
+http://purl.obolibrary.org/obo/ZP_0140322	glucose import increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
 http://purl.obolibrary.org/obo/ZP_0149046	glucose metabolic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
 http://purl.obolibrary.org/obo/ZP_0006968	glycolytic process increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
 http://purl.obolibrary.org/obo/ZP_0131161	growth increased rate, abnormal	http://purl.obolibrary.org/obo/GO_0040007	growth

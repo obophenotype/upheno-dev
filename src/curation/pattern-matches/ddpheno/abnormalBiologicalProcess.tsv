@@ -45,6 +45,7 @@ http://purl.obolibrary.org/obo/DDPHENO_0001067	aberrant cellular hyperosmotic re
 http://purl.obolibrary.org/obo/DDPHENO_0001068	aberrant cellular hypotonic response	http://purl.obolibrary.org/obo/GO_0071476	cellular hypotonic response
 http://purl.obolibrary.org/obo/DDPHENO_0001217	aberrant cellular localization	http://purl.obolibrary.org/obo/GO_0051641	cellular localization
 http://purl.obolibrary.org/obo/DDPHENO_0001005	aberrant cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
+http://purl.obolibrary.org/obo/DDPHENO_0001005	aberrant cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	obsolete cellular metabolic process
 http://purl.obolibrary.org/obo/DDPHENO_0001008	aberrant cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
 http://purl.obolibrary.org/obo/DDPHENO_0001504	aberrant cellular response to cation stress	http://purl.obolibrary.org/obo/GO_0043157	response to cation stress
 http://purl.obolibrary.org/obo/DDPHENO_0001521	aberrant cellular response to fluid shear stress	http://purl.obolibrary.org/obo/GO_0071498	cellular response to fluid shear stress

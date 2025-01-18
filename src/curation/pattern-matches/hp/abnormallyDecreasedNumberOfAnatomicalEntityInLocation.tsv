@@ -1,5 +1,4 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
-http://purl.obolibrary.org/obo/HP_0008887	Adipose tissue loss	http://purl.obolibrary.org/obo/UBERON_0001013	adipose tissue	http://purl.obolibrary.org/obo/UBERON_0000468	multicellular organism
 http://purl.obolibrary.org/obo/HP_0031891	Decreased eosinophil count	http://purl.obolibrary.org/obo/CL_0000771	eosinophil	http://purl.obolibrary.org/obo/UBERON_0000178	blood
 http://purl.obolibrary.org/obo/HP_0003380	Decreased number of peripheral myelinated nerve fibers	http://purl.obolibrary.org/obo/UBERON_0006135	myelinated nerve fiber	http://purl.obolibrary.org/obo/UBERON_0001021	nerve
 http://purl.obolibrary.org/obo/HP_0006611	Decreased number of sternal ossification centers	http://purl.obolibrary.org/obo/UBERON_0010355	ossification center	http://purl.obolibrary.org/obo/UBERON_0000975	sternum

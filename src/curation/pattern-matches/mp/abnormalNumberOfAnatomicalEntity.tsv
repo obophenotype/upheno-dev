@@ -55,6 +55,7 @@ http://purl.obolibrary.org/obo/MP_0031610	abnormal fetal cardiomyocyte number	ht
 http://purl.obolibrary.org/obo/MP_0011241	abnormal fetal derived definitive erythrocyte cell number	http://purl.obolibrary.org/obo/CL_0002357	fetal derived definitive erythrocyte
 http://purl.obolibrary.org/obo/MP_0008345	abnormal gamma-delta T cell number	http://purl.obolibrary.org/obo/CL_0000798	gamma-delta T cell
 http://purl.obolibrary.org/obo/MP_0013680	abnormal germinal center B cell number	http://purl.obolibrary.org/obo/CL_0000844	germinal center B cell
+http://purl.obolibrary.org/obo/MP_0014590	abnormal gonadotropin-releasing hormone neuron number	http://purl.obolibrary.org/obo/CL_0011111	gonadotropin-releasing hormone neuron
 http://purl.obolibrary.org/obo/MP_0013695	abnormal granulocyte monocyte progenitor cell number	http://purl.obolibrary.org/obo/CL_0000557	granulocyte monocyte progenitor cell
 http://purl.obolibrary.org/obo/MP_0020201	abnormal granulocyte number	http://purl.obolibrary.org/obo/CL_0000094	granulocyte
 http://purl.obolibrary.org/obo/MP_0012716	abnormal hemangioblast number	http://purl.obolibrary.org/obo/CL_0002418	hemangioblast
@@ -107,8 +108,9 @@ http://purl.obolibrary.org/obo/MP_0020387	abnormal radial glial cell number	http
 http://purl.obolibrary.org/obo/MP_0004972	abnormal regulatory T cell number	http://purl.obolibrary.org/obo/CL_0000815	regulatory T cell
 http://purl.obolibrary.org/obo/MP_0011913	abnormal reticulocyte cell number	http://purl.obolibrary.org/obo/CL_0000558	reticulocyte
 http://purl.obolibrary.org/obo/MP_0013190	abnormal sebaceous gland number	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
-http://purl.obolibrary.org/obo/MP_0013377	abnormal sebocyte number	http://purl.obolibrary.org/obo/CL_0002140	acinar cell of sebaceous gland
+http://purl.obolibrary.org/obo/MP_0013377	abnormal sebocyte number	http://purl.obolibrary.org/obo/CL_0002140	skin sebocyte
 http://purl.obolibrary.org/obo/MP_0031380	abnormal secondary ovarian follicle number	http://purl.obolibrary.org/obo/UBERON_0000036	secondary ovarian follicle
+http://purl.obolibrary.org/obo/MP_0014595	abnormal sperm cytoplasmic droplet number	http://purl.obolibrary.org/obo/GO_0097598	sperm cytoplasmic droplet
 http://purl.obolibrary.org/obo/MP_0002673	abnormal sperm number	http://purl.obolibrary.org/obo/CL_0000019	sperm
 http://purl.obolibrary.org/obo/MP_0014261	abnormal spleen B cell follicle number	http://purl.obolibrary.org/obo/UBERON_0001249	spleen lymphoid follicle
 http://purl.obolibrary.org/obo/MP_0012282	abnormal sternebra number	http://purl.obolibrary.org/obo/UBERON_0002208	sternebra

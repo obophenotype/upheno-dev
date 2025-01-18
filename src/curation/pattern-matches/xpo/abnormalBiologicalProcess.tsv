@@ -1,6 +1,5 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/XPO_0141877	abnormal 2-deoxyribose 1-phosphate metabolic process	http://purl.obolibrary.org/obo/GO_0046384	2-deoxyribose 1-phosphate metabolic process
-http://purl.obolibrary.org/obo/XPO_0141864	abnormal 5-methylcytosine metabolic process	http://purl.obolibrary.org/obo/GO_0019857	5-methylcytosine metabolic process
 http://purl.obolibrary.org/obo/XPO_0141793	abnormal ATP metabolic process	http://purl.obolibrary.org/obo/GO_0046034	ATP metabolic process
 http://purl.obolibrary.org/obo/XPO_0131700	abnormal BMP signaling pathway	http://purl.obolibrary.org/obo/GO_0030509	BMP signaling pathway
 http://purl.obolibrary.org/obo/XPO_0141902	abnormal D-methionine transport	http://purl.obolibrary.org/obo/GO_0048473	D-methionine transmembrane transport
@@ -23,7 +22,7 @@ http://purl.obolibrary.org/obo/XPO_0141736	abnormal anatomical structure homeost
 http://purl.obolibrary.org/obo/XPO_0103447	abnormal anterior/posterior axis specification	http://purl.obolibrary.org/obo/GO_0009948	anterior/posterior axis specification
 http://purl.obolibrary.org/obo/XPO_0131744	abnormal apical constriction	http://purl.obolibrary.org/obo/GO_0003383	apical constriction
 http://purl.obolibrary.org/obo/XPO_0131698	abnormal apical constriction involved in gastrulation	http://purl.obolibrary.org/obo/GO_0003384	apical constriction involved in gastrulation
-http://purl.obolibrary.org/obo/XPO_0141867	abnormal arachidonic acid metabolic process	http://purl.obolibrary.org/obo/GO_0019369	arachidonic acid metabolic process
+http://purl.obolibrary.org/obo/XPO_0141867	abnormal arachidonic acid metabolic process	http://purl.obolibrary.org/obo/GO_0019369	arachidonate metabolic process
 http://purl.obolibrary.org/obo/XPO_0141847	abnormal arginine metabolic process	http://purl.obolibrary.org/obo/GO_0006525	arginine metabolic process
 http://purl.obolibrary.org/obo/XPO_0141868	abnormal asparagine metabolic process	http://purl.obolibrary.org/obo/GO_0006528	asparagine metabolic process
 http://purl.obolibrary.org/obo/XPO_0131745	abnormal axis elongation	http://purl.obolibrary.org/obo/GO_0003401	axis elongation
@@ -48,6 +47,7 @@ http://purl.obolibrary.org/obo/XPO_0141740	abnormal cell volume homeostasis	http
 http://purl.obolibrary.org/obo/XPO_0141741	abnormal cellular chemical homeostasis	http://purl.obolibrary.org/obo/GO_0055082	intracellular chemical homeostasis
 http://purl.obolibrary.org/obo/XPO_0141742	abnormal cellular homeostasis	http://purl.obolibrary.org/obo/GO_0019725	cellular homeostasis
 http://purl.obolibrary.org/obo/XPO_0141790	abnormal cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
+http://purl.obolibrary.org/obo/XPO_0141790	abnormal cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	obsolete cellular metabolic process
 http://purl.obolibrary.org/obo/XPO_0141744	abnormal chemical homeostasis	http://purl.obolibrary.org/obo/GO_0048878	chemical homeostasis
 http://purl.obolibrary.org/obo/XPO_0131705	abnormal chemotaxis	http://purl.obolibrary.org/obo/GO_0006935	chemotaxis
 http://purl.obolibrary.org/obo/XPO_0141872	abnormal cholesterol metabolic process	http://purl.obolibrary.org/obo/GO_0008203	cholesterol metabolic process

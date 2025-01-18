@@ -9,13 +9,12 @@ http://purl.obolibrary.org/obo/ZP_0144429	T cell differentiation in thymus incre
 http://purl.obolibrary.org/obo/ZP_0015574	Wnt signaling pathway increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
 http://purl.obolibrary.org/obo/ZP_0145726	acetylcholine biosynthetic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0018314	activation of NF-kappaB-inducing kinase activity increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0007250	activation of NF-kappaB-inducing kinase activity
-http://purl.obolibrary.org/obo/ZP_0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process
 http://purl.obolibrary.org/obo/ZP_0100312	adult locomotory behavior increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008344	adult locomotory behavior
 http://purl.obolibrary.org/obo/ZP_0101048	aggressive behavior increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0002118	aggressive behavior
 http://purl.obolibrary.org/obo/ZP_0141250	alternative mRNA splicing, via spliceosome increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0000380	alternative mRNA splicing, via spliceosome
 http://purl.obolibrary.org/obo/ZP_0016755	angiogenesis increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0001525	angiogenesis
 http://purl.obolibrary.org/obo/ZP_0010784	apoptotic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/ZP_0144346	arachidonic acid metabolic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0019369	arachidonic acid metabolic process
+http://purl.obolibrary.org/obo/ZP_0144346	arachidonic acid metabolic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0019369	arachidonate metabolic process
 http://purl.obolibrary.org/obo/ZP_0145888	behavioral response to pain increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0048266	behavioral response to pain
 http://purl.obolibrary.org/obo/ZP_0022558	blood circulation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0008015	blood circulation
 http://purl.obolibrary.org/obo/ZP_0147944	blood vessel development increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0001568	blood vessel development
@@ -60,7 +59,7 @@ http://purl.obolibrary.org/obo/ZP_0014046	fin regeneration increased process qua
 http://purl.obolibrary.org/obo/ZP_0148862	folic acid biosynthetic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046656	folic acid biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0019506	glucagon secretion increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0070091	glucagon secretion
 http://purl.obolibrary.org/obo/ZP_0148591	glucose homeostasis increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
-http://purl.obolibrary.org/obo/ZP_0014485	glucose import increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	glucose import
+http://purl.obolibrary.org/obo/ZP_0014485	glucose import increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
 http://purl.obolibrary.org/obo/ZP_0018247	glycolytic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
 http://purl.obolibrary.org/obo/ZP_0147821	granulocyte differentiation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030851	granulocyte differentiation
 http://purl.obolibrary.org/obo/ZP_0148932	habituation increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0046959	habituation
@@ -114,6 +113,7 @@ http://purl.obolibrary.org/obo/ZP_0148863	pyrimidine-containing compound metabol
 http://purl.obolibrary.org/obo/ZP_0018267	reactive oxygen species biosynthetic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_1903409	reactive oxygen species biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0148489	regulation of bone development increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_1903010	regulation of bone development
 http://purl.obolibrary.org/obo/ZP_0148827	regulation of cell adhesion increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0030155	regulation of cell adhesion
+http://purl.obolibrary.org/obo/ZP_0149598	regulation of cellular amino acid biosynthetic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_2000282	regulation of amino acid biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0149598	regulation of cellular amino acid biosynthetic process increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_2000282	regulation of cellular amino acid biosynthetic process
 http://purl.obolibrary.org/obo/ZP_0010438	regulation of cellular response to stress increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_0080135	regulation of cellular response to stress
 http://purl.obolibrary.org/obo/ZP_0145507	regulation of non-canonical NF-kappaB signal transduction increased process quality, abnormal	http://purl.obolibrary.org/obo/GO_1901222	regulation of non-canonical NF-kappaB signal transduction

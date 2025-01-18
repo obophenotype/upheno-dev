@@ -94,6 +94,7 @@ http://purl.obolibrary.org/obo/MP_0013556	abnormal holocrine gland physiology	ht
 http://purl.obolibrary.org/obo/MP_0005645	abnormal hypothalamus physiology	http://purl.obolibrary.org/obo/UBERON_0001898	hypothalamus
 http://purl.obolibrary.org/obo/MP_0003762	abnormal immune organ physiology	http://purl.obolibrary.org/obo/UBERON_0005057	immune organ
 http://purl.obolibrary.org/obo/MP_0001790	abnormal immune system physiology	http://purl.obolibrary.org/obo/UBERON_0002405	immune system
+http://purl.obolibrary.org/obo/MP_0014509	abnormal intestinal crypt stem cell physiology	http://purl.obolibrary.org/obo/CL_0002250	intestinal crypt stem cell
 http://purl.obolibrary.org/obo/MP_0014201	abnormal intestinal epithelium physiology	http://purl.obolibrary.org/obo/UBERON_0001277	intestinal epithelium
 http://purl.obolibrary.org/obo/MP_0010155	abnormal intestine physiology	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
 http://purl.obolibrary.org/obo/MP_0014241	abnormal intracellular organelle physiology	http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle
@@ -174,7 +175,7 @@ http://purl.obolibrary.org/obo/MP_0002133	abnormal respiratory system physiology
 http://purl.obolibrary.org/obo/MP_0014240	abnormal ribosome physiology	http://purl.obolibrary.org/obo/GO_0005840	ribosome
 http://purl.obolibrary.org/obo/MP_0005310	abnormal salivary gland physiology	http://purl.obolibrary.org/obo/UBERON_0001044	saliva-secreting gland
 http://purl.obolibrary.org/obo/MP_0002991	abnormal sebaceous gland physiology	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
-http://purl.obolibrary.org/obo/MP_0014054	abnormal sebocyte physiology	http://purl.obolibrary.org/obo/CL_0002140	acinar cell of sebaceous gland
+http://purl.obolibrary.org/obo/MP_0014054	abnormal sebocyte physiology	http://purl.obolibrary.org/obo/CL_0002140	skin sebocyte
 http://purl.obolibrary.org/obo/MP_0013902	abnormal seminal vesicle physiology	http://purl.obolibrary.org/obo/UBERON_0000998	seminal vesicle
 http://purl.obolibrary.org/obo/MP_0010055	abnormal sensory neuron physiology	http://purl.obolibrary.org/obo/CL_0000101	sensory neuron
 http://purl.obolibrary.org/obo/MP_0005647	abnormal sex gland physiology	http://purl.obolibrary.org/obo/UBERON_0003937	reproductive gland

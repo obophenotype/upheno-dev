@@ -42,7 +42,9 @@ http://purl.obolibrary.org/obo/MP_0020969	impaired conditioned taste aversion be
 http://purl.obolibrary.org/obo/MP_0009454	impaired contextual conditioning behavior	http://purl.obolibrary.org/obo/NBO_0000223	contextual conditioning behavior
 http://purl.obolibrary.org/obo/MP_0001405	impaired coordination	http://purl.obolibrary.org/obo/NBO_0000339	motor coordination
 http://purl.obolibrary.org/obo/MP_0001729	impaired embryo implantation	http://purl.obolibrary.org/obo/GO_0007566	embryo implantation
+http://purl.obolibrary.org/obo/MP_0014587	impaired fine motor coordination	http://purl.obolibrary.org/obo/NBO_0000348	fine motor coordination
 http://purl.obolibrary.org/obo/MP_0030973	impaired gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
+http://purl.obolibrary.org/obo/MP_0014588	impaired gross motor coordination	http://purl.obolibrary.org/obo/NBO_0000347	gross motor coordination
 http://purl.obolibrary.org/obo/MP_0006325	impaired hearing	http://purl.obolibrary.org/obo/GO_0007605	sensory perception of sound
 http://purl.obolibrary.org/obo/MP_0001524	impaired limb coordination	http://purl.obolibrary.org/obo/NBO_0000342	limb coordination
 http://purl.obolibrary.org/obo/MP_0001602	impaired myelopoiesis	http://purl.obolibrary.org/obo/GO_0030099	myeloid cell differentiation
