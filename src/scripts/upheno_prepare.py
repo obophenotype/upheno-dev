@@ -62,11 +62,12 @@ if upheno_config.is_clean_dir():
     os.makedirs(module_dir)
     shutil.rmtree(stats_dir)
     os.makedirs(stats_dir)
-    shutil.rmtree(pattern_dir)
-    os.makedirs(pattern_dir)
+    #shutil.rmtree(pattern_dir)
+    #os.makedirs(pattern_dir)
 
 print("### Download patterns ###")
-download_patterns(upheno_config.get_pattern_repos(), pattern_dir, upheno_config)
+#download_patterns(upheno_config.get_pattern_repos(), pattern_dir, upheno_config)
+print("DOWNLOADING PATTERNS HAPPENS OUTSIDE OF THE SCRIPT")
 
 
 print("### Download sources ###")
