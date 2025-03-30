@@ -1,0 +1,25 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+
+SELECT ?class_id_curie ?class_label ?ancestor_curie
+WHERE {
+  ?class_id a owl:Class ;
+            rdfs:label ?class_label ;
+
+    OPTIONAL {
+         ?class_id rdfs:subClassOf+ ?ancestor .
+         FILTER(?class_id != ?ancestor)
+         FILTER(isIRI(?ancestor))
+    }
+
+    OPTIONAL {
+         ?class_id rdfs:label ?class_label  .
+    }
+
+    FILTER(isIRI(?class_id))
+
+  BIND(REPLACE(STR(?ancestor), "http://purl.obolibrary.org/obo/", "") AS ?ancestor_local)
+  BIND(REPLACE(STR(?class_id), "http://purl.obolibrary.org/obo/", "") AS ?class_id_local)
+  BIND(REPLACE(?ancestor_local, "_", ":") AS ?ancestor_curie)
+  BIND(REPLACE(?class_id_local, "_", ":") AS ?class_id_curie)
+}
