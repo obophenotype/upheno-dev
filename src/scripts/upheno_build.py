@@ -1,7 +1,10 @@
 import click
 import os
+from collections import defaultdict
+import random
 import logging
 import pandas as pd
+import re
 from typing import List
 from lib import (
     uPhenoConfig,
@@ -224,6 +227,206 @@ def generate_cross_species_mappings(
     """Command to generate cross species mappings"""
     lm = LexicalMapping(species_lexical, mapping_logical, stopwords=phenotypic_effect_terms)
     lm.generate_mapping_files(output)
+
+def generate_upheno_label(group, labels):
+    """
+    Generate a combined label for a group of phenotype IDs using their labels.
+    
+    Args:
+        group (iterable): A collection of phenotype IDs.
+        labels (dict): A dictionary mapping phenotype IDs to labels.
+
+    Returns:
+        str: A semicolon-separated string of unique, lowercase labels.
+    """
+    phenotype_labels = {
+        re.sub(r"^abnormal ", "", re.sub(r", abnormal$", "", labels[pid].strip().lower()))
+        for pid in group
+        if pid in labels and labels[pid]
+    }
+    return "; ".join(phenotype_labels)
+
+@upheno.command()
+@click.option("--cross-species-mapping", type=click.Path(exists=True))
+@click.option("--species-independent-mapping", type=click.Path(exists=True))
+@click.option("--upheno-subclasses", type=click.Path(exists=True))
+@click.option("--start-id", type=int)
+@click.option("--non-eq-groupings", type=click.Path())
+@click.option("--non-eq-alignments", type=click.Path())
+@click.option("--non-eq-species-independent-mapping", type=click.Path())
+def create_upheno_groupings(cross_species_mapping, species_independent_mapping, upheno_subclasses, start_id, non_eq_groupings, non_eq_alignments, non_eq_species_independent_mapping):
+    # 1. Read both as dataframes
+    df_cross_species = pd.read_csv(cross_species_mapping, sep="\t", dtype=str, comment="#")
+    df_meta = pd.read_csv(upheno_subclasses, dtype=str)
+    df_species_independent = pd.read_csv(species_independent_mapping, sep="\t", dtype=str, comment="#")
+    df_manual_groupings = pd.read_csv(non_eq_groupings, sep="\t", dtype=str)
+    df_manual_alignments = pd.read_csv(non_eq_alignments, sep="\t", dtype=str)
+    df_manual_species_independent = pd.read_csv(non_eq_species_independent_mapping, sep="\t", dtype=str, comment="#")
+
+    # 2. Filter to predicate_id == semapv:crossSpeciesExactMatch
+    df_cross_species = df_cross_species[df_cross_species["predicate_id"] == "semapv:crossSpeciesExactMatch"]
+    df_species_independent = df_species_independent[df_species_independent["predicate_id"] == "semapv:crossSpeciesExactMatch"]
+    df_species_independent = pd.concat([df_species_independent, df_manual_species_independent]).drop_duplicates()
+
+    # 3. Build sets of related phenotype IDs from df_cross_species
+    groups = []
+    id_graph = defaultdict(set)
+    
+
+    for _, row in df_cross_species.iterrows():
+        id_graph[row["subject_id"]].add(row["object_id"])
+        id_graph[row["object_id"]].add(row["subject_id"])
+    
+    map_superclasses = {}
+    map_labels = {}
+
+    for _, row in df_meta.iterrows():
+        subclass= row["class_id_curie"]
+        superclass = row["ancestor_curie"]
+        map_labels[subclass] = row["class_label"]
+        if not subclass in map_superclasses:
+            map_superclasses[subclass] = []
+        map_superclasses[subclass].append(superclass)
+
+    def dfs(node, visited, component):
+        visited.add(node)
+        component.add(node)
+        for neighbor in id_graph[node]:
+            if neighbor not in visited:
+                dfs(neighbor, visited, component)
+
+    visited = set()
+    for node in id_graph:
+        if node not in visited:
+            component = set()
+            dfs(node, visited, component)
+            groups.append(component)
+
+    # 4. Build mapping from non-UPHENO: IDs to UPHENO: IDs
+    map_species_independent = {}
+    for _, row in df_species_independent.iterrows():
+        if not row["subject_id"].startswith("UPHENO:") and row["object_id"].startswith("UPHENO:"):
+            map_species_independent[row["subject_id"]] = row["object_id"]
+        elif not row["object_id"].startswith("UPHENO:") and row["subject_id"].startswith("UPHENO:"):
+            map_species_independent[row["object_id"]] = row["subject_id"]
+
+    # 5-7. Process groups
+    
+    # start_id or max value of df_manual_groupings["upheno_id"] + 1
+    
+    numeric_ids = pd.to_numeric(
+        df_manual_groupings["upheno_id"].astype(str).str.replace("UPHENO:", "", regex=False),
+        errors="coerce"
+    )
+    max_id = numeric_ids.dropna().max()
+    current_id = max(start_id, int(max_id) + 1 if pd.notna(max_id) else start_id)
+    
+    def generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent):
+        phenotypes = set()
+        mappings = set()
+        for phenotype_id in group:
+            phenotype_label = map_labels.get(phenotype_id, phenotype_id)
+            phenotypes.add(f"  {phenotype_id} ({phenotype_label})\n")
+            for df in [df_cross_species, df_species_independent]:
+                for _, row in df.iterrows():
+                    subject_id = row["subject_id"]
+                    object_id = row["object_id"]
+                    if subject_id.startswith("UPHENO:") or object_id.startswith("UPHENO:"):
+                        # Skip UPHENO IDs, as these are automatically mapped
+                        pass
+                    if subject_id == phenotype_id or object_id == phenotype_id:
+                        pair = [subject_id, object_id]
+                        pair.sort()
+                        mappings.add(f"    {pair[0]} ({map_labels.get(pair[0], '')}) <-> {pair[1]} ({map_labels.get(pair[1], '')})\n")
+            warning_str = (
+                "-------------------------\n"
+                "Phenotypes:\n" 
+                + "".join(phenotypes) 
+                + "Mappings:\n" 
+                + "".join(mappings) 
+                + "\n"
+            )
+        return warning_str
+
+    new_groupings = []
+    new_alignments = []
+    new_mappings = []
+    for group in groups:
+        generated = False
+        upheno_ids = set(map_species_independent.get(x) for x in group if x in map_species_independent)
+        non_upheno_ids = set(x for x in group if not x.startswith("UPHENO:"))
+        upheno_ids.discard(None)
+        non_upheno_ids.discard(None)
+        parents = {
+            p
+            for pid in non_upheno_ids
+            for p in map_superclasses.get(pid, ["UPHENO:0001002"])
+            if p and isinstance(p, str) and p.startswith("UPHENO:")
+        }
+
+        if not parents:
+            parents.add("UPHENO:0001002")
+
+        if len(upheno_ids) == 0:
+            generated = True
+            upheno_id = f"UPHENO:{current_id:07d}"
+            current_id += 1
+        elif len(upheno_ids) > 1:
+            warning_str = "" #generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent)
+
+            group_str = ", ".join([f"{x} ({map_labels.get(x, '')})" for x in group])
+            
+            click.echo(f"Warning: multiple UPHENO IDs found for group {group_str}:\n {warning_str}", err=True)
+            upheno_id = random.choice(list(upheno_ids))
+        else:
+            upheno_id = list(upheno_ids)[0]
+
+        if generated:
+            upheno_label = generate_upheno_label(group, map_labels)
+        else:
+            upheno_label = map_labels.get(upheno_id, "")
+            
+        if generated:
+            comment = "This phenotype grouping was automatically generated from an existing mapping."
+            comment += "Its labels are generated by combining the labels of the phenotypes in the group, so they may look less ideal."
+            comment += ", ".join([f"{x} ({map_labels.get(x, '')})" for x in group])
+            new_groupings.append({
+                    "upheno_id": upheno_id,
+                    "upheno_label": upheno_label,
+                    "parent": "|".join(parents),
+                    "comment": comment
+                })
+            
+        
+        for phenotype_id in non_upheno_ids:
+            phenotype_label = map_labels.get(phenotype_id, phenotype_id)
+            if phenotype_id not in map_species_independent:
+                new_alignments.append({
+                    "upheno_id": upheno_id,
+                    "upheno_label": upheno_label,
+                    "phenotype_id": phenotype_id,
+                    "phenotype_label": phenotype_label
+                })
+                new_mappings.append({
+                    "object_id": upheno_id,
+                    "object_label": upheno_label,
+                    "subject_id": phenotype_id,
+                    "subject_label": phenotype_label,
+                    "predicate_id": "semapv:crossSpeciesExactMatch"
+                })
+
+    df_new_groupings = pd.DataFrame(new_groupings).drop_duplicates().sort_values(by=["upheno_id"])
+    df_new_alignments = pd.DataFrame(new_alignments).drop_duplicates().sort_values(by=["upheno_id", "phenotype_id"])
+    df_new_mappings = pd.DataFrame(new_mappings).drop_duplicates().sort_values(by=["subject_id", "object_id"])
+    
+    df_manual_groupings = pd.concat([df_manual_groupings, df_new_groupings]).drop_duplicates()
+    df_manual_alignments = pd.concat([df_manual_alignments, df_new_alignments]).drop_duplicates()
+    df_manual_species_independent = pd.concat([df_manual_species_independent, df_new_mappings]).drop_duplicates()
+    
+    df_manual_groupings.to_csv(non_eq_groupings, sep="\t", index=False)
+    df_manual_alignments.to_csv(non_eq_alignments, sep="\t", index=False)
+    df_manual_species_independent.to_csv(non_eq_species_independent_mapping, sep="\t", index=False)
+
 
 # Subcommand: help
 @upheno.command()
