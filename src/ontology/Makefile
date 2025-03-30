@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                8dcf3284043c96cd07665e42402a3e56a877d4e9a4c44e3fb06545a8bc8d022a
+CONFIG_HASH=                97901ebf2d9b4b27548a6f32b2da1b788395b68bd72b1ac8cf0769c5e2cd4c93
 
 
 # ----------------------------------------
@@ -501,7 +501,7 @@ $(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv 
 .PRECIOUS: $(COMPONENTSDIR)/upheno-alignments.owl
 
 
-$(COMPONENTSDIR)/upheno-manual-curation.owl: $(TEMPLATEDIR)/phenotypes-without-patterns.tsv
+$(COMPONENTSDIR)/upheno-manual-curation.owl: $(TEMPLATEDIR)/phenotypes-without-patterns.tsv $(TEMPLATEDIR)/upheno-ssspo-groupings-no-eq.tsv
 	if [ $(COMP) = true ] ; then $(ROBOT) template  \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
@@ -509,7 +509,7 @@ $(COMPONENTSDIR)/upheno-manual-curation.owl: $(TEMPLATEDIR)/phenotypes-without-p
 .PRECIOUS: $(COMPONENTSDIR)/upheno-manual-curation.owl
 
 
-$(COMPONENTSDIR)/upheno-bridge.owl: $(MAPPINGDIR)/upheno-species-independent.sssom.tsv
+$(COMPONENTSDIR)/upheno-bridge.owl: $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
 	if [ $(COMP) = true ] ; then $(SSSOMPY) merge $^ --output $(TMPDIR)/upheno-bridge.owl-merged.sssom.tsv &&\
 		$(SSSOMPY) convert $(TMPDIR)/upheno-bridge.owl-merged.sssom.tsv  --output $(TMPDIR)/upheno-bridge.owl-converted.sssom.owl &&\
 		$(ROBOT) merge -i $(TMPDIR)/upheno-bridge.owl-converted.sssom.owl \

@@ -430,11 +430,13 @@ components:
       use_template: true
       templates:
         - phenotypes-without-patterns.tsv
+        - upheno-ssspo-groupings-no-eq.tsv
     - filename: upheno-bridge.owl
       description: "Contains all subclass relationships between SSPOs and uPheno."
       use_mappings: true
       mappings:
         - upheno-species-independent.sssom.tsv
+        - upheno-species-independent-manual.sssom.tsv
 pattern_pipelines_group:
   products:
     - id: automatic
