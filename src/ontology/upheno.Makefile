@@ -114,6 +114,21 @@ custom_reports: $(REPORTDIR)/upheno-associated-entities.csv \
 ####### uPheno release artefacts #########
 ##########################################
 
+$(TMPDIR)/upheno-subclasses.csv: #upheno.owl
+	$(ROBOT) query -f csv -i upheno.owl --query ../sparql/metadata.sparql $@
+
+# Generate grouping classes for cases where no EQ exists
+.PHONY: update_manual_alignments
+update_manual_alignments: $(TMPDIR)/upheno-subclasses.csv
+	python3 ../scripts/upheno_build.py create-upheno-groupings \
+		--cross-species-mapping $(MAPPINGDIR)/upheno-cross-species.sssom.tsv \
+		--species-independent-mapping $(MAPPINGDIR)/upheno-species-independent.sssom.tsv \
+		--upheno-subclasses $(TMPDIR)/upheno-subclasses.csv \
+		--start-id 7000000 \
+		--non-eq-groupings $(TEMPLATEDIR)/upheno-ssspo-groupings-no-eq.tsv \
+		--non-eq-alignments $(TEMPLATEDIR)/upheno-ssspo-alignments-no-eq.tsv \
+		--non-eq-species-independent-mapping $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
+
 # $(MAPPINGDIR)/upheno-cross-species.sssom.tsv is a dependency here because that goal
 # is responsible for generating $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv as well
 $(TMPDIR)/upheno-incl-lexical-match-equivalencies.owl: upheno.owl $(MAPPINGDIR)/upheno-cross-species.sssom.tsv
@@ -128,7 +143,7 @@ upheno-equivalence-model.owl: $(TMPDIR)/upheno-incl-lexical-match-equivalencies.
 	    --reasoner ELK \
 	  filter \
 	    --term "http://purl.obolibrary.org/obo/UPHENO_0001001" \
-	    --select "self descendants equivalents" \
+	    --select "self descendants equivalents annotations" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 	    --output $@
 
