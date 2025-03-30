@@ -424,6 +424,7 @@ components:
       templates:
         - phenotype-alignments.tsv
         - root-alignments.tsv
+        - upheno-ssspo-alignments-no-eq.tsv
     - filename: upheno-manual-curation.owl
       description: "Contains all manually curated uPheno classes (without EQs)."
       use_template: true

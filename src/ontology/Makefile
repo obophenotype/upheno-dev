@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                b897c96a525f7de0448c274b8131b15209cd167f3c5fd453971fe4a04a33adc0
+CONFIG_HASH=                8dcf3284043c96cd07665e42402a3e56a877d4e9a4c44e3fb06545a8bc8d022a
 
 
 # ----------------------------------------
@@ -493,7 +493,7 @@ $(COMPONENTSDIR)/upheno-top.owl: $(TEMPLATEDIR)/phenotype-top-level.tsv
 .PRECIOUS: $(COMPONENTSDIR)/upheno-top.owl
 
 
-$(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv $(TEMPLATEDIR)/root-alignments.tsv
+$(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv $(TEMPLATEDIR)/root-alignments.tsv $(TEMPLATEDIR)/upheno-ssspo-alignments-no-eq.tsv
 	if [ $(COMP) = true ] ; then $(ROBOT) template  \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
