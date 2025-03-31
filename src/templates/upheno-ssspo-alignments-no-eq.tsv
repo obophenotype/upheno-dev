@@ -1,3 +1,3 @@
-upheno_id	upheno_label	phenotype_id	phenotype_label
+phenotype_id	phenotype_label	upheno_id	upheno_label
 ID		SC% 	
-UPHENO:0000536	delayed cloacal septation	HP:0012621	Persistent cloaca
+HP:0012621	Persistent cloaca	UPHENO:0000536	delayed cloacal septation

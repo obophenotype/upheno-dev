@@ -1,2 +1,2 @@
-subject_id	predicate_id	object_id	mapping_justification	object_label	subject_label
-APO:0000045	semapv:crossSpeciesExactMatch	UPHENO:7000000		infertility; sterile	sterile
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification
+APO:0000045	sterile	semapv:crossSpeciesExactMatch	UPHENO:7000000	infertility; sterile	semapv:LogicalReasoning
