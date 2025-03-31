@@ -409,11 +409,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
                     "phenotype_label": phenotype_label
                 })
                 new_mappings.append({
-                    "object_id": upheno_id,
-                    "object_label": upheno_label,
                     "subject_id": phenotype_id,
                     "subject_label": phenotype_label,
-                    "predicate_id": "semapv:crossSpeciesExactMatch"
+                    "predicate_id": "semapv:crossSpeciesExactMatch",
+                    "object_id": upheno_id,
+                    "object_label": upheno_label,
+                    "mapping_justification": "semapv:LogicalReasoning"
                 })
 
     if new_groupings:
