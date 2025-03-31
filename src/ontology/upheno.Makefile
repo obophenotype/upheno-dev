@@ -83,15 +83,20 @@ $(REPORTDIR)/upheno-eq-analysis.csv: $(foreach n,$(SSPOS), $(REPORTDIR)/$(n)_phe
 
 # TODO missing dependency for "a change in a file in ../curation/pattern-matches" which
 # is the true dependency here
-$(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl: $(MAPPINGDIR)/uberon.sssom.tsv ../templates/obsolete.tsv ../curation/upheno_id_map.txt
+$(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-eq.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl: $(MAPPINGDIR)/uberon.sssom.tsv ../templates/obsolete.tsv ../curation/upheno_id_map.txt
 	if [ $(COMP) = true ] ; then python3 ../scripts/upheno_build.py create-species-independent-sssom-mappings \
 		--upheno-id-map ../curation/upheno_id_map.txt \
 		--patterns-dir ../curation/patterns-for-matching \
 		--anatomy-mappings $(MAPPINGDIR)/uberon.sssom.tsv \
 		--matches-dir ../curation/pattern-matches \
 		--obsolete-file-tsv ../templates/obsolete.tsv \
-		--output-file-owl $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
-		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent.sssom.tsv; fi
+		--output-file-owl $(MAPPINGDIR)/upheno-species-independent-eq.sssom.owl \
+		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv; fi
+
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv: $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
+	sssom merge $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv -o $(TMPDIR)/upheno-species-independent-merged.sssom.tsv
+	sssom invert $(TMPDIR)/upheno-species-independent-merged.sssom.tsv -o $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv
+	sssom sort $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv -o $@
 
 $(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
 	mkdir -p $(TMPDIR)/cross-species/
@@ -99,7 +104,7 @@ $(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.c
 	sssom parse $(TMPDIR)/cross-species/upheno_custom_mapping.sssom.tsv --metadata config/upheno-cross-species.sssom.tsv -C merged -o $@
 
 $(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
-	sssom convert -i $< -O owl -o $@
+	sssom convert $< -O owl -o $@
 
 semsim/upheno-0.4.semsimian.tsv: upheno.db $(IMPORTDIR)/all_phenotype_terms.txt
 	runoak --stacktrace -vvv -i semsimian:sqlite:upheno.db similarity -p i \
