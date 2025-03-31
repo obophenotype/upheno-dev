@@ -284,6 +284,7 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         subclass= row["class_id_curie"]
         superclass = row["ancestor_curie"]
         map_labels[subclass] = row["class_label"]
+        map_labels[superclass] = row["ancestor_label"]
         if not subclass in map_superclasses:
             map_superclasses[subclass] = []
         map_superclasses[subclass].append(superclass)
@@ -415,18 +416,24 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
                     "predicate_id": "semapv:crossSpeciesExactMatch"
                 })
 
-    df_new_groupings = pd.DataFrame(new_groupings).drop_duplicates().sort_values(by=["upheno_id"])
-    df_new_alignments = pd.DataFrame(new_alignments).drop_duplicates().sort_values(by=["upheno_id", "phenotype_id"])
-    df_new_mappings = pd.DataFrame(new_mappings).drop_duplicates().sort_values(by=["subject_id", "object_id"])
+    if new_groupings:
+        df_new_groupings = pd.DataFrame(new_groupings).drop_duplicates().sort_values(by=["upheno_id"])
+        df_manual_groupings = pd.concat([df_manual_groupings, df_new_groupings]).drop_duplicates()
+        df_manual_groupings.to_csv(non_eq_groupings, sep="\t", index=False)
+    else:
+        click.echo("No new groupings were generated.")
+        
+    if new_alignments:
+        df_new_alignments = pd.DataFrame(new_alignments).drop_duplicates().sort_values(by=["upheno_id", "phenotype_id"])
+        df_manual_alignments = pd.concat([df_manual_alignments, df_new_alignments]).drop_duplicates()
+        df_manual_alignments.to_csv(non_eq_alignments, sep="\t", index=False)
     
-    df_manual_groupings = pd.concat([df_manual_groupings, df_new_groupings]).drop_duplicates()
-    df_manual_alignments = pd.concat([df_manual_alignments, df_new_alignments]).drop_duplicates()
-    df_manual_species_independent = pd.concat([df_manual_species_independent, df_new_mappings]).drop_duplicates()
-    
-    df_manual_groupings.to_csv(non_eq_groupings, sep="\t", index=False)
-    df_manual_alignments.to_csv(non_eq_alignments, sep="\t", index=False)
-    df_manual_species_independent.to_csv(non_eq_species_independent_mapping, sep="\t", index=False)
+    if new_mappings:
+        df_new_mappings = pd.DataFrame(new_mappings).drop_duplicates().sort_values(by=["subject_id", "object_id"])
+        df_manual_species_independent = pd.concat([df_manual_species_independent, df_new_mappings]).drop_duplicates()
+        df_manual_species_independent.to_csv(non_eq_species_independent_mapping, sep="\t", index=False)
 
+    
 
 # Subcommand: help
 @upheno.command()
