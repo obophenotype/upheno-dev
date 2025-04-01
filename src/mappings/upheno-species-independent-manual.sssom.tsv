@@ -1,1 +1,75 @@
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification
+APO:0000045		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+MP:0000001		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+HP:0000118		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+WBPhenotype:0000886		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+XPO:00000000		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+PLANP:00000000		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+ZP:0000000		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+FBcv:0001347		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+FYPO:0000001		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+DDPHENO:0010000		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+PHIPO:0000505		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+MGPO:0001001		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+APO:0000017		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration
+MP:0005375	adipose tissue phenotype	semapv:crossSpeciesExactMatch	UPHENO:0076797	abnormal adipose tissue morphology	semapv:ManualMappingCuration
+MP:0005386	behavior/neurological phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049622	abnormal behavior	semapv:ManualMappingCuration
+MP:0005385	cardiovascular system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0004507	abnormal cardiovascular system	semapv:ManualMappingCuration
+MP:0005384	cellular phenotype	semapv:crossSpeciesExactMatch	UPHENO:0086172	abnormal cell	semapv:ManualMappingCuration
+MP:0005382	craniofacial phenotype	semapv:crossSpeciesExactMatch	UPHENO:3000000	craniofacial or craniocervical phenotype	semapv:ManualMappingCuration
+MP:0005381	digestive/alimentary phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002833	abnormal digestive system	semapv:ManualMappingCuration
+MP:0005380	embryo phenotype	semapv:crossSpeciesExactMatch	UPHENO:3000001	embryonic development and birth phenotype	semapv:ManualMappingCuration
+MP:0005379	endocrine/exocrine gland phenotype	semapv:crossSpeciesExactMatch	UPHENO:0003116	abnormal endocrine system	semapv:ManualMappingCuration
+MP:0005378	growth/size/body region phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049874	abnormal growth	semapv:ManualMappingCuration
+MP:0005377	hearing/vestibular/ear phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002903	abnormal ear	semapv:ManualMappingCuration
+MP:0005397	hematopoietic system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0004459	abnormal hematopoietic system	semapv:ManualMappingCuration
+MP:0005376	homeostasis/metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049904	abnormal homeostatic process	semapv:ManualMappingCuration
+MP:0005387	immune system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002948	abnormal immune system	semapv:ManualMappingCuration
+MP:0010771	integument phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002635	abnormal integument	semapv:ManualMappingCuration
+MP:0005371	limbs/digits/tail phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002830	abnormal limb	semapv:ManualMappingCuration
+MP:0005370	liver/biliary system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0003405	abnormal liver	semapv:ManualMappingCuration
+MP:0010768	mortality/aging	semapv:crossSpeciesExactMatch	UPHENO:3000002	mortality and aging phenotype	semapv:ManualMappingCuration
+MP:0005369	muscle phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002816	abnormal musculature	semapv:ManualMappingCuration
+MP:0002006	neoplasm	semapv:crossSpeciesExactMatch	UPHENO:3000003	neoplasm (phenotype)	semapv:ManualMappingCuration
+MP:0003631	nervous system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0004523	abnormal nervous system	semapv:ManualMappingCuration
+MP:0001186	pigmentation phenotype	semapv:crossSpeciesExactMatch	UPHENO:0050008	abnormal pigmentation	semapv:ManualMappingCuration
+MP:0005367	renal/urinary system phenotype	semapv:crossSpeciesExactMatch	UPHENO:3000004	renal/urinary system phenotype	semapv:ManualMappingCuration
+MP:0005389	reproductive system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0003055	reproductive system phenotype	semapv:ManualMappingCuration
+MP:0005388	respiratory system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0004536	abnormal respiratory system	semapv:ManualMappingCuration
+MP:0005390	skeleton phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002964	abnormal skeletal system	semapv:ManualMappingCuration
+MP:0005394	taste/olfaction phenotype	semapv:crossSpeciesExactMatch	UPHENO:3000007	taste/olfaction phenotype	semapv:ManualMappingCuration
+MP:0005391	vision/eye phenotype	semapv:crossSpeciesExactMatch	UPHENO:3000007	vision/eye phenotype	semapv:ManualMappingCuration
+MP:0004733	abnormal thoracic cavity morphology	semapv:crossSpeciesExactMatch	UPHENO:0075866	abnormal thoracic cavity	semapv:ManualMappingCuration
+HP:0009124	Abnormality of adipose tissue	semapv:crossSpeciesExactMatch	UPHENO:0076797	abnormal adipose tissue morphology	semapv:ManualMappingCuration
+HP:0000708	Behavioral abnormality	semapv:crossSpeciesExactMatch	UPHENO:0049622	abnormal behavior	semapv:ManualMappingCuration
+HP:0001626	Abnormality of the cardiovascular system	semapv:crossSpeciesExactMatch	UPHENO:0004507	abnormal cardiovascular system	semapv:ManualMappingCuration
+HP:0025354	Abnormal cellular phenotype	semapv:crossSpeciesExactMatch	UPHENO:0086172	abnormal cell	semapv:ManualMappingCuration
+HP:0000152	Abnormality of head or neck	semapv:crossSpeciesExactMatch	UPHENO:3000000	craniofacial/craniocervical phenotype	semapv:ManualMappingCuration
+HP:0025031	Abnormality of the digestive system	semapv:crossSpeciesExactMatch	UPHENO:0002833	abnormal digestive system	semapv:ManualMappingCuration
+HP:0001197	Abnormality of prenatal development or birth	semapv:crossSpeciesExactMatch	UPHENO:3000001	embryonic development/birth phenotype	semapv:ManualMappingCuration
+HP:0000818	Abnormality of the endocrine system	semapv:crossSpeciesExactMatch	UPHENO:0003116	abnormal endocrine system	semapv:ManualMappingCuration
+HP:0001507	Growth abnormality	semapv:crossSpeciesExactMatch	UPHENO:0049874	abnormal growth	semapv:ManualMappingCuration
+HP:0000598	Abnormality of the ear	semapv:crossSpeciesExactMatch	UPHENO:0002903	abnormal ear	semapv:ManualMappingCuration
+HP:0001871	Abnormality of blood and blood-forming tissues	semapv:crossSpeciesExactMatch	UPHENO:0004459	abnormal hematopoietic system	semapv:ManualMappingCuration
+HP:0001939	Abnormality of metabolism/homeostasis	semapv:crossSpeciesExactMatch	UPHENO:0049904	abnormal homeostatic process	semapv:ManualMappingCuration
+HP:0002715	Abnormality of the immune system	semapv:crossSpeciesExactMatch	UPHENO:0002948	abnormal immune system	semapv:ManualMappingCuration
+HP:0001574	Abnormality of the integument	semapv:crossSpeciesExactMatch	UPHENO:0002635	abnormal integument	semapv:ManualMappingCuration
+HP:0040064	Abnormality of limbs	semapv:crossSpeciesExactMatch	UPHENO:0002830	abnormal limb	semapv:ManualMappingCuration
+HP:0001392	Abnormality of the liver	semapv:crossSpeciesExactMatch	UPHENO:0003405	abnormal liver	semapv:ManualMappingCuration
+HP:0040006	Mortality/Aging	semapv:crossSpeciesExactMatch	UPHENO:3000002	mortality/aging phenotype	semapv:ManualMappingCuration
+HP:0033127	Abnormality of the musculoskeletal system	semapv:crossSpeciesExactMatch	UPHENO:0002816	abnormal musculature	semapv:ManualMappingCuration
+HP:0002664	Neoplasm	semapv:crossSpeciesExactMatch	UPHENO:3000003	neoplasm (phenotype)	semapv:ManualMappingCuration
+HP:0000707	Abnormality of the nervous system	semapv:crossSpeciesExactMatch	UPHENO:0004523	abnormal nervous system	semapv:ManualMappingCuration
+HP:0001000	Abnormality of skin pigmentation	semapv:crossSpeciesExactMatch	UPHENO:0050008	abnormal pigmentation	semapv:ManualMappingCuration
+HP:0000079	Abnormality of the urinary system	semapv:crossSpeciesExactMatch	UPHENO:3000004	renal/urinary system phenotype	semapv:ManualMappingCuration
+HP:0000078	Abnormality of the genital system	semapv:crossSpeciesExactMatch	UPHENO:0002642	abnormal genitourinary system	semapv:ManualMappingCuration
+HP:0002086	Abnormality of the respiratory system	semapv:crossSpeciesExactMatch	UPHENO:0004536	abnormal respiratory system	semapv:ManualMappingCuration
+HP:0000924	Abnormality of the skeletal system	semapv:crossSpeciesExactMatch	UPHENO:0002964	abnormal skeletal system	semapv:ManualMappingCuration
+HP:0000223	Abnormality of taste sensation	semapv:crossSpeciesExactMatch	UPHENO:0078688	abnormal sensory perception of taste	semapv:ManualMappingCuration
+HP:0004408	Abnormality of the sense of smell	semapv:crossSpeciesExactMatch	UPHENO:0078689	abnormal sensory perception of smell	semapv:ManualMappingCuration
+HP:0000478	Abnormality of the eye	semapv:crossSpeciesExactMatch	UPHENO:3000007	vision/eye phenotype	semapv:ManualMappingCuration
+HP:0000504	Abnormality of vision	semapv:crossSpeciesExactMatch	UPHENO:3000007	vision/eye phenotype	semapv:ManualMappingCuration
+HP:0000769	Abnormality of the breast	semapv:crossSpeciesExactMatch	UPHENO:0003013	abnormal breast	semapv:ManualMappingCuration
+HP:0045027	Abnormality of the thoracic cavity	semapv:crossSpeciesExactMatch	UPHENO:0075866	abnormal thoracic cavity	semapv:ManualMappingCuration
+HP:0001608	Abnormality of the voice	semapv:crossSpeciesExactMatch	UPHENO:0075901	abnormal vocal organ	semapv:ManualMappingCuration
+HP:0025142	Constitutional symptom	semapv:crossSpeciesExactMatch	UPHENO:0001002	phenotype	semapv:ManualMappingCuration
