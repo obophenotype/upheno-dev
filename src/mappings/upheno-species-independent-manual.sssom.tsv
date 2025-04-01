@@ -16,14 +16,14 @@ MP:0005375	adipose tissue phenotype	semapv:crossSpeciesExactMatch	UPHENO:0076797
 MP:0005386	behavior/neurological phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049622	abnormal behavior	semapv:ManualMappingCuration
 MP:0005385	cardiovascular system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0004507	abnormal cardiovascular system	semapv:ManualMappingCuration
 MP:0005384	cellular phenotype	semapv:crossSpeciesExactMatch	UPHENO:0086172	abnormal cell	semapv:ManualMappingCuration
-MP:0005382	craniofacial phenotype	semapv:crossSpeciesExactMatch	UPHENO:3000000	craniofacial or craniocervical phenotype	semapv:ManualMappingCuration
-MP:0005381	digestive/alimentary phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002833	abnormal digestive system	semapv:ManualMappingCuration
-MP:0005380	embryo phenotype	semapv:crossSpeciesExactMatch	UPHENO:3000001	embryonic development and birth phenotype	semapv:ManualMappingCuration
-MP:0005379	endocrine/exocrine gland phenotype	semapv:crossSpeciesExactMatch	UPHENO:0003116	abnormal endocrine system	semapv:ManualMappingCuration
-MP:0005378	growth/size/body region phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049874	abnormal growth	semapv:ManualMappingCuration
-MP:0005377	hearing/vestibular/ear phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002903	abnormal ear	semapv:ManualMappingCuration
+MP:0005382	craniofacial phenotype	semapv:crossSpeciesBroadMatch	UPHENO:3000000	craniofacial or craniocervical phenotype	semapv:ManualMappingCuration
+MP:0005381	digestive/alimentary phenotype	semapv:crossSpeciesBroadMatch	UPHENO:0002833	abnormal digestive system	semapv:ManualMappingCuration
+MP:0005380	embryo phenotype	semapv:crossSpeciesBroadMatch	UPHENO:3000001	embryonic development and birth phenotype	semapv:ManualMappingCuration
+MP:0005379	endocrine/exocrine gland phenotype	semapv:crossSpeciesBroadMatch	UPHENO:0003116	abnormal endocrine system	semapv:ManualMappingCuration
+MP:0005378	growth/size/body region phenotype	semapv:crossSpeciesBroadMatch	UPHENO:0049874	abnormal growth	semapv:ManualMappingCuration
+MP:0005377	hearing/vestibular/ear phenotype	semapv:crossSpeciesBroadMatch	UPHENO:0002903	abnormal ear	semapv:ManualMappingCuration
 MP:0005397	hematopoietic system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0004459	abnormal hematopoietic system	semapv:ManualMappingCuration
-MP:0005376	homeostasis/metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049904	abnormal homeostatic process	semapv:ManualMappingCuration
+MP:0005376	homeostasis/metabolism phenotype	semapv:crossSpeciesBroadMatch	UPHENO:0049904	abnormal homeostatic process	semapv:ManualMappingCuration
 MP:0005387	immune system phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002948	abnormal immune system	semapv:ManualMappingCuration
 MP:0010771	integument phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002635	abnormal integument	semapv:ManualMappingCuration
 MP:0005371	limbs/digits/tail phenotype	semapv:crossSpeciesExactMatch	UPHENO:0002830	abnormal limb	semapv:ManualMappingCuration
@@ -67,9 +67,9 @@ HP:0002086	Abnormality of the respiratory system	semapv:crossSpeciesExactMatch	U
 HP:0000924	Abnormality of the skeletal system	semapv:crossSpeciesExactMatch	UPHENO:0002964	abnormal skeletal system	semapv:ManualMappingCuration
 HP:0000223	Abnormality of taste sensation	semapv:crossSpeciesExactMatch	UPHENO:0078688	abnormal sensory perception of taste	semapv:ManualMappingCuration
 HP:0004408	Abnormality of the sense of smell	semapv:crossSpeciesExactMatch	UPHENO:0078689	abnormal sensory perception of smell	semapv:ManualMappingCuration
-HP:0000478	Abnormality of the eye	semapv:crossSpeciesExactMatch	UPHENO:3000007	vision/eye phenotype	semapv:ManualMappingCuration
-HP:0000504	Abnormality of vision	semapv:crossSpeciesExactMatch	UPHENO:3000007	vision/eye phenotype	semapv:ManualMappingCuration
+HP:0000478	Abnormality of the eye	semapv:crossSpeciesBroadMatch	UPHENO:3000007	vision/eye phenotype	semapv:ManualMappingCuration
+HP:0000504	Abnormality of vision	semapv:crossSpeciesBroadMatch	UPHENO:3000007	vision/eye phenotype	semapv:ManualMappingCuration
 HP:0000769	Abnormality of the breast	semapv:crossSpeciesExactMatch	UPHENO:0003013	abnormal breast	semapv:ManualMappingCuration
 HP:0045027	Abnormality of the thoracic cavity	semapv:crossSpeciesExactMatch	UPHENO:0075866	abnormal thoracic cavity	semapv:ManualMappingCuration
-HP:0001608	Abnormality of the voice	semapv:crossSpeciesExactMatch	UPHENO:0075901	abnormal vocal organ	semapv:ManualMappingCuration
-HP:0025142	Constitutional symptom	semapv:crossSpeciesExactMatch	UPHENO:0001002	phenotype	semapv:ManualMappingCuration
+HP:0001608	Abnormality of the voice	semapv:crossSpeciesBroadMatch	UPHENO:0075901	abnormal vocal organ	semapv:ManualMappingCuration
+HP:0025142	Constitutional symptom	semapv:crossSpeciesBroadMatch	UPHENO:0001002	phenotype	semapv:ManualMappingCuration
