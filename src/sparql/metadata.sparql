@@ -7,7 +7,7 @@ WHERE {
         rdfs:label ?class_label .
 
   FILTER(isIRI(?class_id))
-  FILTER(!STRSTARTS(STR(?class_id), "http://purl.obolibrary.org/obo/UPHENO_"))
+  #FILTER(!STRSTARTS(STR(?class_id), "http://purl.obolibrary.org/obo/UPHENO_"))
 
   OPTIONAL { 
   ?class_id rdfs:subClassOf ?parent1 . 
