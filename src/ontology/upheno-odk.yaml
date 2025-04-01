@@ -411,16 +411,19 @@ components:
     - filename: upheno-axiom-injections.owl
       description: "Contains correct axioms that should be moved into their respective upstream ontologies."
       use_template: TRUE
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
       templates:
         - axiom-injections.tsv
     - filename: upheno-top.owl
       description: "Contains all the top-level entity declarations."
       use_template: true
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
       templates:
         - phenotype-top-level.tsv
     - filename: upheno-alignments.owl
       description: "Contains manual alignments between SSPO classes and uPheno classes."
       use_template: true
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
       templates:
         - phenotype-alignments.tsv
         - root-alignments.tsv
@@ -428,6 +431,7 @@ components:
     - filename: upheno-manual-curation.owl
       description: "Contains all manually curated uPheno classes (without EQs)."
       use_template: true
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
       templates:
         - phenotypes-without-patterns.tsv
         - upheno-ssspo-groupings-no-eq.tsv

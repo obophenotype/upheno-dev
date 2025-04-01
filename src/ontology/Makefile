@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                97901ebf2d9b4b27548a6f32b2da1b788395b68bd72b1ac8cf0769c5e2cd4c93
+CONFIG_HASH=                fed371a3529861a0a05a52f2bb87070e90ab46cf05d58ff78a41891653aad00a
 
 
 # ----------------------------------------
@@ -478,7 +478,7 @@ $(COMPONENTSDIR)/upheno-deprecated.owl: $(TEMPLATEDIR)/obsolete.tsv
 
 
 $(COMPONENTSDIR)/upheno-axiom-injections.owl: $(TEMPLATEDIR)/axiom-injections.tsv
-	if [ $(COMP) = true ] ; then $(ROBOT) template  \
+	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "MGPO: http://purl.obolibrary.org/obo/MGPO_" \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
@@ -486,7 +486,7 @@ $(COMPONENTSDIR)/upheno-axiom-injections.owl: $(TEMPLATEDIR)/axiom-injections.ts
 
 
 $(COMPONENTSDIR)/upheno-top.owl: $(TEMPLATEDIR)/phenotype-top-level.tsv
-	if [ $(COMP) = true ] ; then $(ROBOT) template  \
+	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "MGPO: http://purl.obolibrary.org/obo/MGPO_" \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
@@ -494,7 +494,7 @@ $(COMPONENTSDIR)/upheno-top.owl: $(TEMPLATEDIR)/phenotype-top-level.tsv
 
 
 $(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv $(TEMPLATEDIR)/root-alignments.tsv $(TEMPLATEDIR)/upheno-ssspo-alignments-no-eq.tsv
-	if [ $(COMP) = true ] ; then $(ROBOT) template  \
+	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "MGPO: http://purl.obolibrary.org/obo/MGPO_" \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
@@ -502,7 +502,7 @@ $(COMPONENTSDIR)/upheno-alignments.owl: $(TEMPLATEDIR)/phenotype-alignments.tsv 
 
 
 $(COMPONENTSDIR)/upheno-manual-curation.owl: $(TEMPLATEDIR)/phenotypes-without-patterns.tsv $(TEMPLATEDIR)/upheno-ssspo-groupings-no-eq.tsv
-	if [ $(COMP) = true ] ; then $(ROBOT) template  \
+	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "MGPO: http://purl.obolibrary.org/obo/MGPO_" \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
