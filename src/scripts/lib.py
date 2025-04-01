@@ -7,6 +7,7 @@ from subprocess import check_call
 
 import ruamel.yaml
 import yaml
+from curies import Converter, chain
 from sssom.context import get_converter
 from sssom.parsers import from_sssom_dataframe
 from sssom.writers import write_table, write_owl
@@ -772,7 +773,13 @@ def create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, anatomy_mappin
     df = pd.read_csv(upheno_id_map, sep='\t')
     df_anatomy_mappings = pd.read_csv(anatomy_mappings, sep='\t', comment='#')
     anatomy_index = {}
-    converter = get_converter()
+    prefix_map = {
+        "MGPO": "http://purl.obolibrary.org/obo/MGPO_",
+        "PLANP": "http://purl.obolibrary.org/obo/PLANP_",
+    }
+    converter_builtoin = get_converter()
+    converter_manual = Converter.from_prefix_map(prefix_map)
+    converter = chain([converter_builtoin, converter_manual]) 
     
     for index, row in df_anatomy_mappings.iterrows():
         uberon_id = converter.expand(row['subject_id'])
@@ -1983,10 +1990,16 @@ class LexicalMapping:
                     prefix_synonyms=[],
                     uri_prefix="http://purl.obolibrary.org/obo/MGPO_",
                     uri_prefix_synonyms=[],
+                ),
+                curies.Record(
+                    prefix="PLANP",
+                    prefix_synonyms=[],
+                    uri_prefix="http://purl.obolibrary.org/obo/PLANP_",
+                    uri_prefix_synonyms=[],
                 )
             ]
         )
-        self.converter = curies.chain([obo_converter, custom_converter])
+        self.converter = chain([obo_converter, custom_converter])
 
 
     def _apply_stopword(self, label):
@@ -2062,10 +2075,10 @@ class LexicalMapping:
         df_maps = pd.merge(df_mappings, l, how="left", left_on=["p1"], right_on=["iri"])
         df_maps = pd.merge(df_maps, l, how="left", left_on=["p2"], right_on=["iri"])
         df_maps["o1"] = [
-            re.sub("_\d+", "", iri.replace(OBO_PREFIX, "")) for iri in df_maps["p1"].values
+            re.sub(r"_\d+", "", iri.replace(OBO_PREFIX, "")) for iri in df_maps["p1"].values
         ]
         df_maps["o2"] = [
-            re.sub("_\d+", "", iri.replace(OBO_PREFIX, "")) for iri in df_maps["p2"].values
+            re.sub(r"_\d+", "", iri.replace(OBO_PREFIX, "")) for iri in df_maps["p2"].values
         ]
         return df_maps
 
