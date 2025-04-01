@@ -2,15 +2,14 @@
 #   DDPHENO: http://purl.obolibrary.org/obo/DDPHENO_
 #   FBcv: http://purl.obolibrary.org/obo/FBcv_
 #   FYPO: http://purl.obolibrary.org/obo/FYPO_
-#   MGPO: http://purl.obolibrary.org/obo/MGPO_
 #   HP: http://purl.obolibrary.org/obo/HP_
+#   MGPO: http://purl.obolibrary.org/obo/MGPO_
 #   MP: http://purl.obolibrary.org/obo/MP_
 #   PHIPO: http://purl.obolibrary.org/obo/PHIPO_
 #   UPHENO: http://purl.obolibrary.org/obo/UPHENO_
 #   WBPhenotype: http://purl.obolibrary.org/obo/WBPhenotype_
 #   XPO: http://purl.obolibrary.org/obo/XPO_
 #   ZP: http://purl.obolibrary.org/obo/ZP_
-#   obo: http://purl.obolibrary.org/obo/
 #   owl: http://www.w3.org/2002/07/owl#
 #   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 #   rdfs: http://www.w3.org/2000/01/rdf-schema#
@@ -1137,7 +1136,6 @@ UPHENO:0002591	semapv:crossSpeciesExactMatch	HP:0012680	semapv:LogicalReasoning
 UPHENO:0002591	semapv:crossSpeciesExactMatch	XPO:0101068	semapv:LogicalReasoning
 UPHENO:0002591	semapv:crossSpeciesExactMatch	ZP:0107567	semapv:LogicalReasoning
 UPHENO:0002592	semapv:crossSpeciesExactMatch	HP:0000847	semapv:LogicalReasoning
-UPHENO:0002595	semapv:crossSpeciesExactMatch	HP:0000811	semapv:LogicalReasoning
 UPHENO:0002597	semapv:crossSpeciesExactMatch	HP:0000032	semapv:LogicalReasoning
 UPHENO:0002598	semapv:crossSpeciesExactMatch	HP:0000812	semapv:LogicalReasoning
 UPHENO:0002605	semapv:crossSpeciesExactMatch	HP:0430018	semapv:LogicalReasoning
@@ -1149,7 +1147,6 @@ UPHENO:0002625	semapv:crossSpeciesExactMatch	HP:0006508	semapv:LogicalReasoning
 UPHENO:0002626	semapv:crossSpeciesExactMatch	HP:0006695	semapv:LogicalReasoning
 UPHENO:0002626	semapv:crossSpeciesExactMatch	XPO:0100837	semapv:LogicalReasoning
 UPHENO:0002626	semapv:crossSpeciesExactMatch	ZP:0107781	semapv:LogicalReasoning
-UPHENO:0002628	semapv:crossSpeciesExactMatch	HP:0003891	semapv:LogicalReasoning
 UPHENO:0002629	semapv:crossSpeciesExactMatch	XPO:0100519	semapv:LogicalReasoning
 UPHENO:0002634	semapv:crossSpeciesExactMatch	XPO:0100387	semapv:LogicalReasoning
 UPHENO:0002635	semapv:crossSpeciesExactMatch	HP:0001574	semapv:LogicalReasoning
@@ -1266,7 +1263,6 @@ UPHENO:0002817	semapv:crossSpeciesExactMatch	ZP:0108499	semapv:LogicalReasoning
 UPHENO:0002819	semapv:crossSpeciesExactMatch	HP:0001743	semapv:LogicalReasoning
 UPHENO:0002819	semapv:crossSpeciesExactMatch	XPO:0100446	semapv:LogicalReasoning
 UPHENO:0002819	semapv:crossSpeciesExactMatch	ZP:0109114	semapv:LogicalReasoning
-UPHENO:0002821	semapv:crossSpeciesExactMatch	HP:0011328	semapv:LogicalReasoning
 UPHENO:0002821	semapv:crossSpeciesExactMatch	ZP:0108657	semapv:LogicalReasoning
 UPHENO:0002822	semapv:crossSpeciesExactMatch	HP:0000828	semapv:LogicalReasoning
 UPHENO:0002822	semapv:crossSpeciesExactMatch	XPO:0100860	semapv:LogicalReasoning
@@ -1347,12 +1343,10 @@ UPHENO:0002927	semapv:crossSpeciesExactMatch	XPO:0100253	semapv:LogicalReasoning
 UPHENO:0002927	semapv:crossSpeciesExactMatch	ZP:0107456	semapv:LogicalReasoning
 UPHENO:0002930	semapv:crossSpeciesExactMatch	HP:0004452	semapv:LogicalReasoning
 UPHENO:0002930	semapv:crossSpeciesExactMatch	XPO:0100425	semapv:LogicalReasoning
-UPHENO:0002931	semapv:crossSpeciesExactMatch	HP:0000765	semapv:LogicalReasoning
 UPHENO:0002933	semapv:crossSpeciesExactMatch	HP:0001469	semapv:LogicalReasoning
 UPHENO:0002934	semapv:crossSpeciesExactMatch	HP:0003319	semapv:LogicalReasoning
 UPHENO:0002934	semapv:crossSpeciesExactMatch	XPO:0100968	semapv:LogicalReasoning
 UPHENO:0002935	semapv:crossSpeciesExactMatch	HP:0000306	semapv:LogicalReasoning
-UPHENO:0002936	semapv:crossSpeciesExactMatch	HP:0008628	semapv:LogicalReasoning
 UPHENO:0002940	semapv:crossSpeciesExactMatch	XPO:0100414	semapv:LogicalReasoning
 UPHENO:0002940	semapv:crossSpeciesExactMatch	ZP:0015094	semapv:LogicalReasoning
 UPHENO:0002941	semapv:crossSpeciesExactMatch	HP:0002270	semapv:LogicalReasoning
@@ -1380,7 +1374,6 @@ UPHENO:0002972	semapv:crossSpeciesExactMatch	HP:0004248	semapv:LogicalReasoning
 UPHENO:0002973	semapv:crossSpeciesExactMatch	HP:0004243	semapv:LogicalReasoning
 UPHENO:0002978	semapv:crossSpeciesExactMatch	XPO:0100416	semapv:LogicalReasoning
 UPHENO:0002978	semapv:crossSpeciesExactMatch	ZP:0107525	semapv:LogicalReasoning
-UPHENO:0002980	semapv:crossSpeciesExactMatch	HP:0000236	semapv:LogicalReasoning
 UPHENO:0002981	semapv:crossSpeciesExactMatch	HP:0000045	semapv:LogicalReasoning
 UPHENO:0002982	semapv:crossSpeciesExactMatch	HP:0001435	semapv:LogicalReasoning
 UPHENO:0002983	semapv:crossSpeciesExactMatch	XPO:0100121	semapv:LogicalReasoning
@@ -1441,7 +1434,6 @@ UPHENO:0003064	semapv:crossSpeciesExactMatch	ZP:0109242	semapv:LogicalReasoning
 UPHENO:0003066	semapv:crossSpeciesExactMatch	XPO:0101586	semapv:LogicalReasoning
 UPHENO:0003066	semapv:crossSpeciesExactMatch	ZP:0107470	semapv:LogicalReasoning
 UPHENO:0003070	semapv:crossSpeciesExactMatch	HP:0002814	semapv:LogicalReasoning
-UPHENO:0003071	semapv:crossSpeciesExactMatch	HP:0001597	semapv:LogicalReasoning
 UPHENO:0003072	semapv:crossSpeciesExactMatch	HP:0000433	semapv:LogicalReasoning
 UPHENO:0003074	semapv:crossSpeciesExactMatch	HP:0000464	semapv:LogicalReasoning
 UPHENO:0003083	semapv:crossSpeciesExactMatch	HP:0430011	semapv:LogicalReasoning
@@ -1983,7 +1975,6 @@ UPHENO:0004709	semapv:crossSpeciesExactMatch	ZP:0109361	semapv:LogicalReasoning
 UPHENO:0004711	semapv:crossSpeciesExactMatch	XPO:0100853	semapv:LogicalReasoning
 UPHENO:0004721	semapv:crossSpeciesExactMatch	ZP:0108133	semapv:LogicalReasoning
 UPHENO:0004723	semapv:crossSpeciesExactMatch	XPO:0100401	semapv:LogicalReasoning
-UPHENO:0004726	semapv:crossSpeciesExactMatch	HP:0003063	semapv:LogicalReasoning
 UPHENO:0004726	semapv:crossSpeciesExactMatch	XPO:0100298	semapv:LogicalReasoning
 UPHENO:0004749	semapv:crossSpeciesExactMatch	XPO:0101065	semapv:LogicalReasoning
 UPHENO:0004749	semapv:crossSpeciesExactMatch	ZP:0109944	semapv:LogicalReasoning
@@ -4611,6 +4602,7 @@ UPHENO:0015278	semapv:crossSpeciesExactMatch	HP:0000630	semapv:LogicalReasoning
 UPHENO:0015298	semapv:crossSpeciesExactMatch	ZP:0141014	semapv:LogicalReasoning
 UPHENO:0015306	semapv:crossSpeciesExactMatch	HP:0008054	semapv:LogicalReasoning
 UPHENO:0015310	semapv:crossSpeciesExactMatch	HP:0011391	semapv:LogicalReasoning
+UPHENO:0016048	semapv:crossSpeciesExactMatch	ZP:0013337	semapv:LogicalReasoning
 UPHENO:0018381	semapv:crossSpeciesExactMatch	MP:0013845	semapv:LogicalReasoning
 UPHENO:0018382	semapv:crossSpeciesExactMatch	MP:0013943	semapv:LogicalReasoning
 UPHENO:0018383	semapv:crossSpeciesExactMatch	MP:0013986	semapv:LogicalReasoning
@@ -5198,8 +5190,8 @@ UPHENO:0031743	semapv:crossSpeciesExactMatch	PHIPO:0000413	semapv:LogicalReasoni
 UPHENO:0031743	semapv:crossSpeciesExactMatch	PHIPO:0000413	semapv:LogicalReasoning
 UPHENO:0031743	semapv:crossSpeciesExactMatch	XPO:0131691	semapv:LogicalReasoning
 UPHENO:0031743	semapv:crossSpeciesExactMatch	XPO:0131691	semapv:LogicalReasoning
+UPHENO:0031744	semapv:crossSpeciesExactMatch	MGPO:0002223	semapv:LogicalReasoning
 UPHENO:0031744	semapv:crossSpeciesExactMatch	WBPhenotype:0001695	semapv:LogicalReasoning
-UPHENO:0031744	semapv:crossSpeciesExactMatch	obo:MGPO_0002223	semapv:LogicalReasoning
 UPHENO:0031745	semapv:crossSpeciesExactMatch	DDPHENO:0001331	semapv:LogicalReasoning
 UPHENO:0031746	semapv:crossSpeciesExactMatch	ZP:0013080	semapv:LogicalReasoning
 UPHENO:0031747	semapv:crossSpeciesExactMatch	ZP:0005625	semapv:LogicalReasoning
@@ -5581,7 +5573,6 @@ UPHENO:0035124	semapv:crossSpeciesExactMatch	HP:0009017	semapv:LogicalReasoning
 UPHENO:0035125	semapv:crossSpeciesExactMatch	HP:0009056	semapv:LogicalReasoning
 UPHENO:0035127	semapv:crossSpeciesExactMatch	HP:0001849	semapv:LogicalReasoning
 UPHENO:0035129	semapv:crossSpeciesExactMatch	HP:0003635	semapv:LogicalReasoning
-UPHENO:0035132	semapv:crossSpeciesExactMatch	HP:0008887	semapv:LogicalReasoning
 UPHENO:0035132	semapv:crossSpeciesExactMatch	ZP:0101149	semapv:LogicalReasoning
 UPHENO:0035135	semapv:crossSpeciesExactMatch	HP:0009002	semapv:LogicalReasoning
 UPHENO:0035182	semapv:crossSpeciesExactMatch	HP:0009828	semapv:LogicalReasoning
@@ -5619,7 +5610,6 @@ UPHENO:0041067	semapv:crossSpeciesExactMatch	ZP:0005384	semapv:LogicalReasoning
 UPHENO:0041070	semapv:crossSpeciesExactMatch	ZP:0146232	semapv:LogicalReasoning
 UPHENO:0041073	semapv:crossSpeciesExactMatch	MP:0030500	semapv:LogicalReasoning
 UPHENO:0041078	semapv:crossSpeciesExactMatch	MP:0004678	semapv:LogicalReasoning
-UPHENO:0041079	semapv:crossSpeciesExactMatch	HP:0000483	semapv:LogicalReasoning
 UPHENO:0041079	semapv:crossSpeciesExactMatch	MP:0006151	semapv:LogicalReasoning
 UPHENO:0041085	semapv:crossSpeciesExactMatch	HP:0000243	semapv:LogicalReasoning
 UPHENO:0041085	semapv:crossSpeciesExactMatch	MP:0030368	semapv:LogicalReasoning
@@ -6544,7 +6534,7 @@ UPHENO:0047832	semapv:crossSpeciesExactMatch	MP:0000019	semapv:LogicalReasoning
 UPHENO:0047835	semapv:crossSpeciesExactMatch	MP:0011154	semapv:LogicalReasoning
 UPHENO:0047836	semapv:crossSpeciesExactMatch	MP:0011153	semapv:LogicalReasoning
 UPHENO:0047837	semapv:crossSpeciesExactMatch	MP:0010617	semapv:LogicalReasoning
-UPHENO:0047838	semapv:crossSpeciesExactMatch	HP:0007543	semapv:LogicalReasoning
+UPHENO:0047838	semapv:crossSpeciesExactMatch	HP:0000962	semapv:LogicalReasoning
 UPHENO:0047838	semapv:crossSpeciesExactMatch	MP:0001242	semapv:LogicalReasoning
 UPHENO:0047841	semapv:crossSpeciesExactMatch	MP:0009474	semapv:LogicalReasoning
 UPHENO:0047842	semapv:crossSpeciesExactMatch	MP:0011409	semapv:LogicalReasoning
@@ -6599,7 +6589,6 @@ UPHENO:0047943	semapv:crossSpeciesExactMatch	MP:0011143	semapv:LogicalReasoning
 UPHENO:0047944	semapv:crossSpeciesExactMatch	HP:0006891	semapv:LogicalReasoning
 UPHENO:0047944	semapv:crossSpeciesExactMatch	MP:0000789	semapv:LogicalReasoning
 UPHENO:0047946	semapv:crossSpeciesExactMatch	MP:0011524	semapv:LogicalReasoning
-UPHENO:0047953	semapv:crossSpeciesExactMatch	HP:0000962	semapv:LogicalReasoning
 UPHENO:0047953	semapv:crossSpeciesExactMatch	MP:0001219	semapv:LogicalReasoning
 UPHENO:0047953	semapv:crossSpeciesExactMatch	XPO:0103914	semapv:LogicalReasoning
 UPHENO:0047953	semapv:crossSpeciesExactMatch	ZP:0006147	semapv:LogicalReasoning
@@ -6736,7 +6725,6 @@ UPHENO:0048678	semapv:crossSpeciesExactMatch	MP:0020446	semapv:LogicalReasoning
 UPHENO:0048679	semapv:crossSpeciesExactMatch	MP:0020020	semapv:LogicalReasoning
 UPHENO:0048680	semapv:crossSpeciesExactMatch	MP:0020312	semapv:LogicalReasoning
 UPHENO:0048681	semapv:crossSpeciesExactMatch	MP:0012637	semapv:LogicalReasoning
-UPHENO:0048682	semapv:crossSpeciesExactMatch	MP:0020047	semapv:LogicalReasoning
 UPHENO:0048683	semapv:crossSpeciesExactMatch	DDPHENO:0001256	semapv:LogicalReasoning
 UPHENO:0048683	semapv:crossSpeciesExactMatch	PHIPO:0000437	semapv:LogicalReasoning
 UPHENO:0048683	semapv:crossSpeciesExactMatch	WBPhenotype:0000125	semapv:LogicalReasoning
@@ -7270,7 +7258,10 @@ UPHENO:0050111	semapv:crossSpeciesExactMatch	WBPhenotype:0000481	semapv:LogicalR
 UPHENO:0050112	semapv:crossSpeciesExactMatch	DDPHENO:0001224	semapv:LogicalReasoning
 UPHENO:0050112	semapv:crossSpeciesExactMatch	WBPhenotype:0000635	semapv:LogicalReasoning
 UPHENO:0050113	semapv:crossSpeciesExactMatch	DDPHENO:0001005	semapv:LogicalReasoning
+UPHENO:0050113	semapv:crossSpeciesExactMatch	DDPHENO:0001005	semapv:LogicalReasoning
 UPHENO:0050113	semapv:crossSpeciesExactMatch	PHIPO:0001147	semapv:LogicalReasoning
+UPHENO:0050113	semapv:crossSpeciesExactMatch	PHIPO:0001147	semapv:LogicalReasoning
+UPHENO:0050113	semapv:crossSpeciesExactMatch	XPO:0141790	semapv:LogicalReasoning
 UPHENO:0050113	semapv:crossSpeciesExactMatch	XPO:0141790	semapv:LogicalReasoning
 UPHENO:0050116	semapv:crossSpeciesExactMatch	XPO:0141791	semapv:LogicalReasoning
 UPHENO:0050118	semapv:crossSpeciesExactMatch	DDPHENO:0001031	semapv:LogicalReasoning
@@ -7977,7 +7968,6 @@ UPHENO:0051233	semapv:crossSpeciesExactMatch	ZP:0010773	semapv:LogicalReasoning
 UPHENO:0051234	semapv:crossSpeciesExactMatch	ZP:0016772	semapv:LogicalReasoning
 UPHENO:0051235	semapv:crossSpeciesExactMatch	ZP:0103740	semapv:LogicalReasoning
 UPHENO:0051236	semapv:crossSpeciesExactMatch	ZP:0010913	semapv:LogicalReasoning
-UPHENO:0051237	semapv:crossSpeciesExactMatch	ZP:0013206	semapv:LogicalReasoning
 UPHENO:0051238	semapv:crossSpeciesExactMatch	ZP:0013693	semapv:LogicalReasoning
 UPHENO:0051242	semapv:crossSpeciesExactMatch	ZP:0001580	semapv:LogicalReasoning
 UPHENO:0051243	semapv:crossSpeciesExactMatch	ZP:0001659	semapv:LogicalReasoning
@@ -8563,7 +8553,6 @@ UPHENO:0052291	semapv:crossSpeciesExactMatch	ZP:0011725	semapv:LogicalReasoning
 UPHENO:0052292	semapv:crossSpeciesExactMatch	ZP:0002989	semapv:LogicalReasoning
 UPHENO:0052294	semapv:crossSpeciesExactMatch	ZP:0011784	semapv:LogicalReasoning
 UPHENO:0052297	semapv:crossSpeciesExactMatch	ZP:0018561	semapv:LogicalReasoning
-UPHENO:0052298	semapv:crossSpeciesExactMatch	ZP:0019459	semapv:LogicalReasoning
 UPHENO:0052300	semapv:crossSpeciesExactMatch	ZP:0101754	semapv:LogicalReasoning
 UPHENO:0052303	semapv:crossSpeciesExactMatch	ZP:0009356	semapv:LogicalReasoning
 UPHENO:0052305	semapv:crossSpeciesExactMatch	ZP:0000697	semapv:LogicalReasoning
@@ -8873,7 +8862,6 @@ UPHENO:0053142	semapv:crossSpeciesExactMatch	ZP:0020616	semapv:LogicalReasoning
 UPHENO:0053143	semapv:crossSpeciesExactMatch	ZP:0014612	semapv:LogicalReasoning
 UPHENO:0053144	semapv:crossSpeciesExactMatch	ZP:0000793	semapv:LogicalReasoning
 UPHENO:0053147	semapv:crossSpeciesExactMatch	ZP:0001158	semapv:LogicalReasoning
-UPHENO:0053151	semapv:crossSpeciesExactMatch	ZP:0103026	semapv:LogicalReasoning
 UPHENO:0053152	semapv:crossSpeciesExactMatch	ZP:0101405	semapv:LogicalReasoning
 UPHENO:0053154	semapv:crossSpeciesExactMatch	ZP:0002207	semapv:LogicalReasoning
 UPHENO:0053155	semapv:crossSpeciesExactMatch	ZP:0001362	semapv:LogicalReasoning
@@ -9416,7 +9404,6 @@ UPHENO:0054609	semapv:crossSpeciesExactMatch	XPO:0103827	semapv:LogicalReasoning
 UPHENO:0054610	semapv:crossSpeciesExactMatch	HP:0000189	semapv:LogicalReasoning
 UPHENO:0054610	semapv:crossSpeciesExactMatch	MP:0003758	semapv:LogicalReasoning
 UPHENO:0054611	semapv:crossSpeciesExactMatch	MP:0000620	semapv:LogicalReasoning
-UPHENO:0054621	semapv:crossSpeciesExactMatch	HP:0000402	semapv:LogicalReasoning
 UPHENO:0054623	semapv:crossSpeciesExactMatch	HP:0011313	semapv:LogicalReasoning
 UPHENO:0054626	semapv:crossSpeciesExactMatch	HP:0003944	semapv:LogicalReasoning
 UPHENO:0054629	semapv:crossSpeciesExactMatch	HP:0010811	semapv:LogicalReasoning
@@ -9429,7 +9416,6 @@ UPHENO:0054647	semapv:crossSpeciesExactMatch	HP:0000160	semapv:LogicalReasoning
 UPHENO:0054647	semapv:crossSpeciesExactMatch	MP:0031505	semapv:LogicalReasoning
 UPHENO:0054647	semapv:crossSpeciesExactMatch	XPO:0103828	semapv:LogicalReasoning
 UPHENO:0054647	semapv:crossSpeciesExactMatch	ZP:0103141	semapv:LogicalReasoning
-UPHENO:0054648	semapv:crossSpeciesExactMatch	HP:0008714	semapv:LogicalReasoning
 UPHENO:0054653	semapv:crossSpeciesExactMatch	HP:0004283	semapv:LogicalReasoning
 UPHENO:0054654	semapv:crossSpeciesExactMatch	HP:0002868	semapv:LogicalReasoning
 UPHENO:0054660	semapv:crossSpeciesExactMatch	HP:0000446	semapv:LogicalReasoning
@@ -9635,7 +9621,6 @@ UPHENO:0056258	semapv:crossSpeciesExactMatch	HP:0010328	semapv:LogicalReasoning
 UPHENO:0056260	semapv:crossSpeciesExactMatch	HP:0010334	semapv:LogicalReasoning
 UPHENO:0056263	semapv:crossSpeciesExactMatch	HP:0010340	semapv:LogicalReasoning
 UPHENO:0056274	semapv:crossSpeciesExactMatch	HP:0001830	semapv:LogicalReasoning
-UPHENO:0056290	semapv:crossSpeciesExactMatch	HP:0002570	semapv:LogicalReasoning
 UPHENO:0056292	semapv:crossSpeciesExactMatch	HP:0006159	semapv:LogicalReasoning
 UPHENO:0056299	semapv:crossSpeciesExactMatch	HP:0009193	semapv:LogicalReasoning
 UPHENO:0056305	semapv:crossSpeciesExactMatch	HP:0100260	semapv:LogicalReasoning
@@ -9646,6 +9631,7 @@ UPHENO:0056327	semapv:crossSpeciesExactMatch	HP:0006067	semapv:LogicalReasoning
 UPHENO:0056328	semapv:crossSpeciesExactMatch	HP:0009958	semapv:LogicalReasoning
 UPHENO:0056333	semapv:crossSpeciesExactMatch	HP:0000238	semapv:LogicalReasoning
 UPHENO:0056336	semapv:crossSpeciesExactMatch	HP:0009971	semapv:LogicalReasoning
+UPHENO:0056750	semapv:crossSpeciesExactMatch	ZP:0023097	semapv:LogicalReasoning
 UPHENO:0059908	semapv:crossSpeciesExactMatch	WBPhenotype:0001352	semapv:LogicalReasoning
 UPHENO:0059931	semapv:crossSpeciesExactMatch	WBPhenotype:0001283	semapv:LogicalReasoning
 UPHENO:0063523	semapv:crossSpeciesExactMatch	MP:0011861	semapv:LogicalReasoning
@@ -10309,7 +10295,6 @@ UPHENO:0066882	semapv:crossSpeciesExactMatch	MP:0020447	semapv:LogicalReasoning
 UPHENO:0066883	semapv:crossSpeciesExactMatch	MP:0020019	semapv:LogicalReasoning
 UPHENO:0066884	semapv:crossSpeciesExactMatch	MP:0020311	semapv:LogicalReasoning
 UPHENO:0066885	semapv:crossSpeciesExactMatch	MP:0012636	semapv:LogicalReasoning
-UPHENO:0066886	semapv:crossSpeciesExactMatch	MP:0020046	semapv:LogicalReasoning
 UPHENO:0066895	semapv:crossSpeciesExactMatch	HP:0003209	semapv:LogicalReasoning
 UPHENO:0066897	semapv:crossSpeciesExactMatch	DDPHENO:0001257	semapv:LogicalReasoning
 UPHENO:0066897	semapv:crossSpeciesExactMatch	WBPhenotype:0000124	semapv:LogicalReasoning
@@ -10648,7 +10633,6 @@ UPHENO:0068059	semapv:crossSpeciesExactMatch	HP:0012406	semapv:LogicalReasoning
 UPHENO:0068059	semapv:crossSpeciesExactMatch	MP:0030778	semapv:LogicalReasoning
 UPHENO:0068063	semapv:crossSpeciesExactMatch	HP:0002153	semapv:LogicalReasoning
 UPHENO:0068063	semapv:crossSpeciesExactMatch	MP:0005627	semapv:LogicalReasoning
-UPHENO:0068065	semapv:crossSpeciesExactMatch	MP:0012552	semapv:LogicalReasoning
 UPHENO:0068066	semapv:crossSpeciesExactMatch	MP:0014071	semapv:LogicalReasoning
 UPHENO:0068068	semapv:crossSpeciesExactMatch	MP:0002904	semapv:LogicalReasoning
 UPHENO:0068069	semapv:crossSpeciesExactMatch	MP:0008593	semapv:LogicalReasoning
@@ -10716,6 +10700,7 @@ UPHENO:0068158	semapv:crossSpeciesExactMatch	MP:0000315	semapv:LogicalReasoning
 UPHENO:0068160	semapv:crossSpeciesExactMatch	MP:0011543	semapv:LogicalReasoning
 UPHENO:0068162	semapv:crossSpeciesExactMatch	HP:0008358	semapv:LogicalReasoning
 UPHENO:0068162	semapv:crossSpeciesExactMatch	MP:0030667	semapv:LogicalReasoning
+UPHENO:0068164	semapv:crossSpeciesExactMatch	HP:0002570	semapv:LogicalReasoning
 UPHENO:0068164	semapv:crossSpeciesExactMatch	MP:0002791	semapv:LogicalReasoning
 UPHENO:0068165	semapv:crossSpeciesExactMatch	MP:0013405	semapv:LogicalReasoning
 UPHENO:0068166	semapv:crossSpeciesExactMatch	HP:0002149	semapv:LogicalReasoning
@@ -11021,8 +11006,8 @@ UPHENO:0068583	semapv:crossSpeciesExactMatch	HP:0012067	semapv:LogicalReasoning
 UPHENO:0068587	semapv:crossSpeciesExactMatch	HP:0410069	semapv:LogicalReasoning
 UPHENO:0068588	semapv:crossSpeciesExactMatch	HP:0410071	semapv:LogicalReasoning
 UPHENO:0068589	semapv:crossSpeciesExactMatch	HP:0010471	semapv:LogicalReasoning
-UPHENO:0068589	semapv:crossSpeciesExactMatch	obo:MGPO_0002216	semapv:LogicalReasoning
-UPHENO:0068589	semapv:crossSpeciesExactMatch	obo:MGPO_0002216	semapv:LogicalReasoning
+UPHENO:0068589	semapv:crossSpeciesExactMatch	MGPO:0002216	semapv:LogicalReasoning
+UPHENO:0068589	semapv:crossSpeciesExactMatch	MGPO:0002216	semapv:LogicalReasoning
 UPHENO:0068590	semapv:crossSpeciesExactMatch	HP:0008155	semapv:LogicalReasoning
 UPHENO:0068591	semapv:crossSpeciesExactMatch	HP:0410153	semapv:LogicalReasoning
 UPHENO:0068592	semapv:crossSpeciesExactMatch	HP:0500252	semapv:LogicalReasoning
@@ -12806,6 +12791,7 @@ UPHENO:0075667	semapv:crossSpeciesExactMatch	WBPhenotype:0002482	semapv:LogicalR
 UPHENO:0075668	semapv:crossSpeciesExactMatch	WBPhenotype:0002238	semapv:LogicalReasoning
 UPHENO:0075669	semapv:crossSpeciesExactMatch	DDPHENO:0001236	semapv:LogicalReasoning
 UPHENO:0075669	semapv:crossSpeciesExactMatch	WBPhenotype:0002264	semapv:LogicalReasoning
+UPHENO:0075670	semapv:crossSpeciesExactMatch	MP:0014549	semapv:LogicalReasoning
 UPHENO:0075670	semapv:crossSpeciesExactMatch	WBPhenotype:0002246	semapv:LogicalReasoning
 UPHENO:0075671	semapv:crossSpeciesExactMatch	WBPhenotype:0002350	semapv:LogicalReasoning
 UPHENO:0075755	semapv:crossSpeciesExactMatch	HP:0006529	semapv:LogicalReasoning
@@ -12939,13 +12925,11 @@ UPHENO:0075912	semapv:crossSpeciesExactMatch	HP:0100339	semapv:LogicalReasoning
 UPHENO:0075913	semapv:crossSpeciesExactMatch	HP:3000045	semapv:LogicalReasoning
 UPHENO:0075914	semapv:crossSpeciesExactMatch	HP:3000011	semapv:LogicalReasoning
 UPHENO:0075916	semapv:crossSpeciesExactMatch	HP:3000016	semapv:LogicalReasoning
-UPHENO:0075917	semapv:crossSpeciesExactMatch	HP:0011454	semapv:LogicalReasoning
 UPHENO:0075918	semapv:crossSpeciesExactMatch	HP:0010182	semapv:LogicalReasoning
 UPHENO:0075920	semapv:crossSpeciesExactMatch	HP:0010184	semapv:LogicalReasoning
 UPHENO:0075922	semapv:crossSpeciesExactMatch	HP:3000008	semapv:LogicalReasoning
 UPHENO:0075923	semapv:crossSpeciesExactMatch	HP:0000056	semapv:LogicalReasoning
 UPHENO:0075924	semapv:crossSpeciesExactMatch	HP:0010183	semapv:LogicalReasoning
-UPHENO:0075925	semapv:crossSpeciesExactMatch	HP:0011453	semapv:LogicalReasoning
 UPHENO:0075926	semapv:crossSpeciesExactMatch	HP:0010342	semapv:LogicalReasoning
 UPHENO:0075927	semapv:crossSpeciesExactMatch	ZP:0108425	semapv:LogicalReasoning
 UPHENO:0075928	semapv:crossSpeciesExactMatch	HP:0010336	semapv:LogicalReasoning
@@ -12972,7 +12956,6 @@ UPHENO:0075959	semapv:crossSpeciesExactMatch	HP:3000012	semapv:LogicalReasoning
 UPHENO:0075960	semapv:crossSpeciesExactMatch	HP:0430017	semapv:LogicalReasoning
 UPHENO:0075961	semapv:crossSpeciesExactMatch	HP:0100767	semapv:LogicalReasoning
 UPHENO:0075962	semapv:crossSpeciesExactMatch	HP:3000039	semapv:LogicalReasoning
-UPHENO:0075963	semapv:crossSpeciesExactMatch	HP:3000022	semapv:LogicalReasoning
 UPHENO:0075965	semapv:crossSpeciesExactMatch	HP:0100711	semapv:LogicalReasoning
 UPHENO:0075966	semapv:crossSpeciesExactMatch	HP:3000032	semapv:LogicalReasoning
 UPHENO:0075969	semapv:crossSpeciesExactMatch	HP:3000069	semapv:LogicalReasoning
@@ -14387,7 +14370,6 @@ UPHENO:0078398	semapv:crossSpeciesExactMatch	MP:0030979	semapv:LogicalReasoning
 UPHENO:0078402	semapv:crossSpeciesExactMatch	WBPhenotype:0001093	semapv:LogicalReasoning
 UPHENO:0078402	semapv:crossSpeciesExactMatch	WBPhenotype:0001093	semapv:LogicalReasoning
 UPHENO:0078403	semapv:crossSpeciesExactMatch	MP:0008864	semapv:LogicalReasoning
-UPHENO:0078405	semapv:crossSpeciesExactMatch	HP:0011922	semapv:LogicalReasoning
 UPHENO:0078430	semapv:crossSpeciesExactMatch	MP:0010879	semapv:LogicalReasoning
 UPHENO:0078431	semapv:crossSpeciesExactMatch	MP:0020083	semapv:LogicalReasoning
 UPHENO:0078432	semapv:crossSpeciesExactMatch	MP:0010965	semapv:LogicalReasoning
@@ -14933,7 +14915,6 @@ UPHENO:0079470	semapv:crossSpeciesExactMatch	ZP:0015760	semapv:LogicalReasoning
 UPHENO:0079471	semapv:crossSpeciesExactMatch	WBPhenotype:0000183	semapv:LogicalReasoning
 UPHENO:0079471	semapv:crossSpeciesExactMatch	ZP:0000311	semapv:LogicalReasoning
 UPHENO:0079472	semapv:crossSpeciesExactMatch	ZP:0005067	semapv:LogicalReasoning
-UPHENO:0079473	semapv:crossSpeciesExactMatch	ZP:0000408	semapv:LogicalReasoning
 UPHENO:0079474	semapv:crossSpeciesExactMatch	ZP:0016337	semapv:LogicalReasoning
 UPHENO:0079475	semapv:crossSpeciesExactMatch	ZP:0003242	semapv:LogicalReasoning
 UPHENO:0079476	semapv:crossSpeciesExactMatch	ZP:0014366	semapv:LogicalReasoning
@@ -14989,6 +14970,7 @@ UPHENO:0080006	semapv:crossSpeciesExactMatch	XPO:0133398	semapv:LogicalReasoning
 UPHENO:0080017	semapv:crossSpeciesExactMatch	HP:0003282	semapv:LogicalReasoning
 UPHENO:0080018	semapv:crossSpeciesExactMatch	WBPhenotype:0002481	semapv:LogicalReasoning
 UPHENO:0080019	semapv:crossSpeciesExactMatch	WBPhenotype:0002239	semapv:LogicalReasoning
+UPHENO:0080020	semapv:crossSpeciesExactMatch	MP:0014550	semapv:LogicalReasoning
 UPHENO:0080020	semapv:crossSpeciesExactMatch	WBPhenotype:0002245	semapv:LogicalReasoning
 UPHENO:0080021	semapv:crossSpeciesExactMatch	WBPhenotype:0002351	semapv:LogicalReasoning
 UPHENO:0080022	semapv:crossSpeciesExactMatch	WBPhenotype:0002349	semapv:LogicalReasoning
@@ -15353,7 +15335,6 @@ UPHENO:0080439	semapv:crossSpeciesExactMatch	HP:0041164	semapv:LogicalReasoning
 UPHENO:0080440	semapv:crossSpeciesExactMatch	HP:0041226	semapv:LogicalReasoning
 UPHENO:0080442	semapv:crossSpeciesExactMatch	HP:0041225	semapv:LogicalReasoning
 UPHENO:0080443	semapv:crossSpeciesExactMatch	HP:0041188	semapv:LogicalReasoning
-UPHENO:0080444	semapv:crossSpeciesExactMatch	HP:0041064	semapv:LogicalReasoning
 UPHENO:0080445	semapv:crossSpeciesExactMatch	HP:0041082	semapv:LogicalReasoning
 UPHENO:0080446	semapv:crossSpeciesExactMatch	HP:0041144	semapv:LogicalReasoning
 UPHENO:0080447	semapv:crossSpeciesExactMatch	HP:0041165	semapv:LogicalReasoning
@@ -15522,12 +15503,12 @@ UPHENO:0080634	semapv:crossSpeciesExactMatch	HP:0032572	semapv:LogicalReasoning
 UPHENO:0080635	semapv:crossSpeciesExactMatch	HP:0033091	semapv:LogicalReasoning
 UPHENO:0080636	semapv:crossSpeciesExactMatch	HP:0410194	semapv:LogicalReasoning
 UPHENO:0080637	semapv:crossSpeciesExactMatch	HP:0032351	semapv:LogicalReasoning
-UPHENO:0080639	semapv:crossSpeciesExactMatch	HP:0040145	semapv:LogicalReasoning
+UPHENO:0080637	semapv:crossSpeciesExactMatch	MP:0031642	semapv:LogicalReasoning
 UPHENO:0080641	semapv:crossSpeciesExactMatch	HP:0033100	semapv:LogicalReasoning
 UPHENO:0080642	semapv:crossSpeciesExactMatch	HP:0031414	semapv:LogicalReasoning
 UPHENO:0080643	semapv:crossSpeciesExactMatch	HP:0031415	semapv:LogicalReasoning
-UPHENO:0080658	semapv:crossSpeciesExactMatch	obo:MGPO_0002217	semapv:LogicalReasoning
-UPHENO:0080658	semapv:crossSpeciesExactMatch	obo:MGPO_0002217	semapv:LogicalReasoning
+UPHENO:0080658	semapv:crossSpeciesExactMatch	MGPO:0002217	semapv:LogicalReasoning
+UPHENO:0080658	semapv:crossSpeciesExactMatch	MGPO:0002217	semapv:LogicalReasoning
 UPHENO:0080661	semapv:crossSpeciesExactMatch	MP:0009754	semapv:LogicalReasoning
 UPHENO:0080663	semapv:crossSpeciesExactMatch	ZP:0007346	semapv:LogicalReasoning
 UPHENO:0080664	semapv:crossSpeciesExactMatch	ZP:0001797	semapv:LogicalReasoning
@@ -15622,7 +15603,6 @@ UPHENO:0080752	semapv:crossSpeciesExactMatch	ZP:0017705	semapv:LogicalReasoning
 UPHENO:0080753	semapv:crossSpeciesExactMatch	ZP:0104418	semapv:LogicalReasoning
 UPHENO:0080754	semapv:crossSpeciesExactMatch	ZP:0010784	semapv:LogicalReasoning
 UPHENO:0080755	semapv:crossSpeciesExactMatch	ZP:0006781	semapv:LogicalReasoning
-UPHENO:0080756	semapv:crossSpeciesExactMatch	ZP:0010716	semapv:LogicalReasoning
 UPHENO:0080757	semapv:crossSpeciesExactMatch	ZP:0018359	semapv:LogicalReasoning
 UPHENO:0080758	semapv:crossSpeciesExactMatch	ZP:0015575	semapv:LogicalReasoning
 UPHENO:0080759	semapv:crossSpeciesExactMatch	ZP:0014427	semapv:LogicalReasoning
@@ -16500,6 +16480,7 @@ UPHENO:0081719	semapv:crossSpeciesExactMatch	HP:0002932	semapv:LogicalReasoning
 UPHENO:0081720	semapv:crossSpeciesExactMatch	HP:0005982	semapv:LogicalReasoning
 UPHENO:0081721	semapv:crossSpeciesExactMatch	HP:0003654	semapv:LogicalReasoning
 UPHENO:0081722	semapv:crossSpeciesExactMatch	HP:0003534	semapv:LogicalReasoning
+UPHENO:0081723	semapv:crossSpeciesExactMatch	MP:0014542	semapv:LogicalReasoning
 UPHENO:0081723	semapv:crossSpeciesExactMatch	WBPhenotype:0002637	semapv:LogicalReasoning
 UPHENO:0081724	semapv:crossSpeciesExactMatch	DDPHENO:0001242	semapv:LogicalReasoning
 UPHENO:0081724	semapv:crossSpeciesExactMatch	PHIPO:0001027	semapv:LogicalReasoning
@@ -16526,12 +16507,12 @@ UPHENO:0081775	semapv:crossSpeciesExactMatch	HP:0030684	semapv:LogicalReasoning
 UPHENO:0081777	semapv:crossSpeciesExactMatch	HP:0004379	semapv:LogicalReasoning
 UPHENO:0081778	semapv:crossSpeciesExactMatch	PHIPO:0001060	semapv:LogicalReasoning
 UPHENO:0081779	semapv:crossSpeciesExactMatch	PHIPO:0001022	semapv:LogicalReasoning
-UPHENO:0081780	semapv:crossSpeciesExactMatch	obo:MGPO_0002106	semapv:LogicalReasoning
-UPHENO:0081780	semapv:crossSpeciesExactMatch	obo:MGPO_0002106	semapv:LogicalReasoning
-UPHENO:0081781	semapv:crossSpeciesExactMatch	obo:MGPO_0002234	semapv:LogicalReasoning
-UPHENO:0081781	semapv:crossSpeciesExactMatch	obo:MGPO_0002234	semapv:LogicalReasoning
-UPHENO:0081782	semapv:crossSpeciesExactMatch	obo:MGPO_0002233	semapv:LogicalReasoning
-UPHENO:0081782	semapv:crossSpeciesExactMatch	obo:MGPO_0002233	semapv:LogicalReasoning
+UPHENO:0081780	semapv:crossSpeciesExactMatch	MGPO:0002106	semapv:LogicalReasoning
+UPHENO:0081780	semapv:crossSpeciesExactMatch	MGPO:0002106	semapv:LogicalReasoning
+UPHENO:0081781	semapv:crossSpeciesExactMatch	MGPO:0002234	semapv:LogicalReasoning
+UPHENO:0081781	semapv:crossSpeciesExactMatch	MGPO:0002234	semapv:LogicalReasoning
+UPHENO:0081782	semapv:crossSpeciesExactMatch	MGPO:0002233	semapv:LogicalReasoning
+UPHENO:0081782	semapv:crossSpeciesExactMatch	MGPO:0002233	semapv:LogicalReasoning
 UPHENO:0081784	semapv:crossSpeciesExactMatch	HP:0000369	semapv:LogicalReasoning
 UPHENO:0081784	semapv:crossSpeciesExactMatch	MP:0000024	semapv:LogicalReasoning
 UPHENO:0081785	semapv:crossSpeciesExactMatch	HP:0002562	semapv:LogicalReasoning
@@ -16640,6 +16621,7 @@ UPHENO:0082000	semapv:crossSpeciesExactMatch	MP:0031175	semapv:LogicalReasoning
 UPHENO:0082001	semapv:crossSpeciesExactMatch	MP:0000242	semapv:LogicalReasoning
 UPHENO:0082002	semapv:crossSpeciesExactMatch	MP:0009758	semapv:LogicalReasoning
 UPHENO:0082003	semapv:crossSpeciesExactMatch	HP:0000802	semapv:LogicalReasoning
+UPHENO:0082003	semapv:crossSpeciesExactMatch	MP:0031646	semapv:LogicalReasoning
 UPHENO:0082004	semapv:crossSpeciesExactMatch	ZP:0138226	semapv:LogicalReasoning
 UPHENO:0082005	semapv:crossSpeciesExactMatch	ZP:0138673	semapv:LogicalReasoning
 UPHENO:0082006	semapv:crossSpeciesExactMatch	MP:0013239	semapv:LogicalReasoning
@@ -18095,6 +18077,7 @@ UPHENO:0084534	semapv:crossSpeciesExactMatch	HP:0005067	semapv:LogicalReasoning
 UPHENO:0084535	semapv:crossSpeciesExactMatch	HP:0008968	semapv:LogicalReasoning
 UPHENO:0084536	semapv:crossSpeciesExactMatch	MP:0021122	semapv:LogicalReasoning
 UPHENO:0084537	semapv:crossSpeciesExactMatch	MP:0021145	semapv:LogicalReasoning
+UPHENO:0084537	semapv:crossSpeciesExactMatch	MP:0021145	semapv:LogicalReasoning
 UPHENO:0084538	semapv:crossSpeciesExactMatch	MP:0030763	semapv:LogicalReasoning
 UPHENO:0084539	semapv:crossSpeciesExactMatch	MP:0021129	semapv:LogicalReasoning
 UPHENO:0084540	semapv:crossSpeciesExactMatch	MP:0021125	semapv:LogicalReasoning
@@ -19139,7 +19122,6 @@ UPHENO:0086095	semapv:crossSpeciesExactMatch	HP:0003083	semapv:LogicalReasoning
 UPHENO:0086095	semapv:crossSpeciesExactMatch	MP:0030883	semapv:LogicalReasoning
 UPHENO:0086096	semapv:crossSpeciesExactMatch	HP:0003994	semapv:LogicalReasoning
 UPHENO:0086097	semapv:crossSpeciesExactMatch	HP:0008141	semapv:LogicalReasoning
-UPHENO:0086098	semapv:crossSpeciesExactMatch	HP:0008826	semapv:LogicalReasoning
 UPHENO:0086099	semapv:crossSpeciesExactMatch	HP:0003834	semapv:LogicalReasoning
 UPHENO:0086100	semapv:crossSpeciesExactMatch	HP:0002827	semapv:LogicalReasoning
 UPHENO:0086101	semapv:crossSpeciesExactMatch	HP:0004976	semapv:LogicalReasoning
@@ -19366,9 +19348,9 @@ UPHENO:0086374	semapv:crossSpeciesExactMatch	XPO:0141815	semapv:LogicalReasoning
 UPHENO:0086375	semapv:crossSpeciesExactMatch	XPO:0141816	semapv:LogicalReasoning
 UPHENO:0086376	semapv:crossSpeciesExactMatch	XPO:0141818	semapv:LogicalReasoning
 UPHENO:0086377	semapv:crossSpeciesExactMatch	ZP:0145393	semapv:LogicalReasoning
-UPHENO:0086378	semapv:crossSpeciesExactMatch	obo:MGPO_0002224	semapv:LogicalReasoning
-UPHENO:0086378	semapv:crossSpeciesExactMatch	obo:MGPO_0002224	semapv:LogicalReasoning
-UPHENO:0086379	semapv:crossSpeciesExactMatch	obo:MGPO_0002225	semapv:LogicalReasoning
+UPHENO:0086378	semapv:crossSpeciesExactMatch	MGPO:0002224	semapv:LogicalReasoning
+UPHENO:0086378	semapv:crossSpeciesExactMatch	MGPO:0002224	semapv:LogicalReasoning
+UPHENO:0086379	semapv:crossSpeciesExactMatch	MGPO:0002225	semapv:LogicalReasoning
 UPHENO:0086388	semapv:crossSpeciesExactMatch	MP:0003904	semapv:LogicalReasoning
 UPHENO:0086392	semapv:crossSpeciesExactMatch	MP:0003761	semapv:LogicalReasoning
 UPHENO:0086394	semapv:crossSpeciesExactMatch	HP:0002553	semapv:LogicalReasoning
@@ -19647,6 +19629,7 @@ UPHENO:0086711	semapv:crossSpeciesExactMatch	MP:0004423	semapv:LogicalReasoning
 UPHENO:0086712	semapv:crossSpeciesExactMatch	MP:0030319	semapv:LogicalReasoning
 UPHENO:0086713	semapv:crossSpeciesExactMatch	MP:0011325	semapv:LogicalReasoning
 UPHENO:0086714	semapv:crossSpeciesExactMatch	MP:0004957	semapv:LogicalReasoning
+UPHENO:0086715	semapv:crossSpeciesExactMatch	HP:0011454	semapv:LogicalReasoning
 UPHENO:0086715	semapv:crossSpeciesExactMatch	MP:0000029	semapv:LogicalReasoning
 UPHENO:0086716	semapv:crossSpeciesExactMatch	MP:0013329	semapv:LogicalReasoning
 UPHENO:0086717	semapv:crossSpeciesExactMatch	MP:0002884	semapv:LogicalReasoning
@@ -19661,8 +19644,10 @@ UPHENO:0086725	semapv:crossSpeciesExactMatch	MP:0009861	semapv:LogicalReasoning
 UPHENO:0086726	semapv:crossSpeciesExactMatch	MP:0002861	semapv:LogicalReasoning
 UPHENO:0086727	semapv:crossSpeciesExactMatch	MP:0003056	semapv:LogicalReasoning
 UPHENO:0086728	semapv:crossSpeciesExactMatch	MP:0010793	semapv:LogicalReasoning
+UPHENO:0086729	semapv:crossSpeciesExactMatch	HP:0011453	semapv:LogicalReasoning
 UPHENO:0086729	semapv:crossSpeciesExactMatch	MP:0005106	semapv:LogicalReasoning
 UPHENO:0086730	semapv:crossSpeciesExactMatch	MP:0013872	semapv:LogicalReasoning
+UPHENO:0086731	semapv:crossSpeciesExactMatch	HP:0008628	semapv:LogicalReasoning
 UPHENO:0086731	semapv:crossSpeciesExactMatch	MP:0005107	semapv:LogicalReasoning
 UPHENO:0086732	semapv:crossSpeciesExactMatch	MP:0010806	semapv:LogicalReasoning
 UPHENO:0086733	semapv:crossSpeciesExactMatch	MP:0004599	semapv:LogicalReasoning
@@ -19691,6 +19676,7 @@ UPHENO:0086754	semapv:crossSpeciesExactMatch	MP:0011793	semapv:LogicalReasoning
 UPHENO:0086755	semapv:crossSpeciesExactMatch	MP:0020900	semapv:LogicalReasoning
 UPHENO:0086756	semapv:crossSpeciesExactMatch	MP:0030508	semapv:LogicalReasoning
 UPHENO:0086757	semapv:crossSpeciesExactMatch	MP:0004067	semapv:LogicalReasoning
+UPHENO:0086758	semapv:crossSpeciesExactMatch	HP:0000236	semapv:LogicalReasoning
 UPHENO:0086758	semapv:crossSpeciesExactMatch	MP:0030363	semapv:LogicalReasoning
 UPHENO:0086759	semapv:crossSpeciesExactMatch	MP:0030806	semapv:LogicalReasoning
 UPHENO:0086760	semapv:crossSpeciesExactMatch	MP:0002679	semapv:LogicalReasoning
@@ -20432,6 +20418,7 @@ UPHENO:0087477	semapv:crossSpeciesExactMatch	MP:0003072	semapv:LogicalReasoning
 UPHENO:0087478	semapv:crossSpeciesExactMatch	MP:0004391	semapv:LogicalReasoning
 UPHENO:0087479	semapv:crossSpeciesExactMatch	MP:0005104	semapv:LogicalReasoning
 UPHENO:0087480	semapv:crossSpeciesExactMatch	MP:0010906	semapv:LogicalReasoning
+UPHENO:0087481	semapv:crossSpeciesExactMatch	HP:0000765	semapv:LogicalReasoning
 UPHENO:0087481	semapv:crossSpeciesExactMatch	MP:0004134	semapv:LogicalReasoning
 UPHENO:0087482	semapv:crossSpeciesExactMatch	MP:0002187	semapv:LogicalReasoning
 UPHENO:0087483	semapv:crossSpeciesExactMatch	MP:0002276	semapv:LogicalReasoning
@@ -20485,6 +20472,7 @@ UPHENO:0087528	semapv:crossSpeciesExactMatch	MP:0000818	semapv:LogicalReasoning
 UPHENO:0087529	semapv:crossSpeciesExactMatch	MP:0000794	semapv:LogicalReasoning
 UPHENO:0087530	semapv:crossSpeciesExactMatch	MP:0000798	semapv:LogicalReasoning
 UPHENO:0087531	semapv:crossSpeciesExactMatch	MP:0008540	semapv:LogicalReasoning
+UPHENO:0087532	semapv:crossSpeciesExactMatch	HP:3000022	semapv:LogicalReasoning
 UPHENO:0087532	semapv:crossSpeciesExactMatch	MP:0030422	semapv:LogicalReasoning
 UPHENO:0087533	semapv:crossSpeciesExactMatch	MP:0003167	semapv:LogicalReasoning
 UPHENO:0087534	semapv:crossSpeciesExactMatch	MP:0003168	semapv:LogicalReasoning
@@ -20520,6 +20508,7 @@ UPHENO:0087561	semapv:crossSpeciesExactMatch	MP:0000558	semapv:LogicalReasoning
 UPHENO:0087562	semapv:crossSpeciesExactMatch	MP:0020459	semapv:LogicalReasoning
 UPHENO:0087563	semapv:crossSpeciesExactMatch	MP:0012719	semapv:LogicalReasoning
 UPHENO:0087564	semapv:crossSpeciesExactMatch	MP:0000647	semapv:LogicalReasoning
+UPHENO:0087565	semapv:crossSpeciesExactMatch	HP:0031095	semapv:LogicalReasoning
 UPHENO:0087565	semapv:crossSpeciesExactMatch	MP:0005296	semapv:LogicalReasoning
 UPHENO:0087566	semapv:crossSpeciesExactMatch	HP:0030027	semapv:LogicalReasoning
 UPHENO:0087566	semapv:crossSpeciesExactMatch	MP:0031449	semapv:LogicalReasoning
@@ -20849,6 +20838,7 @@ UPHENO:0087883	semapv:crossSpeciesExactMatch	MP:0012271	semapv:LogicalReasoning
 UPHENO:0087884	semapv:crossSpeciesExactMatch	MP:0010225	semapv:LogicalReasoning
 UPHENO:0087885	semapv:crossSpeciesExactMatch	MP:0004733	semapv:LogicalReasoning
 UPHENO:0087886	semapv:crossSpeciesExactMatch	MP:0000042	semapv:LogicalReasoning
+UPHENO:0087887	semapv:crossSpeciesExactMatch	HP:0011328	semapv:LogicalReasoning
 UPHENO:0087887	semapv:crossSpeciesExactMatch	MP:0000084	semapv:LogicalReasoning
 UPHENO:0087888	semapv:crossSpeciesExactMatch	MP:0005503	semapv:LogicalReasoning
 UPHENO:0087889	semapv:crossSpeciesExactMatch	MP:0000961	semapv:LogicalReasoning
@@ -21080,6 +21070,7 @@ UPHENO:0088106	semapv:crossSpeciesExactMatch	MP:0030180	semapv:LogicalReasoning
 UPHENO:0088107	semapv:crossSpeciesExactMatch	HP:0009929	semapv:LogicalReasoning
 UPHENO:0088107	semapv:crossSpeciesExactMatch	MP:0030114	semapv:LogicalReasoning
 UPHENO:0088108	semapv:crossSpeciesExactMatch	MP:0030182	semapv:LogicalReasoning
+UPHENO:0088109	semapv:crossSpeciesExactMatch	HP:0001597	semapv:LogicalReasoning
 UPHENO:0088109	semapv:crossSpeciesExactMatch	MP:0000579	semapv:LogicalReasoning
 UPHENO:0088110	semapv:crossSpeciesExactMatch	MP:0008922	semapv:LogicalReasoning
 UPHENO:0088111	semapv:crossSpeciesExactMatch	MP:0002237	semapv:LogicalReasoning
@@ -21198,7 +21189,6 @@ UPHENO:0088231	semapv:crossSpeciesExactMatch	XPO:0141920	semapv:LogicalReasoning
 UPHENO:0088232	semapv:crossSpeciesExactMatch	XPO:0141919	semapv:LogicalReasoning
 UPHENO:0088233	semapv:crossSpeciesExactMatch	XPO:0141768	semapv:LogicalReasoning
 UPHENO:0088234	semapv:crossSpeciesExactMatch	XPO:0141897	semapv:LogicalReasoning
-UPHENO:0088235	semapv:crossSpeciesExactMatch	XPO:0141864	semapv:LogicalReasoning
 UPHENO:0088236	semapv:crossSpeciesExactMatch	XPO:0141874	semapv:LogicalReasoning
 UPHENO:0088237	semapv:crossSpeciesExactMatch	XPO:0141785	semapv:LogicalReasoning
 UPHENO:0088238	semapv:crossSpeciesExactMatch	XPO:0141916	semapv:LogicalReasoning
@@ -21393,6 +21383,7 @@ UPHENO:0088569	semapv:crossSpeciesExactMatch	MP:0014354	semapv:LogicalReasoning
 UPHENO:0088571	semapv:crossSpeciesExactMatch	MP:0011064	semapv:LogicalReasoning
 UPHENO:0088572	semapv:crossSpeciesExactMatch	MP:0014353	semapv:LogicalReasoning
 UPHENO:0088576	semapv:crossSpeciesExactMatch	MP:0011050	semapv:LogicalReasoning
+UPHENO:0088576	semapv:crossSpeciesExactMatch	MP:0011050	semapv:LogicalReasoning
 UPHENO:0088579	semapv:crossSpeciesExactMatch	MP:0011059	semapv:LogicalReasoning
 UPHENO:0088580	semapv:crossSpeciesExactMatch	MP:0011644	semapv:LogicalReasoning
 UPHENO:0088581	semapv:crossSpeciesExactMatch	HP:0005938	semapv:LogicalReasoning
@@ -21411,6 +21402,7 @@ UPHENO:0088598	semapv:crossSpeciesExactMatch	MP:0031575	semapv:LogicalReasoning
 UPHENO:0088599	semapv:crossSpeciesExactMatch	MP:0011063	semapv:LogicalReasoning
 UPHENO:0088600	semapv:crossSpeciesExactMatch	MP:0009162	semapv:LogicalReasoning
 UPHENO:0088603	semapv:crossSpeciesExactMatch	MP:0010852	semapv:LogicalReasoning
+UPHENO:0088604	semapv:crossSpeciesExactMatch	MP:0011054	semapv:LogicalReasoning
 UPHENO:0088604	semapv:crossSpeciesExactMatch	MP:0011054	semapv:LogicalReasoning
 UPHENO:0088607	semapv:crossSpeciesExactMatch	MP:0011645	semapv:LogicalReasoning
 UPHENO:0088608	semapv:crossSpeciesExactMatch	MP:0008437	semapv:LogicalReasoning
@@ -21476,6 +21468,7 @@ UPHENO:0089257	semapv:crossSpeciesExactMatch	MP:0004517	semapv:LogicalReasoning
 UPHENO:0089259	semapv:crossSpeciesExactMatch	MP:0004529	semapv:LogicalReasoning
 UPHENO:0089261	semapv:crossSpeciesExactMatch	MP:0004523	semapv:LogicalReasoning
 UPHENO:0089262	semapv:crossSpeciesExactMatch	MP:0009137	semapv:LogicalReasoning
+UPHENO:0089264	semapv:crossSpeciesExactMatch	MP:0011053	semapv:LogicalReasoning
 UPHENO:0089264	semapv:crossSpeciesExactMatch	MP:0011053	semapv:LogicalReasoning
 UPHENO:0089265	semapv:crossSpeciesExactMatch	MP:0014095	semapv:LogicalReasoning
 UPHENO:0089266	semapv:crossSpeciesExactMatch	MP:0008436	semapv:LogicalReasoning
@@ -21610,6 +21603,7 @@ UPHENO:0089415	semapv:crossSpeciesExactMatch	ZP:0148932	semapv:LogicalReasoning
 UPHENO:0089416	semapv:crossSpeciesExactMatch	ZP:0148483	semapv:LogicalReasoning
 UPHENO:0089417	semapv:crossSpeciesExactMatch	ZP:0145904	semapv:LogicalReasoning
 UPHENO:0089418	semapv:crossSpeciesExactMatch	ZP:0149181	semapv:LogicalReasoning
+UPHENO:0089419	semapv:crossSpeciesExactMatch	ZP:0149598	semapv:LogicalReasoning
 UPHENO:0089419	semapv:crossSpeciesExactMatch	ZP:0149598	semapv:LogicalReasoning
 UPHENO:0089420	semapv:crossSpeciesExactMatch	ZP:0148830	semapv:LogicalReasoning
 UPHENO:0089421	semapv:crossSpeciesExactMatch	ZP:0148861	semapv:LogicalReasoning
@@ -21780,6 +21774,7 @@ UPHENO:0089835	semapv:crossSpeciesExactMatch	ZP:0149053	semapv:LogicalReasoning
 UPHENO:0089836	semapv:crossSpeciesExactMatch	ZP:0149017	semapv:LogicalReasoning
 UPHENO:0089839	semapv:crossSpeciesExactMatch	MP:0009138	semapv:LogicalReasoning
 UPHENO:0089840	semapv:crossSpeciesExactMatch	MP:0011052	semapv:LogicalReasoning
+UPHENO:0089840	semapv:crossSpeciesExactMatch	MP:0011052	semapv:LogicalReasoning
 UPHENO:0089841	semapv:crossSpeciesExactMatch	MP:0014320	semapv:LogicalReasoning
 UPHENO:0089848	semapv:crossSpeciesExactMatch	MP:0014403	semapv:LogicalReasoning
 UPHENO:0089849	semapv:crossSpeciesExactMatch	MP:0014404	semapv:LogicalReasoning
@@ -21840,7 +21835,6 @@ UPHENO:0089946	semapv:crossSpeciesExactMatch	HP:0033153	semapv:LogicalReasoning
 UPHENO:0089947	semapv:crossSpeciesExactMatch	HP:0033175	semapv:LogicalReasoning
 UPHENO:0089948	semapv:crossSpeciesExactMatch	HP:6000271	semapv:LogicalReasoning
 UPHENO:0089949	semapv:crossSpeciesExactMatch	HP:0034383	semapv:LogicalReasoning
-UPHENO:0089950	semapv:crossSpeciesExactMatch	HP:0034604	semapv:LogicalReasoning
 UPHENO:0089951	semapv:crossSpeciesExactMatch	HP:0032273	semapv:LogicalReasoning
 UPHENO:0089952	semapv:crossSpeciesExactMatch	HP:0034936	semapv:LogicalReasoning
 UPHENO:0089953	semapv:crossSpeciesExactMatch	HP:0033157	semapv:LogicalReasoning
@@ -21915,7 +21909,6 @@ UPHENO:0090127	semapv:crossSpeciesExactMatch	ZP:0148961	semapv:LogicalReasoning
 UPHENO:0090128	semapv:crossSpeciesExactMatch	ZP:0145997	semapv:LogicalReasoning
 UPHENO:0090129	semapv:crossSpeciesExactMatch	ZP:0149074	semapv:LogicalReasoning
 UPHENO:0090130	semapv:crossSpeciesExactMatch	ZP:0149355	semapv:LogicalReasoning
-UPHENO:0090131	semapv:crossSpeciesExactMatch	ZP:0149079	semapv:LogicalReasoning
 UPHENO:0090132	semapv:crossSpeciesExactMatch	ZP:0145704	semapv:LogicalReasoning
 UPHENO:0090133	semapv:crossSpeciesExactMatch	ZP:0146226	semapv:LogicalReasoning
 UPHENO:0090134	semapv:crossSpeciesExactMatch	DDPHENO:0000779	semapv:LogicalReasoning

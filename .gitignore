@@ -248,3 +248,4 @@ src/ontology/upheno-test.db
 src/ontology/upheno-test.owl
 upheno-test.owl
 src/mappings/upheno-oba.kgx
+src/mappings/upheno-species-independent-eq.sssom.owl
