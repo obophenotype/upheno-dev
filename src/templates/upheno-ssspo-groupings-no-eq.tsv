@@ -1,2 +1,2 @@
 upheno_id	upheno_label	parent	comment
-ID		SC% SPLIT=|	A rdfs:comment
+ID	LABEL	SC % SPLIT=|	A rdfs:comment
