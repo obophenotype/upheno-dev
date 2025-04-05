@@ -263,6 +263,7 @@ release_artefacts:
   - custom-upheno-equivalence-model
   - custom-upheno-old-model
   - custom-upheno-curated
+  - custom-upheno-curated-with-sspo
 sssom_mappingset_group:
   products:
     - id: upheno-oba
@@ -440,7 +441,8 @@ components:
       use_mappings: true
       mappings:
         - upheno-species-independent.sssom.tsv
-        - upheno-species-independent-manual.sssom.tsv
+    - filename: upheno-mappings.owl
+      description: "Contains all subclass relationships between SSPOs and uPheno."
 pattern_pipelines_group:
   products:
     - id: automatic
