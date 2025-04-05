@@ -1,6 +1,0 @@
-mapping_set_id: https://data.monarchinitiative.org/mappings/upheno-cross-species.sssom.tsv
-license: https://creativecommons.org/publicdomain/zero/1.0/
-mapping_set_description: The official uPheno cross-species mappings.
-curie_map:
-  MGPO: http://purl.obolibrary.org/obo/MGPO_
-  obo: http://purl.obolibrary.org/obo/
