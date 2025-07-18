@@ -252,3 +252,4 @@ src/mappings/upheno-species-independent-eq.sssom.owl
 src/ontology/upheno-curated-with-sspo.owl
 src/ontology/upheno-curated-with-sspo.json
 src/ontology/upheno-curated-with-sspo.obo
+upheno-curated-with-sspo.*

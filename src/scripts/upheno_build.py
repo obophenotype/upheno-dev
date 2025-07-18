@@ -239,11 +239,11 @@ def generate_upheno_label(group, labels):
     Returns:
         str: A semicolon-separated string of unique, lowercase labels.
     """
-    phenotype_labels = {
+    phenotype_labels = sorted({
         re.sub(r"^abnormal ", "", re.sub(r", abnormal$", "", labels[pid].strip().lower()))
         for pid in group
         if pid in labels and labels[pid]
-    }
+    })
     return "; ".join(phenotype_labels)
 
 @upheno.command()
@@ -279,12 +279,17 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
     
     map_superclasses = {}
     map_labels = {}
+    map_labels_reverse = {}
 
     for _, row in df_meta.iterrows():
         subclass= row["class_id_curie"]
         superclass = row["ancestor_curie"]
-        map_labels[subclass] = row["class_label"]
-        map_labels[superclass] = row["ancestor_label"]
+        subclass_label = row["class_label"]
+        superclass_label = row["ancestor_label"]
+        map_labels[subclass] = subclass_label
+        map_labels[superclass] = superclass_label
+        map_labels_reverse[subclass_label] = subclass
+        map_labels_reverse[superclass_label] = superclass
         if not subclass in map_superclasses:
             map_superclasses[subclass] = []
         map_superclasses[subclass].append(superclass)
@@ -323,37 +328,63 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
     current_id = max(start_id, int(max_id) + 1 if pd.notna(max_id) else start_id)
     
     def generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent):
-        phenotypes = set()
-        mappings = set()
-        for phenotype_id in group:
-            phenotype_label = map_labels.get(phenotype_id, phenotype_id)
-            phenotypes.add(f"  {phenotype_id} ({phenotype_label})\n")
-            for df in [df_cross_species, df_species_independent]:
-                for _, row in df.iterrows():
-                    subject_id = row["subject_id"]
-                    object_id = row["object_id"]
-                    if subject_id.startswith("UPHENO:") or object_id.startswith("UPHENO:"):
-                        # Skip UPHENO IDs, as these are automatically mapped
-                        pass
-                    if subject_id == phenotype_id or object_id == phenotype_id:
-                        pair = [subject_id, object_id]
-                        pair.sort()
-                        mappings.add(f"    {pair[0]} ({map_labels.get(pair[0], '')}) <-> {pair[1]} ({map_labels.get(pair[1], '')})\n")
-            warning_str = (
-                "-------------------------\n"
-                "Phenotypes:\n" 
-                + "".join(phenotypes) 
-                + "Mappings:\n" 
-                + "".join(mappings) 
-                + "\n"
-            )
-        return warning_str
+        # Combine and filter once
+        df_combined = pd.concat([df_cross_species, df_species_independent])
+        df_filtered = df_combined[
+            ~df_combined["subject_id"].str.startswith("UPHENO:") &
+            ~df_combined["object_id"].str.startswith("UPHENO:")
+        ]
+
+        # Build a lookup index: phenotype_id -> set of mapping rows
+        from collections import defaultdict
+        mapping_index = defaultdict(set)
+        for _, row in df_filtered.iterrows():
+            for pid in (row["subject_id"], row["object_id"]):
+                mapping_index[pid].add((row["subject_id"], row["object_id"]))
+
+        phenotypes = [f"  {pid} ({map_labels.get(pid, pid)})\n" for pid in group]
+        mappings = []
+        for pid in group:
+            for subj, obj in mapping_index.get(pid, []):
+                pair = tuple(sorted([subj, obj]))
+                if pair not in mappings:
+                    pair_1 = pair[0]
+                    pair_2 = pair[1]
+                    pair_1_label = map_labels.get(pair_1, "")
+                    pair_2_label = map_labels.get(pair_2, "")
+                    mappings.append({
+                        "subject_id": pair_1,
+                        "object_id": pair_2,
+                        "subject_label": pair_1_label,
+                        "object_label": pair_2_label,
+                        "predicate_id": "semapv:crossSpeciesExactMatch",
+                        "mapping_justification": "semapv:UnspecifiedMatching",
+                        "comment": f"Mapping from group: {"|".join([map_labels.get(x, "") + " (" + x + ")" for x in group])}",
+                    })
+
+        mappings_str = [
+            f"    {a} ({map_labels.get(a, '')}) <-> {b} ({map_labels.get(b, '')})\n"
+            for a, b in sorted(mappings)
+        ]
+
+        warning_str = (
+            "-------------------------\n"
+            "Phenotypes:\n" +
+            "".join(sorted(phenotypes)) +
+            "Mappings:\n" +
+            "".join(mappings_str) +
+            "\n"
+        )
+        return warning_str, mappings
+
 
     new_groupings = []
     new_alignments = []
     new_mappings = []
+    conflicts_manual_resolution = []
     for group in groups:
         generated = False
+        conflict = False
         upheno_ids = set(map_species_independent.get(x) for x in group if x in map_species_independent)
         non_upheno_ids = set(x for x in group if not x.startswith("UPHENO:"))
         upheno_ids.discard(None)
@@ -369,22 +400,22 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
             parents.add("UPHENO:0001002")
 
         if len(upheno_ids) == 0:
-            generated = True
-            upheno_id = f"UPHENO:{current_id:07d}"
-            current_id += 1
+            upheno_label = generate_upheno_label(group, map_labels)
+            if upheno_label in map_labels_reverse and map_labels_reverse[upheno_label].startswith("UPHENO:"):
+                click.echo(f"Warning: generated label {upheno_label} already exists uPheno, picking that one instead: {map_labels_reverse[upheno_label]}.", err=True)
+                upheno_id = map_labels_reverse[upheno_label]
+            else:
+                upheno_id = f"UPHENO:{current_id:07d}"
+                current_id += 1
+                generated = True
         elif len(upheno_ids) > 1:
-            warning_str = "" #generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent)
-
             group_str = ", ".join([f"{x} ({map_labels.get(x, '')})" for x in group])
-            
-            click.echo(f"Warning: multiple UPHENO IDs found for group {group_str}:\n {warning_str}", err=True)
-            upheno_id = random.choice(list(upheno_ids))
+            click.echo(f"Warning: multiple UPHENO IDs found for group {group_str}", err=True)
+            conflict = True
         else:
             upheno_id = list(upheno_ids)[0]
 
-        if generated:
-            upheno_label = generate_upheno_label(group, map_labels)
-        else:
+        if not generated:
             upheno_label = map_labels.get(upheno_id, "")
             
         if generated:
@@ -397,7 +428,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
                     "parent": "|".join(parents),
                     "comment": comment
                 })
-            
+            map_labels_reverse[upheno_label] = upheno_id
+        
+        if conflict:
+            warning_str, mappings = generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent)
+            conflicts_manual_resolution.extend(mappings)
+            logger.warning(warning_str)
         
         for phenotype_id in non_upheno_ids:
             phenotype_label = map_labels.get(phenotype_id, phenotype_id)
@@ -433,8 +469,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         df_new_mappings = pd.DataFrame(new_mappings).drop_duplicates().sort_values(by=["subject_id", "object_id"])
         df_manual_species_independent = pd.concat([df_manual_species_independent, df_new_mappings]).drop_duplicates()
         df_manual_species_independent.to_csv(non_eq_species_independent_mapping, sep="\t", index=False)
-
     
+    if conflicts_manual_resolution:
+        directory = os.path.dirname(non_eq_groupings)
+        file_conflicts_manual_resolution = os.path.join(directory, "conflicts_manual_resolution.tsv")
+        df_conflicts_manual_resolution = pd.DataFrame(conflicts_manual_resolution).drop_duplicates().sort_values(by=["subject_id", "object_id"])
+        df_conflicts_manual_resolution.to_csv(file_conflicts_manual_resolution, sep="\t", index=False)
 
 # Subcommand: help
 @upheno.command()

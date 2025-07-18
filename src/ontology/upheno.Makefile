@@ -14,6 +14,10 @@ SSPOS = mp hp zp dpo wbphenotype xpo planp ddpheno fypo apo mgpo phipo
 
 .PRECIOUS: %.db
 
+%.db.gz: %.db
+	gzip -c $< > $@
+.PRECIOUS: %.db.gz
+
 ###############################
 #### Mappings and reports #####
 ###############################
@@ -83,28 +87,30 @@ $(REPORTDIR)/upheno-eq-analysis.csv: $(foreach n,$(SSPOS), $(REPORTDIR)/$(n)_phe
 
 # TODO missing dependency for "a change in a file in ../curation/pattern-matches" which
 # is the true dependency here
-$(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-eq.sssom.owl $(MAPPINGDIR)/uberon.sssom.owl: $(MAPPINGDIR)/uberon.sssom.tsv ../templates/obsolete.tsv ../curation/upheno_id_map.txt
+$(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/uberon.sssom.owl: $(MAPPINGDIR)/uberon.sssom.tsv ../templates/obsolete.tsv ../curation/upheno_id_map.txt
 	if [ $(COMP) = true ] ; then python3 ../scripts/upheno_build.py create-species-independent-sssom-mappings \
 		--upheno-id-map ../curation/upheno_id_map.txt \
 		--patterns-dir ../curation/patterns-for-matching \
 		--anatomy-mappings $(MAPPINGDIR)/uberon.sssom.tsv \
 		--matches-dir ../curation/pattern-matches \
 		--obsolete-file-tsv ../templates/obsolete.tsv \
-		--output-file-owl $(MAPPINGDIR)/upheno-species-independent-eq.sssom.owl \
 		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv; fi
 
-$(MAPPINGDIR)/upheno-species-independent.sssom.tsv: $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
-	sssom merge $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv -o $(TMPDIR)/upheno-species-independent-merged.sssom.tsv
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv: #$(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
+	sssom parse $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv -I tsv --metadata config/upheno-species-independent.sssom.yml -o $(TMPDIR)/upheno-species-independent-with-meta.sssom.tsv
+	sssom merge $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(TMPDIR)/upheno-species-independent-with-meta.sssom.tsv  -o $(TMPDIR)/upheno-species-independent-merged.sssom.tsv
 	sssom invert $(TMPDIR)/upheno-species-independent-merged.sssom.tsv -o $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv
 	sssom sort $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv -o $@
 
 $(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
 	mkdir -p $(TMPDIR)/cross-species/
 	python3 ../scripts/upheno_build.py generate-cross-species-mappings --species-lexical $(TMPDIR)/upheno-species-lexical.csv -m $(TMPDIR)/upheno-mapping-logical.csv -o $(TMPDIR)/cross-species/
-	sssom parse $(TMPDIR)/cross-species/upheno_custom_mapping.sssom.tsv --metadata config/upheno-cross-species.sssom.tsv -C merged -o $@
+	sssom parse $(TMPDIR)/cross-species/upheno_custom_mapping.sssom.tsv --metadata config/upheno-cross-species.sssom.yml -C merged -o $@
 
-$(MAPPINGDIR)/%.sssom.owl: $(MAPPINGDIR)/%.sssom.tsv
-	sssom convert $< -O owl -o $@
+# Note I removed the dependency on the TSV file here as it would be cyclic. A better solution is needed
+$(MAPPINGDIR)/%.sssom.owl:
+	sssom convert $(MAPPINGDIR)/$*.sssom.tsv -O ttl -o $(TMPDIR)/$*.sssom.ttl
+	$(ROBOT) query -i $(TMPDIR)/$*.sssom.ttl --update ../sparql/sssom-to-owl.ru -o $@
 
 semsim/upheno-0.4.semsimian.tsv: upheno.db $(IMPORTDIR)/all_phenotype_terms.txt
 	runoak --stacktrace -vvv -i semsimian:sqlite:upheno.db similarity -p i \
@@ -189,6 +195,14 @@ upheno-curated.owl: upheno-basic.owl
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f owl -o $@
 
+upheno-curated-with-sspo.owl: upheno.owl
+	$(ROBOT) merge -i upheno.owl \
+		query --update ../sparql/rearrange-upheno.ru \
+		reduce \
+		query --update ../sparql/rearrange-upheno-top.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f owl -o $@
+
 upheno-base-with-bridge.owl: upheno-base.owl $(COMPONENTSDIR)/upheno-bridge.owl
 	$(ROBOT) merge -i upheno-base.owl -i $(COMPONENTSDIR)/upheno-bridge.owl \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
@@ -257,10 +271,22 @@ $(COMPONENTSDIR)/upheno-species-neutral.owl:
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
+## Something in the dependency chain is still broken here.
+## This component depends on the mappings which depend on other components
+$(COMPONENTSDIR)/upheno-mappings.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/upheno-cross-species.sssom.owl
+	$(ROBOT) merge \
+		-i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+		-i $(MAPPINGDIR)/upheno-cross-species.sssom.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert -f ofn -o $@
+
 $(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl
-	$(ROBOT) merge -i $(SRC) -i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+	$(ROBOT) merge \
+			-i $(SRC) \
+			-i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
 		query --query $(SPARQLDIR)/construct-upheno-bridge.sparql tmp/bridge.ttl
-	$(ROBOT) merge -i tmp/bridge.ttl -i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
+	$(ROBOT) merge \
+		-i tmp/bridge.ttl \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
@@ -393,3 +419,53 @@ prepare_release_customised: all_odk
 .PHONY: prepare_release_fast
 prepare_release_fast:
 	$(MAKE) prepare_release_customised IMP=false PAT=false MIR=false COMP=false
+
+reports/validate_profile_owl2dl_upheno.owl.txt:
+	echo "SKIP $@"
+
+#################################################################
+##################### PHENIO TESTING ############################
+#################################################################
+
+# The testing framework is a bit of a hack: Download the latest phenio release
+# Delete all axioms uPheno IDs and replace with the new axioms
+
+FEATURE=manual_groupings
+
+tmp/phenio.owl:
+	rm -f $@
+	wget "https://github.com/monarch-initiative/phenio/releases/latest/download/phenio.owl.gz" -O tmp/phenio.owl.gz
+	gunzip tmp/phenio.owl.gz
+
+tmp/trimmed-%.owl: %.owl
+	$(ROBOT) merge -i $*.owl \
+		filter --select "UPHENO:*" --preserve-structure false --trim false -o $@
+
+tmp/phenio-%.owl: tmp/phenio.owl tmp/trimmed-%.owl
+	$(ROBOT) merge -i $< \
+		remove --select "UPHENO:*" --preserve-structure false \
+		merge -i tmp/trimmed-$*.owl \
+		annotate --ontology-iri "http://purl.obolibrary.org/obo/phenio.owl" \
+			--version-iri "http://purl.obolibrary.org/obo/phenio/dev/$(VERSION)/$(FEATURE)/phenio-$*.owl" \
+			-o $@
+.PRECIOUS: tmp/phenio-%.owl
+
+tmp/diff_phenio_%.txt: tmp/phenio-%.owl tmp/phenio.owl
+	$(ROBOT) diff --left tmp/phenio.owl --right $< -o $@
+.PRECIOUS: tmp/diff_phenio_%.txt
+
+build-phenio-%: 
+	$(MAKE) tmp/phenio-$*.owl tmp/diff_phenio_$*.txt
+
+	# This is so phenio is always named the same
+	cp tmp/phenio-$*.owl tmp/phenio.owl
+	$(MAKE) tmp/phenio.db.gz
+	mv tmp/phenio.db.gz tmp/phenio-$*.db.gz
+
+build-phenio-all:
+	$(MAKE) build-phenio-upheno IMP=false MIR=false
+	$(MAKE) build-phenio-upheno-equivalence-model IMP=false MIR=false
+
+sync-dropbox:
+	cp tmp/phenio-upheno-equivalence-model.db.gz ~/Dropbox/phenio-upheno-equivalence-model.db.gz
+	cp tmp/phenio-upheno.db.gz ~/Dropbox/phenio-upheno.db.gz
