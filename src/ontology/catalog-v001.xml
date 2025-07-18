@@ -9,6 +9,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl" uri="components/upheno-alignments.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl" uri="components/upheno-axiom-injections.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl" uri="components/upheno-manual-curation.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-mappings.owl" uri="components/upheno-mappings.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-bridge.owl" uri="components/upheno-bridge.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

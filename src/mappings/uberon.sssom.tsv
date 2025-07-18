@@ -12,11 +12,8 @@
 #  FMA: http://purl.obolibrary.org/obo/FMA_
 #  GO: http://purl.obolibrary.org/obo/GO_
 #  HAO: http://purl.obolibrary.org/obo/HAO_
-#  HsapDv: http://purl.obolibrary.org/obo/HsapDv_
 #  MA: http://purl.obolibrary.org/obo/MA_
-#  MmusDv: http://purl.obolibrary.org/obo/MmusDv_
 #  NCIT: http://purl.obolibrary.org/obo/NCIT_
-#  OlatDv: http://purl.obolibrary.org/obo/OlatDv_
 #  SPD: http://purl.obolibrary.org/obo/SPD_
 #  TADS: http://purl.obolibrary.org/obo/TADS_
 #  TAO: http://purl.obolibrary.org/obo/TAO_
@@ -350,8 +347,6 @@ UBERON:0000066	fully formed stage	semapv:crossSpeciesExactMatch	WBls:0000041	sem
 UBERON:0000068	embryo stage	skos:narrowMatch	EV:0300001	semapv:UnspecifiedMatching
 UBERON:0000068	embryo stage	semapv:crossSpeciesExactMatch	FBdv:00005289	semapv:UnspecifiedMatching
 UBERON:0000068	embryo stage	semapv:crossSpeciesExactMatch	FMA:72652	semapv:UnspecifiedMatching
-UBERON:0000068	embryo stage	semapv:crossSpeciesExactMatch	HsapDv:0000002	semapv:UnspecifiedMatching
-UBERON:0000068	embryo stage	semapv:crossSpeciesExactMatch	MmusDv:0000002	semapv:UnspecifiedMatching
 UBERON:0000068	embryo stage	semapv:crossSpeciesExactMatch	WBls:0000003	semapv:UnspecifiedMatching
 UBERON:0000068	embryo stage	semapv:crossSpeciesExactMatch	WBls:0000092	semapv:UnspecifiedMatching
 UBERON:0000068	embryo stage	semapv:crossSpeciesExactMatch	WBls:0000102	semapv:UnspecifiedMatching
@@ -478,13 +473,8 @@ UBERON:0000101	lobe of lung	semapv:crossSpeciesExactMatch	FMA:7311	semapv:Unspec
 UBERON:0000101	lobe of lung	semapv:crossSpeciesExactMatch	MA:0003098	semapv:UnspecifiedMatching
 UBERON:0000102	lung vasculature	semapv:crossSpeciesExactMatch	FMA:73750	semapv:UnspecifiedMatching
 UBERON:0000104	life cycle	semapv:crossSpeciesExactMatch	FBdv:00000000	semapv:UnspecifiedMatching
-UBERON:0000104	life cycle	semapv:crossSpeciesExactMatch	HsapDv:0000001	semapv:UnspecifiedMatching
-UBERON:0000104	life cycle	semapv:crossSpeciesExactMatch	MmusDv:0000001	semapv:UnspecifiedMatching
 UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	FBdv:00007012	semapv:UnspecifiedMatching
 UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	FMA:24120	semapv:UnspecifiedMatching
-UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	HsapDv:0000000	semapv:UnspecifiedMatching
-UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	MmusDv:0000000	semapv:UnspecifiedMatching
-UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	OlatDv:0000010	semapv:UnspecifiedMatching
 UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	WBls:0000002	semapv:UnspecifiedMatching
 UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	XAO:1000000	semapv:UnspecifiedMatching
 UBERON:0000105	life cycle stage	semapv:crossSpeciesExactMatch	ZFS:0000000	semapv:UnspecifiedMatching
@@ -496,32 +486,21 @@ UBERON:0000106	zygote stage	semapv:crossSpeciesExactMatch	FBdv:00005288	semapv:U
 UBERON:0000106	zygote stage	semapv:crossSpeciesExactMatch	XAO:1000001	semapv:UnspecifiedMatching
 UBERON:0000106	zygote stage	semapv:crossSpeciesExactMatch	ZFS:0000001	semapv:UnspecifiedMatching
 UBERON:0000107	cleavage stage	semapv:crossSpeciesExactMatch	FBdv:00000054	semapv:UnspecifiedMatching
-UBERON:0000107	cleavage stage	semapv:crossSpeciesExactMatch	MmusDv:0000004	semapv:UnspecifiedMatching
 UBERON:0000107	cleavage stage	semapv:crossSpeciesExactMatch	XAO:1000004	semapv:UnspecifiedMatching
 UBERON:0000107	cleavage stage	semapv:crossSpeciesExactMatch	ZFS:0000046	semapv:UnspecifiedMatching
-UBERON:0000108	blastula stage	semapv:crossSpeciesExactMatch	HsapDv:0000006	semapv:UnspecifiedMatching
-UBERON:0000108	blastula stage	semapv:crossSpeciesExactMatch	MmusDv:0000007	semapv:UnspecifiedMatching
 UBERON:0000108	blastula stage	semapv:crossSpeciesExactMatch	WBls:0000005	semapv:UnspecifiedMatching
 UBERON:0000108	blastula stage	semapv:crossSpeciesExactMatch	XAO:1000003	semapv:UnspecifiedMatching
 UBERON:0000108	blastula stage	semapv:crossSpeciesExactMatch	ZFS:0000045	semapv:UnspecifiedMatching
 UBERON:0000109	gastrula stage	semapv:crossSpeciesExactMatch	FBdv:00005317	semapv:UnspecifiedMatching
-UBERON:0000109	gastrula stage	semapv:crossSpeciesExactMatch	HsapDv:0000010	semapv:UnspecifiedMatching
-UBERON:0000109	gastrula stage	semapv:crossSpeciesExactMatch	MmusDv:0000013	semapv:UnspecifiedMatching
 UBERON:0000109	gastrula stage	semapv:crossSpeciesExactMatch	WBls:0000010	semapv:UnspecifiedMatching
 UBERON:0000109	gastrula stage	semapv:crossSpeciesExactMatch	XAO:1000005	semapv:UnspecifiedMatching
 UBERON:0000109	gastrula stage	semapv:crossSpeciesExactMatch	ZFS:0000047	semapv:UnspecifiedMatching
-UBERON:0000110	neurula stage	semapv:crossSpeciesExactMatch	HsapDv:0000012	semapv:UnspecifiedMatching
-UBERON:0000110	neurula stage	semapv:crossSpeciesExactMatch	MmusDv:0000017	semapv:UnspecifiedMatching
 UBERON:0000110	neurula stage	semapv:crossSpeciesExactMatch	XAO:1000006	semapv:UnspecifiedMatching
-UBERON:0000111	organogenesis stage	semapv:crossSpeciesExactMatch	HsapDv:0000015	semapv:UnspecifiedMatching
-UBERON:0000111	organogenesis stage	semapv:crossSpeciesExactMatch	MmusDv:0000018	semapv:UnspecifiedMatching
 UBERON:0000112	sexually immature stage	skos:narrowMatch	EV:0300051	semapv:UnspecifiedMatching
-UBERON:0000112	sexually immature stage	semapv:crossSpeciesExactMatch	MmusDv:0000043	semapv:UnspecifiedMatching
 UBERON:0000112	sexually immature stage	semapv:crossSpeciesExactMatch	XAO:1000010	semapv:UnspecifiedMatching
 UBERON:0000112	sexually immature stage	semapv:crossSpeciesExactMatch	ZFS:0000051	semapv:UnspecifiedMatching
 UBERON:0000113	post-juvenile adult stage	skos:narrowMatch	EV:0300064	semapv:UnspecifiedMatching
 UBERON:0000113	post-juvenile adult stage	skos:narrowMatch	EV:0300070	semapv:UnspecifiedMatching
-UBERON:0000113	post-juvenile adult stage	semapv:crossSpeciesExactMatch	MmusDv:0000110	semapv:UnspecifiedMatching
 UBERON:0000113	post-juvenile adult stage	semapv:crossSpeciesExactMatch	XAO:1000093	semapv:UnspecifiedMatching
 UBERON:0000113	post-juvenile adult stage	semapv:crossSpeciesExactMatch	ZFS:0000044	semapv:UnspecifiedMatching
 UBERON:0000114	lung connective tissue	semapv:crossSpeciesExactMatch	EMAPA:35521	semapv:UnspecifiedMatching
@@ -18309,13 +18288,9 @@ UBERON:0007215	trabecula cranii	semapv:crossSpeciesExactMatch	ZFA:0001507	semapv
 UBERON:0007220	late embryonic stage	skos:narrowMatch	EV:0300011	semapv:UnspecifiedMatching
 UBERON:0007220	late embryonic stage	semapv:crossSpeciesExactMatch	FBdv:00005333	semapv:UnspecifiedMatching
 UBERON:0007220	late embryonic stage	semapv:crossSpeciesExactMatch	FMA:63631	semapv:UnspecifiedMatching
-UBERON:0007220	late embryonic stage	semapv:crossSpeciesExactMatch	MmusDv:0000031	semapv:UnspecifiedMatching
 UBERON:0007221	neonate stage	skos:narrowMatch	EV:0300037	semapv:UnspecifiedMatching
-UBERON:0007221	neonate stage	semapv:crossSpeciesExactMatch	HsapDv:0000082	semapv:UnspecifiedMatching
-UBERON:0007221	neonate stage	semapv:crossSpeciesExactMatch	MmusDv:0000096	semapv:UnspecifiedMatching
 UBERON:0007222	late adult stage	skos:narrowMatch	EV:0300123	semapv:UnspecifiedMatching
 UBERON:0007222	late adult stage	skos:narrowMatch	NCIT:C16268	semapv:UnspecifiedMatching
-UBERON:0007222	late adult stage	semapv:crossSpeciesExactMatch	HsapDv:0000093	semapv:UnspecifiedMatching
 UBERON:0007223	osseus cochlea	semapv:crossSpeciesExactMatch	EMAPA:35620	semapv:UnspecifiedMatching
 UBERON:0007223	osseus cochlea	semapv:crossSpeciesExactMatch	MA:0000239	semapv:UnspecifiedMatching
 UBERON:0007224	medial entorhinal cortex	semapv:crossSpeciesExactMatch	EMAPA:35545	semapv:UnspecifiedMatching
@@ -25132,4 +25107,25 @@ UBERON:8600111	right distal ureter	semapv:crossSpeciesExactMatch	FMA:15886	semap
 UBERON:8600112	left distal ureter	semapv:crossSpeciesExactMatch	FMA:15887	semapv:UnspecifiedMatching
 UBERON:8600113	right proximal ureter	semapv:crossSpeciesExactMatch	FMA:15884	semapv:UnspecifiedMatching
 UBERON:8600114	left proximal ureter	semapv:crossSpeciesExactMatch	FMA:15885	semapv:UnspecifiedMatching
+UBERON:8600121	lumbar ganglion	semapv:crossSpeciesExactMatch	FMA:6472	semapv:UnspecifiedMatching
+UBERON:8600122	sacral ganglion	semapv:crossSpeciesExactMatch	FMA:6473	semapv:UnspecifiedMatching
 UBERON:8850000	lumen of pulmonary alveolus	semapv:crossSpeciesExactMatch	FMA:62779	semapv:UnspecifiedMatching
+UBERON:8920000	anterior ciliary artery	semapv:crossSpeciesExactMatch	FMA:49962	semapv:UnspecifiedMatching
+UBERON:8920001	short posterior ciliary artery	semapv:crossSpeciesExactMatch	FMA:70777	semapv:UnspecifiedMatching
+UBERON:8920002	long posterior ciliary artery	semapv:crossSpeciesExactMatch	FMA:70778	semapv:UnspecifiedMatching
+UBERON:8920003	right marginal artery	semapv:crossSpeciesExactMatch	FMA:3818	semapv:UnspecifiedMatching
+UBERON:8920004	segmental renal artery	semapv:crossSpeciesExactMatch	FMA:70494	semapv:UnspecifiedMatching
+UBERON:8920005	superior segmental renal artery	semapv:crossSpeciesExactMatch	FMA:70499	semapv:UnspecifiedMatching
+UBERON:8920006	anterior superior segmental renal artery	semapv:crossSpeciesExactMatch	FMA:70500	semapv:UnspecifiedMatching
+UBERON:8920007	anterior inferior segmental renal artery	semapv:crossSpeciesExactMatch	FMA:70501	semapv:UnspecifiedMatching
+UBERON:8920008	inferior segmental renal artery	semapv:crossSpeciesExactMatch	FMA:70502	semapv:UnspecifiedMatching
+UBERON:8920009	posterior segmental renal artery	semapv:crossSpeciesExactMatch	FMA:70503	semapv:UnspecifiedMatching
+UBERON:8920010	left marginal vein	semapv:crossSpeciesExactMatch	FMA:4708	semapv:UnspecifiedMatching
+UBERON:8920011	stellate vein of kidney	semapv:crossSpeciesExactMatch	FMA:71635	semapv:UnspecifiedMatching
+UBERON:8920013	anterior ciliary vein	semapv:crossSpeciesExactMatch	FMA:51798	semapv:UnspecifiedMatching
+UBERON:8920014	left bronchial vein	semapv:crossSpeciesExactMatch	FMA:4837	semapv:UnspecifiedMatching
+UBERON:8920015	right bronchial vein	semapv:crossSpeciesExactMatch	FMA:4942	semapv:UnspecifiedMatching
+UBERON:8920016	right inferior pulmonary vein	semapv:crossSpeciesExactMatch	FMA:49911	semapv:UnspecifiedMatching
+UBERON:8920017	left inferior pulmonary vein	semapv:crossSpeciesExactMatch	FMA:49913	semapv:UnspecifiedMatching
+UBERON:8920018	right superior pulmonary vein	semapv:crossSpeciesExactMatch	FMA:49914	semapv:UnspecifiedMatching
+UBERON:8920019	left superior pulmonary vein	semapv:crossSpeciesExactMatch	FMA:49916	semapv:UnspecifiedMatching
