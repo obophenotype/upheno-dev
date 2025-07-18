@@ -3768,48 +3768,6 @@ XPO:0102892	abnormal central canal morphology	UPHENO:7001215	central canal morph
 ZP:0004807	central canal morphology, abnormal	UPHENO:7001215	central canal morphology
 XPO:0102907	abnormal hypochord morphology	UPHENO:7001216	hypochord morphology
 ZP:0002995	hypochord morphology, abnormal	UPHENO:7001216	hypochord morphology
-XPO:0102910	abnormal pigment cell morphology	UPHENO:7001217	pigment cell morphology
-ZP:0005680	pigment cell morphology, abnormal	UPHENO:7001217	pigment cell morphology
-XPO:0102939	abnormal retinal ganglion cell layer morphology	UPHENO:7001218	retinal ganglion cell layer morphology
-ZP:0001380	retinal ganglion cell layer morphology, abnormal	UPHENO:7001218	retinal ganglion cell layer morphology
-XPO:0102954	abnormal iridophore morphology	UPHENO:7001220	iridophore morphology
-ZP:0010639	iridophore morphology, abnormal	UPHENO:7001220	iridophore morphology
-XPO:0102961	abnormal pharyngeal epithelium morphology	UPHENO:7001221	pharyngeal epithelium morphology
-ZP:0013623	pharyngeal epithelium morphology, abnormal	UPHENO:7001221	pharyngeal epithelium morphology
-XPO:0102983	abnormal dorsal habenular nucleus morphology	UPHENO:7001224	dorsal habenular nucleus morphology
-ZP:0002239	dorsal habenular nucleus morphology, abnormal	UPHENO:7001224	dorsal habenular nucleus morphology
-XPO:0102990	abnormal endothelial cell morphology	UPHENO:7001225	endothelial cell morphology
-ZP:0005921	endothelial cell morphology, abnormal	UPHENO:7001225	endothelial cell morphology
-XPO:0103018	abnormal gall bladder morphology	UPHENO:7001226	gall bladder morphology
-ZP:0008369	gall bladder morphology, abnormal	UPHENO:7001226	gall bladder morphology
-MP:0005326	abnormal podocyte morphology	UPHENO:7001227	podocyte morphology
-XPO:0103049	abnormal podocyte morphology	UPHENO:7001227	podocyte morphology
-XPO:0103051	abnormal median fin morphology	UPHENO:7001228	median fin morphology
-ZP:0014530	median fin morphology, abnormal	UPHENO:7001228	median fin morphology
-XPO:0103106	abnormal aortic arch 5 morphology	UPHENO:7001229	aortic arch 5 morphology
-ZP:0102601	aortic arch 5 morphology, abnormal	UPHENO:7001229	aortic arch 5 morphology
-XPO:0103111	abnormal urostyle morphology	UPHENO:7001230	urostyle morphology
-ZP:0145040	urostyle morphology, abnormal	UPHENO:7001230	urostyle morphology
-XPO:0103132	abnormal endodermal cell morphology	UPHENO:7001231	endodermal cell morphology
-ZP:0013544	endodermal cell morphology, abnormal	UPHENO:7001231	endodermal cell morphology
-XPO:0103147	abnormal neuromast mantle cell morphology	UPHENO:7001232	neuromast mantle cell morphology
-ZP:0015265	neuromast mantle cell morphology, abnormal	UPHENO:7001232	neuromast mantle cell morphology
-XPO:0103170	abnormal subintestinal vein morphology	UPHENO:7001233	subintestinal vein morphology
-ZP:0005758	subintestinal vein morphology, abnormal	UPHENO:7001233	subintestinal vein morphology
-XPO:0103184	abnormal inner limiting membrane morphology	UPHENO:7001234	inner limiting membrane morphology
-ZP:0137877	inner limiting membrane morphology, abnormal	UPHENO:7001234	inner limiting membrane morphology
-XPO:0103198	abnormal posterior lateral line morphology	UPHENO:7001235	posterior lateral line morphology
-ZP:0012852	posterior lateral line morphology, abnormal	UPHENO:7001235	posterior lateral line morphology
-XPO:0103210	abnormal pupil morphology	UPHENO:7001236	pupil morphology
-ZP:0007728	pupil morphology, abnormal	UPHENO:7001236	pupil morphology
-XPO:0103223	abnormal xanthophore morphology	UPHENO:7001237	xanthophore morphology
-ZP:0001931	xanthophore morphology, abnormal	UPHENO:7001237	xanthophore morphology
-HP:0025028	Abnormal enteric nervous system morphology	UPHENO:7001238	enteric nervous system morphology
-XPO:0107340	abnormal enteric nervous system morphology	UPHENO:7001238	enteric nervous system morphology
-XPO:0107374	abnormal afferent neuron morphology	UPHENO:7001239	afferent neuron morphology
-ZP:0102037	afferent neuron morphology, abnormal	UPHENO:7001239	afferent neuron morphology
-XPO:0107380	abnormal dorsal telencephalon morphology	UPHENO:7001240	dorsal telencephalon morphology
-ZP:0005475	dorsal telencephalon morphology, abnormal	UPHENO:7001240	dorsal telencephalon morphology
 XPO:0101993	abnormal small intestine morphology	UPHENO:0002808	small intestine phenotype
 XPO:0102509	abnormal lateral septum morphology	UPHENO:0002921	septum pellucidum phenotype
 XPO:0101879	abnormal cranial ganglion morphology	UPHENO:0005320	cranial ganglion phenotype
