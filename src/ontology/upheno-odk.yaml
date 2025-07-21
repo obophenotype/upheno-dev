@@ -311,6 +311,7 @@ import_group:
     - <http://purl.obolibrary.org/obo/FBdv_*>
     - <http://purl.obolibrary.org/obo/PCO_*>
     - <http://purl.obolibrary.org/obo/NCIT_*>
+    - <http://purl.obolibrary.org/obo/COB_*>
     - <http://purl.obolibrary.org/obo/BTO_*>
     - <http://www.ebi.ac.uk/efo/EFO_*>
     - <http://purl.obolibrary.org/obo/ENVO_*>

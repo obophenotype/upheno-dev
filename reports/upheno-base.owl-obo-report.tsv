@@ -3,6 +3,35 @@ ERROR	duplicate_label	UPHENO:0076905	rdfs:label	decreased inflammatory response
 ERROR	duplicate_label	UPHENO:7000646	rdfs:label	decreased inflammatory response
 ERROR	missing_label	UPHENO:0016048	rdfs:label	
 ERROR	missing_label	UPHENO:0056750	rdfs:label	
+ERROR	misused_obsolete_label	UPHENO:0006900	rdfs:label	obsolete mitochondrial respirasome phenotype
+ERROR	misused_obsolete_label	UPHENO:0049627	rdfs:label	obsolete organic hydroxy compound metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0049779	rdfs:label	obsolete organonitrogen compound metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0049785	rdfs:label	obsolete organonitrogen compound biosynthetic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0049895	rdfs:label	obsolete response to organonitrogen compound phenotype
+ERROR	misused_obsolete_label	UPHENO:0050025	rdfs:label	obsolete regulation of cellular metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0050081	rdfs:label	obsolete response to organic cyclic compound phenotype
+ERROR	misused_obsolete_label	UPHENO:0050091	rdfs:label	obsolete cellular catabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0050099	rdfs:label	obsolete cellular biosynthetic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0050113	rdfs:label	obsolete cellular metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0050238	rdfs:label	obsolete organic hydroxy compound biosynthetic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0050655	rdfs:label	obsolete mucopolysaccharide metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0050784	rdfs:label	obsolete regulation of cellular biosynthetic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0050832	rdfs:label	obsolete cellular lipid metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0051227	rdfs:label	obsolete chondroitin sulfate proteoglycan biosynthetic process, chain elongation phenotype
+ERROR	misused_obsolete_label	UPHENO:0051237	rdfs:label	obsolete regulation of telomerase activity phenotype
+ERROR	misused_obsolete_label	UPHENO:0051543	rdfs:label	obsolete chondroitin sulfate metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0051545	rdfs:label	obsolete chondroitin sulfate biosynthetic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0059810	rdfs:label	obsolete organonitrogen compound biosynthetic process in blood phenotype
+ERROR	misused_obsolete_label	UPHENO:0059813	rdfs:label	obsolete organonitrogen compound metabolic process in blood phenotype
+ERROR	misused_obsolete_label	UPHENO:0059822	rdfs:label	obsolete cellular biosynthetic process in blood phenotype
+ERROR	misused_obsolete_label	UPHENO:0059851	rdfs:label	obsolete cellular metabolic process in blood phenotype
+ERROR	misused_obsolete_label	UPHENO:0080026	rdfs:label	obsolete RNA polymerase II activity phenotype
+ERROR	misused_obsolete_label	UPHENO:0083115	rdfs:label	obsolete actin phosphorylation phenotype
+ERROR	misused_obsolete_label	UPHENO:0083211	rdfs:label	obsolete negative regulation of chemorepellent activity phenotype
+ERROR	misused_obsolete_label	UPHENO:0083212	rdfs:label	obsolete positive regulation of chemorepellent activity phenotype
+ERROR	misused_obsolete_label	UPHENO:0083214	rdfs:label	obsolete regulation of chemorepellent activity phenotype
+ERROR	misused_obsolete_label	UPHENO:0088235	rdfs:label	obsolete 5-methylcytosine metabolic process phenotype
+ERROR	misused_obsolete_label	UPHENO:0088240	rdfs:label	obsolete NADH metabolic process phenotype
 WARN	duplicate_exact_synonym	UPHENO:0080524	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	UPHENO:0081403	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	UPHENO:0080515	oboInOwl:hasExactSynonym	
@@ -52,7 +81,7 @@ WARN	duplicate_label_synonym	UPHENO:0068047	oboInOwl:hasExactSynonym	increased l
 WARN	duplicate_label_synonym	UPHENO:0068049	oboInOwl:hasExactSynonym	increased level of chemical entity in blood plasma
 WARN	duplicate_label_synonym	UPHENO:0068054	oboInOwl:hasExactSynonym	increased level of glucose in urine
 WARN	duplicate_label_synonym	UPHENO:0068055	oboInOwl:hasExactSynonym	increased level of triglyceride in blood
-WARN	duplicate_label_synonym	UPHENO:0068056	oboInOwl:hasExactSynonym	increased level of insulin gene translation product in blood
+WARN	duplicate_label_synonym	UPHENO:0068056	oboInOwl:hasExactSynonym	increased level of preproinsulin in blood
 WARN	duplicate_label_synonym	UPHENO:0068057	oboInOwl:hasExactSynonym	increased level of triglyceride in liver
 WARN	duplicate_label_synonym	UPHENO:0068059	oboInOwl:hasExactSynonym	increased level of citrate(3-) in urine
 WARN	duplicate_label_synonym	UPHENO:0068061	oboInOwl:hasExactSynonym	increased level of glycogen in brain
@@ -71,7 +100,7 @@ WARN	duplicate_label_synonym	UPHENO:0068083	oboInOwl:hasExactSynonym	increased l
 WARN	duplicate_label_synonym	UPHENO:0068093	oboInOwl:hasExactSynonym	increased level of ammonium in urine
 WARN	duplicate_label_synonym	UPHENO:0068097	oboInOwl:hasExactSynonym	increased level of protein in urine
 WARN	duplicate_label_synonym	UPHENO:0068098	oboInOwl:hasExactSynonym	increased level of interleukin-7 in blood
-WARN	duplicate_label_synonym	UPHENO:0068100	oboInOwl:hasExactSynonym	increased level of insulin gene translation product in urine
+WARN	duplicate_label_synonym	UPHENO:0068100	oboInOwl:hasExactSynonym	increased level of preproinsulin in urine
 WARN	duplicate_label_synonym	UPHENO:0068101	oboInOwl:hasExactSynonym	increased level of glycogen in skeletal muscle tissue
 WARN	duplicate_label_synonym	UPHENO:0068103	oboInOwl:hasExactSynonym	increased level of pro-glucagon in blood
 WARN	duplicate_label_synonym	UPHENO:0068106	oboInOwl:hasExactSynonym	increased level of renin in blood
@@ -131,7 +160,7 @@ WARN	duplicate_label_synonym	UPHENO:0068198	oboInOwl:hasExactSynonym	increased l
 WARN	duplicate_label_synonym	UPHENO:0068199	oboInOwl:hasExactSynonym	increased level of aldosterone in blood
 WARN	duplicate_label_synonym	UPHENO:0068202	oboInOwl:hasExactSynonym	increased level of interleukin-21 in blood
 WARN	duplicate_label_synonym	UPHENO:0068204	oboInOwl:hasExactSynonym	increased level of glucose in blood
-WARN	duplicate_label_synonym	UPHENO:0068205	oboInOwl:hasExactSynonym	increased level of interleukin-16 in blood
+WARN	duplicate_label_synonym	UPHENO:0068205	oboInOwl:hasExactSynonym	increased level of pro-interleukin-16 in blood
 WARN	duplicate_label_synonym	UPHENO:0068206	oboInOwl:hasExactSynonym	increased level of interleukin-15 in blood
 WARN	duplicate_label_synonym	UPHENO:0068207	oboInOwl:hasExactSynonym	increased level of interleukin-18 in blood
 WARN	duplicate_label_synonym	UPHENO:0068210	oboInOwl:hasExactSynonym	increased level of homocysteine in blood
@@ -186,7 +215,7 @@ WARN	duplicate_label_synonym	UPHENO:0068289	oboInOwl:hasExactSynonym	increased l
 WARN	duplicate_label_synonym	UPHENO:0068290	oboInOwl:hasExactSynonym	increased level of glutaric acid in urine
 WARN	duplicate_label_synonym	UPHENO:0068291	oboInOwl:hasExactSynonym	increased level of iron atom in liver
 WARN	duplicate_label_synonym	UPHENO:0068293	oboInOwl:hasExactSynonym	increased level of estradiol in blood
-WARN	duplicate_label_synonym	UPHENO:0068294	oboInOwl:hasExactSynonym	increased level of insulin-like growth factor I in blood
+WARN	duplicate_label_synonym	UPHENO:0068294	oboInOwl:hasExactSynonym	increased level of insulin-like growth factor 1 in blood
 WARN	duplicate_label_synonym	UPHENO:0068295	oboInOwl:hasExactSynonym	increased level of magnesium atom in blood
 WARN	duplicate_label_synonym	UPHENO:0068296	oboInOwl:hasExactSynonym	increased level of potassium atom in urine
 WARN	duplicate_label_synonym	UPHENO:0068299	oboInOwl:hasExactSynonym	increased level of prostaglandin in urine
@@ -2282,7 +2311,7 @@ INFO	lowercase_definition	UPHENO:0005582	IAO:0000115	decreased wound healing.
 INFO	lowercase_definition	UPHENO:0005583	IAO:0000115	decreased flagellated sperm motility.
 INFO	lowercase_definition	UPHENO:0005584	IAO:0000115	decreased bone resorption.
 INFO	lowercase_definition	UPHENO:0005585	IAO:0000115	decreased saliva secretion.
-INFO	lowercase_definition	UPHENO:0005586	IAO:0000115	decreased cellular catabolic process.
+INFO	lowercase_definition	UPHENO:0005586	IAO:0000115	decreased obsolete cellular catabolic process.
 INFO	lowercase_definition	UPHENO:0005588	IAO:0000115	decreased circadian sleep/wake cycle, sleep.
 INFO	lowercase_definition	UPHENO:0005589	IAO:0000115	decreased reproductive structure development.
 INFO	lowercase_definition	UPHENO:0005590	IAO:0000115	decreased peptide transport.
@@ -2296,7 +2325,7 @@ INFO	lowercase_definition	UPHENO:0005599	IAO:0000115	decreased leukocyte activat
 INFO	lowercase_definition	UPHENO:0005600	IAO:0000115	decreased lymphocyte proliferation.
 INFO	lowercase_definition	UPHENO:0005601	IAO:0000115	decreased regulation of hemostasis.
 INFO	lowercase_definition	UPHENO:0005602	IAO:0000115	decreased peptide secretion.
-INFO	lowercase_definition	UPHENO:0005603	IAO:0000115	decreased cellular metabolic process.
+INFO	lowercase_definition	UPHENO:0005603	IAO:0000115	decreased obsolete cellular metabolic process.
 INFO	lowercase_definition	UPHENO:0005604	IAO:0000115	decreased negative regulation of hemostasis.
 INFO	lowercase_definition	UPHENO:0005605	IAO:0000115	decreased embryo implantation.
 INFO	lowercase_definition	UPHENO:0005606	IAO:0000115	decreased energy reserve metabolic process.
@@ -2313,7 +2342,7 @@ INFO	lowercase_definition	UPHENO:0005616	IAO:0000115	decreased catabolic process
 INFO	lowercase_definition	UPHENO:0005617	IAO:0000115	decreased carbohydrate transport.
 INFO	lowercase_definition	UPHENO:0005618	IAO:0000115	decreased lymphocyte activation.
 INFO	lowercase_definition	UPHENO:0005619	IAO:0000115	decreased response to wounding.
-INFO	lowercase_definition	UPHENO:0005621	IAO:0000115	decreased cellular lipid metabolic process.
+INFO	lowercase_definition	UPHENO:0005621	IAO:0000115	decreased obsolete cellular lipid metabolic process.
 INFO	lowercase_definition	UPHENO:0005622	IAO:0000115	decreased adaptive immune response.
 INFO	lowercase_definition	UPHENO:0005623	IAO:0000115	decreased tooth mineralization.
 INFO	lowercase_definition	UPHENO:0005624	IAO:0000115	decreased galactose metabolic process.
@@ -2413,7 +2442,7 @@ INFO	lowercase_definition	UPHENO:0005725	IAO:0000115	decreased transporter activ
 INFO	lowercase_definition	UPHENO:0005726	IAO:0000115	decreased optokinetic behavior.
 INFO	lowercase_definition	UPHENO:0005727	IAO:0000115	decreased larval behavior.
 INFO	lowercase_definition	UPHENO:0005728	IAO:0000115	decreased ribonucleotide biosynthetic process.
-INFO	lowercase_definition	UPHENO:0005730	IAO:0000115	decreased glucose import.
+INFO	lowercase_definition	UPHENO:0005730	IAO:0000115	decreased D-glucose import.
 INFO	lowercase_definition	UPHENO:0005731	IAO:0000115	decreased purine nucleoside diphosphate metabolic process.
 INFO	lowercase_definition	UPHENO:0005732	IAO:0000115	decreased nucleoside diphosphate metabolic process.
 INFO	lowercase_definition	UPHENO:0005733	IAO:0000115	decreased neural crest cell migration involved in autonomic nervous system development.
@@ -2426,7 +2455,7 @@ INFO	lowercase_definition	UPHENO:0005739	IAO:0000115	decreased nucleoside tripho
 INFO	lowercase_definition	UPHENO:0005740	IAO:0000115	decreased nucleoside phosphate biosynthetic process.
 INFO	lowercase_definition	UPHENO:0005741	IAO:0000115	decreased muscle cell proliferation.
 INFO	lowercase_definition	UPHENO:0005742	IAO:0000115	decreased direct ossification.
-INFO	lowercase_definition	UPHENO:0005743	IAO:0000115	decreased NADH metabolic process.
+INFO	lowercase_definition	UPHENO:0005743	IAO:0000115	decreased obsolete NADH metabolic process.
 INFO	lowercase_definition	UPHENO:0005744	IAO:0000115	decreased actin filament-based process.
 INFO	lowercase_definition	UPHENO:0005747	IAO:0000115	decreased cell cycle process.
 INFO	lowercase_definition	UPHENO:0005748	IAO:0000115	decreased ribose phosphate biosynthetic process.
@@ -2545,7 +2574,7 @@ INFO	lowercase_definition	UPHENO:0005877	IAO:0000115	decreased establishment of 
 INFO	lowercase_definition	UPHENO:0005878	IAO:0000115	decreased cellular component organization.
 INFO	lowercase_definition	UPHENO:0005879	IAO:0000115	decreased monoatomic ion transmembrane transporter activity.
 INFO	lowercase_definition	UPHENO:0005881	IAO:0000115	decreased fast-twitch skeletal muscle fiber contraction.
-INFO	lowercase_definition	UPHENO:0005882	IAO:0000115	decreased NAD metabolic process.
+INFO	lowercase_definition	UPHENO:0005882	IAO:0000115	decreased NAD+ metabolic process.
 INFO	lowercase_definition	UPHENO:0005883	IAO:0000115	decreased transmembrane transporter activity.
 INFO	lowercase_definition	UPHENO:0005884	IAO:0000115	decreased vesicle localization.
 INFO	lowercase_definition	UPHENO:0005885	IAO:0000115	decreased gastrulation.
@@ -2561,13 +2590,13 @@ INFO	lowercase_definition	UPHENO:0005896	IAO:0000115	decreased striated muscle c
 INFO	lowercase_definition	UPHENO:0005897	IAO:0000115	decreased pigment granule aggregation in cell center.
 INFO	lowercase_definition	UPHENO:0005898	IAO:0000115	decreased pigment granule localization.
 INFO	lowercase_definition	UPHENO:0005899	IAO:0000115	decreased microtubule polymerization or depolymerization.
-INFO	lowercase_definition	UPHENO:0005900	IAO:0000115	decreased organonitrogen compound metabolic process.
+INFO	lowercase_definition	UPHENO:0005900	IAO:0000115	decreased obsolete organonitrogen compound metabolic process.
 INFO	lowercase_definition	UPHENO:0005901	IAO:0000115	decreased developmental growth.
 INFO	lowercase_definition	UPHENO:0005902	IAO:0000115	decreased protein-containing complex assembly.
 INFO	lowercase_definition	UPHENO:0005903	IAO:0000115	decreased fat-soluble vitamin catabolic process.
 INFO	lowercase_definition	UPHENO:0005904	IAO:0000115	decreased monoatomic cation transmembrane transporter activity.
 INFO	lowercase_definition	UPHENO:0005905	IAO:0000115	decreased hemostasis.
-INFO	lowercase_definition	UPHENO:0005906	IAO:0000115	decreased organonitrogen compound biosynthetic process.
+INFO	lowercase_definition	UPHENO:0005906	IAO:0000115	decreased obsolete organonitrogen compound biosynthetic process.
 INFO	lowercase_definition	UPHENO:0005907	IAO:0000115	decreased blood coagulation.
 INFO	lowercase_definition	UPHENO:0005908	IAO:0000115	decreased tissue regeneration.
 INFO	lowercase_definition	UPHENO:0005909	IAO:0000115	decreased anatomical structure morphogenesis.
@@ -2598,14 +2627,14 @@ INFO	lowercase_definition	UPHENO:0005935	IAO:0000115	decreased leukocyte differe
 INFO	lowercase_definition	UPHENO:0005936	IAO:0000115	decreased cellular respiration.
 INFO	lowercase_definition	UPHENO:0005937	IAO:0000115	decreased microtubule polymerization.
 INFO	lowercase_definition	UPHENO:0005938	IAO:0000115	decreased nucleoside biosynthetic process.
-INFO	lowercase_definition	UPHENO:0005939	IAO:0000115	decreased glucose transmembrane transport.
+INFO	lowercase_definition	UPHENO:0005939	IAO:0000115	decreased D-glucose transmembrane transport.
 INFO	lowercase_definition	UPHENO:0005940	IAO:0000115	decreased organophosphate metabolic process.
 INFO	lowercase_definition	UPHENO:0005941	IAO:0000115	decreased cell migration involved in heart development.
 INFO	lowercase_definition	UPHENO:0005942	IAO:0000115	decreased tissue morphogenesis.
-INFO	lowercase_definition	UPHENO:0005943	IAO:0000115	decreased cellular biosynthetic process.
+INFO	lowercase_definition	UPHENO:0005943	IAO:0000115	decreased obsolete cellular biosynthetic process.
 INFO	lowercase_definition	UPHENO:0005944	IAO:0000115	decreased one-carbon compound transport.
 INFO	lowercase_definition	UPHENO:0005945	IAO:0000115	decreased carboxylic acid metabolic process.
-INFO	lowercase_definition	UPHENO:0005946	IAO:0000115	decreased NADH oxidation.
+INFO	lowercase_definition	UPHENO:0005946	IAO:0000115	decreased obsolete NADH oxidation.
 INFO	lowercase_definition	UPHENO:0005947	IAO:0000115	decreased axis elongation.
 INFO	lowercase_definition	UPHENO:0005948	IAO:0000115	decreased cardiac muscle cell membrane repolarization.
 INFO	lowercase_definition	UPHENO:0005949	IAO:0000115	decreased oxidative phosphorylation.
