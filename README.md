@@ -2,7 +2,9 @@
 [![DOI](https://zenodo.org/badge/13996/obophenotype/upheno-dev.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/upheno-dev)
 -->
 
-Editors, to run a uPheno 2 release, please check: https://obophenotype.github.io/upheno/howto/run-upheno2-release/
+# OBSOLETE please go to https://github.com/obophenotype/upheno/
+
+Please head to the [upheno](https://github.com/obophenotype/upheno/) repo -> all contents of this repo have been migrated there.
 
 # Framework for the automated construction of uPheno 2.0 (alpha)
 
